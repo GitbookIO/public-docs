@@ -2,13 +2,12 @@
 
 * [What is GitBook](README.md)
 
-## Getting started
+## 📌Getting started
 
 * [Start exploring](getting-started/start-exploring.md)
 * [Quick start](getting-started/quick-start.md)
 
 ## Spaces
-
 
 * [What is a space?](spaces/what-is-a-space.md)
 * [Customizing a space](spaces/customizing-a-space.md)

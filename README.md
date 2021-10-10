@@ -34,7 +34,7 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 ***
 
-\*\*Discuss your work in context \*\*to provide valuable feedback and direction.
+**Discuss your work in context** to provide valuable feedback and direction.
 
 ![](<.gitbook/assets/Comment On Block.png>)
 
