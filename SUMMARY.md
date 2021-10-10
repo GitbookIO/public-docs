@@ -9,6 +9,7 @@
 
 ## Spaces
 
+
 * [What is a space?](spaces/what-is-a-space.md)
 * [Customizing a space](spaces/customizing-a-space.md)
 * [Space publishing](spaces/space-visibility.md)
