@@ -4,7 +4,7 @@
 
 **GitBook** is a modern documentation platform where teams can document everything from products to internal knowledge-bases and APIs.
 
-We want to help **teams to work more efficiently **by creating a simple but yet powerful service for them to **share their knowledge**.
+We want to help **teams to work more efficiently** by creating a simple but yet powerful service for them to **share their knowledge**.
 
 Our mission is to make a **user-friendly** and **collaborative** product for everyone to create, edit and share knowledge through documentation.
 
@@ -14,31 +14,31 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 ![](<.gitbook/assets/Collection (1).png>)
 
-****
+***
 
 **Keep your content versioned and immutable** through rich change history and branched content.
 
 ![](<.gitbook/assets/Change Requests.png>)
 
-****
+***
 
 **Share** **your knowledge** publicly or privately with anyone, or use a secret **link** to allow non-GitBook users to access your private content.
 
 ![](<.gitbook/assets/Publish – Share Link.png>)
 
-****
+***
 
 **Enjoy living documentation** thanks to an elegant editor and rich content blocks.
 
 ![](.gitbook/assets/ToC.png)
 
-****
+***
 
-**Discuss your work in context **to provide valuable feedback and direction.
+\*\*Discuss your work in context \*\*to provide valuable feedback and direction.
 
 ![](<.gitbook/assets/Comment On Block.png>)
 
-****
+***
 
 **Add value to your documentation** by customizing your space to match your **branding.**
 
