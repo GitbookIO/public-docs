@@ -2,7 +2,7 @@
 
 * [What is GitBook](README.md)
 
-## 📌Getting started
+## Getting started
 
 * [Start exploring](getting-started/start-exploring.md)
 * [Quick start](getting-started/quick-start.md)
