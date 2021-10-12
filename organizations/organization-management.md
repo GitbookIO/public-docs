@@ -19,9 +19,9 @@ This is also how you can update your organization's name.
 
 ![](../.gitbook/assets/Members.png)
 
-Members tab allows you to add contributors to your team and manage their [permissions level](https://app.gitbook.com/@gitbook/s/gbx-public/\~/drafts/-Mf2BJHP4nQ_RKvzDzfK/collaboration/permissions-and-inheritance). You can also remove them.
+Members tab allows you to add contributors to your team and manage their [permissions level](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/collaboration/permissions-and-inheritance). You can also remove them.
 
-Teams allows you to create specific teams to manage permissions on more granular level in each space. For example creating an engineering team and giving them exclusive access to engineering spaces. Read more about them in [teams](https://app.gitbook.com/@gitbook/s/gbx-public/\~/drafts/-Mf2BJHP4nQ_RKvzDzfK/collaboration/team-management/teams).
+Teams allows you to create specific teams to manage permissions on more granular level in each space. For example creating an engineering team and giving them exclusive access to engineering spaces. Read more about them in [teams](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/collaboration/team-management/teams).
 
 Click on below to read detailed information on member management.
 
@@ -38,14 +38,14 @@ You can configure your SSO with any [SAML](../features/saml.md) solution from yo
 You can also enable simple email domain SSO.
 
 {% hint style="info" %}
-**Note:** You need to upgrade to the [**Business plan**](https://app.gitbook.com/@gitbook/s/gbx-public/\~/drafts/-MbkOwZ1IrGaai2JNGO5/pricing/plans#business-plan) to enable SSO.
+**Note:** You need to upgrade to the [**Business plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SSO.
 {% endhint %}
 
 ## Plans
 
 You can view your current plan and upgrade your subscription in the plans tab.
 
-When you sign up to GitBook and create organization you automatically start a 14 day business trial. Read more about it in [trial](https://app.gitbook.com/@gitbook/s/gbx-public/\~/drafts/-Mf8swE8YfbVc86bqlAv/pricing/free-trial).
+When you sign up to GitBook and create organization you automatically start a 14 day business trial. Read more about it in [trial](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/free-trial).
 
 To find out more about our plans and the features they offer go to:
 

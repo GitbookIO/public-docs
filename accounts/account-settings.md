@@ -28,6 +28,6 @@ You can safely sign out or delete your personal account and all associated data 
 
 To read more about deleting your account:
 
-{% content-ref url="export-or-delete-your-data.md" %}
-[export-or-delete-your-data.md](export-or-delete-your-data.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

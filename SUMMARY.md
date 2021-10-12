@@ -42,7 +42,6 @@
 ## Accounts
 
 * [Account settings](accounts/account-settings.md)
-* [Export or delete your data](accounts/export-or-delete-your-data.md)
 
 ## Collaboration
 

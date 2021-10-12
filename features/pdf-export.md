@@ -6,10 +6,6 @@ GitBook supports multiple methods of exporting to PDF:
 * export a single page
 * export a page and all of its subpages
 
-{% hint style="info" %}
-**Good to know: **You can as well export your space in markdown via the [Github](../integrations/git-sync/) sync and/or export your space to a [zip.file](../accounts/export-or-delete-your-data.md).
-{% endhint %}
-
 ## Export settings
 
 Choose if you like to allow **readers to download a PDF** **copy** of your content in the features section under advanced features in the customization page of your space publish panel.
