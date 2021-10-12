@@ -2,14 +2,14 @@
 
 ## Headings <a href="headings" id="headings"></a>
 
-GitBook offers 3 levels of headings, [which should be enough to properly structure your content](https://practicaltypography.com/headings.html). Headings structure your documents. Heading levels 1 and 2 will appear in the outline** **on the right.
+GitBook offers 3 levels of headings, [which should be enough to properly structure your content](https://practicaltypography.com/headings.html). Headings structure your documents. Heading levels 1 and 2 will appear in the outline on the right.
 
 All headings have anchor links, which are links that you can use to point to a particular section of your documentation.
 
 You can see the anchors of a title when your content is in a reading mode. If you want to add an anchor to some text, just add a [relative link](../rich-text.md#relative-links).
 
 {% hint style="info" %}
-**Good to know: **Reading on a screen is less comfortable than reading on paper. Make sure your content is not too long with too many titles. Sometimes splitting your content into different pages creates a better overview! 🤓
+**Good to know:** Reading on a screen is less comfortable than reading on paper. Make sure your content is not too long with too many titles. Sometimes splitting your content into different pages creates a better overview! 🤓
 {% endhint %}
 
 ## Lists <a href="lists" id="lists"></a>
@@ -20,7 +20,7 @@ You can add bullet lists, numbered lists and task lists to your content:‌
   * You can use `Tab` to indent…
 * …and `Shift+Tab` to outdent.
 
-1. A number list comes in handy when trying to prioritize. 
+1. A number list comes in handy when trying to prioritize.
    1. You can use `Tab` to indent…
 2. and `Shift+Tab` to outdent.
 
@@ -64,11 +64,11 @@ Table columns can have the following data types, which apply restrictions or emb
 
 * **Text**: standard text. Can be formatted.
 * **Number:** a number, with or without floating digits.
-* **Checkbox: **a checkbox that can be checked or unchecked.
-* **Select: **data can be selected from a pre-defined list of options. Can be single-choice or multiple-choice.
+* **Checkbox:** a checkbox that can be checked or unchecked.
+* **Select:** data can be selected from a pre-defined list of options. Can be single-choice or multiple-choice.
 * **Users:** data can be selected from a list of the organization's members. Can be single-choice or multiple-choice.
-* **Files: **data is a reference to a file in the space. New files can be uploaded when populating cells in the column.
-* **Rating: **A star rating, with a configurable maximum.
+* **Files:** data is a reference to a file in the space. New files can be uploaded when populating cells in the column.
+* **Rating:** A star rating, with a configurable maximum.
 
 ### Changing a column type
 
@@ -83,7 +83,7 @@ You can drag from a column's edge to resize it. Column resizing is stored as a p
 Tables that are wider than the editor container will be horizontally scrollable.
 
 {% hint style="info" %}
-**Good to know: **You can drag and drop columns and rows to reorder them, and delete columns or rows using their respective context menus.
+**Good to know:** You can drag and drop columns and rows to reorder them, and delete columns or rows using their respective context menus.
 {% endhint %}
 
 ## Hints & Callouts <a href="hints-and-callouts" id="hints-and-callouts"></a>
@@ -97,7 +97,7 @@ There are 4 different types of hints, you have already seen some of them in this
 {% endhint %}
 
 {% hint style="success" %}
-**Success hints **are good for showing positive actions or achievements.
+**Success hints** are good for showing positive actions or achievements.
 {% endhint %}
 
 {% hint style="warning" %}
