@@ -18,10 +18,10 @@ Once you have an OpenAPI compliant representation of your API, you can use it in
 
 ![](<../.gitbook/assets/Open API.gif>)
 
-#### _2. _Either:
+#### 2. Either:
 
-* **Upload **your OpenAPI formatted file, _or_ 
-* Provide a **URL** to your publicly available OpenAPI file. 
+* **Upload** your OpenAPI formatted file, _or_
+* Provide a **URL** to your publicly available OpenAPI file.
 
 ![](<../.gitbook/assets/OpenAPI Source.png>)
 
@@ -31,7 +31,7 @@ If you're just experimenting, you can use one of the [default Swagger files](htt
 
 `https://petstore.swagger.io/v2/swagger.json`
 
-#### **3. Check out your OpenAPI block!** 
+#### **3. Check out your OpenAPI block!**
 
 OpenAPI blocks can be expanded and collapsed to show and hide more detail about the API endpoint.
 
@@ -53,7 +53,7 @@ From time to time you might need to update or modify your API specification. In 
 
 #### Replacing a specification in a file
 
-1. Using the Block context menu on one of your OpenAPI Blocks, select "Choose OpenAPI Source" 
+1. Using the Block context menu on one of your OpenAPI Blocks, select "Choose OpenAPI Source"
 2. On your OpenAPI file in the file list, click "Replace"
 
 Once the OpenAPI Source has been replaced, each OpenAPI block that references your file will be updated based on your new specification.
@@ -62,7 +62,7 @@ Once the OpenAPI Source has been replaced, each OpenAPI block that references yo
 
 ![](<../.gitbook/assets/OpenAPI Source.png>)
 
-1. Using the Block context menu on one of your OpenAPI Blocks, select "Choose OpenAPI Source" 
+1. Using the Block context menu on one of your OpenAPI Blocks, select "Choose OpenAPI Source"
 2. Provide a new URL in the input box, and save
 
 Once the OpenAPI Source has been replaced, each OpenAPI block that references your file will be updated based on your new specification.
@@ -79,4 +79,4 @@ With the API block, you can:
 * Name your operation and give it a longer description or summary
 * Add, remove, and reorder **parameters**, grouped into **Path**, **Query**, **Header**, **Cookie** and **Body**
 * Add, remove, and reorder **responses**
-  * Document your responses with code examples 
+  * Document your responses with code examples
