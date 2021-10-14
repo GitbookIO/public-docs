@@ -13,7 +13,7 @@ A public collection is available to **anyone** on the internet. It will be index
 ### Unlisted collection
 
 Unlisted collections are publicly available, but they won't be indexed by search engines such as Google. They will still be accessible to anyone who has links to your documentation.\
- It lets you easily share your content without it being searchable.
+It lets you easily share your content without it being searchable.
 
 ### 'Share link only' collection
 
@@ -68,5 +68,5 @@ When you publish a collection of variants, any child space that's published alon
 Variants are useful if you need to offer a grouped experience for spaces, such as documenting multiple versions of an API (v1, v2, v3, etc.) or having multiple translations of your content easily accessible.
 
 {% hint style="info" %}
-<mark style="color:blue;">**Good to know:**</mark>** **Currently, variants are the only supported publish mode for a collection, so by default, any published collection will act as a variant container.
+<mark style="color:blue;">**Good to know:**</mark> Currently, variants are the only supported publish mode for a collection, so by default, any published collection will act as a variant container.
 {% endhint %}
