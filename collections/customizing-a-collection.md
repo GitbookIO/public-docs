@@ -7,7 +7,7 @@ Customizing a collection allows you to set top-level customizations that spaces 
 Customizing your collection lets you control the branding, presentation and extra features of your space's public content.
 
 {% hint style="info" %}
-**Good to know: **most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree. 
+**Good to know:** most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
 {% endhint %}
 
 ## Presentation
@@ -19,7 +19,7 @@ Presentation customizations let you tweak how your collection's basics will appe
 You can override the icon and title that your visitors will see when they access your public content. This lets you give your collection an 'internal' (in-app) title and an 'external', or public title. The same applies to the collection icon.
 
 {% hint style="info" %}
-**Good to know: **It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic collection titles in the GitBook app.
+**Good to know:** It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic collection titles in the GitBook app.
 {% endhint %}
 
 ### Localize user interface
@@ -39,7 +39,7 @@ You can upload a custom social preview image for your space. This will set the s
 You can also replace the space's title entirely with a custom logo. This lets you keep your brand running through your docs.
 
 {% hint style="info" %}
-**Good to know: **Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](customizing-a-collection.md#published-title-and-icon).
+**Good to know:** Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](customizing-a-collection.md#published-title-and-icon).
 {% endhint %}
 
 ## Collection publish mode
@@ -48,10 +48,10 @@ This lets you control how your collection will be published, and set any default
 
 ### Publish mode
 
-Publish mode will determine how your published collection is presented. Currently, only one mode is supported: variants. You can learn more about variants in the [collection visibility](collection-publishing.md#collections-as-variants) section of these docs. 
+Publish mode will determine how your published collection is presented. Currently, only one mode is supported: variants. You can learn more about variants in the [collection visibility](collection-publishing.md#collections-as-variants) section of these docs.
 
 {% hint style="info" %}
-**Good to know: **we're actively working on new ways to publish collections, so while it might seem strange to only have one option here, in the future there'll be other ways to display your published content!
+**Good to know:** we're actively working on new ways to publish collections, so while it might seem strange to only have one option here, in the future there'll be other ways to display your published content!
 {% endhint %}
 
 ### Default space
@@ -65,7 +65,7 @@ If you're using variants to document multiple versions of an API, for example, y
 Theming lets you customize the primary colour, heading theme, and font family of your public content.
 
 {% hint style="info" %}
-**Good to know: **When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary colour you want to use.
+**Good to know:** When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary colour you want to use.
 {% endhint %}
 
 ### Primary colour
@@ -73,14 +73,14 @@ Theming lets you customize the primary colour, heading theme, and font family of
 The primary colour of your public content will be applied to things like links, hover states, and buttons. This colour change will only apply to your **published** content.
 
 {% hint style="info" %}
-**Good to know: **Accessibility is important! While you can set your primary colour to pretty much anything you like, try to keep things accessible and choose a colour that'll have good contrast when used as a text link.
+**Good to know:** Accessibility is important! While you can set your primary colour to pretty much anything you like, try to keep things accessible and choose a colour that'll have good contrast when used as a text link.
 {% endhint %}
 
 ### Heading theme
 
 You can choose between a number of heading themes for your public content:
 
-The **None **theme will show no header, instead placing the space's icon and title (or logo, if you've overwritten it) in the table of contents. This is great for minimal docs, or docs where you don't need a persistent header.
+The **None** theme will show no header, instead placing the space's icon and title (or logo, if you've overwritten it) in the table of contents. This is great for minimal docs, or docs where you don't need a persistent header.
 
 The **Light** header theme will show a white header and dark text.
 
@@ -93,7 +93,7 @@ The **Dark** header theme will show a dark header, with light text.
 You can customize the font family of your public content from a list of predefined options.
 
 {% hint style="info" %}
-**Good to know: **GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-us).
+**Good to know:** GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-us).
 {% endhint %}
 
 ## Header links
@@ -115,7 +115,5 @@ PDF Export allows your readers to export your space as a PDF.
 Page rating allows your readers to give simple feedback on any pages of your space, and will show a feedback section at the bottom of each page. You can track the feedback results in the Activity section of the space.
 
 ### Privacy policy
-
-
 
 Enabling the privacy policy option lets you override the privacy policy link in the public content cookie banner.

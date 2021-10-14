@@ -30,7 +30,7 @@ A page has a title, an optional description, and a content area where you can wr
 You can nest pages by dragging and dropping a page below an other in the table of contents.
 
 {% hint style="info" %}
-**Good to know: **There is no theoretical limit to page nesting. But we advise that you avoid adding more than 3 levels of nesting to avoid overly complex structures that might be overwhelming to navigate.
+**Good to know:** There is no theoretical limit to page nesting. But we advise that you avoid adding more than 3 levels of nesting to avoid overly complex structures that might be overwhelming to navigate.
 {% endhint %}
 
 When you change the title of a page, the page's **slug** (the part at the very end of the URL, e.g. `/hello-world`) will automatically update, unless you've already manually set the page's slug.
@@ -42,7 +42,7 @@ You can change the title and the slug of a page anytime by clicking on the `...`
 Page groups are created to bring pages together and for you to create sections of pages dealing with similar subjects.
 
 {% hint style="info" %}
-**Good to know: **Groups can only live at the **top level of the table of content**. You cannot nest groups inside groups.
+**Good to know:** Groups can only live at the **top level of the table of content**. You cannot nest groups inside groups.
 {% endhint %}
 
 You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the Table of Content.

@@ -8,7 +8,7 @@ Change requests are GitBook's way of handling collaboration around branched cont
 
 ## Why branched content?
 
-Branches are used heavily in software development, giving contributors ways to keep main code branches protected, with abstracted branches used for proposing or implementing specific changes. 
+Branches are used heavily in software development, giving contributors ways to keep main code branches protected, with abstracted branches used for proposing or implementing specific changes.
 
 GitBook brings this approach to content and documentation – allowing for content to be branched as many times as required, protecting the main branch of content from changes, giving a clear version history, and allowing for review-focused dynamics around **what** changes make their way into the main branch of content and **why** they're being proposed.
 
@@ -49,7 +49,7 @@ You can toggle diff mode on or off for any change request. This will give you an
 ![](<../../.gitbook/assets/Change Request Diff.png>)
 
 {% hint style="info" %}
-**Good to know: **When talking about change requests, it's important to understand how specific roles can affect review dynamics. Members with an [**editor**](../../collaboration/team-management/setting-up-permissions.md#editor) role will be able to create and submit requests, but only members with [**reviewer**](../../collaboration/team-management/setting-up-permissions.md#reviewer) or above roles are able to merge change requests. When setting your permissions, keep in mind the type of edit -> review dynamic you want to achieve!
+**Good to know:** When talking about change requests, it's important to understand how specific roles can affect review dynamics. Members with an [**editor**](../../collaboration/team-management/setting-up-permissions.md#editor) role will be able to create and submit requests, but only members with [**reviewer**](../../collaboration/team-management/setting-up-permissions.md#reviewer) or above roles are able to merge change requests. When setting your permissions, keep in mind the type of edit -> review dynamic you want to achieve!
 {% endhint %}
 
 ## Merging a change request

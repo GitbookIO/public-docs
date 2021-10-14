@@ -33,12 +33,12 @@ Once you've selected the correct repository, choose which branch you want commit
 ![](<../../.gitbook/assets/Git Sync – GitLab Filled.png>)
 
 {% hint style="info" %}
-**Good to know: **For many GitLab repositories, the `main` branch might be automatically set to 'protected'. If this is the case, we recommend adding a specific branch to sync your content between. You can then merge this into `main` and keep the protection in place.
+**Good to know:** For many GitLab repositories, the `main` branch might be automatically set to 'protected'. If this is the case, we recommend adding a specific branch to sync your content between. You can then merge this into `main` and keep the protection in place.
 {% endhint %}
 
 ## 4. Perform an initial sync
 
-When syncing for the first time, you'll have the option to sync GitBook -> GitLab, or GitLab -> GitBook. 
+When syncing for the first time, you'll have the option to sync GitBook -> GitLab, or GitLab -> GitBook.
 
 Git**Book** -> Git**Lab** will sync your space's content **to** the selected branch. This is great if you're starting from an empty repository and want to get your GitBook content in quickly.
 

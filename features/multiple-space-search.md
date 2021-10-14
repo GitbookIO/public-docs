@@ -9,7 +9,7 @@ Our quick find command palette lets you search for – and quickly navigate betw
 As a first try; open the quick find palette, start typing the name of a space, hit enter, and check out how quickly you can jump between content!
 
 {% hint style="info" %}
-**​Good to know:** You can easily open the quick find palette by pressing **CMD + K **on Mac or** Ctrl + K **on Windows.
+**​Good to know:** You can easily open the quick find palette by pressing **CMD + K** on Mac or **Ctrl + K** on Windows.
 {% endhint %}
 
 ## Display of results <a href="display-of-results" id="display-of-results"></a>
@@ -18,7 +18,7 @@ Results of the space you're in are displayed first, followed by results from oth
 
 So write down what you need, take a look at results in other spaces, pick the page or section you're interested in and voilà!
 
-When you select a search result from an org, you will switch to browsing that org. To go back, use Quick Find to select a document in the org you were in before, or use the org switcher in your left hand sidebar.
+When you select a search result from an organization, you will switch to browsing that organization. To go back, use Quick Find to select a document in the organization you were in before, or use the organization switcher in your left hand sidebar.
 
 ### Search Filters
 

@@ -40,7 +40,7 @@ Authenticate visitors accessing your collection with your custom backend. If you
 A private collection is a collection that only you and the team members you invited to collaborate can access. That means it can only be read and edited by members of your organization. This is a more secure way to keep your content private to a specific group of people.
 
 {% hint style="info" %}
-<mark style="color:blue;">**Good to know:**</mark> Unpublished collections are only accessible in the GitBook app, by a logged-in, authorized user. Visiting an unpublished collection will require you to be logged in and have the relevant permissions to access it.
+**Good to know:** Unpublished collections are only accessible in the GitBook app, by a logged-in, authorized user. Visiting an unpublished collection will require you to be logged in and have the relevant permissions to access it.
 {% endhint %}
 
 ### Changing your collection visibility <a href="setting-up-visibility" id="setting-up-visibility"></a>
@@ -68,5 +68,5 @@ When you publish a collection of variants, any child space that's published alon
 Variants are useful if you need to offer a grouped experience for spaces, such as documenting multiple versions of an API (v1, v2, v3, etc.) or having multiple translations of your content easily accessible.
 
 {% hint style="info" %}
-<mark style="color:blue;">**Good to know:**</mark> Currently, variants are the only supported publish mode for a collection, so by default, any published collection will act as a variant container.
+**Good to know:** Currently, variants are the only supported publish mode for a collection, so by default, any published collection will act as a variant container.
 {% endhint %}

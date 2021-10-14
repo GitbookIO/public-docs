@@ -1,6 +1,9 @@
 ---
-description: Manage the assets behind your image galleries and OpenAPI blocks all in one place.
+description: >-
+  Manage the assets behind your image galleries and OpenAPI blocks all in one
+  place.
 ---
+
 # Files
 
 ![](../.gitbook/assets/Files.png)
@@ -38,7 +41,7 @@ To delete a file, open the action menu for the file and click "delete". After co
 GitBook supports replacing an existing file. This will swap out the old file and put the new file in its place - any blocks that previously referred to your old file will now refer to your new file after replacement. This can be handy if you have one file – such as a screenshot of your UI – that you use throughout your space, but need to change globally – let's say, after a major product redesign. Replacing the screenshot would replace it anywhere it's used in your documentation, so you don't have to manually update every instance of screenshot.
 
 {% hint style="info" %}
-**Good to know: **Once you've uploaded an image or a file, you can reference it anywhere in your space by using an image or a file block. It's recommended you do this rather than drag/dropping or pasting an image into the editor every time you want to include it.
+**Good to know:** Once you've uploaded an image or a file, you can reference it anywhere in your space by using an image or a file block. It's recommended you do this rather than drag/dropping or pasting an image into the editor every time you want to include it.
 {% endhint %}
 
 To replace a file, open the action menu for the file and click "replace". You'll be presented with a file replacement dialog - select the new file, wait for the upload indicator to complete, et voila! Your new file will be displayed wherever your previous one was.

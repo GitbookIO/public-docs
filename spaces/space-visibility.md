@@ -15,10 +15,10 @@ You still have control over who can edit your content, and you'll only ever be p
 ### Unlisted space
 
 Unlisted spaces are publicly available, but they won't be indexed by search engines such as Google. They will still be accessible to anyone who has links to your documentation.\
- It lets you easily share your content without it being searchable.
+It lets you easily share your content without it being searchable.
 
 {% hint style="info" %}
-**Good to know: **Unlisted spaces mightn't seem super useful at first glance, but they're great if you want to publish a beta of your docs, or do large-scale user-testing, without impacting your SEO with potentially duplicate content etc.
+**Good to know:** Unlisted spaces might not seem super useful at first glance, but they're great if you want to publish a beta of your docs, or do large-scale user-testing, without impacting your SEO with potentially duplicate content etc.
 {% endhint %}
 
 ### 'Share link only' space

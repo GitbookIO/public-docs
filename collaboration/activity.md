@@ -1,6 +1,6 @@
 # Activity and history
 
-You can easily monitor all changes submitted to your content thanks to the `Activity` tab. Here, your changes are split into two sections: **Feed** – where you can see the day-to-day actions that have occurred within a given space, and **Change History **– where you can specifically track changes to your space's content
+You can easily monitor all changes submitted to your content thanks to the `Activity` tab. Here, your changes are split into two sections: **Feed** – where you can see the day-to-day actions that have occurred within a given space, and **Change History** – where you can specifically track changes to your space's content
 
 ## Feed <a href="see-all-the-activities" id="see-all-the-activities"></a>
 
@@ -29,5 +29,5 @@ Rolling back lets you revert a space's content to a previous point in time. It's
 Hit the 'Rollback' button while viewing a specific history item to roll the space back to this point in time.
 
 {% hint style="info" %}
-**Good to know: **no content is ever deleted on GitBook. All content is versioned and immutable.
+**Good to know:** no content is ever deleted on GitBook. All content is versioned and immutable.
 {% endhint %}

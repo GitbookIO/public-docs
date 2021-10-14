@@ -100,7 +100,7 @@ redirects:
 {% endtabs %}
 
 {% hint style="info" %}
-**Good to know: **The URL must not include the leading slash.
+**Good to know:** The URL must not include the leading slash.
 {% endhint %}
 
 Here's how you can deal with a more complex URL:

@@ -37,7 +37,7 @@ Give your organization a name, upload a logo, set your use case and choose wheth
 Once you've created your organization, you'll be prompted to select any starter content you want to add. These are simple templates designed to get you up-and-running quickly without staring at a blank space wondering what to do with your life.
 
 {% hint style="info" %}
-<mark style="color:blue;">**Good to know:**</mark>** **You'll have access to all these templates any time you create an empty space, so don't worry if you're not ready to check them out just yet – add a space and you'll have these right at your fingertips!
+<mark style="color:blue;">**Good to know: **</mark>You'll have access to all these templates any time you create an empty space, so don't worry if you're not ready to check them out just yet – add a space and you'll have these right at your fingertips!
 {% endhint %}
 
 ### Bring your team
@@ -52,7 +52,7 @@ You'll be prompted to invite members, too. You can either generate invite links,
 
 ## **You've been invited to join a project?** <a href="youve-been-invited-to-join-a-project" id="youve-been-invited-to-join-a-project"></a>
 
-If you were given an invite link to join someone's organization, you can start collaborating with the team you've just been invited to. 
+If you were given an invite link to join someone's organization, you can start collaborating with the team you've just been invited to.
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Check it!**</mark> Make sure you are signed in with the correct account before joining the organization! If you use multiple GitBook accounts, you can sign out and sign back in to the invited account to accept the invitation.

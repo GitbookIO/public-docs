@@ -33,7 +33,7 @@ Selecting a specific role when setting a collection or space's permission inheri
 You can also completely revoke access for any non-admin organization members at a space or collection level. This will hide the content from everyone except for admins and whomever created the space or collection.
 
 {% hint style="info" %}
-**Good to know: **The default inheritance option for any newly-created space or collection is **Inherit**. This means that whenever a piece of content is created, it'll inherit permissions from its parent by default.
+**Good to know:** The default inheritance option for any newly-created space or collection is **Inherit**. This means that whenever a piece of content is created, it'll inherit permissions from its parent by default.
 {% endhint %}
 
 ## Setting content-specific permissions
@@ -47,7 +47,7 @@ Once you've decided on the permission inheritance for your space or collection, 
 You can add a team directly to a collection or space with a specific role. This will give anyone in that team the specified access to the content.
 
 {% hint style="info" %}
-**Good to know: **Team access is a great way to ensure that the right people have access to the right content; any time someone is added to or removed from a team, they'll gain or lose, respectively, the permissions set on the content.
+**Good to know:** Team access is a great way to ensure that the right people have access to the right content; any time someone is added to or removed from a team, they'll gain or lose, respectively, the permissions set on the content.
 {% endhint %}
 
 ### Giving a member direct access

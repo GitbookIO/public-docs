@@ -5,7 +5,7 @@
 Customizing your space lets you control the branding, presentation and extra features of your space's public content.
 
 {% hint style="info" %}
-**Good to know: **most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree. 
+**Good to know:** most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
 {% endhint %}
 
 ## Presentation
@@ -17,7 +17,7 @@ Presentation customizations let you tweak how your space's basics will appear pu
 You can override the icon and title that your visitors will see when they access your public content. This lets you give your space an 'internal' (in-app) title and an 'external', or public title. The same applies to the space's icon.
 
 {% hint style="info" %}
-**Good to know: **It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic space titles in the GitBook app.
+**Good to know:** It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic space titles in the GitBook app.
 {% endhint %}
 
 ### Localize user interface
@@ -41,7 +41,7 @@ You can upload a custom social preview image for your space. This will set the s
 You can also replace the space's title entirely with a custom logo. This lets you keep your brand running through your docs.
 
 {% hint style="info" %}
-**Good to know: **Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](customizing-a-space.md#published-title-and-icon).
+**Good to know:** Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](customizing-a-space.md#published-title-and-icon).
 {% endhint %}
 
 ## Theming
@@ -49,7 +49,7 @@ You can also replace the space's title entirely with a custom logo. This lets yo
 Theming lets you customize the primary color, heading theme, and font family of your public content.
 
 {% hint style="info" %}
-**Good to know: **When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary color you want to use.
+**Good to know:** When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary color you want to use.
 {% endhint %}
 
 ### Primary color
@@ -57,14 +57,14 @@ Theming lets you customize the primary color, heading theme, and font family of 
 The primary color of your public content will be applied to things like links, hover states, and buttons. This color change will only apply to your **published** content.
 
 {% hint style="info" %}
-**Good to know: **Accessibility is important! While you can set your primary color to pretty much anything you like, try to keep things accessible and choose a color that'll have good contrast when used as a text link.
+**Good to know:** Accessibility is important! While you can set your primary color to pretty much anything you like, try to keep things accessible and choose a color that'll have good contrast when used as a text link.
 {% endhint %}
 
 ### Heading theme
 
 You can choose between a number of heading themes for your public content:
 
-The **None **theme will show no header, instead placing the space's icon and title (or logo, if you've overwritten it) in the table of contents. This is great for minimal docs, or docs where you don't need a persistent header.
+The **None** theme will show no header, instead placing the space's icon and title (or logo, if you've overwritten it) in the table of contents. This is great for minimal docs, or docs where you don't need a persistent header.
 
 The **Light** header theme will show a white header and dark text.
 
@@ -77,7 +77,7 @@ The **Dark** header theme will show a dark header, with light text.
 You can customize the font family of your public content from a list of predefined options.
 
 {% hint style="info" %}
-**Good to know: **GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-us).
+**Good to know:** GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-us).
 {% endhint %}
 
 ## Header links
