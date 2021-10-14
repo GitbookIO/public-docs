@@ -75,3 +75,11 @@ To resolve a merge conflict by manually editing, go ahead and edit the content d
 #### Automatically merging a version
 
 If you've ever dealt with merge conflicts in Git (we feel you) then you might be familiar with the 'yours' and 'theirs' approach. This is essentially a binary choice between one change and another, you either want to keep 'your' work, or you want to keep 'theirs'. If you're dealing with a merge conflict that can be resolved this way, you can select the change you want to keep, and the other change will be deleted.
+
+## Archiving a change request
+
+If you decide not to merge a change request, and want to remove it from the review queue, you can archive it.
+
+![](<../../.gitbook/assets/Screenshot 2021-10-14 150603.png>)
+
+To archive a change request, open the context menu next to the 'submit' button in the bottom left of your change request. Select the 'Archive' option. Once you confirm, the change request will no longer be listed as active. If you need, you can find it later in the 'Archive' section of your space's change request listing panel, and you can reopen it at any time.
