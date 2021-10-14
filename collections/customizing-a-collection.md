@@ -60,6 +60,10 @@ Variants work by rendering a space with a dropdown in the sidebar, allowing you 
 
 If you're using variants to document multiple versions of an API, for example, you might set your default space to your latest API version, let's say, 'Version 3' as an example. When you access the collection's URL, it'll render the Version 3 space, with a dropdown to switch between any other included spaces (e.g. Version2, Version 1, Legacy, etc.)
 
+To set a default space within a collection, open the collection page in GitBook. Next to the title of the collection, open the collection context menu and select 'Customize collection'. Under the 'Collection publish mode' section, use the 'Default space' option to select a primary variant within that collection.
+
+![](../.gitbook/assets/image.png)
+
 ## Theming
 
 Theming lets you customize the primary colour, heading theme, and font family of your public content.
