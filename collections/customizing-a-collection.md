@@ -62,7 +62,7 @@ If you're using variants to document multiple versions of an API, for example, y
 
 To set a default space within a collection, open the collection page in GitBook. Next to the title of the collection, open the collection context menu and select 'Customize collection'. Under the 'Collection publish mode' section, use the 'Default space' option to select a primary variant within that collection.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/Default Space.png>)
 
 ## Theming
 

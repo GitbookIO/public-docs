@@ -80,6 +80,6 @@ If you've ever dealt with merge conflicts in Git (we feel you) then you might be
 
 If you decide not to merge a change request, and want to remove it from the review queue, you can archive it.
 
-![](<../../.gitbook/assets/Screenshot 2021-10-14 150851.png>)
+![](<../../.gitbook/assets/Archive CR.png>)
 
 To archive a change request, open the context menu next to the 'submit' button in the bottom left of your change request. Select the 'Archive' option. Once you confirm, the change request will no longer be listed as active. If you need, you can find it later in the 'Archive' section of your space's change request listing panel, and you can reopen it at any time.
