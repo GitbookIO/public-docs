@@ -96,7 +96,7 @@ The **Enterprise** plan offers advanced security features:
 * [Usage analytics](../../features/inisghts.md)
 * [Shareable link](../../features/shareable-links.md)
 * [PDF Export](../../features/pdf-export.md)
-* [Advanced branding](../../features/advanced-branding.md)
+* Advanced Branding
 * [SAML single sign-on](../../features/saml.md)
 * [Organization domain](../../features/import.md)
 

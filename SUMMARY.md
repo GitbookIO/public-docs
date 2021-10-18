@@ -57,7 +57,6 @@
 ## Features
 
 * [Quick find](features/multiple-space-search.md)
-* [Advanced branding](features/advanced-branding.md)
 * [Import](features/import.md)
 * [Insights](features/inisghts.md)
 * [PDF export](features/pdf-export.md)
