@@ -24,7 +24,8 @@
 * [What is an organization?](organizations/what-is-an-organization.md)
 * [Create an organization](organizations/create-an-organization.md)
 * [Organization settings](organizations/organization-management.md)
-* [Billing settings](organizations/billing-settings.md)
+* [Billing settings](organizations/billing-settings/README.md)
+  * [Cancelling a plan](organizations/billing-settings/cancelling-a-plan.md)
 
 ## Editing content
 
