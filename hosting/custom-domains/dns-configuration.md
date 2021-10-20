@@ -1,6 +1,9 @@
 ---
-description: Follow these steps to allow GitBook to serve your documentation on your custom domain.
+description: >-
+  Follow these steps to allow GitBook to serve your documentation on your custom
+  domain.
 ---
+
 # DNS configuration
 
 ## Supported domains
@@ -28,10 +31,6 @@ For example, if your root domain is `mycompany.com`, here is the proper configur
 
 ![Properly configured custom domain on Cloudflare](<../../.gitbook/assets/image (42).png>)
 
-{% hint style="warning" %}
-If you already have a custom domain registered on GitBook with a CNAME set to `hosting.gitbook.com`, please contact our support team before updating its CNAME to `hosting.gitbook.io` to ensure a flawless migration.
-{% endhint %}
-
 ### CAA record
 
 In order for DigiCert to issue an SSL certificate for your custom domain, it must be allowed to do so. CAA records allow you to specify who can issue an SSL certificate for the custom domains that you own.
@@ -43,6 +42,12 @@ If **you already have a CAA record** for your custom domain, you must **explicit
 ```
 0 issue "digicert.com"
 ```
+
+{% hint style="warning" %}
+Remember to **leave those settings untouched** even after your custom domain has been properly configured on GitBook.
+
+Without the correct CNAME and CAA records, DigiCert will not be able to r**enew your certificate** when it reaches its expiration date.
+{% endhint %}
 
 ## Cloudflare proxying
 
