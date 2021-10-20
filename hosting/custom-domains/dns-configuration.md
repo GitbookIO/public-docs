@@ -46,7 +46,7 @@ If **you already have a CAA record** for your custom domain, you must **explicit
 {% hint style="warning" %}
 Remember to **leave those settings untouched** even after your custom domain has been properly configured on GitBook.
 
-Without the correct CNAME and CAA records, DigiCert will not be able to r**enew your certificate** when it reaches its expiration date.
+Without the correct CNAME and CAA records, DigiCert will not be able to **renew your certificate** when it reaches its expiration date.
 {% endhint %}
 
 ## Cloudflare proxying
