@@ -58,7 +58,7 @@
 
 * [Quick find](features/multiple-space-search.md)
 * [Import](features/import.md)
-* [Insights](features/inisghts.md)
+* [Insights](features/insights.md)
 * [PDF export](features/pdf-export.md)
 * [Share links](features/shareable-links.md)
 * [Visitor Authentication](features/visitor-authentication.md)

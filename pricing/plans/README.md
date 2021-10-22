@@ -34,7 +34,7 @@ The **Team** plan includes all features such as:
 * [Custom domains](../../hosting/custom-domains/#space-domains)
 * [Powerful search](../../features/multiple-space-search.md)
 * [Import of external docs](../../features/import.md)
-* [Usage analytics](../../features/inisghts.md)
+* [Usage analytics](../../features/insights.md)
 
 ### Monthly and yearly plans
 
@@ -61,7 +61,7 @@ The **Business** plan offers advanced security features:
 * [Custom domains](../../hosting/custom-domains/#space-domains)
 * [Powerful search](../../features/multiple-space-search.md)
 * [Import of external docs](../../features/import.md)
-* [Usage analytics](../../features/inisghts.md)
+* [Usage analytics](../../features/insights.md)
 * [Shareable link](../../features/shareable-links.md)
 * [PDF Export](../../features/pdf-export.md)
 * [Advanced branding](../../spaces/customizing-a-space.md)
@@ -93,7 +93,7 @@ The **Enterprise** plan offers advanced security features:
 * [Custom domains](../../hosting/custom-domains/)
 * [Powerful search](../../features/multiple-space-search.md)
 * [Import of external docs](../../features/import.md)
-* [Usage analytics](../../features/inisghts.md)
+* [Usage analytics](../../features/insights.md)
 * [Shareable link](../../features/shareable-links.md)
 * [PDF Export](../../features/pdf-export.md)
 * Advanced Branding
