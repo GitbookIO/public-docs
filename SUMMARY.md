@@ -97,5 +97,3 @@
   * [Report bugs](resources/faq/report-bugs.md)
 * [Firewall safelist](resources/firewall-safelist.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
-* [Changelog](https://blog.gitbook.com/changelog)
-* [Blog](https://blog.gitbook.com)
