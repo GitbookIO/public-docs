@@ -95,5 +95,6 @@
 
 * [FAQ](resources/faq/README.md)
   * [Report bugs](resources/faq/report-bugs.md)
+* [Support](resources/support.md)
 * [Firewall safelist](resources/firewall-safelist.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
