@@ -20,6 +20,10 @@ A reader is the most basic role in GitBook: it gives read only access.
 
 Commenters have the same read-only access as readers, but they're also able to leave comments against content and spaces (find our more about how that works over at the [Comments](../comments.md) documentation).
 
+{% hint style="info" %}
+**Good to know:** commenter is one of our two advanced member roles, available only on the **Business or Enterprise plan**.
+{% endhint %}
+
 ### Editor
 
 Editors are able to read and comment, just like a commenter, but they're also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../editing-content/editing-pages/live-edits-and-real-time-collaboration.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../editing-content/editing-pages/change-requests.md). Editors cannot merge change requests.
@@ -27,6 +31,10 @@ Editors are able to read and comment, just like a commenter, but they're also ab
 ### Reviewer
 
 Reviewers have all the same permissions of an editor, however they can also merge their own and others' change requests.
+
+{% hint style="info" %}
+**Good to know:** reviewer is one of our two advanced member roles, available only on the **Business or Enterprise plan**.
+{% endhint %}
 
 ### Creator
 
