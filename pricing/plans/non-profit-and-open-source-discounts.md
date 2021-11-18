@@ -1,13 +1,17 @@
 ---
-description: Open-source & non-profits make the world a better place, providing software & services to those in need. In order to do our part, GitBook is free for open-source and non-profit teams!
+description: >-
+  Open-source & non-profits make the world a better place, providing software &
+  services to those in need. In order to do our part, GitBook is free for
+  open-source and non-profit teams!
 ---
+
 # Non-Profit / Open Source plan
 
 ## Conditions
 
 We **welcome applications** from organizations that hold a valid charitable status 501(c) or similar as well as open-source applications with a GitHub related project.
 
-All eligible organizations must visit [our pricing page](https://www.gitbook.com/pricing) and click **Request Free Access**. We’ll review your application and accept it or reject it.
+All eligible organizations must visit [our pricing page](https://www.gitbook.com/pricing) and click **Request Community Plan**. We’ll review your application and accept it or reject it.
 
 {% hint style="warning" %}
 If we reject your application, we are sorry in advance. We don't have the resources to share the details. We'll do our best to give you some context if possible but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
@@ -64,12 +68,12 @@ In order to apply for the community plan, you need to have a **GitBook account**
 2. Create a space using the prompt
 3. Once you're in your space, create an organization by starting a trial
 4. Visit the [pricing page](https://www.gitbook.com/pricing)
-5. Click **Request Free Access**
+5. Click **Request Community Plan**
 6. Follow the instructions in the chatbot
 
 You might be required to provide additional information for us to validate your organization type:
 
-* **open-source:** link to your GitHub repo
+* **open-source:** link to your GitHub repository or GitLab project
 * **non-profit:** proof of your non-profit status (Such as a copy of your 501(c)(3) or your country's equivalent proof of non-profit status)
 
 We will respond to your query as soon as possible - please allow up to 5 days for us to review your status and update your account.
