@@ -22,6 +22,6 @@ You can lock or unlock a Space for live edits by selecting 'Unlock live edits' a
 
 ### When is live editing _not_ available?
 
-1. Live editing cannot be enabled on public spaces. (We hope to change this in future!)
+1. Live editing cannot be enabled on **public** or **unlisted** spaces. (We hope to change this in future!)
 2. Live editing cannot be enabled on spaces with [Git Sync](../../integrations/git-sync/) enabled.
 3. Live editing can only be enabled by users with admin or creator [permissions](../../collaboration/team-management/setting-up-permissions.md).
