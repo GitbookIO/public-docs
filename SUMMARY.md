@@ -94,6 +94,7 @@
 ## Resources
 
 * [FAQ](resources/faq/README.md)
+  * [How to hard refresh your browser](resources/faq/how-to-hard-refresh-your-browser.md)
   * [Report bugs](resources/faq/report-bugs.md)
 * [Support](resources/support.md)
 * [Firewall safelist](resources/firewall-safelist.md)
