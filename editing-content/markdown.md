@@ -8,7 +8,7 @@ Markdown is a popular markup syntax that's widely known for its simplicity and p
 **Good to know:** You can learn more about Markdown itself, by visiting [Common Mark](https://commonmark.org/help/).
 {% endhint %}
 
-## Text formatting <a href="text-formatting" id="text-formatting"></a>
+## Text formatting <a href="#text-formatting" id="text-formatting"></a>
 
 We support all the classic inline Markdown formatting:
 
@@ -40,6 +40,6 @@ We automatically detect ordered and un-ordered lists as you type.
 
 ## Quotes
 
-Begin a line with `>` to create a block quote.
+Begin a line with `>` to create a block quote. If you select an entire paragraph from start to end, typing `>` will wrap the content in a block quote.
 
 > This is a block quote
