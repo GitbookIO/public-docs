@@ -8,12 +8,12 @@ For companies and organizations where you need to collaborate with others please
 
 The [**Team**](./#team-plan) plan is our most popular plan. It offers an advanced workflow, comments, versioning, unlimited public or private content, powerful search, import external content and usage analytics.
 
-The [**Business**](./#team-plan) plan offers all [Team](./#team-plan) features plus advanced branding, private sharing via secure links, PDF export, Single Sign On authentication and organization domains.
+The [**Business**](./#team-plan) plan offers all [Team](./#team-plan) features plus advanced branding, members management with teams, private sharing via secure links, PDF export, Social based Single Sign On authentication and organization domains.
 
-The [**Enterprise**](./#business-plan) plan for large audiences: visitor authentication, priority support, dedicated account manager and custom pricing.
+The [**Enterprise**](./#business-plan) plan for large audiences: SAML based Single Sign On authentication, visitor authentication, priority support, dedicated account manager and custom pricing.
 
 {% hint style="info" %}
-You can try out all of GitBook's Business Plan features for free with a **14-day trial.** At the end of the 14-day trial your organization will freeze and become read-only. You can upgrade to any plan or [move your space(s)](../../spaces/what-is-a-space.md) back to your free personal account.
+You can try out all of GitBook's Business Plan features for free with a **14-day trial.** At the end of the 14-day trial your organization will freeze and become read-only. You can upgrade to any plan or [move your space(s)](../../spaces/what-is-a-space.md) back to your free personal account. [Contact our Sales team](https://www.gitbook.com/contact/request-demo) to trial Enterprise plan features.&#x20;
 {% endhint %}
 
 ## **Team plan**
@@ -62,10 +62,12 @@ The **Business** plan offers advanced security features:
 * [Powerful search](../../features/multiple-space-search.md)
 * [Import of external docs](../../features/import.md)
 * [Usage analytics](../../features/insights.md)
+* **Unlimited** [teams](../../collaboration/team-management/teams.md)
+* Advanced role-based permissions: [commenter](../../collaboration/team-management/setting-up-permissions.md#commenter) and [reviewer](../../collaboration/team-management/setting-up-permissions.md#reviewer).
+* [Invite guests](../../collaboration/team-management/setting-up-permissions.md#the-guest-role)
 * [Shareable link](../../features/shareable-links.md)
 * [PDF Export](../../features/pdf-export.md)
 * [Advanced branding](../../spaces/customizing-a-space.md)
-* [SAML single sign-on](../../features/saml.md)
 * [Organization domain](../../hosting/custom-domains/#organization-domains)
 
 ### Monthly and yearly plans
@@ -93,11 +95,12 @@ The **Enterprise** plan offers advanced security features:
 * [Custom domains](../../hosting/custom-domains/)
 * [Powerful search](../../features/multiple-space-search.md)
 * [Import of external docs](../../features/import.md)
+* **Unlimited** [teams](../../collaboration/team-management/teams.md)
+* Advanced role-based permissions: [commenter](../../collaboration/team-management/setting-up-permissions.md#commenter) and [reviewer](../../collaboration/team-management/setting-up-permissions.md#reviewer).
 * [Usage analytics](../../features/insights.md)
 * [Shareable link](../../features/shareable-links.md)
 * [PDF Export](../../features/pdf-export.md)
-* Advanced Branding
-* [SAML single sign-on](../../features/saml.md)
+* [Advanced branding](../../spaces/customizing-a-space.md)
 * [Organization domain](../../features/import.md)
 
 Here's what you get in addition to all the features above:
@@ -105,10 +108,10 @@ Here's what you get in addition to all the features above:
 * [Visitor authentication](../../features/visitor-authentication.md)
 * Custom analytics with [Amplitude](https://amplitude.com)
 * Audit logs
+* [SAML single sign-on](../../features/saml.md)
 
 More benefits with Enterprise:
 
-* You get a quote with **a volume discount price** for your organization.
 * You get a human **Customer Success** account manager.
 * If you need one, we can do **Security questionnaires**.
 

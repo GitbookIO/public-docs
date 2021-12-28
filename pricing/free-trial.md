@@ -44,4 +44,4 @@ During your trial you will see some banners which you can click on to upgrade by
 
 ## Can I extend my trial?
 
-If you have a **large organization** and you are interested in the **business plan** and need some more time to onboard your team you can get in touch with us via [sales@gitbook.com](mailto:sales@gitbook.com). We will go through some requirements first and would be happy to help you! 😊
+If you have a **large organization** and you are interested in the **business plan** or the **enterprise plan** and need some more time to onboard your team you can get in touch with us via [sales@gitbook.com](mailto:sales@gitbook.com). We will go through some requirements first and would be happy to help you! 😊
