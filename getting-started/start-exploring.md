@@ -2,13 +2,13 @@
 
 Do you think GitBook is the right fit for you and your needs? Let's go through some tips to start your onboarding.
 
-## ​**Create an account and start exploring GitBook** <a href="create-an-account-and-start-exploring-gitbook" id="create-an-account-and-start-exploring-gitbook"></a>
+## ​**Create an account and start exploring GitBook** <a href="#create-an-account-and-start-exploring-gitbook" id="create-an-account-and-start-exploring-gitbook"></a>
 
 GitBook is full of possibilities. To start exploring[, **sign up**](https://app.gitbook.com/join) and choose who you'll be using GitBook with. We'll use this plan to get you started on the right trial or plan for you.
 
 We'll create a space in your Personal library straight away, it's a good place to fiddle with the editor without worrying about breaking 'real' content.
 
-## Create an organization <a href="start-creating-a-team" id="start-creating-a-team"></a>
+## Create an organization <a href="#start-creating-a-team" id="start-creating-a-team"></a>
 
 GitBook is best with friends. Create an organization, then [invite some members](../collaboration/team-management/#invite-new-members) to start experiencing all the possibilities of GitBook like [realtime collaborative editing](../editing-content/editing-pages/live-edits-and-real-time-collaboration.md#real-time-collaboration) (beta), [comments](../collaboration/comments.md), [activities](../collaboration/activity.md), and [collaborative change requests](../editing-content/editing-pages/change-requests.md).
 
@@ -37,7 +37,7 @@ Give your organization a name, upload a logo, set your use case and choose wheth
 Once you've created your organization, you'll be prompted to select any starter content you want to add. These are simple templates designed to get you up-and-running quickly without staring at a blank space wondering what to do with your life.
 
 {% hint style="info" %}
-<mark style="color:blue;">**Good to know: **</mark>You'll have access to all these templates any time you create an empty space, so don't worry if you're not ready to check them out just yet – add a space and you'll have these right at your fingertips!
+<mark style="color:blue;">**Good to know:**</mark> You'll have access to all these templates any time you create an empty space, so don't worry if you're not ready to check them out just yet – add a space and you'll have these right at your fingertips!
 {% endhint %}
 
 ### Bring your team
@@ -50,7 +50,7 @@ You'll be prompted to invite members, too. You can either generate invite links,
 [team-management](../collaboration/team-management/)
 {% endcontent-ref %}
 
-## **You've been invited to join a project?** <a href="youve-been-invited-to-join-a-project" id="youve-been-invited-to-join-a-project"></a>
+## **You've been invited to join a project?** <a href="#youve-been-invited-to-join-a-project" id="youve-been-invited-to-join-a-project"></a>
 
 If you were given an invite link to join someone's organization, you can start collaborating with the team you've just been invited to.
 
@@ -58,7 +58,7 @@ If you were given an invite link to join someone's organization, you can start c
 <mark style="color:orange;">**Check it!**</mark> Make sure you are signed in with the correct account before joining the organization! If you use multiple GitBook accounts, you can sign out and sign back in to the invited account to accept the invitation.
 {% endhint %}
 
-## **Import your content** <a href="import-your-content" id="import-your-content"></a>
+## **Import your content** <a href="#import-your-content" id="import-your-content"></a>
 
 You can start testing GitBook by [importing content](../features/import.md) from other solutions like websites or files that are Markdown (.md or .markdown), HTML (.html), Microsoft Word (.docx), or .zip.‌
 
@@ -68,11 +68,11 @@ You can start testing GitBook by [importing content](../features/import.md) from
 [import.md](../features/import.md)
 {% endcontent-ref %}
 
-## **​Synchronize a Git repository** <a href="synchronize-a-github-repo" id="synchronize-a-github-repo"></a>
+## **​Synchronize a Git repository** <a href="#synchronize-a-github-repo" id="synchronize-a-github-repo"></a>
 
 You can also start testing GitBook by synchronizing a GitHub or GitLab repository to one of your spaces.‌
 
-#### Get more information on the Git Sync feature: <a href="get-more-information-on-the-github-integration" id="get-more-information-on-the-github-integration"></a>
+#### Get more information on the Git Sync feature: <a href="#get-more-information-on-the-github-integration" id="get-more-information-on-the-github-integration"></a>
 
 {% content-ref url="../integrations/git-sync/" %}
 [git-sync](../integrations/git-sync/)

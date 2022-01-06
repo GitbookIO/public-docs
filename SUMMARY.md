@@ -74,6 +74,7 @@
   * [Enabling GitHub Sync](integrations/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](integrations/git-sync/enabling-gitlab-sync.md)
   * [Content Configuration](integrations/git-sync/content-configuration.md)
+  * [GitHub Pull-Request Preview](integrations/git-sync/github-pull-request-preview.md)
   * [FAQ](integrations/git-sync/faq.md)
 
 ## Pricing
