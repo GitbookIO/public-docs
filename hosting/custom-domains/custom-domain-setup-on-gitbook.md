@@ -1,6 +1,7 @@
 ---
 description: Register your custom domain for your GitBook space or your whole organization.
 ---
+
 # Custom domain setup on GitBook
 
 ## Organization domains
@@ -10,6 +11,10 @@ Organization domains are useful for large organizations with multiple projects t
 > For example, if my organization domain is `docs.example.com`, all your public projects will be available under `docs.example.com/{project-id}`
 
 To set up an organization domain, go to your organization's settings. The settings in the Domain section of the page relate to your organization's domain name.
+
+{% hint style="info" %}
+The Domain section will only appear when your organization has at least one published space.
+{% endhint %}
 
 ![](<../../.gitbook/assets/General Settings.png>)
 
