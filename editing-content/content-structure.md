@@ -53,7 +53,7 @@ Page groups are created to bring pages together and for you to create sections o
 **Good to know:** Groups can only live at the **top level of the table of content**. You cannot nest groups inside groups.
 {% endhint %}
 
-You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the Table of Content.
+You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the table of content, and then clicking "rename".
 
 ### External links <a href="#external-links" id="external-links"></a>
 
