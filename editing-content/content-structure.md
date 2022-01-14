@@ -19,7 +19,7 @@ From the Table of Content you can:
 
 There are 3 different types of entries for the Table of Content.
 
-### Initial Page <a href="initial-page" id="initial-page"></a>
+### Initial Page <a href="#initial-page" id="initial-page"></a>
 
 The initial page is the homepage or the root of your documentation and basically works as the main node of all the pages of your documentation.
 
@@ -35,7 +35,7 @@ You can nest pages by dragging and dropping a page below an other in the table o
 
 When you change the title of a page, the page's **slug** (the part at the very end of the URL, e.g. `/hello-world`) will automatically update, unless you've already manually set the page's slug.
 
-You can change the title and the slug of a page anytime by clicking on the `...` button next to the page title in the table of content.
+You can change the title and the slug of a page anytime by clicking on the `...` button next to the page title in the table of content, and then clicking "rename".
 
 #### Creating a new page
 
@@ -45,7 +45,7 @@ If live edits are disabled for your space, you will need to create a new (or edi
 
 ![](../.gitbook/assets/create-new-page.gif)
 
-### Page groups <a href="groups" id="groups"></a>
+### Page groups <a href="#groups" id="groups"></a>
 
 Page groups are created to bring pages together and for you to create sections of pages dealing with similar subjects.
 
@@ -55,6 +55,6 @@ Page groups are created to bring pages together and for you to create sections o
 
 You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the Table of Content.
 
-### External links <a href="external-links" id="external-links"></a>
+### External links <a href="#external-links" id="external-links"></a>
 
 These entries are external links and do not have any content in the editor. Their main function is to link to external sites or resources.
