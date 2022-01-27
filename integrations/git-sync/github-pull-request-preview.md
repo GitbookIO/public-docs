@@ -19,3 +19,9 @@ In any PR where the target branch is synced with a GitBook space, a status will 
 {% hint style="info" %}
 **Good to know:** preview links are only accessible by GitBook users. We're working on a feature that will allow preview links to be viewable by anyone who accesses the Pull Request.
 {% endhint %}
+
+### Security considerations
+
+For security reasons, GitBook does not currently generate previews for Pull-Requests opened from forks of your repository: because the content of the Pull-Request preview is accessible under your own domain, whether on `.gitbook.io` or your [custom domain](../../hosting/custom-domains/), a user could generate malicious content in a fork of your public repository and have it served under your name.
+
+We will soon allow users to explicitly accept this liability through a new option in the Git Sync settings. In the meantime, only Pull-Requests opened from your repository are accepted by GitBook.
