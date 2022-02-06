@@ -1,6 +1,6 @@
 # Block-level content
 
-## Headings <a href="headings" id="headings"></a>
+## Headings <a href="#headings" id="headings"></a>
 
 GitBook offers 3 levels of headings, [which should be enough to properly structure your content](https://practicaltypography.com/headings.html). Headings structure your documents. Heading levels 1 and 2 will appear in the outline on the right.
 
@@ -12,7 +12,7 @@ You can see the anchors of a title when your content is in a reading mode. If yo
 **Good to know:** Reading on a screen is less comfortable than reading on paper. Make sure your content is not too long with too many titles. Sometimes splitting your content into different pages creates a better overview! 🤓
 {% endhint %}
 
-## Lists <a href="lists" id="lists"></a>
+## Lists <a href="#lists" id="lists"></a>
 
 You can add bullet lists, numbered lists and task lists to your content:‌
 
@@ -28,7 +28,7 @@ You can add bullet lists, numbered lists and task lists to your content:‌
   * [x] And here's a subtask that has been done, indented using `Tab`.
   * [ ] Aaaaand, here's a subtask that hasn't been done.
 
-## Code blocks <a href="code-blocks" id="code-blocks"></a>
+## Code blocks <a href="#code-blocks" id="code-blocks"></a>
 
 You can insert some code on GitBook by using **code blocks**. Each code block can have a language set, and syntax highlighting will be applied automatically based on this language.
 
@@ -42,11 +42,15 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
 {% endcode %}
 
-## Quote <a href="quote" id="quote"></a>
+{% hint style="info" %}
+We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll eventually catch up.
+{% endhint %}
+
+## Quote <a href="#quote" id="quote"></a>
 
 > Hello world!
 
-## Image block <a href="quote" id="quote"></a>
+## Image block <a href="#quote" id="quote"></a>
 
 The most common type of images is an "image block". They are full-width images containing a caption. You can center or align them to the left. You can insert them like this:
 
@@ -54,7 +58,7 @@ Image blocks can display a gallery of images.
 
 ![Each image](https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxib29rfGVufDB8fHx8MTYyODc1MTk5MA\&ixlib=rb-1.2.1\&q=85) ![can have its](https://images.unsplash.com/photo-1589998059171-988d887df646?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw5fHxib29rfGVufDB8fHx8MTYyODc1MTk5MA\&ixlib=rb-1.2.1\&q=85) ![own caption](https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxib29rc3xlbnwwfHx8fDE2Mjg3NTIwNzY\&ixlib=rb-1.2.1\&q=85)
 
-## Tables <a href="tables" id="tables"></a>
+## Tables <a href="#tables" id="tables"></a>
 
 You can add tables to better organize your information.
 
@@ -86,7 +90,7 @@ Tables that are wider than the editor container will be horizontally scrollable.
 **Good to know:** You can drag and drop columns and rows to reorder them, and delete columns or rows using their respective context menus.
 {% endhint %}
 
-## Hints & Callouts <a href="hints-and-callouts" id="hints-and-callouts"></a>
+## Hints & Callouts <a href="#hints-and-callouts" id="hints-and-callouts"></a>
 
 Hints are a great way to bring the reader's attention to specific elements in your documentation. Hints can be inserted in the UI, or [when running the GitHub sync in the markdown file](../markdown.md#hints-and-callouts).‌
 
@@ -108,7 +112,7 @@ There are 4 different types of hints, you have already seen some of them in this
 **Danger hints** are good for highlighting destructive actions or raising attention to critical information.
 {% endhint %}
 
-## Page link <a href="page-link" id="page-link"></a>
+## Page link <a href="#page-link" id="page-link"></a>
 
 A page link is the best way to create relations between different pages.
 
@@ -116,7 +120,7 @@ A page link is the best way to create relations between different pages.
 [markdown.md](../markdown.md)
 {% endcontent-ref %}
 
-## API Methods & OpenAPI Integration <a href="api-methods" id="api-methods"></a>
+## API Methods & OpenAPI Integration <a href="#api-methods" id="api-methods"></a>
 
 An API Method block is used to manually document an HTTP API endpoint.
 

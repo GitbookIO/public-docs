@@ -30,6 +30,10 @@ We support all the classic inline Markdown formatting:
 
 \`\`\``py⏎` creates a new code block with Python syntax highlighting.
 
+{% hint style="info" %}
+We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll eventually catch up.
+{% endhint %}
+
 ## Lists
 
 We automatically detect ordered and un-ordered lists as you type.
