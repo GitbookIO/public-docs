@@ -11,7 +11,7 @@ There are 3 different sizes of inline images:‌
 3. **Convert to block:** this turns an inline image into a [block image](with-command-palette.md#quote-1) with its original size
 
 {% hint style="info" %}
-**Good to know:** You can change the size of an inline-image by clicking on the image to open the formatting palette.
+**Good to know:** You can switch the size of an inline image by clicking on the image to open the formatting palette, and then choosing one of the options above.
 {% endhint %}
 
 ## Math formulae
@@ -22,6 +22,6 @@ You can create an inline math formula like this: $$f(x) = x * e^{2 pi i \xi x}$$
 **Good to know:** You can also insert a block-level math formula directly from the [**command palette**](with-command-palette.md#math-equation).
 {% endhint %}
 
-## Emoji <a href="emojis" id="emojis"></a>
+## Emoji <a href="#emojis" id="emojis"></a>
 
 You can add emoji by opening the **inline palette**. Alternatively, type `:` and a list of emoji will pop up directly in line.
