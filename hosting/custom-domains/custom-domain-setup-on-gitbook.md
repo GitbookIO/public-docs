@@ -95,7 +95,7 @@ If you ever change your mind, you can go back into the organization **** setting
 ### URLs for each space within the organization
 
 {% hint style="warning" %}
-**Important note:** your custom domain _won't_ be used exactly as-is for _any_ spaces in the organization. Instead, it will redirect to your default content (more on that under the next heading) and each space within the organization will have a custom domain in this format: `[custom domain]/[spaceURL]`
+**Important note:** your custom domain _won't_ be used exactly as-is for _any_ spaces in the organization. Instead, it will redirect to your default content (more on that under the next heading) and each space within the organization will have a custom domain in this format: `[custom domain]/[spaceURL]`.
 {% endhint %}
 
 You can customize the space URL, which will form the final part of the custom domain, in **the visibility menu** for **each** space. Open the menu, click on **Link and domain settings** at the bottom, and then you'll see the following:
