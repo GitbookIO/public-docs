@@ -2,7 +2,7 @@
 
 ![](<../.gitbook/assets/Org Settings.png>)
 
-## Adding a logo and naming your organization <a href="your-organizations-information" id="your-organizations-information"></a>
+## Adding a logo and naming your organization <a href="#your-organizations-information" id="your-organizations-information"></a>
 
 ![](<../.gitbook/assets/General Settings.png>)
 
@@ -29,7 +29,7 @@ Click on below to read detailed information on member management.
 [team-management](../collaboration/team-management/)
 {% endcontent-ref %}
 
-## Single Sign On (SSO) <a href="setup-single-sign-on-sso" id="setup-single-sign-on-sso"></a>
+## Single Sign On (SSO) <a href="#setup-single-sign-on-sso" id="setup-single-sign-on-sso"></a>
 
 ![](<../.gitbook/assets/SSO Email (1).png>)
 
@@ -38,7 +38,7 @@ You can configure your SSO with any [SAML](../features/saml.md) solution from yo
 You can also enable simple email domain SSO.
 
 {% hint style="info" %}
-**Note:** You need to upgrade to the [**Business plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SSO.
+**Note:** You need to upgrade to the [**Enterprise plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SSO.
 {% endhint %}
 
 ## Plans
@@ -61,7 +61,7 @@ To upgrade or downgrade the plan simply select the plan you are looking to switc
 **Note:** the plans are as default presented as annual which comes with the added benefit of a 20% discount. If you prefer to pay full price monthly you can toggle the switch.
 {% endhint %}
 
-## Delete your organization <a href="delete-your-organization" id="delete-your-organization"></a>
+## Delete your organization <a href="#delete-your-organization" id="delete-your-organization"></a>
 
 You can delete your organization but make sure that you are certain and have saved any documentation you would like to keep, as this action is non reversible.
 
