@@ -38,7 +38,7 @@ You can configure your SSO with any [SAML](../features/saml.md) solution from yo
 You can also enable simple email domain SSO.
 
 {% hint style="info" %}
-**Note:** You need to upgrade to the [**Enterprise plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SSO.
+**Note:** You need to upgrade to the [**Business plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) **** for email domain SSO and the [**Enterprise plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SAML SSO.
 {% endhint %}
 
 ## Plans
