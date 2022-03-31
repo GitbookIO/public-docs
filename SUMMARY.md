@@ -91,6 +91,7 @@
   * [Choose a subdomain](hosting/custom-domains/choose-a-subdomain.md)
   * [Configure DNS](hosting/custom-domains/dns-configuration.md)
   * [Set the custom domain in GitBook](hosting/custom-domains/custom-domain-setup-on-gitbook.md)
+  * [Troubleshooting](hosting/custom-domains/troubleshooting.md)
 * [SEO](hosting/seo.md)
 
 ## Resources

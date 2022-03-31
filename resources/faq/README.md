@@ -14,7 +14,7 @@ Some content (e.g: HTML pages) may be cached by GitBook's CDN in other countries
 
 ## **Do you provide annual pricing/contracts?**
 
-GitBook offers monthly and yearly plans. You can read everything about plans and pricing in the the [pricing](broken-reference) section.
+GitBook offers monthly and yearly plans. You can read everything about plans and pricing in the the [pricing](broken-reference/) section.
 
 ## Can I receive my invoices via email?
 
@@ -22,7 +22,19 @@ GitBook's billing is powered by Stripe, and you can access and download invoices
 
 ## **How can I reset my password?**
 
-You can reset your password via the following link: [https://app.gitbook.com/forgot](https://app.gitbook.com/forgot). Make sure you use the same email address you used when you signed up.
+Please note, if your account was created after _October 10th 2021_, it doesn't have a password. You should be able to log in by requesting a magic link:
+
+1. Visit [https://app.gitbook.com](https://app.gitbook.com)
+2. Enter the email address associated to the personal account you had signed up for
+3. Click **Continue**
+4. Click **Send a link** (make sure you check your spam folder)
+
+If you _do_ want to reset your password:
+
+1. Visit [https://app.gitbook.com](https://app.gitbook.com)
+2. Follow the **Forgot your password?** link at the bottom of the page
+3. Enter the email address associated to the personal account you had signed up for
+4. Click **Send a link** (make sure you check your spam folder)
 
 ## Why do you need my phone number?
 
