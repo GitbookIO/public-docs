@@ -1,6 +1,6 @@
 # Content Configuration
 
-## Configure a specific synchronization <a href="configure-a-specific-synchronization" id="configure-a-specific-synchronization"></a>
+## Configure a specific synchronization <a href="#configure-a-specific-synchronization" id="configure-a-specific-synchronization"></a>
 
 You can configure how GitBook should parse your Git repository using the `.gitbook.yaml` file that must rely on the root of your repository.‌
 
@@ -35,7 +35,7 @@ root: ./docs/
 
 **All other options that specify paths will be relative to this root folder**. So if you define root as `./docs/` and then `structure.summary` as `./product/SUMMARY.md`, GitBook will actually look for a file in `./docs/product/SUMMARY.md`.‌
 
-## ​Structure‌ <a href="structure" id="structure"></a>
+## ​Structure‌ <a href="#structure" id="structure"></a>
 
 The structure accepts two properties:‌
 
@@ -54,7 +54,7 @@ structure:
 {% endtab %}
 {% endtabs %}
 
-### ​Summary‌ <a href="summary" id="summary"></a>
+### ​Summary‌ <a href="#summary" id="summary"></a>
 
 The `summary` file is a Markdown file (`.md`) that should have the following structure:
 
@@ -86,34 +86,51 @@ The summary markdown file is **a mirror of the Table of Contents** of your GitBo
 Due to this, it is not possible to reference the same markdown file twice in your `SUMMARY.md` file, because this would imply that a single page lives at two different URLs in your GitBook space.
 {% endhint %}
 
-## ​Redirects <a href="redirects" id="redirects"></a>
+## ​Redirects <a href="#redirects" id="redirects"></a>
 
 You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the ["root" option](https://docs.gitbook.com/integrations/github#root). For example, here's how you can tell GitBook to redirect users accessing `/help` to the support page:
 
-{% tabs %}
-{% tab title=".gitbook.yaml" %}
+{% code title=".gitbook.yaml" %}
 ```yaml
 redirects:  
-    help: ./support.md
+    help: support.md
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
+
+#### Why would you need a redirect?
+
+You may be migrating your docs from a different service to GitBook. It's common to also restructure some of your content along the process. Assuming you had the following URL in your old docs:
+
+`https://docs.company.com/help`
+
+and that has now moved to `https://docs.company.com/misc/support` on GitBook.
+
+Here's how to include a redirect for that scenario:
+
+{% code title=".gitbook.yaml" %}
+```yaml
+redirects:
+    help: misc/support.md
+```
+{% endcode %}
 
 {% hint style="info" %}
-**Good to know:** The URL must not include the leading slash.
+The path `misc/support.md` needs to be a real existing path within the repository. It needs to be relative to the current `root` settting in `.gitbook.yaml`. Please don't add any leading slashes. For example, `./misc/support.md` will not work.
 {% endhint %}
 
-Here's how you can deal with a more complex URL:
+{% hint style="info" %}
+Please don't add any leading slashes to the old URL path `help`. For example, `/help` will not work.
+{% endhint %}
 
-{% tabs %}
-{% tab title=".gitbook.yaml" %}
+Here's how you can deal with a more complex URL for the old path:
+
+{% code title=".gitbook.yaml" %}
 ```yaml
 redirects:  
-    help/contact: ./contact.md
+    help/contact: contact.md
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 {% hint style="warning" %}
-**Note:** With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed for example. Make sure to double-check and eventually add a redirect.
+With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed for example. Make sure to double-check and eventually add a redirect.
 {% endhint %}
