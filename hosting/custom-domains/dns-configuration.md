@@ -23,22 +23,20 @@ There are three parts to this step:
 ## Configure a CNAME record
 
 {% hint style="info" %}
-The short answer: point your subdomain to `hosting.gitbook.io` via a CNAME record.
+The short answer: point your subdomain to GitBook via a CNAME record.
 {% endhint %}
 
 The names of the fields and what to actually enter to configure the record may differ between DNS control panels, but we've covered the most common options here. If you're in any doubt, check with your DNS provider.&#x20;
 
 * The **type** is the kind of DNS record that you want to create. Here, you need to choose **CNAME**.
 * The **name** or **DNS entry** is where you enter your subdomain. You might need to enter it in full (e.g. **docs.example.com**) or you might just need to enter the part before your apex domain (e.g. **docs**). If you're not sure which to use, check with your DNS provider.
-* The **target** or **value** or **destination** is where the subdomain should be pointed. In this case, that's `hosting.gitbook.io`.
+* The **target** or **value** or **destination** is where the subdomain should be pointed.
 
 You might also see a field named **TTL**, which stands for Time To Live. It's the number of seconds that the DNS record can be cached for. If you're not sure what to set, look at the TTL for your existing DNS records. You could set the same number. If you're still not sure, we suggest setting 43200 seconds (12 hours) or 86400 seconds (24 hours).
 
 Here's an example of how a correct configuration looks in Cloudflare's control panel:
 
-![A properly configured custom domain in Cloudflare's control panel](../../.gitbook/assets/dns-configuration-cloudflare.png)
-
-
+![A properly configured custom domain in Cloudflare's control panel](<../../.gitbook/assets/Screenshot 2022-04-11 at 16.53.56.png>)
 
 {% hint style="warning" %}
 **Note:** a CNAME record cannot co-exist with another record for the same name. If you already have an A record, AAAA record, TXT record, or any other type of record for your chosen subdomain, you would need to remove those first, before adding the CNAME record.
@@ -83,6 +81,6 @@ Remember the TTL (Time To Live) field we mentioned earlier? DNS records are cach
 
 In most cases, it's best to allow at least an hour before moving onto step 3. Sometimes it could all update a bit more quickly, or it could take longer. It's rare for this to take longer than 48 hours.
 
-Want to check how this process, known as _propagation_, is progressing? You could use a DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net). Enter your full subdomain, select CNAME from the dropdown list, and press the Search button. DNS cache servers around the world will respond to let you know what their cached result is. You'll want to periodically check these results until the vast majority respond with `hosting.gitbook.io`.
+Want to check how this process, known as _propagation_, is progressing? You could use a DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net). Enter your full subdomain, select CNAME from the dropdown list, and press the Search button. DNS cache servers around the world will respond to let you know what their cached result is. You'll want to periodically check these results until the vast majority respond with your assigned CNAME.
 
 Once DNS propagation has completed, you can move onto [step 3: setting the custom domain in GitBook](custom-domain-setup-on-gitbook.md).
