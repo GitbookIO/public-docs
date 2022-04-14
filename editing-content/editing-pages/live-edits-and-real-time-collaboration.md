@@ -5,7 +5,7 @@
 **Live editing** is the default mode of any newly-created GitBook space. A space in live edit mode is editable instantly by anyone with the [correct permissions](../../collaboration/team-management/).
 
 {% hint style="info" %}
-**Good to know:** live edit mode is not available in some cases. More on that below!
+**Good to know:** live edit mode is not available in some cases. More on that [below](https://docs.gitbook.com/editing-content/editing-pages/live-edits-and-real-time-collaboration#when-is-live-editing-not-available)!
 {% endhint %}
 
 ## Real-time collaboration
