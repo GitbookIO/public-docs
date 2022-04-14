@@ -58,6 +58,14 @@ Image blocks can display a gallery of images.
 
 ![Each image](https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw1fHxib29rfGVufDB8fHx8MTYyODc1MTk5MA\&ixlib=rb-1.2.1\&q=85) ![can have its](https://images.unsplash.com/photo-1589998059171-988d887df646?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw5fHxib29rfGVufDB8fHx8MTYyODc1MTk5MA\&ixlib=rb-1.2.1\&q=85) ![own caption](https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?crop=entropy\&cs=srgb\&fm=jpg\&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxib29rc3xlbnwwfHx8fDE2Mjg3NTIwNzY\&ixlib=rb-1.2.1\&q=85)
 
+## Drawings <a href="#drawings" id="drawings"></a>
+
+Drawings / sketches can be inserted from the insertion palette and are editable directly through GitBook using the integrated [Excalidraw](https://excalidraw.com) editor.
+
+Drawings are stored as special SVG files in the space. Those files have an extension of `drawing.svg`.
+
+<img src="../../.gitbook/assets/file.drawing.svg" alt="" class="gitbook-drawing">
+
 ## Tables <a href="#tables" id="tables"></a>
 
 You can add tables to better organize your information.

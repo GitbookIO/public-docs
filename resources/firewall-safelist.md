@@ -54,4 +54,4 @@ Here are a few possible causes for your connectivity issues:
 Please always check [our status page](https://www.gitbookstatus.com) to see if there are any outages to our app or the third-party services we rely on.
 {% endhint %}
 
-If everything fails, please share the details with ![](../.gitbook/assets/gitbook-support.png) [GitBook Support](mailto:support@gitbook.com).
+If everything fails, please share the details with <img src="../.gitbook/assets/gitbook-support.png" alt="" data-size="line"> [GitBook Support](mailto:support@gitbook.com).
