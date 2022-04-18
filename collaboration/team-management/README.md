@@ -1,9 +1,10 @@
 ---
 description: Learn how to manage members in your organization
 ---
+
 # Member management
 
-One of the best ways to explore collaboration in GitBook is by inviting members to your organization and [creating teams](./#create-a-team-and-invite-members-to-it).
+One of the best ways to explore collaboration in GitBook is by inviting members to your organization and [creating teams](https://docs.gitbook.com/collaboration/team-management/teams).
 
 ## Invite members to your organization
 
