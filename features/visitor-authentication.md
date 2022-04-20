@@ -1,6 +1,7 @@
 ---
 description: Use JWT token to authorize anonymous access to private content.
 ---
+
 # Visitor Authentication
 
 {% hint style="info" %}
@@ -77,3 +78,17 @@ Finally, on the "Link and domain settings" in the Publish panel of your GitBook 
 When someone directly accesses your space without the necessary token, GitBook uses the fallback URL to redirect the visitor to a custom URL so that you can authenticate them.
 
 ![](<../.gitbook/assets/Publish – VA - Link Settings.png>)
+
+When redirecting to the fallback URL, GitBook is passing a `location` query parameter, it can be used to redirect to the original location of the user:
+
+```javascript
+// Route handler for the fallback url
+app.get('/', (req, res) => {
+ // --> Validate user access here <--
+
+  const token = jwt.sign({ data: 'foobar' }, gitbookSignKey, { expiresIn: '1h' });
+  const redirectURL = `https://mycompany.gitbook.io/myspace/${req.query.location || ''}?jwt_token=${token}`;
+
+  res.redirect(redirectURL);
+
+```
