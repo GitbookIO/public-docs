@@ -8,13 +8,17 @@ description: Use JWT token to authorize anonymous access to private content.
 This feature is currently accessible to all **Enterprise** customers. If you are interested in the [Enterprise plan](../pricing/plans/#enterprise-plan), please contact [sales@gitbook.com](mailto:sales@gitbook.com) for a quote.
 {% endhint %}
 
-GitBook provides different solutions to handle access management: private content accessible to members only, SAML SSO, public content.
+GitBook provides different solutions to handle access management:
+
+* Private content accessible to members only,
+* SAML SSO,
+* public content accessible to anyone.
 
 With "Visitor Authentication", GitBook lets your server-side code handle who has access to the content.
 
 ## How does it work?
 
-![](../.gitbook/assets/jwt.jpg)
+<img src="../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
 
 ## Setup Guide
 
