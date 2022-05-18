@@ -27,3 +27,10 @@ When you choose your input source, instructions will explain how to proceed.
 {% hint style="warning" %}
 **Heads up!** Although GitBook supports importing content from different kind of sources, the end result might be different from your source due to differences in product features and document format.
 {% endhint %}
+
+## Limits
+
+GitBook currently has the following limits for imported content:
+
+* The maximum number of pages that can be uploaded in a single import is **20.**
+* The maximum number of files (images etc.) that can be uploaded in a single import is **20.**
