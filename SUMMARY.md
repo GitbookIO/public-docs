@@ -101,4 +101,5 @@
   * [Report bugs](resources/faq/report-bugs.md)
 * [Support](resources/support.md)
 * [Firewall safelist](resources/firewall-safelist.md)
+* [3rd Party Applications](resources/3rd-party-applications.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
