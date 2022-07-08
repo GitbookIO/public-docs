@@ -81,6 +81,6 @@ Remember the TTL (Time To Live) field we mentioned earlier? DNS records are cach
 
 In most cases, it's best to allow at least an hour before moving onto step 3. Sometimes it could all update a bit more quickly, or it could take longer. It's rare for this to take longer than 48 hours.
 
-Want to check how this process, known as _propagation_, is progressing? You could use a DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net). Enter your full subdomain, select CNAME from the dropdown list, and press the Search button. DNS cache servers around the world will respond to let you know what their cached result is. You'll want to periodically check these results until the vast majority respond with your assigned CNAME.
+Want to check how this process, known as _propagation_, is progressing? You could use a DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net/). Enter your full subdomain, select CNAME from the dropdown list, and press the Search button. DNS cache servers around the world will respond to let you know what their cached result is. You'll want to periodically check these results until the vast majority respond with your assigned CNAME.
 
 Once DNS propagation has completed, you can move onto [step 3: setting the custom domain in GitBook](custom-domain-setup-on-gitbook.md).
