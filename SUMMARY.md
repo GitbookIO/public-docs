@@ -68,8 +68,17 @@
 * [Files](features/files.md)
 * [Privacy Policy disclosure](features/privacy-policy-disclosure.md)
 
-## Integrations
+## Apps & Integrations <a href="#integrations" id="integrations"></a>
 
+* [Apps & Integrations Platform](integrations/apps-and-integrations-platform.md)
+* [Install an integration](integrations/install-an-integration.md)
+* [Slack](integrations/slack/README.md)
+  * [Install the integration](integrations/slack/install-the-integration.md)
+  * [Configure the integration](integrations/slack/configure-the-integration.md)
+* [Segment](integrations/segment/README.md)
+  * [Install the integration](integrations/segment/install-the-integration.md)
+  * [Configure the integration](integrations/segment/configure-the-integration.md)
+  * [GitBook Segment event](integrations/segment/gitbook-segment-event.md)
 * [Git Sync](integrations/git-sync/README.md)
   * [Enabling GitHub Sync](integrations/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](integrations/git-sync/enabling-gitlab-sync.md)
