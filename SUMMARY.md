@@ -56,6 +56,7 @@
 
 ## Features
 
+* [Notifications](features/notifications.md)
 * [Quick find](features/multiple-space-search.md)
 * [Import](features/import.md)
 * [Insights](features/insights.md)
