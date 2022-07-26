@@ -64,6 +64,7 @@
 * [Share links](features/shareable-links.md)
 * [Visitor Authentication](features/visitor-authentication.md)
 * [SAML single sign-on](features/saml.md)
+* [SCIM & Directory Sync](features/scim-and-directory-sync.md)
 * [Internationalization](features/internationalization.md)
 * [OpenAPI](features/openapi.md)
 * [Files](features/files.md)
