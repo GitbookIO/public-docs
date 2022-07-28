@@ -15,7 +15,7 @@ We support [several types of notifications](notifications.md#notification-types)
 
 ## Application notifications
 
-You can find application notifications in the left sidebar, at the bottom left. There is a :bell: icon that indicates if you have unread notifications. If you click that icon, you get the notifications pop up.
+You can find application notifications in the left sidebar, at the bottom left. There is a bell <img src="../.gitbook/assets/notification.png" alt="" data-size="line"> icon that indicates if you have unread notifications. If you click that icon, you get the notifications pop up.
 
 The notifications pop up, lists all notifications ordered by the most recent.
 
@@ -23,7 +23,7 @@ The notifications pop up, lists all notifications ordered by the most recent.
 **Notification retention policy:** We keep your notifications forever, but we may change that in the future.
 {% endhint %}
 
-The notifications pop up has two icons at the top right corner. A double checkmark :heavy\_check\_mark: icon, that allows you to mark all your notifications as read. And a gear :gear: icon, that will open up the [Notification Settings](notifications.md#notification-settings).
+The notifications pop up has two icons at the top right corner. A double checkmark <img src="../.gitbook/assets/double-checkmark.png" alt="" data-size="line"> icon, that allows you to mark all your notifications as read. And a gear <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> icon, that will open up the [Notification Settings](notifications.md#notification-settings).
 
 ## Email notifications
 
