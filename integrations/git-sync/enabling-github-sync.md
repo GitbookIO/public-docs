@@ -30,7 +30,7 @@ Once you've selected the correct repository, choose which branch you want commit
 
 ## 5. Perform an initial sync
 
-When syncing for the first time, you'll have the option to sync GitBook -> GitHub, or GitHub -> GitBook. 
+When syncing for the first time, you'll have the option to sync GitBook -> GitHub, or GitHub -> GitBook.
 
 Git**Book** -> Git**Hub** will sync your space's content **to** the selected branch. This is great if you're starting from an empty repository and want to get your GitBook content in quickly.
 
@@ -38,7 +38,7 @@ Git**Hub** -> Git**Book** will sync your space's content **from** the selected b
 
 ## 6. Write and commit!
 
-You're good to go. You'll notice that if your space was in [live edit](../../editing-content/editing-pages/live-edits-and-real-time-collaboration.md) mode, it's now locked for live edits. This allows us to reliably sync content to your repository when[ change requests](../../editing-content/editing-pages/change-requests.md) are merged in GitBook, rather than the constant noise of trying to sync live edits!
+You're good to go. You'll notice that if your space was in [live edit](../../editing-content/live-edits-and-real-time-collaboration.md) mode, it's now locked for live edits. This allows us to reliably sync content to your repository when[ change requests](../../editing-content/change-requests.md) are merged in GitBook, rather than the constant noise of trying to sync live edits!
 
 If you're editing on GitBook, every change request merge will result in a commit to your selected GitHub branch.
 

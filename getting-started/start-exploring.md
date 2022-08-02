@@ -10,7 +10,7 @@ We'll create a space in your Personal library straight away, it's a good place t
 
 ## Create an organization <a href="#start-creating-a-team" id="start-creating-a-team"></a>
 
-GitBook is best with friends. Create an organization, then [invite some members](../collaboration/team-management/#invite-new-members) to start experiencing all the possibilities of GitBook like [realtime collaborative editing](../editing-content/editing-pages/live-edits-and-real-time-collaboration.md#real-time-collaboration) (beta), [comments](../collaboration/comments.md), [activities](../collaboration/activity.md), and [collaborative change requests](../editing-content/editing-pages/change-requests.md).
+GitBook is best with friends. Create an organization, then [invite some members](../organizations/member-management/#invite-new-members) to start experiencing all the possibilities of GitBook like [realtime collaborative editing](../editing-content/live-edits-and-real-time-collaboration.md#real-time-collaboration) (beta), [comments](../spaces/comments-discussion.md), [activities](../spaces/activity-history.md), and [collaborative change requests](../editing-content/change-requests.md).
 
 If you've selected one of the trial plans during sign up, you'll be prompted to create an organization straight away, if you've already created a personal account and want to create an org to see what all the fuss is about, hit the big blue '+' button in the sidebar and select 'Create organization'.
 
@@ -46,8 +46,8 @@ You'll be prompted to invite members, too. You can either generate invite links,
 
 #### **For more information on member management:**
 
-{% content-ref url="../collaboration/team-management/" %}
-[team-management](../collaboration/team-management/)
+{% content-ref url="../organizations/member-management/" %}
+[member-management](../organizations/member-management/)
 {% endcontent-ref %}
 
 ## **You've been invited to join a project?** <a href="#youve-been-invited-to-join-a-project" id="youve-been-invited-to-join-a-project"></a>

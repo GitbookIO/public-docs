@@ -7,32 +7,48 @@
 * [Start exploring](getting-started/start-exploring.md)
 * [Quick start](getting-started/quick-start.md)
 
-## Spaces
+## Free personal account
 
-* [What is a space?](spaces/what-is-a-space.md)
-* [Customizing a space](spaces/customizing-a-space.md)
-* [Space publishing](spaces/space-visibility.md)
-
-## Collections
-
-* [What is a collection?](collections/what-is-a-collection.md)
-* [Customizing a collection](collections/customizing-a-collection.md)
-* [Collection publishing](collections/collection-publishing.md)
+* [Account settings](free-personal-account/account-settings.md)
 
 ## Organizations
 
 * [What is an organization?](organizations/what-is-an-organization.md)
 * [Create an organization](organizations/create-an-organization.md)
 * [Organization settings](organizations/organization-management.md)
-* [Billing settings](organizations/billing-settings/README.md)
-  * [Cancelling a plan](organizations/billing-settings/cancelling-a-plan.md)
+* [Billing](organizations/billing/README.md)
+  * [Organization plans](organizations/billing/plans/README.md)
+    * [Non-profit / open source plan](organizations/billing/plans/non-profit-open-source.md)
+  * [Free trial](organizations/billing/free-trial.md)
+  * [Cancelling a plan](organizations/billing/cancelling-a-plan.md)
+  * [Pro rata](organizations/billing/pro-rata.md)
+  * [Billing policy](organizations/billing/billing-policy.md)
+* [Member management](organizations/member-management/README.md)
+  * [Member roles](organizations/member-management/roles.md)
+  * [Teams](organizations/member-management/teams.md)
+  * [Permissions and inheritance](organizations/member-management/permissions-and-inheritance.md)
+
+## Spaces
+
+* [What is a space?](spaces/what-is-a-space.md)
+* [Space customization](spaces/space-customization.md)
+* [Space publishing](spaces/space-publishing/README.md)
+  * [Share links](spaces/space-publishing/share-links.md)
+  * [Visitor Authentication](spaces/space-publishing/visitor-authentication.md)
+* [Activity and history](spaces/activity-history.md)
+* [Comments and discussion](spaces/comments-discussion.md)
+
+## Collections
+
+* [What is a collection?](collections/what-is-a-collection.md)
+* [Collection customization](collections/collection-customization.md)
+* [Collection publishing](collections/collection-publishing.md)
 
 ## Editing content
 
-* [Editing pages](editing-content/editing-pages/README.md)
-  * [Live edits and real-time collaboration](editing-content/editing-pages/live-edits-and-real-time-collaboration.md)
-  * [Change requests](editing-content/editing-pages/change-requests.md)
-* [Content structure](editing-content/content-structure.md)
+* [Live edits and real-time collaboration](editing-content/live-edits-and-real-time-collaboration.md)
+* [Change requests](editing-content/change-requests.md)
+* [Creating pages, groups and links](editing-content/content-structure.md)
 * [Rich content](editing-content/rich-content/README.md)
   * [Block-level content](editing-content/rich-content/with-command-palette.md)
   * [Inline content](editing-content/rich-content/with-insert-palette.md)
@@ -40,39 +56,33 @@
 * [Markdown](editing-content/markdown.md)
 * [Embeds](editing-content/embeds.md)
 
-## Accounts
+## Custom domains
 
-* [Account settings](accounts/account-settings.md)
-
-## Collaboration
-
-* [Permissions and inheritance](collaboration/permissions-and-inheritance.md)
-* [Member management](collaboration/team-management/README.md)
-  * [Member roles](collaboration/team-management/setting-up-permissions.md)
-  * [Teams](collaboration/team-management/teams.md)
-  * [SSO & SAML](collaboration/team-management/sso-and-saml.md)
-* [Activity and history](collaboration/activity.md)
-* [Comments](collaboration/comments.md)
+* [Choose a subdomain](custom-domains/choose-a-subdomain.md)
+* [Configure DNS](custom-domains/dns-configuration.md)
+* [Set the custom domain in GitBook](custom-domains/custom-domain-setup-on-gitbook.md)
+* [Troubleshooting](custom-domains/troubleshooting.md)
 
 ## Features
 
-* [Notifications](features/notifications.md)
 * [Quick find](features/multiple-space-search.md)
-* [Import](features/import.md)
-* [Insights](features/insights.md)
-* [PDF export](features/pdf-export.md)
-* [Share links](features/shareable-links.md)
-* [Visitor Authentication](features/visitor-authentication.md)
-* [SAML single sign-on](features/saml.md)
-* [SCIM & Directory Sync](features/scim-and-directory-sync.md)
-* [Internationalization](features/internationalization.md)
-* [OpenAPI](features/openapi.md)
+* [Notifications](features/notifications.md)
 * [Files](features/files.md)
+* [Insights](features/insights.md)
+* [Import](features/import.md)
+* [PDF export](features/pdf-export.md)
+* [Internationalization](features/internationalization.md)
+* [SAML single sign-on](features/saml.md)
+* [SSO & SAML](features/sso-and-saml.md)
+* [SCIM & Directory Sync](features/scim-and-directory-sync.md)
+* [OpenAPI](features/openapi.md)
+* [SEO](features/seo.md)
+* [Keyboard shortcuts](features/keyboard-shortcuts.md)
 * [Privacy Policy disclosure](features/privacy-policy-disclosure.md)
 
 ## Apps & Integrations <a href="#integrations" id="integrations"></a>
 
-* [Apps & Integrations Platform](integrations/apps-and-integrations-platform.md)
+* [Apps & Integrations platform](integrations/apps-and-integrations-platform.md)
 * [Install an integration](integrations/install-an-integration.md)
 * [Slack](integrations/slack/README.md)
   * [Install the integration](integrations/slack/install-the-integration.md)
@@ -81,38 +91,22 @@
   * [Install the integration](integrations/segment/install-the-integration.md)
   * [Configure the integration](integrations/segment/configure-the-integration.md)
   * [GitBook Segment event](integrations/segment/gitbook-segment-event.md)
-* [Git Sync](integrations/git-sync/README.md)
+* [Git sync](integrations/git-sync/README.md)
   * [Enabling GitHub Sync](integrations/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](integrations/git-sync/enabling-gitlab-sync.md)
   * [Content Configuration](integrations/git-sync/content-configuration.md)
   * [GitHub Pull-Request Preview](integrations/git-sync/github-pull-request-preview.md)
-  * [FAQ](integrations/git-sync/faq.md)
+  * [Troubleshooting](integrations/git-sync/troubleshooting.md)
 
-## Pricing
+## Troubleshooting
 
-* [Free trial](pricing/free-trial.md)
-* [Plans](pricing/plans/README.md)
-  * [Non-Profit / Open Source plan](pricing/plans/non-profit-and-open-source-discounts.md)
-* [Billing policy](pricing/billing-policy.md)
-* [Pro rata](pricing/pro-rata.md)
+* [FAQs](troubleshooting/faqs.md)
+* [How do I hard refresh my browser?](troubleshooting/hard-refresh.md)
+* [How do I report bugs?](troubleshooting/report-bugs.md)
+* [How do I solve connectivity issues?](troubleshooting/connectivity-issues.md)
+* [How do I contact support?](troubleshooting/support.md)
 
-## Hosting
+## Policies
 
-* [Custom domains](hosting/custom-domains/README.md)
-  * [Choose a subdomain](hosting/custom-domains/choose-a-subdomain.md)
-  * [Configure DNS](hosting/custom-domains/dns-configuration.md)
-  * [Set the custom domain in GitBook](hosting/custom-domains/custom-domain-setup-on-gitbook.md)
-  * [Troubleshooting](hosting/custom-domains/troubleshooting.md)
-* [SEO](hosting/seo.md)
-
-## Resources
-
-* [FAQ](resources/faq/README.md)
-  * [How to hard refresh your browser](resources/faq/how-to-hard-refresh-your-browser.md)
-  * [Report bugs](resources/faq/report-bugs.md)
-* [Support](resources/support.md)
-* [Firewall safelist](resources/firewall-safelist.md)
-* [Keyboard shortcuts](resources/keyboard-shortcuts.md)
-* [Site Policy](resources/site-policy/README.md)
-  * [Subprocessors](https://policies.gitbook.com/security/subprocessors)
-  * [Terms of Service](https://policies.gitbook.com/terms)
+* [Subprocessors](https://policies.gitbook.com/security/subprocessors)
+* [Terms of Service](https://policies.gitbook.com/terms)

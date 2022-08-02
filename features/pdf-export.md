@@ -52,5 +52,5 @@ Once your PDF is created, which should happen momentarily, you'll be presented w
 ![](<../.gitbook/assets/PDF Modal - Space (1).png>)
 
 {% hint style="info" %}
-PDF export is available as a beta feature in the [business](../pricing/plans/#business-plan) and [enterprise](../pricing/plans/#our-pricing-plans) plans.
+PDF export is available as a beta feature in the [business](../organizations/billing/plans/#business-plan) and [enterprise](../organizations/billing/plans/#our-pricing-plans) plans.
 {% endhint %}

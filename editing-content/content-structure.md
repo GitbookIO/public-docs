@@ -1,4 +1,4 @@
-# Content structure
+# Creating pages, groups and links
 
 ## Table of Content
 
@@ -41,7 +41,7 @@ You can change the title and the slug of a page anytime by clicking on the `...`
 
 If you're in live edit mode, you'll spot the new page link on the left hand side under the existing pages in your table of content.
 
-If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](editing-pages/change-requests.md) before the option to create a new page will be available. Again, you'll see this on the left hand side under the existing pages in your table of content.
+If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](change-requests.md) before the option to create a new page will be available. Again, you'll see this on the left hand side under the existing pages in your table of content.
 
 ![](../.gitbook/assets/create-new-page.gif)
 

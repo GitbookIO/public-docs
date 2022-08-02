@@ -54,6 +54,6 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 [quick-start.md](getting-started/quick-start.md)
 {% endcontent-ref %}
 
-{% content-ref url="resources/faq/" %}
-[faq](resources/faq/)
+{% content-ref url="troubleshooting/faqs.md" %}
+[faqs.md](troubleshooting/faqs.md)
 {% endcontent-ref %}

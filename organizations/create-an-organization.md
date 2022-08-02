@@ -10,7 +10,7 @@ You will be asked to select the correct plan (business or community), name the o
 
 ## Business trial
 
-Selecting business will automatically start with a [14 day trial](../pricing/billing-policy.md#14-day-trial) to let you explore all the possibilities of GitBook. At the end of the trial, your organization will be frozen meaning that you can still read the content of all your docs, but will no longer able to write or [invite new members](../collaboration/team-management/#invite-members-to-your-organization) until you [upgrade](../pricing/plans/).
+Selecting business will automatically start with a [14 day trial](billing/billing-policy.md#14-day-trial) to let you explore all the possibilities of GitBook. At the end of the trial, your organization will be frozen meaning that you can still read the content of all your docs, but will no longer able to write or [invite new members](member-management/#invite-members-to-your-organization) until you [upgrade](billing/plans/).
 
 ## Community plan
 
@@ -18,8 +18,8 @@ GitBook is free for personal use, as well as for open-source and non profit orga
 
 **Read more about the community plan and how you can qualify:**
 
-{% content-ref url="../pricing/plans/non-profit-and-open-source-discounts.md" %}
-[non-profit-and-open-source-discounts.md](../pricing/plans/non-profit-and-open-source-discounts.md)
+{% content-ref url="billing/plans/non-profit-open-source.md" %}
+[non-profit-open-source.md](billing/plans/non-profit-open-source.md)
 {% endcontent-ref %}
 
 ## Set up your organization

@@ -25,8 +25,8 @@ Teams allows you to create specific teams to manage permissions on more granular
 
 Click on below to read detailed information on member management.
 
-{% content-ref url="../collaboration/team-management/" %}
-[team-management](../collaboration/team-management/)
+{% content-ref url="member-management/" %}
+[member-management](member-management/)
 {% endcontent-ref %}
 
 ## Single Sign On (SSO) <a href="#setup-single-sign-on-sso" id="setup-single-sign-on-sso"></a>
@@ -38,7 +38,7 @@ You can configure your SSO with any [SAML](../features/saml.md) solution from yo
 You can also enable simple email domain SSO.
 
 {% hint style="info" %}
-**Note:** You need to upgrade to the [**Business plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) **** for email domain SSO and the [**Enterprise plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SAML SSO.
+**Note:** You need to upgrade to the [**Business plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) \*\*\*\* for email domain SSO and the [**Enterprise plan**](https://app.gitbook.com/s/-Mb26BMpld-VdvMRsm4j/pricing/plans) to enable SAML SSO.
 {% endhint %}
 
 ## Plans
@@ -49,8 +49,8 @@ When you sign up to GitBook and create organization you automatically start a 14
 
 To find out more about our plans and the features they offer go to:
 
-{% content-ref url="../pricing/plans/" %}
-[plans](../pricing/plans/)
+{% content-ref url="billing/plans/" %}
+[plans](billing/plans/)
 {% endcontent-ref %}
 
 ### Upgrading or downgrading your plan

@@ -22,6 +22,6 @@ In any PR where the target branch is synced with a GitBook space, a status will 
 
 ### Security considerations
 
-For security reasons, GitBook by default does not currently generate previews for Pull-Requests opened from forks of your repository: because the content of the Pull-Request preview is accessible under your own domain, whether on `.gitbook.io` or your [custom domain](../../hosting/custom-domains/), a user could generate malicious content in a fork of your public repository and have it served under your name.
+For security reasons, GitBook by default does not currently generate previews for Pull-Requests opened from forks of your repository: because the content of the Pull-Request preview is accessible under your own domain, whether on `.gitbook.io` or your [custom domain](../../custom-domains/custom-domain-setup-on-gitbook.md), a user could generate malicious content in a fork of your public repository and have it served under your name.
 
 We allow users to explicitly configure this through a new option in the Git Sync settings.

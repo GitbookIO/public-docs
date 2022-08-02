@@ -21,8 +21,8 @@ Publish to a unique link. It will be accessible only by people who have access t
 
 **Learn more about shareable links** 🔗 :
 
-{% content-ref url="../features/shareable-links.md" %}
-[shareable-links.md](../features/shareable-links.md)
+{% content-ref url="../spaces/space-publishing/share-links.md" %}
+[share-links.md](../spaces/space-publishing/share-links.md)
 {% endcontent-ref %}
 
 ### Visitor authentication
@@ -31,11 +31,11 @@ Authenticate visitors accessing your collection with your custom backend. If you
 
 **Learn more about visitor authentication:**
 
-{% content-ref url="../features/visitor-authentication.md" %}
-[visitor-authentication.md](../features/visitor-authentication.md)
+{% content-ref url="../spaces/space-publishing/visitor-authentication.md" %}
+[visitor-authentication.md](../spaces/space-publishing/visitor-authentication.md)
 {% endcontent-ref %}
 
-### Unpublished collection <a href="what-is-a-private-space" id="what-is-a-private-space"></a>
+### Unpublished collection <a href="#what-is-a-private-space" id="what-is-a-private-space"></a>
 
 A private collection is a collection that only you and the team members you invited to collaborate can access. That means it can only be read and edited by members of your organization. This is a more secure way to keep your content private to a specific group of people.
 
@@ -43,7 +43,7 @@ A private collection is a collection that only you and the team members you invi
 **Good to know:** Unpublished collections are only accessible in the GitBook app, by a logged-in, authorized user. Visiting an unpublished collection will require you to be logged in and have the relevant permissions to access it.
 {% endhint %}
 
-### Changing your collection visibility <a href="setting-up-visibility" id="setting-up-visibility"></a>
+### Changing your collection visibility <a href="#setting-up-visibility" id="setting-up-visibility"></a>
 
 If you would like to change the visibility of your collection simply navigate back to the publish button and select the visibility settings you want for your collection.
 
@@ -57,7 +57,7 @@ Here, you can generate or revoke any share links, or link a custom domain to you
 
 When you publish a collection, you still need to decide which spaces should be published in that collection or not. This might be a little confusing at first, but it lets you maintain private spaces inside a published collection. Maybe you've got a collection full of useful spaces, but you're working on a completely new space to live alongside them. Rather than creating and editing that space somewhere compeltely different, you can keep it where it's supposed to live, and only publish it as part of the collection when you're ready.
 
-To include spaces in a published collection, set the [space visibility](../spaces/space-visibility.md) to 'In Collection' – this will include the space as part of the published collection.
+To include spaces in a published collection, set the [space visibility](../spaces/space-publishing/) to 'In Collection' – this will include the space as part of the published collection.
 
 ## Collections as variants
 
