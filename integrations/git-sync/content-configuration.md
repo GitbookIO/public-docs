@@ -88,7 +88,7 @@ Due to this, it is not possible to reference the same markdown file twice in you
 
 ## ​Redirects <a href="#redirects" id="redirects"></a>
 
-You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the ["root" option](https://docs.gitbook.com/integrations/github#root). For example, here's how you can tell GitBook to redirect users accessing `/help` to the support page:
+You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the "root" option. For example, here's how you can tell GitBook to redirect users accessing `/help` to the support page:
 
 {% code title=".gitbook.yaml" %}
 ```yaml

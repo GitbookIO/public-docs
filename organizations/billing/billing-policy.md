@@ -8,8 +8,6 @@ During the trial period you can test all GitBook features. You can start onboard
 At the end of your trial (similar to other software) you will be required to upgrade your organization to continue editing and collaborating.‌ As an alternative you can [move your content](../../spaces/what-is-a-space.md#moving-a-space) back to your **free** personal account.
 {% endhint %}
 
-You can read more about the free trial on our blog post 👉 [here](https://blog.gitbook.com/announcements/pricing-update).‌
-
 ## **​Fair billing** <a href="#fair-billing" id="fair-billing"></a>
 
 GitBook tries to offer the fairest billing policy by adapting the billing to your usage. In short:‌

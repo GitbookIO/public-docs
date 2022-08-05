@@ -27,7 +27,7 @@ You can select from a list of languages to localize the user interface of your p
 ![](../.gitbook/assets/Localize.png)
 
 {% hint style="info" %}
-**Good to know:** We're constantly making efforts to support further localized languages. [Give us a shout](https://www.gitbook.com/contact/contact-us) if you have a suggestion.
+**Good to know:** We're constantly making efforts to support further localized languages. [Give us a shout](https://www.gitbook.com/contact/contact-support) if you have a suggestion.
 {% endhint %}
 
 ## Collection inheritance
@@ -77,7 +77,7 @@ The **Dark** header theme will show a dark header, with light text.
 You can customize the font family of your public content from a list of predefined options.
 
 {% hint style="info" %}
-**Good to know:** GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-us).
+**Good to know:** GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-support).
 {% endhint %}
 
 ## Header links
