@@ -13,7 +13,7 @@ At the end of your trial (similar to other software) you will be required to upg
 GitBook tries to offer the fairest billing policy by adapting the billing to your usage. In short:‌
 
 * You’ll be charged for members in your organization on the day that you upgrade to a paid plan.
-* Any changes to the number of members will be reflected in your monthly statement, either as extra [prorated charges](pro-rata.md) or payback.
+* Any changes to the number of members will be reflected in your monthly or yearly statement, either as extra [prorated charges](pro-rata.md) or payback.
 
 {% hint style="info" %}
 The current accepted payment method is credit card.
@@ -24,7 +24,7 @@ The current accepted payment method is credit card.
 The day you upgrade to a paid plan is the start of your billing period. From here, there are only three different times you will see charges from GitBook:‌
 
 * On the **day you upgraded** to a paid plan.
-* On the **monthly renewal date** of your billing period. (charges apply when adding more members)
+* On the **monthly or yearly renewal date** of your billing period. (charges apply when adding more members)
 * Anytime your **balance exceeds a certain amount** for annual plans from adding new members:
   * $300 for the Team yearly plan
   * $1000 for the Business yearly plan
