@@ -1,4 +1,8 @@
-# What is GitBook
+---
+description: 👋 Welcome to GitBook!
+---
+
+# What is GitBook?
 
 ![](.gitbook/assets/Space.png)
 
@@ -46,12 +50,10 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 ## **The best way to discover GitBook is to try it**
 
-{% content-ref url="getting-started/start-exploring.md" %}
-[start-exploring.md](getting-started/start-exploring.md)
-{% endcontent-ref %}
+Create a free account to get started! If you have questions, search here in our documentation or [contact our friendly support team](troubleshooting/support.md).
 
-{% content-ref url="getting-started/quick-start.md" %}
-[quick-start.md](getting-started/quick-start.md)
+{% content-ref url="introduction/the-gitbook-app.md" %}
+[the-gitbook-app.md](introduction/the-gitbook-app.md)
 {% endcontent-ref %}
 
 {% content-ref url="troubleshooting/faqs.md" %}

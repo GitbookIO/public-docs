@@ -1,11 +1,9 @@
 # Table of contents
 
-* [What is GitBook](README.md)
+## Introduction
 
-## Getting started
-
-* [Start exploring](getting-started/start-exploring.md)
-* [Quick start](getting-started/quick-start.md)
+* [What is GitBook?](README.md)
+* [The GitBook app](introduction/the-gitbook-app.md)
 
 ## Free personal account
 
