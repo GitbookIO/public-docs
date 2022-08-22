@@ -1,8 +1,9 @@
 # Table of contents
 
+* [What is GitBook?](README.md)
+
 ## Introduction
 
-* [What is GitBook?](README.md)
 * [The GitBook app](introduction/the-gitbook-app.md)
 
 ## Free personal account
