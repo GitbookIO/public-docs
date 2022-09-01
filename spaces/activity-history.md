@@ -4,7 +4,7 @@ You can easily monitor all changes submitted to your content thanks to the `Acti
 
 ## Feed <a href="#see-all-the-activities" id="see-all-the-activities"></a>
 
-The space is feed is where you can get a bird's eye view of what's been going on in any given space. This is useful if you've been away from the action for a few days and want to catch up. It's also useful if you're curious about anything that's happened in the space, e.g., when a specific member was added to the space, or when [live edits](../editing-content/live-edits-and-real-time-collaboration.md#toggling-live-edit-on-or-off) were locked or unlocked.
+The space is feed is where you can get a bird's eye view of what's been going on in any given space. This is useful if you've been away from the action for a few days and want to catch up. It's also useful if you're curious about anything that's happened in the space, e.g., when a specific member was added to the space, or when [live edits](../editing-content/live-edits.md#toggling-live-edit-on-or-off) were locked or unlocked.
 
 ![](../.gitbook/assets/app.gitbook-alpha.com\_o\_YNVh6VKj6PtILeXzO7M9\_home.png)
 
@@ -12,7 +12,7 @@ The space is feed is where you can get a bird's eye view of what's been going on
 
 The change history of a space is where you can specifically see actions that result in content changing. These include:
 
-* When [live edits](../editing-content/live-edits-and-real-time-collaboration.md) have been made on the space.
+* When [live edits](../editing-content/live-edits.md) have been made on the space.
 * When a [change request](../editing-content/change-requests.md) has been merged.
 * When a Git Sync operation has been performed.
 

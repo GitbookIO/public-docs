@@ -81,7 +81,7 @@ The table of contents is the list of **document pages, links, and groups** that 
 
 There are also some options available from the table of contents. Hover over any document page, link, or group for a second and you'll see an icon with three vertical dots appear on the right-hand side of the item. Click on this to reveal the menu.
 
-The option to create a new document page, link or group can be found at the bottom of the table of contents. If [live edits](../editing-content/live-edits-and-real-time-collaboration.md) are enabled in your space, you'll see it right away. If live edits are disabled, then you will need to be working in a [change request](../editing-content/change-requests.md) to be able to see this option.
+The option to create a new document page, link or group can be found at the bottom of the table of contents. If [live edits](../editing-content/live-edits.md) are enabled in your space, you'll see it right away. If live edits are disabled, then you will need to be working in a [change request](../editing-content/change-requests.md) to be able to see this option.
 
 ## Page header
 
@@ -107,7 +107,7 @@ In addition, you can [embed content](../editing-content/embeds.md) from other pl
 
 ![](../.gitbook/assets/page-actions.png)
 
-Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](../editing-content/live-edits-and-real-time-collaboration.md) enabled, or when you're working in a [change request](../editing-content/change-requests.md).
+Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](../editing-content/live-edits.md) enabled, or when you're working in a [change request](../editing-content/change-requests.md).
 
 {% hint style="info" %}
 If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. You'll see an icon for the page actions menu in the [page header](the-gitbook-app.md#page-header), instead.

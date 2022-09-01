@@ -45,7 +45,7 @@
 
 ## Editing content
 
-* [Live edits and real-time collaboration](editing-content/live-edits-and-real-time-collaboration.md)
+* [Live edits](editing-content/live-edits.md)
 * [Change requests](editing-content/change-requests.md)
 * [Creating pages, groups and links](editing-content/content-structure.md)
 * [Rich content](editing-content/rich-content/README.md)
