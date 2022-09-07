@@ -8,7 +8,7 @@ This page walks you through various sections, features and menus that you'll fin
 
 ## Sidebar
 
-![](../.gitbook/assets/sidebar.png)
+<figure><img src="../.gitbook/assets/sidebar-updated.png" alt=""><figcaption></figcaption></figure>
 
 The sidebar is the dark blue (in light mode) or black (in dark mode) section on the left-hand side of the app.
 
@@ -18,10 +18,8 @@ The sidebar contains:
 
 * **The** [**quick find**](../features/multiple-space-search.md) **field**\
   Quick find helps you quickly navigate between your content, as well as performing common actions.
-* **The personal library**\
-  This contains all of the collections and spaces that you personally own.
-* **Any organization libraries**\
-  If you are a member of any organizations, you'll have access to the collections and spaces that the organization owns in this section.
+* **Your personal and any organization libraries**\
+  Your personal library contains all of the collections and spaces that you personally own. If you are a member of any organizations, you'll have access to the collections and spaces that the organization owns. Use the switch organization toggle, found next to the name of the library, to move between libraries.
 * **The** [**notifications bell**](../features/notifications.md) **** ![](../.gitbook/assets/notification.png)\
   Located in the bottom-left corner of the sidebar, the notifications bell will let you know about actions that have been taken.
 * **The add new button**\
