@@ -1,17 +1,22 @@
 ---
 description: >-
-  Open-source & non-profits make the world a better place, providing software &
-  services to those in need. In order to do our part, GitBook is free for
-  open-source and non-profit teams!
+  Open source and non-profits make the world a better place. In order to do our
+  part, GitBook is free for open source and non-profit teams.
 ---
 
-# Non-Profit / Open Source plan
+# Non-profit / open source plan
+
+{% hint style="info" %}
+Please note that most of your needs should be covered by the free personal account. If you don’t plan to collaborate with others, you can start with it. It allows you to publish content to the world 🌍! It even supports linking a custom domain to each of your spaces.
+{% endhint %}
+
+If it's absolutely necessary to collaborate with others, please continue reading.
 
 ## Conditions
 
-We **welcome applications** from organizations that hold a valid charitable status 501(c) or similar as well as open-source applications with a GitHub related project.
+We welcome applications from organizations that hold a valid charitable status 501(c) or similar as well as open-source applications with a GitHub or GitLab related project.
 
-All eligible organizations must visit [our pricing page](https://www.gitbook.com/pricing) and click **Request Community Plan**. We’ll review your application and accept it or reject it.
+Please read the criteria before applying.
 
 {% hint style="warning" %}
 If we reject your application, we are sorry in advance. We don't have the resources to share the details. We'll do our best to give you some context if possible but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
@@ -35,7 +40,7 @@ Your organization:
 Your organization:
 
 * Needs to be a company and have an official non-profit status
-* Need to share a valid charitable status 501(c) or equivalent
+* Needs to share a valid charitable status 501(c) or equivalent
 
 ### Criteria for open source
 
@@ -57,25 +62,30 @@ Your Git repository:
 * You are a small student group or a teacher organizing a course for a small group of students
 
 {% hint style="info" %}
-Individual students that want to keep your personal and course notes, can use your free personal accounts. They give you up to 10 private or public spaces **for free**. No need to apply for a community plan.
+Individual students that want to keep your personal and course notes should use a free personal account. They give you unlimited private or public spaces **for free**. No need to apply for a community plan.
 {% endhint %}
 
 ## How to apply
 
-In order to apply for the community plan, you need to have a **GitBook account** and **create an organization** by starting a free trial. If you already have an account and have created an organization, you can go directly to point 4.
+In order to apply for the community plan, you need to have a **GitBook account** and **create an organization**.
 
-1. Signup for GitBook [here](https://app.gitbook.com/join)
-2. Create a space using the prompt
-3. Once you're in your space, create an organization by starting a trial
-4. Visit the [pricing page](https://www.gitbook.com/pricing)
-5. Click **Request Community Plan**
-6. Follow the instructions in the chatbot
+1. [Sign up](https://app.gitbook.com/join) if you don't have an account, or [Sign in](https://app.gitbook.com) if you already have one.
+2. Choose an existing organization in the sidebar or [create one](https://app.gitbook.com/welcome/o/business#sidebar\_menu) if you haven't done so.
+3. Copy the link of your organization because you will need it to apply:\
+   \
+   It will look like:\
+   &#x20; \=> app.gitbook.com/o/<mark style="color:green;background-color:yellow;">knDc9w0Awj6RGjaiTeWn</mark>\ <mark style="color:green;background-color:yellow;"></mark>  where <mark style="color:green;background-color:yellow;">knDc9w0Awj6RGjaiTeWn</mark> is different and unique to your organization.\
+
+4. Visit the [pricing page](https://www.gitbook.com/pricing), and scroll down to Frequently Asked Questions.
+5. Expand "Do you offer non profit/open source discounts?".
+6. Click **Apply here**.
+7. Follow the instructions in the chat bot that pops up.
 
 You might be required to provide additional information for us to validate your organization type:
 
-* **open-source:** link to your GitHub repository or GitLab project
-* **non-profit:** proof of your non-profit status (Such as a copy of your 501(c)(3) or your country's equivalent proof of non-profit status)
+* **Open-source:** link to your GitHub repository or GitLab project
+* **Non-profit:** proof of your non-profit status (such as a copy of your 501(c)(3) or your country's equivalent proof of non-profit status)
 
-We will respond to your query as soon as possible - please allow up to 5 days for us to review your status and update your account.
+We will respond to your query as soon as possible. Please allow up to 5 days for us to review your status and update your account.
 
 If you have any other questions, don't hesitate to contact us at [**support@gitbook.com**](mailto:support@gitbook.com)**.**
