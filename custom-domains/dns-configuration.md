@@ -44,23 +44,23 @@ Here's an example of how a correct configuration looks in Cloudflare's control p
 
 If you are configuring DNS in Cloudflare's control panel, you may be tempted to activate Cloudflare's proxying (the orange cloud, also called "Proxy status" in your domain settings).
 
-While this configuration _might_ work in most cases, we strongly recommend against activating it. Firstly, because your custom domain will already benefit from Cloudflare's CDN and a DigiCert SSL certificate. Secondly, this option obfuscates the DNS target for your domain to the public, preventing GitBook to properly run routine checks on your custom domain.
+While this configuration _might_ work in most cases, we strongly recommend against activating it. Firstly, because your custom domain will already benefit from Cloudflare's CDN and a Google Trust Services SSL certificate. Secondly, this option obfuscates the DNS target for your domain to the public, preventing GitBook to properly run routine checks on your custom domain.
 
 Whenever possible, please **turn off Cloudflare proxying** to ensure that your documentation is served without issues and can be monitored by GitBook.
 
 ## Check for a CAA record
 
 {% hint style="info" %}
-The short answer: either don't have a CAA record, or have one that explicitly allows DigiCert.
+The short answer: either don't have a CAA record, or have one that explicitly allows Google Trust Services.
 {% endhint %}
 
-CAA records enable you to specify who can issue an SSL certificate for the domains that you own. We use DigiCert to issue an SSL certificate for your custom domain, so this needs to be allowed. There are two ways to do this.
+CAA records enable you to specify who can issue an SSL certificate for the domains that you own. We use Google Trust Services to issue an SSL certificate for your custom domain, so this needs to be allowed. There are two ways to do this.
 
 1. Have no CAA record. Without a CAA record, there are no limitations on which SSL providers are allowed to issue an SSL certificate for your domain.
-2. Have a CAA record that explicitly allows DigiCert. Any providers that are not explicitly allowed will be blocked. The following is the value that would need to be included in a CAA record to explicitly allow DigiCert:
+2. Have a CAA record that explicitly allows Google Trust Services. Any providers that are not explicitly allowed will be blocked. The following is the value that would need to be included in a CAA record to explicitly allow Google Trust Services:
 
 ```
-0 issue "digicert.com"
+0 issue "pki.goog"
 ```
 
 ## Wait for the changes to take effect
