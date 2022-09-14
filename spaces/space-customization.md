@@ -1,3 +1,7 @@
+---
+description: Customize your space
+---
+
 # Space customization
 
 ![](<../.gitbook/assets/Customize (2).png>)
@@ -22,6 +26,8 @@ You can override the icon and title that your visitors will see when they access
 
 ### Localize user interface
 
+_Customize > Configure_
+
 You can select from a list of languages to localize the user interface of your public content. This will apply translations to the **non-custom** areas of your public content interface. It won't do anything spicy like auto-translate your actual content, but if you're writing a space in a certain language, it's always good to have the surrounding UI reflect that.
 
 ![](../.gitbook/assets/Localize.png)
@@ -32,9 +38,13 @@ You can select from a list of languages to localize the user interface of your p
 
 ## Collection inheritance
 
+_Customize > General_
+
 Collection inheritance allows a space to inherit its customizations directly from its parent collection. This is useful if you want to control multiple spaces' customizations in one place, and removes the need to make the same change multiple times across spaces.
 
 ## Logos and social
+
+_Customize > Basic_
 
 You can upload a custom social preview image for your space. This will set the space's `og:image` to your uploaded image, and it'll show when the space's link is shared to any platform or product that supports OpenGraph images.
 
@@ -45,6 +55,8 @@ You can also replace the space's title entirely with a custom logo. This lets yo
 {% endhint %}
 
 ## Theming
+
+_Customize > Customization_
 
 Theming lets you customize the primary color, heading theme, and font family of your public content.
 
@@ -82,9 +94,13 @@ You can customize the font family of your public content from a list of predefin
 
 ## Header links
 
+_Customize > Configure > Header links_
+
 You can add links to your header, with each link having a URL and a text label. This is useful if you want to link to specific parts of your documentation, or back to pages of your main site, directly in the header of your docs.
 
 ## Public content integrations
+
+_Customize > Integrations_
 
 ### Google Analytics
 
@@ -95,6 +111,8 @@ Enable Google Analytics and enter your Google Analytics tracking ID to start tra
 To enable Intercom in your public content, turn it on in customization, and set your Intercom Application ID. You can then configure any Intercom widgets you wish to use in your Intercom settings.
 
 ## Public content features
+
+_Customize > Configure_
 
 ![](<../.gitbook/assets/Privacy Policy.png>)
 
