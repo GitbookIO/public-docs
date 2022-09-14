@@ -21,14 +21,14 @@ You should be able to see the [full feature comparison](https://www.gitbook.com/
 | --------------------------- | ---- | ----------------------------------- |
 | Publish a space as Unlisted | Yes  | No (moved to the Pro plan)          |
 | Advanced customization      | Yes  | No (moved to the Pro plan)          |
-| Minimum charge for 5 users  | Yes  | No, unlimited users, pay as you go! |
+| Minimum charge for 5 users  | Yes  | No (unlimited users, pay as you go) |
 
 #### Business vs Pro
 
 | Difference                                                                                   | Business | Pro                                 |
 | -------------------------------------------------------------------------------------------- | -------- | ----------------------------------- |
 | [Visitor Authentication](../../../spaces/space-publishing/visitor-authentication.md) feature | No       | Yes (up to 100 sessions per month)  |
-| Minimum charge for 20 users                                                                  | Yes      | No, unlimited users, pay as you go! |
+| Minimum charge for 20 users                                                                  | Yes      | No (unlimited users, pay as you go) |
 | Flat [platform fee](./#platform-fee) of $99 per month                                        | No       | Yes                                 |
 
 ### Platform fee
