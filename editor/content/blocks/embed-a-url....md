@@ -1,6 +1,10 @@
-# Embeds
+---
+description: Embed a URL content block
+---
 
-## How to embed content <a href="how-to-embed-content" id="how-to-embed-content"></a>
+# Embed a URL...
+
+## How to embed content <a href="#how-to-embed-content" id="how-to-embed-content"></a>
 
 To add a rich embed, simply paste the link of the content you want to embed, then press `ENTER` and voilà ✨.
 
@@ -21,3 +25,4 @@ To add a rich embed, simply paste the link of the content you want to embed, the
 ### Spotify music
 
 {% embed url="https://open.spotify.com/track/4FmiciU3ZmfgABlbCSXcWw?si=65zMAhStT2ivTit-kZISWg" %}
+

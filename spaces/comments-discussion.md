@@ -34,6 +34,6 @@ Most importantly of all, you can leave an emoji reaction on any comment.
 
 With commenting being integral to feedback, you might want to read more about how comments and change requests work together:
 
-{% content-ref url="../editing-content/change-requests.md" %}
-[change-requests.md](../editing-content/change-requests.md)
+{% content-ref url="../editor/change-requests.md" %}
+[change-requests.md](../editor/change-requests.md)
 {% endcontent-ref %}

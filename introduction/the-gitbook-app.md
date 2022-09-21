@@ -52,7 +52,7 @@ Similar to the sidebar, it has an up arrow on the right-hand side that you can c
 
 The space sub-navigation includes links to:
 
-* ****[**Change requests**](../editing-content/change-requests.md)\
+* ****[**Change requests**](../editor/change-requests.md)\
   From here you can create a new change request and review existing ones. There's a tab for each status: draft, in review, archived and merged.
 * ****[**History**](../spaces/activity-history.md)****\
   ****Clicking this opens up to provide details about both activity and change history for the space.
@@ -79,7 +79,7 @@ The table of contents is the list of **document pages, links, and groups** that 
 
 There are also some options available from the table of contents. Hover over any document page, link, or group for a second and you'll see an icon with three vertical dots appear on the right-hand side of the item. Click on this to reveal the menu.
 
-The option to create a new document page, link or group can be found at the bottom of the table of contents. If [live edits](../editing-content/live-edits.md) are enabled in your space, you'll see it right away. If live edits are disabled, then you will need to be working in a [change request](../editing-content/change-requests.md) to be able to see this option.
+The option to create a new document page, link or group can be found at the bottom of the table of contents. If [live edits](../editor/live-edits.md) are enabled in your space, you'll see it right away. If live edits are disabled, then you will need to be working in a [change request](../editor/change-requests.md) to be able to see this option.
 
 ## Page header
 
@@ -99,13 +99,13 @@ Depending on the width of your screen, you _might_ also see a menu icon with 3 v
 
 The editor is where you create the content for your documentation. We offer lots of different content blocks — headings, lists, tables, images, code blocks, and more!
 
-In addition, you can [embed content](../editing-content/embeds.md) from other places, and we support [markdown](../editing-content/markdown.md) to help you create content even more quickly.
+In addition, you can [embed content](../editor/content/blocks/embed-a-url....md) from other places, and we support [markdown](../editor/markdown.md) to help you create content even more quickly.
 
 ## Page actions
 
 ![](../.gitbook/assets/page-actions.png)
 
-Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](../editing-content/live-edits.md) enabled, or when you're working in a [change request](../editing-content/change-requests.md).
+Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](../editor/live-edits.md) enabled, or when you're working in a [change request](../editor/change-requests.md).
 
 {% hint style="info" %}
 If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. You'll see an icon for the page actions menu in the [page header](the-gitbook-app.md#page-header), instead.

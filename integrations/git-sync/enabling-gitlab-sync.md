@@ -46,7 +46,7 @@ Git**Lab** -> Git**Book** will sync your space's content **from** the selected b
 
 ## 5. Write and commit!
 
-You're good to go. You'll notice that if your space was in [live edit](../../editing-content/live-edits.md) mode, it's now locked for live edits. This allows GitBook to reliably sync content to your repository when[ change requests](../../editing-content/change-requests.md) are merged in GitBook, rather than the constant noise of trying to sync live edits!
+You're good to go. You'll notice that if your space was in [live edit](../../editor/live-edits.md) mode, it's now locked for live edits. This allows GitBook to reliably sync content to your repository when[ change requests](../../editor/change-requests.md) are merged in GitBook, rather than the constant noise of trying to sync live edits!
 
 If you're editing on GitBook, every change request merge will result in a commit to your selected GitLab branch.
 
