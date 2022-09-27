@@ -7,7 +7,7 @@ If you have any trouble while following the steps in this section, please first 
 {% hint style="info" %}
 **Permissions**
 
-Add this later.
+Custom domains can be set at the organization level by users with admin rights, and can be set at the collection or space level by users with creator or admin rights.
 {% endhint %}
 
 ### Learn more about:
