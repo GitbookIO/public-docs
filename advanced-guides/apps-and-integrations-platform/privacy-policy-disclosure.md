@@ -1,6 +1,6 @@
 # Privacy Policy disclosure
 
-In some situations, you may wish to make your readers aware of your privacy policy. This is particularly important if you're using GitBook's [Google Analytics Integration](../../features/broken-reference/) to track your users. GitBook lets you link to your own privacy policy in a cookie consent dialog.
+In some situations, you may wish to make your readers aware of your privacy policy. This is particularly important if you're using GitBook's [Google Analytics Integration](https://docs.gitbook.com/tour/customization/space-customization#google-analytics) to track your users. GitBook lets you link to your own privacy policy in a cookie consent dialog.
 
 Here's how to link to your privacy policy in the cookie consent dialog.
 

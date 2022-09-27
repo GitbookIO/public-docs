@@ -1,11 +1,13 @@
-# Choose a subdomain
+# Choosing a subdomain
 
 {% hint style="info" %}
-This is **step 1** of a 3-step process for setting up a custom domain. Make sure to follow the steps in the correct order!
+Please follow the steps to set a custom domain in this order:
 
-1. Choose a subdomain (you are here)
-2. [Configure DNS](dns-configuration.md)
-3. [Set the custom domain in GitBook](custom-domain-setup-on-gitbook.md)
+1. ****[**Choosing a subdomain**](choose.md) **(you are here)**
+2. ****[Deciding where to set the custom domain](location.md)
+3. [Initiating the custom domain setup](initiate/) (at the [organization](initiate/organization-level-custom-domain.md), [collection](initiate/collection-level-custom-domain.md), or [space](initiate/space-level-custom-domain.md) level)
+4. [Configuring DNS](configure-dns.md)
+5. [Finalizing the custom domain setup](finalize.md)
 {% endhint %}
 
 _Only_ subdomains can be used to serve your documentation. It's not possible to use an apex domain.
@@ -18,4 +20,4 @@ Here are some examples of what you could and could not choose — just replace `
 | `www` subdomain  | `www.example.com`                                                                                             |      ✅     |
 | Custom subdomain | <p><code>docs.example.com</code></p><p><code>help.example.com</code><br><code>anything.example.com</code></p> |      ✅     |
 
-Once you've chosen your subdomain, you can move onto [step 2: configuring DNS](dns-configuration.md).
+Once you have chosen your custom domain, you're ready to move onto the next step: [deciding where to set the custom domain](location.md).

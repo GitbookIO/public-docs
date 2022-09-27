@@ -5,7 +5,7 @@
 When adding members to your organization, you can give them a **default role**. This role will apply to any content that inherits its permissions from the organization.
 
 {% hint style="info" %}
-**Good to know:** Understanding default roles is key to getting the most out of how GitBook handles permission management, check out **Permissions and inheritance** for a full overview of how permissions cascade throughout content in GitBook.
+Understanding default roles is key to getting the most out of how GitBook handles permission management. Check out **Permissions and inheritance** for a full overview of how permissions cascade throughout content in GitBook.
 {% endhint %}
 
 ## Roles in GitBook
@@ -21,7 +21,7 @@ A reader is the most basic role in GitBook: it gives read only access.
 Commenters have the same read-only access as readers, but they're also able to leave comments against content and spaces (find our more about how that works over at the [Comments](../../getting-started/collaboration/comments-discussion.md) documentation).
 
 {% hint style="info" %}
-**Good to know:** commenter is one of our two advanced member roles, available only on the **Business or Enterprise plan**.
+Commenter is one of our two advanced member roles, available only on the **Pro or Enterprise plan**.
 {% endhint %}
 
 ### Editor
@@ -33,7 +33,7 @@ Editors are able to read and comment, just like a commenter, but they're also ab
 Reviewers have all the same permissions of an editor, however they can also merge their own and others' change requests.
 
 {% hint style="info" %}
-**Good to know:** reviewer is one of our two advanced member roles, available only on the **Business or Enterprise plan**.
+Reviewer is one of our two advanced member roles, available only on the **Pro or Enterprise plan**.
 {% endhint %}
 
 ### Creator

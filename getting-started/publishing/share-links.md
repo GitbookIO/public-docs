@@ -1,7 +1,7 @@
 # Share links
 
 {% hint style="info" %}
-This feature is available on our Pro and Enterprise plans. If you'd like to learn more, check out [our plans.](../../billing-and-admin/billing/plans.md#our-pricing-plans)
+This feature is available on our Pro and Enterprise plans. If you'd like to learn more, check out [our plans.](../../billing-and-admin/plans/#our-pricing-plans)
 {% endhint %}
 
 Share your private content with customers and partners without inviting them to your organization by using a secret shareable link!
@@ -59,7 +59,7 @@ To this day, the most secure way to share your content with a private audience i
 This process can be [automated using SSO/SAML](../../advanced-guides/advanced-sharing-and-security/saml.md).
 
 {% hint style="info" %}
-**Good to know:** SSO and SAML can be used to create custom authentication for your documentation, but it will require more setup on your end. SSO and SAML are features included in the [Business plan](../../billing-and-admin/billing/plans.md#business-plan).
+**Good to know:** SSO and SAML can be used to create custom authentication for your documentation, but it will require more setup on your end. SSO and SAML are features included in the **Enterprise plan.**
 {% endhint %}
 
 Feel free to [reach out to us](mailto:support@gitbook.com) for guidance on the subject.

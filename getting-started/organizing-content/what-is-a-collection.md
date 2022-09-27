@@ -1,8 +1,8 @@
 # What is a collection?
 
-![](<../../.gitbook/assets/Collection (1).png>)
-
 Collections are groups of spaces centered around a specific topic, teams or purposes. Collections aren't just for grouping, though! You can set permissions specific to a collection, overriding the organization-level defaults (read more about that in [permissions](../../tour/member-management/permissions-and-inheritance.md)) or customize and publish a collection as a group of spaces known as a **variant**.
+
+![](<../../.gitbook/assets/Collection (1).png>)
 
 ## Creating a collection
 

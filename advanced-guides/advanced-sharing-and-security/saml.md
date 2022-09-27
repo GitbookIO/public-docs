@@ -1,7 +1,7 @@
 # SAML single sign-on
 
 {% hint style="info" %}
-This feature is included in the [Enterprise plan](../../billing-and-admin/billing/plans.md#enterprise-plan).
+This feature is included in the [Enterprise plan](../../billing-and-admin/plans/#enterprise-plan).
 {% endhint %}
 
 **SAML-based Single Sign-On** (SSO) gives members access to GitBook through an identity provider (IdP) of your choice.‌

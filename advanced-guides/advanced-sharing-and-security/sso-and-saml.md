@@ -1,6 +1,6 @@
-# SSO & SAML
+# SSO
 
-While manually managing your organization members is fine for smaller teams or folks who want tonnes of control, sometimes you just need to open things up in a more automated way. GitBook allows you to configure this in a couple of ways, through a basic email domain SOO, and a more complex SAML integration.
+While manually managing your organization members is fine for smaller teams or folks who want tonnes of control, sometimes you just need to open things up in a more automated way. GitBook allows you to configure this in a couple of ways, through a basic email domain SOO, and a more complex [SAML integration](saml.md).
 
 ## Single sign-on via email domain
 
@@ -13,9 +13,3 @@ You can enable email domain SSO in the 'SSO' section of your organization settin
 {% hint style="info" %}
 **Good to know:** Anyone who joins via an SSO email domain will default to guest access, you can change their role at any time in the Members section of your organization settings.
 {% endhint %}
-
-## Integrating with a SAML Identity Provider
-
-{% content-ref url="saml.md" %}
-[saml.md](saml.md)
-{% endcontent-ref %}

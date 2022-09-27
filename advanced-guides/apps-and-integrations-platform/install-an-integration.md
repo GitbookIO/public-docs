@@ -41,7 +41,7 @@ This can be done in the integration's installation configuration screen shown to
 
 You can install an integration on **selected or all Spaces** in your **Personal** or **Organization** library.
 
-To do this, first go to your [Personal account settings](../../billing-and-admin/account-settings.md) or [Organization settings screen](../../billing-and-admin/organization-management.md).
+To do this, first go to your [Personal account settings](../../billing-and-admin/settings/account-settings.md) or [Organization settings screen](../../billing-and-admin/settings/organization-management.md).
 
 Next, click **Apps & Integrations** tab under your Organization's settings group in the sidebar (or at the top of the sidebar for your Personal library):
 

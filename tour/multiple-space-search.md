@@ -1,12 +1,20 @@
 # Search with quick find
 
+Our quick find command palette lets you search for – and quickly navigate between – all your content, as well as performing common space actions.
+
+{% hint style="info" %}
+**Permissions**
+
+All member roles can use quick find. Quick find is compliant with your team permission settings, meaning that members will only be able to search the content they have permission to access.‌
+{% endhint %}
+
 ![](<../.gitbook/assets/Command Palette.png>)
 
 When writing or reading docs, you sometimes want to find what you need in the twinkling of an eye wherever it’s located.
 
-Our quick find command palette lets you search for – and quickly navigate between – all your content, as well as performing common space actions.
+Use our quick find command palette to search and navigate across all your content.
 
-As a first try; open the quick find palette, start typing the name of a space, hit enter, and check out how quickly you can jump between content!
+As a first try: open the quick find palette, start typing the name of a space, hit enter, and check out how quickly you can jump between content!
 
 {% hint style="info" %}
 **​Good to know:** You can easily open the quick find palette by pressing **CMD + K** on Mac or **Ctrl + K** on Windows.
@@ -14,13 +22,13 @@ As a first try; open the quick find palette, start typing the name of a space, h
 
 ## Display of results <a href="#display-of-results" id="display-of-results"></a>
 
-Results of the space you're in are displayed first, followed by results from other spaces from your personal and **organizational** spaces.
+Results of the space you're in are displayed first, followed by results from other spaces from from the organization you're currently editing in, **as well as other organizations** you are a member of.
 
 So write down what you need, take a look at results in other spaces, pick the page or section you're interested in and voilà!
 
 When you select a search result from an organization, you will switch to browsing that organization. To go back, use Quick Find to select a document in the organization you were in before, or use the organization switcher in your left hand sidebar.
 
-### Search Filters
+## Search Filters
 
 Quick Find supports filtering your results by author, and by space or organization.
 
@@ -32,7 +40,7 @@ To filter your results by space or organization, add an `in:` filter to your que
 
 ![](<../.gitbook/assets/Command Palette - s - in.png>)
 
-### Navigation and Performing Space Actions with Quick Find
+## Navigation and Performing Space Actions with Quick Find
 
 Quick Find also helps you navigate to settings and orgs, as well as perform certain space actions like locking and unlocking live edits, setting up Git Sync, and starting a change request.
 

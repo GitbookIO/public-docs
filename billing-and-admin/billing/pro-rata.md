@@ -2,7 +2,7 @@
 
 The day you upgrade to a paid plan, you will be charged the price of your plan for the month to come on that day.
 
-> For example, if you upgrade to the [Team plan](plans.md#team-plan) on **October 11th, with 6 users**, you will be charged on that day by **$48 (6 times $8) for the month to come**.
+> For example, if you upgrade to the Plus plan on **October 11th, with 6 users**, you will be charged on that day by **$48 (6 times $8) for the month to come**.
 
 Any changes to your usage during the billing period will be reflected on your statement at the end of the billing period, at the same time that you will be charged for the next billing period.
 

@@ -6,6 +6,14 @@ description: >-
 
 # Notifications
 
+GitBook supports in-app and email notifications.
+
+{% hint style="info" %}
+**Permissions**
+
+All member roles can manage the notifications they receive from GitBook in app and via email.
+{% endhint %}
+
 We have two communication channels for notifying you about activity on GitBook:
 
 1. [App](notifications.md#application-notifications) - _in the application itself_

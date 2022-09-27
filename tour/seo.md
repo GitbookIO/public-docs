@@ -1,8 +1,8 @@
 # SEO
 
-It's important that users can be able to find easily a public product or a help doc on Google search engine.
+It's important that users can easily find a public product or a help doc using Google search engine.
 
-## Overview <a href="overview" id="overview"></a>
+## Overview <a href="#overview" id="overview"></a>
 
 Thanks to the following features, your GitBook projects are SEO-friendly, with little or no configuration on your end:
 
@@ -11,7 +11,7 @@ Thanks to the following features, your GitBook projects are SEO-friendly, with l
 * ​All content is responsive and mobile-friendly
 * ​We automatically generate SEO-friendly content (URLs, HTML, etc.)
 
-## Technicalities <a href="technicalities" id="technicalities"></a>
+## Technicalities <a href="#technicalities" id="technicalities"></a>
 
 * ​We automatically generate sitemaps based on your ToC
 * We generate SEO friendly URLs based on each page's title
@@ -19,9 +19,9 @@ Thanks to the following features, your GitBook projects are SEO-friendly, with l
   * We generate HTML titles and descriptions based on your GitBook page's title and description
   * We avoid duplicate content through smart canonical URLs
   * Image captions are rendered as alt attributes
-* ​HTML sent to crawlers is pre-rendered (i.e server-side) this means that crawlers do NOT need JavaScript to index your content ([app.gitbook.com](https://app.gitbook.com) is a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) and requires JS, but not user content).
+* ​HTML sent to crawlers is pre-rendered (i.e server-side) this means that crawlers do NOT need JavaScript to index your content ([app.gitbook.com](https://app.gitbook.com) is a [Single Page Application](https://en.wikipedia.org/wiki/Single-page\_application) and requires JS, but not user content).
 
-## Notes <a href="notes" id="notes"></a>
+## Notes <a href="#notes" id="notes"></a>
 
 We don't generate keyword meta tags, because modern search engines do not use them to rank pages. This was officially confirmed by Google a few years ago.
 

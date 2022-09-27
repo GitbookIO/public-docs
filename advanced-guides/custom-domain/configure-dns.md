@@ -1,11 +1,13 @@
-# Configure DNS
+# Configuring DNS
 
 {% hint style="info" %}
-This is **step 2** of a 3-step process for setting up a custom domain. Make sure to follow the steps in the correct order!
+Please follow the steps to set a custom domain in this order:
 
-1. [Choose a subdomain](choose-a-subdomain.md)
-2. Configure DNS (you are here)
-3. [Set the custom domain in GitBook](custom-domain-setup-on-gitbook.md)
+1. ****[Choosing a subdomain](choose.md)
+2. ****[Deciding where to set the custom domain](location.md)
+3. [Initiating the custom domain setup](initiate/) (at the [organization](initiate/organization-level-custom-domain.md), [collection](initiate/collection-level-custom-domain.md), or [space](initiate/space-level-custom-domain.md) level)
+4. [**Configuring DNS**](configure-dns.md) **(you are here)**
+5. [Finalizing the custom domain setup](finalize.md)
 {% endhint %}
 
 Configuring DNS happens _outside_ of GitBook, at the DNS provider you are using for your domain.
@@ -14,14 +16,14 @@ Configuring DNS happens _outside_ of GitBook, at the DNS provider you are using 
 
 There are three parts to this step:
 
-1. [Configure a CNAME record](dns-configuration.md#configure-a-cname-record)
-2. [Check for a CAA record](dns-configuration.md#check-for-a-caa-record)
-3. [Wait for the changes to take effect](dns-configuration.md#wait-for-the-changes-to-take-effect)
+1. [Configure a CNAME record](configure-dns.md#configure-a-cname-record)
+2. [Check for a CAA record](configure-dns.md#check-for-a-caa-record)
+3. [Wait for the changes to take effect](configure-dns.md#wait-for-the-changes-to-take-effect)
 
 ## Configure a CNAME record
 
 {% hint style="info" %}
-The short answer: point your subdomain to GitBook via a CNAME record.
+The short answer: point your subdomain to GitBook via the CNAME record you copied to your clipboard in the previous step.
 {% endhint %}
 
 The names of the fields and what to actually enter to configure the record may differ between DNS control panels, but we've covered the most common options here. If you're in any doubt, check with your DNS provider.
@@ -44,7 +46,7 @@ Here's an example of how a correct configuration looks in Cloudflare's control p
 
 If you are configuring DNS in Cloudflare's control panel, you may be tempted to activate Cloudflare's proxying (the orange cloud, also called "Proxy status" in your domain settings).
 
-While this configuration _might_ work in most cases, we strongly recommend against activating it. Firstly, because your custom domain will already benefit from Cloudflare's CDN and a Google Trust Services SSL certificate. Secondly, this option obfuscates the DNS target for your domain to the public, preventing GitBook to properly run routine checks on your custom domain.
+While this configuration _might_ work in most cases, we strongly recommend against activating it. Firstly, because your custom domain will already benefit from Cloudflare's CDN and a Google Trust Services SSL certificate on our end. Secondly, this option obfuscates the DNS target for your domain to the public, preventing GitBook to properly run routine checks on your custom domain.
 
 Whenever possible, please **turn off Cloudflare proxying** to ensure that your documentation is served without issues and can be monitored by GitBook.
 
@@ -71,8 +73,8 @@ The short answer: you might need to wait 1-48 hours for the DNS changes to take 
 
 Remember the TTL (Time To Live) field we mentioned earlier? DNS records are cached for a period of time — which is usually a very good thing for performance reasons, because they typically don't change very often. When they _do_ change, there is a period of time (the TTL value) where DNS cache servers need their cache to expire before they will check for any changes and behave accordingly.
 
-In most cases, it's best to allow at least an hour before moving onto step 3. Sometimes it could all update a bit more quickly, or it could take longer. It's rare for this to take longer than 48 hours.
+In most cases, it's best to allow at least an hour before moving onto the next and final step. Sometimes it could all update a bit more quickly, or it could take longer. It's rare for this to take longer than 48 hours.
 
 Want to check how this process, known as _propagation_, is progressing? You could use a DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net/). Enter your full subdomain, select CNAME from the dropdown list, and press the Search button. DNS cache servers around the world will respond to let you know what their cached result is. You'll want to periodically check these results until the vast majority respond with your assigned CNAME.
 
-Once DNS propagation has completed, you can move onto [step 3: setting the custom domain in GitBook](custom-domain-setup-on-gitbook.md).
+Once DNS propagation has completed, you can move onto the last step: [finalizing the custom domain setup](finalize.md).

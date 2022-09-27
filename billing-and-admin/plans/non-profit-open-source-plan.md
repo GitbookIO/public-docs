@@ -1,10 +1,4 @@
----
-description: >-
-  Open source and non-profits make the world a better place. In order to do our
-  part, GitBook is free for open source and non-profit teams.
----
-
-# Non-profit / open source plan
+# Non-profit/open source plan
 
 {% hint style="info" %}
 Please note that most of your needs should be covered by the free personal account. If you don’t plan to collaborate with others, you can start with it. It allows you to publish content to the world 🌍! It even supports linking a custom domain to each of your spaces.

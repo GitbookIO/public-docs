@@ -2,6 +2,12 @@
 
 Shortcut keys allow easy and quick methods for navigating or editing content.
 
+{% hint style="info" %}
+**Permissions**
+
+All member roles can use keyboard shortcuts.
+{% endhint %}
+
 ## Navigation
 
 | Mac   | Windows  | Description                        |
@@ -9,7 +15,7 @@ Shortcut keys allow easy and quick methods for navigating or editing content.
 | `Esc` | `Esc`    | Close a dialog or the search panel |
 | `⌘K`  | `Ctrl+K` | Open the quick find panel          |
 
-## Editing <a href="editing" id="editing"></a>
+## Editing <a href="#editing" id="editing"></a>
 
 | Mac         | Windows        | Description                                                                                      |
 | ----------- | -------------- | ------------------------------------------------------------------------------------------------ |

@@ -1,15 +1,36 @@
 # Import
 
-GitBook supports **imports from websites or files that are Markdown** (.md or .markdown), HTML (.html), Microsoft Word (.docx).
+You can import existing content from other sources to quickly get started with creating in GitBook.
 
-You can also upload a ZIP containing HTML or Markdown files when importing multiple pages.
+{% hint style="info" %}
+**Permissions**
 
-We also support import from Confluence, Notion, GitHub Wiki, Quip, Dropbox Paper, and Google Docs.
+All members with Editor permission or above can use the import feature.
+{% endhint %}
+
+## Supported formats
+
+GitBook supports imports from websites or files that are:
+
+* Markdown (.md or .markdown)
+* HTML (.html)
+* Microsoft Word (.docx).
+
+We also support import from:
+
+* Confluence
+* Notion
+* GitHub Wiki
+* Quip
+* Dropbox Paper
+* Google Docs
+
+You can also upload a ZIP **** containing HTML or Markdown files when **importing multiple pages.**
 
 {% hint style="warning" %}
 **Note:** **This feature is in BETA**
 
-Feel free to suggest import features we don't support yet and [let us know](https://gitbook.canny.io/import) if you have any issues.
+Feel free to suggest import sources we don't support yet and [let us know](https://gitbook.canny.io/import) if you have any issues.
 {% endhint %}
 
 ## Import panel
@@ -18,14 +39,14 @@ When you create a new space, you'll have the option to import content straight a
 
 ![](<../.gitbook/assets/Blank Space.png>)
 
-Import a page or sub page by selecting `Import Page` from the New Page menu, or `Import Subpage` in the page action menu, found in the table of contents:
+Import a page or subpage by selecting `Import Page` from the New Page menu, or `Import Subpage` in the page action menu, found in the table of contents:
 
 ![](<../.gitbook/assets/Page Menu.png>)
 
 When you choose your input source, instructions will explain how to proceed.
 
 {% hint style="warning" %}
-**Heads up!** Although GitBook supports importing content from different kind of sources, the end result might be different from your source due to differences in product features and document format.
+**Heads up!** Although GitBook supports importing content from different kinds of sources, the end result might be different from your source due to differences in product features and document format.
 {% endhint %}
 
 ## Limits

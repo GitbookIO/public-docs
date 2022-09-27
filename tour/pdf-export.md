@@ -1,5 +1,13 @@
 # PDF export
 
+You can allow readers to download a PDF copy of your content.
+
+{% hint style="info" %}
+**Permissions**
+
+Admins and Creators can allow PDF export for a space.
+{% endhint %}
+
 GitBook supports multiple methods of exporting to PDF:
 
 * export your entire space
@@ -8,7 +16,7 @@ GitBook supports multiple methods of exporting to PDF:
 
 ## Export settings
 
-Choose if you like to allow **readers to download a PDF** **copy** of your content in the features section under advanced features in the customization page of your space publish panel.
+Choose if you like to allow **readers to download a PDF** **copy** of your content in the Configure section in your Space Customization settings.
 
 ![](<../.gitbook/assets/Export to PDF.png>)
 
@@ -52,5 +60,5 @@ Once your PDF is created, which should happen momentarily, you'll be presented w
 ![](<../.gitbook/assets/PDF Modal - Space (1).png>)
 
 {% hint style="info" %}
-PDF export is available as a beta feature in the [business](../billing-and-admin/billing/plans.md#business-plan) and [enterprise](../billing-and-admin/billing/plans.md#our-pricing-plans) plans.
+PDF export is available as a beta feature on the Pro and Enterprise plans.
 {% endhint %}

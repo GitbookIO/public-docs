@@ -2,6 +2,12 @@
 
 You can measure and improve your documentation by checking how your pages are performing and which keywords are used when searching through your documentation.
 
+{% hint style="info" %}
+**Permissions**
+
+Administrators and Creators can view the Insights tab.
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 GitBook measures your traffic per page, and displays the number of page views per page over the course of the selected timespan. You can select from daily, weekly, or monthly traffic. A bar chart is displayed, plotting the traffic over time.

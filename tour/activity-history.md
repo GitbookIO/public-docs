@@ -1,6 +1,12 @@
 # Version control
 
-You can easily monitor all changes submitted to your content thanks to the `Activity` tab. Here, your changes are split into two sections: **Feed** – where you can see the day-to-day actions that have occurred within a given space, and **Change History** – where you can specifically track changes to your space's content
+You can easily monitor all changes submitted to your content thanks to the `Activity` tab. Here, your changes are split into two sections: **Feed** – where you can see the day-to-day actions that have occurred within a given space, and **Change History** – where you can specifically track changes to your space's content.
+
+{% hint style="info" %}
+**Permissions**
+
+Only Administrators can access the Activity tab to view actions and change history in a space.
+{% endhint %}
 
 ## Feed <a href="#see-all-the-activities" id="see-all-the-activities"></a>
 

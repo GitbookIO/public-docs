@@ -55,6 +55,22 @@ Page groups are created to bring pages together and for you to create sections o
 
 You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the table of content, and then clicking "rename".
 
+#### Creating a page group
+
+If you're in live edit mode, can can click the `New page` button on the left hand side under the existing pages in your table of content, and then click `New group`.
+
+If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the `New page` button will be available.
+
+<figure><img src="../../.gitbook/assets/Page group.gif" alt=""><figcaption></figcaption></figure>
+
 ### External links <a href="#external-links" id="external-links"></a>
 
 These entries are external links and do not have any content in the editor. Their main function is to link to external sites or resources.
+
+#### Creating an external link
+
+If you're in live edit mode, can can click the `New page` button on the left hand side under the existing pages in your table of content, and then click `New link`.
+
+If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the `New page` button will be available.
+
+<figure><img src="../../.gitbook/assets/new link.gif" alt=""><figcaption></figcaption></figure>

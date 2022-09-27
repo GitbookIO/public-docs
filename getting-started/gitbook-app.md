@@ -18,8 +18,8 @@ The sidebar contains:
 
 * **The** [**quick find**](../tour/multiple-space-search.md) **field**\
   Quick find helps you quickly navigate between your content, as well as performing common actions.
-* **Your personal and any organization libraries**\
-  Your personal library contains all of the collections and spaces that you personally own. If you are a member of any organizations, you'll have access to the collections and spaces that the organization owns. Use the switch organization toggle, found next to the name of the library, to move between libraries.
+* **Your libraries**\
+  Libraries contain collections and spaces. Use the switch organization toggle, found next to the name of the library, to move between libraries.
 * **The** [**notifications bell**](../tour/notifications.md) **** ![](../.gitbook/assets/notification.png)\
   Located in the bottom-left corner of the sidebar, the notifications bell will let you know about actions that have been taken.
 * **The add new button**\
@@ -54,17 +54,17 @@ The space sub-navigation includes links to:
 
 * ****[**Change requests**](collaboration/change-requests.md)\
   From here you can create a new change request and review existing ones. There's a tab for each status: draft, in review, archived and merged.
-* ****[**History**](../tour/activity-history.md)****\
+* ****[**Version control**](../tour/activity-history.md)****\
   ****Clicking this opens up to provide details about both activity and change history for the space.
 * ****[**Customize**](../tour/customization/space-customization.md)\
   These settings allow you to affect the look and feel of the space, as well as configure features.
 * [**Discussions**](collaboration/comments-discussion.md)\
   You can have space-level conversations with other collaborators of organization-owned spaces here. You can use the feature in spaces that you own personally, too, but you'll have to provide both sides of the conversation!
-* [**Files**](broken-reference)\
+* [**Files**](../tour/editor/blocks/insert-files....md)\
   Upload and manage files from this area.
 * [**Insights**](../tour/insights.md)\
   Insights help you to understand how your public content is being viewed and searched.
-* [**Integrations**](../advanced-guides/integrations-platform/apps-and-integrations-platform.md)\
+* [**Integrations**](../advanced-guides/apps-and-integrations-platform/)\
   You can connect GitBook to some other collaboration tools.
 
 ## Table of contents

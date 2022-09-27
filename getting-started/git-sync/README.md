@@ -1,33 +1,20 @@
-# Git Sync
+# Git sync
 
-## A bi-directional Git integration <a href="a-bi-directional-github-integration" id="a-bi-directional-github-integration"></a>
+Synchronise your GitBook content with GitHub or GitLab with GitBook's bi-directional integration.
 
-![](<../../.gitbook/assets/Git Sync – GH Filled (1).png>)
+{% hint style="info" %}
+**Permissions**
 
-With GitBook you can synchronize your content with GitHub or GitLab repositories and keep your content consistently up-to-date.
+Administrators and Creators can add the Git sync to spaces.
+{% endhint %}
 
-## GitHub: How it works
+### Learn more about:
 
-1. Add the GitBook App to your GitHub account or organization.
-2. You link your GitBook space to a GitHub repository.
-3. You select the branch you care about.
-4. GitBook changes are synced to GitHub as commits, GitHub changes are synced to GitBook as history commits.
+| <p><a href="bi-directional-git-integration.md"><strong>Bi-directional Git integration</strong></a><br>Learn what it is and how it works</p>                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><a href="enabling-github-sync.md"><strong>Enabling GitHub sync</strong></a><br>Learn how to enable the integration if you are using GitHub </p>                      |
+| <p><a href="enabling-gitlab-sync.md"><strong>Enabling GitLab sync</strong></a><br>Learn how to enable the integration if you are using GitHub </p>                      |
+| <p><a href="content-configuration.md"><strong>Content Configuration</strong></a><br>Learn how to configure your content including structure, summary and re-directs</p> |
+| <p><a href="github-pull-request-preview.md"><strong>GitHub Pull-Request Preview</strong></a><br>Learn how to preview the content before merging</p>                     |
+| <p><a href="troubleshooting.md"><strong>Troubleshooting</strong></a><br>Learn how to resolve common problems</p>                                                        |
 
-Full GitHub sync instructions:
-
-{% content-ref url="enabling-github-sync.md" %}
-[enabling-github-sync.md](enabling-github-sync.md)
-{% endcontent-ref %}
-
-## GitLab: How it works
-
-1. Generate an API token in GitLab and add it to your GitBook space
-2. You link your GitBook space to a GitLab repository.
-3. You select the branch you care about.
-4. GitBook changes are synced to GitLab as commits, GitLab changes are synced to GitBook as history commits.
-
-Full GitLab setup instructions:
-
-{% content-ref url="enabling-gitlab-sync.md" %}
-[enabling-gitlab-sync.md](enabling-gitlab-sync.md)
-{% endcontent-ref %}

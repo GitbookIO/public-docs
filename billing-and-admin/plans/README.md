@@ -13,7 +13,7 @@ If you're subscribed to one of our legacy pricing plans, you can:
 
 ### Legacy plan differences
 
-You should be able to see the [full feature comparison](https://www.gitbook.com/pricing) on our site, but here is a convenient comparison between the legacy and the new plans:
+You can find the [full feature comparison](https://www.gitbook.com/pricing) on our site, but here is a convenient comparison between the legacy and the new plans:
 
 #### Team vs Plus
 
@@ -29,10 +29,10 @@ You should be able to see the [full feature comparison](https://www.gitbook.com/
 | --------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------- |
 | [Visitor Authentication](../../advanced-guides/advanced-sharing-and-security/visitor-authentication.md) feature | No       | Yes (up to 100 sessions per month)  |
 | Minimum charge for 20 users                                                                                     | Yes      | No (unlimited users, pay as you go) |
-| Flat [platform fee](plans.md#platform-fee) of $99 per month                                                     | No       | Yes                                 |
+| Flat [platform fee](./#platform-fee) of $99 per month                                                           | No       | Yes                                 |
 
 ### Platform fee
 
-The platform fee allows us to scale the resource demanding features that are available on the Pro plan and are not availble on the Free or Plus plans. It also allows us to keep the per user price lower and remove the minimum charge so that it's easier to scale knowledge sharing across your team.
+The platform fee allows us to scale the resource demanding features that are available on the Pro plan and are not available on the Free or Plus plans. It also allows us to keep the per user price lower and remove the minimum charge so that it's easier to scale knowledge sharing across your team.
 
 The platform fee is flat, which means it doesn't go up as you add more users to your organization.

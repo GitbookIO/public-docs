@@ -5,7 +5,7 @@ description: Use JWT token to authorize anonymous access to private content.
 # Visitor Authentication
 
 {% hint style="info" %}
-This feature is currently accessible to all **Enterprise** customers. If you are interested in the [Enterprise plan](../../billing-and-admin/billing/plans.md#enterprise-plan), please contact [sales@gitbook.com](mailto:sales@gitbook.com) for a quote.
+This feature is currently accessible to all **Enterprise** customers. If you are interested in the [Enterprise plan](../../billing-and-admin/plans/#enterprise-plan), please contact [sales@gitbook.com](mailto:sales@gitbook.com) for a quote.
 {% endhint %}
 
 GitBook provides different solutions to handle access management:

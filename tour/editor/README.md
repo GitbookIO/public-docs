@@ -3,7 +3,7 @@
 GitBook supports rich text and content as well as Markdown. You can build your documentation with a range of editing blocks and inline content, formatting it to match your needs.&#x20;
 
 {% hint style="info" %}
-**Permissions:**\
+**Permissions**\
 The editing function can be accessed by anyone with editor permissions or higher.&#x20;
 {% endhint %}
 
