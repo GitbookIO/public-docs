@@ -5,7 +5,7 @@
 When adding members to your organization, you can give them a **default role**. This role will apply to any content that inherits its permissions from the organization.
 
 {% hint style="info" %}
-Understanding default roles is key to getting the most out of how GitBook handles permission management. Check out **Permissions and inheritance** for a full overview of how permissions cascade throughout content in GitBook.
+Understanding default roles is key to getting the most out of how GitBook handles permission management. Check out [**Permissions and inheritance**](permissions-and-inheritance.md) for a full overview of how permissions cascade throughout content in GitBook.
 {% endhint %}
 
 ## Roles in GitBook

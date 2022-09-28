@@ -9,9 +9,7 @@ You can invite and remove members from your organization, change members' roles 
 {% hint style="info" %}
 **Permissions**
 
-Admins can invite and remove members, change members' roles and permissions and manage Teams.\
-\
-Creators can manage permissions at a content level.
+Admins can invite and remove members, change members' roles and permissions and manage Teams. Creators can manage permissions at a content level.
 {% endhint %}
 
 ### Learn more about:
