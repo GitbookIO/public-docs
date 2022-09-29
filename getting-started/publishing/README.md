@@ -4,7 +4,7 @@ You are ready to publish your content, yay! 🎉 GitBook has different publishin
 
 You can make your content completely [public](space-publishing.md#public-space) to anyone on the internet. Or you can share more securely using [share links](share-links.md) or [visitor authentication](space-publishing.md#visitor-authentication).
 
-You can also use collection publishing to [publish different versions of your documentation](collection-publishing.md#collections-as-variants). For example, you might want to publish your documentation in different languages, or you might want to publish documentation for each version of your product.
+You can also use collection publishing to [publish different versions of your documentation](collection-publishing.md#how-to-publish-a-collection-of-variants). For example, you might want to publish your documentation in different languages, or you might want to publish documentation for each version of your product.
 
 {% hint style="info" %}
 **Permissions**
