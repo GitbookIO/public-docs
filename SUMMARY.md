@@ -103,16 +103,13 @@
 
 ## Billing and admin
 
-* [Settings](billing-and-admin/settings/README.md)
-  * [Account settings](billing-and-admin/settings/account-settings.md)
-  * [Organization settings](billing-and-admin/settings/organization-management.md)
-* [Billing](billing-and-admin/billing/README.md)
-  * [Billing policy](billing-and-admin/billing/billing-policy.md)
-  * [Pro rata](billing-and-admin/billing/pro-rata.md)
+* [Personal account settings](billing-and-admin/account-settings.md)
 * [Organization plans](billing-and-admin/plans/README.md)
+  * [Organization settings](billing-and-admin/plans/organization-management.md)
   * [Free trial](billing-and-admin/plans/free-trial.md)
   * [Non-profit/open source plan](billing-and-admin/plans/non-profit-open-source-plan.md)
-* [Cancelling a plan](billing-and-admin/cancelling-a-plan.md)
+  * [Billing policy](billing-and-admin/plans/billing-policy.md)
+  * [Cancelling a plan](billing-and-admin/plans/cancelling-a-plan.md)
 
 ## Troubleshooting
 

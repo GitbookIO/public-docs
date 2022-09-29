@@ -1,48 +1,58 @@
 # Free trial
 
-## What is the 14-day trial?
+## What is the 14-day free trial?
 
-The trial provides you the opportunity to test all GitBook features, start onboarding your team and create your content. During this period we will stay available for any product questions you may have.
+The free trial gives you the opportunity to test GitBook's features, start onboarding your team and create your content. Please feel free to [reach out to our team](../../troubleshooting/support.md) with any questions you have during this period!
 
 ## How do I start a free trial?
 
-Once you create a GitBook account you will be on the free personal plan.
+When you create a GitBook account, your organization will start out on our free **Personal** plan. Simply [invite one or more team members](../../tour/member-management/) to your organization and a 14-day free trial of our **Plus** plan will begin!
 
-{% hint style="warning" %}
-Inviting collaborators (with any permission level) automatically creates a free trial giving you access to **Plus** features.&#x20;
-{% endhint %}
+<details>
 
-![](<../../.gitbook/assets/Create org.png>)
+<summary>Do I have to provide a payment method to start a free trial?</summary>
 
-{% hint style="info" %}
-**How to check how many days are left in my trial?** \
-****Navigate to your organization settings, then plans. You will see a banner informing you about the remaining length of the trial.&#x20;
-{% endhint %}
+No! We do not ask for any payment information during your free trial. If you decide to upgrade after your trial, we will ask for a payment method at that point.
 
-## Do I have to provide a credit card to start a trial?
+</details>
 
-No credit cards are required to start a trial. Once your trial has expired and you'd like to upgrade you will need to provide your credit card details.
+<details>
 
-## Which features can I test during this free trial?
+<summary>How can I check the time remaining on my free trial?</summary>
 
-You can test all GitBook features available in the **Plus** plan. You can check [our pricing plans](./#our-pricing-plans) to compare the feature differences.
+Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[Organization Name] Settings**. This will take you to the general tab of that organization's settings page. From there, click on the **Plans** tab. You will see a banner on the Plans page that tells you how many days remain on your free trial.
 
-## Which features are part of the plus/pro plan?
+</details>
 
-Check out [our pricing plans](./#our-pricing-plans) to see the differences between the plans and features we offer.
+<details>
 
-## How do I see if I am on the plus/pro plan?
+<summary>Which features can I test during the free trial?</summary>
 
-Once you invited another person to your organization you will automatically enable the 14-day trial of the **Plus** plan. Pro features can be differentiated by the asterisks ✨.
+You can test all of the features of the **Plus** plan. Please take a look at [our pricing page](https://www.gitbook.com/pricing) to compare all of the features of our plans.
 
-## What happens after my trial expires?
+</details>
 
-After 14 days, you will maintain access to features included in your personal plan and any additional users you've invited will be disabled. To continue to collaborate or invite team members you will be required to upgrade to one of our [paid plans](./).
+<details>
 
-## How do I upgrade my organization?
+<summary>What happens at the end of my free trial?</summary>
 
-During your trial you will see some banners which you can click on to upgrade by selecting the plan that fits your needs. You can also go to the [billing section](../settings/organization-management.md) of your organization settings, enter billing details and upgrade from there.
+After the trial, the Plus plan will be cancelled and the organization will be downgraded to our free Personal plan. This means that all Plus features will be disabled, as will any additional users that you have invited to the organization. An upgrade will be required if you would like to restore those additional features or users.
 
-## Can I extend my trial?
+</details>
 
-If you have a **large organization** and you are interested in the **pro plan** or the **enterprise plan** and need some more time to onboard your team you can get in touch with us via [sales@gitbook.com](mailto:sales@gitbook.com). We will go through some requirements first and would be happy to help you! 😊
+<details>
+
+<summary>Can I extend my free trial?</summary>
+
+If you have a **large organization** and you are interested in the **Pro** or **Enterprise** plan, we'd love to offer you some more time to onboard your team! 😊 Please get in touch via [sales@gitbook.com](mailto:sales@gitbook.com) and we'll go through some requirements.
+
+</details>
+
+<details>
+
+<summary>How do I upgrade my organization?</summary>
+
+You can upgrade at any time during your free trial, or after the trial ends. To do this, click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[Organization Name] Settings**. This will take you to the general tab of that organization's settings page. From there, click on the **Plans** tab. At the top, use the **toggle** to view either yearly or monthly pricing, click the **Upgrade** button under your chosen plan, and follow the prompts to complete the upgrade.
+
+</details>
+

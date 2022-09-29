@@ -1,7 +1,13 @@
+---
+description: >-
+  We are happy to provide organizations that meet our criteria with a free
+  Community plan!
+---
+
 # Non-profit/open source plan
 
 {% hint style="info" %}
-Please note that most of your needs should be covered by the free personal account. If you don’t plan to collaborate with others, you can start with it. It allows you to publish content to the world 🌍! It even supports linking a custom domain to each of your spaces.
+Please note that most of your needs should be covered by our free **Personal** account so, if you don’t plan to collaborate with others, please start there. It allows you to publish content to the world 🌍! It even supports linking a [custom domain](../../advanced-guides/custom-domain/) to each of your spaces.
 {% endhint %}
 
 If it's absolutely necessary to collaborate with others, please continue reading.
@@ -10,7 +16,7 @@ If it's absolutely necessary to collaborate with others, please continue reading
 
 We welcome applications from organizations that hold a valid charitable status 501(c) or similar as well as open-source applications with a GitHub or GitLab related project.
 
-Please read the criteria before applying.
+**Please read the criteria before applying.**
 
 {% hint style="warning" %}
 If we reject your application, we are sorry in advance. We don't have the resources to share the details. We'll do our best to give you some context if possible but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
@@ -56,12 +62,12 @@ Your Git repository:
 * You are a small student group or a teacher organizing a course for a small group of students
 
 {% hint style="info" %}
-Individual students that want to keep your personal and course notes should use a free personal account. They give you unlimited private or public spaces **for free**. No need to apply for a community plan.
+Individual students that want to keep your personal and course notes should use our free **Personal** plan. This plan provides unlimited private or public spaces at no cost, without needing to apply for the **Community** plan.
 {% endhint %}
 
 ## How to apply
 
-In order to apply for the community plan, you need to have a **GitBook account** and **create an organization**.
+In order to apply for the Community plan, you need to have a **GitBook account** and have created an **organization**.
 
 1. [Sign up](https://app.gitbook.com/join) if you don't have an account, or [Sign in](https://app.gitbook.com) if you already have one.
 2. Choose an existing organization in the sidebar or [create one](https://app.gitbook.com/welcome/o/business#sidebar\_menu) if you haven't done so.
@@ -72,7 +78,7 @@ In order to apply for the community plan, you need to have a **GitBook account**
 
 4. Visit the [pricing page](https://www.gitbook.com/pricing), and scroll down to Frequently Asked Questions.
 5. Expand "Do you offer non profit/open source discounts?".
-6. Click **Apply here**.
+6. Click the **Apply here** button.
 7. Follow the instructions in the chat bot that pops up.
 
 You might be required to provide additional information for us to validate your organization type:
@@ -80,6 +86,6 @@ You might be required to provide additional information for us to validate your 
 * **Open-source:** link to your GitHub repository or GitLab project
 * **Non-profit:** proof of your non-profit status (such as a copy of your 501(c)(3) or your country's equivalent proof of non-profit status)
 
-We will respond to your query as soon as possible. Please allow up to 5 days for us to review your status and update your account.
+We will respond to your application as soon as possible. Please allow up to 5 working days for us to review your status and update your account.
 
-If you have any other questions, don't hesitate to contact us at [**support@gitbook.com**](mailto:support@gitbook.com)**.**
+If you have any questions, feel free to [contact our support team](../../troubleshooting/support.md).
