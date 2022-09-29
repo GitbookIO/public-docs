@@ -1,4 +1,4 @@
-# Creating pages, groups and links
+# Content in a space
 
 ## Table of Content
 
@@ -13,64 +13,80 @@ From the Table of Content you can:
 * Add [external links](content-structure.md#external-links)
 * [Import external docs](../import.md) like websites or Markdown files
 
-## Structuring your content
+## Organizing your content
 
 ![](<../../.gitbook/assets/Page Menu.png>)
 
-There are 3 different types of entries for the Table of Content.
+There are 4 different types of entries for the Table of Content.
 
-### Initial Page <a href="#initial-page" id="initial-page"></a>
+<details>
+
+<summary>Initial Page </summary>
 
 The initial page is the homepage or the root of your documentation and basically works as the main node of all the pages of your documentation.
 
-### Pages
+</details>
+
+<details>
+
+<summary>Pages</summary>
 
 A page has a title, an optional description, and a content area where you can write and add any kind of content.‌
 
 You can nest pages by dragging and dropping a page below an other in the table of contents.
 
-{% hint style="info" %}
 **Good to know:** There is no theoretical limit to page nesting. But we advise that you avoid adding more than 3 levels of nesting to avoid overly complex structures that might be overwhelming to navigate.
-{% endhint %}
 
 When you change the title of a page, the page's **slug** (the part at the very end of the URL, e.g. `/hello-world`) will automatically update, unless you've already manually set the page's slug.
 
 You can change the title and the slug of a page anytime by clicking on the `...` button next to the page title in the table of content, and then clicking "rename".
 
-#### Creating a new page
+</details>
 
-If you're in live edit mode, you'll spot the new page link on the left hand side under the existing pages in your table of content.
+<details>
 
-If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the option to create a new page will be available. Again, you'll see this on the left hand side under the existing pages in your table of content.
-
-![](../../.gitbook/assets/create-new-page.gif)
-
-### Page groups <a href="#groups" id="groups"></a>
+<summary>Page Groups</summary>
 
 Page groups are created to bring pages together and for you to create sections of pages dealing with similar subjects.
 
-{% hint style="info" %}
 **Good to know:** Groups can only live at the **top level of the table of content**. You cannot nest groups inside groups.
-{% endhint %}
 
 You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the table of content, and then clicking "rename".
 
-#### Creating a page group
+</details>
 
-If you're in live edit mode, can can click the `New page` button on the left hand side under the existing pages in your table of content, and then click `New group`.
+<details>
 
-If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the `New page` button will be available.
-
-<figure><img src="../../.gitbook/assets/Page group.gif" alt=""><figcaption></figcaption></figure>
-
-### External links <a href="#external-links" id="external-links"></a>
+<summary>External links</summary>
 
 These entries are external links and do not have any content in the editor. Their main function is to link to external sites or resources.
 
-#### Creating an external link
+</details>
 
-If you're in live edit mode, can can click the `New page` button on the left hand side under the existing pages in your table of content, and then click `New link`.
+## Create a new page
 
-If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the `New page` button will be available.
+If you're in live edit mode, you'll spot the new page link on the left-hand side under the existing pages in your table of content.
+
+![](../../.gitbook/assets/create-new-page.gif)
+
+Once a new page is created you will be able to write rich text and rich content using our [editor](../../tour/editor/).
+
+## Create a page group
+
+If you're in live edit mode, can click the `New page` button on the left-hand side under the existing pages in your table of content, and then click `New group`.
+
+
+
+<figure><img src="../../.gitbook/assets/Page group.gif" alt=""><figcaption></figcaption></figure>
+
+## Create external links <a href="#external-links" id="external-links"></a>
+
+If you're in live edit mode, can click the `New page` button on the left-hand side under the existing pages in your table of content, and then click `New link`.
 
 <figure><img src="../../.gitbook/assets/new link.gif" alt=""><figcaption></figcaption></figure>
+
+## Can't see the option to create a new page?
+
+{% hint style="warning" %}
+If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the `New page` button which allows you to create pages, page groups and links will be available.
+{% endhint %}
