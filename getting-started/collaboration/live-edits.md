@@ -8,7 +8,7 @@ description: >-
 
 ![GitBook saving your live edits automatically](<../../.gitbook/assets/Live Edit.png>)
 
-**Live editing** is the default mode of any newly-created GitBook space. A space in live edit mode is editable instantly by anyone with the [correct permissions](../../tour/member-management/).
+**Live editing** is the default mode of any newly-created GitBook space. A space in live edit mode is editable instantly by anyone with the [correct permission level](../../tour/member-management/).
 
 {% hint style="info" %}
 Live editing is not available [in some cases](live-edits.md#when-is-live-editing-not-available).
