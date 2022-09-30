@@ -40,7 +40,7 @@ We love to hear your feedback at _any_ time, but it's especially helpful for us 
 ![](../../.gitbook/assets/cancel-step-5.png)
 
 {% hint style="info" %}
-**Good to know:** Once your plan has been cancelled, it will remain active through to the end of your current billing period. Your subscription will no longer renew, and the plan's cancellation will take full effect at the end of that billing period.
+Once your plan has been cancelled, it will remain active through to the end of your current billing period. Your subscription will no longer renew, and the plan's cancellation will take full effect at the end of that billing period.
 {% endhint %}
 
 ### Changed your mind? No problem!

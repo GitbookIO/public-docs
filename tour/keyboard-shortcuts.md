@@ -1,3 +1,7 @@
+---
+description: Helping you to make changes to your GitBook documentation even faster!
+---
+
 # Keyboard shortcuts
 
 Shortcut keys allow easy and quick methods for navigating or editing content.

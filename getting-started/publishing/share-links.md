@@ -1,7 +1,13 @@
+---
+description: >-
+  Share links give you greater control over who can view your GitBook
+  documentation.
+---
+
 # Share links
 
 {% hint style="info" %}
-This feature is available on our Pro and Enterprise plans. If you'd like to learn more, check out [our plans.](../../billing-and-admin/plans/#our-pricing-plans)
+This feature is available on our Pro and Enterprise plans.
 {% endhint %}
 
 Share your private content with customers and partners without inviting them to your organization by using a secret shareable link!

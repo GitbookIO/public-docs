@@ -7,7 +7,7 @@ Customizing a collection allows you to set top-level customizations that spaces 
 Customizing your collection lets you control the branding, presentation and extra features of your space's public content.
 
 {% hint style="info" %}
-**Good to know:** most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
+Most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
 {% endhint %}
 
 ## Presentation
@@ -19,7 +19,7 @@ Presentation customizations let you tweak how your collection's basics will appe
 You can override the icon and title that your visitors will see when they access your public content. This lets you give your collection an 'internal' (in-app) title and an 'external', or public title. The same applies to the collection icon.
 
 {% hint style="info" %}
-**Good to know:** It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic collection titles in the GitBook app.
+It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic collection titles in the GitBook app.
 {% endhint %}
 
 ### Localize user interface
@@ -29,7 +29,7 @@ You can select from a list of languages to localize the user interface of your p
 ![](../../.gitbook/assets/Localize.png)
 
 {% hint style="info" %}
-**Good to know:** We're constantly making efforts to support further localized languages. [Give us a shout](https://www.gitbook.com/contact/contact-support) if you have a suggestion.
+We're constantly making efforts to support further localized languages. [Give us a shout](https://www.gitbook.com/contact/contact-support) if you have a suggestion.
 {% endhint %}
 
 ## Logos and social
@@ -39,7 +39,7 @@ You can upload a custom social preview image for your space. This will set the s
 You can also replace the space's title entirely with a custom logo. This lets you keep your brand running through your docs.
 
 {% hint style="info" %}
-**Good to know:** Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](collection-customization.md#published-title-and-icon).
+Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](collection-customization.md#published-title-and-icon).
 {% endhint %}
 
 ## Collection publish mode
@@ -51,7 +51,7 @@ This lets you control how your collection will be published, and set any default
 Publish mode will determine how your published collection is presented. Currently, only one mode is supported: variants. You can learn more about variants in the [collection visibility](../../getting-started/publishing/collection-publishing.md#collections-as-variants) section of these docs.
 
 {% hint style="info" %}
-**Good to know:** we're actively working on new ways to publish collections, so while it might seem strange to only have one option here, in the future there'll be other ways to display your published content!
+We're actively working on new ways to publish collections, so while it might seem strange to only have one option here, in the future there'll be other ways to display your published content!
 {% endhint %}
 
 ### Default space
@@ -69,7 +69,7 @@ To set a default space within a collection, open the collection page in GitBook.
 Theming lets you customize the primary colour, heading theme, and font family of your public content.
 
 {% hint style="info" %}
-**Good to know:** When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary colour you want to use.
+When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary colour you want to use.
 {% endhint %}
 
 ### Primary colour
@@ -77,7 +77,7 @@ Theming lets you customize the primary colour, heading theme, and font family of
 The primary colour of your public content will be applied to things like links, hover states, and buttons. This colour change will only apply to your **published** content.
 
 {% hint style="info" %}
-**Good to know:** Accessibility is important! While you can set your primary colour to pretty much anything you like, try to keep things accessible and choose a colour that'll have good contrast when used as a text link.
+Accessibility is important! While you can set your primary colour to pretty much anything you like, try to keep things accessible and choose a colour that'll have good contrast when used as a text link.
 {% endhint %}
 
 ### Heading theme
@@ -97,7 +97,7 @@ The **Dark** header theme will show a dark header, with light text.
 You can customize the font family of your public content from a list of predefined options.
 
 {% hint style="info" %}
-**Good to know:** GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-support).
+GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-support).
 {% endhint %}
 
 ## Header links

@@ -1,5 +1,7 @@
 ---
-description: Learn about the native insights GitBook provides for your public documentation
+description: >-
+  Learn about the native insights GitBook provides for your public
+  documentation.
 ---
 
 # Insights

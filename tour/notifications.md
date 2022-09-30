@@ -1,12 +1,12 @@
 ---
 description: >-
-  Notifications provide updates about the activity on GitBook that comes from
-  spaces owned by you or an organization that you are a member of
+  Notify your team members about new content, important changes to your
+  documentation or changes in visibility.
 ---
 
 # Notifications
 
-GitBook supports in-app and email notifications.
+Notifications provide updates about the activity on GitBook that comes from spaces owned by you or an organization that you are a member of. GitBook supports in-app and email notifications.
 
 {% hint style="info" %}
 **Permissions**

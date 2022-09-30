@@ -1,3 +1,7 @@
+---
+description: Find answers to some of the most frequently asked questions
+---
+
 # FAQs
 
 ## Who is behind GitBook?
@@ -35,8 +39,6 @@ If you _do_ want to reset your password:
 2. Follow the **Forgot your password?** link at the bottom of the page
 3. Enter the email address associated to the personal account you had signed up for
 4. Click **Send a link** (make sure you check your spam folder)
-
-
 
 ## What browsers are supported by GitBook?
 

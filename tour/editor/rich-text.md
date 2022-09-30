@@ -5,7 +5,7 @@
 You can add some formatting by selecting some text to open the **inline palette**. ✨
 
 {% hint style="info" %}
-**Good to know:** When hovering over one of the formatting options you can see the [markdown alternatives](markdown.md) and [keyboard shortcuts](../keyboard-shortcuts.md).
+When hovering over one of the formatting options you can see the [markdown alternatives](markdown.md) and [keyboard shortcuts](../keyboard-shortcuts.md).
 {% endhint %}
 
 ## Links <a href="#links" id="links"></a>

@@ -1,3 +1,7 @@
+---
+description: Helping your GitBook documentation to reach people in multiple languages.
+---
+
 # Internationalization
 
 GitBook supports the internationalization of a space or a collection, enabling public documentation user interface elements to be translated.

@@ -1,5 +1,5 @@
 ---
-description: Learn about publishing a collection as a container for variants
+description: Learn about publishing a collection as a container for variants.
 ---
 
 # Collection publishing

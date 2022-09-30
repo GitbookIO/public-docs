@@ -1,7 +1,7 @@
 # SAML single sign-on
 
 {% hint style="info" %}
-This feature is included in the [Enterprise plan](../../billing-and-admin/plans/#enterprise-plan).
+This feature is included in the Enterprise plan.
 {% endhint %}
 
 **SAML-based Single Sign-On** (SSO) gives members access to GitBook through an identity provider (IdP) of your choice.‌
@@ -46,7 +46,7 @@ GitBook requires that the **NameID** contain the user’s email address. Technic
 To add members, create accounts for them in your IdP. The first time a new member logs in to GitBook via the IdP, a GitBook account will be created for them via automatic IdP provisioning. The user will have access to organization resources as an organization member.
 
 {% hint style="danger" %}
-**Good to know:** Set-up requires lower case email addresses. Do not use mixed case email addresses.‌
+Set-up requires lower case email addresses. Do not use mixed case email addresses.‌
 {% endhint %}
 
 ## ​Removing accounts <a href="#removing-end-user-accounts" id="removing-end-user-accounts"></a>

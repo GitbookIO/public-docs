@@ -1,5 +1,5 @@
 ---
-description: What are the different plans on GitBook?
+description: Learn about the plans we offer for your GitBook organizations.
 ---
 
 # Organization plans

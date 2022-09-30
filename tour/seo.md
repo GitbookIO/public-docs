@@ -1,6 +1,8 @@
-# SEO
+---
+description: Optimize your GitBook documentation to be discoverable via search engines.
+---
 
-It's important that users can easily find a public product or a help doc using Google search engine.
+# SEO
 
 ## Overview <a href="#overview" id="overview"></a>
 

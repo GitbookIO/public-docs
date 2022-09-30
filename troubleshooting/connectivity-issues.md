@@ -1,8 +1,8 @@
 ---
-description: Avoiding network related access issues
+description: Avoiding network related access issues.
 ---
 
-# Firewall safelist
+# How do I solve connectivity issues?
 
 Here is a list of services GitBook relies on to run its app. If you have any kind of firewall or application that blocks all traffic or some of the sites listed below, you should add an exception to allow GitBook to work in your network.
 

@@ -11,5 +11,5 @@ All headings have anchor links, which are links that you can use to point to a p
 You can see the anchors of a title when your content is in read mode. If you want to make some text point to an anchor within a page in your space, you can add a [relative link](../rich-text.md#relative-links).
 
 {% hint style="info" %}
-**Good to know:** Reading on a screen is less comfortable than reading on paper. Make sure your content is not too long with too many titles. Sometimes splitting your content into different pages creates a better overview! 🤓
+Reading on a screen is less comfortable than reading on paper. Make sure your content is not too long with too many titles. Sometimes splitting your content into different pages creates a better overview! 🤓
 {% endhint %}

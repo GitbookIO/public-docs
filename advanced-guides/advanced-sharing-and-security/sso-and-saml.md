@@ -11,5 +11,5 @@ You can enable email domain SSO in the 'SSO' section of your organization settin
 ![](<../../.gitbook/assets/SSO Email.png>)
 
 {% hint style="info" %}
-**Good to know:** Anyone who joins via an SSO email domain will default to guest access, you can change their role at any time in the Members section of your organization settings.
+Anyone who joins via an SSO email domain will default to guest access, you can change their role at any time in the Members section of your organization settings.
 {% endhint %}

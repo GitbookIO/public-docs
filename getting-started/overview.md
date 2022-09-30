@@ -1,5 +1,5 @@
 ---
-description: Get to know your way around our documentation platform.
+description: Get to know your way around GitBook's documentation platform.
 ---
 
 # Overview

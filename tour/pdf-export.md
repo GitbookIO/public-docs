@@ -1,6 +1,8 @@
-# PDF export
+---
+description: Learn how to enable readers to download a PDF copy of your content on GitBook.
+---
 
-You can allow readers to download a PDF copy of your content.
+# PDF export
 
 {% hint style="info" %}
 **Permissions**

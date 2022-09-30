@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to GitBook](README.md)
+* [GitBook docs](README.md)
 
 ## Getting started
 
@@ -13,7 +13,7 @@
   * [Content Configuration](getting-started/git-sync/content-configuration.md)
   * [GitHub Pull-Request Preview](getting-started/git-sync/github-pull-request-preview.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
-* [Content Structure](getting-started/content-structure/README.md)
+* [Content structure](getting-started/content-structure/README.md)
   * [What is a space?](getting-started/content-structure/what-is-a-space.md)
   * [Content in a space](getting-started/content-structure/content-structure.md)
   * [What is a collection?](getting-started/content-structure/what-is-a-collection.md)
@@ -28,7 +28,7 @@
 
 ## Product tour <a href="#tour" id="tour"></a>
 
-* [Quick Find](tour/quick-find.md)
+* [Quick find](tour/quick-find.md)
 * [Editor](tour/editor/README.md)
   * [Rich text](tour/editor/rich-text.md)
   * [Blocks](tour/editor/blocks/README.md)

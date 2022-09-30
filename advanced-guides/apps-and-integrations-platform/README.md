@@ -1,5 +1,7 @@
 ---
-description: Connect your Spaces to your favorite collaboration tools & analytics platform
+description: >-
+  Connect your GitBook spaces to your favorite collaboration tools & analytics
+  platform.
 ---
 
 # Apps & Integrations platform
@@ -17,8 +19,8 @@ To install integration in a single space you have to have creator permissions in
 
 ### Learn more about:
 
-| <p><a href="install-an-integration.md"><strong>Install an integration</strong></a><br>Learn how to install an integration in a single space or on all your content</p>                     |
+| <p><a href="install-an-integration.md"><strong>Install an integration</strong></a><br>Learn how to install an integration in a single space or on all your content.</p>                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p><a href="segment/"><strong>Segment</strong> </a><strong></strong><br><strong></strong>Collect, clean and utilise your customer data</p>                                                 |
+| <p><a href="segment/"><strong>Segment</strong> </a><strong></strong><br><strong></strong>Collect, clean and utilise your customer data.</p>                                                |
 | <p><a href="slack/"><strong>Slack</strong></a><strong></strong><br><strong></strong>Receive real-time Slack notifications when something important happens to your content on GitBook.</p> |
-| <p><a href="privacy-policy-disclosure.md"><strong>Privacy policy</strong> </a><strong></strong></p><p>Display your privacy policy if using Google Analytics integration</p>                |
+| <p><a href="privacy-policy-disclosure.md"><strong>Privacy policy</strong> </a><strong></strong></p><p>Display your privacy policy if using the Google Analytics integration.</p>           |

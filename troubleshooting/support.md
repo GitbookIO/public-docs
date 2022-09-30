@@ -1,3 +1,9 @@
+---
+description: >-
+  Our friendly support team is here to help. Learn what information to share and
+  when can you an expect a response.
+---
+
 # How do I contact support?
 
 There are two ways to get in touch with us:

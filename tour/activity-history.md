@@ -1,3 +1,7 @@
+---
+description: Learn how to monitor changes, roll back to a previous point in time, and more.
+---
+
 # Version control
 
 You can easily monitor all changes submitted to your content thanks to the `Activity` tab. Here, your changes are split into two sections: **Feed** – where you can see the day-to-day actions that have occurred within a given space, and **Change History** – where you can specifically track changes to your space's content.

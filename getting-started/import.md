@@ -1,6 +1,10 @@
-# Import
+---
+description: >-
+  Find out how to easily migrate your existing documentation and which formats
+  are supported.
+---
 
-You can import existing content from other sources to quickly get started with creating in GitBook.
+# Import
 
 {% hint style="info" %}
 **Permissions**

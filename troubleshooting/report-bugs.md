@@ -1,3 +1,9 @@
+---
+description: >-
+  Encountered a bug? Find out how to provide all the essential information for
+  speedy resolution.
+---
+
 # How do I report bugs?
 
 Bugs should be reported using the messaging widget available from your dashboard or by sending an email to [support@gitbook.com](mailto:support@gitbook.com). In order to get the best help possible, please provide as much context on how you encountered the bug.

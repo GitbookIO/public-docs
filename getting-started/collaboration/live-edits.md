@@ -1,7 +1,7 @@
 ---
 description: >-
   With live editing you can start making changes to your internal documentation
-  on the spot. No need to create a change request first.
+  on the spot. There's no need to create a change request first.
 ---
 
 # Live edits

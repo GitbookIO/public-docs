@@ -1,6 +1,11 @@
-# Quick Find
+---
+description: >-
+  GitBook's quick find command palette lets you search for – and quickly
+  navigate between – all your content, as well as performing common space
+  actions.
+---
 
-Our quick find command palette lets you search for – and quickly navigate between – all your content, as well as performing common space actions.
+# Quick find
 
 {% hint style="info" %}
 **Permissions**
@@ -17,7 +22,7 @@ Use our quick find command palette to search and navigate across all your conten
 As a first try: open the quick find palette, start typing the name of a space, hit enter, and check out how quickly you can jump between content!
 
 {% hint style="info" %}
-**​Good to know:** You can easily open the quick find palette by pressing **CMD + K** on Mac or **Ctrl + K** on Windows.
+**​**You can easily open the quick find palette by pressing **CMD + K** on Mac or **Ctrl + K** on Windows.
 {% endhint %}
 
 ## Display of results <a href="#display-of-results" id="display-of-results"></a>
@@ -28,9 +33,9 @@ So write down what you need, take a look at results in other spaces, pick the pa
 
 When you select a search result from an organization, you will switch to browsing that organization. To go back, use Quick Find to select a document in the organization you were in before, or use the organization switcher in your left hand sidebar.
 
-## Search Filters
+## Search filters
 
-Quick Find supports filtering your results by author, and by space or organization.
+Quick find supports filtering your results by author, and by space or organization.
 
 To filter your results by author, add a `by:` filter to your query. You can then search for members of your organization by name, and select the author you're interested in.
 
@@ -40,11 +45,11 @@ To filter your results by space or organization, add an `in:` filter to your que
 
 ![](<../.gitbook/assets/Command Palette - s - in.png>)
 
-## Navigation and Performing Space Actions with Quick Find
+## Navigation and performing space actions with quick find
 
-Quick Find also helps you navigate to settings and orgs, as well as perform certain space actions like locking and unlocking live edits, setting up Git Sync, and starting a change request.
+Quick find also helps you navigate to settings and orgs, as well as perform certain space actions like locking and unlocking live edits, setting up Git Sync, and starting a change request.
 
-To see the list of actions that Quick Find can kick off, open Quick Find and scroll down, or use the arrow keys to see the available options.
+To see the list of actions that quick find can kick off, open quick find and scroll down, or use the arrow keys to see the available options.
 
 ![](<../.gitbook/assets/Command Palette - actions.png>)
 
@@ -53,10 +58,10 @@ To see the list of actions that Quick Find can kick off, open Quick Find and scr
 Quick find is compliant with your team permission settings, meaning that users will only be able to search the content they have permission to access.‌
 
 {% hint style="warning" %}
-**Please note:** Multiple space search is not available on the public published site of a [GitBook Space](../getting-started/content-structure/what-is-a-space.md). It's only available to the authenticated members of a GitBook organization based on their permission settings. External visitors of a public space can only search that space.
+**Please note:** Multiple space search is not available on the public published site of a [GitBook space](../getting-started/content-structure/what-is-a-space.md). It's only available to the authenticated members of a GitBook organization based on their permission settings. External visitors of a public space can only search that space.
 {% endhint %}
 
-## ​A note on Content Indexing <a href="#indexation" id="indexation"></a>
+## ​A note on content indexing <a href="#indexation" id="indexation"></a>
 
 We index your content by grouping it into "sections". Sections are a group of **headings** (H1, H2, or H3) with its following text. A section can be a heading with its text, or just text.
 

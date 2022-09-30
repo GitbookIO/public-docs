@@ -9,5 +9,5 @@ There are 3 different sizes of inline images:‌
 3. **Convert to block:** this turns an inline image into a [block image](../blocks/#quote-1) with its original size
 
 {% hint style="info" %}
-**Good to know:** You can switch the size of an inline image by clicking on the image to open the formatting palette, and then choosing one of the options above.
+You can switch the size of an inline image by clicking on the image to open the formatting palette, and then choosing one of the options above.
 {% endhint %}

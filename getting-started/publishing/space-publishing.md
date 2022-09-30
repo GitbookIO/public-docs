@@ -1,3 +1,7 @@
+---
+description: Learn about the different options for publishing your GitBook space.
+---
+
 # Space publishing
 
 ## Publishing your space

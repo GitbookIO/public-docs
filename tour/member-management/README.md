@@ -1,5 +1,5 @@
 ---
-description: Learn how to manage members in your organization
+description: Learn how to manage access to content for members of your organization.
 ---
 
 # Member management
@@ -14,10 +14,10 @@ Admins can invite and remove members, change members' roles and permissions and 
 
 ### Learn more about:
 
-| <p><strong></strong><a href="roles.md"><strong>Member roles</strong></a><br>Learn about the different member roles in GitBook</p>                   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><a href="teams.md"><strong>Teams</strong></a><strong></strong><br><strong></strong>Learn about using teams to organize your members</p>          |
-| <p><a href="permissions-and-inheritance.md"><strong>Permissions and inheritance</strong></a><br>Learn about content permissions and inheritance</p> |
+| <p><strong></strong><a href="roles.md"><strong>Member roles</strong></a><br>Learn about the different member roles in GitBook.</p>                   |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><a href="teams.md"><strong>Teams</strong></a><strong></strong><br><strong></strong>Learn about using teams to organize your members.</p>          |
+| <p><a href="permissions-and-inheritance.md"><strong>Permissions and inheritance</strong></a><br>Learn about content permissions and inheritance.</p> |
 
 ## Invite members to your organization
 

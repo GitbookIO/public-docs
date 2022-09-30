@@ -1,3 +1,9 @@
+---
+description: >-
+  Learn how to set a custom domain for your GitBook organization, collection, or
+  space.
+---
+
 # Set a custom domain
 
 By default, your spaces and collections are accessible on a \[something].gitbook.io domain. However, you can customize this by setting a custom domain, meaning your audience will be able to access your documentation on a domain that makes sense for your organization.

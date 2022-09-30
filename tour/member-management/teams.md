@@ -1,6 +1,8 @@
-# Teams
+---
+description: Teams are a great way of grouping members within your organization.
+---
 
-Teams are a great way of grouping members within your organization.
+# Teams
 
 ## Creating and managing teams
 
