@@ -6,17 +6,17 @@
 
 * [GitBook app](getting-started/gitbook-app.md)
 * [Import](getting-started/import.md)
-* [Git sync](getting-started/git-sync/README.md)
+* [Git Sync](getting-started/git-sync/README.md)
   * [Bi-directional Git integration](getting-started/git-sync/bi-directional-git-integration.md)
   * [Enabling GitHub Sync](getting-started/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](getting-started/git-sync/enabling-gitlab-sync.md)
   * [Content Configuration](getting-started/git-sync/content-configuration.md)
   * [GitHub Pull-Request Preview](getting-started/git-sync/github-pull-request-preview.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
-* [Structuring content](getting-started/structuring-content/README.md)
-  * [What is a space?](getting-started/structuring-content/what-is-a-space.md)
-  * [Content in a space](getting-started/structuring-content/content-structure.md)
-  * [What is a collection?](getting-started/structuring-content/what-is-a-collection.md)
+* [Content Structure](getting-started/content-structure/README.md)
+  * [What is a space?](getting-started/content-structure/what-is-a-space.md)
+  * [Content in a space](getting-started/content-structure/content-structure.md)
+  * [What is a collection?](getting-started/content-structure/what-is-a-collection.md)
 * [Collaboration](getting-started/collaboration/README.md)
   * [Live edits](getting-started/collaboration/live-edits.md)
   * [Change requests](getting-started/collaboration/change-requests.md)
@@ -28,7 +28,7 @@
 
 ## Product tour <a href="#tour" id="tour"></a>
 
-* [Search with quick find](tour/multiple-space-search.md)
+* [Quick Find](tour/quick-find.md)
 * [Editor](tour/editor/README.md)
   * [Rich text](tour/editor/rich-text.md)
   * [Blocks](tour/editor/blocks/README.md)

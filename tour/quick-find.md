@@ -1,4 +1,4 @@
-# Search with quick find
+# Quick Find
 
 Our quick find command palette lets you search for – and quickly navigate between – all your content, as well as performing common space actions.
 
@@ -53,7 +53,7 @@ To see the list of actions that Quick Find can kick off, open Quick Find and scr
 Quick find is compliant with your team permission settings, meaning that users will only be able to search the content they have permission to access.‌
 
 {% hint style="warning" %}
-**Please note:** Multiple space search is not available on the public published site of a [GitBook Space](../getting-started/structuring-content/what-is-a-space.md). It's only available to the authenticated members of a GitBook organization based on their permission settings. External visitors of a public space can only search that space.
+**Please note:** Multiple space search is not available on the public published site of a [GitBook Space](../getting-started/content-structure/what-is-a-space.md). It's only available to the authenticated members of a GitBook organization based on their permission settings. External visitors of a public space can only search that space.
 {% endhint %}
 
 ## ​A note on Content Indexing <a href="#indexation" id="indexation"></a>

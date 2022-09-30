@@ -16,7 +16,7 @@ You can use the arrow near the top to open and close the sidebar. Closing the si
 
 The sidebar contains:
 
-* **The** [**quick find**](../tour/multiple-space-search.md) **field**\
+* **The** [**quick find**](../tour/quick-find.md) **field**\
   Quick find helps you quickly navigate between your content, as well as performing common actions.
 * **Your libraries**\
   Libraries contain collections and spaces. Use the switch organization toggle, found next to the name of the library, to move between libraries.
