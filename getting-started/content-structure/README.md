@@ -2,7 +2,7 @@
 description: Learn how to use pages, page groups, spaces and collections
 ---
 
-# Structuring content
+# Content Structure
 
 Build the structure for your documentation using pages, spaces and collections. Pages live inside of spaces, and collections are groups of spaces.
 

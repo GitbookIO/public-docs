@@ -10,10 +10,9 @@ Git Sync allows technical teams to synchronize GitHub or GitLab repositories wit
 
 Git Sync is bi-directional, so changes made directly in GitBook’s editor are automatically updated, as are any commits made on GitHub or GitLab. This allows developers to commit directly from GitHub or GitLab and technical writers, instructional designers and product managers to edit, discuss and feedback changes directly in GitBook.&#x20;
 
-**Permissions**
-
 {% hint style="info" %}
-Administrators and Creators can add the Git sync to spaces.
+**Permissions**\
+****Administrators and Creators can add the Git sync to spaces.
 {% endhint %}
 
 ### Learn more about:

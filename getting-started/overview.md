@@ -2,7 +2,7 @@
 description: Get to know your way around our documentation platform.
 ---
 
-# GitBook app
+# Overview
 
 This page walks you through various sections, features and menus that you'll find within the GitBook app. Start by creating or logging into your account at [app.gitbook.com](https://app.gitbook.com/).
 
@@ -91,7 +91,7 @@ The page header is made up of:
 2. The page title, which will always match the page name in the table of contents.
 3. An optional page description.
 
-Depending on the width of your screen, you _might_ also see a menu icon with 3 vertical dots in the top-right corner of the page header section. You can expect to see this if your browser width is less than 1430 pixels wide. Clicking on this icon will reveal the [page actions](gitbook-app.md#page-actions) menu. In a wider browser window, you would see this menu in the right column, instead.
+Depending on the width of your screen, you _might_ also see a menu icon with 3 vertical dots in the top-right corner of the page header section. You can expect to see this if your browser width is less than 1430 pixels wide. Clicking on this icon will reveal the [page actions](overview.md#page-actions) menu. In a wider browser window, you would see this menu in the right column, instead.
 
 ## Editor
 
@@ -108,7 +108,7 @@ In addition, you can [embed content](../tour/editor/blocks/embed-a-url....md) fr
 Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](collaboration/live-edits.md) enabled, or when you're working in a [change request](collaboration/change-requests.md).
 
 {% hint style="info" %}
-If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. You'll see an icon for the page actions menu in the [page header](gitbook-app.md#page-header), instead.
+If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. You'll see an icon for the page actions menu in the [page header](overview.md#page-header), instead.
 {% endhint %}
 
 ## Page outline

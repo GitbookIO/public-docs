@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome to GitBook](README.md)
 
 ## Getting started
 
-* [GitBook app](getting-started/gitbook-app.md)
+* [Overview](getting-started/overview.md)
 * [Import](getting-started/import.md)
 * [Git Sync](getting-started/git-sync/README.md)
   * [Bi-directional Git integration](getting-started/git-sync/bi-directional-git-integration.md)
