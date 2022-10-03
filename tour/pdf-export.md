@@ -1,20 +1,22 @@
 ---
-description: Learn how to enable readers to download a PDF copy of your content on GitBook.
+description: Learn how to export a PDF copy of your content on GitBook.
 ---
 
 # PDF export
 
-{% hint style="info" %}
-**Permissions**
-
-Admins and Creators can allow PDF export for a space.
-{% endhint %}
+PDF export feature allows you to export your content.&#x20;
 
 GitBook supports multiple methods of exporting to PDF:
 
 * export your entire space
 * export a single page
 * export a page and all of its subpages
+
+{% hint style="info" %}
+**Permissions**
+
+Admins and Creators can allow PDF export for a space.
+{% endhint %}
 
 ## Export settings
 

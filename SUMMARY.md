@@ -1,6 +1,6 @@
 # Table of contents
 
-* [GitBook docs](README.md)
+* [Introduction to GitBook](README.md)
 
 ## Getting started
 

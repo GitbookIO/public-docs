@@ -4,8 +4,6 @@ description: Optimize your GitBook documentation to be discoverable via search e
 
 # SEO
 
-## Overview <a href="#overview" id="overview"></a>
-
 Thanks to the following features, your GitBook projects are SEO-friendly, with little or no configuration on your end:
 
 * ​Custom domains (e.g: `docs.example.com`)

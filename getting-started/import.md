@@ -6,6 +6,8 @@ description: >-
 
 # Import
 
+The import function allows you to migrate and unify existing documentation in GitBook. You can choose to import single or multiple pages although limits apply.&#x20;
+
 {% hint style="info" %}
 **Permissions**
 

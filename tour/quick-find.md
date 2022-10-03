@@ -1,11 +1,10 @@
 ---
-description: >-
-  GitBook's quick find command palette lets you search for – and quickly
-  navigate between – all your content, as well as performing common space
-  actions.
+description: Learn how to seamlessly search and navigate your documentation
 ---
 
 # Quick find
+
+GitBook's quick find command palette lets you search for – and quickly navigate between – all your content, as well as perform common space actions.
 
 {% hint style="info" %}
 **Permissions**
@@ -13,25 +12,25 @@ description: >-
 All member roles can use quick find. Quick find is compliant with your team permission settings, meaning that members will only be able to search the content they have permission to access.‌
 {% endhint %}
 
-![](<../.gitbook/assets/Command Palette.png>)
+## How to use quick find
 
-When writing or reading docs, you sometimes want to find what you need in the twinkling of an eye wherever it’s located.
+When writing or reading docs, you'll want to find whatever you need quickly, wherever it’s located.
 
 Use our quick find command palette to search and navigate across all your content.
 
-As a first try: open the quick find palette, start typing the name of a space, hit enter, and check out how quickly you can jump between content!
-
-{% hint style="info" %}
+{% hint style="success" %}
 **​**You can easily open the quick find palette by pressing **CMD + K** on Mac or **Ctrl + K** on Windows.
 {% endhint %}
 
+![](<../.gitbook/assets/Command Palette.png>)
+
 ## Display of results <a href="#display-of-results" id="display-of-results"></a>
 
-Results of the space you're in are displayed first, followed by results from other spaces from from the organization you're currently editing in, **as well as other organizations** you are a member of.
+Results of the space you're in are displayed first, followed by results from other spaces from the organization you're currently editing in, **as well as other organizations** you are a member of.
 
 So write down what you need, take a look at results in other spaces, pick the page or section you're interested in and voilà!
 
-When you select a search result from an organization, you will switch to browsing that organization. To go back, use Quick Find to select a document in the organization you were in before, or use the organization switcher in your left hand sidebar.
+When you select a search result from an organization, you will switch to browsing that organization. To go back, use Quick Find to select a document in the organization you were in before, or use the organization switcher in your left-hand sidebar.
 
 ## Search filters
 
@@ -63,7 +62,7 @@ Quick find is compliant with your team permission settings, meaning that users w
 
 ## ​A note on content indexing <a href="#indexation" id="indexation"></a>
 
-We index your content by grouping it into "sections". Sections are a group of **headings** (H1, H2, or H3) with its following text. A section can be a heading with its text, or just text.
+We index your content by grouping it into "sections". Sections are a group of **headings** (H1, H2, or H3) with its following text. A section can be a heading with its text or just text.
 
-When a section starts with H1 and contain a lot of H2/H3 with text, your paragraph turns into a big section. As you can see, we just show 3 lines of information in each result in the quick find results view. When your section is too big, sometimes the keyword match is hidden in a part of the section that isn't displayed in the preview. Don't worry, quick find still found matching sections\![\
+When a section starts with H1 and contains a lot of H2/H3 with text, your paragraph turns into a big section. As you can see, we just show 3 lines of information in each result in the quick find results view. When your section is too big, sometimes the keyword match is hidden in a part of the section that isn't displayed in the preview. Don't worry, quick find still found matching sections\![\
 ](http://app.gitbook.com/@gitbook/s/gitbook-docs/\~/drafts/-Lt-3yOWRPE66HLv1wRo/primary/collaboration/conflict-resolution)

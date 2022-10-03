@@ -6,6 +6,13 @@ description: Get to know your way around GitBook's documentation platform.
 
 This page walks you through various sections, features and menus that you'll find within the GitBook app. Start by creating or logging into your account at [app.gitbook.com](https://app.gitbook.com/).
 
+{% hint style="info" %}
+**Permissions**\
+The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level. \
+Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions. \
+Table of contents, Page header, Editor, Page actions and Page outline are visible to all.&#x20;
+{% endhint %}
+
 ## Sidebar
 
 <figure><img src="../.gitbook/assets/sidebar-updated.png" alt=""><figcaption></figcaption></figure>
