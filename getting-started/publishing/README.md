@@ -6,8 +6,6 @@ description: >-
 
 # Publishing
 
-You are ready to publish your content, yay! 🎉&#x20;
-
 GitBook has different publishing options for you to choose from, depending on who you want to be able to access your content.
 
 You can make your content completely [public](space-publishing.md#public-space) to anyone on the internet. Or, you can share more securely using [share links](share-links.md) or [visitor authentication](space-publishing.md#visitor-authentication).

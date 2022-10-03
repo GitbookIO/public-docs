@@ -1,7 +1,5 @@
 # Bi-directional Git integration
 
-## A bi-directional Git integration <a href="#a-bi-directional-github-integration" id="a-bi-directional-github-integration"></a>
-
 With GitBook you can synchronize your content with GitHub or GitLab repositories and keep your content consistently up-to-date.
 
 ![](<../../.gitbook/assets/Git Sync – GH Filled (1).png>)

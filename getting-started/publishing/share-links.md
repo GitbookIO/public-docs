@@ -7,12 +7,12 @@ description: >-
 # Share links
 
 {% hint style="info" %}
-This feature is available on our Pro and Enterprise plans.
+This feature is available on our **Pro** and **Enterprise** plans.
 {% endhint %}
 
 Share your private content with customers and partners without inviting them to your organization by using a secret shareable link!
 
-## Publish as share link
+## Publish as a share link
 
 ![](<../../.gitbook/assets/Publish – Share Link.png>)
 
@@ -33,8 +33,8 @@ Once the link is active, a private token is generated within your URL which is u
 The content will be accessible to **anyone following the link**. Your team members will always be able to access your content from their dashboard.
 
 {% hint style="info" %}
-**Tips:** Make sure you share the link only to people you want to share your private content.\
-Don't forget you can [revoke](share-links.md#revoke-a-link) a link any time
+**Tips:** Make sure you share the link only with people you want to share your private content.\
+Don't forget you can [revoke](share-links.md#revoke-a-link) a link at any time
 {% endhint %}
 
 ## Revoke a link
@@ -70,4 +70,4 @@ This process can be [automated using SSO/SAML](../../advanced-guides/advanced-sh
 
 Feel free to [reach out to us](mailto:support@gitbook.com) for guidance on the subject.
 
-If you need complete control over access to your public content, you can roll your own backend and use GitBook's [visitor authentication](../../advanced-guides/advanced-sharing-and-security/visitor-authentication.md) feature.
+If you need complete control over access to your public content, you can roll your backend and use GitBook's [visitor authentication](../../advanced-guides/advanced-sharing-and-security/visitor-authentication.md) feature.
