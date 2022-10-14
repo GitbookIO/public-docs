@@ -1,73 +1,65 @@
 ---
 description: >-
-  Notify your team members about new content, important changes to your
+  Receive notifications about new content, important changes to your
   documentation or changes in visibility.
 ---
 
 # Notifications
 
-Notifications provide updates about the activity on GitBook that comes from spaces owned by you or an organization that you are a member of. GitBook supports in-app and email notifications.
+Notifications provide updates about the activity on GitBook that comes from spaces owned by you or an organization that you are a member of.
 
 {% hint style="info" %}
 **Permissions**
 
-All member roles can manage the notifications they receive from GitBook in app and via email.
+All member roles can manage their own notifications.
 {% endhint %}
 
-We have two communication channels for notifying you about activity on GitBook:
+You can receive notifications inside the GitBook app and/or via email. We support [several types of notifications](notifications.md#notification-types) which you can disable or enable in [notification settings](notifications.md#notification-settings).
 
-1. [App](notifications.md#application-notifications) - _in the application itself_
-2. [Email](notifications.md#email-notifications) - _via an email to your personal account's email address_
+## App notifications
 
-We support [several types of notifications](notifications.md#notification-types) which you can disable or enable in [Notification settings](notifications.md#notification-settings).
-
-## Application notifications
-
-You can find application notifications in the left sidebar, at the bottom left. There is a bell <img src="../.gitbook/assets/notification.png" alt="" data-size="line"> icon that indicates if you have unread notifications. If you click that icon, you get the notifications pop up.
-
-The notifications pop up, lists all notifications ordered by the most recent.
+You can find app notifications at the bottom of the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar). You'll see a bell <img src="../.gitbook/assets/notification.png" alt="" data-size="line"> icon, which will have a number alongside it to indicate the number of unread notifications you have. Click on that bell icon to see your notifications.
 
 {% hint style="info" %}
-**Notification retention policy:** We keep your notifications forever, but we may change that in the future.
+Notification retention policy: we currently keep all notifications forever, but could change that in the future.
 {% endhint %}
 
-The notifications pop up has two icons at the top right corner. A double checkmark <img src="../.gitbook/assets/double-checkmark.png" alt="" data-size="line"> icon, that allows you to mark all your notifications as read. And a gear <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> icon, that will open up the [Notification Settings](notifications.md#notification-settings).
+Within the notifications pop-up, you'll see two icons in the top-right corner. There's a double checkmark <img src="../.gitbook/assets/double-checkmark.png" alt="" data-size="line"> icon, which allows you to mark _all_ unread notifications as read. There's also a gear <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> icon, which will take you to your [notification settings](notifications.md#notification-settings).
 
 ## Email notifications
 
-Email notifications are enabled by default. You can disable them in [your notifications settings](https://app.gitbook.com/account/notification). When enabled, GitBook will send one email per notification type. This will go to the email address of your personal account.
+Email notifications are enabled by default, but you can disable them in [your notifications settings](https://app.gitbook.com/account/notification) if you prefer. When they are enabled, GitBook will send one email per notification type. This will be sent to the email address associated with your personal GitBook account.
 
-The email appears to be from:
-
-`no-reply@gitbook.io via sendgrid.net`
+These email will appear to be sent from `no-reply@gitbook.io via sendgrid.net`
 
 ### Possible issues
 
-As with every delivery, there's always a chance of not receiving the email. Possible reasons include but are not limited to:
+As with all email delivery, there's a chance that you might not receive the email. Possible reasons include but are not limited to:
 
-* Our email ends up in your spam or caught by another protection mechanism.
-* The email has bounced many times and as a result it got blocked by SendGrid (which is the service we are using to send out those emails).
-* A temporary delivery problem that will resolve on its own.
-* Wrong expectation about the notifications you should be receiving.
-* Wrong expectation about the email address we would be sending the notification to.
+* Our email ends up in your spam folder or caught by another protection mechanism.
+* Emails sent from GitBook to your email address have bounced many times, and therefore further sending has been automatically blocked by our mail service.
+* There could be a temporary delivery problem that will resolve on its own.
+* A wrong expectation about the notifications you should be receiving.
+* A wrong expectation about the email address to which we would be sending the notification.
 
-What you can do:
+If you think you might be running into any of these issues, here are some things you can try:
 
-* Check your spam or other protection mechanism and make sure our email address is not blocked on your end.
-* Wait it out if you know there's a temporary issue with your provider.
-* Check [your settings](https://app.gitbook.com/account/notification) and make sure the Email channel is enabled for the notification type that you are expecting an email about.
+* Check your spam or other protection mechanism and make sure our email address (`no-reply@gitbook.io`) is not blocked on your end.
+* Wait it out if you are aware of any temporary issue with your mail provider.
+* Check [your settings](https://app.gitbook.com/account/notification) to ensure that you have enabled email notifications for the type of notification you are expecting.
 * Make sure you are checking the correct email address. You can see the email address of your personal account in [your account settings](https://app.gitbook.com/account).
-* [Contact us](mailto:support@gitbook.com) if all other things fail. Please, include as much information as possible. The email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact link of what you feel should have triggered that notification for you.
+* [Contact support](../troubleshooting/support.md) if all other things fail. If you do, please make sure to include as much information as possible. For example, this might include the email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact details of what you feel should have triggered that notification for you. Please include links to anything relevant, as well.
 
 ## Notification settings
 
-For each channel (Email, App) [you can configure](https://app.gitbook.com/account/notification) which notifications to receive. You can choose to turn them all off if you need to be more focused for a period of time.
+For both app and email notifications, [you can configure](https://app.gitbook.com/account/notification) which notifications you would like to receive.
 
 ### Notification types
 
-We send out notifications for the following areas, and we'll be adding more:
+We currently offer notifications for the following areas:
 
 * Spaces and collections
 * Change requests
 * Comments
 * Mentions
+* Organizations

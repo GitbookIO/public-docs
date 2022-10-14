@@ -8,7 +8,7 @@ GitBook is designed for easy asynchronous collaboration. You can contribute by u
 
 {% hint style="info" %}
 **Permissions:**\
-Collaboration settings are available to Administrators or Creators on the content level. Commenting is accessible to everyone except Readers and Guests.&#x20;
+Collaboration settings are available to administrators and creators at the content level. Commenting is accessible to everyone except readers and guests.
 {% endhint %}
 
 ### Learn more about:

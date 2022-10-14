@@ -19,7 +19,7 @@ Ordered or numbered lists help you prioritize items or create a list of steps.
 To create nested items, you can use `tab` to indent and `shift` + `tab` to outdent.
 {% endhint %}
 
-### Git sync representation in markdown
+### Git Sync representation in Markdown
 
 ```markdown
 1. Item 1

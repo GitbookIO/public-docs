@@ -8,7 +8,7 @@ An organization is a part of the way that content is structured on GitBook. Ever
 
 {% hint style="info" %}
 **Permissions**\
-****Only Administrators can access an organization's billing settings.
+****Only administrators can access an organization's billing settings.
 {% endhint %}
 
 ## What plans does GitBook offer?
@@ -46,7 +46,7 @@ You can find the [full feature comparison](https://www.gitbook.com/pricing) for 
 
 | Difference                  | Team | Plus                                |
 | --------------------------- | ---- | ----------------------------------- |
-| Publish a space as Unlisted | Yes  | No (moved to the Pro plan)          |
+| Publish a space as unlisted | Yes  | No (moved to the Pro plan)          |
 | Advanced customization      | Yes  | No (moved to the Pro plan)          |
 | Minimum charge for 5 users  | Yes  | No (unlimited users, pay as you go) |
 
@@ -54,7 +54,7 @@ You can find the [full feature comparison](https://www.gitbook.com/pricing) for 
 
 | Difference                                                                                                      | Business | Pro                                 |
 | --------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------- |
-| [Visitor Authentication](../../advanced-guides/advanced-sharing-and-security/visitor-authentication.md) feature | No       | Yes (up to 100 sessions per month)  |
+| [Visitor authentication](../../advanced-guides/advanced-sharing-and-security/visitor-authentication.md) feature | No       | Yes (up to 100 sessions per month)  |
 | Minimum charge for 20 users                                                                                     | Yes      | No (unlimited users, pay as you go) |
 | Flat [platform fee](./#platform-fee) of $99 per month                                                           | No       | Yes                                 |
 

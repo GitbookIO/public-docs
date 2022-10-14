@@ -11,10 +11,10 @@ Please follow the steps to set a custom domain in this order:
 {% endhint %}
 
 {% hint style="warning" %}
-Before you'll be able to set a custom domain for your organization, **at least one space owned by the organization will need to be published**. If all of the spaces are unpublished, you won't see the Publishing section on your organization settings page.
+Before you'll be able to set a custom domain for your organization, **at least one space owned by the organization will need to be published**. If all of the spaces are unpublished, you won't see the publishing section on the organization settings page.
 {% endhint %}
 
-You'll find the options for setting a custom domain for an organization within the organization settings page. To get there, you can use the cog icon near the bottom-left corner of the page, and click on the **\[Org Name] Settings** link. It will look something like this:
+You'll find the options for setting a custom domain for an organization within the organization settings page. To get there, open the settings menu. This is located at the bottom of the sidebar — click on the cog ![](../../../.gitbook/assets/settings.png) icon to open the menu. Then, click on the **\[Org Name] Settings** link. It will look something like this:
 
 <figure><img src="../../../.gitbook/assets/org-settings.png" alt=""><figcaption><p>Accessing the organization settings</p></figcaption></figure>
 
