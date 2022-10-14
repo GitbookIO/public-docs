@@ -11,7 +11,7 @@ This page walks you through various sections, features and menus that you'll fin
 The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level. \
 Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.&#x20;
 
-Table of contents, page header, editor, page actions and page outline are visible to all.&#x20;
+The table of contents, page header, editor, page actions, and on this page sections are visible to all.&#x20;
 {% endhint %}
 
 ## Sidebar
