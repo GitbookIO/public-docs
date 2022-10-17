@@ -8,7 +8,7 @@ description: Notify a channel or individual in Slack with real-time events from 
 
 To get started, you will need to install the Slack integration in GitBook and configure it to your needs. For this, follow the steps described in these sections:
 
-* **Step 1:** [install the integration](install-the-integration.md)
+* **Step 1:** [install the integration](../install-an-integration.md)
 * **Step 2:** [configure the integration](configure-the-integration.md)
 
 ## Feature overview

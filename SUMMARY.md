@@ -94,11 +94,9 @@
 * [Integrations platform](advanced-guides/integrations-platform/README.md)
   * [Install an integration](advanced-guides/integrations-platform/install-an-integration.md)
   * [Segment](advanced-guides/integrations-platform/segment/README.md)
-    * [Install the integration](advanced-guides/integrations-platform/segment/install-the-integration.md)
     * [Configure the integration](advanced-guides/integrations-platform/segment/configure-the-integration.md)
     * [GitBook Segment event](advanced-guides/integrations-platform/segment/gitbook-segment-event.md)
   * [Slack](advanced-guides/integrations-platform/slack/README.md)
-    * [Install the integration](advanced-guides/integrations-platform/slack/install-the-integration.md)
     * [Configure the integration](advanced-guides/integrations-platform/slack/configure-the-integration.md)
 
 ## Billing and admin

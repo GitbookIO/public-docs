@@ -18,7 +18,7 @@ Once installed and configured on a space, anytime a visitor access a page in you
 
 Next, you will need to install the Segment integration in GitBook and configure it to your needs. For this, follow the steps described in these sections:
 
-* **Step 1:** [install the integration](install-the-integration.md)
+* **Step 1:** i[nstall the integration](../install-an-integration.md)
 * **Step 2:** [configure the integration](configure-the-integration.md)
 
 ## Feature overview
