@@ -6,13 +6,13 @@ Comments in GitBook allow you to have as much (or as little!) conversation as yo
 
 You can comment directly on any block within your content.
 
-<figure><img src="../../.gitbook/assets/comment-on-a-block.png" alt="A screenshot of a GitBook space where users have been commenting on a paragraph block. The first asks for more detail to be included in the section, the second confirms that they will work on the changes."><figcaption><p>Users commenting on a paragraph block</p></figcaption></figure>
+![](<../../.gitbook/assets/Comment On Block (1).png>)
 
 ## Direct discussion
 
 You can also access more general discussion around a space or a change request using the comments icon in the space header. This will let you see all comments, but also gives you a place to have broader or more strategic discussions that might not make sense to associate with a specific content block.
 
-<figure><img src="../../.gitbook/assets/space-discussion.png" alt="A screenshot of a GitBook space with the discussion panel open. Two users are discussing ways to improve the structure of their documentation; one suggests adding videos, the other agrees and volunteers to kick off the project."><figcaption><p>Users commenting on a space</p></figcaption></figure>
+![](<../../.gitbook/assets/Direct Discussion.png>)
 
 ## Comment threads
 

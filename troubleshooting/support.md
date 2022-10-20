@@ -9,7 +9,7 @@ description: >-
 There are two ways to get in touch with us:
 
 1. You can email [support@gitbook.com](mailto:support@gitbook.com) directly.
-2. You can submit a support request via the GitBook app. When you're logged in, click on the **cog** ![](../.gitbook/assets/settings.png) **icon** in the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar). Click **help & feedback** and then click **contact support**.
+2. You can submit a support request via the GitBook app. When you're logged in, click on the **cog icon** near the bottom-left corner of the app. Click **Help & Feedback** and then click **Contact support**.
 
 ## What information should I share?
 

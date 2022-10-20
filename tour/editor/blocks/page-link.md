@@ -8,7 +8,7 @@ A page link is the best way to create relations between different pages.
 
 ### Example
 
-The links below point to [blocks](./) and [inline content](../inline/):
+The links below point to [Blocks](./) and [Inline content](../inline/):
 
 {% content-ref url="./" %}
 [.](./)
@@ -17,3 +17,8 @@ The links below point to [blocks](./) and [inline content](../inline/):
 {% content-ref url="../inline/" %}
 [inline](../inline/)
 {% endcontent-ref %}
+
+### Git sync representation in markdown
+
+
+

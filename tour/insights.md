@@ -11,36 +11,34 @@ You can measure and improve your documentation by checking how your pages are pe
 {% hint style="info" %}
 **Permissions**
 
-Administrators and creators can view the insights panel.
+Administrators and Creators can view the Insights panel.
 {% endhint %}
 
 ## The insights panel
 
-When inside of a space, click on **insights** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation) to open the insights panel. You'll see two tabs: pages and searches.
+When inside of a space, click on "Insights" in the top menu to open the insights panel. If you can't see the "Insights" link, you might not have the correct permission level. Only Administrators and Creators can view the Insights panel.
+
+<figure><img src="../.gitbook/assets/insights.png" alt=""><figcaption><p>The insights panel</p></figcaption></figure>
 
 ### Pages
 
 #### Traffic
 
-This shows a summary of visits to your space across all pages. You can view daily, weekly, or monthly traffic — monthly is the default. A bar chart plots that traffic over time. &#x20;
+Here you can see overall traffic to your space. You can select from daily, weekly, or monthly traffic. A bar chart is displayed, plotting the traffic over time. &#x20;
 
 #### Pages
 
-For each page in the space, you can see a count of all views. This is the **total number of views since the page was published**. If [page rating](https://docs.gitbook.com/tour/customization/space-customization#page-rating) is enabled, you can also see how many people have left feedback on each page and the average feedback rating. Hover over the average rating to see further details.
+Here you can see page views broken down by each page in your space. The "Views" count is the total views since the page was published. You can also see how many people have left [feedback](customization/space-customization.md#page-rating) on each page and the average feedback rating.
 
-Click **download CSV** if you'd like to use or analyse this data further outside of GitBook, and a `.csv` file will be downloaded to your device.
+You can download this insight data as a `.csv` file for your own use and analysis by clicking "Download CSV".
 
 ### Search
 
-Switch to the search tab to take a look at which terms visitors are searching for within the space. You can view these search terms for the past week, month, or year — and again, the month is the default setting.
+In the 'Searches' tab within the insights panel, you can view the search terms that have been most popular in your space. You can use this information to inform your content architecture, make certain parts of your docs easier to find without search, or even add additional content based on what your readers are searching for.
 
-The information here can be helpful for informing your content architecture, making certain parts of your documentation easier to find without search, or adding additional content to existing pages based on what your visitors are searching for.
-
-Click **download CSV** if you'd like to use or analyse this data further outside of GitBook, and a `.csv` file will be downloaded to your device.
+You can download this insight data as a `.csv` file for your own use and analysis by clicking "Download CSV".
 
 ## More insightful insights
-
-GitBook's insights are intended to provide you with a brief overview, but you might want to go deeper by [integrating with Google Analytics](https://docs.gitbook.com/tour/customization/space-customization#google-analytics).
 
 GitBook default insights offer a quick overview of page views. To take a deeper look into your readers' behavior, you should take a look at our [Google Analytics](customization/space-customization.md#google-analytics) integration.
 
@@ -48,4 +46,4 @@ GitBook default insights offer a quick overview of page views. To take a deeper 
 
 In data analysis, sampling is the practice of analyzing a subset of all data in order to uncover the meaningful information in the larger data set. For example, if you wanted to estimate the number of trees in a 100-acre area where the distribution of trees was fairly uniform, you could count the number of trees in 1 acre and multiply by 100, or count the trees in a half acre and multiply by 200 to get an accurate representation of the entire 100 acres.
 
-We apply session sampling to insights data in order to provide accurate reports in a timely fashion. The direct consequence is no page views are shown for new spaces or spaces with a low number of page views.
+**GitBook Insights** applies session sampling to your data in order to give you accurate reports in a timely fashion. The direct consequence is no page views are shown for new spaces or spaces with a low number of page views.

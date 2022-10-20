@@ -4,7 +4,11 @@ description: Unordered list content block
 
 # Unordered list
 
-Unordered lists are great for making a series of points that do not necessarily need to be made in a particular order.
+GitBook supports three kind of lists:
+
+1. Unordered or bullet lists
+2. [Ordered](ordered-list.md) or numbered lists, and
+3. [Task](task-list.md) lists (also referred to as checklists or todo lists)
 
 ### Example
 
@@ -19,7 +23,7 @@ Unordered lists are great for making a series of points that do not necessarily 
 To create nested items, you can use `tab` to indent and `shift` + `tab` to outdent.
 {% endhint %}
 
-### Git Sync representation in Markdown
+### Git sync representation in markdown
 
 ```markdown
 - Item

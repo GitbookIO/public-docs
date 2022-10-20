@@ -20,7 +20,7 @@ No! We do not ask for any payment information during your free trial. If you dec
 
 <summary>How can I check the time remaining on my free trial?</summary>
 
-Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page. From there, click on the **plans** tab. You will see a banner on the plans page that tells you how many days remain on your free trial.
+Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[Organization Name] Settings**. This will take you to the general tab of that organization's settings page. From there, click on the **Plans** tab. You will see a banner on the Plans page that tells you how many days remain on your free trial.
 
 </details>
 
@@ -52,7 +52,7 @@ If you have a **large organization** and you are interested in the **Pro** or **
 
 <summary>How do I upgrade my organization?</summary>
 
-You can upgrade at any time during your free trial, or after the trial ends. To do this, click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page. From there, click on the **plans** tab. At the top, use the **toggle** to view either yearly or monthly pricing, click the **upgrade** button under your chosen plan, and follow the prompts to complete the upgrade.
+You can upgrade at any time during your free trial, or after the trial ends. To do this, click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[Organization Name] Settings**. This will take you to the general tab of that organization's settings page. From there, click on the **Plans** tab. At the top, use the **toggle** to view either yearly or monthly pricing, click the **Upgrade** button under your chosen plan, and follow the prompts to complete the upgrade.
 
 </details>
 

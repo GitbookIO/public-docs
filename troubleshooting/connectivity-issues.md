@@ -42,9 +42,9 @@ Here are a few possible causes for your connectivity issues:
 * Temporary local or regional network issues
 * Browser security settings
 * Browser plugins
-* Security/antivirus
+* Security/Antivirus
 * Firewalls
-* Plugins/extensions
+* Plugins/Extensions
 * Proxies
 * Local network settings
 * Your provider

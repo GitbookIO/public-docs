@@ -13,21 +13,3 @@ You can see the anchors of a title when your content is in read mode. If you wan
 {% hint style="info" %}
 Reading on a screen is less comfortable than reading on paper. Make sure your content is not too long with too many titles. Sometimes splitting your content into different pages creates a better overview! 🤓
 {% endhint %}
-
-### Example
-
-## My heading 1
-
-### My heading 2
-
-#### My heading 3
-
-### Git Sync representation in Markdown
-
-{% code overflow="wrap" %}
-```
-# My heading 1
-## My heading 2
-### My heading 3
-```
-{% endcode %}

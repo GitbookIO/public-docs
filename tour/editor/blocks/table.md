@@ -20,7 +20,7 @@ Table columns can have the following data types, which apply restrictions or emb
 
 ### Changing a column type
 
-You can use the column dropdown menu to change a column's type. Select the new type and click **save**. You'll be prompted to confirm this change, as column data could be deleted or malformed by this action.
+You can use the column dropdown menu to change a column's type. Select the new type and hit save. You'll be prompted to confirm this change, as column data could be deleted or malformed by this action.
 
 ### Resizing columns
 
@@ -31,6 +31,6 @@ You can drag from a column's edge to resize it. Column resizing is stored as a p
 Tables that are wider than the editor container will be horizontally scrollable.
 
 {% hint style="info" %}
-You can drag and drop columns and rows to reorder them, and delete columns or rows using their respective context menus.
+**Good to know:** You can drag and drop columns and rows to reorder them, and delete columns or rows using their respective context menus.
 {% endhint %}
 

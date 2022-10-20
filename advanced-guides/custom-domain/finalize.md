@@ -12,11 +12,11 @@ Please follow the steps to set a custom domain in this order:
 
 Once your CNAME record has taken effect, or has _propagated_, you're ready to finalize the setup in GitBook.
 
-If you're setting an organization-level custom domain, go back into the organization settings page, and click the **edit domain** button in the Publishing section.
+If you're setting an organization-level custom domain, go back into the organization settings page, and click the **Edit domain** button in the Publishing section.
 
-If you're setting a collection- or space-level custom domain, go back into the **link and domain settings** for that collection or space. From there, click the **edit domain** button.
+If you're setting a collection- or space-level custom domain, go back into the **Link and domain settings** for that collection or space. From there, click the **Edit domain** button.
 
-You'll see the same Connect a domain screen that you saw in step 3, with the custom domain you entered previously pre-filled. Click the **continue** button, and GitBook will again check the DNS settings behind the scenes. If we are able to confirm that the subdomain is correctly pointed to the value provided to you, you'll see the following success message:
+You'll see the same Connect a domain screen that you saw in step 3, with the custom domain you entered previously pre-filled. Click the **Continue** button, and GitBook will again check the DNS settings behind the scenes. If we are able to confirm that the subdomain is correctly pointed to the value provided to you, you'll see the following success message:
 
 <figure><img src="../../.gitbook/assets/connect-a-domain-success.png" alt=""><figcaption><p>Success!</p></figcaption></figure>
 

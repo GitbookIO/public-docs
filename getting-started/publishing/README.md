@@ -15,7 +15,7 @@ You can also use collection publishing to [publish different versions of your do
 {% hint style="info" %}
 **Permissions**
 
-Only creators and administrators can publish content.
+Only Creators and Administrators can publish content.
 {% endhint %}
 
 ### Learn more about:

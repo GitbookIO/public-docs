@@ -4,12 +4,12 @@ View and manage the settings for your GitBook organization. These include member
 
 {% hint style="info" %}
 **Permissions**\
-****Only administrators can access the organization settings.
+****Only Administrators can access the organization settings.
 {% endhint %}
 
 ## How to access the settings for an organization
 
-Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page, and you'll see additional tabs containing further settings on the left-hand side.
+Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[Organization Name] Settings**. This will take you to the general tab of that organization's settings page, and you'll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
@@ -30,7 +30,7 @@ You can update the GitBook subdomain and a custom domain here, as well as the de
 
 #### Actions
 
-From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://docs.gitbook.com/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
+From this section you can delete your organization. **Note: there is no turning back if you delete your organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://docs.gitbook.com/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
 
 </details>
 
@@ -58,7 +58,7 @@ For any domains that you specify, anyone with an email address on those domains 
 
 #### SAML
 
-For organizations on our Enterprise plan, you can configure your SSO with any [SAML](../../advanced-guides/advanced-sharing-and-security/saml.md) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
+For organizations on our Enterprise plan, you can configure your SSO with any [SAML](../../advanced-guides/advanced-sharing-and-security/saml.md) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. Contact [sales@gitbook.com](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
 
 </details>
 
@@ -66,7 +66,7 @@ For organizations on our Enterprise plan, you can configure your SSO with any [S
 
 <summary>Integrations</summary>
 
-You can check which [integrations](../../advanced-guides/integrations-platform/) are installed for your organization and [install new integrations](../../advanced-guides/integrations-platform/install-an-integration.md) from this page.
+You can check which [integrations](../../advanced-guides/apps-and-integrations-platform/) are installed for your organization and [install new integrations](../../advanced-guides/apps-and-integrations-platform/install-an-integration.md) from this page.
 
 </details>
 

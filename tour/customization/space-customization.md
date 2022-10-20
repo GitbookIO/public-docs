@@ -4,147 +4,128 @@ description: Customize your space
 
 # Space customization
 
-<figure><img src="../../.gitbook/assets/space-customization.png" alt="A screenshot showing the space customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Space customization settings</p></figcaption></figure>
+![](<../../.gitbook/assets/Customize (2).png>)
 
 Customizing your space lets you control the branding, presentation and extra features of your space's public content.
 
 {% hint style="info" %}
-Most customization settings apply to your **published content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
+Most customization settings apply to your **public content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
 {% endhint %}
 
-## General
+## Presentation
 
-### Inherit customizations
+Presentation customizations let you tweak how your space's basics will appear publicly:
 
-If the space you are customizing is within a collection, you'll see this option:
+### Published title & icon
 
-<figure><img src="../../.gitbook/assets/inherit-customizations.png" alt="A screenshot showing space customization settings. On the left side, the setting to determine whether or not the space inherits customizations from the collection is sits within is highlighted."><figcaption><p>Inherit customizations</p></figcaption></figure>
+You can override the icon and title that your visitors will see when they access your public content. This lets you give your space an 'internal' (in-app) title and an 'external', or public title. The same applies to the space's icon.
 
-When this setting is enabled, the space will automatically inherit any changes made to the customization settings for the parent collection. This is useful if you want to control multiple spaces' customizations in one place, and removes the need to make the same change multiple times across spaces.
+{% hint style="info" %}
+It's quite common to use longer, or more specific, titles in published content. Changing your presentation settings allows you to do so, without worrying about having long, idiosyncratic space titles in the GitBook app.
+{% endhint %}
 
-### Title and icon
+### Localize user interface
 
-The _internal_ icon and title, which you'll see when logged into the GitBook app, are set in the [space header](https://docs.gitbook.com/getting-started/overview#space-header). In this customization setting you can override those and choose different _external_ settings, which your visitors will see when they access your published content.
+_Customize > Configure_
 
-It's not uncommon to use a longer or more specific title in published content and to use a shorter title or internal wording that might not make complete sense to your visitors when logged into the GitBook app.
+You can select from a list of languages to localize the user interface of your public content. This will apply translations to the **non-custom** areas of your public content interface. It won't do anything spicy like auto-translate your actual content, but if you're writing a space in a certain language, it's always good to have the surrounding UI reflect that.
 
-For the icon, you can choose from a long list of emojis, or you can upload your own square image.
+![](../../.gitbook/assets/Localize.png)
 
-### Custom logo
+{% hint style="info" %}
+We're constantly making efforts to support further localized languages. [Give us a shout](https://www.gitbook.com/contact/contact-support) if you have a suggestion.
+{% endhint %}
 
-You can replace _both_ the space's title and icon with a custom logo, so that your documentation better reflects your own branding.
+## Collection inheritance
 
-{% hint style="success" %}
-The custom logo setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
+_Customize > General_
+
+Collection inheritance allows a space to inherit its customizations directly from its parent collection. This is useful if you want to control multiple spaces' customizations in one place, and removes the need to make the same change multiple times across spaces.
+
+## Logos and social
+
+_Customize > Basic_
+
+You can upload a custom social preview image for your space. This will set the space's `og:image` to your uploaded image, and it'll show when the space's link is shared to any platform or product that supports OpenGraph images.
+
+You can also replace the space's title entirely with a custom logo. This lets you keep your brand running through your docs.
+
+{% hint style="info" %}
+Changing the space's logo will replace the icon **and** the title of the space with the entered logo. If you want to keep the space title visible, you can upload a square logo as the space's [published icon](space-customization.md#published-title-and-icon).
+{% endhint %}
+
+## Theming
+
+_Customize > Customization_
+
+Theming lets you customize the primary color, heading theme, and font family of your public content.
+
+{% hint style="info" %}
+When theming, you'll be able to see a preview of any changes you make. This can be useful when deciding e.g. which header theme or primary color you want to use.
 {% endhint %}
 
 ### Primary color
 
-The chosen primary color will be applied to things like links, hover states, and buttons. While you can use any color you'd like, it's important to keep accessibility in mind and choose something that will have good contrast when used as a text link.
+The primary color of your public content will be applied to things like links, hover states, and buttons. This color change will only apply to your **published** content.
+
+{% hint style="info" %}
+Accessibility is important! While you can set your primary color to pretty much anything you like, try to keep things accessible and choose a color that'll have good contrast when used as a text link.
+{% endhint %}
+
+### Heading theme
+
+You can choose between a number of heading themes for your public content:
+
+The **None** theme will show no header, instead placing the space's icon and title (or logo, if you've overwritten it) in the table of contents. This is great for minimal docs, or docs where you don't need a persistent header.
+
+The **Light** header theme will show a white header and dark text.
+
+The **Bold** header theme will set the header background to your primary color, and show light-colored text.
+
+The **Dark** header theme will show a dark header, with light text.
 
 ### Font family
 
-You can customize the font family from a list of predefined options.
-
-GitBook doesn't support the uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [let us know](../../troubleshooting/support.md)!
-
-{% hint style="success" %}
-The font family setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
-{% endhint %}
-
-### Theme mode
-
-Choose between a light and a dark theme.
+You can customize the font family of your public content from a list of predefined options.
 
 {% hint style="info" %}
-This setting only affects the published content. If you're looking to use a different theme when logged into the GitBook app, you can do so from your settings menu, found at the bottom of the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar).
+GitBook doesn't support uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [give us a shout](https://www.gitbook.com/contact/contact-support).
 {% endhint %}
 
-## Themes
+## Header links
 
-### Theme header options
+_Customize > Configure > Header links_
 
-We offer a number of header options for our theme:
+You can add links to your header, with each link having a URL and a text label. This is useful if you want to link to specific parts of your documentation, or back to pages of your main site, directly in the header of your docs.
 
-1. **None**\
-   This gives a more minimal look and feel. No [header links](space-customization.md#undefined) will be visible, whether they have been configured or not, and the search option will be moved next to the space title or logo.
-2. **Matching**\
-   In light [theme mode](space-customization.md#theme-mode), the header will have a light background. In dark [theme mode](space-customization.md#theme-mode), the header will have a dark background.
-3. **Bold**\
-   The selected [primary color](space-customization.md#primary-color) will be used for the header background.
-4. **Contrast**\
-   In light [theme mode](space-customization.md#theme-mode), the header will have a dark background. In dark [theme mode](space-customization.md#theme-mode), the header will have a light background.
+## Public content integrations
 
-{% hint style="success" %}
-The bold and contrast theme header options are only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
-{% endhint %}
-
-## Sharing
-
-### Social preview
-
-You can upload a custom social preview image for your space. This will set the space's `og:image` to be your uploaded image, and it'll show when the space's link is shared to any platform or product that supports OpenGraph images.
-
-## Configure
-
-### Localize user interface
-
-You can select from a list of languages to localize the user interface of your published content. This will apply translations to the **non-custom** areas of the interface.
-
-This setting will not auto-translate your actual content, but can help with matching the user interface to the language that you are writing in.
-
-Is there a language we don't yet offer that you would like to see included in this list? [Let us know](../../troubleshooting/support.md)!
-
-### PDF export
-
-You can choose whether or not you'd like visitors to your published content to be able to download the content as a PDF file.
-
-You can [find out more about the PDF export feature](../pdf-export.md).
-
-{% hint style="success" %}
-PDF export is only available to spaces owned by an organization on a Pro or Enterprise plan.
-{% endhint %}
-
-### Page rating
-
-Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it.
-
-<figure><img src="../../.gitbook/assets/page-rating.png" alt="A screenshot showing the GitBook documentation homepage. At the bottom, a question is highlighted. It says &#x22;Was this page helpful?&#x22; and has three options: a sad face, a neutral face, and a smiling face."><figcaption><p>"Was this page helpful?" will show at the bottom of each page if this setting is enabled</p></figcaption></figure>
-
-You can review the results of this survey if you click on [insights](../insights.md) in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation).
-
-### Header links
-
-You can add links to the header section of your documentation. For each link, you will need to set a URL and a text label. You could use header links to link to important parts of your documentation, or perhaps to link back to your main website.
-
-{% hint style="info" %}
-If your [theme header option](space-customization.md#theme-header-options) is set to **none**, any header links you have configured will not be displayed. Make sure to choose one of the other theme header options so that your configured links are visible!
-{% endhint %}
-
-## Integrations
-
-### Edit on GitHub/GitLab
-
-When this setting is enabled, a link to edit each page directly in GitHub/GitLab will be displayed in the actions section in the right-hand column of the published content. Depending on how you have configured the repository, anyone who clicks this link may need to have been granted the necessary permissions to edit it.
-
-{% hint style="success" %}
-The edit on GitHub/GitLab setting will only be displayed if [Git Sync](../../getting-started/git-sync/) has been configured.
-{% endhint %}
+_Customize > Integrations_
 
 ### Google Analytics
 
-GitBook's insights provide some high-level data around visits to your published documentation but, if you're looking for something more detailed, you can integrate with Google Analytics.
-
-Start by generating a tracking ID in your Google Analytics dashboard, which can begin with either G- or UA-, and enter that ID into the field here. Next, you will need to enter a valid link to your privacy policy. This link will be used in a cookie consent pop-up so that visitors can better understand how cookies are being used.
-
-Optionally, you can also enable the tracking of private views that come from within the GitBook app in addition to views of your published content.
-
-Once you have included at least a tracking ID and a valid link to your privacy policy, click the **Connect** button. You will be able to view the results in your Google Analytics dashboard.
+Enable Google Analytics and enter your Google Analytics tracking ID to start tracking public content events. You can also enable private event tracking, which will send in-app analytics to your specified Google Analytics.
 
 ### Intercom
 
-If you use Intercom, you might like to add a chat widget to your GitBook documentation so that visitors can quickly get answers to their questions.
+To enable Intercom in your public content, turn it on in customization, and set your Intercom Application ID. You can then configure any Intercom widgets you wish to use in your Intercom settings.
 
-First, you'll need to enter your Intercom application ID. You'll find this in your Intercom account, under the installation section of the settings page. Next, you will need to enter a valid link to your privacy policy. This link will be used in a cookie consent pop-up so that visitors can better understand how cookies are being used.
+## Public content features
 
-Once you have entered the application ID and a valid link to your privacy policy, click the **Connect** button. You can then configure any Intercom widgets you wish to use in your Intercom settings.
+_Customize > Configure_
+
+![](<../../.gitbook/assets/Privacy Policy.png>)
+
+You can enable a number of features for your public content, depending on what plan you're on.
+
+### PDF Export
+
+PDF Export allows your readers to export your space as a PDF.
+
+### Page rating
+
+Page rating allows your readers to give simple feedback on any pages of your space, and will show a feedback section at the bottom of each page. You can track the feedback results in the Activity section of the space.
+
+### Privacy policy
+
+Enabling the privacy policy option lets you override the privacy policy link in the public content cookie banner.

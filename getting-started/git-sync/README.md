@@ -12,7 +12,7 @@ Git Sync is bi-directional, so changes made directly in GitBook’s editor are a
 
 {% hint style="info" %}
 **Permissions**\
-****Administrators and creators can enable and configure Git Sync.
+****Administrators and Creators can add the Git sync to spaces.
 {% endhint %}
 
 ### Learn more about:

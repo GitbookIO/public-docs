@@ -1,12 +1,12 @@
 # Content in a space
 
-## Table of Contents
+## Table of Content
 
-<figure><img src="../../.gitbook/assets/Table of contents.png" alt=""><figcaption><p>The table of contents in a GitBook space</p></figcaption></figure>
+![](../../.gitbook/assets/ToC.png)
 
-Each space can contain as many pages as you need to write your documentation. All these pages are visible on the left side of your screen in the **table of contents**.
+Each space can contain as many pages as you need to write your documentation. All these pages are visible on the left side of your screen in the **table of content**.
 
-From the table of contents you can:
+From the Table of Content you can:
 
 * Create new [pages](content-structure.md#pages)
 * Create and manage [page groups](content-structure.md#groups)
@@ -15,15 +15,15 @@ From the table of contents you can:
 
 ## Organizing your content
 
-<figure><img src="../../.gitbook/assets/organizing content.png" alt=""><figcaption><p>Pages organized in the table of contents under page groups</p></figcaption></figure>
+![](<../../.gitbook/assets/Page Menu.png>)
 
-There are 4 different types of entries for the table of contents.
+There are 4 different types of entries for the Table of Content.
 
 <details>
 
 <summary>Initial Page </summary>
 
-The initial page is the homepage or the root of your documentation and works as the main node of all the pages of your documentation.
+The initial page is the homepage or the root of your documentation and basically works as the main node of all the pages of your documentation.
 
 </details>
 
@@ -35,11 +35,11 @@ A page has a title, an optional description, and a content area where you can wr
 
 You can nest pages by dragging and dropping a page below an other in the table of contents.
 
-Theoretically, there is no limit to page nesting. But we advise that you avoid adding more than 3 levels of nesting to avoid overly complex structures that might be overwhelming to navigate.
+**Good to know:** There is no theoretical limit to page nesting. But we advise that you avoid adding more than 3 levels of nesting to avoid overly complex structures that might be overwhelming to navigate.
 
 When you change the title of a page, the page's **slug** (the part at the very end of the URL, e.g. `/hello-world`) will automatically update, unless you've already manually set the page's slug.
 
-You can change the title and the slug of a page anytime by clicking on the triple dot icon next to the page title in the table of contents, and then clicking **rename**.
+You can change the title and the slug of a page anytime by clicking on the `...` button next to the page title in the table of content, and then clicking "rename".
 
 </details>
 
@@ -49,9 +49,9 @@ You can change the title and the slug of a page anytime by clicking on the tripl
 
 Page groups are created to bring pages together and for you to create sections of pages dealing with similar subjects.
 
-Groups can only live at the **top level of the table of contents**. You cannot nest groups inside groups.
+**Good to know:** Groups can only live at the **top level of the table of content**. You cannot nest groups inside groups.
 
-You can change the title and the slug of a group page anytime by clicking on the triple dot icon next to the group title in the table of content, and then clicking **rename**.
+You can change the title and the slug of a group page anytime by clicking on the `...` button next to the group title in the table of content, and then clicking "rename".
 
 </details>
 
@@ -65,15 +65,15 @@ These entries are external links and do not have any content in the editor. Thei
 
 ## Create a new page
 
-If you're in [live edit](../collaboration/live-edits.md) mode, you'll spot the new page link on the left-hand side under the existing pages in your table of contents. If your space is locked for live edits, you'll first need to start a new [change request](../collaboration/change-requests.md) by clicking the **edit** button near the top right corner of the space.
+If you're in live edit mode, you'll spot the new page link on the left-hand side under the existing pages in your table of content.
 
-<figure><img src="../../.gitbook/assets/Add a new page.gif" alt=""><figcaption><p>Adding a new page in a change request</p></figcaption></figure>
+![](../../.gitbook/assets/create-new-page.gif)
 
 Once a new page is created you will be able to write rich text and rich content using our [editor](../../tour/editor/).
 
 ## Create a page group
 
-If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents), and then choose **new group**.
+If you're in live edit mode, can click the `New page` button on the left-hand side under the existing pages in your table of content, and then click `New group`.
 
 
 
@@ -81,12 +81,12 @@ If you're in live edit mode, can click the **new page** button on the left-hand 
 
 ## Create external links <a href="#external-links" id="external-links"></a>
 
-If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your table of content, and then choose **new link**.
+If you're in live edit mode, can click the `New page` button on the left-hand side under the existing pages in your table of content, and then click `New link`.
 
 <figure><img src="../../.gitbook/assets/new link.gif" alt=""><figcaption></figcaption></figure>
 
 ## Can't see the option to create a new page?
 
 {% hint style="warning" %}
-If [live edits](../collaboration/live-edits.md) are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md). Once you are in a change request, the **new page** button (which allows you to create pages, page groups and links) will be available.
+If live edits are disabled for your space, you will need to create a new (or edit an existing) [change request](../collaboration/change-requests.md) before the `New page` button which allows you to create pages, page groups and links will be available.
 {% endhint %}

@@ -9,7 +9,7 @@ Build the structure for your documentation using pages, spaces and collections. 
 {% hint style="info" %}
 **Permissions**
 
-Anyone with editor permission and higher can create pages. Creators and above can create new spaces and collections.
+Anyone with Editor permission and higher can create pages. Creators and above can create new spaces and collections.
 {% endhint %}
 
 ### Learn more about:

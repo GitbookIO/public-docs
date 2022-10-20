@@ -14,17 +14,17 @@ You'll find the options for setting a custom domain for a space within the space
 
 <figure><img src="../../../.gitbook/assets/visibility-menu-space.png" alt=""><figcaption><p>Click the button to open the visibility menu</p></figcaption></figure>
 
-First, your space needs to be published. Any setting other than unpublished will work — **public**, **unlisted**, **share link**, or **visitor authentication**. (Depending on the plan you have chosen, it might be that only _some_ of these publishing options are available to you.)
+First, your space needs to be published. Any setting other than unpublished will work — **Public**, **Unlisted**, **Share Link**, or **Visitor Authentication**. (Depending on the plan you have chosen, it might be that only _some_ of these publishing options are available to you.)
 
-Once you have published your space using one of those options, the button will no longer say publish, but will instead state the current publish setting. In this example, the space is published as **unlisted.** Next, click on **link and domain settings**:
+Once you have published your space using one of those options, the button will no longer say Publish, but will instead state the current publish setting. In this example, the space is published as **Unlisted.** Next, click on **Link and domain settings**:
 
 <figure><img src="../../../.gitbook/assets/space-link-and-domain-settings.png" alt=""><figcaption><p>Link and domain settings</p></figcaption></figure>
 
-From **link and domain settings**, click the **connect a domain** button:
+From **Link and domain settings**, click the **Connect a domain** button:
 
 <figure><img src="../../../.gitbook/assets/space-connect-a-domain.png" alt=""><figcaption><p>Connect a domain</p></figcaption></figure>
 
-This will open up a window where you can enter the custom domain, and then click the **continue** button:
+This will open up a window where you can enter the custom domain, and then click the **Continue** button:
 
 <figure><img src="../../../.gitbook/assets/connect-a-domain.png" alt=""><figcaption><p>Connect a domain</p></figcaption></figure>
 

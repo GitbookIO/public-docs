@@ -69,16 +69,16 @@ Individual students that want to keep your personal and course notes should use 
 
 In order to apply for the Community plan, you need to have a **GitBook account** and have created an **organization**.
 
-1. [Sign up](https://app.gitbook.com/join) if you don't have an account, or [sign in](https://app.gitbook.com/) if you already have one.
+1. [Sign up](https://app.gitbook.com/join) if you don't have an account, or [Sign in](https://app.gitbook.com) if you already have one.
 2. Choose an existing organization in the sidebar or [create one](https://app.gitbook.com/welcome/o/business#sidebar\_menu) if you haven't done so.
 3. Copy the link of your organization because you will need it to apply:\
    \
    It will look like:\
    &#x20; \=> app.gitbook.com/o/<mark style="color:green;background-color:yellow;">knDc9w0Awj6RGjaiTeWn</mark>\ <mark style="color:green;background-color:yellow;"></mark>  where <mark style="color:green;background-color:yellow;">knDc9w0Awj6RGjaiTeWn</mark> is different and unique to your organization.\
 
-4. Visit the [pricing page](https://www.gitbook.com/pricing), and scroll down to frequently asked questions.
-5. Expand **do you offer non profit/open source discounts?**
-6. Click the **apply here** button.
+4. Visit the [pricing page](https://www.gitbook.com/pricing), and scroll down to Frequently Asked Questions.
+5. Expand "Do you offer non profit/open source discounts?".
+6. Click the **Apply here** button.
 7. Follow the instructions in the chat bot that pops up.
 
 You might be required to provide additional information for us to validate your organization type:

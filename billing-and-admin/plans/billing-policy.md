@@ -42,4 +42,4 @@ There are three occasions on which we'll charge your payment method on file:
 
 ### Invoices
 
-Your invoice history is available in Stripe, which you can access via the organization's settings page, by clicking on the **billing** tab. A summary is shown on the page, and invoices can be downloaded from here by clicking on the date of the invoice.
+Your invoice history is available in Stripe, which you can access via the organization's settings page, by clicking on the **Billing** tab. A summary is shown on the page, and invoices can be downloaded from here by clicking on the date of the invoice.

@@ -26,8 +26,8 @@ After configuring SSO on your IdP, you will be able to enter metadata. When the 
 
 You'll need the following from your IdP metadata to register a SAML provider:
 
-* A **label** – this can be anything, it'll be displayed on the login page
-* An **entity ID**
+* A **Label** – this can be anything, it'll be displayed on the login page
+* An **Entity ID**
 * A **Single Sign On URL**
 * An **X.509 certificate** – make sure you copy and paste the whole certificate!
 

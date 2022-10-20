@@ -4,9 +4,9 @@ You can insert inline images to your content. By default, their size is proporti
 
 There are 3 different sizes of inline images:‌
 
-1. **Inline size:** the default one proportionally sized to the font.
-2. **Original size:** will remain inline but with its original size with a maximum width.
-3. **Convert to block:** this turns an inline image into a [block image](../blocks/insert-images.md) with its original size.
+1. **Inline size:** the default one proportionally sized to the font
+2. **Original size:** will remain inline but with its original size with a maximum width
+3. **Convert to block:** this turns an inline image into a [block image](../blocks/#quote-1) with its original size
 
 {% hint style="info" %}
 You can switch the size of an inline image by clicking on the image to open the formatting palette, and then choosing one of the options above.

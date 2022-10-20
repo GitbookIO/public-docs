@@ -4,34 +4,34 @@ Collections are groups of spaces focused around a specific topic, team or purpos
 
 #### Aside from organizing your content, some of the key features of collections are:
 
-* The ability to manage permissions of spaces at scale allowing you to override the organization-level defaults (read more about that in [permissions](../../tour/member-management/permissions-and-inheritance.md)).
-* The ability to customize your collection and publish the spaces within it as variants (read more about that in [collection publishing](../publishing/collection-publishing.md)).
+* ability to manage permissions of spaces at scale allowing you to override the organization-level defaults (read more about that in [permissions](../../tour/member-management/permissions-and-inheritance.md))&#x20;
+* ability to customize your collection and publish the spaces within it as variants (read more about that in [collection publishing](../publishing/collection-publishing.md))
 
-<figure><img src="../../.gitbook/assets/collection.png" alt=""><figcaption><p>A collection in GitBook</p></figcaption></figure>
+![](<../../.gitbook/assets/Collection (1).png>)
 
 ## Create a collection
 
 You can create a collection directly in the sidebar:
 
-<figure><img src="../../.gitbook/assets/new collection.png" alt=""><figcaption><p>Create a new collection from the sidebar</p></figcaption></figure>
+![](<../../.gitbook/assets/New Space.png>)
 
-Or, in the collection view, by clicking the **new collection** button:
+Or, in the collection view, by hitting the 'New Collection' button:
 
-<figure><img src="../../.gitbook/assets/collection.png" alt=""><figcaption><p>New collection button in the collection view</p></figcaption></figure>
+![](<../../.gitbook/assets/Collection (1).png>)
 
 ## Move a collection
 
-Hover over the collection name in the sidebar, then click on the triple dot icon that appears on its right-hand side. Click **move to...** from this menu and then choose its new location.
+Simply drag and drop a collection in the sidebar to reorder it. Drop it onto another collection to nest it inside, or drop it from your Personal library into your Organization library (or vice-versa) to move it between libraries.
+
+If you can't, or prefer not to, drag and drop, you can also move a collection by selecting the 'Move to…' command in the collection's menu:
 
 ## Nest collections
 
-Collections can be nested inside each other, creating a collection -> sub-collection -> space hierarchy.
-
-Hover over the collection name in the sidebar, then click on the triple dot icon that appears on its right-hand side. Click **move to...** from this menu and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
+Collections can be nested inside each other, creating a collection -> sub-collection -> space hierarchy. Either drag or drop a collection into another, or nest it by using the 'Move to…' command on the collection you want to move.
 
 ## Delete a collection
 
-Hover over the collection name in the sidebar, then click on the triple dot icon that appears on its right-hand side. Click **delete** from this menu to delete the collection.
+Select 'Delete' from the collection's menu to delete the collection.
 
 {% hint style="info" %}
 **Deleting a collection is final**, but spaces inside a deleted collection will be moved to 'Trash' and can be restored up to 7 days after deletion.
