@@ -17,7 +17,7 @@ Here's how to insert a relative link:
 3. Click the inline palette.
 4. Start typing the page title.
 5. Select the page from the drop down search results.
-6. Hit `Enter`.
+6. Hit `enter`.
 
 ## Absolute links
 
@@ -33,7 +33,7 @@ Here's how to insert an absolute link:
 2. Wait for the inline palette to appear.
 3. Click the inline palette.
 4. Paste a URL.
-5. Hit `Enter`.
+5. Hit `enter`.
 
 ## Email address mailto links
 
@@ -44,5 +44,5 @@ Here's how to insert an email address `mailto` link:
 1. Select some text or click somewhere in your paragraph where you want to insert the link.
 2. Wait for the inline palette to appear.
 3. Click the inline palette.
-4. Paste `mailto:something@address.com`.
-5. Hit `Enter`.
+4. Paste or type `mailto:something@address.com`, replacing `something@address.com` with the email address you would like to use.
+5. Hit `enter`.

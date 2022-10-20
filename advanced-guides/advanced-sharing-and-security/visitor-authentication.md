@@ -2,7 +2,7 @@
 description: Use JWT token to authorize anonymous access to private content.
 ---
 
-# Visitor Authentication
+# Visitor authentication
 
 {% hint style="info" %}
 This feature is currently accessible to all **Enterprise** customers. If you are interested in the [Enterprise plan](../../billing-and-admin/plans/#enterprise-plan), please contact [sales@gitbook.com](mailto:sales@gitbook.com) for a quote.
@@ -10,11 +10,11 @@ This feature is currently accessible to all **Enterprise** customers. If you are
 
 GitBook provides different solutions to handle access management:
 
-* Private content accessible to members only,
-* SAML SSO,
-* public content accessible to anyone.
+* Private content accessible to members only
+* SAML SSO
+* public content accessible to anyone
 
-With "Visitor Authentication", GitBook lets your server-side code handle who has access to the content.
+With visitor authentication, GitBook lets your server-side code handle who has access to the content.
 
 ## How does it work?
 
@@ -26,9 +26,9 @@ With "Visitor Authentication", GitBook lets your server-side code handle who has
 A complete example repository for Node.JS is available on GitHub: [https://github.com/GitbookIO/example-visitor-authentication](https://github.com/GitbookIO/example-visitor-authentication)
 {% endhint %}
 
-### Step 1: enable "Visitor Authentication"
+### Step 1: enable visitor authentication
 
-In your space or collection, hit Publish, and select "Visitor Authentication". If you're not on an enterprise plan, you'll be prompted to upgrade.
+In your space or collection, open the visibility menu and select **visitor authentication**. (If you're not on an Enterprise plan, you'll be prompted to upgrade.)
 
 ![](<../../.gitbook/assets/Publish – VA.png>)
 
@@ -77,7 +77,7 @@ app.listen(port, () => {
 
 ### Step 3: configure a fallback URL
 
-Finally, on the "Link and domain settings" in the Publish panel of your GitBook space or collection, you can configure a "fallback URL".
+Finally, within **link and domain settings** in the visibility menu, you can configure a fallback URL.
 
 When someone directly accesses your space without the necessary token, GitBook uses the fallback URL to redirect the visitor to a custom URL so that you can authenticate them.
 

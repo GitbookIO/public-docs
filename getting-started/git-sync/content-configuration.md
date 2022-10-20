@@ -81,7 +81,7 @@ Providing a custom summary file is optional. By default, GitBook will look for a
 If you don't specify a summary, and GitBook does not find a `SUMMARY.md` file at the root of your docs, GitBook will infer the table of contents from the folder structure and the Markdown files below.‌
 
 {% hint style="info" %}
-The summary markdown file is **a mirror of the Table of Contents** of your GitBook space. So even when no summary file is provided during an initial import, GitBook will create one and/or update it whenever you update your content using the GitBook editor.
+The summary markdown file is **a mirror of the** [**table of contents**](https://docs.gitbook.com/getting-started/overview#table-of-contents) of your GitBook space. So even when no summary file is provided during an initial import, GitBook will create one and/or update it whenever you update your content using the GitBook editor.
 
 Due to this, it is not possible to reference the same markdown file twice in your `SUMMARY.md` file, because this would imply that a single page lives at two different URLs in your GitBook space.
 {% endhint %}

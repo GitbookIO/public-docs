@@ -24,7 +24,7 @@ GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob
 
 Once you have an OpenAPI compliant representation of your API, you can use it in your documentation.
 
-#### **1. Create a new OpenAPI block** using the command palette, and select 'OpenAPI'.
+#### **1. Create a new OpenAPI block** using the command palette, and select OpenAPI.
 
 ![](<../../../.gitbook/assets/Open API.gif>)
 

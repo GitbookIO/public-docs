@@ -18,17 +18,17 @@ You'll find the options for setting a custom domain for a collection within the 
 
 <figure><img src="../../../.gitbook/assets/visibility-menu-collection.png" alt=""><figcaption><p>Click the button to open the visibility menu</p></figcaption></figure>
 
-First, your collection needs to be published. Any setting other than unpublished will work — **Public**, **Unlisted**, **Share Link**, or **Visitor Authentication**. (Depending on the plan you have chosen, it might be that only _some_ of these publishing options are available to you.)
+First, your collection needs to be published. Any setting other than unpublished will work — **public**, **unlisted**, **share link**, or **visitor authentication**. (Depending on the plan you have chosen, it might be that only _some_ of these publishing options are available to you.)
 
-Once you have published your collection using one of those options, the button will no longer say Publish, but will instead state the current publish setting. In this example, the collection is published as **Unlisted.** Next, click on **Link and domain settings**:
+Once you have published your collection using one of those options, the button will no longer say publish, but will instead state the current publish setting. In this example, the collection is published as **unlisted.** Next, click on **link and domain settings**:
 
 <figure><img src="../../../.gitbook/assets/collection-link-and-domain-settings.png" alt=""><figcaption><p>Link and domain settings</p></figcaption></figure>
 
-From **Link and domain settings**, click the **Connect a domain** button:
+From **link and domain settings**, click the **connect a domain** button:
 
 <figure><img src="../../../.gitbook/assets/collection-connect-a-domain.png" alt=""><figcaption><p>Connect a domain</p></figcaption></figure>
 
-This will open up a window where you can enter the custom domain, and then click the **Continue** button:
+This will open up a window where you can enter the custom domain, and then click the **continue** button:
 
 <figure><img src="../../../.gitbook/assets/connect-a-domain.png" alt=""><figcaption><p>Connect a domain</p></figcaption></figure>
 

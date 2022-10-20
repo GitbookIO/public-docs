@@ -21,3 +21,7 @@ Task lists allow you to create a list of items with checkboxes that you can chec
   - [ ] Aaaaand, here's a subtask that hasn't been done.
 - [ ] Finally, an item, unidented using `shift` + `tab`.
 ```
+
+{% hint style="info" %}
+Please note that readers of your published space will not be able to check or uncheck these boxes. You decide which boxes are checked and unchecked when you write the content.
+{% endhint %}

@@ -6,7 +6,7 @@ description: >-
 
 # Set a custom domain
 
-By default, your spaces and collections are accessible on a \[something].gitbook.io domain. However, you can customize this by setting a custom domain, meaning your audience will be able to access your documentation on a domain that makes sense for your organization.
+By default, your spaces and collections are accessible on a `[something].gitbook.io` domain. However, you can customize this by setting a custom domain, meaning your audience will be able to access your documentation on a domain that makes sense for your organization.
 
 If you have any trouble while following the steps in this section, please first [review our troubleshooting information](troubleshooting.md), and then [contact support](../../troubleshooting/support.md) if you're still not sure what to do next.
 

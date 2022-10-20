@@ -2,10 +2,10 @@
 
 You can add rich-text to the editor, but also by using markdown.
 
-Markdown is a popular markup syntax that's widely known for its simplicity and popularity on the Web. GitBook supports it as a keyboard-friendly way to write rich and structured text.
+Markdown is a popular markup syntax that's widely known for its simplicity and popularity online. GitBook supports it as a keyboard-friendly way to write rich and structured text.
 
 {% hint style="info" %}
-You can learn more about Markdown itself, by visiting [Common Mark](https://commonmark.org/help/).
+You can learn more about Markdown itself by visiting [Common Mark](https://commonmark.org/help/).
 {% endhint %}
 
 ## Text formatting <a href="#text-formatting" id="text-formatting"></a>
@@ -31,7 +31,7 @@ We support all the classic inline Markdown formatting:
 \`\`\``py⏎` creates a new code block with Python syntax highlighting.
 
 {% hint style="info" %}
-We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll eventually catch up.
+We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll catch up soon!
 {% endhint %}
 
 ## Lists

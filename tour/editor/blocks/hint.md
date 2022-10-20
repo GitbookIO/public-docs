@@ -6,11 +6,7 @@ description: Hint content block
 
 Hints are a great way to bring the reader's attention to specific elements in your documentation.
 
-There are 4 different types of hints, you have already seen some of them in this documentation.
-
-{% hint style="info" %}
-Please note that [inline content](../inline/) and [formatting](../formatting.md) is supported.
-{% endhint %}
+There are 4 different types of hints, and both [inline content](../inline/) and [formatting](../formatting.md) are supported.
 
 ### Example
 
@@ -40,7 +36,7 @@ This is an inline <img src="../../../.gitbook/assets/notification.png" alt="" da
 This is a second <mark style="color:orange;background-color:purple;">line</mark>
 {% endhint %}
 
-### Git sync representation in markdown
+### Git Sync representation in Markdown
 
 ```markdown
 {% raw %}

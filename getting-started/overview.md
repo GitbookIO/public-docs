@@ -9,13 +9,14 @@ This page walks you through various sections, features and menus that you'll fin
 {% hint style="info" %}
 **Permissions**\
 The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level. \
-Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions. \
-Table of contents, Page header, Editor, Page actions and Page outline are visible to all.&#x20;
+Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.&#x20;
+
+The table of contents, page header, editor, page actions, and on this page sections are visible to all.&#x20;
 {% endhint %}
 
 ## Sidebar
 
-<figure><img src="../.gitbook/assets/sidebar-updated.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Sidebar.png" alt="A screenshot of the GitBook app. On the left is a dark blue sidebar with a search bar, links to different spaces in the GitBook organization, notification and settings buttons, and a plus button to create new content. On the right is the editor and a collection called Company Wiki. "><figcaption><p>The sidebar in the GitBook app</p></figcaption></figure>
 
 The sidebar is the dark blue (in light mode) or black (in dark mode) section on the left-hand side of the app.
 
@@ -36,7 +37,7 @@ The sidebar contains:
 
 ## Space header
 
-![](../.gitbook/assets/space-header.png)
+<figure><img src="../.gitbook/assets/Space Header.png" alt="A screenshot of the GitBook app. The image is darkened except for a white bar at the top which is the space header. In the space header you can see the name of the space, which is API Docs, and an emoji for the space which is a cog. on the right of the space header there is a plus button to invite members to the space, and profile pictures of members who are currently active in the space. Lastly there is a button that says publish. This button is used to change the visibility of the space."><figcaption><p>The space header in the GitBook app</p></figcaption></figure>
 
 The space header is a narrow area at the very top of the GitBook app. It includes:
 
@@ -45,13 +46,13 @@ The space header is a narrow area at the very top of the GitBook app. It include
 * **The space name**\
   If you want to change the name of the space, simply click into this field and begin typing.
 * **The visibility menu**\
-  From here you can select a [visibility option](publishing/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space. The wording on the button itself states the current setting or, in the case of an unpublished space like the one in the screenshot above, says **Publish**.
+  From here you can select a [visibility option](publishing/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space. The wording on the button itself states the current setting or, in the case of an unpublished space like the one in the screenshot above, is **publish**.
 * **The space actions menu**\
   The icon with three vertical dots in the very top-right corner opens up a number of actions for the space.
 
 ## Space sub-navigation
 
-![](../.gitbook/assets/space-sub-navigation.png)
+<figure><img src="../.gitbook/assets/Space sub-navigation.png" alt="A screenshot of the GitBook app. Towards the top is a highlighted section which is the space sub-navigation menu. In the menu there are links: change requests, history, customize, discussions, files, insights, and integrations. "><figcaption><p>The space sub-navigation menu in the GitBook app</p></figcaption></figure>
 
 The space sub-navigation is another narrow area near the top of the GitBook app, immediately underneath the space header.
 
@@ -61,22 +62,22 @@ The space sub-navigation includes links to:
 
 * ****[**Change requests**](collaboration/change-requests.md)\
   From here you can create a new change request and review existing ones. There's a tab for each status: draft, in review, archived and merged.
-* ****[**Version control**](../tour/activity-history.md)****\
+* ****[**History**](../tour/activity-history.md)****\
   ****Clicking this opens up to provide details about both activity and change history for the space.
 * ****[**Customize**](../tour/customization/space-customization.md)\
   These settings allow you to affect the look and feel of the space, as well as configure features.
 * [**Discussions**](collaboration/comments-discussion.md)\
   You can have space-level conversations with other collaborators of organization-owned spaces here. You can use the feature in spaces that you own personally, too, but you'll have to provide both sides of the conversation!
-* [**Files**](../tour/editor/blocks/insert-files....md)\
+* [**Files**](../tour/editor/blocks/insert-files.md)\
   Upload and manage files from this area.
 * [**Insights**](../tour/insights.md)\
   Insights help you to understand how your public content is being viewed and searched.
-* [**Integrations**](../advanced-guides/apps-and-integrations-platform/)\
+* [**Integrations**](../advanced-guides/integrations-platform/)\
   You can connect GitBook to some other collaboration tools.
 
 ## Table of contents
 
-![](../.gitbook/assets/table-of-contents.png)
+<figure><img src="../.gitbook/assets/Table of contents (1).png" alt="A screenshot of the GitBook app. On the left, next to the side bar is a highlighted section. This is the table of contents. The names of the pages in the space are listed here. At the bottom of the list of pages there is a button that says &#x22;New page&#x22;."><figcaption><p>The table of contents in the GitBook app</p></figcaption></figure>
 
 The table of contents is the list of **document pages, links, and groups** that make up a space. It's located to the right of the sidebar, and underneath the space sub-navigation.
 
@@ -90,7 +91,7 @@ The option to create a new document page, link or group can be found at the bott
 
 ## Page header
 
-![](../.gitbook/assets/page-header.png)
+<figure><img src="../.gitbook/assets/Page header.png" alt="A screenshot of the GitBook app. There is a highlighted section underneath the space sub-navigation menu. This is the page header. In large font is the name of the page: Welcome!. To the left of the page name is an emoji symbol. Underneath the page name is written &#x22;page description (optional)&#x22;. On the right of the page header there is a button with 3 dots."><figcaption><p>The page header in the GitBook app</p></figcaption></figure>
 
 The page header is made up of:
 
@@ -102,15 +103,15 @@ Depending on the width of your screen, you _might_ also see a menu icon with 3 v
 
 ## Editor
 
-![](../.gitbook/assets/editor.png)
+<figure><img src="../.gitbook/assets/Editor.png" alt="A screenshot of the GitBook app. There is a large highlighted section in the right-bottom corner of the image. This is the editor section of the GitBook app. There are 2 headings on the page: &#x22;Welcome to MyAPI&#x22; and &#x22;Want to jump right in?&#x22;. Under each heading is some paragraph text."><figcaption><p>The editor in the GitBook app.</p></figcaption></figure>
 
 The editor is where you create the content for your documentation. We offer lots of different content blocks — headings, lists, tables, images, code blocks, and more!
 
-In addition, you can [embed content](../tour/editor/blocks/embed-a-url....md) from other places, and we support [markdown](../tour/editor/markdown.md) to help you create content even more quickly.
+In addition, you can [embed content](../tour/editor/blocks/embed-a-url.md) from other places, and we support [markdown](../tour/editor/markdown.md) to help you create content even more quickly.
 
 ## Page actions
 
-![](../.gitbook/assets/page-actions.png)
+<figure><img src="../.gitbook/assets/Page actions.png" alt="A screenshot of the GitBook app. There is a highlighted section on the right hand side. This is the page actions menu. There are buttons for different actions to take on the page. The buttons are: Insert subpage, Import subpages, Add cover, Rename, Duplicate, Delete, Page layout, Export as PDF, Copy link."><figcaption><p>The page actions menu in the GitBook app</p></figcaption></figure>
 
 Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](collaboration/live-edits.md) enabled, or when you're working in a [change request](collaboration/change-requests.md).
 
@@ -118,12 +119,12 @@ Page actions are located on the right-hand side of the editor. These actions wil
 If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. You'll see an icon for the page actions menu in the [page header](overview.md#page-header), instead.
 {% endhint %}
 
-## Page outline
+## On this page
 
-![](../.gitbook/assets/page-outline.png)
+<figure><img src="../.gitbook/assets/Page outline.png" alt="A screenshot of the GitBook app. There is a highlighted section in the bottom right corner with the title &#x22;On this page&#x22;. Underneath the title are the page headings: Welcome to my API, What to jump right in?, Want to deep dive?."><figcaption><p>On this page in the GitBook app</p></figcaption></figure>
 
-The page outline is located on the right-hand side of the editor, underneath page actions. When you have more than one on a page, every heading 1 and heading 2 content block title will be listed here, making it easier for you to jump up/down the page to the section you want to work on.
+The on this page section is located on the right-hand side of the editor, underneath page actions. When you have more than one on a page, every heading 1 and heading 2 content block title will be listed here, making it easier for you to jump up/down the page to the section you want to work on.
 
 {% hint style="info" %}
-If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. Your browser window will need to be at least 1430 pixels wide to see and use the page outline.
+If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. Your browser window will need to be at least 1430 pixels wide to see and use the on this page section.
 {% endhint %}
