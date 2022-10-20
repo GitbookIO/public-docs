@@ -4,11 +4,11 @@ description: Tabs content block
 
 # Tabs
 
-Using tabs is a good way to structure your content.
+Using tabs can be a good way to structure your content.
 
 ### Example
 
-Here is an example that lists instructions relevant to specific platforms
+Here is an example that lists instructions relevant to specific platforms:
 
 {% tabs %}
 {% tab title="Windows" %}

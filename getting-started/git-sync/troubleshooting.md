@@ -9,7 +9,7 @@ In case of errors, make sure that:‌
 
 ## ​GitBook is not using my `docs` folder <a href="#gitbook-is-not-using-my-docs-folder" id="gitbook-is-not-using-my-docs-folder"></a>
 
-By default, GitBook uses the root of the repository as a starting point. A specific directory can be specified to scope the markdown files. See [Configuration](content-configuration.md).‌
+By default, GitBook uses the root of the repository as a starting point. A specific directory can be specified to scope the markdown files. Take a look at our documentation on [content configuration](content-configuration.md) for more details.‌
 
 ## GitBook is creating new markdown files <a href="#gitbook-is-creating-new-markdown-files" id="gitbook-is-creating-new-markdown-files"></a>
 
@@ -23,7 +23,7 @@ Make sure that you have installed the GitBook GitHub app to the correct location
 
 ### For GitLab repositories
 
-Make sure that your Access Token has been configured with the following access:
+Make sure that your access token has been configured with the following access:
 
 * api
 * read\_repository
@@ -39,6 +39,6 @@ If after updating your repository by adding or modifying a markdown file, you do
 
 This could either be because you created the file manually, or because you made an edit on GitBook and the GitBook to Git export phase of the sync created it for you.
 
-The content of this file mirrors [your main Table of Contents](../content-structure/content-structure.md) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your ToC and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
+The content of this file mirrors your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
-If after ensuring that all your files are included in the `SUMMARY.md` file there's still nothing happening on GitBook, don't hesitate to [contact us](mailto:support@gitbook.com) 💌 for more information.
+If after ensuring that all your files are included in the `SUMMARY.md` file there's still nothing happening on GitBook, don't hesitate to [contact support](../../troubleshooting/support.md) for assistance.

@@ -12,4 +12,9 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 ## Publish your documentation in 5 easy steps
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><a href="getting-started/import.md"><strong>Import</strong></a><br>Move your existing content to GitBook with ease.</td></tr><tr><td><a href="getting-started/git-sync/"><strong>Git Sync</strong></a><br>Benefit from our bi-directional synchronisation with GitHub and GitLab.</td></tr><tr><td><a href="getting-started/content-structure/"><strong>Organise your content</strong></a><br>Create pages and spaces and organize them into collections</td></tr><tr><td><a href="getting-started/collaboration/"><strong>Collaborate</strong></a><br>Invite other users and collaborate asynchronously with ease.</td></tr><tr><td><a href="getting-started/publishing/"><strong>Publish your docs</strong></a><br>Share your documentation with selected users or with everyone.</td></tr></tbody></table>
+| <p><a href="getting-started/import.md"><strong>Import</strong></a><br>Move your existing content to GitBook with ease.</p>                                                    |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong></strong><a href="getting-started/git-sync/"><strong>Git Sync</strong></a><br>Benefit from our bi-directional synchronisation with GitHub and GitLab.</p>          |
+| <p><strong></strong><a href="getting-started/content-structure/"><strong>Organise your content</strong></a><br>Create pages and spaces and organize them into collections</p> |
+| <p><a href="getting-started/collaboration/"><strong>Collaborate</strong></a><br>Invite other users and collaborate asynchronously with ease.</p>                              |
+| <p><strong></strong><a href="getting-started/publishing/"><strong>Publish your docs</strong></a><br>Share your documentation with selected users or with everyone.</p>        |

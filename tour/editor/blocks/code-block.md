@@ -61,7 +61,7 @@ greeting.("Anna")
 You can set the syntax to any of the supported languages and that will enable syntax highlighting in that language.
 
 {% hint style="info" %}
-We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll eventually catch up.
+We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll catch up soon!
 {% endhint %}
 
 #### With line numbers
@@ -70,7 +70,7 @@ Toggle showing line numbers. Showing line numbers is useful when the code repres
 
 #### With caption
 
-A code block can have a caption. The caption is often the name of a file as shown in our [example](code-block.md#example). But it can really be anything. One could use it as a title.
+A code block can have a caption. The caption is often the name of a file as shown in our [example](code-block.md#example), but it can be used as a title, or anything else you'd like.
 
 #### Wrap code
 
@@ -84,7 +84,7 @@ You can hover over a code block and see an icon that allows you to copy the cont
 
 <figure><img src="../../../.gitbook/assets/code-block-copy.png" alt="Screenshot showing the icon in a code block that allows you to copy its contents to the clipboard."><figcaption><p>Copy code block contents to the clipboard</p></figcaption></figure>
 
-### Git sync representation in markdown
+### Git Sync representation in Markdown
 
 ````markdown
 {% raw %}
