@@ -18,7 +18,7 @@ Sometimes, though, there can be a problem at the stage where we set up the SSL c
 
 In these cases, we can recommend the following:
 
-1. Check that your CNAME record is set up correctly. Please review our page about [configuring DNS](configure-dns.md) to help you with this. If the CNAME record is incorrect, we will never be able to configure the SSL certificate and complete the setup of your custom domain.
+1. Check that your CNAME record is set up correctly. Please review our page about [configuring DNS](configure-dns.md) to help you with this. If the CNAME record is incorrect, we will never be able to configure the SSL certificate and complete the setup of your custom domain. The value for the CNAME record will be displayed to you in the GitBook app, and will be in the format `[something]-hosting.gitbook.io` (where that `[something]` will be unique to you).
 2. Allow at least one hour between [configuring the CNAME record](configure-dns.md) and [finalizing the custom domain setup](finalize.md). This is because in _most_ cases, propagation will complete within one hour.
 3. Try using a third-party DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net/), to find out what value servers located all around the world believe to be correct for your CNAME record. Type or paste your subdomain into the field, choose CNAME from the dropdown, and click on the search button. As propagation progresses, more and more servers will return the result that you expect. When the vast majority of these servers are reporting back the result that you expect, you can try moving onto the step of [finalizing the custom domain setup](finalize.md).
 
