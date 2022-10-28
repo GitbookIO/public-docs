@@ -18,7 +18,4 @@ Creators and admins can install integrations for a space. Only admins can instal
 
 ### Learn more about:
 
-| <p><a href="install-an-integration.md"><strong>Install an integration</strong></a><br>Learn how to install an integration in a single space or on all your content.</p>                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p><a href="segment/"><strong>Segment</strong> </a><strong></strong><br><strong></strong>Collect, clean and utilise your customer data.</p>                                                |
-| <p><a href="slack/"><strong>Slack</strong></a><strong></strong><br><strong></strong>Receive real-time Slack notifications when something important happens to your content on GitBook.</p> |
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><a href="install-an-integration.md"><strong>Install an integration</strong></a><br>Learn how to install an integration in a single space or on all your content.</td></tr><tr><td><a href="segment/"><strong>Segment</strong> </a><strong></strong><br><strong></strong>Collect, clean and utilise your customer data.</td></tr><tr><td><a href="slack/"><strong>Slack</strong></a><strong></strong><br><strong></strong>Receive real-time Slack notifications when something important happens to your content on GitBook.</td></tr></tbody></table>

@@ -20,7 +20,4 @@ Only creators and administrators can publish content.
 
 ### Learn more about:
 
-| <p><strong></strong><a href="space-publishing.md"><strong>Space publishing</strong></a><br>Learn about publishing options for spaces.</p>              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p><a href="collection-publishing.md"><strong>Collection publishing</strong></a><br>Learn about publishing collections as containers for variants.</p> |
-| <p><a href="share-links.md"><strong>Share links</strong></a><br>Learn about sharing your content privately with share links.</p>                       |
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong></strong><a href="space-publishing.md"><strong>Space publishing</strong></a><br>Learn about publishing options for spaces.</td></tr><tr><td><a href="collection-publishing.md"><strong>Collection publishing</strong></a><br>Learn about publishing collections as containers for variants.</td></tr><tr><td><a href="share-links.md"><strong>Share links</strong></a><br>Learn about sharing your content privately with share links.</td></tr></tbody></table>

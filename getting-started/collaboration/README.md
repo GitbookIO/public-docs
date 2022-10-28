@@ -13,7 +13,4 @@ Collaboration settings are available to administrators and creators at the conte
 
 ### Learn more about:
 
-| <p><strong></strong><a href="live-edits.md"><strong>Live edits</strong></a><br>Write content instantaneously, no change request is needed.</p>      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong></strong><a href="change-requests.md"><strong>Change requests</strong></a><br>Work on your changes in branched content.</p>              |
-| <p><strong></strong><a href="comments-discussion.md"><strong>Comments and discussion</strong></a><br>Contribute and review your docs with ease.</p> |
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong></strong><a href="live-edits.md"><strong>Live edits</strong></a><br>Write content instantaneously, no change request is needed.</td></tr><tr><td><strong></strong><a href="change-requests.md"><strong>Change requests</strong></a><br>Work on your changes in branched content.</td></tr><tr><td><strong></strong><a href="comments-discussion.md"><strong>Comments and discussion</strong></a><br>Contribute and review your docs with ease.</td></tr></tbody></table>

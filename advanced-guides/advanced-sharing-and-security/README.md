@@ -16,8 +16,4 @@ SSO, SAML and visitor authentication can only be set by users with admin rights.
 
 ### **Learn more about:**&#x20;
 
-| <p><a href="sso-and-saml.md"><strong>SSO</strong> </a><br>Add a list of email domains allowed to access your GitBook organization.</p>                                        |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><a href="saml.md"><strong>SAML</strong></a><br>Give access to your GitBook organization through your identity provider.</p>                                                |
-| <p><strong></strong><a href="scim-and-directory-sync.md"><strong>SCIM &#x26; directory sync</strong></a><br>Provision and de-provision users from your company directory.</p> |
-| <p><strong></strong><a href="visitor-authentication.md"><strong>Visitor authentication</strong></a> <strong></strong> <br>Grant access through JWT Token.</p>                 |
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><a href="sso-and-saml.md"><strong>SSO</strong> </a><br>Add a list of email domains allowed to access your GitBook organization.</td></tr><tr><td><a href="saml.md"><strong>SAML</strong></a><br>Give access to your GitBook organization through your identity provider.</td></tr><tr><td><strong></strong><a href="scim-and-directory-sync.md"><strong>SCIM &#x26; directory sync</strong></a><br>Provision and de-provision users from your company directory.</td></tr><tr><td><strong></strong><a href="visitor-authentication.md"><strong>Visitor authentication</strong></a> <strong></strong> <br>Grant access through JWT Token.</td></tr></tbody></table>

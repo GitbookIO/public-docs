@@ -18,7 +18,5 @@ Admins and creators can customize spaces and collections.
 
 ### Learn more about:
 
-| <p><strong></strong><a href="space-customization.md"><strong>Space customization</strong></a><strong></strong><br><strong></strong>Learn how to customize the appearance of your spaces.</p>     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <p><a href="collection-customization.md"><strong>Collection customization</strong></a><br>Customize at the collection level and spaces within the collection can inherit the customizations.</p> |
+<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong></strong><a href="space-customization.md"><strong>Space customization</strong></a><strong></strong><br><strong></strong>Learn how to customize the appearance of your spaces.</td></tr><tr><td><a href="collection-customization.md"><strong>Collection customization</strong></a><br>Customize at the collection level and spaces within the collection can inherit the customizations.</td></tr></tbody></table>
 
