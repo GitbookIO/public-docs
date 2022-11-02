@@ -1,5 +1,5 @@
 ---
-description: How to install an integration in a space or a library
+description: How to install an integration in a space or a library.
 ---
 
 # Install an integration
@@ -38,13 +38,13 @@ This will open up the integration's installation screen. Next, click the **insta
 
 <img src="../../.gitbook/assets/Install integration button.png" alt="An Integrations window open, Slack integration is shown with Install button highlighted in the bottom right corner" data-size="original">
 
-This will instal the integration and connects it to your space.
+This will install the integration and connect it to your space.
 
 </details>
 
 ### Complete the configuration
 
-Finally, you need to follow the instructions, and select the options you need, to **complete the installation**.
+Finally, you need to follow the instructions and select the options you need to **complete the installation**.
 
 This can be done in the integration's installation configuration screen shown to you, specifically in the **configuration** and **space configuration** sections.
 
@@ -52,7 +52,7 @@ This can be done in the integration's installation configuration screen shown to
 
 ## Installation on multiple spaces
 
-You can also install an integration on **selected or all spaces** in your library.&#x20;
+You can install an integration on **selected or all spaces** in your library.&#x20;
 
 * First, go to your personal account settings or organization settings screen.
 * Next, click the apps & integrations tab under your settings.
@@ -94,13 +94,3 @@ Next, regardless of the option you chose, you will need to select the needed con
 You can apply different configuration options to each space. This can be done in the **space configuration** section. Use the space dropdown on the top right-hand corner to switch to another space:
 
 <figure><img src="../../.gitbook/assets/Space configuration (4).png" alt="Space configuration panel with list of settings such us &#x27;notify visibility update&#x27; and &#x27;notify content update&#x27; each has a toggle that is not switched on"><figcaption></figcaption></figure>
-
-## Available integrations
-
-{% content-ref url="slack/" %}
-[slack](slack/)
-{% endcontent-ref %}
-
-{% content-ref url="segment/" %}
-[segment](segment/)
-{% endcontent-ref %}

@@ -4,9 +4,9 @@ description: Insert images content block
 
 # Insert images
 
-## Image block <a href="#quote" id="quote"></a>
-
 You can insert full-width images into your space, which can be aligned to the left, center, or right. You can optionally include alt text and/or a caption. For accessibility purposes, we highly recommend setting alt text.
+
+### Example of an image block
 
 Image blocks can display a gallery of images, like this:
 

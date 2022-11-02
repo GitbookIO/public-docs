@@ -8,7 +8,7 @@ You can use mathTeX format to include mathematical formulae in your documentatio
 
 We also offer this [as inline content](../inline/math-and-tex.md).
 
-### Example
+### Example of Math & TeX block
 
 $$
 s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}

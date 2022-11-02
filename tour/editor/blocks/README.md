@@ -7,6 +7,7 @@ description: Space content blocks
 You can choose one of the following content blocks via the command palette:
 
 * [Paragraph](paragraph.md)
+* [Cards](cards.md)
 * [Heading](heading.md)
 * [Unordered list](unordered-list.md)
 * [Ordered list](ordered-list.md)

@@ -17,7 +17,7 @@ A code block may be useful for:
 * Showing how to call API endpoints
 * and for many more scenarios...
 
-### Example
+### Example of a code block
 
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 ```javascript

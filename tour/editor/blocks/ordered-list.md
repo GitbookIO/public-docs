@@ -6,7 +6,7 @@ description: Ordered list content block
 
 Ordered or numbered lists help you prioritize items or create a list of steps.
 
-### Example
+### Example of ordered list
 
 1. Item 1
    1. Nested item 1.1

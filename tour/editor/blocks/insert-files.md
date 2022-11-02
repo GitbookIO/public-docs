@@ -6,7 +6,7 @@ description: Insert files content block
 
 You can upload file assets to your GitBook space and include them in your spaces for download.
 
-### Example
+### Example of file
 
 {% file src="../../../.gitbook/assets/hello-world.pdf" %}
 Hello world
@@ -15,12 +15,6 @@ Hello world
 ### Related
 
 If you are looking to embed external content into your pages, take a look at how to [embed a URL](embed-a-url.md).
-
-## Managing files
-
-<figure><img src="../../../.gitbook/assets/files.png" alt="A screenshot of a GitBook space with the files panel opened up. Three screenshots are visible in the list of files."><figcaption><p>Managing files</p></figcaption></figure>
-
-​Several of GitBook's display blocks refer to files for their content. Image blocks, image galleries, and OpenAPI blocks can all pull the content that they display from files. Let's take a look at how to use this feature.
 
 ## Uploading a file
 

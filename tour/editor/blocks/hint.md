@@ -8,7 +8,7 @@ Hints are a great way to bring the reader's attention to specific elements in yo
 
 There are 4 different types of hints, and both [inline content](../inline/) and [formatting](../formatting.md) are supported.
 
-### Example
+### Example of a hint
 
 {% hint style="info" %}
 **Info hints** are great for showing general information, or providing tips and tricks.

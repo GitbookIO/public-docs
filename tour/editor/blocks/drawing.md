@@ -8,5 +8,7 @@ Drawings / sketches can be inserted from the insertion palette and are editable 
 
 Drawings are stored as special SVG files in the space. Those files have an extension of `drawing.svg`.
 
+### Example of a drawing block
+
 <img src="../../../.gitbook/assets/file.drawing.svg" alt="A drawing example" class="gitbook-drawing">
 

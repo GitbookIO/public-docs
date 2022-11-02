@@ -6,7 +6,7 @@ description: Unordered list content block
 
 Unordered lists are great for making a series of points that do not necessarily need to be made in a particular order.
 
-### Example
+### Example of unordered list
 
 * Item
   * Nested item

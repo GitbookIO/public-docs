@@ -4,11 +4,9 @@ description: Embed a URL content block
 
 # Embed a URL
 
-## How to embed content <a href="#how-to-embed-content" id="how-to-embed-content"></a>
-
 To add a rich embed, simply paste the link of the content you want to embed and press the enter key! ✨
 
-## Examples
+### Examples of a rich embed
 
 ### Videos
 

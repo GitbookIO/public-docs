@@ -6,7 +6,7 @@ description: Task list content block
 
 Task lists allow you to create a list of items with checkboxes that you can check or uncheck. This is useful for tracking project items, shopping lists, create playbooks and more.
 
-### Example
+### Example of a task list
 
 * [ ] &#x20;Here's a task that hasn't been done
   * [x] And here's a subtask that has been done, indented using `tab`.

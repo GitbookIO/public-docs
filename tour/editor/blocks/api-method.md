@@ -6,7 +6,7 @@ description: API method content block
 
 An API Method block is used to manually document an HTTP API endpoint.
 
-### Example
+### Example of API Method block
 
 {% swagger method="get" path="/user" baseUrl="https://api.example.com/v1" summary="Get a user" %}
 {% swagger-description %}

@@ -2,7 +2,7 @@
 description: Configure the Slack integration
 ---
 
-# Configure the integration
+# Configure the Slack integration
 
 ## Install the integration
 
@@ -58,7 +58,7 @@ Click the **default channel** dropdown in the **configuration** section and sele
 
 <details>
 
-<summary>Step 4: Select configuration options for specific spaces (Optional)</summary>
+<summary>Step 4: Select configuration options for specific spaces (optional)</summary>
 
 Next, you can select different configuration options to apply individually to each of the spaces. You can do this in the **space configuration** section.
 
