@@ -6,85 +6,103 @@ description: >-
 
 # Non-profit/open source plan
 
+We welcome applications for our Community plan from organizations that met certain criteria. Broadly, these fall into one of three categories:
+
+1. Non-profit organizations
+2. Open source projects
+3. Small education-related groups
+
 {% hint style="info" %}
-Please note that most of your needs should be covered by our free **Personal** account so, if you don’t plan to collaborate with others, please start there. It allows you to publish content to the world 🌍! It even supports linking a [custom domain](../../advanced-guides/custom-domain/) to each of your spaces.
+If you won't need to collaborate with others, then your needs should be covered by our free Personal plan! It allows you to publish content to the world 🌍 and even supports linking a [custom domain](../../advanced-guides/custom-domain/) to each of your spaces.
 {% endhint %}
 
-If it's absolutely necessary to collaborate with others, please continue reading.
+If you will **need** to collaborate with others, then please continue reading.
 
-## Conditions
+## Our criteria
 
-We welcome applications from organizations that hold a valid charitable status 501(c) or similar as well as open-source applications with a GitHub or GitLab related project.
-
-**Please read the criteria before applying.**
+### Criteria for all cases
 
 {% hint style="warning" %}
-If we reject your application, we are sorry in advance. We don't have the resources to share the details. We'll do our best to give you some context if possible but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
+If we reject your application, we are sorry in advance. We don't have the resources to share the details. We'll do our best to give you some context if possible, but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
 {% endhint %}
 
-### Base criteria for all cases
+Your organization should **not**:
 
-Your organization:
+* be a church, affiliated with one, or promote any specific religion.
+* be a school, college, university, etc. (but it can be a student group, lab group, course group, etc.).
+* be a government office, ministry, or function (but can be a small municipality local office).
+* be a private foundation.
+* have political affiliations.
+* promote a dogma.
+* promote a religious position as part of its activity.
+* promote discrimination of any kind, on the basis of gender (identity or expression), race, ethnicity, political or religious opinion, sexual orientation, or anything else.
 
-* Is not a church, affiliated or promoting a specific religion
-* Is not a school, college, university (can be student group, lab group, course group)
-* Is not a government office, ministry, or function (can be a small municipality local office)
-* Is not a private foundation
-* Does not have political affiliations
-* Does not promote a dogma
-* Does not promote a religious position as part of its activity
-* Does not promote discrimination of any kind, on the basis of the gender (identity or expression), race, ethnicity, political or religious opinion, sexual orientation, or other.
+### Criteria for non-profit organizations
 
-### Criteria for non-profits
+Your organization **needs to**:
 
-Your organization:
+* Be a company with an official non-profit status.
+* Share a valid charitable status (501(c) or equivalent for your country).
 
-* Needs to be a company and have an official non-profit status
-* Needs to share a valid charitable status 501(c) or equivalent
+### Criteria for open source projects
 
-### Criteria for open source
+Your Git repository **must**:
 
-Your Git repository:
+* Exist on GitHub or GitLab.
+* Not be an empty repository.
+* Not be a fork with no activity of its own.
+* Have a `README.md` file that clearly explains what the software is about.
+* Have a `CONTRIBUTING.md` file that explains how to contribute to the project.
+* Have a `LICENSE` file with [a valid OSS license](https://choosealicense.com/).
+* Have a `CODE_OF_CONDUCT.md` file.
+* Make it easy for others to [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github#finding-good-first-issues).
 
-* Exists on GitHub or GitLab
-* Is not just an empty repository with nothing to show
-* Is not just a fork with no activity of its own
-* Has a `README.md` file that clearly explains what the software is about
-* Has a `CONTRIBUTING.md` file that explains how to contribute
-* Has a `LICENSE` file with [a valid OSS license](https://choosealicense.com)
-* Has a `CODE_OF_CONDUCT.md`
-* Makes it easy for others [to contribute](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/finding-ways-to-contribute-to-open-source-on-github#finding-good-first-issues)
+### Criteria for small education-related groups
 
-### Criteria for education
-
-* The organization does not represent a school, college, or university as a whole
-* The organization represents a small group related to a school, college, or university
-* You are a small student group or a teacher organizing a course for a small group of students
+* The organization _must not_ represent a school, college, or university as a whole.
+* The organization _may_ represent a small group related to a school, college, or university.
+* You _may_ be a small student group or a teacher organizing a course for a small group of students.
 
 {% hint style="info" %}
-Individual students that want to keep your personal and course notes should use our free **Personal** plan. This plan provides unlimited private or public spaces at no cost, without needing to apply for the **Community** plan.
+Individual students that want to keep your personal and course notes should use our free **Personal** plan. This plan provides unlimited private or public spaces at no cost, without needing to apply for the Community plan.
 {% endhint %}
 
 ## How to apply
 
-In order to apply for the Community plan, you need to have a **GitBook account** and have created an **organization**.
+1. **Sign up or sign in**\
+   Start by [signing up](https://app.gitbook.com/join) for a GitBook account if you don't have one yet, or [signing in](https://app.gitbook.com) if you do.
+2. **Choose an organization**\
+   Decide which organization you would like the Community plan to be applied to. This could be one that you've already created, or you might want to create a new organization. (To create a new organization, click the switch organization toggle near the top of the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar), then click **create an organization**, and follow the prompts.)
+3. **Get the organization URL**\
+   In the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar), click on the name of the organization you chose in step 2. Copy or make a note of the URL in your browser. It will be in the format `app.gitbook.com/o/[string]/home`, where `[string]` will be a unique string of letters and numbers used to identify that organization.
+4. **Send us an email**\
+   Please send your application email to [support@gitbook.com](mailto:support@gitbook.com).
 
-1. [Sign up](https://app.gitbook.com/join) if you don't have an account, or [sign in](https://app.gitbook.com/) if you already have one.
-2. Choose an existing organization in the sidebar or [create one](https://app.gitbook.com/welcome/o/business#sidebar\_menu) if you haven't done so.
-3. Copy the link of your organization because you will need it to apply:\
-   \
-   It will look like:\
-   &#x20; \=> app.gitbook.com/o/<mark style="color:green;background-color:yellow;">knDc9w0Awj6RGjaiTeWn</mark>\ <mark style="color:green;background-color:yellow;"></mark>  where <mark style="color:green;background-color:yellow;">knDc9w0Awj6RGjaiTeWn</mark> is different and unique to your organization.\
+### Your application email
 
-4. Visit the [pricing page](https://www.gitbook.com/pricing), and scroll down to frequently asked questions.
-5. Expand **do you offer non profit/open source discounts?**
-6. Click the **apply here** button.
-7. Follow the instructions in the chat bot that pops up.
+Depending on which type of organization you are applying for, please follow the relevant steps listed below.
 
-You might be required to provide additional information for us to validate your organization type:
+{% tabs %}
+{% tab title="Non-profit organizations" %}
+* Briefly describe the purpose of your non-profit organization.
+* Share a link to your organization's public website.
+* Attach your non-profit organization's valid 501(c) or equivalent documentation for your country.
+* Include the link to your organization. Finding this link is described in step 3 of the section above.
+{% endtab %}
 
-* **Open-source:** link to your GitHub repository or GitLab project
-* **Non-profit:** proof of your non-profit status (such as a copy of your 501(c)(3) or your country's equivalent proof of non-profit status)
+{% tab title="Open source projects" %}
+* Briefly describe the purpose of your open source project.
+* Share a link to your public Git **repository** on GitHub or GitLab.
+* Include the link to your organization. Finding this link is described in step 3 of the section above.
+{% endtab %}
+
+{% tab title="Small education-related groups" %}
+* Ask each member of the group to create their own GitBook account using their school email address, and invite them to the organization. Please only send your application once this has been done.
+* Briefly describe your group and its purpose.
+* Share a link to a public website associated with your education group, if you have one.
+* Include the link to your organization. Finding this link is described in step 3 of the section above.
+{% endtab %}
+{% endtabs %}
 
 We will respond to your application as soon as possible. Please allow up to 5 working days for us to review your status and update your account.
 
