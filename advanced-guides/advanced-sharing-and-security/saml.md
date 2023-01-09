@@ -41,6 +41,15 @@ Most of these values can be copied directly into your IdP to complete configurat
 
 GitBook requires that the **NameID** contain the user’s email address. Technically we are looking for: `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress` as the Name-ID format – many providers (such as Google) will allow you set a format such as **EMAIL**.
 
+### Custom Attributes
+
+GitBook will pull the following custom attributes from the SAML assert response and use them when creating the user.
+
+| Field        | Description                                                                                              |
+| ------------ | -------------------------------------------------------------------------------------------------------- |
+| `first_name` | `first_name` and `last_name` fields will be combined to produce the display name for the user in GitBook |
+| `last_name`  | `first_name` and `last_name` fields will be combined to produce the display name for the user in GitBook |
+
 ## ​Creating end-user accounts <a href="#creating-end-user-account" id="creating-end-user-account"></a>
 
 To add members, create accounts for them in your IdP. The first time a new member logs in to GitBook via the IdP, a GitBook account will be created for them via automatic IdP provisioning. The user will have access to organization resources as an organization member.
