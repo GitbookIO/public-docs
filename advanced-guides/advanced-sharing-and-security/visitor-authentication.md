@@ -95,3 +95,44 @@ app.get('/', (req, res) => {
 
   res.redirect(redirectURL);
 ```
+
+## Multi-tenant Visitor Authentication
+
+If you're using GitBook as a platform for providing content to your customers, you are probably looking for multi-tenant visitor authentication. Essentially, your authentication server needs to be responsible for handling authentication across multiple different spaces. This is possible in GitBook with a few small tweaks.
+
+### Adding all tenants to your authentication server
+
+Your authentication server will need to know the JWT signing keys and the URLs of all the GitBook spaces you expect it to handle. If you have two spaces in your organization for CustomerA and CustomerB, you can imagine your authentication server storing:
+
+```javascript
+const CUSTOMER_A = {
+  jwtSigningKey: 'aaa-aaa-aaa-aaa',
+  url: 'https://mycompany.gitbook.io/customer-a'
+};
+
+const CUSTOMER_B = {
+  jwtSigningKey: 'bbb-bbb-bbb-bbb',
+  url: 'https://mycompany.gitbook.io/customer-b'
+};
+```
+
+### Giving your authentication server additional context
+
+When GitBook cannot authenticate a user's request, it redirects to the fallback URL. This fallback URL is your authentication server, and GitBook is asking it to authenticate the user and then bring them back to the content.
+
+In order to handle multiple tenants, your authentication server needs to be told an additional piece of information: which space is the user trying to access? We do this by adding extra information to the fallback URL.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-01-11 at 19.58.40.png" alt=""><figcaption><p>A fallback URL with additional information</p></figcaption></figure>
+
+Your authentication server can now check the value of this field, and handle it accordingly:
+
+```javascript
+app.get('/', (req, res) => {
+  const customerInfo = req.query.space === 'customer-a' ? CUSTOMER_A : CUSTOMER_B;
+  
+  const token = jwt.sign({}, customerInfo.jwtSigningKey, { expiresIn: '1h' });
+  const redirectURL = `${customerInfo.url}/${req.query.location || ''}?jwt_token=${token}`;
+
+  res.redirect(redirectURL);
+});
+```
