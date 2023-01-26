@@ -18,12 +18,13 @@ If you are looking to embed external content into your pages, take a look at how
 
 ### Git Sync representation in Markdown
 
-<pre class="language-markdown"><code class="lang-markdown">//Simple Block
+```markdown
+//Simple Block
 ![](https://gitbook.com/images/gitbook.png)
 
 //Block with Alt Text
 ![The GitBook Logo](https://gitbook.com/images/gitbook.png)
 
 //Block with Caption
-<strong>![The GitBook Logo](https://gitbook.com/images/gitbook.png "GitBook Logo")
-</strong></code></pre>
+![The GitBook Logo](https://gitbook.com/images/gitbook.png "GitBook Logo")
+```
