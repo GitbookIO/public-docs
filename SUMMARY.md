@@ -12,6 +12,7 @@
   * [Enabling GitLab Sync](getting-started/git-sync/enabling-gitlab-sync.md)
   * [Content Configuration](getting-started/git-sync/content-configuration.md)
   * [GitHub Pull-Request Preview](getting-started/git-sync/github-pull-request-preview.md)
+  * [Commit messages & Autolink](getting-started/git-sync/commits.md)
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
 * [Content structure](getting-started/content-structure/README.md)
