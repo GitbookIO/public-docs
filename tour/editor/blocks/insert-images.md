@@ -29,5 +29,5 @@ If you are looking to embed external content into your pages, take a look at how
 <figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"></figure>
 
 //Block with Caption and Alt text
-<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figure>
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
 ```
