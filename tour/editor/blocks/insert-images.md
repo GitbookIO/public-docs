@@ -22,9 +22,9 @@ If you are looking to embed external content into your pages, take a look at how
 //Simple Block
 ![](https://gitbook.com/images/gitbook.png)
 
-//Block with Alt Text
+//Block with Caption Text
 ![The GitBook Logo](https://gitbook.com/images/gitbook.png)
 
-//Block with Caption
+//Block with Caption and Alt text
 ![The GitBook Logo](https://gitbook.com/images/gitbook.png "GitBook Logo")
 ```
