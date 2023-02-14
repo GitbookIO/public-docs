@@ -18,7 +18,7 @@ Right now, it is not possible to customize your GitBook as you may have seen or 
 
 You can read more about the launch of GitBook 3.0 [here](https://blog.gitbook.com/product-updates/gitbook-3.0-document-everything-from-start-to-ship).
 
-We'd like to make GitBook fit into your current workflows, whether you're using Python, Java, Docker, React, or something entirely different—We're currently exploring new ways to allow you to customize your GitBook experience further (including the use of the Integrations Platform mentioned above).
+We'd like to make GitBook fit into your current workflows, whether you're using Python, Java, Docker, React, or something entirely different—We're currently exploring new ways to allow you to customize your GitBook experience further (including the use of the Integrations Platform mentioned above), while giving you a similar experience you might have had with our previous plugin ecosystem or `book.json` workflow.
 
 ## What happened to GitBook's CLI tool? &#x20;
 
