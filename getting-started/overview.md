@@ -72,7 +72,7 @@ The space sub-navigation includes links to:
   Upload and manage files from this area.
 * [**Insights**](../tour/insights.md)\
   Insights help you to understand how your public content is being viewed and searched.
-* [**Integrations**](../advanced-guides/integrations-platform/)\
+* [**Integrations**](../advanced-guides/integrations/)\
   You can connect GitBook to some other collaboration tools.
 
 ## Table of contents

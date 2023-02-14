@@ -75,7 +75,7 @@ Your personal account could be a member of any number of organizations, and this
 
 <summary>Integration settings</summary>
 
-You can check which [integrations](../advanced-guides/integrations-platform/) are installed on your account and [install new integrations](../advanced-guides/integrations-platform/install-an-integration.md) from this page.
+You can check which [integrations](../advanced-guides/integrations/) are installed on your account and [install new integrations](../advanced-guides/integrations/install-an-integration.md) from this page.
 
 </details>
 
