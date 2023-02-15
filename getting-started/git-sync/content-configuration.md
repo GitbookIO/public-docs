@@ -2,7 +2,7 @@
 
 ## Configure a specific synchronization <a href="#configure-a-specific-synchronization" id="configure-a-specific-synchronization"></a>
 
-You can configure how GitBook should parse your Git repository using the `.gitbook.yaml` file that must rely on the root of your repository.‌
+If you'd like to configure GitSync further, you can add a `.gitbook.yaml` file at the root of your repository to tell GitBook how to parse your Git repository.
 
 Here is an example:
 
