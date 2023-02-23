@@ -15,6 +15,14 @@ Git Sync is bi-directional, so changes made directly in GitBook’s editor are a
 ****Administrators and creators can enable and configure Git Sync.
 {% endhint %}
 
+### Tutorial
+
+Watch our tutorial on Git sync to get a walkthrough on setting it up in your own repository.
+
+{% embed url="https://www.youtube.com/watch?v=Fm5hYBsRSXo" %}
+GitBook Tutorial: Git sync
+{% endembed %}
+
 ### Learn more about:&#x20;
 
 <table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><a href="bi-directional-git-integration.md"><strong>Bi-directional Git integration</strong></a><br>Learn what it is and how it works.</td></tr><tr><td><a href="enabling-github-sync.md"><strong>Enabling GitHub sync</strong></a><br>Learn how to enable the integration if you are using GitHub.</td></tr><tr><td><a href="enabling-gitlab-sync.md"><strong>Enabling GitLab sync</strong></a><br>Learn how to enable the integration if you are using GitLab.</td></tr><tr><td><a href="content-configuration.md"><strong>Content Configuration</strong></a><br>Learn how to configure your content including structure, summary and re-directs.</td></tr><tr><td><a href="github-pull-request-preview.md"><strong>GitHub Pull-Request Preview</strong></a><br>Learn how to preview the content before merging.</td></tr><tr><td><a href="troubleshooting.md"><strong>Troubleshooting</strong></a><br>Learn how to resolve common problems.</td></tr></tbody></table>
