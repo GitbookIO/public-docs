@@ -17,10 +17,10 @@ Git Sync is bi-directional, so changes made directly in GitBook’s editor are a
 
 ### Tutorial
 
-Watch our tutorial on Git sync to get a walkthrough on setting it up in your own repository.
+Watch our tutorial on Git Sync to get a walkthrough on setting it up in your own repository.
 
 {% embed url="https://www.youtube.com/watch?v=Fm5hYBsRSXo" %}
-GitBook Tutorial: Git sync
+GitBook Tutorial: Git Sync
 {% endembed %}
 
 ### Learn more about:&#x20;
