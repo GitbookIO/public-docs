@@ -13,11 +13,7 @@ As users join your directory, they will be created and added to your GitBook org
 You can also have teams in GitBook synchronize to your directory groups, and have all user memberships synchronize automatically.
 
 {% hint style="warning" %}
-SCIM/Directory sync is not currently publicly available in GitBook.
-
-It's possible to set up directory sync with user and team provisioning via [the GitBook API](https://developer.gitbook.com/api/resources/organizations/members).
-
-You can read more about how to set up directory sync using the API here:[guide-directory-sync-using-the-gitbook-api.md](guide-directory-sync-using-the-gitbook-api.md "mention")
+SCIM/Directory sync is not currently publicly available in GitBook. If your organization is struggling to manually manage its members and teams in GitBook, we recommend using [the GitBook API](https://developer.gitbook.com/api/resources/organizations/members) to programmatically add/remove members and teams as your directory changes. Most identity providers offer ways to hook into these events.
 
 If you have further questions, please [get in touch](mailto:sales@gitbook.com).
 {% endhint %}
