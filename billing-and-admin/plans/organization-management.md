@@ -58,7 +58,7 @@ For any domains that you specify, anyone with an email address on those domains 
 
 #### SAML
 
-For organizations on our Enterprise plan, you can configure your SSO with any [SAML](../../advanced-guides/advanced-sharing-and-security/saml.md) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
+For organizations on our Enterprise plan, you can configure your SSO with any [SAML](../../advanced-guides/advanced-sharing-and-security/saml/) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
 
 </details>
 

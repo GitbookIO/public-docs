@@ -54,6 +54,6 @@ If you don't have strong privacy and security requirements, a better solution ma
 
 The most secure way to share your content with a private audience is to have them create a GitBook account and join your organization.
 
-This process can be [automated using SSO/SAML](../../advanced-guides/advanced-sharing-and-security/saml.md), which can be used to create custom authentication for your documentation. However, this will require more setup on your end, and is a feature of our **Enterprise** plan only.
+This process can be [automated using SSO/SAML](../../advanced-guides/advanced-sharing-and-security/saml/), which can be used to create custom authentication for your documentation. However, this will require more setup on your end, and is a feature of our **Enterprise** plan only.
 
 If you need complete control over access to your public content, you might like to use our [visitor authentication](../../advanced-guides/advanced-sharing-and-security/visitor-authentication.md) feature. Again, this is a feature of our **Enterprise** plan only.
