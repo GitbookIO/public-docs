@@ -10,7 +10,7 @@ The platform fee is flat, which means it doesn't go up as you add more users to 
 
 As per our [terms of service](https://policies.gitbook.com/terms#3.-billing-schedule-no-refunds) we do not offer refunds.&#x20;
 
-Grace period: if you contact us within 24h of your auto renewal, we will be happy to refund your payment and cancel your subscription.&#x20;
+Annual subscriptions grace period: if you contact us within 24h of your auto renewal, we will be happy to refund your payment and cancel your subscription. Any requests send after that period will not be processed as per above.&#x20;
 
 ### Can I amend my billing information?
 
