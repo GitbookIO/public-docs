@@ -2,7 +2,7 @@
 description: Install and configure the Segment integration
 ---
 
-# Configure the integration
+# Configure the Segment integration
 
 ## Install the integration
 

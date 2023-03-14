@@ -18,11 +18,11 @@ By using SSO, your employees will be able to log into GitBook using the familiar
 
 ## ​Setup on GitBook <a href="#setup-on-gitbook" id="setup-on-gitbook"></a>
 
-You must be an [organization admin](../../../collaboration/invite-members-to-your-organization/roles.md#admin) to enable SSO for your GitBook organization.‌
+You must be an [organization admin](../../collaboration/invite-members-to-your-organization/roles.md#admin) to enable SSO for your GitBook organization.‌
 
 After configuring SSO on your IdP, you will be able to enter metadata. When the setup is successful, administrators will see a confirmation dialog and the URL of the SSO login for end-users will be displayed. **GitBook does not send announcement emails when set up is complete**. It is the responsibility of the administrator to notify company employees (and convey the login URL to them) so they can access GitBook via SSO.‌
 
-![](../../../.gitbook/assets/SAML.png)
+![](../../.gitbook/assets/SAML.png)
 
 You'll need the following from your IdP metadata to register a SAML provider:
 
@@ -35,7 +35,7 @@ You'll need the following from your IdP metadata to register a SAML provider:
 
 Most SAML 2.0 compliant identity providers require the same information about the service provider (GitBook, in this case) for set up. These values are specific to your GitBook organization and are available in the **Settings -> SSO** tab of the GitBook organization where you want to enable SSO.‌
 
-![](<../../../.gitbook/assets/SAML Service Info.png>)
+![](<../../.gitbook/assets/SAML Service Info.png>)
 
 Most of these values can be copied directly into your IdP to complete configuration of SAML.
 
@@ -65,9 +65,3 @@ Removing a member from the IdP will prevent the user from being able to sign in 
 ## ​Security notice <a href="#security-notice" id="security-notice"></a>
 
 For security reasons, users who signed up to GitBook before the SSO was set up have to continue to log in normally. **SSO will only benefit users who log in to an organization after the setup is complete**. Admins could also ask prior SSO users to delete their account (or change their email) and then they will be able to login with SSO.
-
-Learn more:
-
-{% content-ref url="sso-members-vs-non-sso.md" %}
-[sso-members-vs-non-sso.md](sso-members-vs-non-sso.md)
-{% endcontent-ref %}

@@ -4,7 +4,7 @@ description: >-
   from products to internal knowledge bases and APIs.
 ---
 
-# Introduction to GitBook
+# What is GitBook?
 
 We want to help **teams to work more efficiently** by creating a simple yet powerful platform for them to **share their knowledge**.
 
@@ -12,4 +12,4 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 ## Publish your documentation in 5 easy steps
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Import</strong><br>Move your existing content to GitBook with ease.</td><td><a href="getting-started/import.md">import.md</a></td></tr><tr><td><strong>Git Sync</strong><br>Benefit from our bi-directional synchronisation with GitHub and GitLab.</td><td><a href="getting-started/git-sync/">git-sync</a></td></tr><tr><td><strong>Organise your content</strong><br>Create pages and spaces and organize them into collections</td><td><a href="getting-started/content-structure/">content-structure</a></td></tr><tr><td><strong>Collaborate</strong><br>Invite other users and collaborate asynchronously with ease.</td><td><a href="getting-started/collaboration/">collaboration</a></td></tr><tr><td><strong>Publish your docs</strong><br>Share your documentation with selected users or with everyone.</td><td><a href="getting-started/publishing/">publishing</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Import</strong><br>Move your existing content to GitBook with ease.</td><td></td><td><a href="content-creation/import.md">import.md</a></td><td><a href=".gitbook/assets/Import (1).png">Import (1).png</a></td></tr><tr><td><strong>Git Sync</strong></td><td>Benefit from our bi-directional synchronisation with GitHub and GitLab.</td><td><a href="product-tour/git-sync/">git-sync</a></td><td><a href=".gitbook/assets/Git Sync.png">Git Sync.png</a></td></tr><tr><td><strong>Organize your content</strong></td><td>Create pages and spaces and organize them into collections</td><td><a href="content-creation/content-structure/">content-structure</a></td><td><a href=".gitbook/assets/Organize your content.png">Organize your content.png</a></td></tr><tr><td><strong>Collaborate</strong></td><td>Invite other users and collaborate asynchronously with ease.</td><td><a href="collaboration/collaboration/">collaboration</a></td><td><a href=".gitbook/assets/Organize your content (1).png">Organize your content (1).png</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your documentation with selected users or with everyone.</td><td><a href="publishing/publishing/">publishing</a></td><td><a href=".gitbook/assets/Publish your docs.png">Publish your docs.png</a></td></tr></tbody></table>
