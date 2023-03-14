@@ -65,9 +65,3 @@ Removing a member from the IdP will prevent the user from being able to sign in 
 ## ​Security notice <a href="#security-notice" id="security-notice"></a>
 
 For security reasons, users who signed up to GitBook before the SSO was set up have to continue to log in normally. **SSO will only benefit users who log in to an organization after the setup is complete**. Admins could also ask prior SSO users to delete their account (or change their email) and then they will be able to login with SSO.
-
-Learn more:
-
-{% content-ref url="sso-members-vs-non-sso.md" %}
-[sso-members-vs-non-sso.md](sso-members-vs-non-sso.md)
-{% endcontent-ref %}

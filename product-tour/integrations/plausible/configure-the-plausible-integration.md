@@ -2,7 +2,7 @@
 
 ## Install the integration
 
-To start using the Plausible integration, you will need to install it in your GitBook library or just on a single space. To do this, follow the steps described in the [install an integration](../../../advanced-guides/integrations/install-an-integration.md) section.
+To start using the Plausible integration, you will need to install it in your GitBook library or just on a single space. To do this, follow the steps described in the [install an integration](broken-reference) section.
 
 ## Configure the integration
 
