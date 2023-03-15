@@ -1,7 +1,7 @@
 root: ./
 
 redirects:  
-  tour/quick-find: product-tour/quick-find.md
+        tour/quick-find: product-tour/quick-find.md
 	tour/insights: publishing/insights.md
 	tour/keyboard-shortcuts: product-tour/keyboard-shortcuts.md
 	tour/seo: publishing/seo.md
@@ -42,3 +42,4 @@ redirects:
 	advanced-guides/integrations/slack: product-tour/integrations/slack.md
 	advanced-guides/integrations/slack/configure-the-slack-integration: product-tour/integrations/slack/configure.md
 	billing-and-admin/plans/free-trial: account-management/plans.md
+
