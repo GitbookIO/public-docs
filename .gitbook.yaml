@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
- advanced-guides/integrations/jira: product-tour/integrations/jira.md
+    advanced-guides/integrations/jira: product-tour/integrations/jira.md
