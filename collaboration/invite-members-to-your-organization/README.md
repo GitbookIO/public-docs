@@ -11,13 +11,13 @@ Invite links in GitBook allow you to maintain a list of links that members can u
 
 Invite links are tied to specific [roles](roles.md) – and you can create (and revoke!) as many invite links as you like.
 
-<figure><img src="../../.gitbook/assets/Invite with invite link.png" alt="An invite team members window, with an auto generated invite link allowing users to select specific permissions "><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Invite with invite link.png" alt="An invite team members window, with an auto generated invite link allowing users to select specific permissions"><figcaption></figcaption></figure>
 
 ## Inviting members directly
 
 You can directly invite members in the members section of your organization settings. Enter their email(s), select their default role, and click **continue**. Each member will receive an email that will allow them to sign up to GitBook and instantly join your organization.
 
-<figure><img src="../../.gitbook/assets/Invite members directly.png" alt="An invite team members window, with fields which allow you to enter user emails and assign their permissions"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Managing invite link.png" alt="An invite team members window, with fields which allow you to enter user emails and assign their permissions"><figcaption></figcaption></figure>
 
 ## Removing members
 

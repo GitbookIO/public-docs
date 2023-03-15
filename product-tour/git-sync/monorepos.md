@@ -4,7 +4,7 @@ GitBook supports monorepos. A monorepo is a repository that contains more than o
 
 GitBook can synchronize multiple directories from the same repository with multiple spaces. When enabling the Git Sync on a space, you can configure a "Project directory". It will be used to lookup the `.gitbook.yaml` file for the directory to synchronize with this space.
 
-<figure><img src="../../.gitbook/assets/gitsync-monorepo.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/download-1.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
 
 Example of a repository structure:
 
@@ -31,7 +31,7 @@ In this example, 3 spaces can be created on GitBook and configured with differen
 * `packages/app`
 * `packages/api`
 
-The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first being used to lookup  `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
+The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first being used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
 
 ## Updating the Project directory <a href="#updating" id="updating"></a>
 
@@ -47,7 +47,7 @@ In some cases, you might have started with a typical repository synchronizing wi
 
 Changing the Project directory on an existing Git Sync can have unexpected impact on the content, the change will only be propagated during the next synchronization (edit made on GitBook or new commit in the Git repository).
 
-#### **If the next operation is an import from the Git repository**:&#x20;
+#### **If the next operation is an import from the Git repository**:
 
 GitBook will expect to find the pages and files in the Project directory. If the files have not already been moved into the repository's Project directory, the result of the synchronization would be an empty space with no content.
 
