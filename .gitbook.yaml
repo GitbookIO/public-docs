@@ -1,5 +1,4 @@
-root: ./public-docs/
-
+root: ./ 
 redirects:  
 	tour/insights: publishing/insights.md
 	tour/keyboard-shortcuts: product-tour/keyboard-shortcuts.md
