@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-tour/quick-find:product-tour/navigation.md
+tour/quick-find: product-tour/navigation.md
