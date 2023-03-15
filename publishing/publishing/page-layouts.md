@@ -29,7 +29,7 @@ To select a layout for your page navigate to the [page actions](../../product-to
 
 Please bear in mind that those changes apply only to public content, they will not be visible in the editor.&#x20;
 
-<figure><img src="../../.gitbook/assets/page_layout_types.png" alt=""><figcaption><p>The page layout selection menu </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/page-layout-types.png" alt=""><figcaption><p>The page layout selection menu </p></figcaption></figure>
 
 
 
