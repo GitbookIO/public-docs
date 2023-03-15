@@ -1,2 +1,4 @@
+root: ./
+
 redirects: 
 tour/quick-find: product-tour/quick-find.md
