@@ -1,4 +1,8 @@
-root: ./
+root: ./public-docs/
+
+structure:
+  readme: README.md  
+  summary: SUMMARY.md​
 
 redirects: 
-advanced-guides/advanced-sharing-and-security: product-tour/sso-and-saml.md
+  advanced-guides/advanced-sharing-and-security: product-tour/sso-and-saml.md
