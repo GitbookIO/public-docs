@@ -70,4 +70,4 @@ Additionally, you can choose what type of space updates will trigger the deliver
 
 To switch to another space and configure its individual configuration options, click the **space dropdown** at the top right-hand corner and select the specific space:
 
-<figure><img src="../../../.gitbook/assets/Install on selected spaces (1).png" alt="Space configuration window open, with a drop down list of spaces. The integration is already installed in &#x27;Jet-Stream Docs&#x27; but user can select other spaces to access it&#x27;s own configurations. "><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Install on selected spaces.png" alt="Space configuration window open, with a drop down list of spaces. The integration is already installed in &#x27;Jet-Stream Docs&#x27; but user can select other spaces to access it&#x27;s own configurations. "><figcaption></figcaption></figure>

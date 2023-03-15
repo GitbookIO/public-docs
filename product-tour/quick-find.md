@@ -58,7 +58,7 @@ Quick find also helps you navigate to settings and organizations, as well as per
 
 To see the list of actions that quick find can kick off, open quick find and scroll down, or use the arrow keys to see the available options.
 
-<figure><img src="../.gitbook/assets/Actions with quick find (1).png" alt="Open Quick find palette scrolled down to navigation and actions options. The actions allow you to move spaces, lock and unlock edits and many more. "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Actions with quick find.png" alt="Open Quick find palette scrolled down to navigation and actions options. The actions allow you to move spaces, lock and unlock edits and many more. "><figcaption></figcaption></figure>
 
 ## ​Team permissions <a href="#team-permissions" id="team-permissions"></a>
 

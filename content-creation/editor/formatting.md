@@ -70,7 +70,7 @@ Keyboard shortcut: `Command + K`
 
 This is [a link to an external page](https://www.gitbook.com).
 
-This is [a link to a page in this space](../../).
+This is [a link to a page in this space](broken-reference).
 
 This is [a link to section in this page](formatting.md#color).
 

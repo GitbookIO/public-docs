@@ -6,7 +6,7 @@ description: Learn about spaces in GitBook
 
 In GitBook, a space is a project where you can start organizing your ideas. Imagine it as a virtual book where you can start writing pages individually or collaborate asynchronously with your team members.&#x20;
 
-<figure><img src="../../.gitbook/assets/Space.png" alt=""><figcaption><p>A space in GitBook</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Space (1).png" alt=""><figcaption><p>A space in GitBook</p></figcaption></figure>
 
 ## Create a space
 

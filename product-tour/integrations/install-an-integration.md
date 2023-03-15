@@ -71,7 +71,7 @@ Once complete you can choose to either enable the integration on all spaces or i
 
 To connect the integration to all spaces in the library, toggle **install on all spaces** in the **space access** section:
 
-<figure><img src="../../.gitbook/assets/Install on all spaces.png" alt="Slack integration window open with &#x27;Install on all spaces&#x27; highlighted. The toggle is switched off meaning this feature has not been enabled. "><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Install on all spaces (1).png" alt="Slack integration window open with &#x27;Install on all spaces&#x27; highlighted. The toggle is switched off meaning this feature has not been enabled. "><figcaption></figcaption></figure>
 
 This will automatically install it on all spaces and applies to current and future spaces.
 
@@ -93,4 +93,4 @@ Next, regardless of the option you chose, you will need to select the needed con
 
 You can apply different configuration options to each space. This can be done in the **space configuration** section. Use the space dropdown on the top right-hand corner to switch to another space:
 
-<figure><img src="../../.gitbook/assets/Space configuration (4).png" alt="Space configuration panel with list of settings such us &#x27;notify visibility update&#x27; and &#x27;notify content update&#x27; each has a toggle that is not switched on"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Space configuration (1).png" alt="Space configuration panel with list of settings such us &#x27;notify visibility update&#x27; and &#x27;notify content update&#x27; each has a toggle that is not switched on"><figcaption></figcaption></figure>
