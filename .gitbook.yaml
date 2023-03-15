@@ -1,2 +1,4 @@
-redirects: 
-  advanced-guides/advanced-sharing-and-security: product-tour/sso-and-saml.md
+root: ./
+
+redirects:
+tour/quick-find: product-tour/navigation.md
