@@ -1,9 +1,5 @@
 root: ./
 
-​structure:  
-    readme: README.md  
-    summary: SUMMARY.md​
-
 redirects:  
 tour/quick-find: product-tour/quick-find.md
 tour/insights: publishing/insights.md
