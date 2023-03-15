@@ -14,12 +14,12 @@ Take note of the Segment source's **write key** as it will be needed during the 
 You can locate your source's **write key** as described [in Segment's documentation](https://segment.com/docs/connections/find-writekey/).
 {% endhint %}
 
-Once installed and configured on a space, anytime a visitor access a page in your GitBook published content, the GitBook Segment integration will send `[GitBook] space_view` events (read more about the event [in this section](gitbook-segment-event.md)) to the Segment source you've chosen.
+Once installed and configured on a space, anytime a visitor access a page in your GitBook published content, the GitBook Segment integration will send `[GitBook] space_view` events (read more about the event [in this section](event.md)) to the Segment source you've chosen.
 
 Next, you will need to install the Segment integration in GitBook and configure it to your needs. For this, follow the steps described in these sections:
 
 * **Step 1:** i[nstall the integration](../install-an-integration.md)
-* **Step 2:** [configure the integration](configure-the-segment-integration.md)
+* **Step 2:** [configure the integration](configure.md)
 
 ## Feature overview
 

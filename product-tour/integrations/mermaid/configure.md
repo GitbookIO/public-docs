@@ -6,7 +6,7 @@ description: Install and configure the Mermaid integration
 
 ## Install the integration
 
-To start using the Mermaid integration, you will need to install it in your GitBook library or just on a single space. To do this, follow the steps described in the [install an integration](configure-the-mermaid-integration.md#install-the-integration) section.
+To start using the Mermaid integration, you will need to install it in your GitBook library or just on a single space. To do this, follow the steps described in the [install an integration](configure.md#install-the-integration) section.
 
 ## Configure the integration
 

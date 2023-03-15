@@ -11,7 +11,7 @@ description: >-
 To get started, you will need to install the Mermaid integration in GitBook and configure it to your needs. For this, follow the steps described in these sections:
 
 * **Step 1:** [install the integration](../install-an-integration.md)
-* **Step 2:** [configure the integration](../segment/configure-the-segment-integration.md)
+* **Step 2:** [configure the integration](../segment/configure.md)
 
 ## Feature Overview
 

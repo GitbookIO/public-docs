@@ -38,7 +38,7 @@ To switch to another space and save the write key, click the **space dropdown** 
 
 ### Test the configuration
 
-Once you have configured the Segment integration on your space(s), you can test that the integration is correctly configured and sends [events](gitbook-segment-event.md) anytime a visitor access a page on your published content.
+Once you have configured the Segment integration on your space(s), you can test that the integration is correctly configured and sends [events](event.md) anytime a visitor access a page on your published content.
 
 First, head to one of the spaces (which is [published](../../../publishing/publishing/space-publishing.md)) that you've connected to the integration. Then copy its published URL from the **get the link** section of the space's visibility menu:
 
