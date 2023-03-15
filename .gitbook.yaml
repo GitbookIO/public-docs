@@ -19,7 +19,8 @@ advanced-guides/integrations/fathom/configure-the-fathom-integration: product-to
 advanced-guides/integrations/figma: product-tour/integrations/figma.md
 advanced-guides/integrations/figma/configure-the-figma-integration: product-tour/integrations/figma/configure.md
 advanced-guides/integrations/google-analytics: product-tour/integrations/google-analytics.md
-advanced-guides/integrations/google-analytics/configure-the-google-analytics-integration: product-tour/integrations/google-analytics/configure.md	advanced-guides/integrations/intercom: product-tour/integrations/intercom.md
+advanced-guides/integrations/google-analytics/configure-the-google-analytics-integration: product-tour/integrations/google-analytics/configure.md
+advanced-guides/integrations/intercom: product-tour/integrations/intercom.md
 advanced-guides/integrations/intercom/configure-the-intercom-integration: product-tour/integrations/intercom/configure.md
 advanced-guides/integrations/jira: product-tour/integrations/jira.md
 advanced-guides/integrations/jira/configure-the-jira-integration: product-tour/integrations/jira/configure.md
@@ -31,13 +32,3 @@ advanced-guides/integrations/mermaid: product-tour/integrations/mermaid.md
 advanced-guides/integrations/mermaid/configure-the-mermaid-integration: product-tour/integrations/mermaid/configure.md
 advanced-guides/integrations/plausible: product-tour/integrations/plausible.md
 advanced-guides/integrations/plausible/configure-the-plausible-integration: product-tour/integrations/plausible/configure.md
-advanced-guides/integrations/runkit: product-tour/integrations/runkit.md
-advanced-guides/integrations/runkit/configure-the-runkit-integration: product-tour/integrations/runkit/configure.md
-advanced-guides/integrations/segment: product-tour/integrations/segment.md
-advanced-guides/integrations/segment/configure-the-integration: product-tour/integrations/segment/configure.md
-advanced-guides/integrations/segment/gitbook-segment-event: product-tour/integrations/segment/event.md
-advanced-guides/integrations/sentry: product-tour/integrations/sentry.md
-advanced-guides/integrations/sentry/configure-the-sentry-integration: product-tour/integrations/sentry/configure.md
-advanced-guides/integrations/slack: product-tour/integrations/slack.md
-advanced-guides/integrations/slack/configure-the-slack-integration: product-tour/integrations/slack/configure.md
-billing-and-admin/plans/free-trial: account-management/plans.md
