@@ -1,4 +1,4 @@
 root: ./
 
 redirects:
-  tour/quick-find: product-tour/quick-find.md
+ advanced-guides/integrations/jira: product-tour/integrations/jira.md
