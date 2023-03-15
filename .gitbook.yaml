@@ -1,7 +1,6 @@
 root: ./
 
 redirects: 
-
         tour/quick-find: product-tour/quick-find.md
 	tour/insights: publishing/insights.md
 	tour/keyboard-shortcuts: product-tour/keyboard-shortcuts.md
