@@ -18,21 +18,21 @@ Click on the settings <img src="../.gitbook/assets/settings.png" alt="" data-siz
 
 <details>
 
-<summary>Account </summary>
+<summary>Account</summary>
 
-#### Your profile
+**Your profile**
 
 You can update your profile picture and your full name.
 
-#### Login details
+**Login details**
 
 You can update the email address and password used to log into your GitBook account. **Note:** if you created your account on or after October 9th 2021, your account does not have a password and you'll instead use a magic link to sign in.
 
-#### Third-party login
+**Third-party login**
 
 You can also use your Google and/or GitHub credentials to log into GitBook.
 
-#### Publishing
+**Publishing**
 
 Each published GitBook space that lives within your personal library will have a domain in two parts:
 
@@ -41,15 +41,15 @@ Each published GitBook space that lives within your personal library will have a
 
 You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.
 
-#### Preferences
+**Preferences**
 
 You can choose your preferred interface theme — dark, light, or matching your system preference. **Note:** this setting only affects your experience when logged into the GitBook app, and will not affect your published content in any way
 
-#### Troubleshooting
+**Troubleshooting**
 
 Optionally, you can enable the recording of advanced logs. These advanced logs help our team to more effectively troubleshoot issues.
 
-#### Account actions
+**Account actions**
 
 From this section you can sign out, or delete your account. **Note: there is no turning back if you delete your account!** All associated data will be deleted as well.
 
@@ -65,7 +65,7 @@ GitBook can provide you with two types of [notifications](../collaboration/notif
 
 <details>
 
-<summary>Organization </summary>
+<summary>Organization</summary>
 
 Your personal account could be a member of any number of organizations, and this tab can be considered a shortcut to the [organization settings page](organization-management.md) for each organization. You can also create a new organization from this page.
 
@@ -75,7 +75,7 @@ Your personal account could be a member of any number of organizations, and this
 
 <summary>Integrations</summary>
 
-You can check which [integrations](broken-reference) are installed on your account and [install new integrations](broken-reference) from this page.
+You can check which [integrations](../product-tour/integrations/) are installed on your account and [install new integrations](../product-tour/integrations/install-an-integration.md) from this page.
 
 </details>
 

@@ -4,7 +4,7 @@ View and manage the settings for your GitBook organization. These include member
 
 {% hint style="info" %}
 **Permissions**\
-****Only administrators can access the organization settings.
+Only administrators can access the organization settings.
 {% endhint %}
 
 ## How to access the settings for an organization
@@ -15,11 +15,11 @@ Click on the settings <img src="../.gitbook/assets/settings.png" alt="" data-siz
 
 <summary>General</summary>
 
-#### Organization profile
+**Organization profile**
 
 You can update the logo and the name of the organization.
 
-#### Publishing
+**Publishing**
 
 Each published GitBook space that lives within your organization's library will have a domain in two parts:
 
@@ -28,7 +28,7 @@ Each published GitBook space that lives within your organization's library will 
 
 You can update the GitBook subdomain and a custom domain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.
 
-#### Actions
+**Actions**
 
 From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://docs.gitbook.com/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
 
@@ -38,11 +38,11 @@ From this section you can delete the organization. **Note: there is no turning b
 
 <summary>Members</summary>
 
-#### Members tab
+**Members tab**
 
 [Members](member-management/) can be added to and removed from the organization as needed. You can also update the [role](../collaboration/invite-members-to-your-organization/roles.md) for each member.
 
-#### Teams tab
+**Teams tab**
 
 [Teams](member-management/teams.md) are a way to group members within an organization. You can then grant access to certain things to anyone who is a member of a given team.
 
@@ -52,13 +52,13 @@ From this section you can delete the organization. **Note: there is no turning b
 
 <summary>SSO</summary>
 
-#### Email domains
+**Email domains**
 
 For any domains that you specify, anyone with an email address on those domains will immediately be able to access the organization upon signing up for a GitBook account. You can decide what [role](../collaboration/invite-members-to-your-organization/roles.md) these members should have by default.
 
-#### SAML
+**SAML**
 
-For organizations on our Enterprise plan, you can configure your SSO with any [SAML](broken-reference) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
+For organizations on our Enterprise plan, you can configure your SSO with any [SAML](../product-tour/sso-and-saml/saml/) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
 
 </details>
 
@@ -66,7 +66,7 @@ For organizations on our Enterprise plan, you can configure your SSO with any [S
 
 <summary>Integrations</summary>
 
-You can check which [integrations](broken-reference) are installed for your organization and [install new integrations](broken-reference) from this page.
+You can check which [integrations](../product-tour/integrations/) are installed for your organization and [install new integrations](../product-tour/integrations/install-an-integration.md) from this page.
 
 </details>
 

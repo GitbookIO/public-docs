@@ -8,15 +8,15 @@ An organization is a part of the way that content is structured on GitBook. Ever
 
 {% hint style="info" %}
 **Permissions**\
-****Only administrators can access an organization's billing settings.
+Only administrators can access an organization's billing settings.
 {% endhint %}
 
 ## What plans does GitBook offer?
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Plus</strong></td><td>Ideal for small teams that want to collaborate and document publicly.</td><td></td><td></td></tr><tr><td><strong>Pro</strong></td><td>Ideal for multi-role teams who want advanced publishing and collaboration options.</td><td></td><td></td></tr><tr><td><strong>Enterprise</strong></td><td>Ideal for teams of 20+ with more security and compliance needs.</td><td></td><td></td></tr><tr><td><strong>Personal</strong> </td><td>Free plan for open source developers who want essential features to scale public projects.</td><td></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Plus</strong></td><td>Ideal for small teams that want to collaborate and document publicly.</td><td></td><td></td></tr><tr><td><strong>Pro</strong></td><td>Ideal for multi-role teams who want advanced publishing and collaboration options.</td><td></td><td></td></tr><tr><td><strong>Enterprise</strong></td><td>Ideal for teams of 20+ with more security and compliance needs.</td><td></td><td></td></tr><tr><td><strong>Personal</strong></td><td>Free plan for open source developers who want essential features to scale public projects.</td><td></td><td></td></tr></tbody></table>
 
 {% hint style="success" %}
-Compare all features included in each plan by navigating to our [pricing page](https://www.gitbook.com/pricing#pricingTable).&#x20;
+Compare all features included in each plan by navigating to our [pricing page](https://www.gitbook.com/pricing#pricingTable).
 {% endhint %}
 
 <details>

@@ -2,7 +2,7 @@
 description: Learn about the different options for sharing your GitBook space.
 ---
 
-# Space sharing
+# Space publishing
 
 ## Sharing a space
 
@@ -35,7 +35,7 @@ You'll still retain control over who can _edit_ your content, and only your prim
 In some cases, you might want to publish your content, but only permit certain people to access it. We offer a number of options for this:
 
 1. **Publish in collection**\
-   ****If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection, so that you can do things like work on a new version and only publish it when it's ready. Toggle this option on to publish the space as part of the collection. You can [find out more about collection publishing](collection-publishing.md).
+   If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection, so that you can do things like work on a new version and only publish it when it's ready. Toggle this option on to publish the space as part of the collection. You can [find out more about collection publishing](collection-publishing.md).
 2. **Publish with** [**visitor authentication**](../visitor-authentication.md)\
    With visitor authentication, GitBook lets _your_ server-side code handle who has access to the content. You can [find out more about visitor authentication](../visitor-authentication.md).
 3. **Publish with** [**share links**](share-links.md)\
@@ -50,4 +50,3 @@ This option allows you to generate a PDF copy of your content and share this wit
 ### Who can access?
 
 This tab confirms the current visibility of the space, along with who has access to it within the GitBook app. No settings can be changed here; all changes are made from within the other tabs.
-

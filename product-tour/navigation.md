@@ -8,16 +8,16 @@ This page walks you through various sections, features and menus that you'll fin
 
 {% hint style="info" %}
 **Permissions**\
-The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level. \
+The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level.\
 \
-Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.&#x20;
+Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.
 
-The table of contents, page header, editor, page actions, and on this page sections are visible to all.&#x20;
+The table of contents, page header, editor, page actions, and on this page sections are visible to all.
 {% endhint %}
 
 ## Sidebar
 
-<figure><img src="../.gitbook/assets/Sidebar.png" alt="A screenshot of the GitBook app. On the left is a dark blue sidebar with a search bar, links to different spaces in the GitBook organization, notification and settings buttons, and a plus button to create new content. On the right is the editor and a collection called Company Wiki. "><figcaption><p>The sidebar in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Sidebar.png" alt="A screenshot of the GitBook app. On the left is a dark blue sidebar with a search bar, links to different spaces in the GitBook organization, notification and settings buttons, and a plus button to create new content. On the right is the editor and a collection called Company Wiki."><figcaption><p>The sidebar in the GitBook app</p></figcaption></figure>
 
 The sidebar is the dark blue (in light mode) or black (in dark mode) section on the left-hand side of the app.
 
@@ -29,7 +29,7 @@ The sidebar contains:
   Quick find helps you quickly navigate between your content, as well as performing common actions.
 * **Your libraries**\
   Libraries contain collections and spaces. Use the switch organization toggle, found next to the name of the library, to move between libraries.
-* **The** [**notifications bell**](../collaboration/notifications.md) **** <img src="../.gitbook/assets/notification.png" alt="" data-size="line">\
+* **The** [**notifications bell**](../collaboration/notifications.md) <img src="../.gitbook/assets/notification.png" alt="" data-size="line">\
   Located in the bottom-left corner of the sidebar, the notifications bell will let you know about actions that have been taken.
 * **The add new button**\
   Located at the bottom in the center of the sidebar, you can use this to add a new organization or a new space.
@@ -47,15 +47,15 @@ The space header is a narrow area at the very top of the GitBook app. It include
 * **The space name**\
   If you want to change the name of the space, simply click into this field and begin typing.
 * **The share menu**\
-  From here you can select a [visibility option](../publishing/publishing/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space.&#x20;
+  From here you can select a [visibility option](../publishing/publishing/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space.
 * **The edit button**\
-  ****To start a new [change request ](https://docs.gitbook.com/getting-started/collaboration/change-requests)
+  Click this to start a new [change request](https://docs.gitbook.com/getting-started/collaboration/change-requests).
 * **The space actions menu**\
   The icon with three vertical dots in the very top-right corner opens up a number of actions for the space.
 
 ## Space sub-navigation
 
-<figure><img src="../.gitbook/assets/space_sub_navigation.png" alt="A screenshot of the GitBook app. Towards the top is a highlighted section which is the space sub-navigation menu. In the menu there are links: change requests, history, customize, discussions, files, insights, and integrations. "><figcaption><p>The sub-navigation in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/space_sub_navigation.png" alt="A screenshot of the GitBook app. Towards the top is a highlighted section which is the space sub-navigation menu. In the menu there are links: change requests, history, customize, discussions, files, insights, and integrations."><figcaption><p>The sub-navigation in the GitBook app</p></figcaption></figure>
 
 The space sub-navigation is another narrow area near the top of the GitBook app, immediately underneath the space header.
 
@@ -63,9 +63,9 @@ Similar to the sidebar, it has an up arrow on the right-hand side that you can c
 
 The space sub-navigation includes links to:
 
-* ****[**Change requests**](../collaboration/collaboration/change-requests.md)\
+* [**Change requests**](../collaboration/collaboration/change-requests.md)\
   From here you can create a new change request and review existing ones. There's a tab for each status: draft, in review, archived and merged.
-* ****[**Customize**](../publishing/customization/space-customization.md)\
+* [**Customize**](../publishing/customization/space-customization.md)\
   These settings allow you to affect the look and feel of the space, as well as configure features.
 * [**Discussions**](../collaboration/comments-discussion.md)\
   You can have space-level conversations with other collaborators of organization-owned spaces here. You can use the feature in spaces that you own personally, too, but you'll have to provide both sides of the conversation!
@@ -75,8 +75,8 @@ The space sub-navigation includes links to:
   You can connect GitBook to some other collaboration tools.
 * [**Files**](../content-creation/blocks/insert-files.md)\
   Upload and manage files from this area.
-* [**History**](../content-creation/activity-history.md)****\
-  ****Clicking this opens up to provide details about both activity and change history for the space.
+* [**History**](../content-creation/activity-history.md)\
+  Clicking this opens up to provide details about both activity and change history for the space.
 * [**Comments**](../collaboration/comments-discussion.md)\
   You can have space-level conversations with other collaborators of organization-owned spaces here. You can use the feature in spaces that you own personally, too, but you'll have to provide both sides of the conversation!
 

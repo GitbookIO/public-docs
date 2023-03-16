@@ -30,7 +30,7 @@ When this setting is enabled, the space will automatically inherit any changes m
 
 <summary>Title and icon</summary>
 
-The _**internal**_ icon and title, which you'll see when logged into the GitBook app, are set in the [space header](https://docs.gitbook.com/getting-started/overview#space-header). In this customization setting you can override those and choose different _**external**_** ** settings, which your visitors will see when they access your published content.
+The _**internal**_ icon and title, which you'll see when logged into the GitBook app, are set in the [space header](https://docs.gitbook.com/getting-started/overview#space-header). In this customization setting you can override those and choose different _**external**_ settings, which your visitors will see when they access your published content.
 
 It's not uncommon to use a longer or more specific title in published content and to use a shorter title or internal wording that might not make complete sense to your visitors when logged into the GitBook app.
 
@@ -101,7 +101,7 @@ The bold and contrast theme header options are only available to spaces owned by
 
 You can add links to the header section of your documentation. For each link, you will need to set a URL and a text label. You could use header links to link to important parts of your documentation, or perhaps to link back to your main website.
 
-You can also create a navigation menu by adding links and sub-links which will shows as drop downs for each item.&#x20;
+You can also create a navigation menu by adding links and sub-links which will shows as drop downs for each item.
 
 <figure><img src="../../.gitbook/assets/Sub-headers.png" alt=""><figcaption></figcaption></figure>
 
@@ -149,6 +149,6 @@ Choose whether or not visitors to your published content can leave a rating on e
 
 <img src="../../.gitbook/assets/page-rating.png" alt="&#x22;Was this page helpful?&#x22; will show at the bottom of each page if this setting is enabled" data-size="original">
 
-You can review the results of this survey if you click on [insights](broken-reference) in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation).
+You can review the results of this survey if you click on [insights](../insights.md) in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation).
 
 </details>

@@ -109,7 +109,7 @@
 ## Publishing
 
 * [Publishing](publishing/publishing/README.md)
-  * [Space sharing](publishing/publishing/space-publishing.md)
+  * [Space publishing](publishing/publishing/space-publishing.md)
   * [Page layouts](publishing/publishing/page-layouts.md)
   * [Collection publishing](publishing/publishing/collection-publishing.md)
   * [Share links](publishing/publishing/share-links.md)

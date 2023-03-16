@@ -3,8 +3,8 @@
 {% hint style="info" %}
 Please follow the steps to set a custom domain in this order:
 
-1. ****[Choosing a subdomain](../choose.md)
-2. ****[Deciding where to set the custom domain](../location.md)
+1. [Choosing a subdomain](../choose.md)
+2. [Deciding where to set the custom domain](../location.md)
 3. [**Initiating the custom domain setup**](./) **(at the** [**organization**](organization-level-custom-domain.md)**,** [**collection**](collection-level-custom-domain.md)**, or** [**space**](space-level-custom-domain.md) **level) (you are here)**
 4. [Configuring DNS](../configure-dns.md)
 5. [Finalizing the custom domain setup](../finalize.md)

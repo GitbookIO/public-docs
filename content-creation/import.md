@@ -6,7 +6,7 @@ description: >-
 
 # Import
 
-The import function allows you to migrate and unify existing documentation in GitBook. You can choose to import single or multiple pages although limits apply.&#x20;
+The import function allows you to migrate and unify existing documentation in GitBook. You can choose to import single or multiple pages although limits apply.
 
 {% hint style="info" %}
 **Permissions**
@@ -31,7 +31,7 @@ We also support import from:
 * Dropbox Paper
 * Google Docs
 
-You can also upload a ZIP **** containing HTML or Markdown files when **importing multiple pages.**
+You can also upload a ZIP containing HTML or Markdown files when **importing multiple pages.**
 
 {% hint style="warning" %}
 **Note: this feature is in beta.**
