@@ -1,7 +1,7 @@
 redirects:
   getting-started/overview: product-tour/navigation.md
   getting-started/import: content-creation/import.md
-  getting-started/git-sync: product-tour-git-sync/README.md
+  getting-started/git-sync: product-tour/git-sync/README.md
   getting-started/git-sync/bi-directional-git-integration: product-tour/git-sync/bi-directional-git-integration.md
   getting-started/git-sync/enabling-github-sync: product-tour/git-sync/enabling-github-sync.md
   getting-started/git-sync/enabling-gitlab-sync: product-tour/git-sync/enabling-gitlab-sync.md
