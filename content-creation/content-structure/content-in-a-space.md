@@ -8,9 +8,9 @@ Each space can contain as many pages as you need to write your documentation. Al
 
 From the table of contents you can:
 
-* Create new [pages](content-structure.md#pages)
-* Create and manage [page groups](content-structure.md#groups)
-* Add [external links](content-structure.md#external-links)
+* Create new [pages](content-in-a-space.md#pages)
+* Create and manage [page groups](content-in-a-space.md#groups)
+* Add [external links](content-in-a-space.md#external-links)
 * [Import external docs](../import.md) like websites or Markdown files
 
 ## Organizing your content
@@ -21,7 +21,7 @@ There are 4 different types of entries for the table of contents.
 
 <details>
 
-<summary>Initial Page </summary>
+<summary>Initial Page</summary>
 
 The initial page is the homepage or the root of your documentation and works as the main node of all the pages of your documentation.
 
@@ -74,8 +74,6 @@ Once a new page is created you will be able to write rich text and rich content 
 ## Create a page group
 
 If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents), and then choose **new group**.
-
-
 
 <figure><img src="../../.gitbook/assets/Page group.gif" alt=""><figcaption></figcaption></figure>
 

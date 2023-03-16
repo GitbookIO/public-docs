@@ -54,7 +54,7 @@ Click the **default channel** dropdown in the **configuration** section and sele
 
 </details>
 
-<figure><img src="../../../.gitbook/assets/Select default channel (1).png" alt="Configuration settings of the integration settings open, with default channel settings and an arrow which expands to a search settings. One space called &#x27;general&#x27; is selected"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Select default channel.png" alt="Configuration settings of the integration settings open, with default channel settings and an arrow which expands to a search settings. One space called &#x27;general&#x27; is selected"><figcaption></figcaption></figure>
 
 <details>
 
@@ -70,4 +70,4 @@ Additionally, you can choose what type of space updates will trigger the deliver
 
 To switch to another space and configure its individual configuration options, click the **space dropdown** at the top right-hand corner and select the specific space:
 
-<figure><img src="../../../.gitbook/assets/Install on selected spaces (2).png" alt="Space configuration window open, with a drop down list of spaces. The integration is already installed in &#x27;Jet-Stream Docs&#x27; but user can select other spaces to access it&#x27;s own configurations."><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Install on selected spaces.png" alt="Space configuration window open, with a drop down list of spaces. The integration is already installed in &#x27;Jet-Stream Docs&#x27; but user can select other spaces to access it&#x27;s own configurations."><figcaption></figcaption></figure>

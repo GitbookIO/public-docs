@@ -79,7 +79,7 @@ This will automatically install it on all spaces and applies to current and futu
 
 To connect the integration on selected spaces, click the **pick a space** dropdown in the **space configuration** section:
 
-<figure><img src="../../.gitbook/assets/Install on selected spaces.png" alt="Integration window open with &#x27;space configuration&#x27; highlighted. List of spaces that can be selected is visible."><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Install on selected spaces (2).png" alt="Integration window open with &#x27;space configuration&#x27; highlighted. List of spaces that can be selected is visible."><figcaption></figcaption></figure>
 
 Then, select a specific space from the dropdown options and click the **add to space** button to install the integration on the space.
 

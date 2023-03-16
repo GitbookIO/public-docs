@@ -4,7 +4,7 @@ GitBook supports monorepos. A monorepo is a repository that contains more than o
 
 GitBook can synchronize multiple directories from the same repository with multiple spaces. When enabling the Git Sync on a space, you can configure a "Project directory". It will be used to lookup the `.gitbook.yaml` file for the directory to synchronize with this space.
 
-<figure><img src="../../.gitbook/assets/download-1.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gitsync-monorepo.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
 
 Example of a repository structure:
 

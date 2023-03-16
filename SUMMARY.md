@@ -60,7 +60,7 @@
 * [Import](content-creation/import.md)
 * [Content structure](content-creation/content-structure/README.md)
   * [What is a space?](content-creation/content-structure/what-is-a-space.md)
-  * [Content in a space](content-creation/content-structure/content-structure.md)
+  * [Content in a space](content-creation/content-structure/content-in-a-space.md)
   * [What is a collection?](content-creation/content-structure/what-is-a-collection.md)
 * [Editor](content-creation/editor/README.md)
   * [Rich text](content-creation/editor/rich-text.md)

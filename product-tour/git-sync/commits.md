@@ -20,7 +20,7 @@ Use the following URL format, where `space` corresponds to your space's URL:
 
 When using GitBook with a [monorepo](monorepos.md), or when you have specific guidelines for commit messages; you might want to customize the message used by GitBook when pushing a commit to Git.
 
-<figure><img src="../../.gitbook/assets/gitsync_custom_message (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/gitsync_custom_message.png" alt=""><figcaption></figcaption></figure>
 
 The template can contain the following placeholders:
 
