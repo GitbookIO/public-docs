@@ -135,7 +135,7 @@ Is there a language we don't yet offer that you would like to see included in th
 
 You can choose whether or not you'd like visitors to your published content to be able to download the content as a PDF file.
 
-You can [find out more about the PDF export feature](../publishing/pdf-export.md).
+You can [find out more about the PDF export feature](../share/pdf-export.md).
 
 **PDF export is only available to spaces owned by an organization on a Pro or Enterprise plan.**
 

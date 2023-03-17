@@ -47,7 +47,7 @@ The space header is a narrow area at the very top of the GitBook app. It include
 * **The space name**\
   If you want to change the name of the space, simply click into this field and begin typing.
 * **The share menu**\
-  From here you can select a [visibility option](../publishing/publishing/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space.
+  From here you can select a [visibility option](../publishing/share/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space.
 * **The edit button**\
   Click this to start a new [change request](https://docs.gitbook.com/getting-started/collaboration/change-requests).
 * **The space actions menu**\

@@ -108,12 +108,12 @@
 
 ## Publishing
 
-* [Publishing](publishing/publishing/README.md)
-  * [Space publishing](publishing/publishing/space-publishing.md)
-  * [Page layouts](publishing/publishing/page-layouts.md)
-  * [Collection publishing](publishing/publishing/collection-publishing.md)
-  * [Share links](publishing/publishing/share-links.md)
-  * [PDF export](publishing/publishing/pdf-export.md)
+* [Publishing](publishing/share/README.md)
+  * [Space publishing](publishing/share/space-publishing.md)
+  * [Page layouts](publishing/share/page-layouts.md)
+  * [Collection publishing](publishing/share/collection-publishing.md)
+  * [Share links](publishing/share/share-links.md)
+  * [PDF export](publishing/share/pdf-export.md)
 * [Customization](publishing/customization/README.md)
   * [Space customization](publishing/customization/space-customization.md)
   * [Collection customization](publishing/customization/collection-customization.md)

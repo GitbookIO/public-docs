@@ -26,6 +26,6 @@ If a space is inside a collection, you can set the localization language for tha
 
 ## Publishing your content in different languages
 
-If you need to publish your documentation in multiple languages, you can use variants. [Publishing a collection as a variant](publishing/collection-publishing.md) enables you create a space per-language and publish the collection as unified UI, allowing readers to switch seamlessly between different language spaces.
+If you need to publish your documentation in multiple languages, you can use variants. [Publishing a collection as a variant](share/collection-publishing.md) enables you create a space per-language and publish the collection as unified UI, allowing readers to switch seamlessly between different language spaces.
 
 <figure><img src="../.gitbook/assets/screenshot-2019-12-26-at-13.52.58.png" alt="A screenshot showing a GitBook space where the user interface has been customized to use the Japanese language."><figcaption><p>An example of a translated documentation in Japanese</p></figcaption></figure>

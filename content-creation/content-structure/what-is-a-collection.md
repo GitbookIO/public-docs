@@ -1,11 +1,11 @@
 # What is a collection?
 
-Collections are groups of spaces focused around a specific topic, team or purpose. You can think of them as a folder for your spaces.&#x20;
+Collections are groups of spaces focused around a specific topic, team or purpose. You can think of them as a folder for your spaces.
 
 #### Aside from organizing your content, some of the key features of collections are:
 
 * The ability to manage permissions of spaces at scale allowing you to override the organization-level defaults (read more about that in [permissions](../../account-management/member-management/permissions-and-inheritance.md)).
-* The ability to customize your collection and publish the spaces within it as variants (read more about that in [collection publishing](../../publishing/publishing/collection-publishing.md)).
+* The ability to customize your collection and publish the spaces within it as variants (read more about that in [collection publishing](../../publishing/share/collection-publishing.md)).
 
 <figure><img src="../../.gitbook/assets/collection.png" alt=""><figcaption><p>A collection in GitBook</p></figcaption></figure>
 
