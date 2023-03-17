@@ -1,7 +1,5 @@
 # Content Configuration
 
-## Configure a specific synchronization <a href="#configure-a-specific-synchronization" id="configure-a-specific-synchronization"></a>
-
 If you'd like to configure GitSync further, you can add a `.gitbook.yaml` file at the root of your repository to tell GitBook how to parse your Git repository.
 
 Here is an example:
@@ -54,7 +52,7 @@ structure:
 {% endtab %}
 {% endtabs %}
 
-### ​Summary‌ <a href="#summary" id="summary"></a>
+#### ​Summary‌ <a href="#summary" id="summary"></a>
 
 The `summary` file is a Markdown file (`.md`) that should have the following structure:
 
@@ -88,49 +86,47 @@ Due to this, it is not possible to reference the same markdown file twice in you
 
 ## ​Redirects <a href="#redirects" id="redirects"></a>
 
-You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the "root" option. For example, here's how you can tell GitBook to redirect users accessing `/help` to the support page:
+Redirects are commonly used when you are migrating your documentation from one provider to another, for example when you just moved your docs to GitBook. Broken links can impact your SEO so we recommend setting up redirects where needed.&#x20;
+
+#### Restructuring your content in GitBook
+
+When moving your content within GitBook, most URLs should work as expected depending on complexity of the change. There are a number of tools that will allow you to verify which (if any) links were broken.&#x20;
+
+{% hint style="warning" %}
+With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed for example. Make sure to double-check and add redirects where needed.
+{% endhint %}
+
+### How to create a redirect?
+
+You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the "root" option. For example, here's how you can tell GitBook to redirect users accessing a past url `/help` to a new url `/support`
 
 {% code title=".gitbook.yaml" %}
 ```yaml
+root: ./
+
 redirects:  
     help: support.md
 ```
 {% endcode %}
 
-#### Why would you need a redirect?
+#### Here is how you would handle a more complex path:
 
-You may be migrating your docs from a different service to GitBook. It's common to also restructure some of your content along the process. Assuming you had the following URL in your old docs:
-
-`https://docs.company.com/help`
-
-and that has now moved to `https://docs.company.com/misc/support` on GitBook.
-
-Here's how to include a redirect for that scenario:
+Original URL: `https://docs.company.com/help` which has now moved to `https://docs.company.com/misc/support` on GitBook.&#x20;
 
 {% code title=".gitbook.yaml" %}
 ```yaml
+root: ./
+
 redirects:
     help: misc/support.md
 ```
 {% endcode %}
 
-{% hint style="info" %}
-The path `misc/support.md` needs to be a real existing path within the repository. It needs to be relative to the current `root` settting in `.gitbook.yaml`. Please don't add any leading slashes. For example, `./misc/support.md` will not work.
+{% hint style="danger" %}
+The path `misc/support.md` needs to be a real existing path within the repository. It needs to be relative to the current `root` setting in`.gitbook.yaml`. \
+Please don't add any leading slashes. For example, `./misc/support.md` will not work.
 {% endhint %}
 
-{% hint style="info" %}
-Please don't add any leading slashes to the old URL path `help`. For example, `/help` will not work.
-{% endhint %}
+### Troubleshooting
 
-Here's how you can deal with a more complex URL for the old path:
-
-{% code title=".gitbook.yaml" %}
-```yaml
-redirects:  
-    help/contact: contact.md
-```
-{% endcode %}
-
-{% hint style="warning" %}
-With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed for example. Make sure to double-check and eventually add a redirect.
-{% endhint %}
+YAML file need to be correctly formatted for the redirects to work. This means incorrect indentation or whitespace can result in your redirects not working. Validating your YAML file can ensure that the redirects will work smoothly.&#x20;

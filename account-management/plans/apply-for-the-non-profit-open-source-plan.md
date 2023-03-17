@@ -104,6 +104,6 @@ Depending on which type of organization you are applying for, please follow the 
 {% endtab %}
 {% endtabs %}
 
-We will respond to your application as soon as possible. It typically takes around 5 working days for us to review your request.
+It may take a couple of weeks for us to review your request and respond to you.
 
 If you have any questions, feel free to [contact our support team](../../faq/support.md).
