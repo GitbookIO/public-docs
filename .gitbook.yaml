@@ -7,6 +7,7 @@ redirects:
   getting-started/git-sync/enabling-gitlab-sync: product-tour/git-sync/enabling-gitlab-sync.md
   getting-started/git-sync/content-configuration: product-tour/git-sync/content-configuration.md
   getting-started/git-sync/github-pull-request-preview: product-tour/git-sync/github-pull-request-preview.md
+  integrations/git-sync/github-pull-request-preview: product-tour/git-sync/github-pull-request-preview.md
   getting-started/git-sync/commits: product-tour/git-sync/commits.md
   getting-started/git-sync/monorepos: product-tour/git-sync/monorepos.md
   getting-started/git-sync/troubleshooting: product-tour/git-sync/troubleshooting.md
