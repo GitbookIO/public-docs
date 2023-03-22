@@ -14,7 +14,7 @@ You can select large or medium-sized cards and link them to the relevant resourc
 
 ### How to create a card
 
-Type ⌘/ (or Ctrl+/) to open the block insert palette. Then select `Cards` block. By clicking on<img src="../../.gitbook/assets/image (5).png" alt="" data-size="line">\
+Type ⌘/ (or Ctrl+/) to open the block insert palette. Then select `Cards` block. By clicking on<img src="../../.gitbook/assets/image.png" alt="" data-size="line">\
 you can add and format text. You can also add additional columns such as numbers, user or rating.
 
 #### Adding links and images to your cards
