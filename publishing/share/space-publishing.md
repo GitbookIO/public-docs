@@ -61,11 +61,11 @@ This option will only be visible if your collection has been published first.&#x
 
 If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection so you can do things like work on a new version and only publish it when it's ready. Toggle this option to publish the space as part of the collection. You can [find out more about collection publishing](collection-publishing.md).
 
-#### **Publish with** [**visitor authentication**](../visitor-authentication.md)
+#### **Publish with** **visitor authentication**
 
 With visitor authentication, GitBook lets _your_ server-side code handle who has access to the content. [Find out more about visitor authentication](../visitor-authentication.md).
 
-#### **Publish with** [**share links**](share-links.md)
+#### **Publish with** **share links**
 
 Share links include a private token, making it extremely difficult for anyone outside of those you share the link with to find the content. This can be a great way to share private content with those who are not members of your organization. [Find out more about share links](share-links.md).
 
