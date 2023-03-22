@@ -4,9 +4,9 @@ description: >-
   read-only links.
 ---
 
-# Publishing
+# Share your content
 
-GitBook has different publishing options for you to choose from, depending on who you want to be able to access your content.
+GitBook has different sharing options for you to choose from, depending on who you want to be able to access your content.
 
 You can make your content completely [public](space-publishing.md#public-space) to anyone on the internet. Or, you can share more securely using [share links](share-links.md) or [visitor authentication](space-publishing.md#visitor-authentication).
 
@@ -20,4 +20,4 @@ Only creators and administrators can publish content.
 
 ### Learn more about:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Space publishing</strong><br>Learn about publishing options for spaces.</td><td><a href="space-publishing.md">space-publishing.md</a></td></tr><tr><td><strong>Collection publishing</strong><br>Learn about publishing collections as containers for variants.</td><td><a href="collection-publishing.md">collection-publishing.md</a></td></tr><tr><td><strong>Share links</strong><br>Learn about sharing your content privately with share links.</td><td><a href="share-links.md">share-links.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Share a single space</strong></td><td>Learn about publishing options for spaces.</td><td><a href="space-publishing.md">space-publishing.md</a></td></tr><tr><td><strong>Share a collection of spaces</strong></td><td>Learn how to publish different variants or language versions</td><td><a href="collection-publishing.md">collection-publishing.md</a></td></tr><tr><td><strong>Share privately with secure links</strong></td><td>Learn about sharing your content privately with read only links.</td><td><a href="share-links.md">share-links.md</a></td></tr><tr><td><strong>Visitor authentication</strong></td><td>Authenticate external reader access with a token</td><td><a href="../visitor-authentication.md">visitor-authentication.md</a></td></tr></tbody></table>

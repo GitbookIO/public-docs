@@ -108,13 +108,14 @@
 
 ## Publishing
 
-* [Publishing](publishing/share/README.md)
-  * [Space publishing](publishing/share/space-publishing.md)
-  * [Page layouts](publishing/share/page-layouts.md)
-  * [Collection publishing](publishing/share/collection-publishing.md)
-  * [Share links](publishing/share/share-links.md)
+* [Share your content](publishing/share/README.md)
+  * [Sharing options](publishing/share/space-publishing.md)
+  * [Share different language or product versions](publishing/share/collection-publishing.md)
+  * [Share privately with a secure link](publishing/share/share-links.md)
   * [PDF export](publishing/share/pdf-export.md)
+* [Visitor authentication](publishing/visitor-authentication.md)
 * [Customization](publishing/customization/README.md)
+  * [Page layouts](publishing/customization/page-layouts.md)
   * [Space customization](publishing/customization/space-customization.md)
   * [Collection customization](publishing/customization/collection-customization.md)
 * [Set a custom domain](publishing/custom-domain/README.md)
@@ -127,7 +128,6 @@
   * [Configuring DNS](publishing/custom-domain/configure-dns.md)
   * [Finalizing the custom domain setup](publishing/custom-domain/finalize.md)
   * [Troubleshooting](publishing/custom-domain/troubleshooting.md)
-* [Visitor authentication](publishing/visitor-authentication.md)
 * [Insights](publishing/insights.md)
 * [Internationalization](publishing/internationalization.md)
 * [SEO](publishing/seo.md)
