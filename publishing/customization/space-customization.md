@@ -151,6 +151,6 @@ Provide a privacy policy to help visitors understand cookie tracking. Otherwise,
 
 ## Integrations
 
-Enable Intercom or Google Analytics integrations on your published content.&#x20;
+Enable[ Intercom](../../product-tour/integrations/intercom/) or [Google Analytics](../../product-tour/integrations/google-analytics/) integrations on your published content.&#x20;
 
 Looking for more integrations? [Read about our integrations](space-customization.md#integrations) including [Segment](../../product-tour/integrations/segment/), [Plausible](../../product-tour/integrations/plausible/) or [Fathom.](../../product-tour/integrations/fathom/)&#x20;
