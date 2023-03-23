@@ -4,15 +4,15 @@ description: Customize your space
 
 # Space customization
 
-<figure><img src="../../.gitbook/assets/space-customization.png" alt="A screenshot showing the space customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Space customization settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/space-customization (1).png" alt="A screenshot showing the space customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Space customization settings</p></figcaption></figure>
 
 Customizing your space lets you control the branding, presentation and extra features of your space's public content.
 
 {% hint style="info" %}
-Most customization settings apply to your **published content**. This keeps your writing experience and in-app GitBook content consistent, while allowing you to control the output to a degree.
+Most customization settings apply to your **published content**. This keeps your writing experience and in-app GitBook content consistent while allowing you to control the output to a degree.
 {% endhint %}
 
-## General
+## General: control how your content looks
 
 <details>
 
@@ -26,31 +26,33 @@ When this setting is enabled, the space will automatically inherit any changes m
 
 </details>
 
+### Change the space title and icon&#x20;
+
+You will see an _**internal**_ icon and title when logged into the GitBook app. Those are usually set when you first create a space and include a random emoji. By navigating to the title & icon you can override those settings and choose the different _**external**_ appearance, that your visitors will see when they access your published content.
+
+{% hint style="info" %}
+**Space titles:** It's not uncommon to use a longer or more specific title in published content and to use a shorter title or internal wording that might not make complete sense to your visitors when logged into the GitBook app.&#x20;
+{% endhint %}
+
+You can upload your own square image as your space icon or use a long list of emojis provided.&#x20;
+
+### Upload a custom logo
+
+You can replace _**both**_ the space's title and icon with a custom logo so that your documentation better reflects your own branding.
+
+{% hint style="info" %}
+The custom logo setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
+{% endhint %}
+
+#### What is the difference between an icon and a custom logo?&#x20;
+
+The icon allows you to upload a small 132px square image and which will be displayed alongside your space title while the custom logo allows you to upload a larger image and gives you full control over the image and space title.&#x20;
+
+<figure><img src="../../.gitbook/assets/custom-logo.png" alt=""><figcaption><p>Preview of a space with custom logo</p></figcaption></figure>
+
 <details>
 
-<summary>Title and icon</summary>
-
-The _**internal**_ icon and title, which you'll see when logged into the GitBook app, are set in the [space header](https://docs.gitbook.com/getting-started/overview#space-header). In this customization setting you can override those and choose different _**external**_ settings, which your visitors will see when they access your published content.
-
-It's not uncommon to use a longer or more specific title in published content and to use a shorter title or internal wording that might not make complete sense to your visitors when logged into the GitBook app.
-
-For the icon, you can choose from a long list of emojis, or you can upload your own square image.
-
-</details>
-
-<details>
-
-<summary>Custom logo</summary>
-
-You can replace _both_ the space's title and icon with a custom logo, so that your documentation better reflects your own branding.
-
-**The custom logo setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.**
-
-</details>
-
-<details>
-
-<summary>Primary color</summary>
+<summary>Primary colour</summary>
 
 The chosen primary color will be applied to things like links, hover states, and buttons. While you can use any color you'd like, it's important to keep accessibility in mind and choose something that will have good contrast when used as a text link.
 
@@ -70,7 +72,7 @@ GitBook doesn't support the uploading or linking of custom fonts. If you think w
 
 <details>
 
-<summary>Theme mode</summary>
+<summary>Select dark or light theme for published content</summary>
 
 Choose between a light and a dark theme.
 
@@ -78,48 +80,46 @@ Choose between a light and a dark theme.
 
 </details>
 
-## Header
+## Layout: manage how users navigate your content
 
-#### Theme
+### Change the header theme
 
 We offer a number of header options for our theme:
 
-1. **None**\
-   This gives a more minimal look and feel. No [header links](space-customization.md#undefined) will be visible, whether they have been configured or not, and the search option will be moved next to the space title or logo.
-2. **Matching**\
-   In light [theme mode](space-customization.md#theme-mode), the header will have a light background. In dark [theme mode](space-customization.md#theme-mode), the header will have a dark background.
-3. **Bold**\
-   The selected [primary color](space-customization.md#primary-color) will be used for the header background.
-4. **Contrast**\
-   In light [theme mode](space-customization.md#theme-mode), the header will have a dark background. In dark [theme mode](space-customization.md#theme-mode), the header will have a light background.
+* **Matching**\
+  In light [theme mode](space-customization.md#theme-mode), the header will have a light background. In dark [theme mode](space-customization.md#theme-mode), the header will have a dark background.
+* **Bold**\
+  The selected [primary color](space-customization.md#primary-color) will be used for the header background.
+* **Contrast**\
+  In light [theme mode](space-customization.md#theme-mode), the header will have a dark background. In dark [theme mode](space-customization.md#theme-mode), the header will have a light background.
 
 {% hint style="info" %}
 The bold and contrast theme header options are only available to spaces owned by an organization subscribed to a **Pro** or **Enterprise** plan.
 {% endhint %}
 
-#### Navigation
+### Create a navigation menu
 
 You can add links to the header section of your documentation. For each link, you will need to set a URL and a text label. You could use header links to link to important parts of your documentation, or perhaps to link back to your main website.
 
-You can also create a navigation menu by adding links and sub-links which will shows as drop downs for each item.
+You can also create a navigation menu by adding links and sub-links which will show as drop-downs for each item.
 
 <figure><img src="../../.gitbook/assets/Sub-headers.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-If your [theme header option](space-customization.md#theme-header-options) is set to **none**, any header links you have configured will not be displayed. Make sure to choose one of the other theme header options so that your configured links are visible!
-{% endhint %}
+### Previous and next buttons
 
-## Sharing
+Pagination allows you to control whether the buttons _**Previous**_ or _**Next**_ appear at the bottom of your page
 
-#### Social preview
+### Footer
+
+Footer allows you to upload an image, copyright text and add column titles with links.&#x20;
+
+## Sharing: upload social preview
 
 You can upload a custom social preview image for your space. This will set the space's `og:image` to be your uploaded image, and it'll show when the space's link is shared to any platform or product that supports OpenGraph images.
 
-## Configure
+## Configure: manage the interface&#x20;
 
-<details>
-
-<summary>Localize user interface</summary>
+### Match the user interface to the language of your content
 
 You can select from a list of languages to localize the user interface of your published content. This will apply translations to the **non-custom** areas of the interface.
 
@@ -127,28 +127,30 @@ This setting will not auto-translate your actual content, but can help with matc
 
 Is there a language we don't yet offer that you would like to see included in this list? [Let us know](../../faq/support.md)!
 
-</details>
-
-<details>
-
-<summary>PDF Export</summary>
+### PDF Export
 
 You can choose whether or not you'd like visitors to your published content to be able to download the content as a PDF file.
 
 You can [find out more about the PDF export feature](../share/pdf-export.md).
 
+{% hint style="info" %}
 **PDF export is only available to spaces owned by an organization on a Pro or Enterprise plan.**
+{% endhint %}
 
-</details>
-
-<details>
-
-<summary>Page rating</summary>
+### Page rating&#x20;
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it.
 
-<img src="../../.gitbook/assets/page-rating.png" alt="&#x22;Was this page helpful?&#x22; will show at the bottom of each page if this setting is enabled" data-size="original">
-
 You can review the results of this survey if you click on [insights](../insights.md) in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation).
 
-</details>
+<figure><img src="../../.gitbook/assets/page-rating (1).png" alt=""><figcaption><p>Page rating displayed on published documentation </p></figcaption></figure>
+
+### Upload a privacy policy
+
+Provide a privacy policy to help visitors understand cookie tracking. Otherwise, the GitBook [privacy policy](https://policies.gitbook.com/privacy/cookies) will be used.
+
+## Integrations
+
+Enable Intercom or Google Analytics integrations on your published content.&#x20;
+
+Looking for more integrations? [Read about our integrations](space-customization.md#integrations) including [Segment](../../product-tour/integrations/segment/), [Plausible](../../product-tour/integrations/plausible/) or [Fathom.](../../product-tour/integrations/fathom/)&#x20;

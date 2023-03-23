@@ -1,6 +1,6 @@
 # Page layouts
 
-When publishing your documentation you can select a type of layout you would like each page to be displayed in. This feature allows you to have a greater control over the pages and how they are displayed to your readers.
+Page layouts allow you to select how each page is displayed to those who visit your public content.  Depending on the layout selected you will be able to hide the table of contents, outline or both.
 
 {% hint style="info" %}
 This feature affects only pages in published spaces.

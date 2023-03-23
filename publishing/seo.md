@@ -57,3 +57,7 @@ Even with these great features, it could still take some time before your docume
 
 1. Make sure that there are links to your GitBook space from other websites that have already been indexed by Google. As Google will return to re-index these sites from time to time, this increases the chance that they'll find your space as a result of re-indexing one of these other sites.
 2. Try [submitting your site to Google](https://developers.google.com/search/docs/advanced/crawling/ask-google-to-recrawl), which essentially asks them to index it. For GitBook spaces, this will only be possible if you are using a [custom domain](custom-domain/) for your space _and_ if you create a TXT DNS record to confirm ownership of the domain.
+
+### Redirects
+
+Moving your content to GitBook or changing its structure? Broken links can impact your SEO. [Read how to set up redirects in GitBook (via Git sync)](seo.md#redirects).

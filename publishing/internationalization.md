@@ -2,7 +2,7 @@
 description: Helping your GitBook documentation to reach people in multiple languages.
 ---
 
-# Internationalization
+# Match the UI to the language of your content
 
 GitBook supports the internationalization of a space or a collection, enabling public documentation user interface elements to be translated.
 
@@ -14,11 +14,11 @@ Administrators and creators can change the language of the user interface for pu
 
 ## Choosing a language for your content
 
-Currently, the supported languages are: English, French, Spanish, Chinese (simplified), and Japanese.
+Currently, the supported languages are English, French, Spanish, Chinese (simplified), and Japanese.
 
-By default your content will have the **English** language selected. To change this, click **customize** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation), go to the **configure** tab, and use the dropdown menu in the **localize user interface** setting.
+By default, your content will have the **English** language selected. To change this, click **customize** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation), go to the **configure** tab, and use the dropdown menu in the **localize user interface** setting.
 
-<figure><img src="../.gitbook/assets/localize-user-interface.png" alt="A screenshot of the customize panel. The configure tab has been selected, and the dropdown for the localize user interface setting has been expanded. It shows 5 language options: English, French, Spanish, Chinese (simplified), and Japanese."><figcaption><p>Choose your preferred language for the user interface elements of your published documentation</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/internationalization-settings.png" alt="A screenshot of the customize panel. The configure tab has been selected, and the dropdown for the localize user interface setting has been expanded. It shows 5 language options: English, French, Spanish, Chinese (simplified), and Japanese."><figcaption><p>Choose your preferred language for the user interface elements of your published documentation</p></figcaption></figure>
 
 ### Inheriting language settings
 
@@ -26,6 +26,4 @@ If a space is inside a collection, you can set the localization language for tha
 
 ## Publishing your content in different languages
 
-If you need to publish your documentation in multiple languages, you can use variants. [Publishing a collection as a variant](share/collection-publishing.md) enables you create a space per-language and publish the collection as unified UI, allowing readers to switch seamlessly between different language spaces.
-
-<figure><img src="../.gitbook/assets/screenshot-2019-12-26-at-13.52.58.png" alt="A screenshot showing a GitBook space where the user interface has been customized to use the Japanese language."><figcaption><p>An example of a translated documentation in Japanese</p></figcaption></figure>
+If you would like to [share a different language (or product) version](share/collection-publishing.md), you will have to publish a collection as a variant. This enables you to create a space per language and publish the collection as a unified UI, allowing readers to switch seamlessly between different language spaces.

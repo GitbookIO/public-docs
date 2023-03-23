@@ -75,7 +75,7 @@ Unlisted spaces are publicly available, but they _won't_ be indexed by search en
 
 ### Export as PDF
 
-This option allows you to generate a PDF copy of your content and share this with others in any way you choose. You can export one or more single pages or the entire space in one PDF file. Find out more about [PDF export](pdf-export.md).
+This option allows you to generate a PDF copy of your content and share this with others in any way you choose. You can export one or more single pages or the entire space in one PDF file. [Find out more about PDF export.](pdf-export.md)
 
 ### Who can access?
 

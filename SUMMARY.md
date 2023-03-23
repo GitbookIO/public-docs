@@ -118,6 +118,8 @@
   * [Page layouts](publishing/share/page-layouts.md)
   * [Space customization](publishing/customization/space-customization.md)
   * [Collection customization](publishing/customization/collection-customization.md)
+* [Match the UI to the language of your content](publishing/internationalization.md)
+* [Gather insights on your content](publishing/insights.md)
 * [Set a custom domain](publishing/custom-domain/README.md)
   * [Choosing a subdomain](publishing/custom-domain/choose.md)
   * [Deciding where to set the custom domain](publishing/custom-domain/location.md)
@@ -128,8 +130,6 @@
   * [Configuring DNS](publishing/custom-domain/configure-dns.md)
   * [Finalizing the custom domain setup](publishing/custom-domain/finalize.md)
   * [Troubleshooting](publishing/custom-domain/troubleshooting.md)
-* [Insights](publishing/insights.md)
-* [Internationalization](publishing/internationalization.md)
 * [SEO](publishing/seo.md)
 
 ## Account management
