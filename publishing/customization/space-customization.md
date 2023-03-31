@@ -127,6 +127,12 @@ This setting will not auto-translate your actual content, but can help with matc
 
 Is there a language we don't yet offer that you would like to see included in this list? [Let us know](../../faq/support.md)!
 
+### Enable Lens semantic search
+
+Enabling Lens allows visitors to your published documentation to ask questions and receive a semantic answer based on your content.
+
+You can [find out more about Lens](../../product-tour/searching-your-content/lens.md).
+
 ### PDF Export
 
 You can choose whether or not you'd like visitors to your published content to be able to download the content as a PDF file.

@@ -5,7 +5,9 @@
 ## Product tour
 
 * [Navigation](product-tour/navigation.md)
-* [Quick find](product-tour/quick-find.md)
+* [Searching your content](product-tour/searching-your-content/README.md)
+  * [Lens (AI search)](product-tour/searching-your-content/lens.md)
+  * [Quick find](product-tour/searching-your-content/quick-find.md)
 * [Git Sync](product-tour/git-sync/README.md)
   * [Bi-directional Git integration](product-tour/git-sync/bi-directional-git-integration.md)
   * [Enabling GitHub Sync](product-tour/git-sync/enabling-github-sync.md)
