@@ -4,6 +4,8 @@ description: GitBook Lens uses AI to help you find the knowledge you need, faste
 
 # Lens (AI search)
 
+{% embed url="https://youtu.be/X-3DAtaK2F8" %}
+
 Simply tell Lens what you want, or ask it a question. It’ll use AI to scan your documentation and give you a simple, semantic answer — with clickable references if you want to dive deeper.
 
 {% hint style="info" %}
