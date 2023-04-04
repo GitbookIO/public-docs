@@ -40,7 +40,7 @@ Rolling back allows you to revert a space's content to a previous point in time.
 
 Admins and creators can click the **rollback** button while viewing a specific history item to roll the space back to this point in time.
 
-<figure><img src="../.gitbook/assets/rollback-change-request" alt="A screenshot of the GitBook app while viewing a specific point in the change history. From the menu in the bottom-right corner, an option to roll back to this point in time is available."><figcaption><p>Viewing a previous point in time via the change history</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/rollback-change-request.gif" alt="A screenshot of the GitBook app while viewing a specific point in the change history. From the menu in the bottom-right corner, an option to roll back to this point in time is available."><figcaption><p>Viewing a previous point in time via the change history</p></figcaption></figure>
 
 {% hint style="info" %}
 For as long as a space exists in GitBook, no version of its content is deleted. Content is versioned and immutable.
