@@ -150,6 +150,7 @@
 
 ## FAQ
 
+* [Building technical product documentation](faq/building-technical-product-documentation.md)
 * [FAQs](faq/faqs.md)
 * [How do I contact support?](faq/support.md)
 * [How do I hard refresh my browser?](faq/hard-refresh.md)
