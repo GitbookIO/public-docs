@@ -51,3 +51,15 @@ You can insert a new content block below or above an existing block using your m
 3. Select the block from the drop down menu to insert it at that position
 
 <figure><img src="../../.gitbook/assets/blocks-insert-content.png" alt="Screenshot showing how to insert a new block between two paragraphs using your mouse."><figcaption><p>Inserting a new block</p></figcaption></figure>
+
+### Selecting blocks and interacting with selected blocks
+
+You can select blocks by pressing the `Esc` key.
+
+Once selected, you can:
+
+* Select more blocks by clicking on them while keeping the `Shift` key pressed
+* Moving up and down to select the block above or below, using the `Up` and `Down` keys
+* Copy the entire block using `Ctrl` + `C` (Windows) or `Cmd` + `C` (Mac)
+* Cut the entire block using `Ctrl` + `X` (Windows) or `Cmd` + `X` (Mac)
+* Delete the selected block(s) using `Del`

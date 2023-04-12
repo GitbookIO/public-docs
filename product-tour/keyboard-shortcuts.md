@@ -37,3 +37,4 @@ All member roles can use keyboard shortcuts.
 | `⌘+K`       | `Ctrl+K`       | Insert or toggle link                                                                            |
 | `Tab`       | `Tab`          | <p>In a list, increase item indent level.</p><p>In a code block, increase indentation level.</p> |
 | `Shift+Tab` | `Shift+Tab`    | <p>In a list, decrease item indent level.</p><p>In a code block, decrease indentation level.</p> |
+| `Esc`       | `Esc`          | Selects the entire block                                                                         |
