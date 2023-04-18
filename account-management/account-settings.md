@@ -14,7 +14,7 @@ All members can access and manage their personal account settings.
 
 ## How to access your personal account settings
 
-Click on the settings <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> icon, which is located at the bottom of the sidebar, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
+Click on the settings :gear: icon, which is located at the bottom of the sidebar, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
