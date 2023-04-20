@@ -12,21 +12,21 @@ GitBook allows you to make writing beautiful documentation part of your everyday
 
 ## Key benefits and features of GitBook
 
-* ****[**Import or create your content**](building-technical-product-documentation.md#import-or-create-your-content)\
+* [**Import or create your content**](building-technical-product-documentation.md#import-or-create-your-content)\
   Get started in a matter of minutes with our intuitive editor.&#x20;
-*   ****[**Make use of content blocks**](building-technical-product-documentation.md#make-use-of-content-blocks)****
+*   [**Make use of content blocks**](building-technical-product-documentation.md#make-use-of-content-blocks)
 
     Create easy to read content with blocks designed for technical authors and readers.&#x20;
-*   ****[**Collaborate with your team**](building-technical-product-documentation.md#collaborate-with-your-team)****
+*   [**Collaborate with your team**](building-technical-product-documentation.md#collaborate-with-your-team)
 
     Review your content in change requests while maintaining full control of each version.
-* ****[**Match your existing Git workflow**](building-technical-product-documentation.md#match-your-existing-git-workflow)\
+* [**Match your existing Git workflow**](building-technical-product-documentation.md#match-your-existing-git-workflow)\
   Bridge the gap between collaborators who write directly in the GitBook editor, and those who prefer to write in Markdown in a GitHub or GitLab repository.
-* ****[**Customize your documentation**](building-technical-product-documentation.md#customize-your-documentation)\
+* [**Customize your documentation**](building-technical-product-documentation.md#customize-your-documentation)\
   Create beautiful docs that match _your_ brand by uploading your logo, setting a primary color, choosing a font, and more.
-* ****[**Integrate existing tools within your docs**](building-technical-product-documentation.md#integrate-existing-tools-within-your-docs)\
+* [**Integrate existing tools within your docs**](building-technical-product-documentation.md#integrate-existing-tools-within-your-docs)\
   Include live code samples directly in your doc with RunKit, create graphs and diagrams with Markdown.&#x20;
-*   ****[**Publish your documentation**](building-technical-product-documentation.md#publish-your-documentation)****
+*   [**Publish your documentation**](building-technical-product-documentation.md#publish-your-documentation)
 
     Choose from a number of visibility settings, plus you can publish on your own custom domain.
 

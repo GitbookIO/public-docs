@@ -10,7 +10,7 @@ Whether you're working within the GitBook app or your visitors are reading your 
 **Permissions**\
 For **published content**, anyone can use the built-in **search** feature in the top-right of the screen to find the answers or pages they’re looking for.
 
-For **internal content,** all member roles can use the **quick find** search bar in the top-left of the screen. However, members will only be able to search the internal content they have permission to access.‌
+For **internal content,** all member roles can use the **quick find** search bar in the top-left of the screen. However, members will only be able to search the internal content they have permission to access.‌ This includes private content, which is only searchable by you.
 {% endhint %}
 
 ### Learn more about:

@@ -8,8 +8,10 @@ This page walks you through various sections, features and menus that you'll fin
 
 {% hint style="info" %}
 **Permissions**\
-The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level.\
-\
+The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level.
+
+Only you have access to any content in the private section of each organization's library.
+
 Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.
 
 The table of contents, page header, editor, page actions, and on this page sections are visible to all.
@@ -17,7 +19,7 @@ The table of contents, page header, editor, page actions, and on this page secti
 
 ## Sidebar
 
-<figure><img src="../.gitbook/assets/Sidebar.png" alt="A screenshot of the GitBook app. On the left is a dark blue sidebar with a search bar, links to different spaces in the GitBook organization, notification and settings buttons, and a plus button to create new content. On the right is the editor and a collection called Company Wiki."><figcaption><p>The sidebar in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/sidebar (1).png" alt="A screenshot of the GitBook app. On the left is a dark blue sidebar with a search bar, links to different spaces in the GitBook organization, notification and settings buttons, and a plus button to create new content. On the right is the editor and a collection called Company Wiki."><figcaption><p>The sidebar in the GitBook app</p></figcaption></figure>
 
 The sidebar is the dark blue (in light mode) or black (in dark mode) section on the left-hand side of the app.
 
