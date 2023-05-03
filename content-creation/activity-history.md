@@ -9,7 +9,7 @@ You can easily monitor all changes submitted to your content thanks to the <img 
 {% hint style="info" %}
 **Permissions**
 
-Administrators and creators can access the history tab, where they can view actions and change history in a space.
+Only administrators can access the history tab, where they can view actions and change history in a space.
 {% endhint %}
 
 ## Feed <a href="#see-all-the-activities" id="see-all-the-activities"></a>
