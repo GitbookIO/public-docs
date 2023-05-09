@@ -68,6 +68,7 @@ redirects:
   tour/notifications: collaboration/notifications.md
   tour/internationalization: publishing/internationalization.md
   tour/keyboard-shortcuts: product-tour/keyboard-shortcuts.md
+  resources/keyboard-shortcuts: product-tour/keyboard-shortcuts.md
   tour/seo: publishing/seo.md
   advanced-guides/custom-domain: publishing/custom-domain/README.md
   advanced-guides/custom-domain/choose: publishing/custom-domain/choose.md
