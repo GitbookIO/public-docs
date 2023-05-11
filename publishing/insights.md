@@ -54,12 +54,6 @@ Click **download CSV** if you'd like to use or analyse this data further outside
 
 </details>
 
-### **Data sampling**
-
-In data analysis, sampling is the practice of analyzing a subset of all data in order to uncover meaningful information in the larger data set. For example, if you wanted to estimate the number of trees in a 100-acre area where the distribution of trees was fairly uniform, you could count the number of trees in 1 acre and multiply by 100, or count the trees in a half acre and multiply by 200 to get an accurate representation of the entire 100 acres.
-
-We apply session sampling to insights data in order to provide accurate reports in a timely fashion. The direct consequence is that no page views are shown for new spaces or spaces with fewer page views.
-
 {% hint style="info" %}
 **Why can't I see any data for my space?** We display data only for **published** spaces. That means that if your space is shared internally with the members of your organization, you will not see any insights into this space.&#x20;
 {% endhint %}
