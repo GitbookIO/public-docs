@@ -16,7 +16,7 @@ You can choose any of the following content blocks via the command palette:
 * [Code block](code-block.md)
 * [Insert files...](insert-files.md)
 * [Insert images...](insert-images.md)
-* [Embed a url...](embed-a-url.md)
+* [Embed a URL...](embed-a-url.md)
 * [Table](table.md)
 * [Cards](cards.md)
 * [Tabs](tabs.md)
@@ -48,9 +48,9 @@ You can insert a new content block below or above an existing block using your m
 
 1. Hover over the editor at the position you need the new content block
 2. Click on the + icon that will appear
-3. Select the block from the drop down menu to insert it at that position
+3. Select the block from the drop-down menu to insert it in that position
 
-<figure><img src="../../.gitbook/assets/blocks-insert-content.png" alt="Screenshot showing how to insert a new block between two paragraphs using your mouse."><figcaption><p>Inserting a new block</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/inserting-new-block" alt="Screenshot showing how to insert a new block between two paragraphs using your mouse."><figcaption><p>Inserting a new block</p></figcaption></figure>
 
 ### Selecting blocks and interacting with selected blocks
 
@@ -63,3 +63,30 @@ Once selected, you can:
 * Copy the entire block using `Ctrl` + `C` (Windows) or `Cmd` + `C` (Mac)
 * Cut the entire block using `Ctrl` + `X` (Windows) or `Cmd` + `X` (Mac)
 * Delete the selected block(s) using `Del`
+
+### New: Full-width blocks :tada:
+
+By making your blocks full-width, you can create a clear visual hierarchy in your content. This is perfect for giving images and tables more space to breathe, but it looks great with a whole range of block types:
+
+* Cards
+* Tables
+* Code Blocks
+* Integrations
+* API Blocks
+* Image blocks
+
+#### Convert a block to full width:
+
+1. Insert a block into your page
+2. Click on <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  icon next to your block and select full width
+
+<figure><img src="../../.gitbook/assets/CleanShot 2023-05-12 at 15.59.41.gif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Text blocks such as paragraphs are not possible to convert to full width. If you do not see the option to convert your block, it is likely not included on the list of compatible blocks above.
+{% endhint %}
+
+#### Example of a full-width table block&#x20;
+
+<table data-full-width="true"><thead><tr><th>Project</th><th>Owner</th><th data-type="rating" data-max="5">Completeness</th></tr></thead><tbody><tr><td>Project A</td><td>Mike</td><td>4</td></tr><tr><td>Project B</td><td>Jack</td><td>3</td></tr><tr><td>Project C</td><td>Samantha</td><td>5</td></tr></tbody></table>
+

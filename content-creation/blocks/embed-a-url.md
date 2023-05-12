@@ -8,6 +8,10 @@ To add a rich embed, simply paste the link of the content you want to embed and 
 
 ### Examples of a rich embed
 
+{% hint style="info" %}
+You can now convert embed blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+{% endhint %}
+
 ### Videos
 
 {% embed url="https://www.youtube.com/watch?v=D_uLM5i0Z4c" %}
@@ -23,4 +27,3 @@ To add a rich embed, simply paste the link of the content you want to embed and 
 ### Spotify music
 
 {% embed url="https://open.spotify.com/track/4FmiciU3ZmfgABlbCSXcWw?si=65zMAhStT2ivTit-kZISWg" %}
-

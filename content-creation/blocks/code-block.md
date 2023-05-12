@@ -54,6 +54,10 @@ greeting.("Anna")
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+You can now convert code blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+{% endhint %}
+
 ### Options
 
 #### Set syntax...
@@ -82,7 +86,7 @@ Depending on what the code snippet represents you may or may not want to wrap li
 
 You can hover over a code block and see an icon that allows you to copy the contents of the code block to the clipboard in one click:
 
-<figure><img src="../../../.gitbook/assets/code-block-copy.png" alt="Screenshot showing the icon in a code block that allows you to copy its contents to the clipboard."><figcaption><p>Copy code block contents to the clipboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/code-block-copy.png" alt="Screenshot showing the icon in a code block that allows you to copy its contents to the clipboard."><figcaption><p>Copy code block contents to the clipboard</p></figcaption></figure>
 
 ### Git Sync representation in Markdown
 
