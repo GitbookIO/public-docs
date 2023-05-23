@@ -8,9 +8,7 @@ description: >-
 
 ## Can I build my own integration?
 
-We're hard at work to open our Integrations Platform to the public. The Integrations Platform includes a **REST API**, a framework for building **custom blocks**, and added functionality for **Visitor Authentication** and **Dynamic Documentation.**
-
-We're currently working on building features for the platform, and are looking for interested developers to help us test what we've been working on. If you're interested in trying out the Integrations Platform, let us know [here](https://survey.refiner.io/e61q1m-dgr4km).
+Our integration platform is currently availabe to anyone with a GitBook account! Head to [GitBook Integrations](https://www.gitbook.com/integrations) or visit our [Developer Documentation](https://developer.gitbook.com/) to learn more.
 
 ## Can I customize GitBook using CSS, JavaScript or other programming languages?
 

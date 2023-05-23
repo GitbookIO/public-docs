@@ -8,7 +8,7 @@ description: >-
 
 GitBook integrations allow you to connect your GitBook spaces to some of your favorite services and platforms.
 
-It contains apps and integrations built by GitBook, and will also include some built by other developers and companies in the future. If you're interested in developing your own app in GitBook, head to our [Integrations FAQ](integrations-faq.md) to learn more.
+Our [marketplace](https://www.gitbook.com/integrations) contains apps and integrations built by GitBook and verified developers. If you're interested in developing your own app or integration in GitBook, head to our [Developer Documentation](https://developer.gitbook.com/) to learn more.
 
 {% hint style="info" %}
 **Permissions**
