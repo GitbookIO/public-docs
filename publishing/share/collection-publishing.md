@@ -2,7 +2,7 @@
 description: Learn about publishing a collection as a container for variants.
 ---
 
-# Share different language or product versions
+# Share different language or product versions in one place
 
 If you want to publish multiple versions of your documentation in one place, such as in different languages or different versions of your product, you can use **collection publishing**.&#x20;
 
@@ -78,3 +78,9 @@ The default space in a collection is the space that readers will land on when th
 To change the default space in a collection, navigate to the collection customization page by clicking the triple dot menu button in the top-right corner of the collection in the editor. Under General > Collection, choose the default space from the dropdown.
 
 <figure><img src="../../.gitbook/assets/switch space.gif" alt=""><figcaption><p>Change the default space in a published collection</p></figcaption></figure>
+
+{% hint style="info" %}
+Did you know you can extend GitBook through integrations? GitBook's Integration Platform allows you to enhance the way you work—Including helping you with translations of the things you write. \
+\
+Head to our guide on [translating GitBook pages](https://developer.gitbook.com/getting-started/guides/use-github-actions-to-translate-gitbook-pages) to learn more.
+{% endhint %}
