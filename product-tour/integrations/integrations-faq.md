@@ -8,7 +8,11 @@ description: >-
 
 ## Can I build my own integration?
 
-Our integration platform is currently availabe to anyone with a GitBook account! Head to [GitBook Integrations](https://www.gitbook.com/integrations) or visit our [Developer Documentation](https://developer.gitbook.com/) to learn more.
+Our integration platform is currently available to anyone with a GitBook account! Head to [GitBook Integrations](https://www.gitbook.com/integrations) or visit our [Developer Documentation](https://developer.gitbook.com/) to learn more.
+
+## Can I request an integration?
+
+Yes! We have an integration request form you can submit [here](https://survey.refiner.io/e61q1m-dp057m). Additionally, you can always head to our [GitBook Community](https://github.com/GitbookIO/community) to chat with others about what you'd like to see in GitBook.
 
 ## Can I customize GitBook using CSS, JavaScript or other programming languages?
 
