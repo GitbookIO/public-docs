@@ -130,7 +130,7 @@
     * [Collection-level custom domain](publishing/custom-domain/initiate/collection-level-custom-domain.md)
     * [Space-level custom domain](publishing/custom-domain/initiate/space-level-custom-domain.md)
   * [Configuring DNS](publishing/custom-domain/configure-dns.md)
-  * [Finalizing the custom domain setup](publishing/custom-domain/finalize.md)
+  * [Confirming the custom domain setup](publishing/custom-domain/finalize.md)
   * [Troubleshooting](publishing/custom-domain/troubleshooting.md)
 * [SEO](publishing/seo.md)
 

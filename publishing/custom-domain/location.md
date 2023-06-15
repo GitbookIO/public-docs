@@ -7,7 +7,7 @@ Please follow the steps to set a custom domain in this order:
 2. [**Deciding where to set the custom domain**](location.md) **(you are here)**
 3. [Initiating the custom domain setup](initiate/) (at the [organization](initiate/organization-level-custom-domain.md), [collection](initiate/collection-level-custom-domain.md), or [space](initiate/space-level-custom-domain.md) level)
 4. [Configuring DNS](configure-dns.md)
-5. [Finalizing the custom domain setup](finalize.md)
+5. [Confirming the custom domain setup](finalize.md)
 {% endhint %}
 
 There are three levels at which a custom domain can be set:
