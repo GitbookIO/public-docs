@@ -38,7 +38,7 @@ For example, duplicating a space called **Design System**, that lives in the Des
 
 To move a space navigate to the space name in the sidebar, open the triple dot menu, click on **move space to...** and then decide where to move it. Alternatively, simply drag and drop a space in the sidebar to reorder it.\
 \
-You can move spaces between collections or even organizations, if you have an [admin role](../../collaboration/invite-members-to-your-organization/roles.md) in both.
+You can move spaces between collections or even organizations, if you have an [admin role](../../account-management/member-management/roles.md) in both.
 
 <figure><img src="../../.gitbook/assets/Move space.gif" alt=""><figcaption><p>Moving a space</p></figcaption></figure>
 

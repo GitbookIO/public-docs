@@ -5,6 +5,10 @@ There are a couple of ways you can invite new members to your organisation:
 * Generating an invite link and sharing it directly.
 * Inviting them directly using their email address.
 
+{% hint style="warning" %}
+**Don't forget** — inviting additional members to your organization will immediately impact the price of your subscription. Take a look at our [billing policy](../billing-faq/billing-policy.md) for the details.
+{% endhint %}
+
 ## Managing invite links
 
 Invite links in GitBook allow you to maintain a list of links that members can use to sign up and quickly join your organization.

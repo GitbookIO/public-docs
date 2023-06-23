@@ -34,7 +34,7 @@ Inviting a member will make them a member of the organization that owns the spac
 
 The cost for this will depend on the [plan](../../account-management/plans/) that the organization is subscribed to.
 
-It is also possible to [invite members to the organization ](../../collaboration/invite-members-to-your-organization/)from within the organization settings area.
+It is also possible to [invite members to the organization ](../../account-management/member-management/invite-members-to-your-organization.md)from within the organization settings area.
 
 </details>
 

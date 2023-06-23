@@ -50,7 +50,7 @@ In addition to standard text, image and list blocks, GitBook allows you to direc
 
 ## Collaborate with your team
 
-Once your initial content exists, it's important to design a contribution workflow that will ensure your documentation remains up-to-date. You can manage the access of each contributor or team of contributors through [permissions and inheritance](../collaboration/invite-members-to-your-organization/permissions-and-inheritance.md), allowing for a review process before merging your content into the main branch.
+Once your initial content exists, it's important to design a contribution workflow that will ensure your documentation remains up-to-date. You can manage the access of each contributor or team of contributors through [permissions and inheritance](../account-management/member-management/permissions-and-inheritance.md), allowing for a review process before merging your content into the main branch.
 
 Each change request is tracked and logged in the [activity tab](../content-creation/activity-history.md), which gives you an overview of the work that has been happening in the space. If you ever need to view or roll back to an older version of the content, you can do that from the [change history](../content-creation/activity-history.md#see-the-activity-of-a-specific-draft) section.
 

@@ -30,5 +30,5 @@ It is not possible to unlock live editing in the following cases:
 2. When [Git Sync](../../product-tour/git-sync/) is enabled.
 
 {% hint style="info" %}
-Only users with the **admin** or **creator** [roles](../invite-members-to-your-organization/roles.md) can lock or unlock live edits.
+Only users with the **admin** or **creator** [roles](../../account-management/member-management/roles.md) can lock or unlock live edits.
 {% endhint %}

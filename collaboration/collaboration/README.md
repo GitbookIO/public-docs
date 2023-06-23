@@ -4,7 +4,11 @@ description: Work with others to create and update your GitBook documentation.
 
 # Collaboration
 
-GitBook is designed for easy asynchronous collaboration. You can contribute by using live edits or change requests for greater control over your workflow. Teams can collaborate and review the content using comments and discussions.&#x20;
+GitBook is designed for easy asynchronous collaboration. You can [invite members](../../account-management/member-management/invite-members-to-your-organization.md) to your GitBook organization, and each member can then contribute based upon their [role](../../account-management/member-management/roles.md).
+
+Contributions can be made using [live edits](live-edits.md) in some cases, or using [change requests](change-requests.md) for even greater control over your workflow.
+
+[Teams](../../account-management/member-management/teams.md) can collaborate and review the content using [comments and discussions](../comments-discussion.md).
 
 {% hint style="info" %}
 **Permissions:**\

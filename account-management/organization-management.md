@@ -40,7 +40,7 @@ From this section you can delete the organization. **Note: there is no turning b
 
 **Members tab**
 
-[Members](member-management/) can be added to and removed from the organization as needed. You can also update the [role](../collaboration/invite-members-to-your-organization/roles.md) for each member.
+[Members](member-management/) can be added to and removed from the organization as needed. You can also update the [role](member-management/roles.md) for each member.
 
 **Teams tab**
 
@@ -54,7 +54,7 @@ From this section you can delete the organization. **Note: there is no turning b
 
 **Email domains**
 
-For any domains that you specify, anyone with an email address on those domains will immediately be able to access the organization upon signing up for a GitBook account. You can decide what [role](../collaboration/invite-members-to-your-organization/roles.md) these members should have by default.
+For any domains that you specify, anyone with an email address on those domains will immediately be able to access the organization upon signing up for a GitBook account. You can decide what [role](member-management/roles.md) these members should have by default.
 
 **SAML**
 

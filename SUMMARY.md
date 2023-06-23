@@ -99,9 +99,6 @@
 
 ## Collaboration
 
-* [Invite members to your organization](collaboration/invite-members-to-your-organization/README.md)
-  * [Member roles](collaboration/invite-members-to-your-organization/roles.md)
-  * [Permissions and inheritance](collaboration/invite-members-to-your-organization/permissions-and-inheritance.md)
 * [Collaboration](collaboration/collaboration/README.md)
   * [Live edits](collaboration/collaboration/live-edits.md)
   * [Change requests](collaboration/collaboration/change-requests.md)
@@ -142,6 +139,8 @@
   * [Legacy plans](account-management/plans/legacy-plans.md)
   * [Apply for the non-profit/open source plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
 * [Member management](account-management/member-management/README.md)
+  * [Invite members to your organization](account-management/member-management/invite-members-to-your-organization.md)
+  * [Roles](account-management/member-management/roles.md)
   * [Teams](account-management/member-management/teams.md)
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
 * [Billing FAQ](account-management/billing-faq/README.md)

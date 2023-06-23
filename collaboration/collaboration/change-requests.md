@@ -53,7 +53,7 @@ You can toggle diff mode on or off for any change request. This will give you an
 <figure><img src="../../.gitbook/assets/diff.png" alt="A screenshot showing diff mode enabled on a space. Content that has been removed is highlighted in red, and content that has been added is highlighted in green."><figcaption><p>Diff mode enabled on a space</p></figcaption></figure>
 
 {% hint style="info" %}
-When talking about change requests, it's important to understand how specific roles can affect review dynamics. Members with an [**editor**](../invite-members-to-your-organization/roles.md#editor) role will be able to create and submit requests, but only members with [**reviewer**](../invite-members-to-your-organization/roles.md#reviewer) or above roles are able to merge change requests. When setting your permissions, keep in mind the type of edit and review dynamic you want to achieve!
+When talking about change requests, it's important to understand how specific roles can affect review dynamics. Members with an [**editor**](../../account-management/member-management/roles.md#editor) role will be able to create and submit requests, but only members with [**reviewer**](../../account-management/member-management/roles.md#reviewer) or above roles are able to merge change requests. When setting your permissions, keep in mind the type of edit and review dynamic you want to achieve!
 {% endhint %}
 
 ## Merging a change request

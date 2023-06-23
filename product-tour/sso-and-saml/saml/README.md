@@ -18,7 +18,7 @@ By using SSO, your employees will be able to log into GitBook using the familiar
 
 ## ​Setup on GitBook <a href="#setup-on-gitbook" id="setup-on-gitbook"></a>
 
-You must be an [organization admin](../../../collaboration/invite-members-to-your-organization/roles.md#admin) to enable SSO for your GitBook organization.‌
+You must be an [organization admin](../../../account-management/member-management/roles.md#admin) to enable SSO for your GitBook organization.‌
 
 After configuring SSO on your IdP, you will be able to enter metadata. When the setup is successful, administrators will see a confirmation dialog and the URL of the SSO login for end-users will be displayed. **GitBook does not send announcement emails when set up is complete**. It is the responsibility of the administrator to notify company employees (and convey the login URL to them) so they can access GitBook via SSO.‌
 

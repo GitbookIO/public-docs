@@ -9,7 +9,7 @@ GitBook's quick find command palette lets you search for – and quickly navigat
 {% hint style="info" %}
 **Permissions**
 
-All [member roles](../../collaboration/invite-members-to-your-organization/roles.md) can use quick find, but members will only be able to search the content they have permission to access.‌
+All [member roles](../../account-management/member-management/roles.md) can use quick find, but members will only be able to search the content they have permission to access.‌
 {% endhint %}
 
 ## How to use quick find

@@ -4,7 +4,7 @@ GitBook has a flexible permissions model that lets you have as much, or as littl
 
 ## Organization default roles
 
-When you add a member to your organization, you set their default [role](../../collaboration/invite-members-to-your-organization/roles.md). This role applies to any piece of content that inherits its permissions from the organization defaults.
+When you add a member to your organization, you set their default [role](roles.md). This role applies to any piece of content that inherits its permissions from the organization defaults.
 
 ## Managing inheritance
 
@@ -32,7 +32,7 @@ The default inheritance option for any newly-created space or collection is **in
 
 Once you've decided on the permission inheritance for your space or collection, you can further customise access by giving teams or members **direct access**.
 
-<figure><img src="../../.gitbook/assets/Content level permissions.png" alt="Invite panel open with number of teams added in. Each team has a different permission assigned to to the content. "><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Content level permissions.png" alt="Invite panel open with number of teams added in. Each team has a different permission assigned to to the content."><figcaption></figcaption></figure>
 
 ### Giving a team direct access
 
