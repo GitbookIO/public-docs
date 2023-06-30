@@ -114,7 +114,7 @@
   * [PDF export](publishing/share/pdf-export.md)
 * [Visitor authentication](publishing/visitor-authentication.md)
 * [Customization](publishing/customization/README.md)
-  * [Page layouts](publishing/share/page-layouts.md)
+  * [Page options & covers](publishing/share/page-layouts.md)
   * [Space customization](publishing/customization/space-customization.md)
   * [Collection customization](publishing/customization/collection-customization.md)
 * [Match the UI to the language of your content](publishing/internationalization.md)

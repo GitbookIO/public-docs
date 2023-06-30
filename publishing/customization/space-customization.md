@@ -4,7 +4,7 @@ description: Customize your space
 
 # Space customization
 
-<figure><img src="../../.gitbook/assets/space-customization (1).png" alt="A screenshot showing the space customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Space customization settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/space-customization-modal.png" alt="A screenshot showing the space customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Space customization settings</p></figcaption></figure>
 
 Customizing your space lets you control the branding, presentation and extra features of your space's public content.
 
@@ -26,137 +26,177 @@ When this setting is enabled, the space will automatically inherit any changes m
 
 </details>
 
-### Change the space title and icon&#x20;
-
-You will see an _**internal**_ icon and title when logged into the GitBook app. Those are usually set when you first create a space and include a random emoji. By navigating to the title & icon you can override those settings and choose the different _**external**_ appearance, that your visitors will see when they access your published content.
-
-{% hint style="info" %}
-**Space titles:** It's not uncommon to use a longer or more specific title in published content and to use a shorter title or internal wording that might not make complete sense to your visitors when logged into the GitBook app.&#x20;
-{% endhint %}
-
-You can upload your own square image as your space icon or use a long list of emojis provided.&#x20;
-
-### Upload a custom logo
-
-You can replace _**both**_ the space's title and icon with a custom logo so that your documentation better reflects your own branding.
-
-{% hint style="info" %}
-The custom logo setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
-{% endhint %}
-
-#### What is the difference between an icon and a custom logo?&#x20;
-
-The icon allows you to upload a small 132px square image and which will be displayed alongside your space title while the custom logo allows you to upload a larger image and gives you full control over the image and space title.&#x20;
-
-<figure><img src="../../.gitbook/assets/custom-logo.png" alt=""><figcaption><p>Preview of a space with custom logo</p></figcaption></figure>
-
 <details>
 
-<summary>Primary colour</summary>
+<summary>Basic (icon, title, logo)</summary>
 
-The chosen primary color will be applied to things like links, hover states, and buttons. While you can use any color you'd like, it's important to keep accessibility in mind and choose something that will have good contrast when used as a text link.
+**Icon**\
+You can set an emoji, or upload an icon of your own. Please note that this setting will only affect the icon that displays _in the published documentation_. (If you want to edit the icon used within the GitBook app, close the customize section and click on the icon at the top of the space.)
+
+**Title**\
+You can set any title you choose for your space. Again, please note that this setting will only affect the title that displays _in the published documentation_. (If you want to edit the title used within the GitBook app, close the customize section and click on the title at the top of the space.)
+
+**Logo**\
+You can replace _both_ the space's title and icon with a custom logo so that your documentation better reflects your own branding — and, you can upload two versions: one for light mode, and one for dark mode. _Note: this setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan._
+
+If you're wondering about the difference between the icon and logo options, here's the answer! The icon allows you to upload a small, 132px square image, which will be displayed _alongside_ your space title, whereas the custom logo allows you to upload a larger image (we recommend at least 600px wide), which will completely replace the icon and title settings.
 
 </details>
 
 <details>
 
-<summary>Font family</summary>
+<summary>Themes (with light &#x26; dark modes)</summary>
 
-You can customize the font family from a list of predefined options.
+Themes enable you to customize the color scheme of your published content. Whichever theme you choose, you'll have access to choose the primary color for light mode and for dark mode. While you can use any colors you'd like, it's important to keep accessibility in mind and choose something that will have good contrast so that your content is easy to read.
+
+**Default theme**\
+All spaces have access to this theme, where the header background color will be aligned with the background color for the rest of the space.
+
+**Bold theme**\
+The bold theme uses the primary color as the header background color. It is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
+
+**Contrast theme**\
+The contrast theme has a dark header background color in light mode, and a light header background color in dark mode. It is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
+
+**Custom theme**\
+The custom theme option will enable you to set your own color preferences for the background color and link color in the header, in addition to choosing the primary color for light mode and for dark mode. It is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.\
+
+
+</details>
+
+<details>
+
+<summary>Modes</summary>
+
+**Show mode toggle**\
+If you would like visitors to your published content to be able to toggle between light and dark mode, enable this setting! You can see it in action in our own documentation here. It's located near the top-right corner next to the search bar for larger screens, and within the menu on mobile devices.
+
+**Default mode**\
+Choose whether visitors to your published content will see it in light mode or dark mode initially. If show mode toggle is enabled, they'll be able to switch to the other option if they prefer. If show mode toggle is disabled, they'll only be able to see your content in the mode you choose here.
+
+_Note: if, instead, you're looking to change the theme within the GitBook app, you can do that from your settings menu, which can be found at the bottom of the_ [_sidebar_](../../product-tour/navigation.md#sidebar)_._
+
+</details>
+
+<details>
+
+<summary>Styling</summary>
+
+**Font family**\
+You can choose a font family for your published content from a list of popular options. This setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
 
 GitBook doesn't support the uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [let us know](../../faq/support.md)!
 
-**The font family setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.**
+**Corner style**\
+Choose either a rounded corner or straight corner style, to help align your published GitBook content with your own brand's styling preferences.
+
+</details>
+
+## Layout: manage navigation options for your content
+
+<details>
+
+<summary>Header</summary>
+
+**Navigation**\
+Enable or disable header links for your space! You could use header links to link to important parts of your documentation, or perhaps to link back to your main website.
+
+When enabled, all you'll need to do is add a title and a URL for each link. We support two levels of header navigation, meaning that you can have sub-links that appear in a dropdown menu.
 
 </details>
 
 <details>
 
-<summary>Select dark or light theme for published content</summary>
+<summary>Page</summary>
 
-Choose between a light and a dark theme.
-
-**This setting only affects the published content. If you're looking to use a different theme when logged into the GitBook app, you can do so from your settings menu, found at the bottom of the** [**sidebar**](https://docs.gitbook.com/getting-started/overview#sidebar)**.**
+**Pagination**\
+Keep this setting on to have previous and next buttons appear at the bottom of each page in your space, or toggle it off if you prefer that your pages don't include those buttons.
 
 </details>
 
-## Layout: manage how users navigate your content
+<details>
 
-### Change the header theme
+<summary>Footer</summary>
 
-We offer a number of header options for our theme:
+Enable or disable a footer section for your space! The footer is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
 
-* **Matching**\
-  In light [theme mode](space-customization.md#theme-mode), the header will have a light background. In dark [theme mode](space-customization.md#theme-mode), the header will have a dark background.
-* **Bold**\
-  The selected [primary color](space-customization.md#primary-color) will be used for the header background.
-* **Contrast**\
-  In light [theme mode](space-customization.md#theme-mode), the header will have a dark background. In dark [theme mode](space-customization.md#theme-mode), the header will have a light background.
+**Logo**\
+You might like to include your logo or another image in the footer. If you choose to upload one, we recommend a width of at least 600px.
 
-{% hint style="info" %}
-The bold and contrast theme header options are only available to spaces owned by an organization subscribed to a **Pro** or **Enterprise** plan.
-{% endhint %}
+**Copyright text**\
+You can include some brief copyright text, if you'd like.
 
-### Create a navigation menu
+**Navigation**\
+You can include links in your footer, in multiple sections. Just like with the header, you just need to add a title and URL for each link. Make sure to also include a section title for each section you create.
 
-You can add links to the header section of your documentation. For each link, you will need to set a URL and a text label. You could use header links to link to important parts of your documentation, or perhaps to link back to your main website.
+</details>
 
-You can also create a navigation menu by adding links and sub-links which will show as drop-downs for each item.
+## Sharing: customize social media preview
 
-<figure><img src="../../.gitbook/assets/Sub-headers.png" alt=""><figcaption></figcaption></figure>
+<details>
 
-### Previous and next buttons
-
-Pagination allows you to control whether the buttons _**Previous**_ or _**Next**_ appear at the bottom of your page
-
-### Footer
-
-Footer allows you to upload an image, copyright text and add column titles with links.&#x20;
-
-## Sharing: upload social preview
+<summary>Social preview</summary>
 
 You can upload a custom social preview image for your space. This will set the space's `og:image` to be your uploaded image, and it'll show when the space's link is shared to any platform or product that supports OpenGraph images.
 
+</details>
+
 ## Configure: manage the interface&#x20;
 
-### Match the user interface to the language of your content
+<details>
+
+<summary>Localize user interface</summary>
 
 You can select from a list of languages to localize the user interface of your published content. This will apply translations to the **non-custom** areas of the interface.
 
-This setting will not auto-translate your actual content, but can help with matching the user interface to the language that you are writing in.
+This setting will _not_ auto-translate your actual content, but can help with matching the user interface to the language that you are writing in.
 
 Is there a language we don't yet offer that you would like to see included in this list? [Let us know](../../faq/support.md)!
 
-### Enable Lens semantic search
+</details>
+
+<details>
+
+<summary>Enable Lens semantic search</summary>
 
 Enabling Lens allows visitors to your published documentation to ask questions and receive a semantic answer based on your content.
 
 You can [find out more about Lens](../../product-tour/searching-your-content/lens.md).
 
-### PDF Export
+</details>
+
+<details>
+
+<summary>PDF Export</summary>
 
 You can choose whether or not you'd like visitors to your published content to be able to download the content as a PDF file.
 
 You can [find out more about the PDF export feature](../share/pdf-export.md).
 
-{% hint style="info" %}
-**PDF export is only available to spaces owned by an organization on a Pro or Enterprise plan.**
-{% endhint %}
+PDF Export is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
 
-### Page rating&#x20;
+</details>
 
-Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it.
+<details>
+
+<summary>Page Rating</summary>
+
+Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They'll be able to choose a sad, neutral, or happy face.
 
 You can review the results of this survey if you click on [insights](../insights.md) in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation).
 
-<figure><img src="../../.gitbook/assets/page-rating (1).png" alt=""><figcaption><p>Page rating displayed on published documentation </p></figcaption></figure>
+</details>
 
-### Upload a privacy policy
+<details>
 
-Provide a privacy policy to help visitors understand cookie tracking. Otherwise, the GitBook [privacy policy](https://policies.gitbook.com/privacy/cookies) will be used.
+<summary>Privacy Policy</summary>
+
+You can link to your own privacy policy to help visitors understand how your GitBook content uses cookies, and how you protect their privacy. If you choose not to set one, [GitBook's own privacy policy](https://policies.gitbook.com/privacy-and-security/statement/cookies) will be used.
+
+</details>
 
 ## Integrations
 
-Enable[ Intercom](../../product-tour/integrations/intercom/) or [Google Analytics](../../product-tour/integrations/google-analytics/) integrations on your published content.&#x20;
+You can choose to enable[ Intercom](../../product-tour/integrations/intercom/) or [Google Analytics](../../product-tour/integrations/google-analytics/) integrations for your published content.
 
-Looking for more integrations? [Read about our integrations](space-customization.md#integrations) including [Segment](../../product-tour/integrations/segment/), [Plausible](../../product-tour/integrations/plausible/) or [Fathom.](../../product-tour/integrations/fathom/)&#x20;
+Looking for more? [Read about our integrations](space-customization.md#integrations), which include [Segment](../../product-tour/integrations/segment/), [Plausible](../../product-tour/integrations/plausible/) and [Fathom.](../../product-tour/integrations/fathom/)&#x20;
