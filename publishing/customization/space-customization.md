@@ -200,3 +200,11 @@ You can link to your own privacy policy to help visitors understand how your Git
 You can choose to enable[ Intercom](../../product-tour/integrations/intercom/) or [Google Analytics](../../product-tour/integrations/google-analytics/) integrations for your published content.
 
 Looking for more? [Read about our integrations](space-customization.md#integrations), which include [Segment](../../product-tour/integrations/segment/), [Plausible](../../product-tour/integrations/plausible/) and [Fathom.](../../product-tour/integrations/fathom/)&#x20;
+
+## What _can't_ be customized?
+
+The options above provide lots of ways for you to customize your space, but there are a few things that you won't be able to customize, regardless of [your chosen plan](../../account-management/plans/).
+
+1. It's not possible to customize the layout of the elements on the page. (However, it _is_ possible to [hide certain elements](../share/page-layouts.md) on a page-by-page basis.)
+2. There's no way to insert custom code (such as CSS, HTML, JS, etc.) directly into one or more documentation pages. (If you're looking to integrate a third party service, take a look at [the docs for our integrations platform](https://developer.gitbook.com/)!)
+3. It's not possible to remove the small "Powered by GitBook" link that appears in published documentation.
