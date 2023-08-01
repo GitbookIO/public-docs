@@ -29,7 +29,8 @@ All member roles can use keyboard shortcuts.
 | `⌘+Z`       | `Ctrl+Z`       | Undo                                                                                             |
 | `⌘+Shift+Z` | `Ctrl+Shift+Z` | Redo                                                                                             |
 | `⌘+Enter`   | `Ctrl+Enter`   | Exit from content block (code, tabs, table, quote ...)                                           |
-| `⌘+/`       | `Ctrl+/`       | Open block-insert palette                                                                        |
+| `/`         | `/`            | Open block-insert palette.                                                                       |
+| `⌘+/`       | `Ctrl+/`       | Open block-modifier palette.                                                                     |
 | `⌘+B`       | `Ctrl+B`       | Toggle bold                                                                                      |
 | `⌘+I`       | `Ctrl+I`       | Toggle italic                                                                                    |
 | `⌘+Shift+S` | `Ctrl+Shift+S` | Toggle strikethrough                                                                             |

@@ -31,8 +31,8 @@ You can choose any of the following content blocks via the command palette:
 
 You can invoke the command palette for adding a block with the cursor in an empty paragraph in two ways:
 
-1. Hitting the keyboard shortcut, which is `command` + `/` on a Mac or `control` + `/` on a PC.
-2. Clicking <img src="../../.gitbook/assets/icon-command-palette.png" alt="" data-size="line"> using your mouse. The icon appears in the left margin of the paragraph that has the current focus.
+1. Hitting the keyboard shortcut, which is  `/`  on both Mac and PC.&#x20;
+2. Clicking :heavy\_plus\_sign: using your mouse. The icon appears in the left margin of the paragraph that has the current focus.
 
 ### Exiting a block
 
