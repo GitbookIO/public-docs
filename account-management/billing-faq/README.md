@@ -48,4 +48,4 @@ GitBook's billing is powered by Stripe, and you can access and download invoices
 
 ### If I subscribe to a paid plan, can I remove the "Powered by GitBook" link from my published documentation?
 
-Generally, no — removing the "Powered by GitBook" link is not an option that we provide. It's part of the way that we promote GitBook, and it helps us to keep our prices relatively low. However, for customers on our **Enterprise** plan, removing the link is something that we can consider. If you are interested in our Enterprise plan, please [contact our sales team](https://www.gitbook.com/contact) to discuss this further!
+No, removing the "Powered by GitBook" link is not an option that we provide.
