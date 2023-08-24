@@ -8,13 +8,13 @@ description: Install and configure the Google Analytics integration
 
 To start using the Google Analytics integration, you will need to install it in your GitBook library or just on a single space. To do this, follow the steps described in the [install an integration](../install-an-integration.md) section.
 
-Once it is installed, you will need to enter your Google Analytics Tracking ID **to complete the installation.**
+Once it is installed, you will need to enter your Google tag ID **to complete the installation.**
 
 ## Configure the integration
 
-After installing the integration to your space or GitBook library, you will need to choose which spaces it is installed on, and then enter your Google Analytics Tracking ID.
+After installing the integration to your space or GitBook library, you will need to choose which spaces it is installed on, and then enter your Google tag ID.
 
-How to find your Google Analytics Tracking ID:
+How to find your Google tag ID:
 
 {% embed url="https://support.google.com/analytics/answer/9539598?hl=en" %}
 
@@ -30,9 +30,9 @@ You can choose to install the integration on all spaces by enabling the toggle i
 
 <details>
 
-<summary>Step 2: Enter your Google Analytics Tracking ID</summary>
+<summary>Step 2: Enter your Google tag ID</summary>
 
-In the space configuration section, enter your Google Analytics Tracking ID on each space that you want to collect analytics for.
+In the space configuration section, enter your Google tag ID on each space that you want to collect analytics for.
 
 You can switch between the spaces by opening the space drop-down menu to the right of **space configuration**.
 
