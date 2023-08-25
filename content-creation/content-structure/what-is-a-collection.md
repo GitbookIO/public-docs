@@ -29,6 +29,10 @@ Collections can be nested inside each other, creating a collection -> sub-collec
 
 Hover over the collection name in the sidebar, then click on the triple dot icon that appears on its right-hand side. Click **move to...** from this menu and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
 
+{% hint style="info" %}
+When you publish the primary collection, any nested collection does not show up as a variant.
+{% endhint %}
+
 ## Delete a collection
 
 Hover over the collection name in the sidebar, then click on the triple dot icon that appears on its right-hand side. Click **delete** from this menu to delete the collection.
