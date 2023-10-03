@@ -22,9 +22,13 @@ You're able to set different images for the light and dark mode versions of your
 
 To choose an image for light or dark mode, click the “Replace image” button while hovering over your image.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Setting a Light or Dark mode image</p></figcaption></figure>
 
-### With GitHub/GitLab Sync
+{% hint style="warning" %}
+Note that light and dark mode images are not yet supported in some cases like Page covers or Card covers.&#x20;
+{% endhint %}
+
+### Light & Dark mode through GitHub/GitLab Sync
 
 You can also add light & dark mode images in Markdown through HTML syntax (`<picture>` and `<source>`).
 
