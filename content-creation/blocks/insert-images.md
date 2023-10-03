@@ -16,6 +16,44 @@ Image blocks can display a gallery of images, like this:
 You can now convert image blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
+### Light & Dark mode
+
+You're able to set different images for the light and dark mode versions of your published site. GitBook will automatically display the correct image depending on the mode your visitor is in.
+
+To choose an image for light or dark mode, click the “Replace image” button while hovering over your image.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+### With GitHub/GitLab Sync
+
+You can also add light & dark mode images in Markdown through HTML syntax (`<picture>` and `<source>`).
+
+For block images, use the `<figure>` HTML element with a `<picture>` and `<source>` in it:
+
+```html
+Text before
+
+<figure>
+  <picture>
+    <source srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" media="(prefers-color-scheme: dark)">
+    <img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png" alt="GitHub logo">
+  </picture>
+  <figcaption>Caption text</figcaption>
+</figure>
+
+Text after
+```
+
+For inline images (images with text around them), use the `<picture>` HTML element with a `<source>` in it:
+
+```html
+Text before the image <picture><source srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" media="(prefers-color-scheme: dark)"><img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png" alt="The GitHub Logo"></picture> and text after the image
+```
+
+{% hint style="warning" %}
+Note that we are not yet supporting [GitHub-only syntax](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) through `#gh-dark-mode-only` or `#gh-light-mode-only`.
+{% endhint %}
+
 ### Resizing
 
 Hover over your image, and you'll see the SIZE control appear in the top-right corner. Click on it to change the size of your image from the available options.
