@@ -73,7 +73,7 @@ The space sub-navigation includes links to:
   You can have space-level conversations with other collaborators of organization-owned spaces here. You can use the feature in spaces that you own personally, too, but you'll have to provide both sides of the conversation!
 * [**Insights**](../publishing/insights.md)\
   Insights help you to understand how your public content is being viewed and searched.
-* [**Integrations**](integrations/)\
+* [**Integrations**](../integrations/overview.md)\
   You can connect GitBook to some other collaboration tools.
 * [**Files**](../content-creation/blocks/insert-files.md)\
   Upload and manage files from this area.
@@ -88,7 +88,7 @@ The space sub-navigation includes links to:
 
 The table of contents is the list of **document pages, links, and groups** that make up a space. It's located to the right of the sidebar, and underneath the space sub-navigation.
 
-* A **document page** is for content that lives within the space. You'll write that content within the GitBook app (or in a [Git repository](git-sync/), if you prefer). You can click on the name of any page to open it in the editor.
+* A **document page** is for content that lives within the space. You'll write that content within the GitBook app (or in a [Git repository](../integrations/git-sync/), if you prefer). You can click on the name of any page to open it in the editor.
 * A **link** looks a lot like any other page in the table of contents, but clicking on it opens whichever link you set. This is a good way to point your documentation readers to other websites, where that's relevant. You'll see a small icon on the right-hand side of the link, which indicates that it will open in a new tab.
 * A **group** is a title for one or more pages and/or links. Groups enable you to organize your content into sections.
 

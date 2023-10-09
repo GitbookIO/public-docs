@@ -9,7 +9,7 @@ Only administrators can access the organization settings.
 
 ## How to access the settings for an organization
 
-Click on the settings <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page, and you'll see additional tabs containing further settings on the left-hand side.
+Click on the **Settings** <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page, and you'll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
@@ -66,7 +66,7 @@ For organizations on our Enterprise plan, you can configure your SSO with any [S
 
 <summary>Integrations</summary>
 
-You can check which [integrations](../product-tour/integrations/) are installed for your organization and [install new integrations](../product-tour/integrations/install-an-integration.md) from this page.
+You can check which [integrations](../integrations/overview.md) are installed for your organization and [install new integrations](../integrations/install-an-integration.md) from this page.
 
 </details>
 

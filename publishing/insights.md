@@ -62,7 +62,7 @@ Click **download CSV** if you'd like to use or analyse this data further outside
 
 ### Can I integrate GitBook with other analytics tools?&#x20;
 
-GitBook default insights offer a quick overview of page views. To take a deeper look into your readers' behaviour, you should take a look at our [Google Analytics](customization/space-customization.md#google-analytics), [Plausible](../product-tour/integrations/plausible/) or [Fathom](../product-tour/integrations/fathom/) integrations.
+GitBook default insights offer a quick overview of page views. To take a deeper look into your readers' behaviour, you should take a look at our [Google Analytics](customization/space-customization.md#google-analytics), [Plausible](broken-reference) or [Fathom](broken-reference) integrations.
 
 ### Can I get more detailed information besides page ratings?
 

@@ -24,7 +24,7 @@ The change history of a space is where you can specifically see actions that res
 
 * When [live edits](../collaboration/collaboration/live-edits.md) have been made on the space.
 * When a [change request](../collaboration/collaboration/change-requests.md) has been merged.
-* When a [Git Sync](../product-tour/git-sync/) operation has been performed.
+* When a [Git Sync](../integrations/git-sync/) operation has been performed.
 
 ## Version control
 

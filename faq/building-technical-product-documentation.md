@@ -58,10 +58,10 @@ Each change request is tracked and logged in the [activity tab](../content-creat
 
 A huge benefit of GitBook is the ability to bridge the gap between contributors who prefer to collaborate in Markdown or write documentation directly in their Git repository and those who may not know Markdown or simply prefer the expanded editing capabilities.&#x20;
 
-Thanks to our [bi-directional sync](../product-tour/git-sync/bi-directional-git-integration.md), documentation is continuously updated regardless of whether it is edited in your Git repository or in GitBook, removing any potential friction or silos in your team.
+Thanks to our [bi-directional sync](../integrations/git-sync/bi-directional-git-integration.md), documentation is continuously updated regardless of whether it is edited in your Git repository or in GitBook, removing any potential friction or silos in your team.
 
-{% content-ref url="../product-tour/git-sync/" %}
-[git-sync](../product-tour/git-sync/)
+{% content-ref url="../integrations/git-sync/" %}
+[git-sync](../integrations/git-sync/)
 {% endcontent-ref %}
 
 ## Customize your documentation
@@ -74,15 +74,15 @@ Additionally, each page can make use of one of three [layouts](../publishing/sha
 
 We've made it easier for your documentation to integrate closely with other tools you use for support, tracking or collaboration allowing you to build one smooth workflow.
 
-Our [RunKit integration](../product-tour/integrations/runkit/) allows your users to run sample code directly from your documentation, embedding interactive JavaScript playgrounds connected to a complete Node environment right in your browser.
+Our [RunKit](https://github.com/GitbookIO/integrations) integration allows your users to run sample code directly from your documentation, embedding interactive JavaScript playgrounds connected to a complete Node environment right in your browser.
 
-Our [Mermaid integration](../product-tour/integrations/mermaid/) allows you to create diagrams and visualizations using text and code. With the integration enabled you can insert the Mermaid block into any page. You can edit the code content and preview how it looks using the live editor.
+Our [Mermaid](https://github.com/GitbookIO/integrations) integration allows you to create diagrams and visualizations using text and code. With the integration enabled you can insert the Mermaid block into any page. You can edit the code content and preview how it looks using the live editor.
 
 {% hint style="info" %}
-When using [Git Sync](../product-tour/git-sync/), all code blocks with the mermaid syntax will be replaced by diagram. All diagrams inserted from the editor will be formatted as such code blocks in Markdown.
+When using [Git Sync](../integrations/git-sync/), all code blocks with the mermaid syntax will be replaced by diagram. All diagrams inserted from the editor will be formatted as such code blocks in Markdown.
 {% endhint %}
 
-We offer a number of [other integrations](../product-tour/integrations/), too, and have plans to make it easier to extend GitBook with additional integrations in the future. 🤩
+We offer a number of [other integrations](https://github.com/GitbookIO/integrations), too, and have plans to make it easier to extend GitBook with additional integrations in the future. 🤩
 
 ## Publish your documentation
 

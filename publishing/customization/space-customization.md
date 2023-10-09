@@ -197,9 +197,9 @@ You can link to your own privacy policy to help visitors understand how your Git
 
 ## Integrations
 
-You can choose to enable[ Intercom](../../product-tour/integrations/intercom/) or [Google Analytics](../../product-tour/integrations/google-analytics/) integrations for your published content.
+You can choose to enable[ Intercom](broken-reference) or [Google Analytics](broken-reference) integrations for your published content.
 
-Looking for more? [Read about our integrations](space-customization.md#integrations), which include [Segment](../../product-tour/integrations/segment/), [Plausible](../../product-tour/integrations/plausible/) and [Fathom.](../../product-tour/integrations/fathom/)&#x20;
+Looking for more? [Read about our integrations](space-customization.md#integrations), which include [Segment](broken-reference), [Plausible](broken-reference) and [Fathom.](broken-reference)&#x20;
 
 ## What _can't_ be customized?
 

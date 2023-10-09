@@ -60,4 +60,4 @@ Even with these great features, it could still take some time before your docume
 
 ### Redirects
 
-Moving your content to GitBook or changing its structure? Broken links can impact your SEO. [Read how to set up redirects in GitBook (via Git sync)](../product-tour/git-sync/content-configuration.md#redirects).
+Moving your content to GitBook or changing its structure? Broken links can impact your SEO. [Read how to set up redirects in GitBook (via Git sync)](../integrations/git-sync/content-configuration.md#redirects).

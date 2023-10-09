@@ -75,7 +75,7 @@ Your personal account could be a member of any number of organizations, and this
 
 <summary>Integrations</summary>
 
-You can check which [integrations](../product-tour/integrations/) are installed on your account and [install new integrations](../product-tour/integrations/install-an-integration.md) from this page.
+You can check which [integrations](../integrations/overview.md) are installed on your account and [install new integrations](../integrations/install-an-integration.md) from this page.
 
 </details>
 

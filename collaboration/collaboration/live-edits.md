@@ -27,7 +27,7 @@ You can lock or unlock space for live edits by selecting 'Unlock live edits' and
 It is not possible to unlock live editing in the following cases:
 
 1. When a space is published with the **In collection**, **Public**, or **Unlisted** visibility option. We hope to change this in the future.
-2. When [Git Sync](../../product-tour/git-sync/) is enabled.
+2. When [Git Sync](../../integrations/git-sync/) is enabled.
 
 {% hint style="info" %}
 Only users with the **admin** or **creator** [roles](../../account-management/member-management/roles.md) can lock or unlock live edits.

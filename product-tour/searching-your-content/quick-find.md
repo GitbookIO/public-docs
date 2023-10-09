@@ -54,7 +54,7 @@ Add an `in:` filter to your query. Search for the space or organization you're i
 
 ## Navigation and performing space actions with quick find
 
-Quick find also helps you navigate to settings and organizations, as well as perform certain space actions like locking and unlocking [live edits](../../collaboration/collaboration/live-edits.md), setting up [Git Sync](../git-sync/), and starting a [change request](../../collaboration/collaboration/change-requests.md).
+Quick find also helps you navigate to settings and organizations, as well as perform certain space actions like locking and unlocking [live edits](../../collaboration/collaboration/live-edits.md), setting up [Git Sync](../../integrations/git-sync/), and starting a [change request](../../collaboration/collaboration/change-requests.md).
 
 To see the list of actions that quick find can kick off, open quick find and scroll down, or use the arrow keys to see the available options.
 
