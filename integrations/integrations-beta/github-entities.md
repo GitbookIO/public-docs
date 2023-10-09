@@ -53,7 +53,11 @@ To configure the GitHub Entities integration, you’ll need to both authenticate
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-05 at 11.17.12 (2).png" alt=""><figcaption><p>Authenticate your GitHub Account</p></figcaption></figure>
 
-3. **Select the repositories you want to sync, and start indexing!**
+3. **Install the GitBook Entities app to GitHub**
+
+To configure the GitHub Entities integration correctly, you'll need to [install the GitBook Entities](https://github.com/apps/gitbook-entities/) app into your GitHub Account.
+
+4. **Select the repositories you want to sync, and start indexing!**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-05 at 11.17.54.png" alt=""><figcaption><p>Select repositories to index</p></figcaption></figure>
 
