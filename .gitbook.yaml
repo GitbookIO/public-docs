@@ -129,3 +129,4 @@ redirects:
   troubleshooting/report-bugs: faq/report-bugs.md
   troubleshooting/connectivity-issues: faq/connectivity-issues.md
   troubleshooting/support: faq/support.md
+  features/import: content-creation/import.md
