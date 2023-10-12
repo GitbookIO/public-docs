@@ -31,9 +31,9 @@
   * [Troubleshooting](integrations/git-sync/troubleshooting.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 * [Integrations (beta)](integrations/integrations-beta/README.md)
-  * [Visual Studio Code](integrations/integrations-beta/visual-studio-code.md)
   * [Slack](integrations/integrations-beta/slack.md)
   * [GitHub Entities](integrations/integrations-beta/github-entities.md)
+  * [Visual Studio Code (alpha)](integrations/integrations-beta/visual-studio-code.md)
 
 ## Content creation
 

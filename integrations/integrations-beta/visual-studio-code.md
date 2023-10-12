@@ -20,10 +20,10 @@ layout:
     visible: true
 ---
 
-# Visual Studio Code
+# Visual Studio Code (alpha)
 
 {% hint style="warning" %}
-This integration is currently in beta. See our [beta information](./) for more info and learn how to gain access.
+This integration is currently in alpha. See our [information page](./) for more info and learn how to gain access.
 {% endhint %}
 
 The GitBook Visual Studio Code integration allows you to collect, review, and share information to and from your company’s knowledge base. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
