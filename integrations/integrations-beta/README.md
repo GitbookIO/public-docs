@@ -23,3 +23,7 @@ Has your app changed and you’re not sure why? Someone in your organization upg
 ### Integrations
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Visual Studio Code</strong></td><td>Capture technical context and ask questions in VS Code</td><td><a href="../../.gitbook/assets/VS Code.png">VS Code.png</a></td><td><a href="visual-studio-code.md">visual-studio-code.md</a></td></tr><tr><td><strong>Slack</strong></td><td>Capture knowledge and ask questions in your Slack workspace</td><td><a href="../../.gitbook/assets/Slack.png">Slack.png</a></td><td><a href="slack.md">slack.md</a></td></tr><tr><td><strong>GitHub Entities</strong></td><td>Index your team’s issues, pull requests, comments and more from GitHub</td><td><a href="../../.gitbook/assets/GitHub.png">GitHub.png</a></td><td><a href="github-entities.md">github-entities.md</a></td></tr></tbody></table>
+
+### Getting Started
+
+{% embed url="https://www.youtube.com/watch?v=pWaMUpsZxjI" %}
