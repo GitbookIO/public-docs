@@ -8,13 +8,12 @@ This page walks you through various sections, features and menus that you'll fin
 
 {% hint style="info" %}
 **Permissions**\
-The sidebar can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level.
+\
+**The sidebar** can be viewed by everyone, although guests might not see any spaces if they have not been assigned permissions at the content level.
 
-Only you have access to any content in the private section of each organization's library.
+**Space header** and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.
 
-Space header and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.
-
-The table of contents, page header, editor, page actions, and on this page sections are visible to all.
+The Table of Contents, Page Header, Editor, Page Actions, and On This Page sections are visible to all.
 {% endhint %}
 
 ## Sidebar
@@ -27,27 +26,29 @@ You can use the arrow near the top to open and close the sidebar. Closing the si
 
 The sidebar contains:
 
-* **The** [**quick find**](searching-your-content/quick-find.md) **field**\
-  Quick find helps you quickly navigate between your content, as well as performing common actions.
-* **Your libraries**\
-  Libraries contain collections and spaces. Use the switch organization toggle, found next to the name of the library, to move between libraries.
-* **The** [**notifications bell**](../collaboration/notifications.md) <img src="../.gitbook/assets/notification.png" alt="" data-size="line">\
-  Located in the bottom-left corner of the sidebar, the notifications bell will let you know about actions that have been taken.
+* **The** **quick find** **field**\
+  [Quick find](searching-your-content/quick-find.md) helps you quickly navigate between your content, as well as performing common actions.
+* **Your documentation library**\
+  [Libraries](../content-creation/content-structure/) contain collections and spaces. Use the switch organization toggle, found next to the name of the library, to move between libraries.
+* **Notifications** \
+  The [notifications](../collaboration/notifications.md) button <img src="../.gitbook/assets/notification.png" alt="" data-size="line"> displays all the changes requiring your attention.&#x20;
 * **The add new button**\
-  Located at the bottom in the center of the sidebar, you can use this to add a new organization or a new space.
-* **The settings menu icon** <img src="../.gitbook/assets/settings.png" alt="" data-size="line">\
-  You'll find this menu icon in the bottom-right corner of the sidebar. Click to access personal and organization settings, switch between dark and light mode, get help from the support team, offer feedback, and sign out of the GitBook app.
+  Located at the bottom of the sidebar, it allows you to create new spaces or collections, as well as import your content.&#x20;
+* **The settings menu**\
+  You'll find the [settings](broken-reference) menu <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> at the bottom of the sidebar. Click to access your personal and organization settings, switch between dark and light modes, get help from the support team, offer feedback, and sign out of the GitBook app.
 
 ## Space header
 
-<figure><img src="../.gitbook/assets/Space Header.png" alt="A screenshot of the GitBook app. The image is darkened except for a white bar at the top which is the space header. In the space header you can see the name of the space, which is API Docs, and an emoji for the space which is a cog. on the right of the space header there is a plus button to invite members to the space, and profile pictures of members who are currently active in the space. Lastly there is a button that says publish. This button is used to change the visibility of the space."><figcaption><p>The space header in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/space-header.png" alt="A screenshot of the GitBook app. The image is darkened except for a white bar at the top which is the space header. In the space header you can see the name of the space, which is API Docs, and an emoji for the space which is a cog. on the right of the space header there is a plus button to invite members to the space, and profile pictures of members who are currently active in the space. Lastly there is a button that says publish. This button is used to change the visibility of the space."><figcaption><p>The space header in the GitBook app</p></figcaption></figure>
 
 The space header is a narrow area at the very top of the GitBook app. It includes:
 
 * **The **_**internal**_** space emoji**\
-  You can choose from a large list of emojis to help you to more easily identify your space. This setting only affects what you see when logged into the GitBook app. (A public setting is located in the [space customization](../publishing/customization/space-customization.md) options.)
+  You can choose from a large list of emojis to help you to more easily identify your space. This setting only affects what you see when logged into the GitBook app. (A public setting that allows you to add icons or logos is located in the [space customization](../publishing/customization/space-customization.md) options.)
 * **The space name**\
   If you want to change the name of the space, simply click into this field and begin typing.
+* **Git Sync configuration**\
+  Allows you to set [Git Sync](../integrations/git-sync/) configuration and monitor it's status
 * **The share menu**\
   From here you can select a [visibility option](../publishing/share/space-publishing.md) for your space and, once a space is published, access the link and custom domain settings for the space.
 * **The edit button**\
@@ -61,7 +62,7 @@ The space header is a narrow area at the very top of the GitBook app. It include
 
 The space sub-navigation is another narrow area near the top of the GitBook app, immediately underneath the space header.
 
-Similar to the sidebar, it has an up arrow on the right-hand side that you can click to hide this area. If you want to show it again afterwards, you'll find the down arrow to click on at the right-hand side of the space header.
+Similar to the sidebar, it has an up arrow on the right-hand side that you can click to collapse this area. If you want it to be displayed again, you'll find the down arrow to click on at the right-hand side of the space header.
 
 The space sub-navigation includes links to:
 
@@ -86,15 +87,16 @@ The space sub-navigation includes links to:
 
 <figure><img src="../.gitbook/assets/Table of contents (1).png" alt="A screenshot of the GitBook app. On the left, next to the side bar is a highlighted section. This is the table of contents. The names of the pages in the space are listed here. At the bottom of the list of pages there is a button that says &#x22;New page&#x22;."><figcaption><p>The table of contents in the GitBook app</p></figcaption></figure>
 
-The table of contents is the list of **document pages, links, and groups** that make up a space. It's located to the right of the sidebar, and underneath the space sub-navigation.
+The table of contents is the list of **document pages, links, and groups** that make up a space.\
+It's located to the right of the sidebar and underneath the space sub-navigation.
 
-* A **document page** is for content that lives within the space. You'll write that content within the GitBook app (or in a [Git repository](../integrations/git-sync/), if you prefer). You can click on the name of any page to open it in the editor.
+* A **document page** is for content that lives within the space. You'll write that content within the GitBook app (or in a [Git repository](../integrations/git-sync/) if you prefer). You can click on the name of any page to open it in the editor.
 * A **link** looks a lot like any other page in the table of contents, but clicking on it opens whichever link you set. This is a good way to point your documentation readers to other websites, where that's relevant. You'll see a small icon on the right-hand side of the link, which indicates that it will open in a new tab.
 * A **group** is a title for one or more pages and/or links. Groups enable you to organize your content into sections.
 
 There are also some options available from the table of contents. Hover over any document page, link, or group for a second and you'll see an icon with three vertical dots appear on the right-hand side of the item. Click on this to reveal the menu.
 
-The option to create a new document page, link or group can be found at the bottom of the table of contents. If [live edits](../collaboration/collaboration/live-edits.md) are enabled in your space, you'll see it right away. If live edits are disabled, then you will need to be working in a [change request](../collaboration/collaboration/change-requests.md) to be able to see this option.
+The option to create a new document page, link, or group can be found at the bottom of the table of contents. If [live edits](../collaboration/collaboration/live-edits.md) are enabled in your space, you'll see it right away. If live edits are disabled, then you will need to be working on a [change request](../collaboration/collaboration/change-requests.md) to be able to see this option.
 
 ## Page header
 
@@ -103,10 +105,12 @@ The option to create a new document page, link or group can be found at the bott
 The page header is made up of:
 
 1. An optional emoji for the page.
-2. The page title, which will always match the page name in the table of contents.
+2. The page title will always match the page name in the table of contents.
 3. An optional page description.
 
+{% hint style="info" %}
 Depending on the width of your screen, you _might_ also see a menu icon with 3 vertical dots in the top-right corner of the page header section. You can expect to see this if your browser width is less than 1430 pixels wide. Clicking on this icon will reveal the [page actions](navigation.md#page-actions) menu. In a wider browser window, you would see this menu in the right column, instead.
+{% endhint %}
 
 ## Editor
 
@@ -133,5 +137,5 @@ If you can't see the right-hand column of the app, this may be because your brow
 The on this page section is located on the right-hand side of the editor, underneath page actions. When you have more than one on a page, every heading 1 and heading 2 content block title will be listed here, making it easier for you to jump up/down the page to the section you want to work on.
 
 {% hint style="info" %}
-If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. Your browser window will need to be at least 1430 pixels wide to see and use the on this page section.
+If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. Your browser window will need to be at least 1430 pixels wide to see and use the On This Page section.
 {% endhint %}
