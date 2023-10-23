@@ -21,18 +21,18 @@ Compare all features included in each plan by navigating to our [pricing page](h
 
 <details>
 
-<summary>Does GitBook offer a discount for non-profit / open source organizations?</summary>
+<summary>Does GitBook offer a discount for non-profit / open-source organizations?</summary>
 
 We don't offer a discount, but we _do_ offer two options:
 
-1. Our free **Personal** plan should suit many non-profit / open source organizations.
-2. For any organizations who need to collaborate on their docs with others _and_ who meet [our criteria](apply-for-the-non-profit-open-source-plan.md), we offer a **Community** plan. [Click here for more information](apply-for-the-non-profit-open-source-plan.md).
+1. Our free **Personal** plan should suit many non-profit/open-source organizations.
+2. For any organizations who need to collaborate on their docs with others _and_ who meet [our criteria](apply-for-the-non-profit-open-source-plan.md), we offer an **OSS** plan. [Click here for more information](apply-for-the-non-profit-open-source-plan.md).
 
 </details>
 
 ## Trials FAQ:
 
-The free trial gives you the opportunity to test GitBook's features, start onboarding your team and create your content. Please feel free to [reach out to our team](../../faq/support.md) with any questions you have during this period!
+The free trial gives you the opportunity to test GitBook's features, start onboarding your team, and create your content. Please feel free to [reach out to our team](../../faq/support.md) with any questions you have during this period!
 
 ### How do I start a free trial?
 
