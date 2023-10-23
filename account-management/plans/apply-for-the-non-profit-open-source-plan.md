@@ -6,6 +6,8 @@ description: >-
 
 # Apply for the OSS plan
 
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>To apply for the OSS plan please visit <a href="https://www.gitbook.com/pricing">https://www.gitbook.com/pricing</a></p></figcaption></figure>
+
 We welcome applications for our OSS plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
 1. Non-profit organizations
@@ -13,14 +15,16 @@ We welcome applications for our OSS plan from organizations that meet certain cr
 3. Small education-related groups
 
 {% hint style="info" %}
-If you won't need to collaborate with others, then your needs should be covered by our free Personal plan! It allows you to publish content to the world 🌍 and even supports linking a [custom domain](../../publishing/custom-domain/) to each of your spaces.
+If you won't need to collaborate with others, then your needs should be covered by our free Personal plan!
+
+It allows you to publish content to the world and even supports linking a [custom domain](../../publishing/custom-domain/) to each of your spaces.
 {% endhint %}
 
 If you will **need** to collaborate with others, then please continue reading.
 
 ## Our criteria
 
-### Criteria for all cases
+### For all
 
 {% hint style="warning" %}
 If we reject your application, we are sorry in advance. We don't have the resources to share the details. We'll do our best to give you some context if possible, but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
@@ -64,7 +68,7 @@ Your Git repository **must**:
 * You _may_ be a small student group or a teacher organizing a course for a small group of students.
 
 {% hint style="info" %}
-Individual students that want to keep your personal and course notes should use our free **Personal** plan. This plan provides unlimited private or public spaces at no cost, without needing to apply for the Community plan.
+Individual students who want to keep their personal and course notes should use our free **Personal** plan. This plan provides unlimited private or public spaces at no cost, without needing to apply for the Community plan.
 {% endhint %}
 
 ## How to apply
@@ -72,13 +76,14 @@ Individual students that want to keep your personal and course notes should use 
 1. **Sign up or sign in**\
    Start by [signing up](https://app.gitbook.com/join) for a GitBook account if you don't have one yet, or [signing in](https://app.gitbook.com) if you do.
 2. **Choose an organization**\
-   Decide which organization you would like the Community plan to be applied to. This could be one that you've already created, or you might want to create a new organization. (To create a new organization, click the switch organization toggle near the top of the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar), then click **create an organization**, and follow the prompts.)
-3. **Get the organization URL**\
+   Decide which organization you would like the Community plan to be applied to. This could be one that you've already created, or you might want to create a new organization. \
+   _(To create a new organization, click the switch organization toggle near the top of the_ [_sidebar_](https://docs.gitbook.com/getting-started/overview#sidebar)_, then click **create an organization**, and follow the prompts.)_
+3. **Get the organization's URL**\
    In the [sidebar](https://docs.gitbook.com/getting-started/overview#sidebar), click on the name of the organization you chose in step 2. Copy or make a note of the URL in your browser. It will be in the format `app.gitbook.com/o/[string]/home`, where `[string]` will be a unique string of letters and numbers used to identify that organization.
-4. **Send us an email**\
-   Please send your application email to [support@gitbook.com](mailto:support@gitbook.com).
+4. **Contact us via our messenger on** [**our website**](https://www.gitbook.com/pricing)\
+   Select 'I have a question about pricing' then 'I want to apply to the Community plan' or alternatively send us an email to support@gitbook.com&#x20;
 
-### Your application email
+### Submitting your application via email
 
 Depending on which type of organization you are applying for, please follow the relevant steps listed below.
 
@@ -103,7 +108,5 @@ Depending on which type of organization you are applying for, please follow the 
 * Include the link to your organization. Finding this link is described in step 3 of the section above.
 {% endtab %}
 {% endtabs %}
-
-It may take a couple of weeks for us to review your request and respond to you.
 
 If you have any questions, feel free to [contact our support team](../../faq/support.md).
