@@ -1,12 +1,12 @@
 ---
 description: >-
-  We are happy to provide organizations that meet our criteria with a free
-  Community plan!
+  We are happy to provide organizations that meet our criteria with a free OSS
+  plan!
 ---
 
-# Apply for the non-profit/open source plan
+# Apply for the OSS plan
 
-We welcome applications for our Community plan from organizations that met certain criteria. Broadly, these fall into one of three categories:
+We welcome applications for our OSS plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
 1. Non-profit organizations
 2. Open source projects

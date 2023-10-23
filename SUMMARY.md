@@ -115,7 +115,7 @@
 * [Organization settings](account-management/organization-management.md)
 * [Choosing your plan](account-management/plans/README.md)
   * [Legacy plans](account-management/plans/legacy-plans.md)
-  * [Apply for the non-profit/open source plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+  * [Apply for the OSS plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
 * [Member management](account-management/member-management/README.md)
   * [Invite members to your organization](account-management/member-management/invite-members-to-your-organization.md)
   * [Roles](account-management/member-management/roles.md)
