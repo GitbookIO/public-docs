@@ -4,7 +4,7 @@ description: Learn how to export a PDF copy of your content on GitBook.
 
 # PDF export
 
-The PDF export is a beta feature, available with a **Pro** or **Enterprise** plan. It allows:
+The PDF export is available with a **Pro** or **Enterprise** plan. It allows:
 
 1. Visitors to your published content to download the space as a PDF file.
 2. You and other logged-in users to export a single page, a page with its subpages, or an entire space as a PDF file.
@@ -37,7 +37,7 @@ Regardless of the configured customization setting shown above, members of an or
 
 ### How to export an entire space
 
-1. Make sure the space is in edit mode so that [page actions](https://docs.gitbook.com/getting-started/overview#page-actions) are displayed on the right-hand side of the editor. Alternatively, navigate to the **share** button in the top right-hand corner and click on 'Export as PDF' in the share modal.
+1. Navigate to the [page actions](https://docs.gitbook.com/getting-started/overview#page-actions) menu on the right-hand side of the editor. Alternatively, navigate to the **share** button in the top right-hand corner and click on 'Export as PDF' in the share modal.
 2. Go to any page within the space you'd like to export and click **export as PDF** in page actions.
 3. Select the **entire space**.
 4. Click the **export** button.
