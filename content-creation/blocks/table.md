@@ -39,3 +39,15 @@ Tables that are wider than the editor container will be horizontally scrollable.
 {% hint style="info" %}
 You can drag and drop columns and rows to reorder them, and delete columns or rows using their respective context menus.
 {% endhint %}
+
+### Representation in Markdown
+
+```
+# Table
+
+|   |   |   |
+| - | - | - |
+|   |   |   |
+|   |   |   |
+|   |   |   |
+```

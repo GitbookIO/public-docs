@@ -22,7 +22,7 @@ Reading on a screen is less comfortable than reading on paper. Make sure your co
 
 #### My heading 3
 
-### Git Sync representation in Markdown
+### Representation in Markdown
 
 {% code overflow="wrap" %}
 ```

@@ -9,7 +9,9 @@ You can format your text selecting it and choosing one of the options that pop u
 <figure><img src="../../.gitbook/assets/formatting-options.png" alt="Screenshot showing the formatting options available to you after choosing some text and seeing an inline palette popping up."><figcaption><p>Formatting options</p></figcaption></figure>
 
 {% hint style="info" %}
-Hovering over the options will show you a tip with the markdown markup you can use to achieve the same formatting option. And the keyboard shortcut you can use to do the same.
+Hovering over the formatting options displays a tip with the markdown markup you can use to achieve the same formatting, as well as a keyboard shortcut you can use to do the same.
+
+![](../../.gitbook/assets/hover-formatting.png)
 {% endhint %}
 
 ### Bold
@@ -47,7 +49,7 @@ Keyboard shortcut: `Command + Shift + S`
 {% tabs %}
 {% tab title="Markdown" %}
 ```markdown
-_Italic_
+~~Strikethrough~~
 ```
 {% endtab %}
 {% endtabs %}
@@ -70,9 +72,9 @@ Keyboard shortcut: `Command + K`
 
 This is [a link to an external page](https://www.gitbook.com).
 
-This is [a link to a page in this space](broken-reference).
+This is [a link to a page in this space](broken-reference/).
 
-This is [a link to section in this page](formatting.md#color).
+This is [a link to a section on this page](formatting.md#color).
 
 This is [a link that starts an email to a specific address](mailto:support@gitbook.com).
 

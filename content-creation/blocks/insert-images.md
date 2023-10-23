@@ -90,7 +90,7 @@ Valid variants of specifying the image dimensions are:\
 
 If you are looking to embed external content into your pages, take a look at how to [embed a URL](embed-a-url.md).
 
-### Git Sync representation in Markdown
+### Representation in Markdown
 
 ```markdown
 //Simple Block

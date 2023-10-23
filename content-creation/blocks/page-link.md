@@ -17,3 +17,11 @@ The links below point to [blocks](./) and [inline content](../editor/inline/):
 {% content-ref url="../editor/inline/" %}
 [inline](../editor/inline/)
 {% endcontent-ref %}
+
+## Representation in Markdown
+
+```
+{% raw %}
+{% content-ref url="./" %} . {% endcontent-ref %}
+{% endraw %}
+```

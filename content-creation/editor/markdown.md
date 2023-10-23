@@ -1,6 +1,6 @@
 # Markdown
 
-You can add rich-text to the editor, but also by using markdown.
+The editor allows you to include formatted text using rich text, as well as markdown.&#x20;
 
 Markdown is a popular markup syntax that's widely known for its simplicity and popularity online. GitBook supports it as a keyboard-friendly way to write rich and structured text.
 
@@ -36,7 +36,7 @@ We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's
 
 ## Lists
 
-We automatically detect ordered and un-ordered lists as you type.
+We automatically detect ordered and unordered lists as you type.
 
 * Begin a line with `-` or `*` to start a bullet list.
 * Being a line with `1.` to start a numbered list. Use `Tab` to go one level deeper, and `Shift+Tab` to go up.

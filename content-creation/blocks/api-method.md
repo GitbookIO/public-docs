@@ -23,3 +23,17 @@ You can now convert the API blocks to full width by clicking on the <img src="..
 {% content-ref url="openapi.md" %}
 [openapi.md](openapi.md)
 {% endcontent-ref %}
+
+## Representation in Markdown
+
+```
+# API
+
+{% raw %}
+{% swagger method="get" path="" baseUrl="" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+{% endswagger %}
+{% endraw %}
+```

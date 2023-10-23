@@ -27,7 +27,7 @@ There are 4 different types of hints, and both [inline content](../editor/inline
 {% endhint %}
 
 {% hint style="info" %}
-#### This is a heading
+**This is a heading**
 
 This is a line
 
@@ -36,7 +36,7 @@ This is an inline <img src="../../.gitbook/assets/notification.png" alt="" data-
 This is a second <mark style="color:orange;background-color:purple;">line</mark>
 {% endhint %}
 
-### Git Sync representation in Markdown
+### Representation in Markdown
 
 ```markdown
 {% raw %}

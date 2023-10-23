@@ -19,7 +19,7 @@ Unordered lists are great for making a series of points that do not necessarily 
 To create nested items, you can use `tab` to indent and `shift` + `tab` to outdent.
 {% endhint %}
 
-### Git Sync representation in Markdown
+### Representation in Markdown
 
 ```markdown
 - Item

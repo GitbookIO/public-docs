@@ -88,7 +88,7 @@ You can hover over a code block and see an icon that allows you to copy the cont
 
 <figure><img src="../../.gitbook/assets/code-block-copy.png" alt="Screenshot showing the icon in a code block that allows you to copy its contents to the clipboard."><figcaption><p>Copy code block contents to the clipboard</p></figcaption></figure>
 
-### Git Sync representation in Markdown
+### Representation in Markdown
 
 ````markdown
 {% raw %}

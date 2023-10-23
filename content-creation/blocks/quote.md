@@ -12,7 +12,7 @@ Start a quote by typing `>` followed by pressing `space` in an empty paragraph, 
 
 > "No human ever steps in the same river twice, for it's not the same river and they are not the same human." — _Heraclitus_
 
-### Git Sync representation in Markdown
+### Representation in Markdown
 
 {% code overflow="wrap" %}
 ```markdown
