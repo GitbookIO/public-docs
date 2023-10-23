@@ -13,7 +13,7 @@ This page walks you through various sections, features and menus that you'll fin
 
 **Space header** and sub-navigation can be seen by everyone, although the number of options available will vary based on your permissions.
 
-The Table of Contents, Page Header, Editor, Page Actions, and On This Page sections are visible to all.
+The [Table of Contents](navigation.md#table-of-contents), [Page Header](navigation.md#page-header), [Editor](navigation.md#editor), [Page Actions](navigation.md#page-actions), and [On This Page](navigation.md#on-this-page) sections are visible to all.
 {% endhint %}
 
 ## Sidebar
