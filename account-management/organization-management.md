@@ -84,6 +84,6 @@ Please see our [billing policy](billing-faq/billing-policy.md) for information a
 
 <summary>Billing</summary>
 
-The billing tab takes you to our payment provider, Stripe. On their website you can securely manage your payment method and billing information. You can also [cancel your plan](billing-faq/cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
+The billing tab takes you to our payment provider, Stripe. On their website you can securely manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
 
 </details>

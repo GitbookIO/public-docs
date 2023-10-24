@@ -113,7 +113,7 @@
 
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-management.md)
-* [Choosing your plan](account-management/plans/README.md)
+* [Choose your plan](account-management/plans/README.md)
   * [Legacy plans](account-management/plans/legacy-plans.md)
   * [Apply for the OSS plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
 * [Member management](account-management/member-management/README.md)
@@ -123,7 +123,7 @@
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
 * [Billing FAQ](account-management/billing-faq/README.md)
   * [Billing policy](account-management/billing-faq/billing-policy.md)
-  * [Cancelling a plan](account-management/billing-faq/cancelling-a-plan.md)
+* [Subscription cancellations](account-management/cancelling-a-plan.md)
 
 ## FAQ
 
