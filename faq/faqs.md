@@ -1,37 +1,23 @@
 ---
-description: Find answers to some of the most frequently asked questions
+description: Find out more about how GitBook handles your data and security.
 ---
 
-# FAQs
+# Security FAQs
 
 ## Where and how is my data stored?
 
-All user data and content is stored in the US on [Google Cloud](https://cloud.google.com).
+All user data and content is stored in the US on [Google Cloud](https://cloud.google.com), which is backed by the same infrastructure and security that Google uses for its own services.
 
-Some content (e.g: HTML pages) may be cached by GitBook's CDN in other countries to improve end-user performance.
+Customer data is stored in U.S. data centers. Some data (HTML pages & assets) may be cached in other geographies by our CDN. Access to private content through our CDN is always validated through our application servers using a complex permissions system.
 
-**Learn more about where GitBook is hosted on our** [**security FAQ**](https://policies.gitbook.com/security-faq)**.**
+Google follows or even leads most of the industry's best practices and is compliant with most major security [standards and certifications](https://cloud.google.com/security/compliance/).
 
-## **How can I reset my password?**
+## **Is GitBook SOC 2 certified?**
 
-Please note, if your account was created after October 10th 2021, it doesn't have a password. You should be able to log in by requesting a magic link:
+Yes. You can read more about it [here](https://policies.gitbook.com/privacy-and-security/security/security-as-a-company-value#soc-2-type-2). Customers and prospects can request access to the audit report by reaching out to our sales team (sales@gitbook.io).
 
-1. Visit [https://app.gitbook.com](https://app.gitbook.com)
-2. Enter the email address associated to the personal account you had signed up for
-3. Click **continue**
-4. Click **send a link** (make sure you check your spam folder)
+## Security as a company value
 
-If you _do_ want to reset your password:
+To find more information about how GitBook handles security head over to our Security FAQ.
 
-1. Visit [https://app.gitbook.com](https://app.gitbook.com)
-2. Follow the **forgot your password?** link at the bottom of the page
-3. Enter the email address associated to the personal account you had signed up for
-4. Click **send a link** (make sure you check your spam folder)
-
-## What browsers are supported by GitBook?
-
-GitBook supports the current versions of [Chrome](https://www.google.com/chrome/), [Firefox](http://www.mozilla.org/firefox/), [Safari](http://www.apple.com/safari/), and [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge).
-
-## Does GitBook support RTL languages?
-
-We have RTL support in mind, but it's not yet ready. For now, only paragraphs and headings will automatically detect RTL text and adapt its layout. Lists and other content blocks are not aligned properly. Also, you may have noticed a poor font quality being used for your language.
+{% embed url="https://policies.gitbook.com/privacy-and-security/security/security-faq" %}

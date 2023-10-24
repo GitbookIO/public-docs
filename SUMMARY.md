@@ -74,6 +74,7 @@
   * [OpenAPI](content-creation/blocks/openapi.md)
   * [Page link](content-creation/blocks/page-link.md)
 * [Version control](content-creation/activity-history.md)
+* [Content creation FAQ](content-creation/content-creation-faq.md)
 
 ## Collaboration
 
@@ -114,6 +115,7 @@
 * [Choose your plan](account-management/plans/README.md)
   * [Legacy plans](account-management/plans/legacy-plans.md)
   * [Apply for the OSS plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+* [Subscription cancellations](account-management/billing-faq/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-management.md)
 * [Member management](account-management/member-management/README.md)
@@ -123,16 +125,18 @@
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
 * [Billing FAQ](account-management/billing-faq/README.md)
   * [Billing policy](account-management/billing-faq/billing-policy.md)
-* [Subscription cancellations](account-management/billing-faq/cancelling-a-plan.md)
 
 ## FAQ
 
-* [Building technical product documentation](faq/building-technical-product-documentation.md)
-* [FAQs](faq/faqs.md)
-* [How do I contact support?](faq/support.md)
 * [How do I hard refresh my browser?](faq/hard-refresh.md)
-* [How do I report bugs?](faq/report-bugs.md)
 * [How do I solve connectivity issues?](faq/connectivity-issues.md)
+* [How do I contact support?](faq/support.md)
+* [How do I report bugs?](faq/report-bugs.md)
+* [Security FAQs](faq/faqs.md)
+
+***
+
+* [Building technical product documentation](building-technical-product-documentation.md)
 
 ## Policies
 

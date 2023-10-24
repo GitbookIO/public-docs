@@ -78,3 +78,19 @@ Your personal account could be a member of any number of organizations, and this
 On this page you can manage and create access tokens for the [GitBook API](https://developer.gitbook.com/).
 
 </details>
+
+## **How can I reset my password?**
+
+Please note, that if your account was created after October 10th 2021, it doesn't have a password. You should be able to log in by requesting a magic link:
+
+1. Visit [https://app.gitbook.com](https://app.gitbook.com)
+2. Enter the email address associated with the personal account you signed up for
+3. Click **continue**
+4. Click **send a link** (make sure you check your spam folder)
+
+If you _do_ want to reset your password:
+
+1. Visit [https://app.gitbook.com](https://app.gitbook.com)
+2. Follow the **forgot your password?** link at the bottom of the page
+3. Enter the email address associated with the personal account you signed up for
+4. Click **send a link** (make sure you check your spam folder)
