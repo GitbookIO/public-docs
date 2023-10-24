@@ -31,11 +31,11 @@ The sidebar contains:
 * **Your documentation library**\
   [Libraries](../content-creation/content-structure/) contain collections and spaces. Use the switch organization toggle, found next to the name of the library, to move between libraries.
 * **Notifications** \
-  The [notifications](../collaboration/notifications.md) button <img src="../.gitbook/assets/notification.png" alt="" data-size="line"> displays all the changes requiring your attention.&#x20;
+  The [notifications](../collaboration/notifications.md) button :bell:displays all the changes requiring your attention.&#x20;
 * **The add new button**\
   Located at the bottom of the sidebar, it allows you to create new spaces or collections, as well as import your content.&#x20;
 * **The settings menu**\
-  You'll find the [settings](broken-reference) menu <img src="../.gitbook/assets/settings.png" alt="" data-size="line"> at the bottom of the sidebar. Click to access your personal and organization settings, switch between dark and light modes, get help from the support team, offer feedback, and sign out of the GitBook app.
+  You'll find the [settings](broken-reference) menu :gear:at the bottom of the sidebar. Click to access your personal and organization settings, switch between dark and light modes, get help from the support team, offer feedback, and sign out of the GitBook app.
 
 ## Space header
 
@@ -67,7 +67,7 @@ Similar to the sidebar, it has an up arrow on the right-hand side that you can c
 The space sub-navigation includes links to:
 
 * [**Change requests**](../collaboration/collaboration/change-requests.md)\
-  From here you can create a new change request and review existing ones. There's a tab for each status: draft, in review, archived and merged.
+  From here you can create a new change request and review existing ones. There's a tab for each status: draft, in review, archived, and merged.
 * [**Customize**](../publishing/customization/space-customization.md)\
   These settings allow you to affect the look and feel of the space, as well as configure features.
 * [**Discussions**](../collaboration/comments-discussion.md)\

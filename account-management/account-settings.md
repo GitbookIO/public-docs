@@ -14,7 +14,7 @@ All members can access and manage their personal account settings.
 
 ## How to access your personal account settings
 
-Click on the settings :gear: icon, which is located at the bottom of the sidebar, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
+Click on the **settings** :gear: icon, which is located at the bottom of the sidebar, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
@@ -68,14 +68,6 @@ GitBook can provide you with two types of [notifications](../collaboration/notif
 <summary>Organization</summary>
 
 Your personal account could be a member of any number of organizations, and this tab can be considered a shortcut to the [organization settings page](organization-management.md) for each organization. You can also create a new organization from this page.
-
-</details>
-
-<details>
-
-<summary>Integrations</summary>
-
-You can check which [integrations](../integrations/overview.md) are installed on your account and [install new integrations](../integrations/install-an-integration.md) from this page.
 
 </details>
 

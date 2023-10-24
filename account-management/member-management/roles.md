@@ -13,7 +13,9 @@ Understanding default roles is key to getting the most out of how GitBook handle
 Roles are how you define the level of access and control that members have over content (and the organization, in the case of admins).
 
 {% hint style="warning" %}
-Regardless of role, _every_ single member of an organization counts towards the total number of members for billing purposes. You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
+Regardless of role, _**every**_ _**single member**_ of an organization _**counts towards**_ the total number of members for _**billing**_ purposes. \
+\
+You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
 {% endhint %}
 
 Each role gets progressively higher levels of access as you move up the list. Let's start at the bottom:

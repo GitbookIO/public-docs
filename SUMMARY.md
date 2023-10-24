@@ -111,19 +111,19 @@
 
 ## Account management
 
-* [Personal settings](account-management/account-settings.md)
-* [Organization settings](account-management/organization-management.md)
 * [Choose your plan](account-management/plans/README.md)
   * [Legacy plans](account-management/plans/legacy-plans.md)
   * [Apply for the OSS plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+* [Personal settings](account-management/account-settings.md)
+* [Organization settings](account-management/organization-management.md)
 * [Member management](account-management/member-management/README.md)
-  * [Invite members to your organization](account-management/member-management/invite-members-to-your-organization.md)
+  * [Invite or remove members](account-management/member-management/invite-members-to-your-organization.md)
   * [Roles](account-management/member-management/roles.md)
   * [Teams](account-management/member-management/teams.md)
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
 * [Billing FAQ](account-management/billing-faq/README.md)
   * [Billing policy](account-management/billing-faq/billing-policy.md)
-* [Subscription cancellations](account-management/cancelling-a-plan.md)
+* [Subscription cancellations](account-management/billing-faq/cancelling-a-plan.md)
 
 ## FAQ
 
