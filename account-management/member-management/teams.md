@@ -35,6 +35,6 @@ You can manage team members in two ways:
 
 ### Team owners
 
-Team owners (available only in Enterprise plans) allow you to hand over management of a specific team to a selected member. Team owners can add and remove members from the team they are an owner by clicking on the organization settings, then teams. They will not have access to any other organization settings, including managing other teams.&#x20;
+Team owners (available only in Enterprise plans) allow you to hand over management of a specific team to a selected member. Team owners can add and remove members from the team they are an owner of by clicking on the organization settings, then teams. They will not have access to any other organization settings, including managing other teams.&#x20;
 
-<figure><img src="../../.gitbook/assets/team-owner.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/team-owner.png" alt=""><figcaption><p>How to set user to a team owner </p></figcaption></figure>
