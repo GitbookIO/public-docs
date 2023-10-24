@@ -6,7 +6,7 @@ description: >-
 
 # Apply for the OSS plan
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>To apply for the OSS plan please visit <a href="https://www.gitbook.com/pricing">https://www.gitbook.com/pricing</a></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/apply-OSS" alt=""><figcaption><p>To apply for the OSS plan please visit <a href="https://www.gitbook.com/pricing">https://www.gitbook.com/pricing</a></p></figcaption></figure>
 
 We welcome applications for our OSS plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 

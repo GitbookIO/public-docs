@@ -4,7 +4,7 @@ description: Get to know your way around GitBook's documentation platform.
 
 # Navigation
 
-This page walks you through various sections, features and menus that you'll find within the GitBook app. Start by creating or logging into your account at [app.gitbook.com](https://app.gitbook.com/).
+This page walks you through various sections, features, and menus that you'll find within the GitBook app. Start by creating or logging into your account at [app.gitbook.com](https://app.gitbook.com/).
 
 {% hint style="info" %}
 **Permissions**\
@@ -105,12 +105,8 @@ The option to create a new document page, link, or group can be found at the bot
 The page header is made up of:
 
 1. An optional emoji for the page.
-2. The page title will always match the page name in the table of contents.
-3. An optional page description.
-
-{% hint style="info" %}
-Depending on the width of your screen, you _might_ also see a menu icon with 3 vertical dots in the top-right corner of the page header section. You can expect to see this if your browser width is less than 1430 pixels wide. Clicking on this icon will reveal the [page actions](navigation.md#page-actions) menu. In a wider browser window, you would see this menu in the right column, instead.
-{% endhint %}
+2. Page title which will always match the page name in the table of contents.
+3. An optional page description (recommended).
 
 ## Editor
 
@@ -122,19 +118,25 @@ In addition, you can [embed content](../content-creation/blocks/embed-a-url.md) 
 
 ## Page actions
 
-<figure><img src="../.gitbook/assets/Page actions.png" alt="A screenshot of the GitBook app. There is a highlighted section on the right hand side. This is the page actions menu. There are buttons for different actions to take on the page. The buttons are: Insert subpage, Import subpages, Add cover, Rename, Duplicate, Delete, Page layout, Export as PDF, Copy link."><figcaption><p>The page actions menu in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/page-actions (1).png" alt="A screenshot of the GitBook app. There is a highlighted section on the right hand side. This is the page actions menu. There are buttons for different actions to take on the page. The buttons are: Insert subpage, Import subpages, Add cover, Rename, Duplicate, Delete, Page layout, Export as PDF, Copy link."><figcaption><p>The page actions menu in the GitBook app</p></figcaption></figure>
 
-Page actions are located on the right-hand side of the editor. These actions will be available to you when you're in a space that has [live edits](../collaboration/collaboration/live-edits.md) enabled, or when you're working in a [change request](../collaboration/collaboration/change-requests.md).
+Page actions are located next to the page title. The type of actions available will depend if you are in the live editing mode, change request, or locked edits.&#x20;
+
+## Page options
+
+<figure><img src="../.gitbook/assets/page-options.png" alt=""><figcaption><p>Page options menu</p></figcaption></figure>
+
+The [page options](../publishing/share/page-layouts.md) menu allows you to customize your documentation layout and navigation. They can only be accessed in the edit mode.&#x20;
 
 {% hint style="info" %}
-If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. You'll see an icon for the page actions menu in the [page header](navigation.md#page-header), instead.
+Please note that certain changes, such as layout will only be applied to the published documentation and therefore will not be visible in the editor.&#x20;
 {% endhint %}
 
 ## On this page
 
-<figure><img src="../.gitbook/assets/Page outline.png" alt="A screenshot of the GitBook app. There is a highlighted section in the bottom right corner with the title &#x22;On this page&#x22;. Underneath the title are the page headings: Welcome to my API, What to jump right in?, Want to deep dive?."><figcaption><p>On this page in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/on-this-page.png" alt="A screenshot of the GitBook app. There is a highlighted section in the bottom right corner with the title &#x22;On this page&#x22;. Underneath the title are the page headings: Welcome to my API, What to jump right in?, Want to deep dive?."><figcaption><p>On this page in the GitBook app</p></figcaption></figure>
 
-The on this page section is located on the right-hand side of the editor, underneath page actions. When you have more than one on a page, every heading 1 and heading 2 content block title will be listed here, making it easier for you to jump up/down the page to the section you want to work on.
+The on this page section is located on the right-hand side of the editor. When you have more than one on a page, every heading 1 and heading 2 content block title will be listed here, making it easier for you to jump up/down the page to the section you want to work on.
 
 {% hint style="info" %}
 If you can't see the right-hand column of the app, this may be because your browser window is less than 1430 pixels wide. Your browser window will need to be at least 1430 pixels wide to see and use the On This Page section.
