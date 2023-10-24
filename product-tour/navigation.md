@@ -118,7 +118,7 @@ In addition, you can [embed content](../content-creation/blocks/embed-a-url.md) 
 
 ## Page actions
 
-<figure><img src="../.gitbook/assets/page-actions (1).png" alt="A screenshot of the GitBook app. There is a highlighted section on the right hand side. This is the page actions menu. There are buttons for different actions to take on the page. The buttons are: Insert subpage, Import subpages, Add cover, Rename, Duplicate, Delete, Page layout, Export as PDF, Copy link."><figcaption><p>The page actions menu in the GitBook app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/page-actions" alt="A screenshot of the GitBook app. There is a highlighted section on the right hand side. This is the page actions menu. There are buttons for different actions to take on the page. The buttons are: Insert subpage, Import subpages, Add cover, Rename, Duplicate, Delete, Page layout, Export as PDF, Copy link."><figcaption><p>The page actions menu in the GitBook app</p></figcaption></figure>
 
 Page actions are located next to the page title. The type of actions available will depend if you are in the live editing mode, change request, or locked edits.&#x20;
 
