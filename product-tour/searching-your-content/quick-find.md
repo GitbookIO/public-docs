@@ -20,7 +20,11 @@ When writing or reading documentation you'll want to find whatever you need quic
 **​**You can open the quick find palette by pressing **CMD + K** on Mac or **Ctrl + K** on Windows
 {% endhint %}
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Quick find.png" alt="Open Quick find palette, which you to type in command or search a specific term"><figcaption><p>The quick find command palette</p></figcaption></figure>
+
+</div>
 
 ## Display of results <a href="#display-of-results" id="display-of-results"></a>
 
@@ -50,7 +54,11 @@ Add an `in:` filter to your query. Search for the space or organization you're i
 
 </details>
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Search filters.png" alt="Open Quick find palette with a filter enabled. You can filter your results by author or by searching in a specific content"><figcaption></figcaption></figure>
+
+</div>
 
 ## Navigation and performing space actions with Quick find
 
@@ -58,7 +66,11 @@ Quick find also helps you navigate to settings and organizations, as well as per
 
 To see the list of actions that Quick find can kick off, open Quick find and scroll down, or use the arrow keys to see the available options.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Actions with quick find.png" alt="Open Quick find palette scrolled down to navigation and actions options. The actions allow you to move spaces, lock and unlock edits and many more."><figcaption></figcaption></figure>
+
+</div>
 
 ## ​Team permissions <a href="#team-permissions" id="team-permissions"></a>
 

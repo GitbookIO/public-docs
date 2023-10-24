@@ -18,7 +18,11 @@ Currently, the supported languages are English, French, Spanish, Chinese (simpli
 
 By default, your content will have the **English** language selected. To change this, click **customize** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation), go to the **configure** tab, and use the dropdown menu in the **localize user interface** setting.
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/internationalization-settings.png" alt="A screenshot of the customize panel. The configure tab has been selected, and the dropdown for the localize user interface setting has been expanded. It shows 5 language options: English, French, Spanish, Chinese (simplified), and Japanese."><figcaption><p>Choose your preferred language for the user interface elements of your published documentation</p></figcaption></figure>
+
+</div>
 
 ### Inheriting language settings
 

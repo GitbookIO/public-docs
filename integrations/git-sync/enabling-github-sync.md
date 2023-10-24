@@ -8,7 +8,11 @@ description: How to set up and authorize the GitHub Sync integration for GitBook
 
 In the space you want to sync with your GitHub repo, head to the space menu in the top right, and select **Synchronize with Git**. From the provider list, select **GitHub**, and click **Configure**.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/GitHub sync.png" alt=""><figcaption><p>Choose GitHub as your Git provider</p></figcaption></figure>
+
+</div>
 
 ## 2. Authenticate with GitHub
 
@@ -16,7 +20,11 @@ If you’re setting up GitHub Sync for the first time and haven’t already link
 
 ## 3. Install the GitBook app to your GitHub account
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/GitHub authentication.png" alt=""><figcaption><p>Authenticate your GitHub account to connect with GitHub</p></figcaption></figure>
+
+</div>
 
 If you’ve not already done so, you’ll see a prompt to add the GitBook app to your GitHub account. Follow the instructions in the GitHub popover and either give GitBook specific repo permissions, or allow access to all repositories, depending on your needs.
 
@@ -30,7 +38,11 @@ Select the account and repository you want to keep in sync with your GitBook con
 
 Once you’ve selected the correct repository, choose which branch you want commits to be pushed to and synced from.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Synchronize with Git.png" alt=""><figcaption><p>Choose your GitHub repository and branch</p></figcaption></figure>
+
+</div>
 
 ## 5. Perform an initial sync
 

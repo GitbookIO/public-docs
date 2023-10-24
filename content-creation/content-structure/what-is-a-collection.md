@@ -7,17 +7,29 @@ Collections are groups of spaces focused around a specific topic, team or purpos
 * The ability to manage permissions of spaces at scale allowing you to override the organization-level defaults (read more about that in [permissions](../../account-management/member-management/permissions-and-inheritance.md)).
 * The ability to customize your collection and publish the spaces within it as variants (read more about that in [collection publishing](../../publishing/share/collection-publishing.md)).
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/collection.png" alt=""><figcaption><p>A collection in GitBook</p></figcaption></figure>
+
+</div>
 
 ## Create a collection
 
 You can create a collection directly in the sidebar:
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/new collection.png" alt=""><figcaption><p>Create a new collection from the sidebar</p></figcaption></figure>
+
+</div>
 
 Or, in the collection view, by clicking the **new collection** button:
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/collection.png" alt=""><figcaption><p>New collection button in the collection view</p></figcaption></figure>
+
+</div>
 
 ## Move a collection
 

@@ -22,7 +22,11 @@ You must be an [organization admin](../../../account-management/member-managemen
 
 After configuring SSO on your IdP, you will be able to enter metadata. When the setup is successful, administrators will see a confirmation dialog and the URL of the SSO login for end-users will be displayed. **GitBook does not send announcement emails when set up is complete**. It is the responsibility of the administrator to notify company employees (and convey the login URL to them) so they can access GitBook via SSO.‌
 
-![](../../../.gitbook/assets/SAML.png)
+<div data-full-width="true">
+
+<img src="../../../.gitbook/assets/SAML.png" alt="">
+
+</div>
 
 You'll need the following from your IdP metadata to register a SAML provider:
 
@@ -35,7 +39,11 @@ You'll need the following from your IdP metadata to register a SAML provider:
 
 Most SAML 2.0 compliant identity providers require the same information about the service provider (GitBook, in this case) for set up. These values are specific to your GitBook organization and are available in the **Settings -> SSO** tab of the GitBook organization where you want to enable SSO.‌
 
-![](<../../../.gitbook/assets/SAML Service Info.png>)
+<div data-full-width="true">
+
+<img src="../../../.gitbook/assets/SAML Service Info.png" alt="">
+
+</div>
 
 Most of these values can be copied directly into your IdP to complete configuration of SAML.
 

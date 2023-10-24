@@ -2,7 +2,11 @@
 
 When adding members to your organization, you can give them a **default role**. This role will apply to any content that inherits its permissions from the organization.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Invite members at content level.png" alt="Invite members panel opened, displaying field allowing you to invite members and the inheritance permissions for Public docs with default settings enabled."><figcaption></figcaption></figure>
+
+</div>
 
 {% hint style="info" %}
 Understanding default roles is key to getting the most out of how GitBook handles permission management. Check out our documentation on [**permissions and inheritance**](permissions-and-inheritance.md) for a full overview of how permissions cascade throughout content in GitBook.

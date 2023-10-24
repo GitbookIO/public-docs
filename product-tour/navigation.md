@@ -18,7 +18,11 @@ The [Table of Contents](navigation.md#table-of-contents), [Page Header](navigati
 
 ## Sidebar
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/sidebar (1).png" alt="A screenshot of the GitBook app. On the left is a dark blue sidebar with a search bar, links to different spaces in the GitBook organization, notification and settings buttons, and a plus button to create new content. On the right is the editor and a collection called Company Wiki."><figcaption><p>The sidebar in the GitBook app</p></figcaption></figure>
+
+</div>
 
 The sidebar is the dark blue (in light mode) or black (in dark mode) section on the left-hand side of the app.
 
@@ -39,7 +43,11 @@ The sidebar contains:
 
 ## Space header
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/space-header.png" alt="A screenshot of the GitBook app. The image is darkened except for a white bar at the top which is the space header. In the space header you can see the name of the space, which is API Docs, and an emoji for the space which is a cog. on the right of the space header there is a plus button to invite members to the space, and profile pictures of members who are currently active in the space. Lastly there is a button that says publish. This button is used to change the visibility of the space."><figcaption><p>The space header in the GitBook app</p></figcaption></figure>
+
+</div>
 
 The space header is a narrow area at the very top of the GitBook app. It includes:
 
@@ -58,7 +66,11 @@ The space header is a narrow area at the very top of the GitBook app. It include
 
 ## Space sub-navigation
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/space_sub_navigation.png" alt="A screenshot of the GitBook app. Towards the top is a highlighted section which is the space sub-navigation menu. In the menu there are links: change requests, history, customize, discussions, files, insights, and integrations."><figcaption><p>The sub-navigation in the GitBook app</p></figcaption></figure>
+
+</div>
 
 The space sub-navigation is another narrow area near the top of the GitBook app, immediately underneath the space header.
 
@@ -85,7 +97,11 @@ The space sub-navigation includes links to:
 
 ## Table of contents
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/Table of contents (1).png" alt="A screenshot of the GitBook app. On the left, next to the side bar is a highlighted section. This is the table of contents. The names of the pages in the space are listed here. At the bottom of the list of pages there is a button that says &#x22;New page&#x22;."><figcaption><p>The table of contents in the GitBook app</p></figcaption></figure>
+
+</div>
 
 The table of contents is the list of **document pages, links, and groups** that make up a space.\
 It's located to the right of the sidebar and underneath the space sub-navigation.
@@ -100,7 +116,11 @@ The option to create a new document page, link, or group can be found at the bot
 
 ## Page header
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/Page header.png" alt="A screenshot of the GitBook app. There is a highlighted section underneath the space sub-navigation menu. This is the page header. In large font is the name of the page: Welcome!. To the left of the page name is an emoji symbol. Underneath the page name is written &#x22;page description (optional)&#x22;. On the right of the page header there is a button with 3 dots."><figcaption><p>The page header in the GitBook app</p></figcaption></figure>
+
+</div>
 
 The page header is made up of:
 
@@ -110,7 +130,11 @@ The page header is made up of:
 
 ## Editor
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/Editor.png" alt="A screenshot of the GitBook app. There is a large highlighted section in the right-bottom corner of the image. This is the editor section of the GitBook app. There are 2 headings on the page: &#x22;Welcome to MyAPI&#x22; and &#x22;Want to jump right in?&#x22;. Under each heading is some paragraph text."><figcaption><p>The editor in the GitBook app.</p></figcaption></figure>
+
+</div>
 
 The editor is where you create the content for your documentation. We offer lots of different content blocks — headings, lists, tables, images, code blocks, and more!
 
@@ -118,13 +142,21 @@ In addition, you can [embed content](../content-creation/blocks/embed-a-url.md) 
 
 ## Page actions
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/page-actions" alt="A screenshot of the GitBook app. There is a highlighted section on the right hand side. This is the page actions menu. There are buttons for different actions to take on the page. The buttons are: Insert subpage, Import subpages, Add cover, Rename, Duplicate, Delete, Page layout, Export as PDF, Copy link."><figcaption><p>The page actions menu in the GitBook app</p></figcaption></figure>
+
+</div>
 
 Page actions are located next to the page title. The type of actions available will depend if you are in the live editing mode, change request, or locked edits.&#x20;
 
 ## Page options
 
+<div align="center" data-full-width="true">
+
 <figure><img src="../.gitbook/assets/page-options.png" alt=""><figcaption><p>Page options menu</p></figcaption></figure>
+
+</div>
 
 The [page options](../publishing/share/page-layouts.md) menu allows you to customize your documentation layout and navigation. They can only be accessed in the edit mode.&#x20;
 
@@ -134,7 +166,11 @@ Please note that certain changes, such as layout will only be applied to the pub
 
 ## On this page
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/on-this-page.png" alt="A screenshot of the GitBook app. There is a highlighted section in the bottom right corner with the title &#x22;On this page&#x22;. Underneath the title are the page headings: Welcome to my API, What to jump right in?, Want to deep dive?."><figcaption><p>On this page in the GitBook app</p></figcaption></figure>
+
+</div>
 
 The on this page section is located on the right-hand side of the editor. When you have more than one on a page, every heading 1 and heading 2 content block title will be listed here, making it easier for you to jump up/down the page to the section you want to work on.
 

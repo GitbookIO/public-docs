@@ -6,7 +6,7 @@ description: Math & TeX content block
 
 You can use mathTeX format to include mathematical formulae in your documentation. We offer that throught the [KaTeX](https://katex.org/docs/supported.html) library.
 
-We also offer this [as inline content](../editor/inline/math-and-tex.md).
+We also offer this [as inline content](broken-reference).
 
 ### Example of Math & TeX block
 

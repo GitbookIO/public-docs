@@ -20,7 +20,11 @@ When you publish a collection of variants, any child space that is published ins
 
 Variants are useful if you need to offer a grouped experience for spaces, such as documenting multiple versions of an API (v1, v2, v3, etc.) or documenting your content in multiple languages.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/switching-between-variants.gif" alt=""><figcaption><p>Switching between variants in published documentation</p></figcaption></figure>
+
+</div>
 
 Here are some examples of how GitBook users have published variants in collections:
 
@@ -39,7 +43,11 @@ We will use the example of publishing product documentation in multiple language
 
 You should create a collection to hold your spaces/variants. You can see in the screenshot below that we have a collection called My Product Docs. Inside the collection are 2 spaces: English and Spanish. As the names suggest, the English space contains our product documentation written in English, and the Spanish space contains the Spanish translation.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/english-spanish-collection.png" alt="A screenshot of a GitBook collection, named My Product Docs, with two variants inside it. One is called English, the second is called Spanish."><figcaption><p>A collection with two variants</p></figcaption></figure>
+
+</div>
 
 <details>
 

@@ -12,7 +12,11 @@ Collections are most commonly published and therefore customized when the user w
 
 Customizing a collection allows you to set top-level customizations that spaces within the collection can **inherit.** This is useful if you want to manage top-level customizations, letting you change customization options without having to change the settings for every space individually.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/collection-customization.png" alt="A screenshot showing the collection customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Collection customization settings</p></figcaption></figure>
+
+</div>
 
 Customizing your collection lets you control the branding, presentation and extra features of your collection's published content.
 

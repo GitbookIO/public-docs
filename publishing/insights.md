@@ -18,7 +18,11 @@ Administrators and creators can view the insights panel.
 
 When inside a space, click on **insights** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation) to open the insights panel. You'll see two tabs: pages and searches.
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/insights-sub-navigation.png" alt=""><figcaption><p>Preview of the sub-navigation panel with insights visible. This view is available to admins and creators </p></figcaption></figure>
+
+</div>
 
 #### Pages tab
 

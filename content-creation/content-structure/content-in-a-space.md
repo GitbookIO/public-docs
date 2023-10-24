@@ -2,7 +2,11 @@
 
 ## Table of Contents
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Table of contents.png" alt=""><figcaption><p>The table of contents in a GitBook space</p></figcaption></figure>
+
+</div>
 
 Each space can contain as many pages as you need to write your documentation. All these pages are visible on the left side of your screen in the **table of contents**.
 
@@ -15,7 +19,11 @@ From the table of contents you can:
 
 ## Organizing your content
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/organizing content.png" alt=""><figcaption><p>Pages organized in the table of contents under page groups</p></figcaption></figure>
+
+</div>
 
 There are 4 different types of entries for the table of contents.
 
@@ -67,7 +75,11 @@ These entries are external links and do not have any content in the editor. Thei
 
 If you're in [live edit](../../collaboration/collaboration/live-edits.md) mode, you'll spot the new page link on the left-hand side under the existing pages in your table of contents. If your space is locked for live edits, you'll first need to start a new [change request](../../collaboration/collaboration/change-requests.md) by clicking the **edit** button near the top right corner of the space.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Add a new page.gif" alt=""><figcaption><p>Adding a new page in a change request</p></figcaption></figure>
+
+</div>
 
 Once a new page is created you will be able to write rich text and rich content using our [editor](../editor/).
 
@@ -75,13 +87,21 @@ Once a new page is created you will be able to write rich text and rich content 
 
 If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents), and then choose **new group**.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Page group.gif" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Create external links <a href="#external-links" id="external-links"></a>
 
 If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your table of content, and then choose **new link**.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/new link.gif" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Can't see the option to create a new page?
 

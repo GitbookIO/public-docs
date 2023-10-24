@@ -4,7 +4,11 @@ description: Customize your space
 
 # Space customization
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/space-customization-modal.png" alt="A screenshot showing the space customization settings. On the left are the settings themselves, and on the right is a preview of how the published content will look with the selected settings."><figcaption><p>Space customization settings</p></figcaption></figure>
+
+</div>
 
 Customizing your space lets you control the branding, presentation and extra features of your space's public content.
 

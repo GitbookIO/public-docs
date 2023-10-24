@@ -4,9 +4,13 @@ Comments in GitBook allow you to have as much (or as little) conversation as you
 
 ## Comment within your content <a href="#comment-within-your-content" id="comment-within-your-content"></a>
 
-You can comment on any block within your content. The comment will be displayed in a right hand panel which you can open by clicking on the <img src="../.gitbook/assets/comments_icon" alt="" data-size="line">icon in the sub-navigation.&#x20;
+You can comment on any block within your content. The comment will be displayed in a right hand panel which you can open by clicking on the <img src="../.gitbook/assets/comments_icon" alt="" data-size="line">icon in the sub-navigation.
 
-<figure><img src="../.gitbook/assets/commenting_on_a_block.png" alt="A screenshot of a GitBook space where users have been commenting on a paragraph block. The first asks for more detail to be included in the section, the second confirms that they will work on the changes."><figcaption><p>Commenting on a specific content block </p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/commenting_on_a_block.png" alt="A screenshot of a GitBook space where users have been commenting on a paragraph block. The first asks for more detail to be included in the section, the second confirms that they will work on the changes."><figcaption><p>Commenting on a specific content block</p></figcaption></figure>
+
+</div>
 
 ### Comment threads
 
@@ -16,13 +20,21 @@ Any top-level comment in GitBook can be replied to, turning it into a discussion
 
 Commenting and discussions can get messy, especially with larger teams! To reduce the noise, you can **resolve** a comment at any time. Resolving a comment will hide it in the interface, but still keep it accessible in the 'Resolved' tab of the space's comments sidesheet.
 
-<figure><img src="../.gitbook/assets/resolve_comment.png" alt=""><figcaption><p>Resolving a comment </p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/resolve_comment.png" alt=""><figcaption><p>Resolving a comment</p></figcaption></figure>
+
+</div>
 
 ## Reacting to comments
 
 You can also leave an emoji reaction on any comment.
 
+<div data-full-width="true">
+
 <figure><img src="../.gitbook/assets/react_to_comment" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Commenting and change requests
 

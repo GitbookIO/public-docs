@@ -19,7 +19,11 @@ Admins and creators can enable and disable PDF export for a space.
 
 To enable or disable PDF export for your readers, head to the customization settings for a space or collection. On the configure tab, you can enable or disable the PDF export setting. This setting determines whether or not **readers of your published content can download it in PDF format**.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/pdf-export-public-content.png" alt="A screenshot showing space customization settings, with the PDF export setting highlighted."><figcaption><p>Enable or disable PDF export for your published content</p></figcaption></figure>
+
+</div>
 
 ## Export your own content as PDF
 
@@ -33,7 +37,11 @@ Regardless of the configured customization setting shown above, members of an or
 4. Click the **export** button.
 5. Wait for the PDF file to be created, then click the **download** button.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/pdf-export.png" alt="A screenshot showing the modal that becomes visible after clicking on &#x22;Export as PDF&#x22;. The option to export &#x22;Only this page&#x22; is selected."><figcaption><p>Export "Only this page" as a PDF</p></figcaption></figure>
+
+</div>
 
 ### How to export an entire space
 
@@ -43,4 +51,8 @@ Regardless of the configured customization setting shown above, members of an or
 4. Click the **export** button.
 5. Wait for the PDF file to be created, then click the **download** button.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/pdf-export.png" alt="A screenshot showing the modal that becomes visible after clicking on &#x22;Export as PDF&#x22;. The option to export &#x22;Entire Space&#x22; is selected."><figcaption><p>Export "Entire Space" as a PDF</p></figcaption></figure>
+
+</div>

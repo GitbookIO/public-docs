@@ -8,7 +8,11 @@ description: >-
 
 With GitBook you can synchronize your content with GitHub or GitLab repositories and keep your content consistently up to date.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Synchronize with Git.png" alt="A screenshot of the GitBook app. On the right hand side is a panel with options for configuring the Git Sync feature. There are sections for authenticating your git account, choosing a git repository, and choosing a branch."><figcaption><p>Git Sync configuration panel</p></figcaption></figure>
+
+</div>
 
 ## GitHub Sync: How it works
 

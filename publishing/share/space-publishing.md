@@ -8,7 +8,11 @@ description: Learn about the different options for sharing your GitBook space.
 
 To share a space, start by clicking the **share** button, which you'll find near the top-right corner of each space. This will open the share modal.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/share-button-modal.gif" alt=""><figcaption><p>To share a space, start by clicking the share button. This will open the share modal.</p></figcaption></figure>
+
+</div>
 
 Inside the share modal, you'll see tabs on the left-hand side to choose from.&#x20;
 
@@ -20,7 +24,11 @@ Inside the share modal, you'll see tabs on the left-hand side to choose from.&#x
 
 ### Invite members
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/invite-members.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 By default, users within your organization will inherit the permissions assigned to them within the organization settings area.&#x20;
 
@@ -40,7 +48,11 @@ It is also possible to [invite members to the organization ](../../account-manag
 
 ### Publish to the web
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/publish-to-the-web.png" alt=""><figcaption><p>Preview of a share modal opened on the public sharing option</p></figcaption></figure>
+
+</div>
 
 If your content is suited for a much wider audience, you can publish it on the web. \
 Spaces that are published on the web can be [indexed by search engines](../seo.md) and will be available to **anyone** on the Internet.

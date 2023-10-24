@@ -8,7 +8,11 @@ When you add a member to your organization, you set their default [role](roles.m
 
 ## Managing inheritance
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Cascading permissions.png" alt="An opened invite members panel with default access options expanded, allowing you to select from no access, commenter, reader, editor, reviewer and admin"><figcaption></figcaption></figure>
+
+</div>
 
 Any time you create a collection or a space, you'll be able to set the type of inheritance you want. You have three broad options when setting the inheritance for a piece of content:
 
@@ -32,7 +36,11 @@ The default inheritance option for any newly-created space or collection is **in
 
 Once you've decided on the permission inheritance for your space or collection, you can further customise access by giving teams or members **direct access**.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Content level permissions.png" alt="Invite panel open with number of teams added in. Each team has a different permission assigned to to the content."><figcaption></figcaption></figure>
+
+</div>
 
 ### Giving a team direct access
 

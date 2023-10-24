@@ -6,7 +6,7 @@ description: Hint content block
 
 Hints are a great way to bring the reader's attention to specific elements in your documentation.
 
-There are 4 different types of hints, and both [inline content](../editor/inline/) and [formatting](../editor/formatting.md) are supported.
+There are 4 different types of hints, and both [inline content](../editor/inline.md) and [formatting](../editor/formatting.md) are supported.
 
 ### Example of a hint
 

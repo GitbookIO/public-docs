@@ -6,7 +6,11 @@ description: >-
 
 # Live edits
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/saving.png" alt="A screenshot of a GitBook space. Near the top-right corner, &#x22;saving&#x22; is highlighted, showing how GitBook automatically saves your work in live edit mode."><figcaption><p>GitBook saves your live edits automatically</p></figcaption></figure>
+
+</div>
 
 **Live editing** is the default mode of any newly-created GitBook space. A space in live edit mode is editable instantly by anyone with the [correct permission level](../../account-management/member-management/).
 
@@ -20,7 +24,11 @@ When a space's live edits are **unlocked**, you'll be able to see the avatars of
 
 You can lock or unlock space for live edits by selecting 'Unlock live edits' and 'Lock live edits' from the Space's actions menu.
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/Unlock live edits.png" alt=""><figcaption><p>Unlock live edits from the space actions menu</p></figcaption></figure>
+
+</div>
 
 ### When is live editing _not_ available?
 

@@ -1,10 +1,14 @@
 # Monorepos
 
-GitBook supports monorepos. A monorepo is a repository that contains more than one logical project (e.g. an iOS client and a web-application).
+GitBook supports monorepos. A monorepo is a repository that contains more than one logical project (e.g. an iOS client and a web application).
 
-GitBook can synchronize multiple directories from the same repository with multiple spaces. When enabling the Git Sync on a space, you can configure a "Project directory". It will be used to lookup the `.gitbook.yaml` file for the directory to synchronize with this space.
+GitBook can synchronize multiple directories from the same repository with multiple spaces. When enabling Git Sync on a space, you can configure a "Project directory". It will be used to lookup the `.gitbook.yaml` file for the directory to synchronize with this space.
 
-<figure><img src="../../.gitbook/assets/download-1.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../../.gitbook/assets/monorepo.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
+
+</div>
 
 Example of a repository structure:
 
@@ -31,7 +35,7 @@ In this example, 3 spaces can be created on GitBook and configured with differen
 * `packages/app`
 * `packages/api`
 
-The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first being used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
+The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first is used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
 
 ## Updating the Project directory <a href="#updating" id="updating"></a>
 
@@ -45,7 +49,7 @@ In most cases, we recommend the following step to update the Project directory:
 
 In some cases, you might have started with a typical repository synchronizing with only one space, but then decided to transition into a monorepo with multiple spaces synchronizing with it; or might have to rename the Project directory.
 
-Changing the Project directory on an existing Git Sync can have unexpected impact on the content, the change will only be propagated during the next synchronization (edit made on GitBook or new commit in the Git repository).
+Changing the Project directory on an existing Git Sync can have an unexpected impact on the content, the change will only be propagated during the next synchronization (edit made on GitBook or new commit in the Git repository).
 
 #### **If the next operation is an import from the Git repository**:
 
@@ -55,4 +59,4 @@ We recommend having the next operation to be a commit moving all GitBook-related
 
 **If the next operation is an export from GitBook to the Git repository**:
 
-GitBook will generate or update new files in the new Project directory. Files synchronized with GitBook will be moved to the new Project directory (with the best attempt); it might cause side-effects if other parts of your system depend on these files.
+GitBook will generate or update new files in the new Project directory. Files synchronized with GitBook will be moved to the new Project directory (with the best attempt); it might cause side effects if other parts of your system depend on these files.

@@ -2,13 +2,17 @@
 
 Users who have created a GitBook account with an email used in your SAML Identity Provider, or joined your organization prior to the configuration of SAML, might see their login with SSO being blocked with a message prompting them to "_Log in with your existing credentials_":
 
-<figure><img src="../../../.gitbook/assets/sso_login_issue.png" alt=""><figcaption></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../../../.gitbook/assets/SSO-vs-nonSSO.png" alt=""><figcaption><p>Login with SSO screen </p></figcaption></figure>
+
+</div>
 
 ## Origin of the message and security considerations
 
 The first principle of our SAML SSO implementation is security.
 
-If a user account has been created using an email address `bob@company.com`, and later on Bob attempts to log in with the company SAML, **GitBook cannot verify the integrity of the email address returned by the identity provider** and thus cannot authenticate them as the current account `bob@company.com`.&#x20;
+If a user account has been created using an email address `bob@company.com`, and later on Bob attempts to log in with the company SAML, **GitBook cannot verify the integrity of the email address returned by the identity provider** and thus cannot authenticate them as the current account `bob@company.com`.
 
 To prevent the creation of two accounts associated with the `bob@company.com` email address, **GitBook indicates to the user that they should log in with their original account. The organization administrator, later on, decides how to handle the case**:
 
@@ -33,6 +37,10 @@ or
 
 ## Enabling SSO login for members
 
-Organization administrators can enable SSO login for members by linking their accounts to SSO. Doing this indicates GitBook that the user account can be trusted as being connected to the identity in your provider.
+to Organization administrators can enable SSO login for members by linking their accounts to SSO. Doing this indicates to GitBook that the user account can be trusted as being connected to the identity in your provider.
+
+<div data-full-width="true">
 
 <figure><img src="../../../.gitbook/assets/sso.gif" alt=""><figcaption></figcaption></figure>
+
+</div>

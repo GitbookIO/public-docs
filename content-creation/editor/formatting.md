@@ -6,7 +6,11 @@ description: Formatting and styling inline content
 
 You can format your text selecting it and choosing one of the options that pop up:
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/formatting-options.png" alt="Screenshot showing the formatting options available to you after choosing some text and seeing an inline palette popping up."><figcaption><p>Formatting options</p></figcaption></figure>
+
+</div>
 
 {% hint style="info" %}
 Hovering over the formatting options displays a tip with the markdown markup you can use to achieve the same formatting, as well as a keyboard shortcut you can use to do the same.

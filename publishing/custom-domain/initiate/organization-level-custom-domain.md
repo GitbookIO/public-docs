@@ -20,15 +20,27 @@ You'll find the options for setting a custom domain for an organization within t
 
 On the next page, in the **Publishing** section, next to **Custom Domain**, click the **Connect a domain** button.
 
+<div data-full-width="true">
+
 <figure><img src="../../../.gitbook/assets/org-set-custom-domain.png" alt=""><figcaption><p>An organization's settings page with the custom domain section highlighted</p></figcaption></figure>
+
+</div>
 
 This will open up a window where you can enter the custom domain, and then click the **Next: Configure DNS** button:
 
+<div data-full-width="true">
+
 <figure><img src="../../../.gitbook/assets/org-enter-subdomain.png" alt=""><figcaption><p>Connect a custom domain</p></figcaption></figure>
+
+</div>
 
 We'll then provide the name and value to use in the next step when you create your CNAME DNS record. You can copy the name or value to your clipboard by clicking on the icon on the right-hand side of each field.
 
+<div data-full-width="true">
+
 <figure><img src="../../../.gitbook/assets/configure-dns.png" alt=""><figcaption><p>The name and value for the CNAME record</p></figcaption></figure>
+
+</div>
 
 The value for the CNAME record will be in the format `[something]-hosting.gitbook.io`, where that `[something]` will be **unique to you**. Make sure to use the value displayed to you in the GitBook app, and _not_ the value in the screenshot above! 🙂
 

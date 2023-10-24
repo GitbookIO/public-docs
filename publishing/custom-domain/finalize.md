@@ -20,11 +20,19 @@ If our setup process is still in progress, you'll see the same options as you sa
 
 The first thing we'll do is check to see if the correct DNS record has taken effect. Once we've been able to detect this, you'll see an update on the screen:
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/dns-detected.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Next, we'll configure an SSL certificate for the custom domain automatically. This part of the process might take a few minutes. Once it has been completed successfully, you'll see a success message:
 
+<div data-full-width="true">
+
 <figure><img src="../../.gitbook/assets/custom-domain-success.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Visitors to your documentation can now use your custom domain to access it. 🎉
 

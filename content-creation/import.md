@@ -43,11 +43,19 @@ Feel free to suggest import sources we don't support yet and [let us know](../he
 
 When you create a new space, you'll have the option to import content straight away:
 
-<figure><img src="../.gitbook/assets/Import.png" alt="A screenshot from the GitBook app. In the editor section is a blank page without any content. There is a button for importing content."><figcaption><p>The new page menu</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/import-new-space.png" alt="A screenshot from the GitBook app. In the editor section is a blank page without any content. There is a button for importing content."><figcaption><p>The new page menu</p></figcaption></figure>
+
+</div>
 
 Import a page or subpage by selecting `Import Page` from the New Page menu, or `Import Subpage` in the page action menu, found in the table of contents:
 
-<figure><img src="../.gitbook/assets/import gif.gif" alt="An animated gif from the GitBook app. The cursor clicks on the &#x22;Import new pages&#x22; button, and a pop-up appears with the title &#x22;Import your content&#x22;. On the pop-up are buttons for lots of different sources that you can import content from, such as HTML, Markdown, Word, and OpenAPI."><figcaption><p>Import from the page action menu</p></figcaption></figure>
+<div data-full-width="true">
+
+<figure><img src="../.gitbook/assets/import-content" alt="An animated gif from the GitBook app. The cursor clicks on the &#x22;Import new pages&#x22; button, and a pop-up appears with the title &#x22;Import your content&#x22;. On the pop-up are buttons for lots of different sources that you can import content from, such as HTML, Markdown, Word, and OpenAPI."><figcaption><p>Import from the page action menu</p></figcaption></figure>
+
+</div>
 
 When you choose your input source, instructions will explain how to proceed.
 
