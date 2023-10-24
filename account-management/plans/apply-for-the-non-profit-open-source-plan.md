@@ -109,4 +109,4 @@ Depending on which type of organization you are applying for, please follow the 
 {% endtab %}
 {% endtabs %}
 
-If you have any questions, feel free to [contact our support team](../../faq/support.md).
+If you have any questions, feel free to [contact our support team](../../help/support.md).

@@ -45,7 +45,7 @@ This could either be because you created the file manually, or because you made 
 
 The content of this file mirrors your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
-If after ensuring that all your files are included in the `SUMMARY.md` file there's still nothing happening on GitBook, don't hesitate to [contact support](../../faq/support.md) for assistance.
+If after ensuring that all your files are included in the `SUMMARY.md` file there's still nothing happening on GitBook, don't hesitate to [contact support](../../help/support.md) for assistance.
 
 ## What is the IP address used for Git Sync operations?
 

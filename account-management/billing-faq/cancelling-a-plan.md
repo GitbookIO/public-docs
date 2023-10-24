@@ -1,6 +1,6 @@
 # Subscription cancellations
 
-If you're thinking about cancelling a plan because you're running into any issues while using GitBook, please [contact the support team](../../faq/support.md) first! We'd love to help you.
+If you're thinking about cancelling a plan because you're running into any issues while using GitBook, please [contact the support team](../../help/support.md) first! We'd love to help you.
 
 {% hint style="info" %}
 **Permissions**\

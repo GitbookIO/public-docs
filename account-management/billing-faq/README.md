@@ -1,4 +1,54 @@
-# Billing FAQ
+# Billing and Account Management FAQ
+
+## Trials
+
+The free trial gives you the opportunity to test GitBook's features, start onboarding your team, and create your content. Please feel free to [reach out to our team](../../help/support.md) with any questions you have during this period!
+
+### How do I start a free trial?
+
+When you create a GitBook account, your organization will start out on our free **Personal** plan. Simply [invite one or more team members](../member-management/) to your organization and a 14-day free trial of our **Plus** plan will begin!
+
+<details>
+
+<summary>Do I have to provide a payment method to start a free trial?</summary>
+
+No! We do not ask for any payment information during your free trial. If you decide to upgrade after your trial, we will ask for a payment method at that point.
+
+</details>
+
+<details>
+
+<summary>How can I check the time remaining on my free trial?</summary>
+
+Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page. From there, click on the **plans** tab. You will see a banner on the plans page that tells you how many days remain on your free trial.
+
+</details>
+
+<details>
+
+<summary>Which features can I test during the free trial?</summary>
+
+You can test all of the features of the **Plus** plan. Please take a look at [our pricing page](https://www.gitbook.com/pricing) to compare all of the features of our plans.
+
+</details>
+
+<details>
+
+<summary>What happens at the end of my free trial?</summary>
+
+After the trial, the Plus plan will be cancelled and the organization will be downgraded to our free Personal plan. This means that all Plus features will be disabled, as will any additional users that you have invited to the organization. An upgrade will be required if you would like to restore those additional features or users.
+
+</details>
+
+<details>
+
+<summary>Can I extend my free trial?</summary>
+
+If you have a **large organization** and you are interested in the **Pro** or **Enterprise** plan, we'd love to offer you some more time to onboard your team! 😊 Please get in touch via [sales@gitbook.com](mailto:sales@gitbook.com) and we'll go through some requirements.
+
+</details>
+
+## Billing
 
 ### What payment methods do you accept?
 
@@ -40,7 +90,14 @@ Read more about how we work out the outstanding fees in our [billing policy](bil
 
 ### Can I get a refund?
 
-As per our [terms of service](https://policies.gitbook.com/terms), we do not offer refunds. However, if you believe you have been charged in error, please [contact the support team](../../faq/support.md).
+As per our [terms of service](https://policies.gitbook.com/terms), we do not offer refunds. However, if you believe you have been charged in error, please [contact the support team](../../help/support.md).
+
+### Does GitBook offer a discount for non-profit/open-source organizations?
+
+We don't offer a discount, but we _do_ offer two options:
+
+1. Our free **Personal** plan should suit many non-profit/open-source organizations.
+2. For any organizations that need to collaborate on their docs with others _and_ who meet [our criteria](../plans/apply-for-the-non-profit-open-source-plan.md), we offer an **OSS** plan. [Click here for more information](../plans/apply-for-the-non-profit-open-source-plan.md).
 
 ### Do you offer any discounts?
 

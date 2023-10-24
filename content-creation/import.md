@@ -36,7 +36,7 @@ You can also upload a ZIP containing HTML or Markdown files when **importing mul
 {% hint style="warning" %}
 **Note: this feature is in beta.**
 
-Feel free to suggest import sources we don't support yet and [let us know](../faq/support.md) if you have any issues.
+Feel free to suggest import sources we don't support yet and [let us know](../help/support.md) if you have any issues.
 {% endhint %}
 
 ## Import panel

@@ -29,11 +29,11 @@
   * [Commit messages & Autolink](integrations/git-sync/commits.md)
   * [Monorepos](integrations/git-sync/monorepos.md)
   * [Troubleshooting](integrations/git-sync/troubleshooting.md)
-* [Integrations FAQ](integrations/integrations-faq.md)
 * [Integrations (beta)](integrations/integrations-beta/README.md)
   * [Slack](integrations/integrations-beta/slack.md)
   * [GitHub Entities](integrations/integrations-beta/github-entities.md)
   * [Visual Studio Code (alpha)](integrations/integrations-beta/visual-studio-code.md)
+* [Integrations FAQ](integrations/integrations-faq.md)
 
 ## Content creation
 
@@ -123,16 +123,16 @@
   * [Roles](account-management/member-management/roles.md)
   * [Teams](account-management/member-management/teams.md)
   * [Permissions and inheritance](account-management/member-management/permissions-and-inheritance.md)
-* [Billing FAQ](account-management/billing-faq/README.md)
+* [Billing and Account Management FAQ](account-management/billing-faq/README.md)
   * [Billing policy](account-management/billing-faq/billing-policy.md)
 
-## FAQ
+## Help
 
-* [How do I hard refresh my browser?](faq/hard-refresh.md)
-* [How do I solve connectivity issues?](faq/connectivity-issues.md)
-* [How do I contact support?](faq/support.md)
-* [How do I report bugs?](faq/report-bugs.md)
-* [Security FAQs](faq/faqs.md)
+* [How do I contact support?](help/support.md)
+* [How do I report bugs?](help/report-bugs.md)
+* [How do I hard refresh my browser?](help/hard-refresh.md)
+* [How do I solve connectivity issues?](help/connectivity-issues.md)
+* [Security FAQs](help/faqs.md)
 
 ***
 

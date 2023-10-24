@@ -48,7 +48,7 @@ If you think you might be running into any of these issues, here are some things
 * Wait it out if you are aware of any temporary issue with your mail provider.
 * Check [your settings](https://app.gitbook.com/account/notification) to ensure that you have enabled email notifications for the type of notification you are expecting.
 * Make sure you are checking the correct email address. You can see the email address of your personal account in [your account settings](https://app.gitbook.com/account).
-* [Contact support](../faq/support.md) if all other things fail. If you do, please make sure to include as much information as possible. For example, this might include the email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact details of what you feel should have triggered that notification for you. Please include links to anything relevant, as well.
+* [Contact support](../help/support.md) if all other things fail. If you do, please make sure to include as much information as possible. For example, this might include the email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact details of what you feel should have triggered that notification for you. Please include links to anything relevant, as well.
 
 ## Notification settings
 

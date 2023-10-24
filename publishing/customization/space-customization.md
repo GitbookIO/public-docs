@@ -85,7 +85,7 @@ _Note: if, instead, you're looking to change the theme within the GitBook app, y
 **Font family**\
 You can choose a font family for your published content from a list of popular options. This setting is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
 
-GitBook doesn't support the uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [let us know](../../faq/support.md)!
+GitBook doesn't support the uploading or linking of custom fonts. If you think we're missing a typeface that works wonderfully for headers, body copy, and captions, [let us know](../../help/support.md)!
 
 **Corner style**\
 Choose either a rounded corner or straight corner style, to help align your published GitBook content with your own brand's styling preferences.
@@ -151,7 +151,7 @@ You can select from a list of languages to localize the user interface of your p
 
 This setting will _not_ auto-translate your actual content, but can help with matching the user interface to the language that you are writing in.
 
-Is there a language we don't yet offer that you would like to see included in this list? [Let us know](../../faq/support.md)!
+Is there a language we don't yet offer that you would like to see included in this list? [Let us know](../../help/support.md)!
 
 </details>
 
