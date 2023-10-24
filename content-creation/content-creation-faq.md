@@ -30,3 +30,11 @@ Yes, you can!  [Read more about how to move a space. ](content-structure/what-is
 ## How do I revert to the previous version of my content?&#x20;
 
 Admins and creators can click the **rollback** button while viewing a specific history item to[ roll the space back ](activity-history.md#rolling-back-to-a-previous-version)to this point in time.&#x20;
+
+## Do you support offline contributions?&#x20;
+
+Not at the moment!&#x20;
+
+## Do you have a mobile or a desktop app?
+
+No, sorry.&#x20;
