@@ -34,7 +34,7 @@ So type in what you need, take a look at results in other spaces, and pick the p
 
 When you select a search result from an organization, you will switch to browsing that organization. To go back, use quick find to select a document in the organization you were in before, or use the organization switcher in the sidebar.
 
-## Search filters
+## Search filters and prioritization
 
 Quick find supports filtering your results by author, and by space or organization.
 
@@ -60,6 +60,8 @@ Add an `in:` filter to your query. Search for the space or organization you're i
 
 </div>
 
+We do not currently support the ability to prioritize certain content in Quick find results.
+
 ## Navigation and performing space actions with Quick find
 
 Quick find also helps you navigate to settings and organizations, as well as perform certain space actions like locking and unlocking [live edits](../../collaboration/collaboration/live-edits.md), setting up [Git Sync](../../integrations/git-sync/), and starting a [change request](../../collaboration/collaboration/change-requests.md).
@@ -84,4 +86,4 @@ Quick find is compliant with your team's permission settings, meaning that users
 
 We index your content by grouping it into sections. Sections are **headings** (H1, H2, or H3) with the content that follows it.
 
-When a section starts with H1 and contains a lot of H2/H3 text, your paragraph turns into a big section. We just show 3 lines of information in each result in the quick find results view. When your section is too big, sometimes the keyword match is hidden in a part of the section that isn't displayed in the preview. Don't worry, quick find still found matching sections!
+When a section starts with H1 and contains a lot of H2/H3 text, your paragraph turns into a big section. We just show 3 lines of information in each result in the quick find results view. When your section is too big, sometimes the keyword match is hidden in a part of the section that isn't displayed in the preview. Don't worry, Quick find still found matching sections!
