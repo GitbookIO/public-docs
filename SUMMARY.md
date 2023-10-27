@@ -27,7 +27,7 @@
   * [Content configuration](integrations/git-sync/content-configuration.md)
   * [GitHub pull request preview](integrations/git-sync/github-pull-request-preview.md)
   * [Commit messages & Autolink](integrations/git-sync/commits.md)
-  * [Monorepos](integrations/git-sync/monorepos.md)
+  * [Monorepos](product-tour/git-sync/monorepos.md)
   * [Troubleshooting](integrations/git-sync/troubleshooting.md)
 * [Integrations (beta)](integrations/integrations-beta/README.md)
   * [Slack](integrations/integrations-beta/slack.md)

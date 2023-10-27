@@ -35,7 +35,7 @@ In this example, 3 spaces can be created on GitBook and configured with differen
 * `packages/app`
 * `packages/api`
 
-The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first is used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
+The "Project directory" option at the Git Sync level differs from the [`root` option](../../integrations/git-sync/content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first is used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
 
 ## Updating the Project directory <a href="#updating" id="updating"></a>
 

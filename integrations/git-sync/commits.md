@@ -22,7 +22,7 @@ Use the following URL format, where `space` corresponds to your space's URL:
 
 ## Customize the commit message template
 
-When using GitBook with a [monorepo](monorepos.md), or when you have specific guidelines for commit messages; you might want to customize the message used by GitBook when pushing a commit to Git.
+When using GitBook with a [monorepo](../../product-tour/git-sync/monorepos.md), or when you have specific guidelines for commit messages; you might want to customize the message used by GitBook when pushing a commit to Git.
 
 <div data-full-width="true">
 

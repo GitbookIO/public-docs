@@ -27,3 +27,11 @@ You can now convert embed blocks to full width by clicking on the <img src="../.
 ### Spotify music
 
 {% embed url="https://open.spotify.com/track/4FmiciU3ZmfgABlbCSXcWw?si=65zMAhStT2ivTit-kZISWg" %}
+
+### Git Sync representation in Markdown
+
+```markdown
+{% raw %}
+{% embed url="URL_HERE" %}
+{% endraw %}
+```
