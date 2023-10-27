@@ -35,7 +35,7 @@ When this setting is enabled, the space will automatically inherit any changes m
 <summary>Basic (icon, title, logo)</summary>
 
 **Icon**\
-You can set an emoji, or upload an icon of your own. Please note that this setting will only affect the icon that displays _in the published documentation_. (If you want to edit the icon used within the GitBook app, close the customize section and click on the icon at the top of the space.)
+You can set an emoji, or upload an icon of your own. Please note that this setting will only affect the icon that displays _in the published documentation_ and it'll be used as the favicon for the page. (If you want to edit the icon used within the GitBook app, close the customize section and click on the icon at the top of the space.)
 
 **Title**\
 You can set any title you choose for your space. Again, please note that this setting will only affect the title that displays _in the published documentation_. (If you want to edit the title used within the GitBook app, close the customize section and click on the title at the top of the space.)
