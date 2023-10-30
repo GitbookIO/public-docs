@@ -140,3 +140,7 @@ app.get('/', (req, res) => {
 ## Custom Domains
 
 Visitor Authentication works well with custom domains. If a space published with has a custom domain like `customera.mycompany.com`, then visitors to `customera.mycompany.com` will be taken through the Visitor Auth flow and eventually redirected back to the space.
+
+## Resources
+
+Head to our [developer documentation](https://developer.gitbook.com/getting-started/guides) to view the various guides we have on setting up Visitor Authentication with different providers.
