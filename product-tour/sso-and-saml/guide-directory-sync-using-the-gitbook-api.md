@@ -6,15 +6,21 @@ description: >-
 
 # Guide: Directory Sync using the GitBook API
 
+SCIM/Directory sync is not currently publicly available in GitBook. If your organization is struggling to manually manage its members and teams in GitBook, we recommend using [the GitBook API](https://developer.gitbook.com/api/resources/organizations/members) to programmatically add/remove members and teams as your directory changes as most identity providers offer ways to hook into these events.
+
+{% hint style="info" %}
+Directory sync allows you to automatically provision/de-provision users and teams from your company directory into your GitBook organization. In GitBook it can only be achieved by using our API outlined in the guide below.&#x20;
+{% endhint %}
+
 ## 1. Getting Started
 
 First of all, you'll need to be set up and accustomed to working with [the GitBook API](https://developer.gitbook.com/getting-started/setup-guide).
 
-## 2 .Setting up your environment
+## 2. Setting up your environment
 
 First, let's understand from a high-level how user provisioning works:
 
-<img src="../../../.gitbook/assets/file.excalidraw.svg" alt="A high-level overview of how user provisioning works" class="gitbook-drawing">
+<img src="../../.gitbook/assets/file.excalidraw.svg" alt="A high-level overview of how user provisioning works" class="gitbook-drawing">
 
 The step in purple will change depending on your Identity Provider (IdP). Most modern directories offer workflows to hook into events like users adding/leaving your organization, but you might have to build this piece yourself.
 
@@ -32,7 +38,7 @@ Let's build the key workflows you'll need:
 
 ### Provision a new user
 
-When a new user joins your organization, you need to provision them in GitBook.&#x20;
+When a new user joins your organization, you need to provision them in GitBook.
 
 To do this, we'll use [the invites endpoint](https://developer.gitbook.com/gitbook-api/resources/organizations/members).
 
@@ -107,8 +113,10 @@ All of the above operations are idempotent - you can run them multiple times and
 
 ## Usage Limits
 
-The GitBook API has some usage limits to prevent malicious users abusing the system. If you're on our enterprise plan, you won't face these limits. However, if you're on one of our other plans and you're running into rate-limiting errors with the API please [get in touch](mailto:sales@gitbook.com) so we can remove these limits for you.
+The GitBook API has some usage limits to prevent malicious users from abusing the system. If you're on our enterprise plan, you won't face these limits. However, if you're on one of our other plans and you're running into rate-limiting errors with the API please [get in touch](mailto:sales@gitbook.com) so we can remove these limits for you.
 
 {% hint style="info" %}
-We're always trying to improve our API to enable more complex workflows tailored to your organization. If you have feedback for us around ways the API could be improved, [please let us know via our community](https://github.com/GitbookIO/community/discussions)!
+We're always trying to improve our API to enable more complex workflows tailored to your organization. If you have feedback for us about ways the API could be improved, [please let us know via our community](https://github.com/GitbookIO/community/discussions)!
 {% endhint %}
+
+If you have further questions, please [get in touch](mailto:sales@gitbook.com).

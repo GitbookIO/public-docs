@@ -12,8 +12,7 @@
   * [SSO](product-tour/sso-and-saml/sso-and-saml.md)
   * [SAML single sign-on](product-tour/sso-and-saml/saml/README.md)
     * [SSO Members vs non-SSO](product-tour/sso-and-saml/saml/sso-members-vs-non-sso.md)
-  * [SCIM & directory sync](product-tour/sso-and-saml/scim-and-directory-sync/README.md)
-    * [Guide: Directory Sync using the GitBook API](product-tour/sso-and-saml/scim-and-directory-sync/guide-directory-sync-using-the-gitbook-api.md)
+  * [Guide: Directory Sync using the GitBook API](product-tour/sso-and-saml/guide-directory-sync-using-the-gitbook-api.md)
 * [Keyboard shortcuts](product-tour/keyboard-shortcuts.md)
 
 ## Integrations
