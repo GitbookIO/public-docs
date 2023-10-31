@@ -50,3 +50,21 @@ If after ensuring that all your files are included in the `SUMMARY.md` file ther
 ## What is the IP address used for Git Sync operations?
 
 Git Sync uses a static IP address for all operations. Having this address could be useful if you'd like to set an extra layer of security to your on-premise instance of GitLab for example. You can whitelist the following IP address `34.136.22.210`
+
+## Potential duplicated accounts when signing in
+
+This error usually occurs when the GitHub account that you use to set up the sync is already associated with a different GitBook user account.
+
+A good way to identify which GitBook account the GitHub account is already linked to is:
+
+1. Log out from your current GitBook user session (i.e. `name@email.com`)
+2. Log out from any GitHub user sessions.
+3. Go to [the Log in page](https://app.gitbook.com/login).
+4. Select the "Sign in with GitHub" option.
+5. Enter your GitHub credentials.
+6. Once logged in, go to [the account settings](https://app.gitbook.com/account) and either:
+   1. Unlink the account from the "Third-party Login > GitHub" section in the Personal setting
+   2. Delete the account altogether if you do not need it.
+7. Log out from the session.
+8. Log back in using your `name@email.com` GitBook account.
+9. Try to set up Git Sync again.

@@ -18,6 +18,14 @@ In the space you want to sync with your GitHub repo, head to the space menu in t
 
 If you’re setting up GitHub Sync for the first time and haven’t already linked a GitHub account, you’ll be prompted to do that when you begin configuring Git Sync. If you’ve already linked your account, you might still need to authenticate via GitHub.
 
+{% hint style="warning" %}
+If you see a **'Potential duplicated accounts'** error message at this step, this means your GitHub account is already linked with another GitBook user account.&#x20;
+
+To help you identify which accounts are linked, you will have to log out from this session and log in using the sign-in with GitHub method. If you already know your GitBook account associated with GitHub you can log into that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.\
+\
+Read more on our [troubleshooting page](troubleshooting.md#potential-duplicated-accounts-when-signing-in).
+{% endhint %}
+
 ## 3. Install the GitBook app to your GitHub account
 
 <div data-full-width="true">
