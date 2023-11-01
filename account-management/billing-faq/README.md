@@ -58,6 +58,19 @@ We use Stripe's localized payment methods in an effort to support the most commo
 
 Payment by invoice is currently only available on our Enterprise plan. All other plans must be paid by credit card or other localized payment methods offered by Stripe.
 
+### How can I make sure my company info is included on my receipts?
+
+Please head to the organization settings page, and then click on the billing tab. From the Stripe dashboard, you can amend the billing details by clicking on Update information in the Billing Information section.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Please ensure your billing information is correct _**before**_ you pay for a subscription. \
+
+
+We are unable to change details on already paid invoices.
+{% endhint %}
+
 ### Why is there a platform fee in the Pro plan?
 
 The **monthly** platform fee gives you access to many features that aren't available on the Free and Plus plans (like SAML SSO and Visitor Authentication). It also allows us to keep the per-user price lower so that it's easier to scale knowledge sharing across your team. If you're not sure about choosing the Pro plan, we designed the Free and Plus plans to make it easy and affordable to get started with GitBook and only upgrade when you are ready.
@@ -102,13 +115,6 @@ We don't offer a discount, but we _do_ offer two options:
 ### Do you offer any discounts?
 
 You can get 2 months free by subscribing to our annual plan! We do not offer any other discounts at this time.
-
-### Can I amend my billing information?
-
-Yes, you can! To do that, please head to the organization settings page, and then click on the billing tab. From there, you can amend the billing details.
-
-Please ensure your billing information is correct _before_ you pay for a subscription. \
-We are unable to change details on already paid invoices.
 
 ### Can I receive my receipts via email?
 
