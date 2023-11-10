@@ -62,6 +62,10 @@ With our API, you can embed GitBook AI into your product or website! This opens 
 
 [Take a look at our developer documentation](https://developer.gitbook.com/gitbook-api/reference/search#get-ai-search-results-from-all-spaces-for-the-currently-authenticated-user).
 
+## How long does it take for changes to be indexed by GitBook AI?
+
+When a change is made to your content (say, a merged change request or a new Slack knowledge snippet) it can take up to one hour for the new changes to be indexed by GitBook and reflected in AI search results.
+
 ## How does GitBook AI handle my data?
 
 We pass your content to OpenAI to index and process data. OpenAI **does not** use this content for service improvements (including model training). You can find out more about how OpenAI handles data [here](https://openai.com/blog/introducing-chatgpt-and-whisper-apis#developer-focus).
