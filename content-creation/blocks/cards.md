@@ -13,7 +13,7 @@ You can select large or medium-sized cards and link them to the relevant resourc
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>GitBook Homepage</strong></td><td>Visit our website</td><td></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td><td><a href="../../.gitbook/assets/Card-example">Card-example</a></td></tr><tr><td><strong>Powered by GitBook</strong></td><td>Learn about how others use GitBook</td><td></td><td><a href="https://developer.gitbook.com/">https://developer.gitbook.com/</a></td><td><a href="../../.gitbook/assets/Card-example-2">Card-example-2</a></td></tr><tr><td><strong>Sign up to GitBook</strong></td><td>Click here to create a GitBook account</td><td></td><td><a href="https://app.gitbook.com/join">https://app.gitbook.com/join</a></td><td><a href="../../.gitbook/assets/Card-example-3">Card-example-3</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-You can now convert card blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert card blocks to full width by clicking on the <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 ### How to create a card

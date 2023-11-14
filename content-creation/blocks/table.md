@@ -11,7 +11,7 @@ You can add tables to better organize your information.
 <table data-full-width="true"><thead><tr><th>Company</th><th data-type="select">Status</th><th>Contact</th><th>MRR</th></tr></thead><tbody><tr><td><strong>Ace AI</strong> – Design</td><td></td><td><a href="mailto:noreply@gitbook.com">rena@ace.ai</a></td><td>$420</td></tr><tr><td><strong>Discrete Data</strong> – API</td><td></td><td><a href="mailto:noreply@gitbook.com">dave@dd.inc</a></td><td>$69</td></tr></tbody></table>
 
 {% hint style="info" %}
-You can now convert table blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert table blocks to full width by clicking on the <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 Table columns can have the following data types, which apply restrictions or embellishments to every cell in the column:

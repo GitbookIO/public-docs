@@ -27,7 +27,7 @@ Once you have an OpenAPI compliant representation of your API, you can use it in
 ![](<../../.gitbook/assets/Open API.gif>)
 
 {% hint style="info" %}
-You can now convert API blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert API blocks to full width by clicking on the <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 #### 2. Either:

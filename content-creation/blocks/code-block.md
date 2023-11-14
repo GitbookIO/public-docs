@@ -55,7 +55,7 @@ greeting.("Anna")
 {% endtabs %}
 
 {% hint style="info" %}
-You can now convert code blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert code blocks to full width by clicking on the <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 ### Options

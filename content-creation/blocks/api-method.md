@@ -15,7 +15,7 @@ Use this method to get information about a user
 {% endswagger %}
 
 {% hint style="info" %}
-You can now convert the API blocks to full width by clicking on the <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert the API blocks to full width by clicking on the <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 #### Please also check:
