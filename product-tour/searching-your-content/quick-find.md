@@ -34,33 +34,9 @@ So type in what you need, take a look at results in other spaces, and pick the p
 
 When you select a search result from an organization, you will switch to browsing that organization. To go back, use quick find to select a document in the organization you were in before, or use the organization switcher in the sidebar.
 
-## Search filters and prioritization
-
-Quick find supports filtering your results by author, and by space or organization.
-
-<details>
-
-<summary>To filter your results by author</summary>
-
-Add a `by:` filter to your query. You can then search for members of your organization by name, and select the author you're interested in.
-
-</details>
-
-<details>
-
-<summary>To filter your results by space or organization</summary>
-
-Add an `in:` filter to your query. Search for the space or organization you're interested in, and the results of your query will be scoped to the specified space or organization.
-
-</details>
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Search filters.png" alt="Open Quick find palette with a filter enabled. You can filter your results by author or by searching in a specific content"><figcaption></figcaption></figure>
-
-</div>
-
+{% hint style="info" %}
 We do not currently support the ability to prioritize certain content in Quick find results.
+{% endhint %}
 
 ## Navigation and performing space actions with Quick find
 
