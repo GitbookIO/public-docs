@@ -14,7 +14,7 @@ Use the following URL format, where `space` corresponds to your space's URL:
 
 `<https://app.gitbook.com/s/space/~/changes/<num>/`
 
-<div data-full-width="true">
+<div data-full-width="false">
 
 <figure><img src="../../.gitbook/assets/autolink.png" alt=""><figcaption></figcaption></figure>
 
@@ -22,13 +22,7 @@ Use the following URL format, where `space` corresponds to your space's URL:
 
 ## Customize the commit message template
 
-When using GitBook with a [monorepo](../../product-tour/git-sync/monorepos.md), or when you have specific guidelines for commit messages; you might want to customize the message used by GitBook when pushing a commit to Git.
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/gitsync_custom_message (1).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+When using GitBook with a [monorepo](monorepos.md), or when you have specific guidelines for commit messages; you might want to customize the message used by GitBook when pushing a commit to Git.
 
 The template can contain the following placeholders:
 

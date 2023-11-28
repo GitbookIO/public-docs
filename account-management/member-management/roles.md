@@ -2,17 +2,13 @@
 
 When adding members to your organization, you can give them a **default role**. This role will apply to any content that inherits its permissions from the organization.
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Invite members at content level.png" alt="Invite members panel opened, displaying field allowing you to invite members and the inheritance permissions for Public docs with default settings enabled."><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/invite-members (1).png" alt=""><figcaption><p>Invite members to your GitBook organization.</p></figcaption></figure>
 
 {% hint style="info" %}
 Understanding default roles is key to getting the most out of how GitBook handles permission management. Check out our documentation on [**permissions and inheritance**](permissions-and-inheritance.md) for a full overview of how permissions cascade throughout content in GitBook.
 {% endhint %}
 
-## Roles in GitBook
+### Roles in GitBook
 
 Roles are how you define the level of access and control that members have over content (and the organization, in the case of admins).
 
@@ -58,7 +54,7 @@ Commenters have the same read-only access as readers, but they're also able to l
 
 <summary>Editor</summary>
 
-Editors are able to read and comment, just like a commenter, but they're also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../collaboration/collaboration/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../collaboration/collaboration/change-requests.md). Editors cannot merge change requests.
+Editors are able to read and comment, just like a commenter, but they're also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../content-editor/editor/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../content-editor/editor/change-requests.md). Editors cannot merge change requests.
 
 </details>
 

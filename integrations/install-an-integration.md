@@ -8,17 +8,13 @@ You can install an integration in a single space, multiple spaces, or all the sp
 
 If you install an integration in a single space, it will only work in that specific space. By installing an integration in multiple spaces, you’ll be able to perform actions across all those spaces.
 
-## Install an integration in a space
+### Install an integration in a space
 
 #### 1. Open the Integrations menu
 
 Start by clicking **Integrations** in the space sub-navigation to install an integration on a single space.
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/configure-integration.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/integrations (2).png" alt=""><figcaption><p>Integrations modal in GitBook.</p></figcaption></figure>
 
 #### 2. Review the available integrations
 
@@ -30,11 +26,7 @@ Next, click on the integration you want to install on the space (e.g Slack).
 
 This will open up the integration’s installation screen. Click **Install** to connect it to your space.
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/install-integration.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/install-integration.png" alt=""><figcaption><p>Install integration window</p></figcaption></figure>
 
 #### 4. Complete the configuration
 
@@ -42,13 +34,9 @@ Finally, complete the installation by following the instructions and select the 
 
 You can do this in the integration’s **Organization setup** and **Space setup** sections.
 
-<div data-full-width="true">
+<figure><img src="../.gitbook/assets/integration-configuration.png" alt=""><figcaption><p>Integration configuration</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/configure-integration (1).png" alt="Installed Slack integration with a warning: finish configuring the integration"><figcaption></figcaption></figure>
-
-</div>
-
-## Install an integration in multiple spaces
+### Install an integration in multiple spaces
 
 To install an integration on more than one space, you can do so from the **Configure** menu for that integration.&#x20;
 
@@ -63,15 +51,11 @@ You now have two options:
 **Note:** If you have **Install on all spaces** enabled, you will not see the option to manage the integration on individual spaces.
 {% endhint %}
 
-## Manage your organization’s integrations
+### Manage your organization’s integrations
 
 You can view and manage all of the integrations in the **Integrations** section of your organization on your [organization settings](../account-management/organization-management.md) page. Click **Configure** on any integration to open its settings.
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/Installation in a library.png" alt="GitBook settings open, with Integrations button highlighted on the left hand side"><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../.gitbook/assets/organization-integrations.png" alt=""><figcaption><p>organization integrations</p></figcaption></figure>
 
 Click **Install Integration** to open up the Integrations menu, which shows a list of all the integrations that you can install. Here, you can[ install an integration in a space](install-an-integration.md#install-an-integration-on-a-space), or install an [integration in multiple spaces. ](install-an-integration.md#install-an-integration-on-multiple-spaces)
 
@@ -79,10 +63,4 @@ Click **Install Integration** to open up the Integrations menu, which shows a li
 
 Whether you choose to install an integration on one space or many, you’ll need to run through the configuration options in the **Organization setup** screen to complete the installation.
 
-Depending on the integration in question, you may be able to apply different configuration options for each space. You can do this in the **Space setup** section. Use the space dropdown on the top right-hand corner to switch to another space:
-
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/Space configuration (1).png" alt="Space configuration panel with list of settings such us &#x27;notify visibility update&#x27; and &#x27;notify content update&#x27; each has a toggle that is not switched on"><figcaption></figcaption></figure>
-
-</div>
+Depending on the integration in question, you may be able to apply different configuration options for each space. You can do this in the **Space setup** section.&#x20;

@@ -2,17 +2,13 @@
 
 GitBook has a flexible permissions model that lets you have as much, or as little, control over permissions as you need. The permission model in GitBook is a **role-based, cascading** model. This means that you set defaults and then, at any level of content, decide whether to inherit those defaults or not.
 
-## Organization default roles
+### Organization default roles
 
 When you add a member to your organization, you set their default [role](roles.md). This role applies to any piece of content that inherits its permissions from the organization defaults.
 
-## Managing inheritance
+### Managing inheritance
 
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Cascading permissions.png" alt="An opened invite members panel with default access options expanded, allowing you to select from no access, commenter, reader, editor, reviewer and admin"><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="../../.gitbook/assets/inherited-permission.png" alt=""><figcaption><p>permissions inheritance</p></figcaption></figure>
 
 Any time you create a collection or a space, you'll be able to set the type of inheritance you want. You have three broad options when setting the inheritance for a piece of content:
 
@@ -32,15 +28,9 @@ You can also completely revoke access for any non-admin organization members at 
 The default inheritance option for any newly-created space or collection is **inherit**. This means that whenever a piece of content is created, it'll inherit permissions from its parent by default.
 {% endhint %}
 
-## Setting content specific permissions
+### Setting content specific permissions
 
 Once you've decided on the permission inheritance for your space or collection, you can further customise access by giving teams or members **direct access**.
-
-<div data-full-width="true">
-
-<figure><img src="../../.gitbook/assets/Content level permissions.png" alt="Invite panel open with number of teams added in. Each team has a different permission assigned to to the content."><figcaption></figcaption></figure>
-
-</div>
 
 ### Giving a team direct access
 
@@ -54,14 +44,14 @@ Team access is a great way to ensure that the right people have access to the ri
 
 Similarly to teams, you can also give members direct access. This is the most granular way of managing permissions. When giving single members direct access to a collection or space, you override any inherited permissions they might have. Direct member access is great if you need very specific control over collaborators.
 
-## Keeping on top of permissions
+### Keeping on top of permissions
 
 While this might seem pretty complex at first, GitBook's permission model gives you control if you need it, and gets out of the way if you don't. For many teams, a **set-and-forget** approach to permission management is all they need. For other teams, especially larger organizations, this level of control over access and workflow is essential.
 
-### Set and forget
+#### Set and forget
 
 If you just want to get your teammates onboarded and editing content with you, then you might never even need to look at permissions. Invite folks, set their default role, and any content you create will default to inheriting these roles. No need to get into the weeds!
 
-### Control over access and workflow
+#### Control over access and workflow
 
 For larger organizations, teams that split their organization up into discrete collections, or teams that need very granular control over workflow; then getting into the weeds is exactly what's needed. Using a combination of inheritance, overriding, direct team access and direct user access, you can create workflows and access models that keep you in control.

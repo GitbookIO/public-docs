@@ -1,16 +1,8 @@
 ---
-description: >-
-  We are happy to provide organizations that meet our criteria with a free OSS
-  plan!
+description: Apply for our Open Source plan in GitBook.
 ---
 
 # Apply for the OSS plan
-
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/apply-OSS" alt=""><figcaption><p>To apply for the OSS plan please visit <a href="https://www.gitbook.com/pricing">https://www.gitbook.com/pricing</a></p></figcaption></figure>
-
-</div>
 
 We welcome applications for our OSS plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
@@ -21,7 +13,7 @@ We welcome applications for our OSS plan from organizations that meet certain cr
 {% hint style="info" %}
 If you won't need to collaborate with others, then your needs should be covered by our free Personal plan!
 
-It allows you to publish content to the world and even supports linking a [custom domain](../../publishing/custom-domain/) to each of your spaces.
+It allows you to publish content to the world and even supports linking a [custom domain](../../published-documentation/custom-domain/) to each of your spaces.
 {% endhint %}
 
 If you will **need** to collaborate with others, then please continue reading.
@@ -113,4 +105,4 @@ Depending on which type of organization you are applying for, please follow the 
 {% endtab %}
 {% endtabs %}
 
-If you have any questions, feel free to [contact our support team](../../help/support.md).
+If you have any questions, feel free to [contact our support team](../../help-and-faq/faq/support.md).

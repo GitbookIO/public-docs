@@ -2,7 +2,7 @@
 
 ## Trials
 
-The free trial gives you the opportunity to test GitBook's features, start onboarding your team, and create your content. Please feel free to [reach out to our team](../../help/support.md) with any questions you have during this period!
+The free trial gives you the opportunity to test GitBook's features, start onboarding your team, and create your content. Please feel free to [reach out to our team](../../help-and-faq/faq/support.md) with any questions you have during this period!
 
 ### How do I start a free trial?
 
@@ -62,7 +62,7 @@ Payment by invoice is currently only available on our Enterprise plan. All other
 
 Please head to the organization settings page, and then click on the billing tab. From the Stripe dashboard, you can amend the billing details by clicking on Update information in the Billing Information section.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Please ensure your billing information is correct _**before**_ you pay for a subscription. \
@@ -103,7 +103,7 @@ Read more about how we work out the outstanding fees in our [billing policy](bil
 
 ### Can I get a refund?
 
-As per our [terms of service](https://policies.gitbook.com/terms), we do not offer refunds. However, if you believe you have been charged in error, please [contact the support team](../../help/support.md).
+As per our [terms of service](https://policies.gitbook.com/terms), we do not offer refunds. However, if you believe you have been charged in error, please [contact the support team](../../help-and-faq/faq/support.md).
 
 ### Does GitBook offer a discount for non-profit/open-source organizations?
 

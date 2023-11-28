@@ -12,9 +12,11 @@ You can manage your login details, third-party login options, GitBook subdomain,
 All members can access and manage their personal account settings.
 {% endhint %}
 
-## How to access your personal account settings
+<figure><img src="../.gitbook/assets/personal-settings.png" alt=""><figcaption><p>Personal Settings page.</p></figcaption></figure>
 
-Click on the **settings** :gear: icon, which is located at the bottom of the sidebar, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
+### How to access your personal account settings
+
+Click on the **settings** icon, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
@@ -79,7 +81,7 @@ On this page you can manage and create access tokens for the [GitBook API](https
 
 </details>
 
-## **How can I reset my password?**
+### **How can I reset my password?**
 
 Please note, that if your account was created after October 10th 2021, it doesn't have a password. You should be able to log in by requesting a magic link:
 

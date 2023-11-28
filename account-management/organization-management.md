@@ -7,9 +7,11 @@ View and manage the settings for your GitBook organization. These include member
 Only administrators can access the organization settings.
 {% endhint %}
 
-## How to access the settings for an organization
+<figure><img src="../.gitbook/assets/organization-settings.png" alt=""><figcaption><p>Organization Settings Page.</p></figcaption></figure>
 
-Click on the **settings** :gear: icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page, and you'll see additional tabs containing further settings on the left-hand side.
+### How to access the settings for an organization
+
+Click on the **settings** icon, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page, and you'll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
@@ -21,7 +23,7 @@ You can update the logo and the name of the organization.
 
 **GitBook AI features**
 
-[GitBook’s AI](../product-tour/searching-your-content/lens.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../publishing/customization/)panel.
+[GitBook’s AI](../content-editor/searching-your-content/lens.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../published-documentation/customization/)panel.
 
 **Publishing**
 
@@ -62,7 +64,7 @@ For any domains that you specify, anyone with an email address on those domains 
 
 **SAML**
 
-For organizations on our Enterprise plan, you can configure your SSO with any [SAML](../product-tour/sso-and-saml/saml/) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
+For organizations on our Enterprise plan, you can configure your SSO with any [SAML](sso-and-saml/saml/) solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you're interested in upgrading to Enterprise!
 
 </details>
 
@@ -88,6 +90,6 @@ Please see our [billing policy](billing-faq/billing-policy.md) for information a
 
 <summary>Billing</summary>
 
-The billing tab takes you to our payment provider, Stripe. On their website you can securely manage your payment method and billing information. You can also [cancel your plan](billing-faq/cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
+The billing tab takes you to our payment provider, Stripe. On their website you can securely manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
 
 </details>

@@ -22,6 +22,6 @@ Preview links are only accessible by GitBook users. We’re working on a feature
 
 ### Security considerations
 
-For security reasons, by default GitBook doesn’t currently generate previews for PRs opened from forks of your repository. Because the content of the PR preview is accessible under your own domain, whether on `.gitbook.io` or your [custom domain](../../publishing/custom-domain/finalize.md), a user could generate malicious content in a fork of your public repository and have it served under your name.
+For security reasons, by default GitBook doesn’t currently generate previews for PRs opened from forks of your repository. Because the content of the PR preview is accessible under your own domain, whether on `.gitbook.io` or your [custom domain](../../published-documentation/custom-domain/finalize.md), a user could generate malicious content in a fork of your public repository and have it served under your name.
 
 We allow users to explicitly configure this through an option in the Git Sync settings.
