@@ -27,7 +27,7 @@ Use the drop down menu on the right of the search bar to select the space you wa
 If you want to use or analyze this data further outside of GitBook, click **Download CSV** to download a `.csv` file to your device.&#x20;
 
 {% hint style="info" %}
-**Why can't I see any data for my space?** \
+**Why can’t I see any data for my space?** \
 We only display data for published spaces. If your space is not published and does not have page ratings enabled, you won’t see any insights into this space.&#x20;
 {% endhint %}
 
@@ -62,6 +62,6 @@ Outside of content insights, GitBook offers different [integrations](broken-refe
 
 ### What happened to Insights panel in individual spaces?
 
-We think that [third-party analytics solutions](https://app.gitbook.com/integrations/\~/categories/analytics) offer much better and more detailed information when it comes to data like page views. So we removed page views as a data point in GitBook, and moved other space-wide insights into the **Insights** page.
+We think that [third-party analytics solutions](https://app.gitbook.com/integrations/~/categories/analytics) offer much better and more detailed information when it comes to data like page views. So we removed page views as a data point in GitBook, and moved other space-wide insights into the **Insights** page.
 
-If you want to track more analytics for your GitBook spaces, head to [our integrations page](https://app.gitbook.com/integrations/\~/categories/analytics) to see which you can use.
+If you want to track more analytics for your GitBook spaces, head to [our integrations page](https://app.gitbook.com/integrations/~/categories/analytics) to see which you can use.

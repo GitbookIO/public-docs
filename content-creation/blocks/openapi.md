@@ -32,14 +32,14 @@ You can now convert API blocks to full width by clicking on the <img src="../../
 
 #### 2. Either:
 
-* **Upload** your OpenAPI formatted file, _or_
-* Provide a **URL** to your publicly available OpenAPI file.
+- **Upload** your OpenAPI formatted file, _or_
+- Provide a **URL** to your publicly available OpenAPI file.
 
 ![](<../../.gitbook/assets/OpenAPI Source.png>)
 
-If you're providing a **URL**, make sure that the file is available on the open internet, and that it's not behind any kind of password protection.
+If you’re providing a **URL**, make sure that the file is available on the open internet, and that it’s not behind any kind of password protection.
 
-If you're just experimenting, you can use one of the [default Swagger files](https://petstore.swagger.io/#/):
+If you’re just experimenting, you can use one of the [default Swagger files](https://petstore.swagger.io/#/):
 
 `https://petstore.swagger.io/v2/swagger.json`
 
@@ -57,7 +57,7 @@ To change the operation that your swagger block is showing, use the "Choose API 
 
 #### **5. Show more than one operation**
 
-Chances are good that your API has more than one operation that you'll want to document. Each OpenAPI block shows one API operation. In order to show multiple API operations, you can create an extra OpenAPI block per operation, backed by the same OpenAPI specification file.
+Chances are good that your API has more than one operation that you’ll want to document. Each OpenAPI block shows one API operation. In order to show multiple API operations, you can create an extra OpenAPI block per operation, backed by the same OpenAPI specification file.
 
 ### Updating your Specification
 
@@ -87,8 +87,8 @@ GitBook supports creating API methods from scratch, using the editable "API Meth
 
 With the API block, you can:
 
-* Set the URL and the path of your operation
-* Name your operation and give it a longer description or summary
-* Add, remove, and reorder **parameters**, grouped into **Path**, **Query**, **Header**, **Cookie** and **Body**
-* Add, remove, and reorder **responses**
-  * Document your responses with code examples
+- Set the URL and the path of your operation
+- Name your operation and give it a longer description or summary
+- Add, remove, and reorder **parameters**, grouped into **Path**, **Query**, **Header**, **Cookie** and **Body**
+- Add, remove, and reorder **responses**
+  - Document your responses with code examples

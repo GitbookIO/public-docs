@@ -26,7 +26,7 @@ By default, your content will have the **English** language selected. To change 
 
 ### Inheriting language settings
 
-If a space is inside a collection, you can set the localization language for that space to inherit. This will keep the space's localization language in sync with the setting at the collection level. Choosing a different language for one space inside a collection would override the collection-level setting.
+If a space is inside a collection, you can set the localization language for that space to inherit. This will keep the space’s localization language in sync with the setting at the collection level. Choosing a different language for one space inside a collection would override the collection-level setting.
 
 ## Publishing your content in different languages
 

@@ -10,7 +10,7 @@ To share a space, click the **share** button in the top-right corner of a space.
 
 <figure><img src="../../.gitbook/assets/share.png" alt=""><figcaption><p>Share your GitBook space with an audience.</p></figcaption></figure>
 
-Inside the share modal, you'll see different sharing options on the left-hand side.
+Inside the share modal, you’ll see different sharing options on the left-hand side.
 
 {% hint style="info" %}
 The options available to you will depend on your permissions in the space.
@@ -38,7 +38,7 @@ It is also possible to [invite members to the organization ](../../account-manag
 
 If your content is suited for a much wider audience, you can publish it on the web. Spaces that are published on the web can be [indexed by search engines](../seo.md) and will be available to anyone on the Internet.
 
-You'll still retain control over who can _edit_ your content, and only your primary content branch will be published, so any [change requests](../../content-editor/editor/change-requests.md) will remain private until merged.
+You’ll still retain control over who can _edit_ your content, and only your primary content branch will be published, so any [change requests](../../content-editor/editor/change-requests.md) will remain private until merged.
 
 #### Share to an audience
 
@@ -48,7 +48,7 @@ In some cases, you might want to publish and share your content with a more spec
 
 #### **Publish in collection**
 
-If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection so you can do things like work on a new version and only publish it when it's ready. Toggle this option to publish the space as part of the collection. You can find out more about collection publishing. See [collection publishing](collection-publishing.md) for more info
+If the space is nested inside of a published collection, you’ll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection so you can do things like work on a new version and only publish it when it’s ready. Toggle this option to publish the space as part of the collection. You can find out more about collection publishing. See [collection publishing](collection-publishing.md) for more info
 
 {% hint style="info" %}
 This option will only be visible if your collection has been published first.&#x20;
@@ -64,7 +64,7 @@ Share links include a private token, making it extremely difficult for anyone ou
 
 #### **Publish as unlisted**
 
-Unlisted spaces are publicly available, but they _won't_ be indexed by search engines such as Google. They will still be accessible to anyone with a the link to your documentation. Unlisted spaces can be particularly helpful if you want to publish a beta of your docs, or do large-scale user testing, without impacting your SEO with potentially duplicate content.
+Unlisted spaces are publicly available, but they _won’t_ be indexed by search engines such as Google. They will still be accessible to anyone with a the link to your documentation. Unlisted spaces can be particularly helpful if you want to publish a beta of your docs, or do large-scale user testing, without impacting your SEO with potentially duplicate content.
 
 ### Export as PDF
 

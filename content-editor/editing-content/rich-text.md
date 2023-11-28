@@ -10,7 +10,7 @@ description: Add rich text content to your document.
 
 #### Relative links <a href="#relative-links" id="relative-links"></a>
 
-Relative links are links created by linking pages that already exist in your content. Relative links are useful if the page's URL, name, or location changes, as its reference will be kept up to date—resulting in fewer broken links.
+Relative links are links created by linking pages that already exist in your content. Relative links are useful if the page’s URL, name, or location changes, as its reference will be kept up to date—resulting in fewer broken links.
 
 <figure><img src="../../.gitbook/assets/relative-links.png" alt=""><figcaption><p>adding relative link</p></figcaption></figure>
 

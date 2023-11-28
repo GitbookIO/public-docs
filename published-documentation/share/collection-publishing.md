@@ -26,7 +26,7 @@ Variants are useful if you need to offer a grouped experience for spaces, such a
 
 When you publish a collection, you still need to decide which spaces nested within the collection should be published as part of that collection. This allows you to choose which spaces in a collection are visible.
 
-As an example, say you have a collection full of useful spaces, but you're working on a completely new space to live alongside them. Rather than creating and editing that space somewhere else, you can keep it where it's supposed to live, and only publish it as part of the collection when it's ready.
+As an example, say you have a collection full of useful spaces, but you’re working on a completely new space to live alongside them. Rather than creating and editing that space somewhere else, you can keep it where it’s supposed to live, and only publish it as part of the collection when it’s ready.
 
 ### Publish a collection with variants
 
@@ -38,7 +38,7 @@ First we will publish the collection. Note that this **does not publish the spac
 
 Collection publishing works almost exactly the same as [space publishing](space-publishing.md#publish-to-the-web). Navigate to the the **share** button near the top-right corner, which will open the share modal.
 
-Inside the share modal, you'll see some or all of the following tabs on the left-hand side to choose from. (The tabs available to you will depend on your permissions.)
+Inside the share modal, you’ll see some or all of the following tabs on the left-hand side to choose from. (The tabs available to you will depend on your permissions.)
 
 <figure><img src="../../.gitbook/assets/collection-publishing.png" alt=""><figcaption><p>Publish a collection in GitBook</p></figcaption></figure>
 
@@ -48,7 +48,7 @@ For each space that you want to publish in the collection, click on the **share*
 
 This action will create variants that will be displayed inside your collection.&#x20;
 
-Ensure you're on the publish to the web tab, and then toggle the publish in collection setting to the **on** position.
+Ensure you’re on the publish to the web tab, and then toggle the publish in collection setting to the **on** position.
 
 See [sharing options](space-publishing.md) for more info.
 

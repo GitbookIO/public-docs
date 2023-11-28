@@ -64,7 +64,7 @@ You have two options when it comes to resolving a merge conflict — **selecting
 
 You can resolve a merge conflict by selecting a version you want to merge — either your incoming content, or the content that was previously there. This allows you to choose between one change and another — either your recent work, or the original content.&#x20;
 
-If you're dealing with a merge conflict that can be resolved this way, you can select the version you want to keep, and the other version will be deleted.
+If you’re dealing with a merge conflict that can be resolved this way, you can select the version you want to keep, and the other version will be deleted.
 
 #### Manually editing
 
@@ -72,7 +72,7 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 ### Reviewing a change request
 
-If you get a request to review a change request, you'll be able to edit the content and leave feedback to make sure it's in good shape before it’s merged to the main version. You can either request changes if you think it still needs work, or approve the change request, ready to merge.
+If you get a request to review a change request, you’ll be able to edit the content and leave feedback to make sure it’s in good shape before it’s merged to the main version. You can either request changes if you think it still needs work, or approve the change request, ready to merge.
 
 Most reviews will take place in the change request’s [comments](../../collaboration/comments-discussion.md), where collaborators can share feedback and have discussions about specific content blocks, or the change request as a whole.
 

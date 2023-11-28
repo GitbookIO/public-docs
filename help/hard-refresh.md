@@ -4,7 +4,7 @@ description: Follow the steps to hard refresh your browser.
 
 # How do I hard refresh my browser?
 
-Our support team might ask you to _hard_ refresh your browser as part of the troubleshooting process. This is different from a normal refresh. Here's how you can hard refresh in all of the browsers supported by GitBook.
+Our support team might ask you to _hard_ refresh your browser as part of the troubleshooting process. This is different from a normal refresh. Here’s how you can hard refresh in all of the browsers supported by GitBook.
 
 ### Chrome
 

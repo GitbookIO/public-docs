@@ -12,10 +12,10 @@ Each space can contain as many pages as you need to write your documentation. Al
 
 From the table of contents you can:
 
-* Create new [pages](content-in-a-space.md#pages)
-* Create and manage [page groups](content-in-a-space.md#groups)
-* Add [external links](content-in-a-space.md#external-links)
-* [Import external docs](../import.md) like websites or Markdown files
+- Create new [pages](content-in-a-space.md#pages)
+- Create and manage [page groups](content-in-a-space.md#groups)
+- Add [external links](content-in-a-space.md#external-links)
+- [Import external docs](../import.md) like websites or Markdown files
 
 ## Organizing your content
 
@@ -45,7 +45,7 @@ You can nest pages by dragging and dropping a page below an other in the table o
 
 Theoretically, there is no limit to page nesting. But we advise that you avoid adding more than 3 levels of nesting to avoid overly complex structures that might be overwhelming to navigate.
 
-When you change the title of a page, the page's **slug** (the part at the very end of the URL, e.g. `/hello-world`) will automatically update, unless you've already manually set the page's slug.
+When you change the title of a page, the page’s **slug** (the part at the very end of the URL, e.g. `/hello-world`) will automatically update, unless you’ve already manually set the page’s slug.
 
 You can change the title and the slug of a page anytime by clicking on the triple dot icon next to the page title in the table of contents, and then clicking **rename**.
 
@@ -73,7 +73,7 @@ These entries are external links and do not have any content in the editor. Thei
 
 ## Create a new page
 
-If you're in [live edit](../../collaboration/collaboration/live-edits.md) mode, you'll spot the new page link on the left-hand side under the existing pages in your table of contents. If your space is locked for live edits, you'll first need to start a new [change request](../../collaboration/collaboration/change-requests.md) by clicking the **edit** button near the top right corner of the space.
+If you’re in [live edit](../../collaboration/collaboration/live-edits.md) mode, you’ll spot the new page link on the left-hand side under the existing pages in your table of contents. If your space is locked for live edits, you’ll first need to start a new [change request](../../collaboration/collaboration/change-requests.md) by clicking the **edit** button near the top right corner of the space.
 
 <div data-full-width="true">
 
@@ -85,7 +85,7 @@ Once a new page is created you will be able to write rich text and rich content 
 
 ## Create a page group
 
-If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents), and then choose **new group**.
+If you’re in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents), and then choose **new group**.
 
 <div data-full-width="true">
 
@@ -95,7 +95,7 @@ If you're in live edit mode, can click the **new page** button on the left-hand 
 
 ## Create external links <a href="#external-links" id="external-links"></a>
 
-If you're in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your table of content, and then choose **new link**.
+If you’re in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your table of content, and then choose **new link**.
 
 <div data-full-width="true">
 
@@ -103,7 +103,7 @@ If you're in live edit mode, can click the **new page** button on the left-hand 
 
 </div>
 
-## Can't see the option to create a new page?
+## Can’t see the option to create a new page?
 
 {% hint style="warning" %}
 If [live edits](../../collaboration/collaboration/live-edits.md) are disabled for your space, you will need to create a new (or edit an existing) [change request](../../collaboration/collaboration/change-requests.md). Once you are in a change request, the **new page** button (which allows you to create pages, page groups and links) will be available.

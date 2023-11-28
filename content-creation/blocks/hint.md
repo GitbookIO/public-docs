@@ -4,7 +4,7 @@ description: Hint content block
 
 # Hint
 
-Hints are a great way to bring the reader's attention to specific elements in your documentation.
+Hints are a great way to bring the reader’s attention to specific elements in your documentation.
 
 There are 4 different types of hints, and both [inline content](../editor/inline.md) and [formatting](../editor/formatting.md) are supported.
 
@@ -57,6 +57,7 @@ This is a second <mark style="color:orange;background-color:purple;">line</mark>
 {% endhint %}
 
 {% hint style="info" %}
+
 ### This is a heading
 
 This is a line

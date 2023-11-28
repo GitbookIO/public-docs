@@ -6,16 +6,18 @@ Here’s an example:
 
 {% tabs %}
 {% tab title=".gitbook.yaml" %}
+
 ```yaml
 root: ./
 
-​structure:  
-    readme: README.md  
-    summary: SUMMARY.md​
+​structure:
+  readme: README.md
+  summary: SUMMARY.md​
 
-redirects:  
-    previous/page: new-folder/page.md
+redirects:
+  previous/page: new-folder/page.md
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -25,9 +27,11 @@ The path to lookup for your documentation defaults to the root directory of the 
 
 {% tabs %}
 {% tab title=".gitbook.yaml" %}
+
 ```yaml
 root: ./docs/
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -37,18 +41,20 @@ root: ./docs/
 
 The structure accepts two properties:‌
 
-* **readme**: Your documentation’s first page. Its default value is `./README.md`
-* **summary**: Your documentation’s table of content. Its default value is `./SUMMARY.md`
+- **readme**: Your documentation’s first page. Its default value is `./README.md`
+- **summary**: Your documentation’s table of content. Its default value is `./SUMMARY.md`
 
-The value of those properties is a path to the corresponding files. The path is relative to the “root” option. For example, here's how you can tell GitBook to look into a `./product` folder for the first page and summary:
+The value of those properties is a path to the corresponding files. The path is relative to the “root” option. For example, here’s how you can tell GitBook to look into a `./product` folder for the first page and summary:
 
 {% tabs %}
 {% tab title=".gitbook.yaml" %}
+
 ```yaml
-structure:  
-    readme: ./product/README.md
-    summary: ./product/SUMMARY.md
+structure:
+  readme: ./product/README.md
+  summary: ./product/SUMMARY.md
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -61,13 +67,13 @@ The `summary` file is a Markdown file (`.md`) that should have the following str
 
 ## Use headings to create page groups like this one​
 
-* [First page's title](page1/README.md)    
-    * [Some child page](page1/page1-1.md)    
+* [First page’s title](page1/README.md)
+    * [Some child page](page1/page1-1.md)
     * [Some other child page](part1/page1-2.md)
 
-* [Second page's title](page2/README.md)    
-    * [Some child page](page2/page2-1.md)    
-    * [Some other child page](part2/page2-2.md)    
+* [Second page’s title](page2/README.md)
+    * [Some child page](page2/page2-1.md)
+    * [Some other child page](part2/page2-2.md)
 
 ## A second-page group​
 
@@ -76,7 +82,7 @@ The `summary` file is a Markdown file (`.md`) that should have the following str
 
 Providing a custom summary file is optional. By default, GitBook will look for a file named `SUMMARY.md` in your `root` folder if specified in your config file, or at the root of the repository otherwise.
 
-If you don't specify a summary, and GitBook does not find a `SUMMARY.md` file at the root of your docs, GitBook will infer the table of contents from the folder structure and the Markdown files below.‌
+If you don’t specify a summary, and GitBook does not find a `SUMMARY.md` file at the root of your docs, GitBook will infer the table of contents from the folder structure and the Markdown files below.‌
 
 {% hint style="info" %}
 The summary markdown file is **a mirror of the** [**table of contents**](https://docs.gitbook.com/getting-started/overview#table-of-contents) of your GitBook space. So even when no summary file is provided during an initial import, GitBook will create one and/or update it whenever you update your content using the GitBook editor.
@@ -101,12 +107,14 @@ With Git, when a file is moved many times, the file is removed and a new one is 
 You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the “root” option. For example, here’s how you can tell GitBook to redirect users accessing a past url `/help` to a new url `/support`
 
 {% code title=".gitbook.yaml" %}
+
 ```yaml
 root: ./
 
-redirects:  
-    help: support.md
+redirects:
+  help: support.md
 ```
+
 {% endcode %}
 
 #### How to redirect on a more complex path:
@@ -114,12 +122,14 @@ redirects:
 Original URL: `https://docs.company.com/help` which has now moved to `https://docs.company.com/misc/support` on GitBook.&#x20;
 
 {% code title=".gitbook.yaml" %}
+
 ```yaml
 root: ./
 
 redirects:
-    help: misc/support.md
+  help: misc/support.md
 ```
+
 {% endcode %}
 
 {% hint style="danger" %}

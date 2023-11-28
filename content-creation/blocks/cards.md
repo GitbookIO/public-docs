@@ -31,14 +31,14 @@ When creating cards, we recommend you use **target links instead of hyperlinks**
 
 The key to great looking cards is editing your images so that they have the same ratio. For example:
 
-* 16:9 (eg. 1920px x 1080px)
-* 4:3 (eg. 1024X768)
-* 1:1 (eg. 500px x 500px)
+- 16:9 (eg. 1920px x 1080px)
+- 4:3 (eg. 1024X768)
+- 1:1 (eg. 500px x 500px)
 
 By using the same ratio for all of your images you can ensure that they will align when displayed on the page. This means that titles and text under images is also aligned, which provides a better reading experience.
 
 #### Card size
 
-You can select the card size by clicking on<img src="../../.gitbook/assets/options_icon" alt="" data-size="line">menu to the left of your card block. The 'Medium' option creates three cards in one horizontal line, while the 'Large' option allows for only two cards to be created.
+You can select the card size by clicking on<img src="../../.gitbook/assets/options_icon" alt="" data-size="line">menu to the left of your card block. The ’Medium’ option creates three cards in one horizontal line, while the ’Large’ option allows for only two cards to be created.
 
 [^1]: cover images can be icons or other small images that will help the reader grasp the content of your card

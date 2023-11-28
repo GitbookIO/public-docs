@@ -10,13 +10,13 @@ You can also add content to your document by launching the inline palette with t
 
 ## Annotations
 
-Annotations allow you to add more context to your text without breaking the reader's train of thought.
+Annotations allow you to add more context to your text without breaking the reader’s train of thought.
 
 <figure><img src="../../.gitbook/assets/annotations.png" alt=""><figcaption><p>Create an annotation.</p></figcaption></figure>
 
 ### Create an annotation
 
-To create an annotation select the word or phrase you would like to annotate, and click the **annotate** option. Once you've written your annotation, click outside of it to continue writing in your main paragraph.
+To create an annotation select the word or phrase you would like to annotate, and click the **annotate** option. Once you’ve written your annotation, click outside of it to continue writing in your main paragraph.
 
 ### Markdown representation
 
@@ -44,15 +44,15 @@ You can add emoji by opening the **inline palette**. Alternatively, type `:` and
 
 You can insert three different types of links:
 
-* [Relative links](inline.md#relative-links)
-* [Absolute links](inline.md#absolute-links)
-* [Email address `mailto` links](inline.md#email-addresses)
+- [Relative links](inline.md#relative-links)
+- [Absolute links](inline.md#absolute-links)
+- [Email address `mailto` links](inline.md#email-addresses)
 
 ## Relative links
 
-Relative links are links created by linking pages that already exist in your content. The advantage of using relative links is that if the page's URL, name, or location changes, its reference will be kept up to date resulting in fewer broken links.
+Relative links are links created by linking pages that already exist in your content. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date resulting in fewer broken links.
 
-Here's how to insert a relative link:
+Here’s how to insert a relative link:
 
 1. Select some text or click somewhere in your paragraph where you want to insert the link.
 2. Wait for the inline palette to appear.
@@ -69,7 +69,7 @@ Absolute links are for external links.
 External links will always open in a new tab.
 {% endhint %}
 
-Here's how to insert an absolute link:
+Here’s how to insert an absolute link:
 
 1. Select some text or click somewhere in your paragraph where you want to insert the link.
 2. Wait for the inline palette to appear.
@@ -81,7 +81,7 @@ Here's how to insert an absolute link:
 
 Email address `mailto` links are useful when you want your visitors to click on a link that will open up their default email client, fill in `TO` with the email address of your link, and allow them to write an email to send out.
 
-Here's how to insert an email address `mailto` link:
+Here’s how to insert an email address `mailto` link:
 
 1. Select some text or click somewhere in your paragraph where you want to insert the link.
 2. Wait for the inline palette to appear.

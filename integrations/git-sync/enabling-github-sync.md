@@ -33,7 +33,7 @@ If you’ve not already done so, you’ll see a prompt to add the GitBook app to
 Select the account and repository you want to keep in sync with your GitBook content.
 
 {% hint style="info" %}
-**Can’t see your repository?** If you can't find your repository in the list, make sure that you've installed the GitBook GitHub app in the right scope (i.e. your personal account or the GitHub org where the repository lives). You should also check that you’ve configured the correct repository access in the GitBook GitHub app.
+**Can’t see your repository?** If you can’t find your repository in the list, make sure that you’ve installed the GitBook GitHub app in the right scope (i.e. your personal account or the GitHub org where the repository lives). You should also check that you’ve configured the correct repository access in the GitBook GitHub app.
 {% endhint %}
 
 Once you’ve selected the correct repository, choose which branch you want commits to be pushed to and synced from.

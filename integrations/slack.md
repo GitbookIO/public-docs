@@ -39,7 +39,7 @@ After installing the Slack integration to GitBook, you’ll see a prompt to auth
 After installing the integration into your Slack workspace, you can use the included Slack commands, or invite the GitBook Slack bot to the channels you’d like to interact with it in, and tag it to ask a question. See the [FAQs](slack.md#faqs) at the bottom to learn more about where you can use the GitBook Slack bot.
 
 {% hint style="info" %}
-You will need to be an admin or a [workspace administrator](https://slack.com/intl/en-gb/help/categories/200122103-Workspace-administration) in Slack to install the GitBook Slack bot into your team's workspace.&#x20;
+You will need to be an admin or a [workspace administrator](https://slack.com/intl/en-gb/help/categories/200122103-Workspace-administration) in Slack to install the GitBook Slack bot into your team’s workspace.&#x20;
 {% endhint %}
 
 ### Adding information to your knowledge base
@@ -100,7 +100,7 @@ You can also ask questions to the GitBook Slack bot in a direct message. After s
 
 When interacting with the GitBook Slack integration, there are a few things to keep in mind:
 
-* The `/gitbook [question]` command does not work in threads. It will only work in public and private channels or direct messages.
-* The `@gitbook save` command does not work in top-level channels or direct messages. It will only work inside threads.
+- The `/gitbook [question]` command does not work in threads. It will only work in public and private channels or direct messages.
+- The `@gitbook save` command does not work in top-level channels or direct messages. It will only work inside threads.
 
 </details>

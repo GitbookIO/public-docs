@@ -20,7 +20,7 @@ To add an expandable block select `⌘ + /` or `Ctrl + /` and select expandable 
 
 <summary>Step 2: Add content to your block</summary>
 
-Once you've inserted an expandable block, you can add content including lists and code blocks within it.
+Once you’ve inserted an expandable block, you can add content including lists and code blocks within it.
 
 </details>
 

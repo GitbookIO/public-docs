@@ -25,9 +25,9 @@ Example of a repository structure:
 
 In this example, 3 spaces can be created on GitBook and configured with different Root directories:
 
-* `packages/styleguide`
-* `packages/app`
-* `packages/api`
+- `packages/styleguide`
+- `packages/app`
+- `packages/api`
 
 The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first is used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
 
@@ -39,7 +39,7 @@ In most cases, we recommend the following step to update the Project directory:
 1. Disable the existing Git Sync
 2. Move the files in the Git repository to the Project directory
 3. Reconfigure the Git Sync with the new Project directory
-{% endhint %}
+   {% endhint %}
 
 In some cases, you might have started with a typical repository synchronizing with only one space, but then decided to transition into a monorepo with multiple spaces synchronizing with it; or might have to rename the Project directory.
 
@@ -47,7 +47,7 @@ Changing the Project directory on an existing Git Sync can have an unexpected im
 
 #### **If the next operation is an import from the Git repository**:
 
-GitBook will expect to find the pages and files in the Project directory. If the files have not already been moved into the repository's Project directory, the result of the synchronization would be an empty space with no content.
+GitBook will expect to find the pages and files in the Project directory. If the files have not already been moved into the repository’s Project directory, the result of the synchronization would be an empty space with no content.
 
 We recommend having the next operation to be a commit moving all GitBook-related files (markdown files, README/SUMMARY, and assets) in the repository to their correct new location, in the Project directory.
 

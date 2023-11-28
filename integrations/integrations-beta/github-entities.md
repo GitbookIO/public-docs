@@ -31,11 +31,11 @@ The GitHub Entities integration for GitBook allows you to synchronize repositori
 
 The GitHub integration will analyze repositories for:
 
-* issues
-* pull requests
-* releases
-* comments
-* general metadata.
+- issues
+- pull requests
+- releases
+- comments
+- general metadata.
 
 After indexing a repository, GitBook AI will index this information in your knowledge base, and use it to answer questions from you and your team — adding context to existing data.
 
@@ -51,7 +51,7 @@ To configure the GitHub Entities integration, you’ll need to both authenticate
 
 2. **Install the GitBook Entities app to GitHub**
 
-To configure the GitHub Entities integration correctly, you'll need to [install the GitBook Entities](https://github.com/apps/gitbook-entities/) app into your GitHub Account.
+To configure the GitHub Entities integration correctly, you’ll need to [install the GitBook Entities](https://github.com/apps/gitbook-entities/) app into your GitHub Account.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-11 at 13.34.45.png" alt=""><figcaption><p>Install the GitBook Entities ap to GitHub</p></figcaption></figure>
 
@@ -63,7 +63,7 @@ To configure the GitHub Entities integration correctly, you'll need to [install 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-11 at 13.36.09.png" alt=""><figcaption><p>Authenticate your GitHub account</p></figcaption></figure>
 
-5. **Select your account in the GitBook integration's configuration**
+5. **Select your account in the GitBook integration’s configuration**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-11 at 15.35.42.png" alt=""><figcaption><p>Select your GitHub account</p></figcaption></figure>
 
@@ -72,7 +72,7 @@ GitHub Entities will index any and all of the repositories you grant it access t
 {% endhint %}
 
 {% hint style="warning" %}
-You may need to refresh the GitBook page after authenticating in order to see and  select your repositories to index.
+You may need to refresh the GitBook page after authenticating in order to see and select your repositories to index.
 {% endhint %}
 
 ### FAQ
@@ -84,4 +84,3 @@ You may need to refresh the GitBook page after authenticating in order to see an
 This could be because your GitHub account is not properly authenticated in your GitBook space. Head to the configuration section for the GitHub Entities integration and try to authenticate your user account again.
 
 </details>
-

@@ -2,7 +2,7 @@
 
 ## Trials
 
-The free trial gives you the opportunity to test GitBook's features, start onboarding your team, and create your content. Please feel free to [reach out to our team](../../help-and-faq/faq/support.md) with any questions you have during this period!
+The free trial gives you the opportunity to test GitBook’s features, start onboarding your team, and create your content. Please feel free to [reach out to our team](../../help-and-faq/faq/support.md) with any questions you have during this period!
 
 ### How do I start a free trial?
 
@@ -20,7 +20,7 @@ No! We do not ask for any payment information during your free trial. If you dec
 
 <summary>How can I check the time remaining on my free trial?</summary>
 
-Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization's settings page. From there, click on the **plans** tab. You will see a banner on the plans page that tells you how many days remain on your free trial.
+Click on the settings ![](../../.gitbook/assets/settings.png) icon, which is located at the bottom of the sidebar, then click on **\[organization name] settings**. This will take you to the general tab of that organization’s settings page. From there, click on the **plans** tab. You will see a banner on the plans page that tells you how many days remain on your free trial.
 
 </details>
 
@@ -44,7 +44,7 @@ After the trial, the Plus plan will be cancelled and the organization will be do
 
 <summary>Can I extend my free trial?</summary>
 
-If you have a **large organization** and you are interested in the **Pro** or **Enterprise** plan, we'd love to offer you some more time to onboard your team! 😊 Please get in touch via [sales@gitbook.com](mailto:sales@gitbook.com) and we'll go through some requirements.
+If you have a **large organization** and you are interested in the **Pro** or **Enterprise** plan, we’d love to offer you some more time to onboard your team! 😊 Please get in touch via [sales@gitbook.com](mailto:sales@gitbook.com) and we’ll go through some requirements.
 
 </details>
 
@@ -52,7 +52,7 @@ If you have a **large organization** and you are interested in the **Pro** or **
 
 ### What payment methods do you accept?
 
-We use Stripe's localized payment methods in an effort to support the most common payment methods for our users globally. You will be able to view the options supported in your geography in the checkout flow when you upgrade your account. Credit cards (Visa, Amex, Mastercard) are supported across all geographies.
+We use Stripe’s localized payment methods in an effort to support the most common payment methods for our users globally. You will be able to view the options supported in your geography in the checkout flow when you upgrade your account. Credit cards (Visa, Amex, Mastercard) are supported across all geographies.
 
 ### Can I change my billing method to invoicing?
 
@@ -67,22 +67,21 @@ Please head to the organization settings page, and then click on the billing tab
 {% hint style="warning" %}
 Please ensure your billing information is correct _**before**_ you pay for a subscription. \
 
-
 We are unable to change details on already paid invoices.
 {% endhint %}
 
 ### Why is there a platform fee in the Pro plan?
 
-The **monthly** platform fee gives you access to many features that aren't available on the Free and Plus plans (like SAML SSO and Visitor Authentication). It also allows us to keep the per-user price lower so that it's easier to scale knowledge sharing across your team. If you're not sure about choosing the Pro plan, we designed the Free and Plus plans to make it easy and affordable to get started with GitBook and only upgrade when you are ready.
+The **monthly** platform fee gives you access to many features that aren’t available on the Free and Plus plans (like SAML SSO and Visitor Authentication). It also allows us to keep the per-user price lower so that it’s easier to scale knowledge sharing across your team. If you’re not sure about choosing the Pro plan, we designed the Free and Plus plans to make it easy and affordable to get started with GitBook and only upgrade when you are ready.
 
-The platform fee is flat, which means it _doesn't_ go up as you add more users to your organization.
+The platform fee is flat, which means it _doesn’t_ go up as you add more users to your organization.
 
 ### When I invite a new member to my GitBook organization, when will I be charged?
 
-GitBook's pricing is based on the number of members in an organization, and our [pro rata billing policy](billing-policy.md) helps to ensure that you pay for the correct usage. For monthly plans, you can add or remove members at any time and the change to your bill will be included on your next monthly invoice. For yearly plans, the same applies — however, if your pending charges exceed a certain amount, we'll invoice straight away. (There are more details on the specifics of that in our [billing policy](billing-policy.md).)
+GitBook’s pricing is based on the number of members in an organization, and our [pro rata billing policy](billing-policy.md) helps to ensure that you pay for the correct usage. For monthly plans, you can add or remove members at any time and the change to your bill will be included on your next monthly invoice. For yearly plans, the same applies — however, if your pending charges exceed a certain amount, we’ll invoice straight away. (There are more details on the specifics of that in our [billing policy](billing-policy.md).)
 
 {% hint style="warning" %}
-It is important to note that you _**won't**_ go through _**another checkout process**_ when adding a new member to your organization.
+It is important to note that you _**won’t**_ go through _**another checkout process**_ when adding a new member to your organization.
 {% endhint %}
 
 ### **Are users with guest or reader permissions paid?**
@@ -107,7 +106,7 @@ As per our [terms of service](https://policies.gitbook.com/terms), we do not off
 
 ### Does GitBook offer a discount for non-profit/open-source organizations?
 
-We don't offer a discount, but we _do_ offer two options:
+We don’t offer a discount, but we _do_ offer two options:
 
 1. Our free **Personal** plan should suit many non-profit/open-source organizations.
 2. For any organizations that need to collaborate on their docs with others _and_ who meet [our criteria](../plans/apply-for-the-non-profit-open-source-plan.md), we offer an **OSS** plan. [Click here for more information](../plans/apply-for-the-non-profit-open-source-plan.md).
@@ -118,7 +117,7 @@ You can get 2 months free by subscribing to our annual plan! We do not offer any
 
 ### Can I receive my receipts via email?
 
-GitBook's billing is powered by Stripe, and you can access and download invoices directly from the billing tab in your organization's settings. You can update your details any time there as well.
+GitBook’s billing is powered by Stripe, and you can access and download invoices directly from the billing tab in your organization’s settings. You can update your details any time there as well.
 
 ### If I subscribe to a paid plan, can I remove the "Powered by GitBook" link from my published documentation?
 

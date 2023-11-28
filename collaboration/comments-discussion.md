@@ -18,11 +18,11 @@ Any top-level comment in GitBook can be replied to, turning it into a discussion
 
 ### Reacting to comments
 
-You can also leave an emoji reaction on any comment by clicking the emoji button on the message or thread you'd like to react to.
+You can also leave an emoji reaction on any comment by clicking the emoji button on the message or thread you’d like to react to.
 
 ## Resolving comments
 
-If you're done working through a comment thread or idea, you can **resolve** a comment at any time. Resolving a comment will hide it in the interface, but still keep it accessible in the 'Resolved' tab of the space's comments section.
+If you’re done working through a comment thread or idea, you can **resolve** a comment at any time. Resolving a comment will hide it in the interface, but still keep it accessible in the ’Resolved’ tab of the space’s comments section.
 
 <figure><img src="../.gitbook/assets/comments-resolved.png" alt=""><figcaption><p>Resolve comments in GitBook.</p></figcaption></figure>
 

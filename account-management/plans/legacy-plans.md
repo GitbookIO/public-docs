@@ -6,7 +6,7 @@ description: Learn about the differences between our current and legacy plans.
 
 ### Legacy plans
 
-If you're subscribed to one of our legacy (**Team** or **Business**) plans, you have two options. You can:
+If you’re subscribed to one of our legacy (**Team** or **Business**) plans, you have two options. You can:
 
 1. Remain subscribed to the legacy plan; or
 2. Switch to one of our new and improved pricing plans. If you choose this option, it will _not_ be possible to revert back to a legacy pricing plan later.

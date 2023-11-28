@@ -16,7 +16,7 @@ All members can access and manage their personal account settings.
 
 ### How to access your personal account settings
 
-Click on the **settings** icon, then click on **personal settings**. This will take you to the account tab of your personal settings, and you'll see additional tabs containing further settings on the left-hand side.
+Click on the **settings** icon, then click on **personal settings**. This will take you to the account tab of your personal settings, and you’ll see additional tabs containing further settings on the left-hand side.
 
 <details>
 
@@ -28,7 +28,7 @@ You can update your profile picture and your full name.
 
 **Login details**
 
-You can update the email address and password used to log into your GitBook account. **Note:** if you created your account on or after October 9th 2021, your account does not have a password and you'll instead use a magic link to sign in.
+You can update the email address and password used to log into your GitBook account. **Note:** if you created your account on or after October 9th 2021, your account does not have a password and you’ll instead use a magic link to sign in.
 
 **Third-party login**
 
@@ -83,7 +83,7 @@ On this page you can manage and create access tokens for the [GitBook API](https
 
 ### **How can I reset my password?**
 
-Please note, that if your account was created after October 10th 2021, it doesn't have a password. You should be able to log in by requesting a magic link:
+Please note, that if your account was created after October 10th 2021, it doesn’t have a password. You should be able to log in by requesting a magic link:
 
 1. Visit [https://app.gitbook.com](https://app.gitbook.com)
 2. Enter the email address associated with the personal account you signed up for

@@ -6,7 +6,7 @@ While manually managing your organization members is fine for smaller teams or f
 
 When you create or manage your organisation, you can add a list of email domains that you want to allow to access your GitBook organization. This means that anyone with a verified email address that matches your configured SSO domains will be allowed to join your organization.
 
-You can enable email domain SSO in the 'SSO' section of your organization settings; enter a comma-separated list of email domains you'd like to allow SSO access for and you're good to go.
+You can enable email domain SSO in the ’SSO’ section of your organization settings; enter a comma-separated list of email domains you’d like to allow SSO access for and you’re good to go.
 
 <figure><img src="../../.gitbook/assets/sso.png" alt=""><figcaption><p>Set up SSO for your organization.</p></figcaption></figure>
 
