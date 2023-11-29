@@ -133,6 +133,7 @@
   * [Guide: Directory Sync using the GitBook API](help-and-faq/faq/guide-directory-sync-using-the-gitbook-api.md)
 * [Keyboard shortcuts](help-and-faq/keyboard-shortcuts.md)
 * [Changelog](https://changelog.gitbook.com/)
+* [Developer Documentation](https://developer.gitbook.com/)
 
 ## Policies
 
