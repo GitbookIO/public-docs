@@ -20,7 +20,7 @@ To create an annotation select the word or phrase you would like to annotate, an
 
 ### Markdown representation
 
-Content written as Markdown footnotes will be added as annotations.
+Content written as [Markdown footnotes](https://www.markdownguide.org/extended-syntax/#footnotes) will be added as annotations.
 
 ## Images
 
@@ -91,7 +91,7 @@ Here’s how to insert an email address `mailto` link:
 
 ## Math & TeX
 
-You can create an inline math formula like this: $$f(x) = x * e^{2 pi i \xi x}$$
+You can create an inline math formula like this: $$f(x) = x * e^{2 pi i \xi x}$$. We use the [KaTeX](https://katex.org/docs/supported.html) library to render formulas.
 
 {% hint style="info" %}
 You can also insert a block-level math formula directly from the [**command palette**](../blocks/#math-equation).

@@ -23,3 +23,19 @@ Here are the instructions for macOS
 Here are the instructions for Linux
 {% endtab %}
 {% endtabs %}
+
+### Representation in Markdown
+
+```markdown
+{% raw %}
+{% tabs %}
+
+{% tab title="Windows" %} Here are the instructions for Windows {% endtab %}
+
+{% tab title="OSX" %} Here are the instructions for macOS {% endtab %}
+
+{% tab title="Linux" %} Here are the instructions for Linux {% endtab %}
+
+{% endtabs %}
+{% endraw %}
+```

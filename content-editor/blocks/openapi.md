@@ -21,7 +21,7 @@ GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob
 Once you have an OpenAPI compliant representation of your API, you can use it in your documentation.
 
 1. **Create a new OpenAPI block using the insert palette.**
-2. **Add your OpenAPI specification**:
+2. **Add your OpenAPI specification, choosing between one of the following options**:
    1. Upload your OpenAPI formatted file
    2. Provide a URL to your publicly available OpenAPI file.
 
@@ -37,7 +37,7 @@ To change the operation that your swagger block is showing, use the "Choose API 
 
 4. Show more than one operation
 
-Chances are good that your API has more than one operation that you’ll want to document. Each OpenAPI block shows one API operation. In order to show multiple API operations, you can create an extra OpenAPI block per operation, backed by the same OpenAPI specification file.
+Your API is likely to have more than one operation that you'll want to document. Each OpenAPI block shows one API operation. In order to show multiple API operations, you can create an extra OpenAPI block per operation, backed by the same OpenAPI specification file.
 
 ### Update your specification
 

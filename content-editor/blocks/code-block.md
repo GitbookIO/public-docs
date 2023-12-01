@@ -63,12 +63,12 @@ greeting.("Anna")
 {% endtabs %}
 
 {% hint style="info" %}
-You can now convert code blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert code blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="Block handle" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 ### Options
 
-#### Set syntax...
+#### Set syntax
 
 You can set the syntax to any of the supported languages and that will enable syntax highlighting in that language.
 

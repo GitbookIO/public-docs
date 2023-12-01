@@ -2,13 +2,13 @@
 description: Keep your content up to date by seeing what needs to be updated
 ---
 
-# Insights (alpha)
+# Insights
 
 Content insights give you a birds-eye view of all of the content you have in your organization — whether it’s your documentation, internal knowledge base, or another form of knowledge.&#x20;
 
 It’s split up into different sections — **content audit**, **content scores** and **search analytics**.&#x20;
 
-### Content audit
+### Content audit (alpha)
 
 Content audit lets you keep your knowledge up to date by comparing the information in your knowledge base against multiple other internal sources.&#x20;
 
@@ -18,6 +18,14 @@ For example, if there are inconsistencies between two pages in a published space
 
 <figure><img src="../.gitbook/assets/content-insights.png" alt=""><figcaption><p>In the <strong>Content audit</strong> tab you can quickly see pages with contradictory or duplicated information, and fix the errors.</p></figcaption></figure>
 
+{% hint style="info" %}
+**Alpha notice:** While in the alpha period, content audits are available on all pricing plans. This will change in the future, and you'll be informed before the feature reaches General Availability.
+
+We will use this period to analyze and improve the quality of the audits so they're increasingly relevant to your content.
+
+If you notice anything relevant, make sure to [share your feedback](https://survey.refiner.io/e61q1m-dz5gpn) with us!
+{% endhint %}
+
 ### Content scores
 
 Content scores give you a high-level representation of how your users rate your content. After enabling [page rating](../published-documentation/customization/space-customization.md#page-rating) in the **Customize** menu for a space, you can see each page’s average feedback rating here.&#x20;
@@ -25,6 +33,16 @@ Content scores give you a high-level representation of how your users rate your 
 Use the drop down menu on the right of the search bar to select the space you want to view. You can then hover over the average rating to see how many positive, neutral and negative ratings a specific page has.
 
 If you want to use or analyze this data further outside of GitBook, click **Download CSV** to download a `.csv` file to your device.&#x20;
+
+#### How does GitBook calculate content scores?
+
+GitBook uses a simple formula to calculate the page’s overall score:
+
+`no. of ratings * (no. of positives - [0.5 * no. of neutrals] - [2 * no. of negatives])`
+
+The goal of the content score is to surface the pages with the most feedback, with a bias towards negative ratings so you can see pages that need improvements. The more ratings a page has, the more the formula amplifies the sentiments of those ratings. This helps you spot pages that need attention, as well as pages that are highly-rated — to help you identify, iterate on and replicate your best content.&#x20;
+
+We cap the score at 500 (and -500) to avoid scores for commonly-rated pages reaching 10,000+.
 
 {% hint style="info" %}
 **Why can’t I see any data for my space?** \
@@ -47,9 +65,9 @@ If you want to use or analyze this data further outside of GitBook, click **Down
 
 You’ll get information on:
 
-`pageHits`: Total number of pages matching the search term/query.
+`pageHits`: Total number of pages (title and description) matching the search term/query .
 
-`sectionHits`: Total number of sections matching the search term/query.
+`sectionHits`: Total number of sections (contents of the pages) matching the search term/query.
 
 {% hint style="info" %}
 **Why can’t I see any data for my space?** \

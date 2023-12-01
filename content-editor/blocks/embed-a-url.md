@@ -6,10 +6,8 @@ description: Add an embedded url to a page
 
 To add an embed, simply paste the link of the content you want to embed and press the enter key!&#x20;
 
-Note that&#x20;
-
 {% hint style="info" %}
-The content you wish to embed must be publicly available in order for GitBook to access the file. For example, when embedding a Google doc, the share link that you paste into GitBook must be set to 'Anyone with the link'.
+Note that the content you wish to embed must be publicly available in order for GitBook to access the file. For example, when embedding a Google doc, the share link that you paste into GitBook must be set to '_Anyone with the link_'.
 {% endhint %}
 
 ### Videos

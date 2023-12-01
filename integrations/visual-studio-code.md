@@ -22,9 +22,9 @@ layout:
 
 # Visual Studio Code (alpha)
 
-The GitBook Visual Studio Code integration allows you to collect, review, and share information to and from your company’s knowledge base. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
+The GitBook Visual Studio Code integration allows you to collect, and share information to and from your company’s knowledge base. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
 
-GitBook AI will summarize information that you or your team add to your knowledge base, turning a series of captures into a context-rich document. And when you or a colleague need to learn more about something you’ve saved, you can ask GitBook AI and get a plain-text summary, with all the background needed to dive in deeper.
+GitBook AI will summarize information that you or your team add to your knowledge base, turning your actions and narration into [a snippet](../snippets-and-insights/snippets-beta.md). And when you or a colleague need to learn more about something you’ve saved, you can ask GitBook AI and get a plain-text summary, with all the background needed to dive in deeper.
 
 ### Installation & configuration
 
@@ -44,7 +44,7 @@ After you have your token, you can add it to Visual Studio Code via the Command 
 
 #### 2. Select your GitBook organization
 
-After saving your personal access token, you’ll need to choose the organization that you’d like to add your [captures](visual-studio-code.md#what-is-a-capture) to.
+After saving your personal access token, you’ll need to choose the organization that you’d like to add your [snippets](../snippets-and-insights/snippets-beta.md) to.
 
 In the Command Palette, you can choose an organization under the **GitBook: Switch Organization** option. If you’re only part of one organization, it’ll already be selected for you.
 
@@ -57,3 +57,7 @@ You can add knowledge to GitBook by capturing your voice and actions in Visual S
 Using the GitBook VS Code extension, you can ask contextual questions in the side panel to access your team’s knowledge. This section also contains a list of recent snippets by people on your team, so you can quickly see what others are saving to your team’s knowledge base from VS Code.
 
 To summon information, simply open the GitBook panel and type your query into the search bar. You’ll get a summarized result based on information in your GitBook organization.
+
+{% hint style="info" %}
+This feature requires [GitBook AI Search (beta)](../content-editor/searching-your-content/lens.md) to be enabled for your organization.
+{% endhint %}

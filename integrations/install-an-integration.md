@@ -22,7 +22,7 @@ In the **Integrations** menu, you’ll see a list of all the integrations availa
 
 #### 3. Select the integration and install
 
-Next, click on the integration you want to install on the space (e.g Slack).
+Next, click on the integration you want to install on the space (e.g Plausible).
 
 This will open up the integration’s installation screen. Click **Install** to connect it to your space.
 

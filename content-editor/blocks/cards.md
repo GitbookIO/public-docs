@@ -14,7 +14,7 @@ You can select large or medium-sized cards and link them to the relevant resourc
 
 ### Adding links and images to your cards
 
-By clicking on the <img src="../../.gitbook/assets/icon_add_card_options.png" alt="" data-size="line"> symbol you can add a target link (recommended), add [cover images](#user-content-fn-1)[^1] or delete the card completely.
+By clicking on the <img src="../../.gitbook/assets/icon_add_card_options.png" alt="Context menu" data-size="line"> symbol you can add a target link (recommended), add [cover images](#user-content-fn-1)[^1] or delete the card completely.
 
 {% hint style="success" %}
 When creating cards, we recommend you use **target links instead of hyperlinks**. Target links will ensure that the reader is redirected to the intended destination, regardless of where they click within the card.
@@ -30,6 +30,6 @@ By using the same ratio for all of your images you can ensure that they will ali
 
 #### Card size
 
-You can select the card size by clicking on<img src="../../.gitbook/assets/options_icon" alt="" data-size="line">menu to the left of your card block. The 'Medium' option creates three cards in one horizontal line, while the 'Large' option allows for only two cards to be created.
+You can select the card size by clicking on the<img src="../../.gitbook/assets/options_icon" alt="Context menu" data-size="line">button to the left of your card block. The '<mark style="color:green;">Medium</mark>' option creates three cards in one horizontal line, while the '<mark style="color:green;">Large</mark>' option allows for only two cards to be created.
 
 [^1]: cover images can be icons or other small images that will help the reader grasp the content of your card

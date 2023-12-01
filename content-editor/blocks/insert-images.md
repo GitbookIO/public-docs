@@ -13,7 +13,7 @@ Image blocks can display a gallery of images, like this:
 ![A photo of books at a library](https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw2fHxib29rc3xlbnwwfHx8fDE2Mjg3NTIwNzY&ixlib=rb-1.2.1&q=85)
 
 {% hint style="info" %}
-You can now convert image blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert image blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="Block handle" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 ### Light & Dark mode
@@ -125,6 +125,15 @@ If you are looking to embed external content into your pages, take a look at how
 //Block with Caption and Alt text
 
 <figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
+
+//Block with different image for dark and light mode, with caption
+<figure>
+  <picture>
+    <source srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" media="(prefers-color-scheme: dark)">
+    <img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png" alt="GitHub logo">
+  </picture>
+  <figcaption>Caption text</figcaption>
+</figure>
 ```
 
 ### Limits

@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Developer docs](https://developer.gitbook.com)
 * [Welcome](README.md)
 
 ## Content Editor
@@ -49,7 +50,7 @@
 
 * [Overview](snippets-and-insights/overview.md)
 * [Snippets (beta)](snippets-and-insights/snippets-beta.md)
-* [Insights (alpha)](snippets-and-insights/insights.md)
+* [Insights](snippets-and-insights/insights.md)
 
 ## Integrations
 
@@ -130,9 +131,9 @@
   * [Match the UI to the language of your content](help-and-faq/faq/internationalization.md)
   * [Content creation FAQ](help-and-faq/faq/content-creation-faq.md)
   * [Security FAQs](help-and-faq/faq/faqs.md)
-  * [Guide: Directory Sync using the GitBook API](help-and-faq/faq/guide-directory-sync-using-the-gitbook-api.md)
 * [Keyboard shortcuts](help-and-faq/keyboard-shortcuts.md)
 * [Changelog](https://changelog.gitbook.com/)
+* [Developer Documentation](https://developer.gitbook.com/)
 
 ## Policies
 
