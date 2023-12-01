@@ -47,7 +47,7 @@ From the table of contents you can:
 
 <figure><img src="../../.gitbook/assets/header.png" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
 
-The space header contains information about the space you’re currently viewing. It lets you do things like [publish and share](../../published-documentation/overview.md) your space, configure [GitHub or GitLab sync](../../integrations/git-sync/), and more more.&#x20;
+The space header contains information about the space you’re currently viewing. It lets you do things like [publish and share](../../published-documentation/overview.md) your space, configure [GitHub or GitLab sync](../../integrations/git-sync/), and more.&#x20;
 
 {% hint style="info" %}
 The space header & sub-navigation may look different depending on the mode you’re currently in. See [change requests](change-requests.md) for more info.&#x20;

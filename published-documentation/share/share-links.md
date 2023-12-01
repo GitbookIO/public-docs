@@ -16,7 +16,7 @@ You can share you content privately with customers or partners without needing t
 
 <figure><img src="../../.gitbook/assets/share-links (1).png" alt=""><figcaption><p>Share your GitBook Space privately through Share Links.</p></figcaption></figure>
 
-To publish with share link(s), open the space or collection you want to share in GitBook. Open the share menu and select **share to an audience**.
+To publish with share links, open the space or collection you want to share in GitBook. Open the share menu and select **share to an audience**.
 
 Next, click on **publish with share links** to access your share links. You'll be able to review and name your share links, customize the UR and copy the links.&#x20;
 

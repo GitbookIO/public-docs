@@ -44,7 +44,7 @@ External links are simply links to external sites and resources. Adding a link d
 
 <figure><img src="../../../.gitbook/assets/new-page.png" alt=""><figcaption><p>You can create a new page or page group from table of contents.</p></figcaption></figure>
 
-When in [live edit](../live-edits.md) mode, you can create a new page by clicking **New page** > **New document page** at the bottom of your table of contents.&#x20;
+When in [live edit](../live-edits.md) mode or in a [change request](../change-requests.md), you can create a new page by clicking **New page** > **New document page** at the bottom of your table of contents.&#x20;
 
 Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
 

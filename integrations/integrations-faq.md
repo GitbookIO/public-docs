@@ -16,15 +16,13 @@ Our integration platform is currently available to anyone with a GitBook account
 
 ## Can I request an integration?
 
-Yes! We have an integration request form you can submit [here](https://survey.refiner.io/e61q1m-dp057m). Additionally, you can always head to our [GitBook community](https://github.com/GitbookIO/community) to chat with others about what you’d like to see in GitBook.
+Yes! You can [submit an integration request using this form](https://survey.refiner.io/e61q1m-dp057m). Additionally, you can always head to our [GitBook community](https://github.com/GitbookIO/community) to chat with others about what you’d like to see in GitBook.
 
 ## Can I customize GitBook using CSS, JavaScript or other programming languages?
 
-Right now, it’s not possible to customize your GitBook as you may have seen or heard about in the past. In an earlier and open-sourced version of GitBook this was possible, but with the current version, this functionality was removed.
+Right now, it’s not possible to customize your GitBook site as you may have seen or heard about in the past. In an earlier and open-sourced version of GitBook this was possible, but with the current version, this functionality was removed.
 
-You can read more about the launch of GitBook 3.0 [here](https://blog.gitbook.com/product-updates/gitbook-3.0-document-everything-from-start-to-ship).
-
-We’d like to make GitBook fit into your current workflows, whether you’re using Python, Java, Docker, React, or something entirely different. Right now, we’re exploring new ways to allow you to customize your GitBook experience further (including the use of the integrations platform mentioned above), while giving you a similar experience you might have had with our previous plugin ecosystem or `book.json` workflow.
+You can [read more about this change here](https://www.gitbook.com/blog/gitbook-3-0-document-everything-from-start-to-ship).
 
 ## What happened to GitBook’s CLI tool?
 

@@ -1,5 +1,6 @@
 # Table of contents
 
+* [Developer docs](https://developer.gitbook.com)
 * [Welcome](README.md)
 
 ## Content Editor
@@ -49,7 +50,7 @@
 
 * [Overview](snippets-and-insights/overview.md)
 * [Snippets (beta)](snippets-and-insights/snippets-beta.md)
-* [Insights (alpha)](snippets-and-insights/insights.md)
+* [Insights](snippets-and-insights/insights.md)
 
 ## Integrations
 

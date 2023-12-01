@@ -10,12 +10,31 @@ An API Method block is used to manually document an HTTP API endpoint.
 
 {% swagger method="get" path="/user" baseUrl="https://api.example.com/v1" summary="Get a user" %}
 {% swagger-description %}
-Use this method to get information about a user
+Use this method to get information about a user.
 {% endswagger-description %}
+
+{% swagger-parameter in="path" name="id" type="String" %}
+ID of the user to lookup
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="User details" %}
+```json
+{
+  "id": "eoziwgldfkj18239J30kd1Dj",
+  "email": "user@example.com",
+  "firstName": "Happy",
+  "lastName": "User"
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="Invalid ID provided" %}
+
+{% endswagger-response %}
 {% endswagger %}
 
 {% hint style="info" %}
-You can now convert the API blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can now convert the API blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="Block handle" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
 {% endhint %}
 
 #### Please also check:

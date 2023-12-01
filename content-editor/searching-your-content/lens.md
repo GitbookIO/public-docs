@@ -10,7 +10,7 @@ Simply tell GitBook AI what you want, or ask it a question. It’ll use AI to sc
 
 ### Which GitBook plans include GitBook AI?
 
-While GitBook AI is in open alpha, it is available at no additional cost on **all plans**!
+While GitBook AI is in open beta, it is available at no additional cost on **all plans** during that time!
 
 In future, we plan to incorporate GitBook AI into our **Pro and Enterprise plans**, but we'll let you know before that happens.
 
@@ -54,7 +54,7 @@ With our API, you can embed GitBook AI into your product or website! This opens 
 
 #### How long does it take for changes to be indexed by GitBook AI?
 
-When a change is made to your content (say, a merged change request or a new Slack knowledge snippet) it can take up to one hour for the new changes to be indexed by GitBook and reflected in AI search results.
+When a change is made to your content (a merged change request or a new Slack knowledge snippet) it can take **up to one hour** for the new changes to be indexed by GitBook and reflected in AI search results.
 
 #### How does GitBook AI handle my data?
 

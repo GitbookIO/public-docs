@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Monorepos
 
 GitBook supports monorepos. A monorepo is a repository that contains more than one logical project (e.g. an iOS client and a web application).

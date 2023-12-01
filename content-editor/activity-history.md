@@ -22,7 +22,7 @@ The change history of a space is where you can specifically see actions that res
 
 ### Viewing historical versions of content
 
-To view past versions of your content and any changes that were made, navigate to the hourglass icon in the top right-hand corner of the space [sub-navigation](editor/navigation.md#space-sub-navigation). You can click on any item in the change history list to view how your content looked at the point this change was made. This is very similar to how [change requests](editor/change-requests.md) are viewed.
+To view past versions of your content and any changes that were made, navigate to the clock icon in the top right-hand corner of the space [sub-navigation](editor/navigation.md#space-sub-navigation). You can click on any item in the change history list to view how your content looked at the point this change was made. This is very similar to how [change requests](editor/change-requests.md) are viewed.
 
 <figure><img src="../.gitbook/assets/history.png" alt=""><figcaption><p>Revision History</p></figcaption></figure>
 
@@ -30,4 +30,6 @@ To view past versions of your content and any changes that were made, navigate t
 
 Rolling back allows you to revert a space's content to a previous point in time. This is helpful if you've accidentally made a breaking change or deleted content and need to quickly get back to a previous version of the space.&#x20;
 
-Admins and creators can click the **rollback** button while viewing a specific history item to roll the space back to this point in time.
+{% hint style="info" %}
+**Permissions:** Admins and creators can click the **rollback** button while viewing a specific history item to roll the space back to this point in time.
+{% endhint %}

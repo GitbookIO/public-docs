@@ -35,7 +35,7 @@ Open a collection and you can click **New collection** from the collection’s m
 To move one collection into another, click **Move collection to…** from the collection's Action menu <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
 
 {% hint style="warning" %}
-**Note:** When you publish the primary collection, nested collections do not show up as variants.
+**Note:** When you publish the primary collection, nested collections do not show up as [variants](../../../published-documentation/share/collection-publishing.md#why-publish-spaces-in-a-collection).
 {% endhint %}
 
 ### How to delete a collection

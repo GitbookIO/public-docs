@@ -13,21 +13,21 @@ By default, GitBook uses the root of the repository as a starting point. A speci
 
 ## GitBook is creating new markdown files <a href="#gitbook-is-creating-new-markdown-files" id="gitbook-is-creating-new-markdown-files"></a>
 
-**When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing one.‌
+**When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overrite files that existed in your repository before.
 
 ## ​My repository is not listed <a href="#my-repository-is-not-listed" id="my-repository-is-not-listed"></a>
 
 ### For GitHub repositories
 
-Make sure that you have installed the GitBook GitHub app to the correct location(s) (when installing the app, you can choose to install it to your personal GitHub, or to any organization you have permissions for) and that you have given the app the correct repository permissions.
+Make sure that you have installed the GitBook GitHub app to the correct locations (when installing the app, you can choose to install it to your personal GitHub, or to any organization you have permissions for) and that you have given the app the correct repository permissions.
 
 ### For GitLab repositories
 
 Make sure that your access token has been configured with the following access:
 
-* api
-* read\_repository
-* write\_repository
+* `api`
+* `read_repository`
+* `write_repository`
 
 ## My folders got duplicated
 
@@ -36,7 +36,9 @@ Make sure that all the folders in your repo are in lowercase. For example, if yo
 ## ​Nothing happens on GitBook after adding a new file to my repository <a href="#nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository" id="nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository"></a>
 
 {% hint style="warning" %}
-**Note:** If your repository does not include a `SUMMARY.md` file, this article is not for you. Note that if you edited your content from GitBook at least once after setting up Git sync, GitBook should have created this file automatically.‌
+**This section specifically addresses problems when a `SUMMARY.md` file already exists**
+
+If your repository does not include a `SUMMARY.md` file, GitBook will automatically create one upon the first sync. This means that if you edited your content from GitBook at least once after setting up Git sync, GitBook should have created this file automatically.‌
 {% endhint %}
 
 If after updating your repository by adding or modifying a markdown file, you do not see the update reflected on GitBook and the sidebar doesn't indicate an error during the sync, your modified file(s) is probably not listed in [your `SUMMARY.md` file](content-configuration.md#summary).‌
@@ -49,7 +51,7 @@ If after ensuring that all your files are included in the `SUMMARY.md` file ther
 
 ## What is the IP address used for Git Sync operations?
 
-Git Sync uses a static IP address for all operations. Having this address could be useful if you'd like to set an extra layer of security to your on-premise instance of GitLab for example. You can whitelist the following IP address `34.136.22.210`
+Git Sync uses a static IP address for all operations. Having this address could be useful if you'd like to set an extra layer of security to your on-premise instance of GitLab for example. You can add the following IP address `34.136.22.210` to your allowlist.
 
 ## Potential duplicated accounts when signing in
 

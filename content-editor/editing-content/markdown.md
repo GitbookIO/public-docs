@@ -30,9 +30,9 @@ We support all the classic inline Markdown formatting:
 
 ## Code blocks
 
-\`\`\``⏎` creates a new code block.
+` ```⏎ ` creates a new code block.
 
-\`\`\``py⏎` creates a new code block with Python syntax highlighting.
+` ```py⏎ ` creates a new code block with Python syntax highlighting.
 
 {% hint style="info" %}
 We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll catch up soon!

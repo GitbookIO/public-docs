@@ -31,14 +31,16 @@ root: ./docs/
 {% endtab %}
 {% endtabs %}
 
+{% hint style="warning" %}
 **All other options that specify paths will be relative to this root folder**. So if you define root as `./docs/` and then `structure.summary` as `./product/SUMMARY.md`, GitBook will actually look for a file in `./docs/product/SUMMARY.md`.‌
+{% endhint %}
 
 ## ​Structure‌ <a href="#structure" id="structure"></a>
 
 The structure accepts two properties:‌
 
-* **readme**: Your documentation’s first page. Its default value is `./README.md`
-* **summary**: Your documentation’s table of content. Its default value is `./SUMMARY.md`
+* **`readme`**: Your documentation’s first page. Its default value is `./README.md`
+* **`summary`**: Your documentation’s table of content. Its default value is `./SUMMARY.md`
 
 The value of those properties is a path to the corresponding files. The path is relative to the “root” option. For example, here's how you can tell GitBook to look into a `./product` folder for the first page and summary:
 
@@ -129,4 +131,4 @@ Please don’t add any leading slashes. For example, `./misc/support.md` will no
 
 ### Troubleshooting
 
-The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. Validating your YAML file can ensure that the redirects will work smoothly.&#x20;
+The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.&#x20;

@@ -22,7 +22,7 @@ To upload a file, select **browse files** and use your system file dialog to sel
 **GitBook allows to upload up to 100MB per file.**
 {% endhint %}
 
-Files can also be uploaded as part of the image block setup flow, and the OpenAPI block setup flow. Upon creation, each of these blocks will open the files panel and have you either select or upload a new file.
+Files can also be uploaded as part of the [image block](insert-images.md) setup flow, and the [OpenAPI block](openapi.md) setup flow. Upon creation, each of these blocks will open the files panel and have you either select or upload a new file.
 
 {% hint style="info" %}
 You can drag images from your file system directly into the editor, or paste a copied image into your content, and they will also appear in the files menu for the respective space.

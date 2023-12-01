@@ -13,7 +13,7 @@ To share a space, click the **share** button in the top-right corner of a space.
 Inside the share modal, you'll see different sharing options on the left-hand side.
 
 {% hint style="info" %}
-The options available to you will depend on your permissions in the space.
+The options available to you will depend on your permissions in the space, as well as your pricing plan.
 {% endhint %}
 
 ### What sharing options are available?
@@ -26,9 +26,11 @@ By default, users within your organization will inherit the permissions assigned
 
 If you want your content to remain private, and shared only with a specific person or group, inviting that person or people to be a member of your organization could be a great choice. They will be able to access the content when they are logged into their GitBook account.
 
-Inviting a member will make them a member of the organization that owns the space, which will increase your overall subscription charge.&#x20;
+{% hint style="warning" %}
+Inviting a member will make them a member of the organization that owns the space, which **will increase your overall subscription charge.**&#x20;
 
 The cost for this will depend on the [plan](../../account-management/plans/) that the organization is subscribed to.
+{% endhint %}
 
 It is also possible to [invite members to the organization ](../../account-management/member-management/invite-members-to-your-organization.md)from within the organization settings area.
 
@@ -48,7 +50,7 @@ In some cases, you might want to publish and share your content with a more spec
 
 #### **Publish in collection**
 
-If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection so you can do things like work on a new version and only publish it when it's ready. Toggle this option to publish the space as part of the collection. You can find out more about collection publishing. See [collection publishing](collection-publishing.md) for more info
+If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection so you can do things like work on a new version and only publish it when it's ready. Toggle this option to publish the space as part of the collection. You can find out more about collection publishing. See [collection publishing](collection-publishing.md) for more info.
 
 {% hint style="info" %}
 This option will only be visible if your collection has been published first.&#x20;

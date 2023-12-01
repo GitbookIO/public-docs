@@ -29,7 +29,7 @@ GitBook AI will summarize information that you or your team add to your knowledg
 ### Installation & Configuration
 
 {% hint style="warning" %}
-If you’ve previously installed the GitBook Slack integration, you’ll need to uninstall and reinstall the integration to get the latest version.
+**If you had installed the GitBook Slack integration prior to October 7th 2023, you’ll need to uninstall and reinstall the integration to get the latest version.**
 {% endhint %}
 
 You can install the Slack integration right from the [integrations page](https://app.gitbook.com/integrations/slack) in GitBook.
@@ -39,7 +39,7 @@ After installing the Slack integration to GitBook, you’ll see a prompt to auth
 After installing the integration into your Slack workspace, you can use the included Slack commands, or invite the GitBook Slack bot to the channels you’d like to interact with it in, and tag it to ask a question. See the [FAQs](slack.md#faqs) at the bottom to learn more about where you can use the GitBook Slack bot.
 
 {% hint style="info" %}
-You will need to be an admin or a [workspace administrator](https://slack.com/intl/en-gb/help/categories/200122103-Workspace-administration) in Slack to install the GitBook Slack bot into your team's workspace.&#x20;
+You need to be a [workspace owner or workspace admin](https://slack.com/intl/en-gb/help/articles/360018112273-Types-of-roles-in-Slack) in Slack to install the GitBook Slack bot into your team’s workspace.&#x20;
 {% endhint %}
 
 ### Adding information to your knowledge base
@@ -48,19 +48,15 @@ You can add information to your team’s knowledge base by calling the GitBook S
 
 #### How to add information using the GitBook Slack bot
 
-Calling `@gitbook save` from within thread will summarize context and data from that thread into your team’s knowledge base.&#x20;
+Calling `@GitBook save` from within thread will summarize context and data from that thread into your team’s knowledge base as [a snippet](../snippets-and-insights/snippets-beta.md).&#x20;
 
 {% hint style="info" %}
-Calling the GitBook bot will work from any thread within a public channel, private channel, or direct message.
+Calling the GitBook bot will work **from any thread** within a public channel, private channel, or direct message.
 {% endhint %}
 
 #### How to add information using the Slack shortcut
 
 You can also add data to your team’s knowledge base using Slack shortcuts. Simply click the **More actions** button from a thread in Slack, click **More message shortcuts…**, and search for the GitBook bot. You can call the shortcut from any message in a thread — the GitBook bot will save the entire thread.
-
-{% hint style="info" %}
-Calling the GitBook bot will work from any thread within a public channel, private channel, or direct message.
-{% endhint %}
 
 ### How to summon GitBook knowledge within Slack
 
@@ -75,12 +71,12 @@ The answer in Slack will only be visible to you — which is useful if you need 
 After GitBook returns your answer, you’ll have the option to share your answer to the channel, if you think the answer is helpful for others.
 
 {% hint style="info" %}
-The Slack command will only work in public channels, private channels, and direct messages. It will not work inside of a thread.
+The Slack command will only work in public channels, private channels, and direct messages. **It will not work inside of a thread.**
 {% endhint %}
 
 #### Using the GitBook Slack bot
 
-You can call the GitBook Slack bot directly with `@gitbook [question]` to receive a **public** answer in any channel or thread.
+You can call the GitBook Slack bot directly with `@GitBook [question]` to receive a **public** answer in any channel or thread.
 
 After asking your question in a channel or thread, everyone that has access to that channel will be able to see it and the answer.
 
@@ -96,11 +92,11 @@ You can also ask questions to the GitBook Slack bot in a direct message. After s
 
 <details>
 
-<summary>Why isn’t the <code>/gitbook [question]</code> or <code>@gitbook save</code> command working in Slack?</summary>
+<summary>Why isn’t the <code>/gitbook [question]</code> or <code>@GitBook save</code> command working in Slack?</summary>
 
 When interacting with the GitBook Slack integration, there are a few things to keep in mind:
 
 * The `/gitbook [question]` command does not work in threads. It will only work in public and private channels or direct messages.
-* The `@gitbook save` command does not work in top-level channels or direct messages. It will only work inside threads.
+* The `@GitBook save` command does not work in top-level channels or direct messages. It will only work inside threads.
 
 </details>

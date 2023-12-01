@@ -72,7 +72,7 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 ### Reviewing a change request
 
-If you get a request to review a change request, you'll be able to edit the content and leave feedback to make sure it's in good shape before it’s merged to the main version. You can either request changes if you think it still needs work, or approve the change request, ready to merge.
+If you get a request to review a change request, you'll be able to edit the content and leave feedback to make sure it's in good shape before it’s merged to the main version. You can either request changes if you think it still needs work, or approve the change request, to signal it's ready to merge.
 
 Most reviews will take place in the change request’s [comments](../../collaboration/comments-discussion.md), where collaborators can share feedback and have discussions about specific content blocks, or the change request as a whole.
 
