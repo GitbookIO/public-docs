@@ -24,7 +24,7 @@ You can find app notifications at the top of the [sidebar](../content-editor/edi
 Notification retention policy: we currently keep all notifications forever, but could change that in the future.
 {% endhint %}
 
-Within the notifications pop-up, you'll see two icons in the top-right corner. You can either mark all of your notifications as read, or head to your notification settings to update your preferences.
+Within the notifications pop-up, you’ll see two icons in the top-right corner. You can either mark all of your notifications as read, or head to your notification settings to update your preferences.
 
 ## Email notifications
 
@@ -34,21 +34,21 @@ These email will appear to be sent from `no-reply@gitbook.io via sendgrid.net`
 
 ### Possible issues
 
-As with all email delivery, there's a chance that you might not receive the email. Possible reasons include but are not limited to:
+As with all email delivery, there’s a chance that you might not receive the email. Possible reasons include but are not limited to:
 
-* Our email ends up in your spam folder or caught by another protection mechanism.
-* Emails sent from GitBook to your email address have bounced many times, and therefore further sending has been automatically blocked by our mail service.
-* There could be a temporary delivery problem that will resolve on its own.
-* A wrong expectation about the notifications you should be receiving.
-* A wrong expectation about the email address to which we would be sending the notification.
+- Our email ends up in your spam folder or caught by another protection mechanism.
+- Emails sent from GitBook to your email address have bounced many times, and therefore further sending has been automatically blocked by our mail service.
+- There could be a temporary delivery problem that will resolve on its own.
+- A wrong expectation about the notifications you should be receiving.
+- A wrong expectation about the email address to which we would be sending the notification.
 
 If you think you might be running into any of these issues, here are some things you can try:
 
-* Check your spam or other protection mechanism and make sure our email address (`no-reply@gitbook.io`) is not blocked on your end.
-* Wait it out if you are aware of any temporary issue with your mail provider.
-* Check [your settings](https://app.gitbook.com/account/notification) to ensure that you have enabled email notifications for the type of notification you are expecting.
-* Make sure you are checking the correct email address. You can see the email address of your personal account in [your account settings](https://app.gitbook.com/account).
-* [Contact support](../help-and-faq/faq/support.md) if all other things fail. If you do, please make sure to include as much information as possible. For example, this might include the email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact details of what you feel should have triggered that notification for you. Please include links to anything relevant, as well.
+- Check your spam or other protection mechanism and make sure our email address (`no-reply@gitbook.io`) is not blocked on your end.
+- Wait it out if you are aware of any temporary issue with your mail provider.
+- Check [your settings](https://app.gitbook.com/account/notification) to ensure that you have enabled email notifications for the type of notification you are expecting.
+- Make sure you are checking the correct email address. You can see the email address of your personal account in [your account settings](https://app.gitbook.com/account).
+- [Contact support](../help-and-faq/faq/support.md) if all other things fail. If you do, please make sure to include as much information as possible. For example, this might include the email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact details of what you feel should have triggered that notification for you. Please include links to anything relevant, as well.
 
 ## Notification settings
 
@@ -58,8 +58,8 @@ For both app and email notifications, [you can configure](https://app.gitbook.co
 
 We currently offer notifications for the following areas:
 
-* Spaces and collections
-* Change requests
-* Comments
-* Mentions
-* Organizations
+- Spaces and collections
+- Change requests
+- Comments
+- Mentions
+- Organizations

@@ -10,7 +10,7 @@ All user data and content is stored in the US on [Google Cloud](https://cloud.go
 
 Customer data is stored in U.S. data centers. Some data (HTML pages & assets) may be cached in other geographies by our CDN. Access to private content through our CDN is always validated through our application servers using a complex permissions system.
 
-Google follows or even leads most of the industry's best practices and is compliant with most major security [standards and certifications](https://cloud.google.com/security/compliance/).
+Google follows or even leads most of the industry’s best practices and is compliant with most major security [standards and certifications](https://cloud.google.com/security/compliance/).
 
 ## **Is GitBook SOC 2 certified?**
 

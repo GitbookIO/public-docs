@@ -4,8 +4,8 @@
 
 In case of errors, make sure that:‌
 
-* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
-* If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
+- Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
+- If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
 
 ## ​GitBook is not using my `docs` folder <a href="#gitbook-is-not-using-my-docs-folder" id="gitbook-is-not-using-my-docs-folder"></a>
 
@@ -31,7 +31,7 @@ Make sure that your access token has been configured with the following access:
 
 ## My folders got duplicated
 
-Make sure that all the folders in your repo are in lowercase. For example, if you have a folder called `Hello_World` GitBook won't sync that folder correctly. Update the name of your folder to all lowercase, and enable sync again.
+Make sure that all the folders in your repo are in lowercase. For example, if you have a folder called `Hello_World` GitBook won’t sync that folder correctly. Update the name of your folder to all lowercase, and enable sync again.
 
 ## ​Nothing happens on GitBook after adding a new file to my repository <a href="#nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository" id="nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository"></a>
 
@@ -41,13 +41,13 @@ Make sure that all the folders in your repo are in lowercase. For example, if yo
 If your repository does not include a `SUMMARY.md` file, GitBook will automatically create one upon the first sync. This means that if you edited your content from GitBook at least once after setting up Git sync, GitBook should have created this file automatically.‌
 {% endhint %}
 
-If after updating your repository by adding or modifying a markdown file, you do not see the update reflected on GitBook and the sidebar doesn't indicate an error during the sync, your modified file(s) is probably not listed in [your `SUMMARY.md` file](content-configuration.md#summary).‌
+If after updating your repository by adding or modifying a markdown file, you do not see the update reflected on GitBook and the sidebar doesn’t indicate an error during the sync, your modified file(s) is probably not listed in [your `SUMMARY.md` file](content-configuration.md#summary).‌
 
 This could either be because you created the file manually, or because you made an edit on GitBook and the GitBook to Git export phase of the sync created it for you.
 
 The content of this file mirrors your [table of contents](../../content-editor/editor/navigation.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
-If after ensuring that all your files are included in the `SUMMARY.md` file there's still nothing happening on GitBook, don't hesitate to [contact support](../../help-and-faq/faq/support.md) for assistance.
+If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](../../help-and-faq/faq/support.md) for assistance.
 
 ## What is the IP address used for Git Sync operations?
 

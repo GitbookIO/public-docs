@@ -8,7 +8,7 @@ An organization is a part of the way that content is structured on GitBook. Ever
 
 {% hint style="info" %}
 **Permissions**\
-Only administrators can access an organization's billing settings.
+Only administrators can access an organization’s billing settings.
 {% endhint %}
 
 ## What plans does GitBook offer?

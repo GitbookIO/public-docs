@@ -1,10 +1,10 @@
 ---
-description: Find what you're looking for, faster.
+description: Find what you’re looking for, faster.
 ---
 
 # Searching content
 
-Whether you're working within the GitBook app or your visitors are reading your published content, GitBook's search functions help to make it quicker and easier to find what you're looking for. Powered by GitBook AI, the answers to your questions are now more helpful than ever.
+Whether you’re working within the GitBook app or your visitors are reading your published content, GitBook’s search functions help to make it quicker and easier to find what you’re looking for. Powered by GitBook AI, the answers to your questions are now more helpful than ever.
 
 {% hint style="info" %}
 **Permissions**\

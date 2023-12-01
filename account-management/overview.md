@@ -4,7 +4,7 @@ description: Manage the team you collaborate with in GitBook.
 
 # Overview
 
-GitBook allows you to work as a team on the content you're creating.
+GitBook allows you to work as a team on the content you’re creating.
 
 ### Learn more about
 

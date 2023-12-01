@@ -64,7 +64,7 @@ You have two options when it comes to resolving a merge conflict — **selecting
 
 You can resolve a merge conflict by selecting a version you want to merge — either your incoming content, or the content that was previously there. This allows you to choose between one change and another — either your recent work, or the original content.&#x20;
 
-If you're dealing with a merge conflict that can be resolved this way, you can select the version you want to keep, and the other version will be deleted.
+If you’re dealing with a merge conflict that can be resolved this way, you can select the version you want to keep, and the other version will be deleted.
 
 #### Manually editing
 

@@ -80,6 +80,6 @@ Outside of content insights, GitBook offers different [integrations](broken-refe
 
 ### What happened to Insights panel in individual spaces?
 
-We think that [third-party analytics solutions](https://app.gitbook.com/integrations/\~/categories/analytics) offer much better and more detailed information when it comes to data like page views. So we removed page views as a data point in GitBook, and moved other space-wide insights into the **Insights** page.
+We think that [third-party analytics solutions](https://app.gitbook.com/integrations/~/categories/analytics) offer much better and more detailed information when it comes to data like page views. So we removed page views as a data point in GitBook, and moved other space-wide insights into the **Insights** page.
 
-If you want to track more analytics for your GitBook spaces, head to [our integrations page](https://app.gitbook.com/integrations/\~/categories/analytics) to see which you can use.
+If you want to track more analytics for your GitBook spaces, head to [our integrations page](https://app.gitbook.com/integrations/~/categories/analytics) to see which you can use.

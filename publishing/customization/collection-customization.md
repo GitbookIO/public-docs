@@ -18,7 +18,7 @@ Customizing a collection allows you to set top-level customizations that spaces 
 
 </div>
 
-Customizing your collection lets you control the branding, presentation and extra features of your collection's published content.
+Customizing your collection lets you control the branding, presentation and extra features of your collection’s published content.
 
 {% hint style="info" %}
 Most customization settings apply to your **published content**. This keeps your writing experience and in-app GitBook content consistent while allowing you to control the output to a degree.

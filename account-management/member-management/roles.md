@@ -18,7 +18,7 @@ Regardless of role, _**every**_ _**single member**_ of an organization _**counts
 You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
 {% endhint %}
 
-Each role gets progressively higher levels of access as you move up the list. Let's start at the bottom:
+Each role gets progressively higher levels of access as you move up the list. Let’s start at the bottom:
 
 <details>
 
@@ -26,7 +26,7 @@ Each role gets progressively higher levels of access as you move up the list. Le
 
 The guest role is a very specific role in GitBook. Guests are members that have **no default organization role**. A guest acts as a standard user in every other regard, they just need to have their permissions set explicitly at a content level.
 
-Inviting a guest to the organization means that they'll only ever see content they've been directly added to. This is great if you want to add external stakeholders or contractors to your organization, but don't want to worry about giving them access to any content by default.
+Inviting a guest to the organization means that they’ll only ever see content they’ve been directly added to. This is great if you want to add external stakeholders or contractors to your organization, but don’t want to worry about giving them access to any content by default.
 
 **Please note that guest members, as with all other members, count towards the total number of members in an organization for billing purposes.**
 
@@ -44,7 +44,7 @@ A reader is the most basic role in GitBook: it gives read-only access.
 
 <summary>Commenter</summary>
 
-Commenters have the same read-only access as readers, but they're also able to leave comments against content and spaces (find our more about how that works in our [comments](../../collaboration/comments-discussion.md) documentation).
+Commenters have the same read-only access as readers, but they’re also able to leave comments against content and spaces (find our more about how that works in our [comments](../../collaboration/comments-discussion.md) documentation).
 
 **Commenter is one of our two advanced member roles, available only on the Pro or Enterprise plan.**
 
@@ -54,7 +54,7 @@ Commenters have the same read-only access as readers, but they're also able to l
 
 <summary>Editor</summary>
 
-Editors are able to read and comment, just like a commenter, but they're also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../content-editor/editor/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../content-editor/editor/change-requests.md). Editors cannot merge change requests.
+Editors are able to read and comment, just like a commenter, but they’re also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../content-editor/editor/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../content-editor/editor/change-requests.md). Editors cannot merge change requests.
 
 </details>
 
@@ -62,7 +62,7 @@ Editors are able to read and comment, just like a commenter, but they're also ab
 
 <summary>Reviewer</summary>
 
-Reviewers have all the same permissions as an editor however, they can also merge their own and others' change requests.
+Reviewers have all the same permissions as an editor however, they can also merge their own and others’ change requests.
 
 **Reviewer is one of our two advanced member roles, available only on the Pro or Enterprise plan.**
 
@@ -80,6 +80,6 @@ Creators are essentially content-level admins. They can create, delete and publi
 
 <summary>Admin</summary>
 
-An admin is like a super-user for your organization – they have full access! Set someone as an admin if you're comfortable with them making changes that can impact billing, managing members, and generally just being in control of all areas of the organization.
+An admin is like a super-user for your organization – they have full access! Set someone as an admin if you’re comfortable with them making changes that can impact billing, managing members, and generally just being in control of all areas of the organization.
 
 </details>

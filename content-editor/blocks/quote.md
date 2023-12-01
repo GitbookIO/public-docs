@@ -10,12 +10,14 @@ Start a quote by typing `>` followed by pressing `space` in an empty paragraph, 
 
 ### Example of a quote
 
-> "No human ever steps in the same river twice, for it's not the same river and they are not the same human." — _Heraclitus_
+> "No human ever steps in the same river twice, for it’s not the same river and they are not the same human." — _Heraclitus_
 
 ### Representation in Markdown
 
 {% code overflow="wrap" %}
+
 ```markdown
-> "No human ever steps in the same river twice, for it's not the same river and they are not the same human." — _Heraclitus_
+> "No human ever steps in the same river twice, for it’s not the same river and they are not the same human." — _Heraclitus_
 ```
+
 {% endcode %}

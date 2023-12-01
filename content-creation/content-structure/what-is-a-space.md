@@ -14,7 +14,7 @@ In GitBook, a space is a project where you can start organizing your ideas. Imag
 
 ## Create a space
 
-To create a space click on the :heavy\_plus\_sign: button at the bottom of the sidebar.
+To create a space click on the :heavy_plus_sign: button at the bottom of the sidebar.
 
 You can also create a space directly from your organization library or a collection screen using the **new space** button:
 
@@ -24,7 +24,7 @@ You can also create a space directly from your organization library or a collect
 
 </div>
 
-Each new space can be a **private space** or a **team space**. Private spaces are useful for notes you take personally that don't need to be shared with the rest of your team.
+Each new space can be a **private space** or a **team space**. Private spaces are useful for notes you take personally that don’t need to be shared with the rest of your team.
 
 <div data-full-width="true">
 
@@ -33,7 +33,7 @@ Each new space can be a **private space** or a **team space**. Private spaces ar
 </div>
 
 {% hint style="info" %}
-Please note that private spaces can't be moved to your team's shared spaces. Everything created as a private space will remain accessible only to you.
+Please note that private spaces can’t be moved to your team’s shared spaces. Everything created as a private space will remain accessible only to you.
 {% endhint %}
 
 ## Duplicate a space
@@ -44,7 +44,7 @@ Please note that private spaces can't be moved to your team's shared spaces. Eve
 
 </div>
 
-To duplicate a space, select **duplicate** from the space's menu.
+To duplicate a space, select **duplicate** from the space’s menu.
 
 Duplicating a space will create a copy of the source space, in the same location (organization, collection, sub-collection, etc.) as the source space.
 
@@ -63,7 +63,7 @@ You can move spaces between collections or even organizations, if you have an [a
 </div>
 
 {% hint style="info" %}
-Similar to private spaces, team spaces can't be moved to your private section.
+Similar to private spaces, team spaces can’t be moved to your private section.
 {% endhint %}
 
 ## Delete a space

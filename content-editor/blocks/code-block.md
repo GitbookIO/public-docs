@@ -8,16 +8,17 @@ You can show code on GitBook using code blocks. You can choose to [set the synta
 
 A code block may be useful for:
 
-* Sharing configuration
-* Code snippets
-* Code files
-* Showing usage examples of command line utilities
-* Showing how to call API endpoints
-* and for many more scenarios...
+- Sharing configuration
+- Code snippets
+- Code files
+- Showing usage examples of command line utilities
+- Showing how to call API endpoints
+- and for many more scenarios...
 
 ### Example of a code block
 
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
+
 ```javascript
 ‌import * as React from 'react';
 import ReactDOM from 'react-dom';
@@ -25,30 +26,39 @@ import App from './App';
 
 ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
+
 {% endcode %}
 
 You can also combine code blocks with the [tabs content block](tabs.md) to offer the same example in multiple languages:
 
 {% tabs %}
 {% tab title="JavaScript" %}
+
 ```javascript
-let greeting = function(name) { console.log(`Hello, ${name}!`); };
+let greeting = function (name) {
+  console.log(`Hello, ${name}!`);
+};
 greeting("Anna");
 ```
+
 {% endtab %}
 
 {% tab title="Ruby" %}
+
 ```ruby
 greeting = lambda {|name| puts "Hello, #{name}!"}
 greeting.("Anna")
 ```
+
 {% endtab %}
 
 {% tab title="Elixir" %}
+
 ```elixir
 greeting = fn name -> IO.puts("Hello, #{name}!") end
 greeting.("Anna")
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -63,7 +73,7 @@ You can now convert code blocks to full width by clicking on the <img src="../..
 You can set the syntax to any of the supported languages and that will enable syntax highlighting in that language.
 
 {% hint style="info" %}
-We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here's an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there's a chance we are a version or two behind. We'll catch up soon!
+We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Here’s an easy way to check which languages Prism supports: [Test Drive Prism](https://prismjs.com/test.html#language=markup). If you notice a mismatch between GitBook and Prism, there’s a chance we are a version or two behind. We’ll catch up soon!
 {% endhint %}
 
 #### With line numbers
@@ -72,7 +82,7 @@ Toggle showing line numbers. Showing line numbers is useful when the code repres
 
 #### With caption
 
-A code block can have a caption. The caption is often the name of a file as shown in our [example](code-block.md#example), but it can be used as a title, or anything else you'd like.
+A code block can have a caption. The caption is often the name of a file as shown in our [example](code-block.md#example), but it can be used as a title, or anything else you’d like.
 
 #### Wrap code
 
@@ -91,6 +101,7 @@ You can hover over a code block and see an icon that allows you to copy the cont
 ````markdown
 {% raw %}
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
+
 ```javascript
 ‌import * as React from 'react';
 import ReactDOM from 'react-dom';
@@ -98,6 +109,7 @@ import App from './App';
 
 ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
+
 {% endcode %}
 {% endraw %}
 ````

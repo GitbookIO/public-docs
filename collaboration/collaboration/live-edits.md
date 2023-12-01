@@ -1,7 +1,7 @@
 ---
 description: >-
   With live editing you can start making changes to your internal documentation
-  on the spot. There's no need to create a change request first.
+  on the spot. There’s no need to create a change request first.
 ---
 
 # Live edits
@@ -18,11 +18,11 @@ description: >-
 Live editing is not available [in some cases](live-edits.md#when-is-live-editing-not-available).
 {% endhint %}
 
-When a space's live edits are **unlocked**, you'll be able to see the avatars of the team members that are currently viewing the space. This is shown at the top right corner of the page. Anyone can start editing the space, but this works on a first come first served basis. When an editor starts making changes, editing is temporarily locked for all other viewers in that space. Once the editor's changes are saved, editing is released and made available to any of the viewers that want to start making changes.
+When a space’s live edits are **unlocked**, you’ll be able to see the avatars of the team members that are currently viewing the space. This is shown at the top right corner of the page. Anyone can start editing the space, but this works on a first come first served basis. When an editor starts making changes, editing is temporarily locked for all other viewers in that space. Once the editor’s changes are saved, editing is released and made available to any of the viewers that want to start making changes.
 
 ## Toggling live edits on or off
 
-You can lock or unlock space for live edits by selecting 'Unlock live edits' and 'Lock live edits' from the Space's actions menu.
+You can lock or unlock space for live edits by selecting ’Unlock live edits’ and ’Lock live edits’ from the Space’s actions menu.
 
 <div data-full-width="true">
 

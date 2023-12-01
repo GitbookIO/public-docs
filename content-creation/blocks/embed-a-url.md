@@ -4,7 +4,7 @@ description: Embed a URL content block
 
 # Embed a URL
 
-To add a rich embed, simply paste the link of the content you want to embed and press the enter key! ✨ Note that the content you wish to embed must be publically available in order for GitBook to access the file. For example, when embedding a Google doc the share link that you paste into GitBook must be set to 'Anyone with the link'.
+To add a rich embed, simply paste the link of the content you want to embed and press the enter key! ✨ Note that the content you wish to embed must be publically available in order for GitBook to access the file. For example, when embedding a Google doc the share link that you paste into GitBook must be set to ’Anyone with the link’.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 

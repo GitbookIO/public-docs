@@ -6,14 +6,14 @@ GitBook supports the current versions of [Chrome](https://www.google.com/chrome/
 
 ## Does GitBook support RTL languages?
 
-We have RTL support in mind, but it's not yet ready. For now, only paragraphs and headings will automatically detect RTL text and adapt its layout. Lists and other content blocks are not aligned properly. Also, you may have noticed a poor font quality being used for your language.
+We have RTL support in mind, but it’s not yet ready. For now, only paragraphs and headings will automatically detect RTL text and adapt its layout. Lists and other content blocks are not aligned properly. Also, you may have noticed a poor font quality being used for your language.
 
 ## Is there a limit on the documentation import size?
 
 GitBook currently has the following limits for imported content:
 
-* The maximum number of pages that can be uploaded in a single import is **20.**
-* The maximum number of files (images etc.) that can be uploaded in a single import is **20.**
+- The maximum number of pages that can be uploaded in a single import is **20.**
+- The maximum number of files (images etc.) that can be uploaded in a single import is **20.**
 
 ## **How can I export my content?**
 
@@ -25,7 +25,7 @@ We do not support moving single pages between spaces at this time. We recommend 
 
 ## Can I move a space between organizations?
 
-Yes, you can!  [Read more about how to move a space. ](../../content-editor/editor/content-structure/what-is-a-space.md#move-a-space)
+Yes, you can! [Read more about how to move a space. ](../../content-editor/editor/content-structure/what-is-a-space.md#move-a-space)
 
 ## How do I revert to the previous version of my content?&#x20;
 

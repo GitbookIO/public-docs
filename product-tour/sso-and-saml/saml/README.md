@@ -8,13 +8,13 @@ This feature is included in the Pro and Enterprise plans.
 
 GitBook easily integrates with your existing identity provider (IdP) so you can provide your employees with single sign-on to GitBook using the same credentials and login experience as your other service providers.‌
 
-By using SSO, your employees will be able to log into GitBook using the familiar identity provider interface, instead of the GitBook login page. The employee’s browser will then forward them to GitBook. The IdP grants access to GitBook when SSO is enabled and GitBook's own login mechanism is deactivated. In this way, authentication security is shifted to your IdP and coordinated with your other service providers.‌​
+By using SSO, your employees will be able to log into GitBook using the familiar identity provider interface, instead of the GitBook login page. The employee’s browser will then forward them to GitBook. The IdP grants access to GitBook when SSO is enabled and GitBook’s own login mechanism is deactivated. In this way, authentication security is shifted to your IdP and coordinated with your other service providers.‌​
 
 ## ​Prerequisites for SSO with GitBook <a href="#prerequisites-for-sso-with-gitbook" id="prerequisites-for-sso-with-gitbook"></a>
 
-* Your company’s identity provider (IdP) must support the **SAML 2.0** standard.
-* You must have administrative permission on the IdP.
-* You must be an administrator of the GitBook organization you want to set SAML up on.
+- Your company’s identity provider (IdP) must support the **SAML 2.0** standard.
+- You must have administrative permission on the IdP.
+- You must be an administrator of the GitBook organization you want to set SAML up on.
 
 ## ​Setup on GitBook <a href="#setup-on-gitbook" id="setup-on-gitbook"></a>
 
@@ -28,12 +28,12 @@ After configuring SSO on your IdP, you will be able to enter metadata. When the 
 
 </div>
 
-You'll need the following from your IdP metadata to register a SAML provider:
+You’ll need the following from your IdP metadata to register a SAML provider:
 
-* A **label** – this can be anything, it'll be displayed on the login page
-* An **entity ID**
-* A **Single Sign On URL**
-* An **X.509 certificate** – make sure you copy and paste the whole certificate!
+- A **label** – this can be anything, it’ll be displayed on the login page
+- An **entity ID**
+- A **Single Sign On URL**
+- An **X.509 certificate** – make sure you copy and paste the whole certificate!
 
 ## ​Setup on the IdP <a href="#setup-on-the-idp" id="setup-on-the-idp"></a>
 

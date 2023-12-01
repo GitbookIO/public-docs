@@ -25,9 +25,9 @@ Once you have an OpenAPI compliant representation of your API, you can use it in
    1. Upload your OpenAPI formatted file
    2. Provide a URL to your publicly available OpenAPI file.
 
-If you're providing a **URL**, make sure that the file is available on the open internet, and that it's not behind any kind of password protection.
+If you’re providing a **URL**, make sure that the file is available on the open internet, and that it’s not behind any kind of password protection.
 
-If you're just experimenting, you can use one of the [default Swagger files](https://petstore.swagger.io/#/):
+If you’re just experimenting, you can use one of the [default Swagger files](https://petstore.swagger.io/#/):
 
 `https://petstore.swagger.io/v2/swagger.json`
 

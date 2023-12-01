@@ -10,7 +10,7 @@ This feature is currently accessible to all **Pro and Enterprise** customers. If
 
 Visitor Authentication allows you to publish your content while requiring authentication from any visitors. When enabled, GitBook lets your server-side code handle who has access to the content.
 
-In order to set up Visitor Authentication, you will need to create and host your own server to handle the authentication. Many different technologies can be used, but it's up to you to code and maintain the solution you go with.
+In order to set up Visitor Authentication, you will need to create and host your own server to handle the authentication. Many different technologies can be used, but it’s up to you to code and maintain the solution you go with.
 
 ### How it works
 
@@ -26,7 +26,7 @@ In your space or collection, open the visibility menu and select **Visitor Authe
 
 <figure><img src="../../.gitbook/assets/visitor-authentication.png" alt=""><figcaption><p>Set up Visitor Authentication for your GitBook Space.</p></figcaption></figure>
 
-Once enabled, you'll have access to a private signing key for this space. You will need this in the server you create to handle the authentication.
+Once enabled, you’ll have access to a private signing key for this space. You will need this in the server you create to handle the authentication.
 
 See the section below to find guides on setting up Visitor Authentication for some common providers.
 

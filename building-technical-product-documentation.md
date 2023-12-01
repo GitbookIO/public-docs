@@ -4,7 +4,7 @@ description: Use GitBook to create technical product documentation
 
 # Building technical product documentation
 
-Documentation is a vital part of any product, and teams that nail theirs from the start get ahead of the competition earlier on. Engaging product documentation adds so much value; it increases your user's confidence in the product, improves the user experience, and increases user satisfaction.
+Documentation is a vital part of any product, and teams that nail theirs from the start get ahead of the competition earlier on. Engaging product documentation adds so much value; it increases your user’s confidence in the product, improves the user experience, and increases user satisfaction.
 
 Often, writers of product documentation face challenges related to ease of contribution, updating and maintaining information, and the look and feel of the docs. This can result in having to compromise on at least one of those aspects — but not with GitBook!
 
@@ -12,23 +12,25 @@ GitBook allows you to make writing beautiful documentation part of your everyday
 
 ## Key benefits and features of GitBook
 
-* [**Import or create your content**](building-technical-product-documentation.md#import-or-create-your-content)\
+- [**Import or create your content**](building-technical-product-documentation.md#import-or-create-your-content)\
   Get started in a matter of minutes with our intuitive editor.&#x20;
-*   [**Make use of content blocks**](building-technical-product-documentation.md#make-use-of-content-blocks)
+- [**Make use of content blocks**](building-technical-product-documentation.md#make-use-of-content-blocks)
 
-    Create easy to read content with blocks designed for technical authors and readers.&#x20;
-*   [**Collaborate with your team**](building-technical-product-documentation.md#collaborate-with-your-team)
+  Create easy to read content with blocks designed for technical authors and readers.&#x20;
 
-    Review your content in change requests while maintaining full control of each version.
-* [**Match your existing Git workflow**](building-technical-product-documentation.md#match-your-existing-git-workflow)\
+- [**Collaborate with your team**](building-technical-product-documentation.md#collaborate-with-your-team)
+
+  Review your content in change requests while maintaining full control of each version.
+
+- [**Match your existing Git workflow**](building-technical-product-documentation.md#match-your-existing-git-workflow)\
   Bridge the gap between collaborators who write directly in the GitBook editor, and those who prefer to write in Markdown in a GitHub or GitLab repository.
-* [**Customize your documentation**](building-technical-product-documentation.md#customize-your-documentation)\
+- [**Customize your documentation**](building-technical-product-documentation.md#customize-your-documentation)\
   Create beautiful docs that match _your_ brand by uploading your logo, setting a primary color, choosing a font, and more.
-* [**Integrate existing tools within your docs**](building-technical-product-documentation.md#integrate-existing-tools-within-your-docs)\
+- [**Integrate existing tools within your docs**](building-technical-product-documentation.md#integrate-existing-tools-within-your-docs)\
   Include live code samples directly in your doc with RunKit, create graphs and diagrams with Markdown.&#x20;
-*   [**Publish your documentation**](building-technical-product-documentation.md#publish-your-documentation)
+- [**Publish your documentation**](building-technical-product-documentation.md#publish-your-documentation)
 
-    Choose from a number of visibility settings, plus you can publish on your own custom domain.
+  Choose from a number of visibility settings, plus you can publish on your own custom domain.
 
 ## Import or create your content
 
@@ -44,13 +46,13 @@ Alternatively, if you are just kicking off your documentation journey you can ea
 
 In addition to standard text, image and list blocks, GitBook allows you to directly include more technical content. Find out more about:
 
-* [Code blocks](../content-creation/blocks/code-block.md)
-* [API blocks](../content-creation/blocks/api-method.md)
-* [More block types](../content-creation/blocks/)
+- [Code blocks](../content-creation/blocks/code-block.md)
+- [API blocks](../content-creation/blocks/api-method.md)
+- [More block types](../content-creation/blocks/)
 
 ## Collaborate with your team
 
-Once your initial content exists, it's important to design a contribution workflow that will ensure your documentation remains up-to-date. You can manage the access of each contributor or team of contributors through [permissions and inheritance](../account-management/member-management/permissions-and-inheritance.md), allowing for a review process before merging your content into the main branch.
+Once your initial content exists, it’s important to design a contribution workflow that will ensure your documentation remains up-to-date. You can manage the access of each contributor or team of contributors through [permissions and inheritance](../account-management/member-management/permissions-and-inheritance.md), allowing for a review process before merging your content into the main branch.
 
 Each change request is tracked and logged in the [activity tab](../content-creation/activity-history.md), which gives you an overview of the work that has been happening in the space. If you ever need to view or roll back to an older version of the content, you can do that from the [change history](../content-creation/activity-history.md#see-the-activity-of-a-specific-draft) section.
 
@@ -68,11 +70,11 @@ Thanks to our [bi-directional sync](../integrations/git-sync/bi-directional-git-
 
 GitBook makes it easy to align your documentation with your branding. Change the logo, font, primary colour, header and footer links, light or dark mode, and more in our interactive [customizer](../publishing/customization/space-customization.md).
 
-Additionally, each page can make use of one of three [layouts](../publishing/share/page-layouts.md): docs page, editorial post, and landing page. Combining landing pages with docs pages can help with structuring your technical product documentation in a way that helps users find what they're looking for, faster.
+Additionally, each page can make use of one of three [layouts](../publishing/share/page-layouts.md): docs page, editorial post, and landing page. Combining landing pages with docs pages can help with structuring your technical product documentation in a way that helps users find what they’re looking for, faster.
 
 ## Integrate existing tools within your docs
 
-We've made it easier for your documentation to integrate closely with other tools you use for support, tracking or collaboration allowing you to build one smooth workflow.
+We’ve made it easier for your documentation to integrate closely with other tools you use for support, tracking or collaboration allowing you to build one smooth workflow.
 
 Our [RunKit](https://github.com/GitbookIO/integrations) integration allows your users to run sample code directly from your documentation, embedding interactive JavaScript playgrounds connected to a complete Node environment right in your browser.
 
@@ -95,4 +97,3 @@ As a finishing touch, [set a custom domain](../publishing/custom-domain/) so tha
 ## Start creating your product documentation today
 
 Creating _good_ product documentation can be hard — but GitBook makes it easier! [Sign up](https://app.gitbook.com/join) or [log in](https://app.gitbook.com/) to start trying out these features right away.
-

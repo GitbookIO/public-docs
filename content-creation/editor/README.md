@@ -1,6 +1,6 @@
 ---
 description: >-
-  GitBook's documentation editor supports rich text, various content blocks, and
+  GitBook’s documentation editor supports rich text, various content blocks, and
   Markdown.
 ---
 
