@@ -130,7 +130,7 @@ redirects:
   troubleshooting/connectivity-issues: faq/connectivity-issues.md
   troubleshooting/support: faq/support.md
   features/import: content-creation/import.md
-  snippets-and-content-insights/overview: snippets-and-insights/overview
-  snippets-and-content-insights/snippets: snippets-and-insights/snippets-beta
-  snippets-and-content-insights/snippets-beta: snippets-and-insights/snippets-beta
-  snippets-and-content-insights/insights: snippets-and-insights/insights
+  snippets-and-content-insights/overview: snippets-and-insights/overview.md
+  snippets-and-content-insights/snippets: snippets-and-insights/snippets-beta.md
+  snippets-and-content-insights/snippets-beta: snippets-and-insights/snippets-beta.md
+  snippets-and-content-insights/insights: snippets-and-insights/insights.md
