@@ -1,6 +1,5 @@
 # Table of contents
 
-* [Developer docs](https://developer.gitbook.com)
 * [Welcome](README.md)
 
 ## Content Editor
