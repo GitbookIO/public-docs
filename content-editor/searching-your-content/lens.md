@@ -12,7 +12,7 @@ Simply tell GitBook AI what you want, or ask it a question. It’ll use AI to sc
 
 While GitBook AI is in open beta, it is available at no additional cost on **all plans** during that time!
 
-In future, we plan to incorporate GitBook AI into our **Pro and Enterprise plans**, but we’ll let you know before that happens.
+In future, we plan to incorporate GitBook AI into our **Pro and Enterprise plans**, but we’ll let you know before that happens.
 
 ### How do I enable GitBook AI?
 
@@ -59,3 +59,7 @@ When a change is made to your content (a merged change request or a new Slack kn
 #### How does GitBook AI handle my data?
 
 We pass your content to OpenAI to index and process data. OpenAI **does not** use this content for service improvements (including model training). You can find out more about how OpenAI handles data [here](https://openai.com/blog/introducing-chatgpt-and-whisper-apis#developer-focus).
+
+#### How do I prevent hallucinations with GitBook AI search?
+
+If you're seeing GitBook produce answers that are incorrect, the best method for correcting this is write explicit content around the topic so the AI does not have to guess.
