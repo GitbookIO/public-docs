@@ -4,8 +4,8 @@
 
 In case of errors, make sure that:‌
 
-- Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
-- If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
+* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
+* If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
 
 ## ​GitBook is not using my `docs` folder <a href="#gitbook-is-not-using-my-docs-folder" id="gitbook-is-not-using-my-docs-folder"></a>
 
@@ -48,10 +48,6 @@ This could either be because you created the file manually, or because you made 
 The content of this file mirrors your [table of contents](../../content-editor/editor/navigation.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
 If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](../../help-and-faq/faq/support.md) for assistance.
-
-## What is the IP address used for Git Sync operations?
-
-Git Sync uses a static IP address for all operations. Having this address could be useful if you'd like to set an extra layer of security to your on-premise instance of GitLab for example. You can add the following IP address `34.136.22.210` to your allowlist.
 
 ## Potential duplicated accounts when signing in
 
