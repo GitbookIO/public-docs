@@ -1,10 +1,10 @@
 ---
-description: Add content directly inline through the inline palette.
+description: Add rich text content directly inline through the inline palette.
 ---
 
 # Inline content
 
-You can also add content to your document by launching the inline palette with the (`/`) command. The forward slash will be replaced by the content you choose to insert.&#x20;
+You can also add content to your document by launching the inline palette with the (`/`) command. The forward slash will be replaced by the content you choose to insert.
 
 <figure><img src="../../.gitbook/assets/inline-palette.png" alt=""><figcaption><p>Inline palette</p></figcaption></figure>
 
@@ -38,15 +38,15 @@ You can switch the size of an inline image by clicking on the image to open the 
 
 ## Emojis
 
-You can add emoji by opening the **inline palette**. Alternatively, type `:` and a list of emojis will pop up directly in line.&#x20;
+You can add emoji by opening the **inline palette**. Alternatively, type `:` and a list of emojis will pop up directly in line.
 
 ## Links
 
 You can insert three different types of links:
 
-- [Relative links](inline.md#relative-links)
-- [Absolute links](inline.md#absolute-links)
-- [Email address `mailto` links](inline.md#email-addresses)
+* [Relative links](inline.md#relative-links)
+* [Absolute links](inline.md#absolute-links)
+* [Email address `mailto` links](inline.md#email-addresses)
 
 ## Relative links
 
