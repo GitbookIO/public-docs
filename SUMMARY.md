@@ -17,7 +17,6 @@
 * [Editing content](content-editor/editing-content/README.md)
   * [Formatting](content-editor/editing-content/formatting.md)
   * [Inline content](content-editor/editing-content/inline.md)
-  * [Rich text](content-editor/editing-content/rich-text.md)
   * [Markdown](content-editor/editing-content/markdown.md)
 * [Blocks](content-editor/blocks/README.md)
   * [Paragraphs](content-editor/blocks/paragraph.md)

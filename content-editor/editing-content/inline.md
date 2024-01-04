@@ -8,21 +8,21 @@ You can also add content to your document by launching the inline palette with t
 
 <figure><img src="../../.gitbook/assets/inline-palette.png" alt=""><figcaption><p>Inline palette</p></figcaption></figure>
 
-## Annotations
+### Annotations
 
 Annotations allow you to add more context to your text without breaking the reader’s train of thought.
 
 <figure><img src="../../.gitbook/assets/annotations.png" alt=""><figcaption><p>Create an annotation.</p></figcaption></figure>
 
-### Create an annotation
+#### Create an annotation
 
 To create an annotation select the word or phrase you would like to annotate, and click the **annotate** option. Once you’ve written your annotation, click outside of it to continue writing in your main paragraph.
 
-### Markdown representation
+#### Markdown representation
 
 Content written as [Markdown footnotes](https://www.markdownguide.org/extended-syntax/#footnotes) will be added as annotations.
 
-## Images
+### Images
 
 You can insert inline images to your content. By default, their size is proportional to the font size. This is great for adding things like badges or icons.‌
 
@@ -36,11 +36,11 @@ There are 3 different sizes of inline images:‌
 You can switch the size of an inline image by clicking on the image to open the formatting palette, and then choosing one of the options above.
 {% endhint %}
 
-## Emojis
+### Emojis
 
 You can add emoji by opening the **inline palette**. Alternatively, type `:` and a list of emojis will pop up directly in line.
 
-## Links
+### Links
 
 You can insert three different types of links:
 
@@ -48,9 +48,11 @@ You can insert three different types of links:
 * [Absolute links](inline.md#absolute-links)
 * [Email address `mailto` links](inline.md#email-addresses)
 
-## Relative links
+#### Relative links
 
 Relative links are links created by linking pages that already exist in your content. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date resulting in fewer broken links.
+
+<figure><img src="../../.gitbook/assets/relative-links.png" alt=""><figcaption><p>Add a relative link</p></figcaption></figure>
 
 Here’s how to insert a relative link:
 
@@ -61,7 +63,7 @@ Here’s how to insert a relative link:
 5. Select the page from the drop-down search results.
 6. Hit `enter`.
 
-## Absolute links
+#### Absolute links
 
 Absolute links are for external links.
 
@@ -77,7 +79,7 @@ Here’s how to insert an absolute link:
 4. Paste a URL.
 5. Hit `enter`.
 
-## Email address mailto links
+#### Email address mailto links
 
 Email address `mailto` links are useful when you want your visitors to click on a link that will open up their default email client, fill in `TO` with the email address of your link, and allow them to write an email to send out.
 
@@ -89,7 +91,7 @@ Here’s how to insert an email address `mailto` link:
 4. Paste or type `mailto:something@address.com`, replacing `something@address.com` with the email address you would like to use.
 5. Hit `enter`.
 
-## Math & TeX
+### Math & TeX
 
 You can create an inline math formula like this: $$f(x) = x * e^{2 pi i \xi x}$$. We use the [KaTeX](https://katex.org/docs/supported.html) library to render formulas.
 
