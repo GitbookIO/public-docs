@@ -8,7 +8,7 @@ GitBook offers 3 levels of headings, [which should be enough to properly structu
 
 All headings have anchor links, which are links that you can use to point to a particular section of your documentation.
 
-You can see the anchors of a title when your content is in read mode. If you want to make some text point to an anchor within a page in your space, you can add a [relative link](broken-reference).
+You can see the anchors of a title when your content is in read mode. If you want to make some text point to an anchor within a page in your space, you can add a [relative link](../editing-content/inline.md#relative-links).
 
 {% hint style="info" %}
 Reading on a screen is less comfortable than reading on paper. Make sure your content isn’t too long with too many titles. Sometimes splitting your content into different pages can help with overall readability.
