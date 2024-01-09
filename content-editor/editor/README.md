@@ -12,7 +12,7 @@ And when it comes to organizing your content, you have multiple options dependin
 
 {% hint style="info" %}
 **Permissions**\
-Only users with editor permissions or higher can edit pages.
+Only users with [editor permissions or higher](../../account-management/member-management/roles.md) can edit pages.
 {% endhint %}
 
 ### Learn more about

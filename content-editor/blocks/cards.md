@@ -1,35 +1,43 @@
 ---
-description: Add a set of cards to a page
+description: "Display information more dynamically with a set of cards —\_with or without images."
 ---
 
 # Cards
 
-Cards allow you to create a new visually pleasing page layout with text and images. They can be used to build landing pages or display any other content in a non-linear way.
+You can use cards to create a visually pleasing page layout, combining text and images in a grid. They’re ideal for building landing pages or displaying any other content in a non-linear way.
 
-You can select large or medium-sized cards and link them to the relevant resources.
+You can adjust [switch between medium or large cards](cards.md#card-size) and link them to the relevant resources — read on to find out more.
 
 ### Example of a card
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>GitBook Homepage</strong></td><td>Visit our website</td><td></td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td><td><a href="../../.gitbook/assets/Card-example">Card-example</a></td></tr><tr><td><strong>Powered by GitBook</strong></td><td>Learn about how others use GitBook</td><td></td><td><a href="https://developer.gitbook.com/">https://developer.gitbook.com/</a></td><td><a href="../../.gitbook/assets/Card-example-2">Card-example-2</a></td></tr><tr><td><strong>Sign up to GitBook</strong></td><td>Click here to create a GitBook account</td><td></td><td><a href="https://app.gitbook.com/join">https://app.gitbook.com/join</a></td><td><a href="../../.gitbook/assets/Card-example-3">Card-example-3</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>GitBook homepage</strong></td><td>Visit our website and find out more about GitBook.</td><td><a href="https://www.gitbook.com/">https://www.gitbook.com/</a></td><td><a href="../../.gitbook/assets/card-example1.png">card-example1.png</a></td></tr><tr><td><strong>Developer docs</strong></td><td>Build you own GitBook integration!</td><td><a href="https://developer.gitbook.com/">https://developer.gitbook.com/</a></td><td><a href="../../.gitbook/assets/card-example2.png">card-example2.png</a></td></tr><tr><td><strong>Sign up to GitBook</strong></td><td>Click here to get started for free.</td><td><a href="https://app.gitbook.com/join">https://app.gitbook.com/join</a></td><td><a href="../../.gitbook/assets/card-example3.png">card-example3.png</a></td></tr></tbody></table>
 
-### Adding links and images to your cards
+### Adding links <a href="#adding-links-and-images-to-your-cards" id="adding-links-and-images-to-your-cards"></a>
 
-By clicking on the <img src="../../.gitbook/assets/icon_add_card_options.png" alt="Context menu" data-size="line"> symbol you can add a target link (recommended), add [cover images](#user-content-fn-1)[^1] or delete the card completely.
+Hover over a card and open its **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line">. Here you can add a target link, so users can jump directly to a location when they click the card.
 
 {% hint style="success" %}
-When creating cards, we recommend you use **target links instead of hyperlinks**. Target links will ensure that the reader is redirected to the intended destination, regardless of where they click within the card.
+When creating cards, we recommend you use **target links instead of hyperlinks**. With a target link, your readers can click anywhere on the card to access the linked URL.
 {% endhint %}
 
-The key to great looking cards is editing your images so that they have the same ratio. For example:
+### Adding images
+
+Hover over a card and open its **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line">. Here you can add a cover image to your card.&#x20;
+
+Clicking **Add cover** will open the [Select image side panel](insert-images.md#how-to-add-images) — you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
+
+The key to great looking cards is making sure all the images in a card block have the same ratio. For example:
 
 * 16:9 (eg. 1920px x 1080px)
 * 4:3 (eg. 1024px x 768px)
 * 1:1 (eg. 500px x 500px)
 
-By using the same ratio for all of your images you can ensure that they will align when displayed on the page. This means that titles and text under images is also aligned, which provides a better reading experience.
+By using images with the same ratio, all your cards will perfectly align on the page. This means that titles and text below your images will also stay aligned, for a great reading experience.
 
 #### Card size
 
-You can select the card size by clicking on the<img src="../../.gitbook/assets/options_icon" alt="Context menu" data-size="line">button to the left of your card block. The '<mark style="color:green;">Medium</mark>' option creates three cards in one horizontal line, while the '<mark style="color:green;">Large</mark>' option allows for only two cards to be created.
+You can select the card size by opening the **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> to the left of your card block. The **Medium** option creates three cards in one horizontal line, while the **Large** option shows two larger cards on each line.
 
-[^1]: cover images can be icons or other small images that will help the reader grasp the content of your card
+{% hint style="info" %}
+You can make card blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line">  next to the block and choosing **Full width**.
+{% endhint %}

@@ -12,6 +12,8 @@ GitBook is split into different sections to make it easier to organize and manag
 
 The sidebar allows you to see and overview of your GitBook organization at a glance. The sidebar contains:
 
+* **Organization switcher**\
+  If you’re a part of multiple organizations, you can see and switch between them here. You can also create a new organization from this menu.
 * **Notifications**\
   When you’re tagged in a comment or conversation, or when there is important activity in a space you’re working in, you’ll get a [notification](../../collaboration/notifications.md) to show you what’s new.
 * **Ask or search**\
@@ -72,7 +74,7 @@ The space header appears at the top of GitBook when viewing a space. It includes
 * **The edit button**\
   If your space is published, or someone has locked[ live edits](live-edits.md), the **Edit** button will appear in the space header. It lets you start a new [change request](change-requests.md) to edit content.
 * **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">\
-  Offers a list of actions for your space. Similar to [Page Actions](navigation.md#page-actions), the available actions for a space will differ depending on the mode you’re currently in.
+  Offers a list of actions for your space. Similar to [page actions](navigation.md#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 
 #### Space sub-navigation
 
@@ -111,9 +113,9 @@ In addition to the multiple [content blocks](../blocks/) you can insert, you can
 
 ### The Actions menu
 
-<figure><img src="../../.gitbook/assets/action-menu.png" alt=""><figcaption><p>In the Page Actions menu, you can carry out actions that apply to the entire page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/action-menu.png" alt=""><figcaption><p>In the page’s Actions menu, you can carry out actions that apply to the entire page.</p></figcaption></figure>
 
-The Actions <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> menu allows you to do things like duplicate, rename or delete your page.
+The page’s Actions menu <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> allows you to do things like duplicate, rename or delete your page.
 
 You can open the Actions menu using the <img src="../../.gitbook/assets/Actions menu.png" alt="three vertical dots" data-size="line"> icon that appears when hovering over your page in the sidebar, or from the icon next to the page title.
 
@@ -123,11 +125,11 @@ The type of actions available will depend on whether you’re in live editing mo
 
 ### Page options
 
-<figure><img src="../../.gitbook/assets/options-menu.png" alt=""><figcaption><p>The Page options menu offers customization options for your documentation and navigation.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/options-menu.png" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure>
 
-With [Page options](../../published-documentation/customization/page-layouts.md), you to customize your documentation layout and navigation. You can only access page options if you’re in an editing mode.
+With [page options](../../published-documentation/customization/page-layouts.md), you to customize your documentation layout and navigation. You can only access page options if you’re in an editing mode.
 
-You can open the Page options menu by opening the page’s Action menu <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and choosing **Options**, or by hovering over the main title of the page and clicking **Page options** when it appears.
+You can open the **Page options** side panel by opening the page’s **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and choosing **Options**, or by hovering over the main title of the page and clicking **Page options** when it appears.
 
 {% hint style="info" %}
 Certain changes, such as disabling the table of content, only apply to published documentation and may not be visible in the editor.
@@ -139,10 +141,10 @@ Certain changes, such as disabling the table of content, only apply to published
 
 The **page outline** sits on the right-hand side of the editor, and makes it easy to jump directly to the section of the page you’re looking for.
 
-Any Heading 1 or Heading 2 block inserted on the page will appear in the page outline listed here.
+Any [Heading 1 or Heading 2 blocks](../blocks/heading.md) you add to the page will appear in the page outline listed here.
 
-The page outline will appear in your published site, too. You can toggle it on or off in the [Page options](navigation.md#page-options) menu.
+The page outline will appear in your published site, too. You can toggle it on or off in the [**Page options**](navigation.md#page-options) side panel.
 
 {% hint style="info" %}
-If you can’t see the right-hand column of the app, it may be because your browser window is less than 1430 pixels wide. Your browser window needs to be at least 1430 pixels wide to see and use the Page outline.
+If you can’t see the right-hand column of the app, it may be because your browser window is less than 1430 pixels wide. Your browser window needs to be at least 1430 pixels wide to see and use the page outline.
 {% endhint %}

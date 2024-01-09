@@ -8,9 +8,9 @@ Collections are groups of spaces focused around a specific topic, team or purpos
 
 Collections allow you to:
 
-- organize your content by similar topics or ideas
-- manage space [permissions](../../../account-management/member-management/permissions-and-inheritance.md) at scale by allowing you to override the organization-level defaults
-- customize your group of spaces and publish them as variants (see [collection publishing](../../../published-documentation/share/collection-publishing.md) for more info).
+* organize your content by similar topics or ideas
+* manage space [permissions](../../../account-management/member-management/permissions-and-inheritance.md) at scale by allowing you to override the organization-level defaults
+* customize your group of spaces and publish them as variants (see [collection publishing](../../../published-documentation/share/collection-publishing.md) for more info).
 
 <figure><img src="../../../.gitbook/assets/collection (1).png" alt=""><figcaption><p>The main view of a collection, with other collections and spaces inside.</p></figcaption></figure>
 
@@ -22,7 +22,7 @@ Click the **+** button next to the **Documentation** header in the sidebar to cr
 
 ### Move a collection
 
-You can move a collection by opening the Action menu <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">, selecting **Move collection to…** and choosing a destination. Alternatively, you can drag and drop collections in the sidebar to move or reorder them.\
+You can move a collection by opening the **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">, selecting **Move collection to…** and choosing a destination. Alternatively, you can drag and drop collections in the sidebar to move or reorder them.\
 \
 You can move collections into other collections — or even to other organizations, if you have an [admin role](../../../account-management/member-management/roles.md) in both.
 
@@ -32,7 +32,7 @@ You can nest collections inside each other, creating a collection -> sub-collect
 
 Open a collection and you can click **New collection** from the collection’s main page to create a sub-collection.
 
-To move one collection into another, click **Move collection to…** from the collection’s Action menu <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
+To move one collection into another, click **Move collection to…** from the collection’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
 
 {% hint style="warning" %}
 **Note:** When you publish the primary collection, nested collections do not show up as [variants](../../../published-documentation/share/collection-publishing.md#why-publish-spaces-in-a-collection).
@@ -40,8 +40,8 @@ To move one collection into another, click **Move collection to…** from the co
 
 ### How to delete a collection
 
-You can delete a collection by opening it’s Action menu <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and selecting **Delete**.
+You can delete a collection by opening it’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and selecting **Delete**.
 
 {% hint style="danger" %}
-**Deleting a collection is final**, but spaces inside a deleted collection will move to the **Trash** and can be restored up to seven days after deletion. You can access the Trash from the bottom of the sidebar.&#x20;
+**Deleting a collection is final**, but spaces inside a deleted collection will move to the **Trash** and can be restored up to seven days after deletion. You can access the Trash from the bottom of the sidebar.
 {% endhint %}

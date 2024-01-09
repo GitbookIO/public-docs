@@ -1,14 +1,15 @@
 ---
-description: Edit your content in different ways, including rich text and Markdown.
+description: >-
+  With GitBook, you can edit your content in a number of ways, including using
+  rich text, inline content, and Markdown.
 ---
 
 # Editing content
 
-You can build your documentation with a range of blocks and inline content, formatting it to match your needs.
+You can build your documentation with a range of blocks and inline content, formatting it to match your needs.&#x20;
 
-{% hint style="info" %}
-**Permissions**\
-Editing content can only be done by users with editor permissions or higher.
+{% hint style="warning" %}
+Only users with editor permissions or higher can edit content in a space.
 {% endhint %}
 
 ### Learn more about

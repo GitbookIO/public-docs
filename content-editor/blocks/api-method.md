@@ -4,11 +4,11 @@ description: Add an API method to a page.
 
 # API methods
 
-An API Method block is used to manually document an HTTP API endpoint.
+An API method block is used to manually document an HTTP API endpoint.
 
-### Example of API Method block
+### Example of API method block
 
-{% swagger method="get" path="/user" baseUrl="https://api.example.com/v1" summary="Get a user" %}
+{% swagger method="get" path="/user" baseUrl="https://api.example.com/v1" summary="Get a user" expanded="false" %}
 {% swagger-description %}
 Use this method to get information about a user.
 {% endswagger-description %}
@@ -34,10 +34,10 @@ ID of the user to lookup
 {% endswagger %}
 
 {% hint style="info" %}
-You can now convert the API blocks to full width by clicking on the <img src="../../.gitbook/assets/image (4).png" alt="Block handle" data-size="line"> next to the block. [Read more about full-width blocks.](./#new-full-width-blocks)
+You can make API method blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line">  next to the block and choosing **Full width**.
 {% endhint %}
 
-#### Please also check:
+#### Related: <a href="#please-also-check" id="please-also-check"></a>
 
 {% content-ref url="openapi.md" %}
 [openapi.md](openapi.md)

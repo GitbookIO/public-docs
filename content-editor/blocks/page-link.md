@@ -1,10 +1,10 @@
 ---
-description: Add a page link to a page.
+description: "Add a page link block to show relations between pages in your space —\_and to highlight an important link on your page"
 ---
 
 # Page links
 
-A page link is the best way to create relations between different pages.
+Page link blocks are the best way create relations between different pages within your content. Page links stand out on the page as they fill their own block — compared to a hyperlink added to some text.&#x20;
 
 ### Example of page link block
 

@@ -1,12 +1,14 @@
 ---
-description: Add a drawing block to a page
+description: "Create drawings within GitBook and add them to your page —\_perfect for diagramming and sketching out quick ideas."
 ---
 
 # Drawings
 
-Drawings / sketches can be inserted from the insertion palette and are editable directly through GitBook using the integrated [Excalidraw](https://excalidraw.com/) editor.
+You can create a drawing or sketch directly though GitBook using the integrated [Excalidraw](https://excalidraw.com/) editor, then add it right into your GitBook page.
 
-Drawings are stored as special SVG files in the space. Those files have an extension of `drawing.svg`.
+To create a drawing, press `/` on an empty line to bring up the insert palette and choose **Drawing**. This will open a popover with Excalidraw tools — simply close the popover when you’re done and your diagram will appear on your GitBook page.
+
+GitBook stores drawings as special SVG files in the space. Those files have an extension of `drawing.svg`.
 
 ### Example of a drawing block
 

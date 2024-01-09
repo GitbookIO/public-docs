@@ -16,7 +16,7 @@ In a change request, you can edit, update and delete elements of your content, r
 
 Inside a space where live edits are disabled, click the **Edit** button in the space header to start a new change request.
 
-<figure><img src="../../.gitbook/assets/change-requests (1).png" alt=""><figcaption><p>Change request button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/change-requests (1).png" alt=""><figcaption><p>You can start a new change request by clicking the Edit button in the top-right of the window, which only appears if live edits are locked.</p></figcaption></figure>
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -46,7 +46,7 @@ If your changes don’t require a review, you can merge your changes into the ma
 
 Merging a change request will add the change request’s changes into the main branch of content, creating an updated version and a new entry in the space’s [version history](../activity-history.md#see-the-activity-of-a-specific-draft).
 
-<figure><img src="../../.gitbook/assets/merge-change-request.png" alt=""><figcaption><p>merge change request button</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/merge-change-request.png" alt=""><figcaption><p>Once you’re happy with your changes, you can click <strong>Merge</strong> to add the changes to the main branch.</p></figcaption></figure>
 
 ### Handling merge conflicts
 
@@ -62,7 +62,7 @@ You have two options when it comes to resolving a merge conflict — **selecting
 
 #### Selecting a version to merge
 
-You can resolve a merge conflict by selecting a version you want to merge — either your incoming content, or the content that was previously there. This allows you to choose between one change and another — either your recent work, or the original content.&#x20;
+You can resolve a merge conflict by selecting a version you want to merge — either your incoming content, or the content that was previously there. This allows you to choose between one change and another — either your recent work, or the original content.
 
 If you’re dealing with a merge conflict that can be resolved this way, you can select the version you want to keep, and the other version will be deleted.
 
@@ -76,15 +76,15 @@ If you get a request to review a change request, you'll be able to edit the cont
 
 Most reviews will take place in the change request’s [comments](../../collaboration/comments-discussion.md), where collaborators can share feedback and have discussions about specific content blocks, or the change request as a whole.
 
-#### Diff mode
+#### Diff view <a href="#diff-mode" id="diff-mode"></a>
 
-Diff mode allows you to toggle a view that makes it easy to see what’s been edited in a change request.&#x20;
+Diff view allows you to toggle a view that makes it easy to see what’s been edited in a change request.
 
-It highlights which pages have been changed in the table of contents, so you can quickly jump to the relevant parts of the space. And on individual pages, diff view shows the specific blocks that you’ve added, edited or removed.
+It highlights edited pages in the table of contents, so you can quickly jump to the relevant parts of the space. And on individual pages, diff view shows the specific blocks that you’ve added, edited or removed.
 
-You can toggle diff mode on or off for any change request.
+You can toggle diff view on or off for any change request.
 
-<figure><img src="../../.gitbook/assets/diff-view (1).png" alt=""><figcaption><p>Diff mode</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/diff-view (1).png" alt=""><figcaption><p>You can toggle diff mode on or off for any change request to make it easier to see what’s changed.</p></figcaption></figure>
 
 {% hint style="info" %}
 **Remember:** Members with an [editor](../../account-management/member-management/roles.md#editor) role can create and submit requests, but only members with a [reviewer](../../account-management/member-management/roles.md#reviewer) role or above can merge change requests.
@@ -94,6 +94,6 @@ You can toggle diff mode on or off for any change request.
 
 If you decide not to merge a change request and want to remove it from the queue, you can archive it.
 
-To archive a change request, first open it up. Then click the Action menu <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> in the top-right corner of the window and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
+To archive a change request, first open it up. Then click the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> in the top-right corner of the window and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
 
 <figure><img src="../../.gitbook/assets/archive-change-request.png" alt=""><figcaption><p>To find a change request that you archived, open the <strong>Change Requests menu</strong> and select the <strong>Archived</strong> tab. You can reopen archived change requests if needed, too.</p></figcaption></figure>

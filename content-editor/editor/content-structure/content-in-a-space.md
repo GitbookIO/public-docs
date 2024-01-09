@@ -26,7 +26,7 @@ You can nest pages by dragging and dropping a page below an other in the table o
 
 When you change the title of a page, the page’s slug (the part at the very end of the URL, e.g. `/hello-world`) will also change — unless you’ve manually set the page’s slug previously.
 
-You can change the title and the slug of a page at any time by clicking opening the page’s Action menu <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">  and choosing **Rename**.
+You can change the title and the slug of a page at any time by clicking opening the page’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">  and choosing **Rename**.
 
 #### Page groups
 
@@ -34,7 +34,7 @@ Page groups make it easy to bring pages together into sections that cover relate
 
 Page groups can only live at the **top level** of the [table of contents](../navigation.md#table-of-contents). You cannot nest page groups inside page groups.
 
-To change the title and slug of a page group, click the Actions menu icon <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> next to the group title in the table of contents and choose **Rename**.
+To change the title and slug of a page group, click the **Action menu** icon <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> next to the group title in the table of contents and choose **Rename**.
 
 #### External links
 
@@ -44,7 +44,7 @@ External links are simply links to external sites and resources. Adding a link d
 
 <figure><img src="../../../.gitbook/assets/new-page.png" alt=""><figcaption><p>You can create a new page or page group from table of contents.</p></figcaption></figure>
 
-When in [live edit](../live-edits.md) mode or in a [change request](../change-requests.md), you can create a new page by clicking **New page** > **New document page** at the bottom of your table of contents.&#x20;
+When in [live edit](../live-edits.md) mode or in a [change request](../change-requests.md), you can create a new page by clicking **Add new page** > **New document page** at the bottom of your table of contents.&#x20;
 
 Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
 
@@ -52,11 +52,11 @@ Once you’ve created a new page, you can add content to it using the [editor](.
 
 ### Create a page group
 
-Just like creating a new page, you can create a page group by choosing **New page** > **New group** from the bottom of your table of contents.
+Just like creating a new page, you can create a page group by choosing **Add new page** > **New group** from the bottom of your table of contents.
 
 ### Create an external link <a href="#external-links" id="external-links"></a>
 
-To add an external link to your space, click the **New page** button at the bottom of the table of contents, then choose **New link**. Give the link a title — this will appear in the table of contents — and then add the URL and click **Insert**.
+To add an external link to your space, click the **Add new page** button at the bottom of the table of contents, then choose **New link**. Give the link a title — this will appear in the table of contents — and then add the URL and click **Insert**.
 
 ### Can’t see the option to create a new page?
 

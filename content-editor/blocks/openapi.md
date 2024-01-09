@@ -4,7 +4,7 @@ description: Add an OpenAPI spec to a page.
 
 # OpenAPI methods
 
-You can also sync with an OpenAPI or Swagger file or URL to include auto-generated methods in your documentation.
+You can sync with an OpenAPI or Swagger file or URL to include auto-generated methods in your documentation.
 
 ### Example of an OpenAPI block
 
@@ -12,11 +12,11 @@ You can also sync with an OpenAPI or Swagger file or URL to include auto-generat
 [https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
 {% endswagger %}
 
-Manually writing documentation for your REST API can be time-consuming. To help, GitBook supports importing OpenAPI documents, which describe your API, and provides API Blocks to automatically represent your API methods based on the specification you provide, either as a file or as a URL for GitBook to load.
+Manually writing documentation for your REST API can be time-consuming. To help, GitBook supports OpenAPI document imports, which describe your API, and provides API blocks. These will automatically represent your API methods based on the specification you provide — either as a file or as a URL for GitBook to load.
 
 GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md) or [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md) compliant files.
 
-### Create OpenAPI Block using your OpenAPI file
+### Create OpenAPI block using your OpenAPI file
 
 Once you have an OpenAPI compliant representation of your API, you can use it in your documentation.
 

@@ -8,7 +8,7 @@ The import function allows you to migrate and unify existing documentation in Gi
 
 {% hint style="info" %}
 **Permissions**\
-Only users with editor permissions or higher can edit pages.
+Only users with [editor permissions or higher](../account-management/member-management/roles.md) can edit pages.
 {% endhint %}
 
 ### Supported import formats
@@ -38,7 +38,7 @@ Alternatively, you can always import a page or subpage by selecting **New page**
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/import-button (2).png" alt=""><figcaption><p>The import button(s) in the GitBook UI.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/import-button (2).png" alt=""><figcaption><p>There are two ways to import content into GitBook.</p></figcaption></figure>
 
 </div>
 

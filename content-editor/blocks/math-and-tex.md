@@ -1,12 +1,14 @@
 ---
-description: Add a Math or TeX block to a page
+description: >-
+  Add a mathTeX block to a page when you want to display a mathematical formula
+  in your documentation.
 ---
 
 # Math & TeX
 
-You can use mathTeX format to include mathematical formulae in your documentation. We offer this through the [KaTeX](https://katex.org/docs/supported.html) library.
+You can use the mathTeX format to include mathematical formulae in your documentation. We offer this through the [KaTeX](https://katex.org/docs/supported.html) library.
 
-We also offer this [as inline content](broken-reference).
+You can also add mathTeX [as inline content](../editing-content/inline.md#math-and-tex).&#x20;
 
 ### Example of Math & TeX block
 
