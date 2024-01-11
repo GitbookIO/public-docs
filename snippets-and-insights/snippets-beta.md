@@ -12,6 +12,12 @@ GitBook will index all of your snippets alongside the rest of your content, and 
 
 <figure><img src="../.gitbook/assets/snippets.png" alt=""><figcaption><p>The <strong>Snippets</strong> page holds all of your snippets in one place, and makes it easy to connect integrations so you can add more.</p></figcaption></figure>
 
+### Product Demo
+
+{% embed url="https://www.youtube.com/watch?v=P-ZRw0Yh_Mc" %}
+Snippets Product Demo
+{% endembed %}
+
 ### Create a snippet
 
 You can create snippets in GitBook in different ways, depending on the tool you’re using or the workspace you’re in.
