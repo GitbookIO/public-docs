@@ -9,7 +9,7 @@ description: >-
 You can build your documentation with a range of blocks and inline content, formatting it to match your needs.&#x20;
 
 {% hint style="warning" %}
-Only users with editor permissions or higher can edit content in a space.
+Only users with [editor permissions or higher](../../account-management/member-management/roles.md) can edit content in a space.
 {% endhint %}
 
 ### Learn more about

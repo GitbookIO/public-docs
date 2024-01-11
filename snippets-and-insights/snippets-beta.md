@@ -46,6 +46,16 @@ The snippet editor offers limited options, designed for basic edits to captured 
 
 You can share a snippet with others as a direct link to the organization it’s in. When viewing a snippet, you’ll find the **Copy link** button in the top-right corner.
 
+### Convert a snippet to a page
+
+You can convert a snippet to be a full page within your documentation. To do this, open a snippet and choose **Convert to page** in the top-right corner.
+
+You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../content-editor/editor/change-requests.md) if you select a space [with locked live edits](../content-editor/editor/live-edits.md).
+
+{% hint style="info" %}
+**Note:** When you convert a snippet to the page, GitBook will automatically archive the snippet. If you’ve linked to the snippet using [an inline link](../content-editor/editing-content/inline.md#links) or [a snippet block](../content-editor/blocks/snippets.md), the links will still work but will take readers to the original snippet, not the new page.
+{% endhint %}
+
 ### Delete a snippet
 
 To delete a snippet, open it by clicking it in the **Snippets** page, then click the **Discard** option from the Action menu <img src="../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> in the upper right corner.

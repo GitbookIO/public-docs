@@ -56,7 +56,11 @@ You can insert three different types of links:
 
 #### Relative links
 
-Relative links are links created by linking to pages that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you get fewer broken links.
+Relative links are links created by linking to [pages](../editor/content-structure/content-in-a-space.md) or [snippets](../../snippets-and-insights/snippets-beta.md) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you get fewer broken links.&#x20;
+
+{% hint style="info" %}
+**Note:** If you link to a snippet, but then [convert your snippet into a page](../../snippets-and-insights/snippets-beta.md#convert-a-snippet-to-a-page) in your documentation, your link will still send people to the original snippet, which will be archived.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/relative-links.png" alt=""><figcaption><p>Add a relative link</p></figcaption></figure>
 

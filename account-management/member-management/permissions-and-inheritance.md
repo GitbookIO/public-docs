@@ -4,7 +4,7 @@ GitBook has a flexible permissions model that lets you have as much, or as littl
 
 ### Organization default roles
 
-When you add a member to your organization, you set their default [role](roles.md). This role applies to any piece of content that inherits its permissions from the organization defaults.
+When you add a member to your organization, you set [their default role](roles.md). This role applies to any piece of content that inherits its permissions from the organization defaults.
 
 ### Managing inheritance
 
