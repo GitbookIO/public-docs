@@ -93,11 +93,13 @@ The space sub-navigation is located directly beneath the space header, and lets 
 * **Comments**\
   See the [comments and discussions](../../collaboration/comments-discussion.md) you and your team have had about the space content.
 
-### Page title
+### Page title and description <a href="#page-title" id="page-title"></a>
 
 <figure><img src="../../.gitbook/assets/title.png" alt=""><figcaption><p>The page title appears at the top of the page. You can set an emoji for a page by clicking the icon to the left of the title.</p></figcaption></figure>
 
 At the top of each page you can set a **title**, add an optional **emoji**, and write a **description**. The title you use will appear in the table of contents, and forms your page’s URL slug when published.
+
+Your page description can be a maximum of 200 characters long, and will act as the preview text for your page in search engines.
 
 {% hint style="info" %}
 You can change the URL slug for a page by choosing **Page Actions** <img src="../../.gitbook/assets/Actions menu.png" alt="Actions menu.png" data-size="line"> > **Rename**. Find out more about [Page Actions](navigation.md#page-options) below.
