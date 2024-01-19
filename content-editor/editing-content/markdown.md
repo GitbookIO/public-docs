@@ -57,3 +57,11 @@ When writing any kind of list, hit `Tab` to add a indent, and `Shift+Tab` to out
 Begin a line with `>` to create a block quote. If you select an entire paragraph from start to end, typing `>` will wrap the content in a block quote.
 
 > This is a block quote.
+
+### Dividers
+
+Type `---` then hit `Enter` to create a divider on your page.&#x20;
+
+***
+
+This is an example of a divider.
