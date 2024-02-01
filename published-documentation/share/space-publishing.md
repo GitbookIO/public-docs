@@ -22,12 +22,12 @@ The options available to you will depend on your permissions in the space, as we
 
 <figure><img src="../../.gitbook/assets/invite.png" alt=""><figcaption><p>Invite members to a GitBook space.</p></figcaption></figure>
 
-By default, users within your organization will inherit the permissions assigned to them within the organization settings area.&#x20;
+By default, users within your organization will inherit the permissions assigned to them within the organization settings area.
 
 If you want your content to remain private, and shared only with a specific person or group, inviting that person or people to be a member of your organization could be a great choice. They will be able to access the content when they are logged into their GitBook account.
 
 {% hint style="warning" %}
-Inviting a member will make them a member of the organization that owns the space, which **will increase your overall subscription charge.**&#x20;
+Inviting a member will make them a member of the organization that owns the space, which **will increase your overall subscription charge.**
 
 The cost for this will depend on the [plan](../../account-management/plans/) that the organization is subscribed to.
 {% endhint %}
@@ -53,12 +53,12 @@ In some cases, you might want to publish and share your content with a more spec
 If the space is nested inside of a published collection, you'll see this option. A space nested inside of a collection does not _have_ to be published as part of the collection so you can do things like work on a new version and only publish it when it's ready. Toggle this option to publish the space as part of the collection. You can find out more about collection publishing. See [collection publishing](collection-publishing.md) for more info.
 
 {% hint style="info" %}
-This option will only be visible if your collection has been published first.&#x20;
+This option will only be visible if your collection has been published first.
 {% endhint %}
 
 #### **Publish with** **visitor authentication**
 
-With visitor authentication, GitBook lets _your_ server-side code handle who has access to the content. See [visitor authentication](visitor-authentication.md) for more info.
+With visitor authentication, GitBook lets _your_ server-side code handle who has access to the content. See [visitor authentication](visitor-authentication/) for more info.
 
 #### **Publish with** **share links**
 
