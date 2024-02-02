@@ -8,9 +8,9 @@ description: >-
 
 In GitBook, you can capture unstructured information using [integrations](broken-reference), and GitBook AI will turn it into a **snippet** — a structured page of information that’s easy to read and digest. You can also create snippets manually within the app.&#x20;
 
-GitBook will index all of your snippets alongside the rest of your content, and can reference them when you or your team [searches for information](../content-editor/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
+GitBook will index all of your snippets alongside the rest of your content and can reference them when you or your team [searches for information](../content-editor/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
 
-<figure><img src="../.gitbook/assets/snippets.png" alt=""><figcaption><p>The <strong>Snippets</strong> page holds all of your snippets in one place, and makes it easy to connect integrations so you can add more.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/snippets.png" alt=""><figcaption><p>The <strong>Snippets</strong> page holds all of your snippets in one place and makes it easy to connect integrations so you can add more.</p></figcaption></figure>
 
 ### Product Demo
 
@@ -30,17 +30,13 @@ Every snippet you add to your organization will end up in the **Snippets** page,
 
 #### Create a snippet manually
 
-You can create a snippet manually from the **Snippets** page, by clicking the **Create your own** card. A blank page will appear and you can add any the information you’d like.
+You can create a snippet manually from the **Snippets** page, by clicking the **Create your own** card. A blank page will appear and you can add any information you’d like.
 
 ### Edit a snippet
 
 You can edit a snippet you’ve captured by clicking to open it from the **Snippets** page. This will open an editor view, where you can edit any information that might be wrong, or add additional context for things that might be missing.
 
-{% hint style="info" %}
-The snippet editor offers limited options, designed for basic edits to captured information. To access more editing options, you can copy the content of the snippet to a [page](../content-editor/editor/content-structure/content-in-a-space.md) in the **Documentation** section of your organization.
-{% endhint %}
-
-<figure><img src="../.gitbook/assets/edit-snippet.png" alt=""><figcaption><p>You can edit a snippet directly in the editor by opening itAdd.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/edit-snippet.png" alt=""><figcaption><p>You can edit a snippet directly in the editor by opening it.</p></figcaption></figure>
 
 ### Share a snippet
 
@@ -48,7 +44,7 @@ You can share a snippet with others as a direct link to the organization it’s 
 
 ### Convert a snippet to a page
 
-You can convert a snippet to be a full page within your documentation. To do this, open a snippet and choose **Convert to page** in the top-right corner.
+You can convert a snippet to a full page within your documentation. To do this, open a snippet and choose **Convert to page** in the top-right corner.
 
 You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../content-editor/editor/change-requests.md) if you select a space [with locked live edits](../content-editor/editor/live-edits.md).
 
@@ -61,5 +57,5 @@ You’ll be prompted to choose a space for your page — you can use the drop-d
 To delete a snippet, open it by clicking it in the **Snippets** page, then click the **Discard** option from the Action menu <img src="../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> in the upper right corner.
 
 {% hint style="warning" %}
-A snippet it is permanently deleted when you discard it.
+A snippet is permanently deleted when you discard it.
 {% endhint %}

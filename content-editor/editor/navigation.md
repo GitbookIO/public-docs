@@ -12,6 +12,8 @@ GitBook is split into different sections to make it easier to organize and manag
 
 The sidebar allows you to see and overview of your GitBook organization at a glance. The sidebar contains:
 
+* **Home**\
+  The Home page allows you to see everything your team is working on at a glance. View open change requests, discussions and comments, recent page edits and more.
 * **Organization switcher**\
   If you’re a part of multiple organizations, you can see and switch between them here. You can also create a new organization from this menu.
 * **Notifications**\
