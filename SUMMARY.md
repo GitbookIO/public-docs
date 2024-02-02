@@ -18,7 +18,7 @@
   * [Formatting your content](content-editor/editing-content/formatting.md)
   * [Inline content](content-editor/editing-content/inline.md)
   * [Markdown](content-editor/editing-content/markdown.md)
-  * [Write with GitBook AI](content-editor/editing-content/write-with-gitbook-ai.md)
+  * [Write with GitBook AI](content-editor/editing-content/write-and-edit-with-ai.md)
 * [Blocks](content-editor/blocks/README.md)
   * [Paragraphs](content-editor/blocks/paragraph.md)
   * [Headings](content-editor/blocks/heading.md)
