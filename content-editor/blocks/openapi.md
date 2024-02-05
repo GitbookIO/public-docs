@@ -8,8 +8,8 @@ You can sync with an OpenAPI or Swagger file or URL to include auto-generated me
 
 ### Example of an OpenAPI block
 
-{% swagger src="https://petstore.swagger.io/v2/swagger.json" path="/pet/{petId}" method="get" %}
-[https://petstore.swagger.io/v2/swagger.json](https://petstore.swagger.io/v2/swagger.json)
+{% swagger src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
+[https://petstore3.swagger.io/api/v3/openapi.json](https://petstore3.swagger.io/api/v3/openapi.json)
 {% endswagger %}
 
 Manually writing documentation for your REST API can be time-consuming. To help, GitBook supports OpenAPI document imports, which describe your API, and provides API blocks. These will automatically represent your API methods based on the specification you provide — either as a file or as a URL for GitBook to load.
