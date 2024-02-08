@@ -37,7 +37,7 @@
   * [Expandable sections](content-editor/blocks/expandable.md)
   * [Drawings](content-editor/blocks/drawing.md)
   * [Math & TeX](content-editor/blocks/math-and-tex.md)
-  * [API methods](content-editor/blocks/api-method.md)
+  * [API method](content-editor/blocks/api-method.md)
   * [OpenAPI methods](content-editor/blocks/openapi.md)
   * [Page links](content-editor/blocks/page-link.md)
   * [Snippets](content-editor/blocks/snippets.md)

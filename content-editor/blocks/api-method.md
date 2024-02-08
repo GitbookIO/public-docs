@@ -2,7 +2,17 @@
 description: Add an API method to a page.
 ---
 
-# API methods
+# API method
+
+{% hint style="danger" %}
+#### We are depreciating the API method block
+
+We’re working on some major improvements to how teams can document APIs in GitBook.  **As a result, we’ve decided to deprecate the API method block.** [Read our recent announcement](https://changelog.gitbook.com/announcements/depreciating-api-method-block) to find out more about the reasons behind this change.
+
+From **Monday 13 February**, you will no longer be able to add API method blocks to your content in GitBook.&#x20;
+
+On **Monday 4 March**, we’ll automatically transition all pre-existing API method blocks to regular text blocks. [Read our announcement](https://changelog.gitbook.com/announcements/depreciating-api-method-block) to find out more.
+{% endhint %}
 
 An API method block is used to manually document an HTTP API endpoint.
 
