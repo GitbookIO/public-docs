@@ -59,7 +59,7 @@ The bold theme uses the primary color as the header background color. It is only
 The contrast theme has a dark header background color in light mode, and a light header background color in dark mode. It is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.
 
 **Custom theme**\
-The custom theme option will enable you to set your own color preferences for the background color and link color in the header, in addition to choosing the primary color for light mode and for dark mode. It is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.\
+The custom theme option will enable you to set your own color preferences for the background color and link color in the header, in addition to choosing the primary color for light mode and for dark mode. It is only available to spaces owned by an organization subscribed to a Pro or Enterprise plan.\\
 
 </details>
 
@@ -88,6 +88,9 @@ GitBook doesn’t support the uploading or linking of custom fonts. If you think
 
 **Corner style**\
 Choose either a rounded corner or straight corner style, to help align your published GitBook content with your own brand’s styling preferences.
+
+**Background**\
+Switch between a plain background and a subtly tinted background that complements your theme.
 
 </details>
 
@@ -140,7 +143,7 @@ You can upload a custom social preview image for your space. This will set the s
 
 </details>
 
-### Configure: manage the interface&#x20;
+### Configure: manage the interface
 
 <details>
 
@@ -196,9 +199,9 @@ You can link to your own privacy policy to help visitors understand how your Git
 
 ### Integrations
 
-You can choose to enable[ Intercom](broken-reference) or [Google Analytics](broken-reference) integrations for your published content.
+You can choose to enable[ Intercom](broken-reference/) or [Google Analytics](broken-reference/) integrations for your published content.
 
-Looking for more? See [integrations](broken-reference) for more info.
+Looking for more? See [integrations](broken-reference/) for more info.
 
 ### What _can’t_ be customized?
 

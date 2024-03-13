@@ -8,8 +8,6 @@ description: Export a PDF copy of your content on GitBook.
 This feature is available on our **Pro** and **Enterprise** plans.
 {% endhint %}
 
-PDF export allows visitors and logged-in users to download your published content or individual pages as a PDF file. Our PDF export has a limit of 100 pages.
-
 ### Allow readers to export a PDF version of your content
 
 {% hint style="info" %}

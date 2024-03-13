@@ -6,6 +6,10 @@ description: Add an OpenAPI spec to a page.
 
 You can sync with an OpenAPI or Swagger file or URL to include auto-generated methods in your documentation.
 
+{% hint style="info" %}
+After adding your OpenAPI specification to GitBook, you’ll see a condensed version of the API block in the in-app editor. We’re working on consolidating both the in-app editor view and the published content view.
+{% endhint %}
+
 ### Example of an OpenAPI block
 
 {% swagger src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
@@ -56,3 +60,57 @@ Once the OpenAPI Source has been replaced, each OpenAPI block that references yo
 2. Provide a new URL in the input box, and save
 
 Once the OpenAPI Source has been replaced, each OpenAPI block that references your file will be updated based on your new specification.
+
+### API method block (deprecated)
+
+{% hint style="danger" %}
+**Editable API method blocks are now deprecated**
+
+In light of our updated OpenAPI method block, **we’ve decided to deprecate the API method block.** [Read our recent announcement](https://changelog.gitbook.com/announcements/depreciating-api-method-block) to find out more about the reasons behind this change.
+
+On **Monday 4 March 2024**, we automatically transitioned all pre-existing API method blocks to regular blocks in the format you can see below. [Read our announcement](https://changelog.gitbook.com/announcements/depreciating-api-method-block) to find out more.
+{% endhint %}
+
+You can still create editable API references from the **Quickstart** section of the **Insert menu**. Hit / on your keyboard and select **API Reference**. GitBook will create an editable section that looks like this:
+
+## Create a new user
+
+<mark style="color:green;">`POST`</mark> `/users`
+
+\<Description of the endpoint>
+
+**Headers**
+
+| Name          | Value              |
+| ------------- | ------------------ |
+| Content-Type  | `application/json` |
+| Authorization | `Bearer <token>`   |
+
+**Body**
+
+| Name   | Type   | Description      |
+| ------ | ------ | ---------------- |
+| `name` | string | Name of the user |
+| `age`  | number | Age of the user  |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+  "id": 1,
+  "name": "John",
+  "age": 30
+}
+```
+{% endtab %}
+
+{% tab title="400" %}
+```json
+{
+  "error": "Invalid request"
+}
+```
+{% endtab %}
+{% endtabs %}

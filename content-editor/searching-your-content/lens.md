@@ -44,9 +44,13 @@ Then simply type your question and press `Enter`. You’ll see a number of sugge
 
 </div>
 
-For this example, lets try: "What makes change requests a powerful GitBook feature?" After a few seconds, you’ll get an answer from GitBook AI.
+For this example, let's try: “What makes change requests a powerful GitBook feature?” After a few seconds, you’ll get an answer from GitBook AI.
 
 As well as a summarized answer, below you’ll also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
+
+{% hint style="warning" %}
+**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is **_**only**_** available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../published-documentation/share/collection-publishing.md)**.**&#x20;
+{% endhint %}
 
 #### Using GitBook AI in internal documentation
 

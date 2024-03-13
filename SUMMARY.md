@@ -37,13 +37,12 @@
   * [Expandable sections](content-editor/blocks/expandable.md)
   * [Drawings](content-editor/blocks/drawing.md)
   * [Math & TeX](content-editor/blocks/math-and-tex.md)
-  * [API method](content-editor/blocks/api-method.md)
   * [OpenAPI methods](content-editor/blocks/openapi.md)
   * [Page links](content-editor/blocks/page-link.md)
   * [Snippets](content-editor/blocks/snippets.md)
 * [Searching content](content-editor/searching-your-content/README.md)
   * [GitBook AI (beta)](content-editor/searching-your-content/lens.md)
-  * [Quick find](content-editor/searching-your-content/quick-find.md)
+  * [Search & Quick find](content-editor/searching-your-content/quick-find.md)
 * [Version control](content-editor/activity-history.md)
 
 ## Snippets & Insights

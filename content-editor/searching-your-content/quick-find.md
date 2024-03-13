@@ -2,7 +2,7 @@
 description: Search and navigate your documentation fast with quick find.
 ---
 
-# Quick find
+# Search & Quick find
 
 GitBook’s quick find palette lets you search for content across all your organizations, and jump between them fast.
 
@@ -30,11 +30,13 @@ We do not currently support the ability to prioritize certain content in quick f
 
 ### ​Team permissions <a href="#team-permissions" id="team-permissions"></a>
 
-Quick find is compliant with your team’s permission settings, meaning that users will only be able to search the content they have permission to access.‌
+**Quick find** is compliant with your team’s permission settings, meaning that users will only be able to search the content they have permission to access.‌
 
 {% hint style="warning" %}
-**Please note:** Multiple space search is _not_ available when viewing a published [GitBook space](../editor/content-structure/what-is-a-space.md) via its public URL. It’s only available to logged-in members of a GitBook organization while they view the space in the GitBook app, based on their permission settings. External visitors of a public space can only search that space.
+**Note:** Multiple space search is _only_ available when viewing a published [GitBook space](../editor/content-structure/what-is-a-space.md) that lives inside of a [published collection](../../published-documentation/share/collection-publishing.md). It is not available across individual published spaces in different collections.&#x20;
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-02-15 at 11.35.11.png" alt=""><figcaption><p>Search all content in a space</p></figcaption></figure>
 
 ### Content Indexing <a href="#indexation" id="indexation"></a>
 

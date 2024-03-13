@@ -6,7 +6,7 @@ description: Publish and share your content with and internal or external audien
 
 When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
 
-<figure><img src="../.gitbook/assets/published-site.png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/published-site (1).png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
 
 ### Product Demo
 
