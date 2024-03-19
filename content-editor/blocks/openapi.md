@@ -10,6 +10,12 @@ You can sync with an OpenAPI or Swagger file or URL to include auto-generated me
 After adding your OpenAPI specification to GitBook, you’ll see a condensed version of the API block in the in-app editor. We’re working on consolidating both the in-app editor view and the published content view.
 {% endhint %}
 
+### Test it (powered by Scalar)
+
+GitBook's OpenAPI block also supports a "try it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
+
+Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in order to see your API methods in action. See and example of this below.
+
 ### Example of an OpenAPI block
 
 {% swagger src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
@@ -19,6 +25,42 @@ After adding your OpenAPI specification to GitBook, you’ll see a condensed ver
 Manually writing documentation for your REST API can be time-consuming. To help, GitBook supports OpenAPI document imports, which describe your API, and provides API blocks. These will automatically represent your API methods based on the specification you provide — either as a file or as a URL for GitBook to load.
 
 GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md) or [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md) compliant files.
+
+### Options
+
+GitBook supports extra options you can define in your OpenAPI specification to alter they way your API methods display in your published documentation.
+
+| Property           | Values            | Description                                             |
+| ------------------ | ----------------- | ------------------------------------------------------- |
+| `x-hideTryItPanel` | `true` \| `false` | Show or hide the "Test it" button for an OpenAPI block. |
+| `x-codeSamples`    | `true` \| `false` | Show or hide code samples for an OpenAPI block.         |
+
+Both properties can be set on either the root level or on a per-operation basis.&#x20;
+
+**Root**
+
+```yaml
+x-hideTryItPanel: true
+x-codeSamples: false
+paths:
+  /user
+    get:
+      summary: Get the current user
+```
+
+**Operation**
+
+```yaml
+paths:
+  /user
+    get:
+      summary: Get the current user
+      x-hideTryItPanel: true
+      x-codeSamples:
+       - lang: javascript
+          label: JS
+          source: console.log('Hello')
+```
 
 ### Create OpenAPI block using your OpenAPI file
 
