@@ -8,7 +8,7 @@ Please follow the steps to set a custom domain in this order:
 3. [Initiating the custom domain setup](initiate/) (at the [organization](initiate/organization-level-custom-domain.md), [collection](initiate/collection-level-custom-domain.md), or [space](initiate/space-level-custom-domain.md) level)
 4. [**Configuring DNS**](configure-dns.md) **(you are here)**
 5. [Confirming the custom domain setup](finalize.md)
-   {% endhint %}
+{% endhint %}
 
 Configuring DNS happens _outside_ of GitBook, at the DNS provider you are using for your domain.
 
@@ -22,9 +22,9 @@ There are three parts to this step:
 
 The names of the fields and what to actually enter to configure the record may differ between DNS control panels, but we’ve covered the most common options here. If you’re in any doubt, check with your DNS provider.
 
-- The **type** is the kind of DNS record that you want to create. Here, you need to choose **CNAME**.
-- The **name** or **DNS entry** is where you enter your subdomain. You might need to enter it in full (e.g. **docs.example.com**) or you might just need to enter the part before your apex domain (e.g. **docs**). If you’re not sure which to use, check with your DNS provider.
-- The **target** or **value** or **destination** is where the subdomain should be pointed.
+* The **type** is the kind of DNS record that you want to create. Here, you need to choose **CNAME**.
+* The **name** or **DNS entry** is where you enter your subdomain. You might need to enter it in full (e.g. **docs.example.com**) or you might just need to enter the part before your apex domain (e.g. **docs**). If you’re not sure which to use, check with your DNS provider.
+* The **target** or **value** or **destination** is where the subdomain should be pointed.
 
 You might also see a field named **TTL**, which stands for Time To Live. It’s the number of seconds that the DNS record can be cached for. If you’re not sure what to set, look at the TTL for your existing DNS records. You could set the same number. If you’re still not sure, we suggest setting 43200 seconds (12 hours) or 86400 seconds (24 hours).
 
@@ -44,6 +44,16 @@ If you are configuring DNS in Cloudflare’s control panel, please ensure that C
 2. Your custom domain will already benefit from Cloudflare’s CDN and a Google Trust Services SSL certificate on our end.
 
 Again, please **turn off Cloudflare proxying** to ensure that your documentation is served without issues and can be monitored by GitBook.
+
+{% hint style="warning" %}
+**GitBook does not officially support proxy setups**&#x20;
+
+If you decide to set it up anyway, please ensure your setup respects the following:
+
+* You need to proxy all `GET`, `OPTIONS`, `HEAD`, `POST` methods.
+* You should respect the `Cache-Control` header and use the entire request (url + headers, by respecting the `Vary` header) as a cache key.
+* You should not modify the HTML to load external resources, or you should take the CSP into consideration and ensure a [`nonce`](https://developer.mozilla.org/en-US/docs/Web/HTML/Global\_attributes/nonce) is set on every resources.
+{% endhint %}
 
 ## Check for a CAA record
 
