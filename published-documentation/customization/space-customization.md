@@ -68,7 +68,7 @@ The custom theme option will enable you to set your own color preferences for th
 <summary>Modes</summary>
 
 **Show mode toggle**\
-If you would like visitors to your published content to be able to toggle between light and dark mode, enable this setting! You can see it in action in our own documentation here. It’s located near the top-right corner next to the search bar for larger screens, and within the menu on mobile devices.
+If you would like visitors to your published content to be able to toggle between light and dark mode, enable this setting! You can see it in action in our own documentation here. It’s located near the bottom-right corner, both on larger screens and mobile devices.
 
 **Default mode**\
 Choose whether visitors to your published content will see it in light mode or dark mode initially. If show mode toggle is enabled, they’ll be able to switch to the other option if they prefer. If show mode toggle is disabled, they’ll only be able to see your content in the mode you choose here.
