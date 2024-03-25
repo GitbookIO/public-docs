@@ -134,6 +134,7 @@
   * [Content creation FAQ](help-and-faq/faq/content-creation-faq.md)
   * [Security FAQs](help-and-faq/faq/faqs.md)
 * [Keyboard shortcuts](help-and-faq/keyboard-shortcuts.md)
+* [Contributing](help-and-faq/contributing.md)
 * [Changelog](https://changelog.gitbook.com/)
 * [Developer Documentation](https://developer.gitbook.com/)
 
