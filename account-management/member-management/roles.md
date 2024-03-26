@@ -13,7 +13,7 @@ Understanding default roles is key to getting the most out of how GitBook handle
 Roles are how you define the level of access and control that members have over content (and the organization, in the case of admins).
 
 {% hint style="warning" %}
-Regardless of role, _**every**_ _**single member**_ of an organization _**counts towards**_ the total number of members for _**billing**_ purposes. \
+Regardless of role, _**every**_ _**single member**_ of an organization _**counts towards**_ the total number of members for _**billing**_ purposes.\
 \
 You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
 {% endhint %}
@@ -72,7 +72,7 @@ Reviewers have all the same permissions as an editor however, they can also merg
 
 <summary>Creator</summary>
 
-Creators are essentially content-level admins. They can create, delete and publish spaces and collections; manage permissions at a content level.
+Creators are essentially content-level admins. They can create, delete, and publish spaces and collections; manage permissions at a content level. If a Creator is also a Creator or Admin in another GitBook organization, they have the ability to move content between organizations.
 
 </details>
 
