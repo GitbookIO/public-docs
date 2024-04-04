@@ -76,10 +76,6 @@ Here’s how to insert a relative link:
 
 Absolute links are external links that you can copy and paste into your content. They’re great when you want to link to something outside your documentation.
 
-{% hint style="info" %}
-External links will always open in a new tab.
-{% endhint %}
-
 To insert an absolute link:
 
 1. Click somewhere in your paragraph where you want to insert the link, or select some text.
