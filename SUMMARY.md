@@ -107,7 +107,7 @@
 * [Overview](account-management/overview.md)
 * [Choose your plan](account-management/plans/README.md)
   * [Legacy plans](account-management/plans/legacy-plans.md)
-  * [Apply for the OSS plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+  * [Apply for the Community plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-management.md)

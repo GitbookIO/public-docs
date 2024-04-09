@@ -65,7 +65,7 @@ Please head to the organization settings page, and then click on the billing tab
 <figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Please ensure your billing information is correct _**before**_ you pay for a subscription. \
+Please ensure your billing information is correct _**before**_ you pay for a subscription. \\
 
 We are unable to change details on already paid invoices.
 {% endhint %}
@@ -86,9 +86,9 @@ It is important to note that you _**won’t**_ go through _**another checkout pr
 
 ### **Are users with guest or reader permissions paid?**
 
-Yes, guests or readers are fully paid users. The permissions help you manage access to your content but do not affect the price. \
+Yes, guests or readers are fully paid users. The permissions help you manage access to your content but do not affect the price.\
 \
-Please note this refers to readers added to your organization (i.e. those visible when you navigate to Settings and then Members) rather than readers on your public docs which are not chargeable.&#x20;
+Please note this refers to readers added to your organization (i.e. those visible when you navigate to Settings and then Members) rather than readers on your public docs which are not chargeable.
 
 ### **Do you provide annual pricing/contracts?**
 
@@ -96,7 +96,7 @@ GitBook offers monthly and yearly plans. You can find out more on [our pricing p
 
 ### I have paid for the yearly plan. Why did I receive another invoice?
 
-This happens when you have added extra users since subscribing to an annual plan. Each user (regardless of their permission level) is considered a paid seat. \
+This happens when you have added extra users since subscribing to an annual plan. Each user (regardless of their permission level) is considered a paid seat.\
 \
 Read more about how we work out the outstanding fees in our [billing policy](billing-policy.md).
 
@@ -109,7 +109,7 @@ As per our [terms of service](https://policies.gitbook.com/terms), we do not off
 We don’t offer a discount, but we _do_ offer two options:
 
 1. Our free **Personal** plan should suit many non-profit/open-source organizations.
-2. For any organizations that need to collaborate on their docs with others _and_ who meet [our criteria](../plans/apply-for-the-non-profit-open-source-plan.md), we offer an **OSS** plan. [Click here for more information](../plans/apply-for-the-non-profit-open-source-plan.md).
+2. For any organizations that need to collaborate on their docs with others _and_ who meet [our criteria](../plans/apply-for-the-non-profit-open-source-plan.md), we offer a Community plan. [Click here for more information](../plans/apply-for-the-non-profit-open-source-plan.md).
 
 ### Do you offer any discounts?
 

@@ -1,14 +1,24 @@
 ---
-description: Apply for our Open Source plan in GitBook.
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
-# Apply for the OSS plan
+# Apply for the Community plan
 
-We welcome applications for our OSS plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
+We welcome applications for our Community plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
-1. Non-profit organizations
-2. Open source projects
-3. Small education-related groups
+1. Open source projects
+2. Non-profit organizations
+3. Education-related groups
 
 {% hint style="info" %}
 If you won’t need to collaborate with others, then your needs should be covered by our free Personal plan!
@@ -57,7 +67,7 @@ Your Git repository **must**:
 * Have a `CODE_OF_CONDUCT.md` file.
 * Make it easy for others to [contribute](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github#finding-good-first-issues).
 
-### Criteria for small education-related groups
+### Criteria for education-related groups
 
 * The organization _must not_ represent a school, college, or university as a whole.
 * The organization _may_ represent a small group related to a school, college, or university.
