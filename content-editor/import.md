@@ -4,6 +4,13 @@ description: "Find out how to easily migrate your existing documentation —\_an
 
 # Import
 
+There are two methods for importing content into GitBook:
+
+1. Using our import tool
+2. Using Git Sync
+
+### Using our import tool
+
 The import function allows you to migrate and unify existing documentation in GitBook. You can choose to import single or multiple pages — although some limits apply.
 
 {% hint style="info" %}
@@ -54,3 +61,16 @@ GitBook currently has the following limits for imported content:
 
 * The maximum number of pages that can be uploaded in a single import is **20**.
 * The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
+
+### Importing via Git Sync
+
+If you're looking to import large amounts of content, importing using our Git Sync feature may be preferable as there is no limitation on the amount of content that can be imported.&#x20;
+
+In order to use Git Sync to import, you will first need to get all of your content into markdown files in a Git repo (or folder if you're using a mono repo set up). If your current tool does not allow for markdown export, there are various online tools that can assist with conversion from other formats (pdf, html etc).&#x20;
+
+Once you have this, you can follow the steps in our [Git sync docs](../integrations/git-sync/) to set up the integration. Be sure to select the direction 'GitHub -> GitBook' when choosing the initial sync direction.&#x20;
+
+{% hint style="info" %}
+If you're having trouble with importing using either method suggested here, please don't hesitate to reach out to support@gitbook.com for additional guidance.
+{% endhint %}
+
