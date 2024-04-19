@@ -1,4 +1,5 @@
 ---
+description: Apply for our Open Source plan in GitBook.
 layout:
   title:
     visible: true
