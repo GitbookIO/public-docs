@@ -163,7 +163,7 @@ Is there a language we don’t yet offer that you would like to see included in 
 
 GitBook AI search lets visitors to your published documentation ask questions and receive a semantic answer based on your content.
 
-[GitBook AI](../../content-editor/searching-your-content/lens.md) is available as part of our Pro and Enterprise plans. [Visit our pricing page](https://www.gitbook.com/pricing) to find out more about upgrading to Pro.
+[GitBook AI](../../content-editor/searching-your-content/gitbook-ai.md) is available as part of our Pro and Enterprise plans. [Visit our pricing page](https://www.gitbook.com/pricing) to find out more about upgrading to Pro.
 
 </details>
 

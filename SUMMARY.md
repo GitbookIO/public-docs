@@ -41,7 +41,7 @@
   * [Page links](content-editor/blocks/page-link.md)
   * [Snippets](content-editor/blocks/snippets.md)
 * [Searching content](content-editor/searching-your-content/README.md)
-  * [GitBook AI](content-editor/searching-your-content/lens.md)
+  * [GitBook AI](content-editor/searching-your-content/gitbook-ai.md)
   * [Search & Quick find](content-editor/searching-your-content/quick-find.md)
 * [Version control](content-editor/activity-history.md)
 

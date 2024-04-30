@@ -19,7 +19,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 * **Notifications**\
   When you’re tagged in a comment or conversation, or when there is important activity in a space you’re working in, you’ll get a [notification](../../collaboration/notifications.md) to show you what’s new.
 * **Ask or search**\
-  Powered by [GitBook AI](../searching-your-content/lens.md), you can ask questions in natural language, or search through the different spaces and content in your organization.
+  Powered by [GitBook AI](../searching-your-content/gitbook-ai.md), you can ask questions in natural language, or search through the different spaces and content in your organization.
 * **Integrations**\
   GitBook [integrations](broken-reference/) supercharge your content, allowing you to embed more into your pages, or add information to your knowledge base from other apps. Head to the [integration listing page ](../../integrations/third-party-integrations.md)to see all the available integrations.
 * **Snippets**\
