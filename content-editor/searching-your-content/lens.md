@@ -2,7 +2,7 @@
 description: GitBook uses AI to help you find the knowledge you need, faster.
 ---
 
-# GitBook AI (beta)
+# GitBook AI
 
 {% embed url="https://youtu.be/X-3DAtaK2F8" %}
 
@@ -10,9 +10,7 @@ Simply tell GitBook AI what you want, or ask it a question. It’ll use AI to sc
 
 ### Which GitBook plans include GitBook AI?
 
-While GitBook AI is in open beta, it is available at no additional cost on **all plans** during that time!
-
-In future, we plan to incorporate GitBook AI into our **Pro and Enterprise plans**, but we’ll let you know before that happens.
+GitBook AI is available to users on the **Pro or Enterprise plans**. If you have a Free or Plus account, you’ll need to upgrade to use GitBook AI search. [Visit our pricing page](https://www.gitbook.com/pricing) to learn more.
 
 ### How do I enable GitBook AI?
 

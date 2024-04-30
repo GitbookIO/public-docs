@@ -40,9 +40,8 @@
   * [OpenAPI methods](content-editor/blocks/openapi.md)
   * [Page links](content-editor/blocks/page-link.md)
   * [Snippets](content-editor/blocks/snippets.md)
-  * [Synced block](content-editor/blocks/synced-block.md)
 * [Searching content](content-editor/searching-your-content/README.md)
-  * [GitBook AI (beta)](content-editor/searching-your-content/lens.md)
+  * [GitBook AI](content-editor/searching-your-content/lens.md)
   * [Search & Quick find](content-editor/searching-your-content/quick-find.md)
 * [Version control](content-editor/activity-history.md)
 

@@ -6,6 +6,10 @@ description: Use GitBook AI to generate and build content for your page
 
 You can use GitBook AI to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
 
+{% hint style="warning" %}
+GitBook AI is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+{% endhint %}
+
 ### How to write with GitBook AI
 
 Press `Space` on any empty line, or type `/` and choose **Write with AI** to enter GitBook AI’s writing mode.
@@ -54,6 +58,6 @@ GitBook AI does not use your data to train AI models. We will only share the inf
 
 <summary>How much does GitBook AI cost?</summary>
 
-Right now, GitBook AI writing is launching in alpha — we’re still smoothing out some edges and improving the interface. So while we monitor usage and costs for this new feature, we’re making it **available to everyone at no extra cost**.&#x20;
+GitBook AI is available as part of GitBook’s Pro and Enterprise plans. If you have a Free or Plus plan, you’ll need to upgrade to use GitBook AI writing and editing. [Visit our pricing page](https://www.gitbook.com/pricing) to find out more about upgrading to Pro.
 
 </details>
