@@ -50,6 +50,7 @@
 * [Overview](snippets-and-insights/overview.md)
 * [Snippets (beta)](snippets-and-insights/snippets-beta.md)
 * [Insights](snippets-and-insights/insights.md)
+* [Broken links](snippets-and-insights/broken-links.md)
 
 ## Integrations
 
