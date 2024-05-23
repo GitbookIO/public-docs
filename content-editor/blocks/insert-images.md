@@ -49,7 +49,7 @@ You can set different images for the light and dark mode versions of your publis
 
 To add an image for dark mode, hover over your image, open the **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and click **Replace image** <picture><source srcset="../../.gitbook/assets/Replace image dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Replace image light.png" alt="" data-size="line"></picture>. In the drop-down menu, choose **Add image for Dark mode**. Once you’ve set this, you can replace either image from this same menu.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Once you’ve set an image for both light and dark mode, you can replace either from this menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Once you’ve set an image for both light and dark mode, you can replace either from this menu.</p></figcaption></figure>
 
 {% hint style="warning" %}
 **Note:** GitBook doesn’t currently support light and dark mode images for certain cases, including [page covers](../../published-documentation/customization/page-layouts.md#page-covers) or image covers on [cards](cards.md).
