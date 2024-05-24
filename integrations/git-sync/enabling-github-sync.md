@@ -4,6 +4,10 @@ description: How to set up and authorize the GitHub Sync integration for GitBook
 
 # Enabling GitHub Sync
 
+{% hint style="info" %}
+The GitHub app that powers our GitHub integration is currently not available to customers on GitHub Enterprise Server instances.
+{% endhint %}
+
 ### 1. Get started
 
 In the space you want to sync with your GitHub repo, head to the space menu in the top right, and select **Configure**. From the provider list, select **GitHub Sync**.
