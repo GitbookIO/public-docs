@@ -6,31 +6,7 @@ description: Keep your content up to date by seeing what needs to be updated
 
 Content insights give you a birds-eye view of all of the content you have in your organization — whether it’s your documentation, internal knowledge base, or another form of knowledge.
 
-It’s split up into different sections — **content audit**, **content scores** and **search analytics**.
-
-### Product Demo
-
-{% embed url="https://www.youtube.com/watch?v=8XKv5MhDjRI" %}
-Insights Product Demo
-{% endembed %}
-
-### Content audit (alpha)
-
-Content audit lets you keep your knowledge up to date by comparing the information in your knowledge base against multiple other internal sources.
-
-It will notify you of contradictory information — where two pages contain different information about the same topic. It will also flag duplicated content, in cases where two pages have the same information, so you can choose if you just want to keep one.
-
-For example, if there are inconsistencies between two pages in a published space, you’ll get a notification in this section — and you’ll get the option to incorporate or change the inconsistent information.
-
-<figure><img src="../.gitbook/assets/content-insights.png" alt=""><figcaption><p>In the <strong>Content audit</strong> tab you can quickly see pages with contradictory or duplicated information, and fix the errors.</p></figcaption></figure>
-
-{% hint style="info" %}
-**Alpha notice:** While in the alpha period, content audits are available on all pricing plans. This will change in the future, and you'll be informed before the feature reaches General Availability.
-
-We will use this period to analyze and improve the quality of the audits so they're increasingly relevant to your content.
-
-If you notice anything relevant, make sure to [share your feedback](https://survey.refiner.io/e61q1m-dz5gpn) with us!
-{% endhint %}
+It’s split up into different sections — **content scores** and **search analytics**.
 
 ### Content scores
 
