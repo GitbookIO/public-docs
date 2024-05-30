@@ -64,6 +64,12 @@ To open a row’s Options menu, hover over the row and click the **Options** <im
 * **Add column:** Add a new column on the right of the table.
 * **Delete row:** Permanently remove all the data in the row from your table.
 
+### Images in tables
+
+When you click into a table cell, you can hit the / key to insert images. Note that this will not work in the header row.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 ### Representation in Markdown
 
 ```

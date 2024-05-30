@@ -23,6 +23,10 @@ We recommend exporting your content in Markdown format by enabling [GitHub or Gi
 
 We do not support moving single pages between spaces at this time. We recommend you copy and paste the content as needed. In cases of larger content reorganization where you will need to move a number of pages between spaces, we recommend you contact our support team who can guide you through moving your content via GitHub or GitLab sync.
 
+{% hint style="info" %}
+To easily select multiple blocks you can use block selection mode, which is enabled by hitting the esc key. To copy an entire page of text, you can hit esc to enable block selection and then hit cmd + a to select all content on a page and then copy and paste to a new space.
+{% endhint %}
+
 ## Can I move a space between organizations?
 
 Yes, you can! [Read more about how to move a space.](../../content-editor/editor/content-structure/what-is-a-space.md#move-a-space)

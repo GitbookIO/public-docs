@@ -159,11 +159,11 @@ Is there a language we don’t yet offer that you would like to see included in 
 
 <details>
 
-<summary>Enable Lens semantic search</summary>
+<summary>Enable GitBook AI search</summary>
 
-Enabling Lens allows visitors to your published documentation to ask questions and receive a semantic answer based on your content.
+GitBook AI search lets visitors to your published documentation ask questions and receive a semantic answer based on your content.
 
-You can [find out more about Lens](../../content-editor/searching-your-content/lens.md).
+[GitBook AI](../../content-editor/searching-your-content/gitbook-ai.md) is available as part of our Pro and Enterprise plans. [Visit our pricing page](https://www.gitbook.com/pricing) to find out more about upgrading to Pro.
 
 </details>
 

@@ -26,11 +26,11 @@ The GitBook Slack integration helps you collect, review, and share information t
 
 GitBook AI will summarize information that you or your team add to your knowledge base, turning a series of messages into a context-rich document. And when you or a colleague need to learn more about something, you can ask GitBook AI and get a plain-text summary, with all the background needed to dive in deeper.
 
-### Installation & Configuration
-
 {% hint style="warning" %}
-**If you had installed the GitBook Slack integration prior to October 7th 2023, you’ll need to uninstall and reinstall the integration to get the latest version.**
+GitBook AI & the Slack integration are available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
+
+### Installation & Configuration
 
 You can install the Slack integration right from the [integrations page](https://app.gitbook.com/integrations/slack) in GitBook.
 
@@ -40,6 +40,10 @@ After installing the integration into your Slack workspace, you can use the incl
 
 {% hint style="info" %}
 You need to be a [workspace owner or workspace admin](https://slack.com/intl/en-gb/help/articles/360018112273-Types-of-roles-in-Slack) in Slack to install the GitBook Slack bot into your team’s workspace.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+**If you had installed the GitBook Slack integration prior to October 7th 2023, you’ll need to uninstall and reinstall the integration to get the latest version.**
 {% endhint %}
 
 ### Adding information to your knowledge base

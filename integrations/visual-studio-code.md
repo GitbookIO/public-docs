@@ -59,5 +59,5 @@ Using the GitBook VS Code extension, you can ask contextual questions in the sid
 To summon information, simply open the GitBook panel and type your query into the search bar. You’ll get a summarized result based on information in your GitBook organization.
 
 {% hint style="info" %}
-This feature requires [GitBook AI Search (beta)](../content-editor/searching-your-content/lens.md) to be enabled for your organization.
+This feature requires [GitBook AI Search (beta)](../content-editor/searching-your-content/gitbook-ai.md) to be enabled for your organization.
 {% endhint %}
