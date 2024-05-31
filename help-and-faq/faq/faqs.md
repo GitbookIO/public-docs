@@ -14,7 +14,7 @@ Google follows or even leads most of the industry’s best practices and is comp
 
 ## **Is GitBook SOC 2 certified?**
 
-Yes. You can read more about it [here](https://policies.gitbook.com/privacy-and-security/security/security-as-a-company-value#soc-2-type-2). Customers and prospects can request access to the audit report by reaching out to our sales team (sales@gitbook.io).
+Yes. Customers and prospects can request access to the audit report [here.](https://app.vanta.com/gitbook.com/trust/riuibmbkcopvbwgqxul01a)
 
 ## Security as a company value
 
