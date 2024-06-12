@@ -6,7 +6,6 @@ Here’s an example:
 
 {% tabs %}
 {% tab title=".gitbook.yaml" %}
-
 ```yaml
 root: ./
 
@@ -17,7 +16,6 @@ root: ./
 redirects:
   previous/page: new-folder/page.md
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -27,11 +25,9 @@ The path to lookup for your documentation defaults to the root directory of the 
 
 {% tabs %}
 {% tab title=".gitbook.yaml" %}
-
 ```yaml
 root: ./docs/
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -50,13 +46,11 @@ The value of those properties is a path to the corresponding files. The path is 
 
 {% tabs %}
 {% tab title=".gitbook.yaml" %}
-
 ```yaml
 structure:
   readme: ./product/README.md
   summary: ./product/SUMMARY.md
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -94,11 +88,11 @@ Because of this, it’s not possible to reference the same Markdown file twice i
 
 ## ​Redirects <a href="#redirects" id="redirects"></a>
 
-Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved your docs to GitBook. Broken links can impact your SEO so we recommend setting up redirects where needed.&#x20;
+Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved your docs to GitBook. Broken links can impact your SEO so we recommend setting up redirects where needed.
 
 #### Restructuring your content in GitBook
 
-When moving your content within GitBook, most URLs should work as expected depending on complexity of the change. There are a number of tools that will allow you to verify which links were broken, if any.&#x20;
+When moving your content within GitBook, most URLs should work as expected depending on complexity of the change. There are a number of tools that will allow you to verify which links were broken, if any.
 
 {% hint style="warning" %}
 With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed, for example. Make sure to double-check and add redirects where needed.
@@ -109,36 +103,34 @@ With Git, when a file is moved many times, the file is removed and a new one is 
 You can create custom redirects of a URL to a page by specifying the path to the corresponding file. The path is relative to the “root” option. For example, here’s how you can tell GitBook to redirect users accessing a past url `/help` to a new url `/support`
 
 {% code title=".gitbook.yaml" %}
-
 ```yaml
 root: ./
 
 redirects:
   help: support.md
 ```
-
 {% endcode %}
 
 #### How to redirect on a more complex path:
 
-Original URL: `https://docs.company.com/help` which has now moved to `https://docs.company.com/misc/support` on GitBook.&#x20;
+Original URL: `https://docs.company.com/help` which has now moved to `https://docs.company.com/misc/support` on GitBook.
 
 {% code title=".gitbook.yaml" %}
-
 ```yaml
 root: ./
 
 redirects:
   help: misc/support.md
 ```
-
 {% endcode %}
 
 {% hint style="danger" %}
-The path `misc/support.md` needs to be a real existing path within the repository. It needs to be relative to the current `root` setting in`.gitbook.yaml`. \
+The path `misc/support.md` needs to be a real existing path within the repository. It needs to be relative to the current `root` setting in`.gitbook.yaml`.\
 Please don’t add any leading slashes. For example, `./misc/support.md` will not work.
 {% endhint %}
 
 ### Troubleshooting
 
-The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.&#x20;
+The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.
+
+It's also important to consider that as long as a page exists for a path, GitBook won’t be looking for a possible redirect. So if you're setting up a redirect for an old page to a new one, you will need to remove the old page in order for the redirect to work.
