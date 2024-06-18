@@ -11,6 +11,7 @@ Here is a list of services GitBook relies on to run its app. If you have any kin
 * `*.gitbook.com`
   * `app.gitbook.com`
   * `api.gitbook.com`
+  * `content.gitbook.com`
   * `clearbit-risk.gitbook.com`
   * `files.gitbook.com`
   * `segment-cdn.gitbook.com`
