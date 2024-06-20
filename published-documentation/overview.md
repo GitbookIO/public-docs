@@ -4,6 +4,14 @@ description: Publish and share your content with and internal or external audien
 
 # Overview
 
+{% hint style="info" %}
+:sparkles: We're making some improvements to the way you and your team publish documentation in GitBook. **You may already see these updates in the GitBook app.** To find the updated documentation for these features, click [here](https://docs.gitbook.com/\~/changes/pfQHJq75QY5xMYvctdXP/published-documentation/overview).
+
+
+
+We're slowly rolling out these updates, meaning its possible you might not see these updates yet.
+{% endhint %}
+
 When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
 
 <figure><img src="../.gitbook/assets/published-site (1).png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
