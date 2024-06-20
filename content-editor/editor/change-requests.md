@@ -26,6 +26,16 @@ Once you’re happy with your changes, you can use the button in the header bar 
 Any member with an [editor](../../account-management/member-management/roles.md#editor) role can create and submit a change request, but only members with a [reviewer](../../account-management/member-management/roles.md#reviewer) role or above can merge it.
 {% endhint %}
 
+### Preview a change request
+
+You can preview the changes you've made in a change request through the preview button in the upper right corner. This will open up a window with your docs and the proposed changes in a staging environment, so you and your team can see your changes in the entire context of your published documentation.
+
+{% hint style="warning" %}
+If your content is published using share links or visitor authentication, the preview function won't appear.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/preview.png" alt=""><figcaption><p>Preview a Change Request</p></figcaption></figure>
+
 ### Request a review on a change request
 
 You can request a review on your change request when you want to ask members of your team to check your content before you merge the changes into the main branch.
