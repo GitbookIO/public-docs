@@ -29,10 +29,6 @@ Make sure that your access token has been configured with the following access:
 * `read_repository`
 * `write_repository`
 
-## My folders got duplicated
-
-Make sure that all the folders in your repo are in lowercase. For example, if you have a folder called `Hello_World` GitBook won’t sync that folder correctly. Update the name of your folder to all lowercase, and enable sync again.
-
 ## ​Nothing happens on GitBook after adding a new file to my repository <a href="#nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository" id="nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository"></a>
 
 {% hint style="warning" %}
