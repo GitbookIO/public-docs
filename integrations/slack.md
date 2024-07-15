@@ -55,7 +55,7 @@ You can add information to your team’s knowledge base by calling the GitBook S
 Calling `@GitBook save` from within thread will summarize context and data from that thread into your team’s knowledge base as [a snippet](../snippets-and-insights/snippets-beta.md).&#x20;
 
 {% hint style="info" %}
-Calling the GitBook bot will work **from any thread** within a public channel, private channel, or direct message.
+Calling the GitBook bot will work **from any thread** within a public channel.
 {% endhint %}
 
 #### How to add information using the Slack shortcut
@@ -101,7 +101,7 @@ You can also ask questions to the GitBook Slack bot in a direct message. After s
 When interacting with the GitBook Slack integration, there are a few things to keep in mind:
 
 * The `/gitbook [question]` command does not work in threads. It will only work in public and private channels or direct messages.
-* The `@GitBook save` command does not work in top-level channels or direct messages. It will only work inside threads.
+* The `@GitBook save` command does not work in top-level channels or direct messages. It will only work inside threads in public channels.
 
 </details>
 
@@ -109,6 +109,6 @@ When interacting with the GitBook Slack integration, there are a few things to k
 
 <summary>How do permissions work with the Slack integration?</summary>
 
-The Slack integration does not take into account individual user permissions in Gitbook. This is because there is no direct link or tie between a Slack user and a Gitbook user. However, when you set up the Slack integration you can specify which spaces it has access to, which can help mitigate any security risks if you have sensitive content.
+The Slack integration does not take into account individual user permissions in GitBook. This is because there is no direct link or tie between a Slack user and a GitBook user. However, when you set up the Slack integration you can specify which spaces it has access to, which can help mitigate any security risks if you have sensitive content.
 
 </details>
