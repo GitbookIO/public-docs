@@ -12,9 +12,9 @@ By using SSO, your employees will be able to log into GitBook using the familiar
 
 ## ​Prerequisites for SSO with GitBook <a href="#prerequisites-for-sso-with-gitbook" id="prerequisites-for-sso-with-gitbook"></a>
 
-- Your company’s identity provider (IdP) must support the **SAML 2.0** standard.
-- You must have administrative permission on the IdP.
-- You must be an administrator of the GitBook organization you want to set SAML up on.
+* Your company’s identity provider (IdP) must support the **SAML 2.0** standard.
+* You must have administrative permission on the IdP.
+* You must be an administrator of the GitBook organization you want to set SAML up on.
 
 ## ​Setup on GitBook <a href="#setup-on-gitbook" id="setup-on-gitbook"></a>
 
@@ -22,14 +22,14 @@ You must be an [organization admin](../../member-management/roles.md#admin) to e
 
 After configuring SSO on your IdP, you will be able to enter metadata. When the setup is successful, administrators will see a confirmation dialog and the URL of the SSO login for end-users will be displayed. **GitBook does not send announcement emails when set up is complete**. It is the responsibility of the administrator to notify company employees (and convey the login URL to them) so they can access GitBook via SSO.‌
 
-<figure><img src="../../../.gitbook/assets/register-saml (1).png" alt=""><figcaption><p>Register a SAML provider. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/register-saml (1).png" alt=""><figcaption><p>Register a SAML provider.</p></figcaption></figure>
 
 You’ll need the following from your IdP metadata to register a SAML provider:
 
-- A **label** – this can be anything, it’ll be displayed on the login page
-- An **entity ID**
-- A **Single Sign On URL**
-- An **X.509 certificate** – make sure you copy and paste the whole certificate!
+* A **label** – this can be anything, it’ll be displayed on the login page
+* An **entity ID**
+* A **Single Sign On URL**
+* An **X.509 certificate** – make sure you copy and paste the whole certificate!
 
 ## ​Setup on the IdP <a href="#setup-on-the-idp" id="setup-on-the-idp"></a>
 
@@ -62,8 +62,20 @@ Removing a member from the IdP will prevent the user from being able to sign in 
 
 ## Controlling access
 
-Once you have set up SAML SSO, the onus is on the IdP to control who can access your GitBook account.&#x20;
+Once you have set up SAML SSO, the onus is on the IdP to control who can access your GitBook account.
 
 ## ​Security notice <a href="#security-notice" id="security-notice"></a>
 
-For security reasons, users who signed up to GitBook before the SSO was set up have to continue to log in normally. **SSO will only benefit users who log in to an organization after the setup is complete**. Admins could also ask prior SSO users to delete their account (or change their email) and then they will be able to login with SSO.
+If you have an existing GitBook account under the same email address as the one we get from Identity Provider and you are not a member of the organization you're trying to sign into, we will not be able to automatically add you to the organization with the SAML configuration due to security reasons. You have two options:\
+
+
+1. Delete your existing GitBook account and then log into your desired organization with SAML. GitBook will then create a new account for you and you will be added to the organization
+2. Or, ask your admin to invite you to the organization:
+
+If your organization does not have "Enforce SSO" enabled, an admin of your organization can invite users through the Members page in your organization's settings.
+
+If your organization has enabled "Enforce SSO", an admin will have to use GitBook's `invites` API endpoint to invite users to the organization. A call to this API would look like the following;
+
+```
+curl --request POST --header "Authorization: Bearer <your_access_token>" --url "https://api.gitbook.com/v1/orgs/<org_id>/invites" --header 'Content-Type: application/json' --data-raw '{ "sso": true, "role": "<role>", "emails":["<email>"] }'
+```
