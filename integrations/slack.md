@@ -55,7 +55,7 @@ You can add information to your team’s knowledge base by calling the GitBook S
 Calling `@GitBook save` from within thread will summarize context and data from that thread into your team’s knowledge base as [a snippet](../snippets-and-insights/snippets-beta.md).&#x20;
 
 {% hint style="info" %}
-Calling the GitBook bot will work **from any thread** within a public channel.
+Calling the GitBook bot will work **from any thread** within a public channel or private channel. In a private channel, make sure to invite the GitBook bot in order for it to work.
 {% endhint %}
 
 #### How to add information using the Slack shortcut
@@ -101,7 +101,7 @@ You can also ask questions to the GitBook Slack bot in a direct message. After s
 When interacting with the GitBook Slack integration, there are a few things to keep in mind:
 
 * The `/gitbook [question]` command does not work in threads. It will only work in public and private channels or direct messages.
-* The `@GitBook save` command does not work in top-level channels or direct messages. It will only work inside threads in public channels.
+* The `@GitBook save` command does not work in top-level channels or direct messages. It will only work inside threads in public or private channels.
 
 </details>
 
