@@ -45,6 +45,19 @@ The content of this file mirrors your [table of contents](../../content-editor/e
 
 If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](../../help-and-faq/faq/support.md) for assistance.
 
+## GitHub preview is not showing
+
+If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.&#x20;
+
+You should have received a notification requesting you to accept an updated permission request to enable read-only access to PRs.&#x20;
+
+In case you did not receive the notification, to troubleshoot you need to update to the new version:
+
+1. Uninstall the GitSync integration from your organization.
+2. Reinstall the new version with the updated permissions.
+
+Please note that uninstalling the GitSync integration will require reconfiguring the integration again on any spaces it was previously connected to.
+
 ## Potential duplicated accounts when signing in
 
 This error usually occurs when the GitHub account that you use to set up the sync is already associated with a different GitBook user account.
