@@ -26,7 +26,7 @@ To upload a file, drag and drop it into the **Drop your file or browse** section
 GitBook allows you to upload files up to 100MB per file.
 {% endhint %}
 
-You can also add files to your space when you add an [image block](insert-images.md) or an [OpenAPI block](openapi.md). When you create one of these blocks, the Files panel will open, so you can either select a file, or upload a new file.
+You can also add files to your space when you add an [image block](insert-images.md) or an [OpenAPI block](openapi/). When you create one of these blocks, the Files panel will open, so you can either select a file, or upload a new file.
 
 {% hint style="info" %}
 **Tip:** You can also drag and drop images from your file system directly into the editor — or paste a copied image into your content. GitBook will automatically add them to the Files side panel for the respective space, so you can view and manage them later.
