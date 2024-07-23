@@ -82,7 +82,7 @@ You can check which [integrations](../integrations/overview.md) are installed fo
 
 From this page you can view your current plan and switch from one plan to another. The toggle at the top of the page enables you to switch between viewing the prices for our plans paid yearly (with 2 months free!) or monthly, and you can then use the upgrade/downgrade button under the name of each plan to select your new plan.
 
-Please see our [billing policy](billing-faq/billing-policy.md) for information about how charges are calculated when you make a change during the middle of a billing period.
+Please see our [billing policy](plans/billing-policy.md) for information about how charges are calculated when you make a change during the middle of a billing period.
 
 </details>
 

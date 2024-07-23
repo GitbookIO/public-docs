@@ -23,8 +23,8 @@ You can find the [full feature comparison](https://www.gitbook.com/pricing) for 
 
 #### Business vs Pro
 
-| Difference                                                                                    | Business | Pro                                 |
-| --------------------------------------------------------------------------------------------- | -------- | ----------------------------------- |
-| [Visitor authentication](../../published-documentation/share/visitor-authentication/) feature | No       | Yes (up to 100 sessions per month)  |
-| Minimum charge for 20 users                                                                   | Yes      | No (unlimited users, pay as you go) |
-| Flat [platform fee](legacy-plans.md#platform-fee) of $99 per month                            | No       | Yes                                 |
+| Difference                                                                                                                  | Business | Pro                                 |
+| --------------------------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------- |
+| [Visitor authentication](../../published-documentation/publish-your-content-as-a-docs-site/visitor-authentication/) feature | No       | Yes (up to 100 sessions per month)  |
+| Minimum charge for 20 users                                                                                                 | Yes      | No (unlimited users, pay as you go) |
+| Flat [platform fee](legacy-plans.md#platform-fee) of $99 per month                                                          | No       | Yes                                 |

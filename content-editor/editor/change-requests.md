@@ -38,6 +38,16 @@ If your content is published using share links or visitor authentication, the pr
 
 ### Request a review on a change request
 
+You can preview the changes you've made in a change request through the **Preview** button in the upper right corner. This will open up a window with your docs and the proposed changes in a staging environment, so you and your team can see your changes in the entire context of your published documentation.
+
+{% hint style="info" %}
+**Note**: You can only preview change requests for spaces added to a [published docs site](../../published-documentation/publish-your-content-as-a-docs-site/).
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/preview (1).png" alt=""><figcaption><p>Preview a Change Request</p></figcaption></figure>
+
+### Request a review on a change request
+
 You can request a review on your change request when you want to ask members of your team to check your content before you merge the changes into the main branch.
 
 You can add a description to your change request to give your reviewers some context, and tag specific people that you want to check your work.

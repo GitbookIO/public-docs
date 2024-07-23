@@ -2,11 +2,11 @@
 
 There are a couple of ways you can invite new members to your organization:
 
-- Generating an invite link and sharing it directly.
-- Inviting them using their email address.
+* Generating an invite link and sharing it directly.
+* Inviting them using their email address.
 
 {% hint style="warning" %}
-**Don’t forget** — inviting additional members, regardless of their role, to your organization, will immediately impact the price of your subscription. Take a look at our [billing policy](../billing-faq/billing-policy.md) for the details.
+**Don’t forget** — inviting additional members, regardless of their role, to your organization, will immediately impact the price of your subscription. Take a look at our [billing policy](../plans/billing-policy.md) for the details.
 {% endhint %}
 
 ### Managing invite links
@@ -23,10 +23,10 @@ You can directly invite members in the members’ section of your organization s
 
 #### Email domain
 
-You can allow all users with a specific email domain to join your organization.&#x20;
+You can allow all users with a specific email domain to join your organization.
 
 {% hint style="info" %}
-Please note that this can result in quick member growth, leading to [higher ](../billing-faq/#when-i-invite-a-new-member-to-my-gitbook-organization-when-will-i-be-charged)charges.&#x20;
+Please note that this can result in quick member growth, leading to higher charges.
 {% endhint %}
 
 ### Removing members

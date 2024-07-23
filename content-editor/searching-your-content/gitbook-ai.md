@@ -28,9 +28,9 @@ You can also enable GitBook AI for your organization’s internal content, allow
 
 Head to the **Organization settings** page and, in the **General** tab, toggle the **Enable GitBook AI semantic search** setting on.
 
-### How do I use GitBook AI search? <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
+### How do I use GitBook AI? <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
-Once GitBook AI search is enabled, simply type a question into the search bar. GitBook AI will take a few seconds to scan your documentation and summarize the results.
+Once GitBook AI is enabled, simply type a question into the search bar. GitBook AI will take a few seconds to scan your documentation and summarize the results.
 
 #### Using GitBook AI in published documentation
 
@@ -49,7 +49,7 @@ For this example, let's try: “What makes change requests a powerful GitBook fe
 As well as a summarized answer, below you’ll also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
 
 {% hint style="warning" %}
-**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is **_**only**_** available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../published-documentation/share/collection-publishing.md)**.**&#x20;
+**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is **_**only**_** available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../collaboration/share/collection-publishing.md)**.**&#x20;
 {% endhint %}
 
 #### Using GitBook AI in internal documentation

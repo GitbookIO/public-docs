@@ -25,7 +25,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 * **Snippets**\
   With [snippets](../../snippets-and-insights/snippets-beta.md), you can capture complex information from third-party tools. GitBook AI extracts that valuable knowledge within, and documents it for you in seconds.
 * **Insights**\
-  [Insights](../../snippets-and-insights/insights.md) allow you to have a birds-eye view of all of the content you have in your organization.
+  [Insights](../../published-documentation/insights.md) allow you to have a birds-eye view of all of the content you have in your organization.
 * **Documentation**\
   The documentation section is where you’ll find the [collections](content-structure/what-is-a-collection.md) and [spaces](content-structure/what-is-a-space.md) you create when adding more content. Head to our [content structure](content-structure/) section to find out more.
 * **Settings**\

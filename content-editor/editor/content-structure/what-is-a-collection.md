@@ -10,7 +10,6 @@ Collections allow you to:
 
 * organize your content by similar topics or ideas
 * manage space [permissions](../../../account-management/member-management/permissions-and-inheritance.md) at scale by allowing you to override the organization-level defaults
-* customize your group of spaces and publish them as variants (see [collection publishing](../../../published-documentation/share/collection-publishing.md) for more info).
 
 <figure><img src="../../../.gitbook/assets/collection (1).png" alt=""><figcaption><p>The main view of a collection, with other collections and spaces inside.</p></figcaption></figure>
 
@@ -33,10 +32,6 @@ You can nest collections inside each other, creating a collection -> sub-collect
 Open a collection and you can click **New collection** from the collection’s main page to create a sub-collection.
 
 To move one collection into another, click **Move collection to…** from the collection’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
-
-{% hint style="warning" %}
-**Note:** When you publish the primary collection, nested collections do not show up as [variants](../../../published-documentation/share/collection-publishing.md#why-publish-spaces-in-a-collection).
-{% endhint %}
 
 ### How to delete a collection
 

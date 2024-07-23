@@ -18,7 +18,7 @@ Regardless of role, _**every**_ _**single member**_ of an organization _**counts
 You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
 {% endhint %}
 
-Each role gets progressively higher levels of access as you move up the list. Let’s start at the bottom:
+Each role gets progressively higher levels of access as you move up the list. Let’s start at the lowest access and work our way up:
 
 <details>
 
@@ -37,6 +37,8 @@ Inviting a guest to the organization means that they’ll only ever see content 
 <summary>Reader</summary>
 
 A reader is the most basic role in GitBook: it gives read-only access.
+
+**Reader seats are free for organizations on Pro and Enterprise plans**. If your organization has a Pro or Enterprise plan, you can add as many readers to your organization as you like for no extra charge.
 
 </details>
 

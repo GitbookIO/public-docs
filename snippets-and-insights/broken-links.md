@@ -4,7 +4,7 @@ description: Find and replace broken relative links across your spaces.
 
 # Broken links
 
-{% hint style="warning" %}
+{% hint style="info" %}
 This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 

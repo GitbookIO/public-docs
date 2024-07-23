@@ -18,12 +18,12 @@ All content is suitable for mobile devices, tablets, laptops and desktops! The d
 
 <summary>SEO-friendly content</summary>
 
-- URLs are set based on each page’s title by default, but can be customized as you wish.
-- We avoid duplicate content through smart, canonical URLs.
-- The HTML title and Open Graph title are based on the page and space title.
-- The meta description and Open Graph description are based on the page description.
-- Alt text can be added to images, which is also very important for accessibility.
-- HTML sent to crawlers is pre-rendered (i.e. server-side), meaning that crawlers do not need JavaScript to index your content.
+* URLs are set based on each page’s title by default, but can be customized as you wish.
+* We avoid duplicate content through smart, canonical URLs.
+* The HTML title and Open Graph title are based on the page and space title.
+* The meta description and Open Graph description are based on the page description.
+* Alt text can be added to images, which is also very important for accessibility.
+* HTML sent to crawlers is pre-rendered (i.e. server-side), meaning that crawlers do not need JavaScript to index your content.
 
 Note that we _don’t_ generate keyword meta tags, because modern search engines do not use them to rank pages. This was [officially confirmed by Google](https://developers.google.com/search/blog/2009/09/google-does-not-use-keywords-meta-tag) in 2009.
 
@@ -33,7 +33,7 @@ Note that we _don’t_ generate keyword meta tags, because modern search engines
 
 <summary>Sitemap</summary>
 
-Provided that your space is published with a setting _other_ than [unlisted](share/space-publishing.md#unlisted-space), we automatically generate a sitemap.xml file based on your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents). You can locate this by going to the first page of your documentation and then appending `/sitemap.xml` to the URL. For example, the first page of our documentation is located at [docs.gitbook.com](https://docs.gitbook.com/), and so our sitemap.xml file is located at [docs.gitbook.com/sitemap.xml](https://docs.gitbook.com/sitemap.xml).
+Provided that your space is published with a setting _other_ than [unlisted](../collaboration/share/space-publishing.md#unlisted-space), we automatically generate a sitemap.xml file based on your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents). You can locate this by going to the first page of your documentation and then appending `/sitemap.xml` to the URL. For example, the first page of our documentation is located at [docs.gitbook.com](https://docs.gitbook.com/), and so our sitemap.xml file is located at [docs.gitbook.com/sitemap.xml](https://docs.gitbook.com/sitemap.xml).
 
 </details>
 

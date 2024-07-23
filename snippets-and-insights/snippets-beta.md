@@ -6,6 +6,10 @@ description: >-
 
 # Snippets (beta)
 
+{% hint style="info" %}
+This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+{% endhint %}
+
 In GitBook, you can capture unstructured information using [integrations](broken-reference), and GitBook AI will turn it into a **snippet** — a structured page of information that’s easy to read and digest. You can also create snippets manually within the app.&#x20;
 
 GitBook will index all of your snippets alongside the rest of your content and can reference them when you or your team [searches for information](../content-editor/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
