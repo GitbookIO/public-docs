@@ -20,15 +20,16 @@ An alternative solution is to use Git Sync with an OpenAPI spec file in the sync
 
 {% code overflow="wrap" %}
 ```markdown
-<div data-gb-custom-block 
-     data-tag="swagger" 
-     data-src='./openapi.json' 
-     data-path='/collections/{collectionId}' 
-     data-method='get' 
-     data-expanded='true'
-     >
-     <https://api.gitbook.com/openapi.json>
-</div>
+{% swagger 
+    src="./openapi.json" 
+    path="/collections/{collectionId}" 
+    method="get" 
+    expanded="true" 
+%} 
+    https://api.gitbook.com/openapi.json 
+{% raw %}
+{% endswagger %}
+{% endraw %}
 ```
 {% endcode %}
 
