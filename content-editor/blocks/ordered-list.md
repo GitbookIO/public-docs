@@ -29,3 +29,17 @@ To create nested items, you can use **Tab** to indent and **⇧ + Tab** to outde
 2. Item 2
 3. Item 3
 ```
+
+### Adding an inline image to an ordered list
+
+A common pattern in documentation is adding images throughout ordered lists to help guide users with screenshots or diagrams.&#x20;
+
+Let's say we want to add an image below the second item in our ordered list. In order to accomplish this in GitBook, on the row below the image you would type `3.` and then hit `space`, and the ordered list would continue.
+
+1. Item 1
+2. Item 2
+
+![](../../.gitbook/assets/link-spaces.png)
+
+3. Item 3
+4. Item 4
