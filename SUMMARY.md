@@ -131,6 +131,7 @@
 * [FAQ](help-and-faq/faq/README.md)
   * [How do I contact support?](help-and-faq/faq/support.md)
   * [How do I report bugs?](help-and-faq/faq/report-bugs.md)
+  * [How do I solve connectivity issues?](help-and-faq/faq/how-do-i-solve-connectivity-issues.md)
   * [Content creation FAQ](help-and-faq/faq/content-creation-faq.md)
   * [Security FAQs](help-and-faq/faq/faqs.md)
 * [Keyboard shortcuts](help-and-faq/keyboard-shortcuts.md)
