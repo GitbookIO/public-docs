@@ -10,6 +10,19 @@ A page in GitBook is the place where you add, edit and embed content. Pages alwa
 
 You can create as many pages as you need in a space. They’re all visible on the left side of your screen in your space’s [table of contents](../navigation.md#table-of-contents).
 
+#### Hide a page from the table of contents
+
+You can hide a page or group of pages from your site's table of contents by clicking the page’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">  and toggling **Hide page**.
+
+Hidden pages will still be indexable by search and GitBook AI, but will not appear in the table of contents in your published site. Hidden pages will still be accessible through direct links.
+
+If hidden the following will appear in the front matter of the markdown file when using Git Sync:
+
+<pre class="language-markdown"><code class="lang-markdown">---
+hidden: true
+<strong>---
+</strong></code></pre>
+
 ### Organizing your content
 
 There are three types of pages you can add:
