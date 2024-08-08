@@ -71,6 +71,18 @@ Just like creating a new page, you can create a page group by choosing **Add new
 
 To add an external link to your space, click the **Add new page** button at the bottom of the table of contents, then choose **New link**. Give the link a title — this will appear in the table of contents — and then add the URL and click **Insert**.
 
+### Add an icon or emoji to your page
+
+To add better visibility for readers when skimming your table of contents, you can add an optional icon or emoji to an individual page. The icon or emoji will appear in the table of contents, and next to the title at the top of the page.
+
+To add an icon or emoji, click the "**Add icon**" button when hovering the page title, or the emoji button to the left of the title.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2024-08-08 at 15.17.50 (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Customize the icon style
+
+You can choose the style and weight of the icon in your published site's settings. You can find the icon's style settings and more [here](../../../published-documentation/customization/space-customization.md#styling).
+
 ### Can’t see the option to create a new page?
 
 {% hint style="warning" %}

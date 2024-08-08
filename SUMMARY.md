@@ -46,29 +46,6 @@
   * [Search & Quick find](content-editor/searching-your-content/quick-find.md)
 * [Version control](content-editor/activity-history.md)
 
-## Snippets & Insights
-
-* [Overview](snippets-and-insights/overview.md)
-* [Snippets (beta)](snippets-and-insights/snippets-beta.md)
-* [Broken links](snippets-and-insights/broken-links.md)
-
-## Integrations
-
-* [Overview](integrations/overview.md)
-* [Install and manage integrations](integrations/install-an-integration.md)
-* [Slack (beta)](integrations/slack.md)
-* [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
-* [GitHub & GitLab Sync](integrations/git-sync/README.md)
-  * [Enabling GitHub Sync](integrations/git-sync/enabling-github-sync.md)
-  * [Enabling GitLab Sync](integrations/git-sync/enabling-gitlab-sync.md)
-  * [Content configuration](integrations/git-sync/content-configuration.md)
-  * [GitHub pull request preview](integrations/git-sync/github-pull-request-preview.md)
-  * [Commit messages & Autolink](integrations/git-sync/commits.md)
-  * [Monorepos](integrations/git-sync/monorepos.md)
-  * [Troubleshooting](integrations/git-sync/troubleshooting.md)
-* [Third-party Integrations](integrations/third-party-integrations.md)
-* [Integrations FAQ](integrations/integrations-faq.md)
-
 ## Published Documentation
 
 * [Overview](published-documentation/overview.md)
@@ -95,6 +72,29 @@
 * [Site insights](published-documentation/insights.md)
 * [Site settings](published-documentation/site-settings.md)
 * [SEO](published-documentation/seo.md)
+
+## Integrations
+
+* [Overview](integrations/overview.md)
+* [Install and manage integrations](integrations/install-an-integration.md)
+* [Slack (beta)](integrations/slack.md)
+* [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
+* [GitHub & GitLab Sync](integrations/git-sync/README.md)
+  * [Enabling GitHub Sync](integrations/git-sync/enabling-github-sync.md)
+  * [Enabling GitLab Sync](integrations/git-sync/enabling-gitlab-sync.md)
+  * [Content configuration](integrations/git-sync/content-configuration.md)
+  * [GitHub pull request preview](integrations/git-sync/github-pull-request-preview.md)
+  * [Commit messages & Autolink](integrations/git-sync/commits.md)
+  * [Monorepos](integrations/git-sync/monorepos.md)
+  * [Troubleshooting](integrations/git-sync/troubleshooting.md)
+* [Third-party Integrations](integrations/third-party-integrations.md)
+* [Integrations FAQ](integrations/integrations-faq.md)
+
+## Snippets & Insights
+
+* [Overview](snippets-and-insights/overview.md)
+* [Snippets (beta)](snippets-and-insights/snippets-beta.md)
+* [Broken links](snippets-and-insights/broken-links.md)
 
 ## Collaboration
 
