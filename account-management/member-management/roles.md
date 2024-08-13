@@ -38,7 +38,7 @@ Inviting a guest to the organization means that they’ll only ever see content 
 
 A reader is the most basic role in GitBook: it gives read-only access.
 
-**Reader seats are free for organizations on Pro and Enterprise plans**. If your organization has a Pro or Enterprise plan, you can add as many readers to your organization as you like for no extra charge.
+**Reader seats are paid for organizations on all plans**.&#x20;
 
 </details>
 
