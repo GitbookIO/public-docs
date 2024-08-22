@@ -1,3 +1,7 @@
+---
+icon: sitemap
+---
+
 # Organization settings
 
 View and manage the settings for your GitBook organization. These include member management, sign-in methods, integrations, billing and plans.

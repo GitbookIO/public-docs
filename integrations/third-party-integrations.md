@@ -1,3 +1,7 @@
+---
+icon: plug-circle-check
+---
+
 # Third-party Integrations
 
 Third-party integrations are a great way to extend GitBook in different ways, and connect your knowledge with your favorite tools.

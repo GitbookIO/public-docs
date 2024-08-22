@@ -1,5 +1,6 @@
 ---
 description: Edit pages, collections, content and more.
+icon: bullseye-arrow
 ---
 
 # Overview

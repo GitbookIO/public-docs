@@ -2,6 +2,7 @@
 description: >-
   GitBook’s editor supports different writing formats, interactive blocks,
   helpful ways to organize your content and more.
+icon: display
 ---
 
 # Editor

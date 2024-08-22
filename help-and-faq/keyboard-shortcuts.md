@@ -1,5 +1,6 @@
 ---
 description: Helping you to make changes to your GitBook documentation even faster!
+icon: keyboard
 ---
 
 # Keyboard shortcuts

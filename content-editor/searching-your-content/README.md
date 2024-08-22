@@ -2,6 +2,7 @@
 description: >-
   Find what you’re looking for faster with keyword search and AI-powered smart
   search.
+icon: magnifying-glass
 ---
 
 # Searching content

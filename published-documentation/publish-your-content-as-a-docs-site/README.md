@@ -1,3 +1,7 @@
+---
+icon: globe
+---
+
 # Publish your content as a docs site
 
 Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.&#x20;

@@ -2,6 +2,7 @@
 description: >-
   Find answers to some of the most frequently asked questions on our
   Integrations Platform.
+icon: message-question
 ---
 
 # Integrations FAQ

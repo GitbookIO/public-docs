@@ -1,5 +1,6 @@
 ---
 description: Discover how to share your GitBook content via SSO&SAML.
+icon: building-lock
 ---
 
 # SSO & SAML

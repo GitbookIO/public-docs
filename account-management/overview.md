@@ -1,5 +1,6 @@
 ---
 description: Manage the team you collaborate with in GitBook.
+icon: bullseye-arrow
 ---
 
 # Overview

@@ -1,5 +1,6 @@
 ---
 description: See which settings you can update across your published site.
+icon: gear
 ---
 
 # Site settings

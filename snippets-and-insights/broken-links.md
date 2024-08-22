@@ -1,5 +1,6 @@
 ---
 description: Find and replace broken relative links across your spaces.
+icon: link-slash
 ---
 
 # Broken links

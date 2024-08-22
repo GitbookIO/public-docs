@@ -1,5 +1,6 @@
 ---
 description: Ask questions or receive feedback on the content you create in GitBook.
+icon: comment
 ---
 
 # Comments

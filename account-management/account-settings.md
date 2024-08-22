@@ -1,5 +1,6 @@
 ---
 description: View and manage the settings for your personal GitBook account.
+icon: user
 ---
 
 # Personal settings

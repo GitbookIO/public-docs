@@ -3,6 +3,7 @@ description: >-
   Change the look and feel of your published docs site by adding a custom logo,
   changing theme colors and personalizing the footer to align your site with
   your brand.
+icon: palette
 ---
 
 # Customization

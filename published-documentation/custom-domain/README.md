@@ -1,5 +1,6 @@
 ---
 description: Learn how to set a custom domain for your GitBook organization or Docs sites
+icon: globe-pointer
 ---
 
 # Set a custom domain

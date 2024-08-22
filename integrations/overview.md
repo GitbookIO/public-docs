@@ -2,6 +2,7 @@
 description: >-
   Connect your GitBook spaces to your favorite collaboration tools & analytics
   platform
+icon: bullseye-arrow
 ---
 
 # Overview

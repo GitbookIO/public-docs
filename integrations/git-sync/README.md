@@ -2,6 +2,7 @@
 description: >-
   Synchronize your GitBook content with GitHub or GitLab with GitBook’s
   bi-directional integration.
+icon: code-pull-request
 ---
 
 # GitHub & GitLab Sync

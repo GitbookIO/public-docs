@@ -1,3 +1,7 @@
+---
+icon: xmark
+---
+
 # Subscription cancellations
 
 If you’re thinking about cancelling a plan because you’re running into any issues while using GitBook, please [contact the support team](../help-and-faq/faq/support.md) first! We’d love to help you.

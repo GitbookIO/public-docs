@@ -2,6 +2,7 @@
 description: >-
   Discover how you can collaborate with your team when editing your GitBook
   content.
+icon: user-group
 ---
 
 # Share your content

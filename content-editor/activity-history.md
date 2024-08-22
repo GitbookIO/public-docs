@@ -1,5 +1,6 @@
 ---
 description: Keep track of changes, roll back to a previous version, and more.
+icon: rectangle-vertical-history
 ---
 
 # Version control

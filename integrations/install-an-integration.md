@@ -1,5 +1,6 @@
 ---
 description: "How to install an integration in a single space, or all the spaces in your organization —\_and manage its settings"
+icon: puzzle-piece
 ---
 
 # Install and manage integrations

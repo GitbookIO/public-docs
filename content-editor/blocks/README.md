@@ -1,5 +1,6 @@
 ---
 description: "How to add and edit blocks within your content —\_plus a full list of the standard blocks GitBook offers."
+icon: square-dashed-circle-plus
 ---
 
 # Blocks

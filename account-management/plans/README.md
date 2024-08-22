@@ -1,5 +1,6 @@
 ---
 description: Learn about the plans we offer for your GitBook organizations.
+icon: money-check-dollar-pen
 ---
 
 # Choose your plan

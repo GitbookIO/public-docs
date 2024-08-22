@@ -1,5 +1,6 @@
 ---
 description: "Publish multiple versions of your documentation in a single site —\_ideal for language localization, product versions, and more."
+icon: language
 ---
 
 # Publish multiple spaces on one site

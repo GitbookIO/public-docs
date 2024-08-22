@@ -1,3 +1,7 @@
+---
+icon: chart-line-up
+---
+
 # Site insights
 
 {% hint style="info" %}

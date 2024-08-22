@@ -2,6 +2,7 @@
 description: >-
   Curate knowledge from your favorite tools — and seamlessly keep your GitBook
   content up to date
+icon: bullseye-arrow
 ---
 
 # Overview

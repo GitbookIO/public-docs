@@ -1,5 +1,6 @@
 ---
 description: "Find out how to easily migrate your existing documentation —\_and which formats GitBook supports."
+icon: arrow-up-to-line
 ---
 
 # Import

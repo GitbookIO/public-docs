@@ -1,5 +1,6 @@
 ---
 description: Publish and share your content with internal or external audiences.
+icon: bullseye-arrow
 ---
 
 # Overview

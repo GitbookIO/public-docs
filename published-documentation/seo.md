@@ -1,5 +1,6 @@
 ---
 description: Optimize your GitBook documentation to be discoverable via search engines.
+icon: print-magnifying-glass
 ---
 
 # SEO

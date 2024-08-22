@@ -1,10 +1,11 @@
 ---
 description: Collaborate with your team through comments and notifications.
+icon: bullseye-arrow
 ---
 
 # Overview
 
-GitBook gives you features that allow you to work asynchronously with your team.&#x20;
+GitBook gives you features that allow you to work asynchronously with your team.
 
 Explore the following sections to learn more about how to leave **comments** and view **notifications**.
 

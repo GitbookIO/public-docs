@@ -2,6 +2,7 @@
 description: >-
   GitBook is a platform for capturing and documenting technical knowledge — from
   product docs, to internal knowledge bases and APIs.
+icon: hand-wave
 ---
 
 # Welcome

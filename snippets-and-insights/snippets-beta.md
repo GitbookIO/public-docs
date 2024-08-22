@@ -2,6 +2,7 @@
 description: >-
   Add snippets of knowledge from your favorite tools, and GitBook AI will turn
   them into something useful
+icon: scissors
 ---
 
 # Snippets (beta)

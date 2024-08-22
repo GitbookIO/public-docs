@@ -1,3 +1,7 @@
+---
+icon: layer-plus
+---
+
 # Contributing
 
 Thank you for investing your time in contributing to our documentation! Any contribution you make will be reviewed by our team.

@@ -2,6 +2,7 @@
 description: >-
   With GitBook, you can edit your content in a number of ways, including using
   rich text, inline content, and Markdown.
+icon: pen-to-square
 ---
 
 # Editing content
