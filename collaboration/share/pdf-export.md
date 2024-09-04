@@ -18,11 +18,11 @@ This feature is available as part of the Pro plan and Enterprise plan. To find o
 
 To enable or disable PDF export for visitors to your [published docs site](broken-reference), open the docs site’s dashboard and click the **Settings** tab.&#x20;
 
-You can enable PDF export by toggling it on in the **Paid site settings** section.&#x20;
+You can enable PDF export by toggling it on in the **Customization** section.&#x20;
 
 This setting determines whether or not **readers of your published content can download it in PDF format**. This feature is only available for **Standard and Premium sites**.&#x20;
 
-<figure><img src="../../.gitbook/assets/pdf-export (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-pdf-settings.png" alt=""><figcaption></figcaption></figure>
 
 ### Export your own internal content as PDF
 
@@ -35,7 +35,7 @@ However you decide to configure your published docs sites, all logged-in members
 3. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.
 4. From here, you can save the page as a PDF or open it in your PDF viewer using the typical process for your browser.
 
-<figure><img src="../../.gitbook/assets/pdf-download-single-page (1).png" alt=""><figcaption><p>Export a PDF of a single page.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-pdf-export-page.png" alt=""><figcaption><p>Export a PDF of a single page.</p></figcaption></figure>
 
 #### How to export an entire space
 
@@ -43,4 +43,4 @@ However you decide to configure your published docs sites, all logged-in members
 2. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.
 3. From here, you can save the page as a PDF or open it in your PDF viewer using the typical process for your browser.
 
-<figure><img src="../../.gitbook/assets/pdf-download-entire-space.png" alt=""><figcaption><p>Export a PDF of an entire space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-pdf-export-space.png" alt=""><figcaption><p>Export a PDF of an entire space.</p></figcaption></figure>

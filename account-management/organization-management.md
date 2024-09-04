@@ -11,7 +11,7 @@ View and manage the settings for your GitBook organization. These include member
 Only administrators can access the organization settings.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/organization-settings.png" alt=""><figcaption><p>Organization Settings Page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/organization-settings (1).png" alt=""><figcaption><p>Organization Settings Page.</p></figcaption></figure>
 
 ### How to access the settings for an organization
 

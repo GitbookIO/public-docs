@@ -14,7 +14,7 @@ GitBook AI is available as part of the Pro plan and Enterprise plan. To find out
 
 Press `Space` on any empty line, or type `/` and choose **Write with AI** to enter GitBook AI’s writing mode.
 
-<figure><img src="../../.gitbook/assets/ai-writing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-gitbook-ai.png" alt=""><figcaption></figcaption></figure>
 
 You can instantly start typing any prompt you want. GitBook AI will analyze the prompt and generate content based on it. For example:
 

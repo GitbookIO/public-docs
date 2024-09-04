@@ -6,7 +6,7 @@ coverY: 0
 
 You can customize the look and feel of individual pages within a space. You can open the **Page options** <picture><source srcset="../../.gitbook/assets/Sort dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Sort light.png" alt="" data-size="line"></picture> menu or change a page’s cover by hovering over the page title. You’ll see the buttons appear just above the page title.
 
-<figure><img src="../../.gitbook/assets/page-options (1).png" alt=""><figcaption><p>Page options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-page-options.png" alt=""><figcaption><p>Page options</p></figcaption></figure>
 
 ### Page options
 

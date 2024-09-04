@@ -10,7 +10,7 @@ Customizing your site lets you control the branding, presentation and extra feat
 Most customization settings apply to your **published content**. This keeps your writing experience and in-app GitBook content consistent while allowing you to control the appearance of your published content.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/customize-options.png" alt=""><figcaption><p>Customize options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-customization.png" alt=""><figcaption><p>Customize options</p></figcaption></figure>
 
 {% hint style="info" %}
 [Advanced customization](space-customization.md#what-counts-as-advanced-customization) settings are only available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing) or scroll down to find out what’s included in Advanced customization.

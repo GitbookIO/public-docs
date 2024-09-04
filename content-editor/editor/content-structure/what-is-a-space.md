@@ -8,21 +8,19 @@ description: >-
 
 A space is a project that lets you work on a collection of related pages. Imagine it as a virtual book where you can start writing pages individually or collaborate asynchronously with your team members.
 
-<figure><img src="../../../.gitbook/assets/space.png" alt=""><figcaption><p>A GitBook space — a collection of pages on a related topic.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/editor-space.png" alt=""><figcaption><p>A GitBook space — a collection of pages on a related topic.</p></figcaption></figure>
 
 ### Create a space
 
-Click the **+** button next to the **Documentation** header in the sidebar and choose **New space** to create a new space. You can also create a new space from a [collection](what-is-a-collection.md).
+Click the **+** button next to the **Spaces** header in the sidebar and choose **New space** to create a new space. You can also create a new space from a [collection](what-is-a-collection.md).
 
-<figure><img src="../../../.gitbook/assets/create-space.png" alt=""><figcaption><p>You can create a new space from the sidebar by hitting the <strong>+</strong> next to the <strong>Documentation</strong> header.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/editor-new-space.png" alt=""><figcaption><p>You can create a new space from the sidebar by hitting the <strong>+</strong> next to the <strong>Documentation</strong> header.</p></figcaption></figure>
 
 ### Duplicate a space
 
-To duplicate a space, open that spaces **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> in the sidebar and select **Duplicate**.
+To duplicate a space, open that space's **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line"> in the sidebar and select **Duplicate**.
 
 Duplicating a space will create a copy of the source space, in the same location (organization, collection, sub-collection, etc.).
-
-<figure><img src="../../../.gitbook/assets/duplicate-space.png" alt=""><figcaption><p>You can duplicate a space using the Action menu in the sidebar. It’ll appear in the same location as the source space.</p></figcaption></figure>
 
 ### Move a space
 

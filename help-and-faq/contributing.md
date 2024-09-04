@@ -11,3 +11,7 @@ The official developer docs for GitBook are hosted on [https://docs.gitbook.com/
 Git Sync allows you to keep your GitBook site up to date with a remote repository either on GitHub or GitLab. In our case we have the our repository `public-docs` synced with [https://docs.gitbook.com/](https://docs.gitbook.com/).&#x20;
 
 This means that any changes reviewed, approved, and merged into this directory will automatically be deployed!
+
+Head to our repository below to get started.
+
+{% embed url="https://github.com/GitbookIO/public-docs" %}

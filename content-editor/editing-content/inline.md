@@ -12,13 +12,11 @@ The inline palette let’s you quickly add extra content to your text block with
 The forward slash will be replaced by the content you choose to insert.&#x20;
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/inline-palette.png" alt=""><figcaption><p>The inline palette lets you quickly add content to any block.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-inline.png" alt=""><figcaption><p>The inline palette lets you quickly add content to any block.</p></figcaption></figure>
 
 ### Annotations
 
 With annotations, you can add extra context to your words without breaking the reader’s train of thought. You can use them to explain the meaning of a word, insert extra information, and more. Readers can hover over the annotated text to show the annotation above the text.
-
-<figure><img src="../../.gitbook/assets/annotations.png" alt=""><figcaption><p>You can add an annotation to any text on your page to give it extra context.</p></figcaption></figure>
 
 #### Create an annotation
 
@@ -56,13 +54,11 @@ You can insert three different types of links:
 
 #### Relative links
 
-Relative links are links created by linking to [pages](../editor/content-structure/content-in-a-space.md) or [snippets](../../snippets-and-insights/snippets-beta.md) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you get fewer broken links.&#x20;
+Relative links are links created by linking to [pages](../editor/content-structure/content-in-a-space.md) or [snippets](../../snippets/snippets-beta.md) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you get fewer broken links.&#x20;
 
 {% hint style="info" %}
-**Note:** If you link to a snippet, but then [convert your snippet into a page](../../snippets-and-insights/snippets-beta.md#convert-a-snippet-to-a-page) in your documentation, your link will still send people to the original snippet, which will be archived.
+**Note:** If you link to a snippet, but then [convert your snippet into a page](../../snippets/snippets-beta.md#convert-a-snippet-to-a-page) in your documentation, your link will still send people to the original snippet, which will be archived.
 {% endhint %}
-
-<figure><img src="../../.gitbook/assets/relative-links.png" alt=""><figcaption><p>Add a relative link</p></figcaption></figure>
 
 Here’s how to insert a relative link:
 

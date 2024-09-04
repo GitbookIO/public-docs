@@ -1,8 +1,8 @@
 ---
+icon: message-exclamation
 description: >-
   Receive notifications about new content, updates to your spaces or changes in
   visibility.
-icon: message-exclamation
 ---
 
 # Notifications
@@ -17,7 +17,7 @@ All member roles can manage their own notifications.
 
 You can receive notifications inside the GitBook app and/or via email. We support [several types of notifications](notifications.md#notification-types) which you can disable or enable in [notification settings](notifications.md#notification-settings).
 
-## App notifications
+### App notifications
 
 You can find app notifications at the top of the [sidebar](../content-editor/editor/navigation.md#the-sidebar).
 
@@ -27,13 +27,13 @@ Notification retention policy: we currently keep all notifications forever, but 
 
 Within the notifications pop-up, you’ll see two icons in the top-right corner. You can either mark all of your notifications as read, or head to your notification settings to update your preferences.
 
-## Email notifications
+### Email notifications
 
 Email notifications are enabled by default, and can be disabled in [your notifications settings](https://app.gitbook.com/account/notification). When enabled, GitBook will send one email per notification type. This will be sent to the email address associated with your personal GitBook account.
 
 These email will appear to be sent from `no-reply@gitbook.io via sendgrid.net`
 
-### Possible issues
+#### Possible issues
 
 As with all email delivery, there’s a chance that you might not receive the email. Possible reasons include but are not limited to:
 
@@ -51,11 +51,11 @@ If you think you might be running into any of these issues, here are some things
 * Make sure you are checking the correct email address. You can see the email address of your personal account in [your account settings](https://app.gitbook.com/account).
 * [Contact support](../help-and-faq/faq/support.md) if all other things fail. If you do, please make sure to include as much information as possible. For example, this might include the email address you expect to receive the notification to, the type of the notification (you can see that in the [settings](https://app.gitbook.com/account/notification)), and the exact details of what you feel should have triggered that notification for you. Please include links to anything relevant, as well.
 
-## Notification settings
+### Notification settings
 
 For both app and email notifications, [you can configure](https://app.gitbook.com/account/notification) which notifications you would like to receive.
 
-### Notification types
+#### Notification types
 
 We currently offer notifications for the following areas:
 

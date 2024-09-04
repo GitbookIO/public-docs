@@ -1,6 +1,6 @@
 ---
-description: "Find out how to easily migrate your existing documentation —\_and which formats GitBook supports."
 icon: arrow-up-to-line
+description: "Find out how to easily migrate your existing documentation —\_and which formats GitBook supports."
 ---
 
 # Import
@@ -46,7 +46,7 @@ Alternatively, you can always import a page or subpage by selecting **New page**
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/import-button (2).png" alt=""><figcaption><p>There are two ways to import content into GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-import.png" alt=""><figcaption><p>There are two ways to import content into GitBook.</p></figcaption></figure>
 
 </div>
 

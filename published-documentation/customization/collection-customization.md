@@ -10,7 +10,7 @@ If you have [a docs site with more than one linked space](../publish-multiple-sp
 
 Customizing an individual linked spaces lets you control the appearance of different parts of your published documentation. This is useful if you want to have different styles for different products or experiences that live on the same docs site.
 
-<figure><img src="../../.gitbook/assets/multiple-spaces.png" alt=""><figcaption><p>Customize published docs with multiple linked spaces</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-multiple-customization.png" alt=""><figcaption><p>Customize published docs with multiple linked spaces</p></figcaption></figure>
 
 ### Overriding site-wide settings
 

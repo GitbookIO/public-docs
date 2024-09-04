@@ -1,6 +1,6 @@
 ---
-description: Publish and share your content with internal or external audiences.
 icon: bullseye-arrow
+description: Publish and share your content with internal or external audiences.
 ---
 
 # Overview
@@ -11,7 +11,7 @@ When you’re ready to share your work, you can publish your content so others c
 
 Below we’ll explain how to publish your content as a docs site, and invite teammates and users to collaborate on editing your content.
 
-<figure><img src="../.gitbook/assets/published-site (1).png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/public-content.png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
 
 ### Learn more
 

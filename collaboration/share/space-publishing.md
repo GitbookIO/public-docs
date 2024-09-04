@@ -8,7 +8,7 @@ description: Collaborate with your team on a GitBook space.
 
 To share a space, click the **share** button in the top-right corner of a space. This will open the share modal.
 
-<figure><img src="../../.gitbook/assets/share-space.png" alt=""><figcaption><p>Share a space</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-share-space.png" alt=""><figcaption><p>Share a space</p></figcaption></figure>
 
 Inside the share modal, you’ll see different sharing options on the left-hand side.
 
@@ -18,7 +18,7 @@ The options available to you will depend on your permissions in the space, as we
 
 ### Invite members
 
-<figure><img src="../../.gitbook/assets/invite-members (2).png" alt=""><figcaption><p>Invite members</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/collaboration-share-modal.png" alt=""><figcaption><p>Invite members</p></figcaption></figure>
 
 By default, every member of your organization can see all the content in your organization. But their permissions are inherited from the [role](../../account-management/member-management/roles.md) assigned to them within the [**Organization settings**](../../account-management/organization-management.md) area.&#x20;
 
@@ -33,10 +33,6 @@ The cost for this will depend on [your organization’s plan](../../account-mana
 {% endhint %}
 
 It is also possible to [invite members to the organization ](../../account-management/member-management/invite-members-to-your-organization.md)from within the **Organization settings** area.
-
-### Who can access?
-
-This tab confirms the current visibility of the space, along with who has access to it within the GitBook app. You cannot change any settings here — it’s simply a summary.
 
 ### Publishing your content
 

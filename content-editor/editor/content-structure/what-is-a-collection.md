@@ -11,13 +11,13 @@ Collections allow you to:
 * organize your content by similar topics or ideas
 * manage space [permissions](../../../account-management/member-management/permissions-and-inheritance.md) at scale by allowing you to override the organization-level defaults
 
-<figure><img src="../../../.gitbook/assets/collection (1).png" alt=""><figcaption><p>The main view of a collection, with other collections and spaces inside.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/editor-collection.png" alt=""><figcaption><p>The main view of a collection, with other collections and spaces inside.</p></figcaption></figure>
 
 ### Create a collection
 
 Click the **+** button next to the **Documentation** header in the sidebar to create a new collection. You can also create a collection or space within another collection from the collection’s main page.
 
-<figure><img src="../../../.gitbook/assets/create-collection.png" alt=""><figcaption><p>You can create a collection from the sidebar, or from within another collection.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/editor-new-collection.png" alt=""><figcaption><p>You can create a collection from the sidebar, or from within another collection.</p></figcaption></figure>
 
 ### Move a collection
 

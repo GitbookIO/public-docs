@@ -1,8 +1,8 @@
 ---
+icon: slack
 description: >-
   The GitBook integration for Slack lets you curate knowledge into your
   knowledge base, right from the source
-icon: slack
 cover: ../.gitbook/assets/Slack (1).png
 coverY: 0
 layout:
@@ -53,7 +53,7 @@ You can add information to your team’s knowledge base by calling the GitBook S
 
 #### How to add information using the GitBook Slack bot
 
-Calling `@GitBook save` from within thread will summarize context and data from that thread into your team’s knowledge base as [a snippet](../snippets-and-insights/snippets-beta.md).&#x20;
+Calling `@GitBook save` from within thread will summarize context and data from that thread into your team’s knowledge base as [a snippet](../snippets/snippets-beta.md).&#x20;
 
 {% hint style="info" %}
 Calling the GitBook bot will work **from any thread** within a public channel or private channel. In a private channel, make sure to invite the GitBook bot in order for it to work.

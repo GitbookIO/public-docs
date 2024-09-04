@@ -41,6 +41,7 @@
     * [Support for CI/CD with API blocks](content-editor/blocks/openapi/support-for-ci-cd-with-api-blocks.md)
   * [Page links](content-editor/blocks/page-link.md)
   * [Snippets](content-editor/blocks/snippets.md)
+* [Broken links](content-editor/broken-links.md)
 * [Searching content](content-editor/searching-your-content/README.md)
   * [GitBook AI](content-editor/searching-your-content/gitbook-ai.md)
   * [Search & Quick find](content-editor/searching-your-content/quick-find.md)
@@ -90,11 +91,10 @@
 * [Third-party Integrations](integrations/third-party-integrations.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 
-## Snippets & Insights
+## Snippets
 
-* [Overview](snippets-and-insights/overview.md)
-* [Snippets (beta)](snippets-and-insights/snippets-beta.md)
-* [Broken links](snippets-and-insights/broken-links.md)
+* [Overview](snippets/overview.md)
+* [Snippets (beta)](snippets/snippets-beta.md)
 
 ## Collaboration
 

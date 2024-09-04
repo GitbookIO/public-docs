@@ -1,13 +1,13 @@
 ---
-description: Edit pages, collections, content and more.
 icon: bullseye-arrow
+description: Edit pages, collections, content and more.
 ---
 
 # Overview
 
 <div data-full-width="false">
 
-<figure><img src="../.gitbook/assets/content-editor-hero (1).png" alt=""><figcaption><p>The GitBook editor.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-overview.png" alt=""><figcaption><p>The GitBook editor.</p></figcaption></figure>
 
 </div>
 

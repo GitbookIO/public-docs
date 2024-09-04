@@ -14,7 +14,7 @@ GitBook supports live collaboration, meaning you’ll be able to work on the sam
 
 You can toggle live edit mode in a space by selecting **Lock live edits** or **Unlock live edits** from the space’s **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">.
 
-<figure><img src="../../.gitbook/assets/live-edits.png" alt=""><figcaption><p>You can lock or unlock live edits on a space from the Actions menu.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-live-edits.png" alt=""><figcaption><p>You can lock or unlock live edits on a space from the Actions menu.</p></figcaption></figure>
 
 ### When is live editing _not_ available?
 

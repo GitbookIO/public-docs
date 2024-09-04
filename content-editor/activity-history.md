@@ -1,6 +1,6 @@
 ---
-description: Keep track of changes, roll back to a previous version, and more.
 icon: rectangle-vertical-history
+description: Keep track of changes, roll back to a previous version, and more.
 ---
 
 # Version control
@@ -17,7 +17,7 @@ In the revision history of a space, you can see a list of all the actions that c
 
 ### Viewing historical versions of content
 
-To view past versions of your content and see the changes that were made, click the **Revision history** <picture><source srcset="../.gitbook/assets/Revision history dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Revision history light.png" alt="" data-size="line"></picture> button in the right-hand corner of the space [sub-navigation](editor/navigation.md#space-sub-navigation).&#x20;
+To view past versions of your content and see the changes that were made, click the **Revision history** <picture><source srcset="../.gitbook/assets/Revision history dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Revision history light.png" alt="" data-size="line"></picture> button from the space's actions in the right-hand corner.&#x20;
 
 {% hint style="info" %}
 **Permissions:** Only users with **admin**, **creator**, **reviewer** and **editor** permissions can view the revision history for a space.
@@ -25,7 +25,7 @@ To view past versions of your content and see the changes that were made, click 
 
 Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](editor/change-requests.md).
 
-<figure><img src="../.gitbook/assets/history.png" alt=""><figcaption><p>The revision history side panel shows all the historical changes people have made to a space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/editor-versions.png" alt=""><figcaption><p>The revision history side panel shows all the historical changes people have made to a space.</p></figcaption></figure>
 
 ### Show changes
 

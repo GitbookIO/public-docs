@@ -13,3 +13,13 @@ GitBook stores drawings as special SVG files in the space. Those files have an e
 ### Example of a drawing block
 
 <img src="../../.gitbook/assets/file.drawing (1).svg" alt="An example of a drawing block" class="gitbook-drawing">
+
+### Draw with GitBook AI
+
+{% hint style="warning" %}
+GitBook AI is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+{% endhint %}
+
+When using drawing block, certain plans have access to ask GitBook AI to generate an illustration by specifying a prompt.&#x20;
+
+When editing a drawing, click the "Use AI to generate" button to bring up GitBook AI's prompt editor.
