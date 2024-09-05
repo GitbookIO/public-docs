@@ -16,7 +16,7 @@ The content on your site comes from [spaces](../../content-editor/editor/content
 
 After linking a space, you'll be able to choose who can access your content once it’s published.
 
-<figure><img src="../../.gitbook/assets/docs-site (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-dashboard.png" alt=""><figcaption><p>Docs site home</p></figcaption></figure>
 
 Alternatively, you can create a docs site from the space you want to publish by opening the space and clicking **Share** in the top-right corner of the window. Then choose **Publish as a docs site** in the share modal’s sidebar.&#x20;
 

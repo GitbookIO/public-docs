@@ -39,7 +39,7 @@ Let's say we want to add an image below the second item in our ordered list. In 
 1. Item 1
 2. Item 2
 
-![](../../.gitbook/assets/link-spaces.png)
+![](../../.gitbook/assets/public-content.png)
 
 3. Item 3
 4. Item 4

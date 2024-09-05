@@ -1,6 +1,6 @@
 ---
-description: See which settings you can update across your published site.
 icon: gear
+description: See which settings you can update across your published site.
 ---
 
 # Site settings
@@ -11,7 +11,7 @@ Certain settings are only available as part of the Pro plan and Enterprise plan.
 
 Site settings allow you to customize and change certain aspects for your published site.
 
-<figure><img src="../.gitbook/assets/site-settings (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/published-content-site-settings.png" alt=""><figcaption><p>Site settings</p></figcaption></figure>
 
 ### Publishing
 

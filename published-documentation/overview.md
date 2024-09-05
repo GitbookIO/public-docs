@@ -7,8 +7,6 @@ description: Publish and share your content with internal or external audiences.
 
 When you’re ready to share your work, you’re able to publish your content so others can view and interact with the things you’ve created.
 
-When you’re ready to share your work, you can publish your content so others can view and interact with the things you’ve created.
-
 Below we’ll explain how to publish your content as a docs site, and invite teammates and users to collaborate on editing your content.
 
 <figure><img src="../.gitbook/assets/public-content.png" alt=""><figcaption><p>Published GitBook site</p></figcaption></figure>
