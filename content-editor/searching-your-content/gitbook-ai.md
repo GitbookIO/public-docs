@@ -49,7 +49,7 @@ For this example, let's try: “What makes change requests a powerful GitBook fe
 As well as a summarized answer, below you’ll also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
 
 {% hint style="warning" %}
-**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is **_**only**_** available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../collaboration/share/collection-publishing.md)**.**&#x20;
+**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is **_**only**_** available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../collaboration/share/share-a-collection.md)**.**&#x20;
 {% endhint %}
 
 #### Using GitBook AI in internal documentation

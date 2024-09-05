@@ -33,7 +33,7 @@ We do not currently support the ability to prioritize certain content in quick f
 **Quick find** is compliant with your team’s permission settings, meaning that users will only be able to search the content they have permission to access.‌
 
 {% hint style="warning" %}
-**Note:** Multiple space search is _only_ available when viewing a published [GitBook space](../editor/content-structure/what-is-a-space.md) that lives inside of a [published collection](../../collaboration/share/collection-publishing.md). It is not available across individual published spaces in different collections.&#x20;
+**Note:** Multiple space search is _only_ available when viewing a published [GitBook space](../editor/content-structure/what-is-a-space.md) that lives inside of a [published collection](../../collaboration/share/share-a-collection.md). It is not available across individual published spaces in different collections.&#x20;
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-02-15 at 11.35.11.png" alt=""><figcaption><p>Search all content in a space</p></figcaption></figure>

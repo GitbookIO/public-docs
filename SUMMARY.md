@@ -100,8 +100,8 @@
 
 * [Overview](collaboration/collaboration.md)
 * [Share your content](collaboration/share/README.md)
-  * [Share a space](collaboration/share/space-publishing.md)
-  * [Share a collection](collaboration/share/collection-publishing.md)
+  * [Share a space](collaboration/share/share-a-space.md)
+  * [Share a collection](collaboration/share/share-a-collection.md)
   * [PDF export](collaboration/share/pdf-export.md)
 * [Comments](collaboration/comments-discussion.md)
 * [Notifications](collaboration/notifications.md)

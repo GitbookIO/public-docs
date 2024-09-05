@@ -20,7 +20,7 @@ You can toggle live edit mode in a space by selecting **Lock live edits** or **U
 
 You cannot unlock live editing if:
 
-1. a space is [published](../../published-documentation/overview.md) with the **In collection**, **Public**, or **Unlisted** [visibility option](../../collaboration/share/space-publishing.md). We know this is a limitation, and we hope to change this in the future.
+1. a space is [published](../../published-documentation/overview.md) with the **In collection**, **Public**, or **Unlisted** [visibility option](../../collaboration/share/share-a-space.md). We know this is a limitation, and we hope to change this in the future.
 2. a space has [GitHub or GitLab Sync](../../integrations/git-sync/) enabled.
 
 {% hint style="info" %}
