@@ -10,9 +10,13 @@ In the space you want to sync with your GitLab repo, head to the space menu in t
 
 <figure><img src="../../.gitbook/assets/gitlab.png" alt=""><figcaption><p>Git Sync setup screen</p></figcaption></figure>
 
-### 2. Generate and enter your API token
+### 2. Generate and enter your API access token
 
-You can generate an API token in your GitLab user settings.
+You can generate an API access token in your GitLab user settings.
+
+{% hint style="info" %}
+There are two types of access tokens in GitLab: Project and Personal. Note that in order for the integration to work you’ll need to use a Personal token, which you can generate from your GitLab user preferences menu.
+{% endhint %}
 
 Ensure that you enable the following access for your token:
 
