@@ -37,11 +37,14 @@ Now you’re ready to move on to the next step: [configuring the DNS](configure-
 
 The method for configuring a site domain typically mirrors the approach for setting up an organization domain. The primary distinction lies in step 1 which is the initial location for initiating the custom domain configuration.
 
-1. Navigate to the site for which you want to set the custom domain. Click **Settings** then choose **Set up custom domain**\
-   _**IMAGE**_
-2.  This will open a window where you can enter the custom domain, then click **Next: Configure DNS**
+1. Navigate to the site for which you want to set the custom domain. Click **Settings** then choose **Set up a custom domain**
 
-    <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/published-content-site-settings.png" alt=""><figcaption></figcaption></figure>
+
+2. This will open a window where you can enter the custom domain, then click **Next: Configure DNS**
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 3. The final step requires you to copy the name and value to your clipboard so that you can create a CNAME DNS record. To copy the information click on the icon on the right-hand side of each field. Once copied, you can move on to [configuring the DNS](configure-dns.md).&#x20;
 
 {% hint style="info" %}
