@@ -15,12 +15,12 @@ A site with multiple spaces is useful if you need to group together the content 
 
 ### Link multiple spaces to a site
 
-From your docs site’s dashboard, click the **Content** button. Here you'll be able to link multiple spaces to your docs site.
+From your docs site’s dashboard, click the **Settings** <picture><source srcset="../.gitbook/assets/settings-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings-light.png" alt="" data-size="line"></picture> button, then scroll down to the **Content** section. Here you can see all the content of your site, and can add more by linking more spaces.
 
-In terms of content, each variation is just another space that you link to your site. It can contain similar or completely different content to the other linked spaces.&#x20;
+The spaces you link can contain similar or completely different content to the other linked spaces.&#x20;
 
 <figure><img src="../.gitbook/assets/link-content.png" alt=""><figcaption></figcaption></figure>
 
-### Remove a linked space
+### Remove content from a site
 
-To remove a linked space, select the **Content** button from your docs site dashboard, then open the **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the linked space you want to remove, and select **Delete from site**. This will remove it from the published site, but will not delete the space or the content within.
+To remove the content of a space from a site, click the **Settings** <picture><source srcset="../.gitbook/assets/settings-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings-light.png" alt="" data-size="line"></picture> button from your docs site dashboard, then scroll down to the **Content** section to find the content you want to remove. Open the **Actions menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the linked space you want to remove and select **Delete from site**. This will remove it from the published site, but will not delete the space or the content within.

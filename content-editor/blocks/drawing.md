@@ -20,6 +20,8 @@ GitBook stores drawings as special SVG files in the space. Those files have an e
 GitBook AI is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
-When using drawing block, certain plans have access to ask GitBook AI to generate an illustration by specifying a prompt.&#x20;
+When using drawing block, you can ask GitBook AI to generate an illustration by specifying a prompt. Simply type in a prompt and hit **Generate**, or choose one of the suggested prompts to get started.&#x20;
 
-When editing a drawing, click the "Use AI to generate" button to bring up GitBook AI's prompt editor.
+Once GitBook AI has finished the drawing, you can double-click to open the full drawing palette and edit it however you like.
+
+When editing a drawing, click the **Use AI to generate** button to bring up GitBook AI’s prompt editor again and generate a new drawing.

@@ -32,7 +32,7 @@ Remember that the settings you choose here will affect **published content only*
 
 ### Page covers
 
-You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../.gitbook/assets/Files dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Files light.png" alt="" data-size="line"></picture>option, a default cover will be added immediately. From there, you can:
+You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../.gitbook/assets/Files dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Files light.png" alt="" data-size="line"></picture> option, a default cover will be added immediately. From there, you can:
 
 *   **Change the cover image**
 

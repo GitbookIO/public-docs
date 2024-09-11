@@ -14,7 +14,7 @@ In a change request, you can edit, update and delete elements of your content, r
 
 ### Creating a change request
 
-Inside a space where live edits are disabled, click the **Edit** button in the space header to start a new change request.
+Inside a space where live edits are disabled, click the **Edit in change request** button in the space header to start a new change request.
 
 <figure><img src="../../.gitbook/assets/editor-change-request.png" alt=""><figcaption><p>You can start a new change request by clicking the Edit button in the top-right of the window, which only appears if live edits are locked.</p></figcaption></figure>
 
@@ -42,7 +42,7 @@ If your content is published using share links or visitor authentication, the pr
 
 ### Request a review on a change request
 
-You can request a review on your change request when you want to ask members of your team to check your content before you merge the changes into the main branch.
+Request a review on your change request when you want to ask members of your team to check your content before you merge the changes into the main branch.
 
 You can add a description to your change request to give your reviewers some context, and tag specific people that you want to check your work.
 

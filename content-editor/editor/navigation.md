@@ -20,14 +20,14 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
   Powered by [GitBook AI](../searching-your-content/gitbook-ai.md), you can ask questions in natural language, or search through the different spaces and content in your organization.
 * **Home**\
   The Home page allows you to see everything your team is working on at a glance. View open change requests, discussions and comments, recent page edits and more.
-* **Docs sites**\
-  The overview page for the docs sites you have created in your organization.
+* **Docs sites home**\
+  Click this to visit the overview page for all the docs sites you have created in your organization.
 * **Snippets**\
   With [snippets](../../snippets/snippets-beta.md), you can capture complex information from third-party tools. GitBook AI extracts that valuable knowledge within, and documents it for you in seconds.
 * **Integrations**\
   GitBook [integrations](broken-reference/) supercharge your content, allowing you to embed more into your pages, or add information to your knowledge base from other apps. Head to the [integration listing page ](../../integrations/third-party-integrations.md)to see all the available integrations.
-* **Docs Sites**\
-  The [docs sites](../../published-documentation/publish-your-content-as-a-docs-site/) section is where you'll find any docs sites you've created.
+* **Docs sites**\
+  Toggle this section to view all the [docs sites](../../published-documentation/publish-your-content-as-a-docs-site/) in your organization right in the sidebar and jump to one with a click.
 * **Spaces**\
   The spaces section is where you’ll find the [collections](content-structure/what-is-a-collection.md) and [spaces](content-structure/what-is-a-space.md) you create when adding more content. Head to our [content structure](content-structure/) section to find out more.
 * **Settings**\
@@ -51,7 +51,7 @@ From the table of contents you can:
 
 If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <img src="../../.gitbook/assets/Hide button.png" alt="The &#x27;hide&#x27; icon" data-size="line"> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <img src="../../.gitbook/assets/Show button.png" alt="The &#x27;show&#x27; icon" data-size="line">.
 
-### Space Overview & Space Header
+### Space overview & space header
 
 <figure><img src="../../.gitbook/assets/editor-space-header.png" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
 
@@ -65,8 +65,8 @@ The space overview & space header may look different depending on the mode you�
 
 The space overview appears at the top of GitBook when viewing a space. It includes:
 
-* **The space's breadcrumb**\
-  The collection or docs site the space lives in.
+* **The space’s breadcrumbs**\
+  A full, linear list of the collections or docs sites the space lives in.
 * **Collaborators**\
   The avatar of anyone else who’s currently viewing a page in your space, with colored circles to show their cursor color. Click an avatar to jump to the page they’re currently viewing.
 * **Git Sync configuration**\
@@ -76,22 +76,22 @@ The space overview appears at the top of GitBook when viewing a space. It includ
 * **Actions menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line">\
   Offers a list of actions for your space. Similar to [page actions](navigation.md#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 
-#### Space Header
+#### Space header
 
-The space sub-navigation is located directly beneath the space header, and lets you collaborate with others on your space, customize it’s look, and more. It includes:
+The space header is located directly beneath the space overview, and lets you collaborate with others on your space, customize it’s look, and more. It includes:
 
-* **The space emoji**\
-  You can choose an emoji for your space, to help you easily identify it in the sidebar.
+* **The space emoji or icon**\
+  You can choose an emoji or icon for your space, to help you easily identify it in the sidebar.
 * **The space name**\
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
 * **Comments**\
   See the [comments and discussions](../../collaboration/comments-discussion.md) you and your team have had about the space content.
-* **Broken Links**\
+* **Broken links**\
   Any [broken links](../broken-links.md) that have been found in the current space or change request.
 * **Change requests**\
   Create, update, and delete [change requests](change-requests.md) in your space.
 * **The edit button**\
-  If your space is published, or someone has locked[ live edits](live-edits.md), the **Edit** button will appear in the space header. It lets you start a new [change request](change-requests.md) to edit content.
+  If your space is published, or someone has locked[ live edits](live-edits.md), the **Edit in change request** button will appear in the space header. It lets you start a new [change request](change-requests.md) to edit content.
 
 ### Content editor
 

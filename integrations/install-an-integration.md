@@ -29,13 +29,12 @@ From here, the integration will be available to enable in any space or site in y
 
 #### 3. Enable and configure integration
 
-The integration installed will now be available in your organization, but will need to be enabled on a per-space basis, and be optionally configured.
+The installed installed will now be available in your organization, but you need to enable it on a per-space basis, and you may also need to configure it, depending on the integration
 
-From the **spaces** tab in your installed integration, you can choose which space(s) you'd like to use the integration with.
+Firstly, open the integration’s main screen by selecting it on the **Integrations** panel in the app and opening the **Spaces tab**. From here, you can choose which space(s) to enable the integration for.
 
 <figure><img src="../.gitbook/assets/integrations-enable.png" alt=""><figcaption><p>Enable an integration for a space</p></figcaption></figure>
 
 {% hint style="info" %}
-Certain integrations may require extra configuration. Head to the **Organizations settings** tab where applicable to complete your integration's configuration.
+Certain integrations may require extra configuration. If so, head to the **Organization settings** tab to complete your integration’s configuration.
 {% endhint %}
-

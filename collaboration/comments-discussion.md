@@ -7,9 +7,9 @@ description: Ask questions or receive feedback on the content you create in GitB
 
 Comments allow you to have as much (or as little) conversation as you like around specific pieces of content — without switching out of context from GitBook.
 
-### Comment within your content <a href="#comment-within-your-content" id="comment-within-your-content"></a>
+### Add a comment to your content <a href="#comment-within-your-content" id="comment-within-your-content"></a>
 
-You can comment on any block within your content. The comment will be displayed in a right hand panel which you can open by clicking on the comment icon in the sub-navigation.
+You can comment on any block within your content. Hover over a block and click the content icon that appears on the right of the block to open the **Comments** side panel with an empty comment. You can open this panel again by clicking on the **Comments** button <picture><source srcset="../.gitbook/assets/comments-dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/comments-light.png" alt="" data-size="line"></picture> in the [space header](../content-editor/editor/navigation.md#space-header).
 
 <figure><img src="../.gitbook/assets/collaboration-comments.png" alt=""><figcaption><p>Add a comment in GitBook.</p></figcaption></figure>
 
