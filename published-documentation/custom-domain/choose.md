@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # 1. Choose a subdomain and its location
 
 Here are some examples of domains you can set in GitBook.&#x20;
@@ -47,5 +61,3 @@ If no page groups are used: **`site-domain/page`**
 
 (Or, if page groups are used:**`site-domain/page-group/page)`**
 {% endhint %}
-
-If you’ve decided that you want to set a custom domain at the organization level, you can [go to the next step](organization-level-custom-domain.md) for details on how to set it. If you’re not sure, keep reading to review your other options.
