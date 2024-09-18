@@ -10,6 +10,8 @@ To get started, create a new docs site for your content to live on, or publish a
 
 ### Create a docs site
 
+{% embed url="https://www.youtube.com/watch?v=oTOEeqU4qk8" %}
+
 To create a docs site, click the plus **+** icon next to Docs site in the sidebar on the left.
 
 The content on your site comes from [spaces](../../content-editor/editor/content-structure/what-is-a-space.md) in your organization. When you create a new docs site, you can create a new space, or link an existing one.&#x20;

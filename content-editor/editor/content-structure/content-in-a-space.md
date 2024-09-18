@@ -10,7 +10,7 @@ A page in GitBook is the place where you add, edit and embed content. Pages alwa
 
 You can create as many pages as you need in a space. They’re all visible on the left side of your screen in your space’s [table of contents](../navigation.md#table-of-contents).
 
-#### Hide a page from the table of contents
+### Hide a page from the table of contents
 
 You can hide a page or group of pages from your site's table of contents by clicking the page’s **Action menu** <img src="../../../.gitbook/assets/Actions menu.png" alt="Three vertical dots" data-size="line">  and toggling **Hide page**.
 
@@ -22,6 +22,8 @@ If hidden the following will appear in the front matter of the markdown file whe
 hidden: true
 <strong>---
 </strong></code></pre>
+
+{% embed url="https://www.youtube.com/watch?v=caN1kQYXb8I" %}
 
 ### Organizing your content
 
@@ -72,6 +74,8 @@ Just like creating a new page, you can create a page group by choosing **Add new
 To add an external link to your space, click the **Add new page** button at the bottom of the table of contents, then choose **New link**. Give the link a title — this will appear in the table of contents — and then add the URL and click **Insert**.
 
 ### Add an icon or emoji to your page
+
+{% embed url="https://www.youtube.com/watch?v=p6gYpjDQOn4" %}
 
 To add better visibility for readers when skimming your table of contents, you can add an optional icon or emoji to an individual page. The icon or emoji will appear in the table of contents, and next to the title at the top of the page.
 

@@ -10,6 +10,10 @@ You can use GitBook AI to create content on any empty line on your page. It can 
 GitBook AI is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
+### Product Demo
+
+{% embed url="https://www.youtube.com/watch?v=7sgcjb8RtjE" %}
+
 ### How to write with GitBook AI
 
 Press `Space` on any empty line, or type `/` and choose **Write with AI** to enter GitBook AI’s writing mode.

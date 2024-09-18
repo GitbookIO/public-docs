@@ -1,6 +1,6 @@
 ---
-description: Learn how to manage access to content for members of your organization.
 icon: users
+description: Learn how to manage access to content for members of your organization.
 ---
 
 # Member management
@@ -13,6 +13,8 @@ You can [invite and remove members](invite-members-to-your-organization.md) from
 **Admins** can invite and remove members, change members’ roles, and manage teams. **Creators** can manage permissions at a content level (collection or space).\
 **Team owners** can manage members of the team they have ownership of.
 {% endhint %}
+
+{% embed url="https://www.youtube.com/watch?v=XdocAjHKuLU" %}
 
 ## Members & permissions
 

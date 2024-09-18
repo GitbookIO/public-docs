@@ -7,11 +7,13 @@ description: "Publish multiple versions of your documentation in a single site �
 
 You can publish multiple versions of the same documentation as part of a single docs site. These variations will be available to the end users via the space switcher in the top-left corner of the published site.
 
-<figure><img src="../.gitbook/assets/variants (1).png" alt=""><figcaption><p>Multiple spaces published through a single GitBook docs site.</p></figcaption></figure>
+{% embed url="https://www.youtube.com/watch?v=Pj7mrFArOWY" %}
 
 ### Why publish multiple spaces on one site?
 
 A site with multiple spaces is useful if you need to group together the content of your spaces — such as if you’re documenting multiple versions of an API (v1, v2, v3, etc.), or documenting your content in different languages.
+
+<figure><img src="../.gitbook/assets/variants (1).png" alt=""><figcaption><p>Multiple spaces published through a single GitBook docs site.</p></figcaption></figure>
 
 ### Link multiple spaces to a site
 

@@ -1,8 +1,8 @@
 ---
+icon: code-pull-request
 description: >-
   Synchronize your GitBook content with GitHub or GitLab with GitBook’s
   bi-directional integration.
-icon: code-pull-request
 ---
 
 # GitHub & GitLab Sync
@@ -18,9 +18,7 @@ Administrators and creators can enable and configure Git Sync.
 
 ### Product Demo
 
-{% embed url="https://www.youtube.com/watch?v=939zkInwJHg" %}
-GitSync Product Demo
-{% endembed %}
+{% embed url="https://www.youtube.com/watch?v=Ly2zQD0I9bY" %}
 
 ### Learn more about
 

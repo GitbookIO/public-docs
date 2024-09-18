@@ -8,6 +8,8 @@ If you created your docs for a public audience, you can publish it on the web. S
 
 However you publish your content, you’ll still retain control over who can _edit_ your content. And only your primary content branch will be published, so any [change requests](../../content-editor/editor/change-requests.md) will remain private until merged.
 
+{% embed url="https://www.youtube.com/watch?v=eahJblVAZ30" %}
+
 ### Publish as public
 
 To publish your docs publicly on the web head to the docs site you want to publish, click **Publish** button, and choose the **Public** option.

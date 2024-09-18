@@ -4,9 +4,7 @@ description: GitBook uses AI to help you find the knowledge you need, faster.
 
 # GitBook AI
 
-{% embed url="https://youtu.be/YILlrDYzAm4?feature=shared&t=1851" %}
-See GitBook AI in action
-{% endembed %}
+{% embed url="https://www.youtube.com/watch?v=7sgcjb8RtjE" %}
 
 Simply tell GitBook AI what you want, or ask it a question. It’ll use AI to scan your documentation and give you a simple, semantic answer — with clickable references if you want to dive deeper.
 

@@ -19,6 +19,10 @@ Broken link detection currently works only for relative links to other GitBook c
 
 To view broken links, click the broken link symbol in the [space sub-nav](editor/navigation.md#space-header-and-sub-navigation) when inside a change request.
 
+### Product Demo
+
+{% embed url="https://www.youtube.com/watch?v=dC53NpIQ07Q" %}
+
 ### How to fix a broken link
 
 If GitBook finds a broken link, you’ll see a notification in this section with a link to the page that includes the broken link. Then, simply replace or update the link with a valid one.

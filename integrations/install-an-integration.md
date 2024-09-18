@@ -5,6 +5,8 @@ description: "How to install an integration in a single space, or all the spaces
 
 # Install and manage integrations
 
+{% embed url="https://www.youtube.com/watch?v=W6TA9Lftd6A" %}
+
 You can install an integration in a single space, multiple spaces, or all the spaces across your organization.
 
 If you install an integration in a single space, it will only work in that specific space. By installing an integration in multiple spaces, you’ll be able to perform actions across all those spaces.

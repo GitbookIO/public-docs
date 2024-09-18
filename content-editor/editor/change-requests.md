@@ -12,6 +12,10 @@ In a change request, you can edit, update and delete elements of your content, r
 **Note:** You’ll need to open a change request to edit any content in any [published](../../published-documentation/overview.md) space, any space that’s [synced with GitHub or GitLab](../../integrations/git-sync/), or any space with [locked live edits](live-edits.md).
 {% endhint %}
 
+### Product Demo
+
+{% embed url="https://www.youtube.com/watch?v=qcK2xEJLXRU" %}
+
 ### Creating a change request
 
 Inside a space where live edits are disabled, click the **Edit in change request** button in the space header to start a new change request.
