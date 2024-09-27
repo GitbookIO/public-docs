@@ -12,9 +12,8 @@
     * [Spaces](content-editor/editor/content-structure/what-is-a-space.md)
     * [Pages](content-editor/editor/content-structure/content-in-a-space.md)
     * [Collections](content-editor/editor/content-structure/what-is-a-collection.md)
-  * [Live edits](content-editor/editor/live-edits.md)
-  * [Change requests](content-editor/editor/change-requests.md)
 * [Editing content](content-editor/editing-content/README.md)
+  * [Live edits](content-editor/editing-content/live-edits.md)
   * [Formatting your content](content-editor/editing-content/formatting.md)
   * [Inline content](content-editor/editing-content/inline.md)
   * [Markdown](content-editor/editing-content/markdown.md)
@@ -100,6 +99,7 @@
 ## Collaboration
 
 * [Overview](collaboration/collaboration.md)
+* [Change requests](collaboration/change-requests.md)
 * [Share your content](collaboration/share/README.md)
   * [Share a space](collaboration/share/share-a-space.md)
   * [Share a collection](collaboration/share/share-a-collection.md)

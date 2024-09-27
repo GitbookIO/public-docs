@@ -27,4 +27,4 @@ If you’re done working through a comment thread or idea, you can **resolve** a
 
 ### Commenting and change requests
 
-In addition to commenting on a page or content block, you can also leave comments inside of a change request. See [change requests](../content-editor/editor/change-requests.md) to learn more.
+In addition to commenting on a page or content block, you can also leave comments inside of a change request. See [change requests](change-requests.md) to learn more.

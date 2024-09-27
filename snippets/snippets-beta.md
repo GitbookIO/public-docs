@@ -1,8 +1,8 @@
 ---
+icon: scissors
 description: >-
   Add snippets of knowledge from your favorite tools, and GitBook AI will turn
   them into something useful
-icon: scissors
 ---
 
 # Snippets (beta)
@@ -51,7 +51,7 @@ You can share a snippet with others as a direct link to the organization it’s 
 
 You can convert a snippet to a full page within your documentation. To do this, open a snippet and choose **Convert to page** in the top-right corner.
 
-You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../content-editor/editor/change-requests.md) if you select a space [with locked live edits](../content-editor/editor/live-edits.md).
+You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../collaboration/change-requests.md) if you select a space [with locked live edits](../content-editor/editing-content/live-edits.md).
 
 {% hint style="info" %}
 **Note:** When you convert a snippet to the page, GitBook will automatically archive the snippet. If you’ve linked to the snippet using [an inline link](../content-editor/editing-content/inline.md#links) or [a snippet block](../content-editor/blocks/snippets.md), the links will still work but will take readers to the original snippet, not the new page.

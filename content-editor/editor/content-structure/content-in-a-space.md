@@ -59,7 +59,7 @@ External links are simply links to external sites and resources. Adding a link d
 
 <figure><img src="../../../.gitbook/assets/editor-new-page.png" alt=""><figcaption><p>You can create a new page or page group from table of contents.</p></figcaption></figure>
 
-When in [live edit](../live-edits.md) mode or in a [change request](../change-requests.md), you can create a new page by clicking **Add new page** > **New document page** at the bottom of your table of contents.&#x20;
+When in [live edit](../../editing-content/live-edits.md) mode or in a [change request](../../../collaboration/change-requests.md), you can create a new page by clicking **Add new page** > **New document page** at the bottom of your table of contents.&#x20;
 
 Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
 
@@ -90,7 +90,7 @@ You can choose the style and weight of the icon in your published site's setting
 ### Can’t see the option to create a new page?
 
 {% hint style="warning" %}
-If [live edits](../live-edits.md) are disabled for your space, you’ll need to create or edit a [change request](../change-requests.md). Once you’re in a change request, the **New page** button (which allows you to create pages, page groups and links) will be available in the table of contents.
+If [live edits](../../editing-content/live-edits.md) are disabled for your space, you’ll need to create or edit a [change request](../../../collaboration/change-requests.md). Once you’re in a change request, the **New page** button (which allows you to create pages, page groups and links) will be available in the table of contents.
 
 Alternatively, you may not have the correct [permissions](../../../account-management/member-management/permissions-and-inheritance.md) to edit a page.
 {% endhint %}

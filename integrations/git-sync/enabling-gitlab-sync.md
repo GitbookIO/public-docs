@@ -51,7 +51,7 @@ When syncing for the first time, you’ll have the option to sync in one of two 
 
 ### 5. Write and commit!
 
-You’re good to go. You’ll notice that if your space was in [live edit](../../content-editor/editor/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a[ change request](../../content-editor/editor/change-requests.md) in GitBook.
+You’re good to go. You’ll notice that if your space was in [live edit](../../content-editor/editing-content/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests.md) in GitBook.
 
 When you edit on GitBook, every change request merge will result in a commit to your selected GitLab branch.
 

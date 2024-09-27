@@ -58,7 +58,7 @@ If you want to give more focus to the content of your page, you can temporarily 
 The space overview contains information about the space you’re currently viewing. It lets you do things like [publish and share](../../published-documentation/overview.md) your space, configure [GitHub or GitLab sync](../../integrations/git-sync/), and more.
 
 {% hint style="info" %}
-The space overview & space header may look different depending on the mode you’re currently in. See [change requests](change-requests.md) for more info.
+The space overview & space header may look different depending on the mode you’re currently in. See [change requests](../../collaboration/change-requests.md) for more info.
 {% endhint %}
 
 #### Space overview
@@ -89,9 +89,9 @@ The space header is located directly beneath the space overview, and lets you co
 * **Broken links**\
   Any [broken links](../broken-links.md) that have been found in the current space or change request.
 * **Change requests**\
-  Create, update, and delete [change requests](change-requests.md) in your space.
+  Create, update, and delete [change requests](../../collaboration/change-requests.md) in your space.
 * **The edit button**\
-  If your space is published, or someone has locked[ live edits](live-edits.md), the **Edit in change request** button will appear in the space header. It lets you start a new [change request](change-requests.md) to edit content.
+  If your space is published, or someone has locked[ live edits](../editing-content/live-edits.md), the **Edit in change request** button will appear in the space header. It lets you start a new [change request](../../collaboration/change-requests.md) to edit content.
 
 ### Content editor
 
@@ -116,7 +116,7 @@ The page’s Actions menu <img src="../../.gitbook/assets/Actions menu.png" alt=
 You can open the Actions menu using the <img src="../../.gitbook/assets/Actions menu.png" alt="three vertical dots" data-size="line"> icon that appears when hovering over your page in the sidebar, or from the icon next to the page title.
 
 {% hint style="info" %}
-The type of actions available will depend on whether you’re in live editing mode, a change request, or in a space with [locked edits](live-edits.md).
+The type of actions available will depend on whether you’re in live editing mode, a change request, or in a space with [locked edits](../editing-content/live-edits.md).
 {% endhint %}
 
 ### Page options

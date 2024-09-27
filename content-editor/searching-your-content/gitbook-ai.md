@@ -62,7 +62,7 @@ Head to [our developer documentation](https://developer.gitbook.com/gitbook-api/
 
 #### How long does it take for GitBook AI to index changes?
 
-When someone makes a change to your content — such as a merged [change request](../editor/change-requests.md) or a new [knowledge snippet](../../snippets/snippets-beta.md) from Slack) it can take **up to one hour** for GitBook to index the changes to and reflect them in AI search results.
+When someone makes a change to your content — such as a merged [change request](../../collaboration/change-requests.md) or a new [knowledge snippet](../../snippets/snippets-beta.md) from Slack) it can take **up to one hour** for GitBook to index the changes to and reflect them in AI search results.
 
 #### How does GitBook AI handle my data?
 

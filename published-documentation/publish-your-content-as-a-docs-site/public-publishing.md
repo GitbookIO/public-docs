@@ -6,7 +6,7 @@ description: Publish your docs publicly to the web so that everyone can access t
 
 If you created your docs for a public audience, you can publish it on the web. Spaces that you publish on the web can be [indexed by search engines](../seo.md) and will be available to anyone. If you don’t want your content to be indexed by search engines, you can disable that too — read more about that [below](public-publishing.md#publish-as-unlisted).
 
-However you publish your content, you’ll still retain control over who can _edit_ your content. And only your primary content branch will be published, so any [change requests](../../content-editor/editor/change-requests.md) will remain private until merged.
+However you publish your content, you’ll still retain control over who can _edit_ your content. And only your primary content branch will be published, so any [change requests](../../collaboration/change-requests.md) will remain private until merged.
 
 {% embed url="https://www.youtube.com/watch?v=eahJblVAZ30" %}
 
