@@ -79,6 +79,7 @@
 * [Overview](integrations/overview.md)
 * [Install and manage integrations](integrations/install-an-integration.md)
 * [Slack (beta)](integrations/slack.md)
+* [GitHub Copilot](integrations/github-copilot.md)
 * [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
 * [GitHub & GitLab Sync](integrations/git-sync/README.md)
   * [Enabling GitHub Sync](integrations/git-sync/enabling-github-sync.md)
