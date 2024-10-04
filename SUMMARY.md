@@ -40,7 +40,7 @@
     * [Support for CI/CD with API blocks](content-editor/blocks/openapi/support-for-ci-cd-with-api-blocks.md)
   * [Page links](content-editor/blocks/page-link.md)
   * [Snippets](content-editor/blocks/snippets.md)
-  * [Synced Block](content-editor/blocks/synced-block.md)
+  * [Synced blocks](content-editor/blocks/synced-blocks.md)
 * [Broken links](content-editor/broken-links.md)
 * [Searching content](content-editor/searching-your-content/README.md)
   * [GitBook AI](content-editor/searching-your-content/gitbook-ai.md)

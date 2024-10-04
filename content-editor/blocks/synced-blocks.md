@@ -5,7 +5,9 @@ description: >-
 hidden: true
 ---
 
-# Synced Block
+# Synced blocks
+
+<figure><img src="../../.gitbook/assets/editor-synced-blocks.png" alt=""><figcaption><p>Synced Blocks Overview</p></figcaption></figure>
 
 Synced blocks let you sync content across multiple pages in GitBook, so you can edit all the instances of the block at the same time.
 
@@ -13,19 +15,23 @@ Synced blocks let you sync content across multiple pages in GitBook, so you can 
 
 To create a synced block, [select one or more blocks](./#selecting-blocks-and-interacting-with-selected-blocks), then open the **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and choose **Turn into a synced block**. You can then give your synced block a name to make it easier to find and reuse later.
 
+Alternatively, you can select one or more blocks and then hit **Cmd+C** to open a prompt asking if you want to create a synced block.
+
 If your synced block has instances on other pages, you can click the drop-down menu in the top-right corner of a synced block to see those locations.
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FjDTSw2VfScUwXuPa0iZb%2Fimage.png?alt=media&#x26;token=45680b8c-213e-4112-a3d1-a177110334f4" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/editor-synced-blocks-insert.png" alt=""><figcaption></figcaption></figure>
 
 ### **How insert a synced block**
 
-You can insert a synced block as you would with any other block. You can hit `/` on an empty line to open the **Insert palette** and choose **Synced block**. Alternatively, click the **+** on the left of any block or empty line.&#x20;
+You can insert a synced block as you would with any other block. Hit `/` on an empty line to open the **Insert palette** and choose **Synced block**. Alternatively, click the `+` on the left of any block or empty line.&#x20;
 
 You can choose the synced block you want to add from the list, or search for the one you need.
 
 ### **Editing a synced block**
 
-You can edit a synced block from any instance your synced block appears by selecting the block and clicking **Edit**.
+You can edit a synced block from any instance by selecting the block and clicking **Edit**. This will bring you to the synced block's overview page, where you can edit the title, description, and block itself.
+
+<figure><img src="../../.gitbook/assets/editor-synced-block-overview.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Changes you make to synced blocks that appear in published content will **automatically update in the published site**. Keep this in mind as you update synced blocks across your instances.
@@ -45,6 +51,8 @@ You can detach a synced block by opening the **Action menu** <img src="../../.gi
 
 Once detached, any changes you make to the block(s) will not be reflected across the other instances, and changes you make in those instances will not be reflected in the detached block(s).
 
-{% hint style="info" %}
-**Note:** Right now, there is no way to completely remove a synced block from the list of synced blocks — we’re working on this improvement and will have something to share soon.
-{% endhint %}
+### Delete a synced block
+
+You can delete a synced block from the synced blocks overview page. Select the **Action menu** <img src="../../.gitbook/assets/Actions menu.png" alt="" data-size="line"> next to the block you’d like to delete, and select **Delete**.
+
+If the block is used across any of your spaces, a warning message will appear. Deleting a synced block that is used across spaces will **delete it from all spaces and sites it had appeared in**. This action cannot be undone.
