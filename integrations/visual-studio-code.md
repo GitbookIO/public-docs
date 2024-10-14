@@ -24,9 +24,7 @@ layout:
 
 # Visual Studio Code (alpha)
 
-The GitBook Visual Studio Code integration allows you to collect, and share information to and from your company’s knowledge base. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
-
-GitBook AI will summarize information that you or your team add to your knowledge base, turning your actions and narration into [a snippet](../snippets/snippets-beta.md). And when you or a colleague need to learn more about something you’ve saved, you can ask GitBook AI and get a plain-text summary, with all the background needed to dive in deeper.
+The GitBook Visual Studio Code integration allows you to search and ask questions about your documentation and knowledge, directly in your code editor. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
 
 ### Installation & configuration
 
@@ -50,11 +48,7 @@ After saving your personal access token, you’ll need to choose the organizatio
 
 In the Command Palette, you can choose an organization under the **GitBook: Switch Organization** option. If you’re only part of one organization, it’ll already be selected for you.
 
-### Add information to GitBook from VS Code
-
-You can add knowledge to GitBook by capturing your voice and actions in Visual Studio Code. GitBook AI will combine these into a [snippet](../snippets/snippets-beta.md) — a structured, written guide containing the information you captured — and add it to your knowledge base in [the **Snippets** page](../snippets/snippets-beta.md).
-
-### How to summon GitBook knowledge from VS Code
+### Ask questions about your GitBook docs
 
 Using the GitBook VS Code extension, you can ask contextual questions in the side panel to access your team’s knowledge. This section also contains a list of recent snippets by people on your team, so you can quickly see what others are saving to your team’s knowledge base from VS Code.
 
