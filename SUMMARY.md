@@ -39,8 +39,8 @@
   * [OpenAPI methods](content-editor/blocks/openapi/README.md)
     * [Support for CI/CD with API blocks](content-editor/blocks/openapi/support-for-ci-cd-with-api-blocks.md)
   * [Page links](content-editor/blocks/page-link.md)
+  * [Synced blocks (beta)](content-editor/blocks/synced-blocks-beta.md)
   * [Snippets](content-editor/blocks/snippets.md)
-  * [Synced blocks](content-editor/blocks/synced-blocks.md)
 * [Broken links](content-editor/broken-links.md)
 * [Searching content](content-editor/searching-your-content/README.md)
   * [GitBook AI](content-editor/searching-your-content/gitbook-ai.md)
@@ -91,6 +91,10 @@
   * [Troubleshooting](integrations/git-sync/troubleshooting.md)
 * [Third-party Integrations](integrations/third-party-integrations.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
+
+## Synced Blocks
+
+* [Synced Blocks (beta)](synced-blocks/synced-blocks-beta.md)
 
 ## Snippets
 

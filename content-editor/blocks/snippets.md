@@ -2,6 +2,7 @@
 description: >-
   Add a snippet block to reference a specific snippet on your page, and
   highlight it as important
+hidden: true
 ---
 
 # Snippets
