@@ -1,6 +1,6 @@
 ---
-description: Control your content edits through change requests.
 icon: code-branch
+description: Control your content edits through change requests.
 ---
 
 # Change requests
@@ -97,11 +97,14 @@ Most reviews will take place in the change request’s [comments](comments-discu
 
 #### Diff view <a href="#diff-mode" id="diff-mode"></a>
 
-Diff view allows you to toggle a view that makes it easy to see what’s been edited in a change request.
+Diff view allows you to toggle a view that makes it easy to see what’s been edited in a change request. It will highlight any edited pages in the space, and on the pages it will show the specific blocks that have been added, edited or removed.
 
-It highlights edited pages in the table of contents, so you can quickly jump to the relevant parts of the space. And on individual pages, diff view shows the specific blocks that you’ve added, edited or removed.
+There are two options for using diff view:
 
-You can toggle diff view on or off for any change request.
+1. **All pages** - this is the default mode for diff view, which will show both modified and non-modified pages in the table of contents. This is good for seeing which pages have been edited in the context of the entire space.
+2. **Only changes** - this mode will show only the modified pages in the table of contents, which helps you focus on the changed content. This is particularly helpful in larger spaces with many pages and sub-pages.
+
+You can toggle diff view on or off in any change request.
 
 <figure><img src="../.gitbook/assets/editor-diff-change-request.png" alt=""><figcaption><p>You can toggle diff mode on or off for any change request to make it easier to see what’s changed.</p></figcaption></figure>
 
