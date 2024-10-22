@@ -99,7 +99,11 @@ Switch between a plain background and a subtly tinted background that complement
 **Navigation**\
 Add header links to your site. You could use header links to point to important parts of your documentation, or perhaps to link back to your main website.
 
+You can choose what type of appearance you would like your link to have, and can choose between a normal link, primary button, and secondary button
+
 When enabled, simply add a title and a URL for each link. We support two levels of header navigation, meaning that you can have sub-links that appear in a dropdown menu.
+
+![](<../../.gitbook/assets/Screenshot 2024-10-22 at 23.28.57 (1).png>)
 
 </details>
 
