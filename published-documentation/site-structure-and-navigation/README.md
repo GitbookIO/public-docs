@@ -1,6 +1,6 @@
 ---
-description: Decide how your site is structured to best fit your content.
 icon: window-restore
+description: Decide how your site is structured to best fit your content.
 ---
 
 # Site structure and navigation
@@ -9,7 +9,7 @@ The content on your site comes from [spaces](../../content-editor/editor/content
 
 ## Content types
 
-Linked spaces can serve as one of two different content types, which determine how GitBook treats them in relation to each other and shows them to customers.
+Linked spaces can serve as one of two different content types, which determine how GitBook treats them in relation to each other and shows them to visitors.
 
 {% hint style="warning" %}
 Updated site sections are slowly rolling out to users. Hang tight, as you may not have access to this feature at this point.
