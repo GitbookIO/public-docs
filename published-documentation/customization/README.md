@@ -12,7 +12,7 @@ description: >-
 
 You can customize the appearance of your published documentation, match the user interface to the language of your content, and more.
 
-You can apply customizations to your entire docs site as a site-wide theme, or to individual [variations](../publish-multiple-spaces-on-one-site.md) using overrides.&#x20;
+You can apply customizations to your entire docs site as a site-wide theme, or to individual [variations](../site-structure-and-navigation/publish-multiple-spaces-on-one-site.md) using overrides.&#x20;
 
 {% hint style="info" %}
 **Permissions**

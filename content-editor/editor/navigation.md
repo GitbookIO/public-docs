@@ -27,7 +27,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 * **Integrations**\
   GitBook [integrations](broken-reference/) supercharge your content, allowing you to embed more into your pages, or add information to your knowledge base from other apps. Head to the [integration listing page ](../../integrations/third-party-integrations.md)to see all the available integrations.
 * **Docs sites**\
-  Toggle this section to view all the [docs sites](../../published-documentation/publish-your-content-as-a-docs-site/) in your organization right in the sidebar and jump to one with a click.
+  Toggle this section to view all the [docs sites](../../published-documentation/publish-a-docs-site/) in your organization right in the sidebar and jump to one with a click.
 * **Spaces**\
   The spaces section is where you’ll find the [collections](content-structure/what-is-a-collection.md) and [spaces](content-structure/what-is-a-space.md) you create when adding more content. Head to our [content structure](content-structure/) section to find out more.
 * **Settings**\

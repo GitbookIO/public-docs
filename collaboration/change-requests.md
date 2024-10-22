@@ -42,7 +42,7 @@ If your content is published using share links or visitor authentication, the pr
 <figure><img src="../.gitbook/assets/editor-preview-change-request.png" alt=""><figcaption><p>Preview a Change Request</p></figcaption></figure>
 
 {% hint style="info" %}
-**Note**: You can only preview change requests for spaces added to a [published docs site](../published-documentation/publish-your-content-as-a-docs-site/).
+**Note**: You can only preview change requests for spaces added to a [published docs site](../published-documentation/publish-a-docs-site/).
 {% endhint %}
 
 ### Request a review on a change request

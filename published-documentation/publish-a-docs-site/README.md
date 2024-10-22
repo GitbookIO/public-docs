@@ -2,7 +2,7 @@
 icon: globe
 ---
 
-# Publish your content as a docs site
+# Publish a docs site
 
 Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.&#x20;
 
@@ -36,7 +36,7 @@ To delete a docs site, you'll need to go into your site's settings. See [site-se
 
 After you've published a site, you can customize your docs in multiple ways.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Set a theme</strong></td><td>Customize and add a theme.</td><td><a href="../../.gitbook/assets/5 (1).png">5 (1).png</a></td><td><a href="../customization/space-customization.md">space-customization.md</a></td></tr><tr><td><strong>Set a custom domain</strong></td><td>Set up a custom domain for your docs.</td><td><a href="../../.gitbook/assets/8.png">8.png</a></td><td><a href="../custom-domain/">custom-domain</a></td></tr><tr><td><strong>Publish a variation</strong></td><td>Add multiple variations for your docs.</td><td><a href="../../.gitbook/assets/1 (1).png">1 (1).png</a></td><td><a href="../publish-multiple-spaces-on-one-site.md">publish-multiple-spaces-on-one-site.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Set a theme</strong></td><td>Customize and add a theme.</td><td><a href="../../.gitbook/assets/5 (1).png">5 (1).png</a></td><td><a href="../customization/space-customization.md">space-customization.md</a></td></tr><tr><td><strong>Set a custom domain</strong></td><td>Set up a custom domain for your docs.</td><td><a href="../../.gitbook/assets/8.png">8.png</a></td><td><a href="../custom-domain/">custom-domain</a></td></tr><tr><td><strong>Publish a variation</strong></td><td>Add multiple variations for your docs.</td><td><a href="../../.gitbook/assets/1 (1).png">1 (1).png</a></td><td><a href="../site-structure-and-navigation/publish-multiple-spaces-on-one-site.md">publish-multiple-spaces-on-one-site.md</a></td></tr></tbody></table>
 
 ### Learn more
 

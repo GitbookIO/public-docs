@@ -19,7 +19,7 @@ Site settings allow you to customize and change certain aspects for your publish
 
 <summary>Audience</summary>
 
-Choose who sees your published content. See [publish-your-content-as-a-docs-site](publish-your-content-as-a-docs-site/ "mention") for more info.
+Choose who sees your published content. See [publish-a-docs-site](publish-a-docs-site/ "mention") for more info.
 
 </details>
 

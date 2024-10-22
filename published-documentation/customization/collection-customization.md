@@ -4,7 +4,7 @@ description: Customize individual spaces within your published docs site.
 
 # Customizing sites with multiple spaces
 
-If you have [a docs site with more than one linked space](../publish-multiple-spaces-on-one-site.md), you can control the customization of each variation individually.
+If you have [a docs site with more than one linked space](../site-structure-and-navigation/publish-multiple-spaces-on-one-site.md), you can control the customization of each variation individually.
 
 ### How is customizing a linked space different from customizing a docs site?
 
