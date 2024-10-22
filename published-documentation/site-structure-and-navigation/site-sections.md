@@ -1,8 +1,8 @@
 ---
+icon: rectangles-mixed
 description: >-
   Split your site into distinct parts — ideal for multiple products or different
   parts of your organization.
-icon: rectangles-mixed
 ---
 
 # Site sections
@@ -29,7 +29,9 @@ You can change the name and slug of each of your sections by tapping the ![](../
 
 ### Reordering sections
 
-Your site displays sections in the order that they appear in your Site structure table. Sections can be reordered by grabbing the **Drag handle** ![](../../.gitbook/assets/Dots-Drag.svg) and moving it up or down. Alternatively, you can press the **More menu** ![](../../.gitbook/assets/3dots-vertical.svg)  in the table row of the space you'd like to edit and choosing **Move up** or **Move down**. All the spaces within that section will be moved with it. The changed order will be reflected on your site immediately.
+Your site displays sections in the order that they appear in your Site structure table. Sections can be reordered by pressing the **More menu** ![](../../.gitbook/assets/3dots-vertical.svg)  in the table row of the space you'd like to edit and choosing **Move up** or **Move down**.&#x20;
+
+All the spaces within that section will be moved with it. The changed order will be reflected on your site immediately.
 
 ### Setting a default section
 
