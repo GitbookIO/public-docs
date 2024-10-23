@@ -39,7 +39,7 @@
   * [OpenAPI methods](content-editor/blocks/openapi/README.md)
     * [Support for CI/CD with API blocks](content-editor/blocks/openapi/support-for-ci-cd-with-api-blocks.md)
   * [Page links](content-editor/blocks/page-link.md)
-  * [Synced blocks (beta)](content-editor/blocks/synced-blocks-beta.md)
+  * [Reusable Content Blocks (beta)](content-editor/blocks/reusable-content-blocks-beta.md)
   * [Snippets](content-editor/blocks/snippets.md)
 * [Broken links](content-editor/broken-links.md)
 * [Searching content](content-editor/searching-your-content/README.md)
@@ -94,9 +94,9 @@
 * [Third-party Integrations](integrations/third-party-integrations.md)
 * [Integrations FAQ](integrations/integrations-faq.md)
 
-## Synced Blocks
+## Reusable Content (beta) <a href="#reusable-content" id="reusable-content"></a>
 
-* [Synced Blocks (beta)](synced-blocks/synced-blocks-beta.md)
+* [Overview](reusable-content/overview.md)
 
 ## Snippets
 
