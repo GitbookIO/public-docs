@@ -26,17 +26,19 @@ Click the `+` below the step numbers or hit `Enter` twice to add another step to
 
 ## Representation in Markdown
 
-```markdown
-# Stepper blocks
-
-<details>
-
-<summary>Stepper block</summary>
-
-
-
-</details>
-```
+<pre class="language-markdown"><code class="lang-markdown"><strong>## Example
+</strong><strong>
+</strong><strong>{% stepper %}
+</strong>{% step %}
+### Step 1 title
+Step 1 text
+{% endstep %}
+{% step %}
+### Step 2 title
+Step 2 text
+{% endstep %}
+{% endstepper %}
+</code></pre>
 
 ### Limitations
 
