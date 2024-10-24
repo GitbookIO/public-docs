@@ -22,7 +22,7 @@ $$
 
 $$f(x) = x * e^{2 pi i \xi x}$$
 
-```
+```markdown
 # Math and TeX block
 
 $$f(x) = x * e^{2 pi i \xi x}$$

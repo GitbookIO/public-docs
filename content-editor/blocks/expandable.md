@@ -28,7 +28,7 @@ Once you’ve inserted an expandable block, you can add content to it — includ
 
 ## Representation in Markdown
 
-```
+```markdown
 # Expandable blocks
 
 <details>

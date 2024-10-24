@@ -20,7 +20,7 @@ The links below point to [blocks](./) and [inline content](../editing-content/in
 
 ## Representation in Markdown
 
-```
+```markdown
 {% raw %}
 {% content-ref url="./" %} . {% endcontent-ref %}
 {% endraw %}

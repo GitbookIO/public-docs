@@ -72,7 +72,7 @@ When you click into a table cell, you can hit the / key to insert images. Note t
 
 ### Representation in Markdown
 
-```
+```markdown
 # Table
 
 |   |   |   |

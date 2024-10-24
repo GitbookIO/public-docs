@@ -39,7 +39,7 @@ To avoid this, you can manually set the anchor link by opening the **Options men
 ### Representation in Markdown
 
 {% code overflow="wrap" %}
-```
+```markdown
 # My heading 1
 ## My heading 2
 ### My heading 3
