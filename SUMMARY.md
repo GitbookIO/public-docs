@@ -75,6 +75,7 @@
   * [Troubleshooting custom domain setup](published-documentation/custom-domain/troubleshooting.md)
 * [Site insights](published-documentation/insights.md)
 * [Site settings](published-documentation/site-settings.md)
+* [Site permissions](published-documentation/site-permissions.md)
 * [SEO](published-documentation/seo.md)
 
 ## Integrations
