@@ -3,6 +3,7 @@ icon: slack
 description: >-
   The GitBook integration for Slack lets you curate knowledge into your
   knowledge base, right from the source
+hidden: true
 cover: ../.gitbook/assets/Slack (1).png
 coverY: 0
 layout:
