@@ -4,6 +4,10 @@ hidden: true
 
 # Sponsored Site Plan
 
+
+
+<figure><img src="../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
+
 The Sponsored Site Plan lets you access all of GitBook's top features at no cost while displaying a small, relevant ad in the corner of your documentation site. Each view generates revenue for you, turning your documentation into a source of income!
 
 ### Requesting Access
