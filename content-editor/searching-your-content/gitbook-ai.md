@@ -36,13 +36,7 @@ Let’s give it a try right here in our own public documentation! Firstly, open 
 
 Then simply type your question and press `Enter`. You’ll see a number of suggested questions that you might like to ask.
 
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/gitbook-ai.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure>
-
-</div>
-
-For this example, let's try: “What makes change requests a powerful GitBook feature?” After a few seconds, you’ll get an answer from GitBook AI.
+For this example, in our own docs, you can try: “What makes change requests a powerful GitBook feature?” After a few seconds, you’ll get an answer from GitBook AI.
 
 As well as a summarized answer, below you’ll also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
 
@@ -53,6 +47,12 @@ As well as a summarized answer, below you’ll also see an expandable section th
 #### Using GitBook AI in internal documentation
 
 If GitBook AI is enabled for internal content, you’ll be able to do the same thing when logged into the GitBook app: open the quick find command palette, type a question and receive a semantic answer.
+
+<div data-full-width="false">
+
+<figure><img src="../../.gitbook/assets/gitbook-ai.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure>
+
+</div>
 
 #### Integrating GitBook AI with your product
 
