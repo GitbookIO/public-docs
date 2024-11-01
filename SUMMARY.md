@@ -123,6 +123,7 @@
   * [Legacy plans](account-management/plans/legacy-plans.md)
   * [Apply for the Community plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
+  * [Sponsored Site Plan](account-management/plans/sponsored-site-plan.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-management.md)
