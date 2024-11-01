@@ -30,7 +30,7 @@ You can set any title you choose for your space. Note: this setting will only af
 **Icon**\
 You can set an emoji, or upload an icon of your own. Note: this setting will only affect the icon that displays _in the published documentation_ and it’ll also be used as the favicon for the page. If you want to edit the icon used within the GitBook app, close the customize section and click on the icon at the top of the space.
 
-**Custom logo  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Custom logo** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and, you can upload two versions: one for light mode, and one for dark mode.&#x20;
 
 #### What’s the difference between the icon and logo options?
@@ -48,13 +48,13 @@ Themes let you customize the color scheme of your published content for both lig
 **Default theme**\
 All spaces have access to this theme, where the header background color will be aligned with the background color for the rest of the space.
 
-**Bold theme  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Bold theme** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 The bold theme uses the primary color as the header background color.
 
-**Contrast theme**  <mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Contrast theme** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 The contrast theme has a dark header background color in light mode, and a light header background color in dark mode.
 
-**Custom theme  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Custom theme** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 The custom theme option lets you to set your own color preferences for the background color and link color in the header, in addition to choosing the primary color for light and dark mode.
 
 </details>
@@ -77,7 +77,7 @@ _Note: if you just want to change the theme within the GitBook app, you can do t
 
 <summary>Styling</summary>
 
-**Font family  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Font family** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 You can choose a font family for your published content from a list of popular options.
 
 GitBook doesn’t support uploading or linking custom fonts. If you think we’re missing a typeface that works wonderfully for headers, body copy, and captions, [let us know](../../help-and-faq/faq/support.md)!
@@ -118,17 +118,17 @@ Keep this setting on to have previous and next buttons appear at the bottom of e
 
 <details>
 
-<summary>Footer  <mark style="background-color:purple;"><strong>Pro &#x26; Enterprise plans</strong></mark> </summary>
+<summary><strong>Footer</strong> <mark style="background-color:purple;">Premium &#x26; Enterprise</mark></summary>
 
 Enable or disable a footer section for your space.
 
-**Logo  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Logo** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 Add your logo or another image in the footer.
 
-**Copyright text  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Copyright text** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 Add some brief copyright information to your footer.
 
-**Navigation  **<mark style="background-color:purple;">**Pro & Enterprise plans**</mark> \
+**Navigation** <mark style="background-color:purple;">Premium & Enterprise</mark>\
 Add links in your footer, in multiple sections. Just like with the header, you can add a title and URL for each link. Make sure to also include a section title for each section you create.
 
 </details>
