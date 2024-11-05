@@ -7,6 +7,10 @@ description: >-
 
 # Site sections
 
+{% hint style="info" %}
+This feature is available as part of the Ultimate site plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+{% endhint %}
+
 ### Why split a site into multiple sections?
 
 A site with multiple sections is useful if you need to separate distinct parts of your documentation, each with its own navigation tree — such as if you're documenting different products with separate versions, or if you want to offer end-user and developer documentation separate from each other.
