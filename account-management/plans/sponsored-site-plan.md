@@ -4,8 +4,6 @@ hidden: true
 
 # Sponsored Site Plan
 
-
-
 <figure><img src="../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
 
 The Sponsored Site Plan lets you access all of GitBook's top features at no cost while displaying a small, relevant ad in the corner of your documentation site. Each view generates revenue for you, turning your documentation into a source of income!
@@ -21,10 +19,10 @@ To get started with the Sponsored Site Plan, follow these steps:
 
 After your application is submitted, here's what you can expect:
 
-* **Initial Setup Period:** You have 7 days to prepare your site before you can submit it for ad review by BuySellAds. During this time, you can add content and customize your site as needed. Your site will be in a **pending / non-submittable** status until the 7-day period ends. This period of 7 days cannot be skipped.
+* **Initial Setup Period:** You have 7 days to prepare your site before you can submit it for ad review. During this time, you can add content and customize your site as needed. Your site will be in a **pending / non-submittable** status until the 7-day period ends. This period of 7 days cannot be skipped.
 * **Transition to Submittable Status:** After 7 days, your site status will change to **pending / submittable**. You can then submit your site for ad review.
-* **Review Process:** Your site will be reviewed by BuySellAds, and you can expect an estimated review time of **up to 7 days**. Please note that this timeline may be different based on processing delays.
-* **Final Status Update:** After the review, BuySellAds will update your site’s status. Your site will either be marked as **live** or **rejected**, depending on the review outcome. If approved, ads will be added to your site!
+* **Review Process:** Your site will be reviewed, and you can expect an estimated review time of **up to 7 days**. Please note that this timeline may be different based on processing delays.
+* **Final Status Update:** After the review, we’ll update your site’s status. Your site will either be marked as **live** or **rejected**, depending on the review outcome. If approved, ads will be added to your site!
 
 ### How It Works
 
