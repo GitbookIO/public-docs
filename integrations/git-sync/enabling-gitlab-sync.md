@@ -24,6 +24,8 @@ Ensure that you enable the following access for your token:
 * `read_repository`
 * `write_repository`
 
+If the tokens you create also have a specific role attached to them, also make sure that it has a `Maintainer` or `Admin` role.
+
 <figure><img src="../../.gitbook/assets/gitlab-configuration.png" alt=""><figcaption><p>GitLab setup screen</p></figcaption></figure>
 
 Then you can paste the token into the API access token field when configuring your GitLab integration.
