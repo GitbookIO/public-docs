@@ -5,7 +5,7 @@ icon: chart-line-up
 # Site insights
 
 {% hint style="info" %}
-This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+This feature is available as part of the Premium and Ultimate sites plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
 Insights give you information on the content you've published and how it performs. It's split up between three sections — **traffic**, **search** and **feedback**.

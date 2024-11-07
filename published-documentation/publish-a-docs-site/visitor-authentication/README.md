@@ -5,7 +5,7 @@ description: Set up custom authentication for your published content.
 # Visitor authentication
 
 {% hint style="info" %}
-This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+This feature is available as part of the Ultimate site plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
 Visitor authentication allows you to publish your content while requiring authentication from any visitors who want to view it. When enabled, GitBook lets your authentication provider handle who has access to the content.

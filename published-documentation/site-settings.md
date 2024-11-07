@@ -6,7 +6,7 @@ description: See which settings you can update across your published site.
 # Site settings
 
 {% hint style="info" %}
-Certain settings are only available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+Certain settings are only available as part of the Premium and Ultimate sites plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
 Site settings allow you to customize and change certain aspects for your published site.
