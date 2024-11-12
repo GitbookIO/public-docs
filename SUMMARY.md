@@ -145,6 +145,7 @@
   * [How do I solve connectivity issues?](help-and-faq/faq/how-do-i-solve-connectivity-issues.md)
   * [Content creation FAQ](help-and-faq/faq/content-creation-faq.md)
   * [Security FAQs](help-and-faq/faq/faqs.md)
+  * [FAQs](help-and-faq/faq/faqs-1.md)
 * [Keyboard shortcuts](help-and-faq/keyboard-shortcuts.md)
 * [Contributing](help-and-faq/contributing.md)
 * [Developer Documentation](https://developer.gitbook.com/)
