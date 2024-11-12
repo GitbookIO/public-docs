@@ -6,10 +6,6 @@ description: Add an OpenAPI spec to a page.
 
 You can sync with an OpenAPI or Swagger file or URL to include auto-generated methods in your documentation.
 
-{% hint style="info" %}
-After adding your OpenAPI specification to GitBook, you’ll see a condensed version of the API block in the in-app editor. We’re working on consolidating both the in-app editor view and the published content view.
-{% endhint %}
-
 ### Test it (powered by Scalar)
 
 GitBook's OpenAPI block also supports a "try it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
