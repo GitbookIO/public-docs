@@ -10,6 +10,10 @@ This feature is available as part of the Pro plan and Enterprise plan. To find o
 
 Reusable content lets you sync content across multiple pages in a GitBook space, so you can edit all instances of the block at the same time.
 
+{% hint style="warning" %}
+Reusable content is currently scoped to a single space. We are working on an improvement to allow access to reusable content across your organization. Duplicating a space will not duplicate its reusable content.
+{% endhint %}
+
 ### **How to create reusable content**
 
 To create reusable content, [select one or more blocks](../content-editor/blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Action menu** <img src="../.gitbook/assets/Actions menu.png" alt="" data-size="line"> and choose **Turn into reusable content**. You can also give your block a name to make it easier to find and reuse later.
