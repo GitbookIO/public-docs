@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Sponsored Site Plan
 
 <figure><img src="../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
