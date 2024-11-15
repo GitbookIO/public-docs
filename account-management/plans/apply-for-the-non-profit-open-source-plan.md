@@ -17,14 +17,14 @@ layout:
 
 We welcome applications for our Community plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
-1. Open source projects
-2. Non-profit organizations
+1. Non-profit organizations
+2. Open source organizations
 3. Education-related groups
 
 {% hint style="info" %}
-If you won’t need to collaborate with others, then your needs should be covered by our free Personal plan!
+If you won’t need to collaborate with others and/or can use [Git Sync](../../integrations/git-sync/) to collaborate via GitHub and GitLab then your needs should be covered by our Free plan!
 
-It allows you to publish content to the world and even supports linking a [custom domain](../../published-documentation/custom-domain/) to each of your spaces.
+If you want to publish a docs site for free too, you can choose from either a Basic site with limited features, or [a Sponsored site](sponsored-site-plan.md) which has more features and earns you funding through small, relevant ads. See [our open source page](https://www.gitbook.com/solutions/open-source) for more details on these plans.
 {% endhint %}
 
 If you will **need** to collaborate with others, then please continue reading.
@@ -34,7 +34,7 @@ If you will **need** to collaborate with others, then please continue reading.
 ### For all
 
 {% hint style="warning" %}
-If we reject your application, we are sorry in advance. We don’t have the resources to share the details. We’ll do our best to give you some context if possible, but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
+We apologize in advance if we reject your application. We don’t have the resources to share details. We’ll do our best to give you some context if possible, but please check our criteria below to figure out what might be wrong. Please note you can reapply at any time if you are able to adjust and meet our criteria.
 {% endhint %}
 
 Your organization should **not**:
@@ -75,7 +75,7 @@ Your Git repository **must**:
 * You _may_ be a small student group or a teacher organizing a course for a small group of students.
 
 {% hint style="info" %}
-Individual students who want to keep their personal and course notes should use our free **Personal** plan. This plan provides unlimited private or public spaces at no cost, without needing to apply for the Community plan.
+Individual students who want to keep their personal and course notes should use our **Free** plan. This plan provides unlimited private spaces at no cost, without needing to apply for the Community plan, and if you want to publish docs sites you can select a Basic or Sponsored site for free.
 {% endhint %}
 
 ## How to apply
