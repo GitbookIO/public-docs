@@ -61,6 +61,5 @@ We currently offer notifications for the following areas:
 
 * Spaces and collections
 * Change requests
-* Comments
-* Mentions
+* Mentions in comments
 * Organizations
