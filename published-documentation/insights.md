@@ -38,7 +38,7 @@ You’ll get information on:
 
 ### Feedback
 
-Content scores give you a high-level representation of how your users rate your content. After enabling [page rating](customization/space-customization.md#page-rating) in the **Customize** menu for a site, you can see each page’s average feedback rating here.
+Content scores give you a high-level representation of how your users rate your content. After enabling [page rating](site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu for a site, you can see each page’s average feedback rating here.
 
 You’ll initially see the ratings for your site’s default content, and you can use the dropdown menu on the right to select any other linked spaces in that site. You can then hover over the average rating to see how many positive, neutral and negative ratings a specific page has.
 
