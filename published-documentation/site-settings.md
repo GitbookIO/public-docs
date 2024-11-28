@@ -39,6 +39,18 @@ Customize the slug of your docs site (e.g. `organization.gitbook.io/custom-slug`
 
 </details>
 
+### Site structure
+
+{% content-ref url="site-structure-and-navigation/" %}
+[site-structure-and-navigation](site-structure-and-navigation/)
+{% endcontent-ref %}
+
+### Redirects
+
+{% content-ref url="site-redirects.md" %}
+[site-redirects.md](site-redirects.md)
+{% endcontent-ref %}
+
 ### Customization
 
 <details>

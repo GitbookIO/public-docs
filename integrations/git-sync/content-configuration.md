@@ -88,7 +88,11 @@ Because of this, it’s not possible to reference the same Markdown file twice i
 
 ## ​Redirects <a href="#redirects" id="redirects"></a>
 
-Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved your docs to GitBook. Broken links can impact your SEO so we recommend setting up redirects where needed.
+While we recommend using [site redirects](../../published-documentation/site-redirects.md) when migrating your content into GitBook, you can also define redirects in your `.gitbook.yaml` configuration file.
+
+{% hint style="info" %}
+Redirects you define in a space’s configuration file are scoped to the corresponding space. We recommend creating [site redirects](../../published-documentation/site-redirects.md) for most cases as they apply to the whole site, across spaces.
+{% endhint %}
 
 #### Restructuring your content in GitBook
 

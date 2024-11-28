@@ -61,4 +61,8 @@ Even with these great features, it could still take some time before your docume
 
 ### Redirects
 
-Moving your content to GitBook or changing its structure? Broken links can impact your SEO. [Read how to set up redirects in GitBook (via Git sync)](../integrations/git-sync/content-configuration.md#redirects).
+Moving your content to GitBook or changing its structure? Broken links can impact your SEO. [Read how to set up redirects in GitBook](site-redirects.md).
+
+{% hint style="info" %}
+**Note:** Whenever you move or rename a page within GitBook, its canonical URL also changes. To keep your content accessible, GitBook automatically creates a [HTTP 301](https://en.wikipedia.org/wiki/HTTP_301) redirect from the old URL to the new one. Find out more about how automatic redirects work on [our redirects page](site-redirects.md#about-automatic-redirects).
+{% endhint %}

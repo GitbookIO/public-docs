@@ -41,18 +41,14 @@ For this example, in our own docs, you can try: “What makes change requests a 
 As well as a summarized answer, below you’ll also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
 
 {% hint style="warning" %}
-**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is **_**only**_** available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../collaboration/share/share-a-collection.md)**.**&#x20;
+**Note:** GitBook AI does not work across individual published spaces in different collections. **Multi-space search is&#x20;**_**only**_**&#x20;available when viewing published** [**GitBook spaces**](../editor/content-structure/what-is-a-space.md) **that live inside of a** [**published collection**](../../collaboration/share/share-a-collection.md)**.**&#x20;
 {% endhint %}
 
 #### Using GitBook AI in internal documentation
 
 If GitBook AI is enabled for internal content, you’ll be able to do the same thing when logged into the GitBook app: open the quick find command palette, type a question and receive a semantic answer.
 
-<div data-full-width="false">
-
-<figure><img src="../../.gitbook/assets/gitbook-ai.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/gitbook-ai.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure></div>
 
 #### Integrating GitBook AI with your product
 

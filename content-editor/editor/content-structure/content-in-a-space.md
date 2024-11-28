@@ -81,7 +81,7 @@ To add better visibility for readers when skimming your table of contents, you c
 
 To add an icon or emoji, click the "**Add icon**" button when hovering the page title, or the emoji button to the left of the title.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-08-08 at 15.17.50 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/add-page-emoji-icon.png" alt=""><figcaption></figcaption></figure>
 
 #### Customize the icon style
 

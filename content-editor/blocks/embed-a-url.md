@@ -14,6 +14,10 @@ Here are a few examples of the kind of content you can embed into GitBook — a
 
 ### Videos
 
+{% hint style="info" %}
+**Note:** You can choose to auto-play and loop videos that you embed into GitBook by adding `?autoplay=1&_loop=1` to the end of your video’s URL
+{% endhint %}
+
 {% embed url="https://www.youtube.com/watch?v=D_uLM5i0Z4c" %}
 
 ### Codepen
