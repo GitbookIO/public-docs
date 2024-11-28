@@ -1,6 +1,6 @@
 ---
-description: Set up site redirects to route traffic to content anywhere on your site
 icon: diamond-turn-right
+description: Set up site redirects to route traffic to content anywhere on your site
 ---
 
 # Site redirects
@@ -33,7 +33,7 @@ To delete a redirect, press the **Delete redirect** button and confirm.
 
 ## About automatic redirects
 
-Whenever pages are moved or renamed, their canonical URL changes with them. In order to keep your content accessible, GitBook automatically creates a [HTTP 301](https://en.wikipedia.org/wiki/HTTP_301) redirect from the old URL to the new one.&#x20;
+Whenever pages are moved or renamed, their canonical URL changes with them. In order to keep your content accessible, GitBook automatically creates a [HTTP 301](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301) redirect from the old URL to the new one.&#x20;
 
 Every time a URL is loaded, GitBook resolves it through the following steps:
 
