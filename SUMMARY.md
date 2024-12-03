@@ -149,9 +149,3 @@
   * [FAQs](help-and-faq/faq/faqs-1.md)
 * [Keyboard shortcuts](help-and-faq/keyboard-shortcuts.md)
 * [Contributing](help-and-faq/contributing.md)
-* [Developer Documentation](https://developer.gitbook.com/)
-
-## Policies
-
-* [Subprocessors](https://policies.gitbook.com/security/subprocessors)
-* [Terms of Service](https://policies.gitbook.com/terms)
