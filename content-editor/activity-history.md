@@ -35,6 +35,26 @@ To enable or disable this, use the **Show changes** toggle at the bottom of the 
 
 With show changes enabled, content that has changed will be highlighted by an icon on the left of its content block.&#x20;
 
+### Viewing historical published versions
+
+If you're investigating the version history of a published space, you can also view previews of what the previous versions looked like in the published context (i.e. what the end user would see).
+
+You can do this by:
+
+{% stepper %}
+{% step %}
+From the version history side panel, select the revision
+{% endstep %}
+
+{% step %}
+Copy the ID at the end of the URL
+{% endstep %}
+
+{% step %}
+Add it at the end of your published docs URL as `/~/revisions/<id>`
+{% endstep %}
+{% endstepper %}
+
 ### Rolling back to a previous version
 
 Rolling back allows you to revert a space’s content to the way it was at a previous point in time. This is helpful if you’ve accidentally made a breaking change or deleted content and need to quickly get back to a previous version of the space.
