@@ -95,6 +95,7 @@ redirects:
   published-documentation/site-settings: publishing-documentation/site-settings.md
   published-documentation/site-redirects: publishing-documentation/site-redirects.md
   published-documentation/site-permissions: publishing-documentation/publish-a-docs-site.md
+  publishing-documentation/customization/collection-customization: publishing-documentation/customization/space-customization.md 
 
   # Collaboration
   collaboration/share/space-publishing: collaboration/share.md
