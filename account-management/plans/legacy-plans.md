@@ -1,30 +1,34 @@
 ---
-description: Learn about the differences between our current and legacy plans.
+description: Learn about the differences between our current and legacy pricing.
 ---
 
-# Legacy plans
+# Legacy pricing
 
-### Legacy plans
+We’ve [updated our pricing model](https://www.gitbook.com/blog/new-site-sections#new-pricing-for-new-users) recently, to accommodate for many of the new features we’ve been releasing for published sites. Because of this, there is a chance you may still be on our old pricing model.
 
-If you’re subscribed to one of our legacy (**Team** or **Business**) plans, you have two options. You can:
+Some of the new features we are releasing are only available on our updated pricing plans. Please [contact support](https://docs.gitbook.com/help-center/support/how-do-i-contact-support) if you would like to learn more and upgrade your pricing.
 
-1. Remain subscribed to the legacy plan; or
-2. Switch to one of our new and improved pricing plans. If you choose this option, it will _not_ be possible to revert back to a legacy pricing plan later.
+You can [view our current plans](./) here.
 
-You can find the [full feature comparison](https://www.gitbook.com/pricing) for the new plans on our site, but here is a convenient comparison between the legacy and the new plans:
+### Updated pricing
 
-#### Team vs Plus
+We've made some changes to our plans to simplify publishing and better align features with site plans. Here's a summary:
 
-| Difference                  | Team | Plus                                |
-| --------------------------- | ---- | ----------------------------------- |
-| Publish a space as unlisted | Yes  | No (moved to the Pro plan)          |
-| Advanced customization      | Yes  | No (moved to the Pro plan)          |
-| Minimum charge for 5 users  | Yes  | No (unlimited users, pay as you go) |
+* **Pro Plan**: No longer includes a monthly platform fee. You can purchase and publish sites without restrictions, even on the Free plan.
+* **Organization Plan**: Now focused exclusively on collaboration.
 
-#### Business vs Pro
+**Features Now Tied to Site Plans**
 
-| Difference                                                                                                  | Business | Pro                                 |
-| ----------------------------------------------------------------------------------------------------------- | -------- | ----------------------------------- |
-| [Visitor authentication](../../published-documentation/publish-a-docs-site/visitor-authentication/) feature | Yes      | Yes (up to 100 sessions per month)  |
-| Minimum charge for 20 users                                                                                 | Yes      | No (unlimited users, pay as you go) |
-| Flat [platform fee](legacy-plans.md#platform-fee) of $99 per month                                          | No       | Yes                                 |
+| **Feature**             | **Plan Required**   |
+| ----------------------- | ------------------- |
+| AI Search               | Premium or Ultimate |
+| PDF Export              | Premium or Ultimate |
+| Search Insights         | Premium or Ultimate |
+| Custom Domains          | Premium or Ultimate |
+| Page Ratings/Feedback   | Premium or Ultimate |
+| Advanced Customizations | Premium or Ultimate |
+| Unlisted Visibility     | Premium or Ultimate |
+| Shared Links            | Premium or Ultimate |
+| Visitor Authentication  | Ultimate            |
+| Site Redirects          | Premium or Ultimate |
+| Site Sections           | Ultimate            |

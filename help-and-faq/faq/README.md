@@ -1,6 +1,0 @@
----
-icon: message-question
----
-
-# FAQ
-

@@ -1,0 +1,28 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" fill="url(#paint0_linear_5573_1874)"/>
+<path d="M425 218.438L430 219.688" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M440 224.688L443.75 228.438" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M455 160C455 157.239 452.761 155 450 155C447.239 155 445 157.239 445 160C445 162.761 447.239 165 450 165C452.761 165 455 162.761 455 160ZM450 150C455.523 150 460 154.477 460 160C460 164.66 456.813 168.575 452.5 169.685L452.5 177.5C452.5 178.881 451.381 180 450 180C448.619 180 447.5 178.881 447.5 177.5L447.5 169.685C443.187 168.575 440 164.66 440 160C440 154.477 444.477 150 450 150Z" fill="#262930"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M335 160C335 157.239 332.761 155 330 155C327.239 155 325 157.239 325 160C325 162.761 327.239 165 330 165C332.761 165 335 162.761 335 160ZM330 150C335.523 150 340 154.477 340 160C340 164.66 336.813 168.575 332.5 169.685L332.5 177.5C332.5 178.881 331.381 180 330 180C328.619 180 327.5 178.881 327.5 177.5L327.5 169.685C323.187 168.575 320 164.66 320 160C320 154.477 324.477 150 330 150Z" fill="#262930"/>
+<path d="M355 216.562L350 215.313" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M331.25 196.562L330 191.563" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M340 210.312L336.25 206.562" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M407.5 216.562L412.5 216.562" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M387.5 216.562L392.5 216.562" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M367.5 216.562L372.5 216.562" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M450 212.5L450 217.5" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M450 192.5L450 197.5" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M450 252.5L450 257.5" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M450 232.5L450 237.5" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M347.5 285L352.5 285" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M327.5 285L332.5 285" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M340 277.5L340 272.5M340 297.5L340 292.5" stroke="#262930" stroke-width="5" stroke-linecap="round"/>
+<path d="M442.652 277.5L447.348 282.197L457.348 272.197" stroke="#4EAAC8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M427.5 277.5C427.5 265.074 437.574 255 450 255C462.426 255 472.5 265.074 472.5 277.5C472.5 289.926 462.426 300 450 300C437.574 300 427.5 289.926 427.5 277.5ZM450 260C440.335 260 432.5 267.835 432.5 277.5C432.5 287.165 440.335 295 450 295C459.665 295 467.5 287.165 467.5 277.5C467.5 267.835 459.665 260 450 260Z" fill="#4EAAC8"/>
+<defs>
+<linearGradient id="paint0_linear_5573_1874" x1="377.262" y1="3.12975e-05" x2="424.55" y2="240.166" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E3FAFA"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

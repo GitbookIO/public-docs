@@ -1,8 +1,9 @@
 ---
 icon: hand-wave
 description: >-
-  GitBook is a platform for capturing and documenting technical knowledge — from
-  product docs, to internal knowledge bases and APIs.
+  Create and publish beautiful documentation your users will love. GitBook has
+  all the tools you need to create everything from product guides to API
+  references and beyond.
 layout:
   title:
     visible: true
@@ -18,16 +19,10 @@ layout:
 
 # Welcome
 
-We want to help **teams to work more efficiently** with a simple but powerful platform that helps them **share their knowledge**.
+At GitBook, our mission is to provide a **user-friendly** and **collaborative** solution for creating, editing, and sharing product and API documentation.
 
-Our mission is to make a **user-friendly** and **collaborative** product for everyone to create, edit and share knowledge through documentation.
+Head to our [Quickstart guide](getting-started/quickstart.md) to set up your first docs site in minutes.
 
 ### Discover GitBook&#x20;
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Content editor</strong></td><td>Edit pages, collections, content, and more in GitBook.</td><td></td><td><a href=".gitbook/assets/content-editor.png">content-editor.png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Snippets &#x26; insights</strong></td><td>Learn about capturing and refining knowledge in GitBook.</td><td></td><td><a href=".gitbook/assets/snippets-and-insights (2).png">snippets-and-insights (2).png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Integrations</strong></td><td>Learn about the tools and workflows you can integrate with.</td><td></td><td><a href=".gitbook/assets/integrations (4).png">integrations (4).png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Published documentation</strong></td><td>Discover how to share and customize your content publicly or privately.</td><td></td><td><a href=".gitbook/assets/published-documentation (1).png">published-documentation (1).png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Collaboration</strong></td><td>Learn how to invite and collaborate with your team.</td><td></td><td><a href=".gitbook/assets/collaboration (1).png">collaboration (1).png</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Account management</strong></td><td>Manage your organization, account, and billing.</td><td></td><td><a href=".gitbook/assets/account-management (1).png">account-management (1).png</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
-
-### GitBook Product Demo
-
-{% embed url="https://www.youtube.com/playlist?list=PLZAlnWDc6FDsodH14aMS3eNRoTYMbua6U" %}
-GitBook Product Demo
-{% endembed %}
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Creating content</strong></td><td>Edit pages, content and more in GitBook.</td><td><a href=".gitbook/assets/Content editor.svg">Content editor.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publishing documentation</strong></td><td>Publish your docs site to share with others.</td><td><a href=".gitbook/assets/Published documentation.svg">Published documentation.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Collaboration</strong></td><td>Invite your team and collaborate in GitBook.</td><td><a href=".gitbook/assets/Collaboration.svg">Collaboration.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Git Sync</strong></td><td>Sync with a Git repository to enable advanced workflows.</td><td><a href=".gitbook/assets/Git Sync (1).svg">Git Sync (1).svg</a></td><td><a href="getting-started/git-sync/">git-sync</a></td></tr><tr><td><strong>Integrations</strong></td><td>Integrate with your favorite tools and applications.</td><td><a href=".gitbook/assets/Integrations.svg">Integrations.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Account management</strong></td><td>Manage your organization, account, and billing.</td><td><a href=".gitbook/assets/Account management.svg">Account management.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>

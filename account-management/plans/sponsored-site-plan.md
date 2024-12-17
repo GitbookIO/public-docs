@@ -14,6 +14,10 @@ This plan is being slowly rolled out to GitBook users. If you don’t have acces
 
 The Sponsored site plan lets you access all of GitBook’s best docs site features at no cost while displaying a small, relevant ad in the corner of your documentation site. Each view generates revenue for you, turning your documentation into a source of income.
 
+{% hint style="info" %}
+This plan relates only to published sites. This plan does not include any features included in our user plans. See our [pricing page](https://www.gitbook.com/pricing) for more info.
+{% endhint %}
+
 ### Apply for the Sponsored site plan
 
 The Sponsored site plan is designed specifically for sites. View the steps below to learn how to publish your first sponsored site.
@@ -28,7 +32,7 @@ Begin by creating a new site from the site wizard and setting up your site with 
 {% step %}
 ### Submit your site for ad review
 
-Your site must be [published **publicly**](../../published-documentation/publish-a-docs-site/public-publishing.md) for **seven days** before you can submit it for review.
+Your site must be [published **publicly**](../../publishing-documentation/publish-a-docs-site/public-publishing.md) for **seven days** before you can submit it for review.
 
 Head to your site’s settings, and scroll down to the **Ads and sponsorship** section. From here, review the ads checklist to make sure your site meets all the requirements before submitting.
 {% endstep %}
