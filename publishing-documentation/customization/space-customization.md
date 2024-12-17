@@ -81,8 +81,8 @@ When using page icons, you can set the weight and style of the displayed icons h
 **Corner style**\
 Choose either a rounded or straight corner style, to help align your published GitBook content with your own brand’s styling preferences.
 
-**Background**\
-Switch between a plain background and a subtly tinted background that complements your [theme](space-customization.md#themes-for-light-and-dark-modes).
+**Tint color**\
+Switch between a plain background and a subtly tinted background that either complements the primary color selected in your [theme](space-customization.md#themes-for-light-and-dark-modes), or matches a custom tint color of your choice.
 
 </details>
 
