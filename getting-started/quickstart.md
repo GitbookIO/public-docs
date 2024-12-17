@@ -1,6 +1,6 @@
 ---
-description: Get up and running in GitBook and publish your first docs site in minutes
 icon: bolt
+description: Get up and running in GitBook and publish your first docs site in minutes
 ---
 
 # Quickstart
@@ -25,7 +25,7 @@ After importing your content, you can edit your pages using GitBook’s built-in
 
 Check out these resources if you’d like to learn more about the editing experience in GitBook:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Start a change request</strong></td><td>Collaborate on content with your team.</td><td><a href="../.gitbook/assets/Change Request (1).svg">Change Request (1).svg</a></td><td><a href="../collaboration/change-requests.md">change-requests.md</a></td></tr><tr><td><strong>Install an integration</strong></td><td>Integrate your favorite tools with your published site.</td><td><a href="../.gitbook/assets/Integrations.svg">Integrations.svg</a></td><td></td></tr><tr><td><strong>Add an OpenAPI spec</strong></td><td>Add API methods directly into your docs.</td><td><a href="../.gitbook/assets/OpenAPI (1).svg">OpenAPI (1).svg</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Start a change request</strong></td><td>Collaborate on content with your team.</td><td><a href="../.gitbook/assets/Change Request (1).svg">Change Request (1).svg</a></td><td><a href="../collaboration/change-requests.md">change-requests.md</a></td></tr><tr><td><strong>Install an integration</strong></td><td>Integrate your favorite tools with your published site.</td><td><a href="../.gitbook/assets/Integrations.svg">Integrations.svg</a></td><td><a href="../integrations/install-an-integration.md">install-an-integration.md</a></td></tr><tr><td><strong>Add an OpenAPI spec</strong></td><td>Add API methods directly into your docs.</td><td><a href="../.gitbook/assets/OpenAPI (1).svg">OpenAPI (1).svg</a></td><td><a href="../creating-content/openapi/">openapi</a></td></tr></tbody></table>
 
 ### Customize your site
 
