@@ -74,7 +74,7 @@ In these cases, we can recommend the following:
    If the CNAME record is incorrect, we won't be able to configure the SSL certificate and complete the custom domain set-up.&#x20;
 2. Allow _**at least one hour**_ between configuring the CNAME record and finalizing the custom domain setup.&#x20;
 3. Verify if the CNAME has propagated. You can try using a third-party DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net/), to find out what the servers believe to be correct for your correct CNAME record.&#x20;
-4. If you are using Cloudflare, please confirm that you don’t have the record proxied [as explained here](broken-reference).
+4. If you are using Cloudflare, please confirm that you don’t have the record proxied [as explained here](https://developers.cloudflare.com/fundamentals/setup/manage-domains/pause-cloudflare/#disable-proxy-on-dns-records).
 
 </details>
 
