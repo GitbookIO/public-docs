@@ -1,6 +1,6 @@
 ---
-description: Learn about the different components and UI in GitBook’s editor
 icon: sidebar
+description: Learn about the different components and UI in GitBook’s editor
 ---
 
 # GitBook UI
@@ -38,15 +38,30 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 
 <figure><img src="../.gitbook/assets/gitbook-ui-table-of-contents.jpg" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure>
 
-The table of contents is a list of [pages, links, and groups](../creating-content/content-structure/page.md#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
+By default, the table of contents shows a list of [pages, links, and groups](../creating-content/content-structure/page.md#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
 
-From the table of contents you can:
+The table of contents is also where you can view and manage [resuable content](../creating-content/reusable-content.md) and [files](../creating-content/blocks/insert-files.md) for your space.
+
+From the **Pages** tab in the table of contents you can:
 
 * create new [pages](gitbook-ui.md#pages) and subpages
 * create [page groups](gitbook-ui.md#groups)
 * add [external links](gitbook-ui.md#external-links)
 * [import external docs](../getting-started/import.md) like websites or Markdown files
 * access [the Actions menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions.svg" alt=""></picture> for individual pages.
+
+In the **Reusable content** tab, you can:
+
+* View and search through the reusable content in the space
+* Create new reusable content
+* Drag and drop reusable content onto the page
+* Rename and delete reusable content
+
+In the **Files** tab, you can:
+
+* View, search and reorder the files in your space
+* Drag and drop more files into your space
+* Manage individual files
 
 If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <picture><source srcset="../.gitbook/assets/panel close left - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/panel close left.svg" alt=""></picture> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <picture><source srcset="../.gitbook/assets/open panel - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/open panel.svg" alt=""></picture>.
 
