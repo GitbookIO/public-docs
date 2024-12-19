@@ -74,6 +74,7 @@
   * [Implement Visitor Authentication using Node and Auth0](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-auth0)
   * [Implement Visitor Authentication using Node and Okta](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-okta)
   * [Implement Visitor Authentication using Node and Azure AD](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-azure-ad)
+* [Adaptive content](publishing-documentation/adaptive-content.md)
 
 ## Collaboration
 
