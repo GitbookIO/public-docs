@@ -1,7 +1,7 @@
 ---
 icon: cloud-bolt
 description: Control page visibility and more based on your user’s data.
-if: visitor.claims.flags.ADAPTIVE_CONTENT
+if: '!!visitor.claims.flags[''ADAPTIVE_CONTENT'']'
 noIndex: true
 ---
 
