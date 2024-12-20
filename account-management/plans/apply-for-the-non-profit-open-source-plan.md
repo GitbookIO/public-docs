@@ -22,7 +22,7 @@ We welcome applications for our Community plan from organizations that meet cert
 3. Education-related groups
 
 {% hint style="info" %}
-If you won’t need to collaborate with others and/or can use [Git Sync](../../integrations/git-sync/) to collaborate via GitHub and GitLab then your needs should be covered by our Free plan!
+If you won’t need to collaborate with others and/or can use [Git Sync](../../getting-started/git-sync/) to collaborate via GitHub and GitLab then your needs should be covered by our Free plan!
 
 If you want to publish a docs site for free too, you can choose from either a Basic site with limited features, or [a Sponsored site](sponsored-site-plan.md) which has more features and earns you funding through small, relevant ads. See [our open source page](https://www.gitbook.com/solutions/open-source) for more details on these plans.
 {% endhint %}
@@ -117,4 +117,4 @@ Depending on which type of organization you are applying for, please follow the 
 {% endtab %}
 {% endtabs %}
 
-If you have any questions, feel free to [contact our support team](../../help-and-faq/faq/support.md).
+If you have any questions, feel free to contact our support team.

@@ -1,10 +1,11 @@
 ---
 icon: github
+description: >-
+  Leverage your GitBook documentation to answer user queries and provide instant
+  responses within your workflow
 ---
 
 # GitHub Copilot
-
-<figure><img src="../.gitbook/assets/gitbook-copilot-preview1.png" alt=""><figcaption></figcaption></figure>
 
 ### Overview
 
@@ -14,21 +15,31 @@ Whether you're setting up a new project, troubleshooting code, or exploring your
 
 ### Configuration Steps
 
-#### 1. Install the App
+{% stepper %}
+{% step %}
+### Install the app
 
-* Install the [GitBook for GitHub Copilot](https://github.com/marketplace/gitbook-for-github-copilot) app in your GitHub organization.
+Install the [GitBook for GitHub Copilot](https://github.com/marketplace/gitbook-for-github-copilot) app in your GitHub organization.
+{% endstep %}
 
-#### 2. Set Up GitBook Integration
+{% step %}
+### Set up the GitBook integration
 
-* In your GitBook organization, install the [GitHub Copilot integration](https://app.gitbook.com/integrations/github-copilot).
+In your GitBook organization, install the [GitHub Copilot integration](https://app.gitbook.com/integrations/github-copilot).
+{% endstep %}
 
-#### 3. Authenticate GitHub
+{% step %}
+### Authenticate your GitHub account
 
-* Log in to your GitHub account and select the organization(s) for which you want the integration to function.
+Log in to your GitHub account and select the organization(s) for which you want the integration to function.
+{% endstep %}
 
-#### 4. Connect Your Documentation
+{% step %}
+### Connect your documentation
 
-* In GitBook’s integration settings, choose which spaces or documentation GitBook Copilot will use to provide answers.
+In GitBook’s integration settings, choose which spaces or documentation GitBook Copilot will use to provide answers.
+{% endstep %}
+{% endstepper %}
 
 ### Example Use Cases
 
@@ -53,8 +64,8 @@ GitBook Copilot answers questions based on your specific documentation. Here are
 
 #### Community Support
 
-* Engage with other GitBook users in our [GitBook Community](https://github.com/GitbookIO/community).
+Engage with other GitBook users in our [GitBook Community](https://github.com/GitbookIO/community).
 
 #### Technical Support
 
-* For advanced assistance, contact our team at [support@gitbook.com](mailto:support@gitbook.com).
+For advanced assistance, contact our team at [support@gitbook.com](mailto:support@gitbook.com).

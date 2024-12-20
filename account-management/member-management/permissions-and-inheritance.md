@@ -8,8 +8,6 @@ When you add a member to your organization, you set [their default role](roles.m
 
 ### Managing inheritance
 
-<figure><img src="../../.gitbook/assets/inherited-permission.png" alt=""><figcaption><p>permissions inheritance</p></figcaption></figure>
-
 Any time you create a collection or a space, you’ll be able to set the type of inheritance you want. You have three broad options when setting the inheritance for a piece of content:
 
 ### Inherit

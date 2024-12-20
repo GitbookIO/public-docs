@@ -13,7 +13,7 @@ This feature is available as part of the Pro plan and Enterprise plan. To find o
 
 In GitBook, you can capture unstructured information using [integrations](broken-reference), and GitBook AI will turn it into a **snippet** — a structured page of information that’s easy to read and digest. You can also create snippets manually within the app.&#x20;
 
-GitBook will index all of your snippets alongside the rest of your content and can reference them when you or your team [searches for information](../content-editor/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
+GitBook will index all of your snippets alongside the rest of your content and can reference them when you or your team [searches for information](../creating-content/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
 
 <figure><img src="../.gitbook/assets/snippets.png" alt=""><figcaption><p>The <strong>Snippets</strong> page holds all of your snippets in one place and makes it easy to connect integrations so you can add more.</p></figcaption></figure>
 
@@ -51,10 +51,10 @@ You can share a snippet with others as a direct link to the organization it’s 
 
 You can convert a snippet to a full page within your documentation. To do this, open a snippet and choose **Convert to page** in the top-right corner.
 
-You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../collaboration/change-requests.md) if you select a space [with locked live edits](../content-editor/editing-content/live-edits.md).
+You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../collaboration/change-requests.md) if you select a space [with locked live edits](../collaboration/live-edits.md).
 
 {% hint style="info" %}
-**Note:** When you convert a snippet to the page, GitBook will automatically archive the snippet. If you’ve linked to the snippet using [an inline link](../content-editor/editing-content/inline.md#links) or [a snippet block](../content-editor/blocks/snippets.md), the links will still work but will take readers to the original snippet, not the new page.
+**Note:** When you convert a snippet to the page, GitBook will automatically archive the snippet. If you’ve linked to the snippet using [an inline link](../creating-content/formatting/inline.md#links) or [a snippet block](../creating-content/blocks/snippets.md), the links will still work but will take readers to the original snippet, not the new page.
 {% endhint %}
 
 ### Delete a snippet

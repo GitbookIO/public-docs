@@ -1,0 +1,16 @@
+<svg width="741" height="332" viewBox="0 0 741 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="741" height="332" transform="matrix(-1 0 0 1 741 0)" fill="url(#paint0_linear_5618_3524)"/>
+<g clip-path="url(#clip0_5618_3524)">
+<path d="M415.499 136.5H326.499C323.737 136.5 321.499 138.739 321.499 141.5V190.5C321.499 193.261 323.737 195.5 326.499 195.5H415.499C418.26 195.5 420.499 193.261 420.499 190.5V141.5C420.499 138.739 418.26 136.5 415.499 136.5Z" stroke="black" stroke-width="5"/>
+<path d="M333.999 183V149H343.999L353.999 161.5L363.999 149H373.999V183H363.999V163.5L353.999 176L343.999 163.5V183H333.999ZM396.499 183L381.499 166.5H391.499V149H401.499V166.5H411.499L396.499 183Z" fill="black"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5618_3524" x1="428.278" y1="2.60172e-05" x2="392.108" y2="256.844" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E1F3FF"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<clipPath id="clip0_5618_3524">
+<rect width="104" height="64" fill="white" transform="translate(319 134)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,10 +1,10 @@
 # Billing policy
 
-We keep things fair by billing based on plan usage:
+Our billing process is structured to align charges with the level of plan usage:
 
-- You’ll be charged based on the number of members in your organization on the day that you upgrade to a paid plan, and on each day that the plan renews, either monthly or yearly.
-- You can make changes to the number of members in the organization at any time, and those changes will be reflected in your **next** bill on a prorated basis, whether you pay monthly or yearly.
-- The _one_ exception to the above is if you have chosen an annual plan and your changes result in a balance of over $240 on the Plus plan or over $450 on the Pro plan. _(For customers on our legacy plans, this would apply for a balance of over $300 on the Team plan or over $1000 on the Business plan.)_ If your balance exceeds the relevant amount, we will process a payment for the changes immediately.
+* You’ll be charged based on the number of members in your organization on the day that you upgrade to a paid plan, and on each day that the plan renews, either monthly or yearly.
+* You can make changes to the number of members in the organization at any time, and those changes will be reflected in your **next** bill on a prorated basis, whether you pay monthly or yearly.
+* The _one_ exception to the above is if you have chosen an annual plan and your changes result in a balance of over $240 on the Plus plan or over $450 on the Pro plan. _(For customers on our legacy plans, this would apply for a balance of over $300 on the Team plan or over $1000 on the Business plan.)_ If your balance exceeds the relevant amount, we will process a payment for the changes immediately.
 
 {% hint style="info" %}
 We also encourage you to familiarise yourself with our [terms of service](https://policies.gitbook.com/terms). In particular, you may like to review the section about [payment](https://policies.gitbook.com/terms#k.-payment).
