@@ -31,11 +31,11 @@ Check out these resources if you’d like to learn more about the editing experi
 
 Not only can you edit the content of your site, you can also customize many settings related to the look and feel of your site when it’s published.
 
-You can change things like the [logo, colors & fonts](../publishing-documentation/customization/), add more structure through [site sections](../publishing-documentation/site-structure/site-sections.md) and [variants](../publishing-documentation/site-structure/variants.md), or update your [site’s visibility](../publishing-documentation/site-settings.md#audience) settings.
+You can change things like the [logo, colors & fonts](../publishing-documentation/customization.md), add more structure through [site sections](../publishing-documentation/site-structure/site-sections.md) and [variants](../publishing-documentation/site-structure/variants.md), or update your [site’s visibility](../publishing-documentation/site-settings.md#audience) settings.
 
 You can read more about customizing your docs in the resources below:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Customize your site</strong></td><td>Customize the look and feel of your site.</td><td><a href="../.gitbook/assets/Customize.svg">Customize.svg</a></td><td><a href="../publishing-documentation/customization/">customization</a></td></tr><tr><td><strong>Add a custom domain</strong></td><td>Set up a custom domain for your site.</td><td><a href="../.gitbook/assets/Domain.svg">Domain.svg</a></td><td><a href="../publishing-documentation/custom-domain.md">custom-domain.md</a></td></tr><tr><td><strong>Update your site's settings</strong></td><td>Update settings related to your published site.</td><td><a href="../.gitbook/assets/Settings.svg">Settings.svg</a></td><td><a href="../publishing-documentation/site-settings.md">site-settings.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Customize your site</strong></td><td>Customize the look and feel of your site.</td><td><a href="../.gitbook/assets/Customize.svg">Customize.svg</a></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Add a custom domain</strong></td><td>Set up a custom domain for your site.</td><td><a href="../.gitbook/assets/Domain.svg">Domain.svg</a></td><td><a href="../publishing-documentation/custom-domain.md">custom-domain.md</a></td></tr><tr><td><strong>Update your site's settings</strong></td><td>Update settings related to your published site.</td><td><a href="../.gitbook/assets/Settings.svg">Settings.svg</a></td><td><a href="../publishing-documentation/site-settings.md">site-settings.md</a></td></tr></tbody></table>
 
 ### Publish your documentation
 
@@ -46,5 +46,5 @@ After publishing your site, you’ll get a link that you’re able to share with
 If you’re running into problems or have any questions, we’re here to help. [Join our community](https://github.com/orgs/GitbookIO/discussions) or [send our support team a message](https://docs.gitbook.com/help-center/support/how-do-i-contact-support) and we’ll help you from there.
 
 {% hint style="success" %}
-Want to explore publishing in more details? Check out [our complete guide to creating and publishing content in GitBook](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/the-complete-guide-to-creating-and-publishing-documentation-in-gitbook-2025).
+Want to explore publishing in more details? Check out [our complete guide to creating and publishing content in GitBook](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/the-complete-guide-to-creating-and-publishing-documentation-in-gitbook-updated-for-2024).
 {% endhint %}

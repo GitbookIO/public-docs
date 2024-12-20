@@ -1,5 +1,6 @@
 ---
 description: Create branded documentation with a custom logo, fonts, colors, links and more
+icon: palette
 ---
 
 # Site customization
@@ -8,9 +9,11 @@ description: Create branded documentation with a custom logo, fonts, colors, lin
 Certain customization features are available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
 {% endhint %}
 
-Customizing your site lets you control the branding, presentation and extra features of your site’s public content. You can access your site's customization settings from the settings tab from your docs site's overview page.
+You can customize the appearance of your published documentation, match the user interface to the language of your content, and more.
 
-<figure><img src="../../.gitbook/assets/publishing-documentation-site-customization.svg" alt=""><figcaption></figcaption></figure>
+You can apply customizations to your entire docs site as a site-wide theme, or to individual variants and site sections.
+
+<figure><img src="../.gitbook/assets/publishing-documentation-customization.svg" alt=""><figcaption><p>GitBook's own documentation is an example of a customized docs site.</p></figcaption></figure>
 
 ### General
 
@@ -64,7 +67,7 @@ Enable this if you would like visitors to your published content to be able to m
 **Default mode**\
 Choose whether visitors to your published content will see it in light or dark mode initially. If **Show mode toggle** is enabled, they’ll be able to switch to the other option if they prefer. If **Show mode toggle** is disabled, they’ll only be able to see your content in the mode you choose here.
 
-_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../../.gitbook/assets/settings - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings.svg" alt=""></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../../resources/gitbook-ui.md#sidebar)_._
+_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../.gitbook/assets/settings - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings.svg" alt=""></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../resources/gitbook-ui.md#sidebar)_._
 
 </details>
 
@@ -82,7 +85,7 @@ When using page icons, you can set the weight and style of the displayed icons h
 Choose either a rounded or straight corner style, to help align your published GitBook content with your own brand’s styling preferences.
 
 **Tint color**\
-Switch between a plain background and a subtly tinted background that either complements the primary color selected in your [theme](space-customization.md#themes-for-light-and-dark-modes), or matches a custom tint color of your choice.
+Switch between a plain background and a subtly tinted background that either complements the primary color selected in your [theme](customization.md#themes-for-light-and-dark-modes), or matches a custom tint color of your choice.
 
 </details>
 
@@ -105,7 +108,7 @@ When enabled, simply add a title and a URL for each link. We support two levels 
 
 <summary>Pagination</summary>
 
-Control the display of  the previous and next buttons that appear at the bottom of each page in your space. You can additionally set this feature for [specific pages](../../creating-content/content-structure/page.md).
+Control the display of  the previous and next buttons that appear at the bottom of each page in your space. You can additionally set this feature for [specific pages](../creating-content/content-structure/page.md).
 
 </details>
 
@@ -158,7 +161,9 @@ You can link to your own privacy policy to help visitors understand how your Git
 
 ### Customizing sites with multiple sections
 
-If you have a docs with with multiple sections, you can control the customization of each one individually.&#x20;
+<figure><img src="../.gitbook/assets/publishing-documentation-site-customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
+
+If you have a docs with with multiple sections, you can control the customization of each one individually.
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
@@ -183,8 +188,8 @@ Advanced customization options include:
 
 ### What cannot be customized?
 
-The options above provide lots of ways for you to customize your space, but there are a few things that you won’t be able to customize, regardless of [your chosen plan](../../account-management/plans/).
+The options above provide lots of ways for you to customize your space, but there are a few things that you won’t be able to customize, regardless of [your chosen plan](../account-management/plans/).
 
-1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../../creating-content/content-structure/page.md)).
-2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../../creating-content/blocks/embed-a-url.md) for many more.&#x20;
+1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../creating-content/content-structure/page.md)).
+2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../creating-content/blocks/embed-a-url.md) for many more.&#x20;
 3. It’s not possible to remove the small "Powered by GitBook" link that appears in published documentation.
