@@ -1,7 +1,6 @@
 ---
 icon: cloud-bolt
 if: visitor.claims.flags.ADAPTIVE_CONTENT == true
-hidden: true
 noIndex: true
 ---
 
