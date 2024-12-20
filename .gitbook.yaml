@@ -83,8 +83,8 @@ redirects:
   published-documentation/site-structure-and-navigation/site-sections: publishing-documentation/site-structure/site-sections.md
   published-documentation/customization: publishing-documentation/customization.md
   published-documentation/customization/page-layouts: creating-content/content-structure/page.md.md
-  published-documentation/customization/space-customization: publishing-documentation/customization/space-customization.md
-  published-documentation/customization/collection-customization: publishing-documentation/customization/space-customization.md
+  published-documentation/customization/space-customization: publishing-documentation/customization.md
+  published-documentation/customization/collection-customization: publishing-documentation/customization.md
   published-documentation/custom-domain: publishing-documentation/custom-domain.md
   published-documentation/custom-domain/choose: publishing-documentation/custom-domain.md
   published-documentation/custom-domain/organization-level-custom-domain: publishing-documentation/custom-domain.md
@@ -95,7 +95,8 @@ redirects:
   published-documentation/site-settings: publishing-documentation/site-settings.md
   published-documentation/site-redirects: publishing-documentation/site-redirects.md
   published-documentation/site-permissions: publishing-documentation/publish-a-docs-site.md
-  publishing-documentation/customization/collection-customization: publishing-documentation/customization/space-customization.md 
+  publishing-documentation/customization/collection-customization: publishing-documentation/customization.md 
+  publishing-documentation/customization/space-customization: publishing-documentation/customization.md
 
   # Collaboration
   collaboration/share/space-publishing: collaboration/share.md
