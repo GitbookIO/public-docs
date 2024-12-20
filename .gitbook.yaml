@@ -1,5 +1,4 @@
 redirects:
-  # Getting Started
   getting-started/overview: README.md
   getting-started/git-sync: getting-started/git-sync.md
   getting-started/git-sync/bi-directional-git-integration: getting-started/git-sync.md
@@ -7,7 +6,6 @@ redirects:
   getting-started/git-sync/enabling-gitlab-sync: getting-started/git-sync/enabling-gitlab-sync.md
   getting-started/git-sync/content-configuration: getting-started/git-sync/content-configuration.md
   getting-started/git-sync/github-pull-request-preview: getting-started/git-sync/github-pull-request-preview.md
-  integrations/git-sync/github-pull-request-preview: getting-started/git-sync/github-pull-request-preview.md
   getting-started/git-sync/commits: getting-started/git-sync/commits.md
   getting-started/git-sync/monorepos: getting-started/git-sync/monorepos.md
   getting-started/git-sync/troubleshooting: getting-started/git-sync/troubleshooting.md
@@ -23,8 +21,6 @@ redirects:
   getting-started/publishing/space-publishing: publishing-documentation/publish-a-docs-site.md
   getting-started/publishing/collection-publishing: publishing-documentation/publish-a-docs-site.md
   getting-started/publishing/share-links: publishing-documentation/publish-a-docs-site/share-links.md
-
-  # Content Editor
   features/import: getting-started/import.md
   content-editor/editing-content/rich-text: creating-content/formatting.md
   content-editor/searching-your-content/lens: creating-content/searching-your-content/gitbook-ai.md
@@ -71,8 +67,6 @@ redirects:
   content-editor/searching-your-content/quick-find: creating-content/searching-your-content/quick-find.md
   content-editor/activity-history: creating-content/version-control.md
   reusable-content/overview: creating-content/reusable-content.md
-
-  # Published Documentation
   published-documentation/overview: publishing-documentation/publish-a-docs-site.md
   published-documentation/publish-a-docs-site: publishing-documentation/publish-a-docs-site.md
   published-documentation/publish-a-docs-site/public-publishing: publishing-documentation/publish-a-docs-site/public-publishing.md
@@ -95,10 +89,8 @@ redirects:
   published-documentation/site-settings: publishing-documentation/site-settings.md
   published-documentation/site-redirects: publishing-documentation/site-redirects.md
   published-documentation/site-permissions: publishing-documentation/publish-a-docs-site.md
-  publishing-documentation/customization/collection-customization: publishing-documentation/customization.md 
+  publishing-documentation/customization/collection-customization: publishing-documentation/customization.md
   publishing-documentation/customization/space-customization: publishing-documentation/customization.md
-
-  # Collaboration
   collaboration/share/space-publishing: collaboration/share.md
   collaboration/share/collection-publishing: collaboration/share.md
   collaboration/collaboration: collaboration/share.md
@@ -107,8 +99,6 @@ redirects:
   collaboration/share/share-a-collection: collaboration/share.md
   collaboration/share/pdf-export: collaboration/pdf-export.md
   collaboration/comments-discussion: collaboration/comments.md
-
-  # Tour
   tour/quick-find: creating-content/searching-your-content/quick-find.md
   tour/editor: creating-content/formatting.md
   tour/editor/rich-text: creating-content/formatting.md
@@ -154,12 +144,8 @@ redirects:
   tour/notifications: collaboration/notifications.md
   tour/internationalization: publishing-documentation/site-structure/variants.md
   tour/keyboard-shortcuts: resources/keyboard-shortcuts.md
-
-  # Resources
   resources/keyboard-shortcuts: resources/keyboard-shortcuts.md
   product-tour/keyboard-shortcuts: resources/keyboard-shortcuts.md
-  
-  # Advanced Guides 
   advanced-guides/custom-domain: publishing-documentation/custom-domain.md
   advanced-guides/custom-domain/choose: publishing-documentation/custom-domain.md
   advanced-guides/custom-domain/location: publishing-documentation/custom-domain.md
@@ -175,8 +161,6 @@ redirects:
   advanced-guides/advanced-sharing-and-security/saml: account-management/sso-and-saml.md
   advanced-guides/advanced-sharing-and-security/scim-and-directory-sync: account-management/sso-and-saml.md
   advanced-guides/advanced-sharing-and-security/visitor-authentication: publishing-documentation/visitor-authentication.md
-
-  # Integrations
   advanced-guides/integrations: integrations/install-an-integration.md
   advanced-guides/integrations/integrations-faq: integrations/install-an-integration.md
   advanced-guides/integrations/install-an-integration: integrations/install-an-integration.md
@@ -214,14 +198,12 @@ redirects:
   integrations/git-sync/enabling-github-sync: getting-started/git-sync/enabling-github-sync.md
   integrations/git-sync/enabling-gitlab-sync: getting-started/git-sync/enabling-gitlab-sync.md
   integrations/git-sync/content-configuration: getting-started/git-sync/content-configuration.md
-  integrations/git-sync/github-pull-request-preview: getting-started/git-sync/github-pull-request-preview.md
   integrations/git-sync/commits: getting-started/git-sync/commits.md
   integrations/git-sync/monorepos: getting-started/git-sync/monorepos.md
   integrations/git-sync/troubleshooting: getting-started/git-sync/troubleshooting.md
   integrations/third-party-integrations: integrations/install-an-integration.md
   integrations/integrations-faq: integrations/install-an-integration.md
-
-  # Account Management
+  integrations/git-sync/github-pull-request-preview: getting-started/git-sync/github-pull-request-preview.md
   billing-and-admin/account-settings: account-management/account-settings.md
   billing-and-admin/plans: account-management/plans/README.md
   billing-and-admin/plans/organization-management: account-management/organization-settings.md
@@ -233,11 +215,7 @@ redirects:
   account-management/organization-management: account-management/organization-settings.md
   account-management/sso-and-saml/sso-and-saml: account-management/sso-and-saml.md
   account-management/sso-and-saml/saml/sso-members-vs-non-sso: account-management/sso-and-saml/sso-members-vs-non-sso.md
-
-  # FAQ & Support
   help-and-faq/keyboard-shortcuts: resources/keyboard-shortcuts.md
-
-  # Snippets
   snippets-and-content-insights/overview: snippets-and-insights/overview.md
   snippets-and-content-insights/snippets: snippets-and-insights/snippets-beta.md
   snippets-and-content-insights/snippets-beta: snippets-and-insights/snippets-beta.md
