@@ -3,6 +3,7 @@
 ## Getting Started
 
 * [Welcome](README.md)
+* [New user guide](getting-started/new-user-guide.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Importing content](getting-started/import.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)

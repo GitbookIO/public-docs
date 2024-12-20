@@ -4,8 +4,6 @@ description: GitBook uses AI to help you and your users find the knowledge you n
 
 # GitBook AI
 
-{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 When engaging with GitBook AI, you have the ability to ask questions or elaborate on specific requirements. This AI-driven tool is designed to review your documentation in real-time, providing you with quick, direct answers.
 
 ### Enable GitBook AI

@@ -1,11 +1,9 @@
 ---
-description: Use GitBook AI to generate and build content for your page
 icon: robot
+description: Use GitBook AI to generate and build content for your page
 ---
 
 # Writing with GitBook AI
-
-{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 You can use GitBook AI to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
 

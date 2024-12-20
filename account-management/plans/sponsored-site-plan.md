@@ -2,13 +2,11 @@
 description: >-
   Learn more about how you can earn money from your documentation site with our
   Sponsored site plan
+if: visitor.claims.isNewPricing == true
+hidden: true
 ---
 
 # Sponsored site plan
-
-{% hint style="info" %}
-This plan is being slowly rolled out to GitBook users. If you don’t have access to publish your site using this plan, hang tight as we continue to roll this plan out to more users.
-{% endhint %}
 
 <figure><img src="../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
 

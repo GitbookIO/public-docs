@@ -1,6 +1,6 @@
 ---
-description: Export a PDF copy of your GitBook content
 icon: file-pdf
+description: Export a PDF copy of your GitBook content
 ---
 
 # PDF export
@@ -18,8 +18,6 @@ You can enable PDF export by toggling it on in the **Customization** section.&#x
 This setting determines whether or not **readers of your published content can download it in PDF format**. This feature is only available for **Standard and Premium sites**.&#x20;
 
 ### Export your own internal content as PDF
-
-{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 However you decide to configure your published docs sites, all logged-in members of an organization on a Pro or Enterprise can export a page — or an entire space — from your internal knowledge base as a PDF file.
 

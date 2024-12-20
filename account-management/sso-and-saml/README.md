@@ -5,8 +5,6 @@ description: Learn how to share your GitBook content via SSO & SAML.
 
 # SSO & SAML
 
-{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 While manually managing your organization members is fine for smaller teams or folks who want tonnes of control, sometimes you just need to open things up in a more automated way. GitBook allows you to configure this in a couple of ways, through a basic email domain SSO, and a more complex SAML integration.
 
 ## Single sign-on via email domain

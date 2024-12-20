@@ -1,5 +1,7 @@
 ---
 description: Learn about the differences between our current and legacy pricing.
+if: visitor.claims.isNewPricing == false
+hidden: true
 ---
 
 # Legacy pricing

@@ -1,5 +1,7 @@
 ---
 description: Apply for our Open Source plan in GitBook.
+if: visitor.claims.isCommunity == false
+hidden: true
 layout:
   title:
     visible: true

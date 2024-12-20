@@ -7,8 +7,6 @@ description: >-
 
 # Reusable content
 
-{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 Reusable content lets you sync content across multiple pages in a GitBook space, so you can edit all instances of the block at the same time.
 
 <figure><img src="../.gitbook/assets/creating-content-reusable-content.svg" alt=""><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
