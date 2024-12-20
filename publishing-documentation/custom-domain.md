@@ -1,6 +1,6 @@
 ---
 icon: globe-pointer
-description: Set a custom domain for your GitBook organization or docs sites
+description: Set a custom domain for your docs sites
 ---
 
 # Set a custom domain
@@ -82,7 +82,7 @@ In these cases, we can recommend the following:
 
 <summary>Domain already connected error: your subdomain is already configured for different content.</summary>
 
-A custom domain assigned to an organization or site must be unique. Attempting to use the same custom domain in more than one location will result in an error.
+A custom domain assigned to a site must be unique. Attempting to use the same custom domain in more than one location will result in an error.
 
 If this happens, you can click the link within the error message to look at the content the custom domain is already connected to. This may help you to decide what to do next.
 
@@ -92,27 +92,5 @@ The solution to this error will always be one of two things, however:
 
 1. Choose a different custom domain; or
 2. Disconnect the custom domain from the content it is already connected to, then reconnect it to the new content.
-
-</details>
-
-<details>
-
-<summary>The custom domain is set correctly, but is redirecting to a different custom domain.</summary>
-
-This is an expected behaviour, that usually can be changed.&#x20;
-
-The common issue is that custom domains have been set in multiple locations for example organization and the site. When someone accesses the URL for an organization, they are taken straight to the organization’s default content. Likewise, when someone accesses the URL for a multi-variant site, they are taken straight to the multi-variant default site.&#x20;
-
-**Example**&#x20;
-
-* `docs.example.com` is set as the custom domain for an organization
-* `team.example.com` is set as the custom domain for that organization’s default content.
-
-In this case, the expected behaviour  would be `docs.example.com` redirecting you to `team.example.com`.
-
-This issue can be solved by changing the default content or by removing the organization domain and adding the domains at a space level or the other way around (removing the space domain, and maintaining the org domain)&#x20;
-
-This issue frequently occurs due to the confusion over the location of the domain. \
-Please ensure you checked where your domains are set up, and adjusted this to your requirement.&#x20;
 
 </details>
