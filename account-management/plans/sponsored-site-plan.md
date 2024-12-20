@@ -2,8 +2,7 @@
 description: >-
   Learn more about how you can earn money from your documentation site with our
   Sponsored site plan
-if: visitor.claims.flags.isNewPricing == true
-hidden: true
+if: visitor.claims.isNewPricing == true
 ---
 
 # Sponsored site plan

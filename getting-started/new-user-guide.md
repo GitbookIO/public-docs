@@ -1,10 +1,9 @@
 ---
+icon: star
 description: >-
   First time using GitBook? This guide is here to get you started in just a few
   minutes.
 if: visitor.claims.isNewOrg == true
-hidden: true
-icon: star
 ---
 
 # New user guide

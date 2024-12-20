@@ -1,7 +1,6 @@
 ---
 description: Learn about the differences between our current and legacy pricing.
-if: visitor.claims.flags.isNewPricing == false
-hidden: true
+if: visitor.claims.isNewPricing == false
 ---
 
 # Legacy pricing
