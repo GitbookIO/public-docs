@@ -61,7 +61,7 @@ Your organization **needs to**:
 Your Git repository **must**:
 
 * Exist _publicly_ on GitHub or GitLab.
-* Be a truly open source project that is not associated with a profitable or venture-backed company.
+* Be a truly open source project that is not associated with a for-profit or venture-backed company.
 * Not be an empty repository.
 * Not be a fork with no activity of its own.
 * Have a `README.md` file that clearly explains what the software is about.
