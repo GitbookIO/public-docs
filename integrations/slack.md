@@ -24,6 +24,10 @@ layout:
 
 # Slack (beta)
 
+{% hint style="warning" %}
+This feature is no longer maintained in GitBook and is subject to change.&#x20;
+{% endhint %}
+
 The GitBook Slack integration helps you collect, review, and share information to and from your company’s knowledge base. With a set of commands you can run within your Slack Workspace, it’s easy to add or use information that’s useful for your team.
 
 GitBook AI will summarize information that you or your team add to your knowledge base, turning a series of messages into a context-rich document. And when you or a colleague need to learn more about something, you can ask GitBook AI and get a plain-text summary, with all the background needed to dive in deeper.

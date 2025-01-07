@@ -24,6 +24,10 @@ layout:
 
 # Visual Studio Code (alpha)
 
+{% hint style="warning" %}
+This feature is no longer maintained in GitBook and is subject to change.&#x20;
+{% endhint %}
+
 The GitBook Visual Studio Code integration allows you to search and ask questions about your documentation and knowledge, directly in your code editor. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
 
 ### Installation & configuration
