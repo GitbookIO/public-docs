@@ -7,6 +7,10 @@ description: >-
 
 # Snippets (beta)
 
+{% hint style="warning" %}
+The Snippets feature is no longer maintained in GitBook and is subject to change. We recommend to structure your content a [space](../creating-content/content-structure/space.md) instead.
+{% endhint %}
+
 {% hint style="info" %}
 This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
