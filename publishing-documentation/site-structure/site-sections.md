@@ -11,17 +11,19 @@ description: >-
 This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
 {% endhint %}
 
-A site with multiple sections is useful if you need to separate distinct parts of your documentation, each with its own navigation tree — such as if you’re documenting different products with separate versions, or if you want to offer end-user and developer documentation separate from each other.
+<figure><img src="../../.gitbook/assets/publishing-documentation-site-sections-example.svg" alt=""><figcaption><p>Example of a GitBook site with Site Sections</p></figcaption></figure>
+
+Create a seamless experience for your audience with a site that supports multiple sections, each with its own navigation tree. Perfect for organizing distinct parts of your documentation—whether you're managing separate product versions or catering to both end users and developers with tailored content.&#x20;
 
 The spaces you link as sections can contain any content, but it is recommended to use sections as _semantically different_ parts of your docs. If the spaces you'd like to link are variations of the same content, consider adding them as [content variants](variants.md) instead.
-
-<figure><img src="../../.gitbook/assets/publishing-documentation-site-structure-sections.png" alt=""><figcaption></figcaption></figure>
 
 ### Adding a section to your docs site
 
 From your docs site’s dashboard, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings.svg" alt=""></picture> button, then click **Structure**. Here you can see all the content of your site.
 
 To add a site section, click the **Add section** button underneath the table and choose a space to link as a section. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
+
+<figure><img src="../../.gitbook/assets/publishing-documentation-site-structure.png" alt=""><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
 
 ### Editing a section
 
