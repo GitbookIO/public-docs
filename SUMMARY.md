@@ -159,6 +159,7 @@
 * [Page 2](page-2/README.md)
   * [Page 2 Subpage](page-2/page-2-subpage.md)
 * [Page 3](page-3/README.md)
+  * [Page 3 subpage again](page-3/page-3-subpage-again.md)
   * [Page 3 Subpage](page-3/page-3-subpage.md)
 * [Page 4](page-4/README.md)
   * [Page 4 Subpage](page-4/page-4-subpage.md)
