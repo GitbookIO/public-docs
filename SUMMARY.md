@@ -154,9 +154,3 @@
 
 * [Page one](last-modified-example/page-one/README.md)
   * [Page 1](last-modified-example/page-one/page-1.md)
-
-***
-
-* [Page 2- parent](page-2-parent/README.md)
-  * [Page 2 Subpage](page-2-parent/page-2-subpage.md)
-  * [Page 2](page-2-parent/page-2.md)
