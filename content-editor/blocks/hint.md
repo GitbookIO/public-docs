@@ -8,7 +8,7 @@ description: >-
 
 Hints are a great way to bring the reader’s attention to specific elements in your documentation, such as tips, warnings, and other important information.
 
-There are four different hint styles — you can change the style by clicking the colored icon, or by opening the block’s **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> and selecting the style you want.
+There are four different hint styles — you can change the style by clicking the colored icon, or by opening the block’s **Options menu** <img src="../../.gitbook/assets/Options menu.png" alt="" data-size="line"> and selecting the style you want.
 
 Hint blocks support [inline content](../editing-content/inline.md) and [formatting](../editing-content/formatting.md), as well some specific block types. To see which block types you can use in a hint, hit `/` on an empty line and check the [insert palette](./#inserting-a-new-content-block).
 
@@ -31,7 +31,7 @@ Hint blocks support [inline content](../editing-content/inline.md) and [formatti
 {% endhint %}
 
 {% hint style="info" %}
-### This is a H2 heading
+#### This is a H2 heading
 
 This is a line
 

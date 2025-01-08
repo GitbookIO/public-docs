@@ -152,7 +152,8 @@
 
 ## Last Modified Example
 
-* [Page 1](last-modified-example/page-1.md)
+* [Page 1](last-modified-example/page-1/README.md)
+  * [Page 5](last-modified-example/page-1/page-5.md)
 
 ***
 
