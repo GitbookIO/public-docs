@@ -21,6 +21,7 @@ redirects:
   getting-started/publishing/space-publishing: publishing-documentation/publish-a-docs-site.md
   getting-started/publishing/collection-publishing: publishing-documentation/publish-a-docs-site.md
   getting-started/publishing/share-links: publishing-documentation/publish-a-docs-site/share-links.md
+  getting-started/start-exploring: getting-started/quickstart.md
   features/import: getting-started/import.md
   content-editor/editing-content/rich-text: creating-content/formatting.md
   content-editor/searching-your-content/lens: creating-content/searching-your-content/gitbook-ai.md
@@ -37,6 +38,7 @@ redirects:
   content-editor/editing-content/formatting: creating-content/formatting.md
   content-editor/editing-content/inline: creating-content/formatting/inline.md
   content-editor/editing-content/markdown: creating-content/formatting/markdown.md
+  editing-content/markdown: creating-content/formatting/markdown.md
   content-editor/editing-content/write-and-edit-with-ai: creating-content/write-and-edit-with-ai.md
   content-editor/blocks: creating-content/blocks.md
   content-editor/blocks/paragraph: creating-content/blocks/paragraph.md
@@ -91,6 +93,7 @@ redirects:
   published-documentation/site-permissions: publishing-documentation/publish-a-docs-site.md
   publishing-documentation/customization/collection-customization: publishing-documentation/customization.md
   publishing-documentation/customization/space-customization: publishing-documentation/customization.md
+  publishing/custom-domain/finalize: publishing-documentation/custom-domain.md
   collaboration/share/space-publishing: collaboration/share.md
   collaboration/share/collection-publishing: collaboration/share.md
   collaboration/collaboration: collaboration/share.md
