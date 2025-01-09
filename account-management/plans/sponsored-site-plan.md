@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn more about how you can earn money from your documentation site with our
-  Sponsored site plan
+  Sponsored site plan.
 ---
 
 # Sponsored site plan
@@ -50,3 +50,37 @@ Once your site is live, here’s how the Sponsored site plan operates:
 * **Earning potential:** Every time someone views your documentation, a small, relevant ad will be displayed in the bottom corner of each page. You earn money from every view, which you can use to support ongoing development efforts.
 * **Ethical advertising:** At GitBook, we prioritize ethical advertising. Ads displayed on your site will never track or retarget your users, ensuring a respectful experience for your audience.
 * **Visibility of content:** Your content remains the focus. Only one small ad will appear on each page, ensuring that your documentation is always front and center.
+
+### FAQ
+
+<details>
+
+<summary>Why was my site rejected?</summary>
+
+Your site may be rejected for the sponsored site plan for several reasons. Common reasons include, but are not limited to:
+
+* Your project is not an open source or not-for-profit project.
+* The site is not published in English as it's **primary** language.
+* The site does not contain quality content.
+* The site does not reach a minimum number of page views per month.
+
+</details>
+
+<details>
+
+<summary>How much money do I earn per view?</summary>
+
+
+
+</details>
+
+<details>
+
+<summary>What happens if I decide to switch back to a free site plan?</summary>
+
+The sponsored site plan includes features that are not available to sites on the free plan. Switching back to a free plan will effectively downgrade your site plan, meaning you may lose access to certain features.
+
+</details>
+
+
+
