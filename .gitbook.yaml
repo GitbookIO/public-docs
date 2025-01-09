@@ -1,5 +1,6 @@
 redirects:
   getting-started/overview: README.md
+  getting-started/git-sync: getting-started/git-sync.md
   getting-started/git-sync/bi-directional-git-integration: getting-started/git-sync.md
   getting-started/git-sync/enabling-github-sync: getting-started/git-sync/enabling-github-sync.md
   getting-started/git-sync/enabling-gitlab-sync: getting-started/git-sync/enabling-gitlab-sync.md
