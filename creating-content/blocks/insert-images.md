@@ -100,7 +100,7 @@ and text after the image
 
 To resize your image, hover over it and open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>. Click the **Size** button to change the size of your image from the available options.
 
-<figure><img src="../../.gitbook/assets/image-resizing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 * **Small** – 25% of the image size
 * **Medium** – 50% of the image size

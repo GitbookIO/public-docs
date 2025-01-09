@@ -4,7 +4,7 @@ description: >-
   The GitBook integration for Visual Studio Code allows you to capture and
   recall information from your team’s knowledge base.
 hidden: true
-cover: ../.gitbook/assets/VS Code (1).png
+cover: broken-reference
 coverY: 0
 layout:
   cover:

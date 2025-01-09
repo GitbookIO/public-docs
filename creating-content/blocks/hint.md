@@ -35,7 +35,7 @@ Hint blocks support [inline content](../formatting/inline.md) and [formatting](.
 
 This is a line
 
-This is an inline <img src="../../.gitbook/assets/notification.png" alt="" data-size="line"> image
+This is an inline <img src="broken-reference" alt="" data-size="line"> image
 
 * This is a second <mark style="color:orange;background-color:purple;">line using an unordered list and color</mark>
 {% endhint %}
