@@ -9,7 +9,7 @@ description: >-
 
 You can migrate and unify existing documentation in GitBook using the import tool. You have the option to import single or multiple pages — or an entire Git repository.
 
-#### Supported import formats
+### Supported import formats
 
 GitBook supports imports from websites or files in the following formats:
 
@@ -28,7 +28,7 @@ We also support imports from:
 
 If you want to **import multiple pages**, you can upload a ZIP file containing HTML or Markdown files.
 
-#### The Import panel
+### The Import panel
 
 <figure><img src="../.gitbook/assets/getting-started-import-panel (1).svg" alt=""><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
@@ -42,7 +42,7 @@ After choosing an input source, you can select the file you’d like to import.
 GitBook imports content from various sources, but differences in product features and document formats may cause variations in the imported content compared to the original source.
 {% endhint %}
 
-#### Limitations
+### Limitations
 
 GitBook currently has the following limits for imported content:
 
