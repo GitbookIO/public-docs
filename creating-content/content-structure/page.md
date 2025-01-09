@@ -42,7 +42,7 @@ You can nest pages by dragging and dropping a page below an other in the table o
 
 When you change the title of a page, the page’s slug (the part at the very end of the URL, e.g. `/hello-world`) will also change — unless you’ve manually set the page’s slug previously.
 
-You can change the title and the slug of a page at any time by clicking opening the page’s **Action menu**  ![](<../../.gitbook/assets/actions - dark.svg>) and choosing **Rename**.
+You can change the title and the slug of a page at any time by clicking opening the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture> and choosing **Rename**.
 
 #### Page groups
 
@@ -78,11 +78,11 @@ In the **Page options** side panel, you can select how each page is displayed to
 
 Each layout preset will toggle on or off each of the following parts of the page:
 
-* Page title
-* Page description
-* Table of contents
-* Page outline
-* Next/previous links
+- Page title
+- Page description
+- Table of contents
+- Page outline
+- Next/previous links
 
 #### Visibility
 
@@ -99,15 +99,17 @@ hidden: true
 
 ### Page covers
 
-You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../.gitbook/assets/image - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/image.svg" alt=""></picture>  option, a default cover will be added immediately. From here, you can:
+You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../.gitbook/assets/image - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/image.svg" alt=""></picture> option, a default cover will be added immediately. From here, you can:
 
-*   **Change the cover image**
+- **Change the cover image**
 
-    Hover over the page cover and click **Change cover**, then select or upload an image. Based on how we currently display page covers, 1990x480 pixels is the ideal size.
-*   **Reposition the cover image**
+  Hover over the page cover and click **Change cover**, then select or upload an image. Based on how we currently display page covers, 1990x480 pixels is the ideal size.
 
-    Hover over the page cover and open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>. Click **Reposition**, then drag the image as you wish and click **Save**.
-* **Remove the cover image**\
+- **Reposition the cover image**
+
+  Hover over the page cover and open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>. Click **Reposition**, then drag the image as you wish and click **Save**.
+
+- **Remove the cover image**\
   Hover over the page cover and open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>, then click **Remove**.
-* **Full width and hero width**\
+- **Full width and hero width**\
   You can change the style of your page cover to span the full width of your screen or just the width of your content. Hover over the page cover and open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>, then choose your preferred option from the menu.
