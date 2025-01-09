@@ -13,6 +13,10 @@ This feature is available as part of the Pro plan and Enterprise plan. To find o
 
 You can add a few different [types of links](editing-content/inline.md#links) to your pages in GitBook. If someone has broken a [relative link](editing-content/inline.md#relative-links) while making a change request by updating it or changing its location, you’ll see a notification letting you know there’s something to fix.
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 {% hint style="info" %}
 Broken link detection currently works only for relative links to other GitBook content in your organization. It will not detect broken links to external URLs.
 {% endhint %}
@@ -50,4 +54,3 @@ Show any broken or missing links in the space or change request you are in.
 #### Internal links
 
 This filter is useful for making sure your published docs don’t link to internal content within your GitBook organization. It’ll show any links to internal, unpublished content that readers of your published content won’t have access to (i.e. links that start `app.gitbook.com/o/<organizationID>/…`). You can fix them by replacing the links with the URL of the published GitBook page.
-

@@ -5,13 +5,19 @@ description: Edit pages, collections, content and more.
 
 # Overview
 
-<div data-full-width="false">
-
-<figure><img src="../.gitbook/assets/editor-overview.png" alt=""><figcaption><p>The GitBook editor.</p></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/editor-overview.png" alt=""><figcaption><p>The GitBook editor.</p></figcaption></figure></div>
 
 GitBook has a powerful block-based editor that allows you to seamlessly create, update, and enhance your content.
+
+
+
+#### コラボレーション
+
+チームメンバーを招待して共同編集する方法を確認します。
+
+#### コラボレーション
+
+チームメンバーを招待して共同編集する方法を確認します。
 
 ### Learn more about
 
