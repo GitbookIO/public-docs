@@ -12,7 +12,7 @@ You can also optionally add a caption below any file you insert into your page t
 
 ### Example of a file <a href="#example-of-a-file" id="example-of-a-file"></a>
 
-{% file src="../../.gitbook/assets/hello-world.pdf" %}
+{% file src="../../.gitbook/assets/example.pdf" %}
 This is a caption on a file.
 {% endfile %}
 

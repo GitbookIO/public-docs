@@ -6,7 +6,7 @@ description: >-
 
 # Sponsored site plan
 
-<figure><img src="../../.gitbook/assets/Sponsored site plan.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/sponsored_site_plan.svg" alt=""><figcaption></figcaption></figure>
 
 The Sponsored site plan lets you access all of GitBook’s best docs site features at no cost while displaying a small, relevant ad in the corner of your documentation site. Each view generates revenue for you, turning your documentation into a source of income.
 
@@ -20,12 +20,14 @@ The Sponsored site plan is designed specifically for sites. View the steps below
 
 {% stepper %}
 {% step %}
+
 ### Create and publish a Sponsored site
 
 Begin by creating a new site from the site wizard and setting up your site with content. When asked to choose a plan, head to the **For open source** section, and choose the Sponsored site plan.
 {% endstep %}
 
 {% step %}
+
 ### Submit your site for ad review
 
 Your site must be [published **publicly**](../../publishing-documentation/publish-a-docs-site/public-publishing.md) for **seven days** before you can submit it for review.
@@ -34,14 +36,15 @@ Head to your site’s settings, and scroll down to the **Ads and sponsorship** s
 {% endstep %}
 
 {% step %}
+
 ### Wait for review
 
 After submitting your application, here’s what you can expect:
 
-* **Review process:** Your site will be reviewed, and you can expect an estimated review time of **up to seven days**. Please note that this timeline may be different based on processing delays.
-* **Final status update:** After the review, we’ll update your site’s status. Your site will either be marked as **approved** or **rejected**, depending on the review outcome. If approved, ads will be added to your site and you can start earning money!
-{% endstep %}
-{% endstepper %}
+- **Review process:** Your site will be reviewed, and you can expect an estimated review time of **up to seven days**. Please note that this timeline may be different based on processing delays.
+- **Final status update:** After the review, we’ll update your site’s status. Your site will either be marked as **approved** or **rejected**, depending on the review outcome. If approved, ads will be added to your site and you can start earning money!
+  {% endstep %}
+  {% endstepper %}
 
 ### How it works
 
@@ -81,6 +84,3 @@ Your site may be rejected for the sponsored site plan for several reasons. Commo
 The sponsored site plan includes features that are not available to sites on the free plan. Switching back to a free plan will effectively downgrade your site plan, meaning you may lose access to certain features.
 
 </details>
-
-
-
