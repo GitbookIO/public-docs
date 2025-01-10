@@ -70,7 +70,9 @@ Your site may be rejected for the sponsored site plan for several reasons. Commo
 
 <summary>How much money do I earn per view?</summary>
 
+The CPM (cost per 1000) fluctuates, meaning there isn't a set $ amount per view.
 
+After your site is approved, you'll gain access to your ads dashboard, giving you more insights into how your site performs over time.
 
 </details>
 
