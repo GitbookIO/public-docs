@@ -9,34 +9,34 @@ GitBook is split into different sections to make it easier to organize and manag
 
 ### Sidebar
 
-<figure><img src="../.gitbook/assets/10_01_25_ui_sidebar.jpg" alt=""><figcaption><p>The GitBook sidebar holds all of your documentation, as well as notifications, the search bar, snippets and more.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_ui_sidebar.svg" alt=""><figcaption><p>The GitBook sidebar holds all of your documentation, as well as notifications, the search bar, snippets and more.</p></figcaption></figure>
 
 The sidebar allows you to see and overview of your GitBook organization at a glance. The sidebar contains:
 
-* **Organization switcher**\
+- **Organization switcher**\
   If you’re a part of multiple organizations, you can see and switch between them here. You can also create a new organization from this menu.
-* **Notifications**\
+- **Notifications**\
   When you’re tagged in a comment or conversation, or when there is important activity in a space you’re working in, you’ll get a [notification](../collaboration/notifications.md) to show you what’s new.
-* **Ask or search**\
+- **Ask or search**\
   Powered by [GitBook AI](../creating-content/searching-your-content/gitbook-ai.md), you can ask questions in natural language, or search through the different spaces and content in your organization.
-* **Home**\
+- **Home**\
   The Home page allows you to see everything your team is working on at a glance. View open change requests, discussions and comments, recent page edits and more.
-* **Docs sites home**\
+- **Docs sites home**\
   Click this to visit the overview page for all the docs sites you have created in your organization.
-* **Integrations**\
+- **Integrations**\
   GitBook [integrations](../content-editor/editor/broken-reference/) supercharge your content, allowing you to embed more into your pages, or add information to your knowledge base from other apps.
-* **Docs sites**\
+- **Docs sites**\
   Toggle this section to view all the [docs sites](../publishing-documentation/publish-a-docs-site/) in your organization right in the sidebar and jump to one with a click.
-* **Spaces**\
+- **Spaces**\
   The spaces section is where you’ll find the [collections](../creating-content/content-structure/collection.md) and [spaces](../creating-content/content-structure/space.md) you create when adding more content. Head to our [content structure](../creating-content/content-structure/) section to find out more.
-* **Settings**\
+- **Settings**\
   You’ll find [personal settings](../account-management/account-settings.md) and [organization settings](../account-management/organization-settings.md) at the bottom of the sidebar. Here, you can also toggle light/dark mode, or get help from our support team if needed.
-* **Trash**\
+- **Trash**\
   Deleted spaces appear in the trash. You can restore them for up to seven days — after that, they’re permanently deleted.
 
 ### Table of contents
 
-<figure><img src="../.gitbook/assets/10_01_25_ui_table_of_contents.jpg" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_ui_table_of_contents.svg" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure>
 
 By default, the table of contents shows a list of [pages, links, and groups](../creating-content/content-structure/page.md#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
 
@@ -44,30 +44,30 @@ The table of contents is also where you can view and manage [resuable content](.
 
 From the **Pages** tab in the table of contents you can:
 
-* create new [pages](gitbook-ui.md#pages) and subpages
-* create [page groups](gitbook-ui.md#groups)
-* add [external links](gitbook-ui.md#external-links)
-* [import external docs](../getting-started/import.md) like websites or Markdown files
-* access [the Actions menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for individual pages.
+- create new [pages](gitbook-ui.md#pages) and subpages
+- create [page groups](gitbook-ui.md#groups)
+- add [external links](gitbook-ui.md#external-links)
+- [import external docs](../getting-started/import.md) like websites or Markdown files
+- access [the Actions menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for individual pages.
 
 In the **Reusable content** tab, you can:
 
-* View and search through the reusable content in the space
-* Create new reusable content
-* Drag and drop reusable content onto the page
-* Rename and delete reusable content
+- View and search through the reusable content in the space
+- Create new reusable content
+- Drag and drop reusable content onto the page
+- Rename and delete reusable content
 
 In the **Files** tab, you can:
 
-* View, search and reorder the files in your space
-* Drag and drop more files into your space
-* Manage individual files
+- View, search and reorder the files in your space
+- Drag and drop more files into your space
+- Manage individual files
 
 If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <picture><source srcset="../.gitbook/assets/panel_close_left_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/panel_close_left_icon_light.svg" alt=""></picture> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <picture><source srcset="../.gitbook/assets/open_panel_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/open_panel_icon_light.svg" alt=""></picture>.
 
 ### Space overview & space header
 
-<figure><img src="../.gitbook/assets/10_01_25_ui_space_header.jpg" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_ui_space_header.svg" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
 
 The space overview contains information about the space you’re currently viewing. It lets you do things like publish and share your space, configure [GitHub or GitLab sync](../getting-started/git-sync/), and more.
 
@@ -79,32 +79,32 @@ The space overview & space header may look different depending on the mode you�
 
 The space overview appears at the top of GitBook when viewing a space. It includes:
 
-* **The space’s breadcrumbs**\
+- **The space’s breadcrumbs**\
   A full, linear list of the collections or docs sites the space lives in.
-* **Collaborators**\
+- **Collaborators**\
   The avatar of anyone else who’s currently viewing a page in your space, with colored circles to show their cursor color. Click an avatar to jump to the page they’re currently viewing.
-* **Git Sync configuration**\
+- **Git Sync configuration**\
   The [GitHub and GitLab Sync](../getting-started/git-sync/) configuration for your space.
-* **The Share menu**\
+- **The Share menu**\
   Allows you to publish and share your space. You can also invite others to [collaborate](../content-editor/editor/broken-reference/) through this menu.
-* **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture>\
+- **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture>\
   Offers a list of actions for your space. Similar to [page actions](gitbook-ui.md#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 
 #### Space header
 
 The space header is located directly beneath the space overview, and lets you collaborate with others on your space, customize it’s look, and more. It includes:
 
-* **The space emoji or icon**\
+- **The space emoji or icon**\
   You can choose an emoji or icon for your space, to help you easily identify it in the sidebar.
-* **The space name**\
+- **The space name**\
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
-* **Comments**\
+- **Comments**\
   See the [comments and discussions](../collaboration/comments.md) you and your team have had about the space content.
-* **Broken links**\
+- **Broken links**\
   Any [broken links](../creating-content/broken-links.md) that have been found in the current space or change request.
-* **Change requests**\
+- **Change requests**\
   Create, update, and delete [change requests](../collaboration/change-requests.md) in your space.
-* **The edit button**\
+- **The edit button**\
   If your space is published, or someone has locked[ live edits](../collaboration/live-edits.md), the **Edit in change request** button will appear in the space header. It lets you start a new [change request](../collaboration/change-requests.md) to edit content.
 
 ### Content editor
@@ -135,7 +135,7 @@ The type of actions available will depend on whether you’re in [live editing](
 
 ### Page options
 
-<figure><img src="../.gitbook/assets/10_01_25_ui_page_options.jpg" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_ui_page_options.svg" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure>
 
 With page options, you cam customize your documentation layout and navigation. You can only access page options if you’re in an editing mode.
 
@@ -147,7 +147,7 @@ Certain changes, such as disabling the table of content, only apply to published
 
 ### Page outline
 
-<figure><img src="../.gitbook/assets/10_01_25_ui_page_outline.jpg" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_ui_page_outline.svg" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure>
 
 The **page outline** sits on the right-hand side of the editor, and makes it easy to jump directly to the section of the page you’re looking for.
 
