@@ -44,11 +44,11 @@ The table of contents is also where you can view and manage [resuable content](.
 
 From the **Pages** tab in the table of contents you can:
 
-- create new [pages](gitbook-ui.md#pages) and subpages
-- create [page groups](gitbook-ui.md#groups)
-- add [external links](gitbook-ui.md#external-links)
+- Create new [pages](gitbook-ui.md#pages) and subpages
+- Create [page groups](gitbook-ui.md#groups)
+- Add [external links](gitbook-ui.md#external-links)
 - [import external docs](../getting-started/import.md) like websites or Markdown files
-- access [the Actions menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for individual pages.
+- Access [the Actions menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for individual pages.
 
 In the **Reusable content** tab, you can:
 
