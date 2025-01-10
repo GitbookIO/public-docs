@@ -39,7 +39,7 @@ If you want to add an image within an ordered list, add it using the insert menu
 1. Item 1
 2. Item 2
 
-![](broken-reference)
+![](../../.gitbook/assets/publishing-documentation-site-sections-example.svg)
 
 3. Item 3
 4. Item 4
