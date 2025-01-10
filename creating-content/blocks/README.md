@@ -41,7 +41,7 @@ Once selected, you can:
 
 By making your blocks full width, you can create a clear visual hierarchy in your content, or simply give more space to content that needs it.
 
-To make a block full width, click on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_icon_light (1).svg" alt=""></picture> next to your block and select **Full width**. This feature is available for the following block types:
+To make a block full width, click on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> next to your block and select **Full width**. This feature is available for the following block types:
 
 * Code Blocks
 * Image blocks

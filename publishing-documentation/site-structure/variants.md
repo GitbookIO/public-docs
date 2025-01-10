@@ -37,7 +37,7 @@ To replace a variant’s linked space with a different space, first delete it by
 
 ### Reordering variants
 
-Your site displays variants in the order that they appear in your **Site structure** table. Variants can be reordered by grabbing the **Drag handle** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_icon_light (1).svg" alt=""></picture> and moving it up or down. The changed order will be reflected on your site immediately.
+Your site displays variants in the order that they appear in your **Site structure** table. Variants can be reordered by grabbing the **Drag handle** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> and moving it up or down. The changed order will be reflected on your site immediately.
 
 You can also use the keyboard to select and move content: select a section or variant with the space bar, then use the arrow keys to move it up or down. Hit the space bar again to confirm the new position.
 
