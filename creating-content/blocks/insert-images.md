@@ -100,12 +100,12 @@ and text after the image
 
 To resize your image, hover over it and open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture>. Click the **Size** button to change the size of your image from the available options.
 
-<figure><img src="../../.gitbook/assets/10_01_25_image_resizing.png" alt=""><figcaption><p>Resize an image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_image_resizing.svg" alt=""><figcaption><p>Resize an image</p></figcaption></figure>
 
-* **Small** – 25% of the image size
-* **Medium** – 50% of the image size
-* **Large** – 75% of the image size
-* **Fit** – Removes all size specifications and displays either at full size or capped at a maximum width of **735** **pixels** for larger images.
+- **Small** – 25% of the image size
+- **Medium** – 50% of the image size
+- **Large** – 75% of the image size
+- **Fit** – Removes all size specifications and displays either at full size or capped at a maximum width of **735** **pixels** for larger images.
 
 If your image is wider than the editor, GitBook will limit the image’s width to the editor’s width instead, and resizing will be based on this limit.
 
@@ -152,6 +152,7 @@ To change the alignment of an image, open the block’s **Options menu** <pictur
 <figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
 
 //Block with different image for dark and light mode, with caption
+
 <figure>
   <picture>
     <source srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" media="(prefers-color-scheme: dark)">
