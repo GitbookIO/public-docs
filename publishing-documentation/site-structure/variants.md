@@ -9,7 +9,7 @@ description: >-
 
 You can publish multiple versions of the same documentation as part of a single docs site. These variants will be available to the end users via the space switcher in the top-left corner of the published site.
 
-<figure><img src="../../.gitbook/assets/10_01_25_site_structure.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_site_structure.svg" alt=""><figcaption></figcaption></figure>
 
 ### Add multiple languages or versions
 
@@ -21,19 +21,19 @@ The spaces you link can contain any content, but it’s recommended to use varia
 
 ### Adding a variant to your docs site
 
-From your docs site’s dashboard, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light (1).svg" alt=""></picture> button, then click **Structure**. Here you can see all the content of your site.
+From your docs site’s dashboard, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light.svg" alt=""></picture> button, then click **Structure**. Here you can see all the content of your site.
 
 To add a variant, click the **Add variant** button in the section you'd like to add to, then choose a space to link. The new variant is then added to the list of variants within the chosen section and will be available to visitors in the variant dropdown on your site.
 
 ### Changing a variant
 
-You can change the name and slug of each of your variants by tapping the <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light (1).svg" alt=""></picture> **Edit** button in the table row of the variant you’d like to edit. This will open a modal. Edit the field(s) you'd like to change, then click the **Save** button to save. You can also delete the variant by clicking the **Delete variant** button in the lower left.&#x20;
+You can change the name and slug of each of your variants by tapping the <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> **Edit** button in the table row of the variant you’d like to edit. This will open a modal. Edit the field(s) you'd like to change, then click the **Save** button to save. You can also delete the variant by clicking the **Delete variant** button in the lower left.&#x20;
 
 {% hint style="info" %}
 Changing a linked space's slug will change the space's canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../site-redirects.md).
 {% endhint %}
 
-To replace a variant’s linked space with a different space, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light (1).svg" alt=""></picture> button, then click the **Delete** button in the lower left of the modal. Once the variant is deleted, click the **Add variant** button to add the new space.
+To replace a variant’s linked space with a different space, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> button, then click the **Delete** button in the lower left of the modal. Once the variant is deleted, click the **Add variant** button to add the new space.
 
 ### Reordering variants
 
@@ -53,5 +53,4 @@ Setting a variant as default removes its slug field, as it will be served from t
 
 ### Remove a variant from a site
 
-To remove a variant from a site, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light (1).svg" alt=""></picture> button from your docs site dashboard, then click **Structure** to find the content you want to remove. Click the **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light (1).svg" alt=""></picture> button next to the variant you want to remove, then click the **Delete variant** button in the lower left of the modal. This will remove it from the published site, but will not delete the variant or the content within.
-
+To remove a variant from a site, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light.svg" alt=""></picture> button from your docs site dashboard, then click **Structure** to find the content you want to remove. Click the **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> button next to the variant you want to remove, then click the **Delete variant** button in the lower left of the modal. This will remove it from the published site, but will not delete the variant or the content within.

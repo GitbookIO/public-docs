@@ -67,7 +67,7 @@ Enable this if you would like visitors to your published content to be able to m
 **Default mode**\
 Choose whether visitors to your published content will see it in light or dark mode initially. If **Show mode toggle** is enabled, they’ll be able to switch to the other option if they prefer. If **Show mode toggle** is disabled, they’ll only be able to see your content in the mode you choose here.
 
-_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings_icon_light (1).svg" alt=""></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../resources/gitbook-ui.md#sidebar)_._
+_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings_icon_light.svg" alt=""></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../resources/gitbook-ui.md#sidebar)_._
 
 </details>
 
@@ -108,7 +108,7 @@ When enabled, simply add a title and a URL for each link. We support two levels 
 
 <summary>Pagination</summary>
 
-Control the display of  the previous and next buttons that appear at the bottom of each page in your space. You can additionally set this feature for [specific pages](../creating-content/content-structure/page.md).
+Control the display of the previous and next buttons that appear at the bottom of each page in your space. You can additionally set this feature for [specific pages](../creating-content/content-structure/page.md).
 
 </details>
 
@@ -167,8 +167,8 @@ If you have a docs with with multiple sections, you can control the customizatio
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
-* **Site-wide settings** – These automatically apply to all linked spaces.
-* **Section specific settings** – If you’re using site sections, you’re can set section specific customization that will override the default site-wise setting.&#x20;
+- **Site-wide settings** – These automatically apply to all linked spaces.
+- **Section specific settings** – If you’re using site sections, you’re can set section specific customization that will override the default site-wise setting.&#x20;
 
 {% hint style="warning" %}
 Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.
@@ -180,11 +180,11 @@ Every GitBook user can take advantage of basic customization options on their do
 
 Advanced customization options include:
 
-* **Custom logo** – Add a logo that replaces the emoji and title at the top of your docs site.
-* **Icons** - Change the weight and style of page icons in your docs site.
-* **Custom font** – Change the font of your docs to one of the built-in options.
-* **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
-* **Bold, Contrast and Custom themes** – Customize the primary color of your docs, as well as setting the background color for your header and the links within it.
+- **Custom logo** – Add a logo that replaces the emoji and title at the top of your docs site.
+- **Icons** - Change the weight and style of page icons in your docs site.
+- **Custom font** – Change the font of your docs to one of the built-in options.
+- **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
+- **Bold, Contrast and Custom themes** – Customize the primary color of your docs, as well as setting the background color for your header and the links within it.
 
 ### What cannot be customized?
 

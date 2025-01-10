@@ -17,7 +17,7 @@ In addition to [automatic redirects created by GitBook](site-redirects.md#about-
 
 ## Managing redirects on your site
 
-To get started, view your site’s dashboard in GitBook and click **Settings** <picture><source srcset="../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings_icon_light (1).svg" alt=""></picture> in the top-right corner. Scroll down to the **Redirects** section.
+To get started, view your site’s dashboard in GitBook and click **Settings** <picture><source srcset="../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings_icon_light.svg" alt=""></picture> in the top-right corner. Scroll down to the **Redirects** section.
 
 ### Creating redirects
 
@@ -27,7 +27,7 @@ If you want to add another redirect to the same page, you can toggle the **Add a
 
 ### Editing redirects
 
-To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/edit_icon_light (1).svg" alt=""></picture> icon next to it in the list. Update the redirect and hit **Save**.
+To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/edit_icon_light.svg" alt=""></picture> icon next to it in the list. Update the redirect and hit **Save**.
 
 To delete a redirect, press the **Delete redirect** button and confirm.
 
