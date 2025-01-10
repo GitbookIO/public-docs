@@ -22,7 +22,7 @@ If you want to link to a particular anchor from a page within your GitBook space
 
 By default, the anchor link will be identical to the text in your header. If you plan to link to that URL outside of GitBook, changing the header in future will break the anchor link. The link will then take visitors to the top of the page, rather than the anchor location.
 
-To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options-menu-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options-menu.svg" alt=""></picture> for the header, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the header itself.
+To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_icon_light (1).svg" alt=""></picture> for the header, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the header itself.
 
 ### Heading examples <a href="#example-of-a-heading" id="example-of-a-heading"></a>
 

@@ -1,6 +1,6 @@
 ---
-description: Create branded documentation with a custom logo, fonts, colors, links and more
 icon: palette
+description: Create branded documentation with a custom logo, fonts, colors, links and more
 ---
 
 # Site customization
@@ -13,7 +13,7 @@ You can customize the appearance of your published documentation, match the user
 
 You can apply customizations to your entire docs site as a site-wide theme, or to individual variants and site sections.
 
-<figure><img src="../.gitbook/assets/publishing-documentation-customization.svg" alt=""><figcaption><p>GitBook's own documentation is an example of a customized docs site.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_customized_site.svg" alt=""><figcaption><p>GitBook's own documentation is an example of a customized docs site.</p></figcaption></figure>
 
 ### General
 
@@ -67,7 +67,7 @@ Enable this if you would like visitors to your published content to be able to m
 **Default mode**\
 Choose whether visitors to your published content will see it in light or dark mode initially. If **Show mode toggle** is enabled, they’ll be able to switch to the other option if they prefer. If **Show mode toggle** is disabled, they’ll only be able to see your content in the mode you choose here.
 
-_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../.gitbook/assets/settings - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings.svg" alt=""></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../resources/gitbook-ui.md#sidebar)_._
+_Note: if you just want to change the theme within the GitBook app, you can do that from your **Settings**_ <picture><source srcset="../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings_icon_light (1).svg" alt=""></picture> _menu, which can be found at the bottom of the_ [_sidebar_](../resources/gitbook-ui.md#sidebar)_._
 
 </details>
 
@@ -161,7 +161,7 @@ You can link to your own privacy policy to help visitors understand how your Git
 
 ### Customizing sites with multiple sections
 
-<figure><img src="../.gitbook/assets/publishing-documentation-site-customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_site_customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
 If you have a docs with with multiple sections, you can control the customization of each one individually.
 

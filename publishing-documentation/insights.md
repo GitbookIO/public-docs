@@ -13,7 +13,7 @@ Insights give you information on the content you've published and how it perform
 
 You can find insights for individual docs sites in the docs site dashboard, and can sort it by the last week, month and year.&#x20;
 
-<figure><img src="../.gitbook/assets/publishing-documentation-site-insights.svg" alt=""><figcaption><p>The site insights dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_site_insights.svg" alt=""><figcaption><p>The site insights dashboard.</p></figcaption></figure>
 
 ### Traffic
 

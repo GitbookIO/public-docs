@@ -1,6 +1,6 @@
 ---
-description: Edit pages in real-time with other collaborators
 icon: file-pen
+description: Edit pages in real-time with other collaborators
 ---
 
 # Live edits
@@ -13,7 +13,7 @@ GitBook supports live collaboration, meaning you’ll be able to work on the sam
 
 ### Toggling live edit mode
 
-You can toggle live edit mode in a space by selecting **Lock live edits** or **Unlock live edits** from the space’s **Action menu** <picture><source srcset="../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions.svg" alt=""></picture>.
+You can toggle live edit mode in a space by selecting **Lock live edits** or **Unlock live edits** from the space’s **Action menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture>.
 
 ### When is live editing _not_ available?
 

@@ -7,7 +7,7 @@ description: >-
 
 # GitHub & GitLab Sync
 
-<figure><img src="../../.gitbook/assets/gitsync (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_git_sync.svg" alt=""><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
 
 ### Overview
 

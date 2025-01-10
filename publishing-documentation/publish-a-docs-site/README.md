@@ -9,7 +9,7 @@ Once you’ve finished writing, editing, or importing your content, you can publ
 
 The content on your site comes from [spaces](https://docs.gitbook.com/content-editor/editor/content-structure/what-is-a-space) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
 
-<figure><img src="../../.gitbook/assets/publishing-documentation-publish-docs.svg" alt=""><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_docs_dashboard.svg" alt=""><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
 
 ### Create a docs site
 
@@ -25,7 +25,7 @@ By default, your site will be published publicly. You can change your site’s v
 
 There are three primary options to choose from when publishing your site:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Public</strong></td><td>Publish your docs publicly to the web.</td><td></td><td><a href="../../.gitbook/assets/Public.svg">Public.svg</a></td><td><a href="public-publishing.md">public-publishing.md</a></td></tr><tr><td><strong>Privately with share links</strong></td><td>Publish your docs with private share links.</td><td></td><td><a href="../../.gitbook/assets/Privately.svg">Privately.svg</a></td><td><a href="share-links.md">share-links.md</a></td></tr><tr><td><strong>Visitor Authentication</strong></td><td>Protect your published docs behind an OAuth sign in.</td><td></td><td><a href="../../.gitbook/assets/Visitor Authentication.svg">Visitor Authentication.svg</a></td><td><a href="../visitor-authentication/">visitor-authentication</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Public</strong></td><td>Publish your docs publicly to the web.</td><td></td><td><a href="../../.gitbook/assets/card_publish_public.svg">card_publish_public.svg</a></td><td><a href="public-publishing.md">public-publishing.md</a></td></tr><tr><td><strong>Privately with share links</strong></td><td>Publish your docs with private share links.</td><td></td><td><a href="../../.gitbook/assets/card_publish_privately.svg">card_publish_privately.svg</a></td><td><a href="share-links.md">share-links.md</a></td></tr><tr><td><strong>Visitor Authentication</strong></td><td>Protect your published docs behind an OAuth sign in.</td><td></td><td><a href="../../.gitbook/assets/card_publish_visitor_authentication.svg">card_publish_visitor_authentication.svg</a></td><td><a href="../visitor-authentication/">visitor-authentication</a></td></tr></tbody></table>
 
 ### Delete or unpublish a docs site
 

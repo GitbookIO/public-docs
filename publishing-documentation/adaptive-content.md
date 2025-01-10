@@ -13,7 +13,7 @@ This feature is available on [Premium and Ultimate site plans](https://www.gitbo
 
 Adaptive content lets you modify the content and presentation of your site based on who is reading.
 
-<figure><img src="../.gitbook/assets/publishing-documentation-adaptive-content.svg" alt=""><figcaption><p>Define user access to a page through it's visibility.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_adaptive_content.svg" alt=""><figcaption><p>Define user access to a page through it's visibility.</p></figcaption></figure>
 
 In a page’s visibility options, you’re able to define conditional access — a way to set a condition in code on who can or can’t see the page.
 

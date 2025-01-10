@@ -5,7 +5,7 @@ description: Add greater control over who can view your published GitBook docume
 # Private publishing with share links
 
 {% hint style="info" %}
-This feature is available as part of the Premium and Ultimate site plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
 {% endhint %}
 
 You can share you content privately with customers or partners without needing to invite them to your organization by using share links.

@@ -12,7 +12,7 @@ Each tab can contain multiple other blocks, of any type. So you can add code blo
 
 ### Add or delete tabs
 
-To add a new tab to a tab block, hover over the edge of a tab and click the `+` button that appears. To delete a tab, open the tab’s **Options menu** <picture><source srcset="../../.gitbook/assets/options-menu-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options-menu.svg" alt=""></picture> then select **Delete**.
+To add a new tab to a tab block, hover over the edge of a tab and click the `+` button that appears. To delete a tab, open the tab’s **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_icon_light (1).svg" alt=""></picture> then select **Delete**.
 
 ### Example
 

@@ -9,7 +9,7 @@ description: Customize and edit settings across your published site
 Certain customization features are available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/publishing-documentation-site-settings (1).svg" alt=""><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_site_settings.svg" alt=""><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 

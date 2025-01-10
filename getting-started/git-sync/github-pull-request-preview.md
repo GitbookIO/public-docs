@@ -8,7 +8,7 @@ When you submit a pull request (PR) to a GitHub branch that has been synced to a
 
 You can use this feature to have a final layer of checks before merging a PR, allowing you to see your changes in a non-production environment before merging it into your synced branch.
 
-<figure><img src="../../.gitbook/assets/gitsync-pull-request-preview.svg" alt=""><figcaption><p>See a preview of your GitBook site when making a Pull Request.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_git_sync_preview.svg" alt=""><figcaption><p>See a preview of your GitBook site when making a Pull Request.</p></figcaption></figure>
 
 ### How to access preview links
 

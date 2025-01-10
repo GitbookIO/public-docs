@@ -19,5 +19,5 @@ By default, your site will be indexed by search engines. You can alternatively c
 They will still be accessible to anyone with a the link to your documentation. Docs sites that aren’t indexed can be particularly helpful if you want to publish a beta version of your docs, or do large-scale user testing without impacting your SEO with potentially duplicate content.
 
 {% hint style="info" %}
-This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
+This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
 {% endhint %}

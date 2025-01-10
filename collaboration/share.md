@@ -5,7 +5,7 @@ description: Collaborate with your teammates on spaces, collections and more
 
 # Inviting your team
 
-<figure><img src="../.gitbook/assets/collaboration-invite-team.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_invite_team.svg" alt=""><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
 
 ### Sharing a space or collection
 
@@ -45,4 +45,4 @@ If you don’t want to use email to invite someone to your content, or want to i
 
 When you share this link, anyone who clicks on it will be able to sign up, join your organization as a [guest](../account-management/member-management/roles.md#guest-role), and get access to just this single space and its content.&#x20;
 
-You can revoke the link at any time by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions.svg" alt=""></picture> next to the link and choosing **Revoke**.
+You can revoke the link at any time by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> next to the link and choosing **Revoke**.

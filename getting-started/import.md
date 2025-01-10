@@ -30,11 +30,11 @@ If you want to **import multiple pages**, you can upload a ZIP file containing H
 
 ### The Import panel
 
-<figure><img src="../.gitbook/assets/getting-started-import-panel (1).svg" alt=""><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_import_panel (1).svg" alt=""><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
 When you create a new space, you’ll have the option to import content from the bottom sheet of the first empty page.
 
-Alternatively, you can always import a page or subpage by selecting **New page** > **Import new pages** in the [table of contents](../resources/gitbook-ui.md#table-of-contents), or opening the Actions menu <picture><source srcset="../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions.svg" alt=""></picture> for a page and choosing **Import subpages**.
+Alternatively, you can always import a page or subpage by selecting **New page** > **Import new pages** in the [table of contents](../resources/gitbook-ui.md#table-of-contents), or opening the Actions menu <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for a page and choosing **Import subpages**.
 
 After choosing an input source, you can select the file you’d like to import.
 

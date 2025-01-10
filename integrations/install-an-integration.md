@@ -13,7 +13,7 @@ You can install an integration in a single space, multiple spaces, or all the sp
 
 If you install an integration in a single space, it will only work in that specific space. By installing an integration in multiple spaces, you’ll be able to perform actions across all those spaces.
 
-<figure><img src="../.gitbook/assets/integrations-install (1).svg" alt=""><figcaption><p>Install an integration into your organization, space or site.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_integrations.svg" alt=""><figcaption><p>Browse GitBook's built in integration library.</p></figcaption></figure>
 
 ### Install an integration in your organization
 
@@ -27,7 +27,7 @@ Next, click on the integration you want to install. Certain integrations work ca
 
 On this screen you can select the areas you would like to install your integration in.
 
-<figure><img src="../.gitbook/assets/integrations-install-options.svg" alt=""><figcaption><p>Choose an area to install an integration in.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_install_integration.svg" alt=""><figcaption><p>Choose an area to install an integration in.</p></figcaption></figure>
 
 #### 3. Configure your integration
 

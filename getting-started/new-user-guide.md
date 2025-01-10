@@ -8,7 +8,7 @@ if: visitor.claims.isNewOrg == true
 
 # New user guide
 
-<figure><img src="../.gitbook/assets/Twitter-X - round up.svg" alt=""><figcaption><p>Explore all the features GitBook has to help you create amazing documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_new_user_guide_hero.svg" alt=""><figcaption><p>Explore all the features GitBook has to help you create amazing documentation.</p></figcaption></figure>
 
 GitBook provides all the essential tools to create amazing documentation right out of the box. However, there are a few key areas worth exploring to get started right away.
 

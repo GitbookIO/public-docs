@@ -9,7 +9,7 @@ A change request is a copy of your main content. It comes from the simple concep
 
 In a change request, you can edit, update and delete elements of your content, request reviews on your changes, then merge them back into your main version to apply all the changes you made.
 
-<figure><img src="../.gitbook/assets/collaboration-change-requests (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_change_requests.svg" alt=""><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
 ### Creating a change request
 
@@ -94,4 +94,4 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 If you decide not to merge a change request and want to remove it from the queue, you can archive it.
 
-To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions.svg" alt=""></picture> in the top-right corner of the window and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
+To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> in the top-right corner of the window and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
