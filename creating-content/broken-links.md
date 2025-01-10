@@ -5,7 +5,7 @@ description: Find and replace broken relative links across your spaces
 
 # Broken links
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/creating-content-broken-links.svg" alt=""><figcaption><p>The Broken Links panel.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/creating-content-broken-links.svg" alt=""><figcaption><p>The <strong>Broken links</strong> panel that you can open on the right of a space to check for broken internal links.</p></figcaption></figure></div>
 
 You can add different [types of links](formatting/inline.md#links) to your pages in GitBook. If someone has broken a [relative link](formatting/inline.md#relative-links) while making a change request by updating it or changing its location, you’ll see a notification letting you know there’s something to fix.
 

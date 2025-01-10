@@ -6,7 +6,7 @@ icon: sitemap
 
 View and manage the settings for your GitBook organization. These include member management, sign-in methods, integrations, billing and plans.
 
-<figure><img src="../.gitbook/assets/account-settings-organization.svg" alt=""><figcaption><p>Your organization settings page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/organization-settings.svg" alt=""><figcaption><p>Your organization settings page.</p></figcaption></figure>
 
 ### How to access the settings for an organization
 

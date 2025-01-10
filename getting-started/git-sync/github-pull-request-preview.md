@@ -4,7 +4,7 @@ description: See a preview of your content when making a pull request in GitHub
 
 # GitHub pull request preview
 
-When you submit a Pull Request (PR) to a GitHub branch that has been synced to a GitBook space, you can preview the content before merging. This allows you to check the impact of changes before merging them.
+When you submit a pull request (PR) to a GitHub branch that has been synced to a GitBook space, you can preview the content before merging. This allows you to check the impact of changes before merging them.
 
 You can use this feature to have a final layer of checks before merging a PR, allowing you to see your changes in a non-production environment before merging it into your synced branch.
 

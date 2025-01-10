@@ -15,7 +15,7 @@ Click the **+** button next to the **Spaces** header in the sidebar to create a 
 
 ### Move a collection
 
-You can move a collection by opening the **Action menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>, selecting **Move collection to…** and choosing a destination. Alternatively, you can drag and drop collections in the sidebar to move or reorder them.\
+You can move a collection by opening the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture>, selecting **Move collection to…** and choosing a destination. Alternatively, you can drag and drop collections in the sidebar to move or reorder them.\
 \
 You can move collections into other collections — or even to other organizations, if you have an [admin role](../../account-management/member-management/roles.md) in both.
 
@@ -29,7 +29,7 @@ To move one collection into another, click **Move collection to…** from the co
 
 ### How to delete a collection
 
-You can delete a collection by opening it’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture> and selecting **Delete**.
+You can delete a collection by opening its **Actions menu** <picture><source srcset="../../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions.svg" alt=""></picture> and selecting **Delete**.
 
 {% hint style="danger" %}
 **Deleting a collection is final**, but spaces inside a deleted collection will move to the **Trash** and can be restored up to seven days after deletion. You can access the Trash from the bottom of the sidebar.
