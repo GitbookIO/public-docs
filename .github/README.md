@@ -14,6 +14,10 @@
 
 <p align="center">This repository contains the content that powers <a href="https://docs.gitbook.com">https://docs.gitbook.com</a>.</p>
 
+<p align="center">
+  <img alt="GitBook's Public Docs'" src="../.gitbook/assets/10_01_25_customized_site.svg">
+</p>
+
 ## Contributing
 
 We encourage contributions to our public documentation, provided they are accurate, helpful, and add value to our users. Whether it’s fixing a typo, clarifying content, or adding new insights, every improvement makes a difference. Your input helps ensure our resources remain reliable and effective for the community.
