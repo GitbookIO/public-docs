@@ -30,7 +30,7 @@ You can set any title you choose for your space. Note: this setting will only af
 You can set an emoji, or upload an icon of your own. Note: this setting will only affect the icon that displays _in the published documentation_ and it’ll also be used as the favicon for the page. If you want to edit the icon used within the GitBook app, close the customize section and click on the icon at the top of the space.
 
 **Custom logo** <mark style="background-color:purple;">Premium & Ultimate</mark>\
-You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and, you can upload two versions: one for light mode, and one for dark mode.&#x20;
+You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and, you can upload two versions: one for light mode, and one for dark mode.
 
 _What’s the difference between the icon and logo options?_\
 The icon setting lets you upload a small, 132x132px image, which will appear _alongside_ your space title. The custom logo option lets you upload a larger image (we recommend at least 600px wide), which will completely replace any icon and title you’ve set.
@@ -55,6 +55,9 @@ The contrast theme has a dark header background color in light mode, and a light
 **Custom theme** <mark style="background-color:purple;">Premium & Ultimate</mark>\
 The custom theme option lets you to set your own color preferences for the background color and link color in the header, in addition to choosing the primary color for light and dark mode.
 
+**Tint color**\
+Switch between a plain background and a subtly tinted background that either complements the primary color selected in your [theme](customization.md#themes-for-light-and-dark-modes), or matches a custom tint color of your choice.
+
 </details>
 
 <details>
@@ -73,7 +76,7 @@ _Note: if you just want to change the theme within the GitBook app, you can do t
 
 <details>
 
-<summary>Styling</summary>
+<summary>Site styles</summary>
 
 **Font family** <mark style="background-color:purple;">Premium & Ultimate</mark>\
 You can choose a font family for your published content from a list of popular options. GitBook currently doesn’t support uploading or linking custom fonts.
@@ -84,8 +87,17 @@ When using page icons, you can set the weight and style of the displayed icons h
 **Corner style**\
 Choose either a rounded or straight corner style, to help align your published GitBook content with your own brand’s styling preferences.
 
-**Tint color**\
-Switch between a plain background and a subtly tinted background that either complements the primary color selected in your [theme](customization.md#themes-for-light-and-dark-modes), or matches a custom tint color of your choice.
+</details>
+
+<details>
+
+<summary>Sidebar styles</summary>
+
+**Background style**\
+Choose the background style for the sidebar container. The color is created from the color set in **Theme**.
+
+**List style**\
+Choose the sidebar list and selected items style.
 
 </details>
 
@@ -167,8 +179,8 @@ If you have a docs with with multiple sections, you can control the customizatio
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
-- **Site-wide settings** – These automatically apply to all linked spaces.
-- **Section specific settings** – If you’re using site sections, you’re can set section specific customization that will override the default site-wise setting.&#x20;
+* **Site-wide settings** – These automatically apply to all linked spaces.
+* **Section specific settings** – If you’re using site sections, you’re can set section specific customization that will override the default site-wise setting.
 
 {% hint style="warning" %}
 Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.
@@ -180,16 +192,16 @@ Every GitBook user can take advantage of basic customization options on their do
 
 Advanced customization options include:
 
-- **Custom logo** – Add a logo that replaces the emoji and title at the top of your docs site.
-- **Icons** - Change the weight and style of page icons in your docs site.
-- **Custom font** – Change the font of your docs to one of the built-in options.
-- **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
-- **Bold, Contrast and Custom themes** – Customize the primary color of your docs, as well as setting the background color for your header and the links within it.
+* **Custom logo** – Add a logo that replaces the emoji and title at the top of your docs site.
+* **Icons** - Change the weight and style of page icons in your docs site.
+* **Custom font** – Change the font of your docs to one of the built-in options.
+* **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
+* **Bold, Contrast and Custom themes** – Customize the primary color of your docs, as well as setting the background color for your header and the links within it.
 
 ### What cannot be customized?
 
 The options above provide lots of ways for you to customize your space, but there are a few things that you won’t be able to customize, regardless of [your chosen plan](../account-management/plans/).
 
 1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../creating-content/content-structure/page.md)).
-2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../creating-content/blocks/embed-a-url.md) for many more.&#x20;
+2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../creating-content/blocks/embed-a-url.md) for many more.
 3. It’s not possible to remove the small "Powered by GitBook" link that appears in published documentation.
