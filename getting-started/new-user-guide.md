@@ -30,7 +30,7 @@ Working in GitBook is always better with your team. Not only can you work synchr
 
 ### Join our community
 
-Not only can you unleash your creativity inside of GitBook, but you can join our GitHub community, where you’ll find hundreds of resources and other like-minded GitBookers enaging in helpful conversations about getting the most out of GitBook.
+Not only can you unleash your creativity inside of GitBook, but you can join our GitHub community, where you’ll find hundreds of resources and other like-minded GitBookers engaging in helpful conversations about getting the most out of GitBook.
 
 {% embed url="https://github.com/orgs/GitbookIO/discussions" %}
 
