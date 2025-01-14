@@ -19,6 +19,10 @@ To create reusable content, [select one or more blocks](blocks/#selecting-blocks
 
 Alternatively, you can select one or more blocks and then hit **Cmd + C** to open a prompt asking if you want to create reusable content.
 
+{% hint style="warning" %}
+Reusable content is currently scoped to a single space. We are working on an improvement to allow access to reusable content across your entire organization. Duplicating a space will not duplicate its reusable content.
+{% endhint %}
+
 ### **Insert reusable content**
 
 You can insert reusable content as you would with any other block. Hit `/` on an empty line to open the **Insert palette** and search for your content by its name or simply searching for “reusable”. Alternatively, click the `+` on the left of any block or empty line.&#x20;
@@ -48,7 +52,3 @@ Deleting reusable content will **delete it from all pages it is used in**. This 
 Reusable content is fully supported when syncing to GitHub & GitLab. Your reusable content will be exported to a dedicated `includes` folder, each content being a separate Markdown file.
 
 Your content is then referenced in your other pages using the `include` directive.
-
-{% hint style="warning" %}
-Reusable content is currently scoped to a single space. We are working on an improvement to allow access to reusable content across your entire organization. Duplicating a space will not duplicate its reusable content.
-{% endhint %}
