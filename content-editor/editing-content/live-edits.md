@@ -1,12 +1,14 @@
 ---
 description: Collaborate on pages in real-time with your teammates
+hidden: true
+noIndex: true
 ---
 
 # Live edits
 
 **Live editing** is the default editing mode for any newly-created GitBook space. A space in live edit mode is editable by anyone with the [right permissions](../../account-management/member-management/roles.md).
 
-With live editing enabled, you can see the avatars of anyone currently viewing the space in the top-right corner.&#x20;
+With live editing enabled, you can see the avatars of anyone currently viewing the space in the top-right corner.
 
 GitBook supports live collaboration, meaning you’ll be able to work on the same document with multiple members at the same time.
 
