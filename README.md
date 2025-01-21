@@ -46,6 +46,20 @@ Our mission is to make a **user-friendly** and **collaborative** product for eve
 
 ### not in a tab
 
+<figure><img src=".gitbook/assets/dbx.webp" alt=""><figcaption></figcaption></figure>
+
+
+
+
+
+
+
+<figure><img src=".gitbook/assets/dbx.webp" alt=""><figcaption></figcaption></figure>
+
+<figure><img src=".gitbook/assets/dbx.webp" alt=""><figcaption></figcaption></figure>
+
+
+
 ### GitBook の機能を探る
 
 GitBook の機能について詳しく知ることで、チームのコラボレーションや知識共有をさらに強化できます。以下は GitBook の主要な機能です。

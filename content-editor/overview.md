@@ -1,6 +1,7 @@
 ---
 icon: bullseye-arrow
 description: Edit pages, collections, content and more.
+noIndex: true
 ---
 
 # Overview
