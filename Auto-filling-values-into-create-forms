@@ -1,4 +1,4 @@
-# Auto-filling values into create forms (old)
+# Auto-filling-values-into-create-forms
 
 <p class="p1"><span class="s1">Create forms can be auto-filled with certain values by constructing an Auto-fill URL. You can then add this in to your app as a button to allow your users to create new records with some fields already filled in for them.</span></p>
 <p class="p1"><strong>Note: Auto-fill only works on create forms. </strong></p>
