@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Welcome 2](Auto-filling-values-into-create-forms)
+* [Welcome 2](Auto-filling-values-into-create-forms.md)
 
 ## Content Editor
 
