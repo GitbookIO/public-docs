@@ -75,7 +75,7 @@ Here’s how to do it:
 
 GitBook is Markdown-based, so importing content in Markdown format will yield the best results. If your current tools support exporting in Markdown, we recommend using that format for a smoother import process.
 
-If your content isn’t already in Markdown files, we recommend using a script or an online tool to convert your content.
+If your content isn’t already in Markdown files, we recommend using a script (like [Martkitdown](https://github.com/microsoft/markitdown)) or an online tool to convert your content.
 {% endstep %}
 
 {% step %}
