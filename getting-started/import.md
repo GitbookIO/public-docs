@@ -9,6 +9,8 @@ description: >-
 
 You can migrate and unify existing documentation in GitBook using the import tool. You have the option to import single or multiple pages — or an entire Git repository.
 
+## Using the Import Panel
+
 ### Supported import formats
 
 GitBook supports imports from websites or files in the following formats:
@@ -55,9 +57,9 @@ GitBook currently has the following limits for imported content:
 * The maximum number of pages that can be uploaded in a single import is **20**.
 * The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
 
-###
 
-### Importing using Git Sync
+
+## Importing using Git Sync
 
 For importing large volumes of content into GitBook, we recommend using Git Sync. Unlike our default import tool, Git Sync is better suited for handling larger migrations efficiently.
 
