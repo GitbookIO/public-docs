@@ -28,6 +28,12 @@ We also support imports from:
 
 If you want to **import multiple pages**, you can upload a ZIP file containing HTML or Markdown files.
 
+{% hint style="info" %}
+GitBook is Markdown-based, so importing content in Markdown format will yield the best results. If your current tools support exporting in Markdown, we recommend using that format for a smoother import process.
+{% endhint %}
+
+
+
 ### The Import panel
 
 <figure><img src="../.gitbook/assets/10_01_25_import_modal.svg" alt=""><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
@@ -48,3 +54,37 @@ GitBook currently has the following limits for imported content:
 
 * The maximum number of pages that can be uploaded in a single import is **20**.
 * The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
+
+###
+
+### Importing using Git Sync
+
+For importing large volumes of content into GitBook, we recommend using Git Sync. Unlike our default import tool, Git Sync is better suited for handling larger migrations efficiently.
+
+Here are the steps:
+
+{% stepper %}
+{% step %}
+### Get your content into markdown
+
+If your content isn't already in markdown files, we recommend using some scripting or online tools to translate the content.
+{% endstep %}
+
+{% step %}
+### Organise your content in GitHub or Gitlab
+
+When setting up your GitBook site, it's crucial to organize your content in git efficiently. Since git sync occurs at the space level, carefully plan how to group content. Create multiple repositories or folders, ensuring the necessary markdown files are in the correct locations.
+{% endstep %}
+
+{% step %}
+### Set up spaces and git sync
+
+To organize your content, create one or more spaces in GitBook as needed. Install Git sync on these spaces and configure it to synchronize with the appropriate folder or repository set up in step 2.&#x20;
+{% endstep %}
+
+{% step %}
+### Run git sync with direction GitHub -> GitBook
+
+When finishing the configuration ensure you select the direction of GitHub -> GitBook. Run the sync.
+{% endstep %}
+{% endstepper %}
