@@ -47,6 +47,7 @@ Your organization should **not**:
 * promote a dogma.
 * promote a religious position as part of its activity.
 * promote discrimination of any kind, on the basis of gender (identity or expression), race, ethnicity, political or religious opinion, sexual orientation, or anything else.
+* be a crypto currency related project&#x20;
 
 ### Criteria for non-profit organizations
 
