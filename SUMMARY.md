@@ -94,10 +94,10 @@
 
 ## Account management
 
-* [Choose your plan](account-management/plans/README.md)
+* [Plans](account-management/plans/README.md)
   * [Legacy pricing](account-management/plans/legacy-plans.md)
   * [Sponsored site plan](account-management/plans/sponsored-site-plan.md)
-  * [Apply for the Community plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+  * [Non-profit plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)

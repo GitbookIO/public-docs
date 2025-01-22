@@ -13,9 +13,9 @@ layout:
     visible: true
 ---
 
-# Apply for the Community plan
+# Non-profit plan
 
-We welcome applications for our Community plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
+We welcome applications for our non-profit plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
 1. Non-profit organizations
 2. Open source organizations
