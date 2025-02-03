@@ -80,6 +80,7 @@
 
 * [Live edits](collaboration/live-edits.md)
 * [Change requests](collaboration/change-requests.md)
+* [AI change requests](collaboration/ai-change-requests.md)
 * [PDF export](collaboration/pdf-export.md)
 * [Inviting your team](collaboration/share.md)
 * [Comments](collaboration/comments.md)
