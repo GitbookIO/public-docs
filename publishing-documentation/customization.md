@@ -17,7 +17,7 @@ You can apply customizations to your entire docs site as a site-wide theme, or t
 
 ### General
 
-Control how your content looks in the General tab. The available options are:
+Control how your content looks in the Customization tab of your site’s dashboard. The available options are:
 
 <details>
 
@@ -173,7 +173,7 @@ You can link to your own privacy policy to help visitors understand how your Git
 
 ### Customizing sites with multiple sections
 
-<figure><img src="../.gitbook/assets/10_01_25_site_customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/04_02_2025_site_customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
 If you have a docs with with multiple sections, you can control the customization of each one individually.
 

@@ -6,7 +6,7 @@ icon: book-open
 
 ### A
 
-**Actions menu:** The menu that opens when you click the three vertical dots next to a page or in the space header. The Actions menu may show different options depending on your current view mode.
+**Actions menu:** The menu that opens when you click the three dots next to a page or item in the GitBook interface. The Actions menu may show different options depending on your current view mode.
 
 **Add new:** The button/menu at the bottom of a space’s table of contents that lets you add new content to your space. Also used to refer to the **+** buttons next to the **Docs sites** and **Spaces** section headers in the sidebar, which you can click to create a new site, space or collection.
 

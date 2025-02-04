@@ -17,7 +17,7 @@ In the Version history of a space, you can see a list of all the actions that ch
 
 ### View historical versions of content
 
-To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../.gitbook/assets/history_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/history_icon_light.svg" alt=""></picture> button from the space’s **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> in the top-right corner.&#x20;
+To view past versions of your content and see the changes that were made, click the **Version history** <picture><source srcset="../.gitbook/assets/history_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/history_icon_light.svg" alt=""></picture> button in the [space header](../resources/gitbook-ui.md#space-header), or open the **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt=""></picture> next to the space or change request title and choose **Version history**.&#x20;
 
 Click on any item in the list to see how your content looked at the point this change was made. This is very similar to how you view [change requests](../collaboration/change-requests.md).
 

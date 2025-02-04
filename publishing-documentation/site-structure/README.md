@@ -15,7 +15,7 @@ Linked spaces can serve as one of two different content types, which determine h
 
 ## Managing your site structure
 
-From your docs site’s dashboard, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light.svg" alt=""></picture> button, then click **Structure**. Here you can see all the content of your site, divided into sections and variants.&#x20;
+From your docs site’s dashboard, open the **Settings** tab in the site header, then click **Structure**. Here you can see all the content of your site, divided into sections and variants.
 
 Your site starts out with a single section with your site's name and a single variant with the space you linked during your site's set-up.
 
@@ -27,11 +27,11 @@ To add a [site section](site-sections.md), click the **Add section** button unde
 
 To add a [variant](variants.md), click the **Add variant** button in the section you’d like to add to, then choose a space to link. The new variant is then added to the list of variants within the chosen section and will be available to visitors in the variant dropdown on your site.
 
-When you add a space — as a variant or a section — a name and slug will be generated based on the space’s title.&#x20;
+When you add a space — as a variant or a section — a name and slug will be generated based on the space’s title.
 
 ### Changing sections or variants
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/10_01_25_edit_variant.svg" alt=""><figcaption><p>Update a site section or variant.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/04_02_25_edit_variant.svg" alt=""><figcaption><p>Update a site section or variant.</p></figcaption></figure></div>
 
 You can change the name and slug of each of sections and variants by clicking the **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> button in the table row of the item you’d like to edit. This will open a modal. Edit the field(s) you’d like to change, then click the **Save** button to save.
 
@@ -45,7 +45,7 @@ To replace a section or variant, first delete it by clicking its **Edit** <pictu
 
 Your site displays sections and variants in the order that they appear in your **Site structure** table. They can be reordered by grabbing the **Drag handle** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> and moving it up or down. The changed order will be reflected on your site immediately.
 
-You can also use the keyboard to select and move content. Select a section or variant with the space bar, then use the arrow keys to move it up or down. Hit the space bar again to confirm the new position.&#x20;
+You can also use the keyboard to select and move content. Select a section or variant with the space bar, then use the arrow keys to move it up or down. Hit the space bar again to confirm the new position.
 
 ### Setting default content
 
@@ -61,4 +61,10 @@ Setting a space as default removes its slug field, as it will be served from the
 
 ### Remove content from a site
 
-To remove the content of a space from a site, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light.svg" alt=""></picture> button from your docs site dashboard, then click **Structure** to find the content you want to remove. Click the **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> button next to the space you want to remove, then click the **Delete** button in the lower left of the modal. This will remove it from the published site, but **will not delete the space or the content within**.
+To remove the content of a space from a site, open the **Settings** tab from your docs site dashboard, then click **Structure** to find the content you want to remove.&#x20;
+
+Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for the space you want to remove and choose **Remove**.
+
+{% hint style="success" %}
+Removing a space from your site will remove it from the published site, but **will not delete the space or the content within it**.
+{% endhint %}

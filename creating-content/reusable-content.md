@@ -11,7 +11,7 @@ description: >-
 
 Reusable content lets you sync content across multiple pages in a GitBook space, so you can edit all instances of the block at the same time.
 
-<figure><img src="../.gitbook/assets/10_01_25_reusable_content.svg" alt=""><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/04_02_25_reusable_content.svg" alt=""><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
 
 ### **Create reusable content**
 
