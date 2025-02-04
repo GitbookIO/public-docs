@@ -29,16 +29,6 @@ If you want to use or analyze this data further outside of GitBook, click **Down
 
 You can also see a list of comments left from visitors who rate your pages, to get actionable insights on how your docs can be improved.
 
-#### How does GitBook calculate user scores?
-
-GitBook uses a simple formula to calculate the page’s overall score:
-
-`no. of ratings * (no. of positives - [0.5 * no. of neutrals] - [2 * no. of negatives])`
-
-The goal of the content score is to surface the pages with the most feedback, with a bias towards negative ratings so you can see pages that need improvements. The more ratings a page has, the more the formula amplifies the sentiments of those ratings. This helps you spot pages that need attention, as well as pages that are highly-rated — to help you identify, iterate on and replicate your best content.
-
-We cap the score at 500 (and -500) to avoid scores for commonly-rated pages reaching 10,000+.
-
 ### Search
 
 You can measure and improve your documentation by checking which keywords are used the most by users searching your documentation. This view allows you to see what keywords are performing the best, and which ones you could improve on.&#x20;
