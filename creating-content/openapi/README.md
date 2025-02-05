@@ -1,8 +1,8 @@
 ---
+icon: brackets-curly
 description: >-
   Add an OpenAPI spec to a page and let your users test endpoints right on the
   page with interactive blocks
-icon: brackets-curly
 ---
 
 # OpenAPI
@@ -67,7 +67,7 @@ paths:
 
 <summary><strong><code>x-codeSamples</code></strong></summary>
 
-Show or hide code samples for an OpenAPI block, or display a custom code sample.
+Show or hide code samples for an OpenAPI block Custom code samples are supported, from tools such as [Stainless](https://app.stainlessapi.com/docs/guides/integrate-docs) and more by configuring the output from your tool.
 
 #### Values
 
