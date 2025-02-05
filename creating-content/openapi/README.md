@@ -67,7 +67,7 @@ paths:
 
 <summary><strong><code>x-codeSamples</code></strong></summary>
 
-Show or hide code samples for an OpenAPI block Custom code samples are supported, from tools such as [Stainless](https://app.stainlessapi.com/docs/guides/integrate-docs) and more by configuring the output from your tool.
+Show or hide code samples for an OpenAPI block Custom code samples are supported, from tools such as [Stainless](https://www.stainless.com/) and more by [configuring the output](support-for-ci-cd-with-api-blocks.md#configure-third-party-tools-and-frameworks) from your tool.
 
 #### Values
 
