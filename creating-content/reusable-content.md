@@ -52,3 +52,11 @@ Deleting reusable content will **delete it from all pages it is used in**. This 
 Reusable content is fully supported when syncing to GitHub & GitLab. Your reusable content will be exported to a dedicated `includes` folder, each content being a separate Markdown file.
 
 Your content is then referenced in your other pages using the `include` directive.
+
+#### Example
+
+```markdown
+{% raw %}
+{% include "../../.gitbook/includes/reusable-block.md" %}
+{% endraw %}
+```
