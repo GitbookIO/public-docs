@@ -42,7 +42,7 @@ Show or hide the “Test it” button for an OpenAPI block.
 {% code title="openapi.yaml" %}
 ```yaml
 ...
-x-hideTryItPanel: false
+x-hideTryItPanel: true
 ...
 ```
 {% endcode %}
