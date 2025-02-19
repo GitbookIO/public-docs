@@ -41,22 +41,49 @@ The icon setting lets you upload a small, 132x132px image, which will appear _al
 
 <summary>Themes (for light &#x26; dark modes)</summary>
 
-Themes let you customize the color scheme of your published content for both light and dark mode. While you can use any colors you like, it’s important to keep accessibility in mind and choose something with good contrast so your content is easy to read.
+Themes let you customize the color scheme of your published content for both light and dark mode. There are four themes for you to choose from.
 
-**Default theme**\
-All spaces have access to this theme, where the header background color will be aligned with the background color for the rest of the space.
+The colors of your site will be directly impacted by the **primary color** and **tint** that you choose. These two color selections will affect various parts of the interface, and can completely change the look and feel of your site. Scroll down to find out more about them.
 
-**Bold theme** <mark style="background-color:purple;">Premium & Ultimate</mark>\
-The bold theme uses the primary color as the header background color.
+The four themes available are:
 
-**Contrast theme** <mark style="background-color:purple;">Premium & Ultimate</mark>\
-The contrast theme has a dark header background color in light mode, and a light header background color in dark mode.
+#### **Clean**
 
-**Custom theme** <mark style="background-color:purple;">Premium & Ultimate</mark>\
-The custom theme option lets you to set your own color preferences for the background color and link color in the header, in addition to choosing the primary color for light and dark mode.
+A modern theme featuring translucency and minimally-styled elements. Your primary color (or tint) affects links and other highlighted interface elements
 
-**Tint color**\
-Switch between a plain background and a subtly tinted background that either complements the primary color selected in your [theme](customization.md#themes-for-light-and-dark-modes), or matches a custom tint color of your choice.
+Clean is available for all sites, and is the default theme.
+
+#### **Muted**
+
+A sophisticated theme with decreased contrast between elements. The site background is more pronounced and blends in with the foreground, and some elements feature an inverted look — all based on your primary color (or tint).
+
+Muted is available for all sites.
+
+#### **Bold** <mark style="background-color:purple;">Premium & Ultimate</mark>
+
+A high-impact theme with prominent colors and strong contrasts. Your primary color (or tint) will be used for the header of the site, and other highlighted elements like icons are colored along with it.
+
+Bold is only available for Premium or Ultimate sites.
+
+#### **Gradient** <mark style="background-color:purple;">Premium & Ultimate</mark>
+
+A trendsetting theme featuring a gradient background and splashes of color. The gradient and highlighted elements will be colored by your primary color (or tint).
+
+Gradient is only available for Premium or Ultimate sites.
+
+***
+
+#### **Primary color**
+
+Your site’s primary color will affect the styling of highlighted interface items and navigational elements like links, the current page and page section, breadcrumbs, and primary header buttons.&#x20;
+
+To make sure these elements are readable by all audiences, GitBook automatically adjusts the color on individual elements for readability if the contrast with the background is too low, or when a visitor’s system specifically requests a higher contrast level.
+
+#### **Tint color**
+
+Your site’s tint color will subtly change the color of all text and icons across your entire site — including text, header links, icon color, and UI elements like the **Ask or search** bar. The tint color will _not_ affect navigational elements like links and buttons, which always use the primary color.
+
+In the **Tint color** section you’ll see some suggested colors based on your primary color selection, and you can select one with a click to preview it. You can also simply select your primary color as your tint, or a completely custom color using the color picker — the choice is yours.
 
 </details>
 
@@ -173,9 +200,9 @@ You can link to your own privacy policy to help visitors understand how your Git
 
 ### Customizing sites with multiple sections
 
-<figure><img src="../.gitbook/assets/04_02_2025_site_customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/19_02_2025_site_customization.svg" alt=""><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
-If you have a docs with with multiple sections, you can control the customization of each one individually.
+If you have a docs site with with multiple sections, you can control the customization of each one individually.
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
@@ -183,12 +210,14 @@ Select the whole site or a specific site section using the drop-down menu at the
 * **Section specific settings** – If you’re using site sections, you’re can set section specific customization that will override the default site-wise setting.
 
 {% hint style="warning" %}
-Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.
+Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.&#x20;
+
+You can reset customization overrides back to the site-wide default by clicking the **Reset** button <picture><source srcset="../.gitbook/assets/reset_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/reset_icon_light.svg" alt=""></picture> next to the space selector.
 {% endhint %}
 
 ### What counts as ‘Advanced customization’?
 
-Every GitBook user can take advantage of basic customization options on their docs site. Pro or Enterprise plan users can also use advanced customization features to further tweak their docs to match their brand.
+Every GitBook user can take advantage of basic customization options on their docs site. Premium or Ultimate site plan users can also use advanced customization features to further tweak their docs to match their brand.
 
 Advanced customization options include:
 
@@ -196,7 +225,7 @@ Advanced customization options include:
 * **Icons** - Change the weight and style of page icons in your docs site.
 * **Custom font** – Change the font of your docs to one of the built-in options.
 * **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
-* **Bold, Contrast and Custom themes** – Customize the primary color of your docs, as well as setting the background color for your header and the links within it.
+* **Bold and Gradient themes** – Change the background color for your header, or add a gradient background to your entire site with these new themes.
 
 ### What cannot be customized?
 
@@ -204,4 +233,4 @@ The options above provide lots of ways for you to customize your space, but ther
 
 1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../creating-content/content-structure/page.md)).
 2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../creating-content/blocks/embed-a-url.md) for many more.
-3. It’s not possible to remove the small "Powered by GitBook" link that appears in published documentation.
+3. It’s not possible to remove the small “Powered by GitBook” link that appears in published documentation.
