@@ -22,19 +22,23 @@ When creating cards, we recommend you use **target links instead of hyperlinks**
 
 ### Adding images
 
-Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture>. Here you can add a cover image to your card.&#x20;
+Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture>. Here you can add a cover image to your card. Alternatively, just click the **Add cover image** option on the card itself.
 
-Clicking **Add cover** will open the [Select image side panel](insert-images.md#how-to-add-images) — you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
+This will open the **Select file** modal. Here you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
 
-The key to great looking cards is making sure all the images in a card block have the same ratio. For example:
+#### Choosing the right image size
 
-* 16:9 (eg. 1920px x 1080px)
-* 4:3 (eg. 1024px x 768px)
-* 1:1 (eg. 500px x 500px)
+GitBook will automatically crop landscape images to a 16:9 ratio on desktop and mobile. If the images you upload are portrait or have a 1:1 ratio, they will be cropped to 16:9 on desktop and display as square or portrait on mobile.
 
-By using images with the same ratio, all your cards will perfectly align on the page. This means that titles and text below your images will also stay aligned, for a great reading experience.
+<figure><img src="../../.gitbook/assets/13_02_25_cards_desktop.svg" alt=""><figcaption><p>On desktop, all card images will display in a landscape 16:9 ratio, regardless of their dimensions. We recommend using the same dimensions for consistency.</p></figcaption></figure>
 
-#### Card size
+<figure><img src="../../.gitbook/assets/13_02_25_cards_mobile.svg" alt=""><figcaption><p>On mobile, square or portrait images will displayed as shown on the left. Landscape images will be displayed as shown on the right.</p></figcaption></figure>
+
+To keep things consistent across desktop and mobile, we recommend uploading all the images for your cards in a 16:9 format (e.g. 1920px x 1080px).
+
+If you want your cards to adapt their layout depending on the screen size, we’d recommend uploading images with a 1:1 ratio, and the content of your image centered.
+
+### Changing the size of cards
 
 You can select the card size by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> to the left of your card block. The **Medium** option creates three cards in one horizontal line, while the **Large** option shows two larger cards on each line.
 
