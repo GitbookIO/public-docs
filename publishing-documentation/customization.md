@@ -85,6 +85,12 @@ Your site’s tint color will subtly change the color of all text and icons acro
 
 In the **Tint color** section you’ll see some suggested colors based on your primary color selection, and you can select one with a click to preview it. You can also simply select your primary color as your tint, or a completely custom color using the color picker — the choice is yours.
 
+#### Semantic colors
+
+Semantic colors are applied to [hint blocks](../creating-content/blocks/hint.md) within your published content. You can change the background color of the blocks by selecting a color for each hint style.
+
+The colors you select here will only be reflected in the docs site you’re currently customizing. Hint blocks in the GitBook editor will always remain in their assigned colors for consistency.
+
 </details>
 
 <details>

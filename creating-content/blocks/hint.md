@@ -35,10 +35,12 @@ Hint blocks support [inline content](../formatting/inline.md) and [formatting](.
 
 This is a line
 
-This is an inline <img src="broken-reference" alt="" data-size="line"> image
+This is an inline <img src="../../.gitbook/assets/command_icon_light.svg" alt="" data-size="line"> image
 
 * This is a second <mark style="color:orange;background-color:purple;">line using an unordered list and color</mark>
 {% endhint %}
+
+To add a heading to your hint, you need to create a heading block as the the first block in the hint.
 
 ### Representation in Markdown
 
