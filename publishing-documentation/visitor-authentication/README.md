@@ -25,7 +25,7 @@ Common use cases for visitor authentication include:
 There are two methods you can choose from when setting up visitor authentication:
 
 1. Installing one of our authentication integrations — we currently support Okta, Azure, and Auth0. We **highly recommend** this option if you’re using an authentication provider we support.
-2. Create and host your own server to handle the authentication. Many different technologies can be used, but it’s up to you to code and maintain the solution you choose. Read the [guides in our developer documentation](https://developer.gitbook.com/visitor-authentication/guides/custom-backend) to learn more.
+2. Create and host your own server to handle the authentication. Many different technologies can be used, but it’s up to you to code and maintain the solution you choose. Read the [guides in our developer documentation](https://docs.gitbook.com/developers/visitor-authentication/custom-backend) to learn more.
 
 ### Publish with visitor authentication
 
