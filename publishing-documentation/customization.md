@@ -120,6 +120,10 @@ When using page icons, you can set the weight and style of the displayed icons h
 **Corner style**\
 Choose either a rounded or straight corner style, to help align your published GitBook content with your own brand’s styling preferences.
 
+**Link style**
+
+Choose between two link design styles for your published content. Default highlights the entire link in your primary or tint color. Accent will simply add a colored underline to the link, with the text itself remaining the same color as the rest of your content.
+
 </details>
 
 <details>

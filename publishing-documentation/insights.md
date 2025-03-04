@@ -46,6 +46,12 @@ You can also see a list of comments left from visitors who rate your pages, to g
 We only display data for published sites with page ratings enabled. If your site is not published or does not have page ratings enabled, you won’t see any insights.
 {% endhint %}
 
+#### Broken URLs
+
+Broken URLs shows any incoming links from external sources that are resulting in a ‘Page not found’ error. These may be mistyped URLs, outdated links with no redirects, or spam links.
+
+If a broken link points to a topic that exists somewhere else in your documentation, or you simply want to direct the traffic to your primary docs, you can set up [site redirects](site-redirects.md) to point those visitors in the right direction.&#x20;
+
 #### Search
 
 You can measure and improve your documentation by checking which keywords are used the most by users searching your documentation. This view allows you to see what keywords are performing the best, and which ones you could improve on.&#x20;
