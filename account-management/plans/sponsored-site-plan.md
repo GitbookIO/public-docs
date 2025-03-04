@@ -80,6 +80,16 @@ After your site is approved, you'll gain access to your ads dashboard, giving yo
 
 <details>
 
+<summary>What happens if I don't submit my site for review?</summary>
+
+The sponsored site plan allows you to use ultimate site features to get your site ready before submitting it for review.
+
+Any site not submitted for revierw after 1 month will automatically revert back to a free plan, and any ultimate site features used will be turned off, including things like custom domains, customizations, and more.
+
+</details>
+
+<details>
+
 <summary>What happens if I decide to switch back to a free site plan?</summary>
 
 The sponsored site plan includes features that are not available to sites on the free plan. Switching back to a free plan will effectively downgrade your site plan, meaning you may lose access to certain features.
