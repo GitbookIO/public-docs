@@ -1,15 +1,15 @@
 ---
-icon: rectangle-history
 description: >-
   Publish documentation for multiple product versions or languages in a single
   site
+icon: rectangle-history
 ---
 
 # Content variants
 
 You can publish multiple versions of the same documentation as part of a single docs site. These variants will be available to the end users via the space switcher in the top-left corner of the published site.
 
-<figure><img src="../../.gitbook/assets/10_01_25_site_structure.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt=""><figcaption></figcaption></figure>
 
 ### Add multiple languages or versions
 

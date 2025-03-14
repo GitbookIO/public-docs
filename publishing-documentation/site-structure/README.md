@@ -1,6 +1,6 @@
 ---
-icon: window-restore
 description: Add structure to your published documentation using site sections and variants
+icon: window-restore
 ---
 
 # Site structure
@@ -19,7 +19,7 @@ From your docs site’s dashboard, open the **Settings** tab in the site header,
 
 Your site starts out with a single section with your site's name and a single variant with the space you linked during your site's set-up.
 
-<figure><img src="../../.gitbook/assets/10_01_25_site_structure.svg" alt=""><figcaption><p>The structure of a published docs site.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt=""><figcaption><p>The structure of a published docs site.</p></figcaption></figure>
 
 ### Linking a space to your docs site
 

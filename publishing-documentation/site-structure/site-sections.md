@@ -1,8 +1,8 @@
 ---
-icon: rectangles-mixed
 description: >-
-  Add multiple products and sections to your site and create a content hub with
-  tabs to access all your content
+  Add multiple products to your site as site sections and create a content hub
+  with tabs to access all your content
+icon: rectangles-mixed
 ---
 
 # Site sections
@@ -11,27 +11,45 @@ description: >-
 This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/10_01_25_site_sections_published.svg" alt=""><figcaption><p>Example of a GitBook site with Site Sections</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14_03_25_site_sections_published.jpg" alt=""><figcaption><p>Example of a GitBook site with site sections</p></figcaption></figure>
 
-Create a seamless experience for your audience with a site that supports multiple sections, each with its own navigation tree. Perfect for organizing distinct parts of your documentation—whether you're managing separate product versions or catering to both end users and developers with tailored content.
+With site sections, you can centralize all your documentation and create a seamless experience for your users.
 
-The spaces you link as sections can contain any content, but it is recommended to use sections as _semantically different_ parts of your docs. If the spaces you'd like to link are variations of the same content, consider adding them as [content variants](variants.md) instead.
+Site sections are perfect for organizing your documentation — whether you’re managing separate products, or catering to both end-users and developers with content tailored to each.
+
+You can also [group site sections together](site-sections.md#create-a-site-section-group). Doing so will create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site sections.
+
+{% hint style="info" %}
+## Sections or variants?
+
+Each site section is a space in GitBook. You can create site sections from any space you like, but we recommend you use sections as semantically different parts of your docs.&#x20;
+
+If you want to add variations of the same content — such as localizations or historical versions of the same product — consider using [content variants](variants.md) instead.
+{% endhint %}
 
 ### Adding a section to your docs site
 
 From your docs site’s dashboard, open the **Settings** tab in the site header, then click **Structure**. Here you can see all the content of your site.
 
-To add a site section, click the **Add section** button underneath the table and choose a space to link as a section. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
+To add a site section, click the **New section** button underneath the table and choose a space to link as a section. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
 
-<figure><img src="../../.gitbook/assets/10_01_25_site_structure.svg" alt=""><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt=""><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
+
+### Create a site section group
+
+You can group site sections together under a single heading. Site section groups will appear as a drop-down in your site’s nav. Site sections in a group can also include an optional description, which appears below the section title in the drop-down menu.
+
+To create a group, click the arrow next to the **New section** button and choose **New section group**. Give your new group a name, then click **Add section** in the modal to add sections to your group. You can add existing sections of your site to the new group, or select another space you want to add using the menu.
 
 ### Editing a section
 
-You can change the name and slug of each of your sections by tapping the <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> **Edit** button in the table row of the section you’d like to edit. This will open a modal. Edit the field(s) you'd like to change, then click the **Save** button to save. You can also delete the variant by clicking the **Delete variant** button in the lower left.
+You can change the name, icon and slug of each of your sections by tapping the <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> **Edit** button in the table row of the section you’d like to edit. This will open a modal. Edit the field(s) you’d like to change, then click the **Save** button. You can also delete the variant by clicking the **Delete variant** button in the lower left.
 
 {% hint style="info" %}
 Changing a section’s slug will change its canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../site-redirects.md).
 {% endhint %}
+
+Site sections within a group can also optionally display a description, which will appear in the drop-down menu of your site’s nav bar when the section group is hovered. See the image at the top of this page to see an example of how this can look in your published documentation.
 
 ### Reordering sections
 
