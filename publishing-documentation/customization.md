@@ -1,6 +1,6 @@
 ---
-icon: palette
 description: Create branded documentation with a custom logo, fonts, colors, links and more
+icon: palette
 ---
 
 # Site customization
@@ -143,6 +143,10 @@ Choose the sidebar list and selected items style.
 <details>
 
 <summary>Header</summary>
+
+**Search bar**
+
+Change the position and look of the search bar between prominent (centered in the header) and subtle (located in the upper right corner). Turning off the header entirely will place the search bar in the sidebar instead.
 
 **Navigation**\
 Add header links to your site. You could use header links to point to important parts of your documentation, or perhaps to link back to your main website.
