@@ -74,3 +74,11 @@ This is a [link to another page in this space](../blocks/).
 This is a [link to a section on this page](./#code).
 
 This is [a link that starts an email to a specific address](mailto:support@gitbook.com).
+
+### Color and Background Color
+
+Click the color icon in the context menu, and choose a color for the text or its background.
+
+<mark style="color:orange;">This text is orange.</mark>
+
+<mark style="background-color:orange;">This text background is orange.</mark>
