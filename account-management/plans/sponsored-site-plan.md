@@ -16,7 +16,9 @@ This plan relates only to published sites. This plan does not include any featur
 
 ### Apply for the sponsored site plan
 
-The sponsored site plan is designed specifically for open source projects and sites. View the steps below to learn how to publish your first sponsored site.
+The sponsored site plan is designed specifically for **open source projects**. Please not we do not accept cryptocurrency, web3 or related projects for this plan.&#x20;
+
+View the steps below to learn how to publish your first sponsored site.
 
 {% stepper %}
 {% step %}
