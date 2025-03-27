@@ -163,6 +163,14 @@ When enabled, simply add a title and a URL for each link. We support two levels 
 
 <details>
 
+<summary>Announcement <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+
+Add an announcement banner to the top of your published site. Customize the announcement style, add a message and call to action.
+
+</details>
+
+<details>
+
 <summary>Pagination</summary>
 
 Control the display of the previous and next buttons that appear at the bottom of each page in your space. You can additionally set this feature for [specific pages](../creating-content/content-structure/page.md).
