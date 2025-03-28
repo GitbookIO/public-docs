@@ -33,11 +33,11 @@ You can set an emoji, or upload an icon of your own. The icon you set in the **C
 **Note**: this setting will only affect the icon that displays _in the published documentation_. If you want to edit the icon used within the GitBook app, you can do so when editing content in the space itself.
 {% endhint %}
 
-**Custom logo** <mark style="background-color:purple;">Premium & Ultimate</mark>\
+**Custom logo** <mark style="background-color:purple;">Premium & Ultimate</mark> \
 You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and, you can upload two versions: one for light mode, and one for dark mode.
 
 _What’s the difference between the icon and logo options?_\
-The icon setting lets you upload a small, 132x132px image, which will appear _alongside_ your space title. The custom logo option lets you upload a larger image (we recommend at least 600px wide), which will completely replace any icon and title you’ve set.
+The icon setting lets you upload a small, 132x132px image, which will appear _alongside_ your space title and function as your site’s favicon. The custom logo option lets you upload a larger image (we recommend at least 600px wide), which will completely replace any icon and title you’ve set.
 
 </details>
 
@@ -63,13 +63,13 @@ A sophisticated theme with decreased contrast between elements. The site backgro
 
 Muted is available for all sites.
 
-#### **Bold** <mark style="background-color:purple;">Premium & Ultimate</mark>
+#### **Bold** <mark style="background-color:purple;">Premium & Ultimate</mark>&#x20;
 
 A high-impact theme with prominent colors and strong contrasts. Your primary color (or tint) will be used for the header of the site, and other highlighted elements like icons are colored along with it.
 
 Bold is only available for Premium or Ultimate sites.
 
-#### **Gradient** <mark style="background-color:purple;">Premium & Ultimate</mark>
+#### **Gradient** <mark style="background-color:purple;">Premium & Ultimate</mark>&#x20;
 
 A trendsetting theme featuring a gradient background and splashes of color. The gradient and highlighted elements will be colored by your primary color (or tint).
 
@@ -115,13 +115,17 @@ _Note: if you just want to change the theme within the GitBook app, you can do t
 
 <summary>Site styles</summary>
 
-**Font family** <mark style="background-color:purple;">Premium & Ultimate</mark>\
-Choose a font family for your published content from a curated list of popular options, or upload your own custom fonts for a more personalized look.
+**Font family** <mark style="background-color:purple;">Premium & Ultimate</mark> \
+Choose a font family for your published content from a curated list of popular options.
 
-**Custom fonts** <mark style="background-color:purple;">Ultimate</mark>\
-Enhance your brand by using your own fonts in published content. We currently support `.woff` and `.woff2` file formats. For other formats, including variable fonts, please contact customer support for assistance.
+**Custom fonts** <mark style="background-color:purple;">Ultimate</mark> \
+Upload your own fonts to align your published content with your brand’s style guide.&#x20;
 
-**Icons** <mark style="background-color:purple;">Premium & Ultimate</mark>\
+To upload a font, click **Add custom font** <picture><source srcset="../.gitbook/assets/add_new_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/add_new_light.svg" alt=""></picture> and follow the instructions in the modal. You must upload a font file for both regular and bold type in order for GitBook to properly render your published content.
+
+GitBook currently supports `.woff` and `.woff2` file formats. If you want to upload fonts in other formats, including variable fonts, please [speak to our support team](mailto:support@gitbook.com).
+
+**Icons** <mark style="background-color:purple;">Premium & Ultimate</mark> \
 When using page icons, you can set the weight and style of the displayed icons here.
 
 **Corner style**\
@@ -166,9 +170,11 @@ When enabled, simply add a title and a URL for each link. We support two levels 
 
 <details>
 
-<summary>Announcement <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>Announcement <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
-Add an announcement banner to the top of your published site. Customize the announcement style, add a message and call to action.
+Toggle this option on to add an announcement banner to the top of your published site. You can add a message and optionally add a link and call to action, which will appear after your message in the banner.
+
+You can also change announcement style using the same styles as hint blocks — Info, Warning, Danger and Success. The color of these styles are determined by your [semantic colors](customization.md#themes-for-light-and-dark-modes).
 
 </details>
 
@@ -182,7 +188,7 @@ Control the display of the previous and next buttons that appear at the bottom o
 
 <details>
 
-<summary><strong>Footer</strong> <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary><strong>Footer</strong> <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
 Enable or disable a footer section for your space.
 
