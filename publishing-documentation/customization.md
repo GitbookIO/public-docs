@@ -116,7 +116,10 @@ _Note: if you just want to change the theme within the GitBook app, you can do t
 <summary>Site styles</summary>
 
 **Font family** <mark style="background-color:purple;">Premium & Ultimate</mark>\
-You can choose a font family for your published content from a list of popular options. GitBook currently doesn’t support uploading or linking custom fonts.
+Choose a font family for your published content from a curated list of popular options, or upload your own custom fonts for a more personalized look.
+
+**Custom fonts** <mark style="background-color:purple;">Ultimate</mark>\
+Enhance your brand by using your own fonts in published content. We currently support `.woff` and `.woff2` file formats. For other formats, including variable fonts, please contact customer support for assistance.
 
 **Icons** <mark style="background-color:purple;">Premium & Ultimate</mark>\
 When using page icons, you can set the weight and style of the displayed icons here.
