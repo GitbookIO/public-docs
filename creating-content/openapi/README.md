@@ -1,23 +1,23 @@
 ---
-icon: brackets-curly
 description: >-
   Add an OpenAPI spec to a page and let your users test endpoints right on the
   page with interactive blocks
+icon: brackets-curly
 ---
 
 # OpenAPI
 
 You can sync with an OpenAPI or Swagger file or URL to include auto-generated methods in your documentation.
 
-### Test it (powered by Scalar)
+### Test endpoints on the page
 
 GitBook's OpenAPI block also supports a "try it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
 
 Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in order to see your API methods in action. See and example of this below.
 
-{% swagger src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
+{% openapi src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
 [https://petstore3.swagger.io/api/v3/openapi.json](https://petstore3.swagger.io/api/v3/openapi.json)
-{% endswagger %}
+{% endopenapi %}
 
 Manually writing documentation for your REST API can be time-consuming. To help, GitBook supports OpenAPI document imports, which describe your API, and provides API blocks. These will automatically represent your API methods based on the specification you provide — either as a file or as a URL for GitBook to load.
 
