@@ -1,6 +1,6 @@
 ---
-icon: chart-line-up
 description: View analytics and insights related to your published documentation’s traffic
+icon: chart-line-up
 ---
 
 # Site insights
@@ -32,6 +32,12 @@ The Insights tab is split into six sections, each focused on a specific data typ
 GitBook tracks page views to help you understand the popularity and reach of your content. Each time a user visits a page on your docs site, it is counted as a page view.&#x20;
 
 Page views are critical for assessing the effectiveness of your content strategy and optimizing your documentation based on user interest. It’s split up between different views and profiles, including countries, languages, browsers, and more.
+
+{% hint style="success" %}
+Throughout the insights tab you will see Events and Visitor metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique users performing the actions.&#x20;
+
+In the context of page views, Events would be total amount of page views, and Visitors would be the count of distinct users performing a page view.
+{% endhint %}
 
 #### Pages & Feedback
 
