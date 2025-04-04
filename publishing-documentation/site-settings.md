@@ -1,13 +1,11 @@
 ---
-icon: gear
 description: Customize and edit settings across your published site
+icon: gear
 ---
 
 # Site settings
 
-{% hint style="info" %}
-Certain customization features are available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
 <figure><img src="../.gitbook/assets/10_01_25_site_settings.svg" alt=""><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 

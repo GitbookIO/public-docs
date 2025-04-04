@@ -1,13 +1,11 @@
 ---
-icon: key
 description: Set up custom authentication for your published content
+icon: key
 ---
 
 # Visitor Authentication
 
-{% hint style="info" %}
-This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../../.gitbook/includes/ultimate-hint.md" %}
 
 Visitor authentication allows you to publish your content while requiring authentication from any visitors who want to view it. When enabled, GitBook lets your authentication provider handle who has access to the content.
 

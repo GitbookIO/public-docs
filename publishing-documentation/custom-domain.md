@@ -1,13 +1,11 @@
 ---
-icon: globe-pointer
 description: Set a custom domain for your docs sites
+icon: globe-pointer
 ---
 
 # Set a custom domain
 
-{% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 By default, your sites are accessible on a `[subdomain].gitbook.io` domain.&#x20;
 

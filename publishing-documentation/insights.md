@@ -5,9 +5,7 @@ icon: chart-line-up
 
 # Site insights
 
-{% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 Insights give you information on the content you've published and how it performs. It's split up between different sections — **Traffic**, **Pages & feedback**, **Search**, **Ask AI**, **Links**, and **OpenAPI**.
 

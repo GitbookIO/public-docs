@@ -1,13 +1,11 @@
 ---
-icon: diamond-turn-right
 description: Set up site redirects to route traffic to content anywhere on your site.
+icon: diamond-turn-right
 ---
 
 # Site redirects
 
-{% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 <figure><img src="../.gitbook/assets/10_01_25_redirects.svg" alt=""><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 

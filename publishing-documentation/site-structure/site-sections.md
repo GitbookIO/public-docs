@@ -7,9 +7,7 @@ icon: rectangles-mixed
 
 # Site sections
 
-{% hint style="info" %}
-This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../../.gitbook/includes/ultimate-hint.md" %}
 
 <figure><img src="../../.gitbook/assets/14_03_25_site_sections_published.jpg" alt=""><figcaption><p>Example of a GitBook site with site sections</p></figcaption></figure>
 

@@ -1,15 +1,13 @@
 ---
-icon: file-pdf
 description: Export a PDF copy of your GitBook content
+icon: file-pdf
 ---
 
 # PDF export
 
 ### Allow readers to export a PDF version of your published content
 
-{% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 To enable or disable PDF export for visitors to your [published docs site](broken-reference), open the docs site’s dashboard and click the **Settings** tab, then select the **Features** section. You can toggle it on and off here.
 

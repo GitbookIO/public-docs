@@ -5,9 +5,7 @@ icon: palette
 
 # Site customization
 
-{% hint style="info" %}
-Certain customization features are available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
 You can customize the appearance of your published documentation, match the user interface to the language of your content, and more.
 
