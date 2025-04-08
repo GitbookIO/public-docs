@@ -50,10 +50,21 @@
 * [Searching content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
-* [OpenAPI](creating-content/openapi/README.md)
-  * [Support for CI/CD with API blocks](creating-content/openapi/support-for-ci-cd-with-api-blocks.md)
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
+
+## API References
+
+* [OpenAPI](api-references/openapi/README.md)
+  * [Add an OpenAPI specification](api-references/openapi/add-an-openapi-specification.md)
+  * [Organize your endpoints](api-references/openapi/organize-your-endpoints.md)
+  * [Extensions reference](api-references/openapi/extensions-reference.md)
+* [Guides](api-references/guides/README.md)
+  * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
+  * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
+  * [Managing API endpoints](api-references/guides/managing-api-endpoints.md)
+  * [Describing enums](api-references/guides/describing-enums.md)
+  * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
 
 ## Publishing Documentation
 
