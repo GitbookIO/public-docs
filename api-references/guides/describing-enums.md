@@ -1,5 +1,5 @@
 ---
-description: Add descriptions to operations that include enums.
+description: Learn how to add descriptions to enums.
 ---
 
 # Describing enums

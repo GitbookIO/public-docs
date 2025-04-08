@@ -1,8 +1,14 @@
-# Managing API endpoints
+---
+description: >-
+  Learn how to mark an OpenAPI API operation as experimental, deprecated or hide
+  it from your documentation.
+---
+
+# Managing API operations
 
 {% include "../../.gitbook/includes/openapi-availability-hint.md" %}
 
-It’s common to have endpoints that are not fully stable yet or that need to be phased out. GitBook supports several OpenAPI extensions to help you manage these scenarios.
+It’s common to have operations that are not fully stable yet or that need to be phased out. GitBook supports several OpenAPI extensions to help you manage these scenarios.
 
 ### Marking operation as experimental, alpha, or beta
 

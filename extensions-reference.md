@@ -1,12 +1,17 @@
+---
+description: The complete reference of OpenAPI extensions supported by GitBook.
+icon: code
+---
+
 # Extensions reference
 
-{% include "../../.gitbook/includes/openapi-availability-hint.md" %}
+{% include ".gitbook/includes/openapi-availability-hint.md" %}
 
 You can enhance your OpenAPI specification using extensions—custom fields that start with the `x-` prefix. These extensions let you add extra information and tailor your API documentation to suit different needs.
 
 GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.&#x20;
 
-Head to our [guides section](../guides/) to learn more about using OpenAPI extensions to configure your documentation.
+Head to our [guides section](api-references/guides/) to learn more about using OpenAPI extensions to configure your documentation.
 
 <details>
 

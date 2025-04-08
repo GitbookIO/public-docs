@@ -1,5 +1,7 @@
 ---
-description: Configure custom code samples to display alongside your API endpoints.
+description: >-
+  Learn how to configure custom code samples to display alongside your API
+  endpoints.
 ---
 
 # Adding custom code samples

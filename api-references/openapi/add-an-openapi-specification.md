@@ -1,36 +1,52 @@
+---
+description: >-
+  Learn how to add and update an OpenAPI specification in GitBook application or
+  from CLI.
+---
+
 # Add an OpenAPI specification
 
 {% include "../../.gitbook/includes/openapi-availability-hint.md" %}
 
-If you have an OpenAPI specification, you can add it directly to your organization. You can link your specification via the URL of a hosted OpenAPI document, or by uploading the OpenAPI file directly.
+If you have an OpenAPI spec, you can add it to your organization by uploading the file directly, linking to a hosted URL, or using the [GitBook CLI](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/cli).
 
 <figure><img src="../../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>
 
-### Add a specification
+### How to add a specification
 
-To add a specification, head to the OpenAPI panel in the sidebar. Here you’ll be able to upload a file, link via URL to your existing OpenAPI specification, or use our [CLI](https://docs.gitbook.com/developers/cli/quickstart) to publish your OpenAPI spec to GitBook.
-
-You’ll need to give your specification a name, which will be its identifier if you add more than 1 specification to your organization.
+1. Open the **OpenAPI** section in the sidebar
+2. Click on **Add specification**
+3. Give your specification a name. This helps identify it, especially if you manage multiple specs
+4. Choose one of the following:
+   * Upload a file (e.g. _openapi.yaml_)
+   * Enter a URL to a hosted spec
+   * Use the CLI to publish the spec
 
 <figure><img src="../../.gitbook/assets/03_04_25_api_spec_modal (1).svg" alt=""><figcaption><p>Add an OpenAPI specification modal.</p></figcaption></figure>
 
 ### Update your specification
 
-From time to time you might need to update or modify your API specification.&#x20;
+You can update your OpenAPI specification at any time using the GitBook UI or the CLI, regardless of how it was initially added.
 
-#### Updating your specification via URL
+#### In GitBook Application
 
-If you added your specification via URL, GitBook will automatically check for updates every 6 hours. If you need to update your specification faster than that, click the “Check for updates” button in the upper right corner of the OpenAPI section.
+In the OpenAPI panel:
 
-#### Updating your specification via file
+* If your spec is linked to a URL:
+  * GitBook checks for updates automatically **every 6 hours**.
+  * To fetch updates immediately, click **Check for updates**.
+* If your spec was uploaded as a file:
+  * Click **Update** to upload a new version.
+* You can switch from a File to a URL source by clicking on **Edit** in the breadcrumb actions menu.
 
-To update your OpenAPI spec if you’ve added it as a file, click the “Update” button in the upper right corner of the OpenAPI section to update or replace the file.
+#### Using the CLI
 
-#### Updating your specification via CLI
-
-If you’ve used the [CLI](https://docs.gitbook.com/developers/cli/quickstart) to add an OpenAPI specification, you can update it by running the same command:
+Use the same command to update your specification:
 
 ```bash
-gitbook openapi publish --spec api-spec-name --organization organization_id <path-to-openapi-file>
+gitbook openapi publish --spec api-spec-name --organization organization_id <path-or-url>
 ```
 
+You can also use the CLI to **Check for updates** by running the publish command on the same URL.
+
+Read our [support-for-ci-cd-with-api-blocks.md](../guides/support-for-ci-cd-with-api-blocks.md "mention") guide to learn how to automate the update of your specification.

@@ -57,14 +57,17 @@
 
 * [OpenAPI](api-references/openapi/README.md)
   * [Add an OpenAPI specification](api-references/openapi/add-an-openapi-specification.md)
-  * [Organize your endpoints](api-references/openapi/organize-your-endpoints.md)
-  * [Extensions reference](api-references/openapi/extensions-reference.md)
+  * [Insert API reference in your docs](api-references/openapi/insert-api-reference-in-your-docs.md)
 * [Guides](api-references/guides/README.md)
   * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
   * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
-  * [Managing API endpoints](api-references/guides/managing-api-endpoints.md)
+  * [Managing API operations](api-references/guides/managing-api-operations.md)
   * [Describing enums](api-references/guides/describing-enums.md)
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
+
+***
+
+* [Extensions reference](extensions-reference.md)
 
 ## Publishing Documentation
 

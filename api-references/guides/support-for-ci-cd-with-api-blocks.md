@@ -1,5 +1,5 @@
 ---
-description: How to use GitBook’s OpenAPI method blocks to support a CI/CD workflow
+description: Learn how to automate the update of your OpenAPI specification in GitBook.
 ---
 
 # Integrating with CI/CD

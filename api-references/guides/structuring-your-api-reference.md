@@ -1,6 +1,6 @@
 ---
 description: >-
-  Structure your API reference across multiple pages with icons and
+  Learn how to structure your API reference across multiple pages with icons and
   descriptions.
 ---
 

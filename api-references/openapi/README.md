@@ -1,7 +1,7 @@
 ---
 description: >-
   Add an OpenAPI spec to a page and let your users test endpoints right on the
-  page with interactive blocks
+  page with interactive blocks.
 icon: brackets-curly
 ---
 
@@ -24,15 +24,3 @@ GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob
 GitBook's OpenAPI block also supports a "test it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
 
 Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in order to see your API methods in action. See and example of this above.
-
-### API method block (deprecated)
-
-{% hint style="warning" %}
-**Editable API method blocks are now deprecated**
-
-In light of our updated OpenAPI method block, **we’ve decided to deprecate the API method block.** [Read our recent announcement](https://changelog.gitbook.com/announcements/depreciating-api-method-block) to find out more about the reasons behind this change.
-
-On **Monday 4 March 2024**, we automatically transitioned all pre-existing API method blocks to regular blocks in the format you can see below. [Read our announcement](https://changelog.gitbook.com/announcements/depreciating-api-method-block) to find out more.
-{% endhint %}
-
-You can still create editable API references from the **Quickstart** section of the **Insert menu**. Hit / on your keyboard and select **API Reference**.
