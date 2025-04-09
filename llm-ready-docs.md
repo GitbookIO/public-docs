@@ -15,6 +15,10 @@ With GitBook, all of the pages of your docs site are automatically available as 
 
 For example, if your docs page is found at [https://tomatopy.pizza/docs/getting-started/basic-concepts](https://tomatopy.pizza/docs/getting-started/basic-concepts), then you can view a markdown version of the page at [https://tomatopy.pizza/docs/getting-started/basic-concepts.md](https://tomatopy.pizza/docs/getting-started/basic-concepts.md).
 
+{% hint style="warning" %}
+This functionality is currently only available to a small number of sites as we roll out a new platform for published documentation. We’ll update this page again when it’s available to all customers soon.
+{% endhint %}
+
 ## llms.txt index page
 
 [llms.txt](https://llmstxt.org/) is a proposed standard for making web content available in text-based formats that are easier for LLMs to process. You can access the `llms.txt` page by appending `/llms.txt` to the root URL of your docs site.&#x20;
