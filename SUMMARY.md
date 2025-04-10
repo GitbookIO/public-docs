@@ -3,7 +3,6 @@
 ## Getting Started
 
 * [GitBook Documentation](README.md)
-* [New user guide](getting-started/new-user-guide.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Importing content](getting-started/import.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
@@ -82,13 +81,18 @@
 * [Site settings](publishing-documentation/site-settings.md)
 * [Site insights](publishing-documentation/insights.md)
 * [Site redirects](publishing-documentation/site-redirects.md)
-* [Visitor Authentication](publishing-documentation/visitor-authentication/README.md)
-  * [Implement Visitor Authentication using Node](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node)
-  * [Implement Visitor Authentication using Next.js and Clerk](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-next.js-and-clerk)
-  * [Implement Visitor Authentication using Node and Auth0](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-auth0)
-  * [Implement Visitor Authentication using Node and Okta](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-okta)
-  * [Implement Visitor Authentication using Node and Azure AD](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-azure-ad)
-* [Adaptive content](publishing-documentation/adaptive-content.md)
+* [Visitor authentication](publishing-documentation/visitor-authentication/README.md)
+  * [Enabling visitor authentication](publishing-documentation/visitor-authentication/enabling-visitor-authentication.md)
+  * [Setting up Auth0](publishing-documentation/visitor-authentication/setting-up-auth0.md)
+  * [Setting up Azure AD](publishing-documentation/visitor-authentication/setting-up-azure-ad.md)
+  * [Setting up AWS Cognito](publishing-documentation/visitor-authentication/setting-up-aws-cognito.md)
+  * [Setting up Okta](publishing-documentation/visitor-authentication/setting-up-okta.md)
+  * [Setting up OIDC](publishing-documentation/visitor-authentication/setting-up-oidc.md)
+  * [Setting up a custom backend](publishing-documentation/visitor-authentication/setting-up-a-custom-backend.md)
+* [Adaptive content](publishing-documentation/adaptive-content/README.md)
+  * [Enabling adaptive content](publishing-documentation/adaptive-content/enabling-adaptive-content.md)
+  * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
+  * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
 
 ***
 
