@@ -2,7 +2,6 @@
 description: >-
   Add multiple products to your site as site sections and create a content hub
   with tabs to access all your content
-icon: rectangles-mixed
 ---
 
 # Site sections

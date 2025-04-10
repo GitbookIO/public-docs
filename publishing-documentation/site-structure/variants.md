@@ -2,7 +2,6 @@
 description: >-
   Publish documentation for multiple product versions or languages in a single
   site
-icon: rectangle-history
 ---
 
 # Content variants

@@ -7,6 +7,10 @@ icon: globe-pointer
 
 {% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
+{% hint style="warning" %}
+This page shows how to configure a custom domain and subdomain. If you would like to configure a custom subdirectory (such as `example.com/docs`), see the [setting-a-custom-subdirectory](setting-a-custom-subdirectory/ "mention") page.
+{% endhint %}
+
 By default, your sites are accessible on a `[subdomain].gitbook.io` domain.&#x20;
 
 You can customize this by setting a custom domain, meaning your audience can access your documentation on a chosen domain.
