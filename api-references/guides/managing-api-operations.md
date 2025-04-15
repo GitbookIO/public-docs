@@ -6,8 +6,6 @@ description: >-
 
 # Managing API operations
 
-{% include "../../.gitbook/includes/openapi-availability-hint.md" %}
-
 It’s common to have operations that are not fully stable yet or that need to be phased out. GitBook supports several OpenAPI extensions to help you manage these scenarios.
 
 ### Marking operation as experimental, alpha, or beta

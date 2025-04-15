@@ -6,8 +6,6 @@ description: >-
 
 # Structuring your API reference
 
-{% include "../../.gitbook/includes/openapi-availability-hint.md" %}
-
 GitBook does more than just render your OpenAPI spec. It lets you customize your API reference for better clarity, navigation, and branding.
 
 ### Split operations across multiple pages
@@ -101,6 +99,24 @@ tags:
       Here are the rabbits
       {% endtab %}
       {% endtabs %}
+{% endraw %}
+```
+{% endcode %}
+
+### Highlight schemas
+
+You can highlight a schema in a GitBook description by using GitBook markdown. Here is an example that highlights the “Pet” schema from the “petstore” specification:
+
+{% code title="openapi.yaml" %}
+```yaml
+---
+tags:
+  - name: pet
+      description: |
+          {% raw %}
+{% openapi-schemas spec="petstore" schemas="Pet" grouped="false" %}
+              The Pet object
+          {% endopenapi-schemas %}
 {% endraw %}
 ```
 {% endcode %}

@@ -6,8 +6,6 @@ description: >-
 
 # Add an OpenAPI specification
 
-{% include "../../.gitbook/includes/openapi-availability-hint.md" %}
-
 If you have an OpenAPI spec, you can add it to your organization by uploading the file directly, linking to a hosted URL, or using the [GitBook CLI](broken-reference).
 
 <figure><img src="../../.gitbook/assets/02_04_25_add_api_spec.svg" alt=""><figcaption></figcaption></figure>

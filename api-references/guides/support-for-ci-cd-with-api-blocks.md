@@ -4,8 +4,6 @@ description: Learn how to automate the update of your OpenAPI specification in G
 
 # Integrating with CI/CD
 
-{% include "../../.gitbook/includes/openapi-availability-hint.md" %}
-
 GitBook can work with [Git Sync](../../getting-started/git-sync/) or any CI/CD pipeline you already have for managing your OpenAPI specification. By using the GitBook CLI, you can automate updates to your API reference.
 
 ### Upload a specification file

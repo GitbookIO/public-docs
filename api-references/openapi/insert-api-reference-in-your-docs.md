@@ -6,8 +6,6 @@ description: >-
 
 # Insert API reference in your docs
 
-{% include "../../.gitbook/includes/openapi-availability-hint.md" %}
-
 GitBook allows you to automatically generate pages related to the endpoints you have in your OpenAPI spec. These pages will contain OpenAPI operation blocks, allowing you and your visitors to test your endpoints and explore them further based on the information found in the spec.
 
 {% hint style="success" %}
