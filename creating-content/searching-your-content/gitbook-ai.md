@@ -12,7 +12,7 @@ When engaging with GitBook AI, you have the ability to ask questions or elaborat
 
 #### For published content
 
-You can enable GitBook AI for any published space or collection in that space’s or collection’s [customization settings](../../publishing-documentation/customization.md).&#x20;
+You can enable GitBook AI for any published space or collection in that space’s or collection’s [customization settings](../../publishing-documentation/customization/).&#x20;
 
 Click the **Customize** button, then open to the **Configure** tab and toggle the **Enable** **GitBook AI semantic search** setting on.
 

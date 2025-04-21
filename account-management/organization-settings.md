@@ -22,7 +22,7 @@ You can update the logo and the name of the organization.
 
 **GitBook AI features**
 
-[GitBook’s AI](../creating-content/searching-your-content/gitbook-ai.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../publishing-documentation/customization.md)panel.
+[GitBook’s AI](../creating-content/searching-your-content/gitbook-ai.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../publishing-documentation/customization/)panel.
 
 **Publishing**
 

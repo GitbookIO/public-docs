@@ -1,6 +1,6 @@
 ---
-icon: sidebar
 description: Learn about the different components and UI in GitBook’s editor
+icon: sidebar
 ---
 
 # GitBook UI
@@ -127,7 +127,7 @@ The site header includes:
 * **Insights**\
   The [insights panel](../publishing-documentation/insights.md) gives you detailed anayltics about your site and how it’s performing.
 * **Customization**\
-  Here you can [customize your site](../publishing-documentation/customization.md) with your own logo, colors, header links, and much more.
+  Here you can [customize your site](../publishing-documentation/customization/) with your own logo, colors, header links, and much more.
 * **Settings**\
   Access your [site’s settings](../publishing-documentation/site-settings.md) and control the name, audience, content structure and other options.
 * **Preview**\
