@@ -14,6 +14,29 @@ Head to your [site’s settings](../site-settings.md), and enable “Adaptive co
 
 <figure><img src="../../.gitbook/assets/21_03_25_enable_adaptive_content.svg" alt=""><figcaption><p>Enable adaptive content</p></figcaption></figure>
 
+### Set your adaptive schema
+
+After enabling adaptive content, you’ll need to define a schema for the types of claims you expect GitBook to receive when a user visits your site.
+
+The adaptive content schema should reflect how these claims are structured when sent to GitBook.
+
+For example, if you expect a visitor to potentially be a beta user in your product, you would set an adaptive schema similar to:
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "isBetaUser": {
+      "type": "boolean",
+      "description": "Whether the visitor is a Beta user.”
+    },
+  },
+  "additionalProperties": false
+}
+```
+
+This will also help you use autocomplete when configuring your claims in the [condition editor](adapting-your-content.md#working-with-the-condition-editor).
+
 Next, you’ll need to decide how you want to pass your visitor data to GitBook.
 
 ### Ways to pass visitors's data to GitBook
@@ -23,13 +46,9 @@ GitBook provides different ways to pass visitor data to adapt your site's conten
 * [**Cookie method**](enabling-adaptive-content.md#cookie-method)**:** When you don't require full authentication for your docs but still want to use your user’s data to adapt your public site's content based on their information.
 * [**Visitor authentication method**](enabling-adaptive-content.md#visitor-authentication-method)**:** When you need your site to be behind [authentication](../visitor-authentication/) and want to customize the site's content based on your authenticated user’s information.
 
+#### Methods
 
-
-### Methods
-
-<table data-full-width="true"><thead><tr><th width="323.2421875">Method</th><th width="266.6015625">Use-cases</th><th width="206.58984375">Ease of setup</th><th width="202">Security</th><th>Format</th><th>Transport</th></tr></thead><tbody><tr><td>Signed cookie <code>gitbook-visitor-token</code></td><td>API test credentials, customer identification, etc</td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td><td>Cookies</td></tr><tr><td>Public cookie <code>gitbook-visitor</code></td><td>Feature flags</td><td>Easy to use</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td><td>Cookies</td></tr><tr><td>Signed query parameter <code>token</code></td><td></td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td><td>URL</td></tr><tr><td>Query parameters <code>gitbook_&#x3C;prop>=</code></td><td></td><td>Easy to use</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td><td>URL</td></tr></tbody></table>
-
-
+<table data-full-width="false"><thead><tr><th width="323.2421875">Method</th><th width="266.6015625">Use-cases</th><th width="206.58984375">Ease of setup</th><th width="202">Security</th><th>Format</th><th>Transport</th></tr></thead><tbody><tr><td>Signed cookie <code>gitbook-visitor-token</code></td><td>API test credentials, customer identification, etc</td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td><td>Cookies</td></tr><tr><td>Public cookie <code>gitbook-visitor</code></td><td>Feature flags</td><td>Easy to use</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td><td>Cookies</td></tr><tr><td>Signed query parameter <code>token</code></td><td></td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td><td>URL</td></tr><tr><td>Query parameters <code>gitbook_&#x3C;prop>=</code></td><td></td><td>Easy to use</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td><td>URL</td></tr></tbody></table>
 
 ### Cookie method
 
