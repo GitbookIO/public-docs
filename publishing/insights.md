@@ -16,7 +16,7 @@ Administrators and creators can view the insights panel.
 
 ## The insights panel
 
-When inside a space, click on **insights** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation) to open the insights panel. You’ll see two tabs: pages and searches.
+When inside a space, click on **insights** in the [space sub-navigation](https://gitbook.com/docs/getting-started/overview#space-sub-navigation) to open the insights panel. You’ll see two tabs: pages and searches.
 
 <div data-full-width="true">
 
@@ -38,7 +38,7 @@ This shows a summary of visits to your space across all pages. You can view dail
 
 <summary>Pages</summary>
 
-For each page in the space, you can see a count of all views. This is the **total number of views since the page was published**. If [page rating](https://docs.gitbook.com/tour/customization/space-customization#page-rating) is enabled, you can also see how many people have left feedback on each page and the average feedback rating. Hover over the average rating to see further details.
+For each page in the space, you can see a count of all views. This is the **total number of views since the page was published**. If [page rating](https://gitbook.com/docs/tour/customization/space-customization#page-rating) is enabled, you can also see how many people have left feedback on each page and the average feedback rating. Hover over the average rating to see further details.
 
 Click **download CSV** if you’d like to use or analyse this data further outside of GitBook, and a `.csv` file will be downloaded to your device.
 

@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://docs.gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1"></a>
+  <a href="https://gitbook.com/docs"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1"></a>
   <a href="/.github/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors/gitbookIO/public-docs"/></a>
   <a href="https://github.com/gitbookIO/public-docs/issues"><img src="https://img.shields.io/github/issues/gitbookIO/public-docs"/></a>
 </p>
 
 <p align="center">Welcome to GitBook's public documentation.</p>
 
-<p align="center">This repository contains the content that powers <a href="https://docs.gitbook.com">https://docs.gitbook.com</a>.</p>
+<p align="center">This repository contains the content that powers <a href="https://gitbook.com/docs">https://gitbook.com/docs</a>.</p>
 
 ## Contributing
 

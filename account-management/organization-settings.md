@@ -37,7 +37,7 @@ You can update the GitBook subdomain here, as well as the default content, which
 
 **Actions**
 
-From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://docs.gitbook.com/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
+From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://gitbook.com/docs/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
 
 </details>
 

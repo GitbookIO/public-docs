@@ -18,7 +18,7 @@ If you are looking to embed external content into your pages, take a look at how
 
 ## Uploading a file
 
-Files are managed in the files panel of your space. To access the files panel, click on files in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation).
+Files are managed in the files panel of your space. To access the files panel, click on files in the [space sub-navigation](https://gitbook.com/docs/getting-started/overview#space-sub-navigation).
 
 To upload a file, select **browse files** and use your system file dialog to select the file you want to upload.
 

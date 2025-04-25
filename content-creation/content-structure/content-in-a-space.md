@@ -85,7 +85,7 @@ Once a new page is created you will be able to write rich text and rich content 
 
 ## Create a page group
 
-If you’re in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents), and then choose **new group**.
+If you’re in live edit mode, can click the **new page** button on the left-hand side under the existing pages in your [table of contents](https://gitbook.com/docs/getting-started/overview#table-of-contents), and then choose **new group**.
 
 <div data-full-width="true">
 
