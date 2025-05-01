@@ -4,7 +4,7 @@ description: Use the inline palette to add images, links, math & TeX, and more
 
 # Inline content
 
-<figure><img src="../../.gitbook/assets/10_01_25_inline_content.svg" alt=""><figcaption><p>Add inline content to your content.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_inline_content.svg" alt=""><figcaption><p>Add inline elements to your content.</p></figcaption></figure>
 
 The inline palette lets you quickly add extra content to your text block without moving your hands away from the keyboard. Simply hit `/` on any text block to open the inline palette. The forward slash will be replaced by the content you choose to insert.
 
@@ -101,3 +101,11 @@ Using this option, you can create an inline math formula in your content, like t
 {% hint style="info" %}
 You can also insert [a block-level math formula](../blocks/math-and-tex.md) by opening the command palette in an empty block and choosing the second Math & TeX option.
 {% endhint %}
+
+### Buttons
+
+Buttons are a great way to describe calls to action. You can use them to send users to other pages in GitBook, or to external URLs.
+
+Buttons have both primary and secondary styles. Here are a couple of examples:
+
+<a href="https://app.gitbook.com/join" class="button primary">Sign up to GitBook</a> <a href="inline.md#annotations" class="button secondary">Go to top</a>

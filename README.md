@@ -1,9 +1,9 @@
 ---
-icon: book-open
 description: >-
   Create and publish beautiful documentation your users will love. GitBook has
   all the tools you need to create everything from product guides to API
   references and beyond.
+icon: book-open
 layout:
   title:
     visible: true
@@ -21,7 +21,7 @@ layout:
 
 At GitBook, our mission is to provide a **user-friendly** and **collaborative** solution for creating, editing, and sharing product and API documentation.
 
-Head to our [Quickstart guide](getting-started/quickstart.md) to set up your first docs site in minutes.
+<a href="https://app.gitbook.com/join" class="button primary">Sign up</a> <a href="getting-started/quickstart.md" class="button secondary">Quickstart</a>
 
 ### Discover GitBook&#x20;
 
