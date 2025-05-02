@@ -21,7 +21,7 @@ layout:
 
 At GitBook, our mission is to provide a **user-friendly** and **collaborative** solution for creating, editing, and sharing product and API documentation.
 
-<a href="https://app.gitbook.com/join" class="button primary">Sign up</a> <a href="getting-started/quickstart.md" class="button secondary">Quickstart</a>
+<a href="https://app.gitbook.com/join?utm_content=homepage_button_sign_up&#x26;utm_source=gitbook_docs" class="button primary">Sign up</a> <a href="getting-started/quickstart.md" class="button secondary">Quickstart</a>
 
 ### Discover GitBook&#x20;
 

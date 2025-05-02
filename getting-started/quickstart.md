@@ -9,7 +9,7 @@ icon: bolt
 
 You’ll need a GitBook account to start publishing documentation.
 
-<a href="https://app.gitbook.com/join" class="button primary">Sign up</a>
+<a href="https://app.gitbook.com/join?utm_content=quickstart_button_sign_up&#x26;utm_source=gitbook_docs" class="button primary">Sign up</a>
 
 ### Create a docs site
 
