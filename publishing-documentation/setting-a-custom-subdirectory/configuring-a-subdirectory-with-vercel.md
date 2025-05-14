@@ -1,5 +1,6 @@
 ---
 description: Host your documentation with a /docs subdirectory using Vercel
+icon: triangle
 ---
 
 # Configuring a subdirectory with Vercel

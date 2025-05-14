@@ -1,5 +1,6 @@
 ---
 description: Host your documentation with a /docs subdirectory using Cloudflare
+icon: cloudflare
 ---
 
 # Configuring a subdirectory with Cloudflare
@@ -50,12 +51,12 @@ export default {
   fetch(request) { 
     const SUBDIRECTORY = '/docs';
     const url = new URL(request.url);
-    const proxy = "<INSERT YOUR PROXY URL FROM GITBOOK>" + url.pathname.slice(SUBDIRECTORY.length);
-    const proxyURL = new URL(
-      proxy.endsWith('/') ? proxy.slice(0, -1) : proxy 
+    const target = "<INSERT YOUR PROXY URL FROM GITBOOK>" + url.pathname.slice(SUBDIRECTORY.length);
+    const proxy = new URL(
+      target.endsWith('/') ? target.slice(0, -1) : target 
     )
-    proxyURL.search = url.search;
-    return fetch(new Request(proxyURL, request));
+    proxy.search = url.search;
+    return fetch(new Request(proxy, request));
   }
 };
 ```
