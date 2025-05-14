@@ -1,13 +1,11 @@
 ---
-icon: gear
 description: Customize and edit settings across your published site
+icon: gear
 ---
 
 # Site settings
 
-{% hint style="info" %}
-Certain customization features are available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
 <figure><img src="../.gitbook/assets/10_01_25_site_settings.svg" alt=""><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
@@ -61,6 +59,18 @@ Choose who sees your published content. See [publish-a-docs-site](publish-a-docs
 
 </details>
 
+<details>
+
+<summary>Adaptive content <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+
+Turn on adaptive content for your site pages, variants, and sections.&#x20;
+
+Your visitor token signing key will also be displayed here.
+
+See [Adaptive content](adaptive-content/) for more info.
+
+</details>
+
 ### Domains & Redirects
 
 <details>
@@ -110,6 +120,8 @@ Choose whether or not visitors to your published content can leave a rating on e
 You can review the results of these ratings by opening the [**Insights**](insights.md) section of your docs site dashboard and selecting the [**Content scores**](insights.md#content-scores) tab.
 
 </details>
+
+
 
 ### Site structure
 

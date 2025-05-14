@@ -1,5 +1,5 @@
 ---
-icon: robot
+icon: wand-magic-sparkles
 description: Use GitBook AI to generate and build content for your page
 ---
 

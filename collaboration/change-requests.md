@@ -13,7 +13,7 @@ In a change request, you can edit, update and delete elements of your content, r
 
 ### Creating a change request
 
-Inside a space where live edits are disabled, click the **Edit in change request** button in the space header to start a new change request.
+Inside a space where live edits are disabled, click the **Edit** button in the [space header](../resources/gitbook-ui.md#space-header) to start a new change request.
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -21,7 +21,7 @@ Once you’re happy with your changes, you can use the button in the header bar 
 
 ### Preview a change request
 
-You can preview the changes you've made in a change request through the preview button in the upper right corner. This will open up a window with your docs and the proposed changes in a staging environment, so you and your team can see your changes in the entire context of your published documentation.
+You can preview the changes you've made in a change request through the preview button in the [space header](../resources/gitbook-ui.md#space-header). This will switch you to a view with your docs and the proposed changes in a preview window, so you can see your changes in the entire context of your published documentation.
 
 {% hint style="info" %}
 You can only preview change requests for spaces added to a [published docs site](../publishing-documentation/publish-a-docs-site/).
@@ -37,7 +37,7 @@ Request a review on your change request when you want to ask members of your tea
 
 You can add a description to your change request to give your reviewers some context, and tag specific people that you want to check your work.
 
-When you click **Request review**, the change request’s status will change to **In review**, and anyone you tagged in your review request will get a notification.
+When you click **Request a review**, the change request’s status will change to **In review**, and anyone you tagged in your review request will get a notification.
 
 If your changes don’t require a review, you can merge your changes into the main version directly instead.
 
@@ -53,14 +53,14 @@ Most reviews will take place in the change request’s [comments](comments.md), 
 
 #### Diff view <a href="#diff-mode" id="diff-mode"></a>
 
-Diff view allows you to toggle a view that makes it easy to see what’s been edited in a change request. It will highlight any edited pages in the space, and on the pages it will show the specific blocks that have been added, edited or removed.
+When you open the **Changes** tab in the space header, the diff view will appear. Diff view highlights every page and block that’s been edited in a change request. It will highlight any edited pages in the table of contents, and on the pages it will show the specific blocks that have been added, edited or removed.
 
-There are two options for using diff view:
+There are two options when using diff view:
 
-1. **All pages** - this is the default mode for diff view, which will show both modified and non-modified pages in the table of contents. This is good for seeing which pages have been edited in the context of the entire space.
-2. **Only changes** - this mode will show only the modified pages in the table of contents, which helps you focus on the changed content. This is particularly helpful in larger spaces with many pages and sub-pages.
+1. **Show all pages** – This is the default mode for diff view, which will show both modified and non-modified pages in the table of contents. This is good for seeing which pages have been edited in the context of the entire space.
+2. **Show only changed pages** – This mode will show only the modified pages in the table of contents, which helps you focus on the changed content. This is particularly helpful in larger spaces with many pages and sub-pages.
 
-You can toggle diff view on or off in any change request.
+You can switch to the **Changes** tab to check the diff view in any change request.
 
 ### Merging a change request
 
@@ -94,4 +94,4 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 If you decide not to merge a change request and want to remove it from the queue, you can archive it.
 
-To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> in the top-right corner of the window and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
+To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt=""></picture> next to the change request’s title and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.

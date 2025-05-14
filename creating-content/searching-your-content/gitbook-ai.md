@@ -12,7 +12,7 @@ When engaging with GitBook AI, you have the ability to ask questions or elaborat
 
 #### For published content
 
-You can enable GitBook AI for any published space or collection in that space’s or collection’s [customization settings](../../publishing-documentation/customization.md).&#x20;
+You can enable GitBook AI for any published space or collection in that space’s or collection’s [customization settings](../../publishing-documentation/customization/).&#x20;
 
 Click the **Customize** button, then open to the **Configure** tab and toggle the **Enable** **GitBook AI semantic search** setting on.
 
@@ -50,7 +50,7 @@ If GitBook AI is enabled for internal content, you’ll be able to do the same t
 
 With our API, you can embed GitBook AI into your product or website! This opens up lots of possibilities, including in-app helpers and website chat bots that can respond to questions based on the content in your documentation.
 
-Head to [our developer documentation](https://developer.gitbook.com/gitbook-api/reference/search#get-ai-search-results-from-all-spaces-for-the-currently-authenticated-user) to find out more.
+Head to [our developer documentation](https://docs.gitbook.com/developers/gitbook-api/api-reference/docs-sites/site-ai-ask#post-orgs-organizationid-sites-siteid-ask) to find out more.
 
 #### How long does it take for GitBook AI to index changes?
 

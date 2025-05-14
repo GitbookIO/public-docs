@@ -16,7 +16,7 @@ You can create as many pages as you need in a space. They’re all visible on th
 
 When in [live edit](../../collaboration/live-edits.md) mode or in a [change request](../../collaboration/change-requests.md), you can create a new page by clicking **Add new...** > **Page** at the bottom of your table of contents. Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
 
-<figure><img src="../../.gitbook/assets/10_01_25_page.svg" alt=""><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/04_02_25_page.svg" alt=""><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
 
 ### Can’t see the option to create a new page?
 

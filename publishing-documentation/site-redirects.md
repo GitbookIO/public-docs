@@ -1,13 +1,11 @@
 ---
-icon: diamond-turn-right
 description: Set up site redirects to route traffic to content anywhere on your site.
+icon: diamond-turn-right
 ---
 
 # Site redirects
 
-{% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 <figure><img src="../.gitbook/assets/10_01_25_redirects.svg" alt=""><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
@@ -17,11 +15,11 @@ In addition to [automatic redirects created by GitBook](site-redirects.md#about-
 
 ## Managing redirects on your site
 
-To get started, view your site’s dashboard in GitBook and click **Settings** <picture><source srcset="../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/settings_icon_light.svg" alt=""></picture> in the top-right corner. Scroll down to the **Redirects** section.
+To get started, view your site’s dashboard in GitBook and open the **Settings** tab, then click **Domain & redirects**.
 
 ### Creating redirects
 
-Click **Add redirect** to begin. Fill in the source path — i.e. the URL slug that you wish to redirect somewhere else — and the destination content you wish to link to. You can pick any [section](site-structure/site-sections.md), [variant](site-structure/variants.md), or [page](../creating-content/content-structure/page.md) on to your site. Click **Add** to create the redirect.&#x20;
+Click **Add redirect** to begin. Fill in the source path — i.e. the URL slug that you wish to redirect somewhere else — and the destination content you wish to link to. You can pick any [section](site-structure/site-sections.md), [variant](site-structure/variants.md), or [page](../creating-content/content-structure/page.md) on to your site. Click **Add** to create the redirect.
 
 If you want to add another redirect to the same page, you can toggle the **Add another redirect** option on before you hit **Add**. When you add your redirect, the modal will remain open with the destination content set to the previous selection so you can add another URL slug immediately.
 
@@ -33,7 +31,7 @@ To delete a redirect, press the **Delete redirect** button and confirm.
 
 ## About automatic redirects
 
-Whenever pages are moved or renamed, their canonical URL changes with them. In order to keep your content accessible, GitBook automatically creates a [HTTP 301](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301) redirect from the old URL to the new one.&#x20;
+Whenever pages are moved or renamed, their canonical URL changes with them. In order to keep your content accessible, GitBook automatically creates a [HTTP 301](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/301) redirect from the old URL to the new one.
 
 Every time a URL is loaded, GitBook resolves it through the following steps:
 

@@ -2,8 +2,7 @@
 
 ## Getting Started
 
-* [Welcome](README.md)
-* [New user guide](getting-started/new-user-guide.md)
+* [GitBook Documentation](README.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Importing content](getting-started/import.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
@@ -50,10 +49,24 @@
 * [Searching content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
-* [OpenAPI](creating-content/openapi/README.md)
-  * [Support for CI/CD with API blocks](creating-content/openapi/support-for-ci-cd-with-api-blocks.md)
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
+
+## API References
+
+* [OpenAPI](api-references/openapi/README.md)
+  * [Add an OpenAPI specification](api-references/openapi/add-an-openapi-specification.md)
+  * [Insert API reference in your docs](api-references/openapi/insert-api-reference-in-your-docs.md)
+* [Guides](api-references/guides/README.md)
+  * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
+  * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
+  * [Managing API operations](api-references/guides/managing-api-operations.md)
+  * [Describing enums](api-references/guides/describing-enums.md)
+  * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
+
+***
+
+* [Extensions reference](extensions-reference.md)
 
 ## Publishing Documentation
 
@@ -63,23 +76,39 @@
 * [Site structure](publishing-documentation/site-structure/README.md)
   * [Content variants](publishing-documentation/site-structure/variants.md)
   * [Site sections](publishing-documentation/site-structure/site-sections.md)
-* [Site customization](publishing-documentation/customization.md)
+* [Site customization](publishing-documentation/customization/README.md)
+  * [Icons, colors, and themes](publishing-documentation/customization/icons-colors-and-themes.md)
+  * [Layout and structure](publishing-documentation/customization/layout-and-structure.md)
+  * [Extra configuration](publishing-documentation/customization/extra-configuration.md)
 * [Set a custom domain](publishing-documentation/custom-domain.md)
+* [Setting a custom subdirectory](publishing-documentation/setting-a-custom-subdirectory/README.md)
+  * [Configuring a subdirectory with Cloudflare](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-cloudflare.md)
+  * [Configuring a subdirectory with Vercel](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel.md)
 * [Site settings](publishing-documentation/site-settings.md)
 * [Site insights](publishing-documentation/insights.md)
 * [Site redirects](publishing-documentation/site-redirects.md)
-* [Visitor Authentication](publishing-documentation/visitor-authentication/README.md)
-  * [Implement Visitor Authentication using Node](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node)
-  * [Implement Visitor Authentication using Next.js and Clerk](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-next.js-and-clerk)
-  * [Implement Visitor Authentication using Node and Auth0](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-auth0)
-  * [Implement Visitor Authentication using Node and Okta](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-okta)
-  * [Implement Visitor Authentication using Node and Azure AD](https://docs.gitbook.com/developers/visitor-authentication/guides/implement-visitor-authentication-using-node-and-azure-ad)
-* [Adaptive content](publishing-documentation/adaptive-content.md)
+* [Visitor authentication](publishing-documentation/visitor-authentication/README.md)
+  * [Enabling visitor authentication](publishing-documentation/visitor-authentication/enabling-visitor-authentication.md)
+  * [Setting up Auth0](publishing-documentation/visitor-authentication/setting-up-auth0.md)
+  * [Setting up Azure AD](publishing-documentation/visitor-authentication/setting-up-azure-ad.md)
+  * [Setting up AWS Cognito](publishing-documentation/visitor-authentication/setting-up-aws-cognito.md)
+  * [Setting up Okta](publishing-documentation/visitor-authentication/setting-up-okta.md)
+  * [Setting up OIDC](publishing-documentation/visitor-authentication/setting-up-oidc.md)
+  * [Setting up a custom backend](publishing-documentation/visitor-authentication/setting-up-a-custom-backend.md)
+* [Adaptive content](publishing-documentation/adaptive-content/README.md)
+  * [Enabling adaptive content](publishing-documentation/adaptive-content/enabling-adaptive-content.md)
+  * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
+  * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
+
+***
+
+* [LLM-ready docs](llm-ready-docs.md)
 
 ## Collaboration
 
 * [Live edits](collaboration/live-edits.md)
 * [Change requests](collaboration/change-requests.md)
+* [AI change requests](collaboration/ai-change-requests.md)
 * [PDF export](collaboration/pdf-export.md)
 * [Inviting your team](collaboration/share.md)
 * [Comments](collaboration/comments.md)
@@ -94,10 +123,10 @@
 
 ## Account management
 
-* [Choose your plan](account-management/plans/README.md)
+* [Plans](account-management/plans/README.md)
   * [Legacy pricing](account-management/plans/legacy-plans.md)
   * [Sponsored site plan](account-management/plans/sponsored-site-plan.md)
-  * [Apply for the Community plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+  * [Non-profit plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)

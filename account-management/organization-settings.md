@@ -22,7 +22,7 @@ You can update the logo and the name of the organization.
 
 **GitBook AI features**
 
-[GitBook’s AI](../creating-content/searching-your-content/gitbook-ai.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../publishing-documentation/customization.md)panel.
+[GitBook’s AI](../creating-content/searching-your-content/gitbook-ai.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../publishing-documentation/customization/)panel.
 
 **Publishing**
 
@@ -37,7 +37,7 @@ You can update the GitBook subdomain here, as well as the default content, which
 
 **Actions**
 
-From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://gitbook.com/docs/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
+From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](../creating-content/content-structure/space.md#move-a-space) them to another library.
 
 </details>
 

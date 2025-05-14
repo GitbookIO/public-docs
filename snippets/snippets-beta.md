@@ -1,14 +1,15 @@
 ---
-icon: scissors
 description: >-
   Add snippets of knowledge from your favorite tools, and GitBook AI will turn
   them into something useful
+noIndex: true
+icon: scissors
 ---
 
 # Snippets (beta)
 
 {% hint style="warning" %}
-The Snippets feature is no longer maintained in GitBook and is subject to change. We recommend to structure your content a [space](../creating-content/content-structure/space.md) instead.
+The Snippets feature is no longer maintained in GitBook and is subject to change. We recommend to structure your content in a [space](../creating-content/content-structure/space.md) instead.
 {% endhint %}
 
 {% hint style="info" %}

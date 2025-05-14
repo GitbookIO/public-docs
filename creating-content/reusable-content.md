@@ -1,21 +1,47 @@
 ---
-icon: repeat
 description: >-
-  Create reusable blocks of content that can be used multiple times within a
-  space, and all updated at once when you change an instance
+  Create reusable blocks of content that can be used across spaces, and all
+  updated at once when you change an instance
+icon: repeat
 ---
 
 # Reusable content
 
 {% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
-Reusable content lets you sync content across multiple pages in a GitBook space, so you can edit all instances of the block at the same time.
+Reusable content lets you sync content across multiple pages and spaces, so you can edit all instances of the block at the same time.
 
-<figure><img src="../.gitbook/assets/10_01_25_reusable_content.svg" alt=""><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/04_02_25_reusable_content.svg" alt=""><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
+
+## Fundamentals
+
+Reusable content works just like any other content—you can modify it via change requests, include it in review workflows, and it will render correctly on any published site.
+
+While reusable content can be referenced across multiple spaces, it belongs to a single _parent space_.
+
+### The "parent space" concept
+
+The parent space is the space that owns the reusable content. It’s the only place where that content can be edited.
+
+Even though updates to reusable content will appear instantly in all instances, all changes must originate from the parent space—either as a direct edit or through a change request.
+
+Spaces are a core concept in GitBook, supporting both editorial workflows and security. Because GitBook enforces permission-based editing, reusable content can only be changed from its parent space. This ensures that editing rights are respected, even when the content is reused across the organization.
+
+### Known limitations
+
+#### Integrations
+
+Blocks provided by integrations are not supported in reusable content. This is because integrations in GitBook are installed per space, and limiting access ensures that third-party integrations only have the permissions you grant. Referencing reusable content across spaces would break this security boundary.
+
+#### Search
+
+Currently, reusable content only appears in search results within its parent space. We’re actively working to remove this limitation so that reusable content shows up in search results wherever it’s referenced.
+
+## In the app
 
 ### **Create reusable content**
 
-To create reusable content, [select one or more blocks](blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> and choose **Turn into reusable content**. You can also give your block a name to make it easier to find and reuse later.
+To create reusable content, [select one or more blocks](blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> , select **Turn into**, and choose **Reusable content**. You can also give your block a name to make it easier to find and reuse later.
 
 Alternatively, you can select one or more blocks and then hit **Cmd + C** to open a prompt asking if you want to create reusable content.
 
@@ -43,12 +69,16 @@ You can delete reusable content from your space entirely, if you wish. Find the 
 
 Deleting reusable content will **delete it from all pages it is used in**. This action cannot be undone.
 
-### Syncing with GitHub & GitLab
+## Syncing with GitHub & GitLab
 
 Reusable content is fully supported when syncing to GitHub & GitLab. Your reusable content will be exported to a dedicated `includes` folder, each content being a separate Markdown file.
 
 Your content is then referenced in your other pages using the `include` directive.
 
-{% hint style="warning" %}
-Reusable content is currently scoped to a single space. We are working on an improvement to allow access to reusable content across your entire organization. Duplicating a space will not duplicate its reusable content.
-{% endhint %}
+#### Example
+
+```markdown
+{% raw %}
+{% include "../../.gitbook/includes/reusable-block.md" %}
+{% endraw %}
+```

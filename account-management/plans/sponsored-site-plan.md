@@ -16,7 +16,9 @@ This plan relates only to published sites. This plan does not include any featur
 
 ### Apply for the sponsored site plan
 
-The sponsored site plan is designed specifically for sites. View the steps below to learn how to publish your first sponsored site.
+The sponsored site plan is designed specifically for **open source projects**. Please not we do not accept cryptocurrency, web3 or related projects for this plan.&#x20;
+
+View the steps below to learn how to publish your first sponsored site.
 
 {% stepper %}
 {% step %}
@@ -61,6 +63,7 @@ Once your site is live, here’s how the sponsored site plan operates:
 Your site may be rejected for the sponsored site plan for several reasons. Common reasons include, but are not limited to:
 
 * Your project is not an open source or not-for-profit project.
+* Your project is a cryptocurrency project.
 * The site is not published in English as it's **primary** language.
 * The site does not contain quality content.
 * The site does not reach a minimum number of page views per month.
@@ -74,6 +77,16 @@ Your site may be rejected for the sponsored site plan for several reasons. Commo
 The CPM (cost per 1000) fluctuates, meaning there isn't a set $ amount per view.
 
 After your site is approved, you'll gain access to your ads dashboard, giving you more insights into how your site performs over time.
+
+</details>
+
+<details>
+
+<summary>What happens if I don't submit my site for review?</summary>
+
+The sponsored site plan allows you to use ultimate site features to get your site ready before submitting it for review.
+
+Any site not submitted for revierw after 1 month will automatically revert back to a free plan, and any ultimate site features used will be turned off, including things like custom domains, customizations, and more.
 
 </details>
 

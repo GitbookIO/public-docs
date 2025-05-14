@@ -1,12 +1,14 @@
 ---
-icon: globe-pointer
 description: Set a custom domain for your docs sites
+icon: globe-pointer
 ---
 
 # Set a custom domain
 
-{% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
+
+{% hint style="warning" %}
+This page shows how to configure a custom domain and subdomain. If you would like to configure a custom subdirectory (such as `example.com/docs`), see the [setting-a-custom-subdirectory](setting-a-custom-subdirectory/ "mention") page.
 {% endhint %}
 
 By default, your sites are accessible on a `[subdomain].gitbook.io` domain.&#x20;
