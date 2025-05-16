@@ -77,6 +77,10 @@ Your content is then referenced in your other pages using the `include` directiv
 
 #### Example
 
+{% hint style="success" %}
+If you're writing on the GitHub side, ensure the path to the include is relative to the file containing the reference (not the root of the repository).
+{% endhint %}
+
 ```markdown
 {% raw %}
 {% include "../../.gitbook/includes/reusable-block.md" %}
