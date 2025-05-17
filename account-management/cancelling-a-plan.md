@@ -5,7 +5,7 @@ description: Cancel your subscription.
 
 # Subscription cancellations
 
-If you’re thinking about cancelling a plan because you’re running into any issues while using GitBook, please [contact](https://docs.gitbook.com/help-center/support/how-do-i-contact-support) our support team! If there’s anything we can solve, we’re here to help.
+If you’re thinking about cancelling a plan because you’re running into any issues while using GitBook, please [contact](https://gitbook.com/docs/help-center/support/how-do-i-contact-support) our support team! If there’s anything we can solve, we’re here to help.
 
 Here’s how to cancel your plan:
 

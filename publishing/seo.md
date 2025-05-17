@@ -33,7 +33,7 @@ Note that we _don’t_ generate keyword meta tags, because modern search engines
 
 <summary>Sitemap</summary>
 
-Provided that your space is published with a setting _other_ than [unlisted](share/space-publishing.md#unlisted-space), we automatically generate a sitemap.xml file based on your [table of contents](https://docs.gitbook.com/getting-started/overview#table-of-contents). You can locate this by going to the first page of your documentation and then appending `/sitemap.xml` to the URL. For example, the first page of our documentation is located at [docs.gitbook.com](https://docs.gitbook.com/), and so our sitemap.xml file is located at [docs.gitbook.com/sitemap.xml](https://docs.gitbook.com/sitemap.xml).
+Provided that your space is published with a setting _other_ than [unlisted](share/space-publishing.md#unlisted-space), we automatically generate a sitemap.xml file based on your [table of contents](https://gitbook.com/docs/getting-started/overview#table-of-contents). You can locate this by going to the first page of your documentation and then appending `/sitemap.xml` to the URL. For example, the first page of our documentation is located at [gitbook.com/docs](https://gitbook.com/docs/), and so our sitemap.xml file is located at [gitbook.com/docs/sitemap.xml](https://gitbook.com/docs/sitemap.xml).
 
 </details>
 

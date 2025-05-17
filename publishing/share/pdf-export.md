@@ -31,7 +31,7 @@ Regardless of the configured customization setting shown above, members of an or
 
 ### How to export an individual page
 
-1. You can access the export menu through [page actions](https://docs.gitbook.com/getting-started/overview#page-actions) which are displayed on the right-hand side of the editor. Alternatively, navigate to the **share** button in the top right-hand corner and click on 'Export as PDF' in the share modal.
+1. You can access the export menu through [page actions](https://gitbook.com/docs/getting-started/overview#page-actions) which are displayed on the right-hand side of the editor. Alternatively, navigate to the **share** button in the top right-hand corner and click on 'Export as PDF' in the share modal.
 2. Go to the page that you would like to export, and click **export as PDF** in page actions.
 3. Select **only this page**.
 4. Click the **export** button.
@@ -45,7 +45,7 @@ Regardless of the configured customization setting shown above, members of an or
 
 ### How to export an entire space
 
-1. Navigate to the [page actions](https://docs.gitbook.com/getting-started/overview#page-actions) menu on the right-hand side of the editor. Alternatively, navigate to the **share** button in the top right-hand corner and click on 'Export as PDF' in the share modal.
+1. Navigate to the [page actions](https://gitbook.com/docs/getting-started/overview#page-actions) menu on the right-hand side of the editor. Alternatively, navigate to the **share** button in the top right-hand corner and click on 'Export as PDF' in the share modal.
 2. Go to any page within the space you'd like to export and click **export as PDF** in page actions.
 3. Select the **entire space**.
 4. Click the **export** button.

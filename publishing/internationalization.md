@@ -16,7 +16,7 @@ Administrators and creators can change the language of the user interface for pu
 
 Currently, the supported languages are English, French, Spanish, Chinese (simplified), and Japanese.
 
-By default, your content will have the **English** language selected. To change this, click **customize** in the [space sub-navigation](https://docs.gitbook.com/getting-started/overview#space-sub-navigation), go to the **configure** tab, and use the dropdown menu in the **localize user interface** setting.
+By default, your content will have the **English** language selected. To change this, click **customize** in the [space sub-navigation](https://gitbook.com/docs/getting-started/overview#space-sub-navigation), go to the **configure** tab, and use the dropdown menu in the **localize user interface** setting.
 
 <div data-full-width="true">
 
