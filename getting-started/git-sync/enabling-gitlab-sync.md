@@ -56,3 +56,7 @@ You’re good to go. You’ll notice that if your space was in [live edit](../..
 When you edit on GitBook, every change request merge will result in a commit to your selected GitLab branch.
 
 When you commit to GitLab, every commit will be synced to your GitBook space as a history commit.
+
+### "Edit on GitLab" Link
+
+You can optionally show a link for your users to contribute to your documentation from your linked repository. To enable, select [Customize > Configuration](../../publishing-documentation/customization/extra-configuration.md).

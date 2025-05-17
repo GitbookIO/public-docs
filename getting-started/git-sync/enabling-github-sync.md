@@ -58,3 +58,7 @@ When you commit to GitHub, every commit will be synced to your GitBook space as 
 {% hint style="warning" %}
 The GitHub app that powers our GitHub integration is currently not available to customers on GitHub Enterprise Server instances.
 {% endhint %}
+
+### "Edit on Github" Link
+
+You can optionally show a link for your users to contribute to your documentation from your linked repository. To enable, select [Customize > Configuration](../../publishing-documentation/customization/extra-configuration.md).
