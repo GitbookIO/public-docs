@@ -10,7 +10,7 @@ icon: i-cursor
 To format your text, simply select the words you want and choose one of the formats from the context menu — or format your text using a keyboard shortcut or through Markdown syntax.
 
 {% hint style="info" %}
-We’ve written these shoradolestcuts using Mac keys. Use **Control** in place of **⌘ (Command)** on Windows or Linux operating systems. Check out our [keyboard shortcuts](../../resources/keyboard-shortcuts.md) section to see all the shortcuts for all operating systems.
+We’ve written these shortcuts using Mac keys. Use **Control** in place of **⌘ (Command)** on Windows or Linux operating systems. Check out our [keyboard shortcuts](../../resources/keyboard-shortcuts.md) section to see all the shortcuts for all operating systems.
 {% endhint %}
 
 ### Bold
