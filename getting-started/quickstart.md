@@ -45,7 +45,7 @@ Finally, you’re ready to publish your site into the world. If you haven’t al
 
 After publishing your site, you’ll get a link that you’re able to share with anyone!
 
-If you’re running into problems or have any questions, we’re here to help. [Join our community](https://github.com/orgs/GitbookIO/discussions) or [send our support team a message](https://gitbook.com/docs/help-center/support/how-do-i-contact-support) and we’ll help you from there.
+If you’re running into problems or have any questions, we’re here to help. [Join our community](https://github.com/orgs/GitbookIO/discussions) or [send our support team a message](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) and we’ll help you from there.
 
 {% hint style="success" %}
 Want to explore publishing in more details? Check out [our complete guide to creating and publishing content in GitBook](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/complete-guide-to-publishing-docs-gitbook).
