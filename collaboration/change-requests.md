@@ -1,6 +1,6 @@
 ---
-icon: code-branch
 description: Collaborate on content edits through change requests
+icon: code-branch
 ---
 
 # Change requests
@@ -65,6 +65,32 @@ You can switch to the **Changes** tab to check the diff view in any change reque
 ### Merging a change request
 
 Merging a change request will add the change request’s changes into the main branch of content, creating an updated version and a new entry in the space’s [version history](../creating-content/version-control.md#see-the-activity-of-a-specific-draft).
+
+#### Scheduling Merges
+
+If you prefer to merge change requests at a scheduled time—for example, to align with your product release cycles—you can use external tools like GitHub Actions or automation platforms such as Zapier, connected through [GitBook’s API](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests#post-spaces-spaceid-change-requests-changerequestid-merge).
+
+As an example, adding this GitHub workflow would merege a change request once a week:&#x20;
+
+{% code title=".github/workflows/scheduled-gitbook-merge.yml" %}
+```yaml
+name: Scheduled GitBook Merge
+
+on:
+  schedule:
+    - cron: '0 9 * * 3'  # Runs every Wednesday at 09:00 UTC
+
+jobs:
+  merge_changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge Change Request
+        run: |
+          curl -X POST https://api.gitbook.com/v1/spaces/{space-id}/change-requests/{change-request-id}/merge \
+          -H 'Authorization: Bearer YOUR_API_KEY' \
+          -H 'Content-Type: application/json'
+```
+{% endcode %}
 
 {% hint style="info" %}
 Only [administrators, creators, and reviewers](../account-management/member-management/roles.md) can merge change requests.
