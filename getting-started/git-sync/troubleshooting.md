@@ -4,8 +4,8 @@
 
 In case of errors, make sure that:‌
 
-* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
-* If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
+- Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
+- If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
 
 ## ​GitBook is not using my `docs` folder <a href="#gitbook-is-not-using-my-docs-folder" id="gitbook-is-not-using-my-docs-folder"></a>
 
@@ -25,9 +25,9 @@ Make sure that you have installed the GitBook GitHub app to the correct location
 
 Make sure that your access token has been configured with the following access:
 
-* `api`
-* `read_repository`
-* `write_repository`
+- `api`
+- `read_repository`
+- `write_repository`
 
 ## ​Nothing happens on GitBook after adding a new file to my repository <a href="#nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository" id="nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository"></a>
 
@@ -43,7 +43,7 @@ This could either be because you created the file manually, or because you made 
 
 The content of this file mirrors your [table of contents](../../resources/gitbook-ui.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
-If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](https://docs.gitbook.com/help-center/support/how-do-i-contact-support) for assistance.
+If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) for assistance.
 
 ## GitHub preview is not showing
 

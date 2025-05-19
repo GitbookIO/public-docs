@@ -7,7 +7,7 @@ description: Publish your documentation to the internet as a docs site
 
 Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.&#x20;
 
-The content on your site comes from [spaces](https://docs.gitbook.com/content-editor/editor/content-structure/what-is-a-space) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
+The content on your site comes from [spaces](https://gitbook.com/docs/creating-content/content-structure/space) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
 
 <figure><img src="../../.gitbook/assets/10_01_25_docs_dashboard.svg" alt=""><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
 
