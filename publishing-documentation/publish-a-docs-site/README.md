@@ -1,13 +1,13 @@
 ---
-icon: globe
 description: Publish your documentation to the internet as a docs site
+icon: globe
 ---
 
 # Publish a docs site
 
-Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.&#x20;
+Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.
 
-The content on your site comes from [spaces](https://gitbook.com/docs/creating-content/content-structure/space) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
+The content on your site comes from [spaces](../../creating-content/content-structure/space.md) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
 
 <figure><img src="../../.gitbook/assets/10_01_25_docs_dashboard.svg" alt=""><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
 
@@ -39,4 +39,4 @@ You can view all the permissions set for users with access to the docs site from
 
 Users with **Administrator** or **Creator** permissions on _any_ space linked to a specific docs site will have full access permissions for the site. This means that they’ll be able to control any of the publishing and customization settings.
 
-Users with **Reviewer**, **Editor**, **Commenter**, or **Reader** permissions on any space linked to a specific site will get read-only permissions. This means they will see the docs site in your organization, but won’t be able to access any of its settings.&#x20;
+Users with **Reviewer**, **Editor**, **Commenter**, or **Reader** permissions on any space linked to a specific site will get read-only permissions. This means they will see the docs site in your organization, but won’t be able to access any of its settings.
