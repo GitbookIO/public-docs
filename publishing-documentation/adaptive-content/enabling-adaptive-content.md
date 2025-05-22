@@ -37,6 +37,38 @@ For example, if you expect a visitor to potentially be a beta user in your produ
 
 This will also help you use autocomplete when configuring your claims in the [condition editor](adapting-your-content.md#working-with-the-condition-editor).
 
+If you intend to work with unsigned claims, you will need to declare the claims you are expecting in the schema under an “unsigned” prop alongside your signed claims.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "isBetaUser": {
+      "type": "boolean",
+      "description": "Whether the visitor is a Beta user.”
+    },
+  },
+  // Add unsigned claims
+  "unsigned": {
+    "type": "object",
+    "description": "Unsigned claims of the site visitor.",
+    "properties": {
+      "language": {
+        "type": "string",
+        "description": "The language of the visitor",
+        "enum": [
+          "en",
+          "fr",
+          "it"
+        ]
+      }
+    },
+    "additionalProperties": false
+  }
+  "additionalProperties": false
+}
+```
+
 Next, you’ll need to decide how you want to pass your visitor data to GitBook.
 
 ### Ways to pass visitors's data to GitBook
@@ -50,7 +82,7 @@ GitBook provides different ways to pass visitor data to adapt your site's conten
 
 <table data-full-width="false"><thead><tr><th width="323.2421875">Method</th><th width="266.6015625">Use-cases</th><th width="206.58984375">Ease of setup</th><th width="202">Security</th><th>Format</th><th>Transport</th></tr></thead><tbody><tr><td>Signed cookie <code>gitbook-visitor-token</code></td><td>API test credentials, customer identification, etc</td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td><td>Cookies</td></tr><tr><td>Public cookie <code>gitbook-visitor</code></td><td>Feature flags</td><td>Easy to use</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td><td>Cookies</td></tr><tr><td>Signed query parameter <code>token</code></td><td></td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td><td>URL</td></tr><tr><td>Query parameters <code>gitbook_&#x3C;prop>=</code></td><td></td><td>Easy to use</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td><td>URL</td></tr></tbody></table>
 
-### Cookie method
+### Signed cookie method
 
 {% hint style="info" %}
 This approach only works if your site is served under a subdomain of your application domain. To set up a custom domain on your site follow the steps outlined [in this section](../custom-domain.md).
@@ -158,6 +190,16 @@ Following the example above, the data available for this user could look like:
       }
    }
 }
+```
+
+### Pass unsigned claims via query parameters
+
+After setting up your schema to accept unsigned claims, you’ll be able to pass them through the URL of your published site.&#x20;
+
+For instance, in the [example above](enabling-adaptive-content.md#set-your-adaptive-schema), we can pass the language claim to our published site when visiting this url:
+
+```url
+https://docs.acme.org/?visitor.language=fr
 ```
 
 ### Visitor authentication method
