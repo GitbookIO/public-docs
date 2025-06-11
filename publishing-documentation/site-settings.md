@@ -67,8 +67,6 @@ Turn on adaptive content for your site pages, variants, and sections. Adaptive c
 
 Your visitor token signing key will also be displayed here.
 
-See our [adaptive content page](adaptive-content/) for more info.
-
 {% hint style="info" %}
 **Note:** For now, the adaptive content page is only available to a small selection of beta testers as we prepare this feature for wider rollout. It will be available publicly soon.
 {% endhint %}
