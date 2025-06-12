@@ -5,10 +5,10 @@ description: Set up an Auth0 login screen for visitors to your docs.
 # Setting up Auth0
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through “[Enabling visitor authentication](enabling-visitor-authentication.md)”.
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through "[Enabling authenticated access](enabling-authenticated-access.md)".
 {% endhint %}
 
-To setup your GitBook site with visitor authentication using Auth0, the process looks as follows:
+To setup your GitBook site with authenticated access using Auth0, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -45,7 +45,7 @@ Click on Save Settings And Continue.
 
 Click on Settings next to Quickstart, and make a note of the Domain, Client ID, and Client Secret.\
 \
-We will need these to configure our Auth0 Visitor Authentication Integration.
+We will need these to configure our Auth0 Authenticated Access Integration.
 
 {% hint style="info" %}
 Please ensure at least one connection is enabled for your Auth0 application.
@@ -71,9 +71,9 @@ Click Save.
 
 Copy the URL displayed in the modal and enter it as an Allowed Callback URL in Auth0 (shown in the second screenshot in this guide). Hit Save
 
-Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Visitor Authentication, and choose Auth0 as the backend. and click Update audience. Go to the site's screen and click Publish.\
+Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Authenticated Access, and choose Auth0 as the backend. Then, click Update audience. Go to the site’s screen and click Publish.\
 \
-The site is now published behind Visitor Authentication controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Auth0, which confirms that your site is published behind Visitor Authentication using Auth0.
+The site is now published behind Authenticated Access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Auth0, which confirms that your site is published behind Authenticated Access using Auth0.
 
 ### Configure Auth0 for adaptive content
 

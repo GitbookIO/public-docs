@@ -5,7 +5,7 @@ description: Set up an Azure AD login screen for visitors to your docs.
 # Setting up Azure AD
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through “[Enabling visitor authentication](enabling-visitor-authentication.md)”.
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through "[Enabling authenticated access](enabling-authenticated-access.md)".
 {% endhint %}
 
 {% hint style="info" %}
@@ -16,7 +16,7 @@ This is due to a security measure put in place by Microsoft.
 
 ### Overview
 
-To setup your GitBook site with visitor authentication using Azure AD, the process looks as follows:
+To setup your GitBook site with authenticated access using Azure AD, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -73,14 +73,14 @@ Start by creating an app registration in your Microsoft Entra ID dashboard. This
 
 Once you've created the Azure AD app registration, the next step is to install the Azure AD integration in GitBook and link it with your Azure application using the credentials you generated earlier:
 
-1. Navigate to the site where you've [enabled Visitor Authentication](enabling-visitor-authentication.md#enable-visitor-authentication) and want to use Azure AD as the identity provider.
+1. Navigate to the site where you’ve [enabled Authenticated Access](enabling-authenticated-access.md#enable-authenticated-access) and want to use Azure AD as the identity provider.
 2.  Click on the **Integrations** button in the top right from your site’s settings.\
 
 
     <figure><img src="../../.gitbook/assets/va_site_integration_overview_screen.png" alt=""><figcaption></figcaption></figure>
 
 
-3. Click on **Visitor Authentication** from the categories in the sidebar.
+3. Click on **Authenticated Access** from the categories in the sidebar.
 4. Select the **Azure** integration.
 5.  Click **Install on this site**.\
 
@@ -106,7 +106,7 @@ Once you've created the Azure AD app registration, the next step is to install t
 
 13. Head back to **Azure integration** installation screen **in GitBook**.
 14. Close the integration dialogs and click on the **Settings** tab in the site screen.
-15. Browse to **Audience** and select **Visitor authentication** (if not already selected).
+15. Browse to **Audience** and select **Authenticated access** (if not already selected).
 16. Select **Azure** from the dropdown in the **Authentication backend** section.
 17. Click **Update audience**.\
 
@@ -115,9 +115,9 @@ Once you've created the Azure AD app registration, the next step is to install t
 18. Head to the site's overview screen and click **Publish** if the site is not already published. &#x20;
 
 \
-Your site is now published behind Visitor Authentication using your Azure AD as identity provider.&#x20;
+Your site is now published behind Authenticated Access using your Azure AD as identity provider.&#x20;
 
-To test it out, click on Visit. You will be asked to sign in with Azure, which confirms that your site is published behind Visitor Authentication using Azure.
+To test it out, click on Visit. You will be asked to sign in with Azure, which confirms that your site is published behind Authenticated Access using Azure.
 
 {% hint style="info" %}
 Upon accessing the published content URL and after logging in with your Azure credentials, you may see a screen telling you that you need to "Request approval" from your admin. Your admin can grant this request by accessing the published content URL, logging in, and granting approval on behalf of the organization.
@@ -127,7 +127,7 @@ Upon accessing the published content URL and after logging in with your Azure cr
 
 {% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
 
-To leverage the Adaptive Content capability in your visitor authentication site, configure the Azure AD app registration to include additional user information in the authentication token as claims.&#x20;
+To leverage the Adaptive Content capability in your authenticated access site, configure the Azure AD app registration to include additional user information in the authentication token as claims.&#x20;
 
 These claims, represented as key-value pairs, are passed to GitBook and can be used to [adapt content](../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
 

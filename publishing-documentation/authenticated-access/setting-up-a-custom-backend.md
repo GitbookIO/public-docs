@@ -5,7 +5,7 @@ description: Set up an custom login screen for visitors to your docs.
 # Setting up a custom backend
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through “[Enabling visitor authentication](enabling-visitor-authentication.md)”.
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through "[Enabling authenticated access](enabling-authenticated-access.md)".
 {% endhint %}
 
 This guide walks you through setting up a protected sign-in screen for your GitBook documentation site using your own **custom** authentication backend.
@@ -40,7 +40,7 @@ Configure a URL to be used when an unauthenticated visitor access your site.
 {% endstep %}
 
 {% step %}
-### [Set up multi-tenant Visitor Authentication (optional)](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-visitor-authentication)
+### [Set up multi-tenant Authenticated Access (optional)](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access)
 
 Configure your backend to handle authentication across multiple GitBook sites.
 {% endstep %}
@@ -65,7 +65,7 @@ Your backend should:
 
 ### 2. Sign and pass a JWT token to GitBook
 
-Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling Visitor Authentication](enabling-visitor-authentication.md#enable-visitor-authentication).&#x20;
+Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling Authenticated Access](enabling-authenticated-access.md#enable-authenticated-access).&#x20;
 
 The following example should demonstrate how a login request handler in your custom backend could look like:&#x20;
 
@@ -109,7 +109,7 @@ This URL should point to a handler in your custom backend, where you can prompt 
 
 For instance, if your login screen is located at `https://example.com/login`, you should include this value as the fallback URL.
 
-You can configure this fallback URL within your site's audience settings under the “Visitor authentication” tab.
+You can configure this fallback URL within your site’s audience settings under the "Authenticated access" tab.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 15.00.08.png" alt=""><figcaption><p>Configure a fallback URL</p></figcaption></figure>
 
@@ -128,9 +128,9 @@ const redirectURL = `${GITBOOK_DOCS_URL}/${req.query.location || ''}?jwt_token=$
 res.redirect(redirectURL);
 ```
 
-### 4. Set up multi-tenant Visitor Authentication (optional)
+### 4. Set up multi-tenant Authenticated Access (optional)
 
-If you're using GitBook as a platform to provide content to your different customers, you probably need to set up multi-tenant visitor authentication. Your authentication backend needs to be responsible for handling authentication across multiple different sites. This is possible in GitBook with a few small tweaks to your custom authentication backend code.
+If you’re using GitBook as a platform to provide content to your different customers, you probably need to set up multi-tenant authenticated access. Your authentication backend needs to be responsible for handling authentication across multiple different sites. This is possible in GitBook with a few small tweaks to your custom authentication backend code.
 
 #### Adding all tenants to your authentication server
 
@@ -179,7 +179,7 @@ res.redirect(redirectURL);
 
 {% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
 
-To leverage the Adaptive Content capability in your visitor authentication setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
+To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
 
 These claims when included in the JWT are used by GitBook to [adapt content](../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
 

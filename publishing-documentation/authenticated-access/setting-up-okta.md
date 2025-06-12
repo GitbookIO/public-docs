@@ -5,10 +5,10 @@ description: Set up an Okta login screen for visitors to your docs.
 # Setting up Okta
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through “[Enabling visitor authentication](enabling-visitor-authentication.md)”.
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through "[Enabling authenticated access](enabling-authenticated-access.md)".
 {% endhint %}
 
-To setup your GitBook site with visitor authentication using Okta, the process looks as follows:
+To setup your GitBook site with authenticated access using Okta, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -68,9 +68,9 @@ Copy the URL displayed in the modal and enter it as a Sign-In redirect URI in Ok
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-01-14 at 7.55.08 PM.png" alt=""><figcaption></figcaption></figure>
 
-Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Visitor Authentication, and choose Okta as the backend. and click Update audience. Go to the site's screen and click Publish.\
+Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Authenticated Access, and choose Okta as the backend. Then, click Update audience. Go to the site's screen and click Publish.\
 \
-The site is now published behind Visitor Authentication controlled by your Okta application. To try it out, click on Visit. You will be asked to sign in with Okta, which confirms that your site is published behind Visitor Authentication using Okta.
+The site is now published behind Authenticated Access controlled by your Okta application. To try it out, click on Visit. You will be asked to sign in with Okta, which confirms that your site is published behind Authenticated Access using Okta.
 
 ### Configure Okta for adaptive content
 
