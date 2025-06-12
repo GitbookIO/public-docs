@@ -4,7 +4,7 @@ To protect your docs behind a sign-in screen, you’ll need to first enable auth
 
 ### Enable authenticated access
 
-Head to your [site’s settings](../site-settings.md), and choose "Authenticated access" from your site’s audience settings. Once selected, you’ll see a few options you’ll need to continue configuring your site. You’ll also see a generated "**Private key**", which you’ll need at a later point in the authenticated access setup.
+Head to your [site’s settings](../site-settings.md), and choose **Authenticated access** from your site’s audience settings. Once selected, you’ll see a few options you’ll need to continue configuring your site. You’ll also see a generated "**Private key**", which you’ll need at a later point in the authenticated access setup.
 
 ### Choose an authentication method
 
