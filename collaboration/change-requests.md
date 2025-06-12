@@ -28,7 +28,7 @@ You can only preview change requests for spaces added to a [published docs site]
 {% endhint %}
 
 {% hint style="warning" %}
-If your content is published using share links or visitor authentication, the preview function won't appear.
+If your content is published using share links or authenticated access, the preview function won't appear.
 {% endhint %}
 
 ### Request a review on a change request
