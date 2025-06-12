@@ -5,7 +5,7 @@ description: Set up an Azure AD login screen for visitors to your docs.
 # Setting up Azure AD
 
 {% hint style="warning" %}
-This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through "[Enabling authenticated access](enabling-authenticated-access.md)".
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
 
 {% hint style="info" %}
@@ -73,7 +73,7 @@ Start by creating an app registration in your Microsoft Entra ID dashboard. This
 
 Once you've created the Azure AD app registration, the next step is to install the Azure AD integration in GitBook and link it with your Azure application using the credentials you generated earlier:
 
-1. Navigate to the site where you’ve [enabled Authenticated Access](enabling-authenticated-access.md#enable-authenticated-access) and want to use Azure AD as the identity provider.
+1. Navigate to the site where you’ve [enabled authenticated access](enabling-authenticated-access.md#enable-authenticated-access) and want to use Azure AD as the identity provider.
 2.  Click on the **Integrations** button in the top right from your site’s settings.\
 
 
@@ -115,9 +115,9 @@ Once you've created the Azure AD app registration, the next step is to install t
 18. Head to the site's overview screen and click **Publish** if the site is not already published. &#x20;
 
 \
-Your site is now published behind Authenticated Access using your Azure AD as identity provider.&#x20;
+Your site is now published behind authenticated access using your Azure AD as identity provider.&#x20;
 
-To test it out, click on Visit. You will be asked to sign in with Azure, which confirms that your site is published behind Authenticated Access using Azure.
+To test it out, click on Visit. You will be asked to sign in with Azure, which confirms that your site is published behind authenticated access using Azure.
 
 {% hint style="info" %}
 Upon accessing the published content URL and after logging in with your Azure credentials, you may see a screen telling you that you need to "Request approval" from your admin. Your admin can grant this request by accessing the published content URL, logging in, and granting approval on behalf of the organization.
