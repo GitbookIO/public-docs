@@ -1,15 +1,12 @@
 ---
 description: Deliver a tailored documentation experience based on who's reading.
-if: visitor.claims.flags.ADAPTIVE_CONTENT == true
 noIndex: true
 icon: stars
 ---
 
 # Adaptive content
 
-{% hint style="info" %}
-This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
 
 When a user visits your site, you may already know things about them - who they are, which plan they're subscribed to, which features they have access to.
 
