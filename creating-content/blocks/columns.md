@@ -12,7 +12,7 @@ Columns are a great way to create different layouts for your documentation. You 
 
 Integrate your documentation right into your product experience, or give users a personalized experience that gives them what they need faster.
 
-<a href="https://www.gitbook.com/#alpha-waitlist" class="button primary">Join the waitlist</a>
+<a href="https://www.gitbook.com/#alpha-waitlist" class="button primary">Learn more</a>
 {% endcolumn %}
 
 {% column %}

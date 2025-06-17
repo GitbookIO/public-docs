@@ -122,4 +122,6 @@ Buttons have both primary and secondary styles. Here are a couple of examples:
 
 Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../publishing-documentation/customization/icons-colors-and-themes.md).&#x20;
 
+<i class="fa-facebook">:facebook:</i>  <i class="fa-github">:github:</i>  <i class="fa-x-twitter">:x-twitter:</i>  <i class="fa-instagram">:instagram:</i>
+
 Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.
