@@ -1,6 +1,6 @@
 ---
-icon: square-dashed-circle-plus
 description: Add and edit blocks within your content.
+icon: square-dashed-circle-plus
 ---
 
 # Blocks
@@ -49,3 +49,4 @@ To make a block full width, click on the **Options menu** <picture><source srcse
 * Cards
 * API Blocks
 * Integration blocks
+* Columns

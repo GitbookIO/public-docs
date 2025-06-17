@@ -117,3 +117,9 @@ Buttons are a great way to describe calls to action. You can use them to send us
 Buttons have both primary and secondary styles. Here are a couple of examples:
 
 <a href="https://app.gitbook.com/join" class="button primary">Sign up to GitBook</a> <a href="inline.md#annotations" class="button secondary">Go to top</a>
+
+### Icons
+
+Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../publishing-documentation/customization/icons-colors-and-themes.md).&#x20;
+
+Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.

@@ -1,0 +1,21 @@
+---
+description: Add a column to create different layouts in your documentation.
+---
+
+# Columns
+
+Columns are a great way to create different layouts for your documentation. You can add many different types of blocks inside a column, and adjust the width of each side to customize it to the design you need.
+
+{% columns %}
+{% column width="50%" %}
+### Create a seamless experience between your docs and product
+
+Integrate your documentation right into your product experience, or give users a personalized experience that gives them what they need faster.
+
+<a href="https://www.gitbook.com/#alpha-waitlist" class="button primary">Join the waitlist</a>
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../.gitbook/assets/GitBook vision post.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
