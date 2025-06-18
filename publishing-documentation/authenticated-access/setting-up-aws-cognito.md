@@ -5,10 +5,10 @@ description: Set up an AWS Cognito login screen for visitors to your docs.
 # Setting up AWS Cognito
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through “[Enabling visitor authentication](enabling-visitor-authentication.md)”.
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
 
-To setup your GitBook site with visitor authentication using AWS Cognito, the process looks as follows:
+To setup your GitBook site with authenticated access using AWS Cognito, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -46,7 +46,7 @@ Click on the created app client and make a note of the Client ID and Client Secr
 
 ### Install and configure the AWS Cognito integration
 
-Navigate to integrations within the GitBook app, select Visitor Authentication as the category, and install the AWS Cognito integration.
+Navigate to integrations within the GitBook app, select authenticated access as the category, and install the AWS Cognito integration.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -64,9 +64,10 @@ For Client ID, Cognito Domain, and Client Secret, paste in the values you got fr
 
 Hit Save.
 
-Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Visitor Authentication, and choose Cognito as the backend. and click Update audience. Go to the site's screen and click Publish.\
+Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to **Audience**, select **Authenticated access**, and choose Cognito as the backend. Then, click **Update audience**. Go to the site’s screen and click **Publish**.\
 \
-The site is now published behind Visitor Authentication controlled by your Cognito application. To try it out, click on Visit. You will be asked to sign in with Cognito, which confirms that your site is published behind Visitor Authentication using AWS Cognito.
+The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Cognito, which confirms that your site is published behind authenticated access using Auth0.
+
 
 ### Configure AWS Cognito for adaptive content
 

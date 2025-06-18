@@ -5,10 +5,10 @@ description: Set up an OIDC login screen for visitors to your docs.
 # Setting up OIDC
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through “[Enabling visitor authentication](enabling-visitor-authentication.md)”.
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
 
-To setup your GitBook site with visitor authentication using OIDC, the process looks as follows:
+To setup your GitBook site with authenticated access using OIDC, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -24,7 +24,7 @@ Install the Auth0 integration and add the required configuration.
 {% endstep %}
 {% endstepper %}
 
-OIDC stands for OpenID Connect, and it's an identity layer built on top of OAuth. Many identity providers abide by OIDC, and GitBook's OIDC integration for Visitor Authentication allows you to publish your space behind Visitor Authentication, and access to the content is controlled by your Identity Provider
+OIDC stands for OpenID Connect, and it's an identity layer built on top of OAuth. Many identity providers abide by OIDC, and GitBook's OIDC integration for authenticated access allows you to publish your space behind authenticated access, and access to the content is controlled by your Identity Provider
 
 {% hint style="info" %}
 Since this guide is a generic guide meant for all identity providers, some details may vary depending on your Identity Provider. For illustration purposes, we are using Google as the identity provider in this guide.
@@ -45,7 +45,7 @@ Click Create. Make a note of the Client ID and Client Secret. We will need these
 
 ### Install and configure the OIDC integration
 
-Navigate to integrations within the GitBook app, select Visitor Authentication as the category, and install the OIDC integration. Install the OIDC integration on your chosen docs site.
+Navigate to integrations within the GitBook app, select authenticated access as the category, and install the OIDC integration. Install the OIDC integration on your chosen docs site.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt=""><figcaption></figcaption></figure>
 
@@ -75,6 +75,6 @@ Please look at the list of allowed scopes in your Identity Provider's documentat
 
 Hit Save.
 
-Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to Audience, select Visitor Authentication, and choose OIDC as the backend. and click Update audience. Go to the site's screen and click Publish.\
+Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to **Audience**, select **Authenticated access**, and choose OIDC as the backend. Then, click **Update audience**. Go to the site’s screen and click **Publish**.\
 \
-The site is now published behind Visitor Authentication controlled by your OIDC application. To try it out, click on Visit. You will be asked to sign in with your OIDC provider, which confirms that your site is published behind Visitor Authentication using OIDC provider.
+The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with OIDC, which confirms that your site is published behind authenticated access using Auth0.

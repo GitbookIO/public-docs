@@ -30,6 +30,6 @@ We've made some changes to our plans to simplify publishing and better align fea
 | Advanced Customizations | Premium or Ultimate |
 | Unlisted Visibility     | Premium or Ultimate |
 | Shared Links            | Premium or Ultimate |
-| Visitor Authentication  | Ultimate            |
+| Authenticated Access    | Ultimate            |
 | Site Redirects          | Premium or Ultimate |
 | Site Sections           | Ultimate            |
