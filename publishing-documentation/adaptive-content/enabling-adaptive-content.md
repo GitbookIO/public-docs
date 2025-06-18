@@ -10,7 +10,7 @@ To start customizing your documentation experience for your readers, you'll need
 
 Before you’re able to pass user data to GitBook, you’ll need to configure your site to use adaptive content.
 
-Head to your [site’s settings](../site-settings.md), and enable “Adaptive content” from your site’s audience settings. Once enabled, you’ll get a generated “Visitor token signing key”, which you’ll need in order to continue the adaptive content setup.&#x20;
+Head to your [site’s settings](../site-settings.md), and enable “Adaptive content” from your site’s audience settings. Once enabled, you’ll get a generated “Visitor token signing key”, which you’ll need in order to continue the adaptive content setup.
 
 <figure><img src="../../.gitbook/assets/21_03_25_enable_adaptive_content.svg" alt=""><figcaption><p>Enable adaptive content</p></figcaption></figure>
 
@@ -36,6 +36,10 @@ For example, if you expect a visitor to potentially be a beta user in your produ
 ```
 
 This will also help you use autocomplete when configuring your claims in the [condition editor](adapting-your-content.md#working-with-the-condition-editor).
+
+{% hint style="info" %}
+Adaptive schemas only support objects, booleans, and strings.
+{% endhint %}
 
 If you intend to work with unsigned claims, you will need to declare the claims you are expecting in the schema under an “unsigned” prop alongside your signed claims.
 
@@ -94,19 +98,19 @@ To set this up, you'll need to adjust your application’s login flow to include
 
 {% stepper %}
 {% step %}
-### **Generate a JWT when users logs in to your application**
+#### **Generate a JWT when users logs in to your application**
 
-Whenever a user logs in to your product, generate a JWT that contains selected attributes of your authenticated user's info.&#x20;
+Whenever a user logs in to your product, generate a JWT that contains selected attributes of your authenticated user's info.
 {% endstep %}
 
 {% step %}
-### Sign the JWT using the site's visitor signing key
+#### Sign the JWT using the site's visitor signing key
 
 Then, make sure to sign the JWT using the site's **visitor signing key**, which you can find in your site’s audience settings after enabling Adaptive Content.
 {% endstep %}
 
 {% step %}
-### Store the JWT in a wildcard session cookie&#x20;
+#### Store the JWT in a wildcard session cookie
 
 Finally you need to store the signed JWT containing your user's info into a wildcard session cookie **under your product domain**.
 
@@ -169,7 +173,7 @@ export async function handleAppLoginRequest(req: Request, res: Response) {
 }
 ```
 
-After successfully signing the cookie for a user when they log into your app, they will have associated data with them upon visiting your published GitBook site.&#x20;
+After successfully signing the cookie for a user when they log into your app, they will have associated data with them upon visiting your published GitBook site.
 
 Following the example above, the data available for this user could look like:
 
@@ -194,7 +198,7 @@ Following the example above, the data available for this user could look like:
 
 ### Pass unsigned claims via query parameters
 
-After setting up your schema to accept unsigned claims, you’ll be able to pass them through the URL of your published site.&#x20;
+After setting up your schema to accept unsigned claims, you’ll be able to pass them through the URL of your published site.
 
 For instance, in the [example above](enabling-adaptive-content.md#set-your-adaptive-schema), we can pass the language claim to our published site when visiting this url:
 
@@ -204,7 +208,7 @@ https://docs.acme.org/?visitor.language=fr
 
 ### Authenticated access method
 
-GitBook offers out-of-the box solutions to protect your docs. Integrations for Auth0, Okta, Azure AD, and AWS Cognito allow you install an integration to enforce a log-in screen before being able to access your published site.&#x20;
+GitBook offers out-of-the box solutions to protect your docs. Integrations for Auth0, Okta, Azure AD, and AWS Cognito allow you install an integration to enforce a log-in screen before being able to access your published site.
 
 Depending on which authenticated access method you’re using, you’ll still need to configure a few more things depending on which integration you’re using in order to send the right data to GitBook.
 
