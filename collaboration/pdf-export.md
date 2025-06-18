@@ -17,6 +17,10 @@ This setting determines whether or not **readers of your published content can d
 
 However you decide to configure your published docs sites, all logged-in members of an organization on a Pro or Enterprise can export a page — or an entire space — from your internal knowledge base as a PDF file.
 
+{% hint style="warning" %}
+Note that links across spaces are not currently supported when exporting internal content to PDF.
+{% endhint %}
+
 #### Export an individual page
 
 1. Open the page you want to export, then open the page’s [Actions menu](../resources/gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> next to the page title.
