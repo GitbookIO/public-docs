@@ -47,23 +47,23 @@ If you intend to work with unsigned claims, you will need to declare the claims 
       "type": "boolean",
       "description": "Whether the visitor is a Beta user.”
     },
-  },
-  // Add unsigned claims
-  "unsigned": {
-    "type": "object",
-    "description": "Unsigned claims of the site visitor.",
-    "properties": {
-      "language": {
-        "type": "string",
-        "description": "The language of the visitor",
-        "enum": [
-          "en",
-          "fr",
-          "it"
-        ]
-      }
-    },
-    "additionalProperties": false
+    // Add unsigned claims
+    "unsigned": {
+      "type": "object",
+      "description": "Unsigned claims of the site visitor.",
+      "properties": {
+        "language": {
+          "type": "string",
+          "description": "The language of the visitor",
+          "enum": [
+            "en",
+            "fr",
+            "it"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
   }
   "additionalProperties": false
 }

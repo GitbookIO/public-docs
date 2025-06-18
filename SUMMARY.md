@@ -43,6 +43,9 @@
   * [Drawings](creating-content/blocks/drawing.md)
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
+  * [Columns](creating-content/blocks/columns.md)
+  * [Buttons](https://gitbook.com/docs/creating-content/formatting/inline#buttons)
+  * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Snippets](creating-content/blocks/snippets.md)
 * [Reusable content](creating-content/reusable-content.md)
 * [Broken links](creating-content/broken-links.md)
@@ -124,10 +127,10 @@
 ## Account management
 
 * [Plans](account-management/plans/README.md)
-  * [Legacy pricing](account-management/plans/legacy-plans.md)
-  * [Sponsored site plan](account-management/plans/sponsored-site-plan.md)
-  * [Non-profit plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+  * [Community plan](account-management/plans/community/README.md)
+    * [Sponsored site plan](account-management/plans/community/sponsored-site-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
+  * [Legacy pricing](account-management/plans/legacy-plans.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-settings.md)

@@ -63,13 +63,9 @@ Choose who sees your published content. See [publish-a-docs-site](publish-a-docs
 
 <summary>Adaptive content <mark style="background-color:purple;">Ultimate</mark> </summary>
 
-Turn on adaptive content for your site pages, variants, and sections. Adaptive content lets you hide or show content for different visitors, depending on their permissions.
+Turn on adaptive content for your site pages, variants, and sections. [Adaptive content](adaptive-content/) lets you hide or show content for different visitors, depending on their permissions.
 
 Your visitor token signing key will also be displayed here.
-
-{% hint style="info" %}
-**Note:** For now, the adaptive content page is only available to a small selection of beta testers as we prepare this feature for wider rollout. It will be available publicly soon.
-{% endhint %}
 
 </details>
 
@@ -133,6 +129,6 @@ You can review the results of these ratings by opening the [**Insights**](insigh
 
 ### Ads and sponsorship
 
-{% content-ref url="../account-management/plans/sponsored-site-plan.md" %}
-[sponsored-site-plan.md](../account-management/plans/sponsored-site-plan.md)
+{% content-ref url="../account-management/plans/community/sponsored-site-plan.md" %}
+[sponsored-site-plan.md](../account-management/plans/community/sponsored-site-plan.md)
 {% endcontent-ref %}

@@ -83,6 +83,14 @@ To insert an absolute link:
 3. Paste the URL you want to link to.
 4. Hit `Enter`.
 
+{% hint style="info" %}
+## Why don't external links open in a new tab?
+
+When you add a link to an external site in your docs, it will open in the same tab.
+
+GitBook follows this [W3C-recommended behavior](https://www.w3.org/TR/WCAG20-TECHS/G200.html) to support [accessibility](https://it.wisc.edu/learn/make-it-accessible/websites-and-web-applications/when-to-open-links-in-a-new-tab/) and ensure a consistent, inclusive experience for your readers.
+{% endhint %}
+
 #### Email address mailto links
 
 Email address `mailto` links are useful when you want your visitors to click on a link that will open up their default email client and fill in the `To` field with the email address of your link, so they can write an email to send.
@@ -109,3 +117,11 @@ Buttons are a great way to describe calls to action. You can use them to send us
 Buttons have both primary and secondary styles. Here are a couple of examples:
 
 <a href="https://app.gitbook.com/join" class="button primary">Sign up to GitBook</a> <a href="inline.md#annotations" class="button secondary">Go to top</a>
+
+### Icons
+
+Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../publishing-documentation/customization/icons-colors-and-themes.md).&#x20;
+
+<i class="fa-facebook">:facebook:</i>  <i class="fa-github">:github:</i>  <i class="fa-x-twitter">:x-twitter:</i>  <i class="fa-instagram">:instagram:</i>
+
+Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.
