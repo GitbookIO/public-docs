@@ -127,10 +127,10 @@
 ## Account management
 
 * [Plans](account-management/plans/README.md)
-  * [Legacy pricing](account-management/plans/legacy-plans.md)
-  * [Sponsored site plan](account-management/plans/sponsored-site-plan.md)
-  * [Community plan](account-management/plans/community.md)
+  * [Community plan](account-management/plans/community/README.md)
+    * [Sponsored site plan](account-management/plans/community/sponsored-site-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
+  * [Legacy pricing](account-management/plans/legacy-plans.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-settings.md)

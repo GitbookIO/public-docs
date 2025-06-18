@@ -129,6 +129,6 @@ You can review the results of these ratings by opening the [**Insights**](insigh
 
 ### Ads and sponsorship
 
-{% content-ref url="../account-management/plans/sponsored-site-plan.md" %}
-[sponsored-site-plan.md](../account-management/plans/sponsored-site-plan.md)
+{% content-ref url="../account-management/plans/community/sponsored-site-plan.md" %}
+[sponsored-site-plan.md](../account-management/plans/community/sponsored-site-plan.md)
 {% endcontent-ref %}

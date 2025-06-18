@@ -1,5 +1,6 @@
 ---
 description: Learn about the differences between our current and legacy pricing.
+hidden: true
 ---
 
 # Legacy pricing
@@ -14,8 +15,8 @@ You can [view our current plans](./) here.
 
 We've made some changes to our plans to simplify publishing and better align features with site plans. Here's a summary:
 
-- **Pro Plan**: No longer includes a monthly platform fee. You can purchase and publish sites without restrictions, even on the Free plan.
-- **Organization Plan**: Now focused exclusively on collaboration.
+* **Pro Plan**: No longer includes a monthly platform fee. You can purchase and publish sites without restrictions, even on the Free plan.
+* **Organization Plan**: Now focused exclusively on collaboration.
 
 **Features Now Tied to Site Plans**
 
