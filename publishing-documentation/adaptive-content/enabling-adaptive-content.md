@@ -49,7 +49,7 @@ If you intend to work with unsigned claims, you will need to declare the claims 
   "properties": {
     "isBetaUser": {
       "type": "boolean",
-      "description": "Whether the visitor is a Beta user.”
+      "description": "Whether the visitor is a Beta user."
     },
     // Add unsigned claims
     "unsigned": {
