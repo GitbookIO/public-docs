@@ -13,7 +13,7 @@ This guide walks you through setting up a protected sign-in screen for your GitB
 {% hint style="info" %}
 If you are using one of the authentication providers we support or have an [OpenID Connect](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol) (OIDC) compliant backend, check out our integration guides for a more streamlined setup:\
 \
-[Auth0](setting-up-auth0.md)  | [Azure AD](setting-up-azure-ad.md) | [Okta](setting-up-okta.md) | [AWS Cognito](setting-up-aws-cognito.md) | [OIDC](setting-up-oidc.md)
+[Auth0](setting-up-auth0.md) | [Azure AD](setting-up-azure-ad.md) | [Okta](setting-up-okta.md) | [AWS Cognito](setting-up-aws-cognito.md) | [OIDC](setting-up-oidc.md)
 {% endhint %}
 
 ### Overview
@@ -22,31 +22,31 @@ To setup a custom authentication system for your GitBook site, follow these key 
 
 {% stepper %}
 {% step %}
-### [Create a custom backend to authenticate your users](setting-up-a-custom-backend.md#id-1.-create-a-custom-backend-to-authenticate-your-users)
+#### [Create a custom backend to authenticate your users](setting-up-a-custom-backend.md#id-1.-create-a-custom-backend-to-authenticate-your-users)
 
 Implement a backend that prompts users to login and authenticate them.
 {% endstep %}
 
 {% step %}
-### [Sign and pass a JWT token to GitBook](setting-up-a-custom-backend.md#id-2.-sign-and-pass-a-jwt-token-to-gitbook)
+#### [Sign and pass a JWT token to GitBook](setting-up-a-custom-backend.md#id-2.-sign-and-pass-a-jwt-token-to-gitbook)
 
 Create a JWT token and sign it with your site’s private key.
 {% endstep %}
 
 {% step %}
-### [Configure a fallback URL](setting-up-a-custom-backend.md#id-3.-configure-a-fallback-url)
+#### [Configure a fallback URL](setting-up-a-custom-backend.md#id-3.-configure-a-fallback-url)
 
 Configure a URL to be used when an unauthenticated visitor access your site.
 {% endstep %}
 
 {% step %}
-### [Set up multi-tenant authenticated access (optional)](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access)
+#### [Set up multi-tenant authenticated access (optional)](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access)
 
 Configure your backend to handle authentication across multiple GitBook sites.
 {% endstep %}
 
 {% step %}
-### [Configure your backend for adaptive content (optional)](setting-up-a-custom-backend.md#id-5.-configure-your-backend-for-adaptive-content)
+#### [Configure your backend for adaptive content (optional)](setting-up-a-custom-backend.md#id-5.-configure-your-backend-for-adaptive-content)
 
 Configure your backend to work with adaptive content in GitBook.
 {% endstep %}
@@ -65,9 +65,9 @@ Your backend should:
 
 ### 2. Sign and pass a JWT token to GitBook
 
-Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](enabling-authenticated-access.md#enable-authenticated-access).&#x20;
+Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](enabling-authenticated-access.md#enable-authenticated-access).
 
-The following example should demonstrate how a login request handler in your custom backend could look like:&#x20;
+The following example should demonstrate how a login request handler in your custom backend could look like:
 
 {% code title="index.ts" %}
 ```typescript
@@ -128,6 +128,10 @@ const redirectURL = `${GITBOOK_DOCS_URL}/${req.query.location || ''}?jwt_token=$
 res.redirect(redirectURL);
 ```
 
+{% hint style="warning" %}
+Because GitBook relies on the `location` search param - you cannot use it in your fallback URL. For example, `https://auth.gitbook.com/?location=something` is not a valid fallback URL.
+{% endhint %}
+
 ### 4. Set up multi-tenant authenticated access (optional)
 
 If you’re using GitBook as a platform to provide content to your different customers, you probably need to set up multi-tenant authenticated access. Your authentication backend needs to be responsible for handling authentication across multiple different sites. This is possible in GitBook with a few small tweaks to your custom authentication backend code.
@@ -154,7 +158,7 @@ When GitBook is unable to authenticate a user's request, it redirects them to th
 
 To support multiple tenants, your authentication backend needs to know which GitBook site the user is meant to access. This information can be passed in the fallback URL.
 
-So for example, you could setup the fallback URLs for each sites as follow:&#x20;
+So for example, you could setup the fallback URLs for each sites as follow:
 
 <table><thead><tr><th width="150.75390625">GitBook Site</th><th>Fallback URL</th></tr></thead><tbody><tr><td>Customer A site</td><td><code>https://auth-backend.acme.org/login?site=customer-a</code></td></tr><tr><td>Customer B site</td><td><code>https://auth-backend.acme.org/login?site=customer-b</code></td></tr></tbody></table>
 
@@ -175,7 +179,7 @@ const redirectURL = `${customerInfo.url}/${req.query.location || ''}?jwt_token=$
 res.redirect(redirectURL);
 ```
 
-### 5. Configure your backend for adaptive content  (optional)
+### 5. Configure your backend for adaptive content (optional)
 
 {% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
 
