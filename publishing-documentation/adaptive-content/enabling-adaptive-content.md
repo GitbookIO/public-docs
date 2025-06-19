@@ -41,6 +41,8 @@ This will also help you use autocomplete when configuring your claims in the [co
 Adaptive schemas only support objects, booleans, and strings.
 {% endhint %}
 
+### Setting unsigned claims
+
 If you intend to work with unsigned claims, you will need to declare the claims you are expecting in the schema under an “unsigned” prop alongside your signed claims.
 
 ```json
