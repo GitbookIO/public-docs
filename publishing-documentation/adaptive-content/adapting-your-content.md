@@ -38,19 +38,19 @@ You can combine multiple claims into the condition editor to match specific user
 
 ### Conditional pages
 
-To launch the condition editor for a page, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> next to a page, and click “**Add condition**”. You can also launch the condition editor from a [page’s options](../../resources/gitbook-ui.md#page-options).
+To launch the condition editor for a page, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a page, and click “**Add condition**”. You can also launch the condition editor from a [page’s options](../../resources/gitbook-ui.md#page-options).
 
-You can see which pages in your space have conditions set if the page has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt=""></picture> next to it.
+You can see which pages in your space have conditions set if the page has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 ### Conditional variants
 
-To launch the condition editor for a variant, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> next to a variant, and click “**Add condition**”.
+To launch the condition editor for a variant, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a variant, and click “**Add condition**”.
 
-You can see which variants in your docs have conditions set if the variant has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt=""></picture> next to it.
+You can see which variants in your docs have conditions set if the variant has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 ### Conditional sections
 
-To launch the condition editor for a section, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> next to a section, and click “**Add condition**”.
+To launch the condition editor for a section, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a section, and click “**Add condition**”.
 
-You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt=""></picture> next to it.
+You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 

@@ -16,6 +16,6 @@ Integrate your documentation right into your product experience, or give users a
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/GitBook vision post.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/GitBook vision post.png" alt="A screenshot of the GitBook vision post"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}

@@ -154,7 +154,7 @@ Page actions are located next to the page title. The type of actions available w
 
 <div align="center" data-full-width="true">
 
-<figure><img src="../.gitbook/assets/page-options.png" alt=""><figcaption><p>Page options menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/page-options.png" alt="A GitBook screenshot showing the Page options menu" ><figcaption><p>Page options menu</p></figcaption></figure>
 
 </div>
 

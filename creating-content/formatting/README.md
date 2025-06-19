@@ -79,7 +79,7 @@ This is [a link that starts an email to a specific address](mailto:support@gitbo
 
 Click the color icon in the context menu, and choose a color for the text or its background.
 
-<figure><img src="../../.gitbook/assets/21_03_25_format-color.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21_03_25_format-color.svg" alt="A GitBook screenshot showing color and background color options"><figcaption></figcaption></figure>
 
 <mark style="color:orange;">This text is orange.</mark>
 
