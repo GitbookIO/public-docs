@@ -47,7 +47,7 @@ Tables that are wider than the editor container will be horizontally scrollable.
 
 ### Column options
 
-To reorder columns, click and drag on the drag handle <picture><source srcset="../../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> at the top of the column you want to move.
+To reorder columns, click and drag on the drag handle <picture><source srcset="../../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions-horizontal.svg" alt="The table drag handle icon in GitBook"></picture> at the top of the column you want to move.
 
 You can add new columns by clicking the **Add column** button that appears when you hover over the right edge of the table.
 
