@@ -13,7 +13,7 @@ You can see a top-level overview of your insights on the **Overview** tab of you
 
 Click the **Insights** tab in the site header to find more detailed insights for your site.&#x20;
 
-<figure><img src="../.gitbook/assets/03_02_25_advanced_site_insights.svg" alt=""><figcaption><p>The site insights dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/03_02_25_advanced_site_insights.svg" alt="A GitBook screenshot showing the site insights dashboard" ><figcaption><p>The site insights dashboard.</p></figcaption></figure>
 
 ### Filters & groups
 

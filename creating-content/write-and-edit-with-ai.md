@@ -9,7 +9,7 @@ description: Use GitBook AI to generate and build content for your page
 
 You can use GitBook AI to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
 
-<figure><img src="../.gitbook/assets/10_01_25_gitbook_ai_writing.svg" alt=""><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_gitbook_ai_writing.svg" alt="A GitBook screenshot showing the AI writing options" ><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
 
 ### Write with GitBook AI
 

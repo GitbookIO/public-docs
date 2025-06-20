@@ -14,7 +14,7 @@ You can adjust [switch between medium or large cards](cards.md#card-size) and li
 
 ### Adding links <a href="#adding-links-and-images-to-your-cards" id="adding-links-and-images-to-your-cards"></a>
 
-Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture>. Here you can add a target link, so users can jump directly to a location when they click the card.
+Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture>. Here you can add a target link, so users can jump directly to a location when they click the card.
 
 {% hint style="success" %}
 When creating cards, we recommend you use **target links instead of hyperlinks**. With a target link, your readers can click anywhere on the card to access the linked URL.
@@ -22,7 +22,7 @@ When creating cards, we recommend you use **target links instead of hyperlinks**
 
 ### Adding images
 
-Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture>. Here you can add a cover image to your card. Alternatively, just click the **Add cover image** option on the card itself.
+Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture>. Here you can add a cover image to your card. Alternatively, just click the **Add cover image** option on the card itself.
 
 This will open the **Select file** modal. Here you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
 
@@ -30,9 +30,9 @@ This will open the **Select file** modal. Here you can drag and drop a new imag
 
 GitBook will automatically crop landscape images to a 16:9 ratio on desktop and mobile. If the images you upload are portrait or have a 1:1 ratio, they will be cropped to 16:9 on desktop and display as square or portrait on mobile.
 
-<figure><img src="../../.gitbook/assets/13_02_25_cards_desktop.svg" alt=""><figcaption><p>On desktop, all card images will display in a landscape 16:9 ratio, regardless of their dimensions. We recommend using the same dimensions for consistency.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13_02_25_cards_desktop.svg" alt="A GitBook screenshot showing card images on desktop" ><figcaption><p>On desktop, all card images will display in a landscape 16:9 ratio, regardless of their dimensions. We recommend using the same dimensions for consistency.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/13_02_25_cards_mobile.svg" alt=""><figcaption><p>On mobile, square or portrait images will displayed as shown on the left. Landscape images will be displayed as shown on the right.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13_02_25_cards_mobile.svg" alt="A GitBook screenshot showing card images on mobile" ><figcaption><p>On mobile, square or portrait images will displayed as shown on the left. Landscape images will be displayed as shown on the right.</p></figcaption></figure>
 
 To keep things consistent across desktop and mobile, we recommend uploading all the images for your cards in a 16:9 format (e.g. 1920px x 1080px).
 
@@ -40,8 +40,8 @@ If you want your cards to adapt their layout depending on the screen size, we’
 
 ### Changing the size of cards
 
-You can select the card size by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> to the left of your card block. The **Medium** option creates three cards in one horizontal line, while the **Large** option shows two larger cards on each line.
+You can select the card size by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> to the left of your card block. The **Medium** option creates three cards in one horizontal line, while the **Large** option shows two larger cards on each line.
 
 {% hint style="info" %}
-You can make card blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="" data-size="line"></picture> next to the block and choosing **Full width**.
+You can make card blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook" data-size="line"></picture> next to the block and choosing **Full width**.
 {% endhint %}

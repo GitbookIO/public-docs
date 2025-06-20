@@ -13,7 +13,7 @@ GitBook supports live collaboration, meaning you’ll be able to work on the sam
 
 ### Toggling live edit mode
 
-You can toggle live edit mode in a space by selecting **Lock live edits** or **Unlock live edits** from the [space header’s](../resources/gitbook-ui.md#space-header) **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt=""></picture>.&#x20;
+You can toggle live edit mode in a space by selecting **Lock live edits** or **Unlock live edits** from the [space header’s](../resources/gitbook-ui.md#space-header) **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>.&#x20;
 
 When a space is in **Live edits** mode, the space header will show the **Editor** tab. When it is in **Locked live edits** mode, the space header will show a **Read-only** tab. When the Read-only tab appears in the space header, you will need to open a change request to edit the content of the page.
 

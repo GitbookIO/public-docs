@@ -9,7 +9,7 @@ icon: key
 
 Authenticated access allows you to publish your content while requiring authentication from any visitors who want to view it. When enabled, GitBook lets your authentication provider handle who has access to the content.
 
-<figure><img src="../../.gitbook/assets/10_01_25_visitor_authentication.svg" alt=""><figcaption><p>Add a sign in to your published documentation.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_visitor_authentication.svg" alt="A screenshot showing a login screen for docs behind authenticated access" ><figcaption><p>Add a sign in to your published documentation.</p></figcaption></figure>
 
 ### Use cases
 

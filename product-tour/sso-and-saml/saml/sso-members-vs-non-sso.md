@@ -4,7 +4,7 @@ Users who have created a GitBook account with an email used in your SAML Identit
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/SSO-vs-nonSSO.png" alt=""><figcaption><p>Login with SSO screen </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/SSO-vs-nonSSO.png" alt="A GitBook screenshot showing the login with SSO screen" ><figcaption><p>Login with SSO screen </p></figcaption></figure>
 
 </div>
 
@@ -41,6 +41,6 @@ to Organization administrators can enable SSO login for members by linking their
 
 <div data-full-width="true">
 
-<figure><img src="../../../.gitbook/assets/sso.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sso.gif" alt="A GitBook screenshot showing the SSO user flow" ><figcaption></figcaption></figure>
 
 </div>

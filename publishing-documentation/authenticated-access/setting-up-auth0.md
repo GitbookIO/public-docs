@@ -32,14 +32,14 @@ Configure Auth0 to work with adaptive content in GitBook.
 
 ### Create a new Auth0 application
 
-First, sign in to Auth0 platform and create a new application (or use an existing one) by clicking the Applications button in the left sidebar. If creating a new application, name it appropriately and choose "Regular Web Application" as the option. Click Create. You may need to be admin to follow along this guide.\
+First, sign in to Auth0 platform and create a new application (or use an existing one) by clicking the Applications button in the left sidebar. If creating a new application, name it appropriately and choose "Regular Web Application" as the option. Click Create. You may need to be admin to follow along this guide.
 
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.52.25 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.52.25 PM.png" alt="An Auth0 screenshot showing the quickstart panel" ><figcaption></figcaption></figure>
 
 A quickstart panel will show up. Select Node.js (Express) option and then select "I want to integrate my app."  You will see a screen prompting you to configure Auth0. It should look like the image below
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.54.42 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-10-25 at 4.54.42 PM.png" alt="An Auth0 screenshot showing the Node.js Express configuration screen" ><figcaption></figcaption></figure>
 
 Click on Save Settings And Continue.
 
@@ -51,19 +51,19 @@ We will need these to configure our Auth0 authenticated access Integration.
 Please ensure at least one connection is enabled for your Auth0 application.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-28 at 5.00.39 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-28 at 5.00.39 PM.png" alt="An Auth0 screenshot showing settings with domain and client details" ><figcaption></figcaption></figure>
 
 ### Install and configure the Auth0 integration
 
 Navigate to the Integrations tab in a site and locate the Auth0 integration or navigate directly to this [https://app.gitbook.com/integrations/VA-Auth0](https://app.gitbook.com/integrations/VA-Auth0).
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt="A GitBook screenshot showing the site settings page" ><figcaption></figcaption></figure>
 
 Install the integration on your site.
 
 Upon installation on site, you will see a modal asking you enter the Client ID, Auth0 Domain, and Client Secret.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.22.52 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.22.52 PM.png" alt="A GitBook screenshot showing the Auth0 credentials modal" ><figcaption></figcaption></figure>
 
 For Client ID and Client Secret, paste in the value you copied from Auth0 Dashboard. For Auth0 Domain, enter the Domain copied from Auth0 (make sure to prefix it with `https://`) .
 

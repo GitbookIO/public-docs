@@ -15,7 +15,7 @@ You’ll need a GitBook account to start publishing documentation.
 
 When you first sign up, you’ll have a chance to create a docs site from the docs site wizard. You can launch the wizard again to create a new site at any point by clicking the **+** button next to the **Docs sites** header in the sidebar.
 
-<figure><img src="../.gitbook/assets/10_01_25_site_wizard.svg" alt=""><figcaption><p>Publish your first site in just a few minutes using the docs site wizard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_site_wizard.svg" alt="A GitBook screenshot showing the publishing step of the docs site wizard" ><figcaption><p>Publish your first site in just a few minutes using the docs site wizard.</p></figcaption></figure>
 
 The docs site wizard will take you through the flow of creating your first site. You’ll need to give your site a name, choose if you want to start from scratch with an empty site or add our sample content, and whether or not you want to publish your docs right away.
 

@@ -111,7 +111,7 @@ For instance, if your login screen is located at `https://example.com/login`, yo
 
 You can configure this fallback URL within your site’s audience settings under the "Authenticated access" tab.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 15.00.08.png" alt=""><figcaption><p>Configure a fallback URL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 15.00.08.png" alt="A GitBook screenshot showing where to configure a fallback URL" ><figcaption><p>Configure a fallback URL</p></figcaption></figure>
 
 When redirecting to the fallback URL, GitBook includes a `location` query parameter to the fallback URL that you can leverage in your handler to redirect the user to the original location of the user:
 
