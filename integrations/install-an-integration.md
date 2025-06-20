@@ -27,7 +27,7 @@ Next, click on the integration you want to install. Certain integrations work ca
 
 On this screen you can select the areas you would like to install your integration in.
 
-<figure><img src="../.gitbook/assets/10_01_25_install_integration.svg" alt="A GitBook screenshot showing where to install an integration" ><figcaption><p>Choose an area to install an integration in.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_install_integration.svg" alt="A GitBook screenshot showing where you can install an integration" ><figcaption><p>Choose an area to install an integration in.</p></figcaption></figure>
 
 #### 3. Configure your integration
 

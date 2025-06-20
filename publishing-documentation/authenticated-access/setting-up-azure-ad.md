@@ -50,19 +50,19 @@ Start by creating an app registration in your Microsoft Entra ID dashboard. This
 6.  Click **Register** to complete the app registration.\
 
 
-    <figure><img src="../../.gitbook/assets/azure_ad_integration_register_app.png" alt="A GitBook screenshot showing how to register an Azure AD app" ><figcaption><p>Register an app for the GitBook VA integration.</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/azure_ad_integration_register_app.png" alt="An Azure screenshot showing how to register an Azure AD app" ><figcaption><p>Register an app for the GitBook VA integration.</p></figcaption></figure>
 
 
 7.  You should then see your new app registration **Overview** screen. Copy and make note of the **Application (client) ID** and **Directory (tenant) ID**.\
 
 
-    <figure><img src="../../.gitbook/assets/azure_ad_integration_app_reg_overview.png" alt="A GitBook screenshot showing the app registration overview" ><figcaption><p>Overview of the newly created app registration.</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/azure_ad_integration_app_reg_overview.png" alt="An Azure screenshot showing the app registration overview" ><figcaption><p>Overview of the newly created app registration.</p></figcaption></figure>
 
 
 8.  Click on **Add a certificate or secret**. You should see the following **Certificates & Secrets** screen:\
 
 
-    <figure><img src="../../.gitbook/assets/azure_ad_integration_client_secrets.png" alt="A GitBook screenshot showing where to add a certificate or secret" ><figcaption><p>Add a certificate or secret.</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/azure_ad_integration_client_secrets.png" alt="An Azure screenshot showing where to add a certificate or secret" ><figcaption><p>Add a certificate or secret.</p></figcaption></figure>
 
 
 9. Click on **+ New client secret**.
@@ -77,7 +77,7 @@ Once you've created the Azure AD app registration, the next step is to install t
 2.  Click on the **Integrations** button in the top right from your site’s settings.\
 
 
-    <figure><img src="../../.gitbook/assets/va_site_integration_overview_screen.png" alt="A GitBook screenshot showing the site integration overview" ><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/va_site_integration_overview_screen.png" alt="A GitBook screenshot showing the site settings overview" ><figcaption></figcaption></figure>
 
 
 3. Click on **Authenticated Access** from the categories in the sidebar.
@@ -97,11 +97,11 @@ Once you've created the Azure AD app registration, the next step is to install t
 11. Click **+ Add a platform** and select **Web** card in the panel that opens.\
 
 
-    <figure><img src="../../.gitbook/assets/azure_ad_app_reg_authentication.png" alt="A GitBook screenshot showing authentication platform settings" ><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/azure_ad_app_reg_authentication.png" alt="An Azure screenshot showing authentication platform settings" ><figcaption></figcaption></figure>
 12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”\
 
 
-    <figure><img src="../../.gitbook/assets/image.png" alt="A GitBook screenshot showing where to enter the redirect URI" ><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image.png" alt="An Azure screenshot showing where to enter the redirect URI" ><figcaption></figcaption></figure>
 
 
 13. Head back to **Azure integration** installation screen **in GitBook**.

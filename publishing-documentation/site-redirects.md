@@ -7,7 +7,7 @@ icon: diamond-turn-right
 
 {% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/10_01_25_redirects.svg" alt="A GitBook screenshot showing site redirect settings" ><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_redirects.svg" alt="A GitBook screenshot showing site redirects" ><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 

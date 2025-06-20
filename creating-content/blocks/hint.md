@@ -35,7 +35,7 @@ Hint blocks support [inline content](../formatting/inline.md) and [formatting](.
 
 This is a line
 
-This is an inline <img src="../../.gitbook/assets/command_icon_light.svg" alt="An icon showing a command" data-size="line"> image
+This is an inline <img src="../../.gitbook/assets/command_icon_light.svg" alt="The Apple computer command icon" data-size="line"> image
 
 * This is a second <mark style="color:orange;background-color:purple;">line using an unordered list and color</mark>
 {% endhint %}
@@ -68,7 +68,7 @@ To add a heading to your hint, you need to create a heading block as the the fir
 
 This is a line
 
-This is an inline <img src=".gitbook/assets/notification.png" alt="An icon showing a notification" data-size="line"> image
+This is an inline <img src="../../.gitbook/assets/command_icon_light.svg" alt="The Apple computer command icon" data-size="line"> image
 
 - This is a second <mark style="color:orange;background-color:purple;">line using an unordered list and color</mark>
 {% endhint %}

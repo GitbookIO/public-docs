@@ -55,7 +55,7 @@ Inside the **Column options** menu you can also switch automatic sizing on and o
 
 ### Row options
 
-Hover over the row and click the **Row options** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> button that appears on the left of it to open the **Row options** menu. You’ll see a number of options:
+Hover over the row and click the **Row options** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Row options menu icon in GitBook"></picture> button that appears on the left of it to open the **Row options** menu. You’ll see a number of options:
 
 * **Open row:** Open the row in a modal that shows all of its data. Here you can quickly change row types, edit data, and see data in hidden columns.
 * **Insert above/below:** Add a new row above or below the currently-selected row.

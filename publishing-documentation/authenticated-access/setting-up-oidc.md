@@ -37,7 +37,7 @@ There are some things that you need to set up on your Identity Provider in order
 You need to create a new app inside your Identity Provider. Its type should be "Web Application." In Google, you create these under "API and Services", "Credentials", and then under "OAuth 2.0 Client IDs."\
 
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-15 at 11.19.59 AM.png" alt="A GitBook screenshot showing creation of an OAuth client" ><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-15 at 11.19.59 AM.png" alt="A screenshot showing creation of an OAuth client in an identity provider" ><figcaption></figcaption></figure>
 
 Click on Create Credentials, select OAuth Client ID, select Web Application as the type, name it appropriately, and under Authorized Redirect URIs, enter the Callback URL you got from GitBook.
 
