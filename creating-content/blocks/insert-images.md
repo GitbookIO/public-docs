@@ -14,7 +14,7 @@ You can insert images into your page, then choose their size and whether to alig
 
 ### Example of an image block <a href="#example-of-an-image-block" id="example-of-an-image-block"></a>
 
-<div align="center"><img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzcGFjZXxlbnwwfHx8fDE3MzMxOTY5NTR8MA&#x26;ixlib=rb-4.0.3&#x26;q=85" alt="By default, an image block will appear at full-width."></div>
+<div align="center"><img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzcGFjZXxlbnwwfHx8fDE3MzMxOTY5NTR8MA&#x26;ixlib=rb-4.0.3&#x26;q=85" alt="A photograph taken from space looking back towards Earth. A satellite is in the foreground, and in the background is an ocean-covered part of our planet with patchy clouds."></div>
 
 ### Uploading an image
 
