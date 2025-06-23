@@ -10,25 +10,25 @@ description: >-
 This site plan is only available to users on our [community plan](./).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/10_01_25_sponsored_site_plan_hero.svg" alt="A GitBook screenshot showing the sponsored site plan hero section" ><figcaption><p>Learn more about the sponsored site plan in GitBook.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/10_01_25_sponsored_site_plan_hero.svg" alt="A GitBook screenshot showing the sponsored site plan hero section"><figcaption><p>Learn more about the sponsored site plan in GitBook.</p></figcaption></figure>
 
 The sponsored site plan lets you access all of GitBook’s best docs site features at no cost while displaying a small, relevant ad in the corner of your documentation site. Each view generates revenue for you, turning your documentation into a source of income.
 
 ### Apply for the sponsored site plan
 
-The sponsored site plan is designed specifically for **open source projects**. Please not we do not accept cryptocurrency, web3 or related projects for this plan.&#x20;
+The sponsored site plan is designed specifically for **open source projects**. Please not we do not accept cryptocurrency, web3 or related projects for this plan.
 
 View the steps below to learn how to publish your first sponsored site.
 
 {% stepper %}
 {% step %}
-#### Create and publish a sponsored site
+**Create and publish a sponsored site**
 
-Begin by creating a new site from the site wizard and setting up your site with content. When asked to choose a plan, head to the **For open source** section, and choose the sponsored site plan.
+Begin by creating a new site from the site wizard and setting up your site with content. By default, any site created on the community plan will be eligible for the sponsored site plan.
 {% endstep %}
 
 {% step %}
-#### Submit your site for ad review
+**Submit your site for ad review**
 
 Your site must be [published **publicly**](../../../publishing-documentation/publish-a-docs-site/public-publishing.md) for **seven days** before you can submit it for review.
 
@@ -36,7 +36,7 @@ Head to your site’s settings, and scroll down to the **Ads and sponsorship** s
 {% endstep %}
 
 {% step %}
-#### Wait for review
+**Wait for review**
 
 After submitting your application, here’s what you can expect:
 
