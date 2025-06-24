@@ -50,7 +50,11 @@ structure:
 ```
 {% endcode %}
 
-### ​Summary‌ <a href="#summary" id="summary"></a>
+{% hint style="warning" %}
+When Git Sync is enabled, **remember not to create or modify readme files** through GitBook's UI. The readme file should be managed exclusively in your GitHub/GitLab repository to avoid conflicts and duplication issues.
+{% endhint %}
+
+### Summary‌ <a href="#summary" id="summary"></a>
 
 The `summary` file is a Markdown file (`.md`) that should have the following structure:
 
@@ -116,3 +120,6 @@ The YAML file needs to be correctly formatted for the redirects to work. Errors 
 When setting redirects, do not add any leading slashes. For example, trying to redirect to `./misc/support.md` will not work.
 
 It's also important to consider that as long as a page exists for a path, GitBook won’t be looking for a possible redirect. So if you're setting up a redirect for an old page to a new one, you will need to remove the old page in order for the redirect to work.
+
+When Git Sync is enabled, readme files should never be created through GitBook's UI. The README file should be managed exclusively in your GitHub/GitLab repository to avoid conflicts and duplication issues.
+

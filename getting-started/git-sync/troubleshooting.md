@@ -2,10 +2,23 @@
 
 ## I have a GitHub sync error <a href="#i-have-a-github-sync-error" id="i-have-a-github-sync-error"></a>
 
-In case of errors, make sure that:‌
+### Be sure to only create readme files in your repo
 
-- Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
-- If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
+When Git Sync is enabled, be careful not to create readme files through the GitBook UI. Creating readme files through the GitBook UI:
+
+* Creates duplicate README files in your repository
+* Causes rendering conflicts between GitBook and GitHub
+* May break builds and deployment processes
+* Results in unpredictable file precedence
+
+This includes files named README.md, readme.md, Readme.md, and README (without extension). Instead, remember to manage your README file directly in your git repository.
+
+### Still facing errors?
+
+Make sure that:‌
+
+* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`) that was created directly in your git repository. This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
+* If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
 
 ## ​GitBook is not using my `docs` folder <a href="#gitbook-is-not-using-my-docs-folder" id="gitbook-is-not-using-my-docs-folder"></a>
 
@@ -25,9 +38,9 @@ Make sure that you have installed the GitBook GitHub app to the correct location
 
 Make sure that your access token has been configured with the following access:
 
-- `api`
-- `read_repository`
-- `write_repository`
+* `api`
+* `read_repository`
+* `write_repository`
 
 ## ​Nothing happens on GitBook after adding a new file to my repository <a href="#nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository" id="nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository"></a>
 
@@ -47,9 +60,9 @@ If after ensuring that all your files are included in the `SUMMARY.md` file ther
 
 ## GitHub preview is not showing
 
-If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.&#x20;
+If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.
 
-You should have received a notification requesting you to accept an updated permission request to enable read-only access to PRs.&#x20;
+You should have received a notification requesting you to accept an updated permission request to enable read-only access to PRs.
 
 In case you did not receive the notification, to troubleshoot you need to update to the new version:
 
