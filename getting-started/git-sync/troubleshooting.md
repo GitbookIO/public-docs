@@ -28,6 +28,14 @@ By default, GitBook uses the root of the repository as a starting point. A speci
 
 **When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overrite files that existed in your repository before.
 
+## Redirects aren't working correctly
+
+The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.
+
+When setting redirects, do not add any leading slashes. For example, trying to redirect to `./misc/support.md` will not work.
+
+It's also important to consider that as long as a page exists for a path, GitBook won’t be looking for a possible redirect. So if you're setting up a redirect for an old page to a new one, you will need to remove the old page in order for the redirect to work.
+
 ## ​My repository is not listed <a href="#my-repository-is-not-listed" id="my-repository-is-not-listed"></a>
 
 ### For GitHub repositories

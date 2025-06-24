@@ -113,13 +113,5 @@ When moving your content within GitBook, most URLs should work as expected depen
 With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed, for example. Make sure to double-check and add redirects where needed.
 {% endhint %}
 
-### Troubleshooting
 
-The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.
-
-When setting redirects, do not add any leading slashes. For example, trying to redirect to `./misc/support.md` will not work.
-
-It's also important to consider that as long as a page exists for a path, GitBook won’t be looking for a possible redirect. So if you're setting up a redirect for an old page to a new one, you will need to remove the old page in order for the redirect to work.
-
-When Git Sync is enabled, readme files should never be created through GitBook's UI. The README file should be managed exclusively in your GitHub/GitLab repository to avoid conflicts and duplication issues.
 
