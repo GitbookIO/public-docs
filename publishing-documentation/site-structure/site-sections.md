@@ -8,20 +8,20 @@ description: >-
 
 {% include "../../.gitbook/includes/ultimate-hint.md" %}
 
-<figure><img src="../../.gitbook/assets/14_03_25_site_sections_published.jpg" alt="A GitBook screenshot showing site sections on a docs site" ><figcaption><p>Example of a GitBook site with site sections</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14_03_25_site_sections_published.jpg" alt="A GitBook screenshot showing site sections on a docs site"><figcaption><p>Example of a GitBook site with site sections</p></figcaption></figure>
 
 With site sections, you can centralize all your documentation and create a seamless experience for your users.
 
-Site sections are perfect for organizing your documentation — whether you’re managing separate products, or catering to both end-users and developers with content tailored to each.
+Site sections are perfect for organizing your documentation — whether you’re managing separate products, or catering to both end-users and developers with content tailored to each.
 
-You can also [group site sections together](site-sections.md#create-a-site-section-group). Doing so will create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site sections.
+You can also [group site sections together](site-sections.md#create-a-site-section-group). Doing so will create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site sections.
 
 {% hint style="info" %}
-## Sections or variants?
+### Sections or variants?
 
-Each site section is a space in GitBook. You can create site sections from any space you like, but we recommend you use sections as semantically different parts of your docs.&#x20;
+Each site section is a space in GitBook. You can create site sections from any space you like, but we recommend you use sections as semantically different parts of your docs.
 
-If you want to add variations of the same content — such as localizations or historical versions of the same product — consider using [content variants](variants.md) instead.
+If you want to add variations of the same content — such as localizations or historical versions of the same product — consider using [content variants](variants.md) instead.
 {% endhint %}
 
 ### Adding a section to your docs site
@@ -30,7 +30,7 @@ From your docs site’s dashboard, open the **Settings** tab in the site header,
 
 To add a site section, click the **New section** button underneath the table and choose a space to link as a section. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
 
-<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt="A GitBook screenshot showing site section structure" ><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
 
 ### Create a site section group
 
@@ -64,10 +64,10 @@ To set a section as default, click on the **Actions menu** <picture><source srcs
 
 To remove a section from a site, click the **Settings** <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light.svg" alt="The Settings icon in GitBook"></picture> button from your docs site dashboard, then click **Structure** to find the content you want to remove. Click the **Edit** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> button next to the section you want to remove, then click the **Delete** button in the lower left of the modal. This will remove the section, along with all the variants within it, from the published site. It will not delete the spaces itself, or the content within them.
 
-To remove a section from a site, open the **Settings** tab from your docs site dashboard, then click **Structure** to find the content you want to remove.&#x20;
+To remove a section from a site, open the **Settings** tab from your docs site dashboard, then click **Structure** to find the content you want to remove.
 
 Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the space you want to remove and choose **Remove**.
 
 {% hint style="success" %}
-Removing a section from your site will remove it — and all variants within it — from the published site, but **will not delete any of the spaces or the content within them**.
+Removing a section from your site will remove it — and all variants within it — from the published site, but **will not delete any of the spaces or the content within them**.
 {% endhint %}

@@ -11,7 +11,7 @@ icon: repeat
 
 Reusable content lets you sync content across multiple pages and spaces, so you can edit all instances of the block at the same time.
 
-<figure><img src="../.gitbook/assets/04_02_25_reusable_content.svg" alt="A GitBook screenshot showing reusable content" ><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/04_02_25_reusable_content.svg" alt="A GitBook screenshot showing reusable content"><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
 
 ## Fundamentals
 
@@ -47,7 +47,7 @@ Alternatively, you can select one or more blocks and then hit **Cmd + C** to ope
 
 ### **Insert reusable content**
 
-You can insert reusable content as you would with any other block. Hit `/` on an empty line to open the **Insert palette** and search for your content by its name or simply searching for “reusable”. Alternatively, click the `+` on the left of any block or empty line.&#x20;
+You can insert reusable content as you would with any other block. Hit `/` on an empty line to open the **Insert palette** and search for your content by its name or simply searching for “reusable”. Alternatively, click the `+` on the left of any block or empty line.
 
 You will also find the reusable content panel in the pages sidebar, where you can find a list of previously created content blocks in your current space.
 
@@ -82,7 +82,5 @@ If you're writing on the GitHub side, ensure the path to the include is relative
 {% endhint %}
 
 ```markdown
-{% raw %}
 {% include "../../.gitbook/includes/reusable-block.md" %}
-{% endraw %}
 ```

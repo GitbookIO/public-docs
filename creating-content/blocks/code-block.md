@@ -6,7 +6,7 @@ description: >-
 
 # Code blocks
 
-You can add code to your GitBook pages using code blocks.&#x20;
+You can add code to your GitBook pages using code blocks.
 
 When you add a code block, you can choose to [set the syntax](code-block.md#set-syntax...), [show line numbers](code-block.md#with-line-numbers), [show a caption](code-block.md#with-caption), and [wrap the lines](code-block.md#wrap-code). It’s also easy to [copy the contents of a code block to the clipboard](code-block.md#copying-the-code), so you can use it elsewhere
 
@@ -88,7 +88,7 @@ Showing line numbers is useful when the code represents the contents of a file a
 
 #### With caption
 
-This will toggle a caption that sits at the top of the block, above your lines of code.&#x20;
+This will toggle a caption that sits at the top of the block, above your lines of code.
 
 The caption is often the name of a file as shown in [our example above](code-block.md#example-of-a-code-block), but you can also use it as a title, description, or anything else you’d like.
 
@@ -109,7 +109,6 @@ Hover over a code block and a number of icons will appear. Click the middle icon
 ### Representation in Markdown
 
 ````markdown
-{% raw %}
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 
 ```javascript
@@ -121,5 +120,4 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
 
 {% endcode %}
-{% endraw %}
 ````

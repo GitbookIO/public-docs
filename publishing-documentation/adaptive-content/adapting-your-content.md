@@ -11,18 +11,15 @@ Adaptive content works in the following ways:
 * Hiding or showing pages
 * Hiding or showing site variants
 * Hiding or showing site sections
-
-{% hint style="info" %}
-We are currently working on more ways to use adaptive content and the claims you send to GitBook, such as adaptive blocks and UI.
-{% endhint %}
+* Hiding or showing header links
 
 ### Working with the condition editor
 
-The condition editor is where you’ll set the conditions for showing or hiding a page, variant, or section. After opening the condition editor, you’ll be able to type a condition that will run against visitors to your site.&#x20;
+The condition editor is where you’ll set the conditions for showing or hiding a page, variant, or section. After opening the condition editor, you’ll be able to type a condition that will run against visitors to your site.
 
 #### Example
 
-The data you pass through your users to GitBook is attached to an object called `visitor.claims`.&#x20;
+The data you pass through your users to GitBook is attached to an object called `visitor.claims`.
 
 Let’s take a look at an example if we want to write a conditional statement to **only show a page for users who are part of a beta program** you might define.
 
@@ -54,3 +51,8 @@ To launch the condition editor for a section, head to the actions menu <picture>
 
 You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
+### Conditional header links
+
+To launch the condition editor for a header link, head to the actions menu <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a header link, and click “**Add condition**”.
+
+You can see which links in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/page-condition - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/page-condition.svg" alt="The Page condition icon in GitBook"></picture> next to it.

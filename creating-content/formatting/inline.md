@@ -4,7 +4,7 @@ description: Use the inline palette to add images, links, math & TeX, and more
 
 # Inline content
 
-<figure><img src="../../.gitbook/assets/10_01_25_inline_content.svg" alt="A GitBook screenshot showing inline content options" ><figcaption><p>Add inline elements to your content.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_inline_content.svg" alt="A GitBook screenshot showing inline content options"><figcaption><p>Add inline elements to your content.</p></figcaption></figure>
 
 The inline palette lets you quickly add extra content to your text block without moving your hands away from the keyboard. Simply hit `/` on any text block to open the inline palette. The forward slash will be replaced by the content you choose to insert.
 
@@ -36,13 +36,13 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ### Images
 
-Inline images will sit alongside your text on the page.&#x20;
+Inline images will sit alongside your text on the page.
 
 By default, images are set to their original size with a maximum width of 300px. You can change the size by clicking the image to open the formatting palette, then choosing one of the three options:
 
-1. **Inline size:** The image is proportionally sized to the font — great for icons and badges.
+1. **Inline size:** The image is proportionally sized to the font — great for icons and badges.
 2. **Original size:** The image will remain inline at its original size, with a maximum width of 300 pixels.
-3. **Convert to block:** This turns an inline image into a [image block](../blocks/insert-images.md), which is as wide as your content.&#x20;
+3. **Convert to block:** This turns an inline image into a [image block](../blocks/insert-images.md), which is as wide as your content.
 
 {% hint style="info" %}
 [Image blocks](../blocks/insert-images.md) offer more options, including more sizes and the ability to add a caption — but will not appear inline with your text.
@@ -50,7 +50,7 @@ By default, images are set to their original size with a maximum width of 300px.
 
 ### Emojis
 
-You can add emojis by hitting `/` to open the inline palette. Alternatively, type `:` and a list of emojis will pop up directly in line — you can start typing the name of an emoji to narrow down the selection.
+You can add emojis by hitting `/` to open the inline palette. Alternatively, type `:` and a list of emojis will pop up directly in line — you can start typing the name of an emoji to narrow down the selection.
 
 ### Links
 
@@ -62,7 +62,7 @@ You can insert three different types of links:
 
 #### Relative links
 
-Relative links are links created by linking to [pages](../content-structure/page.md) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you’ll end up with fewer broken links.&#x20;
+Relative links are links created by linking to [pages](../content-structure/page.md) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you’ll end up with fewer broken links.
 
 Here’s how to insert a relative link:
 
@@ -84,7 +84,7 @@ To insert an absolute link:
 4. Hit `Enter`.
 
 {% hint style="info" %}
-## Why don't external links open in a new tab?
+### Why don't external links open in a new tab?
 
 When you add a link to an external site in your docs, it will open in the same tab.
 
@@ -120,8 +120,8 @@ Buttons have both primary and secondary styles. Here are a couple of examples:
 
 ### Icons
 
-Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../publishing-documentation/customization/icons-colors-and-themes.md).&#x20;
+Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../publishing-documentation/customization/icons-colors-and-themes.md).
 
-<i class="fa-facebook">:facebook:</i>  <i class="fa-github">:github:</i>  <i class="fa-x-twitter">:x-twitter:</i>  <i class="fa-instagram">:instagram:</i>
+<i class="fa-facebook">:facebook:</i> <i class="fa-github">:github:</i> <i class="fa-x-twitter">:x-twitter:</i> <i class="fa-instagram">:instagram:</i>
 
 Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.

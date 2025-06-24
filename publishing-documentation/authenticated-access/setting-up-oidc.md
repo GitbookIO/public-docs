@@ -12,13 +12,13 @@ To setup your GitBook site with authenticated access using OIDC, the process loo
 
 {% stepper %}
 {% step %}
-### Create a new application with your identity provider
+#### Create a new application with your identity provider
 
 Create an application from your identity provider’s dashboard.
 {% endstep %}
 
 {% step %}
-### Install and configure the OIDC integration
+#### Install and configure the OIDC integration
 
 Install the Auth0 integration and add the required configuration.
 {% endstep %}
@@ -34,10 +34,9 @@ Since this guide is a generic guide meant for all identity providers, some detai
 
 There are some things that you need to set up on your Identity Provider in order to get the integration to work.
 
-You need to create a new app inside your Identity Provider. Its type should be "Web Application." In Google, you create these under "API and Services", "Credentials", and then under "OAuth 2.0 Client IDs."\
+You need to create a new app inside your Identity Provider. Its type should be "Web Application." In Google, you create these under "API and Services", "Credentials", and then under "OAuth 2.0 Client IDs."\\
 
-
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-15 at 11.19.59 AM.png" alt="A screenshot showing creation of an OAuth client in an identity provider" ><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-05-15 at 11.19.59 AM.png" alt="A screenshot showing creation of an OAuth client in an identity provider"><figcaption></figcaption></figure>
 
 Click on Create Credentials, select OAuth Client ID, select Web Application as the type, name it appropriately, and under Authorized Redirect URIs, enter the Callback URL you got from GitBook.
 
@@ -47,21 +46,19 @@ Click Create. Make a note of the Client ID and Client Secret. We will need these
 
 Navigate to integrations within the GitBook app, select authenticated access as the category, and install the OIDC integration. Install the OIDC integration on your chosen docs site.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt="A GitBook screenshot showing the OIDC integration installation" ><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt="A GitBook screenshot showing the OIDC integration installation"><figcaption></figcaption></figure>
 
-Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We may need it to set up the Identity Provider.&#x20;
+Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We may need it to set up the Identity Provider.
 
 Open up the OIDC integration's configuration screen for the space you installed the integration on.
 
 It should look like the following image
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.38.30 PM.png" alt="A GitBook screenshot showing the OIDC configuration screen" ><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.38.30 PM.png" alt="A GitBook screenshot showing the OIDC configuration screen"><figcaption></figcaption></figure>
 
 For Client ID and Client Secret, paste in the values you got for your identity provider.
 
-Now, you will need to find the Authorization Endpoint and Access Token Endpoint for your Identity Provider. For Google, these are `https://accounts.google.com/o/oauth2/v2/auth` and `https://oauth2.googleapis.com/token` respectively.&#x20;
+Now, you will need to find the Authorization Endpoint and Access Token Endpoint for your Identity Provider. For Google, these are `https://accounts.google.com/o/oauth2/v2/auth` and `https://oauth2.googleapis.com/token` respectively.
 
 {% hint style="info" %}
 If you are not using Google, these endpoints will be different for you. Please look into the documentation of your identity provider to locate these endpoints

@@ -85,8 +85,7 @@ tags:
     description: |
       Here is the detail of pets.
 
-      {% raw %}
-{% tabs %}
+      {% tabs %}
       {% tab title="Dog" %}
       Here are the dogs
       {% endtab %}
@@ -99,7 +98,6 @@ tags:
       Here are the rabbits
       {% endtab %}
       {% endtabs %}
-{% endraw %}
 ```
 {% endcode %}
 
@@ -113,10 +111,8 @@ You can highlight a schema in a GitBook description by using GitBook markdown. H
 tags:
   - name: pet
       description: |
-          {% raw %}
-{% openapi-schemas spec="petstore" schemas="Pet" grouped="false" %}
+          {% openapi-schemas spec="petstore" schemas="Pet" grouped="false" %}
               The Pet object
           {% endopenapi-schemas %}
-{% endraw %}
 ```
 {% endcode %}

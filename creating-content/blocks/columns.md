@@ -8,7 +8,7 @@ Columns are a great way to create different layouts for your documentation. You 
 
 {% columns %}
 {% column width="50%" %}
-### Create a seamless experience between your docs and product
+#### Create a seamless experience between your docs and product
 
 Integrate your documentation right into your product experience, or give users a personalized experience that gives them what they need faster.
 

@@ -99,7 +99,11 @@
   * [Setting up OIDC](publishing-documentation/authenticated-access/setting-up-oidc.md)
   * [Setting up a custom backend](publishing-documentation/authenticated-access/setting-up-a-custom-backend.md)
 * [Adaptive content](publishing-documentation/adaptive-content/README.md)
-  * [Enabling adaptive content](publishing-documentation/adaptive-content/enabling-adaptive-content.md)
+  * [Enabling adaptive content](publishing-documentation/adaptive-content/enabling-adaptive-content/README.md)
+    * [Cookies](publishing-documentation/adaptive-content/enabling-adaptive-content/cookies.md)
+    * [URL](publishing-documentation/adaptive-content/enabling-adaptive-content/url.md)
+    * [Feature flags](publishing-documentation/adaptive-content/enabling-adaptive-content/feature-flags.md)
+    * [Authenticated access](publishing-documentation/adaptive-content/enabling-adaptive-content/authenticated-access.md)
   * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
 

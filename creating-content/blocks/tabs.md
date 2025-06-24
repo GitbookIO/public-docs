@@ -6,7 +6,7 @@ description: >-
 
 # Tabs
 
-A tab block is a single block with the option to add multiple tabs.&#x20;
+A tab block is a single block with the option to add multiple tabs.
 
 Each tab can contain multiple other blocks, of any type. So you can add code blocks, images, integration blocks and more to individual tabs in the same tab block.
 
@@ -35,7 +35,6 @@ Here are the instructions for Linux
 ### Representation in Markdown
 
 ```markdown
-{% raw %}
 {% tabs %}
 
 {% tab title="Windows" %} Here are the instructions for Windows {% endtab %}
@@ -45,5 +44,4 @@ Here are the instructions for Linux
 {% tab title="Linux" %} Here are the instructions for Linux {% endtab %}
 
 {% endtabs %}
-{% endraw %}
 ```

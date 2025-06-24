@@ -29,7 +29,5 @@ To add an embedbed URL, simply paste the link of the content you want to embed a
 ### Representation in Markdown
 
 ```markdown
-{% raw %}
 {% embed url="URL_HERE" %}
-{% endraw %}
 ```
