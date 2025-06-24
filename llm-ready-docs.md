@@ -17,10 +17,6 @@ With GitBook, all of the pages of your docs site are automatically available as 
 
 <a href="https://gitbook.com/docs/llm-ready-docs.md" class="button primary">Check out the .md file for this page</a>
 
-{% hint style="warning" %}
-This functionality is currently only available to a small number of sites as we roll out a new platform for published documentation. We’ll update this page again when it’s available to all customers.
-{% endhint %}
-
 ## llms.txt
 
 [llms.txt](https://llmstxt.org/) is a proposed standard for making web content available in text-based formats that are easier for LLMs to process. You can access the `llms.txt` page by appending `/llms.txt` to the root URL of your docs site.&#x20;
