@@ -6,7 +6,7 @@ icon: stars
 
 # Adaptive content
 
-{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
+{% include "../../.gitbook/includes/ultimate-hint.md" %}
 
 When a user visits your site, you may already know things about them - who they are, which plan they're subscribed to, which features they have access to.
 
