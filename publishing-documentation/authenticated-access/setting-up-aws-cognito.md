@@ -70,6 +70,33 @@ The site is now published behind authenticated access controlled by your Auth0 a
 
 To leverage Adaptive Content with authenticated access in GitBook, you’ll need to configure your Amazon Cognito user pool to include custom claims in the ID token.
 
-This is typically done by creating a [Cognito Lambda trigger](https://aws.amazon.com/blogs/security/use-amazon-cognito-to-add-claims-to-an-identity-token-for-fine-grained-authorization/)—specifically a _Pre Token Generation_ Lambda—that returns a JSON payload overriding or appending custom claims. These claims might include user roles, subscription tiers, or any other metadata relevant to your content.
+This is typically done by creating a [Cognito Lambda trigger](https://docs.aws.amazon.com/cognito/latest/developerguide/user-pool-lambda-pre-token-generation.html)—specifically a _Pre Token Generation_ Lambda—that returns a JSON payload overriding or appending custom claims. These claims might include user roles, subscription tiers, or any other metadata relevant to your content.
+
+Here’s an example of what that could look like:
+
+```javascript
+export const handler = async (event, context) => {
+  // Retrieve user attribute from event request
+  const userAttributes = event.request.userAttributes;
+
+  // Add additional claims to event response
+  event.response = {
+    "claimsAndScopeOverrideDetails": {
+      "idTokenGeneration": {},
+      "accessTokenGeneration": {
+        "claimsToAddOrOverride": {
+          "products": ['api', 'sites', 'askAI'],
+          "isBetaUser": true,
+          "isAlphaUser": true,
+        }
+      }
+    }
+  };
+  // Return to Amazon Cognito
+  context.done(null, event);
+};
+```
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-06-30 at 17.31.23.png" alt=""><figcaption></figcaption></figure>
 
 Once added, these key-value pairs are included in the authentication token and passed to GitBook, allowing your site to dynamically adapt its content based on the authenticated user’s profile.
