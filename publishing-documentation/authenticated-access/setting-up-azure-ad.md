@@ -83,7 +83,8 @@ Once you've created the Azure AD app registration, the next step is to install t
 11. Click **+ Add a platform** and select **Web** card in the panel that opens.\\
 
     <figure><img src="../../.gitbook/assets/azure_ad_app_reg_authentication.png" alt="An Azure screenshot showing authentication platform settings"><figcaption></figcaption></figure>
-12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”\\
+12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”\
+
 
     <figure><img src="../../.gitbook/assets/image.png" alt="An Azure screenshot showing where to enter the redirect URI"><figcaption></figcaption></figure>
 13. Head back to **Azure integration** installation screen **in GitBook**.
@@ -95,7 +96,6 @@ Once you've created the Azure AD app registration, the next step is to install t
     <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 at 18.41.45.png" alt="A GitBook screenshot showing authenticated access settings"><figcaption></figcaption></figure>
 18. Head to the site's overview screen and click **Publish** if the site is not already published.
 
-\
 Your site is now published behind authenticated access using your Azure AD as identity provider.
 
 To test it out, click on Visit. You will be asked to sign in with Azure, which confirms that your site is published behind authenticated access using Azure.
@@ -114,7 +114,7 @@ These claims, represented as key-value pairs, are passed to GitBook and can be u
 
 Azure AD supports different types and levels of claims, each with its own method of setup:
 
-* **Standard Claims**: Common claims that may be included in tokens but are not always present by default.\\
+* **Standard Claims**: Common claims that may be included in tokens but are not always present by default.
 
 {% hint style="info" %}
 ```

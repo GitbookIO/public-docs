@@ -68,4 +68,8 @@ The site is now published behind authenticated access controlled by your Auth0 a
 
 ### Configure AWS Cognito for adaptive content
 
-{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
+To leverage Adaptive Content with authenticated access in GitBook, you’ll need to configure your Amazon Cognito user pool to include custom claims in the ID token.
+
+This is typically done by creating a [Cognito Lambda trigger](https://aws.amazon.com/blogs/security/use-amazon-cognito-to-add-claims-to-an-identity-token-for-fine-grained-authorization/)—specifically a _Pre Token Generation_ Lambda—that returns a JSON payload overriding or appending custom claims. These claims might include user roles, subscription tiers, or any other metadata relevant to your content.
+
+Once added, these key-value pairs are included in the authentication token and passed to GitBook, allowing your site to dynamically adapt its content based on the authenticated user’s profile.
