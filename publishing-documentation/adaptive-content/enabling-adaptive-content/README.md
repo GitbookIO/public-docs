@@ -35,11 +35,79 @@ For example, if you expect a visitor to potentially be a beta user in your produ
 }
 ```
 
-This will also help you use autocomplete when configuring your claims in the [condition editor](../adapting-your-content.md#working-with-the-condition-editor).
+This will also help you use autocomplete when configuring your claims in the [condition editor](../adapting-your-content.md#working-with-the-condition-editor). Adaptive schemas only support the following types:
 
-{% hint style="info" %}
-Adaptive schemas only support objects, booleans, and strings.
-{% endhint %}
+{% tabs %}
+{% tab title="Strings" %}
+Read claims being passed in as strings.
+
+Strings **must contain an enum** key, which needs to contain any expected values that would be found on the key being read.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "language": {
+          "type": "string",
+          "description": "The language of the visitor",
+          "enum": [
+            "en",
+            "fr",
+            "it"
+          ]
+  },
+  "additionalProperties": false
+}
+```
+{% endtab %}
+
+{% tab title="Booleans" %}
+Read claims being passed in as booleans.
+
+```json
+{
+  "type": "object",
+  "properties": {
+    "isBetaUser": {
+      "type": "boolean",
+      "description": "Whether the visitor is a Beta user."
+    },
+  },
+  "additionalProperties": false
+}
+```
+{% endtab %}
+
+{% tab title="Objects" %}
+Nest claims in an object to group similar values.
+
+```json
+{
+  // Top level claims
+  "type": "object",
+  "properties": {
+    // Nested claims
+    "access": {
+      "type": "object",
+      "description": "User’s access to product feature",
+      "properties": {
+        "isAlphaUser": {
+          "type": "boolean",
+          "description": "Whether the visitor is a Alpha user."
+        },
+        "isBetaUser": {
+          "type": "boolean",
+          "description": "Whether the visitor is a Beta user."
+        },
+      },
+      "additionalProperties": false
+    }
+  }
+  "additionalProperties": false
+}
+```
+{% endtab %}
+{% endtabs %}
 
 ### Set an unsigned claim
 
