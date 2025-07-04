@@ -1,6 +1,6 @@
 ---
-icon: building-lock
 description: Learn how to share your GitBook content via SSO & SAML.
+icon: building-lock
 ---
 
 # SSO & SAML
@@ -13,7 +13,7 @@ When you create or manage your organisation, you can add a list of email domains
 
 You can enable email domain SSO in the ’SSO’ section of your organization settings; enter a comma-separated list of email domains you’d like to allow SSO access for and you’re good to go.
 
-<figure><img src="../../.gitbook/assets/10_01_25_sso.svg" alt="A GitBook screenshot showing how to configure SSO" ><figcaption><p>Set up SSO for your organization.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_sso.svg" alt="A GitBook screenshot showing how to configure SSO"><figcaption><p>Set up SSO for your organization.</p></figcaption></figure>
 
 {% hint style="info" %}
 Anyone who joins via an SSO email domain will default to guest access, you can change their role at any time in the members section of your organization settings.
@@ -79,8 +79,7 @@ Once you have set up SAML SSO, the onus is on the IdP to control who can access 
 
 ## ​Security notice <a href="#security-notice" id="security-notice"></a>
 
-If you have an existing GitBook account under the same email address as the one we get from Identity Provider and you are not a member of the organization you're trying to sign into, we will not be able to automatically add you to the organization with the SAML configuration due to security reasons. You have two options:\
-
+If you have an existing GitBook account under the same email address as the one we get from Identity Provider and you are not a member of the organization you're trying to sign into, we will not be able to automatically add you to the organization with the SAML configuration due to security reasons. You have two options:
 
 1. Delete your existing GitBook account and then log into your desired organization with SAML. GitBook will then create a new account for you and you will be added to the organization
 2. Or, ask your admin to invite you to the organization:
