@@ -105,10 +105,6 @@ redirects:
 Redirects you define in a space’s configuration file are scoped to the corresponding space. We recommend creating [site redirects](../../publishing-documentation/site-redirects.md) for most cases as they apply to the whole site, across spaces.
 {% endhint %}
 
-#### Restructuring your content in GitBook
-
-When moving your content within GitBook, most URLs should work as expected depending on complexity of the change. You can use our Broken Links feature to scan your space to find which links are broken, if any.
-
 {% hint style="warning" %}
 With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed, for example. Make sure to double-check and add redirects where needed.
 {% endhint %}
