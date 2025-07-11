@@ -4,19 +4,25 @@ description: GitBook uses AI to help you and your users find the knowledge you n
 
 # GitBook AI
 
-{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 When engaging with GitBook AI, you have the ability to ask questions or elaborate on specific requirements. This AI-driven tool is designed to review your documentation in real-time, providing you with quick, direct answers.
+
+{% hint style="info" %}
+GitBook AI search is available both within the GitBook app to search internal content, and in published content to search that specific docs site.&#x20;
+{% endhint %}
 
 ### Enable GitBook AI
 
 #### For published content
+
+{% include "../../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 You can enable GitBook AI for any published space or collection in that space’s or collection’s [customization settings](../../publishing-documentation/customization/).&#x20;
 
 Click the **Customize** button, then open to the **Configure** tab and toggle the **Enable** **GitBook AI semantic search** setting on.
 
 #### For internal content
+
+{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 You can also enable GitBook AI for your organization’s internal content, allowing you to ask questions and get semantic answers about your internal knowledge base.&#x20;
 
@@ -27,6 +33,8 @@ Head to the **Organization settings** page and, in the **General** tab, toggle t
 Once GitBook AI is enabled, simply type a question into the search bar. GitBook AI will take a few seconds to scan your documentation and summarize the results.
 
 #### For published documentation
+
+{% include "../../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 Let’s give it a try right here in our own public documentation! Firstly, open the search palette by clicking **Ask or search…** in the top-right corner of the page, or by press **⌘ + K** on a Mac or **Ctrl + K** on a PC.
 
@@ -43,6 +51,8 @@ Multi-space search is _only_ available when viewing published spaces that live a
 {% endhint %}
 
 #### For internal documentation
+
+{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 If GitBook AI is enabled for internal content, you’ll be able to do the same thing when logged into the GitBook app: open the quick find command palette, type a question and receive a semantic answer.
 
