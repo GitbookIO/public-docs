@@ -125,3 +125,7 @@ Icons allow you to add extra visual indications to your site. You can add them i
 <i class="fa-facebook">:facebook:</i> <i class="fa-github">:github:</i> <i class="fa-x-twitter">:x-twitter:</i> <i class="fa-instagram">:instagram:</i>
 
 Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.
+
+### Expressions
+
+Expressions allow you to dynamically display content defined in a [variable](../variables.md). Expressions can be inserted from the `/` menu. Once inserted, double clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.

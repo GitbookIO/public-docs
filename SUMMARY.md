@@ -46,14 +46,16 @@
   * [Columns](creating-content/blocks/columns.md)
   * [Buttons](https://gitbook.com/docs/creating-content/formatting/inline#buttons)
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
+  * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
+* [Variables](creating-content/variables.md)
 * [Reusable content](creating-content/reusable-content.md)
-* [Broken links](creating-content/broken-links.md)
 * [Searching content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
+* [Broken links](creating-content/broken-links.md)
 
 ## API References
 
