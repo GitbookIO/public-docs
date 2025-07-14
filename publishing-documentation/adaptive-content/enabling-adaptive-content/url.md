@@ -12,14 +12,21 @@ You can pass visitor data to your docs through URL query parameters. Below is an
 
 To pass data to GitBook through URL parameters, you’ll need to pass the data in the URL in the format `visitor.<prop>`.
 
-Data passed through public cookies must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object.
-
 For example:
 
 ```url
 https://docs.acme.org/?visitor.language=fr&visitor.country=fr
 ```
 
-{% hint style="info" %}
-Query parameters can be easily changed by the visitor and are best suited for non-sensitive information.
+Visiting this URL would pass in the following claims when the site loads:&#x20;
+
+```json
+{
+  "language": "fr",
+  "country": "fr"
+}
+```
+
+{% hint style="warning" %}
+Data passed through query parameters must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object. Additionally, query parameters can be easily changed by the visitor and are best suited for non-sensitive information.
 {% endhint %}

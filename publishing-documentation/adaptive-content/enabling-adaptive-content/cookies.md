@@ -16,8 +16,6 @@ This method only works if your site is served under a [custom domain](../../cust
 
 To pass data to GitBook from a public cookie, you’ll need to send the data from your application by setting a public `gitbook-visitor-public` cookie.
 
-Data passed through public cookies must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object.
-
 Below is a simple JavaScript example:
 
 ```javascript
@@ -33,6 +31,10 @@ Cookies.set('gitbook-visitor-public', JSON.stringify(cookieData), {
   domain: '*.acme.org',
 })
 ```
+
+{% hint style="warning" %}
+Data passed through public cookies must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object.
+{% endhint %}
 
 ### Signed cookie
 

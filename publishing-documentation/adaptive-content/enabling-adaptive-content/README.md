@@ -14,13 +14,13 @@ Head to your [site’s settings](../../site-settings.md), and enable “Adaptive
 
 <figure><img src="../../../.gitbook/assets/21_03_25_enable_adaptive_content.svg" alt="A GitBook screenshot showing the enable adaptive content toggle"><figcaption><p>Enable adaptive content</p></figcaption></figure>
 
-### Set your adaptive schema
+### Set your visitor schema
 
 After enabling adaptive content, you’ll need to define a schema for the types of claims you expect GitBook to receive when a user visits your site.
 
-The adaptive content schema should reflect how these claims are structured when sent to GitBook.
+The visitor schema should reflect how these claims are structured when sent to GitBook.
 
-For example, if you expect a visitor to potentially be a beta user in your product, you would set an adaptive schema similar to:
+For example, if you expect a visitor to potentially be a beta user in your product, you would set a visitor schema similar to:
 
 ```json
 {
@@ -35,7 +35,7 @@ For example, if you expect a visitor to potentially be a beta user in your produ
 }
 ```
 
-This will also help you use autocomplete when configuring your claims in the [condition editor](../adapting-your-content.md#working-with-the-condition-editor). Adaptive schemas only support the following types:
+This will also help you use autocomplete when configuring your claims in the [condition editor](../adapting-your-content.md#working-with-the-condition-editor). Visitor schemas only support the following types:
 
 {% tabs %}
 {% tab title="Strings" %}
