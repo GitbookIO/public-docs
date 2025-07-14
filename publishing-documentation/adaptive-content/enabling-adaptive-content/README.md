@@ -102,7 +102,7 @@ Nest claims in an object to group similar values.
       },
       "additionalProperties": false
     }
-  }
+  },
   "additionalProperties": false
 }
 ```
@@ -138,7 +138,7 @@ If you intend to work with unsigned claims, you will need to declare the claims 
       },
       "additionalProperties": false
     }
-  }
+  },
   "additionalProperties": false
 }
 ```

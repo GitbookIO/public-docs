@@ -1,6 +1,5 @@
 ---
 description: Deliver a tailored documentation experience based on who's reading.
-noIndex: true
 icon: stars
 ---
 
