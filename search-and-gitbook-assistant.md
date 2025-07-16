@@ -7,11 +7,17 @@ icon: magnifying-glass
 
 # Search & GitBook Assistant
 
+{% hint style="info" %}
+## GitBook Assistant is will be available soon!
+
+GitBook Assistant is current available in closed beta — it will be available for everyone soon. In the meantime, published documentation will still feature keywords search and GitBook AI search.
+{% endhint %}
+
 ## Choose your site’s search experience
 
 GitBook sites offer different search experiences depending on what you want for your users:
 
-* **Basic keyword search** – A standard search experience based on keywords. Automatically enabled on all sites.
+* **Keyword search** – A standard search experience based on keywords. Automatically enabled on all sites.
 * **GitBook AI search** – Users get short answers to questions directly from the search box.
 * **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook’s AI agent.
 
