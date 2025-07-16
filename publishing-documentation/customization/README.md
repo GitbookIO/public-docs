@@ -11,7 +11,7 @@ You can customize the appearance of your published documentation, match the user
 
 You can apply customizations to your entire docs site as a site-wide theme, or to individual variants and site sections.
 
-<figure><img src="../../.gitbook/assets/21_04_25_customization_published_site.svg" alt="A GitBook screenshot showing a customized docs site"><figcaption><p>GitBook's own documentation is an example of a customized docs site.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/customization-demo.png" alt="A GitBook screenshot showing a customized docs site"><figcaption><p>You can create all kinds of site designs using GitBook’s built-in customization options.</p></figcaption></figure>
 
 ### Customizing sites with multiple sections
 
@@ -25,7 +25,7 @@ Select the whole site or a specific site section using the drop-down menu at the
 <figure><img src="../../.gitbook/assets/19_02_2025_site_customization.svg" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
 {% hint style="warning" %}
-Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.&#x20;
+Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.
 
 You can reset customization overrides back to the site-wide default by clicking the **Reset** button <picture><source srcset="../../.gitbook/assets/reset_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/reset_icon_light.svg" alt="The Reset icon in GitBook"></picture> next to the space selector.
 {% endhint %}

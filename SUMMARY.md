@@ -50,7 +50,7 @@
   * [Snippets](creating-content/blocks/snippets.md)
 * [Variables](creating-content/variables.md)
 * [Reusable content](creating-content/reusable-content.md)
-* [Searching content](creating-content/searching-your-content/README.md)
+* [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
@@ -111,6 +111,7 @@
 
 ***
 
+* [Search & GitBook Assistant](search-and-gitbook-assistant.md)
 * [LLM-ready docs](llm-ready-docs.md)
 
 ## Collaboration

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Monorepos
 
 GitBook supports monorepos. A monorepo is a repository that contains more than one logical project (e.g. an iOS client and a web application).
@@ -39,9 +25,9 @@ Example of a repository structure:
 
 In this example, 3 spaces can be created on GitBook and configured with different Root directories:
 
-- `packages/styleguide`
-- `packages/app`
-- `packages/api`
+* `packages/styleguide`
+* `packages/app`
+* `packages/api`
 
 The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first is used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
 
@@ -53,7 +39,7 @@ In most cases, we recommend the following step to update the Project directory:
 1. Disable the existing Git Sync
 2. Move the files in the Git repository to the Project directory
 3. Reconfigure the Git Sync with the new Project directory
-   {% endhint %}
+{% endhint %}
 
 In some cases, you might have started with a typical repository synchronizing with only one space, but then decided to transition into a monorepo with multiple spaces synchronizing with it; or might have to rename the Project directory.
 

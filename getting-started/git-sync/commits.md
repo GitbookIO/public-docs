@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Commit messages & Autolink
 
 By default, when exporting content from GitBook to the Git repository, GitBook will generate a commit message based on the merged change request:
@@ -28,7 +14,7 @@ Use the following URL format, where `spaceId` corresponds to your space’s URL:
 
 `<https://app.gitbook.com/s/{spaceId}/~/changes/<num>/`
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/10_01_25_git_sync_autolink.svg" alt="A GitBook screenshot showing autolink setup" ><figcaption><p>Autolink setup.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/10_01_25_git_sync_autolink.svg" alt="A GitBook screenshot showing autolink setup"><figcaption><p>Autolink setup.</p></figcaption></figure></div>
 
 ## Customize the commit message template
 

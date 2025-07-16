@@ -4,17 +4,6 @@ description: >-
   all the tools you need to create everything from product guides to API
   references and beyond.
 icon: book-open
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # GitBook Documentation
