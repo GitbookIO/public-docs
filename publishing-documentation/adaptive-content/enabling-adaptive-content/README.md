@@ -29,7 +29,7 @@ For example, if you expect a visitor to potentially be a beta user in your produ
     "isBetaUser": {
       "type": "boolean",
       "description": "Whether the visitor is a Beta user."
-    },
+    }
   },
   "additionalProperties": false
 }
