@@ -69,7 +69,7 @@ Your visitor token signing key will also be displayed here.
 
 </details>
 
-### Domains & Redirects
+### Domain and URL
 
 <details>
 
@@ -81,11 +81,13 @@ Configure a custom domain to unify your site with your own branding. See [custom
 
 <details>
 
-<summary>GitBook URL</summary>
+<summary>GitBook Subdirectory</summary>
 
-Customize the slug of your docs site (e.g. `organization.gitbook.io/custom-slug`)
+Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). See [#gitbook-subdirectory](site-settings.md#gitbook-subdirectory "mention") for more info
 
 </details>
+
+### Redirects
 
 {% content-ref url="site-redirects.md" %}
 [site-redirects.md](site-redirects.md)
@@ -95,15 +97,7 @@ Customize the slug of your docs site (e.g. `organization.gitbook.io/custom-slug`
 
 <details>
 
-<summary>AI search <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
-
-Let your site visitors ask GitBook anything with AI. See [gitbook-ai.md](../creating-content/searching-your-content/gitbook-ai.md "mention") for more info.
-
-</details>
-
-<details>
-
-<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
 Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collaboration/pdf-export.md "mention") for more info.
 
@@ -111,7 +105,7 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collabor
 
 <details>
 
-<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
@@ -119,14 +113,32 @@ You can review the results of these ratings by opening the [**Insights**](insigh
 
 </details>
 
-### Site structure
+### AI & MCP
+
+<details>
+
+<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
+
+Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [gitbook-ai.md](../creating-content/searching-your-content/gitbook-ai.md "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark> </summary>
+
+Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai-2](../creating-content/searching-your-content/gitbook-ai.md#how-do-i-use-gitbook-ai-2 "mention") for more info.
+
+</details>
+
+### Structure
 
 {% content-ref url="site-structure/" %}
 [site-structure](site-structure/)
 {% endcontent-ref %}
 
-### Ads and sponsorship
+### Plan
 
-{% content-ref url="../account-management/plans/community/sponsored-site-plan.md" %}
-[sponsored-site-plan.md](../account-management/plans/community/sponsored-site-plan.md)
+{% content-ref url="../account-management/plans/" %}
+[plans](../account-management/plans/)
 {% endcontent-ref %}

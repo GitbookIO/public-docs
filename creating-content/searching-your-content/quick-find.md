@@ -8,7 +8,7 @@ GitBook’s **Quick find** palette lets you search for content across all your o
 
 ### Use Quick find
 
-**​**You can open the **Quick find** palette by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
+**​**You can open the **Quick find** palette by hitting the **Quick find** <picture><source srcset="../../.gitbook/assets/quick-find-1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/quick-find.svg" alt=""></picture> button at the top of the sidebar or by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
 
 ### Search results <a href="#display-of-results" id="display-of-results"></a>
 
@@ -24,7 +24,7 @@ We do not currently support the ability to prioritize certain content in Quick f
 
 **Quick find** is compliant with your team’s permission settings, meaning that users will only be able to search the content they have permission to access.‌
 
-### Content Indexing <a href="#indexation" id="indexation"></a>
+### Content indexing <a href="#indexation" id="indexation"></a>
 
 We index your content by grouping it into sections. Sections are denoted using [H1, H2 or H3 Headings](../blocks/heading.md), with the content that follows them forming part a section.
 
