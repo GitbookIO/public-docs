@@ -1,23 +1,27 @@
 ---
-description: Create reusable variables that can be referenced in pages and spaces.
+description: Create reusable variables that can be referenced in pages and spaces
 icon: icons
 ---
 
 # Variables
 
-Variables allow you to create reusable text that can be conditionally referenced in [expression blocks](formatting/inline.md#expressions). This is useful if you need to update similarly named things across your content at the same time - like product names or versions.
+With variables you can create reusable text that can be conditionally referenced in [expressions](formatting/inline.md#expressions).&#x20;
+
+If you repeat the same name, phrase or version number multiple times within your content, you can create a **variable** to help keep all those instances in sync and accurate — which is useful if you ever need to update them, or they’re complex and often mistyped.
 
 You can create variables that are scoped to a single page, or a single space.
 
 ### Create a new variable
 
-To create a new variable, head to the variables panel  in the upper right corner when editing an open [change request](../collaboration/change-requests.md).
+To create a new variable, Click the **Variables** <picture><source srcset="../.gitbook/assets/variables-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/variables.svg" alt=""></picture> icon in the upper right corner when editing an open [change request](../collaboration/change-requests.md). This will open the Variables side panel.
 
-Use the toggle at the top to create variables either scoped to the current page you’re on, or all pages within the space you’re in.
+You can use the toggle at the top to view and create variables scoped either to the current page you’re on, or all pages within the current space.
 
-Clicking the “**+ Create a variable**” button will launch a modal, where you can give your variable a name and a value.
+Clicking **Create a variable** will launch a modal where you can give your variable a name and a value.
 
-Click “Add variable” to save your variable.
+Click **Add variable** to save your variable.
+
+<figure><img src="../.gitbook/assets/variables.jpg" alt="A GitBook screenshot showing the Add variables screen. The variable Name box has been filled with the text ‘latest_version’ and the Value box has been filled with the text ‘v3.04.1’"><figcaption><p>You can add variables to a single page or an entire space. When you update the value of a variable, every instance of it will update.</p></figcaption></figure>
 
 {% hint style="info" %}
 Variable names must start with a letter, and can contain letters, numbers and underscores.
@@ -25,10 +29,12 @@ Variable names must start with a letter, and can contain letters, numbers and un
 
 ### Use variables in your content
 
-Variables can be referenced and used within an [expression block](formatting/inline.md#expressions). The expression block can be inserted inline into your content. After inserting an expression block, double click the expression block to open the expression editor.
+Variables can be referenced and used within an [expression](formatting/inline.md#expressions) — which you can insert into your content inline. After inserting an expression, double click it to open the expression editor.
 
-Variables defined under your page are accessible under the `page.vars` object. Similarly, variables defined across your entire space are accessible under the `space.vars` object.
+Variables defined under your page are accessible under the `page.vars` object. Similarly, variables defined across your entire space are accessible under the `space.vars` object.&#x20;
+
+<figure><img src="../.gitbook/assets/insert-variables-expression.jpg" alt="A GitBook screenshot showing an expression block within the editor. The expression editor is open below it and the ‘space.vars.latest_version’ variable has been selected"><figcaption><p>You can add variables to your content within expresions. The expression editor offers autocomplete options to help you find the variable you need.</p></figcaption></figure>
 
 ### Update a variable
 
-You can update a variable at any point when within a change request. Updating it’s value will update the value across any expression blocks referencing it. The changed variable will go live to any published site once the change request is merged.
+You can update a variable at any point when within a change request. Updating its value will update the value across any expression blocks referencing it. The changed variable will go live to any published site once the change request is merged.
