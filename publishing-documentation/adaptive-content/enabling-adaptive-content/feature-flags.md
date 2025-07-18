@@ -4,9 +4,17 @@ description: Pass visitor data into your docs through a feature flag provider.
 
 # Feature flags
 
-GitBook provides helper functions and integrations for popular feature flag service providers like **LaunchDarkly** and **Bucket**.
+GitBook provides helper functions and integrations for popular feature flag service providers like [**LaunchDarkly**](feature-flags.md#launchdarkly) and [**Bucket**](feature-flags.md#bucket).
+
+This allows you to read the feature flags users have access to in your product, as they read your docs. This is useful if you need to show documentation for features that are only available to a specific group of people.
 
 ### LaunchDarkly
+
+LaunchDarkly allows you to send feature flag access as claims through the [`launchdarkly-react-client-sdk`](https://launchdarkly.com/docs/sdk/client-side/react/react-web) and GitBook’s  [`@gitbook/adaptive`](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/zq8ynchcecIscc4uulgN/) package.
+
+If you’re using LaunchDarkly feature flags in your product already, chances are you already have this package configured.
+
+To pass you these feature flags as claims to GitBook, follow these steps:
 
 {% stepper %}
 {% step %}
@@ -18,13 +26,13 @@ To get started, you’ll first need to [install the LaunchDarkly integration](ht
 {% step %}
 ### Set up your project and access keys
 
-Add your project key and your service access token from your [LaunchDarkly settings](https://app.launchdarkly.com/settings).
+Add your project key and your service access token from your [LaunchDarkly settings](https://app.launchdarkly.com/settings) to the integration’s configuration.
 {% endstep %}
 
 {% step %}
-### Install the GitBook helper
+### Install and add the GitBook helper to your application
 
-After setting up the LaunchDarkly integration, you’ll need to install the GitBook adaptive content helper in your project.
+After setting up the LaunchDarkly integration, you’ll need to install the GitBook adaptive content helper in your application.
 
 ```bash
 npm install @gitbook/adaptive
@@ -34,22 +42,21 @@ npm install @gitbook/adaptive
 {% step %}
 ### Configure your client
 
-Finally, you’ll need to use the `withLaunchDarkly` helper with the LaunchDarkly React SDK to pass context into GitBook.
+You’ll need to use the `withLaunchDarkly` helper with the LaunchDarkly React SDK to pass context into GitBook.
 
-```javascript
-import { render } from 'react-dom';
-import { withLaunchDarkly } from '@gitbook/adaptive';
-import { asyncWithLDProvider, useLDClient } from 'launchdarkly-react-client-sdk';
-import MyApplication from './MyApplication';
+<pre class="language-javascript"><code class="lang-javascript">import { render } from 'react-dom';
+<strong>import { withLaunchDarkly } from '@gitbook/adaptive';
+</strong><strong>import { asyncWithLDProvider, useLDClient } from 'launchdarkly-react-client-sdk';
+</strong>import MyApplication from './MyApplication';
 
 function PassFeatureFlagsToGitBookSite() {
-    const ldClient = useLDClient();
-    React.useEffect(() => {
+<strong>    const ldClient = useLDClient();
+</strong>    React.useEffect(() => {
         if (!ldClient) {
             return;
         }
-        return withLaunchDarkly(ldClient);
-    }, [ldClient]);
+<strong>        return withLaunchDarkly(ldClient);
+</strong>    }, [ldClient]);
     return null;
 }
 (async () => {
@@ -64,20 +71,40 @@ function PassFeatureFlagsToGitBookSite() {
         options: { /* ... */ }
     });
     render(
-        <LDProvider>
-            <PassFeatureFlagsToGitBookSite />
-            <MyApplication />
-        </LDProvider>,
+        &#x3C;LDProvider>
+            &#x3C;PassFeatureFlagsToGitBookSite />
+            &#x3C;MyApplication />
+        &#x3C;/LDProvider>,
         document.getElementById('reactDiv'),
     );
 })();
-```
+</code></pre>
+{% endstep %}
+
+{% step %}
+### Edit your visitor schema to accept unsigned claims
+
+Any feature flags you are sending as claims must be set as [unsigned claims](./#set-an-unsigned-claim) in your visitor schema before they are able to be used.
+{% endstep %}
+
+{% step %}
+### Personalize your content
+
+After setting your visitor schema, you’re ready to tailor your docs experience for the users visiting your site, using the feature flags the user has access to.&#x20;
+
+Any feature flag value available in LaunchDarkly will be exposed as part of the visitor schema under the `unsigned.launchdarkly.flags` object.
+
+Head to [adapting your content](../adapting-your-content.md) to learn more about personalizing your docs for your users.
 {% endstep %}
 {% endstepper %}
 
-Once connected, any feature flag value available in LaunchDarkly will be exposed as part of the visitor schema under the `unsigned.launchdarkly.flags` object.
-
 ### Bucket
+
+Bucket allows you to send feature flag access as claims through the [`@bucketco/react-sdk`](https://www.npmjs.com/package/@bucketco/react-sdk) and GitBook’s  [`@gitbook/adaptive`](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/zq8ynchcecIscc4uulgN/) package.
+
+If you’re using Bucket feature flags in your product already, chances are you already have this package configured.
+
+To pass you these feature flags as claims to GitBook, follow these steps:
 
 {% stepper %}
 {% step %}
@@ -89,13 +116,13 @@ To get started, you’ll first need to [install the Bucket integration](https://
 {% step %}
 ### Set up your secret key
 
-Add your secret key from your [Bucket settings](https://app.bucket.co/envs/current/settings/app-environments).
+Add your secret key from your [Bucket settings](https://app.bucket.co/envs/current/settings/app-environments) to the integration’s configuration.
 {% endstep %}
 
 {% step %}
-### Install the GitBook helper
+### Install the GitBook helper to your application
 
-After setting up the Bucket integration, you’ll need to install the GitBook adaptive content helper in your project.
+After setting up the Bucket integration, you’ll need to install the GitBook adaptive content helper in your application.
 
 ```bash
 npm install @gitbook/adaptive
@@ -105,28 +132,27 @@ npm install @gitbook/adaptive
 {% step %}
 ### Configure your client
 
-Finally, you’ll need to use the `withBucket` helper with the LaunchDarkly React SDK to pass context into GitBook.
+You’ll need to use the `withBucket` helper with the LaunchDarkly React SDK to pass context into GitBook.
 
-```javascript
-import { withBucket } from '@gitbook/adaptive';
-import { BucketProvider, useClient } from '@bucketco/react-sdk';
-import MyApplication from './MyApplication';
+<pre class="language-javascript"><code class="lang-javascript"><strong>import { withBucket } from '@gitbook/adaptive';
+</strong><strong>import { BucketProvider, useClient } from '@bucketco/react-sdk';
+</strong>import MyApplication from './MyApplication';
 
 function PassFeatureFlagsToGitBookSite() {
-    const client = useClient();
-    React.useEffect(() => {
+<strong>    const client = useClient();
+</strong>    React.useEffect(() => {
         if (!client) {
             return;
         }
-        return withBucket(client);
-    }, [client]);
+<strong>        return withBucket(client);
+</strong>    }, [client]);
     return null;
 }
 export function Application() {
     const currentUser = useLoggedInUser();
     const appConfig = useAppConfig();
     return (
-        <BucketProvider
+        &#x3C;BucketProvider
             publishableKey={appConfig.bucketCo.publishableKey}
             user={{
                 id: currentUser.uid,
@@ -137,16 +163,30 @@ export function Application() {
                 id: currentUser.company.id,
             }}
         >
-            <PassFeatureFlagsToGitBookSite />
-            <MyApplication />
-        </BucketProvider>
+            &#x3C;PassFeatureFlagsToGitBookSite />
+            &#x3C;MyApplication />
+        &#x3C;/BucketProvider>
     );
 }
-```
+</code></pre>
+{% endstep %}
+
+{% step %}
+### Edit your visitor schema to accept unsigned claims
+
+Any feature flags you are sending as claims must be set as [unsigned claims](./#set-an-unsigned-claim) in your visitor schema before they are able to be used.
+{% endstep %}
+
+{% step %}
+### Personalize your content
+
+After setting your visitor schema, you’re ready to tailor your docs experience for the users visiting your site, using the feature flags the user has access to.&#x20;
+
+Any feature flag value available in Bucket will be exposed as part of the visitor schema under the `unsigned.bucket.flags` object.
+
+Head to [adapting your content](../adapting-your-content.md) to learn more about personalizing your docs for your users.
 {% endstep %}
 {% endstepper %}
-
-Once connected, any feature flag value available in Bucket will be exposed as part of the visitor schema under the `unsigned.bucket.flags` object.
 
 {% hint style="info" %}
 Feature flag values are evaluated on the client side, so avoid using this method to pass sensitive or security-critical data.
