@@ -4,6 +4,12 @@ description: Pass visitor data into your docs through a feature flag provider.
 
 # Feature flags
 
+{% hint style="warning" %}
+Using adaptive content with feature flags requires adding code to your application.&#x20;
+
+Currently, the GitBook helper only supports React based setups.&#x20;
+{% endhint %}
+
 GitBook provides helper functions and integrations for popular feature flag service providers like [**LaunchDarkly**](feature-flags.md#launchdarkly) and [**Bucket**](feature-flags.md#bucket).
 
 This allows you to read the feature flags users have access to in your product, as they read your docs. This is useful if you need to show documentation for features that are only available to a specific group of people.
@@ -40,7 +46,7 @@ npm install @gitbook/adaptive
 {% endstep %}
 
 {% step %}
-### Configure your client
+### Configure your application
 
 You’ll need to use the `withLaunchDarkly` helper with the LaunchDarkly React SDK to pass context into GitBook.
 
@@ -130,7 +136,7 @@ npm install @gitbook/adaptive
 {% endstep %}
 
 {% step %}
-### Configure your client
+### Configure your application
 
 You’ll need to use the `withBucket` helper with the LaunchDarkly React SDK to pass context into GitBook.
 
