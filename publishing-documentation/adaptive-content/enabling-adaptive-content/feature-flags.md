@@ -82,9 +82,9 @@ function PassFeatureFlagsToGitBookSite() {
 {% endstep %}
 
 {% step %}
-### Edit your visitor schema to accept unsigned claims
+### Check your visitor schema
 
-Any feature flags you are sending as claims must be set as [unsigned claims](./#set-an-unsigned-claim) in your visitor schema before they are able to be used.
+A [visitor schema](./#set-your-visitor-schema) is required in order for your claims to be able to be read in your published site. Installing and configuring the LaunchDarkly integration should automatically set your visitor schema for you.
 {% endstep %}
 
 {% step %}
@@ -172,9 +172,9 @@ export function Application() {
 {% endstep %}
 
 {% step %}
-### Edit your visitor schema to accept unsigned claims
+### Check your visitor schema
 
-Any feature flags you are sending as claims must be set as [unsigned claims](./#set-an-unsigned-claim) in your visitor schema before they are able to be used.
+A [visitor schema](./#set-your-visitor-schema) is required in order for your claims to be able to be read in your published site. Installing and configuring the Bucket integration should automatically set your visitor schema for you.
 {% endstep %}
 
 {% step %}
