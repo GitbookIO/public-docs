@@ -16,6 +16,24 @@ Is there a language we don’t yet offer that you’d like to see included? [Let
 
 If your space is connected to a Git repository, you can optionally show a link for your users to contribute to your documentation from your linked repository.
 
+### External Links
+
+This setting controls the behaviour when your site users click an external link. By default, they will open in the same tab, but you can switch this to open in a new tab if that's your preference.
+
+### Page actions
+
+Page actions inserts a page-level dropdown where users can perform quick actions on a page's content (namely for leveraging AI on top of your docs). If you want to remove the dropdown from your site, disable this option.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### Open in AI providers
+
+Displays an action to open ChatGPT or Claude with the page content.
+
+#### Copy/View as Markdown
+
+Displays an action to copy or view the page as Markdown.
+
 ### Privacy Policy
 
 You can link to your own privacy policy to help visitors understand how your GitBook content uses cookies and how you protect their privacy. If you choose not to set one, your site will default to [GitBook’s privacy policy](https://policies.gitbook.com/privacy-and-security/statement/cookies).

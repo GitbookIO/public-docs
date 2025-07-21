@@ -93,7 +93,7 @@ Once you've created the Azure AD app registration, the next step is to install t
 12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”\
 
 
-    <figure><img src="../../.gitbook/assets/image.png" alt="An Azure screenshot showing where to enter the redirect URI"><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1).png" alt="An Azure screenshot showing where to enter the redirect URI"><figcaption></figcaption></figure>
 13. Head back to **Azure integration** installation screen **in GitBook**.
 14. Close the integration dialogs and click on the **Settings** tab in the site screen.
 15. Browse to **Audience** and select **Authenticated access** (if not already selected).
