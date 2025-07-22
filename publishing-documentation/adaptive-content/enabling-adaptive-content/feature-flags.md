@@ -138,7 +138,7 @@ npm install @gitbook/adaptive
 {% step %}
 ### Configure your application
 
-You’ll need to use the `withBucket` helper with the LaunchDarkly React SDK to pass context into GitBook.
+You’ll need to use the `withBucket` helper with the Bucket React SDK to pass context into GitBook.
 
 <pre class="language-javascript"><code class="lang-javascript"><strong>import { withBucket } from '@gitbook/adaptive';
 </strong><strong>import { BucketProvider, useClient } from '@bucketco/react-sdk';
