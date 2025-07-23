@@ -111,6 +111,8 @@ Nest claims in an object to group similar values.
 
 ### Set an unsigned claim
 
+Unsigned claims are a specific type of claim that identifies claims coming through that might not be signed by a client application. It is required to set claims in your visitor schema as `unsigned` if you are passing claims through URL parameters, unsigned cookies, and feature flags.
+
 If you intend to work with unsigned claims, you will need to declare the claims you are expecting in the schema under an “unsigned” prop alongside your signed claims.
 
 ```json
