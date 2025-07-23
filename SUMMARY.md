@@ -48,7 +48,7 @@
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
-* [Variables](creating-content/variables.md)
+* [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)

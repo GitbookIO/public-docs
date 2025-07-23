@@ -3,9 +3,9 @@ description: Create reusable variables that can be referenced in pages and space
 icon: icons
 ---
 
-# Variables
+# Variables and expressions
 
-With variables you can create reusable text that can be conditionally referenced in [expressions](formatting/inline.md#expressions).&#x20;
+With variables you can create reusable text that can be conditionally referenced in [expressions](formatting/inline.md#expressions) and [conditions for adaptive content](../publishing-documentation/adaptive-content/adapting-your-content.md#working-with-the-condition-editor).&#x20;
 
 If you repeat the same name, phrase or version number multiple times within your content, you can create a **variable** to help keep all those instances in sync and accurate — which is useful if you ever need to update them, or they’re complex and often mistyped.
 
