@@ -7,7 +7,7 @@ icon: gear
 
 {% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/10_01_25_site_settings.svg" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/18_07_25_publishing-documentation-site-settings.svg" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 

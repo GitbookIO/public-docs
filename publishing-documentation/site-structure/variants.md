@@ -8,7 +8,7 @@ description: >-
 
 You can publish multiple versions of the same documentation as part of a single docs site. These variants will be available to the end users via the space switcher in the top-left corner of the published site.
 
-<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt="A GitBook screenshot showing a docs site's structure"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18_07_25_publishing-documentation-site-structure.svg" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption></figcaption></figure>
 
 ### Add multiple languages or versions
 
@@ -52,7 +52,7 @@ Setting a variant as default removes its slug field, as it will be served from t
 
 ### Remove a variant from a site
 
-To remove a variant from a site, open the **Settings** tab from your docs site dashboard, then click **Structure** to find the content you want to remove.&#x20;
+To remove a variant from a site, open the **Settings** tab from your docs site dashboard, then click **Structure** to find the content you want to remove.
 
 Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the variant you want to remove and choose **Remove**.
 

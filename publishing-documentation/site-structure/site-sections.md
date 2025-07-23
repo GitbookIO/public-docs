@@ -30,7 +30,7 @@ From your docs site’s dashboard, open the **Settings** tab in the site header,
 
 To add a site section, click the **New section** button underneath the table and choose a space to link as a section. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
 
-<figure><img src="../../.gitbook/assets/14_03_25_site_structure.png" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18_07_25_publishing-documentation-site-structure_sections.svg" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
 
 ### Create a site section group
 

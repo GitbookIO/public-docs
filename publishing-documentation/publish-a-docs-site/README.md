@@ -9,7 +9,7 @@ Once you’ve finished writing, editing, or importing your content, you can publ
 
 The content on your site comes from [spaces](../../creating-content/content-structure/space.md) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
 
-<figure><img src="../../.gitbook/assets/10_01_25_docs_dashboard.svg" alt="A GitBook screenshot showing the docs sites homepage" ><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18_07_25_publishing-documentation-publish-docs.svg" alt="A GitBook screenshot showing the docs sites homepage"><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
 
 ### Create a docs site
 

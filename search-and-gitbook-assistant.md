@@ -13,6 +13,8 @@ icon: magnifying-glass
 GitBook Assistant is current available in closed beta — it will be available for everyone soon. In the meantime, published documentation will still feature keywords search and GitBook AI search.
 {% endhint %}
 
+<figure><img src=".gitbook/assets/23_07_25_gitbook_assistant.svg" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
+
 ## Choose your site’s search experience
 
 GitBook sites offer different search experiences depending on what you want for your users:

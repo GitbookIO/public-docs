@@ -11,15 +11,15 @@ Insights give you information on the content you've published and how it perform
 
 You can see a top-level overview of your insights on the **Overview** tab of your site’s dashboard, with a globe that shows views in the last hour by location.
 
-Click the **Insights** tab in the site header to find more detailed insights for your site.&#x20;
+Click the **Insights** tab in the site header to find more detailed insights for your site.
 
-<figure><img src="../.gitbook/assets/03_02_25_advanced_site_insights.svg" alt="A GitBook screenshot showing the site insights dashboard" ><figcaption><p>The site insights dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/18_07_25_publishing-documentation-advanced-site-insights.svg" alt="A GitBook screenshot showing the site insights dashboard"><figcaption><p>The site insights dashboard.</p></figcaption></figure>
 
 ### Filters & groups
 
-You can add filters or group your data to view it in specific ways. For example, you could look at search data within a specific site section, or filter your traffic data by country, device, browser and more.&#x20;
+You can add filters or group your data to view it in specific ways. For example, you could look at search data within a specific site section, or filter your traffic data by country, device, browser and more.
 
-By combining filters and groups, you can drill down in to precise analytics data to track the events that you are important to you.&#x20;
+By combining filters and groups, you can drill down in to precise analytics data to track the events that you are important to you.
 
 ### Types of data
 
@@ -27,12 +27,12 @@ The Insights tab is split into six sections, each focused on a specific data typ
 
 #### Traffic
 
-GitBook tracks page views to help you understand the popularity and reach of your content. Each time a user visits a page on your docs site, it is counted as a page view.&#x20;
+GitBook tracks page views to help you understand the popularity and reach of your content. Each time a user visits a page on your docs site, it is counted as a page view.
 
 Page views are critical for assessing the effectiveness of your content strategy and optimizing your documentation based on user interest. It’s split up between different views and profiles, including countries, languages, browsers, and more.
 
 {% hint style="success" %}
-Throughout the insights tab you will see Events and Visitor metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique users performing the actions.&#x20;
+Throughout the insights tab you will see Events and Visitor metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique users performing the actions.
 
 In the context of page views, Events would be total amount of page views, and Visitors would be the count of distinct users performing a page view.
 {% endhint %}
@@ -54,17 +54,17 @@ We only display data for published sites with page ratings enabled. If your site
 
 Broken URLs shows any incoming links from external sources that are resulting in a ‘Page not found’ error. These may be mistyped URLs, outdated links with no redirects, or spam links.
 
-If a broken link points to a topic that exists somewhere else in your documentation, or you simply want to direct the traffic to your primary docs, you can set up [site redirects](site-redirects.md) to point those visitors in the right direction.&#x20;
+If a broken link points to a topic that exists somewhere else in your documentation, or you simply want to direct the traffic to your primary docs, you can set up [site redirects](site-redirects.md) to point those visitors in the right direction.
 
 #### Search
 
-You can measure and improve your documentation by checking which keywords are used the most by users searching your documentation. This view allows you to see what keywords are performing the best, and which ones you could improve on.&#x20;
+You can measure and improve your documentation by checking which keywords are used the most by users searching your documentation. This view allows you to see what keywords are performing the best, and which ones you could improve on.
 
 The information here can be helpful for informing your content architecture, making certain parts of your documentation easier to find without search, or adding additional content to existing pages based on what your visitors are searching for.
 
 #### Ask AI
 
-The [Ask AI](../creating-content/searching-your-content/gitbook-ai.md) section allows you to see what your users are asking for when using GitBook AI. This insight helps you identify common questions, uncover gaps in your documentation, and improve content to better meet user needs.&#x20;
+The [Ask AI](../creating-content/searching-your-content/gitbook-ai.md) section allows you to see what your users are asking for when using GitBook AI. This insight helps you identify common questions, uncover gaps in your documentation, and improve content to better meet user needs.
 
 By looking at these queries, you can refine your documentation structure, enhance discoverability, and provide more relevant information to your audience.
 
@@ -74,6 +74,6 @@ GitBook tracks links to help you understand how users interact with external res
 
 #### OpenAPI
 
-The [OpenAPI](../api-references/openapi/) analytics view in GitBook provides insights into how users engage with your API documentation.&#x20;
+The [OpenAPI](../api-references/openapi/) analytics view in GitBook provides insights into how users engage with your API documentation.
 
 It tracks interactions such as endpoint views, parameter searches, and request explorations, helping you understand which parts of your API are most accessed and where users may need more clarity. These insights enable you to refine your documentation, improve developer experience, and ensure your API content is effectively meeting user needs.

@@ -15,7 +15,7 @@ Adaptive content helps to build a tailored documentation experience based on who
 Adaptive content is slightly different from [authenticated access](../authenticated-access/), although they can work together. While authenticated access allows you to protect your docs through a login, adaptive content customizes published material based on various authentication methods — including authenticated access or those from your own app.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/21_03_25_adaptive_content (1).svg" alt="A GitBook screenshot showing adaptive content controls"><figcaption><p>Enable adaptive content on a page, variant, or section.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/23_07_25_adaptive_content.svg" alt="A GitBook screenshot showing adaptive content controls"><figcaption><p>Enable adaptive content on a page, variant, or section.</p></figcaption></figure>
 
 ### How it works
 
