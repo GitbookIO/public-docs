@@ -108,11 +108,8 @@
     * [Authenticated access](publishing-documentation/adaptive-content/enabling-adaptive-content/authenticated-access.md)
   * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
-
-***
-
-* [Search & GitBook Assistant](search-and-gitbook-assistant.md)
-* [LLM-ready docs](llm-ready-docs.md)
+* [Search & GitBook Assistant](publishing-documentation/search-and-gitbook-assistant.md)
+* [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
 
 ## Collaboration
 

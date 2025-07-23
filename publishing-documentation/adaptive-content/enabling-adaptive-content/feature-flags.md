@@ -98,7 +98,7 @@ A [visitor schema](./#set-your-visitor-schema) is required in order for your cla
 
 After setting your visitor schema, you’re ready to tailor your docs experience for the users visiting your site, using the feature flags the user has access to.&#x20;
 
-Any feature flag value available in LaunchDarkly will be exposed as part of the visitor schema under the `unsigned.launchdarkly.flags` object.
+Any feature flag value available in LaunchDarkly will be exposed as part of the visitor schema under the `unsigned.launchdarkly.flags` object. Read more about unsigned claims [here](./#set-an-unsigned-claim).
 
 Head to [adapting your content](../adapting-your-content.md) to learn more about personalizing your docs for your users.
 {% endstep %}
@@ -188,7 +188,7 @@ A [visitor schema](./#set-your-visitor-schema) is required in order for your cla
 
 After setting your visitor schema, you’re ready to tailor your docs experience for the users visiting your site, using the feature flags the user has access to.&#x20;
 
-Any feature flag value available in Bucket will be exposed as part of the visitor schema under the `unsigned.bucket.flags` object.
+Any feature flag value available in Bucket will be exposed as part of the visitor schema under the `unsigned.bucket.flags` object. Read more about unsigned claims [here](./#set-an-unsigned-claim).
 
 Head to [adapting your content](../adapting-your-content.md) to learn more about personalizing your docs for your users.
 {% endstep %}

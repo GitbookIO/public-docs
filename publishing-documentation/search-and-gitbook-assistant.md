@@ -13,7 +13,7 @@ icon: magnifying-glass
 GitBook Assistant is current available in closed beta — it will be available for everyone soon. In the meantime, published documentation will still feature keywords search and GitBook AI search.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/23_07_25_gitbook_assistant.svg" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/23_07_25_gitbook_assistant.svg" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
 
 ## Choose your site’s search experience
 
@@ -35,11 +35,11 @@ When the GitBook Assistant is enabled, AI search is disabled. Standard keyword s
 
 Your users can search for keywords within your docs site and jump quickly to specific pages or page sections across your entire site.
 
-If your docs site has multiple [sections](publishing-documentation/site-structure/site-sections.md), the search results will contain pages from all of these sections so that you users can jump straight to the page they need.
+If your docs site has multiple [sections](site-structure/site-sections.md), the search results will contain pages from all of these sections so that you users can jump straight to the page they need.
 
 ## GitBook Assistant
 
-{% include ".gitbook/includes/ultimate-hint.md" %}
+{% include "../.gitbook/includes/ultimate-hint.md" %}
 
 GitBook Assistant gives your users fast, accurate answers about your documentation using natural language. It’s embedded right into your docs site, so users can ask questions, request more information about the page they’re on, or get other contextual help.
 
@@ -63,7 +63,7 @@ You can try GitBook Assistant for yourself right here in our docs. To get starte
 Users can access GitBook Assistant in three ways:
 
 * Press <kbd>⌘</kbd> + <kbd>J</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>J</kbd> on PC
-* Click the **GitBook Assistant** <picture><source srcset=".gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
+* Click the **GitBook Assistant** <picture><source srcset="../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.
 
 ### Extend GitBook Assistant with MCP servers <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
@@ -99,7 +99,7 @@ To add your server you’ll need to give it a name, add the URL for the server, 
 
 ## GitBook AI search
 
-{% include ".gitbook/includes/premium-and-ultimate-hint.md" %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 GitBook AI search offers basic AI-powered answers in the **Search and find…** bar of your site. It’s trained on the content of your docs site, but cannot pull in information from external sources.&#x20;
 
@@ -112,9 +112,9 @@ They can open this by clicking it directly, or by pressing <kbd>⌘</kbd> + <kbd
 As well as a summarized answer, below your users will also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
 
 {% hint style="warning" %}
-GitBook AI does not work across individual published spaces on different [docs sites](publishing-documentation/publish-a-docs-site/).
+GitBook AI does not work across individual published spaces on different [docs sites](publish-a-docs-site/).
 
-Multi-space search is _only_ available when viewing published spaces that live as [site sections](publishing-documentation/site-structure/site-sections.md) within the same site.&#x20;
+Multi-space search is _only_ available when viewing published spaces that live as [site sections](site-structure/site-sections.md) within the same site.&#x20;
 {% endhint %}
 
 ### FAQs
