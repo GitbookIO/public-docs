@@ -106,7 +106,7 @@ Head to [adapting your content](../adapting-your-content.md) to learn more about
 
 ### Bucket
 
-Bucket allows you to send feature flag access as claims through the [`@bucketco/react-sdk`](https://www.npmjs.com/package/@bucketco/react-sdk) and GitBook’s  [`@gitbook/adaptive`](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/zq8ynchcecIscc4uulgN/) package.
+Bucket allows you to send feature flag access as claims through the [`@bucketco/react-sdk`](https://www.npmjs.com/package/@bucketco/react-sdk) and GitBook’s  [`@gitbook/adaptive`](https://github.com/GitbookIO/integrations/tree/main/packages/adaptive) package.
 
 If you’re using Bucket feature flags in your product already, chances are you already have this package configured.
 
