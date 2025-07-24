@@ -6,12 +6,13 @@ description: Tailor your content for different users.
 
 After setting up your authentication method, you’ll be able to use the data to adapt the content in your site for different users.
 
-Adaptive content works in the following ways:
+You can adapt and personalize many parts of your docs, including:
 
-* Hiding or showing pages
-* Hiding or showing site variants
-* Hiding or showing site sections
-* Hiding or showing header links
+* Hiding or showing [pages](../../creating-content/content-structure/page.md)
+* Hiding or showing site [variants](../site-structure/variants.md)
+* Hiding or showing site [sections](../site-structure/site-sections.md)
+* Hiding or showing [header links](../customization/layout-and-structure.md#header)
+* Adding personalized content to [inline expressions](../../creating-content/variables-and-expressions.md)
 
 ### Working with the condition editor
 
