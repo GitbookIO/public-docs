@@ -76,3 +76,10 @@ You can see which links in your docs have conditions set if the section has a pa
 In addition to controlling the visibility of content, you can also use claims inline using [expressions](../../creating-content/variables-and-expressions.md), just like page and space variables.&#x20;
 
 To reference a claim inline using an expression, type “/” in the editor, then select <picture><source srcset="../../.gitbook/assets/Expression - dark mode.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Expression.svg" alt=""></picture> Expression. Claims will be accessible in the expression editor as properties on `visitor` .
+
+### Working with Git Sync
+
+Conditions set in GitBook are synced through Git Sync and appear in the synced Markdown pages. This means blocks and pages with conditions set on their visibility are still visible in your synced repo.
+
+&#x20;Data passed through claims is never visible in Markdown, and is securely passed to GitBook.
+
