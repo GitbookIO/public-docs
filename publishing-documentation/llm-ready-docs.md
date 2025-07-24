@@ -15,7 +15,7 @@ LLM-optimized documentation ensures that AI systems like ChatGPT, Claude, Cursor
 
 With GitBook, all of the pages of your docs site are automatically available as markdown files. If you add the `.md` extension to any page, you will see the content of that page rendered in markdown which you can pass to an LLM for more efficient processing than an HTML file.&#x20;
 
-<a href="https://gitbook.com/docs/llm-ready-docs.md" class="button primary">Check out the .md file for this page</a>
+<a href="https://gitbook.com/docs/publishing-documentation/llm-ready-docs.md" class="button primary">Check out the .md file for this page</a>
 
 ## llms.txt
 
