@@ -18,6 +18,8 @@ You can adapt and personalize many parts of your docs, including:
 
 The condition editor is where you’ll set the conditions for showing or hiding a page, variant, or section. After opening the condition editor, you’ll be able to write your condition as an [expression](../../creating-content/variables-and-expressions.md) that will run against data coming from visitors to your site.&#x20;
 
+<figure><img src="../../.gitbook/assets/28_07_25_condition_editor.svg" alt=""><figcaption></figcaption></figure>
+
 #### Example
 
 The data you pass through your users to GitBook is attached to an object called `visitor.claims`.&#x20;
