@@ -119,7 +119,7 @@ You can review the results of these ratings by opening the [**Insights**](insigh
 
 <summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
 
-Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [gitbook-ai.md](../creating-content/searching-your-content/gitbook-ai.md "mention") for more info.
+Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [search-and-gitbook-assistant.md](search-and-gitbook-assistant.md "mention") for more info.
 
 </details>
 
@@ -127,7 +127,7 @@ Let your site visitors ask GitBook anything with AI search or the GitBook assist
 
 <summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark> </summary>
 
-Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai-2](../creating-content/searching-your-content/gitbook-ai.md#how-do-i-use-gitbook-ai-2 "mention") for more info.
+Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai](search-and-gitbook-assistant.md#how-do-i-use-gitbook-ai "mention") for more info.
 
 </details>
 

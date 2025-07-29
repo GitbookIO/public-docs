@@ -69,10 +69,7 @@
   * [Managing API operations](api-references/guides/managing-api-operations.md)
   * [Describing enums](api-references/guides/describing-enums.md)
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
-
-***
-
-* [Extensions reference](extensions-reference.md)
+* [Extensions reference](api-references/extensions-reference.md)
 
 ## Publishing Documentation
 
