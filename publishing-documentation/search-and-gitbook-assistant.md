@@ -74,7 +74,7 @@ You can try GitBook Assistant for yourself right here in our docs. To get starte
 * Ask a question about conversations in our GitHub Community, which we’ve [connected to Assistant using an MCP server](search-and-gitbook-assistant.md#how-do-i-use-gitbook-ai) — something like “What discussions have there been about customization options?”
 {% endhint %}
 
-### Using GitBook Assistant
+### Using GitBook Assistant <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
 Users can access GitBook Assistant in three ways:
 
@@ -82,7 +82,7 @@ Users can access GitBook Assistant in three ways:
 * Click the **GitBook Assistant** <picture><source srcset="../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.
 
-### Extend GitBook Assistant with MCP servers <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
+### Extend GitBook Assistant with MCP servers
 
 You can also choose to add external data sources to GitBook Assistant to give it more context and data to pull answers from. You can do this by connecting Assistant to MCP servers for external platforms, such as:
 
