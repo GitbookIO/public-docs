@@ -22,9 +22,11 @@ This setting controls the behaviour when your site users click an external link.
 
 ### Page actions
 
-Page actions inserts a page-level dropdown where users can perform quick actions on a page's content (namely for leveraging AI on top of your docs). If you want to remove the dropdown from your site, disable this option.
+Page actions adds a page-level dropdown to every page of your docs, allowing users to perform quick actions on a page's content — ideal for using your docs content as context within an AI prompt.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+You can disable this option from the **Configure** tab if you do not wish to show page options in your published docs.
+
+<figure><img src="../../.gitbook/assets/01_08_2025_page_options.png" alt=""><figcaption></figcaption></figure>
 
 #### Open in AI providers
 
