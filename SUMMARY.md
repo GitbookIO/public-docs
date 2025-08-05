@@ -57,6 +57,7 @@
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
 * [Broken links](creating-content/broken-links.md)
+* [Auto translations](creating-content/translations.md)
 
 ## API References
 
