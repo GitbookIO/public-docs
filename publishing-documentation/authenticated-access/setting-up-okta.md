@@ -72,6 +72,27 @@ Now, in GitBook, close the integrations modal and click on the Manage site butto
 \
 The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Okta, which confirms that your site is published behind authenticated access using Auth0.
 
-### Configure Okta for adaptive content
+### Configure Okta for adaptive content (optional)
 
-{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
+To enable Adaptive Content in your GitBook site with authenticated access, you’ll need to configure your Okta application to include relevant user data as claims in the authentication token.
+
+Claims are key-value pairs embedded in the token sent to GitBook. These claims can be used to dynamically tailor documentation based on the user’s role, plan, location, or any other identifying attribute.
+
+Okta supports multiple types of claims:
+
+* **Standard Claims**\
+  These are common claims (like `email`, `name`, or `groups`) that may be included by default but often need to be explicitly added to your token configuration for consistent availability.
+* **Custom Claims**\
+  You can define custom claims in Okta using [custom user attributes](https://help.okta.com/oie/en-us/Content/Topics/Directory/custom-user-profile-attributes.htm) or expression-based logic. These allow you to pass highly specific values—like plan tier, account ID, or internal team flags.
+* **Groups as Claims**\
+  You can also pass Okta groups as claims, which is especially useful when defining audience segments like “enterprise users” or “beta testers.” These can be filtered and mapped in your authorization server’s claim configuration.
+
+To add or customize claims in Okta:
+
+1. Open your Okta Admin Console.
+2. Navigate to **Security > API > Authorization Servers**.
+3. Edit the authorization server used for your GitBook site.
+4. Under the **Claims** tab, add rules to include the desired claims in the token.
+5. Make sure your GitBook site is reading and mapping those claims correctly.
+
+Once claims are being passed into GitBook, follow the steps in [Adapting your content](https://www.gitbook.com/docs/adaptive-content/configure-your-site) to define what content should be shown to whom.

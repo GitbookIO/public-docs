@@ -96,6 +96,8 @@ To test it out, click on **Visit**. You will be asked to sign in with Auth0, whi
 
 ### 3. Configure Auth0 for Adaptive content (optional)
 
+{% embed url="https://www.youtube.com/embed/uhWeQkgyg8Y?si=7_kD3RF-Is_MnYhZ" %}
+
 To leverage the Adaptive Content capability in your authenticated access site, [configure the Auth0 application](https://auth0.com/docs/secure/tokens/json-web-tokens/create-custom-claims) to include additional user information in the authentication token as claims.
 
 These claims, represented as key-value pairs, are passed to GitBook and can be used to [adapt content](../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
