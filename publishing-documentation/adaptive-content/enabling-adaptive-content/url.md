@@ -34,3 +34,7 @@ Visiting this URL would pass in the following claims when the site loads:&#x20;
 {% hint style="warning" %}
 Data passed through query parameters must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object. Additionally, query parameters can be easily changed by the visitor and are best suited for non-sensitive information.
 {% endhint %}
+
+### Video tutorial
+
+{% embed url="https://www.youtube.com/embed/hCd2_AAHU_I?si=jm2VOThMVh7NdJm_" %}
