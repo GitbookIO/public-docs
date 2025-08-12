@@ -1,9 +1,12 @@
 ---
+description: >-
+  Auto-translate your content into multiple languages using AI and keep it
+  synced.
 if: visitor.claims.unsigned.bucket.TRANSLATIONS
 icon: language
 ---
 
-# Auto translations
+# Translations
 
 {% hint style="warning" %}
 Auto translations are currently in Beta. Let us know if you have any feedback or encounter any issues.
@@ -27,7 +30,7 @@ From the modal that appears, you’ll need to choose a:
 
 * Source
 * Source language
-* Target langauge
+* Target language
 
 These options will be used to translate your space into a duplicated, but translated space in your organization. You’ll also see a quick overview on the cost of translating your space.
 
@@ -40,7 +43,7 @@ From here, you’ll be able to add it as a [variant](../publishing-documentation
 
 ## Pricing
 
-Auto-translations are free during the alpha period. During the public beta and after, pricing will be:
+Auto-translations is a paying addon:
 
 * $25 for up to 50,000 words
 * $0.20 per additional 1,000 words
