@@ -48,9 +48,27 @@ By default, images are set to their original size with a maximum width of 300px.
 [Image blocks](../blocks/insert-images.md) offer more options, including more sizes and the ability to add a caption — but will not appear inline with your text.
 {% endhint %}
 
+#### Representation in Markdown
+
+{% code overflow="wrap" %}
+```markdown
+Here is an inline image: <img src=".gitbook/assets/GitBook - Dark.jpg" alt="Dark version of GitBook logo" data-size="line">
+```
+{% endcode %}
+
 ### Emojis
 
 You can add emojis by hitting `/` to open the inline palette. Alternatively, type `:` and a list of emojis will pop up directly in line — you can start typing the name of an emoji to narrow down the selection.
+
+#### Representation in Markdown
+
+{% code overflow="wrap" %}
+```markdown
+:house:
+:car:
+:dog:
+```
+{% endcode %}
 
 ### Links
 
@@ -102,6 +120,14 @@ Here’s how to insert an email address `mailto` link:
 3. Paste or type `mailto:something@address.com`, replacing `something@address.com` with the email address you would like to use.
 4. Hit `Enter`.
 
+#### Representation in Markdown
+
+```markdown
+[This is a relative link to another page in this space](../content-structure/page.md)
+[This is an absolute link](https://www.gitbook.com/blog)
+[This is a link](mailto:support@gitbook.com) to our support email address
+```
+
 ### Math & TeX
 
 Using this option, you can create an inline math formula in your content, like this: $$f(x) = x * e^{2 pi i \xi x}$$. We use the [KaTeX](https://katex.org/docs/supported.html) library to render formulas.
@@ -109,6 +135,14 @@ Using this option, you can create an inline math formula in your content, like t
 {% hint style="info" %}
 You can also insert [a block-level math formula](../blocks/math-and-tex.md) by opening the command palette in an empty block and choosing the second Math & TeX option.
 {% endhint %}
+
+#### Representation in Markdown
+
+```markdown
+# Math and TeX block
+
+$$f(x) = x * e^{2 pi i \xi x}$$
+```
 
 ### Buttons
 
@@ -118,6 +152,12 @@ Buttons have both primary and secondary styles. Here are a couple of examples:
 
 <a href="https://app.gitbook.com/join" class="button primary">Sign up to GitBook</a> <a href="inline.md#annotations" class="button secondary">Go to top</a>
 
+#### Representation in Markdown
+
+```markdown
+<a href="https://app.gitbook.com" class="button primary">GitBook</a>
+```
+
 ### Icons
 
 Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../publishing-documentation/customization/icons-colors-and-themes.md).
@@ -125,6 +165,12 @@ Icons allow you to add extra visual indications to your site. You can add them i
 <i class="fa-facebook">:facebook:</i> <i class="fa-github">:github:</i> <i class="fa-x-twitter">:x-twitter:</i> <i class="fa-instagram">:instagram:</i>
 
 Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.
+
+#### Representation in Markdown
+
+```markdown
+<i class="fa-github">:github:</i>
+```
 
 ### Expressions
 
