@@ -24,15 +24,15 @@ When creating cards, we recommend you use **target links instead of hyperlinks**
 
 Hover over a card and open its **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture>. Here you can add a cover image to your card. Alternatively, just click the **Add cover image** option on the card itself.
 
-This will open the **Select file** modal. Here you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
+This will open the **Select file** modal. Here you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
 
 #### Choosing the right image size
 
 GitBook will automatically crop landscape images to a 16:9 ratio on desktop and mobile. If the images you upload are portrait or have a 1:1 ratio, they will be cropped to 16:9 on desktop and display as square or portrait on mobile.
 
-<figure><img src="../../.gitbook/assets/13_02_25_cards_desktop.svg" alt="A GitBook screenshot showing card images on desktop" ><figcaption><p>On desktop, all card images will display in a landscape 16:9 ratio, regardless of their dimensions. We recommend using the same dimensions for consistency.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13_02_25_cards_desktop.svg" alt="A GitBook screenshot showing card images on desktop"><figcaption><p>On desktop, all card images will display in a landscape 16:9 ratio, regardless of their dimensions. We recommend using the same dimensions for consistency.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/13_02_25_cards_mobile.svg" alt="A GitBook screenshot showing card images on mobile" ><figcaption><p>On mobile, square or portrait images will displayed as shown on the left. Landscape images will be displayed as shown on the right.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13_02_25_cards_mobile.svg" alt="A GitBook screenshot showing card images on mobile"><figcaption><p>On mobile, square or portrait images will displayed as shown on the left. Landscape images will be displayed as shown on the right.</p></figcaption></figure>
 
 To keep things consistent across desktop and mobile, we recommend uploading all the images for your cards in a 16:9 format (e.g. 1920px x 1080px).
 
@@ -45,3 +45,38 @@ You can select the card size by opening the **Options menu** <picture><source sr
 {% hint style="info" %}
 You can make card blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook" data-size="line"></picture> next to the block and choosing **Full width**.
 {% endhint %}
+
+### Representation in Markdown
+
+```markdown
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+      <th data-hidden data-card-cover data-type="files"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Example title 1</strong></td>
+      <td>Example description 1.</td>
+      <td><a href="https://example.com">https://example.com</a></td>
+      <td><a href="https://example.com/image1.svg">example_image1.svg</a></td>
+    </tr>
+    <tr>
+      <td><strong>Example title 2</strong></td>
+      <td>Example description 2.</td>
+      <td><a href="https://example.com">https://example.com</a></td>
+      <td><a href="https://example.com/image2.svg">example_image2.svg</a></td>
+    </tr>
+    <tr>
+      <td><strong>Example title 3</strong></td>
+      <td>Example description 3.</td>
+      <td><a href="https://example.com">https://example.com</a></td>
+      <td><a href="https://example.com/image3.svg">example_image3.svg</a></td>
+    </tr>
+  </tbody>
+</table>
+```

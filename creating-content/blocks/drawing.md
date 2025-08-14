@@ -23,3 +23,9 @@ When using drawing block, you can ask GitBook AI to generate an illustration by 
 Once GitBook AI has finished the drawing, you can double-click to open the full drawing palette and edit it however you like.
 
 When editing a drawing, click the **Use AI to generate** button to bring up GitBook AI’s prompt editor again and generate a new drawing.
+
+### Representation in Markdown
+
+```markdown
+<img src="https://example.com/file.svg" alt="Example diagram description" class="gitbook-drawing">
+```

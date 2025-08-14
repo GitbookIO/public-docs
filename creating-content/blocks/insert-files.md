@@ -57,3 +57,11 @@ This can be helpful if, for example, you’ve had a major product redesign and n
 
 We recommend you do this rather than uploading the image again every time you want to include it, to make it easier to replace images later and to avoid having multiple files with the same name.
 {% endhint %}
+
+### Representation in Markdown
+
+```markdown
+{% file src="https://example.com/example.pdf" %}
+    This is a caption for the example file.
+{% endfile %}
+```
