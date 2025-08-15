@@ -10,13 +10,13 @@ When publishing your documentation, each space will be its own [docs site](../..
 
 ### Table of contents
 
-You can create as many pages as you need in a space. They’re all visible on the left side of your screen in your space’s [table of contents](../../resources/gitbook-ui.md#table-of-contents). The table of content will appear in the same place when you publish your space, unless [you choose to hide it](page.md#page-options).
+You can create as many pages as you need in a space. They’re all visible on the left sidebar of your screen in your space’s [table of contents](../../resources/gitbook-ui.md#table-of-contents). The table of content will appear in the same place when you publish your space, unless [you choose to hide it](page.md#page-options).
 
 ### Create a new page
 
 When in [live edit](../../collaboration/live-edits.md) mode or in a [change request](../../collaboration/change-requests.md), you can create a new page by clicking **Add new...** > **Page** at the bottom of your table of contents. Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
 
-<figure><img src="../../.gitbook/assets/04_02_25_page.svg" alt="A GitBook screenshot showing an empty page listed in the table of contents" ><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/04_02_25_page.svg" alt="A GitBook screenshot showing an empty page listed in the table of contents"><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
 
 ### Can’t see the option to create a new page?
 
