@@ -14,13 +14,13 @@ Auto translations are currently in Beta. Let us know if you have any feedback or
 
 Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a space as a translation of another, and let AI handle the rest.
 
-<figure><img src="../.gitbook/assets/04_08_25_auto_translations.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/15_08_25_auto_translations.svg" alt=""><figcaption></figcaption></figure>
 
-## How auto translations work
+## How translations work
 
 * **Create a translation space:** Set up a new space as a translation of an existing one. Choose your source space and target language.
-* **Automatic sync:** When you update the source content, only the changed pages are re-translated. The translation workflow runs automatically, so your translated space always reflects the latest updates.
-* **Continuous updates:** Every time you make changes to the source space, the translation workflow re-runs for just the updated content.
+* **Continuous updates:** Every time you make changes to the source content, the translation workflow only runs for the **pages that have been changed**.
+* **Automatic sync:** After changes are merged, the translation workflow **runs automatically** and syncs with it’s source, so your translated space always reflects the latest updates.
 
 ## Set up an auto translation
 
@@ -32,7 +32,7 @@ From the modal that appears, you’ll need to choose a:
 * Source language
 * Target language
 
-These options will be used to translate your space into a duplicated, but translated space in your organization. You’ll also see a quick overview on the cost of translating your space.
+These options will be used to translate your space into a duplicated, translated space in your organization. You’ll also see a quick overview on the cost of translating your space.
 
 From here, you’ll be able to add it as a [variant](../publishing-documentation/site-structure/variants.md) to an existing docs site to add the translated version to your docs.
 
@@ -41,11 +41,17 @@ From here, you’ll be able to add it as a [variant](../publishing-documentation
 * **Custom AI instructions:** Add advanced instructions to guide the AI on tone of voice, style, or other preferences. This helps ensure your translations match your brand or audience.
 * **Glossary support:** Define a glossary to control how specific terms are translated. This keeps terminology consistent across all supported languages.
 
+{% hint style="warning" %}
+Adding custom instructions to your translation workflow can be helpful, but is limited in certain cases.&#x20;
+
+Custom instructions cannot be used to create new elements on a translated space, add extra text, or change the structure of the source content.
+{% endhint %}
+
 ## Pricing
 
-Auto-translations is a paying addon:
+Auto-translations is a paying add-on:
 
-* $25 for up to 50,000 words
+* $25 for up to 50,000 translated words
 * $0.20 per additional 1,000 words
 
 ## FAQ
@@ -75,4 +81,22 @@ To workaround it, we recommend the following flow:
 
 </details>
 
-If you need help getting started or want to learn more about configuring auto-translations, contact our support.
+<details>
+
+<summary>How many translations do I need to create?</summary>
+
+You should only create **one translation workflow per language** of any given source content. Creating multiple workflows will accrue extra, duplicated costs in your organization.
+
+</details>
+
+<details>
+
+<summary>What are some current limitations?</summary>
+
+* Translations do not localize UI elements in your variant automatically. Head to your site’s customization settings to [localize the interface](../publishing-documentation/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../publishing-documentation/customization/#customizing-sites-with-multiple-sections).
+  * This includes user-input customizations, such as announcement banners.
+* Translations cannot add extra content to the page - like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated space to note this, or the [announcement banner](../publishing-documentation/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
+
+</details>
+
+If you need help getting started or want to learn more about configuring auto-translations, [contact our support team](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support).

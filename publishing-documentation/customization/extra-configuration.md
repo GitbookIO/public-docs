@@ -8,7 +8,7 @@ description: Configure extra options for your published documentation.
 
 You can select from a list of languages to localize the user interface of your published content. This applies translations to the non-custom areas of the interface.
 
-This setting will _not_ auto-translate your actual content, but it can help match the interface to the language you’re writing in.
+This setting will _not_ auto-translate your actual content, but it can help match the interface to the language you’re writing in. To learn more about translating your content, head to the [Translations](../../creating-content/translations.md) section.
 
 Is there a language we don’t yet offer that you’d like to see included? [Let us know](https://github.com/GitbookIO/gitbook/issues), or [contribute your own translation](https://www.gitbook.com/solutions/open-source)!
 

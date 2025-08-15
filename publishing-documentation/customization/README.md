@@ -13,14 +13,14 @@ You can apply customizations to your entire docs site as a site-wide theme, or t
 
 <figure><img src="../../.gitbook/assets/customization-demo.png" alt="A GitBook screenshot showing a customized docs site"><figcaption><p>You can create all kinds of site designs using GitBook’s built-in customization options.</p></figcaption></figure>
 
-### Customizing sites with multiple sections
+### Customizing sites with multiple sections or variants
 
-If you have a docs site with with multiple sections, you can control the customization of each one individually.
+If you have a docs site with with multiple sections or variants, you can control the customization of each one individually.
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
 * **Site-wide settings** – These automatically apply to all linked spaces.
-* **Section specific settings** – If you’re using site sections, you’re can set section specific customization that will override the default site-wise setting.
+* **Section or variant specific settings** – If you’re using site sections or variants, you’re can set specific customization that will override the default site-wise setting.
 
 <figure><img src="../../.gitbook/assets/19_02_2025_site_customization.svg" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
