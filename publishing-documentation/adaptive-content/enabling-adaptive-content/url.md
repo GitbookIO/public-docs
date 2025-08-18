@@ -19,16 +19,13 @@ To pass data to GitBook through URL parameters, you’ll need to pass the data i
 For example:
 
 ```url
-https://docs.acme.org/?visitor.language=fr&visitor.country=fr
+https://docs.acme.org/?visitor.language=fr
 ```
 
-Visiting this URL would pass in the following claims when the site loads:&#x20;
+This will allow you to use these claims in the [condition editor](../adapting-your-content.md#working-with-the-condition-editor) under the unsigned object:
 
-```json
-{
-  "language": "fr",
-  "country": "fr"
-}
+```javascript
+visitor.claims.unsigned.language === "fr"
 ```
 
 {% hint style="warning" %}
