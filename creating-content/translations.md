@@ -59,7 +59,7 @@ Translations are a paying **monthly** add-on:
 
 Each month includes 50,000 words of translation for $25. After that, every additional 1,000 words costs $0.20. Your 50,000-word allowance resets at the start of each month.
 
-Only **new** translations are counted. That means words are only charged the first time they’re translated into a given language. For example, if the word “GitBook” is translated into 5 languages, that counts as 5 translations the first time it is translated.&#x20;
+In your first translation, every word will count towards your bill. After that, only new or updated words are charged. For example, if you edit your docs later, only the new words in the changed text will count towards your word limit — you won’t be re-billed for the entire document.
 
 ## FAQ
 
