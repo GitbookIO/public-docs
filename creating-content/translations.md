@@ -2,7 +2,6 @@
 description: >-
   Auto-translate your content into multiple languages using AI and keep it
   synced.
-if: visitor.claims.unsigned.bucket.TRANSLATIONS
 icon: language
 ---
 
