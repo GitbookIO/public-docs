@@ -48,7 +48,7 @@ Custom instructions cannot be used to create new elements on a translated space,
 
 ## Pricing
 
-Auto-translations is a paying add-on:
+Auto-translations is a paying **monthly** add-on:
 
 * $25 for up to 50,000 translated words
 * $0.20 per additional 1,000 words
