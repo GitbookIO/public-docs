@@ -33,9 +33,7 @@ From the modal that appears, you’ll need to choose a:
 
 These options will be used to translate your space into a duplicated, translated space in your organization. You’ll also see a quick overview on the cost of translating your space.
 
-From here, you’ll be able to add it as a [variant](../publishing-documentation/site-structure/variants.md) to an existing docs site to add the translated version to your docs.
-
-## Advanced configuration
+### Advanced configuration
 
 * **Custom AI instructions:** Add advanced instructions to guide the AI on tone of voice, style, or other preferences. This helps ensure your translations match your brand or audience.
 * **Glossary support:** Define a glossary to control how specific terms are translated. This keeps terminology consistent across all supported languages.
@@ -46,12 +44,22 @@ Adding custom instructions to your translation workflow can be helpful, but is l
 Custom instructions cannot be used to create new elements on a translated space, add extra text, or change the structure of the source content.
 {% endhint %}
 
+## Add a translation to a variant
+
+After creating a translation, you’ll be able to add it to published docs site as a [variant](../publishing-documentation/site-structure/variants.md). This will allow users to toggle between languages in the upper left corner when viewing your main docs site.
+
+Head to your site settings, under the structure tab to set up a new variant for any translations you have.
+
 ## Pricing
 
-Auto-translations is a paying **monthly** add-on:
+Translations are a paying **monthly** add-on:
 
 * $25 for up to 50,000 translated words
 * $0.20 per additional 1,000 words
+
+Each month includes 50,000 words of translation for $25. After that, every additional 1,000 words costs $0.20. Your 50,000-word allowance resets at the start of each month.
+
+Only **new** translations are counted. That means words are only charged the first time they’re translated into a given language. For example, if the word “GitBook” is translated into 5 languages, that counts as 5 translations the first time it is translated.&#x20;
 
 ## FAQ
 
