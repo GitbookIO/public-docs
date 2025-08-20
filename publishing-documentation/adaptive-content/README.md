@@ -11,7 +11,7 @@ When a user visits your site, you may already know things about them - who they 
 
 Adaptive content helps to build a tailored documentation experience based on who is reading.
 
-<figure><img src="../../.gitbook/assets/20_8_25_adaptive_content.png" alt="A GitBook screenshot showing adaptive content controls"><figcaption><p>Personalize your user’s documentation experience through adaptive content</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20_08_25_adaptive_content.webp" alt="A GitBook screenshot showing adaptive content controls"><figcaption><p>Personalize your user’s documentation experience through adaptive content</p></figcaption></figure>
 
 <p align="center"><a href="https://gitbook.com/adaptive-content-demo/" class="button primary">Launch the demo site</a></p>
 
