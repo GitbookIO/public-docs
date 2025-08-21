@@ -1,7 +1,3 @@
----
-if: visitor.claims.unsigned.bucket.IF_BLOCK === true
----
-
 # Conditional content
 
 Conditional content blocks let you control who can see a given block of content on your page based on user data and variables. These variables can be passed in via cookies, feature flags, authenticated access, or URL parameters.&#x20;
