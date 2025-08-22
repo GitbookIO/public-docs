@@ -35,13 +35,18 @@ These options will be used to translate your space into a duplicated, translated
 
 ### Advanced configuration
 
-* **Custom AI instructions:** Add advanced instructions to guide the AI on tone of voice, style, or other preferences. This helps ensure your translations match your brand or audience.
-* **Glossary support:** Define a glossary to control how specific terms are translated. This keeps terminology consistent across all supported languages.
+**Custom AI instructions:** Add advanced instructions to guide the AI on tone of voice, style, or other preferences. This helps ensure your translations match your brand or audience.
 
-{% hint style="warning" %}
-Adding custom instructions to your translation workflow can be helpful, but is limited in certain cases.&#x20;
+{% hint style="info" %}
+Adding custom instructions to your translation workflow can be helpful, but is limited in certain cases.
 
 Custom instructions cannot be used to create new elements on a translated space, add extra text, or change the structure of the source content.
+{% endhint %}
+
+**Glossary support:** Define a glossary to control how specific terms are translated. This keeps terminology consistent across all supported languages.
+
+{% hint style="warning" %}
+**Changing your glossary will trigger a full re-translation of your content**. There is currently no workaround: we cannot reliably detect which pages might contain a glossary keyword, so the safest approach is to re-translate all pages. Updating the glossary may therefore be time- and cost-intensive.
 {% endhint %}
 
 ## Add a translation to a variant
@@ -103,6 +108,7 @@ You should only create **one translation workflow per language** of any given so
 * Translations do not localize UI elements in your variant automatically. Head to your site’s customization settings to [localize the interface](../publishing-documentation/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../publishing-documentation/customization/#customizing-sites-with-multiple-sections).
   * This includes user-input customizations, such as announcement banners.
 * Translations cannot add extra content to the page - like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated space to note this, or the [announcement banner](../publishing-documentation/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
+* Changing the glossary triggers a full re-translation of all pages, which can increase processing time and cost. There is no partial re-translation based on glossary usage at this time.
 
 </details>
 
