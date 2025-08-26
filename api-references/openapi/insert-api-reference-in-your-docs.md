@@ -24,7 +24,7 @@ After you’ve [added your OpenAPI spec](add-an-openapi-specification.md), you c
 
 In the space you’d like to generate endpoint pages, click the **Add new...** button from the bottom of your space’s [table of contents](../../resources/gitbook-ui.md#table-of-contents).
 
-From here, click **OpenAPI Reference**.
+From here, click **API Reference**.
 {% endstep %}
 
 {% step %}
