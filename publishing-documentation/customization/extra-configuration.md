@@ -12,10 +12,6 @@ This setting will _not_ auto-translate your actual content, but it can help matc
 
 Is there a language we don’t yet offer that you’d like to see included? [Let us know](https://github.com/GitbookIO/gitbook/issues), or [contribute your own translation](https://www.gitbook.com/solutions/open-source)!
 
-### Edit on GitHub/GitLab
-
-If your space is connected to a Git repository, you can optionally show a link for your users to contribute to your documentation from your linked repository.
-
 ### External Links
 
 This setting controls the behaviour when your site users click an external link. By default, they will open in the same tab, but you can switch this to open in a new tab if that's your preference.
@@ -35,6 +31,14 @@ Displays an action to open ChatGPT or Claude with the page content.
 #### Copy/View as Markdown
 
 Displays an action to copy or view the page as Markdown.
+
+#### Edit on GitHub/GitLab
+
+If your space is connected to a Git repository, you can optionally show a link for your users to contribute to your documentation from your linked repository.
+
+#### Export PDF
+
+Allow visitors to export a PDF of your documentation. See [PDF export](../../collaboration/pdf-export.md) for more info.
 
 ### Privacy Policy
 
