@@ -42,4 +42,4 @@ Allow visitors to export a PDF of your documentation. See [PDF export](../../col
 
 ### Privacy Policy
 
-You can link to your own privacy policy to help visitors understand how your GitBook content uses cookies and how you protect their privacy. If you choose not to set one, your site will default to [GitBook’s privacy policy](https://policies.gitbook.com/privacy-and-security/statement/cookies).
+You can link to your own privacy policy to help visitors understand how your GitBook content uses cookies and how you protect their privacy. If you choose not to set one, your site will default to [GitBook’s privacy policy](https://gitbook.com/docs/policies/privacy-and-security/statement/cookies).
