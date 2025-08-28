@@ -78,7 +78,7 @@ You can try GitBook Assistant for yourself right here in our docs. To get starte
 
 Users can access GitBook Assistant in three ways:
 
-* Press <kbd>⌘</kbd> + <kbd>J</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>J</kbd> on PC
+* Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
 * Click the **GitBook Assistant** <picture><source srcset="../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.
 
