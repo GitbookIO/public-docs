@@ -26,6 +26,12 @@ Hover over a card and open its **Options menu** <picture><source srcset="../../.
 
 This will open the **Select file** modal. Here you can drag and drop a new image into this, or use an image file you’ve previously uploaded to your space.
 
+#### Adding images for dark mode
+
+You can also add cover images that will only show in dark mode.
+
+To do this, open the card’s **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> and choose **Cover** > **Edit cover** > **Add cover for dark mode**. This will open the **Select file** modal, where you can drag and drop a new image or select a previously-uploaded image.
+
 #### Choosing the right image size
 
 GitBook will automatically crop landscape images to a 16:9 ratio on desktop and mobile. If the images you upload are portrait or have a 1:1 ratio, they will be cropped to 16:9 on desktop and display as square or portrait on mobile.
