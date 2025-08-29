@@ -1,0 +1,42 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" fill="url(#paint0_linear_6310_847)"/>
+<path d="M412.5 245H407.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M432.5 245H427.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M412.5 165H407.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M432.5 165H427.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M412.5 205H407.5" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M432.5 205H427.5" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M412.5 285H407.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M432.5 285H427.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M367.5 165L392.5 165" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M447.5 285L472.5 285" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M372.5 245H367.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M392.5 245H387.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M327.5 245L352.5 245" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M372.5 205H367.5" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M392.5 205H387.5" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M332.5 285H327.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M352.5 285H347.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M332.5 165H327.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M352.5 165H347.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M452.5 205H447.5" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M472.5 205H467.5" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M435 237.5C435 233.358 438.358 230 442.5 230L457.5 230C461.642 230 465 233.358 465 237.5L465 252.5C465 256.642 461.642 260 457.5 260L442.5 260C438.358 260 435 256.642 435 252.5L435 237.5ZM440 252.5C440 253.881 441.119 255 442.5 255L457.5 255C458.881 255 460 253.881 460 252.5L460 237.5C460 236.119 458.881 235 457.5 235L442.5 235C441.119 235 440 236.119 440 237.5L440 252.5Z" fill="white"/>
+<path d="M472.5 245L462.5 245" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M437.5 245L427.5 245" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M435 157.5C435 153.358 438.358 150 442.5 150L457.5 150C461.642 150 465 153.358 465 157.5L465 172.5C465 176.642 461.642 180 457.5 180L442.5 180C438.358 180 435 176.642 435 172.5L435 157.5ZM440 172.5C440 173.881 441.119 175 442.5 175L457.5 175C458.881 175 460 173.881 460 172.5L460 157.5C460 156.119 458.881 155 457.5 155L442.5 155C441.119 155 440 156.119 440 157.5L440 172.5Z" fill="white"/>
+<path d="M472.5 165L462.5 165" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M437.5 165L427.5 165" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M335 197.5C335 193.358 338.358 190 342.5 190L357.5 190C361.642 190 365 193.358 365 197.5L365 212.5C365 216.642 361.642 220 357.5 220L342.5 220C338.358 220 335 216.642 335 212.5L335 197.5ZM340 212.5C340 213.881 341.119 215 342.5 215L357.5 215C358.881 215 360 213.881 360 212.5L360 197.5C360 196.119 358.881 195 357.5 195L342.5 195C341.119 195 340 196.119 340 197.5L340 212.5Z" fill="#B2A5FF"/>
+<path d="M372.5 205L362.5 205" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M337.5 205L327.5 205" stroke="#B2A5FF" stroke-width="5" stroke-linecap="round"/>
+<path d="M377.5 277.5C377.5 273.358 380.858 270 385 270L400 270C404.142 270 407.5 273.358 407.5 277.5L407.5 292.5C407.5 296.642 404.142 300 400 300L385 300C380.858 300 377.5 296.642 377.5 292.5L377.5 277.5ZM382.5 292.5C382.5 293.881 383.619 295 385 295L400 295C401.381 295 402.5 293.881 402.5 292.5L402.5 277.5C402.5 276.119 401.381 275 400 275L385 275C383.619 275 382.5 276.119 382.5 277.5L382.5 292.5Z" fill="white"/>
+<path d="M415 285L405 285" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<path d="M380 285L370 285" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linear_6310_847" x1="795.549" y1="7.11824e-06" x2="-34.1589" y2="361.346" gradientUnits="userSpaceOnUse">
+<stop offset="0.518302" stop-color="#262930"/>
+<stop offset="1" stop-color="#3F424A"/>
+</linearGradient>
+</defs>
+</svg>
