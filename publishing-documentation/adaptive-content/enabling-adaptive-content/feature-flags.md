@@ -10,7 +10,7 @@ Using adaptive content with feature flags requires adding code to your applicati
 Currently, the GitBook helper only supports React based setups.
 {% endhint %}
 
-GitBook provides helper functions and integrations for popular feature flag service providers like [**LaunchDarkly**](feature-flags.md#launchdarkly) and [**Bucket**](feature-flags.md#bucket).
+GitBook provides helper functions and integrations for popular feature flag service providers like [**LaunchDarkly**](feature-flags.md#launchdarkly) and [**Reflag**](feature-flags.md#reflag).
 
 This allows you to read the feature flags users have access to in your product, as they read your docs. This is useful if you need to show documentation for features that are only available to a specific group of people.
 
@@ -104,31 +104,31 @@ Head to [adapting your content](../adapting-your-content.md) to learn more about
 {% endstep %}
 {% endstepper %}
 
-### Bucket
+### Reflag
 
-Bucket allows you to send feature flag access as claims through the [`@bucketco/react-sdk`](https://www.npmjs.com/package/@bucketco/react-sdk) and GitBook’s [`@gitbook/adaptive`](https://github.com/GitbookIO/integrations/tree/main/packages/adaptive) package.
+Reflag allows you to send feature flag access as claims through the [`@reflag/react-sdk`](https://www.npmjs.com/package/@reflag/react-sdk) and GitBook’s [`@gitbook/adaptive`](https://github.com/GitbookIO/integrations/tree/main/packages/adaptive) package.
 
-If you’re using Bucket feature flags in your product already, chances are you already have this package configured.
+If you’re using Reflag feature flags in your product already, chances are you already have this package configured.
 
 To pass you these feature flags as claims to GitBook, follow these steps:
 
 {% stepper %}
 {% step %}
-#### Install the Bucket Integration
+#### Install the Reflag Integration
 
-To get started, you’ll first need to [install the Bucket integration](https://app.gitbook.com/integrations/bucket) into your GitBook site.
+To get started, you’ll first need to [install the Reflag integration](https://app.gitbook.com/integrations/reflag) into your GitBook site.
 {% endstep %}
 
 {% step %}
 #### Set up your secret key
 
-Add your secret key from your [Bucket settings](https://app.bucket.co/envs/current/settings/app-environments) to the integration’s configuration.
+Add your secret key from your [Reflag settings](https://app.reflag.com/envs/current/settings/app-environments) to the integration’s configuration.
 {% endstep %}
 
 {% step %}
 #### Install the GitBook helper to your application
 
-After setting up the Bucket integration, you’ll need to install the GitBook adaptive content helper in your application.
+After setting up the Reflag integration, you’ll need to install the GitBook adaptive content helper in your application.
 
 ```bash
 npm install @gitbook/adaptive
@@ -138,10 +138,10 @@ npm install @gitbook/adaptive
 {% step %}
 #### Configure your application
 
-You’ll need to use the `withBucket` helper with the Bucket React SDK to pass context into GitBook.
+You’ll need to use the `withReflag` helper with the Reflag React SDK to pass context into GitBook.
 
-<pre class="language-javascript"><code class="lang-javascript"><strong>import { withBucket } from '@gitbook/adaptive';
-</strong><strong>import { BucketProvider, useClient } from '@bucketco/react-sdk';
+<pre class="language-javascript"><code class="lang-javascript"><strong>import { withReflag } from '@gitbook/adaptive';
+</strong><strong>import { ReflagProvider, useClient } from '@reflag/react-sdk';
 </strong>import MyApplication from './MyApplication';
 
 function PassFeatureFlagsToGitBookSite() {
@@ -150,7 +150,7 @@ function PassFeatureFlagsToGitBookSite() {
         if (!client) {
             return;
         }
-<strong>        return withBucket(client);
+<strong>        return withReflag(client);
 </strong>    }, [client]);
     return null;
 }
@@ -158,8 +158,8 @@ export function Application() {
     const currentUser = useLoggedInUser();
     const appConfig = useAppConfig();
     return (
-        &#x3C;BucketProvider
-            publishableKey={appConfig.bucketCo.publishableKey}
+        &#x3C;ReflagProvider
+            publishableKey={appConfig.reflagCom.publishableKey}
             user={{
                 id: currentUser.uid,
                 email: currentUser.email ?? undefined,
@@ -171,7 +171,7 @@ export function Application() {
         >
             &#x3C;PassFeatureFlagsToGitBookSite />
             &#x3C;MyApplication />
-        &#x3C;/BucketProvider>
+        &#x3C;/ReflagProvider>
     );
 }
 </code></pre>
@@ -180,7 +180,7 @@ export function Application() {
 {% step %}
 #### Check your visitor schema
 
-A [visitor schema](./#set-your-visitor-schema) is required in order for your claims to be able to be read in your published site. Installing and configuring the Bucket integration should automatically set your visitor schema for you.
+A [visitor schema](./#set-your-visitor-schema) is required in order for your claims to be able to be read in your published site. Installing and configuring the Reflag integration should automatically set your visitor schema for you.
 {% endstep %}
 
 {% step %}
@@ -188,7 +188,7 @@ A [visitor schema](./#set-your-visitor-schema) is required in order for your cla
 
 After setting your visitor schema, you’re ready to tailor your docs experience for the users visiting your site, using the feature flags the user has access to.
 
-Any feature flag value available in Bucket will be exposed as part of the visitor schema under the `unsigned.bucket.flags` object. Read more about unsigned claims [here](./#set-an-unsigned-claim).
+Any feature flag value available in Reflag will be exposed as part of the visitor schema under the `unsigned.reflag.flags` object. Read more about unsigned claims [here](./#set-an-unsigned-claim).
 
 Head to [adapting your content](../adapting-your-content.md) to learn more about personalizing your docs for your users.
 {% endstep %}
