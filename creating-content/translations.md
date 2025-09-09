@@ -51,7 +51,13 @@ Custom instructions cannot be used to create new elements on a translated space,
 
 ## Add a translation to a variant
 
-After creating a translation, you’ll be able to add it to published docs site as a [variant](../publishing-documentation/site-structure/variants.md). This will allow users to toggle between languages in the upper left corner when viewing your main docs site.
+After creating a translation, you’ll be able to add it to published docs site as a [variant](../publishing-documentation/site-structure/variants.md). This will allow users to toggle between languages in the upper right corner when viewing your main docs site.
+
+{% hint style="info" %}
+To provide the best experience for your users, you’re able to set the default language of a variant when setting it in your settings.
+
+It’s best practice to add the language of your translated space when setting up your variant.
+{% endhint %}
 
 Head to your site settings, under the structure tab to set up a new variant for any translations you have.
 
