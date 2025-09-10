@@ -7,7 +7,7 @@ icon: stars
 
 {% include "../../.gitbook/includes/ultimate-hint.md" %}
 
-When a user visits your site, you may already know things about them - who they are, which plan they're subscribed to, which features they have access to.
+When a user visits your site, you may already know things about them — such as who they are, which plan they’re subscribed to, and which features they have access to.
 
 Adaptive content helps to build a tailored documentation experience based on who is reading.
 
@@ -23,11 +23,11 @@ While authenticated access allows you to protect your docs through a login, adap
 
 ### How it works
 
-Adaptive content works in 1 of 2 ways:
+Adaptive content works in one of two ways:
 
 1. Passing data from your app to GitBook
 2. Passing data from authenticated access
 
-When a user visits your sites, we call the data they bring with them their "claims"—basically data that helps to identify a user. These claims are controllable by you - the site author - and can be used through the GitBook editor to show or hide different pages, variants, and sections in your docs.
+When a user visits your sites, we call the data they bring with them their “claims” — basically data that helps to identify a user. These claims are controllable by you — the site author — and can be used through the GitBook editor to show or hide different pages, variants, and sections in your docs.
 
-Head to [Enabling adaptive content](enabling-adaptive-content/) to start setting up adaptive content for your site.
+Head to our page about [enabling adaptive content](enabling-adaptive-content/) to start setting up adaptive content for your site.

@@ -89,12 +89,8 @@ The space header includes:
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
 * **The space’s breadcrumbs**\
   A full, linear list of the collections or docs sites the space lives in.
-*   **Actions menu**&#x20;
-
-    <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>
-
-    \
-    Offers a list of actions for your space. Similar to [page actions](gitbook-ui.md#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
+* **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>\
+  Offers a list of actions for your space. Similar to [page actions](gitbook-ui.md#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 * **Editor view**\
   This view is where you can make edits to your content using GitBook’s block-based editor.
 * **Changes view**\
@@ -128,12 +124,7 @@ The site header includes:
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
 * **The site’s breadcrumbs**\
   A link back to the main Docs sites screen.
-*   **Actions menu**&#x20;
-
-    <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>
-
-    \
-    Offers a list of actions for your site. You can visit your site or copy its URL quickly from this menu
+* **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> Offers a list of actions for your site. You can visit your site or copy its URL quickly from this menu
 * **Overview**\
   The site overview shows you essential information about your site including it’s URL, publish status, audience and content, as well as top-level insights.
 * **Insights**\
@@ -195,7 +186,7 @@ Certain changes, such as disabling the table of content, only apply to published
 
 The **page outline** sits on the right-hand side of the editor, and makes it easy to jump directly to the section of the page you’re looking for.
 
-Any [Heading 1 or Heading 2 blocks](../creating-content/blocks/heading.md) you add to the page will appear in the page outline listed here.
+Any [headings](../creating-content/blocks/heading.md) you add to the page will appear in the page outline listed here.
 
 The page outline will appear in your published site, too. You can toggle it on or off in the [**Page options**](gitbook-ui.md#page-options) side panel.
 

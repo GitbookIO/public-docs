@@ -118,6 +118,7 @@
 * [AI change requests](collaboration/ai-change-requests.md)
 * [PDF export](collaboration/pdf-export.md)
 * [Inviting your team](collaboration/share.md)
+* [Merge rules](collaboration/merge-rules.md)
 * [Comments](collaboration/comments.md)
 * [Notifications](collaboration/notifications.md)
 
