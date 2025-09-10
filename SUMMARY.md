@@ -68,6 +68,7 @@
   * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
   * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
   * [Managing API operations](api-references/guides/managing-api-operations.md)
+  * [Configuring the “Test it” button](api-references/guides/configuring-the-test-it-button.md)
   * [Describing enums](api-references/guides/describing-enums.md)
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
 * [Extensions reference](api-references/extensions-reference.md)
