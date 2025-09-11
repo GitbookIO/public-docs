@@ -36,6 +36,8 @@ A page has a title, and optional description, and an area where you can write an
 
 You can nest pages by dragging and dropping a page below an other in the table of contents. Doing this creates a **subpage**.
 
+If you add subpages to an empty parent page, GitBook will automatically generate a ‘contents’ page with links to all the subpages in the published version of your docs.
+
 {% hint style="info" %}
 **Tip:** There’s no limit to page nesting, but we’d recommend you avoid more than three levels of nesting to avoid an overly-complex navigation.
 {% endhint %}
