@@ -19,7 +19,7 @@ Auto translations make it easy to keep your documentation up-to-date in multiple
 
 * **Create a translation space:** Set up a new space as a translation of an existing one. Choose your source space and target language.
 * **Continuous updates:** Every time you make changes to the source content, the translation workflow only runs for the **pages that have been changed**.
-* **Automatic sync:** After changes are merged, the translation workflow **runs automatically** and syncs with it’s source, so your translated space always reflects the latest updates.
+* **Automatic sync:** After changes are merged, the translation workflow **runs automatically** and syncs with its source, so your translated space always reflects the latest updates.
 
 ## Set up an auto translation
 
