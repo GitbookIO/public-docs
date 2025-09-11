@@ -4,6 +4,10 @@ description: Set up an Auth0 login screen for visitors to your docs.
 
 # Setting up Auth0
 
+{% hint style="info" %}
+Head to our guides to find a [full walk-through](https://gitbook.com/docs/guides/product-guides/how-to-personalize-your-gitbook-site-using-auth0-and-adaptive-content) on setting up authenticated access and adaptive content with Auth0.
+{% endhint %}
+
 {% hint style="warning" %}
 This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through [Enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
@@ -91,6 +95,8 @@ Your site is now published behind authenticated access using your Auth0 as ident
 To test it out, click on **Visit**. You will be asked to sign in with Auth0, which confirms that your site is published behind authenticated access using Auth0.
 
 ### 3. Configure Auth0 for Adaptive content (optional)
+
+{% embed url="https://www.youtube.com/embed/uhWeQkgyg8Y?si=7_kD3RF-Is_MnYhZ" %}
 
 To leverage the Adaptive Content capability in your authenticated access site, [configure the Auth0 application](https://auth0.com/docs/secure/tokens/json-web-tokens/create-custom-claims) to include additional user information in the authentication token as claims.
 

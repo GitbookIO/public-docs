@@ -18,6 +18,10 @@ A site with multiple variants is useful if you need to group together the conten
 The spaces you link can contain any content, but it’s recommended to use variants as _variations of the same content_. If the spaces you link are semantically different from each other, consider adding them as [site sections](site-sections.md) instead.
 {% endhint %}
 
+When adding a translation or multiple languages as a variant, it’s best practice to set the language of your variant to give your users the best experience when navigating your docs.
+
+Adding multiple variants with languages set will move the language picker to the upper right, giving a cleaner, more direct experience from the default variant picker.
+
 ### Adding a variant to your docs site
 
 From your docs site’s dashboard, open the **Settings** tab in the site header, then click **Structure**. Here you can see all the content of your site.

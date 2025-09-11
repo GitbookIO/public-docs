@@ -66,7 +66,7 @@ Now, in GitBook, close the integrations modal and click on the Manage site butto
 \
 The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Cognito, which confirms that your site is published behind authenticated access using Auth0.
 
-### Configure AWS Cognito for adaptive content
+### Configure AWS Cognito for adaptive content (optional)
 
 To leverage Adaptive Content with authenticated access in GitBook, you’ll need to configure your Amazon Cognito user pool to include custom claims in the ID token.
 

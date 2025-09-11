@@ -21,7 +21,7 @@ Use `x-stability` to communicate that an endpoint is unstable or in progress. It
 
 ### Deprecating an operation
 
-To mark an operation as deprecated, add the `deprecated: true` attribute:
+To mark an operation as deprecated, add the `deprecated: true` attribute.
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">paths:
   /pet:
@@ -30,7 +30,7 @@ To mark an operation as deprecated, add the `deprecated: true` attribute:
 <strong>      deprecated: true
 </strong></code></pre>
 
-Optionally specify when support ends by including `x-deprecated-sunset`:
+Optionally specify when support ends by including `x-deprecated-sunset`&#x20;
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">paths:
   /pet:
@@ -49,4 +49,17 @@ To hide an operation from your API reference, add `x-internal: true` or `x-gitbo
     put:
       operationId: updatePet
 <strong>      x-internal: true
+</strong></code></pre>
+
+### Hiding a response sample
+
+Add the `x-hideSample: true` attribute to a response object to exclude it from the response samples section.
+
+<pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">paths:
+  /pet:
+    put:
+      operationId: updatePet
+<strong>      responses:
+</strong><strong>        200:
+</strong><strong>          x-hideSample: true
 </strong></code></pre>

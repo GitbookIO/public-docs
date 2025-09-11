@@ -1,6 +1,6 @@
 ---
-icon: wand-magic-sparkles
 description: Use GitBook AI to generate and build content for your page
+icon: wand-magic-sparkles
 ---
 
 # Writing with GitBook AI
@@ -9,7 +9,7 @@ description: Use GitBook AI to generate and build content for your page
 
 You can use GitBook AI to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
 
-<figure><img src="../.gitbook/assets/10_01_25_gitbook_ai_writing.svg" alt="A GitBook screenshot showing the AI writing options" ><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_gitbook_ai_writing.svg" alt="A GitBook screenshot showing the AI writing options"><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
 
 ### Write with GitBook AI
 
@@ -35,7 +35,7 @@ As you can imagine, this option will summarize all the content on your page — 
 
 #### Explain this
 
-This will break down the complex information on your page and explain it in simpler language — including explaining acronyms and other jargon. This is perfect if the page you’re reading involves a lot of complex information, or you want to add an explainer for less technical folks.
+This will break down the complex information on your page and explain it in simpler language — including explaining acronyms and other jargon. This is perfect if the page you’re reading involves a lot of complex information, or you want to add an explainer for less technical folks.
 
 #### Translate
 
@@ -47,7 +47,7 @@ This mode will translate your current page into one of a set number of languages
 
 <summary>How does GitBook AI use my data?</summary>
 
-We always follow [our data protection practices](https://policies.gitbook.com/privacy-and-security/statement) to keep your data private.
+We always follow [our data protection practices](https://gitbook.com/docs/policies/privacy-and-security/statement) to keep your data private.
 
 GitBook AI does not use your data to train AI models. We will only share the information you add to GitBook AI with OpenAI for the sole purpose of providing you with GitBook AI’s features. Take a look at [OpenAI’s privacy policy](https://openai.com/enterprise-privacy) for more information.
 

@@ -44,6 +44,7 @@
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
   * [Columns](creating-content/blocks/columns.md)
+  * [Conditional content](creating-content/blocks/conditional-content.md)
   * [Buttons](https://gitbook.com/docs/creating-content/formatting/inline#buttons)
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
@@ -55,6 +56,7 @@
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
+* [Translations](creating-content/translations.md)
 * [Broken links](creating-content/broken-links.md)
 
 ## API References
@@ -66,12 +68,10 @@
   * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
   * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
   * [Managing API operations](api-references/guides/managing-api-operations.md)
+  * [Configuring the “Test it” button](api-references/guides/configuring-the-test-it-button.md)
   * [Describing enums](api-references/guides/describing-enums.md)
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
-
-***
-
-* [Extensions reference](extensions-reference.md)
+* [Extensions reference](api-references/extensions-reference.md)
 
 ## Publishing Documentation
 
@@ -118,6 +118,7 @@
 * [AI change requests](collaboration/ai-change-requests.md)
 * [PDF export](collaboration/pdf-export.md)
 * [Inviting your team](collaboration/share.md)
+* [Merge rules](collaboration/merge-rules.md)
 * [Comments](collaboration/comments.md)
 * [Notifications](collaboration/notifications.md)
 

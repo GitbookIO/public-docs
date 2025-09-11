@@ -9,7 +9,7 @@ You can enhance your OpenAPI specification using extensions—custom fields that
 
 GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.&#x20;
 
-Head to our [guides section](api-references/guides/) to learn more about using OpenAPI extensions to configure your documentation.
+Head to our [guides section](guides/) to learn more about using OpenAPI extensions to configure your documentation.
 
 <details>
 

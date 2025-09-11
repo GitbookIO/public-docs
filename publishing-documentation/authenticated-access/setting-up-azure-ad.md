@@ -114,8 +114,6 @@ Upon accessing the published content URL and after logging in with your Azure cr
 
 ### 3. Configure Azure AD for Adaptive content (optional)
 
-{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
-
 To leverage the Adaptive Content capability in your authenticated access site, configure the Azure AD app registration to include additional user information in the authentication token as claims.
 
 These claims, represented as key-value pairs, are passed to GitBook and can be used to [adapt content](../adaptive-content/adapting-your-content.md) dynamically for your site visitors.

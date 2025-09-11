@@ -10,7 +10,7 @@ To start customizing your documentation experience for your readers, you'll need
 
 Before you’re able to pass user data to GitBook, you’ll need to configure your site to use adaptive content.
 
-Head to your [site’s settings](../../site-settings.md), and enable “Adaptive content” from your site’s audience settings. Once enabled, you’ll get a generated “Visitor token signing key”, which you’ll need in order to continue the adaptive content setup.
+Head to your [site’s settings](../../site-settings.md), and enable **Adaptive content** from your site’s audience settings. Once enabled, you’ll get a generated ‘Visitor token signing key’, which you’ll need in order to continue the adaptive content setup.
 
 <figure><img src="../../../.gitbook/assets/18_07_25_enable_adaptive_content.svg" alt="A GitBook screenshot showing the enable adaptive content toggle"><figcaption><p>Enable adaptive content</p></figcaption></figure>
 

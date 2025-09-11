@@ -73,7 +73,11 @@ Deleting reusable content will **delete it from all pages it is used in**. This 
 
 Reusable content is fully supported when syncing to GitHub & GitLab. Your reusable content will be exported to a dedicated `includes` folder, each content being a separate Markdown file.
 
-Your content is then referenced in your other pages using the `include` directive.
+Your content is then referenced in your other pages using the `includes` directive.
+
+{% hint style="info" %}
+When syncing, the `.gitbook/includes` directory is created in the root of each synced space (which may not be the root of the whole repository). If your `.gitbook/includes` folder or its files appear in your space’s table of contents, you may need to hide them manually from the TOC.
+{% endhint %}
 
 #### Example
 

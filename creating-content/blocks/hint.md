@@ -1,12 +1,12 @@
 ---
 description: >-
   Add a hint to a page to draw your reader’s attention to specific pieces of
-  important information
+  important information.
 ---
 
 # Hints
 
-Hints are a great way to bring the reader’s attention to specific elements in your documentation, such as tips, warnings, and other important information.
+Hints, or callouts, are a great way to bring the reader’s attention to specific elements in your documentation, such as tips, warnings, and other important information.&#x20;
 
 There are four different hint styles — you can change the style by clicking the colored icon, or by opening the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> and selecting the style you want.
 

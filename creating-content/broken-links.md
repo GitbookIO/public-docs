@@ -1,6 +1,7 @@
 ---
 description: Find and replace broken relative links across your spaces
 hidden: true
+noIndex: true
 icon: link-slash
 ---
 
