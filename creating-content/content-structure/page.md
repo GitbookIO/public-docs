@@ -85,6 +85,9 @@ Each layout preset will toggle on or off each of the following parts of the page
 * Table of contents
 * Page outline
 * Next/previous links
+* Page metadata
+
+You can also set your page’s global width from this menu. Choosing **Wide** will automatically widen blocks that support the **Full width** option — such as tables, cards and code blocks — to give them more space when the page is published. Which is ideal for creating eye-catching landing pages!
 
 #### Visibility
 

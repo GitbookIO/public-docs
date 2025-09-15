@@ -21,6 +21,12 @@ You can add filters or group your data to view it in specific ways. For example,
 
 By combining filters and groups, you can drill down in to precise analytics data to track the events that you are important to you.
 
+### View by custom time periods
+
+You can use the drop-down menu on the right of the Insights screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.&#x20;
+
+To view the data over a custom time period, click the **Select custom date range** button <picture><source srcset="../.gitbook/assets/calendar-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/calendar.svg" alt=""></picture> to the right of the menu and choose your custom time period using the calendar that appears.
+
 ### Types of data
 
 The Insights tab is split into six sections, each focused on a specific data type.
@@ -66,7 +72,7 @@ The information here can be helpful for informing your content architecture, mak
 
 The [Ask AI](../creating-content/searching-your-content/gitbook-ai.md) section allows you to see what your users are asking for when using GitBook AI. This insight helps you identify common questions, uncover gaps in your documentation, and improve content to better meet user needs.
 
-By looking at these queries, you can refine your documentation structure, enhance discoverability, and provide more relevant information to your audience.
+You can also see how users are rating the answers that AI gives to their questions. By looking at these queries and their ratings, you can refine your documentation structure, enhance discoverability, and identify areas that would benefit from more documented information.
 
 #### Links
 
