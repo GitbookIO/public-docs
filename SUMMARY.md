@@ -110,6 +110,7 @@
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
 * [Search & GitBook Assistant](publishing-documentation/search-and-gitbook-assistant.md)
 * [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
+* [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
 ## Collaboration
 
