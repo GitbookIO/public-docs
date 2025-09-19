@@ -44,9 +44,9 @@ Your AI tool needs to support the Model Context Protocol and be able to make HTT
 
 The MCP server respects your site’s visibility settings. If your site is public, the MCP server is publicly accessible. If your site requires authentication, the MCP server will too.
 
-### Page actions
+### Enable or disable easy MCP linking
 
-In the Page actions section of your [Customization](customization/) settings, you can enable the Connect with MCP server button. This enables visitors to your docs site to copy a link to your site's MCP server with the click of a button.
+In the **Page actions** section of your [Customization](customization/) settings, you can enable the **Connect with MCP server** option. This enables visitors to your docs site to quickly copy a link to your site's MCP server right from [the Page actions menu](customization/extra-configuration.md#page-actions).
 
 ### Privacy and access
 
