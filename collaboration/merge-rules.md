@@ -1,6 +1,6 @@
 ---
 description: Define requirements that must be met before change requests can be merged
-if: visitor.claims.unsigned.reflag.MERGE_RULES === true
+if: visitor.claims.unsigned.bucket.MERGE_RULES === true
 icon: file-shield
 ---
 
