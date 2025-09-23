@@ -24,7 +24,7 @@ Duplicating a space will create a copy of the source space, in the same location
 
 You can move a space by opening the space’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the sidebar, selecting **Move space to…** and choosing a destination. Alternatively, you can drag and drop spaces in the sidebar to move or reorder them.\
 \
-You can move spaces between collections or even organizations, as long as you have an [admin role](../../account-management/member-management/roles.md) in both.
+You can move spaces between collections within the same organization, as long as you have an [admin role](../../account-management/member-management/roles.md).
 
 ### Delete a space
 
