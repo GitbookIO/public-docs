@@ -1,5 +1,5 @@
 ---
-description: Set up an custom login screen for visitors to your docs.
+description: Set up a custom login screen for visitors to your docs.
 ---
 
 # Setting up a custom backend
@@ -22,31 +22,31 @@ To setup a custom authentication system for your GitBook site, follow these key 
 
 {% stepper %}
 {% step %}
-#### [Create a custom backend to authenticate your users](setting-up-a-custom-backend.md#id-1.-create-a-custom-backend-to-authenticate-your-users)
+[**Create a custom backend to authenticate your users**](setting-up-a-custom-backend.md#id-1.-create-a-custom-backend-to-authenticate-your-users)
 
 Implement a backend that prompts users to login and authenticate them.
 {% endstep %}
 
 {% step %}
-#### [Sign and pass a JWT token to GitBook](setting-up-a-custom-backend.md#id-2.-sign-and-pass-a-jwt-token-to-gitbook)
+[**Sign and pass a JWT token to GitBook**](setting-up-a-custom-backend.md#id-2.-sign-and-pass-a-jwt-token-to-gitbook)
 
 Create a JWT token and sign it with your site’s private key.
 {% endstep %}
 
 {% step %}
-#### [Configure a fallback URL](setting-up-a-custom-backend.md#id-3.-configure-a-fallback-url)
+[**Configure a fallback URL**](setting-up-a-custom-backend.md#id-3.-configure-a-fallback-url)
 
 Configure a URL to be used when an unauthenticated visitor access your site.
 {% endstep %}
 
 {% step %}
-#### [Set up multi-tenant authenticated access (optional)](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access)
+[**Set up multi-tenant authenticated access (optional)**](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access)
 
 Configure your backend to handle authentication across multiple GitBook sites.
 {% endstep %}
 
 {% step %}
-#### [Configure your backend for adaptive content (optional)](setting-up-a-custom-backend.md#id-5.-configure-your-backend-for-adaptive-content)
+[**Configure your backend for adaptive content (optional)**](setting-up-a-custom-backend.md#id-5.-configure-your-backend-for-adaptive-content)
 
 Configure your backend to work with adaptive content in GitBook.
 {% endstep %}
@@ -111,7 +111,7 @@ For instance, if your login screen is located at `https://example.com/login`, yo
 
 You can configure this fallback URL within your site’s audience settings under the "Authenticated access" tab.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 15.00.08.png" alt="A GitBook screenshot showing where to configure a fallback URL" ><figcaption><p>Configure a fallback URL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-25 at 15.00.08.png" alt="A GitBook screenshot showing where to configure a fallback URL"><figcaption><p>Configure a fallback URL</p></figcaption></figure>
 
 When redirecting to the fallback URL, GitBook includes a `location` query parameter to the fallback URL that you can leverage in your handler to redirect the user to the original location of the user:
 
