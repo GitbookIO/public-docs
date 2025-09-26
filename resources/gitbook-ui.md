@@ -5,6 +5,8 @@ icon: sidebar
 
 # GitBook UI
 
+Learn about the different components and UI in GitBook’s editor
+
 GitBook is split into different sections to make it easier to organize and manage the content you create.
 
 ### Sidebar
@@ -47,12 +49,13 @@ From the **Pages** tab in the table of contents you can:
 * Create new [pages](gitbook-ui.md#pages) and subpages
 * Create [page groups](gitbook-ui.md#groups)
 * Add [external links](gitbook-ui.md#external-links)
-* [import external docs](../getting-started/import.md) like websites or Markdown files
-*   Access [the Actions menu](gitbook-ui.md#the-actions-menu)&#x20;
+*   Access [the Actions menu](gitbook-ui.md#the-actions-menu)\
+
 
     <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
-    &#x20;for individual pages.
+    \
+    for individual pages.
 
 In the **Reusable content** tab, you can:
 

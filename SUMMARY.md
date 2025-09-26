@@ -108,7 +108,12 @@
     * [Authenticated access](publishing-documentation/adaptive-content/enabling-adaptive-content/authenticated-access.md)
   * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
-* [Search & GitBook Assistant](publishing-documentation/search-and-gitbook-assistant.md)
+* [AI Search](publishing-documentation/search-and-gitbook-assistant.md)
+* [GitBook Assistant](publishing-documentation/gitbook-assistant/README.md)
+  * [Adding the assistant to your website or app](publishing-documentation/gitbook-assistant/adding-the-assistant-to-your-website-or-app.md)
+  * [Customizing the assistant](publishing-documentation/gitbook-assistant/customizing-the-assistant.md)
+  * [Creating custom tools](publishing-documentation/gitbook-assistant/creating-custom-tools.md)
+  * [Reference](publishing-documentation/gitbook-assistant/reference.md)
 * [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
 * [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
