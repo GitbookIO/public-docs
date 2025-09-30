@@ -1,12 +1,15 @@
 ---
+description: >-
+  Learn more about the methods available to use when working with GitBook
+  Assistant programatically
 if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
 # Reference
 
-The GitBook Assistant also exposes helper functions that further allow it to interact with your app.
+Customizing GitBook Assistant allows you to integrate the assistant directly into your product or website, making it feel like a natural part of your product’s experience. To do this, GitBook Assistant also exposes helper functions that further allow it to interact with your app. Using these methods to close, show, hide, or unload the assistant will help you integrate GitBook Assistant more seamlessly into your product’s experience.
 
-### Main Functions
+### Main functions
 
 #### Show the widget
 
@@ -30,7 +33,7 @@ window.GitBook('hide');
 
 #### Open the window
 
-Open the GitBook assistant window.
+Open the GitBook Assistant window.
 
 **Example:**
 
@@ -40,7 +43,7 @@ window.GitBook('open');
 
 #### Close the window
 
-Close the GitBook assistant window.
+Close the GitBook Assistant window.
 
 **Example:**
 
@@ -50,7 +53,7 @@ window.GitBook('close');
 
 #### Toggle the window
 
-Toggle the GitBook assistant window open or closed.
+Toggle the GitBook Assistant window open or closed.
 
 **Example:**
 
@@ -68,7 +71,7 @@ Completely remove the GitBook widget from your site.
 window.GitBook('unload');
 ```
 
-### Navigation Functions
+### Navigation functions
 
 #### `window.GitBook('navigateToPage', path)`
 
@@ -93,7 +96,7 @@ window.GitBook('navigateToPage', '/faq/billing');
 
 #### `window.GitBook('navigateToAssistant')`
 
-Navigate directly to the AI assistant interface.
+Navigate directly to the GitBook Assistant interface.
 
 **Example:**
 
@@ -156,7 +159,7 @@ document.getElementById('new-topic').addEventListener('click', () => {
 });
 ```
 
-### Event Handling
+### Event handling
 
 #### `window.GitBook('on', event, listener)`
 

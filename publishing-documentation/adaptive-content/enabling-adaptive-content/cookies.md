@@ -5,7 +5,7 @@ description: Pass visitor data into your docs through a public or signed cookie.
 # Cookies
 
 {% hint style="info" %}
-Head to our guides to find a [full walk-through](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/setting-up-adaptive-content) on setting up adaptive content with cookies.
+Head to our guides to find a [full walk-through](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/docs-personalization-and-authentication/setting-up-adaptive-content) on setting up adaptive content with cookies.
 {% endhint %}
 
 {% hint style="warning" %}

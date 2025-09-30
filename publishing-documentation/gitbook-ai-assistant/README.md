@@ -1,5 +1,7 @@
 ---
-description: Embed the GitBook Assistant in your website or app.
+description: >-
+  GitBook Assistant offers users answers based on your docs and tailored to
+  their situation — not just generic responses
 icon: messages
 ---
 
@@ -19,7 +21,7 @@ GitBook Assistant is trained on your documentation, but you can also add externa
 
 <p align="center"><a href="http://docs.gitbook.com/publishing-documentation/gitbook-assistant?ask=how+does+the+gitbook+assistant+help+tie+product+knowledge+closer+to+users+in+my+product" class="button primary">Test GitBook Assistant</a></p>
 
-### Using GitBook Assistant in GitBook <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
+### Using GitBook Assistant in published docs <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
 Users can access GitBook Assistant in three ways:
 
@@ -30,13 +32,13 @@ Users can access GitBook Assistant in three ways:
 {% if visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
 ### Add GitBook Assistant to your website or app
 
-Not only is GitBook Assistant available in GitBook sites, but an embeddable version is available to help you tie your product and product knowledge closer together.
+You can embed GitBook Assistant to help you bring your product and product knowledge closer together.
 
-The embeddable GitBook Assistant allows you to bring your product docs, assistant, and custom tools into your product or website to help your users with things like onboarding, product suggestions when they get stuck, and contextual solutions based on the user who’s using it.
+With GitBook Assistant embedded into your website or app, your users can access knowledge from your docs and [connected tools](./#extend-gitbook-assistant-with-mcp-servers) with a click. This is ideal for offering onboarding help, product suggestions when they get stuck, and contextual solutions tailored to each user.
 
 You can also customize GitBook Assistant in many ways, including configuring custom tools to seamlessly integrate the assistant alongside your product.
 
-Head to the [next section](adding-the-assistant-to-your-website-or-app.md) to learn more about adding the assistant to your product.
+Head to [our embedding guide](adding-gitbook-assistant-to-your-website-or-app.md) to learn more about adding the Assistant to your product.
 {% endif %}
 
 ### Extend GitBook Assistant with MCP servers

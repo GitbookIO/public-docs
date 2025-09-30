@@ -1,18 +1,21 @@
 ---
+description: >-
+  Embed GitBook Assistant in your website or app and let users get instant
+  answers based on your docs knowledge in the context of their current task
 if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
-# Adding the assistant to your website or app
+# Adding GitBook Assistant to your website or app
 
 {% include "../../.gitbook/includes/ultimate-hint.md" %}
 
-The GitBook Assistant can be embedded directly into your website or app, so your users always have access to product knowledge and your documentation, right where they need it.&#x20;
+GitBook Assistant can be embedded directly into your website or app, so your users always have access to the product knowledge within your documentation, right where they need it.&#x20;
 
 You can add it as a script, integrate it as a package, or drop in ready-made React components.
 
 ### Embedding with a script
 
-The quickest way to add the GitBook Assistant to your website or app is by adding it through a script. Every GitBook docs site includes a ready-to-use script for embedding the Assistant as a widget.
+The quickest way to add GitBook Assistant to your website or app is by adding it through a script. Every docs site in GitBook includes a ready-to-use script for embedding the Assistant as a widget.
 
 You’ll find the embed script in your docs site’s **Settings**, under the **AI & MCP tab**, or you can copy it from the example below (replacing `docs.company.com` with your docs site url):
 

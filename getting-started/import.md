@@ -64,7 +64,7 @@ GitBook currently has the following limits for imported content:
 For importing large volumes of content into GitBook, we recommend using [Git Sync](git-sync/). Unlike our integrated import tool, Git Sync is better suited for handling larger migrations efficiently.
 
 {% hint style="info" %}
-You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide to [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/import-or-migrate-your-content-to-gitbook-with-git-sync).
+You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide to [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
 {% endhint %}
 
 Here’s how to do it:

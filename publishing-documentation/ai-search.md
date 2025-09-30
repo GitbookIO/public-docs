@@ -1,7 +1,7 @@
 ---
 description: >-
-  Help your users find the information they need faster with powerful knowledge
-  discovery tools for your published content.
+  Help your users find the information they need faster with powerful AI search
+  tools for your published content
 icon: magnifying-glass
 ---
 
@@ -15,7 +15,7 @@ GitBook sites offer different search experiences depending on what you want for 
 
 * **Keyword search** – A standard search experience based on keywords. Automatically enabled on all sites.
 * **GitBook AI search** – Users get short answers to questions directly from the search box.
-* **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook’s AI agent. Head to [GitBook Assistant](gitbook-assistant/) to learn more.
+* **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook’s AI agent. Head to [GitBook Assistant](gitbook-ai-assistant/) to learn more.
 
 To choose your site’s search experience, open your site’s dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can choose your preferred experience.
 

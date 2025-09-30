@@ -21,7 +21,7 @@ The docs site wizard will take you through the flow of creating your first site.
 
 ### Edit your content
 
-Now that you’ve created a site, you can edit or import your content. If you have an existing repository on GitHub or GitLab with your documentation, you can easily migrate and sync your content to GitBook using [Git Sync](git-sync/). Find out more in [our guide to migrating content using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/import-or-migrate-your-content-to-gitbook-with-git-sync).
+Now that you’ve created a site, you can edit or import your content. If you have an existing repository on GitHub or GitLab with your documentation, you can easily migrate and sync your content to GitBook using [Git Sync](git-sync/). Find out more in [our guide to migrating content using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
 
 After importing your content, you can edit your pages using GitBook’s built-in editor and do things like [add interactive blocks](../creating-content/blocks/), customize the [layout of your pages](../creating-content/content-structure/page.md) and more.
 
@@ -48,5 +48,5 @@ After publishing your site, you’ll get a link that you’re able to share with
 If you’re running into problems or have any questions, we’re here to help. [Join our community](https://github.com/orgs/GitbookIO/discussions) or [send our support team a message](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) and we’ll help you from there.
 
 {% hint style="success" %}
-Want to explore publishing in more details? Check out [our complete guide to creating and publishing content in GitBook](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/product-guides/complete-guide-to-publishing-docs-gitbook).
+Want to explore publishing in more details? Check out [our complete guide to creating and publishing content in GitBook](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/complete-guide-to-publishing-docs-gitbook).
 {% endhint %}
