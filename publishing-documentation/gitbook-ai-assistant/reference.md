@@ -2,7 +2,7 @@
 description: >-
   Learn more about the methods available to use when working with GitBook
   Assistant programatically
-if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
+if: visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL === true
 ---
 
 # Reference

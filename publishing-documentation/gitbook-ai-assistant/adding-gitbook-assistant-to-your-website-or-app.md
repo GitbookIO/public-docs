@@ -2,7 +2,7 @@
 description: >-
   Embed GitBook Assistant in your website or app and let users get instant
   answers based on your docs knowledge in the context of their current task
-if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
+if: visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL === true
 ---
 
 # Adding GitBook Assistant to your website or app
