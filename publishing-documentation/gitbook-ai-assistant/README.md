@@ -19,7 +19,7 @@ The Assistant uses agentic retrieval to understand the context of the query base
 
 GitBook Assistant is trained on your documentation, but you can also add external sources to expand it’s context and knowledge and give better answers.
 
-<p align="center"><a href="http://docs.gitbook.com/publishing-documentation/gitbook-assistant?ask=how+does+the+gitbook+assistant+help+tie+product+knowledge+closer+to+users+in+my+product" class="button primary">Test GitBook Assistant</a></p>
+<p align="center"><a href="https://gitbook.com/docs/publishing-documentation/gitbook-ai-assistant?ask=how+does+the+gitbook+assistant+help+tie+product+knowledge+closer+to+users+in+my+product" class="button primary">Test GitBook Assistant</a></p>
 
 ### Using GitBook Assistant in published docs <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
@@ -29,7 +29,7 @@ Users can access GitBook Assistant in three ways:
 * Click the **GitBook Assistant** <picture><source srcset="../../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.
 
-{% if visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
+{% if visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true %}
 ### Add GitBook Assistant to your website or app
 
 You can embed GitBook Assistant to help you bring your product and product knowledge closer together.
