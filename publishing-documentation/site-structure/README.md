@@ -15,6 +15,8 @@ Linked spaces can serve as one of two different content types, which determine h
 
 ## Managing your site structure
 
+By managing the structure of your site, you can also manage your site’s top navigation bar. This navigation bar allows users to jump to different site sections and site section groups.
+
 From your docs site’s dashboard, open the **Settings** tab in the site header, then click **Structure**. Here you can see all the content of your site, divided into sections and variants.
 
 Your site starts out with a single section with your site's name and a single variant with the space you linked during your site's set-up.
