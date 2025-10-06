@@ -1,10 +1,11 @@
 ---
 description: Define requirements that must be met before change requests can be merged
-if: visitor.claims.unsigned.bucket.MERGE_RULES === true
 icon: file-shield
 ---
 
 # Merge rules
+
+{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 Merge rules allow you to define requirements that must be met before change requests can be merged, such as needing a review from a specific user, or requiring a subject or description for the change request.
 
