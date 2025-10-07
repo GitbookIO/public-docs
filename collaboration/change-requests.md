@@ -9,7 +9,7 @@ A change request is a copy of your main content. It comes from the simple concep
 
 In a change request, you can edit, update and delete elements of your content, request reviews on your changes, then merge them back into your main version to apply all the changes you made.
 
-<figure><img src="../.gitbook/assets/10_01_25_change_requests.svg" alt="A GitBook screenshot showing the change requests panel" ><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_change_requests.svg" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
 ### Creating a change request
 
@@ -42,7 +42,7 @@ When you click **Request a review**, the change request’s status will change t
 If your changes don’t require a review, you can merge your changes into the main version directly instead.
 
 {% hint style="info" %}
-If you don’t tag anyone in your review request, everyone with reviewer permissions or higher will get a notification about your request.
+If you don’t tag anyone in your review request, everyone with reviewer permissions will get a notification about your request. If no reviewers are in the space, the next role above reviewer will be notified.
 {% endhint %}
 
 ### Reviewing a change request
@@ -70,7 +70,7 @@ Merging a change request will add the change request’s changes into the main b
 
 If you prefer to merge change requests at a scheduled time—for example, to align with your product release cycles—you can use external tools like GitHub Actions or automation platforms such as Zapier, connected through [GitBook’s API](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests#post-spaces-spaceid-change-requests-changerequestid-merge).
 
-As an example, adding this GitHub workflow would merege a change request once a week:&#x20;
+As an example, adding this GitHub workflow would merege a change request once a week:
 
 {% code title=".github/workflows/scheduled-gitbook-merge.yml" %}
 ```yaml
