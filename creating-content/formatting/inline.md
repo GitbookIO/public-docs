@@ -18,10 +18,10 @@ To create an annotation, select the text you would like to annotate and click th
 
 #### Markdown representation
 
-You can write content as [Markdown footnotes](https://www.markdownguide.org/extended-syntax/#footnotes) to add them as annotations in GitBook.
+You can write content as [Markdown footnotes](https://www.markdownguide.org/extended-syntax/#footnotes) to add them as annotations in GitBook. Footnote indicators should appear immediately after the word you wish to annotate; they should not appear after punctuation marks or other symbols.
 
 ```markdown
-Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+Here's a simple footnote[^1], and here's a longer one[^bignote].
 
 [^1]: This is the first footnote.
 
