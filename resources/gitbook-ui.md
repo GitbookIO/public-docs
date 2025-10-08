@@ -49,13 +49,7 @@ From the **Pages** tab in the table of contents you can:
 * Create new [pages](gitbook-ui.md#pages) and subpages
 * Create [page groups](gitbook-ui.md#groups)
 * Add [external links](gitbook-ui.md#external-links)
-*   Access [the Actions menu](gitbook-ui.md#the-actions-menu)\
-
-
-    <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
-
-    \
-    for individual pages.
+* Access [the Actions menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for individual pages.
 
 In the **Reusable content** tab, you can:
 
@@ -70,7 +64,7 @@ In the **Files** tab, you can:
 * Drag and drop more files into your space
 * Manage individual files
 
-If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <picture><source srcset="../.gitbook/assets/panel_close_left_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/panel_close_left_icon_light.svg" alt="The Hide button icon in GitBook"></picture> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <picture><source srcset="../.gitbook/assets/open_panel_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/open_panel_icon_light.svg" alt="The Show button icon in GitBook"></picture>.
+If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <picture><source srcset="../.gitbook/assets/panel left - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/panel left.svg" alt="The Hide button icon in GitBook"></picture> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <picture><source srcset="../.gitbook/assets/panel right - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/panel right.svg" alt="The Show button icon in GitBook"></picture>.
 
 ### Space header
 
