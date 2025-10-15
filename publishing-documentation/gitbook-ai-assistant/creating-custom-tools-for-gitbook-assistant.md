@@ -2,7 +2,9 @@
 description: >-
   Add custom tools to GitBook Assistant to allow it to interact with your
   product, website, and more
-if: visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL === true
+if: >-
+  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
+  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
 # Creating custom tools for GitBook Assistant

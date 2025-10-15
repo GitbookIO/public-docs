@@ -2,7 +2,9 @@
 description: >-
   Customize the experience when embedding GitBook Assistant into your product or
   app by setting welcome messages, buttons, and more
-if: visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL === true
+if: >-
+  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
+  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
 # Customizing GitBook Assistant

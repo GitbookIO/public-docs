@@ -29,7 +29,7 @@ Users can access GitBook Assistant in three ways:
 * Click the **GitBook Assistant** <picture><source srcset="../../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.
 
-{% if visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true %}
+{% if visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true || visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
 ### Add GitBook Assistant to your website or app
 
 You can embed GitBook Assistant to help you bring your product and product knowledge closer together.
