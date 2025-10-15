@@ -55,7 +55,13 @@ This gives you full control over where and how the Assistant is displayed in you
 
 ### Using React components
 
-For React projects, we provide prebuilt components that make embedding even simpler. After installing the NPM package, you can add the Assistant with just a few lines:
+For React projects, we provide prebuilt components that make embedding even simpler. Start by installing the GitBook embed package from npm.
+
+```bash
+npm install @gitbook/embed
+```
+
+After installing the NPM package, you can add the Assistant with just a few lines to your reach app:
 
 ```jsx
 import { GitBookProvider, GitBookAssistantFrame } from '@gitbook/embed/react';
