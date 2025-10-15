@@ -21,6 +21,10 @@ GitBook Assistant is trained on your documentation, but you can also add externa
 
 <p align="center"><a href="https://gitbook.com/docs/publishing-documentation/gitbook-ai-assistant?ask=how+does+the+gitbook+assistant+help+tie+product+knowledge+closer+to+users+in+my+product" class="button primary">Test GitBook Assistant</a></p>
 
+### Enable GitBook Assistant <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
+
+To enable GitBook Assistant, open your site’s dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can choose GitBook Assistant from the options available.
+
 ### Using GitBook Assistant in published docs <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
 Users can access GitBook Assistant in three ways:
@@ -32,13 +36,7 @@ Users can access GitBook Assistant in three ways:
 {% if visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true || visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
 ### Add GitBook Assistant to your website or app
 
-You can embed GitBook Assistant to help you bring your product and product knowledge closer together.
-
-With GitBook Assistant embedded into your website or app, your users can access knowledge from your docs and [connected tools](./#extend-gitbook-assistant-with-mcp-servers) with a click. This is ideal for offering onboarding help, product suggestions when they get stuck, and contextual solutions tailored to each user.
-
-You can also customize GitBook Assistant in many ways, including configuring custom tools to seamlessly integrate the assistant alongside your product.
-
-Head to [our embedding guide](adding-gitbook-assistant-to-your-website-or-app.md) to learn more about adding the Assistant to your product.
+You can embed GitBook Assistant to help you bring your product and product knowledge closer together. Head to [Adding GitBook Assistant to your website or app](adding-gitbook-assistant-to-your-website-or-app.md) to get started.
 {% endif %}
 
 ### Extend GitBook Assistant with MCP servers
