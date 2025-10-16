@@ -14,7 +14,7 @@ GitBook’s **Quick find** palette lets you search for content across all your o
 
 Results from the space you’re currently in appear at the top, followed by results from other spaces from the organization you’re currently working in — **as well as other organizations** you are a member of.
 
-When you select a search result from an organization, you’ll switch to browsing that organization. To go back, use quick find to select a document in the organization you were in before, or use [the organization switcher](../../resources/gitbook-ui.md#the-sidebar) in the sidebar.
+When you select a search result from an organization, you’ll switch to browsing that organization. To go back, use quick find to select a document in the organization you were in before, or use [the organization switcher](../../resources/gitbook-ui/#the-sidebar) in the sidebar.
 
 {% hint style="info" %}
 We do not currently support the ability to prioritize certain content in Quick find results.

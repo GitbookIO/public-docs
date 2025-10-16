@@ -6,18 +6,18 @@ description: Set up and authorize the GitHub integration for GitBook
 
 ### Getting started
 
-In the space you want to sync with your GitHub repo, head to the [space header](../../resources/gitbook-ui.md#space-header) in the top right, and select **Configure**. From the provider list, select **GitHub Sync**.
+In the space you want to sync with your GitHub repo, head to the [space header](../../resources/gitbook-ui/#space-header) in the top right, and select **Configure**. From the provider list, select **GitHub Sync**.
 
-<figure><img src="../../.gitbook/assets/10_01_25_git_sync_github.svg" alt="A GitBook screenshot showing GitHub Sync configuration options" ><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_01_25_git_sync_github.svg" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
 
 ### Authenticate with GitHub
 
 If you’re setting up GitHub Sync for the first time and haven’t already linked a GitHub account, you’ll be prompted to do that when you begin configuring Git Sync. If you’ve already linked your account, you may still need to authenticate via GitHub.
 
 {% hint style="warning" %}
-If you see a **'Potential duplicated accounts'** error message at this step, this means your GitHub account is already linked with another GitBook user account.&#x20;
+If you see a **'Potential duplicated accounts'** error message at this step, this means your GitHub account is already linked with another GitBook user account.
 
-To help you identify which accounts are linked, you will have to log out from this session and log in using the sign-in with GitHub method.&#x20;
+To help you identify which accounts are linked, you will have to log out from this session and log in using the sign-in with GitHub method.
 
 If you already know your GitBook account associated with GitHub you can log into that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.
 

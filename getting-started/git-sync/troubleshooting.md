@@ -62,7 +62,7 @@ If after updating your repository by adding or modifying a markdown file, you do
 
 This could either be because you created the file manually, or because you made an edit on GitBook and the GitBook to Git export phase of the sync created it for you.
 
-The content of this file mirrors your [table of contents](../../resources/gitbook-ui.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
+The content of this file mirrors your [table of contents](../../resources/gitbook-ui/#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
 If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) for assistance.
 

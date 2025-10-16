@@ -102,7 +102,7 @@ To insert an absolute link:
 4. Hit `Enter`.
 
 {% hint style="info" %}
-### Why don't external links open in a new tab?
+#### Why don't external links open in a new tab?
 
 When you add a link to an external site in your docs, it will open in the same tab.
 
