@@ -160,7 +160,6 @@
 
 ## Resources
 
-* [GitBook UI](resources/gitbook-ui/README.md)
-  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md)
+* [GitBook UI](resources/gitbook-ui.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)

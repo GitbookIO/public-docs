@@ -12,7 +12,7 @@ A space is a project that lets you work on a collection of related pages. They a
 
 Click the **+** button next to the **Spaces** header in the sidebar and choose **New space** to create a new space. You can also create a new space inside a [collection](collection.md).
 
-You can edit a space’s name by hovering over the name in the [space header](../../resources/gitbook-ui/#space-header).
+You can edit a space’s name by hovering over the name in the [space header](../../resources/gitbook-ui.md#space-header).
 
 ### Duplicate a space
 

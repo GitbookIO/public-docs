@@ -13,7 +13,7 @@ You can receive notifications inside the GitBook app and/or via email. We suppor
 
 ### App notifications
 
-You can find app notifications at the top of the [sidebar](../resources/gitbook-ui/#the-sidebar).
+You can find app notifications at the top of the [sidebar](../resources/gitbook-ui.md#the-sidebar).
 
 Within the notifications pop-up, you’ll see two icons in the top-right corner. You can either mark all of your notifications as read, or head to your notification settings to update your preferences.
 

@@ -17,7 +17,7 @@ You can add different [types of links](formatting/inline.md#links) to your pages
 Broken link detection currently works only for relative links to other GitBook content in your organization. It will not detect broken links to external URLs.
 {% endhint %}
 
-To view broken links, click the broken link symbol in the [space header](../resources/gitbook-ui/#space-header) when inside a change request.
+To view broken links, click the broken link symbol in the [space header](../resources/gitbook-ui.md#space-header) when inside a change request.
 
 ### Fix a broken link
 

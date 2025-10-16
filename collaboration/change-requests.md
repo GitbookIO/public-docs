@@ -13,7 +13,7 @@ In a change request, you can edit, update and delete elements of your content, r
 
 ### Creating a change request
 
-Inside a space where live edits are disabled, click the **Edit** button in the [space header](../resources/gitbook-ui/#space-header) to start a new change request.
+Inside a space where live edits are disabled, click the **Edit** button in the [space header](../resources/gitbook-ui.md#space-header) to start a new change request.
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -21,11 +21,7 @@ Once you’re happy with your changes, you can use the button in the header bar 
 
 ### Preview a change request
 
-You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [space header](../resources/gitbook-ui/#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
-
-Below the **Preview** button is a URL for your site preview. Click this and your site preview will open in full in a new tab.&#x20;
-
-When you open a preview URL in a new tab, you will also see [the Preview toolbar](../resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md) at the bottom of the browser window. This toolbar lets you quickly jump back into GitBook to view, edit, or comment on the change request, or open the live version of your site.
+You can preview the changes you've made in a change request through the preview button in the [space header](../resources/gitbook-ui.md#space-header). This will switch you to a view with your docs and the proposed changes in a preview window, so you can see your changes in the entire context of your published documentation.
 
 {% hint style="info" %}
 You can only preview change requests for spaces added to a [published docs site](../publishing-documentation/publish-a-docs-site/).

@@ -10,7 +10,7 @@ When publishing your documentation, each space will be its own [docs site](../..
 
 ### Table of contents
 
-You can create as many pages as you need in a space. They’re all visible on the left sidebar of your screen in your space’s [table of contents](../../resources/gitbook-ui/#table-of-contents). The table of content will appear in the same place when you publish your space, unless [you choose to hide it](page.md#page-options).
+You can create as many pages as you need in a space. They’re all visible on the left sidebar of your screen in your space’s [table of contents](../../resources/gitbook-ui.md#table-of-contents). The table of content will appear in the same place when you publish your space, unless [you choose to hide it](page.md#page-options).
 
 ### Create a new page
 
