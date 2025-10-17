@@ -13,7 +13,7 @@ Custom tools in GitBook Assistant allow you to dispatch web or product actions f
 
 Tools can be defined in the `configure` or `registerTool` call from `GitBook`.
 
-Let’s look at an example:
+Let's look at an example:
 
 ```javascript
 window.GitBook.registerTool({
@@ -33,7 +33,7 @@ window.GitBook.registerTool({
       },
     },
   },
-  
+
   // An optional confirmation button that shows before the execute function is run.
   confirmation: { icon: "ticket", label: "Create ticket" },
 
@@ -58,7 +58,6 @@ window.GitBook.registerTool({
     };
   },
 });
-
 ```
 
 #### How it works
