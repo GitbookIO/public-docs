@@ -222,3 +222,7 @@ redirects:
   snippets-and-content-insights/snippets: snippets-and-insights/snippets-beta.md
   snippets-and-content-insights/snippets-beta: snippets-and-insights/snippets-beta.md
   snippets-and-content-insights/insights: snippets-and-insights/insights.md
+  publishing-documentation/gitbook-ai-assistant/adding-gitbook-assistant-to-your-website-or-app: publishing-documentation/gitbook-ai-assistant/embedding/script.md
+  publishing-documentation/gitbook-ai-assistant/customizing-gitbook-assistant: publishing-documentation/gitbook-ai-assistant/configuration/customizing-gitbook-assistant.md
+  publishing-documentation/gitbook-ai-assistant/creating-custom-tools-for-gitbook-assistant: publishing-documentation/gitbook-ai-assistant/configuration/creating-custom-tools.md
+  publishing-documentation/gitbook-ai-assistant/reference: publishing-documentation/gitbook-ai-assistant/configuration/reference.md
