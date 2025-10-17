@@ -142,6 +142,6 @@ If you need more control and want to work at the application level, you can inst
 
 - **Forgetting to install the package** – Run `npm install @gitbook/embed` before importing.
 - **Missing siteURL** – The `siteURL` option is required and must match your published docs site.
-- **Iframe not rendering** – Ensure the parent container has sufficient width/height for the iframe to display.
+- **iFrame not rendering** – Ensure the parent container has sufficient width/height for the iframe to display.
 - **Frame methods called before initialization** – Wait until `createFrame()` completes before calling frame methods.
 - **Not cleaning up on unmount** – Always call `frame.destroy()` to prevent memory leaks in single-page apps.
