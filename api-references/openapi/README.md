@@ -24,3 +24,13 @@ GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob
 GitBook's OpenAPI block also supports a "test it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
 
 Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in order to see your API methods in action. See and example of this above.
+
+#### FAQ
+
+<details>
+
+<summary>Why isn’t my spec loading?</summary>
+
+If you can’t fetch the spec, your API is likely blocking cross-origin requests (CORS).  Please check your API’s response headers for: [`Access-Control-Allow-Origin: *`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin) . If your API only allows specific origins, ensure that `*.gitbook.io` is permitted.
+
+</details>
