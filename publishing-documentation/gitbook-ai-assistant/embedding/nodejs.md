@@ -46,6 +46,7 @@ If you need more control and want to work at the application level, you can inst
     ```javascript
     const iframe = document.createElement("iframe");
     iframe.src = gitbook.getFrameURL();
+    iframe.id = "assistant-container";
     iframe.style.border = "none";
     iframe.style.width = "100%";
     iframe.style.height = "600px";
@@ -97,13 +98,6 @@ If you need more control and want to work at the application level, you can inst
         },
       ],
     });
-    ```
-8.  **Cleanup when unmounting**
-
-    Remove the Assistant when your component or page unmounts:
-
-    ```javascript
-    frame.destroy();
     ```
 
 ## Props & Configuration
