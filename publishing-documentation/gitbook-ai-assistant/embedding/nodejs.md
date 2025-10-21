@@ -1,119 +1,110 @@
 ---
 description: >-
-  Integrate GitBook Assistant using the NPM package for full application-level control
-if: >-
-  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
-  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
+  Integrate GitBook Assistant using the NPM package for full application-level
+  control
 ---
 
-# Embedding with Node.js/NPM
+# Node.js/NPM
 
 If you need more control and want to work at the application level, you can install the GitBook embed package from npm. This approach is ideal for server-side rendering, build-time integration, or custom iframe management.
 
 ## Steps
 
-1. **Install the package**
+1.  **Install the package**
 
-   Add `@gitbook/embed` to your project:
+    Add `@gitbook/embed` to your project:
 
-   ```bash
-   npm install @gitbook/embed
-   ```
+    ```bash
+    npm install @gitbook/embed
+    ```
+2.  **Import the package**
 
-2. **Import the package**
+    In your application code, import the `createGitBook` function:
 
-   In your application code, import the `createGitBook` function:
+    ```javascript
+    import { createGitBook } from "@gitbook/embed";
+    ```
 
-   ```javascript
-   import { createGitBook } from "@gitbook/embed";
-   ```
+    Or using CommonJS:
 
-   Or using CommonJS:
+    ```javascript
+    const { createGitBook } = require("@gitbook/embed");
+    ```
+3.  **Initialize GitBook**
 
-   ```javascript
-   const { createGitBook } = require("@gitbook/embed");
-   ```
+    Create a GitBook instance with your docs site URL:
 
-3. **Initialize GitBook**
+    ```javascript
+    const gitbook = createGitBook({
+      siteURL: "https://docs.company.com",
+    });
+    ```
+4.  **Create an iframe**
 
-   Create a GitBook instance with your docs site URL:
+    Generate an iframe element and set its source to the Assistant URL:
 
-   ```javascript
-   const gitbook = createGitBook({
-     siteURL: "https://docs.company.com",
-   });
-   ```
+    ```javascript
+    const iframe = document.createElement("iframe");
+    iframe.src = gitbook.getFrameURL();
+    iframe.style.border = "none";
+    iframe.style.width = "100%";
+    iframe.style.height = "600px";
+    ```
+5.  **Attach the frame**
 
-4. **Create an iframe**
+    Create a GitBook frame instance and mount it to your page:
 
-   Generate an iframe element and set its source to the Assistant URL:
+    ```javascript
+    const frame = gitbook.createFrame(iframe);
+    document.getElementById("assistant-container").appendChild(iframe);
+    ```
+6.  **Control the Assistant programmatically**
 
-   ```javascript
-   const iframe = document.createElement("iframe");
-   iframe.src = gitbook.getFrameURL();
-   iframe.style.border = "none";
-   iframe.style.width = "100%";
-   iframe.style.height = "600px";
-   ```
+    Use the frame instance to interact with the Assistant:
 
-5. **Attach the frame**
+    ```javascript
+    // Open the Assistant
+    frame.open();
 
-   Create a GitBook frame instance and mount it to your page:
+    // Close the Assistant
+    frame.close();
 
-   ```javascript
-   const frame = gitbook.createFrame(iframe);
-   document.getElementById("assistant-container").appendChild(iframe);
-   ```
+    // Toggle the Assistant
+    frame.toggle();
 
-6. **Control the Assistant programmatically**
+    // Navigate to a specific page
+    frame.navigateToPage("/getting-started");
 
-   Use the frame instance to interact with the Assistant:
+    // Send a message
+    frame.postUserMessage("How do I get started?");
+    ```
+7.  **Add configuration options**
 
-   ```javascript
-   // Open the Assistant
-   frame.open();
+    Pass customization options when initializing:
 
-   // Close the Assistant
-   frame.close();
+    ```javascript
+    const gitbook = createGitBook({
+      siteURL: "https://docs.company.com",
+      welcomeMessage: "Welcome to our help center!",
+      suggestions: ["How do I get started?", "What are the pricing plans?"],
+      buttons: [
+        {
+          label: "Contact Support",
+          icon: "envelope",
+          onClick: () => {
+            window.open("mailto:support@example.com", "_blank");
+          },
+        },
+      ],
+    });
+    ```
+8.  **Cleanup when unmounting**
 
-   // Toggle the Assistant
-   frame.toggle();
+    Remove the Assistant when your component or page unmounts:
 
-   // Navigate to a specific page
-   frame.navigateToPage("/getting-started");
-
-   // Send a message
-   frame.postUserMessage("How do I get started?");
-   ```
-
-7. **Add configuration options**
-
-   Pass customization options when initializing:
-
-   ```javascript
-   const gitbook = createGitBook({
-     siteURL: "https://docs.company.com",
-     welcomeMessage: "Welcome to our help center!",
-     suggestions: ["How do I get started?", "What are the pricing plans?"],
-     buttons: [
-       {
-         label: "Contact Support",
-         icon: "envelope",
-         onClick: () => {
-           window.open("mailto:support@example.com", "_blank");
-         },
-       },
-     ],
-   });
-   ```
-
-8. **Cleanup when unmounting**
-
-   Remove the Assistant when your component or page unmounts:
-
-   ```javascript
-   frame.destroy();
-   ```
+    ```javascript
+    frame.destroy();
+    ```
 
 ## Props & Configuration
 
@@ -140,8 +131,8 @@ If you need more control and want to work at the application level, you can inst
 
 ## Common pitfalls
 
-- **Forgetting to install the package** – Run `npm install @gitbook/embed` before importing.
-- **Missing siteURL** – The `siteURL` option is required and must match your published docs site.
-- **iFrame not rendering** – Ensure the parent container has sufficient width/height for the iframe to display.
-- **Frame methods called before initialization** – Wait until `createFrame()` completes before calling frame methods.
-- **Not cleaning up on unmount** – Always call `frame.destroy()` to prevent memory leaks in single-page apps.
+* **Forgetting to install the package** – Run `npm install @gitbook/embed` before importing.
+* **Missing siteURL** – The `siteURL` option is required and must match your published docs site.
+* **iFrame not rendering** – Ensure the parent container has sufficient width/height for the iframe to display.
+* **Frame methods called before initialization** – Wait until `createFrame()` completes before calling frame methods.
+* **Not cleaning up on unmount** – Always call `frame.destroy()` to prevent memory leaks in single-page apps.

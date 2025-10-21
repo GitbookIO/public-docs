@@ -2,12 +2,9 @@
 description: >-
   Add custom tools to GitBook Assistant to allow it to interact with your
   product, website, and more
-if: >-
-  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
-  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
-# Creating custom tools for GitBook Assistant
+# Creating custom tools
 
 Custom tools in GitBook Assistant allow you to dispatch web or product actions for different scenarios. For example, you can build a custom tool that instructs GitBook Assistant to call APIs, perform product actions, open other tools, and more.
 

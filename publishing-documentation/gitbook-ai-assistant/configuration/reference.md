@@ -2,9 +2,6 @@
 description: >-
   Learn more about the methods available to use when working with GitBook
   Assistant programmatically
-if: >-
-  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
-  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
 # Reference
@@ -81,7 +78,7 @@ Navigate to a specific page within your GitBook docs by its path.
 
 **Parameters:**
 
-- `path` (string): The path to the page you want to navigate to
+* `path` (string): The path to the page you want to navigate to
 
 **Example:**
 
@@ -120,7 +117,7 @@ Post a message to the chat as if the user typed it.
 
 **Parameters:**
 
-- `message` (string): The message to post to the chat
+* `message` (string): The message to post to the chat
 
 **Example:**
 
@@ -172,8 +169,8 @@ Register an event listener for GitBook events.
 
 **Parameters:**
 
-- `event` (string): The event name to listen for
-- `listener` (function): The callback function to execute when the event occurs
+* `event` (string): The event name to listen for
+* `listener` (function): The callback function to execute when the event occurs
 
 **Example:**
 

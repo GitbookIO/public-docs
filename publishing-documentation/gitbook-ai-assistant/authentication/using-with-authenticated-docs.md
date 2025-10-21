@@ -1,13 +1,11 @@
 ---
 description: >-
-  Embed GitBook Assistant on sites that require authentication by dynamically loading
-  the script after users sign in
-if: >-
-  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
-  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
+  Embed GitBook Assistant on sites that require authentication by dynamically
+  loading the script after users sign in
+if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
-# Using with authenticated docs
+# Authentication
 
 If your GitBook documentation requires authentication (e.g., visitor authentication via OIDC, Auth0, or a custom backend), the embedded Assistant cannot access your docs content unless the user's authentication token is available.
 
@@ -168,10 +166,10 @@ initializeAssistant();
 
 ## Common pitfalls
 
-- **Loading the Assistant before sign-in** – Always check for the token before loading the script or components.
-- **Token not persisting across domains** – Cookies don't persist across different domains due to browser security policies. Your app and docs must be on the same domain or subdomain.
-- **Token expired** – Tokens can expire. If the Assistant returns authentication errors, prompt users to sign in again.
-- **Using wrong cookie name** – The token is stored as `gitbook-visitor-token`, not `gitbook-token` or other variations.
+* **Loading the Assistant before sign-in** – Always check for the token before loading the script or components.
+* **Token not persisting across domains** – Cookies don't persist across different domains due to browser security policies. Your app and docs must be on the same domain or subdomain.
+* **Token expired** – Tokens can expire. If the Assistant returns authentication errors, prompt users to sign in again.
+* **Using wrong cookie name** – The token is stored as `gitbook-visitor-token`, not `gitbook-token` or other variations.
 
 ## Debugging
 
@@ -185,5 +183,5 @@ If this returns `undefined`, the user hasn't signed in to your docs yet.
 
 ## Next steps
 
-- [Customizing the Assistant](../configuration/customizing-gitbook-assistant.md) – Add welcome messages and buttons
-- [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs
+* [Customizing the Assistant](../configuration/customizing-gitbook-assistant.md) – Add welcome messages and buttons
+* [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs

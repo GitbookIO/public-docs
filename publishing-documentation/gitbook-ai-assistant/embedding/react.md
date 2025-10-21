@@ -1,143 +1,134 @@
 ---
 description: >-
-  Use prebuilt React components to embed GitBook Assistant in your React application
-if: >-
-  visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true ||
-  visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
+  Use prebuilt React components to embed GitBook Assistant in your React
+  application
 ---
 
-# Embedding with React
+# React
 
 For React projects, GitBook provides prebuilt components that make embedding the Assistant simple and idiomatic. The components handle state management, context, and lifecycle automatically.
 
 ## Steps
 
-1. **Install the package**
+1.  **Install the package**
 
-   Add `@gitbook/embed` to your React project:
+    Add `@gitbook/embed` to your React project:
 
-   ```bash
-   npm install @gitbook/embed
-   ```
+    ```bash
+    npm install @gitbook/embed
+    ```
+2.  **Import the React components**
 
-2. **Import the React components**
+    Import the `GitBookProvider` and `GitBookAssistantFrame` components:
 
-   Import the `GitBookProvider` and `GitBookAssistantFrame` components:
+    ```jsx
+    import {
+      GitBookProvider,
+      GitBookAssistantFrame,
+    } from "@gitbook/embed/react";
+    ```
+3.  **Wrap your app with GitBookProvider**
 
-   ```jsx
-   import {
-     GitBookProvider,
-     GitBookAssistantFrame,
-   } from "@gitbook/embed/react";
-   ```
+    Add the provider at the root of your component tree or where you need the Assistant:
 
-3. **Wrap your app with GitBookProvider**
+    ```jsx
+    function App() {
+      return (
+        <GitBookProvider siteURL="https://docs.company.com">
+          <YourAppContent />
+        </GitBookProvider>
+      );
+    }
+    ```
+4.  **Add the AssistantFrame component**
 
-   Add the provider at the root of your component tree or where you need the Assistant:
+    Place the frame component where you want the Assistant to appear:
 
-   ```jsx
-   function App() {
-     return (
-       <GitBookProvider siteURL="https://docs.company.com">
-         <YourAppContent />
-       </GitBookProvider>
-     );
-   }
-   ```
+    ```jsx
+    function App() {
+      return (
+        <GitBookProvider siteURL="https://docs.company.com">
+          <div className="app">
+            <YourAppContent />
+            <GitBookAssistantFrame />
+          </div>
+        </GitBookProvider>
+      );
+    }
+    ```
+5.  **Customize the Assistant**
 
-4. **Add the AssistantFrame component**
+    Pass configuration props to the provider:
 
-   Place the frame component where you want the Assistant to appear:
+    ```jsx
+    <GitBookProvider
+      siteURL="https://docs.company.com"
+      welcomeMessage="Welcome to our help center! How can we assist you today?"
+      suggestions={[
+        "How do I get started?",
+        "What are the pricing plans?",
+        "How do I reset my password?",
+      ]}
+      buttons={[
+        {
+          label: "Contact Support",
+          icon: "envelope",
+          onClick: () => {
+            window.open("mailto:support@example.com", "_blank");
+          },
+        },
+      ]}
+    >
+      <GitBookAssistantFrame />
+    </GitBookProvider>
+    ```
+6.  **Control the Assistant with the useGitBook hook**
 
-   ```jsx
-   function App() {
-     return (
-       <GitBookProvider siteURL="https://docs.company.com">
-         <div className="app">
-           <YourAppContent />
-           <GitBookAssistantFrame />
-         </div>
-       </GitBookProvider>
-     );
-   }
-   ```
+    Use the `useGitBook` hook to interact with the Assistant programmatically:
 
-5. **Customize the Assistant**
+    ```jsx
+    import { useGitBook } from "@gitbook/embed/react";
 
-   Pass configuration props to the provider:
+    function HelpButton() {
+      const gitbook = useGitBook();
 
-   ```jsx
-   <GitBookProvider
-     siteURL="https://docs.company.com"
-     welcomeMessage="Welcome to our help center! How can we assist you today?"
-     suggestions={[
-       "How do I get started?",
-       "What are the pricing plans?",
-       "How do I reset my password?",
-     ]}
-     buttons={[
-       {
-         label: "Contact Support",
-         icon: "envelope",
-         onClick: () => {
-           window.open("mailto:support@example.com", "_blank");
-         },
-       },
-     ]}
-   >
-     <GitBookAssistantFrame />
-   </GitBookProvider>
-   ```
+      return <button onClick={() => gitbook.open()}>Open Help</button>;
+    }
+    ```
+7.  **Conditionally render the Assistant**
 
-6. **Control the Assistant with the useGitBook hook**
+    Show the Assistant only when needed:
 
-   Use the `useGitBook` hook to interact with the Assistant programmatically:
+    ```jsx
+    function App() {
+      const [showAssistant, setShowAssistant] = useState(false);
 
-   ```jsx
-   import { useGitBook } from "@gitbook/embed/react";
+      return (
+        <GitBookProvider siteURL="https://docs.company.com">
+          <button onClick={() => setShowAssistant(true)}>Get Help</button>
+          {showAssistant && <GitBookAssistantFrame />}
+        </GitBookProvider>
+      );
+    }
+    ```
+8.  **Use with Next.js or server-side rendering**
 
-   function HelpButton() {
-     const gitbook = useGitBook();
+    Dynamically import the components to avoid SSR issues:
 
-     return <button onClick={() => gitbook.open()}>Open Help</button>;
-   }
-   ```
+    ```jsx
+    import dynamic from "next/dynamic";
 
-7. **Conditionally render the Assistant**
+    const GitBookProvider = dynamic(
+      () => import("@gitbook/embed/react").then((mod) => mod.GitBookProvider),
+      { ssr: false }
+    );
 
-   Show the Assistant only when needed:
-
-   ```jsx
-   function App() {
-     const [showAssistant, setShowAssistant] = useState(false);
-
-     return (
-       <GitBookProvider siteURL="https://docs.company.com">
-         <button onClick={() => setShowAssistant(true)}>Get Help</button>
-         {showAssistant && <GitBookAssistantFrame />}
-       </GitBookProvider>
-     );
-   }
-   ```
-
-8. **Use with Next.js or server-side rendering**
-
-   Dynamically import the components to avoid SSR issues:
-
-   ```jsx
-   import dynamic from "next/dynamic";
-
-   const GitBookProvider = dynamic(
-     () => import("@gitbook/embed/react").then((mod) => mod.GitBookProvider),
-     { ssr: false }
-   );
-
-   const GitBookAssistantFrame = dynamic(
-     () =>
-       import("@gitbook/embed/react").then((mod) => mod.GitBookAssistantFrame),
-     { ssr: false }
-   );
-   ```
+    const GitBookAssistantFrame = dynamic(
+      () =>
+        import("@gitbook/embed/react").then((mod) => mod.GitBookAssistantFrame),
+      { ssr: false }
+    );
+    ```
 
 ## Props & Configuration
 
@@ -173,8 +164,8 @@ For React projects, GitBook provides prebuilt components that make embedding the
 
 ## Common pitfalls
 
-- **Not wrapping with GitBookProvider** – The `GitBookAssistantFrame` requires a parent `GitBookProvider` to function.
-- **Using with SSR without dynamic import** – The component uses browser APIs and must be dynamically imported in Next.js or other SSR frameworks.
-- **siteURL not matching published docs** – Ensure the `siteURL` prop matches your live docs site URL exactly.
-- **Calling useGitBook outside provider** – The `useGitBook` hook must be used within a component that's a child of `GitBookProvider`.
-- **Multiple providers in the tree** – Avoid nesting multiple `GitBookProvider` instances, as this can cause context conflicts.
+* **Not wrapping with GitBookProvider** – The `GitBookAssistantFrame` requires a parent `GitBookProvider` to function.
+* **Using with SSR without dynamic import** – The component uses browser APIs and must be dynamically imported in Next.js or other SSR frameworks.
+* **siteURL not matching published docs** – Ensure the `siteURL` prop matches your live docs site URL exactly.
+* **Calling useGitBook outside provider** – The `useGitBook` hook must be used within a component that's a child of `GitBookProvider`.
+* **Multiple providers in the tree** – Avoid nesting multiple `GitBookProvider` instances, as this can cause context conflicts.

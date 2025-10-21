@@ -27,57 +27,57 @@ To enable GitBook Assistant, open your site's dashboard, navigate to the **Setti
 
 Users can access GitBook Assistant in three ways:
 
-- Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-- Click the **GitBook Assistant** <picture><source srcset="../../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
-- Type a question into the **Ask or search…** bar and choose the 'Ask…' option at the top of the menu
+* Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
+*   Click the **GitBook Assistant**&#x20;
 
-{% if visitor.claims.unsigned.bucket.EMBED_ASSISTANT_PANEL == true || visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
+    <picture><source srcset="../../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/gitbook-assistant.svg" alt=""></picture>
 
-### Embed GitBook Assistant in your product
+    &#x20;button next to the **Ask or search…** bar
+* Type a question into the **Ask or search…** bar and choose the 'Ask…' option at the top of the menu
+
+{% if visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
+#### Embed GitBook Assistant in your product
 
 You can embed GitBook Assistant to help you bring your product and product knowledge closer together. Choose the embedding method that fits your stack:
 
-- **[Script tag](embedding/script.md)** – Quick setup with a `<script>` tag
-- **[Node.js/NPM](embedding/nodejs.md)** – Server-side or build-time integration
-- **[React component](embedding/react.md)** – Prebuilt React components
+* [**Script tag**](embedding/script.md) – Quick setup with a `<script>` tag
+* [**Node.js/NPM**](embedding/nodejs.md) – Server-side or build-time integration
+* [**React component**](embedding/react.md) – Prebuilt React components
 
 **Additional guides:**
 
-- [Using with authenticated docs](authentication/using-with-authenticated-docs.md) – Required if your docs need sign-in
-- [Customizing the Assistant](configuration/customizing-gitbook-assistant.md) – Welcome messages, buttons, and suggestions
-- [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your APIs
-- [API Reference](configuration/reference.md) – All available methods and events
-  {% endif %}
+* [Using with authenticated docs](authentication/using-with-authenticated-docs.md) – Required if your docs need sign-in
+* [Customizing the Assistant](configuration/customizing-gitbook-assistant.md) – Welcome messages, buttons, and suggestions
+* [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your APIs
+* [API Reference](configuration/reference.md) – All available methods and events
+{% endif %}
 
 ### Extend GitBook Assistant with MCP servers
 
 You can also add external data sources to GitBook Assistant to give it more context and data to pull answers from. You can do this by connecting Assistant to MCP servers for external platforms, such as:
 
-- Your community (Slack, Discord, GitHub Communities etc)
-- Support tools (Intercom etc)
-- Your future product roadmap (GitHub, Linear etc)
-- Docs for external integrations with products
+* Your community (Slack, Discord, GitHub Communities etc)
+* Support tools (Intercom etc)
+* Your future product roadmap (GitHub, Linear etc)
+* Docs for external integrations with products
 
 To add an MCP server to GitBook Assistant, follow these steps:
 
 {% stepper %}
 {% step %}
-
-#### Open your site's settings
+**Open your site's settings**
 
 Navigate to your site dashboard and choose the **Settings** option from the site header. Then choose the **AI & MCP** section from the left-hand menu
 {% endstep %}
 
 {% step %}
-
-#### Add a new server
+**Add a new server**
 
 At the bottom of the page is a table showing all the connected MCP servers. To add a new server, click **Add MCP server**
 {% endstep %}
 
 {% step %}
-
-#### Choose your MCP server
+**Choose your MCP server**
 
 To add your server you'll need to give it a name, add the URL for the server, and configure the HTTP headers that will be sent along with the request to the server when a user submits a query.
 {% endstep %}
