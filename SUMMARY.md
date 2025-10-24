@@ -89,7 +89,7 @@
 * [Setting a custom subdirectory](publishing-documentation/setting-a-custom-subdirectory/README.md)
   * [Configuring a subdirectory with Cloudflare](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-cloudflare.md)
   * [Configuring a subdirectory with Vercel](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel.md)
-  * [Configuring a subdirectory with AWS using CloudFront and Route 53](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel-1.md)
+  * [Configuring a subdirectory with AWS using CloudFront and Route 53](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-aws.md)
 * [Site settings](publishing-documentation/site-settings.md)
 * [Site insights](publishing-documentation/insights.md)
 * [Site redirects](publishing-documentation/site-redirects.md)
