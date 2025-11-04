@@ -98,6 +98,12 @@ This will toggle code wrapping on and off, so long lines of code will wrap to al
 
 Wrapping lines is useful when your code is long and you want to avoid having the viewer scroll back and forth to read it. If you toggle **Wrap code** on, you may also want to show line numbers — this will make it easier to read the code and understand where new lines start.
 
+#### Expandable
+
+This will toggle showing the code in full (when the toggle is off) or a collapsed window of the code which the user can expand (when the toggle is on).
+
+The collapsed view defaults to showing 10 lines of code with an button to expand to show the full code block. If there are less than 10 lines of code, all the content will be shown.
+
 ### Code block actions
 
 As well as the options above, you can also change the language the code block displays, and copy your code instantly.
