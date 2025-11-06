@@ -6,17 +6,7 @@ description: >-
 
 # Customizing the Assistant
 
-After adding the Assistant to your website or app, you can further customize the experience by adding things like a welcome message, actionable buttons to the header, and suggestions to nudge your users with contextual questions.
-
-### Adding a welcome message
-
-To add a welcome message, you can use the `welcomeMessage` key when initializing GitBook Assistant.
-
-```javascript
-window.GitBook("configure", {
-  welcomeMessage: "Welcome to our help center! How can we assist you today?",
-});
-```
+After adding the Assistant to your website or app, you can further customize the experience by adding things like actionable buttons to the header, suggestions to nudge your users with contextual questions, and more.
 
 ### Adding buttons
 
