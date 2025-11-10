@@ -2,7 +2,6 @@
 description: >-
   Choose the embedding method that best fits your tech stack and integration
   requirements
-if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
 # Embedding

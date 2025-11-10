@@ -2,7 +2,6 @@
 description: >-
   Embed GitBook Assistant on sites that require authentication by dynamically
   loading the script after users sign in
-if: visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true
 ---
 
 # Authentication
