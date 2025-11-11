@@ -50,7 +50,7 @@ We will need these values to configure the Okta Integration.
 
 ### Install and configure the Okta integration
 
-Navigate to the Integrations tab in the site you want to publish and locate the Okta integration or navigate directly to this [https://app.gitbook.com/integrations/VA-Okta](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/zq8ynchcecIscc4uulgN/).
+Navigate to the Integrations tab in the site you want to publish and locate the Okta integration.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.21.30 PM.png" alt="A GitBook screenshot showing the site settings page"><figcaption></figcaption></figure>
 
@@ -83,7 +83,7 @@ Okta supports multiple types of claims:
 * **Standard Claims**\
   These are common claims (like `email`, `name`, or `groups`) that may be included by default but often need to be explicitly added to your token configuration for consistent availability.
 * **Custom Claims**\
-  You can define custom claims in Okta using [custom user attributes](https://help.okta.com/oie/en-us/Content/Topics/Directory/custom-user-profile-attributes.htm) or expression-based logic. These allow you to pass highly specific values—like plan tier, account ID, or internal team flags.
+  You can define custom claims in Okta using [custom user attributes](https://help.okta.com/en-us/content/topics/users-groups-profiles/usgp-add-custom-user-attributes.htm) or expression-based logic. These allow you to pass highly specific values—like plan tier, account ID, or internal team flags.
 * **Groups as Claims**\
   You can also pass Okta groups as claims, which is especially useful when defining audience segments like “enterprise users” or “beta testers.” These can be filtered and mapped in your authorization server’s claim configuration.
 
