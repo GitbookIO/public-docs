@@ -95,4 +95,4 @@ To add or customize claims in Okta:
 4. Under the **Claims** tab, add rules to include the desired claims in the token.
 5. Make sure your GitBook site is reading and mapping those claims correctly.
 
-Once claims are being passed into GitBook, follow the steps in [Adapting your content](https://www.gitbook.com/docs/adaptive-content/configure-your-site) to define what content should be shown to whom.
+Once claims are being passed into GitBook, follow the steps in [Adapting your content](../adaptive-content/adapting-your-content.md) to define what content should be shown to whom.
