@@ -4,6 +4,10 @@ description: Configure extra options for your published documentation.
 
 # Extra configuration
 
+You can find the following extra configuration options under `Customize` then clicking on the `Configure` tab:
+
+![Site Customization Extra Configuration](../../.gitbook/assets/site-customization-extra-config.png)
+
 ### Localize user interface
 
 You can select from a list of languages to localize the user interface of your published content. This applies translations to the non-custom areas of the interface.
@@ -34,7 +38,7 @@ Displays an action to copy or view the page as Markdown.
 
 #### Edit on GitHub/GitLab
 
-If your space is connected to a Git repository, you can optionally show a link for your users to contribute to your documentation from your linked repository.
+If your space is [connected to a Git repository](../../integrations/git-sync/bi-directional-git-integration.md), you can optionally show a link for your users to contribute to your documentation from your linked repository.
 
 #### Export PDF
 
