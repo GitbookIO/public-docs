@@ -24,7 +24,7 @@ After configuring SSO on your IdP, you will be able to enter metadata. When the 
 
 <div data-full-width="true">
 
-<img src="../../../.gitbook/assets/SAML.png" alt="">
+<img src="../../../.gitbook/assets/SAML.png" alt="A GitBook screenshot showing SAML provider setup">
 
 </div>
 
@@ -41,7 +41,7 @@ Most SAML 2.0 compliant identity providers require the same information about th
 
 <div data-full-width="true">
 
-<img src="../../../.gitbook/assets/SAML Service Info.png" alt="">
+<img src="../../../.gitbook/assets/SAML Service Info.png" alt="A GitBook screenshot showing SAML service information">
 
 </div>
 

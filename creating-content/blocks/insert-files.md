@@ -34,11 +34,11 @@ You can also add files to your space when you add an [image block](insert-images
 
 ### Renaming a file
 
-To rename a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for the file, and click **Edit**. In the dialog prompt, enter the new name of your file.
+To rename a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the file, and click **Edit**. In the dialog prompt, enter the new name of your file.
 
 ### Deleting a file
 
-To delete a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for the file and click **Delete**. After confirming in the dialog that you’re sure you want to delete the file, your file will be deleted.
+To delete a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the file and click **Delete**. After confirming in the dialog that you’re sure you want to delete the file, your file will be deleted.
 
 {% hint style="warning" %}
 **Note:** Make sure you update any pages that included your deleted file! File blocks that reference a deleted file will show an empty block, or _Could not load image_ error.
@@ -48,7 +48,7 @@ To delete a file, open the **Actions menu** <picture><source srcset="../../.gitb
 
 If you have a file that simply needs updating to a new version, you can replace it. This will swap out the old file and put the new file in its place. Any blocks that previously referred to the old file will then refer to the new file.
 
-To replace a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> for the file and click **Replace**. In the file replacement dialog that appears, select the new file and wait for the upload indicator to complete. Your file will automatically update everywhere it appeared in your space.
+To replace a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the file and click **Replace**. In the file replacement dialog that appears, select the new file and wait for the upload indicator to complete. Your file will automatically update everywhere it appeared in your space.
 
 This can be helpful if, for example, you’ve had a major product redesign and need to update outdated UI screenshots that appear on multiple pages. Replacing the original file would update the screenshot everywhere in your space, saving you time and effort.
 
@@ -57,3 +57,11 @@ This can be helpful if, for example, you’ve had a major product redesign and n
 
 We recommend you do this rather than uploading the image again every time you want to include it, to make it easier to replace images later and to avoid having multiple files with the same name.
 {% endhint %}
+
+### Representation in Markdown
+
+```markdown
+{% file src="https://example.com/example.pdf" %}
+    This is a caption for the example file.
+{% endfile %}
+```

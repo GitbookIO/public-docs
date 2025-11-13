@@ -1,6 +1,6 @@
 ---
-icon: code-branch
 description: Collaborate on content edits through change requests
+icon: code-branch
 ---
 
 # Change requests
@@ -9,11 +9,11 @@ A change request is a copy of your main content. It comes from the simple concep
 
 In a change request, you can edit, update and delete elements of your content, request reviews on your changes, then merge them back into your main version to apply all the changes you made.
 
-<figure><img src="../.gitbook/assets/10_01_25_change_requests.svg" alt=""><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_change_requests.svg" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
 ### Creating a change request
 
-Inside a space where live edits are disabled, click the **Edit** button in the [space header](../resources/gitbook-ui.md#space-header) to start a new change request.
+Inside a space where live edits are disabled, click the **Edit** button in the [space header](../resources/gitbook-ui/#space-header) to start a new change request.
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -21,14 +21,18 @@ Once you’re happy with your changes, you can use the button in the header bar 
 
 ### Preview a change request
 
-You can preview the changes you've made in a change request through the preview button in the [space header](../resources/gitbook-ui.md#space-header). This will switch you to a view with your docs and the proposed changes in a preview window, so you can see your changes in the entire context of your published documentation.
+You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [space header](../resources/gitbook-ui/#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
+
+Below the **Preview** button is a URL for your site preview. Click this and your site preview will open in full in a new tab.&#x20;
+
+When you open a preview URL in a new tab, you will also see [the Preview toolbar](../resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md) at the bottom of the browser window. This toolbar lets you quickly jump back into GitBook to view, edit, or comment on the change request, or open the live version of your site.
 
 {% hint style="info" %}
 You can only preview change requests for spaces added to a [published docs site](../publishing-documentation/publish-a-docs-site/).
 {% endhint %}
 
 {% hint style="warning" %}
-If your content is published using share links or visitor authentication, the preview function won't appear.
+If your content is published using share links or authenticated access, the preview function won't appear.
 {% endhint %}
 
 ### Request a review on a change request
@@ -42,7 +46,7 @@ When you click **Request a review**, the change request’s status will change t
 If your changes don’t require a review, you can merge your changes into the main version directly instead.
 
 {% hint style="info" %}
-If you don’t tag anyone in your review request, everyone with reviewer permissions or higher will get a notification about your request.
+If you don’t tag anyone in your review request, everyone with reviewer permissions will get a notification about your request. If no reviewers are in the space, the next role above reviewer will be notified.
 {% endhint %}
 
 ### Reviewing a change request
@@ -65,6 +69,32 @@ You can switch to the **Changes** tab to check the diff view in any change reque
 ### Merging a change request
 
 Merging a change request will add the change request’s changes into the main branch of content, creating an updated version and a new entry in the space’s [version history](../creating-content/version-control.md#see-the-activity-of-a-specific-draft).
+
+#### Scheduling merges
+
+If you prefer to merge change requests at a scheduled time—for example, to align with your product release cycles—you can use external tools like GitHub Actions or automation platforms such as Zapier, connected through [GitBook’s API](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests#post-spaces-spaceid-change-requests-changerequestid-merge).
+
+As an example, adding this GitHub workflow would merege a change request once a week:
+
+{% code title=".github/workflows/scheduled-gitbook-merge.yml" %}
+```yaml
+name: Scheduled GitBook Merge
+
+on:
+  schedule:
+    - cron: '0 9 * * 3'  # Runs every Wednesday at 09:00 UTC
+
+jobs:
+  merge_changes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge Change Request
+        run: |
+          curl -X POST https://api.gitbook.com/v1/spaces/{space-id}/change-requests/{change-request-id}/merge \
+          -H 'Authorization: Bearer YOUR_API_KEY' \
+          -H 'Content-Type: application/json'
+```
+{% endcode %}
 
 {% hint style="info" %}
 Only [administrators, creators, and reviewers](../account-management/member-management/roles.md) can merge change requests.
@@ -94,4 +124,4 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 If you decide not to merge a change request and want to remove it from the queue, you can archive it.
 
-To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt=""></picture> next to the change request’s title and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
+To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request’s title and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.

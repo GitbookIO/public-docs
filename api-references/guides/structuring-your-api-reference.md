@@ -85,8 +85,7 @@ tags:
     description: |
       Here is the detail of pets.
 
-      {% raw %}
-{% tabs %}
+      {% tabs %}
       {% tab title="Dog" %}
       Here are the dogs
       {% endtab %}
@@ -99,7 +98,6 @@ tags:
       Here are the rabbits
       {% endtab %}
       {% endtabs %}
-{% endraw %}
 ```
 {% endcode %}
 
@@ -113,10 +111,35 @@ You can highlight a schema in a GitBook description by using GitBook markdown. H
 tags:
   - name: pet
       description: |
-          {% raw %}
-{% openapi-schemas spec="petstore" schemas="Pet" grouped="false" %}
+          {% openapi-schemas spec="petstore" schemas="Pet" grouped="false" %}
               The Pet object
           {% endopenapi-schemas %}
-{% endraw %}
+```
+{% endcode %}
+
+### Document a webhook endpoint
+
+GitBook also supports documenting webhook endpoints when using OpenAPI 3.1.
+
+You can define your webhooks directly in your OpenAPI file using the `webhooks` field, which works similarly to `paths` for regular API endpoints:
+
+{% code title="openapi.yaml" %}
+```yaml
+---
+openapi: 3.1.0 # Webhooks are available starting from OpenAPI 3.1
+
+webhooks:
+  newPet:
+    post:
+      summary: New pet event
+      description: Information about a new pet in the system
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Pet"
+      responses:
+        "200":
+          description: Return a 200 status to indicate that the data was received successfully
 ```
 {% endcode %}

@@ -6,7 +6,7 @@ description: Customize icons, colors, themes and more.
 
 ### Title, icon and logo
 
-<figure><img src="../../.gitbook/assets/21_04_25_customization_title.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21_04_25_customization_title.svg" alt="A GitBook screenshot showing title, icon and logo customization"><figcaption></figcaption></figure>
 
 **Title**
 
@@ -25,7 +25,7 @@ This setting will only affect the icon that displays _in the published documenta
 You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and you can upload two versions: one for light mode, and one for dark mode.
 
 {% hint style="info" %}
-### What’s the difference between the icon and logo options?
+#### What’s the difference between the icon and logo options?
 
 The icon setting lets you upload a small, 132×132 px image, which will appear _alongside_ your space title and function as your site’s favicon. The custom logo option lets you upload a larger image (we recommend at least 600 px wide), which will completely replace any icon and title you’ve set.
 {% endhint %}
@@ -34,31 +34,31 @@ The icon setting lets you upload a small, 132×132 px image, which will appear _
 
 Themes let you customize the color scheme of your published content for both light and dark mode. There are four themes to choose from. The colors of your site will be directly impacted by the **primary color** and **tint** that you choose. These two selections affect various parts of the interface and can completely change the look and feel of your site.
 
-<figure><img src="../../.gitbook/assets/21_04_25_customization_themes (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21_04_25_customization_themes (1).svg" alt="A GitBook screenshot showing theme options"><figcaption></figcaption></figure>
 
 #### Clean
 
 A modern theme featuring translucency and minimally styled elements. Your primary color (or tint) affects links and other highlighted interface elements.\
-&#xNAN;_&#x43;lean is available for all sites and is the default theme._
+\&#xNAN;_Clean is available for all sites and is the default theme._
 
 #### Muted
 
 A sophisticated theme with decreased contrast between elements. The site background is more pronounced and blends in with the foreground, and some elements feature an inverted look — all based on your primary color (or tint).\
-&#xNAN;_&#x4D;uted is available for all sites._
+\&#xNAN;_Muted is available for all sites._
 
 #### Bold <mark style="background-color:purple;">**(Premium & Ultimate)**</mark>
 
 A high‑impact theme with prominent colors and strong contrasts. Your primary color (or tint) will be used for the header of the site, and other highlighted elements like icons are colored along with it.\
-&#xNAN;_&#x42;old is only available for Premium or Ultimate sites._
+\&#xNAN;_Bold is only available for Premium or Ultimate sites._
 
 #### Gradient <mark style="background-color:purple;">**(Premium & Ultimate)**</mark>
 
 A trendsetting theme featuring a gradient background and splashes of color. The gradient and highlighted elements will be colored by your primary color (or tint).\
-&#xNAN;_&#x47;radient is only available for Premium or Ultimate sites._
+\&#xNAN;_Gradient is only available for Premium or Ultimate sites._
 
 ### Colors
 
-<figure><img src="../../.gitbook/assets/21_04_25_customization_colors.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21_04_25_customization_colors.svg" alt="A GitBook screenshot showing color customization"><figcaption></figcaption></figure>
 
 #### Primary color
 
@@ -86,7 +86,7 @@ _Note: to change the theme within the GitBook app, go to your Settings menu at t
 
 ### Site styles
 
-<figure><img src="../../.gitbook/assets/21_04_25_customization_site_styles.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21_04_25_customization_site_styles.svg" alt="A GitBook screenshot showing site style settings"><figcaption></figcaption></figure>
 
 **Font family** <mark style="background-color:purple;">**(Premium & Ultimate)**</mark>
 
@@ -94,7 +94,7 @@ Choose a font family for your published content from a curated list of popular o
 
 **Custom fonts** <mark style="background-color:purple;">**(Ultimate)**</mark>
 
-Upload your own fonts to align your published content with your brand’s style guide. To upload a font, click **Add custom font** and follow the instructions. You must upload a font file for both regular and bold weights.&#x20;
+Upload your own fonts to align your published content with your brand’s style guide. To upload a font, click **Add custom font** and follow the instructions. You must upload a font file for both regular and bold weights.
 
 GitBook currently supports `.woff` and `.woff2`. For other formats, please contact [support@gitbook.com](mailto:support@gitbook.com).
 
@@ -115,7 +115,7 @@ Choose between two link designs:
 
 ### Sidebar styles
 
-<figure><img src="../../.gitbook/assets/21_04_25_customization_sidebar (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/21_04_25_customization_sidebar (1).svg" alt="A GitBook screenshot showing sidebar style options"><figcaption></figcaption></figure>
 
 **Background style**
 

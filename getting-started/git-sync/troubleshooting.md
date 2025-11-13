@@ -2,9 +2,22 @@
 
 ## I have a GitHub sync error <a href="#i-have-a-github-sync-error" id="i-have-a-github-sync-error"></a>
 
-In case of errors, make sure that:‌
+### Be sure to only create readme files in your repo
 
-* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`). This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
+When Git Sync is enabled, be careful not to create readme files through the GitBook UI. Creating readme files through the GitBook UI:
+
+* Creates duplicate README files in your repository
+* Causes rendering conflicts between GitBook and GitHub
+* May break builds and deployment processes
+* Results in unpredictable file precedence
+
+This includes files named README.md, readme.md, Readme.md, and README (without extension). Instead, remember to manage your README file directly in your git repository.
+
+### Still facing errors?
+
+Make sure that:‌
+
+* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`) that was created directly in your git repository. This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
 * If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
 
 ## ​GitBook is not using my `docs` folder <a href="#gitbook-is-not-using-my-docs-folder" id="gitbook-is-not-using-my-docs-folder"></a>
@@ -14,6 +27,14 @@ By default, GitBook uses the root of the repository as a starting point. A speci
 ## GitBook is creating new markdown files <a href="#gitbook-is-creating-new-markdown-files" id="gitbook-is-creating-new-markdown-files"></a>
 
 **When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overrite files that existed in your repository before.
+
+## Redirects aren't working correctly
+
+The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.
+
+When setting redirects, do not add any leading slashes. For example, trying to redirect to `./misc/support.md` will not work.
+
+It's also important to consider that as long as a page exists for a path, GitBook won’t be looking for a possible redirect. So if you're setting up a redirect for an old page to a new one, you will need to remove the old page in order for the redirect to work.
 
 ## ​My repository is not listed <a href="#my-repository-is-not-listed" id="my-repository-is-not-listed"></a>
 
@@ -41,15 +62,15 @@ If after updating your repository by adding or modifying a markdown file, you do
 
 This could either be because you created the file manually, or because you made an edit on GitBook and the GitBook to Git export phase of the sync created it for you.
 
-The content of this file mirrors your [table of contents](../../resources/gitbook-ui.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
+The content of this file mirrors your [table of contents](../../resources/gitbook-ui/#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
-If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](https://docs.gitbook.com/help-center/support/how-do-i-contact-support) for assistance.
+If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) for assistance.
 
 ## GitHub preview is not showing
 
-If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.&#x20;
+If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.
 
-You should have received a notification requesting you to accept an updated permission request to enable read-only access to PRs.&#x20;
+You should have received a notification requesting you to accept an updated permission request to enable read-only access to PRs.
 
 In case you did not receive the notification, to troubleshoot you need to update to the new version:
 
