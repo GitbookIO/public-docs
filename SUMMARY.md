@@ -137,7 +137,6 @@
 ## Integrations
 
 * [Install and manage integrations](integrations/install-an-integration.md)
-* [GitHub Copilot](integrations/github-copilot.md)
 * [Slack (beta)](integrations/slack.md)
 * [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
 
