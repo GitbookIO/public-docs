@@ -1,15 +1,15 @@
 ---
-icon: globe
 description: Publish your documentation to the internet as a docs site
+icon: globe
 ---
 
 # Publish a docs site
 
-Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.&#x20;
+Once you’ve finished writing, editing, or importing your content, you can publish your work to the web as a docs site. Your docs will be published on the web and available to your selected audience.
 
-The content on your site comes from [spaces](https://docs.gitbook.com/content-editor/editor/content-structure/what-is-a-space) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
+The content on your site comes from [spaces](../../creating-content/content-structure/space.md) in your organization. When you create a new docs site, you can create a new space, or link an existing one.
 
-<figure><img src="../../.gitbook/assets/10_01_25_docs_dashboard.svg" alt=""><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/18_07_25_publishing-documentation-publish-docs.svg" alt="A GitBook screenshot showing the docs sites homepage"><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
 
 ### Create a docs site
 
@@ -25,7 +25,7 @@ By default, your site will be published publicly. You can change your site’s v
 
 There are three primary options to choose from when publishing your site:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Public</strong></td><td>Publish your docs publicly to the web.</td><td></td><td><a href="../../.gitbook/assets/card_publish_public.svg">card_publish_public.svg</a></td><td><a href="public-publishing.md">public-publishing.md</a></td></tr><tr><td><strong>Privately with share links</strong></td><td>Publish your docs with private share links.</td><td></td><td><a href="../../.gitbook/assets/card_publish_privately.svg">card_publish_privately.svg</a></td><td><a href="share-links.md">share-links.md</a></td></tr><tr><td><strong>Visitor Authentication</strong></td><td>Protect your published docs behind an OAuth sign in.</td><td></td><td><a href="../../.gitbook/assets/card_publish_visitor_authentication.svg">card_publish_visitor_authentication.svg</a></td><td><a href="../visitor-authentication/">visitor-authentication</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Public</strong></td><td>Publish your docs publicly to the web.</td><td></td><td><a href="../../.gitbook/assets/card_publish_public.svg">card_publish_public.svg</a></td><td><a href="public-publishing.md">public-publishing.md</a></td></tr><tr><td><strong>Privately with share links</strong></td><td>Publish your docs with private share links.</td><td></td><td><a href="../../.gitbook/assets/card_publish_privately.svg">card_publish_privately.svg</a></td><td><a href="share-links.md">share-links.md</a></td></tr><tr><td><strong>Authenticated Access</strong></td><td>Protect your published docs behind an OAuth sign in.</td><td></td><td><a href="../../.gitbook/assets/card_publish_authenticated_access.svg">card_publish_authenticated_access.svg</a></td><td><a href="../authenticated-access/">authenticated-access</a></td></tr></tbody></table>
 
 ### Delete or unpublish a docs site
 
@@ -35,8 +35,8 @@ To delete a docs site, you’ll need to open your site’s dashboard, then open 
 
 Docs sites inherit the editing permissions from the [spaces](../../creating-content/content-structure/space.md) linked to them.
 
-You can view all the permissions set for users with access to the docs site from the permissions modal from the docs site’s **Overview** page. You’ll also see which space the user’s permission was inherited from. If you’d like to change the permission settings, open the space, then click **Share**. Here you can edit the permissions from amodal.
+You can view all the permissions set for users with access to the docs site from the permissions modal from the docs site’s **Overview** page. You’ll also see which space the user’s permission was inherited from. If you’d like to change the permission settings, open the space, then click **Share**. Here you can edit the permissions from a modal.
 
 Users with **Administrator** or **Creator** permissions on _any_ space linked to a specific docs site will have full access permissions for the site. This means that they’ll be able to control any of the publishing and customization settings.
 
-Users with **Reviewer**, **Editor**, **Commenter**, or **Reader** permissions on any space linked to a specific site will get read-only permissions. This means they will see the docs site in your organization, but won’t be able to access any of its settings.&#x20;
+Users with **Reviewer**, **Editor**, **Commenter**, or **Reader** permissions on any space linked to a specific site will get read-only permissions. This means they will see the docs site in your organization, but won’t be able to access any of its settings.

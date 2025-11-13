@@ -1,14 +1,15 @@
 ---
-icon: scissors
 description: >-
   Add snippets of knowledge from your favorite tools, and GitBook AI will turn
   them into something useful
+noIndex: true
+icon: scissors
 ---
 
 # Snippets (beta)
 
 {% hint style="warning" %}
-The Snippets feature is no longer maintained in GitBook and is subject to change. We recommend to structure your content a [space](../creating-content/content-structure/space.md) instead.
+The Snippets feature is no longer maintained in GitBook and is subject to change. We recommend to structure your content in a [space](../creating-content/content-structure/space.md) instead.
 {% endhint %}
 
 {% hint style="info" %}
@@ -19,7 +20,7 @@ In GitBook, you can capture unstructured information using [integrations](broken
 
 GitBook will index all of your snippets alongside the rest of your content and can reference them when you or your team [searches for information](../creating-content/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
 
-<figure><img src="broken-reference" alt=""><figcaption><p>The <strong>Snippets</strong> page holds all of your snippets in one place and makes it easy to connect integrations so you can add more.</p></figcaption></figure>
+<figure><img src="broken-reference" alt="A GitBook screenshot showing the Snippets page"><figcaption><p>The <strong>Snippets</strong> page holds all of your snippets in one place and makes it easy to connect integrations so you can add more.</p></figcaption></figure>
 
 ### Product Demo
 
@@ -45,7 +46,7 @@ You can create a snippet manually from the **Snippets** page, by clicking the **
 
 You can edit a snippet you’ve captured by clicking to open it from the **Snippets** page. This will open an editor view, where you can edit any information that might be wrong, or add additional context for things that might be missing.
 
-<figure><img src="broken-reference" alt=""><figcaption><p>You can edit a snippet directly in the editor by opening it.</p></figcaption></figure>
+<figure><img src="broken-reference" alt="A GitBook screenshot showing a snippet being edited in the editor"><figcaption><p>You can edit a snippet directly in the editor by opening it.</p></figcaption></figure>
 
 ### Share a snippet
 

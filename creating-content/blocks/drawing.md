@@ -12,7 +12,7 @@ GitBook stores drawings as special SVG files in the space. Those files have an e
 
 ### Example of a drawing block
 
-<img src="../../.gitbook/assets/diagram.excalidraw.svg" alt="" class="gitbook-drawing">
+<img src="../../.gitbook/assets/diagram.excalidraw.svg" alt="A diagram drawn in GitBook" class="gitbook-drawing">
 
 ### Draw with GitBook AI
 
@@ -23,3 +23,9 @@ When using drawing block, you can ask GitBook AI to generate an illustration by 
 Once GitBook AI has finished the drawing, you can double-click to open the full drawing palette and edit it however you like.
 
 When editing a drawing, click the **Use AI to generate** button to bring up GitBook AI’s prompt editor again and generate a new drawing.
+
+### Representation in Markdown
+
+```markdown
+<img src="https://example.com/file.svg" alt="Example diagram description" class="gitbook-drawing">
+```

@@ -4,9 +4,9 @@ description: Add heading blocks to a page to organize your content and improve S
 
 # Headings
 
-Headings help give your documents structure — and using keywords in headings will also help search engines understand that structure, which can help your page rank higher in search results.&#x20;
+Headings help give your documents structure — and using keywords in headings will also help search engines understand that structure, which can help your page rank higher in search results.
 
-GitBook offers three levels of headings. Heading levels 1 (H1) and 2 (H2) will appear in the [page outline](../../resources/gitbook-ui.md#page-outline).
+GitBook offers three levels of headings. Heading levels 1 (H1) and 2 (H2) will appear in the [page outline](../../resources/gitbook-ui/#page-outline).
 
 ### Anchor links
 
@@ -22,7 +22,25 @@ If you want to link to a particular anchor from a page within your GitBook space
 
 By default, the anchor link will be identical to the text in your header. If you plan to link to that URL outside of GitBook, changing the header in future will break the anchor link. The link will then take visitors to the top of the page, rather than the anchor location.
 
-To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> for the header, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the header itself.
+To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> for the header, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the header itself.
+
+### Representation in Markdown
+
+GitBook generates SEO optimized pages, meaning page titles in GitBook are automatically represented in markdown as a first level heading:
+
+```markdown
+# I'm a page title
+```
+
+This means that if you [sync your content with Git](../../getting-started/git-sync/), page headers added through the editor will be represented as one level lower:
+
+{% code overflow="wrap" %}
+```markdown
+## My heading 1
+### My heading 2
+#### My heading 3
+```
+{% endcode %}
 
 ### Heading examples <a href="#example-of-a-heading" id="example-of-a-heading"></a>
 
@@ -32,12 +50,3 @@ To avoid this, you can manually set the anchor link by opening the **Options men
 
 #### My heading 3
 
-### Representation in Markdown
-
-{% code overflow="wrap" %}
-```markdown
-# My heading 1
-## My heading 2
-### My heading 3
-```
-{% endcode %}

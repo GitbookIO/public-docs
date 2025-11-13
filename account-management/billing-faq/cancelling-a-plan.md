@@ -9,7 +9,7 @@ Only administrators can access an organization’s billing settings to cancel a 
 
 If your mind is made up, here’s how to cancel your plan:
 
-1. Go to the organization’s settings page. You can click on the settings <img src="../../.gitbook/assets/settings.png" alt="" data-size="line"> icon at the bottom of the sidebar and then click on **\[organization name] settings** to get there.
+1. Go to the organization’s settings page. You can click on the settings <img src="../../.gitbook/assets/settings.png" alt="The settings icon in GitBook" data-size="line"> icon at the bottom of the sidebar and then click on **\[organization name] settings** to get there.
 2. Click on the **billing** tab. This will take you to a billing page hosted on Stripe, our payment processor.
 
    <div data-full-width="true">

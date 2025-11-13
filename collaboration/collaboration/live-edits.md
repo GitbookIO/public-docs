@@ -26,7 +26,7 @@ You can lock or unlock space for live edits by selecting ’Unlock live edits’
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Unlock live edits.png" alt=""><figcaption><p>Unlock live edits from the space actions menu</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Unlock live edits.png" alt="A GitBook screenshot showing the Unlock live edits option" ><figcaption><p>Unlock live edits from the space actions menu</p></figcaption></figure>
 
 </div>
 

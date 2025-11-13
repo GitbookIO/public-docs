@@ -6,7 +6,7 @@ description: Learn about editing with change requests
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/Change requests collab.png" alt=""><figcaption><p>The change requests panel</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Change requests collab.png" alt="A GitBook screenshot showing the change requests panel" ><figcaption><p>The change requests panel</p></figcaption></figure>
 
 </div>
 
@@ -26,7 +26,7 @@ In a space that is **locked** for live edits, hit the ’Edit’ button in the s
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/start a change request.png" alt=""><figcaption><p>Click the "Edit" button in the top right corner to start a change request</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/start a change request.png" alt="A GitBook screenshot showing how to start a change request" ><figcaption><p>Click the "Edit" button in the top right corner to start a change request</p></figcaption></figure>
 
 </div>
 
@@ -42,7 +42,7 @@ Once you’re happy with your changes, you can **submit** the change request.
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/submit for review.png" alt=""><figcaption><p>Submit your change request for review in the bottom right corner of the editor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/submit for review.png" alt="A GitBook screenshot showing the submit for review button" ><figcaption><p>Submit your change request for review in the bottom right corner of the editor</p></figcaption></figure>
 
 </div>
 

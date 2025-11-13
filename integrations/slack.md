@@ -1,25 +1,12 @@
 ---
-icon: slack
 description: >-
   The GitBook integration for Slack lets you curate knowledge into your
   knowledge base, right from the source
 hidden: true
+noIndex: true
+icon: slack
 cover: broken-reference
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Slack (beta)
