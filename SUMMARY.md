@@ -43,14 +43,21 @@
   * [Drawings](creating-content/blocks/drawing.md)
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
+  * [Columns](creating-content/blocks/columns.md)
+  * [Conditional content](creating-content/blocks/conditional-content.md)
+  * [Buttons](https://gitbook.com/docs/creating-content/formatting/inline#buttons)
+  * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
+  * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
+* [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
-* [Broken links](creating-content/broken-links.md)
-* [Searching content](creating-content/searching-your-content/README.md)
+* [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
 * [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
+* [Translations](creating-content/translations.md)
+* [Broken links](creating-content/broken-links.md)
 
 ## API References
 
@@ -61,12 +68,10 @@
   * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
   * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
   * [Managing API operations](api-references/guides/managing-api-operations.md)
+  * [Configuring the “Test it” button](api-references/guides/configuring-the-test-it-button.md)
   * [Describing enums](api-references/guides/describing-enums.md)
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
-
-***
-
-* [Extensions reference](extensions-reference.md)
+* [Extensions reference](api-references/extensions-reference.md)
 
 ## Publishing Documentation
 
@@ -84,25 +89,39 @@
 * [Setting a custom subdirectory](publishing-documentation/setting-a-custom-subdirectory/README.md)
   * [Configuring a subdirectory with Cloudflare](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-cloudflare.md)
   * [Configuring a subdirectory with Vercel](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel.md)
+  * [Configuring a subdirectory with AWS using CloudFront and Route 53](publishing-documentation/setting-a-custom-subdirectory/configuring-a-subdirectory-with-aws.md)
 * [Site settings](publishing-documentation/site-settings.md)
 * [Site insights](publishing-documentation/insights.md)
 * [Site redirects](publishing-documentation/site-redirects.md)
-* [Visitor authentication](publishing-documentation/visitor-authentication/README.md)
-  * [Enabling visitor authentication](publishing-documentation/visitor-authentication/enabling-visitor-authentication.md)
-  * [Setting up Auth0](publishing-documentation/visitor-authentication/setting-up-auth0.md)
-  * [Setting up Azure AD](publishing-documentation/visitor-authentication/setting-up-azure-ad.md)
-  * [Setting up AWS Cognito](publishing-documentation/visitor-authentication/setting-up-aws-cognito.md)
-  * [Setting up Okta](publishing-documentation/visitor-authentication/setting-up-okta.md)
-  * [Setting up OIDC](publishing-documentation/visitor-authentication/setting-up-oidc.md)
-  * [Setting up a custom backend](publishing-documentation/visitor-authentication/setting-up-a-custom-backend.md)
+* [Authenticated access](publishing-documentation/authenticated-access/README.md)
+  * [Enabling authenticated access](publishing-documentation/authenticated-access/enabling-authenticated-access.md)
+  * [Setting up Auth0](publishing-documentation/authenticated-access/setting-up-auth0.md)
+  * [Setting up Azure AD](publishing-documentation/authenticated-access/setting-up-azure-ad.md)
+  * [Setting up AWS Cognito](publishing-documentation/authenticated-access/setting-up-aws-cognito.md)
+  * [Setting up Okta](publishing-documentation/authenticated-access/setting-up-okta.md)
+  * [Setting up OIDC](publishing-documentation/authenticated-access/setting-up-oidc.md)
+  * [Setting up a custom backend](publishing-documentation/authenticated-access/setting-up-a-custom-backend.md)
 * [Adaptive content](publishing-documentation/adaptive-content/README.md)
-  * [Enabling adaptive content](publishing-documentation/adaptive-content/enabling-adaptive-content.md)
+  * [Enabling adaptive content](publishing-documentation/adaptive-content/enabling-adaptive-content/README.md)
+    * [Cookies](publishing-documentation/adaptive-content/enabling-adaptive-content/cookies.md)
+    * [URL](publishing-documentation/adaptive-content/enabling-adaptive-content/url.md)
+    * [Feature flags](publishing-documentation/adaptive-content/enabling-adaptive-content/feature-flags.md)
+    * [Authenticated access](publishing-documentation/adaptive-content/enabling-adaptive-content/authenticated-access.md)
   * [Adapting your content](publishing-documentation/adaptive-content/adapting-your-content.md)
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
-
-***
-
-* [LLM-ready docs](llm-ready-docs.md)
+* [AI Search](publishing-documentation/ai-search.md)
+* [GitBook Assistant](publishing-documentation/gitbook-ai-assistant/README.md)
+  * [Embedding](publishing-documentation/gitbook-ai-assistant/embedding/README.md)
+    * [Script tag](publishing-documentation/gitbook-ai-assistant/embedding/script.md)
+    * [Node.js/NPM](publishing-documentation/gitbook-ai-assistant/embedding/nodejs.md)
+    * [React](publishing-documentation/gitbook-ai-assistant/embedding/react.md)
+  * [Authentication](publishing-documentation/gitbook-ai-assistant/authentication/using-with-authenticated-docs.md)
+  * [Configuration](publishing-documentation/gitbook-ai-assistant/configuration/README.md)
+    * [Customizing the Assistant](publishing-documentation/gitbook-ai-assistant/configuration/customizing-gitbook-assistant.md)
+    * [Creating custom tools](publishing-documentation/gitbook-ai-assistant/configuration/creating-custom-tools.md)
+    * [Reference](publishing-documentation/gitbook-ai-assistant/configuration/reference.md)
+* [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
+* [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
 ## Collaboration
 
@@ -111,6 +130,7 @@
 * [AI change requests](collaboration/ai-change-requests.md)
 * [PDF export](collaboration/pdf-export.md)
 * [Inviting your team](collaboration/share.md)
+* [Merge rules](collaboration/merge-rules.md)
 * [Comments](collaboration/comments.md)
 * [Notifications](collaboration/notifications.md)
 
@@ -124,10 +144,10 @@
 ## Account management
 
 * [Plans](account-management/plans/README.md)
-  * [Legacy pricing](account-management/plans/legacy-plans.md)
-  * [Sponsored site plan](account-management/plans/sponsored-site-plan.md)
-  * [Non-profit plan](account-management/plans/apply-for-the-non-profit-open-source-plan.md)
+  * [Community plan](account-management/plans/community/README.md)
+    * [Sponsored site plan](account-management/plans/community/sponsored-site-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
+  * [Legacy pricing](account-management/plans/legacy-plans.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-settings.md)
@@ -146,6 +166,7 @@
 
 ## Resources
 
-* [GitBook UI](resources/gitbook-ui.md)
+* [GitBook UI](resources/gitbook-ui/README.md)
+  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)

@@ -1,5 +1,6 @@
 ---
 description: Host your documentation with a /docs subdirectory using Vercel
+icon: triangle
 ---
 
 # Configuring a subdirectory with Vercel
@@ -10,11 +11,11 @@ description: Host your documentation with a /docs subdirectory using Vercel
 {% step %}
 ### Configuring your GitBook site
 
-In your GitBook instance, click on your docs site name in the sidebar, then **Manage site**, then **Domain and redirects**. Under ‘Subdirectory’, click **Set up a subdirectory**.
+In your GitBook organization, click on your docs site name in the sidebar, then **Manage site**, then **Domain and redirects**. Under ‘Subdirectory’, click **Set up a subdirectory**.
 
 Enter the URL where you would like to host your docs. Then specify the subdirectory for docs access, e.g. `tomatopy.pizza/docs`, and click **Configure**.
 
-Under **Additional configuration**, you will now see a proxy URL. You'll use this in the next step when configuring your Vercel settings. Copy it to your clipboard.
+Under **Additional configuration**, you will now see a proxy URL. You’ll use this in the next step when configuring your Vercel settings. Copy it to your clipboard.
 {% endstep %}
 
 {% step %}

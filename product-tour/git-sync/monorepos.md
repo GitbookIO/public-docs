@@ -6,7 +6,7 @@ GitBook can synchronize multiple directories from the same repository with multi
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/monorepo.png" alt=""><figcaption><p>Monorepo preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/monorepo.png" alt="A GitBook screenshot showing a monorepo preview" ><figcaption><p>Monorepo preview</p></figcaption></figure>
 
 </div>
 

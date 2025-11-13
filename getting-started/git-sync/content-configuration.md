@@ -50,7 +50,11 @@ structure:
 ```
 {% endcode %}
 
-### ​Summary‌ <a href="#summary" id="summary"></a>
+{% hint style="warning" %}
+When Git Sync is enabled, **remember not to create or modify readme files** through GitBook's UI. The readme file should be managed exclusively in your GitHub/GitLab repository to avoid conflicts and duplication issues.
+{% endhint %}
+
+### Summary‌ <a href="#summary" id="summary"></a>
 
 The `summary` file is a Markdown file (`.md`) that should have the following structure:
 
@@ -101,18 +105,9 @@ redirects:
 Redirects you define in a space’s configuration file are scoped to the corresponding space. We recommend creating [site redirects](../../publishing-documentation/site-redirects.md) for most cases as they apply to the whole site, across spaces.
 {% endhint %}
 
-#### Restructuring your content in GitBook
-
-When moving your content within GitBook, most URLs should work as expected depending on complexity of the change. You can use our Broken Links feature to scan your space to find which links are broken, if any.
-
 {% hint style="warning" %}
 With Git, when a file is moved many times, the file is removed and a new one is created. This makes it impossible for GitBook to know that a folder has been renamed, for example. Make sure to double-check and add redirects where needed.
 {% endhint %}
 
-### Troubleshooting
 
-The YAML file needs to be correctly formatted for the redirects to work. Errors such as incorrect indentation or whitespace can result in your redirects not working. [Validating your YAML file](https://www.yamllint.com/) can ensure that the redirects will work smoothly.
 
-When setting redirects, do not add any leading slashes. For example, trying to redirect to `./misc/support.md` will not work.
-
-It's also important to consider that as long as a page exists for a path, GitBook won’t be looking for a possible redirect. So if you're setting up a redirect for an old page to a new one, you will need to remove the old page in order for the redirect to work.

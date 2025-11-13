@@ -22,7 +22,5 @@ You can only use snippet blocks for internal pages. If you add a snippet block t
 ### Representation in Markdown
 
 ```
-{% raw %}
 {% content-ref url="./" %} . {% endcontent-ref %}
-{% endraw %}
 ```

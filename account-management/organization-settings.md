@@ -6,7 +6,7 @@ icon: sitemap
 
 View and manage the settings for your GitBook organization. These include member management, sign-in methods, integrations, billing and plans.
 
-<figure><img src="../.gitbook/assets/10_01_25_organization_settings.svg" alt=""><figcaption><p>Your organization settings page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_organization_settings.svg" alt="A GitBook screenshot showing the organization settings page"><figcaption><p>Your organization settings page.</p></figcaption></figure>
 
 ### How to access the settings for an organization
 
@@ -31,13 +31,13 @@ Each published GitBook space that lives within your organization’s library wil
 1. `[something].gitbook.com` (this is the GitBook subdomain) **or** your own custom subdomain
 2. `/[spaceURL]` (this is set within the settings for the space itself)
 
-You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.&#x20;
+You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.
 
-&#x20;Note: GitBook subdomains are a legacy feature, and you may not have access to change your subdomain at the time of reading this doc. Please refer to [custom domain setup](../publishing-documentation/custom-domain.md) and [site sections](../publishing-documentation/site-structure/site-sections.md) to learn more about structuring your docs with custom URLs.
+Note: GitBook subdomains are a legacy feature, and you may not have access to change your subdomain at the time of reading this doc. Please refer to [custom domain setup](../publishing-documentation/custom-domain.md) and [site sections](../publishing-documentation/site-structure/site-sections.md) to learn more about structuring your docs with custom URLs.
 
 **Actions**
 
-From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](https://docs.gitbook.com/getting-started/organizing-content/what-is-a-space#moving-a-space) them to another library.
+From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](../creating-content/content-structure/space.md#move-a-space) them to another library.
 
 </details>
 
@@ -79,18 +79,12 @@ You can check which integrations are installed for your organization and [instal
 
 <details>
 
-<summary>Plans</summary>
+<summary>Billing</summary>
 
-From this page you can view your current plan and switch from one plan to another. The toggle at the top of the page enables you to switch between viewing the prices for our plans paid yearly (with 2 months free!) or monthly, and you can then use the upgrade/downgrade button under the name of each plan to select your new plan.
+From this page you can view your current plan and switch from one plan to another. The toggle at the top of the page enables you to switch between viewing our annual prices (2 months free) or monthly, and you can then use the upgrade/downgrade button under the name of each plan to select your new plan.
 
 Please see our [billing policy](plans/billing-policy.md) for information about how charges are calculated when you make a change during the middle of a billing period.
 
-</details>
-
-<details>
-
-<summary>Billing</summary>
-
-The billing tab takes you to our payment provider, Stripe. On their website you can securely manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
+The Manage Billing button takes you to our payment provider, Stripe. Here you can securely manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
 
 </details>

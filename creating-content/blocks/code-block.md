@@ -6,7 +6,7 @@ description: >-
 
 # Code blocks
 
-You can add code to your GitBook pages using code blocks.&#x20;
+You can add code to your GitBook pages using code blocks.
 
 When you add a code block, you can choose to [set the syntax](code-block.md#set-syntax...), [show line numbers](code-block.md#with-line-numbers), [show a caption](code-block.md#with-caption), and [wrap the lines](code-block.md#wrap-code). It’s also easy to [copy the contents of a code block to the clipboard](code-block.md#copying-the-code), so you can use it elsewhere
 
@@ -59,12 +59,12 @@ greeting.("Anna")
 {% endtabs %}
 
 {% hint style="info" %}
-You can make code blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> next to the block and choosing **Full width**.
+You can make code blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> next to the block and choosing **Full width**.
 {% endhint %}
 
 ### Code block options <a href="#options" id="options"></a>
 
-When you click on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> next to the code block, or the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt=""></picture> in the block itself, you’ll see a number of options you can set.
+When you click on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> next to the code block, or the **Actions menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the block itself, you’ll see a number of options you can set.
 
 #### Set syntax… <a href="#set-syntax" id="set-syntax"></a>
 
@@ -88,7 +88,7 @@ Showing line numbers is useful when the code represents the contents of a file a
 
 #### With caption
 
-This will toggle a caption that sits at the top of the block, above your lines of code.&#x20;
+This will toggle a caption that sits at the top of the block, above your lines of code.
 
 The caption is often the name of a file as shown in [our example above](code-block.md#example-of-a-code-block), but you can also use it as a title, description, or anything else you’d like.
 
@@ -97,6 +97,12 @@ The caption is often the name of a file as shown in [our example above](code-blo
 This will toggle code wrapping on and off, so long lines of code will wrap to all be visible on the page at once.
 
 Wrapping lines is useful when your code is long and you want to avoid having the viewer scroll back and forth to read it. If you toggle **Wrap code** on, you may also want to show line numbers — this will make it easier to read the code and understand where new lines start.
+
+#### Expandable
+
+This will toggle showing the code in full (when the toggle is off) or a collapsed window of the code which the user can expand (when the toggle is on).
+
+The collapsed view defaults to showing 10 lines of code with an button to expand to show the full code block. If there are less than 10 lines of code, all the content will be shown.
 
 ### Code block actions
 
@@ -109,7 +115,6 @@ Hover over a code block and a number of icons will appear. Click the middle icon
 ### Representation in Markdown
 
 ````markdown
-{% raw %}
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 
 ```javascript
@@ -121,5 +126,4 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
 
 {% endcode %}
-{% endraw %}
 ````

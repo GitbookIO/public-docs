@@ -40,7 +40,7 @@ Then, click on the GitBook AI tab. You’ll see a number of suggested questions 
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/search-lens-tab.png" alt=""><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/search-lens-tab.png" alt="A GitBook screenshot showing the Ask or search bar" ><figcaption><p>Ask a question with GitBook AI.</p></figcaption></figure>
 
 </div>
 
@@ -48,7 +48,7 @@ For this example, lets try: "What makes change requests a powerful GitBook featu
 
 <div data-full-width="true">
 
-<figure><img src="../../.gitbook/assets/search-lens-answer.png" alt=""><figcaption><p>GitBook AI gives you a semantic answer to your question.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/search-lens-answer.png" alt="A GitBook screenshot showing a GitBook AI answer" ><figcaption><p>GitBook AI gives you a semantic answer to your question.</p></figcaption></figure>
 
 </div>
 

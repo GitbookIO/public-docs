@@ -1,6 +1,6 @@
 ---
-icon: comment
 description: Ask questions to your team or receive feedback on the content you create
+icon: comment
 ---
 
 # Comments
@@ -9,11 +9,15 @@ Comments allow you to provide feedback around specific pieces of content — wit
 
 ### Add a comment <a href="#comment-within-your-content" id="comment-within-your-content"></a>
 
-You can open the comments panel by clicking on the **Comments** button <picture><source srcset="../.gitbook/assets/comment_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/comment_icon_light.svg" alt=""></picture> in the [space header](../resources/gitbook-ui.md#space-header).
+You can open the comments panel by clicking on the **Comments** button <picture><source srcset="../.gitbook/assets/comment_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/comment_icon_light.svg" alt="The Comments button icon in GitBook"></picture> in the [space header](../resources/gitbook-ui/#space-header).
 
 Adding a comment here will attach a comment to the entire page. You can also comment on a specific block by hovering over a block and clicking the content icon that appears on the right.
 
 You can tag teammates by typing the `@` symbol followed by their name.
+
+{% hint style="info" %}
+Guests will be able to make comments but they will not be able to see or mention other users in the organization.
+{% endhint %}
 
 ### Comment threads
 
