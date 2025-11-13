@@ -70,7 +70,11 @@ Translations are a paying **monthly** add-on:
 
 Each month includes 50,000 words of translation for $25. After that, every additional 1,000 words costs $0.20. Your 50,000-word allowance resets at the start of each month.
 
-In your first translation, every word will count towards your bill. After that, only new or updated words are charged. For example, if you edit your docs later, only the new words in the changed text will count towards your word limit — you won’t be re-billed for the entire document.
+In your first translation, every word will count towards your bill. After that, only **pages** with new or updated words are charged. For example, if you edit your docs later, only the pages with new words will count towards your word limit — you won’t be re-billed for the entire document.&#x20;
+
+{% hint style="warning" %}
+Be cautious when working on multiple translations with large pages, as translated word count includes all words within a page that contains a change — meaning if only a few words are changed in a large page, the entire page will be re-translated.
+{% endhint %}
 
 ## FAQ
 
