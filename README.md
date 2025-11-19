@@ -2,7 +2,7 @@
 description: >-
   Create and publish beautiful documentation your users will love. GitBook has
   all the docs tools you need to create everything from product guides to API
-  references and beyond
+  references and beyond.
 icon: book-open
 ---
 

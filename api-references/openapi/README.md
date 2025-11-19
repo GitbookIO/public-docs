@@ -1,7 +1,7 @@
 ---
 description: >-
   Add an OpenAPI spec to a page and let your users test endpoints right on the
-  page with interactive blocks
+  page with interactive blocks.
 icon: brackets-curly
 ---
 
@@ -31,6 +31,14 @@ Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in or
 
 <summary>Why isn’t my spec loading?</summary>
 
-If you can’t fetch the spec, your API is likely blocking cross-origin requests (CORS).  Please check your API’s response headers for: [`Access-Control-Allow-Origin: *`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin) . If your API only allows specific origins, ensure that `*.gitbook.io` is permitted.
+{% hint style="info" %}
+**Note:** This information only applies to **specs added by URL**.
+{% endhint %}
+
+If you added you specification via URL, your API must [allow cross-origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin) GET requests from your docs site. In your API’s CORS settings, allow the exact origin where your docs are hosted (e.g., `https://your-site.gitbook.io` or `https://docs.example.com`). \
+\
+If your endpoint is public and doesn’t use credentials, you can also return: `Access-Control-Allow-Origin: *`\
+\
+
 
 </details>
