@@ -1,7 +1,7 @@
 ---
 description: >-
   Auto-translate your content into multiple languages using AI and keep it
-  synced.
+  synced
 icon: language
 ---
 

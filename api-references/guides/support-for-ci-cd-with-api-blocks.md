@@ -1,5 +1,5 @@
 ---
-description: Learn how to automate the update of your OpenAPI specification in GitBook.
+description: Learn how to automate the update of your OpenAPI specification in GitBook
 ---
 
 # Integrating with CI/CD

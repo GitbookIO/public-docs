@@ -1,5 +1,5 @@
 ---
-description: Customize icons, colors, themes and more.
+description: Customize icons, colors, themes and more
 ---
 
 # Icons, colors, and themes
@@ -39,22 +39,22 @@ Themes let you customize the color scheme of your published content for both lig
 #### Clean
 
 A modern theme featuring translucency and minimally styled elements. Your primary color (or tint) affects links and other highlighted interface elements.\
-\&#xNAN;_Clean is available for all sites and is the default theme._
+&#xNAN;_&#x43;lean is available for all sites and is the default theme._
 
 #### Muted
 
 A sophisticated theme with decreased contrast between elements. The site background is more pronounced and blends in with the foreground, and some elements feature an inverted look — all based on your primary color (or tint).\
-\&#xNAN;_Muted is available for all sites._
+&#xNAN;_&#x4D;uted is available for all sites._
 
 #### Bold <mark style="background-color:purple;">**(Premium & Ultimate)**</mark>
 
 A high‑impact theme with prominent colors and strong contrasts. Your primary color (or tint) will be used for the header of the site, and other highlighted elements like icons are colored along with it.\
-\&#xNAN;_Bold is only available for Premium or Ultimate sites._
+&#xNAN;_&#x42;old is only available for Premium or Ultimate sites._
 
 #### Gradient <mark style="background-color:purple;">**(Premium & Ultimate)**</mark>
 
 A trendsetting theme featuring a gradient background and splashes of color. The gradient and highlighted elements will be colored by your primary color (or tint).\
-\&#xNAN;_Gradient is only available for Premium or Ultimate sites._
+&#xNAN;_&#x47;radient is only available for Premium or Ultimate sites._
 
 ### Colors
 

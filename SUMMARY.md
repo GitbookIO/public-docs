@@ -2,9 +2,11 @@
 
 ## Getting Started
 
-* [GitBook Documentation](README.md)
+* [GitBook documentation](README.md)
 * [Quickstart](getting-started/quickstart.md)
-* [Importing content](getting-started/import.md)
+* [Concepts](getting-started/concepts.md)
+* [Migrate to GitBook](getting-started/import.md)
+* [AI-native features](getting-started/ai-documentation.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
   * [Enabling GitHub Sync](getting-started/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](getting-started/git-sync/enabling-gitlab-sync.md)
@@ -79,8 +81,8 @@
   * [Public publishing](publishing-documentation/publish-a-docs-site/public-publishing.md)
   * [Private publishing with share links](publishing-documentation/publish-a-docs-site/share-links.md)
 * [Site structure](publishing-documentation/site-structure/README.md)
-  * [Content variants](publishing-documentation/site-structure/variants.md)
   * [Site sections](publishing-documentation/site-structure/site-sections.md)
+  * [Content variants](publishing-documentation/site-structure/variants.md)
 * [Site customization](publishing-documentation/customization/README.md)
   * [Icons, colors, and themes](publishing-documentation/customization/icons-colors-and-themes.md)
   * [Layout and structure](publishing-documentation/customization/layout-and-structure.md)

@@ -1,5 +1,5 @@
 ---
-description: Set up an AWS Cognito login screen for visitors to your docs.
+description: Set up an AWS Cognito login screen for visitors to your docs
 ---
 
 # Setting up AWS Cognito

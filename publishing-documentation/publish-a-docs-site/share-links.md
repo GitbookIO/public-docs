@@ -1,5 +1,5 @@
 ---
-description: Add greater control over who can view your published GitBook documentation.
+description: Add greater control over who can view your published GitBook documentation
 ---
 
 # Private publishing with share links

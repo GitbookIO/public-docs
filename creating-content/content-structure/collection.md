@@ -1,5 +1,5 @@
 ---
-description: Organize your spaces into folders.
+description: Organize your spaces into folders
 ---
 
 # Collections
@@ -34,3 +34,4 @@ You can delete a collection by opening its **Actions menu** <picture><source src
 {% hint style="danger" %}
 **Deleting a collection is final**, but spaces inside a deleted collection will move to the **Trash** and can be restored up to seven days after deletion. You can access the Trash from the bottom of the sidebar.
 {% endhint %}
+

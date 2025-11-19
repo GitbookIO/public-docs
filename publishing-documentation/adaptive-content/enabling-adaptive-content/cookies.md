@@ -1,5 +1,5 @@
 ---
-description: Pass visitor data into your docs through a public or signed cookie.
+description: Pass visitor data into your docs through a public or signed cookie
 ---
 
 # Cookies

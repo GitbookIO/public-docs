@@ -1,5 +1,5 @@
 ---
-description: Search and navigate your documentation fast with quick find.
+description: Search and navigate your documentation fast with quick find
 ---
 
 # Search & Quick find

@@ -2,26 +2,32 @@
 description: >-
   How to import existing content into GitBook from Confluence, Notion, Git and
   more
-icon: arrow-up-to-line
+icon: swap
 ---
 
-# Importing content
+# Migrate to GitBook
 
 You can migrate and unify existing documentation in GitBook using the import tool.
 
 You have the option to import single or multiple pages using our built-in import tool — or [an entire Git repository using Git Sync](import.md#import-using-git-sync).
 
-## Using the Import Panel
+## Using the Import panel
+
+The Import panel makes it easy to migrate your content into your GitBook organization from another documentation website or from existing files.
+
+When you choose to import from another online documentation site, all you have to do is add the URL of the site and GitBook will handle the rest.
+
+By default, GitBook uses AI to streamline the import process. This will intelligently refine and clean up imported content that doesn’t perfectly match GitBook’s formats — meaning the output will be more polished and use GitBook’s blocks more effectively. You can disable this from the menu.
 
 ### Supported import formats
 
-GitBook supports imports from websites or files in the following formats:
+GitBook supports imports from docs websites or files in the following formats:
 
 * Markdown (`.md` or `.markdown`)
 * HTML (`.html`)
 * Microsoft Word (`.docx`)
 
-We also support imports from:
+GitBook also support imports from:
 
 * Confluence
 * Notion
@@ -30,7 +36,7 @@ We also support imports from:
 * Dropbox Paper
 * Google Docs
 
-If you want to **import multiple pages**, you can upload a ZIP file containing HTML or Markdown files.
+If you want to **import multiple pages**, you can upload a ZIP file containing HTML or Markdown files, or use the **Online docs** import option.
 
 {% hint style="info" %}
 GitBook is Markdown-based, so importing content in Markdown format will yield the best results. If your current tools support exporting in Markdown, we recommend using that format for a smoother import process.
@@ -38,11 +44,11 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 ### The Import panel
 
-<figure><img src="../.gitbook/assets/10_01_25_import_modal.svg" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_10_25_import_modal@2x.png" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
-When you create a new space, you’ll have the option to import content from the bottom sheet of the first empty page.
+When you create a new space, you’ll have the option to import content in the modal that appears. If you create an empty space, you can also import using the **Quickstart** section at the bottom of the new empty page when you click **Edit**.
 
-Alternatively, you can always import a page or subpage by selecting **New page** > **Import new pages** in the [table of contents](../resources/gitbook-ui/#table-of-contents), or opening the Actions menu <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
+Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../resources/gitbook-ui/#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
 
 After choosing an input source, you can select the file you’d like to import.
 
@@ -59,15 +65,13 @@ GitBook currently has the following limits for imported content:
 
 ***
 
-## Import using Git Sync
+## Import from a GitHub or GitLab repo using Git Sync <a href="#import-using-git-sync" id="import-using-git-sync"></a>
 
-For importing large volumes of content into GitBook, we recommend using [Git Sync](git-sync/). Unlike our integrated import tool, Git Sync is better suited for handling larger migrations efficiently.
+When importing large volumes of content into GitBook, we recommend using [Git Sync](git-sync/). While our built-in migration tool can handle most imports, Git Sync is better suited for handling larger migrations efficiently.
 
 {% hint style="info" %}
-You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide to [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
+You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide for [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
 {% endhint %}
-
-Here’s how to do it:
 
 {% stepper %}
 {% step %}
@@ -85,7 +89,7 @@ When setting up your GitBook site, it’s crucial to organize your content in yo
 {% endstep %}
 
 {% step %}
-#### Set up spaces and Git Sync
+#### Set up spaces and configure Git Sync
 
 To organize your content, create one or more spaces in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those spaces. You’ll need to synchronize your space with the folder or repository you set up in the previous step.
 {% endstep %}

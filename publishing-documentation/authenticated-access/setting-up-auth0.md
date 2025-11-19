@@ -1,5 +1,5 @@
 ---
-description: Set up an Auth0 login screen for visitors to your docs.
+description: Set up an Auth0 login screen for visitors to your docs
 ---
 
 # Setting up Auth0

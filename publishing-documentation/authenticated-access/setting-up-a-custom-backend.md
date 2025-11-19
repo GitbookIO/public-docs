@@ -1,5 +1,5 @@
 ---
-description: Set up a custom login screen for visitors to your docs.
+description: Set up a custom login screen for visitors to your docs
 ---
 
 # Setting up a custom backend

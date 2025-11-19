@@ -1,5 +1,5 @@
 ---
-description: Configure extra options for your published documentation.
+description: Configure extra options for your published documentation
 ---
 
 # Extra configuration

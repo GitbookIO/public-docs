@@ -1,5 +1,5 @@
 ---
-description: Publish your docs publicly to the web so that everyone can access them.
+description: Publish your docs publicly to the web so that everyone can access them
 ---
 
 # Public publishing

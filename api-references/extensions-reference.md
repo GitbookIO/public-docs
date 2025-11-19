@@ -1,5 +1,5 @@
 ---
-description: The complete reference of OpenAPI extensions supported by GitBook.
+description: The complete reference of OpenAPI extensions supported by GitBook
 icon: code
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   Insert complete API reference from your OpenAPI spec or pick individual
-  operation or schemas.
+  operation or schemas
 ---
 
 # Insert API reference in your docs

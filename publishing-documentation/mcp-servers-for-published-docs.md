@@ -1,7 +1,7 @@
 ---
 description: >-
   Docs published on GitBook automatically generate an MCP server you can hook up
-  to external tools.
+  to external tools
 icon: server
 ---
 

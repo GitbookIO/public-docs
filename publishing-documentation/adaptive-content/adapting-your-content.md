@@ -1,5 +1,5 @@
 ---
-description: Tailor your content for different users.
+description: Tailor your content for different users
 ---
 
 # Adapting your content

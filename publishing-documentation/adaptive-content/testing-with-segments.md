@@ -1,5 +1,5 @@
 ---
-description: Test your conditions with mock data.
+description: Test your conditions with mock data
 ---
 
 # Testing with segments

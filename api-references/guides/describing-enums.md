@@ -1,5 +1,5 @@
 ---
-description: Learn how to add descriptions to enums.
+description: Learn how to add descriptions to enums
 ---
 
 # Describing enums

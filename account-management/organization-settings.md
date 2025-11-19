@@ -1,4 +1,5 @@
 ---
+description: Learn how to manage your organization in GitBook
 icon: sitemap
 ---
 

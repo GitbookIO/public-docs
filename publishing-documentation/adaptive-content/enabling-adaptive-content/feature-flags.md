@@ -1,5 +1,5 @@
 ---
-description: Pass visitor data into your docs through a feature flag provider.
+description: Pass visitor data into your docs through a feature flag provider
 ---
 
 # Feature flags

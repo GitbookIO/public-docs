@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn how to mark an OpenAPI API operation as experimental, deprecated or hide
-  it from your documentation.
+  it from your documentation
 ---
 
 # Managing API operations

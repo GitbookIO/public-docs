@@ -1,5 +1,5 @@
 ---
-description: Set up site redirects to route traffic to content anywhere on your site.
+description: Set up site redirects to route traffic to content anywhere on your site
 icon: diamond-turn-right
 ---
 

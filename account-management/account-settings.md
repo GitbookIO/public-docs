@@ -1,13 +1,13 @@
 ---
+description: View and manage the settings for your personal GitBook account
 icon: user
-description: View and manage the settings for your personal GitBook account.
 ---
 
 # Personal settings
 
 You can manage your login details, third-party login options, GitBook subdomain, interface theme, notification, integrations and API access tokens.
 
-<figure><img src="../.gitbook/assets/10_01_25_account_settings.svg" alt="A GitBook screenshot showing the personal settings page" ><figcaption><p>Your personal settings page.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_01_25_account_settings.svg" alt="A GitBook screenshot showing the personal settings page"><figcaption><p>Your personal settings page.</p></figcaption></figure>
 
 ### How to access your personal account settings
 
@@ -91,3 +91,4 @@ If you _do_ want to reset your password:
 2. Follow the **forgot your password?** link at the bottom of the page
 3. Enter the email address associated with the personal account you signed up for
 4. Click **send a link** (make sure you check your spam folder)
+

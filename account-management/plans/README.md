@@ -1,5 +1,5 @@
 ---
-description: Learn about the differences in plans GitBook has.
+description: Learn about the differences in plans GitBook has
 icon: money-check-dollar-pen
 ---
 

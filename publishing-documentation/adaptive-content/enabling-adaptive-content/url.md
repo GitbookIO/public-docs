@@ -1,5 +1,5 @@
 ---
-description: Pass visitor data into your docs through URL query parameters.
+description: Pass visitor data into your docs through URL query parameters
 ---
 
 # URL

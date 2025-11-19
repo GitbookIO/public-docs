@@ -1,5 +1,5 @@
 ---
-description: Customize the layout and structure of your published documentation.
+description: Customize the layout and structure of your published documentation
 ---
 
 # Layout and structure

@@ -1,5 +1,19 @@
 ---
-description: Apply for our Open Source plan in GitBook.
+description: Apply for our Open Source plan in GitBook
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Community plan

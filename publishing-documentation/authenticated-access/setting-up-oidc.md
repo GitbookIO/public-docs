@@ -1,5 +1,5 @@
 ---
-description: Set up an OIDC login screen for visitors to your docs.
+description: Set up an OIDC login screen for visitors to your docs
 ---
 
 # Setting up OIDC

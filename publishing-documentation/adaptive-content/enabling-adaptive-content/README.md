@@ -1,5 +1,5 @@
 ---
-description: Choose an authentication method to pass user data to GitBook.
+description: Choose an authentication method to pass user data to GitBook
 ---
 
 # Enabling adaptive content

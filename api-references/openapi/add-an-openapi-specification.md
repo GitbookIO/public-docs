@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn how to add and update an OpenAPI specification in GitBook application or
-  from CLI.
+  from CLI
 ---
 
 # Add an OpenAPI specification

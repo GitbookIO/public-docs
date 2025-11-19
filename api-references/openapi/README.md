@@ -1,7 +1,7 @@
 ---
 description: >-
   Add an OpenAPI spec to a page and let your users test endpoints right on the
-  page with interactive blocks.
+  page with interactive blocks
 icon: brackets-curly
 ---
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn more about how you can earn money from your documentation site with our
-  sponsored site plan.
+  sponsored site plan
 ---
 
 # Sponsored site plan
