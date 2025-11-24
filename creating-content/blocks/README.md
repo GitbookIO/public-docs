@@ -43,10 +43,13 @@ By making your blocks full width, you can create a clear visual hierarchy in you
 
 To make a block full width, click on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> next to your block and select **Full width**. This feature is available for the following block types:
 
-* Code Blocks
-* Image blocks
+* Code
+* Images
 * Tables
 * Cards
-* API Blocks
-* Integration blocks
 * Columns
+* Integration blocks
+
+Some blocks will always display full-width, regardless of the page’s width setting in the [the **Page options** menu](../content-structure/page.md):
+
+* OpenAPI
