@@ -66,6 +66,14 @@ Hover over the row and click the **Row options** <picture><source srcset="../../
 
 When you click into a table cell, you can hit the / key to insert images. This will not work in the header row.
 
+### Nested tables
+
+It's not possible to nest tables in GitBook. Nested tables aren’t supported because they create a poor authoring and reading experience: once a table sits inside another table cell, it becomes difficult to edit, resize, navigate, or maintain consistent formatting across devices.
+
+Nested tables also introduce significant complexity in the underlying document structure, often breaking clean semantics and leading to unpredictability in features such as Git Sync.
+
+To ensure documents remain easy to write, reliable to render, and accessible for all users, GitBook keeps tables flat and encourages richer content to be expressed through structured blocks outside of table cells rather than through embedded tables.
+
 ### Representation in Markdown
 
 ```markdown
