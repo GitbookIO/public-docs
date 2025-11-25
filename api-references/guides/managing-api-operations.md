@@ -63,3 +63,30 @@ Add the `x-hideSample: true` attribute to a response object to exclude it from t
 </strong><strong>        200:
 </strong><strong>          x-hideSample: true
 </strong></code></pre>
+
+### Customizing the authorization prefix and token placeholder
+
+You can customize the authorization prefix (for example, `Bearer`, `Token`, or a custom string) and the token placeholder shown when using security schemes in GitBook.
+
+In your OpenAPI spec, under `components.securitySchemes`, define your scheme like this:
+
+<pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">components:
+  securitySchemes:
+    apiKey:
+      type: apiKey
+      in: header
+      name: Authorization
+<strong>      x-gitbook-prefix: Token
+</strong><strong>      x-gitbook-token-placeholder: YOUR_CUSTOM_TOKEN
+</strong></code></pre>
+
+These extensions:
+
+* `x-gitbook-prefix` defines the prefix added before the token.
+  * example: `Authorization: <x-gitbook-prefix> YOUR_API_TOKEN`
+* `x-gitbook-token-placeholder` sets the default token value.
+  * example: `Authorization: Bearer <x-gitbook-token-placeholder>`
+
+{% hint style="warning" %}
+`x-gitbook-prefix` is not supported for `http` security schemes because these schemes must follow standard IANA authentication definitions. [Learn more](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml)
+{% endhint %}
