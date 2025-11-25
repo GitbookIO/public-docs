@@ -15,7 +15,7 @@ When you open the Options menu to the left of a table block, you’ll have a num
 * **Table/Cards:** Choose to display your data as either a table block or [a cards block](cards.md). GitBook populates both these blocks using the same data, so you can switch between them depending on the look and design you want.
 * **Add column:** Add a new column to the right of your table. You can choose column type using the menu, or just click **Add column** to add a text column.
 * **Insert row:** Add a new row to the bottom of your table.
-* **Show header:** Hide or show the top totle row of your table. Depending on the data you’re display, you may not need a title row in your table, so you can disable it here.
+* **Show header:** Hide or show the top title row of your table. Depending on the data you’re display, you may not need a title row in your table, so you can disable it here.
 * **Reset column sizing:** If you’ve changed the column widths, this will reset them all to be equal again.
 * **Visible columns:** Choose which columns are visible and which are hidden. If you have hidden columns in your table, this menu is where you can make them visible again.
 * **Full width:** Make your table span the full width of your window. This is great for tables with lots of columns.
