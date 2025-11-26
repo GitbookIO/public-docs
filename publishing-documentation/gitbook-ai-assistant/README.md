@@ -2,7 +2,7 @@
 description: >-
   GitBook Assistant offers users answers based on your docs and tailored to
   their situation — not just generic responses
-icon: messages
+icon: gitbook-assistant
 ---
 
 # GitBook Assistant
