@@ -42,6 +42,7 @@
   * [Tabs](creating-content/blocks/tabs.md)
   * [Expandable](creating-content/blocks/expandable.md)
   * [Stepper](creating-content/blocks/stepper.md)
+  * [Updates](creating-content/blocks/updates.md)
   * [Drawings](creating-content/blocks/drawing.md)
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
