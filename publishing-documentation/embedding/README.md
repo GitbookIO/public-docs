@@ -2,7 +2,7 @@
 description: >-
   Choose the embedding method that best fits your tech stack and integration
   requirements
-icon: picture-in-picture
+icon: window-restore
 ---
 
 # Embedding
@@ -16,7 +16,7 @@ The Docs Embed can contain two tabs:
 
 The embed is set up automatically based on your site's configuration. You can optionally customize and override the configuration with custom actions, tools, suggested questions, [Authenticated Access](../authenticated-access/README.md), and more.
 
-{% embed url="https://gitbook.com/docs/~gitbook/embed/demo" %}
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/emebeddable_assistant.png" alt="Embed GitBook Assistant into your product or website"><figcaption><p>Embed GitBook Assistant into your product or website</p></figcaption></figure></div>
 
 ### Choose your implementation method
 
