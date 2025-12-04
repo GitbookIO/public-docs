@@ -38,18 +38,20 @@ Users can access GitBook Assistant in three ways:
 {% if visitor.claims.unsigned.reflag.EMBED_ASSISTANT_PANEL == true %}
 #### Embed GitBook Assistant in your product
 
-You can embed GitBook Assistant to help you bring your product and product knowledge closer together. Choose the embedding method that fits your stack:
+You can embed GitBook Assistant directly into your product or website, giving users instant access to AI-powered help without leaving your application. The Assistant can be embedded as part of [Docs Embed](../embedding/README.md), which includes both the Assistant tab for AI-powered chat and a Docs tab for browsing your documentation.
 
-* [**Script tag**](embedding/script.md) – Quick setup with a `<script>` tag
-* [**Node.js/NPM**](embedding/nodejs.md) – Server-side or build-time integration
-* [**React component**](embedding/react.md) – Prebuilt React components
+Choose the embedding method that fits your stack:
+
+* [**Script tag**](../embedding/script.md) – Quick setup with a `<script>` tag
+* [**Node.js/NPM**](../embedding/nodejs.md) – Server-side or build-time integration
+* [**React component**](../embedding/react.md) – Prebuilt React components
 
 **Additional guides:**
 
-* [Using with authenticated docs](authentication/using-with-authenticated-docs.md) – Required if your docs need sign-in
-* [Customizing the Assistant](configuration/customizing-gitbook-assistant.md) – Welcome messages, buttons, and suggestions
-* [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your APIs
-* [API Reference](configuration/reference.md) – All available methods and events
+* [Using with authenticated docs](../embedding/authentication/using-with-authenticated-docs.md) – Required if your docs need sign-in
+* [Customizing the Embed](../embedding/configuration/customizing-gitbook-assistant.md) – Welcome messages, actions, and suggestions
+* [Creating custom tools](../embedding/configuration/creating-custom-tools.md) – Connect Assistant to your APIs
+* [API Reference](../embedding/configuration/reference.md) – All available methods and events
 {% endif %}
 
 ### Extend GitBook Assistant with MCP servers
