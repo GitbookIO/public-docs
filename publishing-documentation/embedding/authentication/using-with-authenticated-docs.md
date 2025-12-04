@@ -254,7 +254,7 @@ If this returns `undefined`, the user hasn't signed in to your docs yet.
 
 ## Next steps
 
-* [Customizing the Embed](../configuration/customizing-gitbook-assistant.md) – Add welcome messages and actions
+* [Customizing the Embed](../configuration/customizing-docs-embed.md) – Add welcome messages and actions
 * [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs
 * [Docs Embed documentation](../README.md) – Complete embedding guide
 

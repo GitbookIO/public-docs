@@ -49,7 +49,7 @@ Choose the embedding method that fits your stack:
 **Additional guides:**
 
 * [Using with authenticated docs](../embedding/authentication/using-with-authenticated-docs.md) – Required if your docs need sign-in
-* [Customizing the Embed](../embedding/configuration/customizing-gitbook-assistant.md) – Welcome messages, actions, and suggestions
+* [Customizing the Embed](../embedding/configuration/customizing-docs-embed.md) – Welcome messages, actions, and suggestions
 * [Creating custom tools](../embedding/configuration/creating-custom-tools.md) – Connect Assistant to your APIs
 * [API Reference](../embedding/configuration/reference.md) – All available methods and events
 {% endif %}

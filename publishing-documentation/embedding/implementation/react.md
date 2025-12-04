@@ -10,141 +10,165 @@ For React projects, GitBook provides prebuilt components that make embedding you
 
 ## Steps
 
-1.  **Install the package**
+{% stepper %}
+{% step %}
+### Install the package
 
-    Add `@gitbook/embed` to your React project:
+Add `@gitbook/embed` to your React project:
 
-    ```bash
-    npm install @gitbook/embed
-    ```
+```bash
+npm install @gitbook/embed
+```
 
-    For the complete API reference and source code, see the [`@gitbook/embed` package on GitHub](https://github.com/GitbookIO/gitbook/tree/main/packages/embed).
+For the complete API reference and source code, see the [`@gitbook/embed` package on GitHub](https://github.com/GitbookIO/gitbook/tree/main/packages/embed).
+{% endstep %}
 
-2.  **Import the React components**
+{% step %}
+### Import the React components
 
-    Import the `GitBookProvider` and `GitBookFrame` components:
+Import the `GitBookProvider` and `GitBookFrame` components:
 
-    ```jsx
-    import {
-      GitBookProvider,
-      GitBookFrame,
-    } from "@gitbook/embed/react";
-    ```
-3.  **Wrap your app with GitBookProvider**
+```jsx
+import {
+  GitBookProvider,
+  GitBookFrame,
+} from "@gitbook/embed/react";
+```
+{% endstep %}
 
-    Add the provider at the root of your component tree or where you need the embed:
+{% step %}
+### Wrap your app with GitBookProvider
 
-    ```jsx
-    function App() {
-      return (
-        <GitBookProvider siteURL="https://docs.company.com">
-          <YourAppContent />
-        </GitBookProvider>
-      );
-    }
-    ```
-4.  **Add the GitBookFrame component**
+Add the provider at the root of your component tree or where you need the embed:
 
-    Place the frame component where you want the embed to appear:
-
-    ```jsx
-    function App() {
-      return (
-        <GitBookProvider siteURL="https://docs.company.com">
-          <div className="app">
-            <YourAppContent />
-            <GitBookFrame
-              visitor={{
-                token: 'your-jwt-token', // Optional: for Adaptive Content or Authenticated Access
-                unsignedClaims: { userId: '123' } // Optional: custom claims for dynamic expressions
-              }}
-            />
-          </div>
-        </GitBookProvider>
-      );
-    }
-    ```
-5.  **Customize the embed**
-
-    Pass configuration props to the frame component:
-
-    ```jsx
+```jsx
+function App() {
+  return (
     <GitBookProvider siteURL="https://docs.company.com">
-      <GitBookFrame
-        tabs={['assistant', 'docs']}
-        greeting={{ title: 'Welcome!', subtitle: 'How can I help?' }}
-        suggestions={['What is GitBook?', 'How do I get started?']}
-        actions={[
-          {
-            icon: 'circle-question',
-            label: 'Contact Support',
-            onClick: () => window.open('https://support.example.com', '_blank')
-          }
-        ]}
-        tools={[/* ... */]}
-        visitor={{
-          token: 'your-jwt-token',
-          unsignedClaims: { userId: '123' }
-        }}
-      />
+      <YourAppContent />
     </GitBookProvider>
-    ```
-6.  **Control the embed with the useGitBook hook**
+  );
+}
+```
+{% endstep %}
 
-    Use the `useGitBook` hook to interact with the embed programmatically:
+{% step %}
+### Add the GitBookFrame component
 
-    ```jsx
-    import { useGitBook } from "@gitbook/embed/react";
+Place the frame component where you want the embed to appear:
 
-    function HelpButton() {
-      const gitbook = useGitBook();
-      const frameURL = gitbook.getFrameURL({ visitor: { token: '...' } });
-      
-      const handleNavigate = () => {
-        const iframe = document.createElement('iframe');
-        iframe.src = frameURL;
-        const frame = gitbook.createFrame(iframe);
-        frame.navigateToPage('/getting-started');
-        frame.navigateToAssistant();
-        frame.postUserMessage('How do I get started?');
-      };
+```jsx
+function App() {
+  return (
+    <GitBookProvider siteURL="https://docs.company.com">
+      <div className="app">
+        <YourAppContent />
+        <GitBookFrame
+          visitor={{
+            token: 'your-jwt-token', // Optional: for Adaptive Content or Authenticated Access
+            unsignedClaims: { userId: '123' } // Optional: custom claims for dynamic expressions
+          }}
+        />
+      </div>
+    </GitBookProvider>
+  );
+}
+```
+{% endstep %}
 
-      return <button onClick={handleNavigate}>Get Help</button>;
-    }
-    ```
-7.  **Conditionally render the embed**
+{% step %}
+### Customize the embed
 
-    Show the embed only when needed:
+Pass configuration props to the frame component:
 
-    ```jsx
-    function App() {
-      const [showEmbed, setShowEmbed] = useState(false);
+```jsx
+<GitBookProvider siteURL="https://docs.company.com">
+  <GitBookFrame
+    tabs={['assistant', 'docs']}
+    greeting={{ title: 'Welcome!', subtitle: 'How can I help?' }}
+    suggestions={['What is GitBook?', 'How do I get started?']}
+    actions={[
+      {
+        icon: 'circle-question',
+        label: 'Contact Support',
+        onClick: () => window.open('https://support.example.com', '_blank')
+      }
+    ]}
+    tools={[/* ... */]}
+    visitor={{
+      token: 'your-jwt-token',
+      unsignedClaims: { userId: '123' }
+    }}
+  />
+</GitBookProvider>
+```
+{% endstep %}
 
-      return (
-        <GitBookProvider siteURL="https://docs.company.com">
-          <button onClick={() => setShowEmbed(true)}>Get Help</button>
-          {showEmbed && <GitBookFrame />}
-        </GitBookProvider>
-      );
-    }
-    ```
-8.  **Use with Next.js or server-side rendering**
+{% step %}
+### Control the embed with the useGitBook hook
 
-    Dynamically import the components to avoid SSR issues:
+Use the `useGitBook` hook to interact with the embed programmatically:
 
-    ```jsx
-    import dynamic from "next/dynamic";
+```jsx
+import { useGitBook } from "@gitbook/embed/react";
 
-    const GitBookProvider = dynamic(
-      () => import("@gitbook/embed/react").then((mod) => mod.GitBookProvider),
-      { ssr: false }
-    );
+function HelpButton() {
+  const gitbook = useGitBook();
+  const frameURL = gitbook.getFrameURL({ visitor: { token: '...' } });
+  
+  const handleNavigate = () => {
+    const iframe = document.createElement('iframe');
+    iframe.src = frameURL;
+    const frame = gitbook.createFrame(iframe);
+    frame.navigateToPage('/getting-started');
+    frame.navigateToAssistant();
+    frame.postUserMessage('How do I get started?');
+  };
 
-    const GitBookFrame = dynamic(
-      () => import("@gitbook/embed/react").then((mod) => mod.GitBookFrame),
-      { ssr: false }
-    );
-    ```
+  return <button onClick={handleNavigate}>Get Help</button>;
+}
+```
+{% endstep %}
+
+{% step %}
+### Conditionally render the embed
+
+Show the embed only when needed:
+
+```jsx
+function App() {
+  const [showEmbed, setShowEmbed] = useState(false);
+
+  return (
+    <GitBookProvider siteURL="https://docs.company.com">
+      <button onClick={() => setShowEmbed(true)}>Get Help</button>
+      {showEmbed && <GitBookFrame />}
+    </GitBookProvider>
+  );
+}
+```
+{% endstep %}
+
+{% step %}
+### Use with Next.js or server-side rendering
+
+Dynamically import the components to avoid SSR issues:
+
+```jsx
+import dynamic from "next/dynamic";
+
+const GitBookProvider = dynamic(
+  () => import("@gitbook/embed/react").then((mod) => mod.GitBookProvider),
+  { ssr: false }
+);
+
+const GitBookFrame = dynamic(
+  () => import("@gitbook/embed/react").then((mod) => mod.GitBookFrame),
+  { ssr: false }
+);
+```
+{% endstep %}
+{% endstepper %}
 
 ## Props & Configuration
 

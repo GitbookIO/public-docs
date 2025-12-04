@@ -10,116 +10,140 @@ If you need more control and want to work at the application level, you can inst
 
 ## Steps
 
-1.  **Install the package**
+{% stepper %}
+{% step %}
+### Install the package
 
-    Add `@gitbook/embed` to your project:
+Add `@gitbook/embed` to your project:
 
-    ```bash
-    npm install @gitbook/embed
-    ```
+```bash
+npm install @gitbook/embed
+```
 
-    For the complete API reference and source code, see the [`@gitbook/embed` package on GitHub](https://github.com/GitbookIO/gitbook/tree/main/packages/embed).
+For the complete API reference and source code, see the [`@gitbook/embed` package on GitHub](https://github.com/GitbookIO/gitbook/tree/main/packages/embed).
+{% endstep %}
 
-2.  **Import the package**
+{% step %}
+### Import the package
 
-    In your application code, import the `createGitBook` function:
+In your application code, import the `createGitBook` function:
 
-    ```javascript
-    import { createGitBook } from "@gitbook/embed";
-    ```
+```javascript
+import { createGitBook } from "@gitbook/embed";
+```
 
-    Or using CommonJS:
+Or using CommonJS:
 
-    ```javascript
-    const { createGitBook } = require("@gitbook/embed");
-    ```
-3.  **Initialize GitBook**
+```javascript
+const { createGitBook } = require("@gitbook/embed");
+```
+{% endstep %}
 
-    Create a GitBook instance with your docs site URL:
+{% step %}
+### Initialize GitBook
 
-    ```javascript
-    const gitbook = createGitBook({
-      siteURL: "https://docs.company.com",
-    });
-    ```
-4.  **Create an iframe**
+Create a GitBook instance with your docs site URL:
 
-    Generate an iframe element and set its source to the embed URL:
+```javascript
+const gitbook = createGitBook({
+  siteURL: "https://docs.company.com",
+});
+```
+{% endstep %}
 
-    ```javascript
-    const iframe = document.createElement("iframe");
-    iframe.src = gitbook.getFrameURL({
-      visitor: {
-        token: 'your-jwt-token', // Optional: for Adaptive Content or Authenticated Access
-        unsignedClaims: { // Optional: custom claims for dynamic expressions
-          userId: '123',
-          plan: 'premium'
-        }
-      }
-    });
-    iframe.id = "gitbook-embed-container";
-    iframe.style.border = "none";
-    iframe.style.width = "100%";
-    iframe.style.height = "600px";
-    ```
-5.  **Attach the frame**
+{% step %}
+### Create an iframe
 
-    Create a GitBook frame instance and mount it to your page:
+Generate an iframe element and set its source to the embed URL:
 
-    ```javascript
-    const frame = gitbook.createFrame(iframe);
-    document.getElementById("gitbook-embed-container").appendChild(iframe);
-    ```
-6.  **Control the embed programmatically**
+```javascript
+const iframe = document.createElement("iframe");
+iframe.src = gitbook.getFrameURL({
+  visitor: {
+    token: 'your-jwt-token', // Optional: for Adaptive Content or Authenticated Access
+    unsignedClaims: { // Optional: custom claims for dynamic expressions
+      userId: '123',
+      plan: 'premium'
+    }
+  }
+});
+iframe.id = "gitbook-embed-container";
+iframe.style.border = "none";
+iframe.style.width = "100%";
+iframe.style.height = "600px";
+```
+{% endstep %}
 
-    Use the frame instance to interact with the embed:
+{% step %}
+### Attach the frame
 
-    ```javascript
-    // Navigate to a specific page in the docs tab
-    frame.navigateToPage("/getting-started");
+Create a GitBook frame instance and mount it to your page:
 
-    // Switch to the assistant tab
-    frame.navigateToAssistant();
+```javascript
+const frame = gitbook.createFrame(iframe);
+document.getElementById("gitbook-embed-container").appendChild(iframe);
+```
+{% endstep %}
 
-    // Post a message to the chat
-    frame.postUserMessage("How do I get started?");
+{% step %}
+### Control the embed programmatically
 
-    // Clear chat history
-    frame.clearChat();
-    ```
-7.  **Configure the embed**
+Use the frame instance to interact with the embed:
 
-    Configure the embed with customization options:
+```javascript
+// Navigate to a specific page in the docs tab
+frame.navigateToPage("/getting-started");
 
-    ```javascript
-    frame.configure({
-      tabs: ['assistant', 'docs'],
-      actions: [
-        {
-          icon: 'circle-question',
-          label: 'Contact Support',
-          onClick: () => window.open('https://support.example.com', '_blank')
-        }
-      ],
-      greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
-      suggestions: ['What is GitBook?', 'How do I get started?'],
-      tools: [/* ... */]
-    });
-    ```
-8.  **Listen to events**
+// Switch to the assistant tab
+frame.navigateToAssistant();
 
-    Register event listeners to respond to embed events:
+// Post a message to the chat
+frame.postUserMessage("How do I get started?");
 
-    ```javascript
-    frame.on('close', () => {
-      console.log('Frame closed');
-    });
+// Clear chat history
+frame.clearChat();
+```
+{% endstep %}
 
-    // Unsubscribe when done
-    const unsubscribe = frame.on('navigate', (data) => {
-      console.log('Navigated to:', data.path);
-    });
-    ```
+{% step %}
+### Configure the embed
+
+Configure the embed with customization options:
+
+```javascript
+frame.configure({
+  tabs: ['assistant', 'docs'],
+  actions: [
+    {
+      icon: 'circle-question',
+      label: 'Contact Support',
+      onClick: () => window.open('https://support.example.com', '_blank')
+    }
+  ],
+  greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
+  suggestions: ['What is GitBook?', 'How do I get started?'],
+  tools: [/* ... */]
+});
+```
+{% endstep %}
+
+{% step %}
+### Listen to events
+
+Register event listeners to respond to embed events:
+
+```javascript
+frame.on('close', () => {
+  console.log('Frame closed');
+});
+
+// Unsubscribe when done
+const unsubscribe = frame.on('navigate', (data) => {
+  console.log('Navigated to:', data.path);
+});
+```
+{% endstep %}
+{% endstepper %}
 
 ## API Reference
 

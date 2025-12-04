@@ -6,11 +6,13 @@ description: >-
 
 # Creating custom tools
 
-Custom tools in GitBook Assistant allow you to dispatch web or product actions for different scenarios. For example, you can build a custom tool that instructs GitBook Assistant to call APIs, perform product actions, open other tools, and more.
+Custom tools in the Docs Embed allow you to let the Assistant intelligently dispatch actions in your product or on the web. For example, you can build a custom tool that instructs GitBook Assistant to call APIs, perform product actions, open other tools, and more.
 
-**Note**: In addition to custom tools, the Assistant will always have access to any [MCP servers you define](../../mcp-servers-for-published-docs.md) in your site's AI settings.
+{% hint style="info" %}
+In addition to custom tools you define in your Docs Embed configuration, the Assistant will always have access to any [MCP servers you define](../../mcp-servers-for-published-docs.md) in your site's AI settings.
+{% endhint %}
 
-Tools can be defined via the `configure` method or when using the NPM package/React components.
+Tools can be defined via the `configure` method when using the script implementation or as props when using the NPM package/React components.
 
 Let's look at an example:
 

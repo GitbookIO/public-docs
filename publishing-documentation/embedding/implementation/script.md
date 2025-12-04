@@ -8,132 +8,152 @@ The quickest way to add Docs Embed to your website or app is by adding it throug
 
 ## Steps
 
-1.  **Get your embed script URL**
+{% stepper %}
+{% step %}
+### Get your embed script URL
 
-    Navigate to your docs site's **Settings** → **AI & MCP** tab and copy the script URL, or use the script at `https://docs.company.com/~gitbook/embed/script.js` (replace `docs.company.com` with your actual docs site URL).
+Navigate to your docs site's **Settings** → **AI & MCP** tab and copy the script URL, or use the script at `https://docs.company.com/~gitbook/embed/script.js` (replace `docs.company.com` with your actual docs site URL).
+{% endstep %}
 
-2.  **Add the script tag to your HTML**
+{% step %}
+### Add the script tag to your HTML
 
-    Place this code in your HTML `<head>` or before the closing `</body>` tag:
+Place this code in your HTML `<head>` or before the closing `</body>` tag:
 
-    ```html
-    <script src="https://docs.company.com/~gitbook/embed/script.js"></script>
-    <script>
-      // Initialize with Authenticated Access (optional)
-      window.GitBook('init', 
-        { siteURL: 'https://docs.company.com' },
-        { visitor: { token: 'your-jwt-token' } }
-      );
-      window.GitBook('show');
-    </script>
-    ```
+```html
+<script src="https://docs.company.com/~gitbook/embed/script.js"></script>
+<script>
+  // Initialize with Authenticated Access (optional)
+  window.GitBook('init', 
+    { siteURL: 'https://docs.company.com' },
+    { visitor: { token: 'your-jwt-token' } }
+  );
+  window.GitBook('show');
+</script>
+```
+{% endstep %}
 
-3.  **Replace the docs URL**
+{% step %}
+### Replace the docs URL
 
-    Update `docs.company.com` with your actual docs site URL.
+Update `docs.company.com` with your actual docs site URL.
+{% endstep %}
 
-4.  **Test the widget**
+{% step %}
+### Test the widget
 
-    Load your page. The embed widget should appear in the bottom-right corner.
+Load your page. The embed widget should appear in the bottom-right corner.
+{% endstep %}
 
-5.  **Optionally configure the embed**
+{% step %}
+### Optionally configure the embed
 
-    Add customization options before calling `show()`:
+Add customization options before calling `show()`:
 
-    ```html
-    <script src="https://docs.company.com/~gitbook/embed/script.js"></script>
-    <script>
-      window.GitBook('init', { siteURL: 'https://docs.company.com' });
-      
-      window.GitBook('configure', {
-        button: {
-          label: 'Ask',
-          icon: 'assistant' // 'assistant' | 'sparkle' | 'help' | 'book'
-        },
-        tabs: ['assistant', 'docs'],
-        actions: [
-          {
-            icon: 'circle-question',
-            label: 'Contact Support',
-            onClick: () => window.open('https://support.example.com', '_blank')
-          }
-        ],
-        greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
-        suggestions: ['What is GitBook?', 'How do I get started?']
-      });
-      
-      window.GitBook('show');
-    </script>
-    ```
-
-6.  **Control widget visibility**
-
-    Use the API to show, hide, open, or close the embed:
-
-    ```html
-    <script>
-      // Show the widget
-      window.GitBook("show");
-
-      // Hide the widget
-      window.GitBook("hide");
-
-      // Open the embed window
-      window.GitBook("open");
-
-      // Close the embed window
-      window.GitBook("close");
-
-      // Toggle the embed window
-      window.GitBook("toggle");
-    </script>
-    ```
-
-7.  **Navigate and interact programmatically**
-
-    Use the API to navigate to pages, switch tabs, or post messages:
-
-    ```html
-    <script>
-      // Navigate to a specific page in the docs tab
-      window.GitBook('navigateToPage', '/getting-started');
-
-      // Switch to the assistant tab
-      window.GitBook('navigateToAssistant');
-
-      // Post a message to the chat
-      window.GitBook('postUserMessage', 'How do I get started?');
-
-      // Clear chat history
-      window.GitBook('clearChat');
-    </script>
-    ```
-
-8.  **Load dynamically (optional)**
-
-    For authenticated docs or conditional loading, inject the script at runtime:
-
-    ```html
-    <script>
-      function loadGitBookEmbed() {
-        var script = document.createElement("script");
-        script.src = "https://docs.company.com/~gitbook/embed/script.js";
-        script.async = true;
-        script.onload = function () {
-          window.GitBook('init', { siteURL: 'https://docs.company.com' });
-          window.GitBook("show");
-        };
-        document.head.appendChild(script);
+```html
+<script src="https://docs.company.com/~gitbook/embed/script.js"></script>
+<script>
+  window.GitBook('init', { siteURL: 'https://docs.company.com' });
+  
+  window.GitBook('configure', {
+    button: {
+      label: 'Ask',
+      icon: 'assistant' // 'assistant' | 'sparkle' | 'help' | 'book'
+    },
+    tabs: ['assistant', 'docs'],
+    actions: [
+      {
+        icon: 'circle-question',
+        label: 'Contact Support',
+        onClick: () => window.open('https://support.example.com', '_blank')
       }
+    ],
+    greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
+    suggestions: ['What is GitBook?', 'How do I get started?']
+  });
+  
+  window.GitBook('show');
+</script>
+```
+{% endstep %}
 
-      // Load when ready
-      loadGitBookEmbed();
-    </script>
-    ```
+{% step %}
+### Control widget visibility
 
-9.  **Verify the setup**
+Use the API to show, hide, open, or close the embed:
 
-    Open your browser console and type `window.GitBook` to confirm the API is available.
+```html
+<script>
+  // Show the widget
+  window.GitBook("show");
+
+  // Hide the widget
+  window.GitBook("hide");
+
+  // Open the embed window
+  window.GitBook("open");
+
+  // Close the embed window
+  window.GitBook("close");
+
+  // Toggle the embed window
+  window.GitBook("toggle");
+</script>
+```
+{% endstep %}
+
+{% step %}
+### Navigate and interact programmatically
+
+Use the API to navigate to pages, switch tabs, or post messages:
+
+```html
+<script>
+  // Navigate to a specific page in the docs tab
+  window.GitBook('navigateToPage', '/getting-started');
+
+  // Switch to the assistant tab
+  window.GitBook('navigateToAssistant');
+
+  // Post a message to the chat
+  window.GitBook('postUserMessage', 'How do I get started?');
+
+  // Clear chat history
+  window.GitBook('clearChat');
+</script>
+```
+{% endstep %}
+
+{% step %}
+### Load dynamically (optional)
+
+For authenticated docs or conditional loading, inject the script at runtime:
+
+```html
+<script>
+  function loadGitBookEmbed() {
+    var script = document.createElement("script");
+    script.src = "https://docs.company.com/~gitbook/embed/script.js";
+    script.async = true;
+    script.onload = function () {
+      window.GitBook('init', { siteURL: 'https://docs.company.com' });
+      window.GitBook("show");
+    };
+    document.head.appendChild(script);
+  }
+
+  // Load when ready
+  loadGitBookEmbed();
+</script>
+```
+{% endstep %}
+
+{% step %}
+### Verify the setup
+
+Open your browser console and type `window.GitBook` to confirm the API is available.
+{% endstep %}
+{% endstepper %}
 
 ## API Reference
 
