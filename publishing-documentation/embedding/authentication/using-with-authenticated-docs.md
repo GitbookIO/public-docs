@@ -1,6 +1,6 @@
 ---
 description: >-
-  Embed Docs Embed on sites that require authentication by passing visitor
+  Use the Docs Embed with sites that require authentication by passing visitor
   tokens or using authenticated access
 ---
 
@@ -22,29 +22,30 @@ When initializing the embed, pass the visitor token directly:
 ```html
 <script src="https://docs.company.com/~gitbook/embed/script.js"></script>
 <script>
-  window.GitBook('init', 
-    { siteURL: 'https://docs.company.com' },
-    { visitor: { token: 'your-jwt-token' } }
+  window.GitBook(
+    "init",
+    { siteURL: "https://docs.company.com" },
+    { visitor: { token: "your-jwt-token" } }
   );
-  window.GitBook('show');
+  window.GitBook("show");
 </script>
 ```
 
 ### NPM Package
 
 ```javascript
-import { createGitBook } from '@gitbook/embed';
+import { createGitBook } from "@gitbook/embed";
 
 const gitbook = createGitBook({
-  siteURL: 'https://docs.company.com'
+  siteURL: "https://docs.company.com",
 });
 
-const iframe = document.createElement('iframe');
+const iframe = document.createElement("iframe");
 iframe.src = gitbook.getFrameURL({
   visitor: {
-    token: 'your-jwt-token',
-    unsignedClaims: { userId: '123', plan: 'premium' }
-  }
+    token: "your-jwt-token",
+    unsignedClaims: { userId: "123", plan: "premium" },
+  },
 });
 ```
 
@@ -54,8 +55,8 @@ iframe.src = gitbook.getFrameURL({
 <GitBookProvider siteURL="https://docs.company.com">
   <GitBookFrame
     visitor={{
-      token: 'your-jwt-token',
-      unsignedClaims: { userId: '123' }
+      token: "your-jwt-token",
+      unsignedClaims: { userId: "123" },
     }}
   />
 </GitBookProvider>
@@ -103,8 +104,9 @@ Use this snippet to load the embed only after a user has signed in:
     script.src = "https://docs.example.com/~gitbook/embed/script.js";
     script.async = true;
     script.onload = function () {
-      window.GitBook('init', 
-        { siteURL: 'https://docs.example.com' },
+      window.GitBook(
+        "init",
+        { siteURL: "https://docs.example.com" },
         { visitor: { token: token } }
       );
       window.GitBook("show");
@@ -130,7 +132,7 @@ If the token is missing, you can prompt users to sign in:
     }
 
     var token = getCookie("gitbook-visitor-token");
-    
+
     if (!token) {
       // Redirect to docs or show a message
       alert("Please sign in to your docs to access help.");
@@ -143,8 +145,9 @@ If the token is missing, you can prompt users to sign in:
     script.src = "https://docs.example.com/~gitbook/embed/script.js";
     script.async = true;
     script.onload = function () {
-      window.GitBook('init', 
-        { siteURL: 'https://docs.example.com' },
+      window.GitBook(
+        "init",
+        { siteURL: "https://docs.example.com" },
         { visitor: { token: token } }
       );
       window.GitBook("show");
@@ -211,7 +214,7 @@ function initializeEmbed() {
   };
 
   const token = getCookie("gitbook-visitor-token");
-  
+
   if (!token) {
     console.warn("[Docs Embed] User must sign in first.");
     return null;
@@ -223,7 +226,7 @@ function initializeEmbed() {
 
   const iframe = document.createElement("iframe");
   iframe.src = gitbook.getFrameURL({
-    visitor: { token: token }
+    visitor: { token: token },
   });
   const frame = gitbook.createFrame(iframe);
 
@@ -236,11 +239,11 @@ initializeEmbed();
 
 ## Common pitfalls
 
-* **Loading the embed before sign-in** – Always check for the token before loading the script or components, or pass the token directly when initializing.
-* **Token not persisting across domains** – Cookies don't persist across different domains due to browser security policies. Your app and docs must be on the same domain or subdomain, or pass the token directly.
-* **Token expired** – Tokens can expire. If the embed returns authentication errors, prompt users to sign in again.
-* **Using wrong cookie name** – The token is stored as `gitbook-visitor-token`, not `gitbook-token` or other variations.
-* **Not passing token to init/getFrameURL** – When using the cookie-based approach, make sure to pass the token to `GitBook('init', ..., { visitor: { token } })` or `getFrameURL({ visitor: { token } })`.
+- **Loading the embed before sign-in** – Always check for the token before loading the script or components, or pass the token directly when initializing.
+- **Token not persisting across domains** – Cookies don't persist across different domains due to browser security policies. Your app and docs must be on the same domain or subdomain, or pass the token directly.
+- **Token expired** – Tokens can expire. If the embed returns authentication errors, prompt users to sign in again.
+- **Using wrong cookie name** – The token is stored as `gitbook-visitor-token`, not `gitbook-token` or other variations.
+- **Not passing token to init/getFrameURL** – When using the cookie-based approach, make sure to pass the token to `GitBook('init', ..., { visitor: { token } })` or `getFrameURL({ visitor: { token } })`.
 
 ## Debugging
 
@@ -254,7 +257,6 @@ If this returns `undefined`, the user hasn't signed in to your docs yet.
 
 ## Next steps
 
-* [Customizing the Embed](../configuration/customizing-docs-embed.md) – Add welcome messages and actions
-* [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs
-* [Docs Embed documentation](../README.md) – Complete embedding guide
-
+- [Customizing the Embed](../configuration/customizing-docs-embed.md) – Add welcome messages and actions
+- [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs
+- [Docs Embed documentation](../README.md) – Complete embedding guide

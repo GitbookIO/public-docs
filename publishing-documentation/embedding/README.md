@@ -1,22 +1,23 @@
 ---
 description: >-
-  Choose the embedding method that best fits your tech stack and integration
-  requirements
+  Embed your documentation in your product or website using the Docs Embed.
 icon: window-restore
 ---
 
 # Embedding
 
-Embed your documentation in your product or website using the Docs Embed.
+The Docs Embed is a powerful window into your product knowledge that you can add to any product or website. Users can immediately ask questions to the [GitBook Assistant](../gitbook-ai-assistant.md) or browse your docs directly, all without leaving your product. You can add a predefined button to open the Embed, customize it, or create your own implementation and control the embed programatically.
 
-The Docs Embed consists of multiple tabs that get shown automatically depending on your site's configuration:
+<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/emebeddable_assistant.png" alt="Embed GitBook Assistant into your product or website"><figcaption><p>Embed your docs into your product or website</p></figcaption></figure></div>
+
+## Overview
+
+The Docs Embed consists of multiple tabs that get shown automatically, depending on your site's configuration:
 
 - **Assistant**: The [GitBook Assistant](../gitbook-ai-assistant.md) - an AI-powered chat interface to help users find answers
 - **Docs**: A browser for navigating your documentation site
 
-You can optionally customize and override the configuration with custom actions, tools, suggested questions, [Authenticated Access](../authenticated-access/README.md), and more.
-
-<div data-with-frame="true"><figure><img src="../../../.gitbook/assets/emebeddable_assistant.png" alt="Embed GitBook Assistant into your product or website"><figcaption><p>Embed GitBook Assistant into your product or website</p></figcaption></figure></div>
+You can customize and override the default configuration with custom actions, tools, suggested questions, [Authenticated Access](../authenticated-access/README.md), and more.
 
 ## Get started
 
@@ -37,7 +38,7 @@ Before embedding your docs, ensure:
 
 Pick the approach that matches your setup:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h2><i class="fa-code">:code:</i></h2></td><td><strong>Script tag</strong></td><td>Drop in a &lt;script&gt; tag for the fastest setup, then customize its appearance</td><td><a href="implementation/script.md">script.md</a></td></tr><tr><td><h2><i class="fa-package">:package:</i></h2></td><td><strong>Node.js/NPM</strong></td><td>Install via NPM for server-side rendering or build-time control</td><td><a href="implementation/nodejs.md">nodejs.md</a></td></tr><tr><td><h2><i class="fa-react">:atom:</i></h2></td><td><strong>React component</strong></td><td>Use prebuilt React components for seamless integration</td><td><a href="implementation/react.md">react.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h2><i class="fa-code">:code:</i></h2></td><td><strong>Script tag</strong></td><td>Drop in a &lt;script&gt; tag for the fastest setup, then customize its appearance</td><td><a href="implementation/script.md">script.md</a></td></tr><tr><td><h2><i class="fa-box">:box:</i></h2></td><td><strong>Node.js/NPM</strong></td><td>Install via NPM for server-side rendering or build-time control</td><td><a href="implementation/nodejs.md">nodejs.md</a></td></tr><tr><td><h2><i class="fa-react">:react:</i></h2></td><td><strong>React component</strong></td><td>Use prebuilt React components for seamless integration</td><td><a href="implementation/react.md">react.md</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 If your docs use [Authenticated Access](../authenticated-access/README.md), follow the steps in [how to set up the embed with authenticated docs](authentication/using-with-authenticated-docs.md).

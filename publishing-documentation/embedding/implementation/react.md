@@ -1,6 +1,6 @@
 ---
 description: >-
-  Use prebuilt React components to embed Docs Embed in your React
+  Use prebuilt React components to add the Docs Embed to your React
   application
 ---
 
