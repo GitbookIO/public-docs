@@ -204,7 +204,7 @@ Suggested questions displayed in the Assistant welcome screen.
 
 ### `tools`
 
-Custom AI tools to extend the Assistant. See [Creating custom tools](configuration/creating-custom-tools.md) for details.
+Custom AI tools to extend the Assistant. See [Creating custom tools](../configuration/creating-custom-tools.md) for details.
 
 - **Type**: `Array<{ name: string, description: string, inputSchema: object, execute: Function, confirmation?: {...} }>`
 
@@ -216,7 +216,7 @@ Configure the widget button (standalone script only).
 
 ### `visitor` (Authenticated Access)
 
-Pass when initializing with `GitBook('init', options, frameOptions)`. Used for [Adaptive Content](../adaptive-content/README.md) and [Authenticated Access](../authenticated-access/README.md).
+Pass when initializing with `GitBook('init', options, frameOptions)`. Used for [Adaptive Content](../../adaptive-content/README.md) and [Authenticated Access](../../authenticated-access/README.md).
 
 - **Type**: `{ token?: string, unsignedClaims?: Record<string, unknown> }`
 - **Properties**:
@@ -227,7 +227,7 @@ Pass when initializing with `GitBook('init', options, frameOptions)`. Used for [
 
 * **Script URL is incorrect** – Ensure you're using your actual docs URL, not the example `docs.company.com`.
 * **Calling GitBook before script loads** – Wrap API calls in `script.onload` or place them after the script tag.
-* **Authenticated docs not accessible** – If your docs require sign-in, you must provide the `visitor.token` when initializing. See [Using with authenticated docs](authentication/using-with-authenticated-docs.md).
+* **Authenticated docs not accessible** – If your docs require sign-in, you must provide the `visitor.token` when initializing. See [Using with authenticated docs](../authentication/using-with-authenticated-docs.md).
 * **CORS or CSP errors** – Ensure your site's Content Security Policy allows loading scripts and iframes from your GitBook domain.
 * **Widget not visible** – Check z-index conflicts with other elements on your page. The widget uses a high z-index by default.
 * **Forgetting to initialize** – Make sure to call `GitBook('init', { siteURL: '...' })` before using other methods.

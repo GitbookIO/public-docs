@@ -170,13 +170,13 @@ Suggested questions displayed in the Assistant welcome screen.
 
 ### `tools`
 
-Custom AI tools to extend the Assistant. See [Creating custom tools](configuration/creating-custom-tools.md) for details.
+Custom AI tools to extend the Assistant. See [Creating custom tools](../configuration/creating-custom-tools.md) for details.
 
 - **Type**: `Array<{ name: string, description: string, inputSchema: object, execute: Function, confirmation?: {...} }>`
 
 ### `visitor` (Authenticated Access)
 
-Pass to `getFrameURL({ visitor: {...} })`. Used for [Adaptive Content](../adaptive-content/README.md) and [Authenticated Access](../authenticated-access/README.md).
+Pass to `getFrameURL({ visitor: {...} })`. Used for [Adaptive Content](../../adaptive-content/README.md) and [Authenticated Access](../../authenticated-access/README.md).
 
 - **Type**: `{ token?: string, unsignedClaims?: Record<string, unknown> }`
 

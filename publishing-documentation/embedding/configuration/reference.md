@@ -204,7 +204,7 @@ document.getElementById("new-topic").addEventListener("click", () => {
 
 #### `GitBook('configure', settings)`
 
-Configure the embed with customization options. See the [Configuration section](../script.md#configuration-options) for available options.
+Configure the embed with customization options. See the [Configuration section](../implementation/script.md#configuration-options) for available options.
 
 **Example:**
 
@@ -314,7 +314,7 @@ Clear chat history.
 
 #### `frame.configure(settings)`
 
-Configure the embed. See the [Configuration section](../nodejs.md#configuration-options) for available options.
+Configure the embed. See the [Configuration section](../implementation/nodejs.md#configuration-options) for available options.
 
 #### `frame.on(event, listener)`
 
@@ -340,5 +340,5 @@ unsubscribe();
 
 ## React Components API
 
-See the [React integration guide](../react.md) for component props and the `useGitBook` hook API.
+See the [React integration guide](../implementation/react.md) for component props and the `useGitBook` hook API.
 

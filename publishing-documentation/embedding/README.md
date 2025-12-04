@@ -16,15 +16,15 @@ The Docs Embed can contain two tabs:
 
 The embed is set up automatically based on your site's configuration. You can optionally customize and override the configuration with custom actions, tools, suggested questions, [Authenticated Access](../authenticated-access/README.md), and more.
 
-<div data-with-frame="true"><figure>{% embed url="https://gitbook.com/docs/~gitbook/embed/demo" %}<figcaption><p>Embed GitBook docs into your product or website</p></figcaption></figure></div>
+{% embed url="https://gitbook.com/docs/~gitbook/embed/demo" %}
 
-### Choose your integration method
+### Choose your implementation method
 
 Pick the approach that matches your setup:
 
-* [**Script tag**](script.md) – Drop in a `<script>` tag for the fastest setup, then customize its appearance
-* [**Node.js/NPM**](nodejs.md) – Install via NPM for server-side rendering or build-time control
-* [**React component**](react.md) – Use prebuilt React components for seamless integration
+- [**Script tag**](implementation/script.md) – Drop in a `<script>` tag for the fastest setup, then customize its appearance
+- [**Node.js/NPM**](implementation/nodejs.md) – Install via NPM for server-side rendering or build-time control
+- [**React component**](implementation/react.md) – Use prebuilt React components for seamless integration
 
 ### Prerequisites
 
@@ -43,8 +43,7 @@ For the complete API reference and source code, see the [`@gitbook/embed` packag
 
 Choose your embedding method above, then explore:
 
-* [Using with authenticated docs](authentication/using-with-authenticated-docs.md) – Required if your docs require sign-in
-* [Customizing the Embed](configuration/customizing-gitbook-assistant.md) – Add welcome messages, custom actions, and suggestions
-* [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your product APIs
-* [API Reference](configuration/reference.md) – Complete API documentation
-
+- [Using with authenticated docs](authentication/using-with-authenticated-docs.md) – Required if your docs require sign-in
+- [Customizing the Embed](configuration/customizing-gitbook-assistant.md) – Add welcome messages, custom actions, and suggestions
+- [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your product APIs
+- [API Reference](configuration/reference.md) – Complete API documentation
