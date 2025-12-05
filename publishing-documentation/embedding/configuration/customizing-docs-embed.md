@@ -13,7 +13,7 @@ After [adding Docs Embed to your website or app](../implementation/README.md), y
 When using the [standalone script tag implementation](../implementation/script.md), you can customize the label and icon of the button that launches the embed widget.
 
 {% hint style="info" %}
-This button customization option is only available when using the [standalone script tag implementation](../implementation/script.md). For [React](../implementation/react.md) or [Node.js/NPM package](../implementation/npm.md) implementations, you'll need to create your own button to launch the embed.
+This button customization option is only available when using the [standalone script tag implementation](../implementation/script.md). For [React](../implementation/react.md) or [Node.js/NPM package](../implementation/nodejs.md) implementations, you'll need to create your own button to launch the embed.
 {% endhint %}
 
 ```javascript
