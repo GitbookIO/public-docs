@@ -230,9 +230,29 @@ Custom AI tools to extend the Assistant. See [Creating custom tools](../configur
 
 ### `button`
 
-Configure the widget button (standalone script only).
+Configure the widget button that launches the embed (standalone script only). This allows you to customize the label and icon of the button that appears in the bottom-right corner of your page.
 
 - **Type**: `{ label: string, icon: 'assistant' | 'sparkle' | 'help' | 'book' }`
+- **Properties**:
+  - `label`: `string` - The text displayed on the button
+  - `icon`: `'assistant' | 'sparkle' | 'help' | 'book'` - The icon displayed on the button
+    - `assistant` - <i class="fa-gitbook-assistant">:gitbook-assistant:</i> Assistant icon
+    - `sparkle` - <i class="fa-sparkle">:sparkle:</i> Sparkle icon
+    - `help` - <i class="fa-circle-question">:circle-question:</i> Help/question icon
+    - `book` - <i class="fa-book-open">:book-open:</i> Book icon
+
+**Example:**
+
+```javascript
+window.GitBook('configure', {
+  button: {
+    label: 'Ask',
+    icon: 'assistant'
+  }
+});
+```
+
+**Note:** This option is only available when using the standalone script tag implementation. For React or Node.js implementations, you'll need to create your own button to trigger the embed.
 
 ### `visitor` (Authenticated Access)
 
