@@ -8,9 +8,13 @@ description: >-
 
 After [adding Docs Embed to your website or app](../implementation/README.md), you can further customize the experience by adding things like actionable buttons to the sidebar, suggestions to nudge your users with contextual questions, and more.
 
-### Customizing the button (standalone only)
+### Customizing the button ([standalone](../implementation/script.md) only)
 
-When using the standalone script tag implementation, you can customize the label and icon of the button that launches the embed widget.
+When using the [standalone script tag implementation](../implementation/script.md), you can customize the label and icon of the button that launches the embed widget.
+
+{% hint style="info" %}
+This button customization option is only available when using the [standalone script tag implementation](../implementation/script.md). For [React](../implementation/react.md) or [Node.js/NPM package](../implementation/npm.md) implementations, you'll need to create your own button to launch the embed.
+{% endhint %}
 
 ```javascript
 window.GitBook("configure", {
@@ -22,12 +26,11 @@ window.GitBook("configure", {
 ```
 
 **Available icon options:**
+
 - `assistant` - <i class="fa-gitbook-assistant">:gitbook-assistant:</i> Assistant icon (default)
 - `sparkle` - <i class="fa-sparkle">:sparkle:</i> Sparkle icon
 - `help` - <i class="fa-circle-question">:circle-question:</i> Help/question icon
 - `book` - <i class="fa-book-open">:book-open:</i> Book icon
-
-**Note:** This option is only available when using the standalone script tag implementation. For React or Node.js implementations, you'll need to create your own button to trigger the embed.
 
 ### Adding actions
 

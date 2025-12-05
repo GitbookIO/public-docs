@@ -2,9 +2,9 @@
 description: Add Docs Embed to any website with a simple script tag
 ---
 
-# Script tag
+# Standalone script tag
 
-The quickest way to add Docs Embed to your website or app is by adding it through a script tag. Every docs site in GitBook includes a ready-to-use script for embedding your docs as a widget.
+The quickest way to add Docs Embed to your website or app is by adding it through a "standalone" script tag. Every docs site in GitBook includes a ready-to-use script for embedding your docs as a widget.
 
 ## Steps
 
