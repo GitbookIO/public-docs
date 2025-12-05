@@ -23,6 +23,7 @@ You can customize and override the default configuration with custom actions, to
 
 {% stepper %}
 {% step %}
+
 ### Prerequisites
 
 Before embedding your docs, ensure:
@@ -30,10 +31,13 @@ Before embedding your docs, ensure:
 1. **Your docs are published** and accessible at a URL (e.g., `https://docs.company.com`).
 2. **You have retrieved the embed script URL** from your site settings (Settings → AI & MCP → Embed).
 
-**Note**: If you want to use the Assistant tab, [GitBook Assistant must be enabled](../gitbook-ai-assistant.md) for your docs site (Settings → AI & MCP).
+{% hint style="info" %}
+If you want to use the Assistant tab, [GitBook Assistant must be enabled](../gitbook-ai-assistant.md) for your docs site (Settings → AI & MCP).
+{% endhint %}
 {% endstep %}
 
 {% step %}
+
 ### Implementation
 
 Pick the approach that matches your setup:
@@ -47,12 +51,13 @@ If your docs use [Authenticated Access](../authenticated-access/README.md), foll
 {% endstep %}
 
 {% step %}
+
 ### Configuration
 
 - [Customizing the Embed](configuration/customizing-docs-embed.md) – Add welcome messages, custom actions, and suggestions
 - [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your product APIs
-{% endstep %}
-{% endstepper %}
+  {% endstep %}
+  {% endstepper %}
 
 ## Further reading
 
