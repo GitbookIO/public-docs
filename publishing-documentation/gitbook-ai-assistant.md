@@ -44,7 +44,7 @@ You can embed GitBook Assistant directly into your product or website, giving us
 
 Choose the embedding method that fits your stack:
 
-- [**Script tag**](./embedding/implementation/script.md) – Quick setup with a `<script>` tag
+- [**Standalone script tag**](./embedding/implementation/script.md) – Quick setup with a `<script>` tag
 - [**Node.js/NPM**](./embedding/implementation/nodejs.md) – Server-side or build-time integration
 - [**React component**](./embedding/implementation/react.md) – Prebuilt React components
 
