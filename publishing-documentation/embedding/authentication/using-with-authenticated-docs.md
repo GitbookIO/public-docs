@@ -19,6 +19,7 @@ When initializing the embed, pass the visitor token directly:
 
 {% tabs %}
 {% tab title="Standalone Script" %}
+
 ```html
 <script src="https://docs.company.com/~gitbook/embed/script.js"></script>
 <script>
@@ -30,9 +31,11 @@ When initializing the embed, pass the visitor token directly:
   window.GitBook("show");
 </script>
 ```
+
 {% endtab %}
 
 {% tab title="NPM Package" %}
+
 ```javascript
 import { createGitBook } from "@gitbook/embed";
 
@@ -48,9 +51,11 @@ iframe.src = gitbook.getFrameURL({
   },
 });
 ```
+
 {% endtab %}
 
 {% tab title="React Components" %}
+
 ```jsx
 <GitBookProvider siteURL="https://docs.company.com">
   <GitBookFrame
@@ -61,6 +66,7 @@ iframe.src = gitbook.getFrameURL({
   />
 </GitBookProvider>
 ```
+
 {% endtab %}
 {% endtabs %}
 
@@ -79,6 +85,9 @@ When a user signs in to your authenticated docs, GitBook stores a visitor token 
 3. Your app checks for the token
 4. If the token exists, load the embed and pass the token
 5. If the token doesn't exist, prompt the user to sign in
+
+{% tabs %}
+{% tab title="Standalone Script" %}
 
 ### Copy-paste snippet
 
@@ -161,6 +170,49 @@ If the token is missing, you can prompt users to sign in:
 </script>
 ```
 
+{% endtab %}
+{% tab title="NPM Package" %}
+
+When using the NPM package, check for the token before initializing:
+
+```javascript
+import { createGitBook } from "@gitbook/embed";
+
+function initializeEmbed() {
+  // Check for token in cookies
+  const getCookie = (name) => {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; ${name}=`);
+    if (parts.length === 2) return parts.pop().split(";").shift();
+  };
+
+  const token = getCookie("gitbook-visitor-token");
+
+  if (!token) {
+    console.warn("[Docs Embed] User must sign in first.");
+    return null;
+  }
+
+  const gitbook = createGitBook({
+    siteURL: "https://docs.example.com",
+  });
+
+  const iframe = document.createElement("iframe");
+  iframe.src = gitbook.getFrameURL({
+    visitor: { token: token },
+  });
+  const frame = gitbook.createFrame(iframe);
+
+  document.getElementById("embed-container").appendChild(iframe);
+  return frame;
+}
+
+initializeEmbed();
+```
+
+{% endtab %}
+{% tab title="React Components" %}
+
 ## Using with React
 
 For React apps, conditionally render the embed based on token presence:
@@ -202,44 +254,8 @@ function App() {
 }
 ```
 
-## Using with Node.js/NPM
-
-When using the NPM package, check for the token before initializing:
-
-```javascript
-import { createGitBook } from "@gitbook/embed";
-
-function initializeEmbed() {
-  // Check for token in cookies
-  const getCookie = (name) => {
-    const value = `; ${document.cookie}`;
-    const parts = value.split(`; ${name}=`);
-    if (parts.length === 2) return parts.pop().split(";").shift();
-  };
-
-  const token = getCookie("gitbook-visitor-token");
-
-  if (!token) {
-    console.warn("[Docs Embed] User must sign in first.");
-    return null;
-  }
-
-  const gitbook = createGitBook({
-    siteURL: "https://docs.example.com",
-  });
-
-  const iframe = document.createElement("iframe");
-  iframe.src = gitbook.getFrameURL({
-    visitor: { token: token },
-  });
-  const frame = gitbook.createFrame(iframe);
-
-  document.getElementById("embed-container").appendChild(iframe);
-  return frame;
-}
-
-initializeEmbed();
-```
+{% endtab %}
+{% endtabs %}
 
 ## Common pitfalls
 
