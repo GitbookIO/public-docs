@@ -74,8 +74,6 @@ iframe.src = gitbook.getFrameURL({
 
 If your docs site stores the visitor token in cookies (as `gitbook-visitor-token`), you can check for it before loading the embed.
 
-### How it works
-
 When a user signs in to your authenticated docs, GitBook stores a visitor token in their browser cookies under the key `gitbook-visitor-token`. The embed needs this token to fetch content from your docs.
 
 **The flow:**
@@ -212,8 +210,6 @@ initializeEmbed();
 
 {% endtab %}
 {% tab title="React Components" %}
-
-## Using with React
 
 For React apps, conditionally render the embed based on token presence:
 
