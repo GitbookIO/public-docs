@@ -226,3 +226,12 @@ redirects:
   publishing-documentation/gitbook-ai-assistant/customizing-gitbook-assistant: publishing-documentation/gitbook-ai-assistant/configuration/customizing-gitbook-assistant.md
   publishing-documentation/gitbook-ai-assistant/creating-custom-tools-for-gitbook-assistant: publishing-documentation/gitbook-ai-assistant/configuration/creating-custom-tools.md
   publishing-documentation/gitbook-ai-assistant/reference: publishing-documentation/gitbook-ai-assistant/configuration/reference.md
+  publishing-documentation/gitbook-ai-assistant/embedding: publishing-documentation/embedding.md
+  publishing-documentation/gitbook-ai-assistant/embedding/script: publishing-documentation/embedding/implementation/script.md
+  publishing-documentation/gitbook-ai-assistant/embedding/nodejs: publishing-documentation/embedding/implementation/nodejs.md
+  publishing-documentation/gitbook-ai-assistant/embedding/react: publishing-documentation/embedding/implementation/react.md
+  publishing-documentation/gitbook-ai-assistant/using-with-authenticated-docs: publishing-documentation/embedding/using-with-authenticated-docs.md
+  publishing-documentation/gitbook-ai-assistant/configuration: publishing-documentation/embedding/configuration.md
+  publishing-documentation/gitbook-ai-assistant/configuration/customizing-gitbook-assistant: publishing-documentation/embedding/configuration/customizing-gitbook-assistant.md
+  publishing-documentation/gitbook-ai-assistant/configuration/creating-custom-tools: publishing-documentation/embedding/configuration/creating-custom-tools.md
+  publishing-documentation/gitbook-ai-assistant/configuration/reference: publishing-documentation/embedding/configuration/reference.md
