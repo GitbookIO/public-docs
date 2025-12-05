@@ -114,7 +114,9 @@
   * [Testing with segments](publishing-documentation/adaptive-content/testing-with-segments.md)
 * [AI Search](publishing-documentation/ai-search.md)
 * [GitBook Assistant](publishing-documentation/gitbook-ai-assistant.md)
-* [Embedding](publishing-documentation/embedding/README.md)
+* [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
+* [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
+* [Embed in your product](publishing-documentation/embedding/README.md)
   * [Implementation](publishing-documentation/embedding/implementation/README.md)
     * [Script tag](publishing-documentation/embedding/implementation/script.md)
     * [Node.js/NPM](publishing-documentation/embedding/implementation/nodejs.md)
@@ -124,8 +126,6 @@
     * [Creating custom tools](publishing-documentation/embedding/configuration/creating-custom-tools.md)
     * [API Reference](publishing-documentation/embedding/configuration/reference.md)
   * [Authentication](publishing-documentation/embedding/authentication/using-with-authenticated-docs.md)
-* [LLM-ready docs](publishing-documentation/llm-ready-docs.md)
-* [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
 ## Collaboration
 

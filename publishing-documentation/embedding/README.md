@@ -4,9 +4,9 @@ description: >-
 icon: window-restore
 ---
 
-# Embedding
+# Embed in your product
 
-The Docs Embed is a powerful window into your product knowledge that you can add to any product or website. Users can immediately ask questions to the [GitBook Assistant](../gitbook-ai-assistant.md) or browse your docs directly, all without leaving your product. You can add a predefined button to open the Embed, customize it, or create your own implementation and control the embed programatically.
+The Docs Embed is a powerful window into your product knowledge that you can add to any product or website. Users can ask their questions to the [GitBook Assistant](../gitbook-ai-assistant.md) or browse your docs directly, without leaving your product. You can open the Embed with a button, put it in any component you want, or control it completely programatically.
 
 <div data-with-frame="true"><figure><img src="../../../.gitbook/assets/emebeddable_assistant.png" alt="Embed GitBook Assistant into your product or website"><figcaption><p>Embed your docs into your product or website</p></figcaption></figure></div>
 
