@@ -17,8 +17,8 @@ There are two approaches:
 
 When initializing the embed, pass the visitor token directly:
 
-### Standalone Script
-
+{% tabs %}
+{% tab title="Standalone Script" %}
 ```html
 <script src="https://docs.company.com/~gitbook/embed/script.js"></script>
 <script>
@@ -30,9 +30,9 @@ When initializing the embed, pass the visitor token directly:
   window.GitBook("show");
 </script>
 ```
+{% endtab %}
 
-### NPM Package
-
+{% tab title="NPM Package" %}
 ```javascript
 import { createGitBook } from "@gitbook/embed";
 
@@ -48,9 +48,9 @@ iframe.src = gitbook.getFrameURL({
   },
 });
 ```
+{% endtab %}
 
-### React Components
-
+{% tab title="React Components" %}
 ```jsx
 <GitBookProvider siteURL="https://docs.company.com">
   <GitBookFrame
@@ -61,6 +61,8 @@ iframe.src = gitbook.getFrameURL({
   />
 </GitBookProvider>
 ```
+{% endtab %}
+{% endtabs %}
 
 ## Approach 2: Cookie-based detection
 
@@ -116,7 +118,9 @@ Use this snippet to load the embed only after a user has signed in:
 </script>
 ```
 
-**Important:** Replace `docs.example.com` with your actual docs site URL.
+{% hint style="warning" %}
+Replace `docs.example.com` with your actual docs site URL.
+{% endhint %}
 
 ### Alternative: Prompt users to sign in
 
