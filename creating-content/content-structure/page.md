@@ -50,7 +50,13 @@ If you add subpages to an empty parent page, GitBook will automatically generate
 
 When you change the title of a page, the page’s slug (the part at the very end of the URL, e.g. `/hello-world`) will also change — unless you’ve manually set the page’s slug previously.
 
-You can change the title and the slug of a page at any time by clicking opening the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choosing **Rename**.
+You can change the title, link title and the slug of a page at any time by clicking opening the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choosing **Edit title & slug**.
+
+#### **Page link title**
+
+If you want your page to have a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, you can define a link title.&#x20;
+
+Open the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choose **Edit title & slug**. In the **Edit page** dialog, you'll find the option to enable and define a link title for that page.&#x20;
 
 #### Page groups
 
