@@ -58,6 +58,14 @@ If you want your page to have a longer SEO-friendly title while keeping a shorte
 
 Open the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choose **Edit title & slug**. In the **Edit page** dialog, you'll find the option to enable and define a link title for that page.&#x20;
 
+If you're using Git Sync, the page link title is set in the `SUMMARY.md` file on the page link:
+
+```markdown
+# Table of contents
+
+* [Page main title](page.md "Page link title")
+```
+
 #### Page groups
 
 With page groups, you can bring pages together into sections that cover related content.
