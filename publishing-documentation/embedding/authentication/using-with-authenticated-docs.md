@@ -4,7 +4,7 @@ description: >-
   tokens or using authenticated access
 ---
 
-# Using with authenticated docs
+# Authentication
 
 If your GitBook documentation requires authentication (e.g., visitor authentication via OIDC, Auth0, or a custom backend), the embed cannot access your docs content unless the user's authentication token is provided.
 
@@ -19,7 +19,6 @@ When initializing the embed, pass the visitor token directly:
 
 {% tabs %}
 {% tab title="Standalone Script" %}
-
 ```html
 <script src="https://docs.company.com/~gitbook/embed/script.js"></script>
 <script>
@@ -31,11 +30,9 @@ When initializing the embed, pass the visitor token directly:
   window.GitBook("show");
 </script>
 ```
-
 {% endtab %}
 
 {% tab title="NPM Package" %}
-
 ```javascript
 import { createGitBook } from "@gitbook/embed";
 
@@ -51,11 +48,9 @@ iframe.src = gitbook.getFrameURL({
   },
 });
 ```
-
 {% endtab %}
 
 {% tab title="React Components" %}
-
 ```jsx
 <GitBookProvider siteURL="https://docs.company.com">
   <GitBookFrame
@@ -66,7 +61,6 @@ iframe.src = gitbook.getFrameURL({
   />
 </GitBookProvider>
 ```
-
 {% endtab %}
 {% endtabs %}
 
@@ -86,8 +80,7 @@ When a user signs in to your authenticated docs, GitBook stores a visitor token 
 
 {% tabs %}
 {% tab title="Standalone Script" %}
-
-### Copy-paste snippet
+#### Copy-paste snippet
 
 Use this snippet to load the embed only after a user has signed in:
 
@@ -129,7 +122,7 @@ Use this snippet to load the embed only after a user has signed in:
 Replace `docs.example.com` with your actual docs site URL.
 {% endhint %}
 
-### Alternative: Prompt users to sign in
+#### Alternative: Prompt users to sign in
 
 If the token is missing, you can prompt users to sign in:
 
@@ -167,10 +160,9 @@ If the token is missing, you can prompt users to sign in:
   })();
 </script>
 ```
-
 {% endtab %}
-{% tab title="NPM Package" %}
 
+{% tab title="NPM Package" %}
 When using the NPM package, check for the token before initializing:
 
 ```javascript
@@ -207,10 +199,9 @@ function initializeEmbed() {
 
 initializeEmbed();
 ```
-
 {% endtab %}
-{% tab title="React Components" %}
 
+{% tab title="React Components" %}
 For React apps, conditionally render the embed based on token presence:
 
 ```jsx
@@ -249,17 +240,16 @@ function App() {
   );
 }
 ```
-
 {% endtab %}
 {% endtabs %}
 
 ## Common pitfalls
 
-- **Loading the embed before sign-in** – Always check for the token before loading the script or components, or pass the token directly when initializing.
-- **Token not persisting across domains** – Cookies don't persist across different domains due to browser security policies. Your app and docs must be on the same domain or subdomain, or pass the token directly.
-- **Token expired** – Tokens can expire. If the embed returns authentication errors, prompt users to sign in again.
-- **Using wrong cookie name** – The token is stored as `gitbook-visitor-token`, not `gitbook-token` or other variations.
-- **Not passing token to init/getFrameURL** – When using the cookie-based approach, make sure to pass the token to `GitBook('init', ..., { visitor: { token } })` or `getFrameURL({ visitor: { token } })`.
+* **Loading the embed before sign-in** – Always check for the token before loading the script or components, or pass the token directly when initializing.
+* **Token not persisting across domains** – Cookies don't persist across different domains due to browser security policies. Your app and docs must be on the same domain or subdomain, or pass the token directly.
+* **Token expired** – Tokens can expire. If the embed returns authentication errors, prompt users to sign in again.
+* **Using wrong cookie name** – The token is stored as `gitbook-visitor-token`, not `gitbook-token` or other variations.
+* **Not passing token to init/getFrameURL** – When using the cookie-based approach, make sure to pass the token to `GitBook('init', ..., { visitor: { token } })` or `getFrameURL({ visitor: { token } })`.
 
 ## Debugging
 
@@ -273,6 +263,6 @@ If this returns `undefined`, the user hasn't signed in to your docs yet.
 
 ## Next steps
 
-- [Customizing the Embed](../configuration/customizing-docs-embed.md) – Add welcome messages and actions
-- [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs
-- [Docs Embed documentation](../README.md) – Complete embedding guide
+* [Customizing the Embed](../configuration/customizing-docs-embed.md) – Add welcome messages and actions
+* [Creating custom tools](../configuration/creating-custom-tools.md) – Integrate with your product APIs
+* [Docs Embed documentation](../) – Complete embedding guide

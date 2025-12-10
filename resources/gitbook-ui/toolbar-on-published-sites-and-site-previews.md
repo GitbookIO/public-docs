@@ -1,5 +1,7 @@
 ---
-icon: screwdriver-wrench
+description: >-
+  Learn more about the toolbar that appears on your published site when you’re
+  logged into GitBook
 ---
 
 # Toolbar on published sites and site previews
@@ -15,7 +17,7 @@ When viewing your live docs site, you may see a toolbar appear at the bottom of 
 The toolbar is **only visible to logged-in members of your GitBook organization**. Site visitors who are not members of your GitBook organization **will not see the toolbar**.
 {% endhint %}
 
-You will also see a slightly different version of the toolbar when you [open a preview URL for your site](../../collaboration/change-requests.md#preview-a-change-request) from the GitBook app, allowing you to jump back into the app to add feedback or continue editing.
+You will also see a slightly different version of the toolbar when you [open a preview URL for your site](../../collaboration/change-requests/#preview-a-change-request) from the GitBook app, allowing you to jump back into the app to add feedback or continue editing.
 
 #### When does the toolbar appear?
 
@@ -23,7 +25,7 @@ You will see the toolbar in the following situations:
 
 * Viewing your live site while logged into GitBook
 * Previewing earlier versions of your site through your [version history](../../creating-content/version-control.md)
-* Previewing links for proposed changes, such as in a [change request](../../collaboration/change-requests.md) created in GitBook or a pull request created through [Git Sync](../../getting-started/git-sync/github-pull-request-preview.md)
+* Previewing links for proposed changes, such as in a [change request](../../collaboration/change-requests/) created in GitBook or a pull request created through [Git Sync](../../getting-started/git-sync/github-pull-request-preview.md)
 
 #### Can I hide the toolbar?
 

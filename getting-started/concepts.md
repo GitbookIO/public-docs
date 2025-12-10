@@ -7,7 +7,7 @@ icon: lightbulb
 
 # Concepts
 
-<div data-full-width="false"><figure><img src="../.gitbook/assets/14_11_25_editor_block_illustration@2x.png" alt="An illustration showing the block palette open in the GitBook editor. The window is floating on a pastel yellow and pink background"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><picture><source srcset="../.gitbook/assets/Editor and block palette (1).png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Editor and block palette.png" alt="An illustration showing the block palette open in the GitBook editor. The window is floating on a pastel yellow and pink background"></picture><figcaption></figcaption></figure></div>
 
 ## Organizing content
 

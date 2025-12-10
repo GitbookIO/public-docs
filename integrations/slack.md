@@ -5,7 +5,7 @@ description: >-
 hidden: true
 noIndex: true
 icon: slack
-cover: broken-reference
+cover: /broken/files/9EYPyQrvAZ8Ttz4BdLwU
 coverY: 0
 ---
 

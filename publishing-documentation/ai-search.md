@@ -56,5 +56,9 @@ Multi-space search is only available when viewing published spaces that live as 
 {% endhint %}
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-* Click the **GitBook Assistant** <picture><source srcset="../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/gitbook-assistant.svg" alt=""></picture> button next to the **Ask or search…** bar
+*   Click the **GitBook Assistant**&#x20;
+
+    <picture><source srcset="../.gitbook/assets/gitbook-assistant-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/gitbook-assistant.svg" alt=""></picture>
+
+    &#x20;button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.

@@ -38,7 +38,6 @@ Powered by [Scalar](https://scalar.com/), you won't need to leave the docs in or
 If you added you specification via URL, your API must [allow cross-origin](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin) GET requests from your docs site. In your API’s CORS settings, allow the exact origin where your docs are hosted (e.g., `https://your-site.gitbook.io` or `https://docs.example.com`). \
 \
 If your endpoint is public and doesn’t use credentials, you can also return: `Access-Control-Allow-Origin: *`\
-\
-
+<br>
 
 </details>

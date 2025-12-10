@@ -8,7 +8,7 @@ description: >-
 
 {% include "../../.gitbook/includes/ultimate-hint.md" %}
 
-<figure><img src="../../.gitbook/assets/14_03_25_site_sections_published.jpg" alt="A GitBook screenshot showing site sections on a docs site"><figcaption><p>Example of a GitBook site with site sections</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/site_sections@2x.png" alt="A GitBook screenshot showing site sections on a docs site"><figcaption><p>Example of a GitBook site with site sections</p></figcaption></figure>
 
 With site sections, you can centralize all your documentation and create a seamless experience for your users.
 
@@ -30,7 +30,7 @@ From your docs site’s dashboard, open the **Settings** tab in the site header,
 
 To add a site section, click the **New section** button underneath the table and choose a space to link as a section. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
 
-<figure><img src="../../.gitbook/assets/18_07_25_publishing-documentation-site-structure_sections.svg" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/structure tree@2x.png" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with site sections.</p></figcaption></figure>
 
 ### Create a site section group
 

@@ -6,7 +6,7 @@ description: Organize the content you create and publish into spaces
 
 A space is a project that lets you work on a collection of related pages. They allow you to write content, organize pages, add integrations and more.
 
-<figure><img src="../../.gitbook/assets/10_01_25_space_sidebar.svg" alt="A GitBook screenshot showing the spaces sidebar"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/creating-content-content-structure-space@2x.png" alt="A GitBook screenshot showing the spaces sidebar"><figcaption></figcaption></figure>
 
 ### Create a space
 

@@ -11,7 +11,7 @@ icon: repeat
 
 Reusable content lets you sync content across multiple pages and spaces, so you can edit all instances of the block at the same time.
 
-<figure><img src="../.gitbook/assets/04_02_25_reusable_content.svg" alt="A GitBook screenshot showing reusable content"><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/creating-content-reusable-content@2x.png" alt="A GitBook screenshot showing reusable content"><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
 
 ## Fundamentals
 
@@ -53,7 +53,7 @@ You will also find the reusable content panel in the pages sidebar, where you ca
 
 ### **Edit reusable content**
 
-Reusable content is like any other content — you can edit any instance directly if [live edits](../collaboration/live-edits.md) are enabled, or through [a change request](../collaboration/change-requests.md) if not. Any changes you make will be synced everywhere the content is used.
+Reusable content is like any other content — you can edit any instance directly if [live edits](../collaboration/live-edits.md) are enabled, or through [a change request](../collaboration/change-requests/) if not. Any changes you make will be synced everywhere the content is used.
 
 If you’re making changes inside a change request, the content will be synced to all other instances once that change request is merged.
 

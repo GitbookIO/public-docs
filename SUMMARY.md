@@ -1,12 +1,12 @@
 # Table of contents
 
-## Getting Started
+## Get Started <a href="#getting-started" id="getting-started"></a>
 
 * [GitBook documentation](README.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Concepts](getting-started/concepts.md)
 * [Migrate to GitBook](getting-started/import.md)
-* [AI-native features](getting-started/ai-documentation.md)
+* [AI-native documentation](getting-started/ai-documentation.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
   * [Enabling GitHub Sync](getting-started/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](getting-started/git-sync/enabling-gitlab-sync.md)
@@ -16,7 +16,7 @@
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
 
-## Creating Content
+## Create <a href="#creating-content" id="creating-content"></a>
 
 * [Formatting your content](creating-content/formatting/README.md)
   * [Inline content](creating-content/formatting/inline.md)
@@ -57,12 +57,32 @@
 * [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
-* [Writing with GitBook AI](creating-content/write-and-edit-with-ai.md)
 * [Version control](creating-content/version-control.md)
-* [Translations](creating-content/translations.md)
 * [Broken links](creating-content/broken-links.md)
 
-## API References
+## GitBook Agent
+
+* [What is GitBook Agent?](gitbook-agent/what-is-gitbook-agent.md)
+* [Automatic documentation suggestions](gitbook-agent/automatic-documentation-suggestions/README.md)
+  * [Connecting a source](gitbook-agent/automatic-documentation-suggestions/connecting-a-source.md)
+  * [Exploring your data](gitbook-agent/automatic-documentation-suggestions/exploring-your-data.md)
+* [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
+* [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
+* [Translations](gitbook-agent/translations.md)
+
+## Collaborate <a href="#collaboration" id="collaboration"></a>
+
+* [Inviting your team](collaboration/share.md)
+* [Change requests](collaboration/change-requests/README.md)
+  * [Change requests screen](collaboration/change-requests/change-requests-screen.md)
+  * [Change requests in a space](collaboration/change-requests/change-requests-in-a-space.md)
+* [Merge rules](collaboration/merge-rules.md)
+* [Comments](collaboration/comments.md)
+* [Notifications](collaboration/notifications.md)
+* [PDF export](collaboration/pdf-export.md)
+* [Live edits](collaboration/live-edits.md)
+
+## Document an API <a href="#api-references" id="api-references"></a>
 
 * [OpenAPI](api-references/openapi/README.md)
   * [Add an OpenAPI specification](api-references/openapi/add-an-openapi-specification.md)
@@ -76,7 +96,7 @@
   * [Integrating with CI/CD](api-references/guides/support-for-ci-cd-with-api-blocks.md)
 * [Extensions reference](api-references/extensions-reference.md)
 
-## Publishing Documentation
+## Publish Documentation <a href="#publishing-documentation" id="publishing-documentation"></a>
 
 * [Publish a docs site](publishing-documentation/publish-a-docs-site/README.md)
   * [Public publishing](publishing-documentation/publish-a-docs-site/public-publishing.md)
@@ -127,17 +147,6 @@
     * [Creating custom tools](publishing-documentation/embedding/configuration/creating-custom-tools.md)
     * [API Reference](publishing-documentation/embedding/configuration/reference.md)
 
-## Collaboration
-
-* [Live edits](collaboration/live-edits.md)
-* [Change requests](collaboration/change-requests.md)
-* [AI change requests](collaboration/ai-change-requests.md)
-* [PDF export](collaboration/pdf-export.md)
-* [Inviting your team](collaboration/share.md)
-* [Merge rules](collaboration/merge-rules.md)
-* [Comments](collaboration/comments.md)
-* [Notifications](collaboration/notifications.md)
-
 ## Integrations
 
 * [Install and manage integrations](integrations/install-an-integration.md)
@@ -170,6 +179,6 @@
 ## Resources
 
 * [GitBook UI](resources/gitbook-ui/README.md)
-  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md)
+  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)

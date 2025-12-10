@@ -28,7 +28,7 @@ Once GitBook AI is enabled, open the **Ask or search** <picture><source srcset="
 
 #### How long does it take for GitBook AI to index changes?
 
-When someone makes a change to your content — such as a merged [change request](../../collaboration/change-requests.md) — it can take **up to one hour** for GitBook to index the changes to and reflect them in AI search results.
+When someone makes a change to your content — such as a merged [change request](../../collaboration/change-requests/) — it can take **up to one hour** for GitBook to index the changes to and reflect them in AI search results.
 
 #### How does GitBook AI handle my data?
 

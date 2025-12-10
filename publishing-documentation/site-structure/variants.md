@@ -8,7 +8,7 @@ description: >-
 
 You can publish multiple versions of the same documentation as part of a single docs site. These variants will be available to the end users via the space switcher in the top-left corner of the published site.
 
-<figure><img src="../../.gitbook/assets/18_07_25_publishing-documentation-site-structure.svg" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Adding a section@2x.png" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption></figcaption></figure>
 
 ### Add multiple languages or versions
 

@@ -56,7 +56,7 @@ Commenters have the same read-only access as readers, but they’re also able to
 
 <summary>Editor</summary>
 
-Editors are able to read and comment, just like a commenter, but they’re also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../collaboration/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../collaboration/change-requests.md). Editors cannot merge change requests.
+Editors are able to read and comment, just like a commenter, but they’re also able to edit content in a couple of ways. Firstly, for spaces that are **open** for [live edits](../../collaboration/live-edits.md), editors can edit the content directly. Secondly, for spaces that have live edits **locked**, editors can create and submit [change requests](../../collaboration/change-requests/). Editors cannot merge change requests.
 
 </details>
 

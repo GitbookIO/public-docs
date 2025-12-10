@@ -44,8 +44,7 @@ Start by creating a new application in your Auth0 platform dashboard. This appli
 4. Under the **Choose an application type,** select **Regular Web Applications**.
 5. In the **Quickstart** screen of the newly created app, select **Node.js (Express)** and then **I want to integrated my app**.
 6.  You should then see a configuration screen like below.\
-    Click **Save Settings And Continue**.\
-
+    Click **Save Settings And Continue**.<br>
 
     <figure><img src="../../.gitbook/assets/auth0_app_configure_screen.png" alt=""><figcaption></figcaption></figure>
 7. Click on the **Settings** tab.
@@ -60,18 +59,15 @@ Please ensure that you have **at least one connection enabled** for your Auth0 a
 Once you've created the Auth0 application, the next step is to install the Auth0 integration in GitBook and link it with your Auth0 application using the credentials you generated earlier:
 
 1. Navigate to the site where you've enabled authenticated access and want to use Auth0 as the identity provider.
-2.  Click on the **Integrations** button in the top right from your site’s settings.\
-
+2.  Click on the **Integrations** button in the top right from your site’s settings.<br>
 
     <figure><img src="../../.gitbook/assets/va_site_integration_overview_screen.png" alt=""><figcaption></figcaption></figure>
 3. Click on **Authenticated Access** from the categories in the sidebar.
 4. Select the **Auth0** integration.
-5.  Click **Install on this site**.\
-
+5.  Click **Install on this site**.<br>
 
     <figure><img src="../../.gitbook/assets/auth0_install_integration.png" alt=""><figcaption></figcaption></figure>
-6.  After installing the integration on your site, you should see the integration's configuration screen:\
-
+6.  After installing the integration on your site, you should see the integration's configuration screen:<br>
 
     <figure><img src="../../.gitbook/assets/auth0_configure_integration.png" alt=""><figcaption></figcaption></figure>
 7. Enter the **Domain**, **Client ID** and **Client Secret** values you copied after creating the Auth0 application earlier. For Auth0 Domain, enter the Domain copied from Auth0 (make sure to prefix it with `https://`).

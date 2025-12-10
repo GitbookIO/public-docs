@@ -20,14 +20,14 @@ The first page in your table of contents is always your space's landing page, ev
 
 ### Create a new page
 
-When in [live edit](../../collaboration/live-edits.md) mode or in a [change request](../../collaboration/change-requests.md), you can create a new page by clicking **Add new...** > **Page** at the bottom of your table of contents. Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
+When in [live edit](../../collaboration/live-edits.md) mode or in a [change request](../../collaboration/change-requests/), you can create a new page by clicking **Add new...** > **Page** at the bottom of your table of contents. Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
 
-<figure><img src="../../.gitbook/assets/04_02_25_page.svg" alt="A GitBook screenshot showing an empty page listed in the table of contents"><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/creating-content-content-structure-page@2x (1).png" alt="A GitBook screenshot showing an empty page listed in the table of contents"><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
 
 ### Can’t see the option to create a new page?
 
 {% hint style="warning" %}
-If [live edits](../../collaboration/live-edits.md) are disabled for your space, you’ll need to create or edit a [change request](../../collaboration/change-requests.md). Once you’re in a change request, the **New page** button (which allows you to create pages, page groups and links) will be available in the table of contents.
+If [live edits](../../collaboration/live-edits.md) are disabled for your space, you’ll need to create or edit a [change request](../../collaboration/change-requests/). Once you’re in a change request, the **New page** button (which allows you to create pages, page groups and links) will be available in the table of contents.
 
 Alternatively, you may not have the correct [permissions](../../account-management/member-management/permissions-and-inheritance.md) to edit a page.
 {% endhint %}
@@ -54,7 +54,7 @@ You can change the title, link title and the slug of a page at any time by click
 
 #### **Page link title**
 
-If you want your page to have a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, you can define a link title.&#x20;
+If you want your page to have a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, you can optionally define a link title.&#x20;
 
 Open the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choose **Edit title & slug**. In the **Edit page** dialog, you'll find the option to enable and define a link title for that page.&#x20;
 
@@ -65,6 +65,12 @@ If you're using Git Sync, the page link title is set in the `SUMMARY.md` file on
 
 * [Page main title](page.md "Page link title")
 ```
+
+{% hint style="info" %}
+**Note:** Page link titles are used in the table of contents, the pagination buttons at the bottom of each page, and in any relative links you add to that page.&#x20;
+{% endhint %}
+
+Page link titles are optional — if you don’t manually add one, your page will use the page’s standard title by default.
 
 #### Page groups
 

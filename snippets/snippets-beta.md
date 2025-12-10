@@ -16,7 +16,7 @@ The Snippets feature is no longer maintained in GitBook and is subject to change
 This feature is available as part of the Pro plan and Enterprise plan. To find out more, [visit our pricing page](https://www.gitbook.com/pricing).
 {% endhint %}
 
-In GitBook, you can capture unstructured information using [integrations](broken-reference), and GitBook AI will turn it into a **snippet** — a structured page of information that’s easy to read and digest. You can also create snippets manually within the app.&#x20;
+In GitBook, you can capture unstructured information using [integrations](broken-reference/), and GitBook AI will turn it into a **snippet** — a structured page of information that’s easy to read and digest. You can also create snippets manually within the app.
 
 GitBook will index all of your snippets alongside the rest of your content and can reference them when you or your team [searches for information](../creating-content/searching-your-content/). You can also merge snippets into existing docs or content to keep everything up to date.
 
@@ -34,7 +34,7 @@ You can create snippets in GitBook in different ways, depending on the tool you�
 
 #### Create a snippet from a third-party tool
 
-You can capture snippets from third-party tools using integrations. Depending on the tool you’re using, you can add snippets in different ways. Find out more about capturing snippets in third-party tools in [the integrations section](broken-reference).&#x20;
+You can capture snippets from third-party tools using integrations. Depending on the tool you’re using, you can add snippets in different ways. Find out more about capturing snippets in third-party tools in [the integrations section](broken-reference/).
 
 Every snippet you add to your organization will end up in the **Snippets** page, along with information about it — such as its source, author, and when it was created.
 
@@ -56,7 +56,7 @@ You can share a snippet with others as a direct link to the organization it’s 
 
 You can convert a snippet to a full page within your documentation. To do this, open a snippet and choose **Convert to page** in the top-right corner.
 
-You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../collaboration/change-requests.md) if you select a space [with locked live edits](../collaboration/live-edits.md).
+You’ll be prompted to choose a space for your page — you can use the drop-down menu to search for a space or scroll. When you select a space, GitBook will add the content of the snippet as a new page, or [open a change request](../collaboration/change-requests/) if you select a space [with locked live edits](../collaboration/live-edits.md).
 
 {% hint style="info" %}
 **Note:** When you convert a snippet to the page, GitBook will automatically archive the snippet. If you’ve linked to the snippet using [an inline link](../creating-content/formatting/inline.md#links) or [a snippet block](../creating-content/blocks/snippets.md), the links will still work but will take readers to the original snippet, not the new page.

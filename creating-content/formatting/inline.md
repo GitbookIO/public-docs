@@ -4,7 +4,7 @@ description: Use the inline palette to add images, links, math & TeX, and more
 
 # Inline content
 
-<figure><img src="../../.gitbook/assets/10_01_25_inline_content.svg" alt="A GitBook screenshot showing inline content options"><figcaption><p>Add inline elements to your content.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/creating-content-formatting-your-content-inline@2x.png" alt="A GitBook screenshot showing inline content options"><figcaption><p>Add inline elements to your content.</p></figcaption></figure>
 
 The inline palette lets you quickly add extra content to your text block without moving your hands away from the keyboard. Simply hit `/` on any text block to open the inline palette. The forward slash will be replaced by the content you choose to insert.
 

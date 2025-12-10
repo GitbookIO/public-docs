@@ -5,7 +5,7 @@ icon: user-plus
 
 # Inviting your team
 
-<figure><img src="../.gitbook/assets/10_01_25_invite_team.svg" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/collaboration-invite-team@2x.png" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
 
 ### Sharing a space or collection
 

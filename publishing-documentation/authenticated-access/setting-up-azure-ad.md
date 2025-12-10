@@ -47,16 +47,13 @@ Start by creating an app registration in your Microsoft Entra ID dashboard. This
 3. Click on **+ New registration,** and give your registration a name.
 4. Under **Supported account types,** select “**Accounts in this organizational directory only (Default Directory only - Single tenant)”**.
 5. Leave the Redirect URI field empty for now—you will need to fill this in later.
-6.  Click **Register** to complete the app registration.\
-
+6.  Click **Register** to complete the app registration.<br>
 
     <figure><img src="../../.gitbook/assets/azure_ad_integration_register_app.png" alt="An Azure screenshot showing how to register an Azure AD app"><figcaption><p>Register an app for the GitBook VA integration.</p></figcaption></figure>
-7.  You should then see your new app registration **Overview** screen. Copy and make note of the **Application (client) ID** and **Directory (tenant) ID**.\
-
+7.  You should then see your new app registration **Overview** screen. Copy and make note of the **Application (client) ID** and **Directory (tenant) ID**.<br>
 
     <figure><img src="../../.gitbook/assets/azure_ad_integration_app_reg_overview.png" alt="An Azure screenshot showing the app registration overview"><figcaption><p>Overview of the newly created app registration.</p></figcaption></figure>
-8.  Click on **Add a certificate or secret**. You should see the following **Certificates & Secrets** screen:\
-
+8.  Click on **Add a certificate or secret**. You should see the following **Certificates & Secrets** screen:<br>
 
     <figure><img src="../../.gitbook/assets/azure_ad_integration_client_secrets.png" alt="An Azure screenshot showing where to add a certificate or secret"><figcaption><p>Add a certificate or secret.</p></figcaption></figure>
 9. Click on **+ New client secret**.
@@ -68,38 +65,32 @@ Start by creating an app registration in your Microsoft Entra ID dashboard. This
 Once you've created the Azure AD app registration, the next step is to install the Azure AD integration in GitBook and link it with your Azure application using the credentials you generated earlier:
 
 1. Navigate to the site where you’ve [enabled authenticated access](enabling-authenticated-access.md#enable-authenticated-access) and want to use Azure AD as the identity provider.
-2.  Click on the **Integrations** button in the top right from your site’s settings.\
-
+2.  Click on the **Integrations** button in the top right from your site’s settings.<br>
 
     <figure><img src="../../.gitbook/assets/va_site_integration_overview_screen.png" alt="A GitBook screenshot showing the site settings overview"><figcaption></figcaption></figure>
 3. Click on **Authenticated Access** from the categories in the sidebar.
 4. Select the **Azure** integration.
-5.  Click **Install on this site**.\
-
+5.  Click **Install on this site**.<br>
 
     <figure><img src="../../.gitbook/assets/azure_ad_install_on_site_screen.png" alt="A GitBook screenshot showing installation of the Azure AD integration"><figcaption></figcaption></figure>
-6.  After installing the integration on your site, you should see the integration's configuration screen:\
-
+6.  After installing the integration on your site, you should see the integration's configuration screen:<br>
 
     <figure><img src="../../.gitbook/assets/azure_ad_config_dialog.png" alt="A GitBook screenshot showing the Azure AD configuration dialog"><figcaption></figcaption></figure>
 7. Enter the **Client ID**, **Tenant ID**, and **Client Secret** values you copied after [creating the Azure AD app registration](setting-up-azure-ad.md#id-1.-create-an-app-registration-in-azure-a-d) earlier, and click “Save”.
 8. Copy the **URL** displayed **at the bottom of the dialog**.
 9. Head back to the Azure AD app registration you created earlier in the Microsoft Entra ID dashboard.
 10. Browse to **Manage** > **Authentication** in the sidebar.
-11. Click **+ Add a platform** and select **Web** card in the panel that opens.\
-
+11. Click **+ Add a platform** and select **Web** card in the panel that opens.<br>
 
     <figure><img src="../../.gitbook/assets/azure_ad_app_reg_authentication.png" alt="An Azure screenshot showing authentication platform settings"><figcaption></figcaption></figure>
-12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”\
-
+12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”<br>
 
     <figure><img src="../../.gitbook/assets/image (1).png" alt="An Azure screenshot showing where to enter the redirect URI"><figcaption></figcaption></figure>
 13. Head back to **Azure integration** installation screen **in GitBook**.
 14. Close the integration dialogs and click on the **Settings** tab in the site screen.
 15. Browse to **Audience** and select **Authenticated access** (if not already selected).
 16. Select **Azure** from the dropdown in the **Authentication backend** section.
-17. Click **Update audience**.\
-
+17. Click **Update audience**.<br>
 
     <figure><img src="../../.gitbook/assets/Screenshot 2025-03-24 at 18.41.45.png" alt="A GitBook screenshot showing authenticated access settings"><figcaption></figcaption></figure>
 18. Head to the site's overview screen and click **Publish** if the site is not already published.

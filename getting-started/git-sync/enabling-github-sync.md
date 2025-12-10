@@ -8,7 +8,7 @@ description: Set up and authorize the GitHub integration for GitBook
 
 In the space you want to sync with your GitHub repo, head to the [space header](../../resources/gitbook-ui/#space-header) in the top right, and select **Configure**. From the provider list, select **GitHub Sync**.
 
-<figure><img src="../../.gitbook/assets/10_01_25_git_sync_github.svg" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Enabling GitHub Sync@2x.png" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
 
 ### Authenticate with GitHub
 
@@ -49,7 +49,7 @@ When syncing for the first time, you’ll have the option to sync in one of two 
 
 ### Write and commit
 
-You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows us to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests.md) in GitBook.
+You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows us to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests/) in GitBook.
 
 When you edit on GitBook, every change request merge will result in a commit to your selected GitHub branch.
 

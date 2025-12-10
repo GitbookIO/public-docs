@@ -1,13 +1,13 @@
 ---
-icon: code-pull-request
 description: >-
   Synchronize your GitBook content with GitHub or GitLab with GitBook’s
   bi-directional integration
+icon: code-pull-request
 ---
 
 # GitHub & GitLab Sync
 
-<figure><img src="../../.gitbook/assets/10_01_25_git_sync.svg" alt="A GitBook screenshot showing the Git Sync setup" ><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Git Sync@2x.png" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
 
 ### Overview
 

@@ -7,7 +7,7 @@ icon: square-dashed-circle-plus
 
 GitBook is a block-based editor, meaning you can add different kinds of blocks to your content — from standard text and images to interactive blocks. Your pages can include any combination of blocks you want, and there’s no limit to the number of blocks you can have on a page.
 
-<figure><img src="../../.gitbook/assets/10_01_25_content_blocks.svg" alt="A GitBook screenshot showing the available content blocks"><figcaption><p>GitBook's built in content blocks.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/creating-content-blocks@2x (1).png" alt="A GitBook screenshot showing the available content blocks"><figcaption><p>GitBook's built in content blocks.</p></figcaption></figure>
 
 ### Inserting a new content block
 

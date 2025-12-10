@@ -1,8 +1,8 @@
 ---
 description: >-
-  Auto-translate your content into multiple languages using AI and keep it
-  synced
-icon: language
+  Auto-translate your content into multiple languages using GitBook’s AI Agent
+  and keep it synced
+icon: earth-americas
 ---
 
 # Translations
@@ -11,9 +11,9 @@ icon: language
 Auto translations are currently in Beta. Let us know if you have any feedback or encounter any issues.
 {% endhint %}
 
-Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a space as a translation of another, and let AI handle the rest.
+Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a space as a translation of another, and let GitBook Agent handle the rest.
 
-<figure><img src="../.gitbook/assets/15_08_25_auto_translations.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Create translation@2x.png" alt=""><figcaption></figcaption></figure>
 
 ## How translations work
 
@@ -23,7 +23,7 @@ Auto translations make it easy to keep your documentation up-to-date in multiple
 
 ## Set up an auto translation
 
-To translate a space to a new language, start by creating a new [space](content-structure/space.md#create-a-space) in your organization. From the modal that appears, click “Translation” from the quick actions menu.
+To translate a space to a new language, start by creating a new [space](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
 
 From the modal that appears, you’ll need to choose a:
 
@@ -63,7 +63,7 @@ Head to your site settings, under the structure tab to set up a new variant for 
 
 ## Pricing
 
-Translations are a paying **monthly** add-on:
+Translations are a paid **monthly** add-on:
 
 * $25 for up to 50,000 translated words
 * $0.20 per additional 1,000 words

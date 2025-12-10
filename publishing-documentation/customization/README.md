@@ -22,7 +22,7 @@ Select the whole site or a specific site section using the drop-down menu at the
 * **Site-wide settings** – These automatically apply to all linked spaces.
 * **Section or variant specific settings** – If you’re using site sections or variants, you’re can set specific customization that will override the default site-wise setting.
 
-<figure><img src="../../.gitbook/assets/19_02_2025_site_customization.svg" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/customization@2x.png" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.

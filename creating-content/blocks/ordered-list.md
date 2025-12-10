@@ -39,7 +39,7 @@ If you want to add an image within an ordered list, add it using the insert menu
 1. Item 1
 2. Item 2
 
-![](../../.gitbook/assets/14_03_25_site_sections_published.jpg)
+<div align="left"><figure><img src="../../.gitbook/assets/Example image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 3. Item 3
 4. Item 4

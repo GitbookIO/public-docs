@@ -1,7 +1,5 @@
 ---
-description: >-
-  Integrate Docs Embed using the NPM package for full application-level
-  control
+description: Integrate Docs Embed using the NPM package for full application-level control
 ---
 
 # Node.js/NPM
@@ -12,7 +10,7 @@ If you need more control and want to work at the application level, you can inst
 
 {% stepper %}
 {% step %}
-### Install the package
+#### Install the package
 
 Add `@gitbook/embed` to your project:
 
@@ -24,7 +22,7 @@ For the complete API reference and source code, see the [`@gitbook/embed` packag
 {% endstep %}
 
 {% step %}
-### Import the package
+#### Import the package
 
 In your application code, import the `createGitBook` function:
 
@@ -40,7 +38,7 @@ const { createGitBook } = require("@gitbook/embed");
 {% endstep %}
 
 {% step %}
-### Initialize GitBook
+#### Initialize GitBook
 
 Create a GitBook instance with your docs site URL:
 
@@ -52,7 +50,7 @@ const gitbook = createGitBook({
 {% endstep %}
 
 {% step %}
-### Create an iframe
+#### Create an iframe
 
 Generate an iframe element and set its source to the embed URL:
 
@@ -75,7 +73,7 @@ iframe.style.height = "600px";
 {% endstep %}
 
 {% step %}
-### Attach the frame
+#### Attach the frame
 
 Create a GitBook frame instance and mount it to your page:
 
@@ -86,7 +84,7 @@ document.getElementById("gitbook-embed-container").appendChild(iframe);
 {% endstep %}
 
 {% step %}
-### Control the embed programmatically
+#### Control the embed programmatically
 
 Use the frame instance to interact with the embed:
 
@@ -106,7 +104,7 @@ frame.clearChat();
 {% endstep %}
 
 {% step %}
-### Configure the embed
+#### Configure the embed
 
 Configure the embed with customization options:
 
@@ -128,7 +126,7 @@ frame.configure({
 {% endstep %}
 
 {% step %}
-### Listen to events
+#### Listen to events
 
 Register event listeners to respond to embed events:
 
@@ -149,18 +147,18 @@ const unsubscribe = frame.on('navigate', (data) => {
 
 ### Client Factory
 
-- `createGitBook(options: { siteURL: string })` → `GitBookClient`
-- `client.getFrameURL(options?: { visitor?: {...} })` → `string` - Get the iframe URL with optional authenticated access
-- `client.createFrame(iframe: HTMLIFrameElement)` → `GitBookFrameClient` - Create a frame client to communicate with the iframe
+* `createGitBook(options: { siteURL: string })` → `GitBookClient`
+* `client.getFrameURL(options?: { visitor?: {...} })` → `string` - Get the iframe URL with optional authenticated access
+* `client.createFrame(iframe: HTMLIFrameElement)` → `GitBookFrameClient` - Create a frame client to communicate with the iframe
 
 ### Frame Client Methods
 
-- `frame.navigateToPage(path: string)` → `void` - Navigate to a specific page in the docs tab
-- `frame.navigateToAssistant()` → `void` - Switch to the assistant tab
-- `frame.postUserMessage(message: string)` → `void` - Post a message to the chat
-- `frame.clearChat()` → `void` - Clear chat history
-- `frame.configure(settings: Partial<GitBookEmbeddableConfiguration>)` → `void` - Configure the embed
-- `frame.on(event: string, listener: Function)` → `() => void` - Register event listener (returns unsubscribe function)
+* `frame.navigateToPage(path: string)` → `void` - Navigate to a specific page in the docs tab
+* `frame.navigateToAssistant()` → `void` - Switch to the assistant tab
+* `frame.postUserMessage(message: string)` → `void` - Post a message to the chat
+* `frame.clearChat()` → `void` - Clear chat history
+* `frame.configure(settings: Partial<GitBookEmbeddableConfiguration>)` → `void` - Configure the embed
+* `frame.on(event: string, listener: Function)` → `() => void` - Register event listener (returns unsubscribe function)
 
 ## Configuration Options
 
@@ -170,7 +168,7 @@ Configuration options are available via `frame.configure({...})`:
 
 Override which tabs are displayed. Defaults to your site's configuration.
 
-- **Type**: `('assistant' | 'docs')[]`
+* **Type**: `('assistant' | 'docs')[]`
 
 ### `actions`
 
@@ -178,31 +176,31 @@ Custom action buttons rendered in the sidebar alongside tabs. Each action button
 
 **Note**: This was previously named `buttons`. Use `actions` instead.
 
-- **Type**: `Array<{ icon: string, label: string, onClick: () => void }>`
+* **Type**: `Array<{ icon: string, label: string, onClick: () => void }>`
 
 ### `greeting`
 
 Welcome message displayed in the Assistant tab.
 
-- **Type**: `{ title: string, subtitle: string }`
+* **Type**: `{ title: string, subtitle: string }`
 
 ### `suggestions`
 
 Suggested questions displayed in the Assistant welcome screen.
 
-- **Type**: `string[]`
+* **Type**: `string[]`
 
 ### `tools`
 
 Custom AI tools to extend the Assistant. See [Creating custom tools](../configuration/creating-custom-tools.md) for details.
 
-- **Type**: `Array<{ name: string, description: string, inputSchema: object, execute: Function, confirmation?: {...} }>`
+* **Type**: `Array<{ name: string, description: string, inputSchema: object, execute: Function, confirmation?: {...} }>`
 
 ### `visitor` (Authenticated Access)
 
-Pass to `getFrameURL({ visitor: {...} })`. Used for [Adaptive Content](../../adaptive-content/README.md) and [Authenticated Access](../../authenticated-access/README.md).
+Pass to `getFrameURL({ visitor: {...} })`. Used for [Adaptive Content](../../adaptive-content/) and [Authenticated Access](../../authenticated-access/).
 
-- **Type**: `{ token?: string, unsignedClaims?: Record<string, unknown> }`
+* **Type**: `{ token?: string, unsignedClaims?: Record<string, unknown> }`
 
 ## Common pitfalls
 
@@ -212,4 +210,3 @@ Pass to `getFrameURL({ visitor: {...} })`. Used for [Adaptive Content](../../ada
 * **Frame methods called before initialization** – Wait until `createFrame()` completes before calling frame methods.
 * **Not unsubscribing from events** – Remember to call the unsubscribe function returned by `frame.on()` to prevent memory leaks.
 * **Using old API methods** – Methods like `open()`, `close()`, `toggle()`, and `destroy()` are not available in the NPM package. Use the frame client methods instead.
-

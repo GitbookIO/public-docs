@@ -8,7 +8,7 @@ description: Set up and authorize the GitLab integration for GitBook
 
 In the space you want to sync with your GitLab repo, head to the space menu in the top right, and select **Synchronize with Git**. From the provider list, select **GitLab Sync**, and click **Configure**.
 
-<figure><img src="../../.gitbook/assets/10_01_25_git_sync-gitlab.svg" alt="A GitBook screenshot showing GitLab Sync configuration options" ><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Enabling GitLab Sync@2x.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 
 ### Generate and enter your API access token
 
@@ -51,7 +51,7 @@ When syncing for the first time, you’ll have the option to sync in one of two 
 
 ### Write and commit
 
-You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests.md) in GitBook.
+You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests/) in GitBook.
 
 When you edit on GitBook, every change request merge will result in a commit to your selected GitLab branch.
 

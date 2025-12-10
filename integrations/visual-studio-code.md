@@ -5,7 +5,7 @@ description: >-
 hidden: true
 noIndex: true
 icon: square-code
-cover: broken-reference
+cover: /broken/files/uV0p4l30XC1aMxhLZvdE
 coverY: 0
 ---
 

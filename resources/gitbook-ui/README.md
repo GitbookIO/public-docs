@@ -5,13 +5,11 @@ icon: sidebar
 
 # GitBook UI
 
-Learn about the different components and UI in GitBook’s editor
-
 GitBook is split into different sections to make it easier to organize and manage the content you create.
 
 ### Sidebar
 
-<figure><img src="../../.gitbook/assets/10_01_25_ui_sidebar.svg" alt="A GitBook screenshot showing the sidebar"><figcaption><p>The GitBook sidebar holds all of your documentation, as well as notifications, the search bar, snippets and more.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.02.40.png" alt=""><figcaption><p>The GitBook sidebar holds all of your documentation, as well as notifications, the search bar, snippets and more.</p></figcaption></figure></div>
 
 The sidebar allows you to see and overview of your GitBook organization at a glance. The sidebar contains:
 
@@ -38,7 +36,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 
 ### Table of contents
 
-<figure><img src="../../.gitbook/assets/10_01_25_ui_table_of_contents.svg" alt="A GitBook screenshot showing the table of contents"><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.07.01.png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure></div>
 
 By default, the table of contents shows a list of [pages, links, and groups](../../creating-content/content-structure/page.md#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
 
@@ -68,15 +66,19 @@ If you want to give more focus to the content of your page, you can temporarily 
 
 ### Space header
 
-<figure><img src="../../.gitbook/assets/03_02_25_space_header.svg" alt="A GitBook screenshot showing the space header"><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.08.48.png" alt=""><figcaption><p>The space header sits at the top of the editor, and offers options that apply to the whole space.</p></figcaption></figure></div>
 
 The space header contains information about the space you’re currently viewing. It lets you do things like publish and share your space, view the comments and history for the space, configure [GitHub or GitLab sync](../../getting-started/git-sync/), and more.
 
 {% hint style="info" %}
-The space header is adaptable, and changes depending on the space and mode you’re currently in.
+**The space header is adaptable**, and changes depending on the space and mode you’re currently in.
 
-For example, if you’re editing a [change request](../../collaboration/change-requests.md), you will see options to open the editor, view changes and merge your change request. If you’re viewing a read-only space, you will have the option to open a new change request, but won’t have an editor option.
+For example, if you’re editing a [change request](../../collaboration/change-requests/), you will see an overview of the change request, alongside options to open the editor, view changes and merge your change request.&#x20;
+
+If you’re viewing a read-only space, you will need to open a new change request to edit the content of the page as live edits are locked.
 {% endhint %}
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.11.01.png" alt=""><figcaption><p>The space header inside a change request.</p></figcaption></figure></div>
 
 The space header includes:
 
@@ -88,10 +90,12 @@ The space header includes:
   A full, linear list of the collections or docs sites the space lives in.
 * **Actions menu** <picture><source srcset="../../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture>\
   Offers a list of actions for your space. Similar to [page actions](./#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
+* **Overview**\
+  When viewing a change request, this tab shows the title and description of the change request, along with the participants and reviewers. It also shows all the changes and comments.
 * **Editor view**\
   This view is where you can make edits to your content using GitBook’s block-based editor.
 * **Changes view**\
-  This view [highlights the changes](../../collaboration/change-requests.md#diff-mode) made within a change request using the diff view. This is ideal for reviewing new content before merging your change request to push the changes live.
+  This view [highlights the changes](../../collaboration/change-requests/#diff-mode) made within a change request using the diff view. This is ideal for reviewing new content before merging your change request to push the changes live.
 * **Preview**\
   This view allows you to quickly see a preview of your content before you merge a change request.
 * **Collaborators**\
@@ -100,16 +104,18 @@ The space header includes:
   The [GitHub and GitLab Sync](../../getting-started/git-sync/) configuration for your space.
 * **The Share menu**\
   Allows you to publish and share your space. You can also invite others to [collaborate](../../content-editor/editor/broken-reference/) through this menu.
+* **Variables**\
+  [Create and add reusable variables](../../creating-content/variables-and-expressions.md) to use in a space.&#x20;
+* **GitBook Agent**\
+  Collaborate on changes in a space with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
 * **Comments**\
   See the [comments and discussions](../../collaboration/comments.md) you and your team have had about the space content.
-* **Broken links**\
-  Any [broken links](../../creating-content/broken-links.md) that have been found in the current space or change request.
 * **Change requests**\
-  Create, update, and delete [change requests](../../collaboration/change-requests.md) in your space.
+  Create, update, and delete [change requests](../../collaboration/change-requests/) in your space.
 * **Space history**\
   View [a version history](../../creating-content/version-control.md) that includes all the changes made in the space — or in your current change request — over time.
 * **The Edit button**\
-  If your space is published, or someone has locked[ live edits](../../collaboration/live-edits.md), the **Edit** button will appear in the space header. It will create a new [change request](../../collaboration/change-requests.md) to edit content.
+  If your space is published, or someone has locked[ live edits](../../collaboration/live-edits.md), the **Edit** button will appear in the space header. It will create a new [change request](../../collaboration/change-requests/) to edit content.
 
 ### Site header
 
@@ -121,11 +127,10 @@ The site header includes:
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
 * **The site’s breadcrumbs**\
   A link back to the main Docs sites screen.
-* **Actions menu** <picture><source srcset="../../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions-horizontal.svg" alt="The Actions menu icon in GitBook"></picture> Offers a list of actions for your site. You can visit your site or copy its URL quickly from this menu
 * **Overview**\
   The site overview shows you essential information about your site including it’s URL, publish status, audience and content, as well as top-level insights.
 * **Insights**\
-  The [insights panel](../../publishing-documentation/insights.md) gives you detailed anayltics about your site and how it’s performing.
+  The [insights panel](../../publishing-documentation/insights.md) gives you detailed analytics about your site and how it’s performing.
 * **Customization**\
   Here you can [customize your site](../../publishing-documentation/customization/) with your own logo, colors, header links, and much more.
 * **Settings**\
@@ -141,9 +146,13 @@ The site header includes:
 
 ### Content editor
 
-The editor is the main part of your space, where you can write or insert content in GitBook.
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.18.49.png" alt=""><figcaption><p>Write content and add blocks in the GitBook editor.</p></figcaption></figure></div>
 
-In addition to the multiple [content blocks](../../creating-content/blocks/) you can insert, you can also [embed content](../../creating-content/blocks/embed-a-url.md) and use certain [integrations](../broken-reference/).
+The editor is the main part of your space, where you can write or insert content in GitBook. It supports multiplayer, meaning you and your team can collaborate on changes in real-time.
+
+You can insert [content blocks](../../creating-content/blocks/), type [Markdown](../../creating-content/formatting/markdown.md), [embed content](../../creating-content/blocks/embed-a-url.md), and collaborate on changes with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
+
+In addition to working on changes, you can also comment on blocks, tag teammates, and more.
 
 ### Page title and description <a href="#page-title" id="page-title"></a>
 
@@ -162,12 +171,12 @@ The page’s **Actions menu** <picture><source srcset="../../.gitbook/assets/act
 You can open the **Actions menu** using the <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> icon that appears when hovering over your page in the sidebar, or from the icon next to the page title.
 
 {% hint style="info" %}
-The type of actions available will depend on whether you’re in [live editing](../../collaboration/live-edits.md) mode or a [change request](../../collaboration/change-requests.md).
+The type of actions available will depend on whether you’re in [live editing](../../collaboration/live-edits.md) mode or a [change request](../../collaboration/change-requests/).
 {% endhint %}
 
 ### Page options
 
-<figure><img src="../../.gitbook/assets/10_01_25_ui_page_options.svg" alt="A GitBook screenshot showing the Page options side panel"><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.24.19.png" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure></div>
 
 With page options, you cam customize your documentation layout and navigation. You can only access page options if you’re in an editing mode.
 
@@ -179,7 +188,7 @@ Certain changes, such as disabling the table of content, only apply to published
 
 ### Page outline
 
-<figure><img src="../../.gitbook/assets/10_01_25_ui_page_outline.svg" alt="A GitBook screenshot showing the page outline"><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-10 at 10.26.57.png" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure></div>
 
 The **page outline** sits on the right-hand side of the editor, and makes it easy to jump directly to the section of the page you’re looking for.
 

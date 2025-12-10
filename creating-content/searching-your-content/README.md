@@ -5,9 +5,9 @@ description: >-
 icon: magnifying-glass
 ---
 
-# Searching content
+# Searching internal content
 
-<figure><img src="../../.gitbook/assets/10_01_25_searching_content.svg" alt="A GitBook screenshot showing the search bar"><figcaption><p>Ask questions or search through your content using the built in search bar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Searching internal content@2x.png" alt="A GitBook screenshot showing the search bar"><figcaption><p>Ask questions or search through your content using the built in search bar.</p></figcaption></figure>
 
 Whether you’re working within the GitBook app or your visitors are reading your published content, GitBook’s search functions help to make it easy to find what you’re looking for.
 

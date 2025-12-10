@@ -100,7 +100,7 @@ and text after the image
 
 To resize your image, hover over it and open the **Edit menu** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture>. Click the **Size** button to change the size of your image from the available options.
 
-<figure><img src="../../.gitbook/assets/10_01_25_image_resizing.svg" alt="A GitBook screenshot showing how to resize an image"><figcaption><p>Resize an image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image_resizing@2x.png" alt="A GitBook screenshot showing how to resize an image"><figcaption><p>Resize an image</p></figcaption></figure>
 
 * **Small** – 25% of the image size
 * **Medium** – 50% of the image size

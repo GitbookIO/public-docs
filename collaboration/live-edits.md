@@ -5,12 +5,12 @@ icon: file-pen
 
 # Live edits
 
-With live edits enabled, members in your org can edit a space without creating [a change request](change-requests.md). When editing content, you can see the avatars of anyone currently viewing the space in the top-right corner.
+With live edits enabled, members in your org can edit a space without creating [a change request](change-requests/). When editing content, you can see the avatars of anyone currently viewing the space in the top-right corner.
 
 GitBook supports live collaboration, meaning you’ll be able to work on the same document with multiple members at the same time.
 
 {% hint style="info" %}
-**Live edits are locked** by default in any newly created space. To edit the content, you will either need to [create a change request](change-requests.md), or toggle live edits on.
+**Live edits are locked** by default in any newly created space. To edit the content, you will either need to [create a change request](change-requests/), or toggle live edits on.
 {% endhint %}
 
 ### Toggling live edit mode
