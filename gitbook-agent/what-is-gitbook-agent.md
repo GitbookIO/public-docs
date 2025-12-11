@@ -32,7 +32,7 @@ With this context, the Agent can proactively identify gaps, propose updates and 
 {% hint style="info" %}
 #### Automatic docs suggestions are in early access
 
-Head to **Organization Settings → Docs Agent** to request access.
+Head to **Organization Settings → GitBook Agent** to request access.
 {% endhint %}
 
 ### Explore GitBook Agent’s features

@@ -10,7 +10,7 @@ icon: message-pen
 {% hint style="info" %}
 #### This feature is currently in early access
 
-Head to **Organization Settings → Docs Agent** to request access.
+Head to **Organization Settings → GitBook Agent** to request access.
 {% endhint %}
 
 GitBook Agent works in the background of your GitBook organization, consuming ingested data from [connected sources](connecting-a-source.md) to continuously update and refine your documentation.
@@ -61,6 +61,6 @@ By default, GitBook Agent will have access to create change requests in any of y
 
 ### Add custom instructions for GitBook Agent
 
-To add more custom instructions for your docs agent to follow, head to your docs agent in your organization’s settings, and head to your docs agent’s settings page.
+To add more custom instructions for GitBook Agent to follow, open your organization’s settings and choose the **GitBook Agent** page in the sidebar..
 
-From here you’re able to write custom instructions your docs agent will use any time it’s preparing, analyzing, and generating change requests for your docs sites.
+From here you’re able to write custom instructions the Agent will use any time it’s preparing, analyzing, and generating change requests for your docs sites.
