@@ -6,36 +6,46 @@ description: >-
 
 # Exploring your data
 
-Once GitBook Agent starts ingesting conversations, it will start to categorize your data in 3 separate categories:
+Once GitBook Agent starts ingesting conversations, it will start to categorize your data into three categories:
 
 1. **Conversations**: Raw data that the agent has indexed from your connectors.
-2. **Issues**: Standalone issues that have been identified in a conversation.
+2. **Issues**: Individual issues that have been identified within a conversation.
 3. **Topics**: Groups of issues that are related to each other on a common topic.
 
-All 3 are used by GitBook Agent to figure out the types of changes that might need to be made in your documentation to be improved. Below, you can find more information on how each one works.
+All three are used by GitBook Agent to figure out the types of changes that might need to be made in your documentation to be improved. Below, you can find more information on how each one works.
+
+{% hint style="info" %}
+GitBook Agent categorizes data and makes proactive suggestions for your docs automatically. You don’t need to do anything with this data — it’s available for visibility.
+{% endhint %}
 
 ### Conversations
 
-Conversations are the raw data that is sent to GitBook Agent from your [connectors](connecting-a-source.md). They are analyzed by GitBook Agent, and assigned an impact score, and contain metadata on when the conversation was originally ingested.
+Conversations are the raw data that is sent to GitBook Agent from your [connectors](connecting-a-source.md). The Agent analyzes them and assigns an impact score, which is added to the metadata from when the conversation was originally ingested.
 
-Conversations are then split into issues, which are specific areas of improvement that are found within a conversation. A conversation can have more than one issue.
+Conversations are then split into issues, which are specific areas of improvement that are found within a conversation. A conversation may contain more than one issue.
 
-They are shown in the **Conversations** tab in **Data Explorer** section of GitBook Agent’s settings screen.
+You can view conversations by opening **Organization settings** > **GitBook Agent** > **Data Explorer** and choosing the **Conversations** tab.
 
 ### Issues
 
-Issues are standalone issues that have been identified within a conversation. They are assigned an impact score, and contain metadata on when it was originally ingested. Opening the actions button allows you to read more about GitBook Agent’s analysis of the issue, and provides a summary of the issue.
+Issues are standalone data points that have been identified within a conversation. GitBook Agent assigns them an impact score, which is added to the metadata from when the data was ingested.&#x20;
 
-They are shown in the **Issues** tab in **Data Explorer** section of GitBook Agent’s settings screen.
+You can view issues by opening **Organization settings** > **GitBook Agent** > **Data Explorer** and choosing the **Issues** tab.
+
+Click the **Inspect** <picture><source srcset="../../.gitbook/assets/inspect-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/inspect.svg" alt=""></picture> button on an issue to read a summary, along with GitBook Agent’s analysis of it.
 
 ### Topics
 
-Topics are groups of issues related to each other on a common topic. They group multiple issues together in order for GitBook Agent to create meaningful, and impactful change requests you and your team can collaborate on.
+Topics are groups of issues that are related to one another. By grouping issues together, GitBook Agent can create useful, context-driven change requests for your team.
 
-They are assigned an impact score, and show the number of issues and conversations the Agent used to form the topic. They can be updated as new conversations and issues are processed.
+The Agent will assign each topic an impact score, and show the number of issues and conversations the Agent used to form the topic. They’ll update automatically as new conversations and issues are processed.
 
-Opening a topic’s actions allows you to see context on the issues used to form the topic, along with logs GitBook Agent has processed to come up with the topic.
+Click **Inspect** <picture><source srcset="../../.gitbook/assets/inspect-dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/inspect.svg" alt=""></picture> on any topic to see the issues used to form the topic, along with a log of GitBook Agent’s thinking to process those issues and create the topic.
 
-Additionally, you’re able to see any change requests GitBook Agent has created based off of the topic. Head to [reviewing change requests](../../collaboration/change-requests/change-requests-screen.md) to learn more about working with change requests created by the Agent.
+This inspector screen also shows any change requests GitBook Agent has created based off of the topic — ready for [you and your team to review](../../collaboration/change-requests/change-requests-screen.md).
 
-You can also toggle on/off a topic for any topics that might not be valuable, preventing them from being used to create change requests for your documentation.
+{% hint style="info" %}
+## Disabling a topic
+
+If a topic isn’t valuable, you can toggle the topic off from its inspector screen. Once disabled, the topic will no longer be used to create change requests for your documentation.
+{% endhint %}
