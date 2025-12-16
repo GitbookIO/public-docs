@@ -54,9 +54,9 @@ You can change the title, link title and the slug of a page at any time by click
 
 #### **Page link title**
 
-If you want your page to have a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, you can optionally define a link title.&#x20;
+If you want your page to have a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, you can optionally define a link title.
 
-Open the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choose **Edit title & slug**. In the **Edit page** dialog, you'll find the option to enable and define a link title for that page.&#x20;
+Open the page’s **Action menu** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choose **Edit title & slug**. In the **Edit page** dialog, you'll find the option to enable and define a link title for that page.
 
 If you're using Git Sync, the page link title is set in the `SUMMARY.md` file on the page link:
 
@@ -67,10 +67,10 @@ If you're using Git Sync, the page link title is set in the `SUMMARY.md` file on
 ```
 
 {% hint style="info" %}
-**Note:** Page link titles are used in the table of contents, the pagination buttons at the bottom of each page, and in any relative links you add to that page.&#x20;
+**Note:** Page link titles are used in the table of contents, the pagination buttons at the bottom of each page, and in any relative links you add to that page.
 {% endhint %}
 
-Page link titles are optional — if you don’t manually add one, your page will use the page’s standard title by default.
+Page link titles are optional — if you don’t manually add one, your page will use the page’s standard title by default.
 
 #### Page groups
 
@@ -98,7 +98,7 @@ To add an icon or emoji, click the **Add icon** button when hovering the page ti
 
 In the **Page options** menu you can customize the look and feel of a selected page within a space, and control its visibility.
 
-**Layout**
+#### **Layout**
 
 You can open the **Page options** <picture><source srcset="../../.gitbook/assets/options_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_icon_light.svg" alt="The Page options menu icon in GitBook"></picture> menu or change a page’s cover by hovering over the page title. You’ll see the buttons appear just above the page title.
 
@@ -113,7 +113,7 @@ Each layout preset will toggle on or off each of the following parts of the page
 * Next/previous links
 * Page metadata
 
-You can also set your page’s global width from this menu. Choosing **Wide** will automatically widen blocks that support the **Full width** option — such as tables, cards and code blocks — to give them more space when the page is published. Which is ideal for creating eye-catching landing pages!
+You can also set your page’s global width from this menu. Choosing **Wide** will automatically widen blocks that support the **Full width** option — such as tables, cards and code blocks — to give them more space when the page is published. Which is ideal for creating eye-catching landing pages!
 
 #### Visibility
 
@@ -127,6 +127,19 @@ If hidden the following will appear in the front matter of the markdown file whe
 hidden: true
 <strong>---
 </strong></code></pre>
+
+#### Metadata (SEO)
+
+Use **Page options → Metadata** to control how search engines understand relationships between similar pages (for example: documentation versions or [content variants](../../publishing-documentation/site-structure/variants.md)).
+
+* **Canonical URL**: the preferred (authoritative) URL for this page.
+* **Alternate URLs**: other pages that represent the same content in a different variant.
+
+Both fields support selecting another GitBook page (recommended) or entering an external URL.
+
+{% hint style="info" %}
+A common pattern for versioned docs is to set older pages to be canonical to the latest equivalent page (for example, `1.0` → `2.0`), and then list older versions as alternates on the latest page.
+{% endhint %}
 
 ### Page covers
 
