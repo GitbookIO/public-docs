@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn the basics of so you can create and publish outstanding documentation
-  for your users
+  Learn the basics of GitBook so you can create and publish outstanding
+  documentation for your users
 icon: lightbulb
 ---
 
