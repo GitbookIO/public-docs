@@ -8,7 +8,7 @@ description: Set up and authorize the GitLab integration for GitBook
 
 In the space you want to sync with your GitLab repo, head to the space menu in the top right, and select **Synchronize with Git**. From the provider list, select **GitLab Sync**, and click **Configure**.
 
-<figure><img src="../../.gitbook/assets/Enabling GitLab Sync@2x.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_12_25_git_sync@2x_1.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 
 ### Generate and enter your API access token
 

@@ -25,7 +25,7 @@ By combining filters and groups, you can drill down in to precise analytics data
 
 You can use the drop-down menu on the right of the Insights screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.&#x20;
 
-To view the data over a custom time period, click the **Select custom date range** button <picture><source srcset="../.gitbook/assets/calendar-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/calendar.svg" alt=""></picture> to the right of the menu and choose your custom time period using the calendar that appears.
+To view the data over a custom time period, click the **Select custom date range** button <picture><source srcset="../.gitbook/assets/15_09_25_15_09_25_calendar_1.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/15_09_25_calendar_1.svg" alt=""></picture> to the right of the menu and choose your custom time period using the calendar that appears.
 
 ### Types of data
 

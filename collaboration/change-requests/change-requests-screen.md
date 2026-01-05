@@ -11,7 +11,7 @@ The change requests screen in GitBook makes it easy to view and manage active ch
 
 In this screen, you can see open change requests, merge finished ones, and even collaborate with GitBook Agent to work on updates — all from a single, unified page.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/CleanShot 2025-12-08 at 22.03.05@2x.png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/10_12_25_change_requests_screen@2x.png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
 
 ### Navigating the change request screen
 

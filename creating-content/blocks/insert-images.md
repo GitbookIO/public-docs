@@ -31,15 +31,15 @@ GitBook allows you to upload images up to 100MB per file.
 
 #### Create an image gallery
 
-Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> and choose **Add images…** to open the **Select images** side panel again.
+Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/10_01_25_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_cards_light.svg" alt="The Options menu icon in GitBook"></picture> and choose **Add images…** to open the **Select images** side panel again.
 
-To delete an image from a gallery, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> on the image you want to delete and press the **Delete ⌫** key.
+To delete an image from a gallery, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_edit_icon_light.svg" alt=""></picture> on the image you want to delete and press the **Delete ⌫** key.
 
 ### Adding images for light & dark mode <a href="#light-and-dark-mode" id="light-and-dark-mode"></a>
 
 You can set different images for the light and dark mode versions of your published site. GitBook will automatically display the correct image depending on the mode your visitor is in.
 
-To add an image for dark mode, hover over your image, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture> and click **Replace image** <picture><source srcset="../../.gitbook/assets/replace_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/replace_image_icon_light.svg" alt="The Replace image icon in GitBook"></picture>.
+To add an image for dark mode, hover over your image, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_edit_icon_light.svg" alt=""></picture> and click **Replace image** <picture><source srcset="../../.gitbook/assets/10_01_25_replace_10_01_25_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_replace_10_01_25_image_icon_light.svg" alt="The Replace image icon in GitBook"></picture>.
 
 In the drop-down menu, choose **Add image for Dark mode**. Once you’ve set this, you can replace either image from this same menu.
 
@@ -98,9 +98,9 @@ and text after the image
 
 ### Resizing
 
-To resize your image, hover over it and open the **Edit menu** <picture><source srcset="../../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/edit_icon_light.svg" alt=""></picture>. Click the **Size** button to change the size of your image from the available options.
+To resize your image, hover over it and open the **Edit menu** <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_edit_icon_light.svg" alt=""></picture>. Click the **Size** button to change the size of your image from the available options.
 
-<figure><img src="../../.gitbook/assets/image_resizing@2x.png" alt="A GitBook screenshot showing how to resize an image"><figcaption><p>Resize an image</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_image_resizing@2x.png" alt="A GitBook screenshot showing how to resize an image"><figcaption><p>Resize an image</p></figcaption></figure>
 
 * **Small** – 25% of the image size
 * **Medium** – 50% of the image size
@@ -114,7 +114,7 @@ If your image is wider than the editor, GitBook will limit the image’s width t
 {% endhint %}
 
 {% hint style="info" %}
-You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> next to the block and choosing **Full width**.
+You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/10_01_25_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_cards_light.svg" alt="The Options menu icon in GitBook"></picture> next to the block and choosing **Full width**.
 {% endhint %}
 
 ### Resizing images through Git Sync
@@ -132,15 +132,15 @@ Valid variants for specifying the image dimensions are:\
 
 By default, image blocks will show your image at its full size, aligned centrally.
 
-To change the alignment of an image, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt="The Options menu icon in GitBook"></picture> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
+To change the alignment of an image, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/10_01_25_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_cards_light.svg" alt="The Options menu icon in GitBook"></picture> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
 
 ### Framing images
 
 You can add a frame to image blocks to give your images a consistent look and visually separate them from their surrounding content.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/image-frame-demo@2x.jpg" alt="A black and white photograph of a lone figure walking across a stark white landscape"><figcaption><p>Framed images can have captions, and show a subtle grid behind the caption.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/06_10_25_image_frame_demo@2x.jpg" alt="A black and white photograph of a lone figure walking across a stark white landscape"><figcaption><p>Framed images can have captions, and show a subtle grid behind the caption.</p></figcaption></figure></div>
 
-To add a frame to an image, hover over it, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/options_menu_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/options_menu_icon_light.svg" alt=""></picture> and enable the **With frame** toggle.&#x20;
+To add a frame to an image, hover over it, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/10_01_25_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_cards_light.svg" alt=""></picture> and enable the **With frame** toggle.&#x20;
 
 {% hint style="info" %}
 **Good to know:** You can only frame single images in a block. Image blocks that contain multiple images and inline images cannot have frames.

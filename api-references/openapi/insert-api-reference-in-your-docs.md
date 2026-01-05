@@ -16,7 +16,7 @@ Endpoints added from your spec will continue to be updated anytime your spec is 
 
 After you’ve [added your OpenAPI spec](add-an-openapi-specification.md), you can generate endpoint pages by inserting an **OpenAPI Reference** in the table of contents of a Space.
 
-<figure><img src="../../.gitbook/assets/create_api_pages@2x.png" alt="A GitBook screenshot showing how to insert API references into the table of contents of a space"><figcaption><p>Insert API References in the table of contents of a Space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_create_api_pages@2x.png" alt="A GitBook screenshot showing how to insert API references into the table of contents of a space"><figcaption><p>Insert API References in the table of contents of a Space.</p></figcaption></figure>
 
 {% stepper %}
 {% step %}

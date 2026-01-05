@@ -12,7 +12,7 @@ For example, you might want to only show a page or section to beta users. By cre
 
 ### Create a segment
 
-To create a new segment, head to the condition editor, and click the settings icon <picture><source srcset="../../.gitbook/assets/settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/settings_icon_light.svg" alt="The Settings icon in GitBook"></picture> next to an existing segment in the segment dropdown.
+To create a new segment, head to the condition editor, and click the settings icon <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_settings_icon_light.svg" alt="The Settings icon in GitBook"></picture> next to an existing segment in the segment dropdown.
 
 Here you’ll be able to define the data that will appear on a mock user. Because this is the data that’s being represented, the `visitor.claims` key is omitted.
 

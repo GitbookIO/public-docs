@@ -11,7 +11,7 @@ In a change request, you can edit, update and delete elements of your content, r
 
 To learn more about managing open change requests, head to [reviewing change requests](change-requests-screen.md).
 
-<figure><img src="../../.gitbook/assets/collaboration-change-requests@2x.png" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_12_25_collaboration_change_requests@2x.png" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
 {% stepper %}
 {% step %}

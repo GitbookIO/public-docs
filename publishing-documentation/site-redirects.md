@@ -25,7 +25,7 @@ If you want to add another redirect to the same page, you can toggle the **Add a
 
 ### Editing redirects
 
-To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> icon next to it in the list. Update the redirect and hit **Save**.
+To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> icon next to it in the list. Update the redirect and hit **Save**.
 
 To delete a redirect, press the **Delete redirect** button and confirm.
 

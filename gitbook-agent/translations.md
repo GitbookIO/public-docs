@@ -13,7 +13,7 @@ Auto translations are currently in Beta. Let us know if you have any feedback or
 
 Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a space as a translation of another, and let GitBook Agent handle the rest.
 
-<figure><img src="../.gitbook/assets/Create translation@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10_12_25_create_translation@2x.png" alt=""><figcaption></figcaption></figure>
 
 ## How translations work
 

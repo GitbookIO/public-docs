@@ -47,7 +47,7 @@ Tables that are wider than the editor container will be horizontally scrollable.
 
 ### Column options
 
-To reorder columns, click and drag on the drag handle <picture><source srcset="../../.gitbook/assets/actions-horizontal - dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions-horizontal.svg" alt="The table drag handle icon in GitBook"></picture> at the top of the column you want to move.
+To reorder columns, click and drag on the drag handle <picture><source srcset="../../.gitbook/assets/04_02_25_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/04_02_25_actions_horizontal_1.svg" alt="The table drag handle icon in GitBook"></picture> at the top of the column you want to move.
 
 You can add new columns by clicking the **Add column** button that appears when you hover over the right edge of the table.
 
@@ -55,7 +55,7 @@ Inside the **Column options** menu you can also switch automatic sizing on and o
 
 ### Row options
 
-Hover over the row and click the **Row options** <picture><source srcset="../../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/actions_icon_light.svg" alt="The Row options menu icon in GitBook"></picture> button that appears on the left of it to open the **Row options** menu. You’ll see a number of options:
+Hover over the row and click the **Row options** <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_actions_icon_light.svg" alt="The Row options menu icon in GitBook"></picture> button that appears on the left of it to open the **Row options** menu. You’ll see a number of options:
 
 * **Open row:** Open the row in a modal that shows all of its data. Here you can quickly change row types, edit data, and see data in hidden columns.
 * **Insert above/below:** Add a new row above or below the currently-selected row.

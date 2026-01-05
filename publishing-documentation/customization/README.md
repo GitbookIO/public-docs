@@ -11,7 +11,7 @@ You can customize the appearance of your published documentation, match the user
 
 You can apply customizations to your entire docs site as a site-wide theme, or to individual variants and site sections.
 
-<figure><img src="../../.gitbook/assets/customization-demo.png" alt="A GitBook screenshot showing a customized docs site"><figcaption><p>You can create all kinds of site designs using GitBook’s built-in customization options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/16_07_25_customization_demo.png" alt="A GitBook screenshot showing a customized docs site"><figcaption><p>You can create all kinds of site designs using GitBook’s built-in customization options.</p></figcaption></figure>
 
 ### Customizing sites with multiple sections or variants
 
@@ -22,12 +22,12 @@ Select the whole site or a specific site section using the drop-down menu at the
 * **Site-wide settings** – These automatically apply to all linked spaces.
 * **Section or variant specific settings** – If you’re using site sections or variants, you’re can set specific customization that will override the default site-wise setting.
 
-<figure><img src="../../.gitbook/assets/customization@2x.png" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_customization@2x.png" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
 {% hint style="warning" %}
 Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.
 
-You can reset customization overrides back to the site-wide default by clicking the **Reset** button <picture><source srcset="../../.gitbook/assets/reset_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/reset_icon_light.svg" alt="The Reset icon in GitBook"></picture> next to the space selector.
+You can reset customization overrides back to the site-wide default by clicking the **Reset** button <picture><source srcset="../../.gitbook/assets/19_02_25_19_02_25_reset_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/19_02_25_19_02_25_reset_icon_light.svg" alt="The Reset icon in GitBook"></picture> next to the space selector.
 {% endhint %}
 
 ### What counts as ‘Advanced customization’?

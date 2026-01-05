@@ -46,7 +46,7 @@ Start by creating a new application in your Auth0 platform dashboard. This appli
 6.  You should then see a configuration screen like below.\
     Click **Save Settings And Continue**.<br>
 
-    <figure><img src="../../.gitbook/assets/auth0_app_configure_screen.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/30_06_25_30_06_25_auth0_app_configure_screen.png" alt=""><figcaption></figcaption></figure>
 7. Click on the **Settings** tab.
 8. Copy and make note of the **Domain**, **Client ID** and **Client Secret**.
 
@@ -61,15 +61,15 @@ Once you've created the Auth0 application, the next step is to install the Auth0
 1. Navigate to the site where you've enabled authenticated access and want to use Auth0 as the identity provider.
 2.  Click on the **Integrations** button in the top right from your site’s settings.<br>
 
-    <figure><img src="../../.gitbook/assets/va_site_integration_overview_screen.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/10_04_25_10_04_25_va_site_integration_overview_screen.png" alt=""><figcaption></figcaption></figure>
 3. Click on **Authenticated Access** from the categories in the sidebar.
 4. Select the **Auth0** integration.
 5.  Click **Install on this site**.<br>
 
-    <figure><img src="../../.gitbook/assets/auth0_install_integration.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/30_06_25_30_06_25_auth0_install_integration.png" alt=""><figcaption></figcaption></figure>
 6.  After installing the integration on your site, you should see the integration's configuration screen:<br>
 
-    <figure><img src="../../.gitbook/assets/auth0_configure_integration.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/30_06_25_30_06_25_auth0_configure_integration.png" alt=""><figcaption></figcaption></figure>
 7. Enter the **Domain**, **Client ID** and **Client Secret** values you copied after creating the Auth0 application earlier. For Auth0 Domain, enter the Domain copied from Auth0 (make sure to prefix it with `https://`).
 8. **(optional)** Enable the **Include claims in JWT token** option at the bottom of the dialog if you have enabled your site for [adaptive content](../adaptive-content/enabling-adaptive-content/).
 9. Copy and make note of the **Callback** **URL** displayed **at the bottom of the dialog**.
