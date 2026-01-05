@@ -18,7 +18,7 @@ You can adapt and personalize many parts of your docs, including:
 
 The condition editor is where you’ll set the conditions for showing or hiding a page, variant, or section. After opening the condition editor, you’ll be able to write your condition as an [expression](../../creating-content/variables-and-expressions.md) that will run against data coming from visitors to your site.&#x20;
 
-<figure><img src="../../.gitbook/assets/28_07_25_condition_editor.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_07_28_condition_editor.svg" alt=""><figcaption></figcaption></figure>
 
 #### Example
 
@@ -52,41 +52,41 @@ For example, you could set up a segment that represents a developer on your ente
 
 ### Conditional pages
 
-To launch the condition editor for a page, head to the actions menu <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a page, and click **Add condition.** You can also launch the condition editor from a [page’s options](../../resources/gitbook-ui/#page-options).
+To launch the condition editor for a page, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a page, and click **Add condition.** You can also launch the condition editor from a [page’s options](../../resources/gitbook-ui/#page-options).
 
-You can see which pages in your space have conditions set if the page has a page condition icon <picture><source srcset="../../.gitbook/assets/10_04_25_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_04_25_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+You can see which pages in your space have conditions set if the page has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 {% if visitor.claims.unsigned.bucket.IF_BLOCK === true %}
 ### Conditional blocks
 
-To add a conditional block, begin a new line in the editor, type <kbd>/</kbd>, then select  <picture><source srcset="../../.gitbook/assets/10_04_25_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_04_25_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> **Conditional content**.&#x20;
+To add a conditional block, begin a new line in the editor, type <kbd>/</kbd>, then select  <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> **Conditional content**.&#x20;
 
-In the top right of the block, click on the  <picture><source srcset="../../.gitbook/assets/10_04_25_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_04_25_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> **Condition** button to edit the condition and control the visibility of the block. Not all block types are supported within conditional blocks.
+In the top right of the block, click on the  <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> **Condition** button to edit the condition and control the visibility of the block. Not all block types are supported within conditional blocks.
 {% endif %}
 
 ### Conditional variants
 
-To launch the condition editor for a variant, head to the actions menu <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a variant, and click **Add condition**.
+To launch the condition editor for a variant, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a variant, and click **Add condition**.
 
-You can see which variants in your docs have conditions set if the variant has a page condition icon <picture><source srcset="../../.gitbook/assets/10_04_25_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_04_25_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+You can see which variants in your docs have conditions set if the variant has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 ### Conditional sections
 
-To launch the condition editor for a section, head to the actions menu <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a section, and click **Add condition**.
+To launch the condition editor for a section, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a section, and click **Add condition**.
 
-You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/10_04_25_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_04_25_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 ### Conditional page header links
 
-To launch the condition editor for a page header link, head to the actions menu <picture><source srcset="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a header link, and click **Add condition**.
+To launch the condition editor for a page header link, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a header link, and click **Add condition**.
 
-You can see which links in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/10_04_25_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_04_25_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+You can see which links in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 ### Inline expressions
 
 In addition to controlling the visibility of content, you can also use claims inline using [expressions](../../creating-content/variables-and-expressions.md), just like page and space variables.&#x20;
 
-To reference a claim inline using an expression, type <kbd>/</kbd> in the editor, then select <picture><source srcset="../../.gitbook/assets/23_07_25_expression_dark_mode.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/23_07_25_expression.svg" alt=""></picture> **Expression**. Claims will be accessible in the expression editor as properties on `visitor` .
+To reference a claim inline using an expression, type <kbd>/</kbd> in the editor, then select <picture><source srcset="../../.gitbook/assets/25_07_23_expression_dark_mode.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_23_expression.svg" alt=""></picture> **Expression**. Claims will be accessible in the expression editor as properties on `visitor` .
 
 ### Working with Git Sync
 

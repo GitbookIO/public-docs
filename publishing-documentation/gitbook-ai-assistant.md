@@ -9,7 +9,7 @@ icon: gitbook-assistant
 
 {% include "../.gitbook/includes/ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/23_07_25_gitbook_assistant.svg" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_07_23_gitbook_assistant.svg" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
 
 GitBook Assistant gives your users fast, accurate answers about your documentation using natural language. It's personalized to your users, can be embedded into your website or product, and is available in the sidebar of your published docs.
 
@@ -30,7 +30,7 @@ Users can access GitBook Assistant in three ways:
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
 *   Click the **GitBook Assistant**
 
-    <picture><source srcset="../.gitbook/assets/16_07_25_gitbook_assistant.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/16_07_25_gitbook_assistant_1.svg" alt=""></picture>
+    <picture><source srcset="../.gitbook/assets/25_07_16_gitbook_assistant.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_07_16_gitbook_assistant_1.svg" alt=""></picture>
 
     button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the 'Ask…' option at the top of the menu

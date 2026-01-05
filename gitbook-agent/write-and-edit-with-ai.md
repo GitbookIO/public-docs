@@ -43,7 +43,7 @@ Let’s run through each of these to find out how they work.
 
 You can open the Agent chat window in a change request at any time by hitting the **GitBook Agent** button in the space header bar. This will open the Agent’s chat window on the right of the app.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/10_12_25_write_and_edit_with_ai@2x.png" alt=""><figcaption><p>Open GitBook Agent in a change request</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_write_and_edit_with_ai@2x.png" alt=""><figcaption><p>Open GitBook Agent in a change request</p></figcaption></figure></div>
 
 Here you can write a prompt for the Agent to follow — it will explain what it’s doing as it follows your instructions, with the changes appearing in your space is it works.&#x20;
 
@@ -71,7 +71,7 @@ GitBook Agent will update the content based on your prompt, then reply to your c
 
 You can use GitBook Agent to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
 
-<figure><img src="../.gitbook/assets/10_12_25_write_with_ai@2x.png" alt="A GitBook screenshot showing the AI writing options"><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_write_with_ai@2x.png" alt="A GitBook screenshot showing the AI writing options"><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
 
 Press `Space` on any empty line, or type `/` and choose **Write with AI** to launch GitBook Agent.
 

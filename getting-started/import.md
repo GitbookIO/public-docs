@@ -44,11 +44,11 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 ### The Import panel
 
-<figure><img src="../.gitbook/assets/10_12_25_import@2x.png" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_import@2x.png" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
 When you create a new space, you’ll have the option to import content in the modal that appears. If you create an empty space, you can also import using the **Quickstart** section at the bottom of the new empty page when you click **Edit**.
 
-Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../resources/gitbook-ui/#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
+Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../resources/gitbook-ui/#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
 
 After choosing an input source, you can select the file you’d like to import.
 

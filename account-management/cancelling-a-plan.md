@@ -11,7 +11,7 @@ Here’s how to cancel your plan:
 
 1.  Go to the organization’s settings page. You can click on the settings
 
-    <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_settings_icon_light.svg" alt="The Settings icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt="The Settings icon in GitBook"></picture>
 
     icon at the bottom of the sidebar and then click on **\[organization name] settings** to get there.
 2. Click on the **billing** tab. This will take you to a billing page hosted on Stripe, our payment processor.

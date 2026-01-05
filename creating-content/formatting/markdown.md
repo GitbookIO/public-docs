@@ -6,7 +6,7 @@ description: >-
 
 # Markdown
 
-<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_markdown@2x.png" alt="An image containing the markdown logo"><figcaption><p>Write Markdown in GitBook.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_markdown@2x.png" alt="An image containing the markdown logo"><figcaption><p>Write Markdown in GitBook.</p></figcaption></figure>
 
 GitBook’s editor allows you to create formatted content using Markdown.
 

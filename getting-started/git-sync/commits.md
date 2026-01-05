@@ -31,7 +31,7 @@ Use the following URL format, where `spaceId` corresponds to your space’s URL:
 
 `<https://app.gitbook.com/s/{spaceId}/~/changes/<num>/`
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/10_12_25_gitsync_autolink@2x.png" alt="A GitBook screenshot showing autolink setup"><figcaption><p>Autolink setup.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/25_12_10_gitsync_autolink@2x.png" alt="A GitBook screenshot showing autolink setup"><figcaption><p>Autolink setup.</p></figcaption></figure></div>
 
 ## Customize the commit message template
 

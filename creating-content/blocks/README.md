@@ -7,7 +7,7 @@ icon: square-dashed-circle-plus
 
 GitBook is a block-based editor, meaning you can add different kinds of blocks to your content — from standard text and images to interactive blocks. Your pages can include any combination of blocks you want, and there’s no limit to the number of blocks you can have on a page.
 
-<figure><img src="../../.gitbook/assets/10_12_25_creating_content_blocks@2x.png" alt="A GitBook screenshot showing the available content blocks"><figcaption><p>GitBook's built in content blocks.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_creating_content_blocks@2x.png" alt="A GitBook screenshot showing the available content blocks"><figcaption><p>GitBook's built in content blocks.</p></figcaption></figure>
 
 ### Inserting a new content block
 
@@ -41,7 +41,7 @@ Once selected, you can:
 
 By making your blocks full width, you can create a clear visual hierarchy in your content, or simply give more space to content that needs it.
 
-To make a block full width, click on the **Options menu** <picture><source srcset="../../.gitbook/assets/10_01_25_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/10_01_25_cards_light.svg" alt="The Options menu icon in GitBook"></picture> next to your block and select **Full width**. This feature is available for the following block types:
+To make a block full width, click on the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_cards_light.svg" alt="The Options menu icon in GitBook"></picture> next to your block and select **Full width**. This feature is available for the following block types:
 
 * Code
 * Images

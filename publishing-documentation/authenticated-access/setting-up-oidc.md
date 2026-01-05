@@ -36,7 +36,7 @@ There are some things that you need to set up on your Identity Provider in order
 
 You need to create a new app inside your Identity Provider. Its type should be "Web Application." In Google, you create these under "API and Services", "Credentials", and then under "OAuth 2.0 Client IDs."\\
 
-<figure><img src="../../.gitbook/assets/10_04_25_setting_up_oidc_1.png" alt="A screenshot showing creation of an OAuth client in an identity provider"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_oidc_1.png" alt="A screenshot showing creation of an OAuth client in an identity provider"><figcaption></figcaption></figure>
 
 Click on Create Credentials, select OAuth Client ID, select Web Application as the type, name it appropriately, and under Authorized Redirect URIs, enter the Callback URL you got from GitBook.
 
@@ -46,7 +46,7 @@ Click Create. Make a note of the Client ID and Client Secret. We will need these
 
 Navigate to integrations within the GitBook app, select authenticated access as the category, and install the OIDC integration. Install the OIDC integration on your chosen docs site.
 
-<figure><img src="../../.gitbook/assets/10_04_25_setting_up_oidc_2.png" alt="A GitBook screenshot showing the OIDC integration installation"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_oidc_2.png" alt="A GitBook screenshot showing the OIDC integration installation"><figcaption></figcaption></figure>
 
 Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We may need it to set up the Identity Provider.
 
@@ -54,7 +54,7 @@ Open up the OIDC integration's configuration screen for the space you installed 
 
 It should look like the following image
 
-<figure><img src="../../.gitbook/assets/10_04_25_setting_up_oidc_3.png" alt="A GitBook screenshot showing the OIDC configuration screen"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_oidc_3.png" alt="A GitBook screenshot showing the OIDC configuration screen"><figcaption></figcaption></figure>
 
 For Client ID and Client Secret, paste in the values you got for your identity provider.
 

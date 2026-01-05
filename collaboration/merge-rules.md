@@ -23,7 +23,7 @@ You can configure merge rules at different levels to match your team’s workflo
 
 Organizations can set default merge rules that all spaces inherit. This provides consistency across multiple spaces while still allowing individual spaces to customize their rules as needed.
 
-To configure merge rules for your organization, open the organization menu  at the top of the sidebar and choose **Settings** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_settings_icon_light.svg" alt=""></picture>. In the Settings screen, select **Merge rules** under the **Organization** section of the sidebar. Here you can specify merge rules for your entire organization.
+To configure merge rules for your organization, open the organization menu  at the top of the sidebar and choose **Settings** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>. In the Settings screen, select **Merge rules** under the **Organization** section of the sidebar. Here you can specify merge rules for your entire organization.
 
 Choose between unrestricted merging, or select from the list of presets to apply to change requests across your entire organization.
 

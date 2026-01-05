@@ -7,7 +7,7 @@ icon: diamond-turn-right
 
 {% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/10_01_25_redirects.svg" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_01_10_redirects.svg" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
@@ -25,7 +25,7 @@ If you want to add another redirect to the same page, you can toggle the **Add a
 
 ### Editing redirects
 
-To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> icon next to it in the list. Update the redirect and hit **Save**.
+To edit a redirect, press the **Edit** <picture><source srcset="../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> icon next to it in the list. Update the redirect and hit **Save**.
 
 To delete a redirect, press the **Delete redirect** button and confirm.
 

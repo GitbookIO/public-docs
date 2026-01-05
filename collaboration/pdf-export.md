@@ -23,14 +23,14 @@ Note that links across spaces are not currently supported when exporting interna
 
 #### Export an individual page
 
-1. Open the page you want to export, then open the page’s [Actions menu](../resources/gitbook-ui/#the-actions-menu) <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the page title.
+1. Open the page you want to export, then open the page’s [Actions menu](../resources/gitbook-ui/#the-actions-menu) <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the page title.
 2. Select **Export to PDF > Current page**.
 3. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.
 4. From here, you can save the page as a PDF or open it in your PDF viewer using the typical process for your browser.
 
 #### Export an entire space
 
-1. Open the[ Actions menu](../creating-content/content-structure/) <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the page title and choose **Export as PDF > All pages**. Alternatively, open the space’s **Actions menu** <picture><source srcset="../.gitbook/assets/04_02_25_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/04_02_25_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> in the [space header](../resources/gitbook-ui/#space-header) and choose **Export as PDF** in the drop-down menu.\
+1. Open the[ Actions menu](../creating-content/content-structure/) <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the page title and choose **Export as PDF > All pages**. Alternatively, open the space’s **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> in the [space header](../resources/gitbook-ui/#space-header) and choose **Export as PDF** in the drop-down menu.\
    \
    &#xNAN;_&#x4E;ote: This action is not available within a change request._
 2. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.

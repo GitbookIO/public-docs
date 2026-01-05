@@ -11,7 +11,7 @@ icon: repeat
 
 Reusable content lets you sync content across multiple pages and spaces, so you can edit all instances of the block at the same time.
 
-<figure><img src="../.gitbook/assets/10_12_25_creating_content_reusable_content@2x.png" alt="A GitBook screenshot showing reusable content"><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_creating_content_reusable_content@2x.png" alt="A GitBook screenshot showing reusable content"><figcaption><p>Create reusable content within a space.</p></figcaption></figure>
 
 ## Fundamentals
 
@@ -41,7 +41,7 @@ Currently, reusable content only appears in search results within its parent spa
 
 ### **Create reusable content**
 
-To create reusable content, [select one or more blocks](blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Actions menu** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> , select **Turn into**, and choose **Reusable content**. You can also give your block a name to make it easier to find and reuse later.
+To create reusable content, [select one or more blocks](blocks/#selecting-blocks-and-interacting-with-selected-blocks), then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> , select **Turn into**, and choose **Reusable content**. You can also give your block a name to make it easier to find and reuse later.
 
 Alternatively, you can select one or more blocks and then hit **Cmd + C** to open a prompt asking if you want to create reusable content.
 
@@ -59,13 +59,13 @@ If you’re making changes inside a change request, the content will be synced t
 
 ### **Detach reusable content**
 
-You can detach reusable content by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and selecting **Detach**. Detaching will convert the content back to regular blocks.
+You can detach reusable content by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and selecting **Detach**. Detaching will convert the content back to regular blocks.
 
 Once detached, any changes you make to the block(s) will not be reflected across the other instances, and changes you make in those instances will not be reflected in the detached block(s). All other instances of the reusable content remain synced together.
 
 ### Delete reusable content
 
-You can delete reusable content from your space entirely, if you wish. Find the reusable content in the page’s table of contents, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_10_01_25_10_01_25_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the content you’d like to delete, and select **Delete**.
+You can delete reusable content from your space entirely, if you wish. Find the reusable content in the page’s table of contents, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the content you’d like to delete, and select **Delete**.
 
 Deleting reusable content will **delete it from all pages it is used in**. This action cannot be undone.
 

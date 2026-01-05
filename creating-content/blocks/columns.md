@@ -16,7 +16,7 @@ Integrate your documentation right into your product experience, or give users a
 {% endcolumn %}
 
 {% column %}
-<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_columns.png" alt="An image of GitBook icons demonstrating side by side column functionality"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_columns.png" alt="An image of GitBook icons demonstrating side by side column functionality"><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

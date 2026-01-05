@@ -45,7 +45,7 @@ You can configure GitBook Agent by adding your team’s style guide or specific 
 
 To add a style guide or custom instructions, open your **Organization settings** and then choose the **GitBook Agent** section. Click the **Settings** tab and add your instructions in the text entry field.
 
-You can quickly access this screen by opening the GitBook Agent chat window in a change request, then opening the **Actions menu** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_actions_icon_light.svg" alt=""></picture> and choosing **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/10_01_25_10_01_25_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/10_01_25_10_01_25_settings_icon_light.svg" alt=""></picture>.
+You can quickly access this screen by opening the GitBook Agent chat window in a change request, then opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and choosing **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
 
 #### Custom instructions example
 

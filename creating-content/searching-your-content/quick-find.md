@@ -8,7 +8,7 @@ GitBook’s **Quick find** palette lets you search for content across all your o
 
 ### Use Quick find
 
-**​**You can open the **Quick find** palette by hitting the **Quick find** <picture><source srcset="../../.gitbook/assets/16_07_25_quick_find_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/16_07_25_quick_find.svg" alt=""></picture> button at the top of the sidebar or by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
+**​**You can open the **Quick find** palette by hitting the **Quick find** <picture><source srcset="../../.gitbook/assets/25_07_16_quick_find_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_16_quick_find.svg" alt=""></picture> button at the top of the sidebar or by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
 
 ### Search results <a href="#display-of-results" id="display-of-results"></a>
 

@@ -6,7 +6,7 @@ description: Customize icons, colors, themes and more
 
 ### Title, icon and logo
 
-<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_title_icon_logo@2x.png" alt="A GitBook screenshot showing title, icon and logo customization"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_title_icon_logo@2x.png" alt="A GitBook screenshot showing title, icon and logo customization"><figcaption></figcaption></figure>
 
 **Title**
 
@@ -34,7 +34,7 @@ The icon setting lets you upload a small, 132×132 px image, which will appear _
 
 Themes let you customize the color scheme of your published content for both light and dark mode. There are four themes to choose from. The colors of your site will be directly impacted by the **primary color** and **tint** that you choose. These two selections affect various parts of the interface and can completely change the look and feel of your site.
 
-<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_theme@2x.png" alt="A GitBook screenshot showing theme options"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_theme@2x.png" alt="A GitBook screenshot showing theme options"><figcaption></figcaption></figure>
 
 #### Clean
 
@@ -58,7 +58,7 @@ A trendsetting theme featuring a gradient background and splashes of color. The 
 
 ### Colors
 
-<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_colors@2x.png" alt="A GitBook screenshot showing color customization"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_colors@2x.png" alt="A GitBook screenshot showing color customization"><figcaption></figcaption></figure>
 
 #### Primary color
 
@@ -86,7 +86,7 @@ _Note: to change the theme within the GitBook app, go to your Settings menu at t
 
 ### Site styles
 
-<figure><img src="../../.gitbook/assets/10_12_25_site_styles@2x.png" alt="A GitBook screenshot showing site style settings"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_site_styles@2x.png" alt="A GitBook screenshot showing site style settings"><figcaption></figcaption></figure>
 
 **Font family** <mark style="background-color:purple;">**(Premium & Ultimate)**</mark>
 
@@ -115,7 +115,7 @@ Choose between two link designs:
 
 ### Sidebar styles
 
-<figure><img src="../../.gitbook/assets/10_12_25_10_12_25_sidebar_styles@2x.png" alt="A GitBook screenshot showing sidebar style options"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_sidebar_styles@2x.png" alt="A GitBook screenshot showing sidebar style options"><figcaption></figcaption></figure>
 
 **Background style**
 
