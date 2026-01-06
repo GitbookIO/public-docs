@@ -5,7 +5,7 @@ icon: user-plus
 
 # Inviting your team
 
-<figure><img src="../.gitbook/assets/collaboration-invite-team@2x.png" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_collaboration_invite_team@2x.png" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
 
 ### Sharing a space or collection
 
@@ -45,4 +45,4 @@ If you don’t want to use email to invite someone to your content, or want to i
 
 When you share this link, anyone who clicks on it will be able to sign up, join your organization as a [guest](../account-management/member-management/roles.md#guest-role), and get access to just this single space and its content.
 
-You can revoke the link at any time by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the link and choosing **Revoke**.
+You can revoke the link at any time by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the link and choosing **Revoke**.

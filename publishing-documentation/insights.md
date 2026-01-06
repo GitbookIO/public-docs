@@ -13,7 +13,7 @@ You can see a top-level overview of your insights on the **Overview** tab of you
 
 Click the **Insights** tab in the site header to find more detailed insights for your site.
 
-<figure><img src="../.gitbook/assets/18_07_25_publishing-documentation-advanced-site-insights.svg" alt="A GitBook screenshot showing the site insights dashboard"><figcaption><p>The site insights dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_07_18_publishing-documentation-advanced-site-insights.svg" alt="A GitBook screenshot showing the site insights dashboard"><figcaption><p>The site insights dashboard.</p></figcaption></figure>
 
 ### Filters & groups
 
@@ -25,7 +25,7 @@ By combining filters and groups, you can drill down in to precise analytics data
 
 You can use the drop-down menu on the right of the Insights screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.&#x20;
 
-To view the data over a custom time period, click the **Select custom date range** button <picture><source srcset="../.gitbook/assets/calendar-dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/calendar.svg" alt=""></picture> to the right of the menu and choose your custom time period using the calendar that appears.
+To view the data over a custom time period, click the **Select custom date range** button <picture><source srcset="../.gitbook/assets/25_09_15_calendar_1.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1.svg" alt=""></picture> to the right of the menu and choose your custom time period using the calendar that appears.
 
 ### Types of data
 

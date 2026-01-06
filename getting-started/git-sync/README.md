@@ -7,7 +7,7 @@ icon: code-pull-request
 
 # GitHub & GitLab Sync
 
-<figure><img src="../../.gitbook/assets/Git Sync@2x.png" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_2.png" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook space.</p></figcaption></figure>
 
 ### Overview
 

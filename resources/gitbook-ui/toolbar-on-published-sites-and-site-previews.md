@@ -35,5 +35,5 @@ Yes. By clicking the last button on the toolbar, you can choose between differen
 2. **Close for one session:** Fully removes the toolbar in the current tab until you close it.
 3. **Don't show again:** Hides the toolbar and remembers your choice. You can restore the toolbar by clearing your browser’s local storage.
 
-<figure><img src="../../.gitbook/assets/gitbook-ui-preview-toolbar@2x.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_10_16_gitbook_ui_preview_toolbar@2x.jpg" alt=""><figcaption></figcaption></figure>
 

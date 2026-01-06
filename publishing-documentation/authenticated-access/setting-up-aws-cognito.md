@@ -48,7 +48,7 @@ Click on the created app client and make a note of the Client ID and Client Secr
 
 Navigate to integrations within the GitBook app, select authenticated access as the category, and install the AWS Cognito integration.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.37.39 PM.png" alt="A GitBook screenshot showing the AWS Cognito integration install screen"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_oidc_2.png" alt="A GitBook screenshot showing the AWS Cognito integration install screen"><figcaption></figcaption></figure>
 
 Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We will need it to set up Cognito.
 
@@ -56,7 +56,7 @@ Open up the Cognito integration's configuration screen for the space you install
 
 It should look like the following image:
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2024-12-13 at 3.41.57 PM.png" alt="A GitBook screenshot showing the AWS Cognito configuration screen"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_aws_cognito_1.png" alt="A GitBook screenshot showing the AWS Cognito configuration screen"><figcaption></figcaption></figure>
 
 For Client ID, Cognito Domain, and Client Secret, paste in the values you got from Cognito.
 
@@ -97,6 +97,6 @@ export const handler = async (event, context) => {
 };
 ```
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-06-30 at 17.31.23.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_06_30_setting_up_aws_cognito_2.png" alt=""><figcaption></figcaption></figure>
 
 Once added, these key-value pairs are included in the authentication token and passed to GitBook, allowing your site to dynamically adapt its content based on the authenticated user’s profile.

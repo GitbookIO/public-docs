@@ -7,7 +7,7 @@ icon: lightbulb
 
 # Concepts
 
-<div data-full-width="false"><figure><picture><source srcset="../.gitbook/assets/Editor and block palette (1).png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Editor and block palette.png" alt="An illustration showing the block palette open in the GitBook editor. The window is floating on a pastel yellow and pink background"></picture><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><picture><source srcset="../.gitbook/assets/25_12_10_editor_and_block_palette.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_12_10_editor_and_block_palette_1.png" alt="An illustration showing the block palette open in the GitBook editor. The window is floating on a pastel yellow and pink background"></picture><figcaption></figcaption></figure></div>
 
 ## Organizing content
 
@@ -127,7 +127,7 @@ Variants are designed to let you add **multiple versions of the same documentati
 
 Your end users can switch between these variants on your docs site using the language picker or the variant picker at the top of the table of contents on the left-hand side of your site.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/13_10_25_site_structure@2x.png" alt="A screenshot of the Roboflow Documentation site, with a navigation bar along the top and an open drop-down menu at the top of the table of contents showing different language variants for the site."><figcaption><p>Site sections create a navigation bar along the top of your site, while users can switch between variants using a menu in the table of contents.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_structure_light.png" alt="A screenshot of the Roboflow Documentation site, with a navigation bar along the top and an open drop-down menu at the top of the table of contents showing different language variants for the site."><figcaption><p>Site sections create a navigation bar along the top of your site, while users can switch between variants using a menu in the table of contents.</p></figcaption></figure></div>
 
 ### Site audience
 
@@ -147,7 +147,7 @@ GitBook includes built-in customization options for docs sites, helping you matc
 
 Even if you don’t apply any customizations, your docs will look great as they are. But you have the option to customize logos, icons, and colors, add custom fonts, or choose from some built-in themes that help your docs look as great as your product.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/customization-demo.png" alt="An illustration showing five docs sites hosted in GitBook, each with distinct visual customizations"><figcaption><p>You can customize your documentation to match your brand with your own logos, colors, fonts, images and much more.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_07_16_customization_demo.png" alt="An illustration showing five docs sites hosted in GitBook, each with distinct visual customizations"><figcaption><p>You can customize your documentation to match your brand with your own logos, colors, fonts, images and much more.</p></figcaption></figure></div>
 
 ### SEO and AI optimizations
 

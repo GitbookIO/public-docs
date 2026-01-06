@@ -9,7 +9,7 @@ Comments allow you to provide feedback around specific pieces of content — wit
 
 ### Add a comment <a href="#comment-within-your-content" id="comment-within-your-content"></a>
 
-You can open the comments panel by clicking on the **Comments** button <picture><source srcset="../.gitbook/assets/comment_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/comment_icon_light.svg" alt="The Comments button icon in GitBook"></picture> in the [space header](../resources/gitbook-ui/#space-header).
+You can open the comments panel by clicking on the **Comments** button <picture><source srcset="../.gitbook/assets/25_01_10_comment_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_comment_icon_light.svg" alt="The Comments button icon in GitBook"></picture> in the [space header](../resources/gitbook-ui/#space-header).
 
 Adding a comment here will attach a comment to the entire page. You can also comment on a specific block by hovering over a block and clicking the content icon that appears on the right.
 

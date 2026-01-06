@@ -8,7 +8,7 @@ description: >-
 
 If you have an OpenAPI spec, you can add it to your organization by uploading the file directly, linking to a hosted URL, or using the [GitBook CLI](https://gitbook.com/docs/developers/integrations/reference).
 
-<figure><img src="../../.gitbook/assets/generate-api-docs@2x.png" alt="A GitBook screenshot showing the modal for generating API docs automatically"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_generate_api_docs@2x.png" alt="A GitBook screenshot showing the modal for generating API docs automatically"><figcaption></figcaption></figure>
 
 ### How to add a specification
 
@@ -20,7 +20,7 @@ If you have an OpenAPI spec, you can add it to your organization by uploading th
    * Enter a URL to a hosted spec
    * Use the CLI to publish the spec
 
-<figure><img src="../../.gitbook/assets/api_spec_modal@2x.png" alt="A GitBook screenshot showing the Add an OpenAPI specification modal"><figcaption><p>Add an OpenAPI specification modal.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_api_spec_modal@2x.png" alt="A GitBook screenshot showing the Add an OpenAPI specification modal"><figcaption><p>Add an OpenAPI specification modal.</p></figcaption></figure>
 
 ### Update your specification
 

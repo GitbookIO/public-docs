@@ -32,7 +32,7 @@ Page actions adds a page-level dropdown to every page of your docs, allowing use
 
 You can disable this option from the **Configure** tab if you do not wish to show page options in your published docs.
 
-<figure><img src="../../.gitbook/assets/Configure@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_configure@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### Open in AI providers
 
