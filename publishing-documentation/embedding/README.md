@@ -22,7 +22,7 @@ You can customize and override the default configuration with custom actions, to
 
 {% stepper %}
 {% step %}
-#### Prerequisites
+**Prerequisites**
 
 Before embedding your docs, ensure:
 
@@ -35,11 +35,11 @@ If you want to use the Assistant tab, [GitBook Assistant must be enabled](../git
 {% endstep %}
 
 {% step %}
-#### Implementation
+**Implementation**
 
 Pick the approach that matches your setup:
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h3><i class="fa-code">:code:</i></h3></td><td><strong>Standalone script tag</strong></td><td>Drop in a &#x3C;script> tag for the fastest setup, then customize its appearance</td><td><a href="implementation/script.md">script.md</a></td></tr><tr><td><h3><i class="fa-box">:box:</i></h3></td><td><strong>Node.js/NPM</strong></td><td>Install via NPM for server-side rendering or build-time control</td><td><a href="implementation/nodejs.md">nodejs.md</a></td></tr><tr><td><h3><i class="fa-react">:react:</i></h3></td><td><strong>React component</strong></td><td>Use prebuilt React components for seamless integration</td><td><a href="implementation/react.md">react.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-code">:code:</i></h4></td><td><strong>Standalone script tag</strong></td><td>Drop in a &#x3C;script> tag for the fastest setup, then customize its appearance</td><td><a href="implementation/script.md">script.md</a></td></tr><tr><td><h4><i class="fa-box">:box:</i></h4></td><td><strong>Node.js/NPM</strong></td><td>Install via NPM for server-side rendering or build-time control</td><td><a href="implementation/nodejs.md">nodejs.md</a></td></tr><tr><td><h4><i class="fa-react">:react:</i></h4></td><td><strong>React component</strong></td><td>Use prebuilt React components for seamless integration</td><td><a href="implementation/react.md">react.md</a></td></tr></tbody></table>
 
 {% hint style="info" %}
 If your docs use [Authenticated Access](../authenticated-access/), follow the steps in [how to set up the embed with authenticated docs](authentication/using-with-authenticated-docs.md).
@@ -47,7 +47,7 @@ If your docs use [Authenticated Access](../authenticated-access/), follow the st
 {% endstep %}
 
 {% step %}
-#### Configuration
+**Configuration**
 
 * [Customizing the Embed](configuration/customizing-docs-embed.md) – Add welcome messages, custom actions, and suggestions
 * [Creating custom tools](configuration/creating-custom-tools.md) – Connect Assistant to your product APIs

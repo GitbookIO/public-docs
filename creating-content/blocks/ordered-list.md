@@ -4,7 +4,7 @@ description: Add an ordered or numbered list to a page
 
 # Ordered lists
 
-Ordered lists, also called numbered lists, help you prioritize items or create a list of steps.&#x20;
+Ordered lists, also called numbered lists, help you prioritize items or create a list of steps.
 
 ### Example of ordered list
 
@@ -39,7 +39,7 @@ If you want to add an image within an ordered list, add it using the insert menu
 1. Item 1
 2. Item 2
 
-<div align="left"><figure><img src="../../.gitbook/assets/25_12_10_example_image.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/25_12_10_example_image (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 3. Item 3
 4. Item 4

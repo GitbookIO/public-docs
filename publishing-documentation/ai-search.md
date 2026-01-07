@@ -19,7 +19,7 @@ GitBook sites offer different search experiences depending on what you want for 
 
 To choose your site’s search experience, open your site’s dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can choose your preferred experience.
 
-<figure><img src="../.gitbook/assets/25_07_29_search_ai.svg" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_06_search_ai@2x.png" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
 
 {% hint style="warning" %}
 When GitBook Assistant is enabled, AI search is disabled. Standard keyword searches will always provide the results in the search bar no matter which experience you choose.
@@ -56,9 +56,9 @@ Multi-space search is only available when viewing published spaces that live as 
 {% endhint %}
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-*   Click the **GitBook Assistant**&#x20;
+*   Click the **GitBook Assistant**
 
     <picture><source srcset="../.gitbook/assets/25_07_16_gitbook_assistant.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_07_16_gitbook_assistant_1.svg" alt=""></picture>
 
-    &#x20;button next to the **Ask or search…** bar
+    button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.

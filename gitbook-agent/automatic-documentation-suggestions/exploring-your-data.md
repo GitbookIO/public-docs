@@ -28,11 +28,11 @@ You can view conversations by opening **Organization settings** > **GitBook Agen
 
 ### Issues
 
-Issues are standalone data points that have been identified within a conversation. GitBook Agent assigns them an impact score, which is added to the metadata from when the data was ingested.&#x20;
+Issues are standalone data points that have been identified within a conversation. GitBook Agent assigns them an impact score, which is added to the metadata from when the data was ingested.
 
 You can view issues by opening **Organization settings** > **GitBook Agent** > **Data Explorer** and choosing the **Issues** tab.
 
-Click the **Inspect** <picture><source srcset="../../.gitbook/assets/25_12_12_inspect_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_12_12_inspect_1.svg" alt=""></picture> button on an issue to read a summary, along with GitBook Agent’s analysis of it.
+Click the **Inspect** <picture><source srcset="../../.gitbook/assets/25_12_12_inspect_light.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_12_12_inspect_light.svg" alt=""></picture> button on an issue to read a summary, along with GitBook Agent’s analysis of it.
 
 ### Topics
 
@@ -40,12 +40,12 @@ Topics are groups of issues that are related to one another. By grouping issues 
 
 The Agent will assign each topic an impact score, and show the number of issues and conversations the Agent used to form the topic. They’ll update automatically as new conversations and issues are processed.
 
-Click **Inspect** <picture><source srcset="../../.gitbook/assets/25_12_12_inspect_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_12_12_inspect_1.svg" alt=""></picture> on any topic to see the issues used to form the topic, along with a log of GitBook Agent’s thinking to process those issues and create the topic.
+Click **Inspect** <picture><source srcset="../../.gitbook/assets/25_12_12_inspect_light.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_12_12_inspect_light.svg" alt=""></picture> on any topic to see the issues used to form the topic, along with a log of GitBook Agent’s thinking to process those issues and create the topic.
 
-This inspector screen also shows any change requests GitBook Agent has created based off of the topic — ready for [you and your team to review](../../collaboration/change-requests/change-requests-screen.md).
+This inspector screen also shows any change requests GitBook Agent has created based off of the topic — ready for [you and your team to review](../../collaboration/change-requests/change-requests-screen.md).
 
 {% hint style="info" %}
-## Disabling a topic
+### Disabling a topic
 
 If a topic isn’t valuable, you can toggle the topic off from its inspector screen. Once disabled, the topic will no longer be used to create change requests for your documentation.
 {% endhint %}

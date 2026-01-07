@@ -2,4 +2,4 @@
 title: Untitled
 ---
 
-<figure><img src="../assets/18_07_25_publishing-documentation-advanced-site-insights.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../assets/26_01_06_insights@2x.png" alt=""><figcaption></figcaption></figure>

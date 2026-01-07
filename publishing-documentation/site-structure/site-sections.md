@@ -17,7 +17,7 @@ Site sections are perfect for organizing your documentation — whether you’re
 You can also [group site sections together](site-sections.md#create-a-site-section-group). Doing so will create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site sections.
 
 {% hint style="info" %}
-### Sections or variants?
+#### Sections or variants?
 
 Each site section is a space in GitBook. You can create site sections from any space you like, but we recommend you use sections as semantically different parts of your docs.
 

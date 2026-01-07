@@ -8,7 +8,7 @@ Columns are a great way to create different layouts for your documentation. You 
 
 {% columns %}
 {% column width="50%" %}
-### Create a seamless experience between your docs and product
+#### Create a seamless experience between your docs and product
 
 Integrate your documentation right into your product experience, or give users a personalized experience that gives them what they need faster.
 
@@ -23,18 +23,24 @@ Integrate your documentation right into your product experience, or give users a
 ## Representation in Markdown
 
 <pre class="language-markdown" data-overflow="wrap"><code class="lang-markdown"><strong>## Example
-</strong><strong>
-</strong>{% columns %}
-{% column width="50%" %}
+</strong>
+
+
+
+
 ### Create a seamless experience between your docs and product
 
 Integrate your documentation right into your product experience, or give users a personalized experience that gives them what they need faster.
 
 &#x3C;a href="https://www.gitbook.com/#alpha-waitlist" class="button primary">Learn more&#x3C;/a>
-{% endcolumn %}
 
-{% column %}
+
+
+
+
 &#x3C;figure>&#x3C;img src="../../.gitbook/assets/GitBook vision post.png" alt="An image of GitBook icons demonstrating side by side column functionality">&#x3C;figcaption>&#x3C;/figcaption>&#x3C;/figure>
-{% endcolumn %}
-{% endcolumns %}
+
+
+
+
 </code></pre>

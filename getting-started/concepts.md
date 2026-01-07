@@ -15,27 +15,27 @@ icon: lightbulb
 
 A space is a project that lets you work on a collection of related pages. Within a space you can write content, organize your pages with groups and subpages, install integrations, and more.
 
-When you want to publish a space, you can do so by adding it to a docs site. You can add as many spaces to a docs site as you like. So when you’re building out your content, you can create separate spaces for your product documentation, API reference, changelog, help center, and anything else you want to include on your documentation — and publish them all on one docs site.
+When you want to publish a space, you can do so by adding it to a docs site. You can add as many spaces to a docs site as you like. So when you’re building out your content, you can create separate spaces for your product documentation, API reference, changelog, help center, and anything else you want to include on your documentation — and publish them all on one docs site.
 
 You may also want to create translated versions of your primary documentation, or separate docs for different versions of your product. Each of these will also have their own space and can be added to your single docs site for users to browse.
 
 #### Collection
 
-Collections act like folders within the GitBook app, letting you group spaces together to make it easier to organize and store your content.&#x20;
+Collections act like folders within the GitBook app, letting you group spaces together to make it easier to organize and store your content.
 
 As well as letting you keep content organized, collections also make it easier to manage content-level permissions at scale. You can override organization-level permissions across multiple spaces by adding them to a collection and setting permissions for the entire collection.
 
 ### Docs site
 
-You can publish your content as a docs site. Your docs will be published and available to your selected audience as a website that you can customize with your own branding, analytics and custom domain.&#x20;
+You can publish your content as a docs site. Your docs will be published and available to your selected audience as a website that you can customize with your own branding, analytics and custom domain.
 
-You can create as many docs sites as you want. They’re all listed in the sidebar and in the Docs sites section of the app, where you can change settings and customization options. You can control all of your docs site’s settings and options in the GitBook app.
+You can create as many docs sites as you want. They’re all listed in the sidebar and in the Docs sites section of the app, where you can change settings and customization options. You can control all of your docs site’s settings and options in the GitBook app.
 
-The content on your site comes from spaces in your GitBook organization. When you create a new docs site, you can create a new space, or link an existing one. A docs site can contain one space, or multiple spaces containing different content — including translations and previous product versions.
+The content on your site comes from spaces in your GitBook organization. When you create a new docs site, you can create a new space, or link an existing one. A docs site can contain one space, or multiple spaces containing different content — including translations and previous product versions.
 
 ## Editing content
 
-GitBook’s visual editor lets you use a what-you-see-is-what-you-get (WYSIWYG) interface to add content to a space.&#x20;
+GitBook’s visual editor lets you use a what-you-see-is-what-you-get (WYSIWYG) interface to add content to a space.
 
 ### Pages
 
@@ -44,7 +44,7 @@ A page is the place where you add, edit and embed content. Pages always live ins
 The pages in your space appear in the table of contents on the left-hand side of the editor. Here, you can add new pages, create page groups, and nest pages within other pages to create subpages.
 
 {% hint style="info" %}
-## Can’t see how to edit or add a page?
+### Can’t see how to edit or add a page?
 
 If your site is published, you’ll need to create a change request before you can make any changes to the content of a space. [Read about change requests below](concepts.md#change-requests).
 {% endhint %}
@@ -61,7 +61,7 @@ Discover all the blocks you can use in GitBook [in the Blocks section](../creati
 
 GitBook’s editor allows you to create and format content blocks using Markdown.
 
-Markdown is a popular markup syntax that’s widely known for its simplicity. GitBook supports it as a keyboard-friendly way to write rich and structured text — all of GitBook’s blocks can be written using Markdown syntax.
+Markdown is a popular markup syntax that’s widely known for its simplicity. GitBook supports it as a keyboard-friendly way to write rich and structured text — all of GitBook’s blocks can be written using Markdown syntax.
 
 {% hint style="info" %}
 You can learn more about Markdown itself by visiting [CommonMark](https://commonmark.org/help/).
@@ -71,7 +71,7 @@ You can learn more about Markdown itself by visiting [CommonMark](https://common
 
 Git Sync allows teams to synchronize GitHub or GitLab repositories with GitBook and turn Markdown files into beautiful, user-friendly docs. Once set up, it keeps all your content synchronized between the GitBook app and your codebase.
 
-Git Sync is bi-directional, so changes you make in GitBook’s visual editor are automatically synced — as are any commits made on GitHub or GitLab. This allows developers to commit directly from GitHub or GitLab while other team members edit and leave feedback on changes directly in GitBook.&#x20;
+Git Sync is bi-directional, so changes you make in GitBook’s visual editor are automatically synced — as are any commits made on GitHub or GitLab. This allows developers to commit directly from GitHub or GitLab while other team members edit and leave feedback on changes directly in GitBook.
 
 Git Sync also unlocks many other useful workflows in your GitBook docs, such as batch changes, linting, and more. Learn more in [our Git Sync section](git-sync/).
 
@@ -86,24 +86,24 @@ If you want to edit the content on your published docs site, you’ll first need
 In a change request, you can add, edit and delete content in a space, then request a review from your team and merge your changes into your main content to update your published docs site.
 
 {% hint style="info" %}
-## Branching in brief
+### Branching in brief
 
-Opening a change request creates a copy of your content at that specific moment in time, sometimes called a ‘branch’. Any changes you make will not appear in your main content until you choose to merge your change request.&#x20;
+Opening a change request creates a copy of your content at that specific moment in time, sometimes called a ‘branch’. Any changes you make will not appear in your main content until you choose to merge your change request.
 
 The advantage of branching is that your teammates can create, edit and merge their own change requests at the same time as you without stepping on each other’s toes. And if someone edits the same content as you, GitBook will guide you through resolving any conflicts before you merge.
 {% endhint %}
 
 #### Reviews
 
-Reviews encourage oversight and help improve the quality and accuracy of your documentation.&#x20;
+Reviews encourage oversight and help improve the quality and accuracy of your documentation.
 
 You can request a review on your change request before you merge and make the changes live on your docs site. Adding a title and description to your change request gives your reviewers some context.
 
-Reviewers can view the diff for your change request, which highlights everything that’s new, changed or deleted in your change request. They can also leave feedback right on the page using the built-in comments feature --  then approve your change request, or ask for more changes to be made.
+Reviewers can view the diff for your change request, which highlights everything that’s new, changed or deleted in your change request. They can also leave feedback right on the page using the built-in comments feature -- then approve your change request, or ask for more changes to be made.
 
 #### Merging
 
-Merging a change request will add all the content in your change request into the main branch of content — and those changes will also go live on your docs site.&#x20;
+Merging a change request will add all the content in your change request into the main branch of content — and those changes will also go live on your docs site.
 
 When you merge your change request, it also creates a new version in the space’s version history.
 
@@ -113,17 +113,17 @@ When you publish your content as a [docs site](concepts.md#docs-site), you can a
 
 ### Structuring your docs site
 
-If you want to add extra content to your site, there are two options for you to use, each designed for different use cases: site sections and variants.
+If you want to add extra content to your site, there are two options for you to use, each designed for different use cases: site sections and variants.
 
 #### Site section
 
-Site sections are designed to let you add **multiple different types of documentation to a single docs site**. For example, you could use a single docs site and use it to host your product docs, API reference, help center and changelog — as we do on this docs site.
+Site sections are designed to let you add **multiple different types of documentation to a single docs site**. For example, you could use a single docs site and use it to host your product docs, API reference, help center and changelog — as we do on this docs site.
 
 When you add new site sections, you build out the navigation bar at the top of your site, with each section getting its own entry on the bar. You can also group site sections together to create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site sections.
 
 #### Variant
 
-Variants are designed to let you add **multiple versions of the same documentation to a single docs site**. For example, you might want to localize your entire documentation into multiple languages, or document previous versions of your product for users that haven’t updated.&#x20;
+Variants are designed to let you add **multiple versions of the same documentation to a single docs site**. For example, you might want to localize your entire documentation into multiple languages, or document previous versions of your product for users that haven’t updated.
 
 Your end users can switch between these variants on your docs site using the language picker or the variant picker at the top of the table of contents on the left-hand side of your site.
 
@@ -131,7 +131,7 @@ Your end users can switch between these variants on your docs site using the lan
 
 ### Site audience
 
-You can choose who will see your documentation when you publish it. The default for new sites is for them to be published publicly, and indexed by search engines.&#x20;
+You can choose who will see your documentation when you publish it. The default for new sites is for them to be published publicly, and indexed by search engines.
 
 However, if you want more control over who can access your site, you can choose to limit the audience using **share links** or **authenticated access**.
 
@@ -167,11 +167,11 @@ A GitBook organization contains all of the content and docs sites for an individ
 
 ### Members
 
-Members are individual users within your organization. You can have as many members as you like in an organization, each with permissions suited to their specific access needs.
+Members are individual users within your organization. You can have as many members as you like in an organization, each with permissions suited to their specific access needs.
 
 #### Permissions
 
-Permissions let you decide on the access level of your organization’s members. When a member joins your organization, you assign them a role — such as Editor or Viewer. These roles define their permissions for all of your organization’s content. But you can also override these permissions at a content level. For example:
+Permissions let you decide on the access level of your organization’s members. When a member joins your organization, you assign them a role — such as Editor or Viewer. These roles define their permissions for all of your organization’s content. But you can also override these permissions at a content level. For example:
 
 * You can give someone with the Viewer role editing access to one particular piece of content
 * You can limit access to specific confidential or private content and only grant access to certain members of your organization.

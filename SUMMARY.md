@@ -101,6 +101,7 @@
 * [Publish a docs site](publishing-documentation/publish-a-docs-site/README.md)
   * [Public publishing](publishing-documentation/publish-a-docs-site/public-publishing.md)
   * [Private publishing with share links](publishing-documentation/publish-a-docs-site/share-links.md)
+  * [Authenticated access](publishing-documentation/authenticated-access/README.md)
 * [Site structure](publishing-documentation/site-structure/README.md)
   * [Site sections](publishing-documentation/site-structure/site-sections.md)
   * [Content variants](publishing-documentation/site-structure/variants.md)

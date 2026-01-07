@@ -7,7 +7,7 @@ icon: gear
 
 {% include "../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
 
-<figure><img src="../.gitbook/assets/25_07_18_publishing-documentation-site-settings.svg" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_01_06_site_settings@2x.png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 
@@ -97,7 +97,7 @@ Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). See [#gitb
 
 <details>
 
-<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
+<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
 
 Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collaboration/pdf-export.md "mention") for more info.
 
@@ -105,7 +105,7 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../collabor
 
 <details>
 
-<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
+<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
@@ -117,7 +117,7 @@ You can review the results of these ratings by opening the [**Insights**](insigh
 
 <details>
 
-<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark> </summary>
+<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
 
 Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [ai-search.md](ai-search.md "mention") for more info.
 
@@ -125,7 +125,7 @@ Let your site visitors ask GitBook anything with AI search or the GitBook assist
 
 <details>
 
-<summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark> </summary>
+<summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark></summary>
 
 Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai](ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
 

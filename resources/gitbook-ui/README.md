@@ -47,7 +47,11 @@ From the **Pages** tab in the table of contents you can:
 * Create new [pages](./#pages) and subpages
 * Create [page groups](./#groups)
 * Add [external links](./#external-links)
-* Access [the Actions menu](./#the-actions-menu) <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> for individual pages.
+*   Access [the Actions menu](./#the-actions-menu)&#x20;
+
+    <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture>
+
+    &#x20;for individual pages.
 
 In the **Reusable content** tab, you can:
 
@@ -73,7 +77,7 @@ The space header contains information about the space you’re currently viewing
 {% hint style="info" %}
 **The space header is adaptable**, and changes depending on the space and mode you’re currently in.
 
-For example, if you’re editing a [change request](../../collaboration/change-requests/), you will see an overview of the change request, alongside options to open the editor, view changes and merge your change request.&#x20;
+For example, if you’re editing a [change request](../../collaboration/change-requests/), you will see an overview of the change request, alongside options to open the editor, view changes and merge your change request.
 
 If you’re viewing a read-only space, you will need to open a new change request to edit the content of the page as live edits are locked.
 {% endhint %}
@@ -88,8 +92,12 @@ The space header includes:
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
 * **The space’s breadcrumbs**\
   A full, linear list of the collections or docs sites the space lives in.
-* **Actions menu** <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>\
-  Offers a list of actions for your space. Similar to [page actions](./#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
+*   **Actions menu**&#x20;
+
+    <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>
+
+    \
+    Offers a list of actions for your space. Similar to [page actions](./#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 * **Overview**\
   When viewing a change request, this tab shows the title and description of the change request, along with the participants and reviewers. It also shows all the changes and comments.
 * **Editor view**\
@@ -105,7 +113,7 @@ The space header includes:
 * **The Share menu**\
   Allows you to publish and share your space. You can also invite others to [collaborate](../../content-editor/editor/broken-reference/) through this menu.
 * **Variables**\
-  [Create and add reusable variables](../../creating-content/variables-and-expressions.md) to use in a space.&#x20;
+  [Create and add reusable variables](../../creating-content/variables-and-expressions.md) to use in a space.
 * **GitBook Agent**\
   Collaborate on changes in a space with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
 * **Comments**\

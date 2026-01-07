@@ -14,7 +14,7 @@ Whether you’re working within the GitBook app or your visitors are reading you
 You can use quick find to look for specific words or phrases, or you can ask GitBook AI a question. It’ll scan through your docs and summarize an answer in seconds, with references to help you find out more.
 
 {% hint style="success" %}
-### Global search
+#### Global search
 
 If you’re publishing your documentation on [an Ultimate site plan](../../account-management/plans/#site-plans), and add multiple spaces as [site sections](../../publishing-documentation/site-structure/site-sections.md), your users will be able to use the **Ask or search** bar to find information across all your site sections.
 {% endhint %}
