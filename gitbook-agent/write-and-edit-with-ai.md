@@ -5,6 +5,8 @@ icon: wand-magic-sparkles
 
 # Writing with GitBook Agent
 
+{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
+
 GitBook Agent is a powerful tool for generating content for your documentation in GitBook.
 
 The Agent can do everything from write small sections of text on your page, to edit existing blocks and create new pages, sections and more in a change request.
@@ -65,13 +67,32 @@ If you want the Agent to review a specific block on your page, you can tag it in
 
 GitBook Agent will update the content based on your prompt, then reply to your comment telling you what it did.
 
+#### Improve page content with GitBook Agent
+
+<figure><img src="../.gitbook/assets/26_01_14_improve_page_actions.png" alt=""><figcaption></figcaption></figure>
+
+The **Improve** menu gives you a choice of presets that tell GitBook Agent to carry out common actions to improve your page content.
+
+You can access the **Improve** menu from the editor by hovering over the page title, or by opening the page’s **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture>.
+
+From the Improve menu, you can tell the Agent to:
+
+* Add an icon for the page
+* Generate a page description based on its content
+* Fix spelling and grammar
+* Rewrite for consistency with other pages
+* Optimize for SEO
+* Add a summary and next steps section
+* Link to related topics and pages
+* Divide the single page into multiple pages
+
+The first two options are conditional — they change based on your page content. So if your page already has an icon and description, you won’t see those choices in the menu.
+
+Select any option and the Agent will instantly get to work on your task.
+
 #### Create new content in an empty block
 
-{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 You can use GitBook Agent to create content on any empty line on your page. It can create all kinds of content — formatted in Markdown — including code samples, templates, page summaries and more.
-
-<figure><img src="../.gitbook/assets/25_12_10_write_with_ai@2x.png" alt="A GitBook screenshot showing the AI writing options"><figcaption><p>Write with GitBook AI.</p></figcaption></figure>
 
 Press `Space` on any empty line, or type `/` and choose **Write with AI** to launch GitBook Agent.
 
