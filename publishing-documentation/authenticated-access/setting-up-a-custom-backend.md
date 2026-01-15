@@ -181,8 +181,6 @@ res.redirect(redirectURL);
 
 ### 5. Configure your backend for adaptive content (optional)
 
-{% include "../../.gitbook/includes/adaptive-content-development-hint.md" %}
-
 To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
 
 These claims when included in the JWT are used by GitBook to [adapt content](../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
