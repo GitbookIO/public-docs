@@ -80,7 +80,7 @@ Add hierarchy to tags to organize your pages in GitBook.&#x20;
 
 {% code title="openapi.yaml" %}
 ```yaml
-openapi: '3.0'
+openapi: '3.2'
 info: ...
 tags:
   - name: organization
