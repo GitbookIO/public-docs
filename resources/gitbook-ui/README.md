@@ -47,24 +47,21 @@ From the **Pages** tab in the table of contents you can:
 * Create new [pages](./#pages) and subpages
 * Create [page groups](./#groups)
 * Add [external links](./#external-links)
-*   Access [the Actions menu](./#the-actions-menu)&#x20;
+* Access [the Actions menu](./#the-actions-menu) <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> for individual pages.
 
-    <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture>
+In the **Library** tab, you can:
 
-    &#x20;for individual pages.
+* View and search for reusable content, variables, images and files in the space
+* View and insert reusable content from other spaces
+* Create or import new items in the Library
+* Drag and drop Library items onto the page
+* Double-click to rename any Library item
+* Preview images
+* Manage and download images and files
 
-In the **Reusable content** tab, you can:
+Here’s a short video showing what you can do with the table of contents, particularly the Library tab:
 
-* View and search through the reusable content in the space
-* Create new reusable content
-* Drag and drop reusable content onto the page
-* Rename and delete reusable content
-
-In the **Files** tab, you can:
-
-* View, search and reorder the files in your space
-* Drag and drop more files into your space
-* Manage individual files
+{% embed url="https://youtu.be/gg-VZP2wl-I" %}
 
 If you want to give more focus to the content of your page, you can temporarily hide the table of contents by hovering your cursor next to it and clicking the **Hide** button <picture><source srcset="../../.gitbook/assets/25_10_08_panel_left.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_10_08_panel_left_1.svg" alt="The Hide button icon in GitBook"></picture> that appears. To make it appear again, hover your cursor near the edge of the page and click the **Show** button <picture><source srcset="../../.gitbook/assets/25_10_08_panel_right.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_10_08_panel_right_1.svg" alt="The Show button icon in GitBook"></picture>.
 
@@ -92,11 +89,8 @@ The space header includes:
   The name of the space that will appear in the sidebar, and your documentation if and when you choose to publish it.
 * **The space’s breadcrumbs**\
   A full, linear list of the collections or docs sites the space lives in.
-*   **Actions menu**&#x20;
+*   **Actions menu** <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>
 
-    <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>
-
-    \
     Offers a list of actions for your space. Similar to [page actions](./#the-actions-menu), the available actions for a space will differ depending on the mode you’re currently in.
 * **Overview**\
   When viewing a change request, this tab shows the title and description of the change request, along with the participants and reviewers. It also shows all the changes and comments.
