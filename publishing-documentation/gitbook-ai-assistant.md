@@ -23,6 +23,23 @@ The Assistant uses agentic retrieval to understand the context of queries based 
 
 To enable GitBook Assistant, open your site's dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can enable GitBook Assistant from the options available.
 
+#### Add suggested questions
+
+Suggested questions are pre-written prompts shown when the Assistant opens with no active conversation. They help users understand what they can ask, and can help you point your users towards useful answers or workflows.
+
+You can add suggested questions in your site’s settings, under **AI & MCP** from the menu on the left.
+
+**Good suggested questions:**
+
+* Start with a real user goal (setup, troubleshoot, integrate).
+* Use the words your users use (avoid internal codenames).
+* Keep them specific. “How do I…?” beats “Tell me about…”.
+* Cover different intents: quickstart, how-to, troubleshooting, and reference.
+
+{% hint style="info" %}
+If you’re embedding the Assistant in your product, you can also dynamically set suggestions in your embed configuration. See [Customizing the Embed](embedding/configuration/customizing-docs-embed.md#adding-suggestions).
+{% endhint %}
+
 ### Using GitBook Assistant in published docs <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
 Users can access GitBook Assistant in three ways:
