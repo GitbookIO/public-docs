@@ -108,6 +108,7 @@
 * [Site customization](publishing-documentation/customization/README.md)
   * [Icons, colors, and themes](publishing-documentation/customization/icons-colors-and-themes.md)
   * [Layout and structure](publishing-documentation/customization/layout-and-structure.md)
+  * [Sharing](publishing-documentation/customization/sharing.md)
   * [Extra configuration](publishing-documentation/customization/extra-configuration.md)
 * [Set a custom domain](publishing-documentation/custom-domain.md)
 * [Setting a custom subdirectory](publishing-documentation/setting-a-custom-subdirectory/README.md)
