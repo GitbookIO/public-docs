@@ -37,10 +37,12 @@ Every GitBook user can take advantage of basic customization options on their do
 Advanced customization options include:
 
 * **Custom logo** – Add a logo that replaces the emoji and title at the top of your docs site.
-* **Icons** - Change the weight and style of page icons in your docs site.
-* **Custom font** – Change the font of your docs to one of the built-in options.
+* **Icon style** - Change the weight and style of page icons in your docs site.
+* **Custom fonts** – Change the primary font and monospace of your docs site.
 * **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
 * **Bold and Gradient themes** – Change the background color for your header, or add a gradient background to your entire site with these new themes.
+* **Semantic colors** – Change the background color of hint blocks and the styling of code blocks within your published content.
+* **Code themes** – Change the appearance of code and API blocks in your published documentation using either preset themes or adaptive themes that use your site's colors.
 
 ### What cannot be customized?
 
