@@ -39,6 +39,12 @@ You must be an [organization admin](../member-management/roles.md#admin) to enab
 
 After configuring SSO on your IdP, you will be able to enter metadata. When the setup is successful, administrators will see a confirmation dialog and the URL of the SSO login for end-users will be displayed. **GitBook does not send announcement emails when set up is complete**. It is the responsibility of the administrator to notify company employees (and convey the login URL to them) so they can access GitBook via SSO.‌
 
+{% hint style="info" %}
+Organization admins can still sign in with non-SSO methods, so you may still see Google, GitHub, or email buttons. This is expected, even with **Enforce SSO** enabled.&#x20;
+
+This prevents a lockout from your organization after a bad SSO setup. Admins can always sign in and remove or fix SSO settings.
+{% endhint %}
+
 You’ll need the following from your IdP metadata to register a SAML provider:
 
 * A **label** – this can be anything, it’ll be displayed on the login page
