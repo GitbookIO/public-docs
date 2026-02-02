@@ -186,4 +186,7 @@
   * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
-* [skill](resources/skill.md)
+
+***
+
+* [skill](skill.md)
