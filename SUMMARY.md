@@ -15,6 +15,7 @@
   * [Commit messages & Autolink](getting-started/git-sync/commits.md)
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
+* [GitBook's skill.md](https://gitbook.com/docs/skill.md)
 
 ## Create <a href="#creating-content" id="creating-content"></a>
 
@@ -52,6 +53,7 @@
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
+* [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skill.md.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
@@ -184,3 +186,4 @@
   * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
+* [skill](resources/skill.md)

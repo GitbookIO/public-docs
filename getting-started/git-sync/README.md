@@ -18,3 +18,7 @@ Git Sync is bi-directional, so changes you make directly in GitBook’s editor a
 {% hint style="info" %}
 Only [administrators and creators](../../account-management/member-management/roles.md) can enable and configure Git Sync.
 {% endhint %}
+
+### skill.md
+
+When working on your docs locally with Git Sync, you can use GitBook's [skill.md file](../../creating-content/ai-coding-assistants-and-skill.md.md) to provide an AI coding assistant with context about GitBook's blocks, features, and best practices.&#x20;
