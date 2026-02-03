@@ -53,7 +53,7 @@
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Snippets](creating-content/blocks/snippets.md)
-* [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skill.md.md "Using skill.md")
+* [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skillmd.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
