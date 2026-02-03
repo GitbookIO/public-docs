@@ -15,7 +15,7 @@
   * [Commit messages & Autolink](getting-started/git-sync/commits.md)
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
-* [GitBook's skill.md](https://gitbook.com/docs/skill.md)
+  * [Skill.md](https://gitbook.com/docs/skill.md)
 
 ## Create <a href="#creating-content" id="creating-content"></a>
 
