@@ -31,6 +31,12 @@ Place this code in your HTML `<head>` or before the closing `</body>` tag:
   window.GitBook('show');
 </script>
 ```
+
+{% hint style="info" %}
+If your docs site is protected by authenticated access, the script itself is served behind auth. Append the signed token to the script URL as `jwt_token`:
+
+`https://docs.company.com/~gitbook/embed/script.js?jwt_token=your-jwt-token`
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -133,7 +139,12 @@ For authenticated docs or conditional loading, inject the script at runtime:
 <script>
   function loadGitBookEmbed() {
     var script = document.createElement("script");
-    script.src = "https://docs.company.com/~gitbook/embed/script.js";
+    // If your docs site is protected, you must authenticate the script request.
+    // Append the signed token as `jwt_token`.
+    var token = "your-jwt-token";
+    script.src =
+      "https://docs.company.com/~gitbook/embed/script.js?jwt_token=" +
+      encodeURIComponent(token);
     script.async = true;
     script.onload = function () {
       window.GitBook('init', { siteURL: 'https://docs.company.com' });

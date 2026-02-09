@@ -20,7 +20,7 @@ When initializing the embed, pass the visitor token directly:
 {% tabs %}
 {% tab title="Standalone Script" %}
 ```html
-<script src="https://docs.company.com/~gitbook/embed/script.js"></script>
+<script src="https://docs.company.com/~gitbook/embed/script.js?jwt_token=your-jwt-token"></script>
 <script>
   window.GitBook(
     "init",
@@ -64,6 +64,12 @@ iframe.src = gitbook.getFrameURL({
 {% endtab %}
 {% endtabs %}
 
+{% hint style="info" %}
+The Embed config API has not changed. Pass signed visitor tokens as `visitor.token`.
+
+For authenticated sites, GitBook forwards this token to the site as `jwt_token` in the iframe/script URL. If you load the standalone script from an authenticated site, you must include `jwt_token` in the `<script src>` URL.
+{% endhint %}
+
 ## Approach 2: Cookie-based detection
 
 If your docs site stores the visitor token in cookies (as `gitbook-visitor-token`), you can check for it before loading the embed.
@@ -103,7 +109,9 @@ Use this snippet to load the embed only after a user has signed in:
 
     // Token exists, load the embed
     var script = document.createElement("script");
-    script.src = "https://docs.example.com/~gitbook/embed/script.js";
+    script.src =
+      "https://docs.example.com/~gitbook/embed/script.js?jwt_token=" +
+      encodeURIComponent(token);
     script.async = true;
     script.onload = function () {
       window.GitBook(
@@ -146,7 +154,9 @@ If the token is missing, you can prompt users to sign in:
 
     // Load the embed with token
     var script = document.createElement("script");
-    script.src = "https://docs.example.com/~gitbook/embed/script.js";
+    script.src =
+      "https://docs.example.com/~gitbook/embed/script.js?jwt_token=" +
+      encodeURIComponent(token);
     script.async = true;
     script.onload = function () {
       window.GitBook(
