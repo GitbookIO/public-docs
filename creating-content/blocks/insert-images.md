@@ -31,7 +31,7 @@ GitBook allows you to upload images up to 100MB per file.
 
 #### Create an image gallery
 
-Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_cards_light.svg" alt="The Options menu icon in GitBook"></picture> and choose **Add images…** to open the **Select images** side panel again.
+Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and choose **Add images…** to open the **Select images** side panel again.
 
 To delete an image from a gallery, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt=""></picture> on the image you want to delete and press the **Delete ⌫** key.
 
@@ -114,7 +114,7 @@ If your image is wider than the editor, GitBook will limit the image’s width t
 {% endhint %}
 
 {% hint style="info" %}
-You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_cards_light.svg" alt="The Options menu icon in GitBook"></picture> next to the block and choosing **Full width**.
+You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> next to the block and choosing **Full width**.
 {% endhint %}
 
 ### Resizing images through Git Sync
@@ -132,7 +132,7 @@ Valid variants for specifying the image dimensions are:\
 
 By default, image blocks will show your image at its full size, aligned centrally.
 
-To change the alignment of an image, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_cards_light.svg" alt="The Options menu icon in GitBook"></picture> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
+To change the alignment of an image, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
 
 ### Framing images
 
@@ -140,7 +140,7 @@ You can add a frame to image blocks to give your images a consistent look and vi
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_10_06_image_frame_demo@2x.jpg" alt="A black and white photograph of a lone figure walking across a stark white landscape"><figcaption><p>Framed images can have captions, and show a subtle grid behind the caption.</p></figcaption></figure></div>
 
-To add a frame to an image, hover over it, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_cards_light.svg" alt=""></picture> and enable the **With frame** toggle.&#x20;
+To add a frame to an image, hover over it, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt=""></picture> and enable the **With frame** toggle.
 
 {% hint style="info" %}
 **Good to know:** You can only frame single images in a block. Image blocks that contain multiple images and inline images cannot have frames.

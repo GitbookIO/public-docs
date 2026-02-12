@@ -79,3 +79,11 @@ GitBook Agent is free for all plans while in beta.
 [Translations](translations.md) are priced separately as a monthly add-on. Visit [the pricing section](translations.md#pricing) to find out more.
 
 </details>
+
+<details>
+
+<summary>Can I override the default tone of GitBook Agent’s output?</summary>
+
+Yes, you can override the default personality and tone of GitBook Agent. So if you want more verbose outputs, or for it to follow a specific style or tone, simply tell the Agent — either in the organization-wide instructions, or in an individual prompt in a change request.
+
+</details>

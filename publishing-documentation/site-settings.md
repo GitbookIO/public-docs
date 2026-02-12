@@ -21,13 +21,11 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <details>
 
-<summary>Social preview</summary>
+<summary>Insights cookie</summary>
 
-Here, you can upload a custom social preview image for your site. This will set the site’s `og:image` to your uploaded image, and it’ll show when the site’s link is shared to any platform or product that supports OpenGraph images, such as Slack or X.
+If you want to use GitBook’s [built-in insights](insights.md), your site will use cookies to identify returning visitors and gather the data needed to view those insights.&#x20;
 
-If you don’t add a social preview, GitBook will automatically generate one using your theme color, page title and description.
-
-If your site has multiple [site sections](site-structure/site-sections.md), you can use the drop-down menu in this modal to add a custom social preview image for each one, or for your entire site.
+You can choose to disable these cookies, but it will prevent you from using GitBook’s built-in insights.
 
 </details>
 

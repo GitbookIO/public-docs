@@ -6,9 +6,9 @@ description: >-
 
 # Hints
 
-Hints, or callouts, are a great way to bring the reader’s attention to specific elements in your documentation, such as tips, warnings, and other important information.&#x20;
+Hints, or callouts, are a great way to bring the reader’s attention to specific elements in your documentation, such as tips, warnings, and other important information.
 
-There are four different hint styles — you can change the style by clicking the colored icon, or by opening the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_cards_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_cards_light.svg" alt="The Options menu icon in GitBook"></picture> and selecting the style you want.
+There are four different hint styles — you can change the style by clicking the colored icon, or by opening the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and selecting the style you want.
 
 Hint blocks support [inline content](../formatting/inline.md) and [formatting](../formatting/), as well some specific block types. To see which block types you can use in a hint, hit `/` on an empty line and check the [insert palette](./#inserting-a-new-content-block).
 
@@ -31,7 +31,7 @@ Hint blocks support [inline content](../formatting/inline.md) and [formatting](.
 {% endhint %}
 
 {% hint style="info" %}
-#### This is a H2 heading
+**This is a H2 heading**
 
 This is a line
 

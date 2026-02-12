@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # Commit messages & Autolink
 
 By default, when exporting content from GitBook to the Git repository, GitBook will generate a commit message based on the merged change request:
