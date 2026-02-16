@@ -34,7 +34,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 * **Trash**\
   Deleted spaces appear in the trash. You can restore them for up to seven days — after that, they’re permanently deleted.
 
-### Table of contents
+### Table of contents <a href="#the-table-of-contents" id="the-table-of-contents"></a>
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_gitbook_ui_2.png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure></div>
 
@@ -119,7 +119,7 @@ The space header includes:
 * **The Edit button**\
   If your space is published, or someone has locked[ live edits](../../collaboration/live-edits.md), the **Edit** button will appear in the space header. It will create a new [change request](../../collaboration/change-requests/) to edit content.
 
-### Site header
+### Site header <a href="#site-headers" id="site-headers"></a>
 
 The site header contains information about the site you’re currently viewing. It lets you do things like view site insights, customize your site, change its settings and preview the site in different modes and screen sizes. You can also configure integrations and manage members’ access.
 
