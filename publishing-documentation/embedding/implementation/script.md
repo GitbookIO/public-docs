@@ -1,170 +1,180 @@
 ---
-description: Add Docs Embed to any website with a simple script tag
+description: >-
+  Learn how to add the Docs Embed widget to any website or web app using a
+  single script tag
 ---
 
 # Script tag
 
-The quickest way to add Docs Embed to your website or app is by adding it through a "standalone" script tag. Every docs site in GitBook includes a ready-to-use script for embedding your docs as a widget.
+The simplest integration method for embedding GitBook Assistant into your website or app is a standalone script that you include in your HTML. Each GitBook docs site provides a ready to use embed script that loads the widget automatically and connects it to your docs. This page tells you how to do that.
 
-## Steps
+No SDK, build step, or framework integration is required. Just include the script and the widget appears on your page.
+
+## Get started
 
 {% stepper %}
 {% step %}
-#### Get your embed script URL
+### Copy your embed script URL
 
-Navigate to your docs site's **Settings** → **AI & MCP** tab and copy the script URL, or use the script at `https://docs.company.com/~gitbook/embed/script.js` (replace `docs.company.com` with your actual docs site URL).
-{% endstep %}
+Navigate to your docs site in the GitBook app, navigate to the **Settings** tab and then to **AI & MCP** and copy the embed script URL.
 
-{% step %}
-#### Add the script tag to your HTML
+You can also build it manually:
 
-Place this code in your HTML `<head>` or before the closing `</body>` tag:
-
-```html
-<script src="https://docs.company.com/~gitbook/embed/script.js"></script>
-<script>
-  // Initialize with Authenticated Access (optional)
-  window.GitBook('init', 
-    { siteURL: 'https://docs.company.com' },
-    { visitor: { token: 'your-jwt-token' } }
-  );
-  window.GitBook('show');
-</script>
+```
+https://YOUR_DOCS_DOMAIN/~gitbook/embed/script.js
 ```
 
-{% hint style="info" %}
-If your docs site is protected by authenticated access, the script itself is served behind auth. Append the signed token to the script URL as `jwt_token`:
-
-`https://docs.company.com/~gitbook/embed/script.js?jwt_token=your-jwt-token`
-{% endhint %}
+Replace your `YOUR_DOCS_DOMAIN` with your real docs site’s domain.
 {% endstep %}
 
 {% step %}
-#### Replace the docs URL
+### Add the script to your HTML
 
-Update `docs.company.com` with your actual docs site URL.
-{% endstep %}
-
-{% step %}
-#### Test the widget
-
-Load your page. The embed widget should appear in the bottom-right corner.
-{% endstep %}
-
-{% step %}
-#### Optionally configure the embed
-
-Add customization options before calling `show()`:
+Add the following tag in your page HTML. Put it inside `<head>` or just before `</body>`.
 
 ```html
-<script src="https://docs.company.com/~gitbook/embed/script.js"></script>
+<script src="https://YOUR_DOCS_DOMAIN/~gitbook/embed/script.js"></script>
+<script>window.GitBook('show');</script>
+```
+{% endstep %}
+
+{% step %}
+### If your docs require authentication
+
+If your docs [are behind auth](../../authenticated-access/), the script must include a signed JWT token.
+
+Append it as a query parameter:
+
+```html
+<script src="https://YOUR_DOCS_DOMAIN/~gitbook/embed/script.js?jwt_token=YOUR_TOKEN"></script>
+```
+{% endstep %}
+
+{% step %}
+### Verify
+
+Reload your page.
+
+The widget should appear in the bottom right corner.
+{% endstep %}
+{% endstepper %}
+
+### Optionally configure the embed
+
+You can customize the widget before displaying it. Call `configure` after loading the script and before calling `window.GitBook('show')`.
+
+```html
+<script src="https://YOUR_DOCS_DOMAIN/~gitbook/embed/script.js"></script>
 <script>
-  window.GitBook('init', { siteURL: 'https://docs.company.com' });
-  
   window.GitBook('configure', {
     button: {
       label: 'Ask',
-      icon: 'assistant' // 'assistant' | 'sparkle' | 'help' | 'book'
+      icon: 'assistant' // assistant | sparkle | help | book
     },
     tabs: ['assistant', 'docs'],
     actions: [
       {
         icon: 'circle-question',
-        label: 'Contact Support',
+        label: 'Contact support',
         onClick: () => window.open('https://support.example.com', '_blank')
       }
     ],
-    greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
-    suggestions: ['What is GitBook?', 'How do I get started?']
+    greeting: {
+      title: 'Welcome',
+      subtitle: 'How can I help?'
+    },
+    suggestions: [
+      'What is GitBook?',
+      'How do I get started?'
+    ]
   });
-  
+
   window.GitBook('show');
 </script>
 ```
-{% endstep %}
 
-{% step %}
-#### Control widget visibility
+Using this method, you can customize the:
 
-Use the API to show, hide, open, or close the embed:
+* Button label and icon
+* Visible tabs inside the widget
+* Custom action buttons
+* Greeting title and subtitle
+* Suggested prompts shown to users.
+
+### Control widget visibility
+
+You can control visibility and state at runtime through the API.
 
 ```html
 <script>
-  // Show the widget
-  window.GitBook("show");
+  // Make the widget visible
+  window.GitBook('show');
 
-  // Hide the widget
-  window.GitBook("hide");
+  // Remove the widget from the page
+  window.GitBook('hide');
 
-  // Open the embed window
-  window.GitBook("open");
+  // Open the widget panel
+  window.GitBook('open');
 
-  // Close the embed window
-  window.GitBook("close");
+  // Close the widget panel
+  window.GitBook('close');
 
-  // Toggle the embed window
-  window.GitBook("toggle");
+  // Toggle open or closed
+  window.GitBook('toggle');
 </script>
 ```
-{% endstep %}
 
-{% step %}
-#### Navigate and interact programmatically
+This is useful when you want to connect the widget to your own UI triggers.
 
-Use the API to navigate to pages, switch tabs, or post messages:
+### Navigate and interact programmatically
+
+You can drive the widget from your code to navigate, switch tabs, or send messages.
 
 ```html
 <script>
-  // Navigate to a specific page in the docs tab
+  // Open a specific docs page inside the widget
   window.GitBook('navigateToPage', '/getting-started');
 
   // Switch to the assistant tab
   window.GitBook('navigateToAssistant');
 
-  // Post a message to the chat
+  // Send a user message to the assistant
   window.GitBook('postUserMessage', 'How do I get started?');
 
-  // Clear chat history
+  // Clear the current chat history
   window.GitBook('clearChat');
 </script>
 ```
-{% endstep %}
 
-{% step %}
-#### Load dynamically (optional)
+Typical uses for this functionality include:
 
-For authenticated docs or conditional loading, inject the script at runtime:
+* Adding a deep link to a docs page from your app
+* Pre-filling a question
+* Resetting the conversation between flows
+
+### Load the embed script dynamically
+
+If you only want to load the widget conditionally, or you need to attach an auth token at runtime, inject the script programmatically.
 
 ```html
 <script>
   function loadGitBookEmbed() {
-    var script = document.createElement("script");
-    // If your docs site is protected, you must authenticate the script request.
-    // Append the signed token as `jwt_token`.
-    var token = "your-jwt-token";
-    script.src =
-      "https://docs.company.com/~gitbook/embed/script.js?jwt_token=" +
-      encodeURIComponent(token);
+    var token = "" // Fill it with your JWT token if your site requires an auth
+    var script = document.createElement('script');
+    script.src = 'https://YOUR_DOCS_DOMAIN/~gitbook/embed/script.js'
+      + token ? '?jwt_token=' + encodeURIComponent(token) : ';
     script.async = true;
     script.onload = function () {
-      window.GitBook('init', { siteURL: 'https://docs.company.com' });
-      window.GitBook("show");
+      window.GitBook('show');
     };
     document.head.appendChild(script);
   }
 
-  // Load when ready
   loadGitBookEmbed();
 </script>
 ```
-{% endstep %}
 
-{% step %}
-#### Verify the setup
-
-Open your browser console and type `window.GitBook` to confirm the API is available.
-{% endstep %}
-{% endstepper %}
+Use this pattern when the widget should load only after user action or feature flags
 
 ## API Reference
 
@@ -263,7 +273,9 @@ window.GitBook('configure', {
 });
 ```
 
+{% hint style="info" %}
 **Note:** This option is only available when using the standalone script tag implementation. For React or Node.js implementations, you'll need to create your own button to trigger the embed.
+{% endhint %}
 
 ### `visitor` (Authenticated Access)
 
