@@ -132,8 +132,8 @@ hidden: true
 
 Use **Page options → Metadata** to control how search engines understand relationships between similar pages (for example: documentation versions or [content variants](../../publishing-documentation/site-structure/variants.md)).
 
-* **Canonical URL**: the preferred (authoritative) URL for this page.
-* **Alternate URLs**: other pages that represent the same content in a different variant.
+* **Canonical URL**: the preferred (authoritative) URL for this page. Search engines treat it as the ‘source of truth’. Use it when multiple URLs show the same content.
+* **Alternate URLs**: other URLs for the same content in another variant. For example, another version or language. They help search engines group variants instead of treating them as duplicates.
 
 Both fields support selecting another GitBook page (recommended) or entering an external URL.
 
