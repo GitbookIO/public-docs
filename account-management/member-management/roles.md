@@ -13,7 +13,7 @@ See our documentation on [**permissions and inheritance**](permissions-and-inher
 Roles are how you define the level of access and control that members have over content (and the organization, in the case of admins).
 
 {% hint style="warning" %}
-Regardless of role, _**every**_ _**single member**_ of an organization _**counts towards**_ the total number of members for _**billing**_ purposes.\
+Regardless of role, _**every**_ _**single member**_ of an organization _**counts toward**_ the total number of members for _**billing**_ purposes.\
 \
 You might also like to learn more about [inviting and removing members](invite-members-to-your-organization.md).
 {% endhint %}
@@ -28,7 +28,7 @@ The guest role is a very specific role in GitBook. Guests are members that have 
 
 Inviting a guest to the organization means that they’ll only ever see content they’ve been directly added to. This is great if you want to add external stakeholders or contractors to your organization, but don’t want to worry about giving them access to any content by default.
 
-**Please note that guest members, as with all other members, count towards the total number of members in an organization for billing purposes.**
+**Guest members count toward the total number of members in an organization for billing purposes.**
 
 </details>
 
@@ -46,7 +46,7 @@ A reader is the most basic role in GitBook: it gives read-only access.
 
 <summary>Commenter</summary>
 
-Commenters have the same read-only access as readers, but they’re also able to leave comments against content and spaces (find our more about how that works in our [comments](../../collaboration/comments.md) documentation).
+Commenters have the same read-only access as readers, but they’re also able to leave comments against content and spaces (find out more about how that works in our [comments](../../collaboration/comments.md) documentation).
 
 **Commenter is one of our two advanced member roles, available only on the Pro or Enterprise plan.**
 
@@ -89,3 +89,24 @@ An admin is like a super-user for your organization — they have full access! S
 If an admin is also a creator or admin in another GitBook organization, they have the ability to [move content between organizations](../../creating-content/content-structure/space.md#move-a-space).
 
 </details>
+
+### The Reader role vs public docs readers
+
+The Reader role is an invited, paid seat in your organization. Public docs readers don’t need an invite and don’t use paid seats.&#x20;
+
+#### Reader role (organization member)
+
+The Reader role is a member of your organization who:
+
+* Has been invited
+* Consumes a paid seat
+* Can access published and unpublished content _they have permission for_.
+
+#### Public docs reader (site visitor)
+
+A public docs reader is someone who:
+
+* Is not a member of your organization
+* Doesn’t need an invite
+* Doesn’t consume a paid seat
+* Can only access what’s published on the docs site.

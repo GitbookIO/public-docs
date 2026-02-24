@@ -20,6 +20,7 @@ If you’d like to edit your docs in your local environment using an AI assistan
 GitBook Agent can:
 
 * **Write docs based on a prompt:** Ask the Agent to update a page with the latest information, replace every mention of a product name with a new name, or anything else you need.
+* **Import content into GitBook:** Attach files like PDFs, Microsoft Word documents and more in the Agent chat sidebar. The Agent can extract and format the content into pages in your space.
 * **Ideate and implement bigger changes:** Describe what you need and the Agent will open a change request, explain its planned edits, respond to your feedback, and then implement the plan you’ve created together.
 * **Understand your style guide:** Add your style guide into your org’s settings and it will always apply it when writing or reviewing content.
 * **Follow custom, organization-level instructions:** Give the Agent specific instructions at an organization level, such as adding links in specific ways, or avoiding specific block types.
