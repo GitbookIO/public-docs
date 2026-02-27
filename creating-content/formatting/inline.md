@@ -174,4 +174,4 @@ Visit [Font Awesome](https://fontawesome.com/) to explore the different icons av
 
 ### Expressions
 
-Expressions allow you to dynamically display content defined in a [variable](../variables-and-expressions.md). Expressions can be inserted from the `/` menu. Once inserted, double clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.
+Expressions allow you to dynamically display content defined in a [variable](../variables-and-expressions.md). Expressions can be inserted from the `/` menu. Once inserted, clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.
