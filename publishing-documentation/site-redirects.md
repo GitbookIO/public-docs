@@ -52,7 +52,10 @@ Click **Add redirect** and choose **Upload CSV**.
 Upload a CSV with exactly two columns named: **source** and **destination:**
 
 * The source is the path you want to redirect (for example, /docs/site-redirects)
-* The destination is the GitBook admin URL of a **target page**, as shown in the screenshot below
+* The destination can be:
+  * A specific page: use the page's admin URL, as shown in the screenshot below
+  * An external URL
+  * An empty string (""): removes the redirect for that source
 
 <div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>You can find the GitBook admin URL for a page in this menu</p></figcaption></figure></div>
 
