@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://gitbook.com/docs"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1"></a>
+  <a href="https://gitbook.com/docs"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=F25B3A"></a>
   <a href="/.github/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors/gitbookIO/public-docs"/></a>
   <a href="https://github.com/gitbookIO/public-docs/issues"><img src="https://img.shields.io/github/issues/gitbookIO/public-docs"/></a>
 </p>
@@ -15,7 +15,7 @@
 <p align="center">This repository contains the content that powers <a href="https://gitbook.com/docs">https://gitbook.com/docs</a>.</p>
 
 <p align="center">
-  <img alt="GitBook's Public Docs'" src="../.gitbook/assets/25_01_10_customized_site.svg">
+  <img alt="GitBook's Public Docs'" src="../.gitbook/assets/26_03_03_gitbook_docs@2x.png">
 </p>
 
 ## Contributing
