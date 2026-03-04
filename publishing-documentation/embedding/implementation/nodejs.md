@@ -110,6 +110,7 @@ Configure the embed with customization options:
 
 ```javascript
 frame.configure({
+  trademark: false,
   tabs: ['assistant', 'docs'],
   actions: [
     {
@@ -189,6 +190,13 @@ Welcome message displayed in the Assistant tab.
 Suggested questions displayed in the Assistant welcome screen.
 
 * **Type**: `string[]`
+
+### `trademark`
+
+Show or hide the GitBook trademark in the embed UI — including the Docs Embed footer and Assistant branding.
+
+* **Type**: `boolean`
+* **Default**: `true`
 
 ### `tools`
 

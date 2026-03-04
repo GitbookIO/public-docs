@@ -1,12 +1,12 @@
 ---
 description: >-
-  Customize the experience when embedding Docs Embed into your product or
-  app by setting welcome messages, actions, and more
+  Customize the experience when embedding Docs Embed into your product or app by
+  setting welcome messages, actions, and more
 ---
 
-# Customizing Docs Embed
+# Customizing the Embed
 
-After [adding Docs Embed to your website or app](../implementation/README.md), you can further customize the experience by adding things like actionable buttons to the sidebar, suggestions to nudge your users with contextual questions, and more.
+After [adding Docs Embed to your website or app](../implementation/), you can further customize the experience by adding things like actionable buttons to the sidebar, suggestions to nudge your users with contextual questions, and more.
 
 ### Customizing the button ([standalone](../implementation/script.md) only)
 
@@ -27,10 +27,10 @@ window.GitBook("configure", {
 
 **Available icon options:**
 
-- `assistant` - <i class="fa-gitbook-assistant">:gitbook-assistant:</i> Assistant icon (default)
-- `sparkle` - <i class="fa-sparkle">:sparkle:</i> Sparkle icon
-- `help` - <i class="fa-circle-question">:circle-question:</i> Help/question icon
-- `book` - <i class="fa-book-open">:book-open:</i> Book icon
+* `assistant` - <i class="fa-gitbook-assistant">:gitbook-assistant:</i> Assistant icon (default)
+* `sparkle` - <i class="fa-sparkle">:sparkle:</i> Sparkle icon
+* `help` - <i class="fa-circle-question">:circle-question:</i> Help/question icon
+* `book` - <i class="fa-book-open">:book-open:</i> Book icon
 
 ### Adding actions
 
@@ -81,6 +81,16 @@ window.GitBook("configure", {
     title: "Welcome!",
     subtitle: "How can I help you today?",
   },
+});
+```
+
+### Showing or hiding the trademark
+
+Use `trademark` to show or hide the GitBook trademark in the embed UI — including the Docs Embed footer and Assistant branding.
+
+```javascript
+window.GitBook("configure", {
+  trademark: false,
 });
 ```
 

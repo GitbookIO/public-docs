@@ -10,20 +10,20 @@ Docs Embed provides different APIs depending on how you integrate it. This refer
 
 ## Method Comparison
 
-| Method | Standalone Script | NPM Package | React Components |
-|--------|------------------|-------------|------------------|
-| **Initialize** | `GitBook('init', options, frameOptions)` | `createGitBook(options)` | `<GitBookProvider siteURL="...">` |
-| **Get frame URL** | ❌ (handled internally) | `client.getFrameURL(options)` | `useGitBook().getFrameURL(options)` |
-| **Create frame client** | ❌ (handled internally) | `client.createFrame(iframe)` | `useGitBook().createFrame(iframe)` |
-| **Show/Hide widget** | `GitBook('show')` / `GitBook('hide')` | ❌ | ❌ |
-| **Open/Close window** | `GitBook('open')` / `GitBook('close')` / `GitBook('toggle')` | ❌ | ❌ |
-| **Navigate to page** | `GitBook('navigateToPage', path)` | `frame.navigateToPage(path)` | Via frame client |
-| **Navigate to assistant** | `GitBook('navigateToAssistant')` | `frame.navigateToAssistant()` | Via frame client |
-| **Post message** | `GitBook('postUserMessage', message)` | `frame.postUserMessage(message)` | Via frame client |
-| **Clear chat** | `GitBook('clearChat')` | `frame.clearChat()` | Via frame client |
-| **Configure** | `GitBook('configure', settings)` | `frame.configure(settings)` | Props on `<GitBookFrame>` |
-| **Event listeners** | ❌ | `frame.on(event, listener)` | Via frame client |
-| **Unload** | `GitBook('unload')` | ❌ | ❌ |
+| Method                    | Standalone Script                                            | NPM Package                      | React Components                    |
+| ------------------------- | ------------------------------------------------------------ | -------------------------------- | ----------------------------------- |
+| **Initialize**            | `GitBook('init', options, frameOptions)`                     | `createGitBook(options)`         | `<GitBookProvider siteURL="...">`   |
+| **Get frame URL**         | ❌ (handled internally)                                       | `client.getFrameURL(options)`    | `useGitBook().getFrameURL(options)` |
+| **Create frame client**   | ❌ (handled internally)                                       | `client.createFrame(iframe)`     | `useGitBook().createFrame(iframe)`  |
+| **Show/Hide widget**      | `GitBook('show')` / `GitBook('hide')`                        | ❌                                | ❌                                   |
+| **Open/Close window**     | `GitBook('open')` / `GitBook('close')` / `GitBook('toggle')` | ❌                                | ❌                                   |
+| **Navigate to page**      | `GitBook('navigateToPage', path)`                            | `frame.navigateToPage(path)`     | Via frame client                    |
+| **Navigate to assistant** | `GitBook('navigateToAssistant')`                             | `frame.navigateToAssistant()`    | Via frame client                    |
+| **Post message**          | `GitBook('postUserMessage', message)`                        | `frame.postUserMessage(message)` | Via frame client                    |
+| **Clear chat**            | `GitBook('clearChat')`                                       | `frame.clearChat()`              | Via frame client                    |
+| **Configure**             | `GitBook('configure', settings)`                             | `frame.configure(settings)`      | Props on `<GitBookFrame>`           |
+| **Event listeners**       | ❌                                                            | `frame.on(event, listener)`      | Via frame client                    |
+| **Unload**                | `GitBook('unload')`                                          | ❌                                | ❌                                   |
 
 ## Standalone Script API
 
@@ -35,8 +35,8 @@ Initialize the widget with site URL and optional authenticated access.
 
 **Parameters:**
 
-- `options`: `{ siteURL: string }` - Your GitBook docs site URL
-- `frameOptions`: `{ visitor?: { token?: string, unsignedClaims?: Record<string, unknown> } }` (optional) - Authenticated access options
+* `options`: `{ siteURL: string }` - Your GitBook docs site URL
+* `frameOptions`: `{ visitor?: { token?: string, unsignedClaims?: Record<string, unknown> } }` (optional) - Authenticated access options
 
 **Example:**
 
@@ -117,7 +117,7 @@ Navigate to a specific page within your GitBook docs by its path.
 
 **Parameters:**
 
-- `path` (string): The path to the page you want to navigate to
+* `path` (string): The path to the page you want to navigate to
 
 **Example:**
 
@@ -156,7 +156,7 @@ Post a message to the chat as if the user typed it.
 
 **Parameters:**
 
-- `message` (string): The message to post to the chat
+* `message` (string): The message to post to the chat
 
 **Example:**
 
@@ -210,6 +210,7 @@ Configure the embed with customization options. See the [Configuration section](
 
 ```javascript
 window.GitBook('configure', {
+  trademark: false,
   tabs: ['assistant', 'docs'],
   actions: [
     {
@@ -233,7 +234,7 @@ Create a GitBook client instance.
 
 **Parameters:**
 
-- `options`: `{ siteURL: string }` - Your GitBook docs site URL
+* `options`: `{ siteURL: string }` - Your GitBook docs site URL
 
 **Returns:** `GitBookClient`
 
@@ -253,7 +254,7 @@ Get the iframe URL with optional authenticated access.
 
 **Parameters:**
 
-- `options`: `{ visitor?: { token?: string, unsignedClaims?: Record<string, unknown> } }` (optional)
+* `options`: `{ visitor?: { token?: string, unsignedClaims?: Record<string, unknown> } }` (optional)
 
 **Returns:** `string`
 
@@ -274,7 +275,7 @@ Create a frame client to communicate with the iframe.
 
 **Parameters:**
 
-- `iframe`: `HTMLIFrameElement` - The iframe element
+* `iframe`: `HTMLIFrameElement` - The iframe element
 
 **Returns:** `GitBookFrameClient`
 
@@ -294,7 +295,7 @@ Navigate to a specific page in the docs tab.
 
 **Parameters:**
 
-- `path`: `string` - The path to the page
+* `path`: `string` - The path to the page
 
 #### `frame.navigateToAssistant()`
 
@@ -306,7 +307,7 @@ Post a message to the chat.
 
 **Parameters:**
 
-- `message`: `string` - The message to post
+* `message`: `string` - The message to post
 
 #### `frame.clearChat()`
 
@@ -322,8 +323,8 @@ Register an event listener.
 
 **Parameters:**
 
-- `event`: `string` - The event name
-- `listener`: `Function` - The callback function
+* `event`: `string` - The event name
+* `listener`: `Function` - The callback function
 
 **Returns:** `() => void` - Unsubscribe function
 
@@ -341,4 +342,3 @@ unsubscribe();
 ## React Components API
 
 See the [React integration guide](../implementation/react.md) for component props and the `useGitBook` hook API.
-

@@ -82,6 +82,7 @@ Pass configuration props to the frame component:
 ```jsx
 <GitBookProvider siteURL="https://docs.company.com">
   <GitBookFrame
+    trademark={false}
     tabs={['assistant', 'docs']}
     greeting={{ title: 'Welcome!', subtitle: 'How can I help?' }}
     suggestions={['What is GitBook?', 'How do I get started?']}
@@ -232,6 +233,13 @@ Welcome message displayed in the Assistant tab.
 Suggested questions displayed in the Assistant welcome screen.
 
 * **Type**: `string[]`
+
+### `trademark`
+
+Show or hide the GitBook trademark in the embed UI — including the Docs Embed footer and Assistant branding.
+
+* **Type**: `boolean`
+* **Default**: `true`
 
 ### `tools`
 
