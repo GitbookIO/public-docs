@@ -58,7 +58,10 @@ window.GitBook("configure", {
             status: "success",
           },
           // The summary is shown to the user.
-          summary: `Created ticket #${ticket.id} for ${ticket_issue}`,
+          summary: {
+            icon: 'check',
+            text: `Created ticket #${ticket.id} for ${ticket_issue}`
+          },
         };
       },
     },
@@ -73,4 +76,3 @@ Any tools provided to GitBook Assistant when configuring it will be available th
 In the example above, when the Assistant identifies that the user needs to create a support ticket, ask the user what the issue is, and then execute a function that logs a ticket.
 
 <table><thead><tr><th width="163.39453125" valign="top">Key</th><th>Description</th></tr></thead><tbody><tr><td valign="top"><code>name</code></td><td>Unique tool identifier.</td></tr><tr><td valign="top"><code>description</code></td><td>Allows GitBook Assistant to know the context on when to use the tool being defined.</td></tr><tr><td valign="top"><code>inputSchema</code></td><td>JSON schema defining the tool's input parameters. Can be accessed in the <code>input</code> argument in the <code>execute</code> call.</td></tr><tr><td valign="top"><code>confirmation</code></td><td>An optional confirmation button that allows you to specify user interaction before firing the execute function. Format: <code>{ icon?: string, label: string }</code>.</td></tr><tr><td valign="top"><code>execute</code></td><td>The async function that runs when the tool is called. Must return <code>{ output: any, summary: string }</code>. The <code>output</code> is provided to the AI to continue working with (not shown to the user). The <code>summary</code> is the visual summary shown in the user's chat window.</td></tr></tbody></table>
-
