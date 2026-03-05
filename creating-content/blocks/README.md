@@ -50,6 +50,6 @@ To make a block full width, click on the **Options menu** <picture><source srcse
 * Columns
 * Integration blocks
 
-Some blocks will always display full-width, regardless of the page’s width setting in the [the **Page options** menu](../content-structure/page.md):
+Some blocks will always display full-width, regardless of the page’s width setting in the [the **Page options** menu](../content-structure/page/):
 
 * OpenAPI

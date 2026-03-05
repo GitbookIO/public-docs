@@ -38,7 +38,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_gitbook_ui_2.png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected space.</p></figcaption></figure></div>
 
-By default, the table of contents shows a list of [pages, links, and groups](../../creating-content/content-structure/page.md#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
+By default, the table of contents shows a list of [pages, links, and groups](../../creating-content/content-structure/page/#organizing-your-content) that make up a space. You’ll find it to the right of the sidebar. It’s specific to the space you’re currently viewing.
 
 The table of contents is also where you can view and manage [resuable content](../../creating-content/reusable-content.md) and [files](../../creating-content/blocks/insert-files.md) for your space.
 

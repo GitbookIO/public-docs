@@ -8,7 +8,7 @@ After setting up your authentication method, you’ll be able to use the data to
 
 You can adapt and personalize many parts of your docs, including:
 
-* Hiding or showing [pages](../../creating-content/content-structure/page.md)
+* Hiding or showing [pages](../../creating-content/content-structure/page/)
 * Hiding or showing site [variants](../site-structure/variants.md)
 * Hiding or showing site [sections](../site-structure/site-sections.md)
 * Hiding or showing [header links](../customization/layout-and-structure.md#header)

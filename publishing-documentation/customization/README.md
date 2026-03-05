@@ -48,6 +48,6 @@ Advanced customization options include:
 
 The options above provide lots of ways for you to customize your space, but there are a few things that you won’t be able to customize, regardless of [your chosen plan](../../account-management/plans/).
 
-1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../../creating-content/content-structure/page.md)).
+1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../../creating-content/content-structure/page/)).
 2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../../creating-content/blocks/embed-a-url.md) for many more.
 3. It’s not possible to remove the small “Powered by GitBook” link that appears in published documentation.

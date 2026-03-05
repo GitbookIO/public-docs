@@ -28,7 +28,7 @@ icon: book-open
 
 **Comments:** A side panel that lets you add a comment to any block on a page. You can reply to comments to create a [discussion](glossary.md#d), tag people using @ and add emojis to your comments. You can also react to comments with an emoji, resolve comments that are no longer relevant, and filter to view just the comments you need.
 
-**cover:** An image that sits at the top of a page. You can add a cover to any page, and set it to span the full width of your page, or just the width of your content as a hero image. See [#page-covers](../creating-content/content-structure/page.md#page-covers "mention") to find out more.
+**cover:** An image that sits at the top of a page. You can add a cover to any page, and set it to span the full width of your page, or just the width of your content as a hero image. See [#page-covers](../creating-content/content-structure/page/#page-covers "mention") to find out more.
 
 **custom domain:** A customized URL that you can set up for a docs site, e.g. docs.yourcompany.com. You can configure it in the **Settings** panel for your docs site. See [custom-domain.md](../publishing-documentation/custom-domain.md "mention") to find out more.
 
@@ -86,7 +86,7 @@ icon: book-open
 
 **page group:** A way to group pages together. You can set a name and an optional icon or emoji for each page group.&#x20;
 
-**page options:** A collection of options that you can set for your pages using the **Page options** side panel. You can select a layout preset, or control individual options such as hiding the page title and description, table of contents or page outline. Find out more in [#page-options](../creating-content/content-structure/page.md#page-options "mention").
+**page options:** A collection of options that you can set for your pages using the **Page options** side panel. You can select a layout preset, or control individual options such as hiding the page title and description, table of contents or page outline. Find out more in [#page-options](../creating-content/content-structure/page/#page-options "mention").
 
 ### R
 

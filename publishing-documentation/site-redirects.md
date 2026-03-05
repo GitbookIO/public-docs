@@ -21,7 +21,7 @@ To get started, view your site’s dashboard in GitBook and open the **Settings*
 
 Click **Add redirect** and select the **Manual** option.&#x20;
 
-Fill in the source path — i.e. the URL slug that you wish to redirect somewhere else — and the destination content you wish to link to. You can pick any [section](site-structure/site-sections.md), [variant](site-structure/variants.md), or [page](../creating-content/content-structure/page.md) on to your site. Click **Add** to create the redirect.
+Fill in the source path — i.e. the URL slug that you wish to redirect somewhere else — and the destination content you wish to link to. You can pick any [section](site-structure/site-sections.md), [variant](site-structure/variants.md), or [page](../creating-content/content-structure/page/) on to your site. Click **Add** to create the redirect.
 
 You can also create **wildcard redirects** by adding \* at the end of the source path, for example:
 

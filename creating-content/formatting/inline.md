@@ -80,7 +80,7 @@ You can insert three different types of links:
 
 #### Relative links
 
-Relative links are links created by linking to [pages](../content-structure/page.md) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you’ll end up with fewer broken links.
+Relative links are links created by linking to [pages](../content-structure/page/) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you’ll end up with fewer broken links.
 
 Here’s how to insert a relative link:
 

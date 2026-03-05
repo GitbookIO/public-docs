@@ -1,0 +1,9 @@
+- tag: beta
+  label: Beta
+  icon: asterisk
+- tag: pro
+  label: Pro
+  icon: sigma
+- tag: experiment
+  label: Experiment
+  icon: tag
