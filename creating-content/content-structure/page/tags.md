@@ -12,6 +12,10 @@ tags:
 
 You can use tags to group related content, convey release states, mark outdated content, or in any other way that helps your readers scan your documentation.
 
+{% hint style="info" %}
+**Note:** Tags are currently in beta as we consider adding more features — including search functionality and color support. If there are specific features you want to see for tags, please [let us know in our GitHub community](https://github.com/GitbookIO/community)!
+{% endhint %}
+
 ## Tag a page
 
 Open the page, then open **Page options** — accessible by hovering over the page title — and add one or more tags. You can drag tags around to change the order in which they appear on the page.
