@@ -36,20 +36,3 @@ Once selected, you can:
 * Copy the entire block using **⌘ + C** (Mac) or **Ctrl + C** (Windows)
 * Cut the entire block using **⌘ + X** (Mac) or **Ctrl + X** (Windows)
 * Delete the selected block or blocks using **⌫** or **Del**.
-
-### Full-width blocks
-
-By making your blocks full width, you can create a clear visual hierarchy in your content, or simply give more space to content that needs it.
-
-To make a block full width, click on the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> next to your block and select **Full width**. This feature is available for the following block types:
-
-* Code
-* Images
-* Tables
-* Cards
-* Columns
-* Integration blocks
-
-Some blocks will always display full-width, regardless of the page’s width setting in the [the **Page options** menu](../content-structure/page/):
-
-* OpenAPI

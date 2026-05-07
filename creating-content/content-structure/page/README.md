@@ -116,7 +116,7 @@ Each layout preset will toggle on or off each of the following parts of the page
 
 You can tag a page with one or more tags from **Library** → **Tags**. Turn on **Show tags on page** to display them in the page header. You can also pick one tag as the page’s primary tag. GitBook can show it next to the page in the table of contents. Learn more in [Tags](tags.md).
 
-You can also set your page’s global width from this menu. Choosing **Wide** will automatically widen blocks that support the **Full width** option — such as tables, cards and code blocks — to give them more space when the page is published. Which is ideal for creating eye-catching landing pages!
+You can also set your page’s global width from this menu. Choosing **Wide** gives blocks such as tables, cards, and code blocks more space when the page is published. This is ideal for creating eye-catching landing pages.
 
 #### Visibility
 

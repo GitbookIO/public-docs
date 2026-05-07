@@ -113,10 +113,6 @@ If your image is wider than the editor, GitBook will limit the image’s width t
 **Note:** When resizing images in an image gallery, the results can differ from resizing an individual image.
 {% endhint %}
 
-{% hint style="info" %}
-You can make image blocks [span the full width of your window](./#full-width-blocks) by clicking on the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> next to the block and choosing **Full width**.
-{% endhint %}
-
 ### Resizing images through Git Sync
 
 If you want more control over the sizing of your image, you can specify the exact size using Markdown in GitHub or GitLab.

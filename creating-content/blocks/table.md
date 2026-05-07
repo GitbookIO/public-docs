@@ -20,7 +20,6 @@ When you open the Options menu to the left of a table block, you’ll have a num
 * **Freeze first column:** Keep the leftmost column of your table visible while horizontally scrolling through the columns to the right. This is useful for wider tables that overflow the page width, where you want the row labels or identifiers to stay in view.
 * **Reset column sizing:** If you’ve changed the column widths, this will reset them all to be equal again.
 * **Visible columns:** Choose which columns are visible and which are hidden. If you have hidden columns in your table, this menu is where you can make them visible again.
-* **Full width:** Make your table span the full width of your window. This is great for tables with lots of columns.
 * **Delete:** Deletes the table block and all of it’s content.
 
 ### Changing a column type
