@@ -18,7 +18,19 @@ Each update can have its own tags. Use the tag picker below the date to add, rem
 
 ### RSS feed
 
-Any page with an updates block automatically gets an RSS feed. Your readers can open the feed from the button at the top of the page, copy the URL, and add it to their preferred reader. New updates you publish are pushed to that reader automatically.
+Any page with an updates block automatically gets an RSS feed — no extra setup required.
+
+Your readers can open the feed from the button at the top of the page, copy the URL, and add it to their preferred reader. New updates you publish are pushed to that reader automatically.
+
+If a page doesn't have an updates block, it won't have an RSS feed. Adding one to the page is all you need to generate it.
+
+#### Plan availability
+
+The updates block is available on \[paid plans]. If you don't see the option to add an updates block, check that your plan includes access to it.
+
+#### If your feed isn't appearing
+
+If the RSS button isn't showing on a published page, confirm that the page includes at least one updates block. The feed is tied to the presence of that block — if it's missing, the feed won't generate. If the block is in place and the feed still isn't appearing, contact [GitBook support](https://www.gitbook.com/contact).
 
 ### Example
 
