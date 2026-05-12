@@ -27,6 +27,12 @@ GitBook supports all the classic inline Markdown formatting:
 | Strikethrough | `~strikethrough~` | ~~strikethrough~~ |
 | Inline code   | `` `code` ``      | `code`            |
 
+### Line breaks
+
+Press `Enter` to start a new paragraph.
+
+Press `Shift` + `Enter` to insert a soft line break in the same paragraph.
+
 ### Pasting Markdown
 
 When pasting Markdown content directly into the editor, it’s important to use the **Paste and Match Style** option (typically <kbd>Shift</kbd> + <kbd>Cmd</kbd> + <kbd>V</kbd> on Mac or <kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>V</kbd> on Windows).
@@ -45,9 +51,9 @@ If you use the standard Paste option for content copied from another editor or f
 
 ` ```py⏎ ` creates a new code block with Python syntax highlighting.
 
-{% hint style="info" %}
-We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. You can use [Test Drive Prism](https://prismjs.com/test.html#language=markup) to check which languages Prism supports. If you notice a mismatch between GitBook and Prism, there’s a chance we’re a version or two behind. We’ll catch up soon!
-{% endhint %}
+We use [Prism](https://github.com/PrismJS/prism) for syntax highlighting. Use [Test Drive Prism](https://prismjs.com/test.html#language=markup) to check supported languages.
+
+If GitBook and Prism differ, we might be a version or two behind.
 
 ### Lists
 
@@ -57,9 +63,7 @@ GitBook automatically detects and creates ordered and unordered lists as you typ
 * Begin a line with `1.` to start a numbered list.
 * Begin a line with `- [ ]` to start a task list.
 
-{% hint style="info" %}
-When writing any kind of list, hit `Tab` to add a indent, and `Shift+Tab` to outdent.&#x20;
-{% endhint %}
+When writing lists, hit `Tab` to indent, and `Shift+Tab` to outdent.
 
 ### Quotes
 
