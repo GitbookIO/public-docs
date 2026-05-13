@@ -3,12 +3,11 @@ description: >-
   Integrate GitBook Assistant and GitBook Agent into other tools used in your
   workflow
 icon: message
-tags:
-  - early-access
-  - add-on
 ---
 
 # Channels
+
+{% include "../.gitbook/includes/ultimate-hint.md" %}
 
 Channels bring [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) and [GitBook Agent](what-is-gitbook-agent.md)  into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
 
