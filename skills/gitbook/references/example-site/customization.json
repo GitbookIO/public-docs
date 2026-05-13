@@ -1,0 +1,407 @@
+{
+  "updatedAt": "2026-05-04T10:08:47.000Z",
+  "title": "Evolve Platform | GitBook Enterprise Demo",
+  "localizedTitle": {},
+  "internationalization": {
+    "locale": "en"
+  },
+  "styling": {
+    "theme": "clean",
+    "primaryColor": {
+      "dark": "#B2A5FF",
+      "light": "#534AB7"
+    },
+    "infoColor": {
+      "dark": "#534AB7",
+      "light": "#534AB7"
+    },
+    "successColor": {
+      "dark": "#777777",
+      "light": "#BBBBBB"
+    },
+    "warningColor": {
+      "dark": "#FE9A00",
+      "light": "#FE9A00"
+    },
+    "dangerColor": {
+      "dark": "#FB2C36",
+      "light": "#FB2C36"
+    },
+    "corners": "circular",
+    "depth": "flat",
+    "links": "default",
+    "font": "Inter",
+    "monospaceFont": "IBMPlexMono",
+    "icons": "duotone",
+    "background": "plain",
+    "sidebar": {
+      "background": "filled",
+      "list": "default"
+    },
+    "codeTheme": {
+      "default": {
+        "light": "default-light",
+        "dark": "default-dark"
+      },
+      "openapi": {
+        "light": "default-light",
+        "dark": "default-dark"
+      }
+    },
+    "search": "prominent"
+  },
+  "favicon": {
+    "icon": {
+      "light": "https://896710490-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2F2DnmWBpytIOUKeXExonU%2Fsites%2Fsite_kvXZm%2Ficon%2FR1BwDwvyRugXoT4EvNOX%2FIcon.svg?alt=media&token=b2ea31fd-c832-4d41-a5eb-a93ab8221aea",
+      "dark": "https://896710490-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2F2DnmWBpytIOUKeXExonU%2Fsites%2Fsite_kvXZm%2Ficon%2F0IAA4rMnj04oipgchFOo%2FIcon.svg?alt=media&token=2034d190-bdc5-4c9b-9658-2a02df6428aa"
+    }
+  },
+  "header": {
+    "preset": "default",
+    "logo": {
+      "light": "https://896710490-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2F2DnmWBpytIOUKeXExonU%2Fsites%2Fsite_kvXZm%2Flogo%2FjG5rZJWsgbuAPwFOB7bB%2FEvolve%20Light.svg?alt=media&token=3c1fa28b-e914-470e-9c18-96496cd50eff",
+      "dark": "https://896710490-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2F2DnmWBpytIOUKeXExonU%2Fsites%2Fsite_kvXZm%2Flogo%2FE6xI9KkOJ3NH9HDKbLuF%2FEvolve%20Dark.png?alt=media&token=3b97d3ef-a7c3-4e35-b661-cbdbe60ce1c8"
+    },
+    "links": [
+      {
+        "to": null,
+        "links": [
+          {
+            "to": {
+              "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=prospect",
+              "kind": "url"
+            },
+            "title": "Prospect",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=new&visitor.plan=starter",
+              "kind": "url"
+            },
+            "title": "New user",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=existing&visitor.plan=growth",
+              "kind": "url"
+            },
+            "title": "Migrator",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=partner&visitor.plan=enterprise",
+              "kind": "url"
+            },
+            "title": "Partner",
+            "localizedTitle": {}
+          },
+          {
+            "to": {
+              "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=",
+              "kind": "url"
+            },
+            "title": "↩ Reset",
+            "localizedTitle": {}
+          }
+        ],
+        "style": "link",
+        "title": "View as...",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=partner&visitor.plan=enterprise",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "button-secondary",
+        "title": "Sign in",
+        "condition": "visitor.claims.unsigned.persona !== \"partner\"",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://enterprise-demos.gitbook.io/evolve-docs?visitor.persona=",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "button-secondary",
+        "title": "Sign out",
+        "condition": "visitor.claims.unsigned.persona === \"partner\"",
+        "localizedTitle": {}
+      },
+      {
+        "to": {
+          "url": "https://gitbook.com/enterprise",
+          "kind": "url"
+        },
+        "links": [],
+        "style": "button-primary",
+        "title": "GitBook Enterprise",
+        "localizedTitle": {}
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "light": "https://896710490-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2F2DnmWBpytIOUKeXExonU%2Fsites%2Fsite_kvXZm%2Flogo%2FdIXCjD3eQc4zZPrhKogR%2FEvolve.svg?alt=media&token=f3751721-b109-4465-8654-0fe2d78893b4",
+      "dark": "https://896710490-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations%2F2DnmWBpytIOUKeXExonU%2Fsites%2Fsite_kvXZm%2Flogo%2FfArDZr2WyAYZFEEeE73d%2FEvolve%20Dark.svg?alt=media&token=a39fd8ed-5732-4354-ae29-1c4a0294c677"
+    },
+    "groups": [
+      {
+        "links": [
+          {
+            "to": {
+              "kind": "space",
+              "space": "w3LlITSOQye8o4wjsQXV"
+            },
+            "title": "Payments",
+            "localizedTitle": {
+              "de": "Zahlungen",
+              "en": "Payments",
+              "es": "Pagos",
+              "fr": "Paiements",
+              "zh": "支付"
+            }
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "w7NRnYZuokE4h1mm2pJB"
+            },
+            "title": "Identity",
+            "localizedTitle": {
+              "de": "Identität",
+              "es": "Identidad",
+              "fr": "Identité",
+              "zh": "身份"
+            }
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "Xtfxb7OHGyrdfIsObmnu"
+            },
+            "title": "Connect",
+            "localizedTitle": {
+              "de": "Verbinden",
+              "es": "Conectar",
+              "fr": "Connexion",
+              "zh": "连接"
+            }
+          }
+        ],
+        "title": "Products",
+        "localizedTitle": {
+          "de": "Produkte",
+          "es": "Productos",
+          "fr": "Produits",
+          "zh": "产品"
+        }
+      },
+      {
+        "links": [
+          {
+            "to": {
+              "kind": "space",
+              "space": "Si95BtOt1VRLWjT7A67V"
+            },
+            "title": "Developers",
+            "localizedTitle": {
+              "de": "Entwickler",
+              "es": "Desarrolladores",
+              "fr": "Développeurs",
+              "zh": "开发者"
+            }
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "Nankrp40VchJsUblU6h6"
+            },
+            "title": "Tutorials",
+            "localizedTitle": {
+              "es": "Tutoriales",
+              "fr": "Tutoriels",
+              "zh": "教程"
+            }
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "NA4Ikc8fQtsXC5U53xJu"
+            },
+            "title": "Help Center",
+            "localizedTitle": {
+              "de": "Hilfecenter",
+              "es": "Centro de ayuda",
+              "fr": "Centre d'aide",
+              "zh": "帮助中心"
+            }
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "MBT3EDUK7DzXmR0k9cje"
+            },
+            "title": "Integrations",
+            "localizedTitle": {
+              "de": "Integrationen",
+              "es": "Integraciones",
+              "fr": "Intégrations",
+              "zh": "集成 "
+            }
+          },
+          {
+            "to": {
+              "kind": "page",
+              "page": "UdUIt9XKFmEIOxNFFUC5",
+              "space": "ErQsbFsgm6eg9BApdmPl"
+            },
+            "title": "Changelog",
+            "localizedTitle": {
+              "de": "Änderungsprotokoll",
+              "es": "Registro de cambios",
+              "fr": "Journal des modifications",
+              "zh": "更新日志"
+            }
+          },
+          {
+            "to": {
+              "kind": "space",
+              "space": "R0VawBV5xcQ4exP2PlWS"
+            },
+            "title": "Partners",
+            "localizedTitle": {
+              "de": "Partner",
+              "es": "Socios",
+              "fr": "Partenaires",
+              "zh": "合作伙伴"
+            }
+          }
+        ],
+        "title": "Resources",
+        "localizedTitle": {
+          "de": "Ressourcen",
+          "es": "Recursos",
+          "fr": "Ressources",
+          "zh": "资源"
+        }
+      },
+      {
+        "links": [
+          {
+            "to": {
+              "url": "https://gitbook.com/enterprise",
+              "kind": "url"
+            },
+            "title": "Enterprise",
+            "localizedTitle": {
+              "de": "Unternehmen",
+              "es": "Empresa",
+              "fr": "Entreprise",
+              "zh": "企业"
+            }
+          },
+          {
+            "to": {
+              "url": "https://gitbook.com/contact",
+              "kind": "url"
+            },
+            "title": "Contact",
+            "localizedTitle": {
+              "de": "Kontakt",
+              "es": "Contacto",
+              "zh": "联系"
+            }
+          },
+          {
+            "to": {
+              "url": "https://gitbook.com/docs",
+              "kind": "url"
+            },
+            "title": "Documentation",
+            "localizedTitle": {
+              "de": "Dokumentation",
+              "es": "Documentación",
+              "zh": "文档"
+            }
+          }
+        ],
+        "title": "GitBook",
+        "localizedTitle": {}
+      }
+    ],
+    "copyright": "© GitBook 2026"
+  },
+  "themes": {
+    "default": "system",
+    "toggeable": true
+  },
+  "trademark": {
+    "enabled": true
+  },
+  "feedback": {
+    "enabled": true
+  },
+  "pdf": {
+    "enabled": true
+  },
+  "ai": {
+    "mode": "assistant",
+    "suggestions": []
+  },
+  "advancedCustomization": {
+    "enabled": true
+  },
+  "pageActions": {
+    "externalAI": true,
+    "markdown": true,
+    "mcp": true
+  },
+  "pagination": {
+    "enabled": true
+  },
+  "privacyPolicy": {
+    "url": "https://gitbook.com/docs/policies/privacy-and-security/statement"
+  },
+  "socialPreview": {},
+  "socialAccounts": [
+    {
+      "handle": "gitbook",
+      "display": {
+        "footer": true,
+        "header": false
+      },
+      "platform": "twitter"
+    },
+    {
+      "handle": "GitbookIO/evolve-demo",
+      "display": {
+        "footer": true,
+        "header": false
+      },
+      "platform": "github"
+    },
+    {
+      "handle": "company/gitbook",
+      "display": {
+        "footer": true,
+        "header": false
+      },
+      "platform": "linkedin"
+    }
+  ],
+  "git": {
+    "showEditLink": true
+  },
+  "externalLinks": {
+    "target": "self"
+  },
+  "insights": {
+    "trackingCookie": true
+  }
+}

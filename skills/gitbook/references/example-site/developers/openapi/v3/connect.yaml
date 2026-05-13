@@ -1,0 +1,175 @@
+openapi: '3.1.0'
+info:
+  title: Evolve Connect API
+  version: '2026-01-15'
+  description: |
+    Onboard sellers, split payments, and pay them out — for marketplaces and platforms.
+  contact:
+    name: Evolve API support
+    email: support@evolve.com
+
+servers:
+  - url: https://api.evolve.com/v2
+    description: Live
+  - url: https://api.test.evolve.com/v2
+    description: Test
+
+security:
+  - bearerAuth: []
+
+tags:
+  - name: connected-accounts
+    x-page-title: Connected accounts
+    x-page-icon: store
+    x-page-description: Manage the sellers on your platform.
+  - name: transfers
+    x-page-title: Transfers
+    x-page-icon: money-bill-transfer
+    x-page-description: Move funds between platform and seller balances.
+  - name: checkout-sessions
+    x-page-title: Checkout sessions
+    x-page-icon: window-maximize
+    x-page-description: Create hosted or embedded checkout flows for sellers.
+
+paths:
+  /connected_accounts:
+    post:
+      operationId: createConnectedAccount
+      summary: Create a connected account
+      description: |
+        Onboard a new seller. Returns an account record and a hosted onboarding URL
+        you can email or surface in your own UI.
+      tags: [connected-accounts]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [type, country, email]
+              properties:
+                type:
+                  type: string
+                  enum: [individual, company]
+                country: { type: string, example: US }
+                email: { type: string, format: email }
+                metadata:
+                  type: object
+                  additionalProperties: { type: string }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConnectedAccount'
+
+    get:
+      operationId: listConnectedAccounts
+      summary: List connected accounts
+      tags: [connected-accounts]
+      parameters:
+        - name: limit
+          in: query
+          schema: { type: integer, default: 100, maximum: 1000 }
+        - name: cursor
+          in: query
+          schema: { type: string }
+      responses:
+        '200':
+          description: OK
+
+  /connected_accounts/{id}:
+    get:
+      operationId: retrieveConnectedAccount
+      summary: Retrieve a connected account
+      tags: [connected-accounts]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string, example: acct_3KsM12pL9q }
+      responses:
+        '200':
+          description: OK
+
+  /checkout_sessions:
+    post:
+      operationId: createCheckoutSession
+      summary: Create a Connect checkout session
+      description: |
+        Create a hosted or embedded checkout for a payment routed to a connected account.
+        Use `application_fee_amount` to set your platform's cut.
+      tags: [checkout-sessions]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [amount, currency, connected_account]
+              properties:
+                amount: { type: integer, example: 10000 }
+                currency: { type: string, example: usd }
+                connected_account: { type: string, example: acct_3KsM12pL9q }
+                application_fee_amount: { type: integer, example: 200 }
+                success_url: { type: string }
+                cancel_url: { type: string }
+                mode:
+                  type: string
+                  enum: [hosted, embedded]
+                  default: hosted
+      responses:
+        '200':
+          description: OK
+
+  /transfers:
+    post:
+      operationId: createTransfer
+      summary: Create a transfer
+      description: Move funds from your platform balance to a connected account.
+      tags: [transfers]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [amount, currency, destination]
+              properties:
+                amount: { type: integer }
+                currency: { type: string }
+                destination: { type: string, description: Connected account id }
+                source_charge:
+                  type: string
+                  description: Optional. Tie the transfer to a specific charge.
+      responses:
+        '200':
+          description: OK
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+
+  schemas:
+    ConnectedAccount:
+      type: object
+      properties:
+        id: { type: string, example: acct_3KsM12pL9q }
+        object: { type: string, enum: [connected_account] }
+        type: { type: string, enum: [individual, company] }
+        country: { type: string, example: US }
+        email: { type: string }
+        verification_status:
+          type: string
+          enum: [unverified, pending, verified, restricted]
+        capabilities:
+          type: object
+          properties:
+            charges_enabled: { type: boolean }
+            payouts_enabled: { type: boolean }
+        onboarding_url:
+          type: string
+          description: Hosted onboarding URL — valid for 24 hours.

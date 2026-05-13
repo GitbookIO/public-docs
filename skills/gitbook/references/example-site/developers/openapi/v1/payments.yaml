@@ -1,0 +1,149 @@
+openapi: '3.1.0'
+info:
+  title: Evolve Payments API (v1)
+  version: '2025-07-01'
+  description: |
+    The legacy v1 Payments API — deprecated, sunset 2026-12-31.
+
+    v1 uses source-prefixed endpoints (`/sources/charge`, `/sources/refund`) and HMAC-SHA1
+    webhook signatures. New integrations should use v2. See `openapi/v2/payments.yaml`.
+  contact:
+    name: Evolve API support
+    email: support@evolve.com
+    url: https://docs.evolve.com
+
+servers:
+  - url: https://api.evolve.com/v1
+    description: Live
+  - url: https://api.test.evolve.com/v1
+    description: Test
+
+security:
+  - bearerAuth: []
+
+tags:
+  - name: charges
+    x-page-title: Charges
+    x-page-icon: credit-card
+    x-page-description: Source-prefixed charge endpoints (legacy).
+  - name: refunds
+    x-page-title: Refunds
+    x-page-icon: rotate-left
+    x-page-description: Source-prefixed refund endpoints (legacy).
+  - name: payouts
+    x-page-title: Payouts
+    x-page-icon: money-bill-transfer
+    x-page-description: Move funds from your Evolve balance to your bank.
+
+paths:
+  /sources/charge:
+    post:
+      operationId: createSourceCharge
+      summary: Charge a source
+      deprecated: true
+      description: |
+        Charge a card or bank-account source. **Deprecated** in favor of v2's `POST /charges`.
+        v1 source-prefixed endpoints will return 410 Gone after 2026-12-31.
+      tags: [charges]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SourceChargeCreate'
+      responses:
+        '200':
+          description: Charge succeeded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Charge'
+        '402':
+          description: Card declined
+
+  /sources/refund:
+    post:
+      operationId: createSourceRefund
+      summary: Refund a charge
+      deprecated: true
+      description: |
+        Refund a previous charge. **Deprecated** in favor of v2's `POST /refunds`.
+      tags: [refunds]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [charge]
+              properties:
+                charge: { type: string, example: ch_3KsM12pL9qXa7 }
+                amount: { type: integer }
+      responses:
+        '200':
+          description: OK
+
+  /charges/{id}:
+    get:
+      operationId: retrieveCharge
+      summary: Retrieve a charge
+      tags: [charges]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string, example: ch_3KsM12pL9qXa7 }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Charge' }
+
+  /payouts:
+    get:
+      operationId: listPayouts
+      summary: List payouts
+      tags: [payouts]
+      responses:
+        '200':
+          description: OK
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: sk_live_… or sk_test_…
+
+  schemas:
+    Charge:
+      type: object
+      properties:
+        id: { type: string, example: ch_3KsM12pL9qXa7 }
+        object: { type: string, enum: [charge] }
+        amount: { type: integer }
+        currency: { type: string, example: usd }
+        status:
+          type: string
+          enum: [pending, succeeded, failed, refunded]
+          description: |
+            Note: v1 has a flatter status enum. v2 introduced `authorized`, `captured`,
+            `voided`, `disputed` as distinct states.
+        captured: { type: boolean }
+        created: { type: integer }
+
+    SourceChargeCreate:
+      type: object
+      required: [amount, currency, source]
+      properties:
+        amount: { type: integer, example: 4200 }
+        currency: { type: string, example: usd }
+        source:
+          type: string
+          description: |
+            Card token or bank-account token. v1 used different endpoints per source type;
+            v2 unified them under a single `/charges` endpoint that infers source type from
+            the token prefix.
+          example: tok_visa
+        description: { type: string }

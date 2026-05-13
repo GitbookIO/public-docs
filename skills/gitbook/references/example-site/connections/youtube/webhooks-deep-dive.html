@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Webhooks deep-dive: signatures, retries, idempotency — Evolve YouTube</title>
+<meta name="description" content="The full webhook story: signature verification across SDKs, the retry schedule, idempotency window sizing, and dead-letter handling.">
+<meta name="author" content="Evolve">
+<meta property="video:duration" content="17:55">
+<meta property="og:type" content="video.other">
+<meta property="article:published_time" content="2026-02-26">
+<meta name="keywords" content="webhooks, signatures, idempotency, reliability">
+</head>
+<body>
+<article>
+<header>
+<h1>Webhooks deep-dive: signatures, retries, idempotency</h1>
+<p>Channel: <strong>Evolve</strong> · Duration: 17:55 · Published: February 26, 2026 · 24,701 views</p>
+</header>
+<section class="description">
+<p>The full webhook story for production-ready integrations. Signature verification across all four SDKs, the retry schedule (1m, 5m, 30m, 2h, 12h, 1d, 3d, 7d), idempotency window sizing, dead-letter handling, and the one mistake that almost everyone makes the first time.</p>
+</section>
+<section class="chapters">
+<h2>Chapters</h2>
+<ul>
+<li>0:00 — What webhooks are for (and what they aren't)</li>
+<li>1:45 — Signature verification: HMAC-SHA-256, replay protection</li>
+<li>5:30 — The retry schedule and why it ramps the way it does</li>
+<li>9:12 — Idempotency: keys, windows, and de-dup at scale</li>
+<li>12:48 — Dead-letter handling and account-contact emails</li>
+<li>15:20 — The one mistake everyone makes (parsing the message field for branching)</li>
+</ul>
+</section>
+<section class="transcript">
+<h2>Transcript highlights</h2>
+<p>"…tune your idempotency window to at least 7 days. Our last retry attempt is at the 7-day mark. If your window is shorter than that, a successful late delivery can collide with a manual retry from your ops team and you end up double-processing…"</p>
+<p>"…signature verification isn't optional. Even if you whitelist our IPs, IPs change. The signature is a 30-second per-customer engineering task that catches a real category of attacks…"</p>
+</section>
+</article>
+</body>
+</html>

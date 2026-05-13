@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Webhook retries — what's the actual backoff curve? — Evolve Community</title>
+<meta name="description" content="Discussion on Evolve's webhook retry schedule and the backoff curve — including how to handle dead-letter scenarios.">
+<meta name="author" content="kev_d">
+<meta property="article:published_time" content="2026-04-04">
+<meta name="keywords" content="webhooks, retries, backoff, reliability">
+</head>
+<body>
+<article>
+<header>
+<h1>Webhook retries — what's the actual backoff curve?</h1>
+<p>Posted by <strong>kev_d</strong> — April 4, 2026 — 9 replies</p>
+</header>
+<section class="post original">
+<p>Docs say "exponential backoff" but I want to know the exact schedule so I can tune our endpoint's idempotency window. Anyone got the numbers?</p>
+</section>
+<section class="post reply accepted">
+<header><strong>akshaya — Evolve team</strong> — April 4, 2026 — accepted answer</header>
+<p>Schedule for the standard tier: 1m, 5m, 30m, 2h, 12h, 1d, 3d, 7d. After 7 days the event moves to the dead-letter queue and we email your account's webhook contact. Total of 8 attempts over a 7-day window. Enterprise can configure custom curves.</p>
+<p>Tune your idempotency window to at least 7 days — we've seen integrations where a delivery success on attempt 8 conflicted with a manual retry someone did at hour 6, leading to double-processing.</p>
+</section>
+</article>
+</body>
+</html>
