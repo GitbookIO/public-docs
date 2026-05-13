@@ -1,0 +1,157 @@
+openapi: '3.1.0'
+info:
+  title: Evolve Identity API
+  version: '2026-01-15'
+  description: |
+    Verify customers and partners — documents, selfies, bank accounts, and business records.
+  contact:
+    name: Evolve API support
+    email: support@evolve.com
+
+servers:
+  - url: https://api.evolve.com/v2
+    description: Live
+  - url: https://api.test.evolve.com/v2
+    description: Test
+
+security:
+  - bearerAuth: []
+
+tags:
+  - name: verification-sessions
+    x-page-title: Verification sessions
+    x-page-icon: id-card
+    x-page-description: Run an identity, bank, or business verification.
+  - name: documents
+    x-page-title: Documents
+    x-page-icon: file-magnifying-glass
+    x-page-description: Inspect captured documents and their review state.
+  - name: bank-verifications
+    x-page-title: Bank verifications
+    x-page-icon: building-columns
+    x-page-description: Confirm a bank account belongs to the customer.
+
+paths:
+  /verification_sessions:
+    post:
+      operationId: createVerificationSession
+      summary: Create a verification session
+      description: |
+        Generates a hosted verification URL and creates a session record.
+        Send the URL to the customer; they complete the flow and you receive a webhook.
+      tags: [verification-sessions]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerificationSessionCreate'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerificationSession'
+
+    get:
+      operationId: listVerificationSessions
+      summary: List verification sessions
+      tags: [verification-sessions]
+      parameters:
+        - name: limit
+          in: query
+          schema: { type: integer, default: 100, maximum: 1000 }
+        - name: cursor
+          in: query
+          schema: { type: string }
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [pending, processing, verified, failed, manual_review]
+      responses:
+        '200':
+          description: OK
+
+  /verification_sessions/{id}:
+    get:
+      operationId: retrieveVerificationSession
+      summary: Retrieve a verification session
+      tags: [verification-sessions]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string, example: vs_3KsM12pL9qXa7 }
+      responses:
+        '200':
+          description: OK
+
+  /bank_verifications:
+    post:
+      operationId: createBankVerification
+      summary: Create a bank verification
+      description: |
+        Initiate a bank-account verification. Defaults to Plaid instant when supported,
+        falling back to micro-deposits.
+      tags: [bank-verifications]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [customer]
+              properties:
+                customer: { type: string, example: cus_4n2P3qR5sT6uV }
+                method:
+                  type: string
+                  enum: [plaid, micro_deposits, auto]
+                  default: auto
+      responses:
+        '200':
+          description: OK
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+
+  schemas:
+    VerificationSession:
+      type: object
+      properties:
+        id: { type: string, example: vs_3KsM12pL9qXa7 }
+        object: { type: string, enum: [verification_session] }
+        type: { type: string, enum: [identity, bank, business] }
+        status:
+          type: string
+          enum: [pending, processing, verified, failed, manual_review]
+        url: { type: string, description: Hosted verification URL }
+        customer: { type: string }
+        created: { type: integer }
+        result:
+          type: object
+          properties:
+            checks:
+              type: array
+              items:
+                type: object
+                properties:
+                  type: { type: string }
+                  status: { type: string }
+
+    VerificationSessionCreate:
+      type: object
+      required: [type, customer]
+      properties:
+        type:
+          type: string
+          enum: [identity, bank, business]
+        customer: { type: string }
+        return_url: { type: string }
+        required_checks:
+          type: array
+          items: { type: string }

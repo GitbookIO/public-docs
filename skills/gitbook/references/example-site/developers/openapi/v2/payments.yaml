@@ -1,0 +1,237 @@
+openapi: '3.1.0'
+info:
+  title: Evolve Payments API (v2)
+  version: '2026-01-15'
+  description: |
+    Accept card and bank-rail payments, issue refunds, and reconcile settlements.
+
+    This is the **v2** spec — the stable, default variant. For older deployments see
+    `openapi/v1/payments.yaml`; for the preview shape see `openapi/v3/payments.yaml`.
+  contact:
+    name: Evolve API support
+    email: support@evolve.com
+    url: https://docs.evolve.com
+
+servers:
+  - url: https://api.evolve.com/v2
+    description: Live
+  - url: https://api.test.evolve.com/v2
+    description: Test
+
+security:
+  - bearerAuth: []
+
+tags:
+  - name: charges
+    x-page-title: Charges
+    x-page-icon: credit-card
+    x-page-description: Create, capture, and manage payments.
+  - name: refunds
+    x-page-title: Refunds
+    x-page-icon: rotate-left
+    x-page-description: Return funds to a customer.
+  - name: payouts
+    x-page-title: Payouts
+    x-page-icon: money-bill-transfer
+    x-page-description: Move funds from your Evolve balance to your bank.
+  - name: balance
+    x-page-title: Balance
+    x-page-icon: scale-balanced
+    x-page-description: Check your current available and pending funds.
+
+paths:
+  /charges:
+    post:
+      operationId: createCharge
+      summary: Create a charge
+      description: |
+        Charge a payment method. The default behavior is **authorize-and-capture in one step**.
+        Pass `capture: false` for two-step.
+      tags: [charges]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChargeCreate'
+      responses:
+        '200':
+          description: Charge succeeded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Charge'
+        '402':
+          description: Card declined
+        '422':
+          description: Processing error — retry with same idempotency key
+    get:
+      operationId: listCharges
+      summary: List charges
+      description: Returns a paginated list of charges, most recent first.
+      tags: [charges]
+      parameters:
+        - name: limit
+          in: query
+          schema: { type: integer, default: 100, maximum: 1000 }
+        - name: cursor
+          in: query
+          schema: { type: string }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items: { $ref: '#/components/schemas/Charge' }
+                  has_more: { type: boolean }
+                  next_cursor: { type: string, nullable: true }
+
+  /charges/{id}:
+    get:
+      operationId: retrieveCharge
+      summary: Retrieve a charge
+      tags: [charges]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string, example: ch_3KsM12pL9qXa7 }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Charge' }
+
+  /charges/{id}/capture:
+    post:
+      operationId: captureCharge
+      summary: Capture an authorized charge
+      description: Capture an `authorized` charge. Must be within 7 days of authorization.
+      tags: [charges]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                amount:
+                  type: integer
+                  description: Optional. Defaults to the original authorized amount.
+      responses:
+        '200':
+          description: OK
+
+  /refunds:
+    post:
+      operationId: createRefund
+      summary: Create a refund
+      tags: [refunds]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [charge]
+              properties:
+                charge: { type: string, example: ch_3KsM12pL9qXa7 }
+                amount: { type: integer, description: Optional partial refund amount }
+                reason:
+                  type: string
+                  enum: [duplicate, fraudulent, requested_by_customer]
+      responses:
+        '200':
+          description: OK
+
+  /payouts:
+    get:
+      operationId: listPayouts
+      summary: List payouts
+      tags: [payouts]
+      responses:
+        '200':
+          description: OK
+
+  /balance:
+    get:
+      operationId: retrieveBalance
+      summary: Retrieve balance
+      description: Returns your current available, pending, and reserved balances.
+      tags: [balance]
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  available:
+                    type: array
+                    items: { $ref: '#/components/schemas/Money' }
+                  pending:
+                    type: array
+                    items: { $ref: '#/components/schemas/Money' }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: sk_live_… or sk_test_…
+
+  schemas:
+    Charge:
+      type: object
+      properties:
+        id: { type: string, example: ch_3KsM12pL9qXa7 }
+        object: { type: string, enum: [charge] }
+        amount: { type: integer, description: Amount in the smallest currency unit (cents) }
+        currency: { type: string, example: usd }
+        status:
+          type: string
+          enum: [pending, authorized, captured, voided, refunded, disputed, failed]
+        captured: { type: boolean }
+        created: { type: integer, description: Unix timestamp }
+        payment_method:
+          type: object
+          properties:
+            type: { type: string, enum: [card, ach_debit, wire, sepa] }
+            brand: { type: string, example: visa }
+            last4: { type: string, example: '4242' }
+
+    ChargeCreate:
+      type: object
+      required: [amount, currency, source]
+      properties:
+        amount: { type: integer, example: 4200 }
+        currency: { type: string, example: usd }
+        source:
+          type: string
+          description: Token, saved payment method id, or PaymentSession id.
+          example: tok_visa
+        capture:
+          type: boolean
+          default: true
+          description: When false, creates an authorization that must be captured within 7 days.
+        description: { type: string }
+        metadata:
+          type: object
+          additionalProperties: { type: string }
+
+    Money:
+      type: object
+      properties:
+        amount: { type: integer }
+        currency: { type: string }

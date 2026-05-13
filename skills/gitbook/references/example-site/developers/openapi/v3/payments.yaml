@@ -1,0 +1,225 @@
+openapi: '3.1.0'
+info:
+  title: Evolve Payments API (v3 preview)
+  version: '2026-04-01-preview'
+  description: |
+    The v3 preview Payments API.
+
+    v3 renames `Charge` to `Payment`, replaces `capture: true|false` with a `capture_method`
+    enum, extends authorization windows to 30 days, and supports multi-currency capture.
+
+    **This is a preview API.** Endpoints and shapes may change. Don't run production traffic
+    on v3 without coordinating with your account team.
+  contact:
+    name: Evolve API support
+    email: support@evolve.com
+    url: https://docs.evolve.com
+
+servers:
+  - url: https://api.evolve.com/v3
+    description: Live (preview)
+  - url: https://api.test.evolve.com/v3
+    description: Test (preview)
+
+security:
+  - bearerAuth: []
+
+tags:
+  - name: payments
+    x-page-title: Payments
+    x-page-icon: credit-card
+    x-page-description: Create, capture, void, retrieve. Renamed from "Charges" in v3.
+  - name: refunds
+    x-page-title: Refunds
+    x-page-icon: rotate-left
+    x-page-description: Refund a payment.
+  - name: payouts
+    x-page-title: Payouts
+    x-page-icon: money-bill-transfer
+    x-page-description: Move funds from your Evolve balance to your bank.
+  - name: balance
+    x-page-title: Balance
+    x-page-icon: scale-balanced
+    x-page-description: Check your current available, pending, and reserved funds.
+
+paths:
+  /payments:
+    post:
+      operationId: createPayment
+      summary: Create a payment
+      description: |
+        Charge a payment method. The default behavior is **automatic capture in one step**.
+        Set `capture_method: manual` for two-step authorize-then-capture, or `automatic_async`
+        for batched capture (common in marketplaces).
+      tags: [payments]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PaymentCreate'
+      responses:
+        '200':
+          description: Payment succeeded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Payment'
+        '402':
+          description: Card declined
+        '422':
+          description: Processing error — retry with same idempotency key
+
+    get:
+      operationId: listPayments
+      summary: List payments
+      tags: [payments]
+      parameters:
+        - name: limit
+          in: query
+          schema: { type: integer, default: 100, maximum: 1000 }
+        - name: cursor
+          in: query
+          schema: { type: string }
+      responses:
+        '200':
+          description: OK
+
+  /payments/{id}:
+    get:
+      operationId: retrievePayment
+      summary: Retrieve a payment
+      tags: [payments]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string, example: pay_3KsM12pL9qXa7 }
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/Payment' }
+
+  /payments/{id}/capture:
+    post:
+      operationId: capturePayment
+      summary: Capture an authorized payment
+      description: |
+        Capture an `authorized` payment. **v3 extends the authorization window to 30 days**
+        from v2's 7. Multi-currency capture is supported — pass `capture_currency` and
+        `capture_amount` to capture in a different currency than the original authorization.
+      tags: [payments]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                capture_amount: { type: integer }
+                capture_currency:
+                  type: string
+                  description: Currency to capture in. Defaults to the authorization currency.
+      responses:
+        '200':
+          description: OK
+
+  /refunds:
+    post:
+      operationId: createRefund
+      summary: Create a refund
+      tags: [refunds]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [payment]
+              properties:
+                payment:
+                  type: string
+                  example: pay_3KsM12pL9qXa7
+                  description: |
+                    Payment ID. Renamed from `charge` in v3 — use `payment` here, not `charge`.
+                amount: { type: integer }
+                reason:
+                  type: string
+                  enum: [duplicate, fraudulent, requested_by_customer]
+      responses:
+        '200':
+          description: OK
+
+  /balance:
+    get:
+      operationId: retrieveBalance
+      summary: Retrieve balance
+      tags: [balance]
+      responses:
+        '200':
+          description: OK
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: sk_live_… or sk_test_…
+
+  schemas:
+    Payment:
+      type: object
+      description: Renamed from `Charge` in v3. Same lifecycle, same identifiers (now `pay_*`).
+      properties:
+        id: { type: string, example: pay_3KsM12pL9qXa7 }
+        object: { type: string, enum: [payment] }
+        amount: { type: integer }
+        currency: { type: string, example: usd }
+        status:
+          type: string
+          enum: [pending, authorized, captured, voided, refunded, disputed, failed]
+        capture_method:
+          type: string
+          enum: [automatic, manual, automatic_async]
+        authorize_amount: { type: integer, nullable: true }
+        authorize_currency: { type: string, nullable: true }
+        capture_amount: { type: integer, nullable: true }
+        capture_currency: { type: string, nullable: true }
+        created: { type: integer }
+        payment_method:
+          type: object
+          properties:
+            type: { type: string, enum: [card, ach_debit, wire, sepa] }
+            brand: { type: string, example: visa }
+            last4: { type: string, example: '4242' }
+
+    PaymentCreate:
+      type: object
+      required: [amount, currency, source]
+      properties:
+        amount: { type: integer, example: 4200 }
+        currency: { type: string, example: usd }
+        source: { type: string, example: tok_visa }
+        capture_method:
+          type: string
+          enum: [automatic, manual, automatic_async]
+          default: automatic
+          description: |
+            Replaces v2's `capture: true|false` boolean. `automatic` captures immediately,
+            `manual` creates an authorization to capture later (within 30 days), and
+            `automatic_async` captures in a batch within 24 hours.
+        capture_currency:
+          type: string
+          description: |
+            For multi-currency capture. If different from `currency`, Evolve converts at
+            the daily wholesale rate plus your configured FX margin at capture time.
+        description: { type: string }
+        metadata:
+          type: object
+          additionalProperties: { type: string }
