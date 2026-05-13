@@ -223,6 +223,8 @@ window.GitBook('configure', {
     }
   ],
   greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
+  assistantName: 'Support Copilot',
+  closeButton: true,
   suggestions: ['What is GitBook?', 'How do I get started?']
 });
 ```
@@ -347,6 +349,6 @@ unsubscribe();
 
 See the [React integration guide](../implementation/react.md) for component props and the `useGitBook` hook API.
 
-`GitBookFrame` supports `colorScheme="light" | "dark"` and the `visitor` prop for authenticated access.
+`GitBookFrame` supports `assistantName`, `closeButton`, `colorScheme="light" | "dark"`, and the `visitor` prop for authenticated access.
 
 `useGitBook().getFrameURL()` accepts the same `colorScheme` parameter as the NPM package.

@@ -116,6 +116,28 @@ window.GitBook("configure", {
 });
 ```
 
+### Overriding the assistant name
+
+Use `assistantName` to override the assistant name shown in the UI.
+
+The value can contain up to 32 characters.
+
+```javascript
+window.GitBook("configure", {
+  assistantName: "Support Copilot",
+});
+```
+
+### Showing a close button
+
+Use `closeButton` to display a close button inside the Assistant.
+
+```javascript
+window.GitBook("configure", {
+  closeButton: true,
+});
+```
+
 ### Showing or hiding the trademark
 
 Use `trademark` to show or hide the GitBook trademark in the embed UI — including the Docs Embed footer and Assistant branding.

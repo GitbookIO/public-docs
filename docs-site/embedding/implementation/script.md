@@ -84,6 +84,8 @@ You can customize the widget before displaying it. Call `configure` after loadin
       title: 'Welcome',
       subtitle: 'How can I help?'
     },
+    assistantName: 'Support Copilot',
+    closeButton: true,
     suggestions: [
       'What is GitBook?',
       'How do I get started?'
@@ -100,6 +102,8 @@ Using this method, you can customize the:
 * Visible tabs inside the widget
 * Custom action buttons
 * Greeting title and subtitle
+* Assistant name shown in the UI
+* Close button inside the Assistant
 * Suggested prompts shown to users.
 
 Search is enabled by default. If you set `tabs`, list every tab you want to keep.
@@ -265,6 +269,33 @@ Welcome message displayed in the Assistant tab.
 
 * **Type**: `{ title: string, subtitle: string }`
 
+#### `assistantName`
+
+Override the assistant name shown in the UI.
+
+* **Type**: `string`
+* **Max length**: `32` characters
+* **Example**:
+
+```javascript
+window.GitBook('configure', {
+  assistantName: 'Support Copilot'
+});
+```
+
+#### `closeButton`
+
+Display a close button inside the Assistant.
+
+* **Type**: `boolean`
+* **Example**:
+
+```javascript
+window.GitBook('configure', {
+  closeButton: true
+});
+```
+
 #### `suggestions`
 
 Suggested questions displayed in the Assistant welcome screen.
@@ -328,8 +359,6 @@ Some options are set on the frame instead of as configuration. Pass them in `fra
 Override the embed color scheme.
 
 When omitted, the embed follows the iframe's CSS `color-scheme`, which lets it inherit the parent page or browser preference.
-
-
 
 * **Type**: `'light' | 'dark'`
 * **Example**:

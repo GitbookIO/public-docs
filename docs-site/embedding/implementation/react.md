@@ -86,6 +86,8 @@ Pass configuration props to the frame component:
     tabs={['assistant', 'search', 'docs']}
     colorScheme="dark"
     greeting={{ title: 'Welcome!', subtitle: 'How can I help?' }}
+    assistantName="Support Copilot"
+    closeButton={true}
     suggestions={['What is GitBook?', 'How do I get started?']}
     actions={[
       {
@@ -185,12 +187,14 @@ const GitBookFrame = dynamic(
 
 All configuration options can be passed as props to `<GitBookFrame>`. See the Configuration section below for available options.
 
-| Prop          | Type                | Required | Default                          | Description                                     |
-| ------------- | ------------------- | -------- | -------------------------------- | ----------------------------------------------- |
-| `className`   | `string`            | No       | `null`                           | CSS class name to apply to the frame container. |
-| `style`       | `object`            | No       | `{}`                             | Inline styles to apply to the frame container.  |
-| `colorScheme` | `'light' \| 'dark'` | No       | Inherits from CSS `color-scheme` | Override the embed color scheme.                |
-| `visitor`     | `object`            | No       | `{}`                             | Authenticated access options (see below).       |
+| Prop            | Type                | Required | Default                          | Description                                     |
+| --------------- | ------------------- | -------- | -------------------------------- | ----------------------------------------------- |
+| `className`     | `string`            | No       | `null`                           | CSS class name to apply to the frame container. |
+| `style`         | `object`            | No       | `{}`                             | Inline styles to apply to the frame container.  |
+| `colorScheme`   | `'light' \| 'dark'` | No       | Inherits from CSS `color-scheme` | Override the embed color scheme.                |
+| `assistantName` | `string`            | No       | `null`                           | Override the assistant name shown in the UI.    |
+| `closeButton`   | `boolean`           | No       | `null`                           | Display a close button inside the Assistant.    |
+| `visitor`       | `object`            | No       | `{}`                             | Authenticated access options (see below).       |
 
 **useGitBook Hook:**
 
@@ -241,6 +245,19 @@ Custom action buttons rendered in the sidebar alongside tabs. Each action button
 Welcome message displayed in the Assistant tab.
 
 * **Type**: `{ title: string, subtitle: string }`
+
+### `assistantName`
+
+Override the assistant name shown in the UI.
+
+* **Type**: `string`
+* **Max length**: `32` characters
+
+### `closeButton`
+
+Display a close button inside the Assistant.
+
+* **Type**: `boolean`
 
 ### `suggestions`
 

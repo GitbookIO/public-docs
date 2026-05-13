@@ -120,6 +120,8 @@ frame.configure({
     }
   ],
   greeting: { title: 'Welcome!', subtitle: 'How can I help?' },
+  assistantName: 'Support Copilot',
+  closeButton: true,
   suggestions: ['What is GitBook?', 'How do I get started?'],
   tools: [/* ... */]
 });
@@ -187,6 +189,19 @@ Welcome message displayed in the Assistant tab.
 
 * **Type**: `{ title: string, subtitle: string }`
 
+#### `assistantName`
+
+Override the assistant name shown in the UI.
+
+* **Type**: `string`
+* **Max length**: `32` characters
+
+#### `closeButton`
+
+Display a close button inside the Assistant.
+
+* **Type**: `boolean`
+
 #### `suggestions`
 
 Suggested questions displayed in the Assistant welcome screen.
@@ -204,7 +219,7 @@ Show or hide the GitBook trademark in the embed UI — including the Docs Embed 
 
 Custom AI tools to extend the Assistant. See [Creating custom tools](../configuration/creating-custom-tools.md) for details.
 
-* **Type**: `Array<{ name: string, description: string, inputSchema: object, execute: Function, confirmation?: {...} }>`&#x20;
+* **Type**: `Array<{ name: string, description: string, inputSchema: object, execute: Function, confirmation?: {...} }>`
 
 ### Frame URL options
 
