@@ -3,11 +3,11 @@ description: >-
   See what your users are actually asking GitBook Assistant — and identify
   knowledge gaps where your docs fall short
 icon: thumbs-up
-tags:
-  - add-on
 ---
 
 # AI insights
+
+{% include "../.gitbook/includes/ultimate-hint.md" %}
 
 AI insights shows what your visitors are asking and how effectively [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) responds using your content.
 
@@ -24,13 +24,13 @@ The AI insights dashboard gives you a snapshot of your site through four key met
 
 Click any topic to open the topic detail view.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_insights@2x.png" alt=""><figcaption><p>AI insights screen.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_30_site_insights@2x.png" alt=""><figcaption><p>AI insights screen.</p></figcaption></figure>
 
 ### Topics
 
 The **Topics** view shows how individual topics perform over time and lists the questions related to each one.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_insights_topic@2x.png" alt=""><figcaption><p>Topic detail view in AI insights.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_30_site_insights_topic@2x.png" alt=""><figcaption><p>Topic detail view in AI insights.</p></figcaption></figure>
 
 #### Questions in this topic
 
@@ -44,7 +44,7 @@ The **Questions** view shows how GitBook Assistant handled an individual visitor
 
 When you click a question, the detail view opens. At the top of the screen, you can review the question itself, how often visitors asked it, its type, and the topics it belongs to.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_insights_question@2x.png" alt=""><figcaption><p>Question detail view in AI insights.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_30_site_insights_question@2x.png" alt=""><figcaption><p>Question detail view in AI insights.</p></figcaption></figure>
 
 #### Conversations and answer quality
 
