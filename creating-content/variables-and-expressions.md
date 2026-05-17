@@ -31,6 +31,10 @@ Variable names must start with a letter, and can contain letters, numbers and un
 
 Variables can be referenced and used within an [expression](formatting/inline.md#expressions) — which you can insert into your content inline. After inserting an expression, double click it to open the expression editor.
 
+{% hint style="info" %}
+Expressions can only be used in the page content of a document. They don’t work in page titles or page metadata.
+{% endhint %}
+
 Variables defined under your page are accessible under the `page.vars` object. Similarly, variables defined across your entire space are accessible under the `space.vars` object.
 
 <figure><img src="../.gitbook/assets/25_12_10_add_variable@2x_1.png" alt="A GitBook screenshot showing an expression block within the editor. The expression editor is open below it and the ‘space.vars.latest_version’ variable has been selected"><figcaption><p>You can add variables to your content within expresions. The expression editor offers autocomplete options to help you find the variable you need.</p></figcaption></figure>
