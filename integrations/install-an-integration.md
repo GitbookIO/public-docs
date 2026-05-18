@@ -7,7 +7,7 @@ icon: puzzle-piece
 
 # Install and manage integrations
 
-There are [many different integrations](https://app.gitbook.com/integrations) available in GitBook. From interactive content blocks to advanced analytics tools, your favorite tools are only a click away from integrating with GitBook.
+There are [many different integrations](https://www.gitbook.com/integrations#custom-experiences) available in GitBook. From interactive content blocks to advanced analytics tools, your favorite tools are only a click away from integrating with GitBook.
 
 You can install an integration in a single space, multiple spaces, or all the spaces across your organization.
 
