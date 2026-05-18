@@ -14,7 +14,7 @@
   * [Commit messages & Autolink](getting-started/git-sync/commits.md)
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
-  * [Skill.md](https://gitbook.com/docs/skill.md)
+  * [SKILL.md](https://gitbook.com/docs/skill.md)
 
 ## Your docs site <a href="#docs-site" id="docs-site"></a>
 
