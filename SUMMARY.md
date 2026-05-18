@@ -200,4 +200,4 @@
 
 ***
 
-* [skill](skill.md)
+* [skill](gitbook/SKILL.md)
