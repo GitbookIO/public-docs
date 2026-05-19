@@ -1,6 +1,9 @@
 ---
 name: gitbook
-description: Write and edit GitBook documentation in external environments like Cursor, Claude Code, or other text editors. Use when working with GitBook content via Git-synced repos, local markdown editors, IDEs, or CLI tools — covering frontmatter, custom blocks (tabs, hints, steppers, columns, updates, cards), variables, expressions, SUMMARY.md, .gitbook.yaml, reusable content, and OpenAPI references.
+description: >-
+  Write and edit GitBook documentation in external environments like Cursor,
+  Claude Code, or other text editors. Use when working with GitBook content via
+  Git-synced repos, or local markdown editors
 hidden: true
 noIndex: true
 ---
