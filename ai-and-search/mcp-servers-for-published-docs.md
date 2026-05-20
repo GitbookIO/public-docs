@@ -23,13 +23,13 @@ If you open this URL in a browser, you’ll see an error. Use it in a tool that 
 
 {% stepper %}
 {% step %}
-#### Find your MCP server URL
+**Find your MCP server URL**
 
 Take your published GitBook site URL. Then add `/~gitbook/mcp`.
 {% endstep %}
 
 {% step %}
-#### Configure your AI tool
+**Configure your AI tool**
 
 Open your tool’s MCP settings. Then enter the server URL.
 
@@ -37,7 +37,7 @@ Each tool handles setup differently. Check your tool’s docs for exact steps.
 {% endstep %}
 
 {% step %}
-#### Start using your docs
+**Start using your docs**
 
 Once connected, the tool can search your docs, open pages, and answer questions with your content.
 {% endstep %}
@@ -49,12 +49,15 @@ To use an MCP server:
 
 * Your site must be published. The MCP server exposes published content only.
 * Your tool must support MCP over HTTP.
-* If your site uses authentication, the MCP server must use the same access rules.
+* If your site uses authenticated access, the MCP server uses the same access rules.
+* If your site uses share links, use the share-link site URL, then add `/~gitbook/mcp`.
 * GitBook supports HTTP transport only. `stdio` and `SSE` aren’t supported.
 
 ### Add the MCP link to your site
 
 In [Site customization](../docs-site/customization/), open the [Page actions](../docs-site/customization/extra-configuration.md#page-actions) section. Then turn on **Connect with MCP server**.
+
+This setting controls whether GitBook shows the MCP server link in the page actions menu.
 
 Visitors can then copy the server URL from the page actions menu.
 
@@ -77,7 +80,9 @@ If a tool can’t connect:
 
 ### Use MCP with authenticated sites
 
-If your GitBook site uses  [authenticated access](../site-access/authenticated-access/), the MCP server at `/~gitbook/mcp` uses the same authentication. MCP clients that support the [MCP authorization spec](https://modelcontextprotocol.io/docs/tutorials/security/authorization) — including Claude and Claude Code — can connect to the server automatically using OAuth and Dynamic Client Registration (DCR).
+If your GitBook site uses [authenticated access](../site-access/authenticated-access/), the MCP server at `/~gitbook/mcp` uses the same authentication. MCP clients that support the [MCP authorization spec](https://modelcontextprotocol.io/docs/tutorials/security/authorization) — including Claude and Claude Code — can connect to the server automatically using OAuth and Dynamic Client Registration (DCR).
+
+If your site uses share links instead, MCP still works. Use the full share-link site URL, then add `/~gitbook/mcp`.
 
 **How it works**
 
@@ -97,4 +102,4 @@ For this flow to work, your site must use one of GitBook's supported authenticat
 * Auth0, Azure AD, Okta, AWS Cognito, or OIDC via the native integrations
 * A custom backend with a Fallback URL configured
 
-GitBook doesn't support share-link-only sites or sites using visitor auth tokens passed as static headers for MCP authentication.
+GitBook doesn't support sites using visitor auth tokens passed as static headers for MCP authentication.
