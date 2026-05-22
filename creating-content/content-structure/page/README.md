@@ -13,7 +13,7 @@ When publishing your documentation, each space will be its own [docs site](../..
 You can create as many pages as you need in a space. They’re all visible on the left sidebar of your screen in your space’s [table of contents](../../../resources/gitbook-ui/#table-of-contents). The table of content will appear in the same place when you publish your space, unless [you choose to hide it](./#page-options).
 
 {% hint style="info" %}
-### Docs site landing page
+#### Docs site landing page
 
 The first page in your table of contents is always your space's landing page, even if it's hidden from the table of contents.
 {% endhint %}
@@ -123,6 +123,10 @@ You can also set your page’s global width from this menu. Choosing **Wide** gi
 You can decide which pages you would like to show/hide in your published documentation, while also deciding if you would like the page to be indexed in your published doc’s search, and/or indexed by search engines.
 
 You can hide a page or group of pages from your site's table of contents by opening the page’s **Actions menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and toggling **Hide page**.
+
+Hidden pages are only hidden from the published table of contents.
+
+They remain available through the site’s MCP server and in `llms-full.txt`.
 
 If hidden the following will appear in the front matter of the markdown file when using Git Sync:
 

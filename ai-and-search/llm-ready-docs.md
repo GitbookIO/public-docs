@@ -29,6 +29,8 @@ The `llms.txt` file serves as an index for your documentation site, providing a 
 
 Where the `llms.txt` file contains an index of all the page URLs and titles of of your documentation site, the `llms-full.txt` contains the full content of your documentation site in one file that can be passed to LLMs as context.
 
+Hidden pages are included in `llms-full.txt`. Hiding a page only removes it from the published table of contents.
+
 <a href="https://gitbook.com/docs/llms-full.txt" class="button primary">Check out the /llms-full.txt file for the GitBook docs</a>
 
 LLMs can use this index to navigate directly to the markdown versions of your pages, allowing them to incorporate your documentation into their context without needing to parse HTML.
@@ -37,7 +39,9 @@ LLMs can use this index to navigate directly to the markdown versions of your pa
 
 GitBook automatically exposes a Model Context Protocol (MCP) server for every published space. MCP gives AI tools a structured way to discover and retrieve your docs as resources — no scraping required.
 
-Your MCP server can be reached by appending `/~gitbook/mcp` to the URL of the root of your docs site. For instance, the GitBook docs MCP server is located at `https://gitbook.com/docs/~gitbook/mcp`.&#x20;
+Hidden pages remain available through the site’s MCP server. Hiding a page only removes it from the published table of contents.
+
+Your MCP server can be reached by appending `/~gitbook/mcp` to the URL of the root of your docs site. For instance, the GitBook docs MCP server is located at `https://gitbook.com/docs/~gitbook/mcp`.
 
 {% hint style="info" %}
 Visiting this URL in your browser will result in an error. Instead, you can share this with tools that can make HTTP requests, like LLMs or IDEs.

@@ -65,6 +65,8 @@ Visitors can then copy the server URL from the page actions menu.
 
 The MCP server gives read-only access to your published docs.
 
+Hidden pages remain available through MCP. Hiding a page only removes it from the published table of contents.
+
 It never exposes account data, analytics, or internal GitBook data.
 
 It serves the latest published version only. Drafts and unpublished changes stay private.
