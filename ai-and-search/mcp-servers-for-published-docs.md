@@ -21,6 +21,10 @@ If you open this URL in a browser, you’ll see an error. Use it in a tool that 
 
 ### Connect an AI tool
 
+{% hint style="info" %}
+**Page actions** must be enabled for the MCP server to work. If you turn off **Site customization** → **Page actions**, GitBook disables `~gitbook/mcp` and the endpoint returns `404`. **Connect with MCP server** only controls whether the MCP link appears in the page actions menu.
+{% endhint %}
+
 {% stepper %}
 {% step %}
 **Find your MCP server URL**
@@ -48,6 +52,7 @@ Once connected, the tool can search your docs, open pages, and answer questions 
 To use an MCP server:
 
 * Your site must be published. The MCP server exposes published content only.
+* **Page actions** must be enabled in **Site customization** → **Page actions**.
 * Your tool must support MCP over HTTP.
 * If your site uses authenticated access, the MCP server uses the same access rules.
 * If your site uses share links, use the share-link site URL, then add `/~gitbook/mcp`.
@@ -55,9 +60,11 @@ To use an MCP server:
 
 ### Add the MCP link to your site
 
-In [Site customization](../docs-site/customization/), open the [Page actions](../docs-site/customization/extra-configuration.md#page-actions) section. Then turn on **Connect with MCP server**.
+In [Site customization](../docs-site/customization/), open [Page actions](../docs-site/customization/extra-configuration.md#page-actions). Make sure **Page actions** is turned on. Then turn on **Connect with MCP server**.
 
-This setting controls whether GitBook shows the MCP server link in the page actions menu.
+If **Page actions** is off, GitBook disables `~gitbook/mcp` and the endpoint returns `404`.
+
+**Connect with MCP server** only controls whether GitBook shows the MCP server link in the page actions menu.
 
 Visitors can then copy the server URL from the page actions menu.
 

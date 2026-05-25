@@ -32,6 +32,8 @@ Page actions adds a page-level dropdown to every page of your docs, allowing use
 
 You can disable this option from the **Configure** tab if you do not wish to show page options in your published docs.
 
+If you disable **Page actions**, GitBook also disables the MCP server at `~gitbook/mcp`. To use MCP, keep **Page actions** enabled in **Site customization** → **Page actions**.
+
 <figure><img src="../../.gitbook/assets/25_12_10_configure@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### Open in AI providers
@@ -41,6 +43,12 @@ Enable this option to display an action to open ChatGPT or Claude with the page 
 #### Copy/View as Markdown
 
 Enable this option to display an action to copy or view the page as Markdown.
+
+#### Connect with MCP server
+
+Enable this option to display the MCP server link in the page actions menu.
+
+This option does not enable the MCP server itself. The MCP server works only when **Page actions** is enabled. To learn more, see [MCP servers for published docs](../../ai-and-search/mcp-servers-for-published-docs.md).
 
 #### Edit on GitHub/GitLab
 
