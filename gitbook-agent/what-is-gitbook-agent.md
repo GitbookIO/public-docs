@@ -7,26 +7,28 @@ icon: bolt-auto
 
 # What is GitBook Agent?
 
-GitBook Agent is an AI teammate that works alongside you, helping you keep your documentation accurate, complete, and current.
+GitBook Agent is an AI teammate that works alongside you.
 
-The Agent is deeply integrated into GitBook, so you don’t need to learn new workflows to take advantage of it — it works alongside you using the processes you already know.
+It helps you keep your documentation accurate, complete, and current.
+
+GitBook Agent is deeply integrated into GitBook. You don’t need new workflows to use it.
 
 {% hint style="info" %}
-If you’d like to edit your docs in your local environment using an AI assistant, you can use [GitBook's skill.md file](../creating-content/ai-coding-assistants-and-skillmd.md).
+If you edit your docs locally with an AI assistant, use [GitBook’s skill.md file](../creating-content/ai-coding-assistants-and-skillmd.md).
 {% endhint %}
 
 ### What can GitBook Agent do?
 
 GitBook Agent can:
 
-* **Write docs based on a prompt:** Ask the Agent to update a page with the latest information, replace every mention of a product name with a new name, or anything else you need.
-* **Import content into GitBook:** Attach files like PDFs, Microsoft Word documents and more in the Agent chat sidebar. The Agent can extract and format the content into pages in your space.
-* **Ideate and implement bigger changes:** Describe what you need and the Agent will open a change request, explain its planned edits, respond to your feedback, and then implement the plan you’ve created together.
-* **Understand your style guide:** Add your style guide in your site settings and the Agent will apply it when writing or reviewing content.
-* **Follow custom, site-level instructions:** Give the Agent specific instructions for a site, such as adding links in specific ways, or avoiding specific block types.
-* **Translate your documentation:** Choose the content you want to translate, select a language and the Agent will do the work of localizing your docs.
-* **Summon from a comment:** Add a comment to any block on your page, type @gitbook and tell the Agent what you need.
-* **Review change requests:** Add the Agent as a reviewer on your change request. It can act as a docs linter, identifying or fixing errors, suggesting improvements and flagging style guide deviations.
+* **Write docs based on a prompt:** Ask GitBook Agent to update a page, rename a product, or make any other change you need.
+* **Import content into GitBook:** Attach files like PDFs and Microsoft Word documents in the GitBook Agent chat sidebar. GitBook Agent extracts and formats the content into pages in your space.
+* **Plan and implement bigger changes:** Describe what you need. GitBook Agent opens a change request, explains its edits, responds to feedback, and implements the plan you create together.
+* **Understand your style guide:** Add your style guide in your site settings, and GitBook Agent applies it when writing or reviewing content.
+* **Follow custom, site-level instructions:** Give GitBook Agent site-specific instructions, such as how to add links or which block types to avoid.
+* **Translate your documentation:** Choose the content you want to translate, select a language, and GitBook Agent localizes your docs.
+* **Summon from a comment:** Add a comment to any block on your page, type `@gitbook`, and tell GitBook Agent what you need.
+* **Review change requests:** Add GitBook Agent as a reviewer on your change request. It can act as a docs linter, flag style guide issues, and suggest or fix errors.
 
 #### Automatic documentation suggestions
 
@@ -36,25 +38,29 @@ GitBook Agent can:
 Head to [agent-audit.md](agent-audit.md "mention") to learn more.
 {% endhint %}
 
-The Agent can also connect to the same signals your team uses to understand your product and what your users need: support conversations, tickets, and threads from your connected tools.
+GitBook Agent can also connect to the signals your team uses to understand your product and your customers’ needs: support conversations, tickets, and threads from your connected tools.
 
-With this context, the Agent can proactively identify gaps, propose updates and generate docs changes automatically. So as your docs evolve with your product, your users always get the right information when and where they need it.
+With this context, GitBook Agent can identify gaps, propose updates, and generate docs changes automatically.
+
+As your docs evolve with your product, your customers get the right information when they need it.
 
 ### Explore GitBook Agent’s features
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Write with GitBook Agent</strong></td><td>Create content based on a prompt or edit a single block</td><td><a href="write-and-edit-with-ai.md">write-and-edit-with-ai.md</a></td></tr><tr><td><strong>Review with GitBook Agent</strong></td><td>Ask the Agent to check your work for spelling, grammar and style</td><td><a href="review-change-requests-with-gitbook-agent.md">review-change-requests-with-gitbook-agent.md</a></td></tr><tr><td><strong>Translate your docs site</strong></td><td>GitBook Agent can create auto-updating localizations</td><td><a href="translations.md">translations.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Write with GitBook Agent</strong></td><td>Create content from a prompt, or edit a single block</td><td><a href="write-and-edit-with-ai.md">write-and-edit-with-ai.md</a></td></tr><tr><td><strong>Review with GitBook Agent</strong></td><td>Ask GitBook Agent to check your work for spelling, grammar, and style</td><td><a href="review-change-requests-with-gitbook-agent.md">review-change-requests-with-gitbook-agent.md</a></td></tr><tr><td><strong>Translate your docs site</strong></td><td>GitBook Agent can create auto-updating localizations</td><td><a href="translations.md">translations.md</a></td></tr></tbody></table>
 
 ### Add a style guide and custom instructions
 
-You can configure GitBook Agent by adding your team’s style guide or specific instructions on how you’d like it to work on a site. The Agent will use these as context whenever it creates or edits content for that site.
+You can configure GitBook Agent with your team’s style guide or site-specific instructions.
 
-To add a style guide or custom instructions, open your site’s **Settings** and then choose the **Agents** tab. Add your instructions in the custom instructions field.
+GitBook Agent uses this context whenever it creates or edits content for that site.
 
-You can quickly access this screen by opening the GitBook Agent chat window in a change request, then opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and choosing **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
+To add a style guide or custom instructions, open your site’s **Settings** and choose the **Agents** tab. Add your instructions in the custom instructions field.
+
+You can also open this screen from a change request. Open the GitBook Agent chat window, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and choose **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
 
 #### Custom instructions example
 
-Here’s an example of the kind of custom instructions you could add in GitBook Agent’s settings.
+Here’s an example of the custom instructions you can add in GitBook Agent’s settings.
 
 {% code overflow="wrap" %}
 ```
@@ -68,9 +74,9 @@ You are a technical writer at Stripe. Use clear, direct language and prioritize 
 
 <summary>How does GitBook Agent use my data?</summary>
 
-We always follow our data protection practices to keep your data private.
+We follow our data protection practices to keep your data private.
 
-GitBook Agent does not use your data to train AI models. We share the information you add to GitBook Agent with OpenAI for the sole purpose of providing you with GitBook AI’s features. Take a look at OpenAI’s privacy policy for more information.
+GitBook Agent does not use your data to train AI models. We share the information you add to GitBook Agent with OpenAI only to provide GitBook Agent. See OpenAI’s privacy policy for more information.
 
 </details>
 
@@ -78,7 +84,7 @@ GitBook Agent does not use your data to train AI models. We share the informatio
 
 <summary>How much does GitBook Agent cost?</summary>
 
-GitBook Agent is free for all plans while in beta.
+GitBook Agent is free for all plans while in beta. If you’re not on Pro and not on a trial, free usage includes 10 messages per week.
 
 [Translations](translations.md) are priced separately as a monthly add-on. Visit [the pricing section](translations.md#pricing) to find out more.
 
@@ -88,6 +94,8 @@ GitBook Agent is free for all plans while in beta.
 
 <summary>Can I override the default tone of GitBook Agent’s output?</summary>
 
-Yes, you can override the default personality and tone of GitBook Agent. So if you want more verbose outputs, or for it to follow a specific style or tone, simply tell the Agent — either in the site-level instructions, or in an individual prompt in a change request.
+Yes. You can override GitBook Agent’s default personality and tone.
+
+If you want more detailed output, or a specific style or tone, tell GitBook Agent in site-level instructions or in a prompt in a change request.
 
 </details>
