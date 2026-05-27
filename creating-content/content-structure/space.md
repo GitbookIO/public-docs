@@ -20,6 +20,10 @@ To duplicate a space, open that space's **Action menu** <picture><source srcset=
 
 Duplicating a space will create a copy of the source space, in the same location (organization, collection, sub-collection, etc.).
 
+{% hint style="warning" %}
+Duplicating a space copies the content in the source space. It doesn't copy revisions or version history.
+{% endhint %}
+
 ### Move a space
 
 You can move a space by opening the space’s **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the sidebar, selecting **Move space to…** and choosing a destination. Alternatively, you can drag and drop spaces in the sidebar to move or reorder them.\
