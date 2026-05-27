@@ -133,6 +133,12 @@ If you don’t want to choose between versions, you can resolve a merge conflict
 
 ### Archiving a change request
 
-If you decide not to merge a change request and want to remove it from the queue, you can archive it.
+You can't delete a change request in GitBook, but you can archive it instead.
 
-To archive a change request, first open it up. Then click the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request’s title and choose **Archive**. You can find and reopen archived change requests later by opening the **Change Requests** menu and selecting the **Archived** tab.
+To archive a change request:
+
+1. Open the **Change requests** tab.
+2. Select the change request you want to archive.
+3. Click the **Actions** menu  <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>  next to the change request's title and choose **Archive**.
+
+To find and reopen an archived change request, open the **Change requests** menu and select the **Archived** tab.
