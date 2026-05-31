@@ -7,7 +7,9 @@ icon: link-slash
 
 # Broken links
 
-{% include "../.gitbook/includes/pro-and-enterprise-hint.md" %}
+{% hint style="info" %}
+This feature is currently unavailable. For managing broken or changed URLs, use [site redirects](../publishing-documentation/site-redirects.md) instead.
+{% endhint %}
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/25_01_10_broken_links_sidebar.svg" alt="A GitBook screenshot showing the Broken links panel"><figcaption><p>The <strong>Broken links</strong> panel that you can open on the right of a space to check for broken internal links.</p></figcaption></figure></div>
 
