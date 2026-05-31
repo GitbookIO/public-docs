@@ -16,14 +16,16 @@ When you add a member to your organization, you set [their default role](roles.m
 
 ### How permissions cascade
 
-Permissions in GitBook flow through four levels, from the top down:
+Permissions in GitBook resolve by **precedence**, not by the highest role across every level.
 
+For spaces in inherited mode, GitBook resolves access in this order:
+
+* **Space** — direct member and team overrides on the space
+* **Site** — permissions from the parent site
+* **Collection** — permissions from the parent collection, if there is one
 * **Organization** — the default role set for each member
-* **Site** — permissions set on a docs site, which apply to all linked spaces in inherited mode
-* **Collection** — permissions set on a collection, which apply to all spaces within it
-* **Space** — the base level, where permissions can be set directly
 
-When a space is in inherited mode, each member is assigned the **highest role** they hold across all applicable levels. For example, if a member is a Creator at the organization level but a Commenter at the site level, they keep Creator permissions in that space.
+This means site permissions override organization defaults and parent collection defaults for linked spaces in inherited mode. Direct space-level overrides still take precedence over everything else.
 
 Here are two examples of how this works in practice:
 
@@ -31,7 +33,7 @@ Here are two examples of how this works in practice:
 
 <summary><strong>Example 1</strong></summary>
 
-A member has a Creator role at the organization level. A space is in inherited mode, and someone sets the site permissions to Commenter. The Creator keeps their Creator permissions in that space, because Creator is higher than Commenter. Everyone else in the org also keeps their existing role — except for Readers, who get bumped up to Commenter, since Commenter is higher than Reader.
+A member has a Creator role at the organization level. A linked space is in inherited mode, and the parent site sets that member to Commenter. The member gets Commenter access in that space, because the site takes precedence over the organization default.
 
 </details>
 
@@ -39,7 +41,7 @@ A member has a Creator role at the organization level. A space is in inherited m
 
 <summary><strong>Example 2</strong></summary>
 
-A collection has Reader permissions, with five members explicitly set as Creators. A space inside that collection is in inherited mode, and someone sets the site permissions to Commenter. Everyone in the org gets upgraded to Commenter in that space, since Commenter is higher than the collection's Reader permission. The five named Creators keep their Creator permissions, since Creator is higher than Commenter.
+A collection sets a space to Reader, and the parent site sets it to Commenter. The space uses Commenter, because site permissions take precedence over the parent collection in inherited mode. If you then give one member direct Creator access on the space, that direct override wins for that member.
 
 </details>
 
@@ -55,13 +57,13 @@ Any time you create a collection or a space, you’ll be able to set the type of
 
 Setting the inheritance to **inherit** will make the space or collection inherit the roles assigned in the **parent level content**. For top-level spaces or collections, this parent is the organization, so they would inherit the organization default roles. For spaces or sub-collections inside a collection, the parent will be the collection the content sits within.
 
-When a space is linked to a site, site permissions also feed into the inherited role. Each member receives the highest role they hold across their org role, site permissions, and any collection-level permissions.
+When a space is linked to a site and stays in inherited mode, GitBook resolves access in this order: direct space overrides, then the parent site, then the parent collection, and finally the organization. Site permissions take precedence over organization and collection defaults, but they do not change direct space-level overrides.
 
 ### Specific role access
 
 Selecting a specific role when setting a collection or space’s permission inheritance will **reset** the organization default roles and assign every **non-admin** to that role within the collection or space. For example, if you set the inheritance to **reader**, everyone in the organization would have read-only access to the space or collection, regardless of their default role.
 
-Note that the highest role principle still applies here — if a member has a higher role set at another level (such as directly on the space or via a team override), they will keep that higher role.
+Direct member or team access on that collection or space can still override this inherited setting. If you set a specific role on the space itself, the space is no longer using inherited mode, so site permissions do not affect it.
 
 ### No access
 
