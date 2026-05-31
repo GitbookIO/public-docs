@@ -13,6 +13,10 @@ You can see a top-level overview of your analytics on the **Overview** tab of yo
 
 Click **Analytics** in the site header to open site analytics for your site.
 
+{% hint style="info" %}
+If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
 
 ### Filters & groups
