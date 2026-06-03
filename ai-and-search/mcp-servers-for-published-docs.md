@@ -84,31 +84,70 @@ If a tool can’t connect:
 
 * Confirm your published site is reachable.
 * Confirm the URL ends with `/~gitbook/mcp`.
-* If the site uses authentication, use a client that supports MCP authorization.
+* If the site uses authentication, use a client that supports the [MCP authorization spec](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization).
 * If the tool needs `stdio` or `SSE`, it won’t work with GitBook.
 
 ### Use MCP with authenticated sites
 
-If your GitBook site uses [authenticated access](../site-access/authenticated-access/), the MCP server at `/~gitbook/mcp` uses the same authentication. MCP clients that support the [MCP authorization spec](https://modelcontextprotocol.io/docs/tutorials/security/authorization) — including Claude and Claude Code — can connect to the server automatically using OAuth and Dynamic Client Registration (DCR).
+If your GitBook site uses  [authenticated access](../site-access/authenticated-access/), the MCP server at `/~gitbook/mcp` uses the same authentication. MCP clients that support the [MCP authorization spec](https://modelcontextprotocol.io/docs/tutorials/security/authorization) — including Claude and Claude Code — can connect to the server automatically using OAuth and Dynamic Client Registration (DCR).
 
 If your site uses share links instead, MCP still works. Use the full share-link site URL, then add `/~gitbook/mcp`.
 
-**How it works**
+GitBook doesn't support share-link-only sites or sites using visitor auth tokens passed as static headers for MCP authentication.
 
-When a supported MCP client connects to your authenticated site's MCP server, it:
+If your site uses [authenticated access](../site-access/authenticated-access/), the MCP server uses the same access rules. Public sites stay public. Protected sites require the same sign-in.
 
-1. Discovers the OAuth server via the MCP handshake
-2. Dynamically registers an OAuth client (no manual client ID setup required)
-3. Redirects you to your site's upstream auth provider to sign in
-4. Exchanges the auth code for an access token and stores it locally for all subsequent requests
+Supported MCP clients — including Claude — follow the [MCP authorization spec](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization) to connect.
 
-GitBook prompts you to authenticate the first time you connect. After that, the client reuses the token until it expires.
+{% stepper %}
+{% step %}
+#### Discover the OAuth server
 
-**Requirements**
+During the MCP handshake, the client discovers your site's OAuth server.
+{% endstep %}
 
-For this flow to work, your site must use one of GitBook's supported authentication backends:
+{% step %}
+#### Register a client with DCR
 
-* Auth0, Azure AD, Okta, AWS Cognito, or OIDC via the native integrations
-* A custom backend with a Fallback URL configured
+The client registers an OAuth client with Dynamic Client Registration.
 
-GitBook doesn't support sites using visitor auth tokens passed as static headers for MCP authentication.
+You don’t need to create a client ID manually.
+{% endstep %}
+
+{% step %}
+#### Sign in with your site auth provider
+
+The client redirects you to your site's auth provider.
+
+You sign in with the same provider your docs site already uses.
+{% endstep %}
+
+{% step %}
+#### Exchange the code for a token
+
+After sign-in, the client exchanges the authorization code for an access token.
+{% endstep %}
+
+{% step %}
+#### Reuse the token
+
+The client sends that token with later MCP requests until it expires.
+{% endstep %}
+{% endstepper %}
+
+This flow works with these authenticated access backends:
+
+* [Auth0](../site-access/authenticated-access/setting-up-auth0.md)
+* [Azure AD](../site-access/authenticated-access/setting-up-azure-ad.md)
+* [Okta](../site-access/authenticated-access/setting-up-okta.md)
+* [AWS Cognito](../site-access/authenticated-access/setting-up-aws-cognito.md)
+* [OIDC](../site-access/authenticated-access/setting-up-oidc.md)
+* [Custom backend](../site-access/authenticated-access/setting-up-a-custom-backend.md) with a configured Fallback URL
+
+{% hint style="warning" %}
+MCP authentication doesn’t support sites that rely only on static visitor auth tokens in request headers.
+
+Use one of the authenticated access backends above instead.
+{% endhint %}
+
+To set this up, start with [Authenticated access](../site-access/authenticated-access/) and [Enabling authenticated access](../site-access/authenticated-access/enabling-authenticated-access.md).
