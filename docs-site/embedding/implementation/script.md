@@ -14,7 +14,7 @@ No SDK, build step, or framework integration is required. Just include the scrip
 
 {% stepper %}
 {% step %}
-### Copy your embed script URL
+#### Copy your embed script URL
 
 Navigate to your docs site in the GitBook app, navigate to the **Settings** tab and then to **AI & MCP** and copy the embed script URL.
 
@@ -28,7 +28,7 @@ Replace your `YOUR_DOCS_DOMAIN` with your real docs site’s domain.
 {% endstep %}
 
 {% step %}
-### Add the script to your HTML
+#### Add the script to your HTML
 
 Add the following tag in your page HTML. Put it inside `<head>` or just before `</body>`.
 
@@ -39,7 +39,7 @@ Add the following tag in your page HTML. Put it inside `<head>` or just before `
 {% endstep %}
 
 {% step %}
-### If your docs require authentication
+#### If your docs require authentication
 
 If your docs [are behind auth](../../../site-access/authenticated-access/), the script must include a signed JWT token.
 
@@ -51,7 +51,7 @@ Append it as a query parameter:
 {% endstep %}
 
 {% step %}
-### Verify
+#### Verify
 
 Reload your page.
 

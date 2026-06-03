@@ -10,7 +10,7 @@ If you need more control and want to work at the application level, you can inst
 
 {% stepper %}
 {% step %}
-#### Install the package
+**Install the package**
 
 Add `@gitbook/embed` to your project:
 
@@ -22,7 +22,7 @@ For the complete API reference and source code, see the [`@gitbook/embed` packag
 {% endstep %}
 
 {% step %}
-#### Import the package
+**Import the package**
 
 In your application code, import the `createGitBook` function:
 
@@ -38,7 +38,7 @@ const { createGitBook } = require("@gitbook/embed");
 {% endstep %}
 
 {% step %}
-#### Initialize GitBook
+**Initialize GitBook**
 
 Create a GitBook instance with your docs site URL:
 
@@ -50,7 +50,7 @@ const gitbook = createGitBook({
 {% endstep %}
 
 {% step %}
-#### Create an iframe
+**Create an iframe**
 
 Generate an iframe element and set its source to the embed URL:
 
@@ -73,7 +73,7 @@ iframe.style.height = "600px";
 {% endstep %}
 
 {% step %}
-#### Attach the frame
+**Attach the frame**
 
 Create a GitBook frame instance and mount it to your page:
 
@@ -84,7 +84,7 @@ document.getElementById("gitbook-embed-container").appendChild(iframe);
 {% endstep %}
 
 {% step %}
-#### Control the embed programmatically
+**Control the embed programmatically**
 
 Use the frame instance to interact with the embed:
 
@@ -104,7 +104,7 @@ frame.clearChat();
 {% endstep %}
 
 {% step %}
-#### Configure the embed
+**Configure the embed**
 
 Configure the embed with customization options:
 
@@ -129,7 +129,7 @@ frame.configure({
 {% endstep %}
 
 {% step %}
-#### Listen to events
+**Listen to events**
 
 Register event listeners to respond to embed events:
 

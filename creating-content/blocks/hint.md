@@ -35,7 +35,7 @@ This hint block has a custom icon.
 {% endhint %}
 
 {% hint style="info" %}
-### **This is a H2 heading**
+#### **This is a H2 heading**
 
 This is a line
 

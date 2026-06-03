@@ -7,14 +7,12 @@ icon: user-plus
 
 # Inviting your team
 
-
-
 <figure><img src="../.gitbook/assets/25_12_10_collaboration_invite_team@2x.png" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
 
 {% hint style="warning" %}
-## All additional members will be added to your subscription
+### All additional members will be added to your subscription
 
-Inviting additional members to your organization — regardless of their role or how you add them — will immediately impact the price of your subscription. Take a look at our [billing policy](../account-management/plans/billing-policy.md) for the details.
+Inviting additional members to your organization — regardless of their role or how you add them — will immediately impact the price of your subscription. Take a look at our [billing policy](../account-management/plans/billing-policy.md) for the details.
 {% endhint %}
 
 ### Invite someone to join your organization via email <a href="#inviting-someone-to-your-organization-via-email" id="inviting-someone-to-your-organization-via-email"></a>
@@ -24,7 +22,7 @@ You can directly invite members through your [organization settings](../account-
 Each member will receive an email that will allow them to sign up to GitBook and instantly join your organization.
 
 {% hint style="info" %}
-## Email domain
+### Email domain
 
 You can allow all users with a specific email domain to join your organization if you wish. To do this, open your organization’s **Settings** page, choose the **Members** option, click **Invite new members** and enable the toggle at the bottom of the modal.
 {% endhint %}
@@ -50,7 +48,7 @@ To share a single [space](../creating-content/content-structure/space.md), click
 
 ### Invite a member or team from your organization <a href="#invite-members" id="invite-members"></a>
 
-Some people in your team may not have access to a specific space in your GitBook organization due to their [role](member-management/roles.md) or specific [permissions settings](member-management/permissions-and-inheritance.md).&#x20;
+Some people in your team may not have access to a specific space in your GitBook organization due to their [role](member-management/roles.md) or specific [permissions settings](member-management/permissions-and-inheritance.md).
 
 To invite someone who’s already a member of your organization:
 
@@ -63,7 +61,7 @@ You can also add an entire [team](member-management/teams.md) by typing the team
 
 To invite someone from outside your organization to a space or collection:
 
-1. Open the space or collection’s **Share** modal&#x20;
+1. Open the space or collection’s **Share** modal
 2. Add the person’s email address, choose their role for this collection, and hit **Invite**.
 
 By default, people you add will be a [guest](member-management/roles.md#the-guest-role) in the space or collection. Guests only have access to the individual spaces that you invite them to, and can be given a specific [role](member-management/roles.md) within that space — whether it’s to edit the content, or only view and comment on it.
@@ -71,9 +69,9 @@ By default, people you add will be a [guest](member-management/roles.md#the-gues
 Alternatively, you can also choose to enable the **Invite as an organization member** toggle, which will give the new member access to all your team’s content with the permissions of the role you’ve selected.
 
 {% hint style="warning" %}
-## All additional members will be added to your subscription
+### All additional members will be added to your subscription
 
-Inviting additional members to your organization — either as a full member or a guest — will immediately impact the price of your subscription. Take a look at our [billing policy](../account-management/plans/billing-policy.md) for the details.
+Inviting additional members to your organization — either as a full member or a guest — will immediately impact the price of your subscription. Take a look at our [billing policy](../account-management/plans/billing-policy.md) for the details.
 {% endhint %}
 
 ### Invite guests via link

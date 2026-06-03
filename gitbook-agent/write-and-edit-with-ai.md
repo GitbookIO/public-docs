@@ -12,7 +12,7 @@ GitBook Agent is a powerful tool for generating content for your documentation i
 The Agent can do everything from write small sections of text on your page, to edit existing blocks and create new pages, sections and more in a change request.
 
 {% hint style="info" %}
-### GitBook Agent follows your style guide
+#### GitBook Agent follows your style guide
 
 You can [add your own style guide and custom instructions](what-is-gitbook-agent.md#add-a-style-guide-and-custom-instructions) at a site level — so the Agent will always match your tone and style whenever you ask it to help.
 {% endhint %}

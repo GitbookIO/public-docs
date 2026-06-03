@@ -15,7 +15,7 @@ To learn more about managing open change requests, head to [reviewing change req
 
 {% stepper %}
 {% step %}
-#### Open a change request
+**Open a change request**
 
 To start editing content, you’ll need to start by creating a change request. Change requests can be opened:
 
@@ -25,13 +25,13 @@ To start editing content, you’ll need to start by creating a change request. C
 {% endstep %}
 
 {% step %}
-#### Make your changes
+**Make your changes**
 
-After a change request is opened, you’re free to make any edits or changes. Changes can be made by working [directly in the editor](/broken/pages/m5Yqxmw2ZT0HNZdTJPvi), or by [working with Docs Agent](../../gitbook-agent/write-and-edit-with-ai.md).
+After a change request is opened, you’re free to make any edits or changes. Changes can be made by working [directly in the editor](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content), or by [working with Docs Agent](../../gitbook-agent/write-and-edit-with-ai.md).
 {% endstep %}
 
 {% step %}
-#### Request a review
+**Request a review**
 
 Once your changes are ready to go, you can request a review from your team in the **Overview** tab. Tagging reviewers in a change request will notify them, and allow you to further collaborate in the change request by directly making more changes in the editor, or discussing changes in [comments](../comments.md).
 
@@ -39,7 +39,7 @@ You can request Docs Agent for any reviews, or anyone on your team with the righ
 {% endstep %}
 
 {% step %}
-#### Merge
+**Merge**
 
 After your reviews are done, you’ll be able to [merge your changes](./#merge) to publish them to your live docs site immediately!
 {% endstep %}

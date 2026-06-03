@@ -57,7 +57,7 @@ To launch the condition editor for a page, head to the actions menu <picture><so
 You can see which pages in your space have conditions set if the page has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 {% if visitor.claims.unsigned.bucket.IF_BLOCK === true %}
-#### Conditional blocks
+**Conditional blocks**
 
 To add a conditional block, begin a new line in the editor, type <kbd>/</kbd>, then select <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> **Conditional content**.
 

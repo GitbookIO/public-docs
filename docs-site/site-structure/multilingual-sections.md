@@ -18,29 +18,28 @@ Localized titles only appear when your site includes spaces with more than one l
 
 {% stepper %}
 {% step %}
-### Open your site customization settings
+#### Open your site customization settings
 
 From your docs site, open **Settings** and go to **Structure** settings
 {% endstep %}
 
 {% step %}
-### Find the title you want to translate
+#### Find the title you want to translate
 
 Open the title field for your site, a section, or a section group.
 {% endstep %}
 
 {% step %}
-### Set the fallback title
+#### Set the fallback title
 
 By default, the fallback title is set to the current section name.
 {% endstep %}
 
 {% step %}
-### Add each translated title
+#### Add each translated title
 
 Open the language selector again and choose a language.
 
 Enter the title for that language, then repeat for each language you support.
 {% endstep %}
 {% endstepper %}
-

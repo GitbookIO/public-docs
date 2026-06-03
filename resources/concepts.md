@@ -44,7 +44,7 @@ A page is the place where you add, edit and embed content. Pages always live ins
 The pages in your space appear in the table of contents on the left-hand side of the editor. Here, you can add new pages, create page groups, and nest pages within other pages to create subpages.
 
 {% hint style="info" %}
-### Can’t see how to edit or add a page?
+#### Can’t see how to edit or add a page?
 
 If your site is published, you’ll need to create a change request before you can make any changes to the content of a space. [Read about change requests below](concepts.md#change-requests).
 {% endhint %}
@@ -86,7 +86,7 @@ If you want to edit the content on your published docs site, you’ll first need
 In a change request, you can add, edit and delete content in a space, then request a review from your team and merge your changes into your main content to update your published docs site.
 
 {% hint style="info" %}
-### Branching in brief
+#### Branching in brief
 
 Opening a change request creates a copy of your content at that specific moment in time, sometimes called a ‘branch’. Any changes you make will not appear in your main content until you choose to merge your change request.
 

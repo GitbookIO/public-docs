@@ -55,13 +55,13 @@ You can add a new admin to your organization at any time. If your admin has left
 
 [Administrators](invite-members-to-your-organization.md#admin) play a crucial role in managing your organization’s settings, billing, and member permissions.
 
-#### Adding a new admin <a href="#undefined" id="undefined"></a>
+**Adding a new admin**
 
 To add a new admin, first invite [invite them to your organization](../share.md), making sure to select **Administrator** as their role.
 
 Once they accept the invitation, the new admin will gain access to administrative settings, including billing.
 
-#### Steps when the only admin leaves your organization <a href="#undefined" id="undefined"></a>
+**Steps when the only admin leaves your organization**
 
 If the sole admin of a GitBook organization has removed themself from your organization, our support team can assist in transitioning admin rights to another person. Here’s what to do:
 
@@ -69,9 +69,9 @@ If the sole admin of a GitBook organization has removed themself from your organ
 2. Complete the required identity verification process. This typically involves confirming details linked to the account, such as payment card information.
 
 {% hint style="info" %}
-#### Identity verification and security measures <a href="#undefined" id="undefined"></a>
+**Identity verification and security measures**
 
-To ensure security and protect sensitive information, **we must verify your identity** when administrative roles are modified. This step is critical to confirm the requesting party’s association and authority within the organization.&#x20;
+To ensure security and protect sensitive information, **we must verify your identity** when administrative roles are modified. This step is critical to confirm the requesting party’s association and authority within the organization.
 {% endhint %}
 
 </details>

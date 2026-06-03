@@ -9,7 +9,7 @@ icon: triangle
 
 {% stepper %}
 {% step %}
-### Configuring your GitBook site
+#### Configuring your GitBook site
 
 In your GitBook organization, click on your docs site name in the sidebar, then **Manage site**, then **Domain and redirects**. Under ‘Subdirectory’, click **Set up a subdirectory**.
 
@@ -19,7 +19,7 @@ Under **Additional configuration**, you will now see a proxy URL. You’ll use t
 {% endstep %}
 
 {% step %}
-### Update your vercel.json
+#### Update your vercel.json
 
 In your Vercel app, open your `vercel.json`file (or create one in the root directory if you don't already have one). Then, add the following:
 
@@ -42,7 +42,7 @@ _Be sure to update the URL_ on line 5 with the proxy URL you got from GitBook in
 {% endstep %}
 
 {% step %}
-### Re-deploy your app and try it out!
+#### Re-deploy your app and try it out!
 
 Re-deploy your Vercel app with the update configuration. This may take a few moments. Now, when visiting the URL, you should see your docs site!
 {% endstep %}

@@ -142,7 +142,7 @@ This flow works with these authenticated access backends:
 * [Okta](../site-access/authenticated-access/setting-up-okta.md)
 * [AWS Cognito](../site-access/authenticated-access/setting-up-aws-cognito.md)
 * [OIDC](../site-access/authenticated-access/setting-up-oidc.md)
-* [Custom backend](../site-access/authenticated-access/setting-up-a-custom-backend.md) with a configured Fallback URL
+* [Custom backend](../publishing-documentation/authenticated-access/setting-up-a-custom-backend.md) with a configured Fallback URL
 
 {% hint style="warning" %}
 MCP authentication doesn’t support sites that rely only on static visitor auth tokens in request headers.

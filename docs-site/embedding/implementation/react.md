@@ -10,7 +10,7 @@ For React projects, GitBook provides prebuilt components that make embedding you
 
 {% stepper %}
 {% step %}
-#### Install the package
+**Install the package**
 
 Add `@gitbook/embed` to your React project:
 
@@ -22,7 +22,7 @@ For the complete API reference and source code, see the [`@gitbook/embed` packag
 {% endstep %}
 
 {% step %}
-#### Import the React components
+**Import the React components**
 
 Import the `GitBookProvider` and `GitBookFrame` components:
 
@@ -35,7 +35,7 @@ import {
 {% endstep %}
 
 {% step %}
-#### Wrap your app with GitBookProvider
+**Wrap your app with GitBookProvider**
 
 Add the provider at the root of your component tree or where you need the embed:
 
@@ -51,7 +51,7 @@ function App() {
 {% endstep %}
 
 {% step %}
-#### Add the GitBookFrame component
+**Add the GitBookFrame component**
 
 Place the frame component where you want the embed to appear:
 
@@ -75,7 +75,7 @@ function App() {
 {% endstep %}
 
 {% step %}
-#### Customize the embed
+**Customize the embed**
 
 Pass configuration props to the frame component:
 
@@ -109,7 +109,7 @@ If you omit `colorScheme`, the embed follows the iframe's CSS `color-scheme`. Th
 {% endstep %}
 
 {% step %}
-#### Control the embed with the useGitBook hook
+**Control the embed with the useGitBook hook**
 
 Use the `useGitBook` hook to interact with the embed programmatically:
 
@@ -135,7 +135,7 @@ function HelpButton() {
 {% endstep %}
 
 {% step %}
-#### Conditionally render the embed
+**Conditionally render the embed**
 
 Show the embed only when needed:
 
@@ -154,7 +154,7 @@ function App() {
 {% endstep %}
 
 {% step %}
-#### Use with Next.js or server-side rendering
+**Use with Next.js or server-side rendering**
 
 Dynamically import the components to avoid SSR issues:
 

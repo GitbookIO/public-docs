@@ -10,36 +10,36 @@ tags:
 # Agent audit
 
 {% hint style="warning" %}
-#### Agent audit is currently in early access
+**Agent audit is currently in early access**
 
 We’re slowly rolling out access to agent audit. Stay tuned for more progress on the features below.
 {% endhint %}
 
-Agent audit helps you review documentation gaps the [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md) identifies.
+Agent audit helps you review documentation gaps the [GitBook Agent](what-is-gitbook-agent.md) identifies.
 
 It highlights issues in your docs, explains why they matter, and helps you fix them through change requests.
 
 To request access, open your site's **Settings**.
 
-<figure><img src="../.gitbook/assets/26_03_30_site_findings@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_30_site_findings@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How agent audit works
 
 {% stepper %}
 {% step %}
-### Review findings
+#### Review findings
 
-Agent audit collects issues [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2)  has identified across your docs. The findings list helps you review these issues by topic, type, and severity.
+Agent audit collects issues [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) has identified across your docs. The findings list helps you review these issues by topic, type, and severity.
 {% endstep %}
 
 {% step %}
-### Inspect a finding
+#### Inspect a finding
 
 Open any finding to review its details. Each finding includes a summary of the issue, the topic it belongs to, and supporting evidence from the pages GitBook used to detect it.
 {% endstep %}
 
 {% step %}
-### Fix or archive
+#### Fix or archive
 
 Some findings can be fixed automatically by GitBook Agent. When that option is available, you can create [change requests](../collaboration/change-requests/) directly from the finding. You can also archive findings you don't want to keep in your active list.
 {% endstep %}

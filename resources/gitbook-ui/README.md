@@ -109,7 +109,7 @@ The space header includes:
 * **Variables**\
   [Create and add reusable variables](../../creating-content/variables-and-expressions.md) to use in a space.
 * **GitBook Agent**\
-  Collaborate on changes in a space with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
+  Collaborate on changes in a space with [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent).
 * **Comments**\
   See the [comments and discussions](../../collaboration/comments.md) you and your team have had about the space content.
 * **Change requests**\
@@ -152,7 +152,7 @@ The site header includes:
 
 The editor is the main part of your space, where you can write or insert content in GitBook. It supports multiplayer, meaning you and your team can collaborate on changes in real-time.
 
-You can insert [content blocks](../../creating-content/blocks/), type [Markdown](../../creating-content/formatting/markdown.md), [embed content](../../creating-content/blocks/embed-a-url.md), and collaborate on changes with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
+You can insert [content blocks](../../creating-content/blocks/), type [Markdown](../../creating-content/formatting/markdown.md), [embed content](../../creating-content/blocks/embed-a-url.md), and collaborate on changes with [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent).
 
 In addition to working on changes, you can also comment on blocks, tag teammates, and more.
 

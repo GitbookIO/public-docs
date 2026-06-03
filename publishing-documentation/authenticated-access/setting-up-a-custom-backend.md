@@ -5,7 +5,7 @@ description: Set up a custom login screen for visitors to your docs
 # Setting up a custom backend
 
 {% hint style="warning" %}
-This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](../../site-access/authenticated-access/enabling-authenticated-access.md).
 {% endhint %}
 
 This guide walks you through setting up a protected sign-in screen for your GitBook documentation site using your own **custom** authentication backend.
@@ -13,7 +13,7 @@ This guide walks you through setting up a protected sign-in screen for your GitB
 {% hint style="info" %}
 If you are using one of the authentication providers we support or have an [OpenID Connect](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol) (OIDC) compliant backend, check out our integration guides for a more streamlined setup:\
 \
-[Auth0](setting-up-auth0.md) | [Azure AD](setting-up-azure-ad.md) | [Okta](setting-up-okta.md) | [AWS Cognito](setting-up-aws-cognito.md) | [OIDC](setting-up-oidc.md)
+[Auth0](../../site-access/authenticated-access/setting-up-auth0.md) | [Azure AD](../../site-access/authenticated-access/setting-up-azure-ad.md) | [Okta](../../site-access/authenticated-access/setting-up-okta.md) | [AWS Cognito](../../site-access/authenticated-access/setting-up-aws-cognito.md) | [OIDC](../../site-access/authenticated-access/setting-up-oidc.md)
 {% endhint %}
 
 ### Overview
@@ -34,7 +34,7 @@ Create a JWT token and sign it with your site’s private key.
 {% endstep %}
 
 {% step %}
-[**Configure a fallback URL**](setting-up-a-custom-backend.md#id-3.-configure-a-fallback-url)
+[**Configure a login URL**](setting-up-a-custom-backend.md#id-3.-configure-a-login-url)
 
 Configure a URL to be used when an unauthenticated visitor access your site.
 {% endstep %}
@@ -65,7 +65,7 @@ Your backend should:
 
 ### 2. Sign and pass a JWT token to GitBook
 
-Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](enabling-authenticated-access.md#enable-authenticated-access).
+Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](../../site-access/authenticated-access/enabling-authenticated-access.md#enable-authenticated-access).
 
 The following example should demonstrate how a login request handler in your custom backend could look like:
 
@@ -109,17 +109,17 @@ To sign a visitor out of their GitBook session, redirect them to your site URL w
 
 This endpoint only signs the visitor out of GitBook. If you also want to sign them out of your own identity provider, handle that separately in your own logout flow.
 
-### 3. Configure a fallback URL
+### 3. Configure a login URL
 
-The fallback URL is used when an unauthenticated visitor tries to access your protected site. GitBook will then redirect them to this URL.
+The login URL is used when an unauthenticated visitor tries to access your protected site. GitBook will then redirect them to this URL.
 
 This URL should point to a handler in your custom backend, where you can prompt them to login, authenticate and then redirect them back to your site with the JWT included in the URL.
 
-For instance, if your login screen is located at `https://example.com/login`, you should include this value as the fallback URL.
+For instance, if your login screen is located at `https://example.com/login`, you should include this value as the login URL.
 
-You can configure this fallback URL within your site’s audience settings under the "Authenticated access" tab.
+You can configure this login URL within your site’s audience settings under the "Authenticated access" tab.
 
-<figure><img src="../../.gitbook/assets/25_04_10_setting_up_a_custom_backend.png" alt="A GitBook screenshot showing where to configure a fallback URL"><figcaption><p>Configure a fallback URL</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_04_10_setting_up_a_custom_backend.png" alt="A GitBook screenshot showing where to configure a login URL"><figcaption><p>Configure a login URL</p></figcaption></figure>
 
 #### Use GitBook’s login endpoint
 
@@ -129,7 +129,7 @@ This endpoint redirects the visitor to the authentication backend configured for
 
 This is useful for header links and other entry points where you want to send visitors back to the same page after sign-in.
 
-When redirecting to the fallback URL, GitBook includes a `location` query parameter to the fallback URL that you can leverage in your handler to redirect the user to the original location of the user:
+When redirecting to the login URL, GitBook includes a `location` query parameter to the login URL that you can leverage in your handler to redirect the user to the original location of the user:
 
 ```javascript
 const gitbookVisitorJWT = await new jose.SignJWT({})
@@ -145,7 +145,7 @@ res.redirect(redirectURL);
 ```
 
 {% hint style="warning" %}
-Because GitBook relies on the `location` search param - you cannot use it in your fallback URL. For example, `https://auth.gitbook.com/?location=something` is not a valid fallback URL.
+Because GitBook relies on the `location` search param - you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
 {% endhint %}
 
 #### Use GitBook’s logout endpoint
@@ -176,15 +176,11 @@ const CUSTOMER_B = {
 
 #### Giving your authentication server additional context
 
-When GitBook is unable to authenticate a user's request, it redirects them to the fallback URL. This URL points to your authentication backend, which is responsible for authenticating the user and redirecting them back to the requested content.
+When GitBook is unable to authenticate a user's request, it redirects them to the login URL. This URL points to your authentication backend, which is responsible for authenticating the user and redirecting them back to the requested content.
 
-To support multiple tenants, your authentication backend needs to know which GitBook site the user is meant to access. This information can be passed in the fallback URL.
+To support multiple tenants, your authentication backend needs to know which GitBook site the user is meant to access. This information can be passed in the login URL.
 
-So for example, you could setup the fallback URLs for each sites as follow:
-
-<table><thead><tr><th width="150.75390625">GitBook Site</th><th>Fallback URL</th></tr></thead><tbody><tr><td>Customer A site</td><td><code>https://auth-backend.acme.org/login?site=customer-a</code></td></tr><tr><td>Customer B site</td><td><code>https://auth-backend.acme.org/login?site=customer-b</code></td></tr></tbody></table>
-
-<table><thead><tr><th width="150.75390625">GitBook Site</th><th>Fallback URL</th></tr></thead><tbody><tr><td>Customer A site</td><td><code>https://auth-backend.acme.org/login?site=customer-a</code></td></tr><tr><td>Customer B site</td><td><code>https://auth-backend.acme.org/login?site=customer-b</code></td></tr></tbody></table>
+So for example, you could setup the login URLs for each sites as follow:
 
 Your authentication backend can then check this information and handle the redirection to the correct site accordingly:
 
@@ -207,7 +203,7 @@ res.redirect(redirectURL);
 
 To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
 
-These claims when included in the JWT are used by GitBook to [adapt content](../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
+These claims when included in the JWT are used by GitBook to [adapt content](../../site-access/adaptive-content/adapting-your-content.md) dynamically for your site visitors.
 
 Putting it all together, the following code example demonstrates how you could include these claims in the JWT, which can then be used by GitBook to adapt content for your visitors:
 
@@ -257,4 +253,4 @@ export async function handleAppLoginRequest(req: Request, res: Response) {
 ```
 {% endcode %}
 
-After setting up and configuring the right claims to send to GitBook, head to “[Adapting your content](../adaptive-content/adapting-your-content.md)” to continue configuring your site.
+After setting up and configuring the right claims to send to GitBook, head to “[Adapting your content](../../site-access/adaptive-content/adapting-your-content.md)” to continue configuring your site.

@@ -86,7 +86,7 @@ When a user signs in to your authenticated docs, GitBook stores a visitor token 
 
 {% tabs %}
 {% tab title="Standalone Script" %}
-#### Copy-paste snippet
+**Copy-paste snippet**
 
 Use this snippet to load the embed only after a user has signed in:
 
@@ -130,7 +130,7 @@ Use this snippet to load the embed only after a user has signed in:
 Replace `docs.example.com` with your actual docs site URL.
 {% endhint %}
 
-#### Alternative: Prompt users to sign in
+**Alternative: Prompt users to sign in**
 
 If the token is missing, you can prompt users to sign in:
 

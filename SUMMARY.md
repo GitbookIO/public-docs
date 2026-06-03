@@ -125,7 +125,7 @@
   * [Setting up AWS Cognito](site-access/authenticated-access/setting-up-aws-cognito.md)
   * [Setting up Okta](site-access/authenticated-access/setting-up-okta.md)
   * [Setting up OIDC](site-access/authenticated-access/setting-up-oidc.md)
-  * [Setting up a custom backend](site-access/authenticated-access/setting-up-a-custom-backend.md)
+  * [Setting up a custom backend](publishing-documentation/authenticated-access/setting-up-a-custom-backend.md)
 * [Adaptive content](site-access/adaptive-content/README.md)
   * [Enabling adaptive content](site-access/adaptive-content/enabling-adaptive-content/README.md)
     * [Cookies](site-access/adaptive-content/enabling-adaptive-content/cookies.md)

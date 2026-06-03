@@ -14,13 +14,13 @@ Connected content can appear in [AI Search](../docs-site/ai-search.md) and [GitB
 
 To add a connection, open your site’s **Settings** and click on **Connections**.
 
-<figure><img src="../.gitbook/assets/26_03_30_connections@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_30_connections@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How connections work
 
 {% stepper %}
 {% step %}
-### Connect a source
+#### Connect a source
 
 Select a source type. Then authorize it, or enter the URL you want GitBook to import.
 
@@ -40,7 +40,7 @@ Each connection creates a stream of records from that source, such as issues, di
 {% endstep %}
 
 {% step %}
-### GitBook syncs records
+#### GitBook syncs records
 
 After you save the connection, GitBook starts syncing records from that source.
 
@@ -50,7 +50,7 @@ Connected URLs refresh once a day by default. You can also trigger a refresh man
 {% endstep %}
 
 {% step %}
-### Choose how the records are used
+#### Choose how the records are used
 
 For each connection, you can choose whether its records appear in search and GitBook Assistant, and whether they help GitBook generate change requests.
 

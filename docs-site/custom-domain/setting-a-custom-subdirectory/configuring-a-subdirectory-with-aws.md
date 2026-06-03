@@ -7,8 +7,6 @@ icon: aws
 
 # Configuring a subdirectory with AWS using CloudFront and Route 53
 
-
-
 {% include "../../../.gitbook/includes/ultimate-hint.md" %}
 
 {% hint style="info" %}
@@ -17,7 +15,7 @@ This guide covers setting up a subdirectory using AWS CloudFront and Lambda@Edge
 
 {% stepper %}
 {% step %}
-#### Configuring your GitBook site
+**Configuring your GitBook site**
 
 In your GitBook organization, click on your docs site name in the sidebar, then click **Manage site** or open the **Settings** tab. Open the **Domain and redirects** section and under ‘Subdirectory’, click **Set up a subdirectory**.
 
@@ -27,7 +25,7 @@ Under **Additional configuration**, you will now see a proxy URL. You’ll use t
 {% endstep %}
 
 {% step %}
-#### Create your Lambda@Edge function
+**Create your Lambda@Edge function**
 
 Sign into your AWS Console and navigate to **Lambda**.
 
@@ -43,7 +41,7 @@ Click **Create function**.
 {% endstep %}
 
 {% step %}
-#### Update the Lambda function code
+**Update the Lambda function code**
 
 In the Lambda function editor, replace the default code with the following:
 
@@ -101,7 +99,7 @@ Click **Deploy** to save your changes.
 {% endstep %}
 
 {% step %}
-#### Configure Lambda permissions for Lambda@Edge
+**Configure Lambda permissions for Lambda@Edge**
 
 Before you can use your Lambda function with CloudFront, you need to configure the execution role to allow Lambda@Edge to assume it.
 
@@ -134,7 +132,7 @@ Click **Update policy** to save.
 {% endstep %}
 
 {% step %}
-#### Publish your Lambda function
+**Publish your Lambda function**
 
 Lambda@Edge requires a published version (not just `$LATEST`).
 
@@ -150,7 +148,7 @@ Lambda@Edge functions must be created in the **us-east-1** (N. Virginia) region.
 {% endstep %}
 
 {% step %}
-#### Create your CloudFront distribution
+**Create your CloudFront distribution**
 
 Navigate to **CloudFront** in the AWS Console and click **Create distribution**.
 
@@ -178,7 +176,7 @@ Wait for the distribution to deploy (status will change from “In Progress” t
 {% endstep %}
 
 {% step %}
-#### Associate Lambda@Edge with CloudFront
+**Associate Lambda@Edge with CloudFront**
 
 Once your CloudFront distribution is deployed:
 
@@ -193,7 +191,7 @@ Once your CloudFront distribution is deployed:
 {% endstep %}
 
 {% step %}
-#### Configure domain and DNS records
+**Configure domain and DNS records**
 
 1. On the main page of your CloudFront distribution, click the **General** tab, and under **Alternate domain names**, click **Add domain**
 2. Enter the domain for which you are configuring your subdirectory e.g. `example.com` and click **Next**
@@ -201,7 +199,7 @@ Once your CloudFront distribution is deployed:
 {% endstep %}
 
 {% step %}
-#### Configure Route 53 DNS records from CloudFront
+**Configure Route 53 DNS records from CloudFront**
 
 If you’re using Route 53 for DNS, you’ll need to create or update your DNS records to point to your CloudFront distribution.
 
@@ -214,7 +212,7 @@ If you’re not using Route 53, you’ll need to update your DNS provider’s se
 {% endstep %}
 
 {% step %}
-#### Test your configuration
+**Test your configuration**
 
 Once all changes have propagated (this can take 10–15 minutes):
 
