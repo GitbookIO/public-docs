@@ -101,6 +101,14 @@ export async function handleAppLoginRequest(req: Request, res: Response) {
 ```
 {% endcode %}
 
+#### Log visitors out of their GitBook session
+
+To sign a visitor out of their GitBook session, redirect them to your site URL with `~gitbook/auth/logout` appended:
+
+`https://mycompany.gitbook.io/myspace/~gitbook/auth/logout`
+
+This endpoint only signs the visitor out of GitBook. If you also want to sign them out of your own identity provider, handle that separately in your own logout flow.
+
 ### 3. Configure a fallback URL
 
 The fallback URL is used when an unauthenticated visitor tries to access your protected site. GitBook will then redirect them to this URL.
@@ -173,6 +181,8 @@ When GitBook is unable to authenticate a user's request, it redirects them to th
 To support multiple tenants, your authentication backend needs to know which GitBook site the user is meant to access. This information can be passed in the fallback URL.
 
 So for example, you could setup the fallback URLs for each sites as follow:
+
+<table><thead><tr><th width="150.75390625">GitBook Site</th><th>Fallback URL</th></tr></thead><tbody><tr><td>Customer A site</td><td><code>https://auth-backend.acme.org/login?site=customer-a</code></td></tr><tr><td>Customer B site</td><td><code>https://auth-backend.acme.org/login?site=customer-b</code></td></tr></tbody></table>
 
 <table><thead><tr><th width="150.75390625">GitBook Site</th><th>Fallback URL</th></tr></thead><tbody><tr><td>Customer A site</td><td><code>https://auth-backend.acme.org/login?site=customer-a</code></td></tr><tr><td>Customer B site</td><td><code>https://auth-backend.acme.org/login?site=customer-b</code></td></tr></tbody></table>
 
