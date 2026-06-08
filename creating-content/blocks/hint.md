@@ -65,12 +65,11 @@ To add a heading to your hint, you need to create a heading block as the the fir
 **Danger hints** are good for highlighting destructive actions or raising attention to critical information.
 {% endhint %}
 
-{% hint style="info" %}
-
 {% hint style="info" icon="books" %}
 This hint block has a custom icon.
 {% endhint %}
 
+{% hint style="info" %}
 ## This is a H2 heading
 
 This is a line
