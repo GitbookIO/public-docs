@@ -35,9 +35,7 @@ If your docs site has multiple [sections](site-structure/site-sections.md), the 
 
 ## GitBook AI search
 
-{% hint style="info" %}
-This feature is available on the [Ultimate site plan](https://www.gitbook.com/pricing).
-{% endhint %}
+{% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 GitBook AI search offers basic AI-powered answers in the **Search and find…** bar of your site. It’s trained on the content of your docs site, but cannot pull in information from external sources.
 
