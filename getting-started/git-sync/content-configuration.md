@@ -4,7 +4,7 @@ description: Configure Git Sync with extra functionalities
 
 # Content configuration
 
-If you’d like to configure Git Sync further, you can add a `.gitbook.yaml` file at the root of your repository to tell GitBook how to parse your Git repository.
+If you’d like to configure Git Sync further, you can add a `.gitbook.yaml` file at the root of the content synced for that space to tell GitBook how to parse your Git repository. In a monorepo, that file lives in the space’s configured [Project directory](monorepos.md).
 
 {% code title=".gitbook.yaml" %}
 ```yaml
@@ -31,6 +31,10 @@ root: ./docs/
 
 {% hint style="warning" %}
 **All other options that specify paths will be relative to this root folder**. So if you define root as `./docs/` and then `structure.summary` as `./product/SUMMARY.md`, GitBook will actually look for a file in `./docs/product/SUMMARY.md`.‌
+{% endhint %}
+
+{% hint style="info" %}
+In a monorepo, `root` is resolved relative to the synced space’s Project directory, not the repository root. Path-based configuration only applies inside that space’s synced scope. It doesn’t make sibling directories or repository-level folders available to other spaces automatically. For multi-space repository setups, see [Monorepos](monorepos.md).
 {% endhint %}
 
 ### ​Structure‌ <a href="#structure" id="structure"></a>
