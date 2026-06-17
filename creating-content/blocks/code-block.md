@@ -19,6 +19,12 @@ A code block may be useful for:
 * Showing how to call API endpoints
 * And much more!
 
+### Add a code block
+
+1. To add a code block, place your cursor on an empty line and type `/`.
+2. In the quick insert menu, select **Code block**.
+3. GitBook inserts the block and places your cursor inside it, ready for you to paste or type code.
+
 ### Example of a code block
 
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
