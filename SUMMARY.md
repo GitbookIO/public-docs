@@ -140,7 +140,7 @@
 * [GitBook Assistant](ai-and-search/gitbook-ai-assistant.md)
 * [Connections](ai-and-search/connections.md)
 * [LLM-ready docs](ai-and-search/llm-ready-docs.md)
-* [MCP servers for published docs](ai-and-search/mcp-servers-for-published-docs.md)
+* [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
 ## GitBook Agent
 

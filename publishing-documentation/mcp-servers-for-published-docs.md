@@ -1,13 +1,13 @@
 ---
 description: >-
-  Each published GitBook site includes an MCP server you can connect to external
-  tools
+  Docs published on GitBook automatically generate an MCP server you can hook up
+  to external tools
 icon: mcp
 ---
 
 # MCP servers for published docs
 
-Every published GitBook site includes a Model Context Protocol (MCP) server.
+Every published GitBook site automatically includes a Model Context Protocol (MCP) server.
 
 AI tools can use it to read your published docs directly. This works with tools like Claude Desktop, Cursor, and VS Code extensions.
 
@@ -15,11 +15,40 @@ Your MCP server lives at your published site URL plus `/~gitbook/mcp`.
 
 For example, GitBook’s docs live at `https://gitbook.com/docs`. Its MCP server is `https://gitbook.com/docs/~gitbook/mcp`.
 
+Use this endpoint for public sites, share-link sites where all published content is exposed, and fully authenticated sites.
+
+For fully authenticated sites, MCP clients authenticate through the MCP discovery and OAuth flow before they can access tools. For more detail, see the [MCP authorization flow](https://modelcontextprotocol.io/docs/tutorials/security/authorization#the-authorization-flow-step-by-step).
+
+If your site is partially authenticated and still exposes public or share-link content, use `/~gitbook/mcp/auth` instead. For example, `https://gitbook.com/docs/~gitbook/mcp/auth`.
+
 {% hint style="info" %}
 If you open this URL in a browser, you’ll see an error. Use it in a tool that can make HTTP requests, such as an AI assistant or IDE.
 {% endhint %}
 
 ### Connect an AI tool
+
+{% stepper %}
+{% step %}
+#### Find your MCP server URL
+
+Take your published GitBook site URL and add the endpoint that matches your site:
+
+* Use `/~gitbook/mcp` for public sites, share-link sites where all published content is exposed, or fully authenticated sites that use MCP discovery and OAuth.
+* Use `/~gitbook/mcp/auth` if your site is partially authenticated and still exposes public or share-link content.
+{% endstep %}
+
+{% step %}
+#### Configure your AI tool
+
+Add the MCP server URL to your AI assistant’s settings. Each tool has a slightly different setup process, so you should check out the docs for your tool of choice to see how to configure an MCP server for it.
+{% endstep %}
+
+{% step %}
+#### Start using your docs
+
+Once connected, your AI assistant can search through your documentation, retrieve specific pages, and answer questions using your content. The assistant will have real-time access to your published documentation.
+{% endstep %}
+{% endstepper %}
 
 {% hint style="info" %}
 **Page actions** must be enabled for the MCP server to work. If you turn off **Site customization** → **Page actions**, GitBook disables `~gitbook/mcp` and the endpoint returns `404`. **Connect with MCP server** only controls whether the MCP link appears in the page actions menu.
@@ -49,6 +78,10 @@ Once connected, the tool can search your docs, open pages, and answer questions 
 
 ### Requirements
 
+The MCP server respects your site’s visibility settings. Use `/~gitbook/mcp` for public sites, share-link sites where all published content is exposed, or fully authenticated sites that use MCP discovery and OAuth. Use `/~gitbook/mcp/auth` if your site is partially authenticated and still exposes public or share-link content.
+
+In the **Page actions** section of your [Customization](../docs-site/customization/) settings, you can enable the **Connect with MCP server** option. This enables visitors to your docs site to quickly copy a link to your site's MCP server right from [the Page actions menu](../docs-site/customization/extra-configuration.md#page-actions).
+
 To use an MCP server:
 
 * Your site must be published. The MCP server exposes published content only.
@@ -69,6 +102,8 @@ If **Page actions** is off, GitBook disables `~gitbook/mcp` and the endpoint ret
 Visitors can then copy the server URL from the page actions menu.
 
 ### Privacy and access
+
+Make sure you’re using the correct URL format. Use `/~gitbook/mcp` for public sites, share-link sites where all published content is exposed, or fully authenticated sites that use MCP discovery and OAuth. Use `/~gitbook/mcp/auth` for partially authenticated sites with public or share-link content.
 
 The MCP server gives read-only access to your published docs.
 
@@ -142,7 +177,7 @@ This flow works with these authenticated access backends:
 * [Okta](../site-access/authenticated-access/setting-up-okta.md)
 * [AWS Cognito](../site-access/authenticated-access/setting-up-aws-cognito.md)
 * [OIDC](../site-access/authenticated-access/setting-up-oidc.md)
-* [Custom backend](../publishing-documentation/authenticated-access/setting-up-a-custom-backend.md) with a configured Fallback URL
+* [Custom backend](authenticated-access/setting-up-a-custom-backend.md) with a configured Fallback URL
 
 {% hint style="warning" %}
 MCP authentication doesn’t support sites that rely only on static visitor auth tokens in request headers.

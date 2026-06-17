@@ -23,7 +23,7 @@ Common examples:
 * Kick off workflows in tools like Jira, Linear, Slack, or Zendesk
 
 {% hint style="info" %}
-In addition to tools you define in the Embed config, the Assistant can also use any [MCP servers you set up](../../../ai-and-search/mcp-servers-for-published-docs.md) in **Settings → AI & MCP**.
+In addition to tools you define in the Embed config, the Assistant can also use any [MCP servers you set up](../../../publishing-documentation/mcp-servers-for-published-docs.md) in **Settings → AI & MCP**.
 {% endhint %}
 
 ### Where tools run

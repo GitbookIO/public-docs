@@ -48,7 +48,7 @@ Enable this option to display an action to copy or view the page as Markdown.
 
 Enable this option to display the MCP server link in the page actions menu.
 
-This option does not enable the MCP server itself. The MCP server works only when **Page actions** is enabled. To learn more, see [MCP servers for published docs](../../ai-and-search/mcp-servers-for-published-docs.md).
+This option does not enable the MCP server itself. The MCP server works only when **Page actions** is enabled. To learn more, see [MCP servers for published docs](../../publishing-documentation/mcp-servers-for-published-docs.md).
 
 #### Edit on GitHub/GitLab
 

@@ -47,7 +47,7 @@ Your MCP server can be reached by appending `/~gitbook/mcp` to the URL of the ro
 Visiting this URL in your browser will result in an error. Instead, you can share this with tools that can make HTTP requests, like LLMs or IDEs.
 {% endhint %}
 
-Learn more by reading [mcp-servers-for-published-docs.md](mcp-servers-for-published-docs.md "mention").
+Learn more by reading [mcp-servers-for-published-docs.md](../publishing-documentation/mcp-servers-for-published-docs.md "mention").
 
 ## Tips for optimizing your docs for LLMs
 

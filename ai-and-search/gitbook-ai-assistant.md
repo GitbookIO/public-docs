@@ -69,7 +69,7 @@ Choose the embedding method that fits your stack:
 
 ## Extend GitBook Assistant’s knowledge
 
-GitBook Assistant can use external knowledge through [connections](connections.md) and [MCP servers](mcp-servers-for-published-docs.md).
+GitBook Assistant can use external knowledge through [connections](connections.md) and [MCP servers](../publishing-documentation/mcp-servers-for-published-docs.md).
 
 You can use connections when you want GitBook to sync records into your site, or use MCP servers when you want to hook up GitBook Assistant to custom tools.
 

@@ -96,4 +96,4 @@ It tracks interactions such as endpoint views, parameter searches, and request e
 
 #### MCP
 
-See how your site content is being accessed through [MCP](../ai-and-search/mcp-servers-for-published-docs.md) integrations. You can view MCP requests over time and see which bots and agents are accessing your site content.
+See how your site content is being accessed through [MCP](../publishing-documentation/mcp-servers-for-published-docs.md) integrations. You can view MCP requests over time and see which bots and agents are accessing your site content.
