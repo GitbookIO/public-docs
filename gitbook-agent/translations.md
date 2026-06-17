@@ -24,6 +24,10 @@ Auto translations make it easy to keep your documentation up-to-date in multiple
 * **Continuous updates:** Every time you make changes to the source content, the translation workflow only runs for the **pages that have been changed**.
 * **Automatic sync:** After changes are merged, the translation workflow **runs automatically** and syncs with its source, so your translated space always reflects the latest updates.
 
+{% hint style="info" %}
+Page slugs in auto-translated spaces may change unless the page has a fixed slug. To keep URLs stable across languages, set a fixed slug before translating. To update a slug, see [How can I change the slug in the URL?](https://app.gitbook.com/s/Ua3kTfM3iWAoECzM0u90/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url)
+{% endhint %}
+
 ## Set up an auto translation
 
 To translate a space to a new language, start by creating a new [space](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
