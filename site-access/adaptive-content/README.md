@@ -13,8 +13,6 @@ Adaptive content helps to build a tailored documentation experience based on who
 
 <figure><img src="../../.gitbook/assets/25_08_20_adaptive_content.webp" alt="A GitBook screenshot showing adaptive content controls"><figcaption><p>Personalize your user’s documentation experience through adaptive content</p></figcaption></figure>
 
-<p align="center"><a href="https://gitbook.com/adaptive-content-demo/" class="button primary">Launch the demo site</a></p>
-
 {% hint style="info" %}
 Adaptive content is slightly different from [authenticated access](../authenticated-access/), although they can work together.
 
