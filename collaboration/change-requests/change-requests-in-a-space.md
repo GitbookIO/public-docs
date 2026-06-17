@@ -76,7 +76,7 @@ If your changes don’t require a review, you have the appropriate [permissions]
 {% endhint %}
 
 {% hint style="warning" %}
-If you don’t tag anyone in your review request, everyone with reviewer permissions will get a notification about your request. If no reviewers are in the space, the next role above reviewer will be notified.
+If you don’t tag anyone in your review request, everyone with reviewer permissions in the space gets a notification. If the space has no reviewers, the next role above reviewer gets the notification.
 {% endhint %}
 
 #### Diff view <a href="#diff-mode" id="diff-mode"></a>
