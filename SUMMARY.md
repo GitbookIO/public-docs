@@ -145,7 +145,7 @@
 ## GitBook Agent
 
 * [What is GitBook Agent?](gitbook-agent/what-is-gitbook-agent.md)
-* [Channels](gitbook-agent/channels.md)
+* [Channels](publishing-documentation/channels.md)
 * [Agent audit](gitbook-agent/agent-audit.md)
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
