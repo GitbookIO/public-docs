@@ -135,6 +135,10 @@ hidden: true
 <strong>---
 </strong></code></pre>
 
+{% hint style="warning" %}
+Hiding **Page title** or **Page description** only hides the page header in published content. It doesn’t remove headings inside the page body. Learn more about heading levels in [Headings](../../blocks/heading.md).
+{% endhint %}
+
 #### Metadata (SEO)
 
 Use **Page options → Metadata** to control how search engines understand relationships between similar pages (for example: documentation versions or [content variants](../../../docs-site/site-structure/variants.md)).

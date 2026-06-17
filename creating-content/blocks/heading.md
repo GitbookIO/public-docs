@@ -49,3 +49,7 @@ This means that if you [sync your content with Git](../../getting-started/git-sy
 ### My heading 2
 
 #### My heading 3
+
+{% hint style="info" %}
+Page titles are separate from heading blocks in the page body. If you hide the page title in **Page options**, your H1, H2, and H3 headings still appear.
+{% endhint %}
