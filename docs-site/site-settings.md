@@ -27,7 +27,7 @@ If you want to use GitBook’s [site analytics](https://app.gitbook.com/o/d8f63b
 \
 The cookies notice appears when your site has analytics enabled through an integration, especially **Google Analytics**.
 
-To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**&#x20;
+To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**
 
 Disabling these cookies also turns off [site analytics](insights.md) for that site.
 
@@ -139,19 +139,21 @@ You can review the results of these ratings by opening [site analytics](insights
 
 ### AI & MCP
 
+AI settings have different plan entitlements. AI Search is available on Premium and Ultimate site plans. GitBook Assistant and MCP connectors are available on Ultimate.
+
 <details>
 
-<summary>Choose the AI experience <mark style="background-color:purple;">Ultimate</mark></summary>
+<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
 
-Let your site visitors ask GitBook anything with AI search or the GitBook assistant. See [ai-search.md](ai-search.md "mention") for more info.
+Choose the search experience for your site. AI Search is available on Premium and Ultimate site plans. GitBook Assistant is available on Ultimate site plans. See [ai-search.md](ai-search.md "mention") for more info.
 
 </details>
 
 <details>
 
-<summary>Extend it with MCP connectors <mark style="background-color:purple;">Ultimate</mark></summary>
+<summary>Extend GitBook Assistant with MCP connectors <mark style="background-color:purple;">Ultimate</mark></summary>
 
-Configure MCP servers that the AI assistant can use when answering user questions inside your docs. See [#how-do-i-use-gitbook-ai](ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
+Configure MCP servers that GitBook Assistant can use when answering questions inside your docs. This setting is available on Ultimate site plans. See [#how-do-i-use-gitbook-ai](ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
 
 </details>
 

@@ -14,8 +14,10 @@ Help your users find the information they need faster with powerful knowledge di
 GitBook sites offer different search experiences depending on what you want for your users:
 
 * **Keyword search** – A standard search experience based on keywords. Automatically enabled on all sites.
-* **GitBook AI search** – Users get short answers to questions directly from the search box.
-* **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook's AI agent. Head to [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) to learn more.
+* **GitBook AI search** – Users get short answers to questions directly from the search box. Available on Premium and Ultimate site plans.
+* **GitBook Assistant** – Users get an advanced, interactive chat experience with GitBook’s AI agent. Available on Ultimate site plans. Head to [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) to learn more.
+
+AI Search is available on Premium and Ultimate site plans. GitBook Assistant is available on Ultimate site plans.
 
 To choose your site’s search experience, open your site’s dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can choose your preferred experience.
 

@@ -18,11 +18,13 @@ We've made some changes to our plans to simplify publishing and better align fea
 * **Pro Plan**: No longer includes a monthly platform fee. You can purchase and publish sites without restrictions, even on the Free plan.
 * **Organization Plan**: Now focused exclusively on collaboration.
 
+AI Search is available on Premium and Ultimate site plans. GitBook Assistant and other advanced AI features are available for Ultimate site plans.
+
 **Features Now Tied to Site Plans**
 
 | **Feature**             | **Plan Required**   |
 | ----------------------- | ------------------- |
-| AI Search               | Ultimate            |
+| AI Search               | Premium or Ultimate |
 | PDF Export              | Premium or Ultimate |
 | Search Insights         | Premium or Ultimate |
 | Custom Domains          | Premium or Ultimate |
