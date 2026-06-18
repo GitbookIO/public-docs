@@ -1,15 +1,15 @@
 ---
 description: >-
-  Use GitBook’s official skill.md file to give your AI coding assistants
-  knowledge of GitBook’s features and blocks
+  Use GitBook’s official skill.md file to give AI coding assistants like Claude
+  Code, Cursor or Codex knowledge of GitBook’s features and blocks
 icon: brain
 ---
 
 # AI coding assistants and skill.md
 
-GitBook provides a [skill.md](https://gitbook.com/docs/skill.md) file that teaches AI coding assistants how to properly edit GitBook documentation. Use it as “project rules” when editing GitBook docs locally.
+GitBook provides a [skill.md](https://gitbook.com/docs/skill.md) file that teaches AI coding assistants how to properly edit GitBook documentation. If you want to use Claude Code, Cursor, Codex, or another external coding assistant to edit GitBook docs locally, use the skill.md file as “project rules”.
 
-This fits well with [Git Sync ](../getting-started/git-sync/)workflows where you edit your docs locally and then commit your changes to update your docs site. The reference file covers GitBook's markdown extensions, custom blocks, configuration files, and best practices.
+This fits well with [Git Sync ](../getting-started/git-sync/)workflows where you edit your docs locally and then commit your changes to update your docs site. The reference file covers GitBook’s Markdown extensions, custom blocks, configuration files, and best practices for external assistants.
 
 #### Download
 
@@ -30,7 +30,7 @@ GitBook also offers [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ
 * Decision tables for choosing the right block type
 * Common pitfalls and best practices
 
-Adding this file to your AI coding assistant provides the information it needs about creating, editing and formatting content for your GitBook docs. This means that the assistant will follow established frameworks and best practices for GitBook's features.
+Adding this file to your AI coding assistant (e.g. Claude Code, Codex etc) provides the information it needs about creating, editing and formatting content for your GitBook docs. This means that the assistant will follow established frameworks and best practices for GitBook's features.
 
 ### Using skill.md via URL
 
@@ -38,7 +38,7 @@ Most AI coding assistants support project-specific instructions. You can referen
 
 ### Using skill.md locally
 
-You can also download the skill file and include it in your repository. First, download the skill.md to your repository root, and then reference it in the rules file for your coding assistant: `"Read skill.md in the repo root for GitBook syntax and best practices"` .
+You can also download the skill file and include it in your repository. First, download the skill.md to your repository root, and then reference it in the rules file for your coding assistant: `"Read skill.md in the repo root for GitBook syntax and best practices"` . This works well for Claude Code, ChatGPT, Codex, and similar tools.
 
 This approach works offline and allows team-specific modifications.
 
