@@ -52,7 +52,7 @@ Below the summary, you can review the conversations tied to the question and see
 
 #### Sources and context
 
-The sources section shows which pages, records, or [connected content](../ai-and-search/connections.md) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren't surfaced.
+The sources section shows which pages, records, or [connected content](../ai-and-search/connections/) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren't surfaced.
 
 ### FAQ
 
@@ -73,7 +73,7 @@ Addressing these gaps helps visitors find answers more quickly — and understan
 {% hint style="info" %}
 Coming soon: We’re working on features to help your team fix your content gaps automatically, through [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent).
 
-See [agent-audit.md](../gitbook-agent/agent-audit.md "mention") to learn more.
+See [identifying-content-gaps.md](../gitbook-agent/identifying-content-gaps.md "mention") to learn more.
 {% endhint %}
 
 </details>

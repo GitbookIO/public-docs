@@ -159,8 +159,8 @@ Configure MCP servers that GitBook Assistant can use when answering questions in
 
 ### Connections
 
-{% content-ref url="../ai-and-search/connections.md" %}
-[connections.md](../ai-and-search/connections.md)
+{% content-ref url="../ai-and-search/connections/" %}
+[connections](../ai-and-search/connections/)
 {% endcontent-ref %}
 
 ### Structure

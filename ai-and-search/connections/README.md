@@ -10,11 +10,11 @@ tags:
 
 Connections let you bring external content into your docs site.
 
-Connected content can appear in [AI Search](../docs-site/ai-search.md) and [GitBook Assistant](gitbook-ai-assistant.md). Some connections can also help GitBook generate change requests.
+Connected content can appear in [AI Search](../../docs-site/ai-search.md) and [GitBook Assistant](../gitbook-ai-assistant.md). Some connections can also help GitBook generate change requests.
 
 To add a connection, open your site’s **Settings** and click on **Connections**.
 
-<figure><img src="../.gitbook/assets/25_03_30_connections@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_03_30_connections@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### How connections work
 
@@ -73,7 +73,7 @@ This makes the source easier to identify in the connections list, especially if 
 {% hint style="warning" %}
 Auto generating change requests is currently in early access.
 
-See [agent-audit.md](../gitbook-agent/agent-audit.md "mention") for information on requesting access
+See [identifying-content-gaps.md](../../gitbook-agent/identifying-content-gaps.md "mention") for information on requesting access
 {% endhint %}
 
 Turn on **Auto-generate change requests** to let GitBook learn from the connection’s records and suggest documentation updates.

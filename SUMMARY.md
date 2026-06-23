@@ -139,7 +139,9 @@
 ## AI & search
 
 * [GitBook Assistant](ai-and-search/gitbook-ai-assistant.md)
-* [Connections](ai-and-search/connections.md)
+* [Connections](ai-and-search/connections/README.md)
+  * [Intercom](ai-and-search/connections/intercom.md)
+  * [Zendesk](ai-and-search/connections/zendesk.md)
 * [LLM-ready docs](ai-and-search/llm-ready-docs.md)
 * [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
@@ -147,7 +149,7 @@
 
 * [What is GitBook Agent?](gitbook-agent/what-is-gitbook-agent.md)
 * [Channels](publishing-documentation/channels.md)
-* [Agent audit](gitbook-agent/agent-audit.md)
+* [Identify content gaps](gitbook-agent/identifying-content-gaps.md)
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
 * [Translations](gitbook-agent/translations.md)

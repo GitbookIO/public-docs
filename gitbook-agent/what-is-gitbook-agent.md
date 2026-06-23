@@ -31,7 +31,7 @@ GitBook Agent can:
 {% hint style="warning" %}
 **Automatic docs suggestions are in early access**
 
-Head to [agent-audit.md](agent-audit.md "mention") to learn more.
+Head to [identifying-content-gaps.md](identifying-content-gaps.md "mention") to learn more.
 {% endhint %}
 
 GitBook Agent can also connect to the signals your team uses to understand your product and your customers’ needs: support conversations, tickets, and threads from your connected tools.
