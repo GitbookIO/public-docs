@@ -84,6 +84,7 @@
   * [Drawings](creating-content/blocks/drawing.md)
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
+  * [Prompt](creating-content/blocks/prompt.md)
   * [Columns](creating-content/blocks/columns.md)
   * [Conditional content](creating-content/blocks/conditional-content.md)
   * [Buttons](https://gitbook.com/docs/creating-content/formatting/inline#buttons)
