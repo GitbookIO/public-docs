@@ -2,6 +2,7 @@
 description: >-
   Learn how the new navigation UI organizes GitBook around sites, sections, and
   spaces
+hidden: true
 icon: sparkle
 tags:
   - tag: beta
