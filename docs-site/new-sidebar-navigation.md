@@ -14,7 +14,7 @@ tags:
 You can now manage everything about a site including its content, structure, settings, and published output, from a single sidebar. Your spaces, pages, and editing workflows are all right where you left them.&#x20;
 
 {% hint style="info" %}
-The new navigation is rolling out gradually. You may not see it in your organization yet. New organizations created during the rollout start with the new layout by default. Existing organizations move to it in stages.
+The new navigation is rolling out gradually so you may not see it in your organization yet. New organizations created during the rollout start with the new layout by default. Existing organizations move to it in stages.
 {% endhint %}
 
 When the new navigation reaches your organization, GitBook shows a welcome dialog explaining the main changes. During the rollout, you can switch back to the previous layout from your organization settings.
