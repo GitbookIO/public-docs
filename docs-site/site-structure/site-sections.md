@@ -60,7 +60,7 @@ You can also use the keyboard to select and move content: select a section with 
 
 ### Setting a default section
 
-If you have multiple sections in your site, one section will be marked as the default. This section is shown when visitors arrive on your site, and is served from your site’s root URL. Other sections each have a slug that is appended to the root URL.
+If you have multiple sections in your site, one section will be marked as the default with a house icon<i class="fa-house">:house:</i>. This section is shown when visitors arrive on your site, and is served from your site’s root URL. Other sections each have a slug that is appended to the root URL.
 
 To set a section as default, click on the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the section's table row and then click **Set as default**.
 
