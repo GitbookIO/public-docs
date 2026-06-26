@@ -58,6 +58,67 @@ You can also adjust the connection’s search ranking to prioritize or depriorit
 {% endstep %}
 {% endstepper %}
 
+### Data retention and privacy
+
+#### What does GitBook index?
+
+GitBook indexes content from your connections and uses it across search, change requests, and other content-driven features. Each item we index from a connection is called a **record.** Examples of records are Intercom tickets, Confluence pages, website pages, and more.&#x20;
+
+We use records to suggest content changes and provide additional context to agents running across GitBook.
+
+We retain records for as long as the source remains connected. If you remove the connection, we delete all stored records. We do not delete any content that was generated using those records as context, or remove the content of records from any stored AI conversation logs.
+
+For example, you might connect Intercom and GitBook suggests a documentation change based on a closed Intercom support ticket. If you then remove the Intercom connection, all our Intercom specific stored data is deleted, but the change requests will remain.
+
+More information about our connectors can be found on the source pages:
+
+* [Intercom](intercom.md)
+* [Zendesk](zendesk.md)
+
+#### FAQ
+
+<details>
+
+<summary>What is your policy around PII?</summary>
+
+Generally, GitBook only requests source fields that it can use as context (see connector pages for more specifics on each source).
+
+When we ingest a record, we pass it through PII redaction processes. The first is an in-memory redaction of any emails, phone numbers, addresses, and other personal information.&#x20;
+
+We then pass the record through a 2nd PII step using a 3rd party LLM. This is a ZDR-compliant, no-store request that is not stored on the servers of our 3rd party and is not used in any training.
+
+PII may exist on our servers for a few minutes whilst we do this pre-processing, but we only store the post-processed record.
+
+</details>
+
+<details>
+
+<summary>Do you send data to any 3rd parties?</summary>
+
+We use a 3rd party to redact PII after our initial, internal PII redaction is done.
+
+We also use the redacted record content in 3rd party providers when creating change requests and responding to user questions.
+
+For example, when writing content with GitBook Agent, the agent may include content from an external record as additional context.
+
+</details>
+
+<details>
+
+<summary>Does GitBook use data for any model training, either itself or via 3rd parties</summary>
+
+No, we do not use record data for training and verify with our 3rd party providers that they do not either.
+
+</details>
+
+<details>
+
+<summary>Can I limit which records GitBook fetches?</summary>
+
+See our specific connector pages for what can be configured for each source.
+
+</details>
+
 ### Connection settings
 
 When you edit a connection, you can configure these options:
