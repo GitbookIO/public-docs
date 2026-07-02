@@ -13,7 +13,13 @@ The OpenAPI Specification (OAS) is a framework that developers use to document R
 
 Once imported into GitBook, these documents are transformed into interactive and testable API blocks that visually represent your API methods—whether the specification is provided as a file or loaded from a URL.
 
-GitBook supports [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md) or [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md) compliant files.
+### OpenAPI compatibility
+
+GitBook supports importing and rendering these specification versions:
+
+* [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md) — supported.
+* [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md) — supported.
+* [OpenAPI 3.1](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md) — supported, including OpenAPI 3.1-only features such as `webhooks`.
 
 {% openapi src="https://petstore3.swagger.io/api/v3/openapi.json" path="/pet" method="post" %}
 [https://petstore3.swagger.io/api/v3/openapi.json](https://petstore3.swagger.io/api/v3/openapi.json)

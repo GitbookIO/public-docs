@@ -119,9 +119,9 @@ tags:
 
 ### Document a webhook endpoint
 
-GitBook also supports documenting webhook endpoints when using OpenAPI 3.1.
+GitBook supports OpenAPI 3.1, including webhook endpoints.
 
-You can define your webhooks directly in your OpenAPI file using the `webhooks` field, which works similarly to `paths` for regular API endpoints:
+The `webhooks` field is part of OpenAPI 3.1, so your specification must declare an OpenAPI 3.1 version. You can define webhooks directly in your OpenAPI file, and GitBook renders them alongside your other API operations. For version support across OpenAPI docs, see [OpenAPI compatibility](../openapi/#openapi-compatibility).
 
 {% code title="openapi.yaml" %}
 ```yaml
