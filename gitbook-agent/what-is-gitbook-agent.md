@@ -20,7 +20,7 @@ GitBook Agent can:
 * **Write docs based on a prompt:** Ask GitBook Agent to update a page, rename a product, or make any other change you need.
 * **Import content into GitBook:** Attach files like PDFs and Microsoft Word documents in the GitBook Agent chat sidebar. GitBook Agent extracts and formats the content into pages in your space.
 * **Plan and implement bigger changes:** Describe what you need. GitBook Agent opens a change request, explains its edits, responds to feedback, and implements the plan you create together.
-* **Understand your style guide:** Add your style guide in your site settings, and GitBook Agent applies it when writing or reviewing content.
+* **Follow your styleguide:** Define your team's writing rules in a [styleguide](../creating-content/styleguide.md), and GitBook Agent treats it as the source of truth when writing or reviewing content.
 * **Follow custom, site-level instructions:** Give GitBook Agent site-specific instructions, such as how to add links or which block types to avoid.
 * **Translate your documentation:** Choose the content you want to translate, select a language, and GitBook Agent localizes your docs.
 * **Summon from a comment:** Add a comment to any block on your page, type `@gitbook`, and tell GitBook Agent what you need.
