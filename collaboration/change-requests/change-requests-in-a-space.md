@@ -81,14 +81,14 @@ If you don’t tag anyone in your review request, everyone with reviewer permiss
 
 #### Diff view <a href="#diff-mode" id="diff-mode"></a>
 
-When you open the **Changes** tab in the space header, the diff view will appear. Diff view highlights every page and block that’s been edited in a change request. It will highlight any edited pages in the table of contents, and on the pages it will show the specific blocks that have been added, edited or removed.
-
 If a page contains diffs, GitBook also shows a floating centered indicator. Click it to scroll to the first changed block or element.
+
+When you open the **Changes** tab in the space header, GitBook shows every page and block edited in the change request. GitBook shows the previous version on the left and the updated version on the right. This makes it easier to compare edits side by side.
 
 There are two options when using diff view:
 
-1. **Show all pages** – This is the default mode for diff view, which will show both modified and non-modified pages in the table of contents. This is good for seeing which pages have been edited in the context of the entire space.
-2. **Show only changed pages** – This mode will show only the modified pages in the table of contents, which helps you focus on the changed content. This is particularly helpful in larger spaces with many pages and sub-pages.
+1. **Show all pages** — This shows changed and unchanged pages in the table of contents, so you can review edits in the context of the full space.
+2. **Show only changed pages** — This shows only modified pages, so you can focus on edited content.
 
 You can switch to the **Changes** tab to check the diff view in any change request.
 

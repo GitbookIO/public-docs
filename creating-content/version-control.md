@@ -23,13 +23,11 @@ Click on any item in the list to see how your content looked at the point this c
 
 ### Show changes
 
-When you are viewing an old version of your content, you can choose to highlight the differences between the old and current content — similar to [diff view in a change request](../collaboration/change-requests/#diff-mode).
-
-To enable or disable this, use the **Show changes** toggle at the bottom of the **Version history** side panel.
-
-With show changes enabled, content that has changed will be highlighted by an icon on the left of its content block.
+When you are viewing an old version of your content, the GitBook interface will automatically show you a comparison view of what has changed in this version — similar to [diff view in a change request](../collaboration/change-requests/#diff-mode).
 
 If a page contains diffs, GitBook also shows a floating centered indicator. Click it to scroll to the first changed block or element.
+
+By default, changes will be shown with the 'before' version on the left and the 'after' column on the right, also known as "split-view". You can also view changes inline and within a single column by clicking the Split/Stacked button at the top-right of the Table of content panel.
 
 ### Viewing historical published versions
 
