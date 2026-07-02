@@ -73,6 +73,14 @@ Site permissions can also affect the permissions of linked spaces that use **Inh
 [what-is-gitbook-agent.md](../gitbook-agent/what-is-gitbook-agent.md)
 {% endcontent-ref %}
 
+### Styleguide
+
+Create, reuse, or detach the styleguide that defines your team's writing rules and keeps GitBook Agent consistent.
+
+{% content-ref url="../creating-content/styleguide.md" %}
+[styleguide.md](../creating-content/styleguide.md)
+{% endcontent-ref %}
+
 ### Audience
 
 <details>

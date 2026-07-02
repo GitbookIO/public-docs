@@ -96,6 +96,7 @@
 * [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skillmd.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
+* [Styleguide](creating-content/styleguide.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
