@@ -65,6 +65,8 @@ Request a review on your change request when you want to ask members of your tea
 
 Select the **Overview** tab in the space header bar to open an overview of your change request — including all the changes you’ve made in diff view.
 
+Use the **Overview** tab to add context and reviewers. To inspect diffs in the editor, switch to the **Changes** tab. In that view, pages with diffs show an indicator, and the floating diff navigation control helps you jump between changed blocks faster.
+
 Here you can add a description to your change request to give your reviewers some context, and tag specific people that you want to check your work.
 
 When you click **Request a review**, the change request’s status will change to **In review**, and anyone you tagged in your review request will get a notification.
@@ -85,12 +87,18 @@ If a page contains diffs, GitBook also shows a floating centered indicator. Clic
 
 When you open the **Changes** tab in the space header, GitBook shows every page and block edited in the change request. GitBook shows the previous version on the left and the updated version on the right. This makes it easier to compare edits side by side.
 
+Pages that contain diffs also show an indicator in the table of contents, which makes large change requests easier to scan.
+
+As you review a page in the editor’s **Changes** tab, a floating diff navigation control helps you jump between changed blocks faster, without scrolling through the full page.
+
 There are two options when using diff view:
 
 1. **Show all pages** — This shows changed and unchanged pages in the table of contents, so you can review edits in the context of the full space.
 2. **Show only changed pages** — This shows only modified pages, so you can focus on edited content.
 
 You can switch to the **Changes** tab to check the diff view in any change request.
+
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-07-02 at 5.52.15 PM.png" alt="" width="188"><figcaption><p>This is the navigation controls widget at the bottom of the Changes screen </p></figcaption></figure></div>
 
 ### Merging a change request
 

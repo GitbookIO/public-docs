@@ -23,7 +23,7 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <summary>Analytics cookie</summary>
 
-If you want to use GitBook’s [site analytics](https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/sites/site_p4Xo4/s/NkEGS7hzeqa35sMXQZ4X/~/diff/~/changes/1088/docs-site/insights), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
+If you want to use GitBook’s [site analytics](insights.md), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
 \
 The cookies notice appears when your site has analytics enabled through an integration, especially **Google Analytics**.
 

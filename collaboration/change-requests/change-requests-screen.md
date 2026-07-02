@@ -7,28 +7,23 @@ description: >-
 
 # Change requests screen
 
-The change requests screen in GitBook makes it easy to view and manage active change requests in your organization.
-
-In this screen, you can see open change requests, merge finished ones, and even collaborate with GitBook Agent to work on updates — all from a single, unified page.
+The change requests screen lets you view and manage active change requests across your organization — open them, merge them, or collaborate with GitBook Agent on updates, all in one place.
 
 <div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_change_requests_screen@2x.png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
 
 ### Navigating the change request screen
 
-Every change request within your organization will appear in the change requests screen, and can be filtered by drafts, in review, merged, and archived.
+All change requests in your organization appear in the change requests screen. You can filter by status or filter to show only change requests created by GitBook Agent.
 
-Additionally, you can filter change requests [created by GitBook Agent](/broken/pages/zuuDoIkzNmXS3fXZv3PG).
+Click a change request to open it in an expanded view. From there you can review, edit, and merge the change request, or continue working on it with GitBook Agent. The expanded view also shows the participants and reviewers, the description, and a diff view of the changes.
 
-Clicking into a change request will open it in an expanded view, allowing you to review, edit, merge, and even [continue working on changes with GitBook Agent](../../gitbook-agent/review-change-requests-with-gitbook-agent.md#update-change-requests-with-docs-agent). This section also shows information about the change request, including the participants and reviewers, the description, and the changes highlighted using diff view.
-
-To view more detailed information about a change request, click the **Edit** button in the upper right to jump straight to the [change request’s space](change-requests-in-a-space.md).
+To inspect diffs in the editor, click **Edit** in the top right corner to open the change request's space, then switch to the **Changes** tab. The diff navigation control appears there.
 
 ### Reviewing a change request
 
-When someone requests your review on a change request, you can edit the content and leave feedback right from the change requests screen.
+When someone requests your review, you can edit the content and leave feedback directly from the change requests screen.
 
-You can either request changes if you think it still needs work, or approve the change request, to signal it's ready to merge.
+You can request more changes, or approve the change request to signal it is ready to merge.
 
-Most reviews will take place in the change request’s [comments](../comments.md), where collaborators can share feedback and have discussions about specific content blocks, or the change request as a whole.
+Most reviews take place in the change request's comments, where collaborators can discuss specific content blocks or the change request as a whole. You can also ask the [GitBook Agent](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to review a change request — it can check, plan, and continue working on changes alongside your team.
 
-Additionally, you can [review a change request with GitBook Agent](../../gitbook-agent/review-change-requests-with-gitbook-agent.md), allowing you to plan, check, and continue working on changes.

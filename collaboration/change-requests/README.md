@@ -5,45 +5,13 @@ icon: code-branch
 
 # Change requests
 
-A change request is a copy of your main content. It comes from the simple concept of [**branching**](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), and will feel familiar to anyone who uses pull requests in GitHub or merge requests in GitLab.
+A change request is a copy of your main content. It's based on the concept of branching, and feels familiar to anyone who uses pull requests in GitHub or merge requests in GitLab.
 
-In a change request, you can edit, update and delete elements of your content, request reviews on your changes, then merge them back into your main version to apply all the changes you made.
+In a change request, you can edit, update, and delete content, request reviews on your changes, then merge them back into your main version.
 
-To learn more about managing open change requests, head to [reviewing change requests](change-requests-screen.md).
+To manage open change requests across your organization, see the [Change requests screen](change-requests-screen.md).
 
 <figure><img src="../../.gitbook/assets/25_12_10_collaboration_change_requests@2x.png" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
-
-{% stepper %}
-{% step %}
-#### Open a change request
-
-To start editing content, you’ll need to start by creating a change request. Change requests can be opened:
-
-* By [pressing the **Edit** button in the top right corner](change-requests-in-a-space.md#creating-a-change-request) when viewing a space
-* By [implementing a new change request with GitBook Agent](../../gitbook-agent/write-and-edit-with-ai.md)
-* [Automatically by GitBook Agent](/broken/pages/zuuDoIkzNmXS3fXZv3PG)
-{% endstep %}
-
-{% step %}
-#### Make your changes
-
-After a change request is opened, you’re free to make any edits or changes. Changes can be made by working [directly in the editor](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content), or by [working with Docs Agent](../../gitbook-agent/write-and-edit-with-ai.md).
-{% endstep %}
-
-{% step %}
-#### Request a review
-
-Once your changes are ready to go, you can request a review from your team in the **Overview** tab. Tagging reviewers in a change request will notify them, and allow you to further collaborate in the change request by directly making more changes in the editor, or discussing changes in [comments](../comments.md). If you don’t tag anyone, everyone with reviewer permissions in the space gets a notification. If the space has no reviewers, the next role above reviewer gets the notification.
-
-You can request Docs Agent for any reviews, or anyone on your team with the right [permissions](../member-management/permissions-and-inheritance.md).
-{% endstep %}
-
-{% step %}
-#### Merge
-
-After your reviews are done, you’ll be able to [merge your changes](./#merge) to publish them to your live docs site immediately!
-{% endstep %}
-{% endstepper %}
 
 ### Review changes in diff view <a href="#diff-mode" id="diff-mode"></a>
 
@@ -52,6 +20,50 @@ Open the **Changes** tab to review edits in a change request. You can review all
 {% hint style="info" %}
 &#x20;By default, changes are shown in a "split-view". The left showing the 'before' version of the page, and the right showing the 'after' state. If you prefer to view changes inline in a single column-layout, click the diff-mode button at the top-right of the Table of contents panel.
 {% endhint %}
+
+### Create and merge a change request
+
+{% stepper %}
+{% step %}
+### Open a change request
+
+To edit content, open a change request. You can open one in a few ways:
+
+* Click **Edit** in the top right corner of a space.
+* Ask GitBook Agent to create one on your behalf.
+* GitBook Agent may create one automatically when it detects a documentation gap.
+
+If you open one manually, GitBook creates the change request and opens it in the editor.
+{% endstep %}
+
+{% step %}
+### Make your changes
+
+Edit content directly in the editor, or work with GitBook Agent.
+
+Review your changes before you move on. You can keep editing until you're ready to request a review.
+{% endstep %}
+
+{% step %}
+### Request a review
+
+Open the **Overview** tab, then tag one or more reviewers.
+
+Reviewers can approve your changes, leave comments, or request more edits. If you don't tag anyone, everyone with reviewer permissions in the space is notified. If the space has no reviewers, editors and admins are notified instead.
+
+If someone requests changes, update the change request before you merge it. You can also ask GitBook Agent to review the change request.
+{% endstep %}
+
+{% step %}
+### Merge
+
+Once the change request is approved, open the **Overview** tab and click **Merge**.
+
+GitBook applies the changes to your live docs immediately. If your space uses merge rules, GitBook checks them before merging.
+
+Merging can't be undone. To revert or adjust content, open a new change request.
+{% endstep %}
+{% endstepper %}
 
 ### Working with change requests
 
