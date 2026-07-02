@@ -12,7 +12,7 @@ coverY: 0
 # Visual Studio Code (alpha)
 
 {% hint style="warning" %}
-This feature is no longer maintained in GitBook and is subject to change.&#x20;
+This feature is no longer maintained in GitBook and is subject to change.
 {% endhint %}
 
 The GitBook Visual Studio Code integration allows you to search and ask questions about your documentation and knowledge, directly in your code editor. With a dedicated side panel and a list of different commands, you can easily utilize your entire team’s knowledge directly in the tool you use every day.
@@ -35,7 +35,7 @@ After you have your token, you can add it to Visual Studio Code via the Command 
 
 #### 2. Select your GitBook organization
 
-After saving your personal access token, you’ll need to choose the organization that you’d like to add your [snippets](../snippets/snippets-beta.md) to.
+After saving your personal access token, you’ll need to choose the organization that you’d like to add your [snippets](/broken/pages/QhJ86lLBS0eRfzh8ZkfU) to.
 
 In the Command Palette, you can choose an organization under the **GitBook: Switch Organization** option. If you’re only part of one organization, it’ll already be selected for you.
 

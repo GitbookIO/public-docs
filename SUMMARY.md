@@ -91,7 +91,6 @@
   * [Buttons](https://gitbook.com/docs/creating-content/formatting/inline#buttons)
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
-  * [Snippets](creating-content/blocks/snippets.md)
   * [Custom blocks](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart)
 * [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skillmd.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
@@ -188,11 +187,6 @@
 * [Organization settings](account-management/organization-settings.md)
 * [SSO & SAML](account-management/sso-and-saml/README.md)
   * [SSO Members vs non-SSO](account-management/sso-and-saml/sso-members-vs-non-sso.md)
-
-## Snippets
-
-* [Overview](snippets/overview.md)
-* [Snippets (beta)](snippets/snippets-beta.md)
 
 ## Resources
 
