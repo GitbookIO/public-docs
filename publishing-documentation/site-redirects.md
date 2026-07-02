@@ -21,7 +21,7 @@ To get started, view your site’s dashboard in GitBook and open the **Settings*
 
 ### Creating redirects
 
-Click **Add redirect** and select the **Manual** option.&#x20;
+Click **Add redirect** and select the **Manual** option.
 
 Fill in the **source path** — the URL slug you want to redirect — and the **destination** content you want visitors to be sent to. You can select any section, variant, or page on your site.
 
@@ -46,6 +46,10 @@ When your source path includes a wildcard (\*), you can enable **Replace wildcar
 If you want to add another redirect to the same page, toggle **Add another redirect** before clicking **Enable redirect** or **Save as draft**.
 
 When you add the redirect, the modal will remain open with the destination content set to your previous selection so you can quickly add another source path.
+
+{% hint style="warning" %}
+**Note:** GitBook resolves published URLs case-insensitively, so two redirects that differ only in capitalization are treated as the same path. If you're migrating from a platform that uses case-sensitive URLs, you may need to consolidate redirects before importing.
+{% endhint %}
 
 ### Editing redirects
 
