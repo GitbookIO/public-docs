@@ -83,6 +83,7 @@
   * [Stepper](creating-content/blocks/stepper.md)
   * [Updates](creating-content/blocks/updates.md)
   * [Drawings](creating-content/blocks/drawing.md)
+  * [Mermaid blocks](creating-content/blocks/mermaid-blocks.md)
   * [Math & TeX](creating-content/blocks/math-and-tex.md)
   * [Page links](creating-content/blocks/page-link.md)
   * [Prompt](creating-content/blocks/prompt.md)
