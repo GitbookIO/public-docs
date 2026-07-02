@@ -29,6 +29,8 @@ To enable or disable this, use the **Show changes** toggle at the bottom of the 
 
 With show changes enabled, content that has changed will be highlighted by an icon on the left of its content block.
 
+If a page contains diffs, GitBook also shows a floating centered indicator. Click it to scroll to the first changed block or element.
+
 ### Viewing historical published versions
 
 If you're investigating the version history of a published space, you can also view previews of what the previous versions looked like in the published context (i.e. what the end user would see).

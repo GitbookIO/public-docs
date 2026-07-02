@@ -83,6 +83,8 @@ If you don’t tag anyone in your review request, everyone with reviewer permiss
 
 When you open the **Changes** tab in the space header, the diff view will appear. Diff view highlights every page and block that’s been edited in a change request. It will highlight any edited pages in the table of contents, and on the pages it will show the specific blocks that have been added, edited or removed.
 
+If a page contains diffs, GitBook also shows a floating centered indicator. Click it to scroll to the first changed block or element.
+
 There are two options when using diff view:
 
 1. **Show all pages** – This is the default mode for diff view, which will show both modified and non-modified pages in the table of contents. This is good for seeing which pages have been edited in the context of the entire space.
@@ -139,6 +141,6 @@ To archive a change request:
 
 1. Open the **Change requests** tab.
 2. Select the change request you want to archive.
-3. Click the **Actions** menu  <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>  next to the change request's title and choose **Archive**.
+3. Click the **Actions** menu <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request's title and choose **Archive**.
 
 To find and reopen an archived change request, open the **Change requests** menu and select the **Archived** tab.
