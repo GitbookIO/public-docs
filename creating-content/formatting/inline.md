@@ -80,7 +80,7 @@ You can insert three different types of links:
 
 ### Relative links
 
-Relative links are links created by linking to [pages](../content-structure/page/) that already exist in your space. The advantage of using relative links is that if the page’s URL, name, or location changes, its reference will be kept up to date — so you’ll end up with fewer broken links.
+Relative links point to [pages](../content-structure/page/) and headings in the same space. Use them when you want GitBook to keep the link up to date if the target page is renamed or moved.
 
 Here’s how to insert a relative link:
 
@@ -90,9 +90,19 @@ Here’s how to insert a relative link:
 4. Select the page from the drop-down search results.
 5. Hit `Enter`.
 
+GitBook keeps these links working when the target page moves or its slug changes. GitBook also creates an automatic redirect from the old URL to the new one. Learn more in [Site redirects](../../publishing-documentation/site-redirects.md#about-automatic-redirects).
+
+#### Markdown examples
+
+```markdown
+[Link to another page in this space](../content-structure/page.md)
+[Link to a section on this page](#math--tex)
+[Link to a section in another page in this space](../content-structure/page.md#page-options)
+```
+
 ### Absolute links
 
-Absolute links are external links that you can copy and paste into your content. They’re great when you want to link to something outside your documentation.
+Absolute links are full URLs that you can copy and paste into your content. Use them when you want to link outside the current space.
 
 To insert an absolute link:
 
@@ -100,6 +110,29 @@ To insert an absolute link:
 2. Hit / to open the inline palette and choose Link, click the **Link** button in the context menu, or hit **⌘ + K**.
 3. Paste the URL you want to link to.
 4. Hit `Enter`.
+
+#### Cross-space links
+
+If you want to link to a page in another space, use that page’s internal GitBook URL:
+
+```markdown
+[Link text](https://app.gitbook.com/s/SPACE_ID/PAGE_PATH)
+```
+
+You can also insert a cross-space link through the editor:
+
+1. Click somewhere in your paragraph where you want to insert the link, or select some text.
+2. Hit / to open the inline palette and choose Link, click the **Link** button in the context menu, or hit **⌘ + K**.
+3. Start typing the title of the page you want to link to.
+4. Select the other space in the link picker, then select the page from the search results.
+5. Hit `Enter`.
+
+#### Markdown examples
+
+```markdown
+[GitBook blog](https://www.gitbook.com/blog)
+[Page in another space](https://app.gitbook.com/s/SPACE_ID/PAGE_PATH)
+```
 
 {% hint style="info" %}
 **Why don't external links open in a new tab?**
@@ -124,6 +157,8 @@ Here’s how to insert an email address `mailto` link:
 
 ```markdown
 [This is a relative link to another page in this space](../content-structure/page.md)
+[This is a relative link to a section on this page](#math--tex)
+[This is a cross-space link](https://app.gitbook.com/s/SPACE_ID/PAGE_PATH)
 [This is an absolute link](https://www.gitbook.com/blog)
 [This is a link](mailto:support@gitbook.com) to our support email address
 ```
@@ -150,7 +185,7 @@ Buttons are a great way to highlight calls to action or add a search or Ask AI b
 
 ### Button actions
 
-Buttons can do more than link to a URL. You can also turn a button into a search or ask GitBook Assistant bar — right from the page. These actions work on published pages, too — as you can see from the examples belo
+Buttons can do more than link to a URL. You can also turn a button into a search or ask GitBook Assistant bar — right from the page. These actions work on published pages, too — as you can see from the examples belo
 
 You can configure the following actions:
 
