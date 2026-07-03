@@ -9,20 +9,25 @@ icon: mcp
 
 Every published GitBook site automatically includes a Model Context Protocol (MCP) server.
 
-AI tools can use it to read your published docs directly. This works with tools like Claude Desktop, Cursor, and VS Code extensions.
+AI tools can use it to read your published docs directly. This works with Claude, Claude Code, Cursor, Codex, VS Code, and other MCP clients.
 
-Your MCP server lives at your published site URL plus `/~gitbook/mcp`.
+### Choose the right endpoint <a href="#choose-the-right-endpoint" id="choose-the-right-endpoint"></a>
 
-For example, GitBook’s docs live at `https://gitbook.com/docs`. Its MCP server is `https://gitbook.com/docs/~gitbook/mcp`.
+Your MCP server lives at your published site URL plus one of these endpoints:
 
-Use this endpoint for public sites, share-link sites where all published content is exposed, and fully authenticated sites.
+| If your site is...                                                                      | Use this URL                        | Example                                      |
+| --------------------------------------------------------------------------------------- | ----------------------------------- | -------------------------------------------- |
+| Public, shared by share link with all published content exposed, or fully authenticated | `{docs-site-url}/~gitbook/mcp`      | `https://gitbook.com/docs/~gitbook/mcp`      |
+| Partially authenticated, with some public or share-link content still exposed           | `{docs-site-url}/~gitbook/mcp/auth` | `https://gitbook.com/docs/~gitbook/mcp/auth` |
 
-For fully authenticated sites, MCP clients authenticate through the MCP discovery and OAuth flow before they can access tools. For more detail, see the [MCP authorization flow](https://modelcontextprotocol.io/docs/tutorials/security/authorization#the-authorization-flow-step-by-step).
-
-If your site is partially authenticated and still exposes public or share-link content, use `/~gitbook/mcp/auth` instead. For example, `https://gitbook.com/docs/~gitbook/mcp/auth`.
+For fully authenticated sites, clients sign in through MCP discovery and OAuth. For more detail, see the [MCP authorization flow](https://modelcontextprotocol.io/docs/tutorials/security/authorization#the-authorization-flow-step-by-step).
 
 {% hint style="info" %}
 If you open this URL in a browser, you’ll see an error. Use it in a tool that can make HTTP requests, such as an AI assistant or IDE.
+{% endhint %}
+
+{% hint style="info" %}
+**Page actions** must be enabled for the MCP server to work. If you turn off **Site customization** → **Page actions**, GitBook disables `~gitbook/mcp` and the endpoint returns `404`. **Connect with MCP server** only controls whether the MCP link appears in the page actions menu.
 {% endhint %}
 
 ### Connect an AI tool
@@ -31,79 +36,148 @@ If you open this URL in a browser, you’ll see an error. Use it in a tool that 
 {% step %}
 #### Find your MCP server URL
 
-Take your published GitBook site URL and add the endpoint that matches your site:
+Start with your published docs URL. Then add the endpoint from [Choose the right endpoint](mcp-servers-for-published-docs.md#choose-the-right-endpoint).
 
-* Use `/~gitbook/mcp` for public sites, share-link sites where all published content is exposed, or fully authenticated sites that use MCP discovery and OAuth.
-* Use `/~gitbook/mcp/auth` if your site is partially authenticated and still exposes public or share-link content.
+For example, if your docs site is `https://gitbook.com/docs`, your MCP server URL is `https://gitbook.com/docs/~gitbook/mcp`.
 {% endstep %}
 
 {% step %}
-#### Configure your AI tool
+#### Add the server to your tool
 
-Add the MCP server URL to your AI assistant’s settings. Each tool has a slightly different setup process, so you should check out the docs for your tool of choice to see how to configure an MCP server for it.
+Use the tab for your tool below. Replace `{docs-site-url}` with your own published site URL.
+
+If your site uses the second endpoint, swap `/~gitbook/mcp` for `/~gitbook/mcp/auth`.
 {% endstep %}
 
 {% step %}
-#### Start using your docs
+#### Ask a test question
 
-Once connected, your AI assistant can search through your documentation, retrieve specific pages, and answer questions using your content. The assistant will have real-time access to your published documentation.
+Run one of the prompts in [Try it](mcp-servers-for-published-docs.md#try-it). If the tool can search your docs and answer from them, the connection works.
 {% endstep %}
 {% endstepper %}
 
-{% hint style="info" %}
-**Page actions** must be enabled for the MCP server to work. If you turn off **Site customization** → **Page actions**, GitBook disables `~gitbook/mcp` and the endpoint returns `404`. **Connect with MCP server** only controls whether the MCP link appears in the page actions menu.
-{% endhint %}
+{% tabs %}
+{% tab title="Claude" %}
+These steps work in Claude on the web and in Claude Desktop.
 
-{% stepper %}
-{% step %}
-**Find your MCP server URL**
+Open **Settings** → **Connectors**.
 
-Take your published GitBook site URL. Then add `/~gitbook/mcp`.
-{% endstep %}
+Click **Add custom connector**. Then paste your MCP server URL, such as `{docs-site-url}/~gitbook/mcp`.
 
-{% step %}
-**Configure your AI tool**
+Example:
 
-Open your tool’s MCP settings. Then enter the server URL.
+```
+https://gitbook.com/docs/~gitbook/mcp
+```
 
-Each tool handles setup differently. Check your tool’s docs for exact steps.
-{% endstep %}
+If Claude doesn’t show remote connectors, your current plan or rollout might not support them yet.
+{% endtab %}
 
-{% step %}
-**Start using your docs**
+{% tab title="Claude Code" %}
+Run this command in your terminal:
 
-Once connected, the tool can search your docs, open pages, and answer questions with your content.
-{% endstep %}
-{% endstepper %}
+```shell
+claude mcp add --transport http my-docs https://gitbook.com/docs/~gitbook/mcp
+```
+
+Replace `my-docs` with any server name you want.
+
+If your site uses the authenticated public endpoint, replace the URL suffix with `/~gitbook/mcp/auth`.
+{% endtab %}
+
+{% tab title="Cursor" %}
+Open **Settings** → **MCP**.
+
+Click **Add new MCP server**. Then paste `{docs-site-url}/~gitbook/mcp`.
+
+You can also add this file in `.cursor/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "my-docs": {
+      "url": "https://gitbook.com/docs/~gitbook/mcp"
+    }
+  }
+}
+```
+
+Replace `my-docs` with your own server name if you want.
+{% endtab %}
+
+{% tab title="Codex" %}
+Use the `codex mcp add` command, or add the server to your `config.toml`.
+
+Command example:
+
+```shell
+codex mcp add my-docs https://gitbook.com/docs/~gitbook/mcp
+```
+
+Config example:
+
+```toml
+[mcp_servers.my-docs]
+url = "https://gitbook.com/docs/~gitbook/mcp"
+```
+
+Replace `my-docs` with your own server name if you want.
+{% endtab %}
+
+{% tab title="VS Code (Copilot)" %}
+Open your `mcp.json` file. Then add a server entry with HTTP transport:
+
+```json
+{
+  "servers": {
+    "my-docs": {
+      "type": "http",
+      "url": "https://gitbook.com/docs/~gitbook/mcp"
+    }
+  }
+}
+```
+
+Replace `my-docs` with your own server name if you want.
+{% endtab %}
+{% endtabs %}
+
+### Try it <a href="#try-it" id="try-it"></a>
+
+Paste one of these prompts into your assistant:
+
+* `Using the my-docs MCP server, how do I set up authenticated access?`
+* `Search my docs for everything about custom domains and summarize the steps.`
+* `List the tools exposed by the my-docs MCP server. Then use them to find the page about page actions.`
+
+If you use an agentic tool, you can also give it this setup prompt:
+
+```
+Add an MCP server named my-docs with HTTP transport at https://gitbook.com/docs/~gitbook/mcp. Then verify it connects by listing its available tools.
+```
 
 ### Requirements
-
-The MCP server respects your site’s visibility settings. Use `/~gitbook/mcp` for public sites, share-link sites where all published content is exposed, or fully authenticated sites that use MCP discovery and OAuth. Use `/~gitbook/mcp/auth` if your site is partially authenticated and still exposes public or share-link content.
-
-In the **Page actions** section of your [Customization](../docs-site/customization/) settings, you can enable the **Connect with MCP server** option. This enables visitors to your docs site to quickly copy a link to your site's MCP server right from [the Page actions menu](../docs-site/customization/extra-configuration.md#page-actions).
 
 To use an MCP server:
 
 * Your site must be published. The MCP server exposes published content only.
 * **Page actions** must be enabled in **Site customization** → **Page actions**.
 * Your tool must support MCP over HTTP.
-* If your site uses authenticated access, the MCP server uses the same access rules.
-* If your site uses share links, use the share-link site URL, then add `/~gitbook/mcp`.
+* If your site uses [authenticated access](../site-access/authenticated-access/), your tool must support the [MCP authorization spec](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization).
+* If your site uses share links, use the share-link site URL, then add the endpoint from [Choose the right endpoint](mcp-servers-for-published-docs.md#choose-the-right-endpoint).
 * GitBook supports HTTP transport only. `stdio` and `SSE` aren’t supported.
+
+In the **Page actions** section of your [Customization](../docs-site/customization/) settings, you can enable the **Connect with MCP server** option. This lets visitors copy your site's MCP server URL from [the Page actions menu](../docs-site/customization/extra-configuration.md#page-actions).
 
 ### Add the MCP link to your site
 
 In [Site customization](../docs-site/customization/), open [Page actions](../docs-site/customization/extra-configuration.md#page-actions). Make sure **Page actions** is turned on. Then turn on **Connect with MCP server**.
 
-If **Page actions** is off, GitBook disables `~gitbook/mcp` and the endpoint returns `404`.
-
-**Connect with MCP server** only controls whether GitBook shows the MCP server link in the page actions menu.
-
-Visitors can then copy the server URL from the page actions menu.
+This adds a copyable MCP link to the page actions menu. It doesn’t change which endpoint your tool uses.
 
 ### Privacy and access
 
-Make sure you’re using the correct URL format. Use `/~gitbook/mcp` for public sites, share-link sites where all published content is exposed, or fully authenticated sites that use MCP discovery and OAuth. Use `/~gitbook/mcp/auth` for partially authenticated sites with public or share-link content.
+Use the endpoint from [Choose the right endpoint](mcp-servers-for-published-docs.md#choose-the-right-endpoint).
 
 The MCP server gives read-only access to your published docs.
 
@@ -118,19 +192,17 @@ It serves the latest published version only. Drafts and unpublished changes stay
 If a tool can’t connect:
 
 * Confirm your published site is reachable.
-* Confirm the URL ends with `/~gitbook/mcp`.
+* Confirm the URL uses the endpoint from [Choose the right endpoint](mcp-servers-for-published-docs.md#choose-the-right-endpoint).
 * If the site uses authentication, use a client that supports the [MCP authorization spec](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization).
 * If the tool needs `stdio` or `SSE`, it won’t work with GitBook.
 
 ### Use MCP with authenticated sites
 
-If your GitBook site uses  [authenticated access](../site-access/authenticated-access/), the MCP server at `/~gitbook/mcp` uses the same authentication. MCP clients that support the [MCP authorization spec](https://modelcontextprotocol.io/docs/tutorials/security/authorization) — including Claude and Claude Code — can connect to the server automatically using OAuth and Dynamic Client Registration (DCR).
+If your GitBook site uses [authenticated access](../site-access/authenticated-access/), the MCP server at `/~gitbook/mcp` uses the same authentication. MCP clients that support the [MCP authorization spec](https://modelcontextprotocol.io/docs/tutorials/security/authorization) — including Claude and Claude Code — can connect automatically using OAuth and Dynamic Client Registration (DCR).
 
-If your site uses share links instead, MCP still works. Use the full share-link site URL, then add `/~gitbook/mcp`.
+If your site uses share links instead, use the full share-link site URL, then add the endpoint from [Choose the right endpoint](mcp-servers-for-published-docs.md#choose-the-right-endpoint).
 
 GitBook doesn't support share-link-only sites or sites using visitor auth tokens passed as static headers for MCP authentication.
-
-If your site uses [authenticated access](../site-access/authenticated-access/), the MCP server uses the same access rules. Public sites stay public. Protected sites require the same sign-in.
 
 Supported MCP clients — including Claude — follow the [MCP authorization spec](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization) to connect.
 
