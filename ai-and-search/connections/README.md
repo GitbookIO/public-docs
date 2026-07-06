@@ -62,7 +62,7 @@ You can also adjust the connection’s search ranking to prioritize or depriorit
 
 #### What does GitBook index?
 
-GitBook indexes content from your connections and uses it across search, change requests, and other content-driven features. Each item we index from a connection is called a **record.** Examples of records are Intercom tickets, Confluence pages, website pages, and more.&#x20;
+GitBook indexes content from your connections and uses it across search, change requests, and other content-driven features. Each item we index from a connection is called a **record.** Examples of records are Intercom tickets, Confluence pages, website pages, and more.
 
 We use records to suggest content changes and provide additional context to agents running across GitBook.
 
@@ -74,6 +74,7 @@ More information about our connectors can be found on the source pages:
 
 * [Intercom](intercom.md)
 * [Zendesk](zendesk.md)
+* [Pylon](pylon.md)
 
 #### FAQ
 
@@ -83,7 +84,7 @@ More information about our connectors can be found on the source pages:
 
 Generally, GitBook only requests source fields that it can use as context (see connector pages for more specifics on each source).
 
-When we ingest a record, we pass it through PII redaction processes. The first is an in-memory redaction of any emails, phone numbers, addresses, and other personal information.&#x20;
+When we ingest a record, we pass it through PII redaction processes. The first is an in-memory redaction of any emails, phone numbers, addresses, and other personal information.
 
 We then pass the record through a 2nd PII step using a 3rd party LLM. This is a ZDR-compliant, no-store request that is not stored on the servers of our 3rd party and is not used in any training.
 

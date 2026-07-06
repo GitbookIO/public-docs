@@ -144,6 +144,7 @@
 * [Connections](ai-and-search/connections/README.md)
   * [Intercom](ai-and-search/connections/intercom.md)
   * [Zendesk](ai-and-search/connections/zendesk.md)
+  * [Pylon](ai-and-search/connections/pylon.md)
 * [LLM-ready docs](ai-and-search/llm-ready-docs.md)
 * [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
