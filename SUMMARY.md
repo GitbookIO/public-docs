@@ -18,7 +18,7 @@
 
 ## Your docs site <a href="#docs-site" id="docs-site"></a>
 
-* [New sidebar navigation](docs-site/new-sidebar-navigation.md)
+* [Sites-first workspace](docs-site/new-sidebar-navigation.md)
 * [Site settings](docs-site/site-settings.md)
 * [Site customization](docs-site/customization/README.md)
   * [Icons, colors, and themes](docs-site/customization/icons-colors-and-themes.md)
