@@ -81,7 +81,7 @@ Once you have a working connection (MCP or skill), pull in my existing docs (poi
 
 #### Quickstart guides
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-robot">:robot:</i></h4></td><td><h4>AI Quickstart</h4></td><td><a href="getting-started/ai-documentation/">ai-documentation</a></td></tr><tr><td><h4><i class="fa-hand-pointer">:hand-pointer:</i></h4></td><td><h4>Editor Quickstart</h4></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-robot">:robot:</i></h4></td><td><strong>AI quickstart</strong></td><td><a href="getting-started/ai-documentation/">ai-documentation</a></td></tr><tr><td><h4><i class="fa-hand-pointer">:hand-pointer:</i></h4></td><td><strong>Editor quickstart</strong></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr></tbody></table>
 
 #### Explore GitBook's features
 
