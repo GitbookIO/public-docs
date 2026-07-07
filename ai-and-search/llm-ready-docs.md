@@ -35,7 +35,7 @@ Hidden pages are included in `llms-full.txt`. Hiding a page only removes it from
 
 LLMs can use this index to navigate directly to the markdown versions of your pages, allowing them to incorporate your documentation into their context without needing to parse HTML.
 
-## MCP server
+## MCP server for published docs
 
 GitBook automatically exposes a Model Context Protocol (MCP) server for every published space. MCP gives AI tools a structured way to discover and retrieve your docs as resources — no scraping required.
 

@@ -31,4 +31,4 @@ Only [administrators and creators](../../collaboration/member-management/roles.m
 
 ### skill.md
 
-When working on your docs locally with Git Sync, you can use GitBook's [skill.md file](../../creating-content/ai-coding-assistants-and-skillmd.md) to provide an AI coding assistant with context about GitBook's blocks, features, and best practices.
+When working on your docs locally with Git Sync, you can use GitBook's [skill.md file](../ai-documentation/ai-coding-assistants-and-skillmd.md) to provide an AI coding assistant with context about GitBook's blocks, features, and best practices.

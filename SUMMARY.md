@@ -1,10 +1,16 @@
 # Table of contents
 
+* [Overview](README.md)
+
 ## Get Started <a href="#getting-started" id="getting-started"></a>
 
-* [Overview](README.md)
 * [Quickstart](getting-started/quickstart.md)
-* [AI-native documentation](getting-started/ai-documentation.md)
+* [Build with AI](getting-started/ai-documentation/README.md)
+  * [Agent skills](getting-started/ai-documentation/ai-coding-assistants-and-skillmd.md "Agent skills")
+  * [GitBook MCP](getting-started/ai-documentation/gitbook-mcp.md)
+  * [GitBook CLI](getting-started/ai-documentation/gitbook-cli.md)
+  * [GitBook API](getting-started/ai-documentation/gitbook-api.md)
+  * [Optimizing for AI](getting-started/ai-documentation/optimizing-for-ai.md)
 * [Migrate to GitBook](getting-started/import.md)
 * [GitHub & GitLab Sync](getting-started/git-sync/README.md)
   * [Enabling GitHub Sync](getting-started/git-sync/enabling-github-sync.md)
@@ -14,7 +20,6 @@
   * [Commit messages & Autolink](getting-started/git-sync/commits.md)
   * [Monorepos](getting-started/git-sync/monorepos.md)
   * [Troubleshooting](getting-started/git-sync/troubleshooting.md)
-  * [SKILL.md](https://gitbook.com/docs/skill.md)
 
 ## Your docs site <a href="#docs-site" id="docs-site"></a>
 
@@ -93,7 +98,6 @@
   * [Icons](https://gitbook.com/docs/creating-content/formatting/inline#icons)
   * [Expressions](https://gitbook.com/docs/creating-content/formatting/inline#expressions)
   * [Custom blocks](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart)
-* [AI coding assistants and skill.md](creating-content/ai-coding-assistants-and-skillmd.md "Using skill.md")
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
 * [Styleguide](creating-content/styleguide.md)
@@ -198,7 +202,3 @@
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
 * [Concepts](resources/concepts.md)
-
-***
-
-* [skill](gitbook/SKILL.md)

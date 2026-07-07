@@ -24,7 +24,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 * **Docs sites home**\
   Click this to visit the overview page for all the docs sites you have created in your organization.
 * **Integrations**\
-  GitBook [integrations](../../content-editor/editor/broken-reference/) supercharge your content, allowing you to embed more into your pages, or add information to your knowledge base from other apps.
+  GitBook [integrations](https://github.com/GitbookIO/public-docs/blob/main/content-editor/editor/broken-reference/README.md) supercharge your content, allowing you to embed more into your pages, or add information to your knowledge base from other apps.
 * **Docs sites**\
   Toggle this section to view all the [docs sites](../../docs-site/publish-a-docs-site/) in your organization right in the sidebar and jump to one with a click.
 * **Spaces**\
@@ -105,7 +105,7 @@ The space header includes:
 * **Git Sync configuration**\
   The [GitHub and GitLab Sync](../../getting-started/git-sync/) configuration for your space.
 * **The Share menu**\
-  Allows you to publish and share your space. You can also invite others to [collaborate](../../content-editor/editor/broken-reference/) through this menu.
+  Allows you to publish and share your space. You can also invite others to [collaborate](https://github.com/GitbookIO/public-docs/blob/main/content-editor/editor/broken-reference/README.md) through this menu.
 * **Variables**\
   [Create and add reusable variables](../../creating-content/variables-and-expressions.md) to use in a space.
 * **GitBook Agent**\

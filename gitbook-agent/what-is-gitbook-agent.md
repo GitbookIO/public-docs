@@ -10,7 +10,7 @@ icon: bolt-auto
 GitBook Agent is an AI teammate that works alongside you. It helps you keep your documentation accurate, complete, and current. GitBook Agent is deeply integrated into GitBook. You don’t need new workflows to use it.
 
 {% hint style="info" %}
-If you edit your docs locally with an AI assistant, use [GitBook’s skill.md file](../creating-content/ai-coding-assistants-and-skillmd.md).
+If you edit your docs locally with an AI assistant, use [GitBook’s skill.md file](../getting-started/ai-documentation/ai-coding-assistants-and-skillmd.md).
 {% endhint %}
 
 ### What can GitBook Agent do?
