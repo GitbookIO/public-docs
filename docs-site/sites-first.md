@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn how sites-first changes navigation, content structure, and permissions
-  in GitBook
+  Learn how the site workspace changes navigation, content structure, and
+  permissions in GitBook
 hidden: true
 icon: sparkle
 tags:
@@ -9,19 +9,19 @@ tags:
     primary: true
 ---
 
-# Sites-first workspace
+# New! Site workspace
 
-## The sites-first workspace at GitBook
+## The sites-first workspace in GitBook
 
-GitBook now starts from your sites. Everything in the app is organized around the docs sites you publish, so what you see while editing matches what your visitors see when reading.
+GitBook is now reorganized to be a site specific. Everything in the app is organized around the docs sites you publish, so what you see while editing matches what your visitors see when reading.
 
 This page explains what changed, what it means for your existing content, and how to opt in.
 
-### Why sites-first
+### Why the site workspace
 
 Previously, GitBook organized your work around spaces and collections, and sites were built on top by linking spaces together. That meant the structure you navigated in the app never quite matched the structure of your published site.
 
-Sites-first closes that gap. Your organization contains sites, and every piece of content lives inside a site as a **section**. The hierarchy you edit is the hierarchy your readers get.
+The site workspace closes that gap. Your organization contains sites, and every piece of content lives inside a site as a **section**. The hierarchy you edit is the hierarchy your readers get.
 
 ### What’s new
 
@@ -73,4 +73,4 @@ Nothing is deleted or unpublished.
 
 ### How the rollout works
 
-Sites-first is rolling out in phases. When it’s available for your organization, you’ll see an option to switch on the new experience, along with a short in-app tour of what moved where.
+The site workspace is rolling out in phases. When it’s available for your organization, you’ll see an option to switch on the new experience, along with a short in-app tour of what moved where.
