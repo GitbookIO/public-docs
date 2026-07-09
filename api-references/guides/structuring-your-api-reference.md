@@ -8,9 +8,17 @@ description: >-
 
 GitBook does more than just render your OpenAPI spec. It lets you customize your API reference for better clarity, navigation, and branding.
 
-### Split operations across multiple pages
+To choose between **One page per tag** and **One page per operation**, see [OpenAPI layouts](openapi-layouts.md).
 
-To keep your documentation organized, GitBook can split your API operations into separate pages. Each page is generated from a tag in your OpenAPI spec. To group operations into a page, assign the same tag to each operation:
+This page explains how to control the generated navigation with tags.
+
+### Use tags to organize generated pages
+
+GitBook uses tags to organize generated API reference pages in both layouts.
+
+With **One page per tag**, GitBook creates one page for each tag. With **One page per operation**, GitBook creates one page for each operation and uses tags to group those pages in the table of contents.
+
+To group related operations, assign the same tag to each operation:
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">paths:
   /pet:
@@ -24,7 +32,7 @@ To keep your documentation organized, GitBook can split your API operations into
 
 ### Reorder pages in your table of contents
 
-The order of pages in GitBook matches the order of tags in your OpenAPI tags array:
+The order of generated tag pages or tag groups matches the order of tags in your OpenAPI `tags` array:
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">tags:
 <strong>  - name: pet
@@ -34,7 +42,7 @@ The order of pages in GitBook matches the order of tags in your OpenAPI tags arr
 
 ### Nest pages into groups
 
-To build multi-level navigation, use `x-parent` (or `parent`) in tags to define hierarchy:
+To build multi-level navigation, use `x-parent` (or `parent`) in tags to define hierarchy. This works with both page structures:
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">tags:
   - name: everything
@@ -44,7 +52,7 @@ To build multi-level navigation, use `x-parent` (or `parent`) in tags to define 
 <strong>    x-parent: everything
 </strong></code></pre>
 
-The above example will create a table of contents that looks like:
+The above example creates a table of contents like this:
 
 ```
 Everything
@@ -52,11 +60,11 @@ Everything
 └── Store
 ```
 
-If a page has no description, GitBook will automatically show a card-based layout for its sub-pages.
+If GitBook generates a parent page and that page has no description, it shows a card-based layout for its sub-pages.
 
 ### Customize page titles, icons, and descriptions
 
-You can enhance pages with titles, icons, and descriptions using custom extensions in the tags section. All [Font Awesome icons](https://fontawesome.com/search) are supported via `x-page-icon`.
+You can enhance generated tag pages and navigation labels with custom extensions in the `tags` section. All [Font Awesome icons](https://fontawesome.com/search) are supported via `x-page-icon`.
 
 {% code title="openapi.yaml" %}
 ```yaml

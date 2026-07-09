@@ -167,6 +167,7 @@
   * [Add an OpenAPI specification](api-references/openapi/add-an-openapi-specification.md)
   * [Insert API reference in your docs](api-references/openapi/insert-api-reference-in-your-docs.md)
 * [Guides](api-references/guides/README.md)
+  * [OpenAPI layouts](api-references/guides/openapi-layouts.md)
   * [Structuring your API reference](api-references/guides/structuring-your-api-reference.md)
   * [Adding custom code samples](api-references/guides/adding-custom-code-samples.md)
   * [Managing API operations](api-references/guides/managing-api-operations.md)

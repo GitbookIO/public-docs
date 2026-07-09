@@ -30,15 +30,20 @@ From here, click **OpenAPI Reference**.
 {% step %}
 **Choose your OpenAPI spec**
 
-Choose your previously uploaded OpenAPI spec, and click **Insert** to automatically add your endpoints to your space. You can optionally choose to add a models page referencing all your OpenAPI schemas.
+Choose your previously uploaded OpenAPI spec. Then choose a **Page structure**:
+
+* **One page per tag**
+* **One page per operation**
+
+You can also choose to add a models page and a download link. Click **Insert** to generate the reference.
 {% endstep %}
 
 {% step %}
 **Manage your API operations**
 
-GitBook will automatically generate pages based on your OpenAPI spec and the tags set inside it’s definition.
+GitBook will automatically generate pages based on your OpenAPI spec and the tags set inside its definition. If you choose **One page per operation**, GitBook groups the generated operation pages by tag.
 
-Head to [structuring-your-api-reference.md](../guides/structuring-your-api-reference.md "mention") to learn more about organizing your operations through your OpenAPI spec.
+Head to [OpenAPI layouts](../guides/openapi-layouts.md) to compare layouts, or [Structuring your API reference](../guides/structuring-your-api-reference.md) to organize pages with tags.
 {% endstep %}
 {% endstepper %}
 
