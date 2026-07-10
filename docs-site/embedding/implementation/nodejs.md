@@ -69,7 +69,12 @@ iframe.id = "gitbook-embed-container";
 iframe.style.border = "none";
 iframe.style.width = "100%";
 iframe.style.height = "600px";
+iframe.allow = "clipboard-write";
 ```
+
+{% hint style="info" %}
+If you use the Assistant tab, set `allow="clipboard-write"` on the iframe. The NPM package leaves iframe setup to you. The standalone [Script tag](script.md) implementation adds this automatically.
+{% endhint %}
 {% endstep %}
 
 {% step %}

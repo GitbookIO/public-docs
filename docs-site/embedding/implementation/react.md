@@ -72,6 +72,10 @@ function App() {
   );
 }
 ```
+
+{% hint style="info" %}
+If you use the Assistant tab, set `allow="clipboard-write"` on the iframe that renders the embed. React integrations leave iframe setup to your app. The standalone [Script tag](script.md) implementation adds this automatically.
+{% endhint %}
 {% endstep %}
 
 {% step %}
@@ -123,6 +127,7 @@ function HelpButton() {
   const handleNavigate = () => {
     const iframe = document.createElement('iframe');
     iframe.src = frameURL;
+    iframe.allow = 'clipboard-write';
     const frame = gitbook.createFrame(iframe);
     frame.navigateToPage('/getting-started');
     frame.navigateToAssistant();
