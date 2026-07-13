@@ -10,9 +10,9 @@ description: >-
 
 Conversations from Zendesk can be passed as context to [GitBook Assistant](../gitbook-ai-assistant.md).
 
-## In Change Requests
+## In change requests
 
-GitBook Agent can [identify content gaps](../../gitbook-agent/identifying-content-gaps.md) from resolved support conversations in Zendesk.
+GitBook Agent can [identify content gaps](../../gitbook-agent/automatic-docs-improvements.md) from resolved support conversations in Zendesk.
 
 ## What we store
 

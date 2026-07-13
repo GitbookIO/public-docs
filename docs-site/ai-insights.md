@@ -73,7 +73,7 @@ Addressing these gaps helps visitors find answers more quickly — and understan
 {% hint style="info" %}
 Coming soon: We’re working on features to help your team fix your content gaps automatically, through [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent).
 
-See [identifying-content-gaps.md](../gitbook-agent/identifying-content-gaps.md "mention") to learn more.
+See [automatic-docs-improvements.md](../gitbook-agent/automatic-docs-improvements.md "mention") to learn more.
 {% endhint %}
 
 </details>

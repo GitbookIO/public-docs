@@ -14,7 +14,11 @@ Connected content can appear in [AI Search](../../docs-site/ai-search.md) and [G
 
 To add a connection, open your site’s **Settings** and click on **Connections**.
 
-<figure><img src="../../.gitbook/assets/25_03_30_connections@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2026-07-13_connections@2x.png" alt=""><figcaption></figcaption></figure>
+
+### Available connections
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Intercom</h4></td><td><a href="intercom.md">intercom.md</a></td></tr><tr><td><h4>Zendesk</h4></td><td><a href="zendesk.md">zendesk.md</a></td></tr><tr><td><h4>Pylon</h4></td><td><a href="pylon.md">pylon.md</a></td></tr><tr><td><h4>GitHub Discussions</h4></td><td><a href="github-discussions.md">github-discussions.md</a></td></tr><tr><td><h4>GitHub Issues</h4></td><td><a href="github-issues.md">github-issues.md</a></td></tr></tbody></table>
 
 ### How connections work
 
@@ -58,6 +62,44 @@ You can also adjust the connection’s search ranking to prioritize or depriorit
 {% endstep %}
 {% endstepper %}
 
+### Connection settings
+
+When you edit a connection, you can configure these options:
+
+#### Label
+
+Use **Label** to give the connection a clear name.
+
+This makes the source easier to identify in the connections list, especially if you connect multiple repositories, websites, or channels.
+
+#### Auto-generate change requests
+
+{% hint style="warning" %}
+Auto generating change requests is currently in early access.
+
+See [automatic-docs-improvements.md](../../gitbook-agent/automatic-docs-improvements.md "mention") for information on requesting access
+{% endhint %}
+
+Turn on **Auto-generate change requests** to let GitBook learn from the connection’s records and suggest documentation updates.
+
+GitBook can use those records to create change requests with suggested changes for your team to review.
+
+#### Expose in search / assistant
+
+Turn on **Expose in search / assistant** to make records from this connection searchable by visitors and available to answer questions.
+
+This allows connected content to appear in your site’s AI-powered search experience and in GitBook Assistant responses.
+
+{% hint style="warning" %}
+Enabling **Expose in search / assistant** makes records from that connection available to anyone who can access the site — including external visitors if the site is shared externally.
+{% endhint %}
+
+#### Search ranking boost
+
+Use **Search ranking boost** to prioritize or deprioritize records from a connection in search.
+
+Increase the value if this source should appear more often. Lower it if this source should have less weight than your primary docs.
+
 ### Data retention and privacy
 
 #### What does GitBook index?
@@ -70,11 +112,7 @@ We retain records for as long as the source remains connected. If you remove the
 
 For example, you might connect Intercom and GitBook suggests a documentation change based on a closed Intercom support ticket. If you then remove the Intercom connection, all our Intercom specific stored data is deleted, but the change requests will remain.
 
-More information about our connectors can be found on the source pages:
-
-* [Intercom](intercom.md)
-* [Zendesk](zendesk.md)
-* [Pylon](pylon.md)
+More information about our connectors can be found on the specific page for each connector.
 
 #### FAQ
 
@@ -118,42 +156,8 @@ No, we do not use record data for training and verify with our 3rd party provide
 
 See our specific connector pages for what can be configured for each source.
 
+* [Intercom](intercom.md)
+* [Zendesk](zendesk.md)
+* [Pylon](pylon.md)
+
 </details>
-
-### Connection settings
-
-When you edit a connection, you can configure these options:
-
-#### Label
-
-Use **Label** to give the connection a clear name.
-
-This makes the source easier to identify in the connections list, especially if you connect multiple repositories, websites, or channels.
-
-#### Auto-generate change requests
-
-{% hint style="warning" %}
-Auto generating change requests is currently in early access.
-
-See [identifying-content-gaps.md](../../gitbook-agent/identifying-content-gaps.md "mention") for information on requesting access
-{% endhint %}
-
-Turn on **Auto-generate change requests** to let GitBook learn from the connection’s records and suggest documentation updates.
-
-GitBook can use those records to create change requests with suggested changes for your team to review.
-
-#### Expose in search / assistant
-
-Turn on **Expose in search / assistant** to make records from this connection searchable by visitors and available to answer questions.
-
-This allows connected content to appear in your site’s AI-powered search experience and in GitBook Assistant responses.
-
-{% hint style="warning" %}
-Enabling **Expose in search / assistant** makes records from that connection available to anyone who can access the site — including external visitors if the site is shared externally.
-{% endhint %}
-
-#### Search ranking boost
-
-Use **Search ranking boost** to prioritize or deprioritize records from a connection in search.
-
-Increase the value if this source should appear more often. Lower it if this source should have less weight than your primary docs.

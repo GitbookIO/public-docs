@@ -149,6 +149,8 @@
   * [Intercom](ai-and-search/connections/intercom.md)
   * [Zendesk](ai-and-search/connections/zendesk.md)
   * [Pylon](ai-and-search/connections/pylon.md)
+  * [GitHub Discussions](ai-and-search/connections/github-discussions.md)
+  * [GitHub Issues](ai-and-search/connections/github-issues.md)
 * [LLM-ready docs](ai-and-search/llm-ready-docs.md)
 * [MCP servers for published docs](publishing-documentation/mcp-servers-for-published-docs.md)
 
@@ -156,7 +158,7 @@
 
 * [What is GitBook Agent?](gitbook-agent/what-is-gitbook-agent.md)
 * [Channels](publishing-documentation/channels.md)
-* [Identify content gaps](gitbook-agent/identifying-content-gaps.md)
+* [Automatic docs improvements](gitbook-agent/automatic-docs-improvements.md)
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
 * [Translations](gitbook-agent/translations.md)

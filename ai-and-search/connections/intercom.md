@@ -2,7 +2,6 @@
 description: >-
   Our Intercom connector can identify content gaps from support conversations,
   or surface support conversations through the assistant.
-icon: intercom
 ---
 
 # Intercom
@@ -11,9 +10,9 @@ icon: intercom
 
 Conversations from Intercom can be passed as context to [GitBook Assistant](../gitbook-ai-assistant.md).
 
-## In Change Requests
+## In change requests
 
-GitBook Agent can [identify content gaps](../../gitbook-agent/identifying-content-gaps.md) from resolved support conversations in Intercom.
+GitBook Agent can [identify content gaps](../../gitbook-agent/automatic-docs-improvements.md) from resolved support conversations in Intercom.
 
 ## What we store
 
