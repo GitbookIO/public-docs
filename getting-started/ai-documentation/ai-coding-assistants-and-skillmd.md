@@ -10,12 +10,22 @@ GitBook provides [skill files](https://github.com/GitbookIO/gitbook-skills/tree/
 
 This fits well with [Git Sync](../git-sync/) workflows — make changes in your repo, commit them, and your docs site updates automatically.
 
-## Add GitBook skills to your coding assistant
+{% hint style="info" %}
+Prefer writing in the GitBook editor? Use [GitBook Agent](../../gitbook-agent/what-is-gitbook-agent.md) to draft, rewrite, review, and translate content without leaving GitBook.
+{% endhint %}
 
-### Prerequisite: create an access token
+## Add GitBook skills to your AI agent
+
+Use this option when your AI coding assistant supports package-based skills.
+
+{% stepper %}
+{% step %}
+### Create an access token
 
 To let your agent interact with GitBook, you need to [create an access token](https://app.gitbook.com/account/developer) from your GitBook developer settings. GitBook uses this token to authenticate your agent when working with GitBook skills.
+{% endstep %}
 
+{% step %}
 ### Install GitBook skills
 
 This skill is part of the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repository. Run the following command to install GitBook skills directly to your project:
@@ -25,44 +35,89 @@ This skill is part of the [`gitbook-skills`](https://github.com/GitbookIO/gitboo
 npx skills add GitBookIO/gitbook-skills
 ```
 {% endcode %}
+{% endstep %}
+{% endstepper %}
 
+## Add GitBook skills locally
+
+Download GitBook’s skills if your assistant doesn’t support package-based skills.
+
+{% stepper %}
+{% step %}
+### Create an access token
+
+To let your agent interact with GitBook, you need to [create an access token](https://app.gitbook.com/account/developer) from your GitBook developer settings. GitBook uses this token to authenticate your agent when working with GitBook skills.
+{% endstep %}
+
+{% step %}
 ### Download GitBook skills
 
-We recommend installing GitBook skills with `npx skills add GitBookIO/gitbook-skills` when your assistant supports it.
+Install GitBook skills with `npx skills add GitBookIO/gitbook-skills` when your assistant supports it.
 
-If you prefer to copy the files to your project manually, GitBook’s skills are publicly available on the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repo.
+To copy the files to your project manually, get GitBook skills from the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repository.
 
-<table><thead><tr><th width="156.67578125" valign="top">Skill</th><th width="455.33203125" valign="top">Description</th><th valign="top">Download</th></tr></thead><tbody><tr><td valign="top"><code>configure-site</code></td><td valign="top">Create and maintain entire GitBook documentation sites.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/configure-site">GitHub</a><br></td></tr><tr><td valign="top"><code>write-docs</code></td><td valign="top">Write, author, edit, and format GitBook documentation pages.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-docs">GitHub</a><br></td></tr><tr><td valign="top"><code>write-openapi</code></td><td valign="top">Author, configure, structure, and troubleshoot OpenAPI/Swagger API reference docs.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-openapi">GitHub</a></td></tr></tbody></table>
-
-{% hint style="info" %}
-Prefer writing in the GitBook editor? Use [GitBook Agent](../../gitbook-agent/what-is-gitbook-agent.md) to draft, rewrite, review, and translate content without leaving GitBook.
-{% endhint %}
-
-## Using SKILL.md locally
-
-Use the URL or local `SKILL.md` options only if your assistant doesn’t support package-based skills.
-
-1. Download the desiered skill to your repository root.
-2. Reference it in your coding assistant’s rules file: `"Read SKILL.md in the repo root for GitBook syntax and best practices."`
-
-This works with Claude Code, ChatGPT, Codex, and similar tools. It also works offline and allows team-specific modifications.
+<table><thead><tr><th width="156.67578125" valign="top">Skill</th><th width="455.33203125" valign="top">Description</th><th valign="top">Download</th></tr></thead><tbody><tr><td valign="top"><code>configure-site</code></td><td valign="top">Create and maintain entire GitBook documentation sites.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/configure-site">GitHub</a><br></td></tr><tr><td valign="top"><code>write-docs</code></td><td valign="top">Write, author, edit, and format GitBook documentation pages.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-docs">GitHub</a><br></td></tr><tr><td valign="top"><code>write-openapi</code></td><td valign="top">Author, configure, structure, and troubleshoot OpenAPI/Swagger API reference docs.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-openapi">GitHub</a></td></tr><tr><td valign="top"><code>cr-create</code></td><td valign="top">Create GitBook change requests, push content, request reviews, and address comments.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/cr-create">GitHub</a></td></tr><tr><td valign="top"><code>cr-review</code></td><td valign="top">Review GitBook change requests, summarize changes, comment, approve, or request changes.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/cr-review">GitHub</a></td></tr></tbody></table>
 
 {% hint style="warning" %}
 Remember to update your local repository with the latest `SKILL.md` file as GitBook adds new features.
 {% endhint %}
+{% endstep %}
+{% endstepper %}
 
-## What SKILL.md contains
+## Using GitBook skills
 
-* Complete syntax reference for all custom blocks
-* Configuration file formats (`.gitbook.yaml`, `SUMMARY.md`, `.gitbook/vars.yaml`)
-* Frontmatter options and layout controls
-* Variables and expressions syntax
-* Decision tables for choosing the right block type
-* Common pitfalls and best practices
+{% prompt description="Scaffold a Git-synced docs site from a folder of markdown" %}
+```markdown
+Using the GitBook skills, turn this folder of markdown into a GitBook docs site backed by Git Sync.
 
-Adding `SKILL.md` to your AI coding assistant gives it the context it needs to create, edit, and format GitBook content correctly — following GitBook’s conventions without manual explanation.
+1. Read my docs folder and propose a site structure — spaces, page tree, and SUMMARY.md navigation. Show me before writing anything.
+2. Scaffold the repo in GitBook's monorepo layout (README.md + SUMMARY.md per space) and commit it.
+3. Create the site and spaces, then give me exact, copy-paste instructions for the one step I do in the GitBook UI: wiring each space to its directory with Git Sync.
+4. Once I confirm sync is set up, verify the site structure matches the plan.
+```
+{% endprompt %}
 
-## Testing AI-generated content
+{% prompt description="Upgrade a plain markdown page into a polished GitBook page" %}
+```markdown
+Using the GitBook skills, rewrite this page with GitBook's rich blocks — it's currently plain markdown.
+
+1. Read the page and tell me what you'd upgrade: multi-language code samples → tabs, ordered walkthroughs → steppers, callouts → hints, "choose your path" content → cards.
+2. Apply the changes using correct GitBook syntax, including frontmatter (title, description, icon).
+3. Keep the words mine — improve the structure, not the voice.
+4. List anything I should double-check after it renders in GitBook.
+```
+{% endprompt %}
+
+{% prompt description="Generate an API reference from an OpenAPI spec" %}
+```markdown
+Using the GitBook skills, set up an API reference section in my docs from my OpenAPI spec.
+
+1. Find my spec (or help me generate one from the codebase if none exists) and validate it.
+2. Set up auto-generated endpoint pages with GitBook's OpenAPI block in SUMMARY.md — don't hand-write endpoint pages; the spec stays the source of truth.
+3. Add a short overview page per resource group.
+4. Flag gaps in the spec (missing descriptions, examples, response schemas) that would make the rendered reference weak.
+```
+{% endprompt %}
+
+## FAQ
+
+<details>
+
+<summary>What does SKILL.md contain?</summary>
+
+`SKILL.md` gives your AI coding assistant the context it needs to create, edit, and format GitBook content correctly.
+
+It includes:
+
+* A complete syntax reference for custom blocks.
+* Configuration file formats, including `.gitbook.yaml`, `SUMMARY.md`, and `.gitbook/vars.yaml`.
+* Frontmatter options, layout controls, variables, expressions, decision tables, and common pitfalls.
+
+</details>
+
+<details>
+
+<summary>How do I test AI-generated content?</summary>
 
 Always review and test content generated by AI assistants. When working with an assistant trained on the skill file:
 
@@ -71,11 +126,7 @@ Always review and test content generated by AI assistants. When working with an 
 * Confirm that the frontmatter is valid YAML.
 * Test that variables reference the correct scope.
 
-{% hint style="warning" %}
-**Note:** AI assistants can occasionally generate incorrect syntax or forget to close custom blocks. Always review changes before committing.
-{% endhint %}
-
-## FAQ
+</details>
 
 <details>
 

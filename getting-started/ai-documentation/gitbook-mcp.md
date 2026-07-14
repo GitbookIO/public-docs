@@ -28,30 +28,6 @@ https://mcp.gitbook.com/mcp
 Opening this URL in a browser returns an error. Use it in an MCP client that can make HTTP requests.
 {% endhint %}
 
-## Authenticate GitBook’s MCP
-
-GitBook MCP supports two authentication methods: OAuth and personal access tokens.
-
-{% tabs %}
-{% tab title="OAuth" %}
-Point your client at the MCP server URL. The client discovers the authorization server, registers itself, and opens the browser sign-in flow automatically.
-
-If you use OAuth, don't add a bearer token manually. The client gets one during sign-in.
-{% endtab %}
-
-{% tab title="Personal access token" %}
-To skip the browser flow, send your token as a bearer token:
-
-```http
-Authorization: Bearer <YOUR_PAT>
-```
-
-You can create a personal access token in your [developer settings](https://app.gitbook.com/account/developer).
-
-Use this for scripted setups, or when your client already manages secrets locally.
-{% endtab %}
-{% endtabs %}
-
 ## Connect your client
 
 Add GitBook MCP in your client of choice:
@@ -147,13 +123,64 @@ Authorization: Bearer <YOUR_PAT>
 {% endtab %}
 {% endtabs %}
 
-## Common workflows
+## Authenticate GitBook’s MCP
 
-With the server connected, use your AI tool to:
+GitBook MCP supports two authentication methods: OAuth and personal access tokens.
 
-* Create and configure a new docs site.
-* Open a change request and draft content.
-* Move, rename, or restructure pages across a site.
+{% tabs %}
+{% tab title="OAuth" %}
+Point your client at the MCP server URL. The client discovers the authorization server, registers itself, and opens the browser sign-in flow automatically.
+
+If you use OAuth, don't add a bearer token manually. The client gets one during sign-in.
+{% endtab %}
+
+{% tab title="Personal access token" %}
+To skip the browser flow, send your token as a bearer token:
+
+```http
+Authorization: Bearer <YOUR_PAT>
+```
+
+You can create a personal access token in your [developer settings](https://app.gitbook.com/account/developer).
+
+Use this for scripted setups, or when your client already manages secrets locally.
+{% endtab %}
+{% endtabs %}
+
+## Using GitBook’s MCP
+
+{% prompt description="Create and configure a new docs site." %}
+```markdown
+Using the GitBook MCP tools, create a new docs site for me.
+
+1. List my organizations and confirm which one to use before creating anything.
+2. Ask what the site is for and what content I have (folder, repo, or just a description). If I point you at a source, echo back what you find there so I can confirm it's right.
+3. Show me a short plan — site name, spaces, page structure — and wait for my yes.
+4. Create the site, add the content, and publish. Then fetch the live URL to confirm it works and share it with me.
+```
+{% endprompt %}
+
+{% prompt description="Open a change request and draft content." %}
+```markdown
+Using the GitBook MCP tools, draft new content for my docs in a change request — don't edit anything live.
+
+1. List my organizations and sites, and confirm which space to work in.
+2. Ask me what the content should cover, then open a change request and draft the pages inside it.
+3. Match the tone and structure of my existing pages — read a few first.
+4. When done, share the change request preview link so I can review and merge it in GitBook.
+```
+{% endprompt %}
+
+{% prompt description="Move, rename, or restructure pages across a site." %}
+```markdown
+Using the GitBook MCP tools, help me restructure my docs site.
+
+1. List my organizations and sites, confirm which one, then fetch its current structure and show it to me.
+2. Ask what I want changed, then propose the new structure as a simple before/after tree — don't move anything until I approve.
+3. Apply the changes, keeping URLs and internal links intact where possible; flag anything that will break.
+4. Show me the final structure and the change request or live result to verify.
+```
+{% endprompt %}
 
 ## The difference between the GitBook MCP and published docs MCP
 
