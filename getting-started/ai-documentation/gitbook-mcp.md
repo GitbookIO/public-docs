@@ -33,7 +33,7 @@ Opening this URL in a browser returns an error. Use it in an MCP client that can
 Add GitBook MCP in your client of choice:
 
 {% tabs %}
-{% tab title="Claude Code" %}
+{% tab title="Claude Code" icon="claude" %}
 Register the server in your terminal:
 
 ```bash
@@ -50,7 +50,7 @@ claude mcp add --transport http gitbook https://mcp.gitbook.com/mcp \
 ```
 {% endtab %}
 
-{% tab title="Codex" %}
+{% tab title="Codex" icon="openai" %}
 Add the server from your terminal:
 
 ```bash
@@ -69,7 +69,7 @@ enabled = true
 ```
 {% endtab %}
 
-{% tab title="Cursor" %}
+{% tab title="Cursor" icon="cursor" %}
 Add the server to `~/.cursor/mcp.json`, or to your project at `.cursor/mcp.json`:
 
 ```json
@@ -85,7 +85,7 @@ Add the server to `~/.cursor/mcp.json`, or to your project at `.cursor/mcp.json`
 Then sign in when Cursor prompts you.
 {% endtab %}
 
-{% tab title="VS Code" %}
+{% tab title="VS Code" icon="vscode" %}
 Add the server to `.vscode/mcp.json` in your workspace:
 
 ```json
