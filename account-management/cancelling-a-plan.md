@@ -22,8 +22,20 @@ Here’s how to cancel your plan:
 Once your plan has been cancelled, as per our [billing policy](plans/billing-policy.md), it will remain active until the end of your current billing period. Your subscription will no longer renew, and the plan’s cancellation will take full effect at the end of that billing period.
 {% endhint %}
 
+### When a trial ends, payment fails, or a subscription lapses
+
+This differs from cancelling an active paid plan. A voluntary cancellation stays active until the billing period ends. An ended trial or inactive subscription can restrict collaboration immediately.
+
+If your organization needs an active subscription for collaboration, members might be disabled or unable to access the organization and its content. The primary administrator retains access to manage the organization.
+
+To restore access, the primary administrator can:
+
+1. Open the organization’s **billing** settings. Renew an available plan or start a new subscription. Restoring a subscription restores access for the organization’s members.
+2. If a payment failed, update the payment details in the billing flow. Complete the renewal or subscription after resolving the payment issue.
+3. If you choose a plan with fewer member seats, remove members who no longer need access before or while selecting the plan. Removing a member doesn't delete content they previously contributed.
+
 ### Change your mind?
 
-After cancelling and before the end of your current billing period, you have the option to renew your plan! Just click the **renew plan** button shown below (and again on the next page to confirm) and your subscription will once again renew automatically.
+If you voluntarily cancelled an active plan and your billing period hasn't ended, you can renew your plan. Click the **renew plan** button shown below, then click it again on the next page to confirm. Your subscription renews automatically.
 
 After this, if you’d like to use GitBook again on a paid plan, you can purchase a new plan.
