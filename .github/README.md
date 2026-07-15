@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="https://gitbook.com/docs"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=F25B3A"></a>
-  <a href="/.github/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors/gitbookIO/public-docs"/></a>
-  <a href="https://github.com/gitbookIO/public-docs/issues"><img src="https://img.shields.io/github/issues/gitbookIO/public-docs"/></a>
+  <a href="https://gitbook.com/docs"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"></a>
+  <a href="/.github/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors/gitbookIO/public-docs?labelColor=1C1917&color=F25B3A"/></a>
+  <a href="https://github.com/gitbookIO/public-docs/issues"><img src="https://img.shields.io/github/issues/gitbookIO/public-docs?labelColor=1C1917&color=F25B3A"/></a>
 </p>
 
 <p align="center">Welcome to GitBook's public documentation.</p>
@@ -45,15 +45,15 @@ We review all pull requests submitted to this repository and will follow up with
 ## Badges
 
 <p align="left">
-  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1"></a>
-  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=F4E28D"></a>
-  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=FDA599"></a>
+  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"></a>
+  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=1C1917"></a>
+  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=1C1917&label=%20&labelColor=1C1917&color=FAFAF9"></a>
 </p>
 
 ### Markdown
 
 ```md
-[![GitBook](https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1)](https://gitbook.com/)
+[![GitBook](https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A)](https://gitbook.com/)
 ```
 
 ### HTML
@@ -61,7 +61,7 @@ We review all pull requests submitted to this repository and will follow up with
 ```html
 <a href="https://gitbook.com">
   <img
-    src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=ffffff&label=%20&labelColor=5c5c5c&color=3F89A1"
+    src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"
   />
 </a>
 ```
