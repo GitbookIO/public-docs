@@ -8,7 +8,7 @@ description: >-
 
 ## Title, icon and logo
 
-<figure><img src="../../.gitbook/assets/25_12_10_title_icon_logo@2x.png" alt="A GitBook screenshot showing title, icon and logo customization"><figcaption></figcaption></figure>
+<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FBYTJub4AuG2iJDCS31vp%2Ftitle_icon_logo%402x.png?alt=media&#x26;token=2e3fd867-a480-40da-919b-d5c1e6225317" alt="A GitBook screenshot showing title, icon and logo customization"><figcaption></figcaption></figure>
 
 ### Title
 
@@ -36,7 +36,7 @@ The icon setting lets you upload a small, 132×132 px image, which will appear _
 
 Themes let you customize the color scheme of your published content for both light and dark mode. There are four themes to choose from. The colors of your site will be directly impacted by the **primary color** and **tint** that you choose. These two selections affect various parts of the interface and can completely change the look and feel of your site.
 
-<figure><img src="../../.gitbook/assets/25_12_10_theme@2x.png" alt="A GitBook screenshot showing theme options"><figcaption></figcaption></figure>
+<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FtFNAAIZeXh1JKtnWepYZ%2Ftheme%402x.png?alt=media&#x26;token=d8d191df-5ed8-44b1-886a-bd9344add841" alt="A GitBook screenshot showing theme options"><figcaption></figcaption></figure>
 
 ### Clean
 
@@ -64,7 +64,7 @@ _Gradient is only available for Premium or Ultimate sites._
 
 ## Colors
 
-<figure><img src="../../.gitbook/assets/25_12_10_colors@2x.png" alt="A GitBook screenshot showing color customization"><figcaption></figcaption></figure>
+<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FkfBttkCRhIqoNFZGXkX4%2Fcolors%402x.png?alt=media&#x26;token=2ddbf1b0-7893-4fc2-a849-f92656b3151f" alt="A GitBook screenshot showing color customization"><figcaption></figcaption></figure>
 
 ### Primary color
 
@@ -79,6 +79,22 @@ Your site’s tint color will subtly change the color of all text and icons acro
 The tint color will _not_ affect navigational elements like links and buttons, which always use the primary color.
 
 In the **Tint color** section you’ll see suggested colors based on your primary color selection. You can select one to preview it, choose your primary color as your tint, or pick a completely custom color with the color picker.
+
+<details>
+
+<summary>Using tint to set your background color</summary>
+
+If you pick a tint that’s very light (close to white) or very dark (close to black), and that color is close to a neutral shade, GitBook uses it as the exact background color of your site instead of the default white or dark background. This lets you give your docs a subtle off-white or warm-paper feel in light mode, or a specific deep-dark backdrop in dark mode, just by choosing the right tint.
+
+{% hint style="info" %}
+A couple of things to keep in mind:
+
+* The tint needs to be close to neutral (only lightly colored). A strongly colored tint keeps GitBook’s standard background and only tints the accents.
+* It needs to be clearly light or clearly dark. A mid-tone gray won’t change the background.
+* With the **Bold** theme, the tint styles the header rather than the page background, so the background stays as it is.
+{% endhint %}
+
+</details>
 
 ### Semantic colors <mark style="background-color:purple;">(Premium & Ultimate)</mark>
 
@@ -101,7 +117,7 @@ The themes list includes:
 
 You can choose individual code themes for your docs’ light and dark mode. And you can use any light or dark color scheme in any mode — e.g. a dark code theme when your docs are in light mode.
 
-By default, your chosen theme will apply to both code blocks and OpenAPI blocks. If you want to set a different theme for OpenAPI blocks, click the **Customize per block type** <picture><source srcset="../../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture> button.
+By default, your chosen theme will apply to both code blocks and OpenAPI blocks. If you want to set a different theme for OpenAPI blocks, click the **Customize per block type** <picture><source srcset="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2F6uYUpJto7WTkJf9BUPHv%2Fsettings%20-%20dark.svg?alt=media&#x26;token=bf52415f-e999-43a2-9a1a-c85176a014cd" media="(prefers-color-scheme: dark)"><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FwkBqgOPry9HAcW4cxJk0%2Fsettings.svg?alt=media&#x26;token=67bdbb00-ebf3-4a2d-9df8-0c822406f71c" alt=""></picture> button.
 
 ## Modes
 
@@ -117,7 +133,7 @@ _Note: to change the theme within the GitBook app, go to your Settings menu at t
 
 ## Site styles
 
-<figure><img src="../../.gitbook/assets/25_12_10_site_styles@2x.png" alt="A GitBook screenshot showing site style settings"><figcaption></figcaption></figure>
+<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FB8hReiw1xjsXedx7kM2J%2FSite%20styles%402x.png?alt=media&#x26;token=99b1f18b-d1f3-42e4-b11f-4b7bee1c4ceb" alt="A GitBook screenshot showing site style settings"><figcaption></figcaption></figure>
 
 ### Font family <mark style="background-color:purple;">(Premium & Ultimate)</mark>
 
@@ -157,7 +173,7 @@ Choose between two link designs:
 
 ## Sidebar styles
 
-<figure><img src="../../.gitbook/assets/25_12_10_sidebar_styles@2x.png" alt="A GitBook screenshot showing sidebar style options"><figcaption><p>This menu gives you a visual idea of how the different styles will change the look of your sidebar.</p></figcaption></figure>
+<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FjAXB2lbCWFVFhHTDmY3s%2Fsidebar_styles%402x.png?alt=media&#x26;token=c922b2e7-04de-4140-97e0-802375f9c92f" alt="A GitBook screenshot showing sidebar style options"><figcaption><p>This menu gives you a visual idea of how the different styles will change the look of your sidebar.</p></figcaption></figure>
 
 ### Background style
 
