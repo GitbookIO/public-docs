@@ -121,7 +121,7 @@ Every API command supports the same output flags:
 If you don't pass a flag, the CLI picks a sensible default: pretty output in an interactive terminal, and YAML when the output is piped or redirected. Pass `--json` explicitly when you're piping into tools like `jq`:
 
 ```bash
-gitbook organizations list --json | jq '.[].title'
+gitbook organizations list --json | jq '.items[].title'
 ```
 
 ## Ask your docs a question
