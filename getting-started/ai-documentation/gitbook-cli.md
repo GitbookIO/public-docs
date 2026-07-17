@@ -18,7 +18,7 @@ The CLI is built for two kinds of use:
 * **Agentic coding** — an AI coding agent (Claude Code, Codex, Cursor, and similar) runs the CLI on your behalf as part of a larger task. Machine-readable output (`--json`) and predictable command structure make it easy for an agent to call commands, parse results, and chain them together.
 
 {% hint style="info" %}
-If you want an AI agent to create and edit content through GitBook's API using a purpose-built protocol, see [GitBook MCP](gitbook-mcp.md). The CLI is a good fit when you want scriptable commands, integration development, or an agent that already works comfortably in a terminal.
+If you want an AI agent to create and edit content through GitBook’s API using a purpose-built protocol, see [GitBook MCP](gitbook-mcp.md). The CLI is a good fit when you want scriptable commands, integration development, or an agent that already works comfortably in a terminal.
 {% endhint %}
 
 ## Install
@@ -138,7 +138,7 @@ The answer streams to your terminal, followed by its sources and suggested follo
 
 Because the CLI is scriptable and speaks JSON, an AI coding agent can use it as a tool while it works. Point your agent at the commands above and let it authenticate, explore your content, and act on the results.
 
-{% prompt description="Explore an organization's docs from the terminal." %}
+{% prompt description="Explore an organization’s docs from the terminal." %}
 ```markdown
 Using the `gitbook` CLI, help me get oriented in my GitBook content.
 
