@@ -47,9 +47,17 @@ Alternatively, you can select one or more blocks and then hit **Cmd + C** to ope
 
 ### **Insert reusable content**
 
-You can insert reusable content as you would with any other block. Hit `/` on an empty line to open the **Insert palette** and search for your content by its name or simply searching for “reusable”. Alternatively, click the `+` on the left of any block or empty line.
+You can insert reusable content as you would with any other block. Press `/` on an empty line to open the **Insert palette**. You can also click the `+` beside any block or empty line.
 
-You will also find the reusable content panel in the pages sidebar, where you can find a list of previously created content blocks in your current space.
+The reusable-content panel in the pages sidebar lists blocks created in the current space only.
+
+To insert reusable content from the current space or another space you can access:
+
+1. Open the reusable-content picker from the **Insert palette** or `+` menu.
+2. Use the space selector at the top to select the source space.
+3. Search for the reusable block by name, then select it to insert it.
+
+Inserting content from another space doesn't transfer ownership. Only the parent space can edit the reusable content. Updates from that parent space continue to sync to every instance.
 
 ### **Edit reusable content**
 
