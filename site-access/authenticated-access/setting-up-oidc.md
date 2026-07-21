@@ -75,3 +75,7 @@ Hit Save.
 Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to **Audience**, select **Authenticated access**, and choose OIDC as the backend. Then, click **Update audience**. Go to the site’s screen and click **Publish**.\
 \
 The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with OIDC, which confirms that your site is published behind authenticated access using Auth0.
+
+### Enable PKCE
+
+If your identity provider requires or recommends PKCE, turn on **Use PKCE** in the OIDC integration configuration screen. This option enables Proof Key for Code Exchange (PKCE) for the authorization code flow that the integration initiate with your auth provider.
