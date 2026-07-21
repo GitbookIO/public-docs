@@ -1,41 +1,55 @@
 ---
-description: Cancel your subscription
 icon: xmark
 ---
 
 # Subscription cancellations
 
-If you’re thinking about cancelling a plan because you’re running into any issues while using GitBook, please [contact](https://gitbook.com/docs/help-center/support/how-do-i-contact-support) our support team! If there’s anything we can solve, we’re here to help.
-
-Here’s how to cancel your plan:
-
-1.  Go to the organization’s settings page. You can click on the settings
-
-    <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt="The Settings icon in GitBook"></picture>
-
-    icon at the bottom of the sidebar and then click on **\[organization name] settings** to get there.
-2. Click on the **billing** tab. This will take you to a billing page hosted on Stripe, our payment processor.
-3. Click the **cancel plan** button.
-4. On the following page, confirm by clicking a second button labelled **cancel plan**.
-
-{% hint style="info" %}
-Once your plan has been cancelled, as per our [billing policy](plans/billing-policy.md), it will remain active until the end of your current billing period. Your subscription will no longer renew, and the plan’s cancellation will take full effect at the end of that billing period.
+{% hint style="warning" %}
+Before you cancel, contact our [support team](cancelling-a-plan.md#cancel-plan-button-missing) — we may be able to resolve the issue.
 {% endhint %}
 
-### When a trial ends, payment fails, or a subscription lapses
+If your active subscription shows a **Cancel plan** button, follow these steps:
 
-This differs from cancelling an active paid plan. A voluntary cancellation stays active until the billing period ends. An ended trial or inactive subscription can restrict collaboration immediately.
+1. Go to **Organization settings** — click the settings icon at the bottom of the sidebar, then click **\[organization name] settings**.
+2. Click **Billing**.
+3. Click **Manage Billing** to open the Stripe billing portal.
+4. Click **Cancel plan**.
+5. On the next page, click **Cancel plan** to confirm.
 
-If your organization needs an active subscription for collaboration, members might be disabled or unable to access the organization and its content. The primary administrator retains access to manage the organization.
+### **Cancel plan button missing**
+
+If you've clicked through **Organization settings** → **Billing** → **Manage Billing** and reached the Stripe portal without seeing **Cancel plan**, [contact GitBook Support](cancelling-a-plan.md#cancel-plan-button-missing). Don't repeat the self-service flow.
+
+Support can review your subscription and, where appropriate, cancel it or schedule cancellation on your behalf.
+
+Include the following in your request:
+
+* Your organization name.
+* The email address on your GitBook account.
+* Your current plan.
+* Your next renewal or expected charge date.
+* Your most recent invoice or receipt number, if available.
+* Confirmation that **Cancel plan** wasn't displayed in GitBook Billing or the Stripe portal.
+* Whether you want to cancel at the end of your current billing period.
+
+{% hint style="info" %}
+Your plan stays active until the end of your billing period. After that, it won't renew.
+{% endhint %}
+
+### **When a trial ends, payment fails, or a subscription lapses**
+
+An ended trial, failed payment, or lapsed subscription differs from a voluntary cancellation — it can restrict collaboration immediately rather than at the end of a billing period.
+
+If collaboration is restricted, members lose access to the organization and its content. The primary administrator retains access to manage the organization.
 
 To restore access, the primary administrator can:
 
-1. Open the organization’s **billing** settings. Renew an available plan or start a new subscription. Restoring a subscription restores access for the organization’s members.
-2. If a payment failed, update the payment details in the billing flow. Complete the renewal or subscription after resolving the payment issue.
-3. If you choose a plan with fewer member seats, remove members who no longer need access before or while selecting the plan. Removing a member doesn't delete content they previously contributed.
+1. Open the organization's billing settings and renew an available plan or start a new subscription. Restoring a subscription restores access for all members.
+2. If a payment failed, update the payment details in the billing flow, then complete the renewal.
+3. If the new plan has fewer member seats, remove members who no longer need access before selecting the plan. Removing a member doesn't delete content they previously contributed.
 
-### Change your mind?
+### **Renew a cancelled plan**
 
-If you voluntarily cancelled an active plan and your billing period hasn't ended, you can renew your plan. Click the **renew plan** button shown below, then click it again on the next page to confirm. Your subscription renews automatically.
+If you cancelled your plan and your billing period hasn't ended, you can renew. Click **Renew plan**, then click it again on the next page to confirm. Your subscription renews automatically.
 
-After this, if you’d like to use GitBook again on a paid plan, you can purchase a new plan.
+If your billing period has already ended, you can purchase a new plan.

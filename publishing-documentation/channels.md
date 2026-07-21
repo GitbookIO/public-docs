@@ -14,10 +14,6 @@ tags:
 We’re slowly rolling out access to channels. Stay tuned for more progress on the features below.
 {% endhint %}
 
-Channels bring [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) and [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md) into the tools where work already happens.
-
-Channels bring [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) and [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md) into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
-
 {% include "../.gitbook/includes/ultimate-hint.md" %}
 
 Channels bring [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) and [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md) into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
