@@ -18,7 +18,9 @@ To add a connection, open your site’s **Settings** and click on **Connections*
 
 ### Available connections
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Intercom</h4></td><td><a href="intercom.md">intercom.md</a></td></tr><tr><td><h4>Zendesk</h4></td><td><a href="zendesk.md">zendesk.md</a></td></tr><tr><td><h4>Pylon</h4></td><td><a href="pylon.md">pylon.md</a></td></tr><tr><td><h4>GitHub Discussions</h4></td><td><a href="github-discussions.md">github-discussions.md</a></td></tr><tr><td><h4>GitHub Issues</h4></td><td><a href="github-issues.md">github-issues.md</a></td></tr></tbody></table>
+You can connect support platforms, developer communities, and other content sources:
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Intercom</h4></td><td><a href="intercom.md">intercom.md</a></td></tr><tr><td><h4>Zendesk</h4></td><td><a href="zendesk.md">zendesk.md</a></td></tr><tr><td><h4>Freshdesk</h4></td><td></td></tr><tr><td><h4>Front</h4></td><td></td></tr><tr><td><h4>HubSpot</h4></td><td></td></tr><tr><td><h4>Zoho Desk</h4></td><td></td></tr><tr><td><h4>Pylon</h4></td><td><a href="pylon.md">pylon.md</a></td></tr><tr><td><h4>GitHub Discussions</h4></td><td><a href="github-discussions.md">github-discussions.md</a></td></tr><tr><td><h4>GitHub Issues</h4></td><td><a href="github-issues.md">github-issues.md</a></td></tr><tr><td><h4>YouTube</h4></td><td></td></tr><tr><td><h4>Website</h4></td><td></td></tr><tr><td><h4>MCP server</h4></td><td></td></tr></tbody></table>
 
 ### How connections work
 
@@ -40,7 +42,7 @@ Copy the **Channel ID**.
 If your channel URL contains `/channel/`, copy the part after `/channel/`.
 {% endhint %}
 
-Each connection creates a stream of records from that source, such as issues, discussions, pages, or videos.
+Each connection creates a stream of records from that source, such as issues, discussions, tickets, conversations, pages, or videos.
 {% endstep %}
 
 {% step %}
@@ -104,7 +106,7 @@ Increase the value if this source should appear more often. Lower it if this sou
 
 #### What does GitBook index?
 
-GitBook indexes content from your connections and uses it across search, change requests, and other content-driven features. Each item we index from a connection is called a **record.** Examples of records are Intercom tickets, Confluence pages, website pages, and more.
+GitBook indexes content from your connections and uses it across search, change requests, and other content-driven features. Each item we index from a connection is called a **record.** Examples of records are Intercom tickets, Freshdesk tickets, website pages, and more.
 
 We use records to suggest content changes and provide additional context to agents running across GitBook.
 
@@ -158,6 +160,10 @@ See our specific connector pages for what can be configured for each source.
 
 * [Intercom](intercom.md)
 * [Zendesk](zendesk.md)
+* Freshdesk
+* Front
+* HubSpot
+* Zoho Desk
 * [Pylon](pylon.md)
 
 </details>
