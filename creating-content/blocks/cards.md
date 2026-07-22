@@ -6,7 +6,7 @@ description: "Display information more dynamically with a set of cards —\_with
 
 You can use cards to create a visually pleasing page layout, combining text and images in a grid. They’re ideal for building landing pages or displaying any other content in a non-linear way.
 
-You can adjust [switch between medium or large cards](cards.md#card-size) and link them to the relevant resources.
+You can adjust [switch between medium or large cards](cards.md#changing-the-size-of-cards) and link them to the relevant resources.
 
 ### Example of a card
 
