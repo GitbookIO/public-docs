@@ -100,7 +100,7 @@
   * [Custom blocks](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart)
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
-* [Styleguide](creating-content/styleguide.md)
+* [Style guide](creating-content/styleguide.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
