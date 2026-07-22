@@ -64,7 +64,7 @@ To invite someone from outside your organization to a space or collection:
 1. Open the space or collection’s **Share** modal
 2. Add the person’s email address, choose their role for this collection, and hit **Invite**.
 
-By default, people you add will be a [guest](member-management/roles.md#the-guest-role) in the space or collection. Guests only have access to the individual spaces that you invite them to, and can be given a specific [role](member-management/roles.md) within that space — whether it’s to edit the content, or only view and comment on it.
+By default, people you add will be a [guest](member-management/roles.md#guest-role) in the space or collection. Guests only have access to the individual spaces that you invite them to, and can be given a specific [role](member-management/roles.md) within that space — whether it’s to edit the content, or only view and comment on it.
 
 Alternatively, you can also choose to enable the **Invite as an organization member** toggle, which will give the new member access to all your team’s content with the permissions of the role you’ve selected.
 
