@@ -14,7 +14,7 @@ View and manage your GitBook organization’s settings. These include members, s
 
 ### Access the settings for an organization
 
-1. In the sidebar, click the organization switcher.
+1. At the top of the sidebar, open the organization menu.
 2. Click **Settings**.
 
 Settings open in a dedicated screen. Your personal **Account** settings include **General**, **Notifications**, **Organizations**, and **Developer tools**. Your **Organization** settings appear in the sidebar. Click **Back to app** to return to your work.
@@ -55,7 +55,7 @@ Add and remove [members](../collaboration/member-management/). You can also upda
 
 <summary>Merge rules</summary>
 
-Control how change requests are reviewed and merged across your organization. Organization rules apply to every space by default. Each space can inherit, replace, or disable those rules. Learn more about [merge rules](../collaboration/merge-rules.md).
+Control how change requests are reviewed and merged across your organization. Organization rules apply to every section by default. Each section can inherit, replace, or disable those rules. Learn more about [merge rules](../collaboration/merge-rules.md).
 
 </details>
 

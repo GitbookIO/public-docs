@@ -9,13 +9,13 @@ When you finish writing, editing, or importing your content, publish it for your
 
 A docs site's content lives in its [sections](../site-structure/). The structure you edit is the structure visitors get. New sections start as drafts, so you control what appears on your published site.
 
-<figure><img src="../../.gitbook/assets/25_12_10_publishing_documentation_publish_docs@2x.png" alt="A GitBook screenshot showing the All Sites screen"><figcaption><p>The All Sites screen.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_publishing_documentation_publish_docs@2x.png" alt="A GitBook screenshot showing the organization Home"><figcaption><p>Your organization Home.</p></figcaption></figure>
 
 ### Create a docs site
 
 To create a docs site:
 
-1. From the **All Sites** screen, click the **+** icon next to **Sites**.
+1. From your organization **Home**, click the **+** icon next to **Sites**.
 2. Enter a name that visitors will recognize.
 3. Click **Create**.
 4. Select a starting point: a documentation template, an import, an OpenAPI specification, a blank section, or Git Sync.
@@ -30,7 +30,7 @@ You can manage site permissions in **Settings** → **Members**. This lets you c
 
 To publish your site:
 
-1. From the **All Sites** screen, open your site.
+1. From your organization **Home**, open your site.
 2. Click **Publish** in the site header.
 
 Sites are public by default. Change your site's visibility in **Settings** → **Audience**. See [Site settings](../site-settings.md).
@@ -48,4 +48,4 @@ To delete a docs site:
 1. Open **Settings** → **General**.
 2. Select [**Delete site**](../site-settings.md#delete-site).
 
-Deleting a site permanently removes its settings and customizations. Your content remains in its space.
+Deleting a site permanently removes its settings and customizations. Your content remains in your organization — find it in [All content](../../creating-content/all-content.md).

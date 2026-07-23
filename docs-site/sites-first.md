@@ -26,9 +26,9 @@ The site workspace closes that gap. Your organization contains sites, and every 
 
 ### What’s new
 
-#### All Sites is your new home
+#### Home shows all your sites
 
-When you open GitBook, you land on the **All Sites** screen: every docs site in your organization, in one place. It replaces the old Home screen as your starting point. To get back to it from anywhere, use the switcher at the top of the sidebar.
+When you open GitBook, you land on your organization **Home**: your docs sites, recent changes, and organization-wide tools, in one place. To get back to it from anywhere, use the switcher at the top of the sidebar.
 
 #### The sidebar shows your site, not your org
 
@@ -56,7 +56,7 @@ To see how drafts will look on your site, switch the site preview between **Live
 
 #### Organization settings, in context
 
-Organization settings no longer take over the whole screen. They open in context at the organization level, alongside the All Sites screen, so you can adjust organization-wide options without losing your place.
+Organization settings no longer take over the whole screen. They open in context at the organization level, alongside your organization Home, so you can adjust organization-wide options without losing your place.
 
 #### Site-inherited permissions
 

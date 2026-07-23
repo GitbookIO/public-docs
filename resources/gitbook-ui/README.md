@@ -6,16 +6,16 @@ icon: sidebar
 
 # GitBook UI
 
-GitBook is organized around your docs sites. You start at the **All Sites** screen, open a site to work on its content, and edit pages inside sections. This page walks through each part of the interface.
+GitBook is organized around your docs sites. You start at your organization **Home**, open a site to work on its content, and edit pages inside sections. This page walks through each part of the interface.
 
-### All Sites
+### Home
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_gitbook_ui_1.png" alt=""><figcaption><p>The All Sites screen gives you access to sites, content, and organization controls.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_gitbook_ui_1.png" alt=""><figcaption><p>Your organization Home gives you access to sites, content, and organization controls.</p></figcaption></figure></div>
 
-When you open GitBook, you land on **All Sites**: every docs site in your organization, in one place. From here you can open a site, create a new one, or adjust organization-wide settings. All Sites contains:
+When you open GitBook, you land on your organization **Home**: every docs site in your organization, in one place. From here you can open a site, create a new one, or adjust organization-wide settings. Home contains:
 
 * **Switcher**\
-  Get back to **All Sites** from anywhere using the switcher at the top of the sidebar. If you're part of multiple organizations, see and switch between them here, or create a new organization.
+  Get back to **Home** from anywhere using the switcher at the top of the sidebar. If you're part of multiple organizations, see and switch between them here, or create a new organization.
 * **Notifications**\
   When you're tagged in a comment or conversation, or when there is important activity in a section you're working in, you get a [notification](../../collaboration/notifications.md) to show you what's new.
 * **Ask or search**\
