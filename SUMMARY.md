@@ -65,8 +65,8 @@
   * [Inline content](creating-content/formatting/inline.md)
   * [Markdown](creating-content/formatting/markdown.md)
 * [Content structure](creating-content/content-structure/README.md)
-  * [Sections](creating-content/content-structure/sections.md)
-  * [Groups](creating-content/content-structure/groups.md)
+  * [Sections](creating-content/content-structure/space.md)
+  * [Groups](creating-content/content-structure/collection.md)
   * [Pages](creating-content/content-structure/page/README.md)
     * [Tags](creating-content/content-structure/page/tags.md)
 * [Blocks](creating-content/blocks/README.md)
@@ -122,6 +122,7 @@
 * [Comments](collaboration/comments.md)
 * [Notifications](collaboration/notifications.md)
 * [Live edits](collaboration/live-edits.md)
+* [Toolbar on published sites and site previews](collaboration/toolbar-on-published-sites-and-site-previews.md "Toolbar")
 
 ## Site access
 
@@ -200,8 +201,7 @@
 
 ## Resources
 
-* [GitBook UI](resources/gitbook-ui/README.md)
-  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
+* [GitBook UI](resources/gitbook-ui.md)
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
 * [Concepts](resources/concepts.md)

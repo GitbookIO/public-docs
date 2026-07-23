@@ -41,7 +41,7 @@ Note: GitBook subdomains are a legacy feature, and you may not have access to ch
 
 **Actions**
 
-From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](../creating-content/content-structure/sections.md#move-a-space) them to another library.
+From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](../creating-content/content-structure/space.md#move-a-space) them to another library.
 
 </details>
 

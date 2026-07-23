@@ -47,7 +47,7 @@ Unpublish your site, but keep its settings and customizations. You can publish y
 
 Unpublish and remove your site from the **Docs site** section in the GitBook app.
 
-**Note:** Deleting a site is a permanent action and cannot be undone. Any settings and customizations will be lost, but your content will remain in its [space](../creating-content/content-structure/sections.md).
+**Note:** Deleting a site is a permanent action and cannot be undone. Any settings and customizations will be lost, but your content will remain in its [space](../creating-content/content-structure/space.md).
 
 </details>
 
@@ -61,7 +61,7 @@ Open **Access** and click **Manage permissions**. You can also use **Share** fro
 
 Site permissions are available on all plans.
 
-By default, new sites derive permissions from their linked [spaces](../creating-content/content-structure/sections.md), until you update permissions from the site permissions modal.
+By default, new sites derive permissions from their linked [spaces](../creating-content/content-structure/space.md), until you update permissions from the site permissions modal.
 
 Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. In this case, each inherited space receives the highest permission level granted by the organization, any parent collection, and any site that includes it.
 

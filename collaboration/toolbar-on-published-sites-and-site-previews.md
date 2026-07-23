@@ -2,6 +2,7 @@
 description: >-
   Learn more about the toolbar that appears on your published site when you’re
   logged into GitBook
+icon: hammer
 ---
 
 # Toolbar on published sites and site previews
@@ -17,15 +18,15 @@ When viewing your live docs site, you may see a toolbar appear at the bottom of 
 The toolbar is **only visible to logged-in members of your GitBook organization**. Site visitors who are not members of your GitBook organization **will not see the toolbar**.
 {% endhint %}
 
-You will also see a slightly different version of the toolbar when you [open a preview URL for your site](../../collaboration/change-requests/#preview-a-change-request) from the GitBook app, allowing you to jump back into the app to add feedback or continue editing.
+You will also see a slightly different version of the toolbar when you [open a preview URL for your site](change-requests/#preview-a-change-request) from the GitBook app, allowing you to jump back into the app to add feedback or continue editing.
 
 #### When does the toolbar appear?
 
 You will see the toolbar in the following situations:
 
 * Viewing your live site while logged into GitBook
-* Previewing earlier versions of your site through your [version history](../../creating-content/version-control.md)
-* Previewing links for proposed changes, such as in a [change request](../../collaboration/change-requests/) created in GitBook or a pull request created through [Git Sync](../../getting-started/git-sync/github-pull-request-preview.md)
+* Previewing earlier versions of your site through your [version history](../creating-content/version-control.md)
+* Previewing links for proposed changes, such as in a [change request](change-requests/) created in GitBook or a pull request created through [Git Sync](../getting-started/git-sync/github-pull-request-preview.md)
 
 #### Why isn’t the toolbar displayed?
 
@@ -47,4 +48,4 @@ Yes. By clicking the last button on the toolbar, you can choose between differen
 2. **Close for one session:** Fully removes the toolbar in the current tab until you close it.
 3. **Don't show again:** Hides the toolbar and remembers your choice. You can restore the toolbar by clearing your browser’s local storage.
 
-<figure><img src="../../.gitbook/assets/25_10_16_gitbook_ui_preview_toolbar@2x.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_10_16_gitbook_ui_preview_toolbar@2x.jpg" alt=""><figcaption></figcaption></figure>

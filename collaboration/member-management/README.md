@@ -9,7 +9,7 @@ You can [invite and remove members](invite-members-to-your-organization.md) from
 
 ## Members & permissions
 
-Shows each person’s role, last seen date, and SSO status, if applicable. You’ll also see an overview of the [spaces](../../creating-content/content-structure/sections.md) they can access and, if you’re on the Pro plan, how many [teams](teams.md) they’re part of.
+Shows each person’s role, last seen date, and SSO status, if applicable. You’ll also see an overview of the [spaces](../../creating-content/content-structure/space.md) they can access and, if you’re on the Pro plan, how many [teams](teams.md) they’re part of.
 
 Click the **Teams** or **Access** listings for any member to jump to a list of all those teams and spaces.
 

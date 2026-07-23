@@ -5,7 +5,7 @@ icon: window-restore
 
 # Site structure
 
-The content on your site comes from [sections](../../creating-content/content-structure/sections.md) in your organization. You can link one or multiple spaces. GitBook will publish each one and handle the navigation between spaces.
+The content on your site comes from [sections](../../creating-content/content-structure/space.md) in your organization. You can link one or multiple spaces. GitBook will publish each one and handle the navigation between spaces.
 
 ## Content types
 

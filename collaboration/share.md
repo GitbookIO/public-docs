@@ -44,7 +44,7 @@ To revoke an invite link, follow the same steps as above, then find the link, op
 
 ## Invite someone to a single space or collection <a href="#sharing-a-space-or-collection" id="sharing-a-space-or-collection"></a>
 
-To share a single [space](../creating-content/content-structure/sections.md), click the **Share** button in the top-right corner of the space. To share a [collection](../creating-content/content-structure/groups.md), open its **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt=""></picture> and choose **Permissions**. This will open the **Share** modal.
+To share a single [space](../creating-content/content-structure/space.md), click the **Share** button in the top-right corner of the space. To share a [collection](../creating-content/content-structure/collection.md), open its **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt=""></picture> and choose **Permissions**. This will open the **Share** modal.
 
 ### Invite a member or team from your organization <a href="#invite-members" id="invite-members"></a>
 
