@@ -26,7 +26,7 @@ By default, GitBook uses the root of the repository as a starting point. A speci
 
 ## GitBook is creating new markdown files <a href="#gitbook-is-creating-new-markdown-files" id="gitbook-is-creating-new-markdown-files"></a>
 
-**When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overrite files that existed in your repository before.
+**When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overwrite files that existed in your repository before.
 
 ## Redirects aren't working correctly
 
@@ -77,7 +77,7 @@ In case you did not receive the notification, to troubleshoot you need to update
 1. Uninstall the GitSync integration from your organization.
 2. Reinstall the new version with the updated permissions.
 
-Please note that uninstalling the GitSync integration will require reconfiguring the integration again on any spaces it was previously connected to.
+Note that uninstalling the GitSync integration will require reconfiguring the integration again on any sections it was previously connected to.
 
 ## Potential duplicated accounts when signing in
 
