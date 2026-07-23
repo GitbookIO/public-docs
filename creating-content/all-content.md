@@ -23,7 +23,7 @@ To narrow the list, click the **All sites** filter and choose a site. To find so
 
 Click **Create content** to start new content from this screen.
 
-Its best that content belongs to a parent site. Create new content inside a site whenever you can — it keeps your structure, permissions, and publishing in one place. See [Site structure](../docs-site/site-structure/) to learn how sections fit into a site.
+It’s best that content belongs to a parent site. Create new content inside a site whenever you can — it keeps your structure, permissions, and publishing in one place. See [Site structure](../docs-site/site-structure/) to learn how sections fit into a site.
 
 ### Content that isn’t part of a site
 

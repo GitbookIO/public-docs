@@ -30,7 +30,7 @@ Page slugs in auto-translated sections may change unless the page has a fixed sl
 
 ## Set up an auto translation
 
-To translate a section to a new language, go back to your organization **Home** and click **Settings**, under **Admin** in the sidebar. In the settings screen, click **Translations** under the **Organization** group, then click **Create translation**.
+To translate a section to a new language, go back to your organization **Home** and click **Translations** in the sidebar, then click **Create translation**.
 
 In the **Create translation** modal, choose a:
 
