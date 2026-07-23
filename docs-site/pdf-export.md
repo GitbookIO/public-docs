@@ -9,7 +9,7 @@ icon: file-pdf
 
 {% include "../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
-To enable or disable PDF export for visitors to your [published docs site](https://github.com/GitbookIO/public-docs/blob/main/collaboration/broken-reference/README.md), open the docs site’s dashboard, open the **Customization** tab, and navigate to **Configure → Page actions**. From there, you can toggle **Export as PDF** on or off.
+To enable or disable PDF export for visitors to your [published docs site](publish-a-docs-site/), open **Customize**, under **Tools** in the site sidebar, and navigate to **Configure → Page actions**. From there, you can toggle **Export as PDF** on or off.
 
 This setting determines whether or not **readers of your published content can download it in PDF format**. This feature is only available for **Premium and Ultimate sites**.
 

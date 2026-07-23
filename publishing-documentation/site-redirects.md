@@ -17,7 +17,7 @@ Redirects can be created as either **Live** or **Draft**. Draft redirects allow 
 
 ## Managing redirects on your site
 
-To get started, view your site’s dashboard in GitBook and open the **Settings** tab, then click **Domain & redirects**.
+To get started, open your site’s **Settings**, under **General** in the site sidebar, then click **Redirects**.
 
 ### Creating redirects
 

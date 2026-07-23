@@ -19,7 +19,7 @@ GitBook sites offer different search experiences depending on what you want for 
 
 AI Search is available on Premium and Ultimate site plans. GitBook Assistant is available on Ultimate site plans.
 
-To choose your site’s search experience, open your site’s dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can choose your preferred experience.
+To choose your site’s search experience, open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**. Here you can choose your preferred experience.
 
 <figure><img src="../.gitbook/assets/26_01_06_search_ai@2x.png" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
 

@@ -41,7 +41,7 @@ After indexing a repository, GitBook AI will index this information in your know
 
 ### Install & configure the GitHub Entities integration
 
-The GitHub Entitles integration is currently in closed beta. Once accepted to the beta, you’ll be able to install the GitHub Entities integration from the home screen in the GitBook app.
+The GitHub Entities integration is currently in closed beta. Once accepted to the beta, you’ll be able to install the GitHub Entities integration from the **Integrations** screen in the GitBook app.
 
 To configure the GitHub Entities integration, you’ll need to both authenticate with GitHub, and add the GitBook Entities app to your GitBook repositories:
 

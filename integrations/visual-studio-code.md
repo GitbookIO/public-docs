@@ -19,7 +19,7 @@ The GitBook Visual Studio Code integration allows you to search and ask question
 
 ### Installation & configuration
 
-You can install the Visual Studio Code integration from the home screen in the GitBook app, or from the [Visual Studio Code extension marketplace](https://marketplace.visualstudio.com/items?itemName=GitBook.gitbook-vscode).
+You can install the Visual Studio Code integration from the **Integrations** screen in the GitBook app, or from the [Visual Studio Code extension marketplace](https://marketplace.visualstudio.com/items?itemName=GitBook.gitbook-vscode).
 
 After installing the integration to Visual Studio Code, you’ll need to log into your GitBook account in order to complete the configuration.
 

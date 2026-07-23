@@ -9,7 +9,7 @@ icon: chart-line-up
 
 Site analytics gives you information on the content you’ve published and how it performs. It’s split into different sections — **Traffic**, **Pages & feedback**, **Agent and LLMs**, **Search**, **Ask AI**, **Links**, **MCP**, and **OpenAPI**.
 
-You can see a top-level overview of your analytics on the **Overview** tab of your site’s dashboard, with a globe that shows views in the last hour by location.
+You can see a top-level overview of your analytics on your site’s **Overview** screen, under **General** in the site sidebar, with a globe that shows views in the last hour by location.
 
 Click **Analytics** in the site header to open site analytics for your site.
 
