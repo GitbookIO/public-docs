@@ -126,7 +126,7 @@ You should only create **one translation workflow per language** of any given so
 
 <summary>What are some current limitations?</summary>
 
-* Translations do not localize UI elements in your variant automatically. Open **Customize**, under **Tools** in the site sidebar, to [localize the interface](../docs-site/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../docs-site/customization/#customizing-sites-with-multiple-sections).
+* Translations do not localize UI elements in your variant automatically. Open **Customize**, under **Tools** in the site sidebar, to [localize the interface](../docs-site/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../docs-site/customization/#customizing-sites-with-multiple-sections-or-variants).
   * This includes user-input customizations, such as announcement banners.
 * Translations cannot add extra content to the page - like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated section to note this, or the [announcement banner](../docs-site/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
 * Changing the glossary triggers a full re-translation of all pages, which can increase processing time and cost. There is no partial re-translation based on glossary usage at this time.
