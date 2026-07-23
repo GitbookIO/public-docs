@@ -11,7 +11,7 @@ You can manage your login details, third-party login options, GitBook subdomain,
 
 ### How to access your personal account settings
 
-Click on the **settings** icon, then click on **personal settings**. This will take you to the account tab of your personal settings, and you’ll see additional tabs containing further settings on the left-hand side.
+Click the **settings** icon, then click **personal settings**. Account and organization settings share one screen, grouped into **Account** and **Organization** in the left-hand sidebar. Click **Back to app** to return to your content. [Confirm: entry point for opening personal settings from the site workspace UI]
 
 <details>
 
@@ -31,16 +31,16 @@ You can also use your Google and/or GitHub credentials to log into GitBook.
 
 **Publishing**
 
-Each published GitBook space that lives within your personal library will have a domain in two parts:
+Each published GitBook section that lives within your personal library will have a domain in two parts:
 
 1. `[something].gitbook.io` (this is the GitBook subdomain)
-2. `/[spaceURL]` (this is set within the settings for the space itself)
+2. `/[spaceURL]` (this is set within the settings for the section itself)
 
-You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.
+You can update the GitBook subdomain here, as well as the default content, which is the section that visitors will see if they navigate to your GitBook subdomain directly.
 
 **Preferences**
 
-You can choose your preferred interface theme — dark, light, or matching your system preference. **Note:** this setting only affects your experience when logged into the GitBook app, and will not affect your published content in any way
+You can choose your preferred interface theme — dark, light, or matching your system preference. **Note:** this setting only affects your experience when logged into the GitBook app, and will not affect your published content in any way.
 
 **Troubleshooting**
 
