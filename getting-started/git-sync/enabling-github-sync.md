@@ -42,10 +42,30 @@ Once you’ve selected the correct repository, choose which branch you want comm
 
 ### Perform an initial sync
 
-When syncing for the first time, you’ll have the option to sync in one of two directions:
+For the initial sync, the selected source is authoritative. The initial sync can replace existing content in its destination.
 
-1. GitBook -> GitHub will sync your space’s content **to** the selected branch. This is great if you’re starting from an empty repository and want to get your GitBook content in quickly.
-2. GitHub -> GitBook will sync your space’s content **from** the selected branch. This is great if you have existing Markdown content in a repository and want to bring it into GitBook.
+Choose one of these directions:
+
+1. **GitBook → GitHub:** GitBook is the source of truth. Use this direction only when the selected branch can receive your space’s content.
+2. **GitHub → GitBook:** The selected GitHub branch is the source of truth. Use this direction only when your space can receive that branch’s content.
+
+{% hint style="warning" %}
+**GitHub → GitBook can replace your space’s content.** If you select an empty repository, GitBook can replace your space with the repository’s empty content.
+
+Before you start the initial sync, confirm the repository, branch, and direction. Make sure the destination content is safe to replace.
+{% endhint %}
+
+When you’re ready, start the initial sync.
+
+### If you chose the wrong direction
+
+Git Sync operations appear in the space’s **Version history**. Locate the revision immediately before the Git Sync operation, then select **Rollback** to restore the prior space content.
+
+For detailed steps, see [Version control](../../creating-content/version-control.md#roll-back-to-a-previous-version).
+
+Disconnecting Git Sync stops future synchronization. It does not restore content automatically.
+
+If the pre-sync revision is unavailable or you can’t complete the rollback, [contact GitBook Support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support).
 
 ### Write and commit
 
