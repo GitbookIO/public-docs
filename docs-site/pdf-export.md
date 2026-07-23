@@ -23,7 +23,7 @@ Note that links across spaces are not currently supported when exporting interna
 
 #### Export an individual page
 
-1.  Open the page you want to export, then open the page’s [Actions menu](../resources/gitbook-ui.md#the-actions-menu)
+1.  Open the page you want to export, then open the page’s [Actions menu](../resources/gitbook-ui/#the-actions-menu)
 
     <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
@@ -42,7 +42,7 @@ Note that links across spaces are not currently supported when exporting interna
 
     <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>
 
-    in the [space header](../resources/gitbook-ui.md#space-header) and choose **Export as PDF** in the drop-down menu.\
+    in the [space header](../resources/gitbook-ui/#space-header) and choose **Export as PDF** in the drop-down menu.\
     \
     \&#xNAN;_Note: This action is not available within a change request._
 2. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.

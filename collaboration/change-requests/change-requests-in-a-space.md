@@ -8,7 +8,7 @@ When you’re within a [space](../../resources/concepts.md#space), you can make 
 
 ### Creating a change request
 
-Click the **Edit** button in the [space header](../../resources/gitbook-ui.md#space-header) to start a new change request.
+Click the **Edit** button in the [space header](../../resources/gitbook-ui/#space-header) to start a new change request.
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -45,11 +45,11 @@ Head to [Writing with GitBook Agent](../../gitbook-agent/write-and-edit-with-ai.
 
 ### Previewing a change request
 
-You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [space header](../../resources/gitbook-ui.md#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
+You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [space header](../../resources/gitbook-ui/#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
 
 Below the **Preview** button is a URL for your site preview. Click this and your site preview will open in full in a new tab.
 
-When you open a preview URL in a new tab, you will also see [the Preview toolbar](../toolbar-on-published-sites-and-site-previews.md) at the bottom of the browser window. This toolbar lets you quickly jump back into GitBook to view, edit, or comment on the change request, or open the live version of your site.
+When you open a preview URL in a new tab, you will also see [the Preview toolbar](../../resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md) at the bottom of the browser window. This toolbar lets you quickly jump back into GitBook to view, edit, or comment on the change request, or open the live version of your site.
 
 {% hint style="info" %}
 You can only preview change requests for spaces added to a [published docs site](../../docs-site/publish-a-docs-site/).

@@ -6,7 +6,7 @@ description: Add heading blocks to a page to organize your content and improve S
 
 Headings help give your documents structure — and using keywords in headings will also help search engines understand that structure, which can help your page rank higher in search results.
 
-GitBook offers three levels of headings. Heading levels 1 (H1) and 2 (H2) will appear in the [page outline](../../resources/gitbook-ui.md#page-outline).
+GitBook offers three levels of headings. Heading levels 1 (H1) and 2 (H2) will appear in the [page outline](../../resources/gitbook-ui/#page-outline).
 
 ### Anchor links
 
