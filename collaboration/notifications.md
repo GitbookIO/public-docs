@@ -49,7 +49,8 @@ For both app and email notifications, [you can configure](https://app.gitbook.co
 
 We currently offer notifications for the following areas:
 
-* Sections and groups
-* Change requests
-* Mentions in comments
-* Organizations
+* Sections — comments posted in a section
+* Change requests — reviews requested by collaborators
+* Comments — replies to your comments
+* Mentions — when you’re mentioned in a comment
+* Organizations — upgrade requests from collaborators
