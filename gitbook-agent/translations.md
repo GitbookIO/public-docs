@@ -30,17 +30,21 @@ Page slugs in auto-translated sections may change unless the page has a fixed sl
 
 ## Set up an auto translation
 
-To translate a section to a new language, start by creating a new [section](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
+To translate a section to a new language, go back to **All Sites** and click **Settings**. In the settings screen, click **Translations** under the **Organization** group, then click **Create translation**.
 
-From the modal that appears, you’ll need to choose a:
+In the **Create translation** modal, choose a:
 
-* Source
-* Source language
-* Target language
+* **Source** — the section you want to translate
+* **From** language
+* **To** language
 
-These options will be used to translate your section into a duplicated, translated section in your organization. You’ll also see a quick overview on the cost of translating your section.
+Click **Create** to start the translation workflow. These options will be used to translate your section into a duplicated, translated section in your organization.
+
+The **Translations** screen also lists your configured translation workflows, including their status, source, runs, and translated pages and words. Workflows re-run every time the source content is updated.
 
 ### Advanced configuration
+
+Click **Show advanced instructions** in the **Create translation** modal to configure these options.
 
 **Custom AI instructions:** Add advanced instructions to guide the AI on tone of voice, style, or other preferences. This helps ensure your translations match your brand or audience.
 
