@@ -7,7 +7,7 @@ icon: globe
 
 When you finish writing, editing, or importing your content, you can publish it to a docs site and make it available to your selected audience.
 
-The content on your docs site comes from [spaces](../../creating-content/content-structure/space.md) in your organization. When you create a site, you can create a new space or link an existing one.
+The content on your docs site comes from [spaces](../../creating-content/content-structure/sections.md) in your organization. When you create a site, you can create a new space or link an existing one.
 
 <figure><img src="../../.gitbook/assets/25_12_10_publishing_documentation_publish_docs@2x.png" alt="A GitBook screenshot showing the docs sites homepage"><figcaption><p>GitBook's docs sites homepage.</p></figcaption></figure>
 
@@ -20,7 +20,7 @@ Give your site a name, choose a starting point for your content, and select whet
 If you already have content in a space that you would like to use, you can create a docs site directly from that space by opening the space and clicking **Share** in the top-right corner of the window. Then choosing **Publish as a docs site** from the share modal.
 
 {% hint style="info" %}
-**Note:** You can also manage permissions at the site level — allowing you to control who can view or edit each site independently of your organization settings. See [Roles](../../collaboration/member-management/roles.md) for more details.&#x20;
+**Note:** You can also manage permissions at the site level — allowing you to control who can view or edit each site independently of your organization settings. See [Roles](../../collaboration/member-management/roles.md) for more details.
 {% endhint %}
 
 ### Publish a docs site

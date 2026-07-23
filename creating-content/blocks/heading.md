@@ -16,7 +16,7 @@ When you add a heading to a page, it creates an anchor link. You can then link d
 
 You can see anchor links in public content, or private content in read-only mode, by hovering over the title and clicking the `#` that appears next to it. This will update the URL in your browser’s top bar, so you can copy it to use elsewhere.
 
-If you want to link to a particular anchor from a page within your GitBook space, you can use a [relative link](../formatting/inline.md#relative-links), which will update if you change the heading to prevent the link from breaking.
+If you want to link to a particular anchor from a page within your section, you can use a [relative link](../formatting/inline.md#relative-links), which will update if you change the heading to prevent the link from breaking.
 
 #### Edit an anchor
 

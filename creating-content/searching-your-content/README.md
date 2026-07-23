@@ -16,5 +16,5 @@ You can use quick find to look for specific words or phrases, or you can ask Git
 {% hint style="success" %}
 **Global search**
 
-If you’re publishing your documentation on [an Ultimate site plan](../../account-management/plans/#site-plans), and add multiple spaces as [site sections](../../docs-site/site-structure/site-sections.md), your users will be able to use the **Ask or search** bar to find information across all your site sections.
+If your site has multiple sections, visitors can use the **Ask or search** bar to find information across all of them.&#x20;
 {% endhint %}

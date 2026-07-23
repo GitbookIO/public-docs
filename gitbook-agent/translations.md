@@ -30,7 +30,7 @@ Page slugs in auto-translated spaces may change unless the page has a fixed slug
 
 ## Set up an auto translation
 
-To translate a space to a new language, start by creating a new [space](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
+To translate a space to a new language, start by creating a new [space](../creating-content/content-structure/sections.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
 
 From the modal that appears, you’ll need to choose a:
 

@@ -42,10 +42,10 @@ By default, images are set to their original size with a maximum width of 300px.
 
 1. **Inline size:** The image is proportionally sized to the font — great for icons and badges.
 2. **Original size:** The image will remain inline at its original size, with a maximum width of 300 pixels.
-3. **Convert to block:** This turns an inline image into a [image block](../blocks/insert-images.md), which is as wide as your content.
+3. **Convert to block:** This turns an inline image into a image block, which is as wide as your content.
 
 {% hint style="info" %}
-[Image blocks](../blocks/insert-images.md) offer more options, including more sizes and the ability to add a caption — but will not appear inline with your text.
+Image blocks offer more options, including more sizes and the ability to add a caption — but will not appear inline with your text.
 {% endhint %}
 
 ### Representation in Markdown
@@ -80,7 +80,7 @@ You can insert three different types of links:
 
 ### Relative links
 
-Relative links point to [pages](../content-structure/page/) and headings in the same space. Use them when you want GitBook to keep the link up to date if the target page is renamed or moved.
+Relative links are links created by linking to pages that already exist in your section. The advantage of using relative links is that if the page's URL, name, or location changes, its reference will be kept up to date — so you'll end up with fewer broken links.
 
 Here’s how to insert a relative link:
 
@@ -90,19 +90,9 @@ Here’s how to insert a relative link:
 4. Select the page from the drop-down search results.
 5. Hit `Enter`.
 
-GitBook keeps these links working when the target page moves or its slug changes. GitBook also creates an automatic redirect from the old URL to the new one. Learn more in [Site redirects](../../publishing-documentation/site-redirects.md#about-automatic-redirects).
-
-#### Markdown examples
-
-```markdown
-[Link to another page in this space](../content-structure/page.md)
-[Link to a section on this page](#math--tex)
-[Link to a section in another page in this space](../content-structure/page.md#page-options)
-```
-
 ### Absolute links
 
-Absolute links are full URLs that you can copy and paste into your content. Use them when you want to link outside the current space.
+Absolute links are external links that you can copy and paste into your content. They're great when you want to link to something outside your documentation.
 
 To insert an absolute link:
 
@@ -110,29 +100,6 @@ To insert an absolute link:
 2. Hit / to open the inline palette and choose Link, click the **Link** button in the context menu, or hit **⌘ + K**.
 3. Paste the URL you want to link to.
 4. Hit `Enter`.
-
-#### Cross-space links
-
-If you want to link to a page in another space, use that page’s internal GitBook URL:
-
-```markdown
-[Link text](https://app.gitbook.com/s/SPACE_ID/PAGE_PATH)
-```
-
-You can also insert a cross-space link through the editor:
-
-1. Click somewhere in your paragraph where you want to insert the link, or select some text.
-2. Hit / to open the inline palette and choose Link, click the **Link** button in the context menu, or hit **⌘ + K**.
-3. Start typing the title of the page you want to link to.
-4. Select the other space in the link picker, then select the page from the search results.
-5. Hit `Enter`.
-
-#### Markdown examples
-
-```markdown
-[GitBook blog](https://www.gitbook.com/blog)
-[Page in another space](https://app.gitbook.com/s/SPACE_ID/PAGE_PATH)
-```
 
 {% hint style="info" %}
 **Why don't external links open in a new tab?**
@@ -156,9 +123,7 @@ Here’s how to insert an email address `mailto` link:
 ### Representation in Markdown
 
 ```markdown
-[This is a relative link to another page in this space](../content-structure/page.md)
-[This is a relative link to a section on this page](#math--tex)
-[This is a cross-space link](https://app.gitbook.com/s/SPACE_ID/PAGE_PATH)
+[This is a relative link to another page in this section](../content-structure/page.md)
 [This is an absolute link](https://www.gitbook.com/blog)
 [This is a link](mailto:support@gitbook.com) to our support email address
 ```
@@ -168,7 +133,7 @@ Here’s how to insert an email address `mailto` link:
 Using this option, you can create an inline math formula in your content, like this: $$f(x) = x * e^{2 pi i \xi x}$$. We use the [KaTeX](https://katex.org/docs/supported.html) library to render formulas.
 
 {% hint style="info" %}
-You can also insert [a block-level math formula](../blocks/math-and-tex.md) by opening the command palette in an empty block and choosing the second Math & TeX option.
+You can also insert a block-level math formula by opening the command palette in an empty block and choosing the second Math & TeX option.
 {% endhint %}
 
 ### Representation in Markdown
@@ -185,7 +150,7 @@ Buttons are a great way to highlight calls to action or add a search or Ask AI b
 
 ### Button actions
 
-Buttons can do more than link to a URL. You can also turn a button into a search or ask GitBook Assistant bar — right from the page. These actions work on published pages, too — as you can see from the examples belo
+Buttons can do more than link to a URL. You can also turn a button into a search or ask GitBook Assistant bar — right from the page. These actions work on published pages, too — as you can see from the examples below.
 
 You can configure the following actions:
 
@@ -199,7 +164,7 @@ Open search with an optional preset query: <button type="button" class="button p
 
 #### **Add a Ask AI/GitBook Assistant bar**
 
-Open [GitBook Assistant](../../ai-and-search/gitbook-ai-assistant.md) with an optional preset prompt: <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
+Open GitBook Assistant with an optional preset prompt: <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
 
 #### **Add a disabled button**
 
@@ -226,7 +191,7 @@ Link and inactive buttons have both primary and secondary styles. Here are a cou
 
 ## Icons
 
-Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your [customization settings](../../docs-site/customization/icons-colors-and-themes.md).
+Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your customization settings.
 
 <i class="fa-facebook">:facebook:</i> <i class="fa-github">:github:</i> <i class="fa-x-twitter">:x-twitter:</i> <i class="fa-instagram">:instagram:</i>
 
@@ -240,4 +205,4 @@ Visit [Font Awesome](https://fontawesome.com/) to explore the different icons av
 
 ## Expressions
 
-Expressions allow you to dynamically display content defined in a [variable](../variables-and-expressions.md). Expressions can be inserted from the `/` menu. Once inserted, clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.
+Expressions allow you to dynamically display content defined in a variable. Expressions can be inserted from the `/` menu. Once inserted, clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.

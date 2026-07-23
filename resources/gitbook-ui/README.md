@@ -28,7 +28,7 @@ The sidebar allows you to see and overview of your GitBook organization at a gla
 * **Docs sites**\
   Toggle this section to view all the [docs sites](../../docs-site/publish-a-docs-site/) in your organization right in the sidebar and jump to one with a click.
 * **Spaces**\
-  The spaces section is where you’ll find the [collections](../../creating-content/content-structure/collection.md) and [spaces](../../creating-content/content-structure/space.md) you create when adding more content. Head to our [content structure](../../creating-content/content-structure/) section to find out more.
+  The spaces section is where you’ll find the [collections](../../creating-content/content-structure/groups.md) and [spaces](../../creating-content/content-structure/sections.md) you create when adding more content. Head to our [content structure](../../creating-content/content-structure/) section to find out more.
 * **Settings**\
   You’ll find [personal settings](../../account-management/account-settings.md) and [organization settings](../../account-management/organization-settings.md) at the bottom of the sidebar. Here, you can also toggle light/dark mode, or get help from our support team if needed.
 * **Trash**\

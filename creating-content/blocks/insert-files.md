@@ -1,10 +1,10 @@
 ---
-description: Manage and add files to your space such as PDFs, videos, documents and more
+description: Manage and add files to your site such as PDFs, videos, documents and more
 ---
 
 # Files
 
-You can upload files to your GitBook space and add them to your page for people to view or download.
+You can upload files to your GitBook section and add them to your page for people to view or download.
 
 You can show some files, such as images and OpenAPI files, on the page itself for people to see without clicking anything. For others, such as PDFs, users will have to click to view or download it.
 
@@ -18,7 +18,7 @@ This is a caption on a file.
 
 ### Uploading a file
 
-You can manage uploaded files in the Files side panel of your space. You can find the Files panel at the top of your space’s table of contents.
+You can manage uploaded files in the **Library** tab of your site section. The **Library** tab is beside **Pages** at the top of the left navigation.
 
 To upload a file, drag and drop it into the **Drop your file or browse** section, or select it and use your system file dialog to select the file you want to upload.
 
@@ -26,10 +26,10 @@ To upload a file, drag and drop it into the **Drop your file or browse** section
 GitBook allows you to upload files up to 100MB per file.
 {% endhint %}
 
-You can also add files to your space when you add an [image block](insert-images.md) or an [OpenAPI block](../../api-references/openapi/). When you create one of these blocks, the Files panel will open, so you can either select a file, or upload a new file.
+You can also add files to a page when you add an image block or an OpenAPI block. When you create one of these blocks, the **Library** tab opens, so you can either select a file, or upload a new file.
 
 {% hint style="info" %}
-**Tip:** You can also drag and drop images from your file system directly into the editor — or paste a copied image into your content. GitBook will automatically add them to the Files side panel for the respective space, so you can view and manage them later.
+**Tip:** You can also drag and drop images from your file system directly into the editor — or paste a copied image into your content. GitBook will automatically add them to the **Library** tab for the respective section, so you can view and manage them later.
 {% endhint %}
 
 ### Renaming a file
@@ -48,12 +48,12 @@ To delete a file, open the **Actions menu** <picture><source srcset="../../.gitb
 
 If you have a file that simply needs updating to a new version, you can replace it. This will swap out the old file and put the new file in its place. Any blocks that previously referred to the old file will then refer to the new file.
 
-To replace a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the file and click **Replace**. In the file replacement dialog that appears, select the new file and wait for the upload indicator to complete. Your file will automatically update everywhere it appeared in your space.
+To replace a file, open the **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the file and click **Replace**. In the file replacement dialog that appears, choose the new file and wait for the upload indicator to complete. Your file automatically updates everywhere it appeared in your section.
 
-This can be helpful if, for example, you’ve had a major product redesign and need to update outdated UI screenshots that appear on multiple pages. Replacing the original file would update the screenshot everywhere in your space, saving you time and effort.
+This can be helpful if, for example, you've had a major product redesign and need to update outdated UI screenshots that appear on multiple pages. Replacing the original file would update the screenshot everywhere in your section, saving you time and effort.
 
 {% hint style="info" %}
-**Tip:** Once you’ve uploaded an image or a file, you can reference it anywhere in your space by creating an image or a file block and selecting it from the **Files** side panel.
+**Tip:** Once you've uploaded an image or a file, you can reference it anywhere in your section by creating an image or a file block and selecting it from the **Library** tab.
 
 We recommend you do this rather than uploading the image again every time you want to include it, to make it easier to replace images later and to avoid having multiple files with the same name.
 {% endhint %}
