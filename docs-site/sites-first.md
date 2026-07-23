@@ -16,6 +16,10 @@ GitBook is now reorganized to be a site specific. Everything in the app is organ
 
 This page explains what changed, what it means for your existing content, and how to opt in.
 
+{% hint style="info" %}
+**Who has the new experience?** Organizations created in the past month already have it. Any existing organization can enable it today, and we’re gradually rolling it out to everyone. If your app doesn’t match these docs yet, that’s why.
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/site-centric @2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Why the site workspace
