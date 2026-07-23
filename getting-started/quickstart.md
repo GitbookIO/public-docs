@@ -19,7 +19,7 @@ At the end of this guide, you’ll have a live documentation site, ready to expa
 {% step %}
 #### Create your first site
 
-1. From the **All Sites** screen, click the **+** next to **Sites** in the sidebar.
+1. From your organization **Home**, click the **+** next to **Sites** in the sidebar.
 2. Give your site a name your visitors will recognize.
 3. Click **Create**.
 {% endstep %}
@@ -131,7 +131,7 @@ Your site looks great out of the box — and under **Customize**, you can set yo
 
 You can publish your site with a click at any time.
 
-1. Open your site from the **All Sites** screen.
+1. Open your site from your organization **Home**.
 2. Click **Publish** in the site header.
 
 Once your site is live, the **Overview** screen updates with a link to the live site.
