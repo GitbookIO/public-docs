@@ -1,7 +1,7 @@
 ---
 description: >-
-  Identify incorrect and outdated pages in your documentation, push them to a
-  triage queue, and fix them automatically with GitBook Agent
+  Identify incorrect and outdated pages in your documentation, review the
+  findings, and fix them automatically with GitBook Agent
 icon: magnifying-glass-plus
 tags:
   - early-access
@@ -41,13 +41,13 @@ GitBook Agent works best when it’s connected to external sources like your sup
 {% step %}
 #### GitBook Agent generates findings
 
-GitBook regularly reviews your sources and generates findings based on the results. These findings are automatically pushed into your triage queue. [Learn more about how we ingest data.](../ai-and-search/connections/)
+GitBook regularly reviews your sources and generates findings based on the results. GitBook collects these findings for your team to review. [Learn more about how we ingest data.](../ai-and-search/connections/)
 {% endstep %}
 
 {% step %}
-#### Review your triage queue
+#### Review your findings
 
-Open the **Triage** queue to start fixing issues. Each finding includes a summary of the issue, the topic it belongs to, supporting evidence, and links to the pages GitBook used as context.
+Review your findings to start fixing issues. Each finding includes a summary of the issue, the topic it belongs to, supporting evidence, and links to the pages GitBook used as context.
 {% endstep %}
 
 {% step %}
@@ -61,18 +61,6 @@ To request access to GitBook Agent’s automatic documentation improvement featu
 
 <figure><img src="../.gitbook/assets/2026-07-13_connections@2x.png" alt=""><figcaption></figcaption></figure>
 
-## Triage
-
-The **Triage** view shows the **findings** GitBook Agent has detected for your site. You can filter the list by **Topic** and **Severity** to focus on the findings you want to review first.
-
-Each row shows the finding title and when GitBook identified it. Clicking a finding opens its full detail view.
-
-### Triage details
-
-When you open an item in Triage, you can review its details and summary. This includes **Status**, **Severity**, **Type**, and **Topic**, followed by a description of the issue and why GitBook flagged it.
-
-Some findings also include linked evidence pages so you can review the source material behind the finding. Each row shows the finding title and when GitBook identified it. Selecting a finding opens its full detail view.
-
-### Automatic fixes
+## Automatic fixes
 
 When a finding supports automatic fixes, GitBook shows a **Create change request** action so the GitBook Agent can generate a proposed fix for your team to review. To skip the suggestion, archive the finding instead. GitBook won’t re-open findings that you’ve archived.

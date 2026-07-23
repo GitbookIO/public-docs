@@ -18,7 +18,7 @@ If you edit your docs locally with an AI assistant, use [GitBook’s skill.md fi
 GitBook Agent can:
 
 * **Write docs based on a prompt:** Ask GitBook Agent to update a page, rename a product, or make any other change you need.
-* **Import content into GitBook:** Attach files like PDFs and Microsoft Word documents in the GitBook Agent chat sidebar. GitBook Agent extracts and formats the content into pages in your space.
+* **Import content into GitBook:** Attach files like PDFs and Microsoft Word documents in the GitBook Agent chat sidebar. GitBook Agent extracts and formats the content into pages in your section.
 * **Plan and implement bigger changes:** Describe what you need. GitBook Agent opens a change request, explains its edits, responds to feedback, and implements the plan you create together.
 * **Follow your styleguide:** Define your team's writing rules in a [styleguide](../creating-content/styleguide.md), and GitBook Agent treats it as the source of truth when writing or reviewing content.
 * **Follow custom, site-level instructions:** Give GitBook Agent site-specific instructions, such as how to add links or which block types to avoid.
@@ -50,9 +50,9 @@ You can configure GitBook Agent with your team’s style guide or site-specific 
 
 GitBook Agent uses this context whenever it creates or edits content for that site.
 
-To add a style guide or custom instructions, open your site’s **Settings** and choose the **Agents** tab. Add your instructions in the custom instructions field.
+To add a style guide or custom instructions, open your site’s **Settings**, under **General** in the site sidebar, and click **Agents**. Add your instructions in the custom instructions field.
 
-You can also open this screen from a change request. Open the GitBook Agent chat window, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and choose **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
+You can also open this screen from a change request. Open the GitBook Agent chat window, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and click **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
 
 #### Custom instructions example
 
