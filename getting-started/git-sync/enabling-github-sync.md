@@ -6,7 +6,7 @@ description: Set up and authorize the GitHub integration for GitBook
 
 ### Getting started
 
-In the section you want to sync with your GitHub repo, head to the [section header](../../resources/gitbook-ui/#space-header) in the top right, and click **Configure**. From the provider list, click **GitHub Sync**. [Confirm: entry point for configuring Git Sync on a section in the site workspace UI]
+In the section you want to sync with your GitHub repo, head to the [section header](../../resources/gitbook-ui/#space-header) in the top right, and click **Configure**. From the provider list, click **GitHub Sync**.
 
 <figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x.png" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
 

@@ -13,7 +13,7 @@ The change requests screen lets you view and manage active change requests — o
 
 ### Navigating the change request screen
 
-All change requests appear in the change requests screen. [Confirm: does the change requests screen list change requests for the current site only, or across the organization?] You can filter by status or filter to show only change requests created by GitBook Agent.
+All change requests appear in the change requests screen. You can filter by status or filter to show only change requests created by GitBook Agent.
 
 Click a change request to open it in an expanded view. From there you can review, edit, and merge the change request, or continue working on it with GitBook Agent. The expanded view also shows the participants and reviewers, the description, and a diff view of the changes.
 

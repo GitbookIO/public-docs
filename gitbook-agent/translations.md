@@ -30,7 +30,7 @@ Page slugs in auto-translated sections may change unless the page has a fixed sl
 
 ## Set up an auto translation
 
-To translate a section to a new language, start by creating a new [section](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu. [Confirm: entry point for creating a translation section in the site workspace UI]
+To translate a section to a new language, start by creating a new [section](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
 
 From the modal that appears, you’ll need to choose a:
 

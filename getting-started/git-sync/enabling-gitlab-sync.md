@@ -6,7 +6,7 @@ description: Set up and authorize the GitLab integration for GitBook
 
 ### Getting started
 
-In the section you want to sync with your GitLab repo, head to the section menu in the top right, and click **Synchronize with Git**. From the provider list, click **GitLab Sync**, and click **Configure**. [Confirm: entry point for configuring Git Sync on a section in the site workspace UI]
+In the section you want to sync with your GitLab repo, head to the section menu in the top right, and click **Synchronize with Git**. From the provider list, click **GitLab Sync**, and click **Configure**.
 
 <figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_1.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 

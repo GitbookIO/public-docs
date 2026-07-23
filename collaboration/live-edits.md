@@ -23,7 +23,7 @@ When a section is in **Live edits** mode, the section header will show the **Edi
 
 You cannot unlock live editing if:
 
-1. a section is published with the **In collection**, **Public**, or **Unlisted** visibility option. [Confirm: are these visibility options still current in the site workspace model, and what is the "In collection" option called now?]
+1. a section is published with the **In collection**, **Public**, or **Unlisted** visibility option.
 2. a section has [GitHub or GitLab Sync](../getting-started/git-sync/) enabled.
 
 {% hint style="info" %}

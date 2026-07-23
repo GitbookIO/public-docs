@@ -49,7 +49,7 @@ For both app and email notifications, [you can configure](https://app.gitbook.co
 
 We currently offer notifications for the following areas:
 
-* Sections and groups [Confirm: label of this notification type in the notification settings UI]
+* Sections and groups
 * Change requests
 * Mentions in comments
 * Organizations
