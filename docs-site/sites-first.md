@@ -12,9 +12,13 @@ tags:
 
 ## The sites-first workspace in GitBook
 
-GitBook is now reorganized to be a site specific. Everything in the app is organized around the docs sites you publish, so what you see while editing matches what your visitors see when reading.
+GitBook is now organized around your docs sites. Everything in the app is arranged around the sites you publish, so what you see while editing matches what your visitors see when reading.
 
 This page explains what changed, what it means for your existing content, and how to opt in.
+
+{% hint style="info" %}
+The new experience is rolling out gradually. New organizations already have it, and existing organizations can enable it today ahead of the global rollout.
+{% endhint %}
 
 <figure><img src="../.gitbook/assets/site-centric @2x.png" alt=""><figcaption></figcaption></figure>
 
