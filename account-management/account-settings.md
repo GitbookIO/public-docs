@@ -11,11 +11,11 @@ You can manage your login details, third-party login options, GitBook subdomain,
 
 ### How to access your personal account settings
 
-Click the **settings** icon, then click **personal settings**. Account and organization settings share one screen, grouped into **Account** and **Organization** in the left-hand sidebar. Click **Back to app** to return to your content.
+Go back to **All Sites** and click **Settings**. Account and organization settings share one screen, grouped into **Account** and **Organization** in the left-hand sidebar. Your personal settings live under **Account**. Click **Back to app** to return to your content.
 
 <details>
 
-<summary>Account</summary>
+<summary>General</summary>
 
 **Your profile**
 
@@ -62,7 +62,7 @@ GitBook can provide you with two types of [notifications](../collaboration/notif
 
 <details>
 
-<summary>Organization</summary>
+<summary>Organizations</summary>
 
 Your personal account could be a member of any number of organizations, and this tab can be considered a shortcut to the [organization settings page](organization-settings.md) for each organization. You can also create a new organization from this page.
 
@@ -70,7 +70,7 @@ Your personal account could be a member of any number of organizations, and this
 
 <details>
 
-<summary>Developer</summary>
+<summary>Developer tools</summary>
 
 On this page you can manage and create access tokens for the [GitBook API](https://developer.gitbook.com/).
 
