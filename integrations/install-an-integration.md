@@ -19,7 +19,7 @@ If you install an integration in a single section, it will only work in that spe
 
 #### 1. Open the integrations screen
 
-Before enabling an integration in a section or site, you'll need to install it in your organization. Go back to **All Sites** and click **Settings**, then click **Integrations** under the **Organization** group. Browse integrations by category, or search for the one you need.
+Before enabling an integration in a section or site, you'll need to install it in your organization. Go back to your organization **Home** and click **Settings**, under **Admin** in the sidebar, then click **Integrations** under the **Organization** group. Browse integrations by category, or search for the one you need.
 
 Once an integration is installed in your organization, you can also work with it at the site level — click **Integrations**, under **Extend** in the site sidebar. Integrations already added to the site appear under **Installed integrations**.
 

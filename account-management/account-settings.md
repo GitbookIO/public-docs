@@ -11,7 +11,7 @@ You can manage your login details, third-party login options, GitBook subdomain,
 
 ### How to access your personal account settings
 
-Go back to **All Sites** and click **Settings**. Account and organization settings share one screen, grouped into **Account** and **Organization** in the left-hand sidebar. Your personal settings live under **Account**. Click **Back to app** to return to your content.
+Go back to your organization **Home** and click **Settings**, under **Admin** in the sidebar. Account and organization settings share one screen, grouped into **Account** and **Organization** in the left-hand sidebar. Your personal settings live under **Account**. Click **Back to app** to return to your content.
 
 <details>
 

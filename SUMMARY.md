@@ -69,6 +69,7 @@
   * [Groups](creating-content/content-structure/collection.md)
   * [Pages](creating-content/content-structure/page/README.md)
     * [Tags](creating-content/content-structure/page/tags.md)
+* [All content](creating-content/all-content.md)
 * [Blocks](creating-content/blocks/README.md)
   * [Paragraphs](creating-content/blocks/paragraph.md)
   * [Headings](creating-content/blocks/heading.md)
