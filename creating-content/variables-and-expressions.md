@@ -1,5 +1,5 @@
 ---
-description: Create reusable variables that can be referenced in pages and spaces
+description: Create reusable variables that can be referenced in pages and sections
 icon: icons
 ---
 

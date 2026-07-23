@@ -102,6 +102,6 @@ When interacting with the GitBook Slack integration, there are a few things to k
 
 <summary>How do permissions work with the Slack integration?</summary>
 
-The Slack integration does not take into account individual user permissions in GitBook. This is because there is no direct link or tie between a Slack user and a GitBook user. However, when you set up the Slack integration you can specify which spaces it has access to, which can help mitigate any security risks if you have sensitive content.
+The Slack integration does not take into account individual user permissions in GitBook. This is because there is no direct link or tie between a Slack user and a GitBook user. However, when you set up the Slack integration you can specify which sections it has access to, which can help mitigate any security risks if you have sensitive content.
 
 </details>

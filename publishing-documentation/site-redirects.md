@@ -111,5 +111,5 @@ Whenever pages are moved or renamed, their canonical URL changes with them. In o
 Every time a URL is loaded, GitBook resolves it through the following steps:
 
 1. Site content is resolved to its canonical URL by following any of the automatically created redirects.
-2. If the URL cannot be resolved, the URL is checked against [space-level redirects](../getting-started/git-sync/content-configuration.md#redirects), defined in your repository's `.gitbook.yaml` file.
+2. If the URL cannot be resolved, the URL is checked against [section-level redirects](../getting-started/git-sync/content-configuration.md#redirects), defined in your repository's `.gitbook.yaml` file.
 3. Finally, the URL is checked against site-level redirects, created via [the process above](site-redirects.md#creating-redirects).

@@ -69,7 +69,7 @@ When you add a link to text on your page, you'll be prompted to provide the link
 
 This is a [link to an external page](https://www.gitbook.com).
 
-This is a [link to another page in this space](../blocks/).
+This is a [link to another page in this section](../blocks/).
 
 This is a [link to a section on this page](./#code).
 

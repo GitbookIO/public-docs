@@ -14,7 +14,7 @@ Choose the layout that matches how you want people to browse your API.
 
 To choose a layout:
 
-1. In your space, click **Add new...** → **OpenAPI Reference**. You can also edit an existing OpenAPI Reference.
+1. In your section, click **Add new...** → **OpenAPI Reference**. You can also edit an existing OpenAPI Reference.
 2. Choose your OpenAPI spec.
 3. In **Page structure**, select **One page per tag** or **One page per operation**.
 

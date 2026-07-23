@@ -50,9 +50,9 @@ They can open this by clicking it directly, or by pressing <kbd>⌘</kbd> + <kbd
 As well as a summarized answer, below your users will also see an expandable section that shows the sources that GitBook AI used to create its answer, plus related questions you can click as a follow-up.
 
 {% hint style="warning" %}
-GitBook AI does not work across individual published spaces on different [docs sites](publish-a-docs-site/).
+GitBook AI does not work across individual published sections on different [docs sites](publish-a-docs-site/).
 
-Multi-space search is only available when viewing published spaces that live as [site sections](site-structure/site-sections.md) within the same site.
+Multi-section search is only available when viewing published [sections](site-structure/site-sections.md) that live within the same site.
 {% endhint %}
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC

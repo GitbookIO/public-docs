@@ -26,7 +26,7 @@ You can also control search indexing at the individual page level. GitBook provi
 
 Controls whether pages are indexed in GitBook's internal search engine and Ask AI feature. This affects:
 
-* Content search within your GitBook space
+* Content search within your GitBook section
 * Ask AI's ability to reference the page content
 
 **External search indexing (Web crawlers)**

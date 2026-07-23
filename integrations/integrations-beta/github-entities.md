@@ -81,6 +81,6 @@ You may need to refresh the GitBook page after authenticating in order to see an
 
 <summary>I’m getting an error when I index my repositories</summary>
 
-This could be because your GitHub account is not properly authenticated in your GitBook space. Head to the configuration section for the GitHub Entities integration and try to authenticate your user account again.
+This could be because your GitHub account is not properly authenticated in your GitBook section. Head to the configuration section for the GitHub Entities integration and try to authenticate your user account again.
 
 </details>

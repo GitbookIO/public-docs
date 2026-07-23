@@ -26,7 +26,7 @@ You can also change the announcement style using the same options as hint blocks
 
 ### Pagination
 
-Control the display of the “previous” and “next” buttons that appear at the bottom of each page in your space. You can also set this feature for specific pages.
+Control the display of the “previous” and “next” buttons that appear at the bottom of each page in your section. You can also set this feature for specific pages.
 
 ### Footer (Premium & Ultimate)
 
