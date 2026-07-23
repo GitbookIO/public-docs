@@ -15,7 +15,7 @@ If you install an integration in a single section, it will only work in that spe
 
 <figure><img src="../.gitbook/assets/26_01_06_integrations@2x.png" alt="A GitBook screenshot showing the integration library"><figcaption><p>Browse GitBook's built in integration library.</p></figcaption></figure>
 
-### Install an integration in your organization
+### Install an integration
 
 #### 1. Open the integrations screen
 
