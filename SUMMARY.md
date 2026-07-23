@@ -23,7 +23,7 @@
 
 ## Your docs site <a href="#docs-site" id="docs-site"></a>
 
-* [New! Site workspace](docs-site/sites-first.md)
+* [Site workspace](docs-site/sites-first.md)
 * [Site settings](docs-site/site-settings.md)
 * [Site customization](docs-site/customization/README.md)
   * [Icons, colors, and themes](docs-site/customization/icons-colors-and-themes.md)
