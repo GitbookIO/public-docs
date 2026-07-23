@@ -6,7 +6,7 @@ description: Set up and authorize the GitHub integration for GitBook
 
 ### Getting started
 
-In the space you want to sync with your GitHub repo, head to the [space header](../../resources/gitbook-ui/#space-header) in the top right, and select **Configure**. From the provider list, select **GitHub Sync**.
+In the section you want to sync with your GitHub repo, click **Set up** next to **Git Sync** in the [section header](../../resources/gitbook-ui/#space-header). From the provider list, click **GitHub Sync**.
 
 <figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x.png" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
 
@@ -46,11 +46,11 @@ For the initial sync, the selected source is authoritative. The initial sync can
 
 Choose one of these directions:
 
-1. **GitBook → GitHub:** GitBook is the source of truth. Use this direction only when the selected branch can receive your space’s content.
-2. **GitHub → GitBook:** The selected GitHub branch is the source of truth. Use this direction only when your space can receive that branch’s content.
+1. **GitBook → GitHub:** GitBook is the source of truth. Use this direction only when the selected branch can receive your section’s content.
+2. **GitHub → GitBook:** The selected GitHub branch is the source of truth. Use this direction only when your section can receive that branch’s content.
 
 {% hint style="warning" %}
-**GitHub → GitBook can replace your space’s content.** If you select an empty repository, GitBook can replace your space with the repository’s empty content.
+**GitHub → GitBook can replace your section’s content.** If you select an empty repository, GitBook can replace your section with the repository’s empty content.
 
 Before you start the initial sync, confirm the repository, branch, and direction. Make sure the destination content is safe to replace.
 {% endhint %}
@@ -59,7 +59,7 @@ When you’re ready, start the initial sync.
 
 ### If you chose the wrong direction
 
-Git Sync operations appear in the space’s **Version history**. Locate the revision immediately before the Git Sync operation, then select **Rollback** to restore the prior space content.
+Git Sync operations appear in the section’s **Version history**. Locate the revision immediately before the Git Sync operation, then click **Rollback** to restore the prior section content.
 
 For detailed steps, see [Version control](../../creating-content/version-control.md#roll-back-to-a-previous-version).
 
@@ -69,11 +69,11 @@ If the pre-sync revision is unavailable or you can’t complete the rollback, [c
 
 ### Write and commit
 
-You’re good to go. You’ll notice that if your space was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows us to reliably sync content to your repository when someone in your team merges a[ change request](../../collaboration/change-requests/) in GitBook.
+You’re good to go. You’ll notice that if your section was in [live edit](../../collaboration/live-edits.md) mode, live edits are now locked. This allows us to reliably sync content to your repository when someone in your team merges a [change request](../../collaboration/change-requests/) in GitBook.
 
 When you edit on GitBook, every change request merge will result in a commit to your selected GitHub branch.
 
-When you commit to GitHub, every commit will be synced to your GitBook space as a history commit.
+When you commit to GitHub, every commit will be synced to your GitBook section as a history commit.
 
 {% hint style="warning" %}
 The GitHub app that powers our GitHub integration is currently not available to customers on GitHub Enterprise Server instances.

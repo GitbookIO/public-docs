@@ -10,7 +10,7 @@ GITBOOK-14: Improve documentation about users management
 
 If you want to automatically resolve your GitBook change request IDs (e.g. _GITBOOK-123_) in commits to links, you can enable this using GitHub’s _Autolink references_ feature. See instructions on [GitHub](https://help.github.com/en/github/administering-a-repository/configuring-autolinks-to-reference-external-resources).
 
-Use the following URL format, where `spaceId` corresponds to your space’s URL:
+Use the following URL format, where `spaceId` corresponds to your section’s URL:
 
 `<https://app.gitbook.com/s/{spaceId}/~/changes/<num>/`
 

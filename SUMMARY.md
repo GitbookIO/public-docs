@@ -117,7 +117,7 @@
   * [Teams](collaboration/member-management/teams.md)
 * [Change requests](collaboration/change-requests/README.md)
   * [Change requests screen](collaboration/change-requests/change-requests-screen.md)
-  * [Change requests in a space](collaboration/change-requests/change-requests-in-a-space.md)
+  * [Change requests in a section](collaboration/change-requests/change-requests-in-a-space.md)
 * [Merge rules](collaboration/merge-rules.md)
 * [Comments](collaboration/comments.md)
 * [Notifications](collaboration/notifications.md)

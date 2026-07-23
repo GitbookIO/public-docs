@@ -7,13 +7,13 @@ icon: spell-check
 
 As well as [creating content](write-and-edit-with-ai.md), GitBook Agent can review your change requests to quickly find and fix errors, suggest improvements and more.
 
-The Agent understands the context of the rest of your docs content, and you can also add [your team’s style guide](what-is-gitbook-agent.md#add-a-style-guide-and-custom-instructions) to ensure it reviews your changes while sticking to your team’s style
+The Agent understands the context of the rest of your docs content, and you can also add [your team’s style guide](what-is-gitbook-agent.md#add-a-style-guide-and-custom-instructions) to ensure it reviews your changes while sticking to your team’s style.
 
 ### Review change requests with GitBook Agent
 
-You can request a review from GitBook Agent in any [open change request](../collaboration/change-requests/change-requests-screen.md) in your organization.
+You can request a review from GitBook Agent in any [open change request](../collaboration/change-requests/change-requests-screen.md) in your site.
 
-When viewing an open change request, you can select GitBook Agent as a reviewer. Once selected as a reviewer, GitBook Agent will go through your changes, and review for accuracy, clarity, and more — through the context of your published site and style guide.
+When viewing an open change request, you can add GitBook Agent as a reviewer. Once added as a reviewer, GitBook Agent will go through your changes, and review for accuracy, clarity, and more — through the context of your published site and style guide.
 
 If you want to inspect the changes yourself, open the change request in the editor and switch to the **Changes** tab. In that view, pages with diffs show an indicator, and the floating diff navigation control helps you jump between changed blocks faster.
 

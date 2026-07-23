@@ -4,7 +4,7 @@ description: Configure Git Sync with extra functionalities
 
 # Content configuration
 
-If you’d like to configure Git Sync further, you can add a `.gitbook.yaml` file at the root of the content synced for that space to tell GitBook how to parse your Git repository. In a monorepo, that file lives in the space’s configured [Project directory](monorepos.md).
+If you’d like to configure Git Sync further, you can add a `.gitbook.yaml` file at the root of the content synced for that section to tell GitBook how to parse your Git repository. In a monorepo, that file lives in the section’s configured [Project directory](monorepos.md).
 
 {% code title=".gitbook.yaml" %}
 ```yaml
@@ -34,7 +34,7 @@ root: ./docs/
 {% endhint %}
 
 {% hint style="info" %}
-In a monorepo, `root` is resolved relative to the synced space’s Project directory, not the repository root. Path-based configuration only applies inside that space’s synced scope. It doesn’t make sibling directories or repository-level folders available to other spaces automatically. For multi-space repository setups, see [Monorepos](monorepos.md).
+In a monorepo, `root` is resolved relative to the synced section’s Project directory, not the repository root. Path-based configuration only applies inside that section’s synced scope. It doesn’t make sibling directories or repository-level folders available to other sections automatically. For multi-section repository setups, see [Monorepos](monorepos.md).
 {% endhint %}
 
 ### ​Structure‌ <a href="#structure" id="structure"></a>
@@ -87,9 +87,9 @@ Providing a custom summary file is optional. By default, GitBook will look for a
 If you don’t specify a summary, and GitBook does not find a `SUMMARY.md` file at the root of your docs, GitBook will infer the table of contents from the folder structure and the Markdown files below.‌
 
 {% hint style="info" %}
-The summary markdown file is **a mirror of the** **table of contents** of your GitBook space. So even when no summary file is provided during an initial import, GitBook will create one and/or update it whenever you update your content using the GitBook editor.
+The summary markdown file is **a mirror of the** **table of contents** of your GitBook section. So even when no summary file is provided during an initial import, GitBook will create one and/or update it whenever you update your content using the GitBook editor.
 
-Because of this, it’s not possible to reference the same Markdown file twice in your `SUMMARY.md` file, because this would imply that a single page lives at two different URLs in your GitBook space.
+Because of this, it’s not possible to reference the same Markdown file twice in your `SUMMARY.md` file, because this would imply that a single page lives at two different URLs in your GitBook section.
 {% endhint %}
 
 #### Table of contents (sidebar) titles <a href="#sidebar-titles" id="sidebar-titles"></a>

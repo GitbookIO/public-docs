@@ -21,29 +21,29 @@ You can configure merge rules at different levels to match your team’s workflo
 
 ### Organization-level configuration
 
-Organizations can set default merge rules that all spaces inherit. This provides consistency across multiple spaces while still allowing individual spaces to customize their rules as needed.
+Organizations can set default merge rules that all sections inherit. This provides consistency across multiple sections while still allowing individual sections to customize their rules as needed.
 
-To configure merge rules for your organization, open the organization menu at the top of the sidebar and choose **Settings** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>. In the Settings screen, select **Merge rules** under the **Organization** section of the sidebar. Here you can specify merge rules for your entire organization.
+To configure merge rules for your organization, go back to **All Sites** and click **Settings** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>. In the settings screen, click **Merge rules** under the **Organization** group. Here you can specify merge rules for your entire organization.
 
 Choose between unrestricted merging, or select from the list of presets to apply to change requests across your entire organization.
 
-### Space-level configuration
+### Section-level configuration
 
-Whether or not you have enabled organization-wide merge rules, each space can have its own merge requirements tailored to its content and team structure.
+Whether or not you have enabled organization-wide merge rules, each section can have its own merge requirements tailored to its content and team structure.
 
 This gives you the flexibility to have stricter rules for important documentation and more relaxed rules for draft content.
 
-When setting up merge rules for a space, you can choose to:
+When setting up merge rules for a section, you can choose to:
 
 * **Inherit** merge rules from your organization
-* **Define custom rules** specific to that space
+* **Define custom rules** specific to that section
 * **Disable merge rules** entirely
 
 {% hint style="info" %}
-If you inherit organization rules, any changes to the organization’s merge rules will automatically apply to the space.
+If you inherit organization rules, any changes to the organization’s merge rules will automatically apply to the section.
 {% endhint %}
 
-To configure merge rules for your organization, open the **Actions menu** <i class="fa-ellipsis">:ellipsis:</i> in the top left of the editor, and then select **Merge rules**. Here you can specify whether to inherit the merge rules from your organization or configure new ones specific to that space.
+To configure merge rules for a section, open the **Actions menu** <i class="fa-ellipsis">:ellipsis:</i> in the top left of the editor, and then click **Merge rules**. Here you can specify whether to inherit the merge rules from your organization or configure new ones specific to that section.
 
 ## Rule evaluation
 
@@ -68,7 +68,7 @@ When setting up merge rules, consider these recommendations:
 * **Scale gradually**: Add more specific requirements as your team grows and workflows mature.
 * **Use bypass carefully**: Only grant bypass permissions to trusted administrators.
 * **Review regularly**: Adjust rules based on your team’s actual workflow patterns.
-* **Test first**: When possible, test rule changes in a test space before applying to production spaces.
+* **Test first**: When possible, test rule changes in a test section before applying to production sections.
 
 ## Available rule types
 
