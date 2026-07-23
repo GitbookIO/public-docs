@@ -9,7 +9,7 @@ A change request is a copy of your main content. It's based on the concept of br
 
 In a change request, you can edit, update, and delete content, request reviews on your changes, then merge them back into your main version.
 
-To browse and manage open change requests in one place, see the [Change requests screen](change-requests-screen.md).
+To browse and manage open change requests across your site, see the [Change requests screen](change-requests-screen.md).
 
 <figure><img src="../../.gitbook/assets/25_12_10_collaboration_change_requests@2x.png" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
@@ -67,4 +67,4 @@ Merging can't be undone. To revert or adjust content, open a new change request.
 
 ### Working with change requests
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Change request screen</strong></td><td>View and manage change requests in one place</td><td><a href="change-requests-screen.md">change-requests-screen.md</a></td></tr><tr><td><strong>Change requests in a section</strong></td><td>Create and review change requests in a single section</td><td><a href="change-requests-in-a-space.md">change-requests-in-a-space.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Change request screen</strong></td><td>View and manage change requests across your site</td><td><a href="change-requests-screen.md">change-requests-screen.md</a></td></tr><tr><td><strong>Change requests in a section</strong></td><td>Create and review change requests in a single section</td><td><a href="change-requests-in-a-space.md">change-requests-in-a-space.md</a></td></tr></tbody></table>

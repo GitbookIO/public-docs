@@ -11,7 +11,7 @@ The Agent understands the context of the rest of your docs content, and you can 
 
 ### Review change requests with GitBook Agent
 
-You can request a review from GitBook Agent in any [open change request](../collaboration/change-requests/change-requests-screen.md) in your organization.
+You can request a review from GitBook Agent in any [open change request](../collaboration/change-requests/change-requests-screen.md) in your site.
 
 When viewing an open change request, you can add GitBook Agent as a reviewer. Once added as a reviewer, GitBook Agent will go through your changes, and review for accuracy, clarity, and more — through the context of your published site and style guide.
 
