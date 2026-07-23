@@ -1,13 +1,13 @@
 ---
 description: >-
-  Receive notifications about new content, updates to your spaces or changes in
-  visibility
+  Receive notifications about new content, updates to your sections or changes
+  in visibility
 icon: message-exclamation
 ---
 
 # Notifications
 
-Notifications provide updates about the activity on GitBook that comes from spaces owned by you or an organization that you are a member of.
+Notifications provide updates about the activity on GitBook that comes from sections owned by you or an organization that you are a member of.
 
 You can receive notifications inside the GitBook app and/or via email. We support [several types of notifications](notifications.md#notification-types) which you can disable or enable in your notification settings.
 
@@ -49,7 +49,7 @@ For both app and email notifications, [you can configure](https://app.gitbook.co
 
 We currently offer notifications for the following areas:
 
-* Spaces and collections
+* Sections and groups [Confirm: label of this notification type in the notification settings UI]
 * Change requests
 * Mentions in comments
 * Organizations

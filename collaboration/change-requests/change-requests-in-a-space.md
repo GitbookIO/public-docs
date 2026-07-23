@@ -1,14 +1,14 @@
 ---
-description: "Learn about collaborating on a single change request in a space —\_including how to review, resolve conflicts and merge"
+description: "Learn about collaborating on a single change request in a section —\_including how to review, resolve conflicts and merge"
 ---
 
-# Change requests in a space
+# Change requests in a section
 
-When you’re within a [space](../../resources/concepts.md#space), you can make changes by opening a new change request, or browse existing change requests to see what other people are working on.
+When you’re within a [section](../../resources/concepts.md#space), you can make changes by opening a new change request, or browse existing change requests to see what other people are working on.
 
 ### Creating a change request
 
-Click the **Edit** button in the [space header](../../resources/gitbook-ui/#space-header) to start a new change request.
+Click the **Edit** button in the [section header](../../resources/gitbook-ui/#space-header) to start a new change request.
 
 This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
 
@@ -45,14 +45,14 @@ Head to [Writing with GitBook Agent](../../gitbook-agent/write-and-edit-with-ai.
 
 ### Previewing a change request
 
-You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [space header](../../resources/gitbook-ui/#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
+You can preview the changes you’ve made in a change request by clicking the **Preview** option in the [section header](../../resources/gitbook-ui/#space-header). This will switch to a preview of your published docs with the proposed changes included, so you can see your changes in the entire context of your published documentation.
 
 Below the **Preview** button is a URL for your site preview. Click this and your site preview will open in full in a new tab.
 
 When you open a preview URL in a new tab, you will also see [the Preview toolbar](../../resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md) at the bottom of the browser window. This toolbar lets you quickly jump back into GitBook to view, edit, or comment on the change request, or open the live version of your site.
 
 {% hint style="info" %}
-You can only preview change requests for spaces added to a [published docs site](../../docs-site/publish-a-docs-site/).
+You can only preview change requests for sections added to a [published docs site](../../docs-site/publish-a-docs-site/).
 {% endhint %}
 
 {% hint style="warning" %}
@@ -63,7 +63,7 @@ If your content is published using share links or authenticated access, the prev
 
 Request a review on your change request when you want to ask members of your team to check your content before you merge the changes into the main branch.
 
-Select the **Overview** tab in the space header bar to open an overview of your change request — including all the changes you’ve made in diff view.
+Click the **Overview** tab in the section header bar to open an overview of your change request — including all the changes you’ve made in diff view.
 
 Use the **Overview** tab to add context and reviewers. To inspect diffs in the editor, switch to the **Changes** tab. In that view, pages with diffs show an indicator, and the floating diff navigation control helps you jump between changed blocks faster.
 
@@ -78,14 +78,14 @@ If your changes don’t require a review, you have the appropriate [permissions]
 {% endhint %}
 
 {% hint style="warning" %}
-If you don’t tag anyone in your review request, everyone with reviewer permissions in the space gets a notification. If the space has no reviewers, the next role above reviewer gets the notification.
+If you don’t tag anyone in your review request, everyone with reviewer permissions in the section gets a notification. If the section has no reviewers, the next role above reviewer gets the notification.
 {% endhint %}
 
 #### Diff view <a href="#diff-mode" id="diff-mode"></a>
 
 If a page contains diffs, GitBook also shows a floating centered indicator. Click it to scroll to the first changed block or element.
 
-When you open the **Changes** tab in the space header, GitBook shows every page and block edited in the change request. GitBook shows the previous version on the left and the updated version on the right. This makes it easier to compare edits side by side.
+When you open the **Changes** tab in the section header, GitBook shows every page and block edited in the change request. GitBook shows the previous version on the left and the updated version on the right. This makes it easier to compare edits side by side.
 
 Pages that contain diffs also show an indicator in the table of contents, which makes large change requests easier to scan.
 
@@ -93,7 +93,7 @@ As you review a page in the editor’s **Changes** tab, a floating diff navigati
 
 There are two options when using diff view:
 
-1. **Show all pages** — This shows changed and unchanged pages in the table of contents, so you can review edits in the context of the full space.
+1. **Show all pages** — This shows changed and unchanged pages in the table of contents, so you can review edits in the context of the full section.
 2. **Show only changed pages** — This shows only modified pages, so you can focus on edited content.
 
 You can switch to the **Changes** tab to check the diff view in any change request.
@@ -102,13 +102,13 @@ You can switch to the **Changes** tab to check the diff view in any change reque
 
 ### Merging a change request
 
-Merging a change request will add the change request’s changes into the main branch of content, creating an updated version and a new entry in the space’s [version history](../../creating-content/version-control.md#see-the-activity-of-a-specific-draft).
+Merging a change request will add the change request’s changes into the main branch of content, creating an updated version and a new entry in the section’s [version history](../../creating-content/version-control.md#see-the-activity-of-a-specific-draft).
 
-You might not be able to merge a change request if you don’t have the right [permissions](../member-management/permissions-and-inheritance.md), or if your change request hasn’t passed your organization or space’s [merge rules](../merge-rules.md).
+You might not be able to merge a change request if you don’t have the right [permissions](../member-management/permissions-and-inheritance.md), or if your change request hasn’t passed your organization or section’s [merge rules](../merge-rules.md).
 
 ### Updating a change request
 
-As you're working inside a change request, other contributors may be modifying the main branch of the space. When this happens, your change request is considered "out of date" - there is content on the main branch that you don't see inside your change request.
+As you're working inside a change request, other contributors may be modifying the main branch of the section. When this happens, your change request is considered "out of date" - there is content on the main branch that you don't see inside your change request.
 
 You may want to pull in this new content into your change request. This can be useful if:
 
@@ -148,7 +148,7 @@ You can't delete a change request in GitBook, but you can archive it instead.
 To archive a change request:
 
 1. Open the **Change requests** tab.
-2. Select the change request you want to archive.
+2. Click the change request you want to archive.
 3. Click the **Actions** menu <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request's title and choose **Archive**.
 
-To find and reopen an archived change request, open the **Change requests** menu and select the **Archived** tab.
+To find and reopen an archived change request, open the **Change requests** menu and click the **Archived** tab.
