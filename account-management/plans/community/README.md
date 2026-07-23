@@ -66,7 +66,7 @@ Your Git repository **must**:
 * You _may_ be a small student group or a teacher organizing a course for a small group of students.
 
 {% hint style="info" %}
-Individual students who want to keep their personal and course notes should use our **Free** plan. This plan provides unlimited private spaces at no cost, without needing to apply for the Community plan, and if you want to publish docs sites you can select a Basic or Sponsored site for free.
+Individual students who want to keep their personal and course notes should use our **Free** plan. This plan provides unlimited private content at no cost, without needing to apply for the Community plan, and if you want to publish docs sites you can select a Basic or Sponsored site for free.
 {% endhint %}
 
 ## How to apply

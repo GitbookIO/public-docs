@@ -9,7 +9,7 @@ Localized titles let you show different titles for different languages on your p
 Visitors see the title that matches the language they’re browsing in. If a translation isn’t set, GitBook shows the fallback title instead.
 
 {% hint style="info" %}
-Localized titles only appear when your site includes spaces with more than one language.
+Localized titles only appear when your site includes content in more than one language.
 {% endhint %}
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FlEY5s6qXpEy6k1ivmeL6%2Flocalized.mp4?alt=media&token=d8221dc1-54e1-401b-8699-3acd65343fc3" %}
@@ -18,9 +18,9 @@ Localized titles only appear when your site includes spaces with more than one l
 
 {% stepper %}
 {% step %}
-#### Open your site customization settings
+#### Open the structure editor
 
-From your docs site, open **Settings** and go to **Structure** settings
+From your docs site, open **Site structure**, under **General** in the site sidebar.
 {% endstep %}
 
 {% step %}

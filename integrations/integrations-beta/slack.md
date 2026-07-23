@@ -36,7 +36,7 @@ GitBook AI will summarize information that you or your team add to your knowledg
 If you‘ve previously installed the GitBook Slack integration before this beta, you‘ll need to uninstall and reinstall the integration again.&#x20;
 {% endhint %}
 
-The Slack integration is currently in closed beta. Once accepted to the beta, you’ll be able to install the Slack integration from the home screen in the GitBook app.
+The Slack integration is currently in closed beta. Once accepted to the beta, you’ll be able to install the Slack integration from the **Integrations** screen in the GitBook app.
 
 After installing the Slack integration to GitBook, you’ll be prompted to authorize your user account and install the Slack bot into your organization’s Slack workspace.
 

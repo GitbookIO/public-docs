@@ -46,7 +46,7 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 <figure><img src="../.gitbook/assets/25_12_10_import@2x.png" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
 
-When you create a new space, you’ll have the option to import content in the modal that appears. If you create an empty space, you can also import using the **Quickstart** section at the bottom of the new empty page when you click **Edit**.
+When you create a new section, you’ll have the option to import content in the modal that appears. If you create an empty section, you can also import using the **Quickstart** section at the bottom of the new empty page when you click **Edit**.
 
 Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../resources/gitbook-ui/#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
 
@@ -85,13 +85,13 @@ If your content isn’t already in Markdown files, we recommend using a script (
 {% step %}
 **Organize your content in GitHub or GitLab**
 
-When setting up your GitBook site, it’s crucial to organize your content in your GitHub or GitLab repository efficiently. Since Git Sync occurs at the space level, carefully plan how to group your content. Create multiple repositories or folders, ensuring the necessary Markdown files are in the correct locations.
+When setting up your GitBook site, it’s crucial to organize your content in your GitHub or GitLab repository efficiently. Since Git Sync occurs at the section level, carefully plan how to group your content. Create multiple repositories or folders, ensuring the necessary Markdown files are in the correct locations.
 {% endstep %}
 
 {% step %}
-**Set up spaces and configure Git Sync**
+**Set up sections and configure Git Sync**
 
-To organize your content, create one or more spaces in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those spaces. You’ll need to synchronize your space with the folder or repository you set up in the previous step.
+To organize your content, create one or more sections in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those sections. You’ll need to synchronize your section with the folder or repository you set up in the previous step.
 {% endstep %}
 
 {% step %}

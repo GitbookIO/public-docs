@@ -23,7 +23,7 @@ Try asking the Assistant a question in the box below:
 
 ## Enable GitBook Assistant <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
-To enable GitBook Assistant, open your site's dashboard, navigate to the **Settings** page and choose **AI & MCP** from the menu on the left. Here you can enable GitBook Assistant from the options available.
+To enable GitBook Assistant, open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**. Here you can enable GitBook Assistant from the options available.
 
 ### Add suggested questions
 

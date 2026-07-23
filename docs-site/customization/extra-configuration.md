@@ -52,7 +52,7 @@ This option does not enable the MCP server itself. The MCP server works only whe
 
 #### Edit on GitHub/GitLab
 
-If your space is connected to a Git repository, you can enable this option in the **Configure** tab to show a link for your users to contribute to your documentation from your linked repository.
+If your section is connected to a Git repository, you can enable this option in the **Configure** tab to show a link for your users to contribute to your documentation from your linked repository.
 
 #### Export PDF
 

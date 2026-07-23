@@ -14,7 +14,7 @@ To publish your docs privately, head to the [docs site’s ](../site-settings.md
 
 Next, click on **Create link** to create a share link. You can review and name your share links, customize your domain and copy the link.
 
-Once the link is active, a private token is generated within your URL, which is unique to your space. Sharing this link will give non-GitBook users access to your content in read mode only, with an interface that looks like any other published content.
+Once the link is active, a private token is generated within your URL, which is unique to your section. Sharing this link will give non-GitBook users access to your content in read mode only, with an interface that looks like any other published content.
 
 You can generate as many links as you need from **Audience settings**.
 
@@ -24,7 +24,7 @@ You can [revoked](share-links.md#revoke-a-link) and regenerate share links at an
 
 ### Access and permissions
 
-The content will be accessible to **anyone following the link**. Your team members can access your content from the **Docs sites** section of the sidebar, or by navigating to the space directly.
+The content will be accessible to **anyone following the link**. Your team members can access your content from the **Docs sites** section of the sidebar, or by navigating to the content directly.
 
 ### Revoke a link
 
