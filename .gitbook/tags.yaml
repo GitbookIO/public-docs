@@ -13,3 +13,7 @@
 - tag: add-on
   label: Add-on
   icon: money-bills
+- tag: new
+  label: New
+  icon: sparkles
+  color: $primary

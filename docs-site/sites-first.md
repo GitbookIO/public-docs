@@ -2,10 +2,9 @@
 description: >-
   Learn how the site workspace changes navigation, content structure, and
   permissions in GitBook
-icon: sparkle
+icon: sidebar
 tags:
-  - tag: beta
-    primary: true
+  - new
 ---
 
 # Site workspace
