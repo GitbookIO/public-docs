@@ -10,15 +10,15 @@ tags:
 
 # Site workspace
 
+{% hint style="info" %}
+The new experience is rolling out gradually. New organizations already have it, and existing organizations can enable it today ahead of the global rollout.
+{% endhint %}
+
 ## The sites-first workspace in GitBook
 
 GitBook is now organized around your docs sites. Everything in the app is arranged around the sites you publish, so what you see while editing matches what your visitors see when reading.
 
 This page explains what changed, what it means for your existing content, and how to opt in.
-
-{% hint style="info" %}
-The new experience is rolling out gradually. New organizations already have it, and existing organizations can enable it today ahead of the global rollout.
-{% endhint %}
 
 <figure><img src="../.gitbook/assets/site-centric @2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -78,4 +78,4 @@ Nothing is deleted or unpublished.
 
 ### How the rollout works
 
-The site workspace is rolling out in phases. When it’s available for your organization, you’ll see an option to switch on the new experience, along with a short in-app tour of what moved where.
+You'll see an option to switch on the new experience, along with a short in-app tour of what moved where. The site workspace will become the default for all organizations soon — switching early lets your team settle in on your own schedule.
