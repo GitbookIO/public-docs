@@ -3,8 +3,27 @@ description: >-
   Learn how the site workspace changes navigation, content structure, and
   permissions in GitBook
 icon: sidebar
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
 tags:
-  - new
+  - tag: new
+    primary: true
 ---
 
 # Site workspace
