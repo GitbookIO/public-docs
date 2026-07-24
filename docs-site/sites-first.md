@@ -20,7 +20,7 @@ GitBook is now organized around your docs sites. Everything in the app is arrang
 
 This page explains what changed, what it means for your existing content, and how to opt in.
 
-<figure><img src="../.gitbook/assets/site-centric @2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/site-centric @2x.png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Why the site workspace
 
