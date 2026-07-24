@@ -4,32 +4,36 @@ description: "Add pages, page groups or external links —\_and learn about the 
 
 # Pages
 
-A page is the place where you can add, edit and embed content. Pages always live inside a [space](../space.md), allowing you to group related content and create different sections for the topics or areas you’re covering.
+A page is the place where you can add, edit and embed content. Pages always live inside a section, allowing you to group related content for the topics or areas you're covering.
 
-When publishing your documentation, each space will be its own [docs site](../../../docs-site/publish-a-docs-site/) or [site section](../../../docs-site/site-structure/site-sections.md), and the pages inside the space will all appear on that site.
+When you publish your site, each section appears in your site's navigation, and the pages inside it all appear under that section.
 
 ### Table of contents
 
-You can create as many pages as you need in a space. They’re all visible on the left sidebar of your screen in your space’s [table of contents](../../../resources/gitbook-ui/#table-of-contents). The table of content will appear in the same place when you publish your space, unless [you choose to hide it](./#page-options).
+Create as many pages as you need in a section. They're all visible on the left sidebar of your screen in your section's table of contents. The table of contents appears in the same place on your published site, unless [you choose to hide it](./#page-options).
 
 {% hint style="info" %}
-#### Docs site landing page
+**Section landing page**
 
-The first page in your table of contents is always your space's landing page, even if it's hidden from the table of contents.
+The first page in your table of contents is always your section's landing page, even if it's hidden from the table of contents.
 {% endhint %}
 
 ### Create a new page
 
-When in [live edit](../../../collaboration/live-edits.md) mode or in a [change request](../../../collaboration/change-requests/), you can create a new page by clicking **Add new...** > **Page** at the bottom of your table of contents. Alternatively, you can hover between pages in the table of contents and click the **+** icon that appears.
+1. Enter live edit mode or open a change request.
+2. Click **Add new...** at the bottom of your table of contents.
+3. Click **Page**.
+
+Or hover between pages in the table of contents and click the **+** icon that appears.
 
 <figure><img src="../../../.gitbook/assets/25_12_10_creating_content_content_structure_page@2x.png" alt="A GitBook screenshot showing an empty page listed in the table of contents"><figcaption><p>An empty page in GitBook. You can see it listed in the table of contents on the left-hand side.</p></figcaption></figure>
 
-### Can’t see the option to create a new page?
+### New page option missing
 
 {% hint style="warning" %}
-If [live edits](../../../collaboration/live-edits.md) are disabled for your space, you’ll need to create or edit a [change request](../../../collaboration/change-requests/). Once you’re in a change request, the **New page** button (which allows you to create pages, page groups and links) will be available in the table of contents.
+If live edits are disabled for your section, create or edit a change request. In a change request, the **New page** button — which creates pages, page groups, and links — is available in the table of contents.
 
-Alternatively, you may not have the correct [permissions](../../../collaboration/member-management/permissions-and-inheritance.md) to edit a page.
+You might also lack the permissions to edit a page.
 {% endhint %}
 
 ### Organizing your content
@@ -38,27 +42,32 @@ There are three ways to organize your content in the table of contents:
 
 #### Pages
 
-A page has a title, and optional description, and an area where you can write and add any kind of content.‌
+A page has a title, an optional description, and an area where you can write and add any kind of content.
 
-You can nest pages by dragging and dropping a page below an other in the table of contents. Doing this creates a **subpage**.
+Nest pages by dragging and dropping a page below another in the table of contents. Doing this creates a **subpage**.
 
-If you add subpages to an empty parent page, GitBook will automatically generate a ‘contents’ page with links to all the subpages in the published version of your docs.
+If you add subpages to an empty parent page, GitBook automatically generates a 'contents' page with links to all the subpages in the published version of your docs.
 
 {% hint style="info" %}
-**Tip:** There’s no limit to page nesting, but we’d recommend you avoid more than three levels of nesting to avoid an overly-complex navigation.
+**Tip:** There's no limit to page nesting, but avoid more than three levels to keep your navigation simple.
 {% endhint %}
 
-When you change the title of a page, the page’s slug (the part at the very end of the URL, e.g. `/hello-world`) will also change — unless you’ve manually set the page’s slug previously.
+When you change the title of a page, the page's slug (the part at the very end of the URL, such as `/hello-world`) also changes — unless you've manually set the page's slug previously.
 
-You can change the title, link title and the slug of a page at any time by clicking opening the page’s **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choosing **Edit title & slug**.
+To change the title, link title, or slug of a page:
 
-#### **Page link title**
+1. Open the page's **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Edit title & slug**.
 
-If you want your page to have a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, you can optionally define a link title.
+#### Page link title
 
-Open the page’s **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and choose **Edit title & slug**. In the **Edit page** dialog, you'll find the option to enable and define a link title for that page.
+To give your page a longer SEO-friendly title while keeping a shorter title for your navigation entry and links, define a link title.
 
-If you're using Git Sync, the page link title is set in the `SUMMARY.md` file on the page link:
+1. Open the page's **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Edit title & slug**.
+3. In the **Edit page** dialog, enable and define a link title for that page.
+
+If you're using Git Sync, set the page link title in `SUMMARY.md` on the page link:
 
 ```markdown
 # Table of contents
@@ -67,44 +76,51 @@ If you're using Git Sync, the page link title is set in the `SUMMARY.md` file on
 ```
 
 {% hint style="info" %}
-**Note:** Page link titles are used in the table of contents, the pagination buttons at the bottom of each page, and in any relative links you add to that page.
+**Note:** Page link titles appear in the table of contents, the pagination buttons at the bottom of each page, and any relative links you add to that page.
 {% endhint %}
 
-Page link titles are optional — if you don’t manually add one, your page will use the page’s standard title by default.
+Page link titles are optional — if you don't add one, the page uses its standard title.
 
 #### Page groups
 
-With page groups, you can bring pages together into sections that cover related content.
+Page groups bring related pages together within a section's table of contents.
 
-You can create a new page group by clicking **Add new...** > **Group** at the bottom of your table of contents.
+{% hint style="info" %}
+Page groups organize **pages** within a single section. To organize the **sections** of your site, use groups instead.
+{% endhint %}
 
-Page groups can only live at the **top level** of the table of contents. You cannot nest page groups inside page groups.
+Create a page group by clicking **Add new...** > **Group** at the bottom of your table of contents.
 
-To change the title and slug of a page group, click the **Action menu** icon <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group title in the table of contents and choose **Rename**.
+Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other.
 
-#### External links <a href="#external-links" id="external-links"></a>
+To change the title and slug of a page group:
 
-You can also add links to your table of contents. Clicking them will take people directly to the linked content.
+1. Click the **Action menu** icon <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group title in the table of contents.
+2. Click **Rename**.
 
-Create new external link by clicking **Add new...** > **External link** at the bottom of your table of contents.
+#### External links
+
+Add links to your table of contents to take people directly to the linked content.
+
+Create an external link by clicking **Add new...** > **External link** at the bottom of your table of contents.
 
 ### Page icons and emojis
 
-To improve visibility for readers when skimming your table of contents, you can add an optional icon or emoji to individual pages. The icon or emoji will appear in the table of contents, and next to the title at the top of the page.
+To improve visibility for readers when skimming your table of contents, add an optional icon or emoji to individual pages. The icon or emoji appears in the table of contents, and next to the title at the top of the page.
 
 To add an icon or emoji, click the **Add icon** button when hovering the page title, or the emoji button to the left of the title.
 
 ### Page options
 
-In the **Page options** menu you can customize the look and feel of a selected page within a space, and control its visibility.
+In the **Page options** menu, customize the look and feel of a selected page within a section and control its visibility.
 
-#### **Layout**
+#### Layout
 
-You can open the **Page options** <picture><source srcset="../../../.gitbook/assets/25_01_10_options_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_options_icon_light.svg" alt="The Page options menu icon in GitBook"></picture> menu or change a page’s cover by hovering over the page title. You’ll see the buttons appear just above the page title.
+Open the **Page options** <picture><source srcset="../../../.gitbook/assets/25_01_10_options_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_options_icon_light.svg" alt="The Page options menu icon in GitBook"></picture> menu or change a page's cover by hovering over the page title. The buttons appear just above the page title.
 
-In the **Page options** side panel, you can select how each page is displayed to those who visit your **published** content. There are three layout presets to choose from, or you can create a custom layout.
+In the **Page options** side panel, choose how each page displays to visitors of your **published** content. There are three layout presets to choose from, or you can create a custom layout.
 
-Each layout preset will toggle on or off each of the following parts of the page:
+Each layout preset toggles the following parts of the page on or off:
 
 * Page title
 * Page description
@@ -114,21 +130,22 @@ Each layout preset will toggle on or off each of the following parts of the page
 * Page metadata
 * Tags
 
-You can tag a page with one or more tags from **Library** → **Tags**. Turn on **Show tags on page** to display them in the page header. You can also pick one tag as the page’s primary tag. GitBook can show it next to the page in the table of contents. Learn more in [Tags](tags.md).
+Tag a page with one or more tags from **Library** → **Tags**. Turn on **Show tags on page** to display them in the page header. Or pick one tag as the page's primary tag, which GitBook can show next to the page in the table of contents. Learn more in Tags.
 
-You can also set your page’s global width from this menu. Choosing **Wide** gives blocks such as tables, cards, and code blocks more space when the page is published. This is ideal for creating eye-catching landing pages.
+Set your page's global width from this menu, too. Choosing **Wide** gives blocks such as tables, cards, and code blocks more space on the published page. Use this for eye-catching landing pages.
 
 #### Visibility
 
-You can decide which pages you would like to show/hide in your published documentation, while also deciding if you would like the page to be indexed in your published doc’s search, and/or indexed by search engines.
+Choose which pages to show or hide in your published documentation, and whether each page appears in your site's search and in search engines.
 
-You can hide a page or group of pages from your site's table of contents by opening the page’s **Actions menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and toggling **Hide page**.
+To hide a page or group of pages from your site's table of contents:
 
-Hidden pages are only hidden from the published table of contents.
+1. Open the page's **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Toggle **Hide page**.
 
-They remain available through the site’s MCP server and in `llms-full.txt`.
+Hidden pages are only hidden from the published table of contents. They remain available through the site's MCP server and in `llms-full.txt`.
 
-If hidden the following will appear in the front matter of the markdown file when using Git Sync:
+If you're using Git Sync, hidden pages include the following front matter in the Markdown file:
 
 <pre class="language-markdown" data-title="page.md"><code class="lang-markdown">---
 hidden: true
@@ -136,14 +153,14 @@ hidden: true
 </strong></code></pre>
 
 {% hint style="warning" %}
-Hiding **Page title** or **Page description** only hides the page header in published content. It doesn’t remove headings inside the page body. Learn more about heading levels in [Headings](../../blocks/heading.md).
+Hiding **Page title** or **Page description** only hides the page header in published content. It doesn't remove headings inside the page body. Learn more about heading levels in Headings.
 {% endhint %}
 
 #### Metadata (SEO)
 
-Use **Page options → Metadata** to control how search engines understand relationships between similar pages (for example: documentation versions or [content variants](../../../docs-site/site-structure/variants.md)).
+Use **Page options → Metadata** to control how search engines understand relationships between similar pages (for example: documentation versions or content variants).
 
-* **Canonical URL**: the preferred (authoritative) URL for this page. Search engines treat it as the ‘source of truth’. Use it when multiple URLs show the same content.
+* **Canonical URL**: the preferred (authoritative) URL for this page. Search engines treat it as the 'source of truth'. Use it when multiple URLs show the same content.
 * **Alternate URLs**: other URLs for the same content in another variant. For example, another version or language. They help search engines group variants instead of treating them as duplicates.
 
 Both fields support selecting another GitBook page (recommended) or entering an external URL.
@@ -154,15 +171,21 @@ A common pattern for versioned docs is to set older pages to be canonical to the
 
 ### Page covers
 
-You can also set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../../.gitbook/assets/25_01_10_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_image_icon_light.svg" alt="The Page cover icon in GitBook"></picture> option, a default cover will be added immediately. From here, you can:
+Set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../../.gitbook/assets/25_01_10_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_image_icon_light.svg" alt="The Page cover icon in GitBook"></picture> option, GitBook adds a default cover immediately. From here, you can:
 
-*   **Change the cover image**
+* **Change the cover image**
+  1. Hover over the page cover and click **Change cover**.
+  2. Choose or upload an image. The ideal size is 1990x480 pixels.
+* **Reposition the cover image**
+  1. Hover over the page cover and open the **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+  2. Click **Reposition**.
+  3. Drag the image into place and click **Save**.
+* **Remove the cover image**
+  1. Hover over the page cover and open the **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+  2. Click **Remove**.
+*   **Full width and hero width**
 
-    Hover over the page cover and click **Change cover**, then select or upload an image. Based on how we currently display page covers, 1990x480 pixels is the ideal size.
-*   **Reposition the cover image**
+    Change the style of your page cover to span the full width of your screen or just the width of your content.
 
-    Hover over the page cover and open the **Actions menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>. Click **Reposition**, then drag the image as you wish and click **Save**.
-* **Remove the cover image**\
-  Hover over the page cover and open the **Actions menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>, then click **Remove**.
-* **Full width and hero width**\
-  You can change the style of your page cover to span the full width of your screen or just the width of your content. Hover over the page cover and open the **Actions menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>, then choose your preferred option from the menu.
+    1. Hover over the page cover and open the **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+    2. Click your preferred option.

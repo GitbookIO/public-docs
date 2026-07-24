@@ -34,7 +34,7 @@ Configure AWS Cognito to work with adaptive content in GitBook.
 
 Go to your desired User Pool in Cognito, and click on App integration. Make a note of the Cognito domain, we will need it to configure the integration.
 
-Scroll to the bottom and click "Create app client". For the app type, select "Confidential client." Scroll down to Hosted UI settings. In allowed Callback URLs, enter the Callback URL you got from GitBook upon installing the integration on a space.
+Scroll to the bottom and click "Create app client". For the app type, select "Confidential client." Scroll down to Hosted UI settings. In allowed Callback URLs, enter the Callback URL you got from GitBook upon installing the integration on a section.
 
 Scroll further down to "OAuth 2.0 grant types"- make sure "Authorization code grant" is selected.
 
@@ -52,7 +52,7 @@ Navigate to integrations within the GitBook app, select authenticated access as 
 
 Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We will need it to set up Cognito.
 
-Open up the Cognito integration's configuration screen for the space you installed the integration on.
+Open up the Cognito integration's configuration screen for the section you installed the integration on.
 
 It should look like the following image:
 

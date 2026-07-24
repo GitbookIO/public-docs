@@ -2,6 +2,7 @@
 description: >-
   Learn more about the toolbar that appears on your published site when you’re
   logged into GitBook
+icon: hammer
 ---
 
 # Toolbar on published sites and site previews

@@ -37,7 +37,7 @@ LLMs can use this index to navigate directly to the markdown versions of your pa
 
 ## MCP server for published docs
 
-GitBook automatically exposes a Model Context Protocol (MCP) server for every published space. MCP gives AI tools a structured way to discover and retrieve your docs as resources — no scraping required.
+GitBook automatically exposes a Model Context Protocol (MCP) server for every published site. MCP gives AI tools a structured way to discover and retrieve your docs as resources — no scraping required.
 
 Hidden pages remain available through the site’s MCP server. Hiding a page only removes it from the published table of contents.
 

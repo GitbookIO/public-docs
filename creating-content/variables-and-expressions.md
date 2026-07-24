@@ -1,5 +1,5 @@
 ---
-description: Create reusable variables that can be referenced in pages and spaces
+description: Create reusable variables that can be referenced in pages and sections
 icon: icons
 ---
 
@@ -9,19 +9,19 @@ With variables you can create reusable text that can be conditionally referenced
 
 If you repeat the same name, phrase or version number multiple times within your content, you can create a **variable** to help keep all those instances in sync and accurate — which is useful if you ever need to update them, or they’re complex and often mistyped.
 
-You can create variables that are scoped to a single page, or a single space.
+You can create variables that are scoped to a single page, or a single section.
 
 ### Create a new variable
 
 To create a new variable, click the **Library** in your Table of Contents when editing an open [change request](../collaboration/change-requests/). Then, click **Variables**.
 
-You can use the toggle at the top to view and create variables scoped either to the current page you’re on, or all pages within the current space.
+You can use the toggle at the top to view and create variables scoped either to the current page you’re on, or all pages within the current section.
 
 Clicking **Create a variable** will launch a modal where you can give your variable a name and a value.
 
 Click **Add variable** to save your variable.
 
-<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x.png" alt="A GitBook screenshot showing the Add variables screen. The variable Name box has been filled with the text ‘latest_version’ and the Value box has been filled with the text ‘v3.04.1’"><figcaption><p>You can add variables to a single page or an entire space. When you update the value of a variable, every instance of it will update.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x.png" alt="A GitBook screenshot showing the Add variables screen. The variable Name box has been filled with the text ‘latest_version’ and the Value box has been filled with the text ‘v3.04.1’"><figcaption><p>You can add variables to a single page or an entire section. When you update the value of a variable, every instance of it will update.</p></figcaption></figure>
 
 {% hint style="info" %}
 Variable names must start with a letter, and can contain letters, numbers and underscores.
@@ -35,9 +35,13 @@ Variables can be referenced and used within an [expression](formatting/inline.md
 Expressions can only be used in the page content of a document. They don’t work in page titles or page metadata.
 {% endhint %}
 
-Variables defined under your page are accessible under the `page.vars` object. Similarly, variables defined across your entire space are accessible under the `space.vars` object.
+Variables defined under your page are accessible under the `page.vars` object. Similarly, variables defined across your entire section are accessible under the `space.vars` object.
 
-<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x_1.png" alt="A GitBook screenshot showing an expression block within the editor. The expression editor is open below it and the ‘space.vars.latest_version’ variable has been selected"><figcaption><p>You can add variables to your content within expresions. The expression editor offers autocomplete options to help you find the variable you need.</p></figcaption></figure>
+{% hint style="info" %}
+In expressions, section-scoped variables live under `space.vars` — the GitBook API represents sections as `space` objects.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x_1.png" alt="A GitBook screenshot showing an expression block within the editor. The expression editor is open below it and the ‘space.vars.latest_version’ variable has been selected"><figcaption><p>You can add variables to your content within expressions. The expression editor offers autocomplete options to help you find the variable you need.</p></figcaption></figure>
 
 ### Update a variable
 

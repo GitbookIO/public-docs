@@ -1,5 +1,5 @@
 ---
-description: Add a page link block to show relations between pages in your space.
+description: Add a page link block to show relations between pages in your section.
 ---
 
 # Page links

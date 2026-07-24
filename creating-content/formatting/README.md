@@ -10,10 +10,10 @@ icon: i-cursor
 To format your text, simply select the words you want and choose one of the formats from the context menu — or format your text using a keyboard shortcut or through Markdown syntax.
 
 {% hint style="info" %}
-We’ve written these shortcuts using Mac keys. Use **Control** in place of **⌘ (Command)** on Windows or Linux operating systems. Check out our [keyboard shortcuts](../../resources/keyboard-shortcuts.md) section to see all the shortcuts for all operating systems.
+We've written these shortcuts using Mac keys. Use **Control** in place of **⌘ (Command)** on Windows or Linux operating systems. Check out our keyboard shortcuts section to see all the shortcuts for all operating systems.
 {% endhint %}
 
-### Bold
+#### Bold
 
 Keyboard shortcut: <kbd>⌘</kbd> + <kbd>B</kbd>
 
@@ -25,7 +25,7 @@ Keyboard shortcut: <kbd>⌘</kbd> + <kbd>B</kbd>
 {% endtab %}
 {% endtabs %}
 
-### Italic
+#### Italic
 
 Keyboard shortcut : <kbd>⌘</kbd> + <kbd>I</kbd>
 
@@ -37,7 +37,7 @@ _Italic_
 {% endtab %}
 {% endtabs %}
 
-### Strikethrough
+#### Strikethrough
 
 Keyboard shortcut: <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>S</kbd>
 
@@ -49,7 +49,7 @@ Keyboard shortcut: <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>S</kbd>
 {% endtab %}
 {% endtabs %}
 
-### Code
+#### Code
 
 Keyboard shortcut: <kbd>⌘</kbd> + <kbd>E</kbd>
 
@@ -61,21 +61,21 @@ Keyboard shortcut: <kbd>⌘</kbd> + <kbd>E</kbd>
 {% endtab %}
 {% endtabs %}
 
-### Link
+#### Link
 
 Keyboard shortcut: <kbd>⌘</kbd> + <kbd>K</kbd>
 
-When you add a link to text on your page, you’ll be prompted to provide the link. You can add any URL, but if you’re linking to another page or section in your space, we recommend [using a relative link](inline.md#relative-links).
+When you add a link to text on your page, you'll be prompted to provide the link. You can add any URL, but if you're linking to another page or section in your site, we recommend using a relative link.
 
-This is [a link to an external page](https://www.gitbook.com).
+This is a [link to an external page](https://www.gitbook.com).
 
-This is a [link to another page in this space](../blocks/).
+This is a [link to another page in this section](../blocks/).
 
 This is a [link to a section on this page](./#code).
 
-This is [a link that starts an email to a specific address](mailto:support@gitbook.com).
+This is a [link that starts an email to a specific address](mailto:support@gitbook.com).
 
-### Color and background color
+#### Color and background color
 
 Click the color icon in the context menu, and choose a color for the text or its background.
 

@@ -12,26 +12,26 @@ You can add tables to better organize your information in a GitBook page. You ca
 
 When you open the Options menu to the left of a table block, you’ll have a number of options to change the appearance and manage the data inside the table:
 
-* **Table/Cards:** Choose to display your data as either a table block or [a cards block](cards.md). GitBook populates both these blocks using the same data, so you can switch between them depending on the look and design you want.
+* **Table/Cards:** Choose to display your data as either a table block or a cards block. GitBook populates both these blocks using the same data, so you can switch between them depending on the look and design you want.
 * **Add column:** Add a new column to the right of your table. You can choose column type using the menu, or just click **Add column** to add a text column.
 * **Insert row:** Add a new row to the bottom of your table.
 * **Show header:** Hide or show the top title row of your table.
 * **Freeze header:** Keep the top row of your table visible on the page while you scroll through the rows below. This is useful for larger tables where you want the column titles to stay in view.
 * **Freeze first column:** Keep the leftmost column of your table visible while horizontally scrolling through the columns to the right. This is useful for wider tables that overflow the page width, where you want the row labels or identifiers to stay in view.
-* **Reset column sizing:** If you’ve changed the column widths, this will reset them all to be equal again.
+* **Reset column sizing:** If you've changed the column widths, this will reset them all to be equal again.
 * **Visible columns:** Choose which columns are visible and which are hidden. If you have hidden columns in your table, this menu is where you can make them visible again.
-* **Delete:** Deletes the table block and all of it’s content.
+* **Delete:** Deletes the table block and all of its content.
 
 ### Changing a column type
 
-Depending on the data you want to display, you can set table columns can have different data types. These add formatting, embellishments or restrictions to every cell in the column:
+Depending on the data you want to display, you can set different data types for your table columns. These add formatting, embellishments, or restrictions to every cell in the column:
 
 * **Text:** A standard text column, with standard formatting support.
 * **Number:** A number column, with or without floating digits.
 * **Checkbox:** A checkbox on each line that can be checked or unchecked.
 * **Select:** You can select data from a list of options that you can define by opening the **Columns options** menu and choosing **Manage options**. This can be single-choice or multiple-choice.
 * **Users:** You can add the name and avatar of a member of your organization. This can be single-choice or multiple-choice.
-* **Files:** You can reference a file in the space. You can upload new files when populating cells in the column.
+* **Files:** Reference a file in the section. You can upload new files when populating cells in the column.
 * **Rating:** A star rating. You can configure the maximum rating by opening the **Column options** menu and choosing **Max**.
 
 Use the **Column options** menu to change a column’s type. When you change a column type, you’ll see a prompt asking you to confirm the change, as column data could be deleted or broken by this action.

@@ -11,19 +11,19 @@ icon: lightbulb
 
 ## Organizing content
 
-### Space
+### Section <a href="#space" id="space"></a>
 
-A space is a project that lets you work on a collection of related pages. Within a space you can write content, organize your pages with groups and subpages, install integrations, and more.
+A section is a project that lets you work on a set of related pages. Within a section you can write content, organize your pages with page groups and subpages, install integrations, and more.
 
-When you want to publish a space, you can do so by adding it to a docs site. You can add as many spaces to a docs site as you like. So when you’re building out your content, you can create separate spaces for your product documentation, API reference, changelog, help center, and anything else you want to include on your documentation — and publish them all on one docs site.
+Sections belong to a docs site, and you can add as many sections to a docs site as you like. So when you’re building out your content, you can create separate sections for your product documentation, API reference, changelog, help center, and anything else you want to include on your documentation — and publish them all on one docs site.
 
-You may also want to create translated versions of your primary documentation, or separate docs for different versions of your product. Each of these will also have their own space and can be added to your single docs site for users to browse.
+You may also want to create translated versions of your primary documentation, or separate docs for different versions of your product. Each of these will also have their own section and can be added to your single docs site for users to browse.
 
-#### Collection
+#### Group <a href="#collection" id="collection"></a>
 
-Collections act like folders within the GitBook app, letting you group spaces together to make it easier to organize and store your content.
+Groups act like folders within the GitBook app, letting you keep related sections together to make it easier to organize and store your content.
 
-As well as letting you keep content organized, collections also make it easier to manage content-level permissions at scale. You can override organization-level permissions across multiple spaces by adding them to a collection and setting permissions for the entire collection.
+As well as letting you keep content organized, groups also make it easier to manage content-level permissions at scale. You can override organization-level permissions across multiple sections by adding them to a group and setting permissions for the entire group.
 
 ### Docs site
 
@@ -31,22 +31,22 @@ You can publish your content as a docs site. Your docs will be published and ava
 
 You can create as many docs sites as you want. They’re all listed in the sidebar and in the Docs sites section of the app, where you can change settings and customization options. You can control all of your docs site’s settings and options in the GitBook app.
 
-The content on your site comes from spaces in your GitBook organization. When you create a new docs site, you can create a new space, or link an existing one. A docs site can contain one space, or multiple spaces containing different content — including translations and previous product versions.
+The content on your site lives in its sections. When you create a new docs site, you can create a new section, or add existing content. A docs site can contain one section, or multiple sections containing different content — including translations and previous product versions.
 
 ## Editing content
 
-GitBook’s visual editor lets you use a what-you-see-is-what-you-get (WYSIWYG) interface to add content to a space.
+GitBook’s visual editor lets you use a what-you-see-is-what-you-get (WYSIWYG) interface to add content to a section.
 
 ### Pages
 
-A page is the place where you add, edit and embed content. Pages always live inside a space, and you can add as many pages to a space as you like.
+A page is the place where you add, edit and embed content. Pages always live inside a section, and you can add as many pages to a section as you like.
 
-The pages in your space appear in the table of contents on the left-hand side of the editor. Here, you can add new pages, create page groups, and nest pages within other pages to create subpages.
+The pages in your section appear in the table of contents on the left-hand side of the editor. Here, you can add new pages, create page groups, and nest pages within other pages to create subpages.
 
 {% hint style="info" %}
 #### Can’t see how to edit or add a page?
 
-If your site is published, you’ll need to create a change request before you can make any changes to the content of a space. [Read about change requests below](concepts.md#change-requests).
+If your site is published, you’ll need to create a change request before you can make any changes to the content of a section. [Read about change requests below](concepts.md#change-requests).
 {% endhint %}
 
 ### Blocks
@@ -81,9 +81,9 @@ Git Sync also unlocks many other useful workflows in your GitBook docs, such as 
 
 A change request is a [**branch**](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) of your main content that you can use to make concurrent edits, while maintaining your version history. It will feel familiar to anyone who uses pull requests in GitHub or merge requests in GitLab.
 
-If you want to edit the content on your published docs site, you’ll first need to open a change request in your space.
+If you want to edit the content on your published docs site, you’ll first need to open a change request in your section.
 
-In a change request, you can add, edit and delete content in a space, then request a review from your team and merge your changes into your main content to update your published docs site.
+In a change request, you can add, edit and delete content in a section, then request a review from your team and merge your changes into your main content to update your published docs site.
 
 {% hint style="info" %}
 #### Branching in brief
@@ -105,7 +105,7 @@ Reviewers can view the diff for your change request, which highlights everything
 
 Merging a change request will add all the content in your change request into the main branch of content — and those changes will also go live on your docs site.
 
-When you merge your change request, it also creates a new version in the space’s version history.
+When you merge your change request, it also creates a new version in the section’s version history.
 
 ## Publishing documentation
 
@@ -113,13 +113,13 @@ When you publish your content as a [docs site](concepts.md#docs-site), you can a
 
 ### Structuring your docs site
 
-If you want to add extra content to your site, there are two options for you to use, each designed for different use cases: site sections and variants.
+If you want to add extra content to your site, there are two options for you to use, each designed for different use cases: sections and variants.
 
-#### Site section
+#### Sections in your site structure <a href="#site-section" id="site-section"></a>
 
-Site sections are designed to let you add **multiple different types of documentation to a single docs site**. For example, you could use a single docs site and use it to host your product docs, API reference, help center and changelog — as we do on this docs site.
+Sections let you add **multiple different types of documentation to a single docs site**. For example, you could use a single docs site and use it to host your product docs, API reference, help center and changelog — as we do on this docs site.
 
-When you add new site sections, you build out the navigation bar at the top of your site, with each section getting its own entry on the bar. You can also group site sections together to create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site sections.
+When you add new sections, you build out the navigation bar at the top of your site, with each section getting its own entry on the bar. You can also keep sections together in a [group](concepts.md#collection) to create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site.
 
 #### Variant
 
@@ -127,7 +127,7 @@ Variants are designed to let you add **multiple versions of the same documentati
 
 Your end users can switch between these variants on your docs site using the language picker or the variant picker at the top of the table of contents on the left-hand side of your site.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_structure_light.png" alt="A screenshot of the Roboflow Documentation site, with a navigation bar along the top and an open drop-down menu at the top of the table of contents showing different language variants for the site."><figcaption><p>Site sections create a navigation bar along the top of your site, while users can switch between variants using a menu in the table of contents.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_structure_light.png" alt="A screenshot of the Roboflow Documentation site, with a navigation bar along the top and an open drop-down menu at the top of the table of contents showing different language variants for the site."><figcaption><p>Sections create a navigation bar along the top of your site, while users can switch between variants using a menu in the table of contents.</p></figcaption></figure></div>
 
 ### Site audience
 
@@ -163,7 +163,7 @@ GitBook automatically creates .md versions of every page, which makes it easier 
 
 ### Organization
 
-A GitBook organization contains all of the content and docs sites for an individual company. With your single account, you can be a member of one or many organizations and switch between them using the dropdown menu in the top left corner of the GitBook app.
+A GitBook organization contains all of the content and docs sites for an individual company. With your single account, you can be a member of one or many organizations and switch between them using the organization menu at the top of the sidebar.
 
 ### Members
 

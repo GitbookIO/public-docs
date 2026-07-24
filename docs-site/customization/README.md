@@ -19,7 +19,7 @@ If you have a docs site with with multiple sections or variants, you can control
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
-* **Site-wide settings** – These automatically apply to all linked spaces.
+* **Site-wide settings** – These automatically apply to all sections.
 * **Section or variant specific settings** – If you’re using site sections or variants, you’re can set specific customization that will override the default site-wise setting.
 
 <figure><img src="../../.gitbook/assets/25_12_10_customization@2x.png" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
@@ -27,7 +27,7 @@ Select the whole site or a specific site section using the drop-down menu at the
 {% hint style="warning" %}
 Changes you make to specific site sections will override the site-wide customization settings, even if you change the site-wide setting again later.
 
-You can reset customization overrides back to the site-wide default by clicking the **Reset** button <picture><source srcset="../../.gitbook/assets/25_02_19_reset_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_19_reset_icon_light.svg" alt="The Reset icon in GitBook"></picture> next to the space selector.
+You can reset customization overrides back to the site-wide default by clicking the **Reset** button <picture><source srcset="../../.gitbook/assets/25_02_19_reset_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_19_reset_icon_light.svg" alt="The Reset icon in GitBook"></picture> next to the section selector.
 {% endhint %}
 
 ### What counts as ‘Advanced customization’?
@@ -46,7 +46,7 @@ Advanced customization options include:
 
 ### What cannot be customized?
 
-The options above provide lots of ways for you to customize your space, but there are a few things that you won’t be able to customize, regardless of [your chosen plan](../../account-management/plans/).
+The options above provide lots of ways for you to customize your site, but there are a few things that you won’t be able to customize, regardless of [your chosen plan](../../account-management/plans/).
 
 1. It’s not possible to customize the layout of the elements on the page (However, it _is_ possible to [hide certain elements on specific pages](../../creating-content/content-structure/page/)).
 2. It’s not possible to insert custom code (such as CSS, HTML or JS) directly into your GitBook site. We already integrate with a number of popular tools, and offer [rich embeds](../../creating-content/blocks/embed-a-url.md) for many more.

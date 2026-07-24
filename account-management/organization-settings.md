@@ -8,13 +8,18 @@ icon: sitemap
 Only Admins in an organization can access organization settings.
 {% endhint %}
 
-View and manage the settings for your GitBook organization. These include member management, sign-in methods, merge rules, billing and plans.
+View and manage your GitBook organization’s settings. These include members, sign-in methods, merge rules, billing, and plans.
 
 <figure><img src="../.gitbook/assets/22_01_06_organization_settings@2x.png" alt="A GitBook screenshot showing the organization settings page"><figcaption><p>Your organization settings page.</p></figcaption></figure>
 
-### How to access the settings for an organization
+### Access the settings for an organization
 
-Click on your organization’s name in the top-left corner of the app, then click on **Settings**. This will take you to the general tab of that organization’s settings page, and you’ll see additional tabs containing further settings on the left-hand side.
+1. At the top of the sidebar, open the organization menu.
+2. Click **Settings**.
+
+Settings open in a dedicated screen. Your personal **Account** settings include **General**, **Notifications**, **Organizations**, and **Developer tools**. Your **Organization** settings appear in the sidebar. Click **Back to app** to return to your work.
+
+The **Organization** group contains the following pages:
 
 <details>
 
@@ -22,26 +27,19 @@ Click on your organization’s name in the top-left corner of the app, then clic
 
 **Organization profile**
 
-You can update the logo and the name of the organization.
+Update your organization’s logo and name.
 
 **GitBook AI features**
 
-[GitBook’s AI](../creating-content/searching-your-content/gitbook-ai.md)-powered search lets your team members ask questions about your content in natural language. You can also enable GitBook AI for published content in the space [customization ](../docs-site/customization/)panel.
-
-**Publishing**
-
-Each published GitBook space that lives within your organization’s library will have a domain in two parts:
-
-1. `[something].gitbook.com` (this is the GitBook subdomain) **or** your own custom subdomain
-2. `/[spaceURL]` (this is set within the settings for the space itself)
-
-You can update the GitBook subdomain here, as well as the default content, which is the space that visitors will see if they navigate to your GitBook subdomain directly.
-
-Note: GitBook subdomains are a legacy feature, and you may not have access to change your subdomain at the time of reading this doc. Please refer to [custom domain setup](../docs-site/custom-domain/) and [site sections](../docs-site/site-structure/site-sections.md) to learn more about structuring your docs with custom URLs.
+[GitBook AI](../creating-content/searching-your-content/gitbook-ai.md)-powered search lets members ask questions about your content in natural language. You can also enable GitBook AI for published content in your site’s [customization settings](../docs-site/customization/).
 
 **Actions**
 
-From this section you can delete the organization. **Note: there is no turning back if you delete an organization!** All associated data will be deleted as well. If you want to keep any spaces or collections owned by the organization, make sure to first [move](../creating-content/content-structure/space.md#move-a-space) them to another library.
+Delete your organization from this section.
+
+{% hint style="danger" %}
+**Deleting an organization is permanent.** GitBook deletes all associated data. To keep organization-owned content, [move it to another organization](../creating-content/content-structure/space.md#move-a-space) first.
+{% endhint %}
 
 </details>
 
@@ -49,13 +47,63 @@ From this section you can delete the organization. **Note: there is no turning b
 
 <summary>Members</summary>
 
-**Members tab**
+Add and remove [members](../collaboration/member-management/). You can also update each member’s [role](../collaboration/member-management/roles.md).
 
-[Members](../collaboration/member-management/) can be added to and removed from the organization as needed. You can also update the [role](../collaboration/member-management/roles.md) for each member.
+</details>
 
-**Teams tab**
+<details>
 
-[Teams](../collaboration/member-management/teams.md) are a way to group members within an organization. You can then grant access to certain things to anyone who is a member of a given team.
+<summary>Merge rules</summary>
+
+Control how change requests are reviewed and merged across your organization. Organization rules apply to every section by default. Each section can inherit, replace, or disable those rules. Learn more about [merge rules](../collaboration/merge-rules.md).
+
+</details>
+
+<details>
+
+<summary>GitBook Agent</summary>
+
+Manage organization-level settings for [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md).
+
+</details>
+
+<details>
+
+<summary>Integrations</summary>
+
+Check which integrations are installed for your organization. You can also [install new integrations](../integrations/install-an-integration.md).
+
+</details>
+
+<details>
+
+<summary>OpenAPI</summary>
+
+Manage the OpenAPI specifications your organization’s sites use for API references.
+
+</details>
+
+<details>
+
+<summary>Translations</summary>
+
+Manage organization-wide settings for auto-translations.
+
+</details>
+
+<details>
+
+<summary>Invite links</summary>
+
+Create and manage links that let people join your organization.
+
+</details>
+
+<details>
+
+<summary>Teams</summary>
+
+[Teams](../collaboration/member-management/teams.md) group organization members. You can grant access to members of a team.
 
 </details>
 
@@ -65,19 +113,11 @@ From this section you can delete the organization. **Note: there is no turning b
 
 **Email domains**
 
-For any domains that you specify, anyone with an email address on those domains will immediately be able to access the organization upon signing up for a GitBook account. You can decide what [role](../collaboration/member-management/roles.md) these members should have by default.
+For each domain you add, people with an email address on that domain can access the organization after they create a GitBook account. Choose their default [role](../collaboration/member-management/roles.md).
 
 **SAML**
 
-For organizations on our Enterprise plan, you can configure your SSO with any SAML solution, to give your members access to GitBook through an identity provider (IdP) of your choice. [Contact sales](mailto:sales@gitbook.com) if you’re interested in upgrading to Enterprise!
-
-</details>
-
-<details>
-
-<summary>Integrations</summary>
-
-You can check which integrations are installed for your organization and [install new integrations](../integrations/install-an-integration.md) from this page.
+If you’re on the Enterprise plan, configure SAML single sign-on with your preferred identity provider. [Contact sales](mailto:sales@gitbook.com) to upgrade to Enterprise.
 
 </details>
 
@@ -85,10 +125,10 @@ You can check which integrations are installed for your organization and [instal
 
 <summary>Billing</summary>
 
-From this page you can view your current plan and switch from one plan to another. The toggle at the top of the page enables you to switch between viewing our annual prices (2 months free) or monthly, and you can then use the upgrade/downgrade button under the name of each plan to select your new plan.
+View your current plan and switch plans. Use the toggle to view annual prices, with 2 months free, or monthly prices. Then use the upgrade or downgrade button under each plan.
 
-Please see our [billing policy](plans/billing-policy.md) for information about how charges are calculated when you make a change during the middle of a billing period.
+See our [billing policy](plans/billing-policy.md) to learn how we calculate charges when you change plans mid-cycle.
 
-The Manage Billing button takes you to our payment provider, Stripe. Here you can securely manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If a plan has been cancelled but you change your mind before the end of the billing period, you can renew the plan to have it continue without any lapse in service.
+Click **Manage Billing** to open Stripe. There, you can manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If you renew before the billing period ends, your plan continues without interruption.
 
 </details>

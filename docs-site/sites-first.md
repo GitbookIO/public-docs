@@ -8,13 +8,19 @@ tags:
     primary: true
 ---
 
-# New! Site workspace
+# Site workspace
+
+{% hint style="info" %}
+The new experience is rolling out gradually. New organizations already have it, and existing organizations can enable it today ahead of the global rollout.
+{% endhint %}
 
 ## The sites-first workspace in GitBook
 
-GitBook is now reorganized to be a site specific. Everything in the app is organized around the docs sites you publish, so what you see while editing matches what your visitors see when reading.
+GitBook is now organized around your docs sites. Everything in the app is arranged around the sites you publish, so what you see while editing matches what your visitors see when reading.
 
 This page explains what changed, what it means for your existing content, and how to opt in.
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/site-centric @2x.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Why the site workspace
 
@@ -24,9 +30,9 @@ The site workspace closes that gap. Your organization contains sites, and every 
 
 ### What’s new
 
-#### All Sites is your new home
+#### Home shows all your sites
 
-When you open GitBook, you land on the **All Sites** screen: every docs site in your organization, in one place. It replaces the old Home screen as your starting point. To get back to it from anywhere, use the switcher at the top of the sidebar.
+When you open GitBook, you land on your organization **Home**: your docs sites, recent changes, and organization-wide tools, in one place. To get back to it from anywhere, use the switcher at the top of the sidebar.
 
 #### The sidebar shows your site, not your org
 
@@ -54,7 +60,7 @@ To see how drafts will look on your site, switch the site preview between **Live
 
 #### Organization settings, in context
 
-Organization settings no longer take over the whole screen. They open in context at the organization level, alongside the All Sites screen, so you can adjust organization-wide options without losing your place.
+Organization settings no longer take over the whole screen. They open in context at the organization level, alongside your organization Home, so you can adjust organization-wide options without losing your place.
 
 #### Site-inherited permissions
 
@@ -72,4 +78,4 @@ Nothing is deleted or unpublished.
 
 ### How the rollout works
 
-The site workspace is rolling out in phases. When it’s available for your organization, you’ll see an option to switch on the new experience, along with a short in-app tour of what moved where.
+You'll see an option to switch on the new experience, along with a short in-app tour of what moved where. The site workspace will become the default for all organizations soon — switching early lets your team settle in on your own schedule.

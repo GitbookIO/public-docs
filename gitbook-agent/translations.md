@@ -14,40 +14,44 @@ tags:
 Only [organization admins](../collaboration/member-management/roles.md#admin) can create and access translations, as it’s [a billable feature](translations.md#pricing).
 {% endhint %}
 
-Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a space as a translation of another, and let GitBook Agent handle the rest.
+Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a section as a translation of another, and let GitBook Agent handle the rest.
 
 <figure><img src="../.gitbook/assets/25_12_10_create_translation@2x.png" alt=""><figcaption></figcaption></figure>
 
 ## How translations work
 
-* **Create a translation space:** Set up a new space as a translation of an existing one. Choose your source space and target language.
+* **Create a translation section:** Set up a new section as a translation of an existing one. Choose your source section and target language.
 * **Continuous updates:** Every time you make changes to the source content, the translation workflow only runs for the **pages that have been changed**.
-* **Automatic sync:** After changes are merged, the translation workflow **runs automatically** and syncs with its source, so your translated space always reflects the latest updates.
+* **Automatic sync:** After changes are merged, the translation workflow **runs automatically** and syncs with its source, so your translated section always reflects the latest updates.
 
 {% hint style="info" %}
-Page slugs in auto-translated spaces may change unless the page has a fixed slug. To keep URLs stable across languages, set a fixed slug before translating. To update a slug, see [How can I change the slug in the URL?](https://app.gitbook.com/s/Ua3kTfM3iWAoECzM0u90/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url)
+Page slugs in auto-translated sections may change unless the page has a fixed slug. To keep URLs stable across languages, set a fixed slug before translating. To update a slug, see [How can I change the slug in the URL?](https://app.gitbook.com/s/Ua3kTfM3iWAoECzM0u90/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url)
 {% endhint %}
 
 ## Set up an auto translation
 
-To translate a space to a new language, start by creating a new [space](../creating-content/content-structure/space.md#create-a-space) in your organization. From the modal that appears, click **Translation** from the quick actions menu.
+To translate a section to a new language, go back to your organization **Home** and click **Translations** in the sidebar, then click **Create translation**.
 
-From the modal that appears, you’ll need to choose a:
+In the **Create translation** modal, choose a:
 
-* Source
-* Source language
-* Target language
+* **Source** — the section you want to translate
+* **From** language
+* **To** language
 
-These options will be used to translate your space into a duplicated, translated space in your organization. You’ll also see a quick overview on the cost of translating your space.
+Click **Create** to start the translation workflow. These options will be used to translate your section into a duplicated, translated section in your organization.
+
+The **Translations** screen also lists your configured translation workflows, including their status, source, runs, and translated pages and words. Workflows re-run every time the source content is updated.
 
 ### Advanced configuration
+
+Click **Show advanced instructions** in the **Create translation** modal to configure these options.
 
 **Custom AI instructions:** Add advanced instructions to guide the AI on tone of voice, style, or other preferences. This helps ensure your translations match your brand or audience.
 
 {% hint style="info" %}
 Adding custom instructions to your translation workflow can be helpful, but is limited in certain cases.
 
-Custom instructions cannot be used to create new elements on a translated space, add extra text, or change the structure of the source content.
+Custom instructions cannot be used to create new elements on a translated section, add extra text, or change the structure of the source content.
 {% endhint %}
 
 **Glossary support:** Define a glossary to control how specific terms are translated. This keeps terminology consistent across all supported languages.
@@ -63,10 +67,10 @@ After creating a translation, you’ll be able to add it to published docs site 
 {% hint style="info" %}
 To provide the best experience for your users, you’re able to set the default language of a variant when setting it in your settings.
 
-It’s best practice to add the language of your translated space when setting up your variant.
+It’s best practice to add the language of your translated section when setting up your variant.
 {% endhint %}
 
-Head to your site settings, under the structure tab to set up a new variant for any translations you have.
+To set up a new variant for a translation, open the structure editor from **Site structure**, under **General** in the site sidebar.
 
 ## Pricing
 
@@ -122,9 +126,9 @@ You should only create **one translation workflow per language** of any given so
 
 <summary>What are some current limitations?</summary>
 
-* Translations do not localize UI elements in your variant automatically. Head to your site’s customization settings to [localize the interface](../docs-site/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../docs-site/customization/#customizing-sites-with-multiple-sections).
+* Translations do not localize UI elements in your variant automatically. Open **Customize**, under **Tools** in the site sidebar, to [localize the interface](../docs-site/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../docs-site/customization/#customizing-sites-with-multiple-sections-or-variants).
   * This includes user-input customizations, such as announcement banners.
-* Translations cannot add extra content to the page - like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated space to note this, or the [announcement banner](../docs-site/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
+* Translations cannot add extra content to the page - like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated section to note this, or the [announcement banner](../docs-site/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
 * Changing the glossary triggers a full re-translation of all pages, which can increase processing time and cost. There is no partial re-translation based on glossary usage at this time.
 
 </details>

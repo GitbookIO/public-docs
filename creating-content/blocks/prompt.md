@@ -22,7 +22,9 @@ Each prompt block includes these fields:
 
 The prompt field supports Markdown, so you can structure longer prompts with headings, lists, and other formatting.
 
-### Open in AI providers
+### Prompt options
+
+#### Open in AI providers
 
 The **Open in AI providers** setting controls whether the block shows a menu of AI tools that can open the prompt directly.
 
@@ -30,15 +32,21 @@ If you enable this setting, readers can open the prompt from the provider menu i
 
 If you leave this setting unset, GitBook derives its initial value from the site-level **Open in AI providers** page action. You can manage that setting in [Extra configuration](../../docs-site/customization/extra-configuration.md#open-in-ai-providers).
 
+#### Default visibility
+
+The **Default visibility** setting controls how much of the prompt readers can see initially.
+
+Choose **Hidden** to hide the prompt. Choose **Partially visible** for a 10-line preview, or **Fully visible** for the full prompt.&#x20;
+
 ### Example
 
 Use a prompt block when you want readers to reuse a prompt exactly as written. For example:
 
-{% code title="Example prompt" overflow="wrap" %}
+{% prompt description="Example prompt" icon="rectangle-terminal" defaultExpanded="full" %}
 ```markdown
 Summarize the key changes in this release note. Group the response into: new features, breaking changes, and recommended next steps. Keep the answer under 150 words.
 ```
-{% endcode %}
+{% endprompt %}
 
 ### When to use a prompt block
 
@@ -62,3 +70,15 @@ On a published page, a prompt block helps readers move faster.
 
 * **Copy prompt** copies the full prompt to the clipboard.
 * **Open in AI providers** shows a provider menu when enabled.
+
+## Representation in Markdown
+
+{% code overflow="wrap" %}
+````markdown
+{% prompt description="Example prompt" icon="rectangle-terminal" openInAIProviders="true" defaultExpanded="full” %}
+```markdown
+Summarize the key changes in this release note. Group the response into: new features, breaking changes, and recommended next steps. Keep the answer under 150 words.
+```
+{% endprompt %}
+````
+{% endcode %}

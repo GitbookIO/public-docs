@@ -1,39 +1,56 @@
----
-description: Organize the content you create and publish into spaces
----
+# Sections
 
-# Spaces
+A section is a part of your site where you work on a set of related pages. Sections let you write content, organize pages, add integrations, and more. Every section belongs to a site, and you can organize related sections into groups.
 
-A space is a project that lets you work on a collection of related pages. They allow you to write content, organize pages, add integrations and more.
-
-<figure><img src="../../.gitbook/assets/25_12_10_creating_content_content_structure_space@2x.png" alt="A GitBook screenshot showing the spaces sidebar"><figcaption></figcaption></figure>
-
-### Create a space
-
-Click the **+** button next to the **Spaces** header in the sidebar and choose **New space** to create a new space. You can also create a new space inside a [collection](collection.md).
-
-You can edit a space’s name by hovering over the name in the [space header](../../resources/gitbook-ui/#space-header).
-
-### Duplicate a space
-
-To duplicate a space, open that space's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the sidebar and select **Duplicate**.
-
-Duplicating a space will create a copy of the source space, in the same location (organization, collection, sub-collection, etc.).
-
-{% hint style="warning" %}
-Duplicating a space copies the content in the source space. It doesn't copy revisions or version history.
+{% hint style="info" %}
+The GitBook API represents sections as `space` objects. This has no impact on API integrations or Git Sync.
 {% endhint %}
 
-### Move a space
+<figure><img src="../../.gitbook/assets/25_12_10_creating_content_content_structure_space@2x.png" alt="A GitBook screenshot showing a site&#x27;s content tree in the sidebar"><figcaption></figcaption></figure>
 
-You can move a space by opening the space’s **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the sidebar, selecting **Move space to…** and choosing a destination. Alternatively, you can drag and drop spaces in the sidebar to move or reorder them.\
-\
-You can move spaces between collections within the same organization, as long as you have an [admin role](../../collaboration/member-management/roles.md).
+### Create a section
 
-### Delete a space
+1. In your site, click **Add…**.
+2. Click **New section**.
 
-You can delete a space by opening the space’s **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the sidebar and selecting **Delete**.
+Create a section at the top level of your site or inside a group. New sections start as **drafts**: part of your site and editable by your team, but not visible to visitors until you publish them.
+
+Edit a section's name by hovering over the name in the section header.
+
+### Publish a draft section
+
+1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Publish**.
+
+Or publish several drafts at once from the structure editor.
+
+To preview how drafts look on your site, switch the site preview between **Live** and **Live + Drafts**.
+
+### Duplicate a section
+
+1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Duplicate**.
+
+Duplicating a section creates a copy of the source section in the same location (site or group).
 
 {% hint style="warning" %}
-**Deleted spaces can be restored from the Trash for up to 7 days**. After this, they will be permanently deleted.
+Duplicating a section copies the content in the source section. It doesn't copy revisions or version history.
+{% endhint %}
+
+### Move or reorder a section
+
+The content tree in the sidebar is read-only. To move a section into or out of a group, or to reorder sections:
+
+1. Open the **structure editor**.
+2. Drag the section to its new position.
+
+Changes reflect back in the sidebar — and on your published site — immediately.
+
+### Delete a section
+
+1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Delete**.
+
+{% hint style="warning" %}
+**Restore deleted sections from the Trash for up to 7 days.** After that, GitBook deletes them permanently.
 {% endhint %}

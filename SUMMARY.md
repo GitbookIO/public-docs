@@ -23,7 +23,7 @@
 
 ## Your docs site <a href="#docs-site" id="docs-site"></a>
 
-* [New! Site workspace](docs-site/sites-first.md)
+* [Site workspace](docs-site/sites-first.md)
 * [Site settings](docs-site/site-settings.md)
 * [Site customization](docs-site/customization/README.md)
   * [Icons, colors, and themes](docs-site/customization/icons-colors-and-themes.md)
@@ -65,10 +65,11 @@
   * [Inline content](creating-content/formatting/inline.md)
   * [Markdown](creating-content/formatting/markdown.md)
 * [Content structure](creating-content/content-structure/README.md)
-  * [Spaces](creating-content/content-structure/space.md)
+  * [Sections](creating-content/content-structure/space.md)
+  * [Groups](creating-content/content-structure/collection.md)
   * [Pages](creating-content/content-structure/page/README.md)
     * [Tags](creating-content/content-structure/page/tags.md)
-  * [Collections](creating-content/content-structure/collection.md)
+* [All content](creating-content/all-content.md)
 * [Blocks](creating-content/blocks/README.md)
   * [Paragraphs](creating-content/blocks/paragraph.md)
   * [Headings](creating-content/blocks/heading.md)
@@ -100,7 +101,7 @@
   * [Custom blocks](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart)
 * [Variables and expressions](creating-content/variables-and-expressions.md)
 * [Reusable content](creating-content/reusable-content.md)
-* [Styleguide](creating-content/styleguide.md)
+* [Style guide](creating-content/styleguide.md)
 * [Searching internal content](creating-content/searching-your-content/README.md)
   * [Search & Quick find](creating-content/searching-your-content/quick-find.md)
   * [GitBook AI](creating-content/searching-your-content/gitbook-ai.md)
@@ -117,11 +118,12 @@
   * [Teams](collaboration/member-management/teams.md)
 * [Change requests](collaboration/change-requests/README.md)
   * [Change requests screen](collaboration/change-requests/change-requests-screen.md)
-  * [Change requests in a space](collaboration/change-requests/change-requests-in-a-space.md)
+  * [Change requests in a section](collaboration/change-requests/change-requests-in-a-space.md)
 * [Merge rules](collaboration/merge-rules.md)
 * [Comments](collaboration/comments.md)
 * [Notifications](collaboration/notifications.md)
 * [Live edits](collaboration/live-edits.md)
+* [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
 
 ## Site access
 
@@ -201,7 +203,6 @@
 ## Resources
 
 * [GitBook UI](resources/gitbook-ui/README.md)
-  * [Toolbar on published sites and site previews](resources/gitbook-ui/toolbar-on-published-sites-and-site-previews.md "Toolbar")
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
 * [Concepts](resources/concepts.md)

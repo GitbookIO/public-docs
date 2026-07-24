@@ -34,7 +34,7 @@ GitBook AI will summarize information that you or your team add to your knowledg
 
 ### Installation & configuration
 
-The Visual Studio Code integration is currently in closed beta. Once accepted to the beta, you’ll be able to install the Visual Studio Code integration from the home screen in the GitBook app.
+The Visual Studio Code integration is currently in closed beta. Once accepted to the beta, you’ll be able to install the Visual Studio Code integration from the **Integrations** screen in the GitBook app.
 
 After installing the integration to Visual Studio Code, you’ll need to log into your GitBook account in order to complete the configuration.
 

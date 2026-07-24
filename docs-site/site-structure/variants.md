@@ -6,16 +6,16 @@ description: >-
 
 # Content variants
 
-You can publish multiple versions of the same documentation as part of a single docs site. These variants will be available to the end users via the space switcher in the top-left corner of the published site.
+You can publish multiple versions of the same documentation as part of a single docs site. These variants will be available to the end users via the variant picker at the top of the table of contents on the published site.
 
 <figure><img src="../../.gitbook/assets/25_12_10_adding_a_section@2x.png" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption></figcaption></figure>
 
 ### Add multiple languages or versions
 
-A site with multiple variants is useful if you need to group together the content of your spaces — such as if you’re documenting multiple versions of an API (v1, v2, v3, etc.), or documenting your content in different languages.
+A site with multiple variants is useful if you need to keep variations of your content together — such as if you’re documenting multiple versions of an API (v1, v2, v3, etc.), or documenting your content in different languages.
 
 {% hint style="info" %}
-The spaces you link can contain any content, but it’s recommended to use variants as _variations of the same content_. If the spaces you link are semantically different from each other, consider adding them as [site sections](site-sections.md) instead.
+Variants can contain any content, but it’s recommended to use them as _variations of the same content_. If your content is semantically different, consider adding it as [sections](site-sections.md) instead.
 {% endhint %}
 
 When adding a translation or multiple languages as a variant, it’s best practice to set the language of your variant to give your users the best experience when navigating your docs.
@@ -24,9 +24,9 @@ Adding multiple variants with languages set will move the language picker to the
 
 ### Adding a variant to your docs site
 
-From your docs site’s dashboard, open the **Settings** tab in the site header, then click **Structure**. Here you can see all the content of your site.
+Open the structure editor from **Site structure**, under **General** in the site sidebar. Here you can see all the content of your site.
 
-To add a variant, click the **Add variant** button in the section you'd like to add to, then choose a space to link. The new variant is then added to the list of variants within the chosen section and will be available to visitors in the variant dropdown on your site.
+To add a variant, click the **Add variant** button in the section you'd like to add to, then choose the content to add. The new variant is then added to the list of variants within the chosen section and will be available to visitors in the variant dropdown on your site.
 
 ### Changing a variant
 
@@ -35,10 +35,10 @@ You can change the name and slug of each of your variants by clicking the <pictu
 If your site supports multiple languages, you can also translate variant titles so the picker shows localized labels. See [Multilingual sections](multilingual-sections.md).
 
 {% hint style="info" %}
-Changing a linked space's slug will change the space's canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../../publishing-documentation/site-redirects.md).
+Changing a variant's slug will change its canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../../publishing-documentation/site-redirects.md).
 {% endhint %}
 
-To replace a variant’s linked space with a different space, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> button, then click the **Delete** button in the lower left of the modal. Once the variant is deleted, click the **Add variant** button to add the new space.
+To replace a variant’s content, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> button, then click the **Delete** button in the lower left of the modal. Once the variant is deleted, click the **Add variant** button to add the new content.
 
 ### Reordering variants
 
@@ -58,10 +58,10 @@ Setting a variant as default removes its slug field, as it will be served from t
 
 ### Remove a variant from a site
 
-To remove a variant from a site, open the **Settings** tab from your docs site dashboard, then click **Structure** to find the content you want to remove.
+To remove a variant from a site, open the structure editor from **Site structure**, under **General** in the site sidebar, and find the content you want to remove.
 
 Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the variant you want to remove and choose **Remove**.
 
 {% hint style="success" %}
-Removing a variant from your site will remove it from the published site, but **will not delete the space or the content within it**.
+Removing a variant from your site will remove it from the published site, but **will not delete the content itself** — you can still find it in [All content](../../creating-content/all-content.md).
 {% endhint %}

@@ -1,36 +1,42 @@
 ---
-description: Organize your spaces into folders
+description: Organize related sections within your site
 ---
 
-# Collections
+# Groups
 
-Collections are a way to group spaces together to make it easier for you to organize your content. With collections, you can:
+Groups let you organize related sections within your site, making your site's structure easier for visitors to navigate.
 
-* organize your content by similar topics or ideas
-* manage space [permissions](../../collaboration/member-management/permissions-and-inheritance.md) at scale by allowing you to override the organization-level defaults.
+### Create a group
 
-### Create a collection
+1. In your site, click **Add…**.
+2. Click **New group**.
+3. Choose a title and an icon that represents the group.
 
-Click the **+** button next to the **Spaces** header in the sidebar to create a new collection. You can also create a collection or space within another collection from the collection’s main page.
+New groups start as **drafts**: they aren't visible on your published site until you publish them.
 
-### Move a collection
+### Add sections to a group
 
-You can move a collection by opening the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>, selecting **Move collection to…** and choosing a destination. Alternatively, you can drag and drop collections in the sidebar to move or reorder them.\
-\
-You can move collections into other collections — or even to other organizations, if you have an [admin role](../../collaboration/member-management/roles.md) in both.
+1. Open the **structure editor**.
+2. Drag the section into or out of the group.
 
-### Nested collections
+Or create a new section directly inside a group.
 
-You can nest collections inside each other, creating a collection -> sub-collection -> space hierarchy.
+### Publish a group
 
-Open a collection and you can click **New collection** from the collection’s main page to create a sub-collection.
+1. Open the group's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Publish**.
 
-To move one collection into another, click **Move collection to…** from the collection’s **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and then choose its new location. Alternatively, you can drag and drop the collection to its new location.
+Or publish several drafts at once from the structure editor.
 
-### How to delete a collection
+To preview how draft groups look on your site, switch the site preview between **Live** and **Live + Drafts**.
 
-You can delete a collection by opening its **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and selecting **Delete**.
+### Rename a group
 
-{% hint style="danger" %}
-**Deleting a collection is final**, but spaces inside a deleted collection will move to the **Trash** and can be restored up to seven days after deletion. You can access the Trash from the bottom of the sidebar.
-{% endhint %}
+1. Click the **Action menu** icon <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group.
+2. Click **Rename**.
+3. Change the group's title or icon.
+
+### Delete a group
+
+1. Open the group's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
+2. Click **Delete**.

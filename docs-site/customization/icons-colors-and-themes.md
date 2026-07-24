@@ -12,24 +12,24 @@ description: >-
 
 ### Title
 
-You can set any title you choose for your space. Note: this setting will only affect the title that displays _in the published documentation_. If you want to edit the title in the GitBook app, close the customize menu and edit it at the top of the space.
+You can set any title you choose for your site. Note: this setting will only affect the title that displays _in the published documentation_. If you want to edit the title in the GitBook app, close the customize menu and edit it at the top of the section.
 
 ### Icon
 
-You can set an emoji, or upload an icon of your own. The icon you set in the **Customization** menu will be used as the favicon for your docs site.
+You can set an emoji, or upload an icon of your own. The icon you set in the **Customize** menu will be used as the favicon for your docs site.
 
 {% hint style="info" %}
-This setting will only affect the icon that displays _in the published documentation_. If you want to edit the icon used within the GitBook app, you can do so when editing content in the space itself.
+This setting will only affect the icon that displays _in the published documentation_. If you want to edit the icon used within the GitBook app, you can do so when editing content in the section itself.
 {% endhint %}
 
 ### Custom logo <mark style="background-color:purple;">(Premium & Ultimate)</mark>
 
-You can replace _both_ the published space’s title and icon with a custom logo so that your documentation better reflects your own branding — and you can upload two versions: one for light mode, and one for dark mode.
+You can replace _both_ the published site’s title and icon with a custom logo so that your documentation better reflects your own branding — and you can upload two versions: one for light mode, and one for dark mode.
 
 {% hint style="info" %}
 **What’s the difference between the icon and logo options?**
 
-The icon setting lets you upload a small, 132×132 px image, which will appear _alongside_ your space title and function as your site’s favicon. The custom logo option lets you upload a larger image (we recommend at least 600 px wide), which will completely replace any icon and title you’ve set.
+The icon setting lets you upload a small, 132×132 px image, which will appear _alongside_ your site title and function as your site’s favicon. The custom logo option lets you upload a larger image (we recommend at least 600 px wide), which will completely replace any icon and title you’ve set.
 {% endhint %}
 
 ## Themes

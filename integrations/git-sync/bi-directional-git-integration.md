@@ -17,7 +17,7 @@ With GitBook you can synchronize your content with GitHub or GitLab repositories
 ## GitHub Sync: How it works
 
 1. Add the GitBook app to your GitHub account or organization.
-2. Link your GitBook space to a GitHub repository.
+2. Link your GitBook section to a GitHub repository.
 3. Select the branch you care about.
 4. GitBook changes are synced to GitHub as commits, GitHub changes are synced to GitBook as history commits.
 
@@ -29,8 +29,8 @@ You can find full GitHub Sync instructions here:
 
 ## GitLab Sync: How it works
 
-1. Generate an API token in GitLab and add it to your GitBook space.
-2. Link your GitBook space to a GitLab repository.
+1. Generate an API token in GitLab and add it to your GitBook section.
+2. Link your GitBook section to a GitLab repository.
 3. Select the branch you care about.
 4. GitBook changes are synced to GitLab as commits, GitLab changes are synced to GitBook as history commits.
 

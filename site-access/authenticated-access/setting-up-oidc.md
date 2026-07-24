@@ -24,7 +24,7 @@ Install the Auth0 integration and add the required configuration.
 {% endstep %}
 {% endstepper %}
 
-OIDC stands for OpenID Connect, and it's an identity layer built on top of OAuth. Many identity providers abide by OIDC, and GitBook's OIDC integration for authenticated access allows you to publish your space behind authenticated access, and access to the content is controlled by your Identity Provider
+OIDC stands for OpenID Connect, and it's an identity layer built on top of OAuth. Many identity providers abide by OIDC, and GitBook's OIDC integration for authenticated access allows you to publish your content behind authenticated access, and access to the content is controlled by your Identity Provider
 
 {% hint style="info" %}
 Since this guide is a generic guide meant for all identity providers, some details may vary depending on your Identity Provider. For illustration purposes, we are using Google as the identity provider in this guide.
@@ -50,7 +50,7 @@ Navigate to integrations within the GitBook app, select authenticated access as 
 
 Once you've installed it on your site, go to configuration and make a note of the Callback URL right above the Save button. We may need it to set up the Identity Provider.
 
-Open up the OIDC integration's configuration screen for the space you installed the integration on.
+Open up the OIDC integration's configuration screen for the section you installed the integration on.
 
 It should look like the following image
 

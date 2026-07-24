@@ -63,7 +63,7 @@ Setting up a custom domain can occasionally run into obstacles. Below, we outlin
 
 <summary>SSL error: an error occurred when provisioning your SSL certificate.</summary>
 
-When a custom domain is set for your organization, collection, or space, we set up an SSL certificate on our end so that your documentation will load securely, over HTTPS.\
+When a custom domain is set for your organization, group, or section, we set up an SSL certificate on our end so that your documentation will load securely, over HTTPS.\
 \
 This happens automatically when you set your custom domain — you do not need to purchase or configure an SSL certificate.
 
