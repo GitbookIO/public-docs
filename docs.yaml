@@ -1,0 +1,122 @@
+site:
+  title: GitBook Documentation (WIP)
+  structure:
+    - type: section-group
+      key: group-1
+      title: Developers
+      icon: code
+      children:
+        - type: section
+          key: section-developers
+          title: API
+          path: api
+          description: Build with the GitBook API
+          icon: brackets-curly
+          children:
+            - type: space
+              key: space-developers
+              title: Developers
+              path: untitled
+              default: true
+              content:
+                directory: ./api
+        - type: section
+          key: section-2
+          title: CLI
+          path: cli
+          description: Set up automations with the GitBook CLI
+          icon: rectangle-terminal
+          children:
+            - type: space
+              key: space-2
+              title: CLI
+              path: untitled
+              default: true
+              content:
+                directory: ./cli
+        - type: section
+          key: section-custom-components
+          title: Custom components
+          path: custom-components
+          description: Build integrations and custom components
+          icon: cube
+          children:
+            - type: space
+              key: space-custom-components
+              title: Custom components
+              path: untitled
+              default: true
+              content:
+                directory: ./custom-components
+    - type: section
+      key: section-documentation
+      title: Documentation
+      path: documentation
+      description: The canonical core - concepts, how-tos and reference by domain
+      icon: book-open
+      default: true
+      children:
+        - type: space
+          key: space-documentation
+          title: Documentation
+          path: untitled
+          default: true
+          content:
+            directory: ./documentation
+    - type: section
+      key: section-1
+      title: Build with AI
+      path: ai
+      description: Drive GitBook from Claude, Cursor, or any MCP client
+      icon: sparkles
+      children:
+        - type: space
+          key: space-1
+          title: Agents
+          path: untitled
+          default: true
+          content:
+            directory: ./ai
+    - type: section
+      key: section-education
+      title: Education
+      path: education
+      description: Workflow guides and best practices
+      icon: graduation-cap
+      children:
+        - type: space
+          key: space-education
+          title: Guides & Best Practices
+          path: untitled
+          default: true
+          content:
+            directory: ./education
+    - type: section
+      key: section-changelog
+      title: Changelog
+      path: changelog
+      description: Our latest releases, improvements and fixes
+      icon: bars-staggered
+      children:
+        - type: space
+          key: space-changelog
+          title: Changelog
+          path: untitled
+          default: true
+          content:
+            directory: ./changelog
+    - type: section
+      key: section-policies
+      title: Policies
+      path: policies
+      description: Our policies and procedures
+      icon: building-columns
+      children:
+        - type: space
+          key: space-policies
+          title: Policies
+          path: untitled
+          default: true
+          hidden: true
+          content:
+            directory: ./policies

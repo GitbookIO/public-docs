@@ -1,0 +1,754 @@
+# GitBook Documentation
+
+## Documentation
+
+- [Overview](https://gitbook.com/docs/overview.md): Create and publish AI-native documentation your users will love. GitBook gives you intelligent tools to build product guides, API references, and documentation that improves over time.
+- [Quickstart](https://gitbook.com/docs/getting-started/quickstart.md): Get up and running in GitBook and publish your first docs site in minutes
+- [Build with AI](https://gitbook.com/docs/getting-started/ai-documentation.md): Build and publish AI-native docs using GitBook Agent, AI coding assistants, and MCP.
+- [Agent skills](https://gitbook.com/docs/getting-started/ai-documentation/ai-coding-assistants-and-skillmd.md): Use GitBook’s official SKILL.md file to give AI coding assistants like Claude Code, Cursor or Codex knowledge of GitBook’s features and blocks
+- [GitBook MCP](https://gitbook.com/docs/getting-started/ai-documentation/gitbook-mcp.md): Connect AI coding assistants to GitBook so they can create sites, open change requests, and edit content through GitBook’s API
+- [GitBook CLI](https://gitbook.com/docs/getting-started/ai-documentation/gitbook-cli.md): Work with your GitBook content from the command line — sign in, query the API, and drive docs workflows from scripts or AI coding agents.
+- [Optimizing for AI](https://gitbook.com/docs/getting-started/ai-documentation/optimizing-for-ai.md): Make your docs easier for LLMs, coding agents, and AI search tools to consume and answer from
+- [Migrate to GitBook](https://gitbook.com/docs/getting-started/import.md): How to import existing content into GitBook from Confluence, Notion, Git and more
+- [GitHub & GitLab Sync](https://gitbook.com/docs/getting-started/git-sync.md): Synchronize your GitBook content with GitHub or GitLab with GitBook’s bi-directional integration
+- [Enabling GitHub Sync](https://gitbook.com/docs/getting-started/git-sync/enabling-github-sync.md): Set up and authorize the GitHub integration for GitBook
+- [Enabling GitLab Sync](https://gitbook.com/docs/getting-started/git-sync/enabling-gitlab-sync.md): Set up and authorize the GitLab integration for GitBook
+- [Content configuration](https://gitbook.com/docs/getting-started/git-sync/content-configuration.md): Configure Git Sync with extra functionalities
+- [GitHub pull request preview](https://gitbook.com/docs/getting-started/git-sync/github-pull-request-preview.md): See a preview of your content when making a pull request in GitHub
+- [Commit messages & Autolink](https://gitbook.com/docs/getting-started/git-sync/commits.md)
+- [Monorepos](https://gitbook.com/docs/getting-started/git-sync/monorepos.md)
+- [Troubleshooting](https://gitbook.com/docs/getting-started/git-sync/troubleshooting.md)
+- [Site workspace](https://gitbook.com/docs/docs-site/sites-first.md): Learn how the site workspace changes navigation, content structure, and permissions in GitBook
+- [Site settings](https://gitbook.com/docs/docs-site/site-settings.md): Customize and edit settings across your published site
+- [Site customization](https://gitbook.com/docs/docs-site/customization.md): Create branded documentation with a custom logo, fonts, colors, links and more
+- [Icons, colors, and themes](https://gitbook.com/docs/docs-site/customization/icons-colors-and-themes.md): Customize icons, colors, themes and more granular settings across your published documentation
+- [Layout and structure](https://gitbook.com/docs/docs-site/customization/layout-and-structure.md): Customize the layout and structure of your published documentation
+- [Sharing and social](https://gitbook.com/docs/docs-site/customization/sharing-and-social.md): Customize the social account metadata and sharing options for your site
+- [Extra configuration](https://gitbook.com/docs/docs-site/customization/extra-configuration.md): Configure extra options for your published documentation
+- [Site structure](https://gitbook.com/docs/docs-site/site-structure.md): Add structure to your published documentation using sections and variants
+- [Site sections](https://gitbook.com/docs/docs-site/site-structure/site-sections.md): Add multiple products to your site as sections and create a content hub with tabs to access all your content
+- [Content variants](https://gitbook.com/docs/docs-site/site-structure/variants.md): Publish documentation for multiple product versions or languages in a single site
+- [Multilingual sections](https://gitbook.com/docs/docs-site/site-structure/multilingual-sections.md): Set localized titles for your site, sections, and section groups
+- [AI Search](https://gitbook.com/docs/docs-site/ai-search.md): Help your users find the information they need faster with powerful AI search tools for your published content
+- [Set a custom domain](https://gitbook.com/docs/docs-site/custom-domain.md): Set a custom domain for your docs sites
+- [Setting a custom subdirectory](https://gitbook.com/docs/docs-site/custom-domain/setting-a-custom-subdirectory.md): Set a custom subdirectory for your docs sites
+- [Configuring a subdirectory with Cloudflare](https://gitbook.com/docs/docs-site/custom-domain/setting-a-custom-subdirectory/configuring-a-subdirectory-with-cloudflare.md): Host your documentation with a /docs subdirectory using Cloudflare
+- [Configuring a subdirectory with Vercel](https://gitbook.com/docs/docs-site/custom-domain/setting-a-custom-subdirectory/configuring-a-subdirectory-with-vercel.md): Host your documentation with a /docs subdirectory using Vercel
+- [Configuring a subdirectory with AWS using CloudFront and Route 53](https://gitbook.com/docs/docs-site/custom-domain/setting-a-custom-subdirectory/configuring-a-subdirectory-with-aws.md): Host your documentation with a /docs subdirectory using AWS CloudFront and Route 53.
+- [Publish a docs site](https://gitbook.com/docs/docs-site/publish-a-docs-site.md): Publish your documentation to the internet as a docs site
+- [Public publishing](https://gitbook.com/docs/docs-site/publish-a-docs-site/public-publishing.md): Publish your docs publicly to the web so that everyone can access them
+- [Private publishing with share links](https://gitbook.com/docs/docs-site/publish-a-docs-site/share-links.md): Add greater control over who can view your published GitBook documentation
+- [Site redirects](https://gitbook.com/docs/docs-site/site-redirects.md): Set up site redirects to route traffic to content anywhere on your site
+- [Embed in your product](https://gitbook.com/docs/docs-site/embedding.md): Embed your documentation in your product or website using the Docs Embed.
+- [Implementation](https://gitbook.com/docs/docs-site/embedding/implementation.md)
+- [Script tag](https://gitbook.com/docs/docs-site/embedding/implementation/script.md): Learn how to add the Docs Embed widget to any website or web app using a single script tag
+- [Node.js/NPM](https://gitbook.com/docs/docs-site/embedding/implementation/nodejs.md): Integrate Docs Embed using the NPM package for full application-level control
+- [React](https://gitbook.com/docs/docs-site/embedding/implementation/react.md): Use prebuilt React components to add the Docs Embed to your React application
+- [Authentication](https://gitbook.com/docs/docs-site/embedding/using-with-authenticated-docs.md): Use the Docs Embed with sites that require authentication by passing visitor tokens or using authenticated access
+- [Configuration](https://gitbook.com/docs/docs-site/embedding/configuration.md)
+- [Customizing the Embed](https://gitbook.com/docs/docs-site/embedding/configuration/customizing-docs-embed.md): Customize the experience when embedding Docs Embed into your product or app by setting welcome messages, actions, and more
+- [Connect to custom tools](https://gitbook.com/docs/docs-site/embedding/configuration/creating-custom-tools.md): Connect GitBook Assistant to any tool you can call from your app — especially support workflows
+- [API Reference](https://gitbook.com/docs/docs-site/embedding/configuration/reference.md): Learn more about the methods available to use when working with Docs Embed programmatically
+- [AI insights](https://gitbook.com/docs/docs-site/ai-insights.md): See what your users are actually asking GitBook Assistant — and identify knowledge gaps where your docs fall short
+- [Site analytics](https://gitbook.com/docs/docs-site/insights.md): View analytics related to your published documentation’s traffic and usage
+- [PDF export](https://gitbook.com/docs/docs-site/pdf-export.md): Export a PDF copy of your GitBook content
+- [Formatting your content](https://gitbook.com/docs/creating-content/formatting.md): Format your content in various ways using the context menu or keyboard shortcuts
+- [Inline content](https://gitbook.com/docs/creating-content/formatting/inline.md): Use the inline palette to add images, links, math & TeX, and more
+- [Markdown](https://gitbook.com/docs/creating-content/formatting/markdown.md): Write Markdown directly in the editor to easily create content using common syntax
+- [Content structure](https://gitbook.com/docs/creating-content/content-structure.md)
+- [Sections](https://gitbook.com/docs/creating-content/content-structure/space.md)
+- [Groups](https://gitbook.com/docs/creating-content/content-structure/collection.md): Organize related sections within your site
+- [Pages](https://gitbook.com/docs/creating-content/content-structure/page.md): Add pages, page groups or external links — and learn about the options you have on each page
+- [Tags](https://gitbook.com/docs/creating-content/content-structure/page/tags.md): Tags are reusable labels you can add to pages and update blocks — this page tells you how to create, add and manage tags
+- [All content](https://gitbook.com/docs/creating-content/all-content.md): Browse, search, and manage content across all of your sites, and content that isn’t part of a site yet, from one screen
+- [Blocks](https://gitbook.com/docs/creating-content/blocks.md): Add and edit blocks within your content
+- [Paragraphs](https://gitbook.com/docs/creating-content/blocks/paragraph.md): Add a paragraph block to insert formatted text, inline images and more
+- [Headings](https://gitbook.com/docs/creating-content/blocks/heading.md): Add heading blocks to a page to organize your content and improve SEO
+- [Unordered lists](https://gitbook.com/docs/creating-content/blocks/unordered-list.md): Add an unordered list block to create bullet point lists
+- [Ordered lists](https://gitbook.com/docs/creating-content/blocks/ordered-list.md): Add an ordered or numbered list to a page
+- [Task lists](https://gitbook.com/docs/creating-content/blocks/task-list.md): Add a task list to display tasks that can be completed
+- [Hints](https://gitbook.com/docs/creating-content/blocks/hint.md): Add a hint to a page to draw your reader’s attention to specific pieces of important information.
+- [Quotes](https://gitbook.com/docs/creating-content/blocks/quote.md): Add a quote block to a page to highlight copy you’re adding from elsewhere, or to draw attention to a specific part of your text
+- [Code blocks](https://gitbook.com/docs/creating-content/blocks/code-block.md): Add a code block to a page to include sample code, configurations, code snippets and more
+- [Files](https://gitbook.com/docs/creating-content/blocks/insert-files.md): Manage and add files to your site such as PDFs, videos, documents and more
+- [Images](https://gitbook.com/docs/creating-content/blocks/insert-images.md): Add an image or a gallery of images to a page, add image variants for dark mode, and resize and align images to your needs
+- [Embedded URLs](https://gitbook.com/docs/creating-content/blocks/embed-a-url.md): Embed videos, music and more directly into your page with a URL
+- [Tables](https://gitbook.com/docs/creating-content/blocks/table.md): Keep information organized and make documenting data easier with tables
+- [Cards](https://gitbook.com/docs/creating-content/blocks/cards.md): Display information more dynamically with a set of cards — with or without images
+- [Tabs](https://gitbook.com/docs/creating-content/blocks/tabs.md): Add tabs so you can display large blocks of related information without creating a long, hard-to-navigate page
+- [Expandable](https://gitbook.com/docs/creating-content/blocks/expandable.md): Add an expandable block to a page to keep your pages shorter, hide longer content, or create FAQs
+- [Stepper](https://gitbook.com/docs/creating-content/blocks/stepper.md): Add a step-by-step guide to a page — perfect for guides, walkthroughs and technical troubleshooting processes
+- [Updates](https://gitbook.com/docs/creating-content/blocks/updates.md): Add one or more updates to a page — perfect for adding a changelog to your site
+- [Drawings](https://gitbook.com/docs/creating-content/blocks/drawing.md): Create drawings within GitBook and add them to your page
+- [Mermaid blocks](https://gitbook.com/docs/creating-content/blocks/mermaid-blocks.md): Add a Mermaid block to create diagrams in GitBook using Mermaid syntax
+- [Math & TeX](https://gitbook.com/docs/creating-content/blocks/math-and-tex.md): Add a mathTeX block to a page when you want to display a mathematical formula in your documentation
+- [Page links](https://gitbook.com/docs/creating-content/blocks/page-link.md): Add a page link block to show relations between pages in your section.
+- [Prompt](https://gitbook.com/docs/creating-content/blocks/prompt.md): Add a prompt block to a page to share reusable AI prompts
+- [Columns](https://gitbook.com/docs/creating-content/blocks/columns.md): Add a column to create different layouts in your documentation.
+- [Conditional content](https://gitbook.com/docs/creating-content/blocks/conditional-content.md)
+- [Variables and expressions](https://gitbook.com/docs/creating-content/variables-and-expressions.md): Create reusable variables that can be referenced in pages and sections
+- [Reusable content](https://gitbook.com/docs/creating-content/reusable-content.md): Create reusable blocks of content that can be used across sections, and all updated at once when you change an instance
+- [Style guide](https://gitbook.com/docs/creating-content/styleguide.md): Define your team's writing rules in a dedicated style guide and keep every contributor, human or GitBook Agent, consistent.
+- [Searching internal content](https://gitbook.com/docs/creating-content/searching-your-content.md): Find what you’re looking for faster with keyword search and AI-powered smart search
+- [Search & Quick find](https://gitbook.com/docs/creating-content/searching-your-content/quick-find.md): Search and navigate your documentation fast with quick find
+- [GitBook AI](https://gitbook.com/docs/creating-content/searching-your-content/gitbook-ai.md): GitBook uses AI to help you find the knowledge you need within your organization, faster
+- [Version control](https://gitbook.com/docs/creating-content/version-control.md): Keep track of changes, roll back to a previous version and more
+- [Inviting your team](https://gitbook.com/docs/collaboration/share.md): Learn how to invite teammates and other stakeholders to your GitBook organization as members or guests so they can collaborate on your content
+- [Member management](https://gitbook.com/docs/collaboration/member-management.md): Learn how to manage access to content for members of your organization
+- [Manage or remove members](https://gitbook.com/docs/collaboration/member-management/invite-members-to-your-organization.md): Learn how to manage the members of your organization, including adding new admins and what to do if the only admin leaves your organization
+- [Permissions and inheritance](https://gitbook.com/docs/collaboration/member-management/permissions-and-inheritance.md): Understand how permissions work in GitBook and how to control who can access and edit your content
+- [Roles](https://gitbook.com/docs/collaboration/member-management/roles.md): A breakdown of every role in GitBook — what each one can do, and how to use them to control access across your organization
+- [Teams](https://gitbook.com/docs/collaboration/member-management/teams.md): Teams are a great way of grouping members within your organization
+- [Change requests](https://gitbook.com/docs/collaboration/change-requests.md): Collaborate on content edits through change requests
+- [Change requests screen](https://gitbook.com/docs/collaboration/change-requests/change-requests-screen.md): Learn about the dedicated change requests screen, which helps you browse, manage and review change requests before merging them and publishing them in your documentation
+- [Change requests in a section](https://gitbook.com/docs/collaboration/change-requests/change-requests-in-a-space.md): Learn about collaborating on a single change request in a section — including how to review, resolve conflicts and merge
+- [Merge rules](https://gitbook.com/docs/collaboration/merge-rules.md): Define requirements that must be met before change requests can be merged
+- [Comments](https://gitbook.com/docs/collaboration/comments.md): Ask questions to your team or receive feedback on the content you create
+- [Notifications](https://gitbook.com/docs/collaboration/notifications.md): Receive notifications about new content, updates to your sections or changes in visibility
+- [Live edits](https://gitbook.com/docs/collaboration/live-edits.md): Edit pages in real-time with other collaborators
+- [Toolbar on published sites and site previews](https://gitbook.com/docs/collaboration/toolbar-on-published-sites-and-site-previews.md): Learn more about the toolbar that appears on your published site when you’re logged into GitBook
+- [Authenticated access](https://gitbook.com/docs/site-access/authenticated-access.md): Set up custom authentication for your published content
+- [Enabling authenticated access](https://gitbook.com/docs/site-access/authenticated-access/enabling-authenticated-access.md)
+- [Setting up Auth0](https://gitbook.com/docs/site-access/authenticated-access/setting-up-auth0.md): Set up an Auth0 login screen for visitors to your docs
+- [Setting up Azure AD](https://gitbook.com/docs/site-access/authenticated-access/setting-up-azure-ad.md): Set up an Azure AD login screen for visitors to your docs
+- [Setting up AWS Cognito](https://gitbook.com/docs/site-access/authenticated-access/setting-up-aws-cognito.md): Set up an AWS Cognito login screen for visitors to your docs
+- [Setting up Okta](https://gitbook.com/docs/site-access/authenticated-access/setting-up-okta.md): Set up an Okta login screen for visitors to your docs
+- [Setting up OIDC](https://gitbook.com/docs/site-access/authenticated-access/setting-up-oidc.md): Set up an OIDC login screen for visitors to your docs
+- [Setting up a custom backend](https://gitbook.com/docs/site-access/authenticated-access/setting-up-a-custom-backend.md): Set up a custom login screen for visitors to your docs
+- [Adaptive content](https://gitbook.com/docs/site-access/adaptive-content.md): Deliver a tailored documentation experience based on who's reading
+- [Enabling adaptive content](https://gitbook.com/docs/site-access/adaptive-content/enabling-adaptive-content.md): Choose an authentication method to pass user data to GitBook.
+- [Cookies](https://gitbook.com/docs/site-access/adaptive-content/enabling-adaptive-content/cookies.md): Pass visitor data into your docs through a public or signed cookie
+- [URL](https://gitbook.com/docs/site-access/adaptive-content/enabling-adaptive-content/url.md): Pass visitor data into your docs through URL query parameters
+- [Feature flags](https://gitbook.com/docs/site-access/adaptive-content/enabling-adaptive-content/feature-flags.md): Pass visitor data into your docs through a feature flag provider
+- [Authenticated access](https://gitbook.com/docs/site-access/adaptive-content/enabling-adaptive-content/authenticated-access.md)
+- [Adapting your content](https://gitbook.com/docs/site-access/adaptive-content/adapting-your-content.md): Tailor your content for different users
+- [Testing with segments](https://gitbook.com/docs/site-access/adaptive-content/testing-with-segments.md): Test your conditions with mock data
+- [GitBook Assistant](https://gitbook.com/docs/ai-and-search/gitbook-ai-assistant.md): GitBook Assistant gives users accurate, contextual answers drawn from your entire knowledge base — not just your docs
+- [Connections](https://gitbook.com/docs/ai-and-search/connections.md): Connect external sources to GitBook Assistant and GitBook Agent
+- [Intercom](https://gitbook.com/docs/ai-and-search/connections/intercom.md): Our Intercom connector can identify content gaps from support conversations, or surface support conversations through the assistant.
+- [Zendesk](https://gitbook.com/docs/ai-and-search/connections/zendesk.md): Our Zendesk connector can identify content gaps from support conversations, or surface support conversations through the assistant.
+- [Pylon](https://gitbook.com/docs/ai-and-search/connections/pylon.md): Our Pylon connector can identify content gaps from support conversations, or surface support conversations through the assistant.
+- [GitHub Discussions](https://gitbook.com/docs/ai-and-search/connections/github-discussions.md): Our GitHub Discussions connector can identify documentation improvements from discussions happening on GitHub.
+- [GitHub Issues](https://gitbook.com/docs/ai-and-search/connections/github-issues.md): Our GitHub Issues connector can identify documentation improvements from issues on GitHub.
+- [LLM-ready docs](https://gitbook.com/docs/ai-and-search/llm-ready-docs.md): Providing an LLM-friendly version of your docs site
+- [MCP servers for published docs](https://gitbook.com/docs/ai-and-search/mcp-servers-for-published-docs.md): Docs published on GitBook automatically generate an MCP server you can hook up to external tools
+- [What is GitBook Agent?](https://gitbook.com/docs/gitbook-agent/what-is-gitbook-agent.md): Work with an AI teammate to keep your documentation accurate, complete, and up to date
+- [Channels](https://gitbook.com/docs/gitbook-agent/channels.md): Use GitBook Assistant and GitBook Agent in Slack, GitHub, and Linear
+- [Automatic docs improvements](https://gitbook.com/docs/gitbook-agent/automatic-docs-improvements.md): Identify incorrect and outdated pages in your documentation, review the findings, and fix them automatically with GitBook Agent
+- [Writing with GitBook Agent](https://gitbook.com/docs/gitbook-agent/write-and-edit-with-ai.md): Use GitBook Agent to generate and build content for your page
+- [Review change requests with GitBook Agent](https://gitbook.com/docs/gitbook-agent/review-change-requests-with-gitbook-agent.md): Collaborate with GitBook Agent to review or work on change requests
+- [Translations](https://gitbook.com/docs/gitbook-agent/translations.md): Auto-translate your content into multiple languages using GitBook’s AI Agent and keep it synced
+- [OpenAPI](https://gitbook.com/docs/api-references/openapi.md): Add an OpenAPI spec to a page and let your users test endpoints right on the page with interactive blocks.
+- [Add an OpenAPI specification](https://gitbook.com/docs/api-references/openapi/add-an-openapi-specification.md): Learn how to add and update an OpenAPI specification in GitBook application or from CLI
+- [Insert API reference in your docs](https://gitbook.com/docs/api-references/openapi/insert-api-reference-in-your-docs.md): Insert complete API reference from your OpenAPI spec or pick individual operation or schemas
+- [Guides](https://gitbook.com/docs/api-references/guides.md)
+- [OpenAPI layouts](https://gitbook.com/docs/api-references/guides/openapi-layouts.md): Choose between one page per tag and one page per operation for your API reference
+- [Structuring your API reference](https://gitbook.com/docs/api-references/guides/structuring-your-api-reference.md): Learn how to structure your API reference across multiple pages with icons and descriptions
+- [Adding custom code samples](https://gitbook.com/docs/api-references/guides/adding-custom-code-samples.md): Learn how to configure custom code samples to display alongside your API endpoints
+- [Managing API operations](https://gitbook.com/docs/api-references/guides/managing-api-operations.md): Learn how to mark an OpenAPI API operation as experimental, deprecated or hide it from your documentation
+- [Configuring the “Test it” button](https://gitbook.com/docs/api-references/guides/configuring-the-test-it-button.md)
+- [Using OpenAPI proxy](https://gitbook.com/docs/api-references/guides/using-openapi-proxy.md)
+- [Describing enums](https://gitbook.com/docs/api-references/guides/describing-enums.md): Learn how to add descriptions to enums
+- [Integrating with CI/CD](https://gitbook.com/docs/api-references/guides/support-for-ci-cd-with-api-blocks.md): Learn how to automate the update of your OpenAPI specification in GitBook
+- [Extensions reference](https://gitbook.com/docs/api-references/extensions-reference.md): The complete reference of OpenAPI extensions supported by GitBook
+- [Install and manage integrations](https://gitbook.com/docs/integrations/install-an-integration.md): Install an integration in a single section, or all the sections in your organization
+- [Plans](https://gitbook.com/docs/account-management/plans.md): Learn about the differences in plans GitBook has
+- [Community plan](https://gitbook.com/docs/account-management/plans/community.md): Apply for our Open Source plan in GitBook
+- [Sponsored site plan](https://gitbook.com/docs/account-management/plans/community/sponsored-site-plan.md): Learn more about how you can earn money from your documentation site with our sponsored site plan
+- [Billing policy](https://gitbook.com/docs/account-management/plans/billing-policy.md)
+- [Legacy pricing](https://gitbook.com/docs/account-management/plans/legacy-plans.md): Learn about the differences between our current and legacy pricing.
+- [Subscription cancellations](https://gitbook.com/docs/account-management/cancelling-a-plan.md)
+- [Personal settings](https://gitbook.com/docs/account-management/account-settings.md): View and manage the settings for your personal GitBook account
+- [Organization settings](https://gitbook.com/docs/account-management/organization-settings.md)
+- [SSO & SAML](https://gitbook.com/docs/account-management/sso-and-saml.md): Learn how to share your GitBook content via SSO & SAML
+- [SSO Members vs non-SSO](https://gitbook.com/docs/account-management/sso-and-saml/sso-members-vs-non-sso.md)
+- [GitBook UI](https://gitbook.com/docs/resources/gitbook-ui.md): Learn how to navigate GitBook
+- [Keyboard shortcuts](https://gitbook.com/docs/resources/keyboard-shortcuts.md): A quick reference guide to all the keyboard shortcuts available in GitBook
+- [Glossary](https://gitbook.com/docs/resources/glossary.md)
+- [Concepts](https://gitbook.com/docs/resources/concepts.md): Learn the basics of GitBook so you can create and publish outstanding documentation for your users
+
+## Guides
+
+- [GitBook guides](https://gitbook.com/docs/guides/readme.md): Explore GitBook’s features in more detail, discover new ways to work, and learn documentation best practices with our expert guides
+- [The complete guide to creating and publishing documentation in GitBook \[updated for 2026\]](https://gitbook.com/docs/guides/editing-and-publishing-documentation/complete-guide-to-publishing-docs-gitbook.md): Learn how to use GitBook to create public or private documentation for your project — and how to add customizations, check analytics, and more
+- [How to use GitBook’s editor](https://gitbook.com/docs/guides/editing-and-publishing-documentation/how-to-use-gitbooks-editor.md): Learn how to edit pages, insert blocks, and create content on a page using GitBook’s editor
+- [How to collaborate on change requests](https://gitbook.com/docs/guides/editing-and-publishing-documentation/how-to-collaborate-on-change-requests.md): Learn how to work with your team in GitBook using change requests
+- [How to use merge rules](https://gitbook.com/docs/guides/editing-and-publishing-documentation/how-to-use-merge-rules.md): Add more control to the way your team collaborates on change requests by setting merge rules
+- [Import or migrate your content to GitBook with Git Sync](https://gitbook.com/docs/guides/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync.md): Easily import content from your previous documentation provider — or from GitHub or GitLab — using Git Sync in GitBook
+- [Import content from a CSV file into GitBook](https://gitbook.com/docs/guides/editing-and-publishing-documentation/import-zendesk-csv-to-gitbook.md): Learn how to add data from Zendesk — or any other CSV file — into GitBook
+- [How to handle merge conflicts in GitBook](https://gitbook.com/docs/guides/editing-and-publishing-documentation/how-to-handle-merge-conflicts-in-gitbook.md): Why do merge conflicts happen in GitBook and how do you resolve them? Our guide can help.
+- [Embed a playable video into your GitBook docs](https://gitbook.com/docs/guides/editing-and-publishing-documentation/upload-and-embed-a-playable-video-into-your-gitbook-docs.md): Add videos to your GitBook docs that users can click to play instantly
+- [Find & replace or make batch changes across your GitBook docs with Git Sync](https://gitbook.com/docs/guides/editing-and-publishing-documentation/find-and-replace-or-make-batch-changes-across-your-gitbook-docs-with-git-sync.md)
+- [How to write documentation with AI](https://gitbook.com/docs/guides/editing-and-publishing-documentation/how-to-write-documentation-with-ai.md): Use GitBook Agent to work on your docs with an AI teammate that has the full context of your existing docs site
+- [7 ways teams are using GitBook Agent to streamline their docs workflows (with prompt examples)](https://gitbook.com/docs/guides/editing-and-publishing-documentation/gitbook-agent-prompt-examples.md): Discover 7 practical ways teams use GitBook Agent to optimize docs for SEO and AI, automate content updates, import from PDF and Microsoft Word files, and manage documentation at scale
+- [How to make a great-looking docs site](https://gitbook.com/docs/guides/customizing-your-site/how-to-make-a-great-looking-docs-site.md)
+- [How to customize your site’s theme](https://gitbook.com/docs/guides/customizing-your-site/how-to-customize-your-sites-theme.md): Learn how to edit colors, icons, logos, and more
+- [How to customize your site’s layout](https://gitbook.com/docs/guides/customizing-your-site/how-to-customize-your-sites-layout.md): Add header buttons, footers, and more
+- [How to customize your site’s configuration](https://gitbook.com/docs/guides/customizing-your-site/how-to-customize-your-sites-configuration.md): Localize your site’s interface, set AI options, and customize your site’s behavior
+- [Combine multiple existing sites into one using site sections](https://gitbook.com/docs/guides/content-organization-and-localization/combine-multiple-docs-sites-using-sections.md): We run through the process of centralizing all your existing documentation in a single site using site sections in GitBook
+- [Localize your docs with variants in GitBook](https://gitbook.com/docs/guides/content-organization-and-localization/localize-your-docs-with-variants-in-gitbook.md): Learn how to use variants in GitBook to translate and manage different versions of your docs site for multiple languages
+- [Use GitHub Actions to translate GitBook pages](https://gitbook.com/docs/guides/content-organization-and-localization/use-github-actions-to-translate-gitbook-pages.md)
+- [GEO guide: How to optimize your docs for AI search and LLM ingestion](https://gitbook.com/docs/guides/seo-and-llm-optimization/geo-guide.md): Learn how to optimize documentation for generative engine optimization (GEO), SEO, and LLM ingestion — all powered by GitBook’s AI-ready docs.
+- [How to use SEO techniques to improve your documentation](https://gitbook.com/docs/guides/seo-and-llm-optimization/how-to-use-seo-techniques-to-improve-your-documentation.md): Improve documentation SEO with keyword research, headings, metadata, internal links, accessibility, and performance tips.
+- [Introducing AI into your product documentation workflow](https://gitbook.com/docs/guides/docs-workflow-optimization/introducing-ai-into-your-product-documentation-workflow.md): Discover how you can use AI tools to improve your docs workflow — including its limitations and how to overcome them
+- [Build your docs around your users’ needs with documentation personas](https://gitbook.com/docs/guides/docs-workflow-optimization/documentation-personas.md): With documentation personas, you can focus on the challenges your users are facing, what they need to achieve, and how your docs can help them get there
+- [7 ways to make your public documentation more useful for users](https://gitbook.com/docs/guides/docs-workflow-optimization/7-ways-to-make-your-public-documentation-more-useful-for-users.md): Tips and advice to help you create great documentation, so you can improve your user ratings and reduce your support team’s load
+- [10 quick tips to improve your technical writing workflow in GitBook](https://gitbook.com/docs/guides/docs-workflow-optimization/quick-tips-to-improve-your-technical-writing-workflow-in-gitbook.md): 10 practical GitBook tips for technical writers to ship better docs faster — including Markdown, keyboard shortcuts, integrations, Git Sync and more
+- [How to write incredible API documentation](https://gitbook.com/docs/guides/api-documentation/how-to-write-incredible-api-documentation.md): What we’ve learned about writing API docs that drive adoption and reduce support.
+- [Document your API in GitBook in 5 simple steps](https://gitbook.com/docs/guides/api-documentation/document-your-api-in-gitbook-in-5-simple-steps.md): Learn how to build beautiful, interactive API documentation in GitBook.
+- [API docs: The seven principles of great API docs and how to apply them](https://gitbook.com/docs/guides/api-documentation/api-documentation-principles.md): Create great API documentation for your users using these foundational principles
+- [Documentation analytics: which metrics to track and how to measure success](https://gitbook.com/docs/guides/docs-analytics/documentation-analytics.md): Still figuring out the best way to prove success with your user-facing documentation? This guide will help you figure out what to track and how to analyze the data.
+- [Track documentation analytics with Google Analytics](https://gitbook.com/docs/guides/docs-analytics/track-documentation-analytics-with-google-analytics.md): Learn how to install and configure the Google Analytics integration so you can track detailed analytics from your docs site
+- [Track advanced analytics with GitBook's Events Aggregation API](https://gitbook.com/docs/guides/docs-analytics/track-advanced-analytics-with-gitbooks-events-aggregation-api.md): Master GitBook’s powerful events aggregation endpoint to create custom analytics dashboards, understand user behavior patterns, and make data-driven decisions about your documentation strategy.
+- [Analyze change request contributors with GitBook’s API](https://gitbook.com/docs/guides/docs-analytics/analyze-change-request-contributors-with-gitbooks-api.md): Track creators, reviewers, and contributors with GitBook’s API to understand how your team collaborates
+- [How to personalize your GitBook site using URL parameters and adaptive content](https://gitbook.com/docs/guides/docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-url-parameters-and-adaptive-content.md)
+- [How to personalize your GitBook site using cookies and adaptive content](https://gitbook.com/docs/guides/docs-personalization-and-authentication/setting-up-adaptive-content.md): Learn how to set up adaptive content so you can tailor your docs to individual readers based on user data or URL parameters
+- [How to personalize your GitBook site using Auth0 and adaptive content](https://gitbook.com/docs/guides/docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-auth0-and-adaptive-content.md)
+- [How to create branded documentation](https://gitbook.com/docs/guides/docs-best-practices/how-to-create-branded-documentation.md): Make your docs match your brand with a custom domain, logo, color scheme and more
+- [How to structure technical documentation: information architecture best practices](https://gitbook.com/docs/guides/docs-best-practices/documentation-structure-tips.md): Learn information architecture best practices to structure technical documentation — including  API docs, product docs, guides, FAQs, and changelogs — so users can find answers fast
+- [Make your documentation process more collaborative with change requests](https://gitbook.com/docs/guides/docs-best-practices/make-your-documentation-process-more-collaborative-with-change-requests.md): Change requests in GitBook make it easier for your whole team contribute to the documentation process — whether they’re editing pages, reviewing changes, or just leaving feedback
+- [How to encourage contributions to your open source documentation](https://gitbook.com/docs/guides/docs-best-practices/how-to-encourage-contributions-to-your-open-source-documentation.md): 7 things you can do to make it easier for contributors to write docs for your OSS project
+
+## Developers
+
+- [Developer documentation](https://gitbook.com/docs/developers/readme.md): Use GitBook’s API, SDK, and developer tools to build custom integrations, streamline workflows, and create tailored solutions for your docs
+- [Quickstart](https://gitbook.com/docs/developers/integrations/quickstart.md): Build an integration with GitBook’s developer platform in minutes
+- [Install the CLI](https://gitbook.com/docs/developers/integrations/reference.md): Install the GitBook CLI to build and publish integrations
+- [CLI reference](https://gitbook.com/docs/developers/integrations/reference/cli-reference.md): Explore the full reference guide for GitBook’s CLI commands
+- [Configure your integration](https://gitbook.com/docs/developers/integrations/configurations.md): Learn about the gitbook-manifest.yaml file used to configure your integration
+- [Develop your integration](https://gitbook.com/docs/developers/integrations/development.md): Develop and test integrations locally on your machine
+- [ContentKit](https://gitbook.com/docs/developers/integrations/development/contentkit.md): Learn how to build components with GitBook’s UI kit
+- [Component reference](https://gitbook.com/docs/developers/integrations/development/contentkit/reference.md): Learn about the components available from ContentKit
+- [Markdown](https://gitbook.com/docs/developers/integrations/development/contentkit/markdown.md): Learn about using custom blocks in Markdown when using Git Sync
+- [Integration runtime](https://gitbook.com/docs/developers/integrations/development/runtime.md): Extend GitBook with custom components, event handling, OAuth flows, and HTTP
+- [Client library](https://gitbook.com/docs/developers/integrations/development/client-library.md): Install and use GitBook's official Node.js client library
+- [GitBook methods](https://gitbook.com/docs/developers/integrations/development/client-library/gitbook-methods.md): Learn about the available methods from the GitBook client library
+- [Publish your integration](https://gitbook.com/docs/developers/integrations/publishing.md): Publish your apps and integrations publicly or privately in order to use them in GitBook
+- [Submit your integration for review](https://gitbook.com/docs/developers/integrations/submit-your-app-for-review.md): List your integration on GitBook’s verified integration page
+- [Concepts](https://gitbook.com/docs/developers/integrations/concepts.md): Learn about different GitBook concepts related to GitBook integrations
+- [Guides](https://gitbook.com/docs/developers/integrations/guides.md): Read specific guides on building integrations
+- [Create a custom unfurl action](https://gitbook.com/docs/developers/integrations/guides/create-a-custom-unfurl-action-for-your-integration.md): Build an integration that allows you to unfurl and display embedded links on a page
+- [Create interactive blocks](https://gitbook.com/docs/developers/integrations/guides/interactivity.md): Add interactivity to custom blocks in GitBook integrations using inputs, buttons, and more
+- [Receive webhook notifications](https://gitbook.com/docs/developers/integrations/guides/webhook.md): Learn how to receive webhook notifications through GitBook’s integration
+- [Work with HTTP requests](https://gitbook.com/docs/developers/integrations/guides/receiving-requests.md): Learn how to use HTTP requests in your integration
+- [Quickstart](https://gitbook.com/docs/developers/gitbook-api/quickstart.md): Learn how to use the GitBook API within minutes
+- [API reference](https://gitbook.com/docs/developers/gitbook-api/api-reference.md): Explore the endpoints available from GitBook’s API
+- [Organizations](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations.md): Manage your organizations and group your members, spaces, and resources under one collaborative structure.
+- [Organization members](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members.md): Handle all aspects of membership within an organization, from listing to role management.
+- [List all organization members](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/list-all-organization-members.md)
+- [Get an organization member by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/get-an-organization-member-by-its-id.md)
+- [Remove an organization member or request an organization admin to do it](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/remove-an-organization-member-or-request-an-organization-admin-to-do-it.md)
+- [Update an organization member](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/update-an-organization-member.md)
+- [Update an organization member last seen at](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/update-an-organization-member-last-seen-at.md)
+- [Set a user as an SSO member of an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/set-a-user-as-an-sso-member-of-an-organization.md)
+- [List an organization member space permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/list-an-organization-member-space-permissions.md)
+- [List all organization member teams](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-members/list-all-organization-member-teams.md)
+- [Organization invites](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites.md): Streamline the invitation process for new members joining your organization.
+- [Invite users in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites/invite-users-in-an-organization.md)
+- [Join an organization with an invite](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites/join-an-organization-with-an-invite.md)
+- [List organization invites](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites/list-organization-invites.md)
+- [Create an organization invite](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites/create-an-organization-invite.md)
+- [Get an organization by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites/get-an-organization-by-its-id.md)
+- [Update an organization invite](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-invites/update-an-organization-invite.md)
+- [Organization AI ask](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-ai-ask.md): Unlock AI-driven answers for your organization's content and data.
+- [Ask a question in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-ai-ask/ask-a-question-in-an-organization.md)
+- [List recommended questions to ask in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-ai-ask/list-recommended-questions-to-ask-in-an-organization.md)
+- [List recommended questions to ask in an organization (streamed)](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-ai-ask/list-recommended-questions-to-ask-in-an-organization-streamed.md)
+- [Ask a question in an organization (streamed)](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/organization-ai-ask/ask-a-question-in-an-organization-streamed.md)
+- [Get the list of organizations for the currently authenticated user](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/get-the-list-of-organizations-for-the-currently-authenticated-user.md)
+- [Get an organization by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/get-an-organization-by-its-id.md)
+- [Update an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/update-an-organization.md)
+- [List all styleguides in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/list-all-styleguides-in-an-organization.md)
+- [List all built-in styleguide templates](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/list-all-built-in-styleguide-templates.md)
+- [Deletes an organization invite.](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/deletes-an-organization-invite.md)
+- [Join an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/join-an-organization.md)
+- [Search content in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/search-content-in-an-organization.md)
+- [Get Docs agent instructions for an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/get-docs-agent-instructions-for-an-organization.md)
+- [Update Docs agent instructions for an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/update-docs-agent-instructions-for-an-organization.md)
+- [Get all organizations by email domain](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/get-all-organizations-by-email-domain.md)
+- [Docs sites](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites.md): Manage your published docs sites.
+- [Site share links](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-share-links.md): Control how you share docs externally by managing share links for a site.
+- [List all private share links for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-share-links/list-all-private-share-links-for-a-site.md)
+- [Create a private share link for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-share-links/create-a-private-share-link-for-a-site.md)
+- [Deletes a share link](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-share-links/deletes-a-share-link.md)
+- [Update a private share link for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-share-links/update-a-private-share-link-for-a-site.md)
+- [Site structure](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-structure.md): Retrieve and manipulate the entire hierarchical layout of a site.
+- [Get the full navigation structure of a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-structure/get-the-full-navigation-structure-of-a-site.md)
+- [Site auth](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-auth.md): Manage the authentication needed for publishing your site.
+- [Get the published content authentication configuration for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-auth/get-the-published-content-authentication-configuration-for-a-site.md)
+- [Update the published content authentication configuration for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-auth/update-the-published-content-authentication-configuration-for-a-site.md)
+- [Regenerate the private key for a site's published content authentication](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-auth/regenerate-the-private-key-for-a-sites-published-content-authentication.md)
+- [Site preview](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-preview.md): Fetch an up-to-date preview of your site before publishing.
+- [Generate a temporary preview URL for a site's published content](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-preview/generate-a-temporary-preview-url-for-a-sites-published-content.md)
+- [Site customization](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-customization.md): Customize the look and feel of your docs site.
+- [Get the branding and visual customization settings for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-customization/get-the-branding-and-visual-customization-settings-for-a-site.md)
+- [Update the branding and visual customization settings for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-customization/update-the-branding-and-visual-customization-settings-for-a-site.md)
+- [Get the customization overrides for a site space](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-customization/get-the-customization-overrides-for-a-site-space.md)
+- [Delete a site space customization settings](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-customization/delete-a-site-space-customization-settings.md)
+- [Override branding and customization settings for a specific site space](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-customization/override-branding-and-customization-settings-for-a-specific-site-space.md)
+- [Site agent settings](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-agent-settings.md): Configure site-specific issue remediation behavior and agent instructions.
+- [Get the AI agent configuration for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-agent-settings/get-the-ai-agent-configuration-for-a-site.md)
+- [Update the AI agent configuration for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-agent-settings/update-the-ai-agent-configuration-for-a-site.md)
+- [Site spaces](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-spaces.md): Control which spaces are linked and displayed in a docs site.
+- [List all spaces linked to a site as content sources](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-spaces/list-all-spaces-linked-to-a-site-as-content-sources.md)
+- [Add a space to a site as a content source](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-spaces/add-a-space-to-a-site-as-a-content-source.md)
+- [Delete a site space](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-spaces/delete-a-site-space.md)
+- [Update a space linked to a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-spaces/update-a-space-linked-to-a-site.md)
+- [Move a site space to a new position. (Deprecated) use sortSiteStructure instead.](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-spaces/move-a-site-space-to-a-new-position-deprecated-use-sortsitestructure-instead.md)
+- [Site sections](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-sections.md): Create and organize high-level sections for your docs site.
+- [List all navigation sections in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-sections/list-all-navigation-sections-in-a-site.md)
+- [Add a new navigation section to a site backed by a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-sections/add-a-new-navigation-section-to-a-site-backed-by-a-space.md)
+- [Delete a site section](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-sections/delete-a-site-section.md)
+- [Update a navigation section in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-sections/update-a-navigation-section-in-a-site.md)
+- [Move a site section to a new position. (Deprecated) use sortSiteStructure instead.](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-sections/move-a-site-section-to-a-new-position-deprecated-use-sortsitestructure-instead.md)
+- [Site section groups](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-section-groups.md): Group and manage sections of your docs for easier organization.
+- [List all section groups in a site's navigation structure](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-section-groups/list-all-section-groups-in-a-sites-navigation-structure.md)
+- [Add a section group to a site's navigation structure](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-section-groups/add-a-section-group-to-a-sites-navigation-structure.md)
+- [Delete a site section group](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-section-groups/delete-a-site-section-group.md)
+- [Update a section group in a site's navigation structure](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-section-groups/update-a-section-group-in-a-sites-navigation-structure.md)
+- [Move a site section group to a new position. (Deprecated) use sortSiteStructure instead.](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-section-groups/move-a-site-section-group-to-a-new-position-deprecated-use-sortsitestructure-instead.md)
+- [Site redirects](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects.md): Establish redirects for pages that have moved or changed in your docs site.
+- [List all URL redirect rules configured for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects/list-all-url-redirect-rules-configured-for-a-site.md)
+- [Create a URL redirect rule for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects/create-a-url-redirect-rule-for-a-site.md)
+- [Create, update, delete, or publish site redirect rules in bulk](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects/create-update-delete-or-publish-site-redirect-rules-in-bulk.md)
+- [Delete a site redirect](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects/delete-a-site-redirect.md)
+- [Update a URL redirect rule for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects/update-a-url-redirect-rule-for-a-site.md)
+- [Resolve a site redirect rule by its source path](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-redirects/resolve-a-site-redirect-rule-by-its-source-path.md)
+- [Site MCP servers](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-mcp-servers.md): Configure external MCP servers used by your site.
+- [List all MCP servers configured for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-mcp-servers/list-all-mcp-servers-configured-for-a-site.md)
+- [Add a new MCP server configuration to a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-mcp-servers/add-a-new-mcp-server-configuration-to-a-site.md)
+- [Get an MCP server configuration for a site by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-mcp-servers/get-an-mcp-server-configuration-for-a-site-by-its-id.md)
+- [Delete a site MCP server](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-mcp-servers/delete-a-site-mcp-server.md)
+- [Update an MCP server configuration for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-mcp-servers/update-an-mcp-server-configuration-for-a-site.md)
+- [Site channels](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-channels.md): Configure site channels for your docs site.
+- [List all GitBook Agent channels for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-channels/list-all-gitbook-agent-channels-for-a-site.md)
+- [Create a new GitBook Agent channel for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-channels/create-a-new-gitbook-agent-channel-for-a-site.md)
+- [Get a GitBook Agent channel for a site by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-channels/get-a-gitbook-agent-channel-for-a-site-by-its-id.md)
+- [Delete a GitBook Agent channel from a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-channels/delete-a-gitbook-agent-channel-from-a-site.md)
+- [Update a GitBook Agent channel for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-channels/update-a-gitbook-agent-channel-for-a-site.md)
+- [Site ads](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ads.md): Control and customize ad placements on your docs site.
+- [Update the advertising settings for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ads/update-the-advertising-settings-for-a-site.md)
+- [List all the sites with ads configured](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ads/list-all-the-sites-with-ads-configured.md)
+- [Update the Ads configuration for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ads/update-the-ads-configuration-for-a-site.md)
+- [Site permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-permissions.md): Manage which members and teams can access or contribute to a docs site.
+- [Invite a user or a team to a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-permissions/invite-a-user-or-a-team-to-a-site.md)
+- [List an org team's permission in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-permissions/list-an-org-teams-permission-in-a-site.md)
+- [Remove an org team from a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-permissions/remove-an-org-team-from-a-site.md)
+- [Update an org team's permission in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-permissions/update-an-org-teams-permission-in-a-site.md)
+- [Site insights](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-insights.md): Analyze traffic and engagement metrics for your docs site.
+- [Track site events](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-insights/track-site-events.md)
+- [Query a site's analytics events](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-insights/query-a-sites-analytics-events.md)
+- [List a site visitor segments](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-insights/list-a-site-visitor-segments.md)
+- [Site AI](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ai.md): Build conversational AI agents for your docs site.
+- [Generate an AI response in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ai/generate-an-ai-response-in-a-site.md)
+- [Site AI ask](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ai-ask.md): Allow AI-driven queries within a specific docs site.
+- [Ask a question in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ai-ask/ask-a-question-in-a-site.md)
+- [List recommended questions to ask in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-ai-ask/list-recommended-questions-to-ask-in-a-site.md)
+- [Site context](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context.md): Manage context records, connections, and topics for a docs site.
+- [List all context records](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-all-context-records.md)
+- [Create or update context records](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/create-or-update-context-records.md)
+- [Get a context record](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/get-a-context-record.md)
+- [List all site scans](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-all-site-scans.md)
+- [Get a site scan by ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/get-a-site-scan-by-id.md)
+- [List all site context findings](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-all-site-context-findings.md)
+- [Get a site finding by ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/get-a-site-finding-by-id.md)
+- [Update a site finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/update-a-site-finding.md)
+- [List change requests linked to a site finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-change-requests-linked-to-a-site-finding.md)
+- [Process a site finding into change requests](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/process-a-site-finding-into-change-requests.md)
+- [List pages linked to a site finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-pages-linked-to-a-site-finding.md)
+- [List questions linked to a site finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-questions-linked-to-a-site-finding.md)
+- [List records linked to a site finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-records-linked-to-a-site-finding.md)
+- [List all context connections](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-all-context-connections.md)
+- [Create a context connection](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/create-a-context-connection.md)
+- [Get a context connection](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/get-a-context-connection.md)
+- [Delete a context connection](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/delete-a-context-connection.md)
+- [Update a context connection](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/update-a-context-connection.md)
+- [Trigger a sync for a context connection](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/trigger-a-sync-for-a-context-connection.md)
+- [Test a context connection's stored credentials](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/test-a-context-connections-stored-credentials.md)
+- [List all topics](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-all-topics.md)
+- [Get a topic](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/get-a-topic.md)
+- [Update a topic](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/update-a-topic.md)
+- [Delete all findings for a topic](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/delete-all-findings-for-a-topic.md)
+- [Site questions](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions.md): Review questions, answers, and sources generated for a docs site.
+- [List the questions visitors asked a site's Ask AI assistant](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/list-the-questions-visitors-asked-a-sites-ask-ai-assistant.md)
+- [Get a single Ask AI question by ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/get-a-single-ask-ai-question-by-id.md)
+- [List the documentation sources used to answer a question](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/list-the-documentation-sources-used-to-answer-a-question.md)
+- [Get aggregate Ask AI question statistics for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/get-aggregate-ask-ai-question-statistics-for-a-site.md)
+- [List the answers a site's Ask AI assistant generated](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/list-the-answers-a-sites-ask-ai-assistant-generated.md)
+- [Get a single Ask AI answer by ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/get-a-single-ask-ai-answer-by-id.md)
+- [Get the conversation thread for an Ask AI answer](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/get-the-conversation-thread-for-an-ask-ai-answer.md)
+- [List the documentation sources cited for an answer](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-questions/list-the-documentation-sources-cited-for-an-answer.md)
+- [List all documentation sites in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/list-all-documentation-sites-in-an-organization.md)
+- [Create a new documentation site in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/create-a-new-documentation-site-in-an-organization.md)
+- [Get a documentation site by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/get-a-documentation-site-by-its-id.md)
+- [Delete a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/delete-a-site.md)
+- [Update the properties of a documentation site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/update-the-properties-of-a-documentation-site.md)
+- [Get the visitor attributes JSON schema for an adaptive content site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/get-the-visitor-attributes-json-schema-for-an-adaptive-content-site.md)
+- [Update the visitor attributes JSON schema for an adaptive content site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/update-the-visitor-attributes-json-schema-for-an-adaptive-content-site.md)
+- [List condition templates for adaptive content expressions in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/list-condition-templates-for-adaptive-content-expressions-in-a-site.md)
+- [Get the full published profile of a site including structure and customization](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/get-the-full-published-profile-of-a-site-including-structure-and-customization.md)
+- [Publish a site to make it publicly accessible](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/publish-a-site-to-make-it-publicly-accessible.md)
+- [Take a site offline by unpublishing it](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/take-a-site-offline-by-unpublishing-it.md)
+- [Move a site space, section, or section group to a new position](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/move-a-site-space-section-or-section-group-to-a-new-position.md)
+- [Full-text search across all content in a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/full-text-search-across-all-content-in-a-site.md)
+- [Create or retrieve the styleguide space for a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/create-or-retrieve-the-styleguide-space-for-a-site.md)
+- [Collections](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections.md): Organize and manage grouped sets of spaces for better content structure.
+- [Collection permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions.md): Manage which members and teams can access or contribute to a collection of spaces.
+- [Invite to a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/invite-to-a-collection.md)
+- [List an org team's permission in collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/list-an-org-teams-permission-in-collection.md)
+- [Remove an org team from a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/remove-an-org-team-from-a-collection.md)
+- [Update an org team's permission in a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/update-an-org-teams-permission-in-a-collection.md)
+- [List collection user permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/list-collection-user-permissions.md)
+- [Remove a user from a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/remove-a-user-from-a-collection.md)
+- [Update a collection user permission](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/collection-permissions/update-a-collection-user-permission.md)
+- [Get a collection by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/get-a-collection-by-its-id.md)
+- [Delete a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/delete-a-collection.md)
+- [Update a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/update-a-collection.md)
+- [List all collection spaces](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/list-all-collection-spaces.md)
+- [Move a collection to a new position.](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/move-a-collection-to-a-new-position.md)
+- [Transfer a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/transfer-a-collection.md)
+- [List all collections](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/list-all-collections.md)
+- [Create a collection](https://gitbook.com/docs/developers/gitbook-api/api-reference/collections/create-a-collection.md)
+- [Spaces](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces.md): Create, maintain, and remove content spaces.
+- [Space content](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content.md): Import, export, and search content in a space.
+- [Full-text search across all pages in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/full-text-search-across-all-pages-in-a-space.md)
+- [Get the current published content revision of a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-the-current-published-content-revision-of-a-space.md)
+- [Apply a content template to populate a space with initial pages](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/apply-a-content-template-to-populate-a-space-with-initial-pages.md)
+- [List all pages in a space with their hierarchy and metadata](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/list-all-pages-in-a-space-with-their-hierarchy-and-metadata.md)
+- [List all uploaded files and assets in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/list-all-uploaded-files-and-assets-in-a-space.md)
+- [Get a specific uploaded file from a space by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-specific-uploaded-file-from-a-space-by-its-id.md)
+- [Get a single page from a space by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-single-page-from-a-space-by-its-id.md)
+- [Get navigation metadata links for a page (previous, next, parent)](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-navigation-metadata-links-for-a-page-previous-next-parent.md)
+- [Get a page from a space by its URL path](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-page-from-a-space-by-its-url-path.md)
+- [Get a reusable content block from a space by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-reusable-content-block-from-a-space-by-its-id.md)
+- [Compute and render a document from a structured content source](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/compute-and-render-a-document-from-a-structured-content-source.md)
+- [Compute and render a full revision from a structured content source](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/compute-and-render-a-full-revision-from-a-structured-content-source.md)
+- [Get a raw document from a space by its document ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-raw-document-from-a-space-by-its-document-id.md)
+- [Get a specific historical revision of a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-specific-historical-revision-of-a-space.md)
+- [Get semantic content changes introduced by a revision](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-semantic-content-changes-introduced-by-a-revision.md)
+- [List all pages in a specific historical revision of a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/list-all-pages-in-a-specific-historical-revision-of-a-space.md)
+- [List all files (images, assets) in a specific space revision](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/list-all-files-images-assets-in-a-specific-space-revision.md)
+- [Get a specific file from a space revision by its file ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-specific-file-from-a-space-revision-by-its-file-id.md)
+- [Get a page from a specific historical revision by its page ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-page-from-a-specific-historical-revision-by-its-page-id.md)
+- [Get the raw document body of a page in a historical revision](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-the-raw-document-body-of-a-page-in-a-historical-revision.md)
+- [Get a page from a specific historical revision by its URL path](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-page-from-a-specific-historical-revision-by-its-url-path.md)
+- [List all meta links (prev/next navigation) for a page in a revision](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/list-all-meta-links-prev-next-navigation-for-a-page-in-a-revision.md)
+- [Get a reusable content block from a historical revision by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-reusable-content-block-from-a-historical-revision-by-its-id.md)
+- [Get the document body of a reusable content block in a historical revision](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-the-document-body-of-a-reusable-content-block-in-a-historical-revision.md)
+- [Get a temporary URL to download a space or page as PDF](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-content/get-a-temporary-url-to-download-a-space-or-page-as-pdf.md)
+- [Space comments](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments.md): Integrate and manage user comments in a space.
+- [List all top-level comments posted on a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/list-all-top-level-comments-posted-on-a-space.md)
+- [Post a new comment on a space or a specific page](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/post-a-new-comment-on-a-space-or-a-specific-page.md)
+- [Get a single comment from a space by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/get-a-single-comment-from-a-space-by-its-id.md)
+- [Update the body or status of a space comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/update-the-body-or-status-of-a-space-comment.md)
+- [Delete a space comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/delete-a-space-comment.md)
+- [Post a reply to an existing space comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/post-a-reply-to-an-existing-space-comment.md)
+- [Get a single reply to a space comment by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/get-a-single-reply-to-a-space-comment-by-its-id.md)
+- [Update the body of a reply to a space comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/update-the-body-of-a-reply-to-a-space-comment.md)
+- [Delete a space comment reply](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/delete-a-space-comment-reply.md)
+- [List all users who have posted comments in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-comments/list-all-users-who-have-posted-comments-in-a-space.md)
+- [Space embeds](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-embeds.md): Render or resolve embedded content within a space.
+- [Resolve a URL to an oEmbed object within a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-embeds/resolve-a-url-to-an-oembed-object-within-a-space.md)
+- [Space permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions.md): Manage which members and teams roles and permissions on a per-space basis.
+- [Invite a user or a team to a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/invite-a-user-or-a-team-to-a-space.md)
+- [Remove an org team from a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/remove-an-org-team-from-a-space.md)
+- [Update an org team's permission in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/update-an-org-teams-permission-in-a-space.md)
+- [List space user permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/list-space-user-permissions.md)
+- [Remove a space user](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/remove-a-space-user.md)
+- [Update space user permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/update-space-user-permissions.md)
+- [List an org team's permission in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/list-an-org-teams-permission-in-a-space.md)
+- [List all space users permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/list-all-space-users-permissions.md)
+- [List all collections users permissions](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-permissions/list-all-collections-users-permissions.md)
+- [Space integrations](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-integrations.md): Connect external tools and plugins to enhance your space functionality.
+- [List all third-party integrations enabled on a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-integrations/list-all-third-party-integrations-enabled-on-a-space.md)
+- [List all custom content blocks provided by integrations in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/space-integrations/list-all-custom-content-blocks-provided-by-integrations-in-a-space.md)
+- [Git](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/git.md): Connect Git repositories to your space for seamless version control.
+- [Pull content into a space from a connected Git repository](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/git/pull-content-into-a-space-from-a-connected-git-repository.md)
+- [Push space content to a connected Git repository](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/git/push-space-content-to-a-connected-git-repository.md)
+- [Get the Git Sync configuration and status for a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/git/get-the-git-sync-configuration-and-status-for-a-space.md)
+- [Get full details of a space by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/get-full-details-of-a-space-by-its-id.md)
+- [Delete a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/delete-a-space.md)
+- [Update a space's title, icon, or settings](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/update-a-spaces-title-icon-or-settings.md)
+- [Create a full copy of a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/create-a-full-copy-of-a-space.md)
+- [Restore a recently deleted space from the trash](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/restore-a-recently-deleted-space-from-the-trash.md)
+- [Move a space to a different collection or position](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/move-a-space-to-a-different-collection-or-position.md)
+- [List all spaces in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/list-all-spaces-in-an-organization.md)
+- [Create a new documentation space in an organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/spaces/create-a-new-documentation-space-in-an-organization.md)
+- [Change requests](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests.md): Review and collaborate on proposed documentation changes before merging.
+- [Change request content](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content.md): Manage the actual content changes associated with a change request.
+- [Get the latest content revision of a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/get-the-latest-content-revision-of-a-change-request.md)
+- [Apply a batch of content changes to a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/apply-a-batch-of-content-changes-to-a-change-request.md)
+- [List all pages in a change request as a flat list](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/list-all-pages-in-a-change-request-as-a-flat-list.md)
+- [List all files (images/attachments) in a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/list-all-files-images-attachments-in-a-change-request.md)
+- [Get a specific file in a change request by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/get-a-specific-file-in-a-change-request-by-its-id.md)
+- [Get a page in a change request by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/get-a-page-in-a-change-request-by-its-id.md)
+- [Get navigation meta-links (prev/next/parent) for a change request page](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/get-navigation-meta-links-prev-next-parent-for-a-change-request-page.md)
+- [Get a reusable content block in a change request by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/get-a-reusable-content-block-in-a-change-request-by-its-id.md)
+- [List semantic content changes in a change request vs its base](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/list-semantic-content-changes-in-a-change-request-vs-its-base.md)
+- [Get a page in a change request by its URL path](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-content/get-a-page-in-a-change-request-by-its-url-path.md)
+- [Change request contributors](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-contributors.md): See who's participating in the change request.
+- [List all users who have made edits to a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-contributors/list-all-users-who-have-made-edits-to-a-change-request.md)
+- [Change request reviewers](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-reviewers.md): Assign or list requested reviewers for a change request.
+- [List all users requested to review a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-reviewers/list-all-users-requested-to-review-a-change-request.md)
+- [Send review requests to users for a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-reviewers/send-review-requests-to-users-for-a-change-request.md)
+- [Remove a reviewer from a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-reviewers/remove-a-reviewer-from-a-change-request.md)
+- [Change request comments](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments.md): Engage in threaded conversations on proposed changes.
+- [List all top-level comments in a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/list-all-top-level-comments-in-a-change-request.md)
+- [Post a new comment on a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/post-a-new-comment-on-a-change-request.md)
+- [Get a single comment from a change request by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/get-a-single-comment-from-a-change-request-by-its-id.md)
+- [Update the content or status of a change request comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/update-the-content-or-status-of-a-change-request-comment.md)
+- [Delete a change request comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/delete-a-change-request-comment.md)
+- [List all replies to a change request comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/list-all-replies-to-a-change-request-comment.md)
+- [Post a reply to a change request comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/post-a-reply-to-a-change-request-comment.md)
+- [Get a single reply to a change request comment](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/get-a-single-reply-to-a-change-request-comment.md)
+- [Update the content of a change request comment reply](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/update-the-content-of-a-change-request-comment-reply.md)
+- [Delete a change request comment reply](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/delete-a-change-request-comment-reply.md)
+- [List all users who have commented in a change request](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/change-request-comments/list-all-users-who-have-commented-in-a-change-request.md)
+- [List all change requests for a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/list-all-change-requests-for-a-space.md)
+- [Create a new change request in a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/create-a-new-change-request-in-a-space.md)
+- [Get a change request by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/get-a-change-request-by-its-id.md)
+- [Update a change request's subject, description, or status](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/update-a-change-requests-subject-description-or-status.md)
+- [Merge a change request into the space's live content](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/merge-a-change-request-into-the-spaces-live-content.md)
+- [Sync a change request with the latest live space content](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/sync-a-change-request-with-the-latest-live-space-content.md)
+- [Get a temporary URL to download a change request's content as PDF](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/get-a-temporary-url-to-download-a-change-requests-content-as-pdf.md)
+- [List all change requests across an entire organization](https://gitbook.com/docs/developers/gitbook-api/api-reference/change-requests/list-all-change-requests-across-an-entire-organization.md)
+- [Translations](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations.md): Configure multi-language support and translation options for your documentation.
+- [Glossary](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/glossary.md): Manage custom terms translations used by the translation feature.
+- [List glossary entries](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/glossary/list-glossary-entries.md)
+- [Update glossary entries](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/glossary/update-glossary-entries.md)
+- [Get a glossary entry by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/glossary/get-a-glossary-entry-by-its-id.md)
+- [List all the translations](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/list-all-the-translations.md)
+- [Create a translation](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/create-a-translation.md)
+- [Get a translation by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/get-a-translation-by-its-id.md)
+- [Update a translation](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/update-a-translation.md)
+- [Delete a translation](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/delete-a-translation.md)
+- [Run a translation again](https://gitbook.com/docs/developers/gitbook-api/api-reference/translations/run-a-translation-again.md)
+- [Imports](https://gitbook.com/docs/developers/gitbook-api/api-reference/imports.md): Import content into GitBook.
+- [Import content into a space from a website](https://gitbook.com/docs/developers/gitbook-api/api-reference/imports/import-content-into-a-space-from-a-website.md)
+- [Cancel an import run](https://gitbook.com/docs/developers/gitbook-api/api-reference/imports/cancel-an-import-run.md)
+- [Integrations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations.md): Install and handle third-party integrations for extended GitBook functionality.
+- [List all public integrations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-public-integrations.md)
+- [Get an integration by its name](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/get-an-integration-by-its-name.md)
+- [Publish an integration](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/publish-an-integration.md)
+- [Unpublish an integration](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/unpublish-an-integration.md)
+- [List all integration installations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-integration-installations.md)
+- [Install an integration](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/install-an-integration.md)
+- [List all integration events](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-integration-events.md)
+- [Get an integration event by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/get-an-integration-event-by-its-id.md)
+- [List all integration space installations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-integration-space-installations.md)
+- [List all integration site installations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-integration-site-installations.md)
+- [Enable integration dev mode](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/enable-integration-dev-mode.md)
+- [Disable integration dev mode](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/disable-integration-dev-mode.md)
+- [Render an integration UI with GET method](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/render-an-integration-ui-with-get-method.md)
+- [Render an integration UI with POST method](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/render-an-integration-ui-with-post-method.md)
+- [Queue an integration task](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/queue-an-integration-task.md)
+- [Get an integration installation by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/get-an-integration-installation-by-its-id.md)
+- [Uninstall an integration](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/uninstall-an-integration.md)
+- [Update an integration installation](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/update-an-integration-installation.md)
+- [Create an integration installation API token](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/create-an-integration-installation-api-token.md)
+- [List all space integration installations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-space-integration-installations.md)
+- [Get an integration space installation](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/get-an-integration-space-installation.md)
+- [Uninstall an integration from a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/uninstall-an-integration-from-a-space.md)
+- [Update an integration space installation](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/update-an-integration-space-installation.md)
+- [List all site integration installations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-site-integration-installations.md)
+- [Install an integration on a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/install-an-integration-on-a-site.md)
+- [Get an integration site installation](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/get-an-integration-site-installation.md)
+- [Uninstall an integration from a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/uninstall-an-integration-from-a-site.md)
+- [Update an integration site installation](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/update-an-integration-site-installation.md)
+- [List all public integrations along with private ones trusted by the specific org.](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-public-integrations-along-with-private-ones-trusted-by-the-specific-org.md)
+- [Get the status of an integration](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/get-the-status-of-an-integration.md)
+- [List all integration installations](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-integration-installations-1.md)
+- [List all integration statuses](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-all-integration-statuses.md)
+- [List custom scripts injected into a site's published pages](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-custom-scripts-injected-into-a-sites-published-pages.md)
+- [List third-party integrations enabled on a site](https://gitbook.com/docs/developers/gitbook-api/api-reference/integrations/list-third-party-integrations-enabled-on-a-site.md)
+- [URLs](https://gitbook.com/docs/developers/gitbook-api/api-reference/urls.md): Configure where and how your GitBook content can be accessed.
+- [Resolve a URL to a content (space, collection, page)](https://gitbook.com/docs/developers/gitbook-api/api-reference/urls/resolve-a-url-to-a-content-space-collection-page.md)
+- [Resolve a URL to an embed](https://gitbook.com/docs/developers/gitbook-api/api-reference/urls/resolve-a-url-to-an-embed.md)
+- [Resolve a URL of a published content.](https://gitbook.com/docs/developers/gitbook-api/api-reference/urls/resolve-a-url-of-a-published-content.md)
+- [Resolve a URL of a published content.](https://gitbook.com/docs/developers/gitbook-api/api-reference/urls/resolve-a-url-of-a-published-content-1.md)
+- [OpenAPI](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi.md): Upload, access, or version-control your OpenAPI specifications directly in GitBook.
+- [OpenAPI spec versions](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions.md): Track changes to your OpenAPI documents by versioning them.
+- [List all OpenAPI spec versions](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions/list-all-openapi-spec-versions.md)
+- [Get the latest OpenAPI spec version](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions/get-the-latest-openapi-spec-version.md)
+- [Get the latest OpenAPI spec version content](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions/get-the-latest-openapi-spec-version-content.md)
+- [Get the raw content of the latest OpenAPI spec version](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions/get-the-raw-content-of-the-latest-openapi-spec-version.md)
+- [Get an OpenAPI spec version by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions/get-an-openapi-spec-version-by-its-id.md)
+- [Get an OpenAPI spec version content by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/openapi-spec-versions/get-an-openapi-spec-version-content-by-its-id.md)
+- [List all OpenAPI spec](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/list-all-openapi-spec.md)
+- [Create an OpenAPI spec](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/create-an-openapi-spec.md)
+- [Get an OpenAPI spec by its slug](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/get-an-openapi-spec-by-its-slug.md)
+- [Create or update an OpenAPI spec](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/create-or-update-an-openapi-spec.md)
+- [Delete an OpenAPI spec](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/delete-an-openapi-spec.md)
+- [Update OpenAPI spec visibility](https://gitbook.com/docs/developers/gitbook-api/api-reference/openapi/update-openapi-spec-visibility.md)
+- [Custom fonts](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-fonts.md): Bring your own fonts to personalize your documentation style.
+- [List all custom fonts](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-fonts/list-all-custom-fonts.md)
+- [Create a custom font](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-fonts/create-a-custom-font.md)
+- [Get a custom font by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-fonts/get-a-custom-font-by-its-id.md)
+- [Update a custom font](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-fonts/update-a-custom-font.md)
+- [Delete a custom font](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-fonts/delete-a-custom-font.md)
+- [Subdomains](https://gitbook.com/docs/developers/gitbook-api/api-reference/subdomains.md): Manage and configure organization-specific subdomains for your docs.
+- [Get a subdomain](https://gitbook.com/docs/developers/gitbook-api/api-reference/subdomains/get-a-subdomain.md)
+- [Users](https://gitbook.com/docs/developers/gitbook-api/api-reference/users.md): Retrieve and manage user information and profiles.
+- [Get profile of authenticated user](https://gitbook.com/docs/developers/gitbook-api/api-reference/users/get-profile-of-authenticated-user.md)
+- [Create a JWT to access the in-app notifications service](https://gitbook.com/docs/developers/gitbook-api/api-reference/users/create-a-jwt-to-access-the-in-app-notifications-service.md)
+- [Get a user by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/users/get-a-user-by-its-id.md)
+- [Update a user by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/users/update-a-user-by-its-id.md)
+- [Teams](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams.md): Create and manage teams as reusable groups of users.
+- [Team members](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/team-members.md): Control membership at the team level for cohesive role management.
+- [List all team members](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/team-members/list-all-team-members.md)
+- [Updates members of a team](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/team-members/updates-members-of-a-team.md)
+- [Add a team member](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/team-members/add-a-team-member.md)
+- [Delete a team member](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/team-members/delete-a-team-member.md)
+- [List all teams](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/list-all-teams.md)
+- [Create a team](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/create-a-team.md)
+- [Get a team](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/get-a-team.md)
+- [Delete a team](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/delete-a-team.md)
+- [Update a team](https://gitbook.com/docs/developers/gitbook-api/api-reference/teams/update-a-team.md)
+- [SSO](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso.md): Configure Single Sign-On solutions to unify your organization's authentication.
+- [List all SAML providers](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso/list-all-saml-providers.md)
+- [Create a new SAML provider](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso/create-a-new-saml-provider.md)
+- [Get a SAML provider by its ID](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso/get-a-saml-provider-by-its-id.md)
+- [Delete a SAML provider](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso/delete-a-saml-provider.md)
+- [Update a SAML provider](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso/update-a-saml-provider.md)
+- [List all SSO provider login infos](https://gitbook.com/docs/developers/gitbook-api/api-reference/sso/list-all-sso-provider-login-infos.md)
+- [Storage](https://gitbook.com/docs/developers/gitbook-api/api-reference/storage.md): Upload and store files directly within your GitBook organization.
+- [Create a signed URL to upload a file](https://gitbook.com/docs/developers/gitbook-api/api-reference/storage/create-a-signed-url-to-upload-a-file.md)
+- [Custom hostnames](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-hostnames.md): Serve your GitBook content from fully branded, custom hostnames.
+- [Get a custom hostname](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-hostnames/get-a-custom-hostname.md)
+- [Remove a custom hostname](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-hostnames/remove-a-custom-hostname.md)
+- [Revalidate a custom hostname DNS](https://gitbook.com/docs/developers/gitbook-api/api-reference/custom-hostnames/revalidate-a-custom-hostname-dns.md)
+- [System info](https://gitbook.com/docs/developers/gitbook-api/api-reference/system-info.md): Programmatically check GitBook API system status and version details.
+- [Get API information](https://gitbook.com/docs/developers/gitbook-api/api-reference/system-info/get-api-information.md)
+- [GitBook API](https://gitbook.com/docs/developers/gitbook-api/api-reference/gitbook-api.md)
+- [Install an integration on a space](https://gitbook.com/docs/developers/gitbook-api/api-reference/gitbook-api/install-an-integration-on-a-space.md)
+- [Authentication](https://gitbook.com/docs/developers/gitbook-api/authentication.md): Authenticate your requests with your user account when using the GitBook API
+- [Rate limiting](https://gitbook.com/docs/developers/gitbook-api/rate-limiting.md): Learn about the rate limits the GitBook API enforces
+- [Pagination](https://gitbook.com/docs/developers/gitbook-api/pagination.md): Learn how to view and navigate paginate paginated results from the GitBook API
+- [Errors](https://gitbook.com/docs/developers/gitbook-api/errors.md): Learn about errors the GitBook API might return
+- [Concepts](https://gitbook.com/docs/developers/gitbook-api/concepts.md): Learn about different GitBook concepts related to the GitBook API
+- [Guides](https://gitbook.com/docs/developers/gitbook-api/guides.md): Read specific guides on using the GitBook API
+
+## Changelog
+
+- [Product updates](https://gitbook.com/docs/changelog/readme.md): A full rundown of our latest releases, improvements and fixes in GitBook
+- [2025](https://gitbook.com/docs/changelog/2025-product-updates.md): All the GitBook features, updates, improvements and fixes we released in 2025
+- [2024](https://gitbook.com/docs/changelog/2024-product-updates.md): All the GitBook features, updates, improvements and fixes we released in 2024
+- [2023](https://gitbook.com/docs/changelog/2023-product-updates.md): All the GitBook features, updates, improvements and fixes we released in 2023
+- [2022 and earlier](https://gitbook.com/docs/changelog/2022-and-earlier-product-updates.md): All the GitBook features, updates, improvements and fixes we released in 2022 and earlier
+
+## Help Center
+
+- [Help Center](https://gitbook.com/docs/help-center/readme.md): Get help and guidance from detailed FAQs written by GitBook’s support team, or ask GitBook Assistant about specific topics
+- [What does GitBook’s trial include?](https://gitbook.com/docs/help-center/account-management/what-does-gitbooks-trial-include.md)
+- [Managing your account](https://gitbook.com/docs/help-center/account-management/managing-your-account.md)
+- [Sign up and login issues](https://gitbook.com/docs/help-center/account-management/managing-your-account/sign-up-and-login-issues.md)
+- [Why I am not receiving emails from GitBook?](https://gitbook.com/docs/help-center/account-management/managing-your-account/why-i-am-not-receiving-emails-from-gitbook.md)
+- [Why I am not receiving notifications?](https://gitbook.com/docs/help-center/account-management/managing-your-account/why-i-am-not-receiving-notifications.md)
+- [Organization management](https://gitbook.com/docs/help-center/account-management/managing-your-organization.md)
+- [Changing organization ownership](https://gitbook.com/docs/help-center/account-management/managing-your-organization/changing-organization-ownership.md)
+- [What happens to my content if an account or organization is deleted?](https://gitbook.com/docs/help-center/account-management/managing-your-organization/what-happens-to-my-content-if-an-account-or-organization-is-deleted.md)
+- [Managing user access and related charges](https://gitbook.com/docs/help-center/account-management/managing-your-organization/managing-user-access-and-related-charges.md)
+- [Pricing, plans and billing](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing.md)
+- [Do I have to pay to publish a site?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/do-i-have-to-pay-to-publish-a-site.md)
+- [Which payment methods do you accept?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/what-payment-methods-do-you-accept.md)
+- [Where can I find my invoices, and update billing details?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/where-can-i-find-my-invoices-and-update-billing-details.md)
+- [I was charged for an unexpected upgrade](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/i-was-charged-for-an-unexpected-upgrade.md)
+- [I have paid for the yearly plan. Why did I receive another invoice?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/i-have-paid-for-the-yearly-plan.-why-did-i-receive-another-invoice.md)
+- [Why don’t I get billed for the Advanced AI Assistant or Translation add-ons flat fees immediately?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/why-dont-i-get-billed-for-the-advanced-ai-assistant-or-translation-add-ons-flat-fees-immediately.md)
+- [Do you offer a free plan for non-profits and open-source organizations?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/does-gitbook-offer-a-free-plan-for-non-profit-open-source-organizations.md)
+- [Do you offer any discounts?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/do-you-offer-any-discounts.md)
+- [Can I get a refund?](https://gitbook.com/docs/help-center/account-management/pricing-plans-and-billing/can-i-get-a-refund.md)
+- [Editing](https://gitbook.com/docs/help-center/editing-content/writing-and-editing.md)
+- [Moving your content](https://gitbook.com/docs/help-center/editing-content/managing-your-content.md)
+- [Assets and files](https://gitbook.com/docs/help-center/editing-content/assets-and-files.md)
+- [Publishing](https://gitbook.com/docs/help-center/published-documentation/publishing.md)
+- [How can I publish a space?](https://gitbook.com/docs/help-center/published-documentation/publishing/how-can-i-publish-a-space.md)
+- [How to preview a docs site?](https://gitbook.com/docs/help-center/published-documentation/publishing/how-to-preview-a-docs-site.md)
+- [How do I unpublish a site?](https://gitbook.com/docs/help-center/published-documentation/publishing/how-to-unpublish-a-site.md)
+- [How can I publish a site with multiple versions?](https://gitbook.com/docs/help-center/published-documentation/publishing/how-can-i-publish-a-site-with-multiple-versions.md)
+- [How to set the home for a site or section?](https://gitbook.com/docs/help-center/published-documentation/publishing/what-is-a-default-space-and-how-to-change-it.md)
+- [What happens to my site when I delete a space connected to it?](https://gitbook.com/docs/help-center/published-documentation/publishing/what-happens-to-my-site-when-i-delete-a-space-connected-to-it.md)
+- [Why is my space still indexed in search engines after I unpublished it?](https://gitbook.com/docs/help-center/published-documentation/publishing/why-is-my-space-still-indexed-in-search-engines-after-i-unpublished-it.md)
+- [Why is my site still accessible after deleting/unpublishing?](https://gitbook.com/docs/help-center/published-documentation/publishing/why-is-my-space-still-indexed-in-search-engines-after-i-unpublished-it-1.md)
+- [How does GitBook handle SEO?](https://gitbook.com/docs/help-center/published-documentation/publishing/how-does-gitbook-handle-seo.md)
+- [Customization](https://gitbook.com/docs/help-center/published-documentation/customization.md)
+- [What’s the recommended page cover image size?](https://gitbook.com/docs/help-center/published-documentation/customization/whats-the-recommended-page-cover-image-size.md)
+- [How do I change or replace the favicon for my docs site?](https://gitbook.com/docs/help-center/published-documentation/customization/how-do-i-change-or-replace-the-favicon-for-my-docs-site.md)
+- [Can I edit HTML, CSS, JS, or other custom code on GitBook?](https://gitbook.com/docs/help-center/published-documentation/customization/can-i-edit-html-css-js-or-other-custom-code-on-gitbook.md)
+- [Can I remove "Powered by GitBook" on a paid plan?](https://gitbook.com/docs/help-center/published-documentation/customization/if-i-subscribe-to-a-paid-plan-can-i-remove-the-powered-by-gitbook-badge.md)
+- [Custom domains](https://gitbook.com/docs/help-center/published-documentation/custom-domains.md)
+- [My custom subdomain isn't working](https://gitbook.com/docs/help-center/published-documentation/custom-domains/my-custom-subdomain-isnt-working.md): A quick guide on how to troubleshoot dns issues in GitBook
+- [Change or update my custom domain in GitBook](https://gitbook.com/docs/help-center/published-documentation/custom-domains/change-or-update-my-custom-domain-in-gitbook.md): This is a quick guide on how to change or update your custom domain in GitBook
+- [How can I solve the "path is already taken" error?](https://gitbook.com/docs/help-center/published-documentation/custom-domains/how-can-i-solve-the-path-is-already-taken-error.md)
+- [How can I change the slug in the URL?](https://gitbook.com/docs/help-center/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url.md)
+- [Adaptive content](https://gitbook.com/docs/help-center/published-documentation/adaptive-content.md)
+- [Which authentication method should I use for Adaptive content?](https://gitbook.com/docs/help-center/published-documentation/adaptive-content/which-authentication-method-should-i-use-for-adaptive-content.md)
+- [Can I publish a site with only  some content requiring authentication?](https://gitbook.com/docs/help-center/published-documentation/adaptive-content/can-i-publish-a-site-with-only-some-content-requiring-authentication.md)
+- [Why my Adaptive Content segments aren't working or showing in preview?](https://gitbook.com/docs/help-center/published-documentation/adaptive-content/why-my-adaptive-content-segments-arent-working-or-showing-in-preview.md)
+- [How do I set up Adaptive content with my custom OIDC provider?](https://gitbook.com/docs/help-center/published-documentation/adaptive-content/how-do-i-set-up-adaptive-content-with-my-custom-oidc-provider.md)
+- [Limitations and troubleshooting](https://gitbook.com/docs/help-center/published-documentation/adaptive-content/limitations-and-troubleshooting.md)
+- [Site Insights](https://gitbook.com/docs/help-center/published-documentation/site-insights.md)
+- [How can I access insights or analytics?](https://gitbook.com/docs/help-center/published-documentation/site-insights/how-can-i-access-insights-or-analytics.md)
+- [Why is my Site insights data not loading?](https://gitbook.com/docs/help-center/published-documentation/site-insights/why-is-my-site-insights-data-not-loading.md)
+- [What does “Page not found” mean in insights?](https://gitbook.com/docs/help-center/published-documentation/site-insights/what-does-page-not-found-mean-in-insights.md)
+- [What does "Not set" means in referrer insights?](https://gitbook.com/docs/help-center/published-documentation/site-insights/what-does-not-set-means-in-referrer-insights.md): Learn more about insights referrers
+- [Can I request an integration?](https://gitbook.com/docs/help-center/integrations/can-i-request-an-integration.md)
+- [Can I build my own integration?](https://gitbook.com/docs/help-center/integrations/can-i-build-my-own-integration.md)
+- [Does GitBook have a CLI tool?](https://gitbook.com/docs/help-center/integrations/does-gitbook-have-a-cli-tool.md)
+- [How do I install an integration on my site?](https://gitbook.com/docs/help-center/integrations/how-do-i-install-an-integration-on-my-site.md)
+- [Does GitBook support Google Tag Manager?](https://gitbook.com/docs/help-center/integrations/does-gitbook-support-google-tag-manager.md)
+- [Integrations troubleshooting](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting.md)
+- [I can't find where to put my Google Analytics tracking ID](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/where-do-i-put-my-google-analytics-tracking-id.md)
+- [Why am I seeing “We couldn’t load the integration” in GitBook?](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/why-am-i-seeing-we-couldnt-load-the-integration-in-gitbook.md)
+- [Why is the Mermaid block not loading?](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/why-is-the-mermaid-block-not-loading.md)
+- [Git Sync](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync.md)
+- [Does Git Sync also sync pull-requests?](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/does-git-sync-also-sync-pull-requests.md)
+- [Why am I getting a Git authentication failed message?](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/why-am-i-getting-a-git-authentication-failed-message.md)
+- [Git Sync status shows an unexpected error](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/git-sync-status-shows-an-unexpected-error.md)
+- [​GitBook is not using my docs folder](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/gitbook-is-not-using-my-docs-folder.md)
+- [GitBook is creating new markdown files](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/gitbook-is-creating-new-markdown-files.md)
+- [​Nothing happens on GitBook after adding a new file to my repository](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/nothing-happens-on-gitbook-after-adding-a-new-file-to-my-repository.md)
+- [My table of contents is not correctly structured](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/my-table-of-contents-is-not-correctly-structured.md)
+- [Error when pushing to the repository with protected branch](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/error-when-pushing-to-the-repository-with-protected-branch.md)
+- [Git Sync file size limitations](https://gitbook.com/docs/help-center/integrations/integrations-troubleshooting/git-sync/git-sync-file-size-limitations.md)
+- [Where can I find API ids?](https://gitbook.com/docs/help-center/where-can-i-find-api-ids.md)
+- [Resolving "Connection Lost" message](https://gitbook.com/docs/help-center/resolving-connection-lost-message.md)
+- [How do I contact support?](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support.md)
+- [How do I generate a HAR file?](https://gitbook.com/docs/help-center/further-help/how-do-i-generate-a-har-file.md)
+- [How do I hard refresh my browser?](https://gitbook.com/docs/help-center/further-help/how-do-i-hard-refresh-my-browser.md): Follow the steps to hard refresh your browser.
+- [How can I contribute to GitBook’s Documentation?](https://gitbook.com/docs/help-center/further-help/how-can-i-contribute-to-gitbooks-documentation.md)
+
+## Policies
+
+- [Site Policy on GitBook](https://gitbook.com/docs/policies/master.md)
+- [Terms of Service](https://gitbook.com/docs/policies/terms.md)
+- [DMCA Takedown Policy](https://gitbook.com/docs/policies/policies/dmca-takedown-policy.md)
+- [Guide to Submitting a DMCA Takedown Notice](https://gitbook.com/docs/policies/policies/dmca-takedown-policy/guide-to-submitting-a-dmca-takedown-notice.md)
+- [Guide to Submitting a DMCA Counter Notice](https://gitbook.com/docs/policies/policies/dmca-takedown-policy/guide-to-submitting-a-dmca-counter-notice.md)
+- [Name Squatting Policy](https://gitbook.com/docs/policies/policies/name-squatting-policy.md)
+- [Trademark Policy](https://gitbook.com/docs/policies/policies/trademark-policy.md)
+- [Private Spaces](https://gitbook.com/docs/policies/policies/private-spaces.md)
+- [Security](https://gitbook.com/docs/policies/privacy-and-security/security.md)
+- [Reporting bugs and vulnerabilities](https://gitbook.com/docs/policies/privacy-and-security/security/reporting-bugs-and-vulnerabilities.md): Learn about how you can report suspected vulnerabilities or security concerns
+- [Subprocessors](https://gitbook.com/docs/policies/privacy-and-security/security/subprocessors.md)
+- [Security FAQ](https://gitbook.com/docs/policies/privacy-and-security/security/security-faq.md)
+- [AI Policy](https://gitbook.com/docs/policies/privacy-and-security/security/ai-policy.md)
+- [Security as a company value](https://gitbook.com/docs/policies/privacy-and-security/security/security-as-a-company-value.md)
+- [Privacy Statement](https://gitbook.com/docs/policies/privacy-and-security/statement.md)
+- [Cookies](https://gitbook.com/docs/policies/privacy-and-security/statement/cookies.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://gitbook.com/docs/overview.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.
