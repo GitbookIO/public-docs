@@ -1,7 +1,7 @@
 # Docs Restructure — Working Document
 
 Branch: `docs-restructure`
-Status: **Phase 1a complete — all of `documentation/` migrated from legacy-content/. `ai/` and the source-less sections (`api/`, `cli/`, `education/`, `changelog/`, `policies/`, custom-components remainder) still to go.**
+Status: **Phase 1a + 1b(ai) complete — all of `documentation/` and `ai/` migrated from legacy-content/. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. Remaining: the source-less sections (`api/`, `cli/`, `education/`, `changelog/`, `policies/`, custom-components remainder).**
 Last updated: 2026-07-27
 
 ## Goal
@@ -110,12 +110,25 @@ of truth for exactly what goes where.
       `CONTENT-MAP.md` for the full page-level mapping and the decisions
       made along the way (splits, merges, cut content, new pages added for
       gaps found during mapping).
-- [ ] **Phase 1b — Remaining sections.**
-      1. `ai/` — partial local source (`legacy-content/getting-started/ai-documentation/`), rest is net-new.
-      2. Locate + pull in source content for `api/`, `cli/`,
-         `custom-components/` (developer-facing remainder), `education/`,
-         `changelog/`, `policies/` — no local source found in this repo;
-         still blocked on locating the owning space/repo for each.
+- [x] **Phase 1b(ai) — `ai/` content migration.** All 19 pages migrated —
+      turned out to have much more real legacy source
+      (`legacy-content/getting-started/ai-documentation/{gitbook-mcp,
+      ai-coding-assistants-and-skillmd,gitbook-cli}.md`) than the "mostly
+      net-new" note in this doc originally suggested. One page,
+      `ai/gitbook-mcp/mcp-tools-reference.md`, is intentionally left as an
+      open stub — no source anywhere documents the actual MCP tool
+      list/parameters, and the user chose not to have it guessed at. Needs
+      real input from whoever owns the MCP server implementation.
+- [ ] **Phase 1c — Remaining sections.** Locate + pull in source content
+      for `api/`, `cli/`, `custom-components/` (developer-facing
+      remainder), `education/`, `changelog/`, `policies/` — no local
+      source found in this repo; still blocked on locating the owning
+      space/repo for each. Note: while migrating `ai/`, found that
+      `legacy-content/getting-started/ai-documentation/gitbook-cli.md` has
+      substantial real content about the GitBook CLI (install, auth,
+      commands, output formats) that may also be a source for
+      `cli/reference/cli-reference.md` once that section starts — worth
+      checking before assuming zero local source there.
 - [ ] **Phase 2 — Redirects.** Diff the live URL snapshot against the final
       new structure; build old→new redirect map. Figure out where redirects
       live under the new multi-space `docs.yaml` setup (old setup used a
