@@ -4,7 +4,9 @@ description: Build custom integrations with the GitBook integration platform.
 
 # Build your own
 
-> **Stub for tree test.**
-> **Purpose:** Router stub: points builders to the Developers → Custom components section — the canonical home of integration development.
-> **Canonical home of:** nothing — this is a router page — do not duplicate elsewhere.
-> **Cross-links:** → Developers → Custom components → Getting started → Build your first integration (Quickstart); → Developers → Custom components → Development guides
+Building your own integration or ContentKit component is developer-facing work, covered in full under **Developers → Custom components**:
+
+* **Build your first integration** — a step-by-step quickstart for your first integration.
+* **Development guides** — deeper guides for building and testing integrations.
+
+This page stays focused on installing and managing integrations as a docs author or admin — see [Install and manage](install-and-manage.md).
