@@ -29,6 +29,7 @@
   * [Icons, colors, and themes](docs-site/customization/icons-colors-and-themes.md)
   * [Layout and structure](docs-site/customization/layout-and-structure.md)
   * [Sharing and social](docs-site/customization/sharing-and-social.md)
+  * [SEO](docs-site/customization/seo.md)
   * [Extra configuration](docs-site/customization/extra-configuration.md)
 * [Site structure](docs-site/site-structure/README.md)
   * [Site sections](docs-site/site-structure/site-sections.md)
