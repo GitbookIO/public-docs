@@ -143,8 +143,8 @@
     * [Feature flags](site-access/adaptive-content/enabling-adaptive-content/feature-flags.md)
     * [Authenticated access](site-access/adaptive-content/enabling-adaptive-content/authenticated-access.md)
   * [Adapting your content](site-access/adaptive-content/adapting-your-content.md)
-  * [FAQ and troubleshooting](site-access/adaptive-content/faq-and-troubleshooting.md)
   * [Testing with segments](site-access/adaptive-content/testing-with-segments.md)
+  * [FAQ and troubleshooting](site-access/adaptive-content/faq-and-troubleshooting.md)
 
 ## AI & search
 
