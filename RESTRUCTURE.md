@@ -1,7 +1,7 @@
 # Docs Restructure — Working Document
 
 Branch: `docs-restructure`
-Status: **Phase 1a + 1b(ai) + 1c(changelog) + 1d(api/cli/custom-components) complete — `documentation/`, `ai/`, `changelog/`, `api/`, `cli/`, and `custom-components/` migrated. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. GitBook MCP is now connected (see "Live source access" below) — used it to pull `changelog/` directly from the live `GitBook` org. `api/`, `cli/`, and `custom-components/` were instead migrated from the local checkout at `~/Desktop/Development/integrations/docs` (not the live site), each expanded well beyond its original thin stub set to hold the real source content — mirroring the same judgment call made earlier for `documentation/learn/api-documentation/`. Remaining: `education/`, `policies/`.**
+Status: **Phase 1a + 1b(ai) + 1c(changelog) + 1d(api/cli/custom-components) + 1e(policies) complete — `documentation/`, `ai/`, `changelog/`, `api/`, `cli/`, `custom-components/`, and `policies/` migrated. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. GitBook MCP is now connected (see "Live source access" below) — used it to pull `changelog/` and `policies/` directly from the live `GitBook` org (space `-LBUnokgAHp7SX9tJUrr`, "GitBook Site Policy"). `api/`, `cli/`, and `custom-components/` were instead migrated from the local checkout at `~/Desktop/Development/integrations/docs` (not the live site), each expanded well beyond its original thin stub set to hold the real source content — mirroring the same judgment call made earlier for `documentation/learn/api-documentation/`. Remaining: `education/`.**
 Last updated: 2026-07-27
 
 ## Goal
@@ -71,11 +71,10 @@ from other GitBook spaces that currently live outside this repo.
 | `custom-components/` | ✅ `~/Desktop/Development/integrations/docs/integrations/` (same local checkout) | Migrated; expanded 9→14 pages |
 | `education/` | ❌ Not in this repo | Net new or sourced elsewhere |
 | `changelog/` | ✅ Pulled live via GitBook MCP | Direct copy from the live `Public Changelog` space |
-| `policies/` | ❌ Not in this repo | Candidate space found via MCP (`GitBook Site Policy`, `-LBUnokgAHp7SX9tJUrr`), not yet migrated |
+| `policies/` | ✅ Pulled live via GitBook MCP | Direct copy from the live `GitBook Site Policy` space (`-LBUnokgAHp7SX9tJUrr`) |
 
 **Open question:** where does `education/` currently live (which GitBook
-space/repo)? `policies/` has a known candidate space but hasn't been
-migrated yet — confirm with the user before starting either.
+space/repo)?
 
 ## Section-level mapping: old → new (provisional)
 
@@ -165,6 +164,23 @@ of truth for exactly what goes where.
         three separate GitBook spaces) — replaced with descriptive text
         ("Developers → CLI → CLI reference") wherever the source linked
         across what are now space boundaries.
+- [x] **Phase 1e — `policies/` content migration.** Pulled directly from
+      the live `GitBook` org via the GitBook MCP (`get_site_structure` →
+      `listPages` → `get_page` per page), same approach as Phase 1c. All 15
+      real content pages migrated: `README.md` (hub), `terms-of-service.md`,
+      a `dmca-takedown-policy/` folder (policy + 2 how-to guides),
+      `name-squatting-policy.md`, `trademark-policy.md`,
+      `private-spaces.md`, and a `privacy-and-security/` folder with
+      `security/` (5 pages: reporting bugs, subprocessors, security FAQ, AI
+      policy, security as a company value) and `statement/` (Privacy
+      Statement + cookies). The source space's own nav groups ("Policies",
+      "Privacy and security") don't correspond to real pages (`kind:
+      "group"`, no content) — represented as SUMMARY.md section headers
+      instead of stub folders/README files. Fixed a couple of stale
+      absolute URLs in the source content that pointed within this same
+      space (e.g. `https://policies.gitbook.com/privacy-and-security/privacy#dpa`,
+      which no longer matches the real `statement` path) into correct
+      relative links now that everything lives in one space here.
 
 ## Live source access (GitBook MCP)
 
