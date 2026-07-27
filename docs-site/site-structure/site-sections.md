@@ -1,75 +1,106 @@
 ---
-description: >-
-  Add multiple products to your site as sections and create a content hub with
-  tabs to access all your content
+description: Organize separate products, audiences, or topics in one published site.
 ---
 
 # Sections
 
-{% include "../../.gitbook/includes/ultimate-hint.md" %}
+
+
+{% hint style="info" %}
+This feature is available on the Ultimate site plan.
+{% endhint %}
 
 <figure><img src="../../.gitbook/assets/25_12_10_site_sections@2x.png" alt="A GitBook screenshot showing sections on a docs site"><figcaption><p>Example of a GitBook site with sections</p></figcaption></figure>
 
-With sections, you can centralize all your documentation and create a seamless experience for your users.
+Sections let you centralize your documentation in one site. Use them to organize separate products. You can also serve different audiences with tailored content.
 
-Sections are perfect for organizing your documentation — whether you’re managing separate products, or catering to both end-users and developers with content tailored to each.
+Group sections to create a dropdown in your navigation bar. Groups add hierarchy to your site.
 
-You can also [keep sections together in a group](site-sections.md#create-a-site-section-group). Doing so will create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site.
+### Sections or variants?
 
-{% hint style="info" %}
-**Sections or variants?**
+Each section holds its own content. Use sections for distinct documentation areas. These can represent products, audiences, or topics.
 
-Each section holds its own content in GitBook. You can create a section from any content you like, but we recommend you use sections as semantically different parts of your docs.
+For variations of the same content, use [content variants](variants.md). Variations include localizations and historical product versions.
 
-If you want to add variations of the same content — such as localizations or historical versions of the same product — consider using [content variants](variants.md) instead.
-{% endhint %}
+### Add a section
 
-### Adding a section to your docs site
+To add a section:
 
-Open the structure editor from **Site structure**, under **General** in the site sidebar. Here you can see all the content of your site.
+1. In the site sidebar, open **Site structure**.
+2. Below the table, click **New section**.
+3. Select the content to add.
 
-To add a section, click the **New section** button underneath the table and choose the content to add. The new section is then added to the table and will be available to visitors as a tab at the top of your site.
+The section appears in the table. It also appears as a tab on your published site.
 
 <figure><img src="../../.gitbook/assets/25_12_10_structure_tree@2x.png" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with sections.</p></figcaption></figure>
 
-### Create a section group <a href="#create-a-site-section-group" id="create-a-site-section-group"></a>
+### Create a section group
 
-You can keep sections together in a group under a single heading. Section groups will appear as a drop-down in your site’s nav. Sections in a group can also include an optional description, which appears below the section title in the drop-down menu.
+Section groups create a navigation dropdown under one heading. Grouped sections can have an optional description. The description appears below the section title.
 
-To create a group, click the arrow next to the **New section** button and choose **New section group**. Give your new group a name, then click **Add section** in the modal to add sections to your group. You can add existing sections of your site to the new group, or choose other content you want to add using the menu.
+To create a group:
 
-If your site supports multiple languages, you can also translate section group titles, along with section titles and descriptions. See [Multilingual sections](multilingual-sections.md).
+1. Next to **New section**, click the arrow.
+2. Select **New section group**.
+3. Enter a group name.
+4. Click **Add section**.
+5. Add existing sections or select new content.
 
-### Editing a section
+If your site supports multiple languages, translate group titles, section titles, and descriptions. See [Multilingual sections](multilingual-sections.md).
 
-You can change the name, icon and slug of each of your sections by clicking the <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> **Edit** button in the table row of the section you’d like to edit. This will open a modal. Edit the field(s) you’d like to change, then click the **Save** button. You can also delete the section by clicking the **Delete** button in the lower left.
+### Edit a section
+
+To edit a section:
+
+1. In the section’s table row, click **Edit**.
+2. Change the name, icon, or slug.
+3. Click **Save**.
+
+To delete a section, click **Delete** in the lower-left corner.
 
 {% hint style="info" %}
-Changing a section’s slug will change its canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../../publishing-documentation/site-redirects.md).
+Changing a section’s slug changes its canonical URL. GitBook creates a redirect from the old URL. You can also [create redirects manually](../../publishing-documentation/site-redirects.md).
 {% endhint %}
 
-Sections within a group can also optionally display a description, which will appear in the drop-down menu of your site’s nav bar when the section group is hovered. See the image at the top of this page to see an example of how this can look in your published documentation.
+### Reorder sections
 
-If your site supports multiple languages, you can translate section titles and descriptions so they match the reader’s selected language. See [Multilingual sections](multilingual-sections.md).
+Sections appear in the same order as the **Site structure** table. To reorder a section, drag its drag handle up or down. The section’s content moves with it. The new order appears on your site immediately.
 
-### Reordering sections
+To use a keyboard:
 
-Your site displays sections in the order that they appear in your Site structure table. Sections can be reordered by grabbing the **Drag handle** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and moving it up or down. All the content within that section will be moved with it. The changed order will be reflected on your site immediately.
+1. Press **Space** to select a section.
+2. Press an arrow key to move the section.
+3. Press **Space** to confirm.
 
-You can also use the keyboard to select and move content: select a section with the space bar, then use the arrow keys to move it up or down. Hit the space bar again to confirm the new position.
+### Set the home section
 
-### Setting a default section
+The home section appears when visitors open your site. It loads at your site’s root URL. Other sections add a slug to the root URL.
 
-If you have multiple sections in your site, one section will be marked as the default with a house icon<i class="fa-house">:house:</i>. This section is shown when visitors arrive on your site, and is served from your site’s root URL. Other sections each have a slug that is appended to the root URL.
+To set the home section:
 
-To set a section as default, click on the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in the section's table row and then click **Set as default**.
+1. In the section’s table row, open the **Actions** menu.
+2. Click **Set as home**.
+
+### Set the home variant
+
+If a section has multiple variants, choose which variant visitors open first.
+
+To set the home variant:
+
+1. Open **Site settings**.
+2. Click **Structure**.
+3. Click the section to update.
+4. Find the variant visitors open first.
+5. Click **Set as home**.
 
 ### Remove a section
 
-To remove a section from a site, open the structure editor from **Site structure**, under **General** in the site sidebar, and find the section you want to remove.
+To remove a section:
 
-Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the section you want to remove and choose **Remove**.
+1. In the site sidebar, open **Site structure**.
+2. Open the section’s **Actions** menu.
+3. Click **Remove**.
 
 {% hint style="success" %}
-Removing a section from your site will remove it — and all the variants within it — from the published site, but **will not delete the content itself** — you can still find it in [All content](../../creating-content/all-content.md).
+Removing a section unpublishes it and its variants. It doesn’t delete the content. You can still find it in [All content](../../creating-content/all-content.md).
 {% endhint %}

@@ -32,7 +32,7 @@
   * [SEO](docs-site/customization/seo.md)
   * [Extra configuration](docs-site/customization/extra-configuration.md)
 * [Site structure](docs-site/site-structure/README.md)
-  * [Site sections](docs-site/site-structure/site-sections.md)
+  * [Sections](docs-site/site-structure/site-sections.md)
   * [Content variants](docs-site/site-structure/variants.md)
   * [Multilingual sections](docs-site/site-structure/multilingual-sections.md)
 * [AI Search](docs-site/ai-search.md)
