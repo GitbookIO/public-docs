@@ -55,9 +55,35 @@ Once done, you'll receive a notification and can click **Finish**. You can also 
 {% endstep %}
 {% endstepper %}
 
+### Change or update your custom domain
+
+To change the custom domain for a site, open the site's **Settings**, under **General** in the site sidebar, and click **Domain and URL**. You can remove the current domain and add a new one, or edit the existing configuration.
+
+Remember to update the DNS settings with your domain provider to point to the new GitBook configuration — the process is the same as the initial setup, with a CNAME record pointing to the value GitBook provides.
+
 ### Troubleshooting
 
 Setting up a custom domain can occasionally run into obstacles. Below, we outline frequent problems encountered during this process and provide detailed solutions to each of them.
+
+<details>
+
+<summary>My custom subdomain isn't working.</summary>
+
+Custom domain issues are usually DNS-related. Check your DNS configuration:
+
+1. Verify you created a **CNAME record** (not an A record) pointing to the value GitBook provided.
+2. Ensure you're using the subdomain format (`docs.yoursite.com` or `www.yoursite.com`).
+3. If you use Cloudflare, disable the proxy (orange cloud) — the record must be set to "DNS only".
+
+Common DNS issues:
+
+* **Conflicting records** — remove any existing A, AAAA, or other records for the same subdomain.
+* **TTL delays** — DNS changes can take up to 48 hours to propagate globally.
+* **CAA records** — if you have CAA records, add `0 issue "pki.goog"` to allow GitBook's SSL certificates.
+
+To test your setup, use a DNS lookup tool like [WhatsMyDNS](https://www.whatsmydns.net/#CNAME) to verify your CNAME record points to the correct GitBook address. If issues persist after 48 hours, contact support with your domain name and the CNAME value GitBook provided.
+
+</details>
 
 <details>
 

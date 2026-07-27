@@ -96,3 +96,50 @@ A good way to identify which GitBook account the GitHub account is already linke
 7. Log out from the session.
 8. Log back in using your `name@email.com` GitBook account.
 9. Try to set up Git Sync again.
+
+## Error when pushing to a repository with a protected branch
+
+This error occurs when your Git branch is protected:
+
+```
+Error: Missing permissions to push to the refs/heads/main protected branch. Check your branch configuration on your git provider.
+```
+
+Git Sync requires the GitBook app to push changes to your repository without restrictions, including during setup. Allow the GitBook app to bypass branch protections for the sync to work.
+
+GitBook supports these branch protections, as long as the app is allowed to bypass them:
+
+* Require a pull request before merging
+* Restrict who can push to matching branches
+
+In GitHub, open your repository's branch protection settings and allow `gitbook-com` to bypass those restrictions.
+
+## Git Sync file size limitations
+
+Git Sync limits individual file sizes to a maximum of 100MB. To improve performance and synchronization speed, optimize the size of files and assets in your repository.
+
+## Git Sync status shows an unexpected error
+
+**If the error appeared when merging a change request in GitBook:** create a new change request with a small change — such as adding a word — and merge it. This retriggers the sync and GitBook exports all content again, including the changes from the failed sync.
+
+**If the error appeared when merging a commit from GitHub or GitLab:** create a new commit in your repository with a small change. When it merges, GitBook imports all content from the repository again, including the changes from the failed sync.
+
+**If the error appeared during first-time setup:** remove the GitHub or GitLab integration, enable it again in your section, and go through the setup process once more.
+
+If none of these steps help, [contact support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support).
+
+## My table of contents is not correctly structured
+
+Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it's structured is reflected in your content. Make sure the file reflects the structure you want to see in your documentation. See [Content configuration](content-configuration.md#summary) for the expected format.
+
+## Why am I getting a "Git authentication failed" message?
+
+This message appears when you attempt to push to a repository that hasn't granted GitBook access. In that case, syncing from your repository to GitBook works, but not the other way — and your repositories may not be listed correctly.
+
+For GitHub, grant access in your GitHub settings: open **Manage Organization → Integrations → Applications**, click **Configure** next to GitBook, and select the repositories the GitBook app can access.
+
+For GitLab, make sure your access token is configured with `api`, `read_repository`, and `write_repository` access.
+
+## Does Git Sync also sync pull requests?
+
+No. Creating a pull request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull request in your repository.

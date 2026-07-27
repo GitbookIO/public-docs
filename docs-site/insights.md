@@ -97,3 +97,21 @@ It tracks interactions such as endpoint views, parameter searches, and request e
 #### MCP
 
 See how your site content is being accessed through [MCP](../publishing-documentation/mcp-servers-for-published-docs.md) integrations. You can view MCP requests over time and see which bots and agents are accessing your site content.
+
+### Site analytics FAQ
+
+#### Who can view site analytics?
+
+Anyone with access to the site can view its analytics — including readers, reviewers, and editors. Creators and admins can also access the site's settings and customization.
+
+#### Why is my analytics data not loading?
+
+If the analytics dashboard isn't loading, it's usually because an ad blocker or privacy extension is blocking the analytics scripts. Temporarily disable the extension and reload the page, or add GitBook and the services it uses to the extension's allowlist.
+
+#### What does "Page not found" mean?
+
+"Page not found" means visitors tried to open a page on your site that doesn't exist. The table only counts visits to your default Page not found page. To see which URLs are broken, open **Broken URLs** in site analytics — from there you can see how many visitors each broken link had and [create redirects](../publishing-documentation/site-redirects.md) if needed.
+
+#### What does "Not set" mean in referrer data?
+
+"Not set" referrers indicate direct traffic — visitors typed your URL directly, used a bookmark, or clicked links from emails and apps that don't pass referrer data.
