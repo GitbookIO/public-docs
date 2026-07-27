@@ -37,6 +37,8 @@ The content on your site lives in its sections. When you create a new docs site,
 
 GitBook’s visual editor lets you use a what-you-see-is-what-you-get (WYSIWYG) interface to add content to a section.
 
+Editing is available on desktop and laptop devices. You can view your organization and content from a smartphone, but editing requires a desktop or laptop.
+
 ### Pages
 
 A page is the place where you add, edit and embed content. Pages always live inside a section, and you can add as many pages to a section as you like.

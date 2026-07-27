@@ -82,3 +82,7 @@ Click the color icon in the context menu, and choose a color for the text or its
 <mark style="color:orange;">This text is orange.</mark>
 
 <mark style="background-color:orange;">This text background is orange.</mark>
+
+### Right-to-left text
+
+GitBook doesn't currently support right-to-left contributions. Paragraphs and headings automatically detect RTL text and adapt their layout, but lists and other content blocks may not align properly, and font quality can be reduced for some languages.

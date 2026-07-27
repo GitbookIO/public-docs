@@ -16,7 +16,7 @@ You can set any title you choose for your site. Note: this setting will only aff
 
 ### Icon
 
-You can set an emoji, or upload an icon of your own. The icon you set in the **Customize** menu will be used as the favicon for your docs site.
+You can set an emoji, or upload an icon of your own. The icon you set in the **Customize** menu will be used as the favicon for your docs site. Changes can take a few minutes to appear on your published docs — if you don't see the new favicon, your browser may have cached the old one, so try a different browser.
 
 {% hint style="info" %}
 This setting will only affect the icon that displays _in the published documentation_. If you want to edit the icon used within the GitBook app, you can do so when editing content in the section itself.

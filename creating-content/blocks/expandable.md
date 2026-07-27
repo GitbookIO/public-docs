@@ -56,4 +56,11 @@ Add your expandable body text here. This expandable is collapsed by default.
 
 ### Limitations
 
-There are some limitations on which blocks you can create inside of an expandable block. You can check the full list by starting a new line in an expandable block and pressing `/` to bring up the insert palette.
+There are some limitations on which blocks you can create inside of an expandable block. You can insert the following types of content into expandable blocks:
+
+* Paragraphs
+* Headings (1, 2, and 3)
+* Unordered, ordered, and task lists
+* Inline images
+
+To check the full list at any time, start a new line in an expandable block and press `/` to bring up the insert palette.
