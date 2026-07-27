@@ -33,6 +33,10 @@ On this screen you can select the areas you would like to install your integrati
 
 #### 3. Configure your integration
 
+{% hint style="info" %}
+Analytics integrations — such as Google Analytics, Segment, or Fathom — are configured for the whole site. If your site contains multiple sections, you can't collect separate analytics per section; one configuration applies to the entire site.
+{% endhint %}
+
 You can now use your integration. Certain integrations may require extra configuration. If so, you’ll see a message asking you to configure your integration in your section or site.
 
 View the integration’s instructions to learn more about configuring it for your team.
