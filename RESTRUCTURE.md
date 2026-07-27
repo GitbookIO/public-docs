@@ -1,7 +1,7 @@
 # Docs Restructure — Working Document
 
 Branch: `docs-restructure`
-Status: **Phase 1a + 1b(ai) + 1c(changelog) complete — `documentation/`, `ai/`, and `changelog/` migrated. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. GitBook MCP is now connected (see "Live source access" below) — used it to pull `changelog/` directly from the live `GitBook` org, and it also surfaced space IDs for `api/`, the CLI/developers docs, and `policies/`. Remaining: `api/`, `cli/`, `education/`, `policies/`, custom-components remainder.**
+Status: **Phase 1a + 1b(ai) + 1c(changelog) + 1d(api/cli/custom-components) complete — `documentation/`, `ai/`, `changelog/`, `api/`, `cli/`, and `custom-components/` migrated. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. GitBook MCP is now connected (see "Live source access" below) — used it to pull `changelog/` directly from the live `GitBook` org. `api/`, `cli/`, and `custom-components/` were instead migrated from the local checkout at `~/Desktop/Development/integrations/docs` (not the live site), each expanded well beyond its original thin stub set to hold the real source content — mirroring the same judgment call made earlier for `documentation/learn/api-documentation/`. Remaining: `education/`, `policies/`.**
 Last updated: 2026-07-27
 
 ## Goal
@@ -25,7 +25,9 @@ is where the real, final content will actually live once migrated.
 
 - `docs.yaml` + `ai/`, `api/`, `cli/`, `custom-components/`, `documentation/`,
   `education/`, `changelog/`, `policies/` — copied from the target repo.
-  Every `.md` file in these folders is still a **stub**, not real content.
+  `ai/`, `api/`, `cli/`, `custom-components/`, `documentation/`, and
+  `changelog/` now have real migrated content (see Phases below);
+  `education/` and `policies/` are still **stubs**, not real content.
 - `legacy-content/` — the entire previous state of this repo (everything
   that used to be at the root: `account-management/`, `ai-and-search/`,
   `api-references/`, `collaboration/`, `creating-content/`, `docs-site/`,
@@ -64,16 +66,16 @@ from other GitBook spaces that currently live outside this repo.
 |---|---|---|
 | `documentation/` | ✅ `legacy-content/` (most folders) | Bulk of the migration work |
 | `ai/` | ⚠️ Partial — `legacy-content/getting-started/ai-documentation/` | Rest (Skills, MCP tools reference, CLI-for-agents, Extend) likely needs net-new content or content from elsewhere |
-| `api/` | ❌ Not in this repo | Need to locate source space/repo for GitBook's developer API docs |
-| `cli/` | ❌ Not in this repo | Need to locate source space/repo for GitBook CLI docs |
-| `custom-components/` | ⚠️ Partial — `legacy-content/integrations/` covers install/build basics | Full ContentKit/runtime reference likely lives elsewhere |
+| `api/` | ✅ `~/Desktop/Development/integrations/docs/gitbook-api/` (separate local checkout, not `legacy-content/`) | Migrated; expanded 5→9 pages |
+| `cli/` | ✅ `~/Desktop/Development/integrations/docs/integrations/reference/` (same local checkout) | Migrated |
+| `custom-components/` | ✅ `~/Desktop/Development/integrations/docs/integrations/` (same local checkout) | Migrated; expanded 9→14 pages |
 | `education/` | ❌ Not in this repo | Net new or sourced elsewhere |
-| `changelog/` | ❌ Not in this repo | Likely a separate existing GitBook space — probably a direct copy, not a rewrite |
-| `policies/` | ❌ Not in this repo | Likely a separate existing GitBook space |
+| `changelog/` | ✅ Pulled live via GitBook MCP | Direct copy from the live `Public Changelog` space |
+| `policies/` | ❌ Not in this repo | Candidate space found via MCP (`GitBook Site Policy`, `-LBUnokgAHp7SX9tJUrr`), not yet migrated |
 
-**Open question:** where do the `api`, `cli`, `education`, `changelog`, and
-`policies` sections currently live (which GitBook space/repo)? Need access
-to those before Phase 1 can cover them.
+**Open question:** where does `education/` currently live (which GitBook
+space/repo)? `policies/` has a known candidate space but hasn't been
+migrated yet — confirm with the user before starting either.
 
 ## Section-level mapping: old → new (provisional)
 
@@ -92,7 +94,7 @@ of truth for exactly what goes where.
 | `getting-started/` | `documentation/getting-started/`, `documentation/learn/git-sync/`; `ai-documentation/*` → `ai/` |
 | `gitbook-agent/` | `documentation/learn/gitbook-ai/agent/` |
 | `help/` | `documentation/resources/get-support.md` |
-| `integrations/` | `documentation/learn/custom-components/` (install/manage) + `custom-components/` (build/publish, developer-facing) |
+| `integrations/` | `documentation/learn/custom-components/` (install/manage, done in Phase 1a). The developer-facing `custom-components/` section was migrated separately in Phase 1d, from a different local checkout (`~/Desktop/Development/integrations/docs`), not from this `legacy-content/integrations/` folder. |
 | `publishing-documentation/` | `documentation/learn/publishing/`, `documentation/learn/access/authenticated-access/custom-backend.md`, `documentation/learn/gitbook-ai/readers-ai/mcp-server-for-published-docs.md` |
 | `resources/` | `documentation/resources/` |
 | `site-access/` | `documentation/learn/access/` |
@@ -127,13 +129,42 @@ of truth for exactly what goes where.
       3 hidden/internal pages (`changelog-automation-spec`,
       `changelog-checklist`, `examples`) — internal process docs, not
       migrated since they aren't part of the public changelog.
-- [ ] **Phase 1d — Remaining sections.** `api/`, `cli/`,
-      `custom-components/` (developer-facing remainder), `education/`,
-      `policies/` — no source in `legacy-content/`, but see "Live source
-      access" below: the GitBook MCP found real candidate spaces for `api/`,
-      the CLI/developers docs, and `policies/` in the live `GitBook` org,
-      unverified in detail yet. `education/` has no obvious candidate space
-      yet — still need to locate it.
+- [x] **Phase 1d — `api/`, `cli/`, `custom-components/` content migration.**
+      Migrated from a separate local checkout at
+      `~/Desktop/Development/integrations/docs` (the source for GitBook's
+      own developer docs site), not from `legacy-content/` and not by
+      reading the live site — per the user's steer to use the local copy
+      they already had.
+      - `api/`: grew from 5 → 9 pages. Added `reference/rate-limiting.md`,
+        `reference/pagination.md`, `reference/errors.md`,
+        `reference/client-libraries.md` — real source content with no home
+        in the original thin stub set (same pattern as the earlier
+        `documentation/learn/api-documentation/` expansion).
+      - `cli/`: all 5 pages migrated as originally stubbed. The CLI
+        reference is the single canonical source for both content commands
+        and integration commands — `custom-components/cli-reference.md` is
+        now just a one-line pointer to it, to avoid duplicating the same
+        reference in two spaces.
+      - `custom-components/`: grew from 9 → 14 pages. Source had
+        significant duplication — some files (`blocks/*`,
+        `contentkit/interactivity.md`, `runtime/receiving-requests.md`,
+        top-level `reference/action.md` etc.) were superseded copies not
+        listed in the source repo's own `SUMMARY.md`; skipped those in
+        favor of the versions actually in the source's nav
+        (`guides/*`, `development/*`). Added `manifest-reference.md` (the
+        full `gitbook-manifest.yaml` reference, previously going to be
+        folded into `integration-concepts.md` but too large) and split
+        `development-guides.md` into a `guides/` section with 4 real pages
+        (interactivity, link unfurling, HTTP requests, webhook
+        integration) instead of one stub. `getting-started/
+        build-your-first-integration.md` looked pre-drafted from an
+        earlier pass but turned out to be a header-only skeleton — filled
+        in with the real quickstart steps.
+      - Recurring risk handled throughout: relative markdown links cannot
+        cross space boundaries (`api/`, `cli/`, `custom-components/` are
+        three separate GitBook spaces) — replaced with descriptive text
+        ("Developers → CLI → CLI reference") wherever the source linked
+        across what are now space boundaries.
 
 ## Live source access (GitBook MCP)
 

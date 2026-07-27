@@ -9,15 +9,20 @@
 ## Concepts
 
 * [Integration concepts](integration-concepts.md)
+* [Manifest reference](manifest-reference.md)
 
 ## ContentKit
 
 * [ContentKit overview](contentkit/contentkit-overview.md)
 * [ContentKit Component Reference](contentkit/contentkit-component-reference.md)
 
-## Development
+## Guides
 
-* [Development guides](development-guides.md)
+* [Guides](guides/README.md)
+  * [Create interactive blocks](guides/interactivity.md)
+  * [Create a custom unfurl action](guides/link-unfurling.md)
+  * [Work with HTTP requests](guides/receiving-requests.md)
+  * [Receive webhook notifications](guides/webhook-integration.md)
 
 ## Reference
 
