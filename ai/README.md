@@ -4,13 +4,13 @@ description: Manage and write GitBook content from Claude, Cursor, or any MCP cl
 
 # Drive GitBook from your agent
 
-> **Stub for tree test.**
-> **Purpose:**
->
-> ℹ️ **This section is about authoring with agents** — managing and writing GitBook content from Claude, Cursor, or any MCP client. Looking to connect your *readers'* AI tools to your published docs? See **Documentation → GitBook AI → MCP server for published docs**.
->
-> **Canonical home of:** agent-driven authoring workflows — do not duplicate elsewhere.
-> **Cross-links:** → Documentation → GitBook AI → Your docs, readers' AI (reader-side AI for published docs); → Reference → Which MCP server do I need? (full authoring-vs-published-docs comparison)
+{% hint style="info" %}
+This section is about authoring with agents — managing and writing GitBook content from Claude, Cursor, or any MCP client. Looking to connect your *readers'* AI tools to your published docs instead? See Documentation → GitBook AI → "Your docs, readers' AI".
+{% endhint %}
+
+Building GitBook docs with AI works in different environments — locally in your repo, inside CI workflows, or directly through an AI agent talking to GitBook itself. Every published site also includes AI-friendly outputs by default, and interactive AI features depending on your plan.
+
+The path through this section follows four steps:
 
 <table data-view="cards">
   <thead>
