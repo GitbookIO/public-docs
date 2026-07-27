@@ -197,15 +197,15 @@
     * [Sponsored site plan](account-management/plans/community/sponsored-site-plan.md)
   * [Billing policy](account-management/plans/billing-policy.md)
   * [Legacy pricing](account-management/plans/legacy-plans.md)
-* [Billing FAQ](account-management/billing-faq/README.md)
-  * [Free trial](account-management/billing-faq/free-trial.md)
-  * [Payments and invoices](account-management/billing-faq/payments-and-invoices.md)
-  * [Site and member costs](account-management/billing-faq/plan-and-member-costs.md)
 * [Subscription cancellations](account-management/cancelling-a-plan.md)
 * [Personal settings](account-management/account-settings.md)
 * [Organization settings](account-management/organization-settings.md)
 * [SSO & SAML](account-management/sso-and-saml/README.md)
   * [SSO Members vs non-SSO](account-management/sso-and-saml/sso-members-vs-non-sso.md)
+* [Billing FAQ](account-management/billing-faq/README.md)
+  * [Free trial](account-management/billing-faq/free-trial.md)
+  * [Payments and invoices](account-management/billing-faq/payments-and-invoices.md)
+  * [Site and member costs](account-management/billing-faq/plan-and-member-costs.md)
 
 ## Resources
 
