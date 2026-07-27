@@ -63,6 +63,8 @@ GitBook currently has the following limits for imported content:
 * The maximum number of pages that can be uploaded in a single import is **20**.
 * The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
 
+GitBook can't increase these import limits. To import more content at once, use [Git Sync](git-sync/), which supports up to 5,000 Markdown pages.
+
 ***
 
 ## Import from a GitHub or GitLab repo using Git Sync <a href="#import-using-git-sync" id="import-using-git-sync"></a>
@@ -100,3 +102,10 @@ To organize your content, create one or more sections in GitBook as needed. Inst
 When following the configuration process, make sure you select the direction of GitHub → GitBook. This will result in the contents of your folder or repository being pulled from GitHub or GitLab into GitBook.
 {% endstep %}
 {% endstepper %}
+
+## Export your content
+
+You can export your GitBook content in two ways:
+
+* **As Markdown**, by syncing with a Git repository. There's no direct Markdown export in the app — sync the section you want to export with an empty GitHub or GitLab repository using [Git Sync](git-sync/), and the repository becomes your Markdown export. Some blocks don't have a Markdown representation and appear as HTML in the export.
+* **As a PDF**, from the page or section's Actions menu. See [PDF export](../docs-site/pdf-export.md). You may hit limits when exporting very large sections.

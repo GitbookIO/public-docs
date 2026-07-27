@@ -37,3 +37,11 @@ flowchart TD
 ````
 
 GitBook renders code blocks with the `mermaid` language identifier as native Mermaid blocks.<br>
+
+### Troubleshooting
+
+If your Mermaid diagram isn't rendering, check these common causes:
+
+* **Syntax errors** — review your Mermaid code for typos, compare it with examples in the Mermaid documentation, or test it in the [Mermaid Live Editor](https://mermaid.live/) to isolate the issue.
+* **Code block instead of Mermaid block** — Mermaid code won't render inside a standard code block. Press `/` and select **Mermaid diagram** to insert the right block type.
+* **Older Mermaid content** — Mermaid is a native block, so no integration is needed. If you created Mermaid content before native block support, GitBook converts it automatically the next time you edit the page.

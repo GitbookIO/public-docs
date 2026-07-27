@@ -169,9 +169,16 @@ Both fields support selecting another GitBook page (recommended) or entering an 
 A common pattern for versioned docs is to set older pages to be canonical to the latest equivalent page (for example, `1.0` → `2.0`), and then list older versions as alternates on the latest page.
 {% endhint %}
 
+#### Moving pages between sections
+
+GitBook doesn't currently support moving individual pages between sections in the app. To move a page's content to another section:
+
+* **Copy and paste** — select the page's content with the `Esc` key, then copy and paste it into the destination. Some blocks may need reconfiguring; comments and page history aren't copied, and images need re-uploading in the new section.
+* **Use Git Sync** — if both sections sync with repositories, copy the files between repositories and add the page titles to the destination's `SUMMARY.md`. See [Git Sync](../../../getting-started/git-sync/).
+
 ### Page covers
 
-Set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../../.gitbook/assets/25_01_10_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_image_icon_light.svg" alt="The Page cover icon in GitBook"></picture> option, GitBook adds a default cover immediately. From here, you can:
+Set a page cover for each page of your documentation. When you click the **Page cover** <picture><source srcset="../../../.gitbook/assets/25_01_10_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_image_icon_light.svg" alt="The Page cover icon in GitBook"></picture> option, GitBook adds a default cover immediately. The ideal cover image size is 1990 × 480 pixels — covers are locked to this aspect ratio, so the proportions are maintained across screen sizes. From here, you can:
 
 * **Change the cover image**
   1. Hover over the page cover and click **Change cover**.

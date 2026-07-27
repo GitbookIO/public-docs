@@ -132,3 +132,18 @@ See our [billing policy](plans/billing-policy.md) to learn how we calculate char
 Click **Manage Billing** to open Stripe. There, you can manage your payment method and billing information. You can also [cancel your plan](cancelling-a-plan.md). If you renew before the billing period ends, your plan continues without interruption.
 
 </details>
+
+### Transfer ownership of an organization
+
+Admins share the same rights in GitBook — they can manage billing, members, and publishing — so transferring ownership means making the new owner an admin:
+
+1. Make sure the new owner is an [admin](../collaboration/member-management/roles.md) in the organization.
+2. To fully hand over, ask the other admin to remove you from the organization. You'll lose access to the organization's content.
+
+To keep the organization but sign in with a different email address, update your email under **Account → General** in the settings screen instead.
+
+### What happens to deleted content
+
+Deleting an organization permanently removes all content associated with it — the same applies to deleting an account that is the sole member of an organization. If a deleted account belonged to an organization with multiple members, the organization's content — including that member's contributions — remains intact.
+
+If content was deleted less than seven days ago, you can restore it from the **Trash**. GitBook doesn't store backups beyond this seven-day window, so content deleted more than seven days ago can't be recovered.

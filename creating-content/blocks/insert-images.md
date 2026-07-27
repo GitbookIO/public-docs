@@ -29,6 +29,10 @@ If you follow the second process, you can choose to upload a file, select a prev
 GitBook allows you to upload images up to 100MB per file.
 {% endhint %}
 
+There's no set limit on the total number of assets in a section, though GitBook reserves the right to block accounts for abuse. For files larger than the upload limit, store them in a service like Google Drive or Dropbox and link to them from your page.
+
+Animated gifs have a limit of 200 frames per file. Large files — gifs included — slow your page's loading time, so avoid uploading large files directly where you can.
+
 #### Create an image gallery
 
 Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and choose **Add images…** to open the **Select images** side panel again.
@@ -173,3 +177,11 @@ To add a frame to an image, hover over it, open the block’s **Options menu** <
   <figcaption>Caption text</figcaption>
 </figure>
 ```
+
+### Why is my image not loading?
+
+A "could not load image" error means the image was changed or deleted at its source. If you embedded an image by URL rather than uploading it, GitBook relies on that URL — if the image moves or disappears from the source, it stops displaying on your page.
+
+To resolve it, upload the image directly to GitBook, or update the URL if the image's location changed. The error can also appear when you copy an image from one section to another, because each section has its own file directory — re-upload the image in the new section.
+
+You can review all files uploaded to a section in the **Library** tab, beside **Pages** at the top of the table of contents.
