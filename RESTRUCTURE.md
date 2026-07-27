@@ -1,8 +1,8 @@
 # Docs Restructure — Working Document
 
 Branch: `docs-restructure`
-Status: **Phase 0 — structure scaffolded, no content migrated yet**
-Last updated: 2026-07-24
+Status: **Phase 1a complete — all of `documentation/` migrated from legacy-content/. `ai/` and the source-less sections (`api/`, `cli/`, `education/`, `changelog/`, `policies/`, custom-components remainder) still to go.**
+Last updated: 2026-07-27
 
 ## Goal
 
@@ -102,15 +102,20 @@ of truth for exactly what goes where.
 - [x] **Phase 0 — Scaffold structure.** Copy new folder/`docs.yaml` structure
       in, archive old content to `legacy-content/`, snapshot live URLs, write
       this doc.
-- [ ] **Phase 1 — Content migration**, section by section. Suggested order:
-      1. `documentation/` (biggest, most source material available)
-      2. `ai/`
-      3. Locate + pull in source content for `api/`, `cli/`,
-         `custom-components/` (remainder), `education/`, `changelog/`,
-         `policies/`
-      For each stub page: read its `Purpose`/`Canonical home of` note, find
-      the matching legacy content (or new source), rewrite/merge into the
-      stub, then strip the "Stub for tree test" block.
+- [x] **Phase 1a — `documentation/` content migration.** All 14 subsections
+      migrated from `legacy-content/` and committed: account-and-billing,
+      getting-started, custom-components, git-sync, collaboration,
+      customization, api-documentation, resources, embed, access,
+      publishing, analytics, gitbook-ai, creating-content. See
+      `CONTENT-MAP.md` for the full page-level mapping and the decisions
+      made along the way (splits, merges, cut content, new pages added for
+      gaps found during mapping).
+- [ ] **Phase 1b — Remaining sections.**
+      1. `ai/` — partial local source (`legacy-content/getting-started/ai-documentation/`), rest is net-new.
+      2. Locate + pull in source content for `api/`, `cli/`,
+         `custom-components/` (developer-facing remainder), `education/`,
+         `changelog/`, `policies/` — no local source found in this repo;
+         still blocked on locating the owning space/repo for each.
 - [ ] **Phase 2 — Redirects.** Diff the live URL snapshot against the final
       new structure; build old→new redirect map. Figure out where redirects
       live under the new multi-space `docs.yaml` setup (old setup used a
