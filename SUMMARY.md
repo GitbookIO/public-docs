@@ -188,6 +188,7 @@
 * [Install and manage integrations](integrations/install-an-integration.md)
 * [Slack (beta)](integrations/slack.md)
 * [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
+* [Google Analytics](integrations/google-analytics.md)
 
 ## Account management
 
