@@ -10,7 +10,7 @@ icon: aws
 {% include "../../../.gitbook/includes/ultimate-hint.md" %}
 
 {% hint style="info" %}
-This guide covers setting up a subdirectory using AWS CloudFront and Lambda@Edge. This is one approach for AWS users. If you have a different AWS setup (such as a load balancer with EC2 instances running NGINX), you may need to configure your reverse proxy differently. Contact [support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) if you need guidance for alternative configurations.
+This guide covers setting up a subdirectory using AWS CloudFront and Lambda@Edge. This is one approach for AWS users. If you have a different AWS setup (such as a load balancer with EC2 instances running NGINX), you may need to configure your reverse proxy differently. Contact [support](../../../resources/support/README.md) if you need guidance for alternative configurations.
 {% endhint %}
 
 {% stepper %}

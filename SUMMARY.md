@@ -211,3 +211,7 @@
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
 * [Concepts](resources/concepts.md)
+* [Support](resources/support/README.md)
+  * [Troubleshooting basics](resources/support/troubleshooting.md)
+  * [Report a bug](resources/support/report-a-bug.md)
+  * [Contribute to the docs](resources/support/contribute.md)
