@@ -10,3 +10,7 @@
 ## Reference
 
 * [API Reference](reference/api-reference.md)
+* [Rate limiting](reference/rate-limiting.md)
+* [Pagination](reference/pagination.md)
+* [Errors](reference/errors.md)
+* [Client libraries](reference/client-libraries.md)
