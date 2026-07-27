@@ -1,7 +1,7 @@
 # Docs Restructure — Working Document
 
 Branch: `docs-restructure`
-Status: **Phase 1a + 1b(ai) complete — all of `documentation/` and `ai/` migrated from legacy-content/. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. Remaining: the source-less sections (`api/`, `cli/`, `education/`, `changelog/`, `policies/`, custom-components remainder).**
+Status: **Phase 1a + 1b(ai) + 1c(changelog) complete — `documentation/`, `ai/`, and `changelog/` migrated. One page (`ai/gitbook-mcp/mcp-tools-reference.md`) intentionally left open pending a real MCP tool list. GitBook MCP is now connected (see "Live source access" below) — used it to pull `changelog/` directly from the live `GitBook` org, and it also surfaced space IDs for `api/`, the CLI/developers docs, and `policies/`. Remaining: `api/`, `cli/`, `education/`, `policies/`, custom-components remainder.**
 Last updated: 2026-07-27
 
 ## Goal
@@ -119,16 +119,53 @@ of truth for exactly what goes where.
       open stub — no source anywhere documents the actual MCP tool
       list/parameters, and the user chose not to have it guessed at. Needs
       real input from whoever owns the MCP server implementation.
-- [ ] **Phase 1c — Remaining sections.** Locate + pull in source content
-      for `api/`, `cli/`, `custom-components/` (developer-facing
-      remainder), `education/`, `changelog/`, `policies/` — no local
-      source found in this repo; still blocked on locating the owning
-      space/repo for each. Note: while migrating `ai/`, found that
-      `legacy-content/getting-started/ai-documentation/gitbook-cli.md` has
-      substantial real content about the GitBook CLI (install, auth,
-      commands, output formats) that may also be a source for
-      `cli/reference/cli-reference.md` once that section starts — worth
-      checking before assuming zero local source there.
+- [x] **Phase 1c(changelog) — `changelog/` content migration.** Pulled
+      directly from the live `GitBook` org via the GitBook MCP (see "Live
+      source access" below), not from `legacy-content/`. Structure mirrors
+      the live space: `README.md` (current year, 2026), `2025.md`,
+      `2024.md`, `2023.md`, `2022-and-earlier.md`. The live space also has
+      3 hidden/internal pages (`changelog-automation-spec`,
+      `changelog-checklist`, `examples`) — internal process docs, not
+      migrated since they aren't part of the public changelog.
+- [ ] **Phase 1d — Remaining sections.** `api/`, `cli/`,
+      `custom-components/` (developer-facing remainder), `education/`,
+      `policies/` — no source in `legacy-content/`, but see "Live source
+      access" below: the GitBook MCP found real candidate spaces for `api/`,
+      the CLI/developers docs, and `policies/` in the live `GitBook` org,
+      unverified in detail yet. `education/` has no obvious candidate space
+      yet — still need to locate it.
+
+## Live source access (GitBook MCP)
+
+As of 2026-07-27, this session has a working GitBook MCP connection
+(`claude mcp add --transport http gitbook https://mcp.gitbook.com/mcp`,
+then browser sign-in) authenticated as Addison, with access to the live
+`GitBook` organization (id `d8f63b60-89ae-11e7-8574-5927d48c4877`) among
+many others. This is a live, real GitBook account — treat it as read access
+for pulling source content only. **Never write to the live org** —
+everything in this repo only gets published to the real docs site once
+Git Sync is wired up per the plan in this doc; nothing should go through
+`create_change_request` / `submit_or_merge_change_request` against the
+live spaces below as part of this migration.
+
+`list_sites` on that org (`site_p4Xo4`, "GitBook Documentation") returned
+this structure — space IDs worth reusing for later phases:
+
+| Section | Space | Space ID | Notes |
+|---|---|---|---|
+| Changelog | Public Changelog | `PGZZo1PCN4rYgFLPD8Cl` | ✅ migrated into `changelog/` above. Git-synced to the private `GitbookIO/changelog` GitHub repo (confirmed private — `git clone`/API both 404 unauthenticated), so MCP was the only way in. |
+| Developers → Developers documentation | Developer documentation | `mWAQqV10C1JYYSHIhazJ` | Unverified candidate for `cli/` and/or the developer-facing half of `custom-components/` — content not yet inspected. |
+| Developers → API Reference | API Reference | `sl6xsVSSdwhn9wsovTPU` | Unverified candidate for `api/` — content not yet inspected. |
+| Resources → Policies | GitBook Site Policy | `-LBUnokgAHp7SX9tJUrr` | Unverified candidate for `policies/` — content not yet inspected. |
+| Resources → Help Center | Help Center | `Ua3kTfM3iWAoECzM0u90` | Not currently mapped to any new section — may be worth a look, could overlap with `documentation/resources/get-support.md`. |
+| Developers (top-level section) | Developer Documentation | `2SyQSbIa1iYS7z6Dx5di` | A *second*, differently-named "Developers" entry alongside the "Developers" section group above — likely one is stale. Needs a look before trusting either as the `api/`/`cli/` source. |
+
+No candidate space spotted yet for `education/`.
+
+To pull a page: `get_page(spaceId, path)`. Large pages exceed the tool's
+inline token limit and get saved to a `tool-results/*.txt` file instead —
+strip the first two lines (an MCP-added `Page "..." — id: ..., path: ...`
+header + blank line) before using the rest as the real page content.
 - [ ] **Phase 2 — Redirects.** Diff the live URL snapshot against the final
       new structure; build old→new redirect map. Figure out where redirects
       live under the new multi-space `docs.yaml` setup (old setup used a
