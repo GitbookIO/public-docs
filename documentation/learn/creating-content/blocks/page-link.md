@@ -4,6 +4,18 @@ description: "The Page link block: what it does and how to use it."
 
 # Page link
 
-> **Stub for tree test.**
-> **Purpose:** Answers: how do I use the Page link block? Lookup reference for authors.
-> **Canonical home of:** the Page link block — do not duplicate elsewhere.
+Page link blocks create relations between pages within your content. Unlike a hyperlink in text, a page link fills its own block, so it stands out on the page.
+
+### Example
+
+```markdown
+{% content-ref url="./" %}
+[.](./)
+{% endcontent-ref %}
+```
+
+### Representation in Markdown
+
+```markdown
+{% content-ref url="./" %} . {% endcontent-ref %}
+```
