@@ -65,7 +65,7 @@ For detailed steps, see [Version control](../../creating-content/version-control
 
 Disconnecting Git Sync stops future synchronization. It does not restore content automatically.
 
-If the pre-sync revision is unavailable or you can’t complete the rollback, [contact GitBook Support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support).
+If the pre-sync revision is unavailable or you can’t complete the rollback, [contact GitBook Support](../../resources/support/README.md).
 
 ### Write and commit
 

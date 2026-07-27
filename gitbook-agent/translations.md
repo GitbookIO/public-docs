@@ -133,4 +133,4 @@ You should only create **one translation workflow per language** of any given so
 
 </details>
 
-If you need help getting started or want to learn more about configuring auto-translations, [contact our support team](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support).
+If you need help getting started or want to learn more about configuring auto-translations, [contact our support team](../resources/support/README.md).
