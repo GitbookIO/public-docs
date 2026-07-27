@@ -74,3 +74,5 @@ Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_1
 {% hint style="success" %}
 Removing content from your site will remove it from the published site, but **will not delete the content itself** — you can still find it in [All content](../../creating-content/all-content.md).
 {% endhint %}
+
+If you delete a section's content entirely, the site — along with its settings and customizations — remains available. Deleted content stays in the **Trash** for seven days before it's permanently removed. If the deleted section was your site's default, check that the default is still set correctly.
