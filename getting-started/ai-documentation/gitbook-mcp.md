@@ -34,7 +34,11 @@ Add GitBook MCP in your client of choice:
 
 {% tabs %}
 {% tab title="Claude Code" icon="claude" %}
-Register the server in your terminal:
+Install the official GitBook plugin for Claude:
+
+<a href="https://claude.ai/directory/connectors/gitbook-mcp" class="button primary">Install Claude plugin</a>
+
+Or add the server from your terminal:
 
 ```bash
 claude mcp add --transport http gitbook https://mcp.gitbook.com/mcp
@@ -50,8 +54,12 @@ claude mcp add --transport http gitbook https://mcp.gitbook.com/mcp \
 ```
 {% endtab %}
 
-{% tab title="Codex" icon="openai" %}
-Add the server from your terminal:
+{% tab title="ChatGPT" icon="openai" %}
+Install the official GitBook plugin for ChatGPT:
+
+<a href="https://chatgpt.com/apps/gitbook/asdk_app_6a576f075ec4819196c203b7049542be" class="button primary">Install ChatGPT plugin</a>
+
+Or add the server from your terminal:
 
 ```bash
 codex mcp add gitbook --url https://mcp.gitbook.com/mcp
@@ -70,7 +78,11 @@ enabled = true
 {% endtab %}
 
 {% tab title="Cursor" icon="cursor" %}
-Add the server to `~/.cursor/mcp.json`, or to your project at `.cursor/mcp.json`:
+Install the official GitBook plugin for Cursor:
+
+<a href="https://cursor.com/marketplace/gitbook" class="button primary">Install Cursor plugin</a>
+
+Or add the server to `~/.cursor/mcp.json`, or to your project at `.cursor/mcp.json`:
 
 ```json
 {
@@ -189,7 +201,7 @@ GitBook has two MCP patterns:
 * [**MCP servers for published docs**](../../publishing-documentation/mcp-servers-for-published-docs.md) give AI tools read-only access to published content.
 * **GitBook MCP** gives AI tools access to your content and workflows through the GitBook API.
 
-Use published docs MCP when you want documentation readers and end-users to find information from your published docs.&#x20;
+Use published docs MCP when you want documentation readers and end-users to find information from your published docs.
 
 Use GitBook MCP when you want your team’s agents to edit and manage your documentation through automated workflows.
 
