@@ -33,10 +33,10 @@ Opening this URL in a browser returns an error. Use it in an MCP client that can
 Add GitBook MCP in your client of choice:
 
 {% tabs %}
-{% tab title="Claude Code" icon="claude" %}
+{% tab title="Claude" icon="claude" %}
 Install the official GitBook plugin for Claude:
 
-<a href="https://claude.ai/directory/connectors/gitbook-mcp" class="button primary">Install Claude plugin</a>
+<a href="https://claude.ai/directory/connectors/gitbook-mcp" class="button secondary" data-icon="claude">Install Claude plugin</a>
 
 Or add the server from your terminal:
 
@@ -57,7 +57,7 @@ claude mcp add --transport http gitbook https://mcp.gitbook.com/mcp \
 {% tab title="ChatGPT" icon="openai" %}
 Install the official GitBook plugin for ChatGPT:
 
-<a href="https://chatgpt.com/apps/gitbook/asdk_app_6a576f075ec4819196c203b7049542be" class="button primary">Install ChatGPT plugin</a>
+<a href="https://chatgpt.com/apps/gitbook/asdk_app_6a576f075ec4819196c203b7049542be" class="button secondary" data-icon="openai">Install ChatGPT plugin</a>
 
 Or add the server from your terminal:
 
@@ -80,7 +80,7 @@ enabled = true
 {% tab title="Cursor" icon="cursor" %}
 Install the official GitBook plugin for Cursor:
 
-<a href="https://cursor.com/marketplace/gitbook" class="button primary">Install Cursor plugin</a>
+<a href="https://cursor.com/marketplace/gitbook" class="button secondary" data-icon="cursor">Install Cursor plugin</a>
 
 Or add the server to `~/.cursor/mcp.json`, or to your project at `.cursor/mcp.json`:
 
