@@ -6,6 +6,8 @@ description: Apply for our Open Source plan in GitBook
 
 We welcome applications for our community plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
 
+The Community plan includes all Ultimate plan features except SAML SSO.
+
 1. Non-profit organizations
 2. Open source organizations
 3. Education-related groups

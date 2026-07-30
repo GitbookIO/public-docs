@@ -41,6 +41,10 @@ You can change the name and slug of each of your sections and variants by clicki
 Changing a section's slug will change its canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../../publishing-documentation/site-redirects.md).
 {% endhint %}
 
+{% hint style="info" %}
+Slugs are unique across your entire organization — each path can only be used on one site, even across different sites. If you see a "path is already taken" error, another site is already using that slug. Choose a slightly varied slug that's still meaningful for your content.
+{% endhint %}
+
 To replace a section or variant, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> button, then click the **Delete** button in the lower left of the modal. Once the item is deleted, click the **Add section** or **Add variant** button to add it again.
 
 ### Reordering sections or variants
@@ -70,3 +74,5 @@ Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_1
 {% hint style="success" %}
 Removing content from your site will remove it from the published site, but **will not delete the content itself** — you can still find it in [All content](../../creating-content/all-content.md).
 {% endhint %}
+
+If you delete a section's content entirely, the site — along with its settings and customizations — remains available. Deleted content stays in the **Trash** for seven days before it's permanently removed. If the deleted section was your site's default, check that the default is still set correctly.

@@ -33,6 +33,24 @@ On this screen you can select the areas you would like to install your integrati
 
 #### 3. Configure your integration
 
+{% hint style="info" %}
+Analytics integrations — such as Google Analytics, Segment, or Fathom — are configured for the whole site. If your site contains multiple sections, you can't collect separate analytics per section; one configuration applies to the entire site.
+{% endhint %}
+
 You can now use your integration. Certain integrations may require extra configuration. If so, you’ll see a message asking you to configure your integration in your section or site.
 
 View the integration’s instructions to learn more about configuring it for your team.
+
+### Integrations FAQ
+
+#### Can I request an integration?
+
+Yes — [submit an integration request](https://survey.refiner.io/e61q1m-dp057m), or head to the [GitBook community](https://github.com/GitbookIO/community) to discuss what you'd like to see in GitBook.
+
+#### Can I build my own integration?
+
+The integration platform is available to anyone with a GitBook account. See [our integrations page](https://www.gitbook.com/integrations) or the [developer documentation](https://developer.gitbook.com/) to get started.
+
+#### Does GitBook support Google Tag Manager?
+
+No. Google Tag Manager allows the injection of CSS and JavaScript, which can break sites and carries security concerns, so GitBook doesn't integrate with it.

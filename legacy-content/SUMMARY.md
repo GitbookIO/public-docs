@@ -29,9 +29,10 @@
   * [Icons, colors, and themes](docs-site/customization/icons-colors-and-themes.md)
   * [Layout and structure](docs-site/customization/layout-and-structure.md)
   * [Sharing and social](docs-site/customization/sharing-and-social.md)
+  * [SEO](docs-site/customization/seo.md)
   * [Extra configuration](docs-site/customization/extra-configuration.md)
 * [Site structure](docs-site/site-structure/README.md)
-  * [Site sections](docs-site/site-structure/site-sections.md)
+  * [Sections](docs-site/site-structure/site-sections.md)
   * [Content variants](docs-site/site-structure/variants.md)
   * [Multilingual sections](docs-site/site-structure/multilingual-sections.md)
 * [AI Search](docs-site/ai-search.md)
@@ -143,6 +144,7 @@
     * [Authenticated access](site-access/adaptive-content/enabling-adaptive-content/authenticated-access.md)
   * [Adapting your content](site-access/adaptive-content/adapting-your-content.md)
   * [Testing with segments](site-access/adaptive-content/testing-with-segments.md)
+  * [FAQ and troubleshooting](site-access/adaptive-content/faq-and-troubleshooting.md)
 
 ## AI & search
 
@@ -186,6 +188,7 @@
 * [Install and manage integrations](integrations/install-an-integration.md)
 * [Slack (beta)](integrations/slack.md)
 * [Visual Studio Code (alpha)](integrations/visual-studio-code.md)
+* [Google Analytics](integrations/google-analytics.md)
 
 ## Account management
 
@@ -199,6 +202,10 @@
 * [Organization settings](account-management/organization-settings.md)
 * [SSO & SAML](account-management/sso-and-saml/README.md)
   * [SSO Members vs non-SSO](account-management/sso-and-saml/sso-members-vs-non-sso.md)
+* [Billing FAQ](account-management/billing-faq/README.md)
+  * [Free trial](account-management/billing-faq/free-trial.md)
+  * [Payments and invoices](account-management/billing-faq/payments-and-invoices.md)
+  * [Site and member costs](account-management/billing-faq/plan-and-member-costs.md)
 
 ## Resources
 
@@ -206,3 +213,7 @@
 * [Keyboard shortcuts](resources/keyboard-shortcuts.md)
 * [Glossary](resources/glossary.md)
 * [Concepts](resources/concepts.md)
+* [Support](resources/support/README.md)
+  * [Troubleshooting basics](resources/support/troubleshooting.md)
+  * [Report a bug](resources/support/report-a-bug.md)
+  * [Contribute to the docs](resources/support/contribute.md)

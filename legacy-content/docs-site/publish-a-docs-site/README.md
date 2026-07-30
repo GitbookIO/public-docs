@@ -39,9 +39,27 @@ Choose one of these audience options:
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td><strong>Public</strong></td><td>Publish your docs publicly to the web.</td><td></td><td><a href="../../.gitbook/assets/25_12_12_public.png">25_12_12_public.png</a></td><td><a href="public-publishing.md">public-publishing.md</a></td><td><a href="../../.gitbook/assets/25_12_12_public_1.png">25_12_12_public_1.png</a></td><td></td><td><a href="../../.gitbook/assets/25_12_12_public_1.png">25_12_12_public_1.png</a></td></tr><tr><td><strong>Privately with share links</strong></td><td>Publish your docs with private share links.</td><td></td><td><a href="../../.gitbook/assets/25_12_12_share_links_1.png">25_12_12_share_links_1.png</a></td><td><a href="share-links.md">share-links.md</a></td><td></td><td><a href="../../.gitbook/assets/25_12_12_share_links.png">25_12_12_share_links.png</a></td><td><a href="../../.gitbook/assets/25_01_06_share_links@2x.png">25_01_06_share_links@2x.png</a></td></tr><tr><td><strong>Authenticated Access</strong></td><td>Protect your published docs behind an OAuth sign in.</td><td></td><td><a href="../../.gitbook/assets/25_12_10_auth_access_1.png">25_12_10_auth_access_1.png</a></td><td><a href="../../site-access/authenticated-access/">authenticated-access</a></td><td></td><td></td><td><a href="../../.gitbook/assets/25_12_10_auth_access.png">25_12_10_auth_access.png</a></td></tr></tbody></table>
 
+### Preview your site
+
+Click **Preview** in the site header to see your content as visitors will — before you publish the site, or while you're working on changes. Review your content and customizations, then publish when everything looks right.
+
 ### Delete or unpublish a docs site
 
-To unpublish your site, open **Settings** → **General** and select **Unpublish site**.
+To unpublish your site, open **Settings** → **General** and select **Unpublish site**. Once confirmed, the site is no longer accessible to visitors.
+
+Unpublishing doesn't change your billing. To adjust the number of sites you pay for, update your plan in your organization's billing settings.
+
+#### My site is still accessible after unpublishing or deleting
+
+If you can still open the URL, the old version is usually cached — in your browser, a CDN, or a search engine result. To confirm the site is no longer live, open the URL in a private window, or clear your browser cache for that site and reload.
+
+#### My site still appears in search engines
+
+Search engines take time to update their indexes, so an unpublished site can appear in results for a while. How long depends on factors like crawl frequency and how many other sites link to the page.
+
+To speed it up, request a re-crawl from Google Search Console: open the **URL Inspection** tab, enter the URL, and click **Request indexing**. Google reviews the request and removes the page from its index if it's no longer published.
+
+You can check whether your site is still indexed by searching Google for `site:` followed by your site's URL.
 
 To delete a docs site:
 

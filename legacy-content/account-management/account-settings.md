@@ -91,3 +91,13 @@ If you _do_ want to reset your password:
 2. Follow the **forgot your password?** link at the bottom of the page
 3. Enter the email address associated with the personal account you signed up for
 4. Click **send a link** (make sure you check your spam folder)
+
+### Troubleshooting sign-in
+
+**Account disabled by administrator** — GitBook automatically blocks accounts exhibiting suspicious behavior to prevent spam and scam accounts. If you believe your account was blocked unfairly, contact support; unblocking requests are assessed case by case.
+
+**The link to join an organization isn't working** — an `auth/invalid-email` error means the email address invited to the organization doesn't match the email of the signed-in GitBook account. Ask the person who invited you which address they used, or ask them to invite a different one.
+
+**Error: auth/expired-action-code** — the sign-in or invitation link has passed its validity period. Generate a new link, or ask the sender for a fresh one.
+
+**Error: auth/email-already-in-use** — the GitHub account you're signing in with is already linked to a different GitBook account. See [Potential duplicated accounts](../getting-started/git-sync/troubleshooting.md#potential-duplicated-accounts-when-signing-in) for the steps to identify and unlink it.
