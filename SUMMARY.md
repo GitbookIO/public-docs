@@ -1,6 +1,13 @@
 # Table of contents
 
 * [GitBook documentation](README.md)
+* [Skill](skill.md)
+  * [Write & Edit Docs](skill/write-docs.md)
+  * [Configure a Site](skill/configure-site.md)
+  * [Write OpenAPI Reference Docs](skill/write-openapi.md)
+  * [Create & Manage Change Requests](skill/cr-create.md)
+  * [Review Change Requests](skill/cr-review.md)
+  * [Build an Integration](skill/build-integration.md)
 
 ## Get Started <a href="#getting-started" id="getting-started"></a>
 
