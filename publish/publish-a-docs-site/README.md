@@ -32,7 +32,7 @@ To publish your site:
 1. From your organization **Home**, open your site.
 2. Click **Publish** in the site header.
 
-Sites are public by default. Change your site's visibility in **Settings** → **Audience**. See [Site settings](../../manage-your-site/site-settings.md).
+Sites are public by default. Change your site's visibility in **Settings** → **Audience**. See [Site settings](../../docs-site/site-settings.md).
 
 Choose one of these audience options:
 
@@ -63,6 +63,6 @@ You can check whether your site is still indexed by searching Google for `site:`
 To delete a docs site:
 
 1. Open **Settings** → **General**.
-2. Select [**Delete site**](../../manage-your-site/site-settings.md#delete-site).
+2. Select [**Delete site**](../../docs-site/site-settings.md#delete-site).
 
 Deleting a site permanently removes its settings and customizations. Your content remains in your organization — find it in [All content](../../create-content/content-structure/all-content.md).

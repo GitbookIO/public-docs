@@ -114,7 +114,7 @@ Configure a custom domain to unify your site with your own branding. See [custom
 
 <summary>GitBook Subdirectory</summary>
 
-Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). See [#gitbook-subdirectory](site-settings.md#gitbook-subdirectory "mention") for more info
+Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). Learn more in [setting-a-custom-subdirectory](../publish/custom-domain/setting-a-custom-subdirectory/ "mention").
 
 </details>
 
@@ -172,8 +172,8 @@ Configure MCP servers that GitBook Assistant can use when answering questions in
 
 ### Structure
 
-{% content-ref url="site-structure/" %}
-[site-structure](site-structure/)
+{% content-ref url="../manage-your-site/site-structure/" %}
+[site-structure](../manage-your-site/site-structure/)
 {% endcontent-ref %}
 
 ### Plan

@@ -9,6 +9,8 @@
 * [Migrate to GitBook](getting-started/import.md)
 * [Site workspace](getting-started/sites-first.md)
 
+## Your docs site <a href="#docs-site" id="docs-site"></a>
+
 ## Create content
 
 * [Content structure](create-content/content-structure/README.md)
@@ -115,7 +117,7 @@
 
 ## Manage your site
 
-* [Site settings](manage-your-site/site-settings.md)
+* [Site settings](docs-site/site-settings.md)
 * [Site structure](manage-your-site/site-structure/README.md)
   * [Sections](manage-your-site/site-structure/site-sections.md)
   * [Content variants](manage-your-site/site-structure/variants.md)

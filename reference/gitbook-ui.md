@@ -144,7 +144,7 @@ Under **General**:
 * **Site structure**\
   Use the [structure editor](../manage-your-site/site-structure/) to add, reorder, publish, and remove sections and groups.
 * **Settings**\
-  [Site settings](../manage-your-site/site-settings.md) include **General**, **Members**, **Agents**, **Audience**, **Domain and URL**, **Redirects**, and **Plan**.
+  [Site settings](../docs-site/site-settings.md) include **General**, **Members**, **Agents**, **Audience**, **Domain and URL**, **Redirects**, and **Plan**.
 
 Under **Tools**:
 

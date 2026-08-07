@@ -13,7 +13,7 @@ You can see a top-level overview of your analytics on your site’s **Overview**
 Click **Analytics** in the site header to open site analytics for your site.
 
 {% hint style="info" %}
-If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../manage-your-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
+If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../docs-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
@@ -48,7 +48,7 @@ In the context of page views, Events would be total amount of page views, and Vi
 
 #### Pages & Feedback
 
-Pages & feedback allow you to see a high-level representation of how your users rate your content. You’ll see an overview of all of your site’s sections and variants, and after enabling [page rating](../manage-your-site/site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu for a site, you can see each page’s average feedback rating.
+Pages & feedback allow you to see a high-level representation of how your users rate your content. You’ll see an overview of all of your site’s sections and variants, and after enabling [page rating](../docs-site/site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu for a site, you can see each page’s average feedback rating.
 
 If you want to use or analyze this data further outside of GitBook, click **Download CSV** to download a `.csv` file to your device.
 

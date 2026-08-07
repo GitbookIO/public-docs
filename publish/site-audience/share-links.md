@@ -10,7 +10,7 @@ You can share you content privately with customers or partners without needing t
 
 ### Publish with share links
 
-To publish your docs privately, head to the [docs site’s ](../../manage-your-site/site-settings.md)settings, click **Audience settings** button, and choose the **Share links** option.
+To publish your docs privately, head to the [docs site’s ](../../docs-site/site-settings.md)settings, click **Audience settings** button, and choose the **Share links** option.
 
 Next, click on **Create link** to create a share link. You can review and name your share links, customize your domain and copy the link.
 
