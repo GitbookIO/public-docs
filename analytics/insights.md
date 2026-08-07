@@ -89,7 +89,7 @@ GitBook tracks links to help you understand how users interact with external res
 
 #### OpenAPI
 
-The [OpenAPI](../create-content/document-an-api/openapi/) analytics view in GitBook provides insights into how users engage with your API documentation.
+The [OpenAPI](../create-content/openapi/) analytics view in GitBook provides insights into how users engage with your API documentation.
 
 It tracks interactions such as endpoint views, parameter searches, and request explorations, helping you understand which parts of your API are most accessed and where users may need more clarity. These insights enable you to refine your documentation, improve developer experience, and ensure your API content is effectively meeting user needs.
 

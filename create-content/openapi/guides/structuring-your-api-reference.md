@@ -83,7 +83,7 @@ tags:
 
 ### Build rich descriptions with GitBook Blocks
 
-Tag description fields support GitBook markdown, including [advanced blocks](../../../blocks/) like tabs:
+Tag description fields support GitBook markdown, including [advanced blocks](../../blocks/) like tabs:
 
 {% code title="openapi.yaml" %}
 ```yaml

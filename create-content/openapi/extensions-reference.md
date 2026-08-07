@@ -8,7 +8,7 @@ You can enhance your OpenAPI specification using extensions—custom fields that
 
 GitBook allows you to adjust how your API looks and works on your published site through a range of different extensions you can add to your OpenAPI spec.
 
-Head to our [guides section](openapi/guides/) to learn more about using OpenAPI extensions to configure your documentation.
+Head to our [guides section](guides/) to learn more about using OpenAPI extensions to configure your documentation.
 
 <details>
 
@@ -196,7 +196,7 @@ paths:
 ```
 {% endcode %}
 
-Read more in [Using OpenAPI proxy](openapi/guides/using-openapi-proxy.md).
+Read more in [Using OpenAPI proxy](guides/using-openapi-proxy.md).
 
 </details>
 
