@@ -40,8 +40,6 @@ Write in the editor, drive it from your agent, or sync it from Git. Publish a do
 
 <a href="getting-started/quickstart.md" class="button primary">Quickstart</a><a href="docs-as-code/gitbook-mcp.md" class="button secondary" data-icon="sparkles">GitBook MCP</a>
 
-
-
 <h3 align="center">How do you want to work?</h3>
 
 <p align="center">The same docs, three ways in. Most teams use more than one.</p>
@@ -68,4 +66,4 @@ Write in the editor, drive it from your agent, or sync it from Git. Publish a do
 
 <h3 align="center">Keep going</h3>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Concepts</h4></td><td>Learn about GitBook concepts</td><td><a href="reference/concepts.md">concepts.md</a></td></tr><tr><td><h4>Changelog</h4></td><td>See our latest releases</td><td><a href="https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/PGZZo1PCN4rYgFLPD8Cl/">Public Changelog</a></td></tr><tr><td><h4>Support</h4></td><td>Contact us or report a bug</td><td><a href="help/report-a-bug.md">report-a-bug.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-book">:book:</i> Concepts</h4></td><td>Learn about GitBook concepts.</td><td><a href="reference/concepts.md">concepts.md</a></td></tr><tr><td><h4><i class="fa-clock-rotate-left">:clock-rotate-left:</i> Changelog</h4></td><td>See our latest releases.</td><td><a href="https://app.gitbook.com/o/d8f63b60-89ae-11e7-8574-5927d48c4877/s/PGZZo1PCN4rYgFLPD8Cl/">Public Changelog</a></td></tr><tr><td><h4><i class="fa-life-ring">:life-ring:</i> Support</h4></td><td>Contact us or report a bug.</td><td><a href="help/report-a-bug.md">report-a-bug.md</a></td></tr></tbody></table>
