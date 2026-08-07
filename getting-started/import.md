@@ -2,7 +2,6 @@
 description: >-
   How to import existing content into GitBook from Confluence, Notion, Git and
   more
-icon: swap
 ---
 
 # Migrate to GitBook
@@ -48,7 +47,7 @@ GitBook is Markdown-based, so importing content in Markdown format will yield th
 
 When you create a new section, you’ll have the option to import content in the modal that appears. If you create an empty section, you can also import using the **Quickstart** section at the bottom of the new empty page when you click **Edit**.
 
-Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../resources/gitbook-ui/#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
+Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../reference/gitbook-ui.md#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
 
 After choosing an input source, you can select the file you’d like to import.
 
@@ -63,13 +62,13 @@ GitBook currently has the following limits for imported content:
 * The maximum number of pages that can be uploaded in a single import is **20**.
 * The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
 
-GitBook can't increase these import limits. To import more content at once, use [Git Sync](git-sync/), which supports up to 5,000 Markdown pages.
+GitBook can't increase these import limits. To import more content at once, use [Git Sync](../docs-as-code/git-sync/), which supports up to 5,000 Markdown pages.
 
 ***
 
 ## Import from a GitHub or GitLab repo using Git Sync <a href="#import-using-git-sync" id="import-using-git-sync"></a>
 
-When importing large volumes of content into GitBook, we recommend using [Git Sync](git-sync/). While our built-in migration tool can handle most imports, Git Sync is better suited for handling larger migrations efficiently.
+When importing large volumes of content into GitBook, we recommend using [Git Sync](../docs-as-code/git-sync/). While our built-in migration tool can handle most imports, Git Sync is better suited for handling larger migrations efficiently.
 
 {% hint style="info" %}
 You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide for [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
@@ -107,5 +106,5 @@ When following the configuration process, make sure you select the direction of 
 
 You can export your GitBook content in two ways:
 
-* **As Markdown**, by syncing with a Git repository. There's no direct Markdown export in the app — sync the section you want to export with an empty GitHub or GitLab repository using [Git Sync](git-sync/), and the repository becomes your Markdown export. Some blocks don't have a Markdown representation and appear as HTML in the export.
-* **As a PDF**, from the page or section's Actions menu. See [PDF export](../docs-site/pdf-export.md). You may hit limits when exporting very large sections.
+* **As Markdown**, by syncing with a Git repository. There's no direct Markdown export in the app — sync the section you want to export with an empty GitHub or GitLab repository using [Git Sync](../docs-as-code/git-sync/), and the repository becomes your Markdown export. Some blocks don't have a Markdown representation and appear as HTML in the export.
+* **As a PDF**, from the page or section's Actions menu. See [PDF export](../publish/pdf-export.md). You may hit limits when exporting very large sections.

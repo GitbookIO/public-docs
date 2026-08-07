@@ -1,6 +1,5 @@
 ---
 description: Use GitBook Assistant and GitBook Agent in Slack, GitHub, and Linear
-icon: message
 tags:
   - early-access
   - add-on
@@ -16,7 +15,7 @@ We’re slowly rolling out access to channels. Stay tuned for more progress on t
 
 {% include "../.gitbook/includes/ultimate-hint.md" %}
 
-Channels bring [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) and [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md) into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
+Channels bring [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) and [GitBook Agent](../gitbook-agent/overview.md) into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
 
 When you add a channel, you choose how GitBook shows up in that tool. Each configuration runs in one of two modes:
 
@@ -33,7 +32,7 @@ Use Channels when support questions, bug reports, or product feedback start in S
 {% hint style="info" %}
 #### Looking to embed GitBook Assistant in your website or product?
 
-Head to [embedding](../docs-site/embedding/ "mention") to learn how to embed GitBook Assistant.
+Head to [embedding](../publish/embedding/ "mention") to learn how to embed GitBook Assistant.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/26_05_01_channels@2x.png" alt=""><figcaption></figcaption></figure>
@@ -54,7 +53,7 @@ They let you:
 
 * Answer questions without leaving the source conversation.
 * Bring existing docs context into support and product workflows.
-* Turn important conversations into docs updates with [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md).
+* Turn important conversations into docs updates with [GitBook Agent](../gitbook-agent/overview.md).
 
 Use Channels when the conversation starts outside GitBook, but the answer or follow-up belongs in your docs process.
 
@@ -68,7 +67,7 @@ Channels currently support these platforms:
 
 Each platform uses the same core model.
 
-GitBook receives supported events from the connected platform, gathers context from your knowledge, and responds through either [GitBook Assistant](../ai-and-search/gitbook-ai-assistant.md) or [GitBook Agent](../gitbook-agent/what-is-gitbook-agent.md).
+GitBook receives supported events from the connected platform, gathers context from your knowledge, and responds through either [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) or [GitBook Agent](../gitbook-agent/overview.md).
 
 ### Roles and permissions
 

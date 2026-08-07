@@ -1,0 +1,98 @@
+---
+description: >-
+  Learn how the site workspace changes navigation, content structure, and
+  permissions in GitBook
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: false
+  actions:
+    visible: true
+tags:
+  - tag: new
+    primary: true
+---
+
+# Site workspace
+
+{% hint style="info" %}
+The new experience is rolling out gradually. New organizations already have it, and existing organizations can enable it today ahead of the global rollout.
+{% endhint %}
+
+## The sites-first workspace in GitBook
+
+GitBook is now organized around your docs sites. Everything in the app is arranged around the sites you publish, so what you see while editing matches what your visitors see when reading.
+
+This page explains what changed, what it means for your existing content, and how to opt in.
+
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Site workspace.png" alt=""><figcaption></figcaption></figure></div>
+
+### Why the site workspace
+
+Previously, GitBook organized your work around spaces and collections, and sites were built on top by linking spaces together. That meant the structure you navigated in the app never quite matched the structure of your published site.
+
+The site workspace closes that gap. Your organization contains sites, and every piece of content lives inside a site as a **section**. The hierarchy you edit is the hierarchy your readers get.
+
+### What’s new
+
+#### Home shows all your sites
+
+When you open GitBook, you land on your organization **Home**: your docs sites, recent changes, and organization-wide tools, in one place. To get back to it from anywhere, use the switcher at the top of the sidebar.
+
+#### The sidebar shows your site, not your org
+
+Opening a site replaces the sidebar with that site’s content tree, the same structure visitors see on your published site. Navigate straight to any section and start editing without switching contexts.
+
+The content tree in the sidebar is read-only. To reorganize your site, open the **structure editor**, a dedicated screen that replaces the old Structure tab in Site settings. Changes you make there reflect back in the sidebar immediately.
+
+#### Sections replace spaces
+
+Content in a site now lives in **sections**. If you’ve used GitBook before, a section is what you knew as a space linked to a site. Sections work the same way in the editor. The change is where they live and how they inherit settings from their site.
+
+{% hint style="warning" %}
+In the GitBook API, sections are still represented as `space` objects. Nothing changes for API integrations or Git Sync.
+{% endhint %}
+
+#### Site tools, one click away
+
+Insights, Analytics, Customization, and Site settings are now items in the site sidebar and open in the main view. You no longer need to dig through nested settings to find them. The screens themselves work exactly as before.
+
+#### Draft sections
+
+New sections start as **drafts**: linked to your site, editable by your team, but not visible to visitors. When you’re ready, publish a draft individually, or publish several at once from the structure editor.
+
+To see how drafts will look on your site, switch the site preview between **Live** and **Live + Drafts**.
+
+#### Organization settings, in context
+
+Organization settings no longer take over the whole screen. They open in context at the organization level, alongside your organization Home, so you can adjust organization-wide options without losing your place.
+
+#### Site-inherited permissions
+
+Sections can inherit permissions from their site instead of from collections. When a member has access through more than one route, the most permissive grant applies. On Enterprise plans, sections shared across sites inherit the broadest access.
+
+This is opt-in per space. Content you don’t opt in keeps the existing collection-based permissions.
+
+### What happens to existing spaces and collections
+
+Nothing is deleted or unpublished.
+
+* Spaces already linked to a site become sections of that site.
+* Spaces not linked to any site appear in a new **All content** section, alongside your sites, in the familiar tree view. Collections are preserved there as folders.
+* If every space in your organization belongs to a site, the All content section doesn’t appear at all.
+
+### How the rollout works
+
+You'll see an option to switch on the new experience, along with a short in-app tour of what moved where. The site workspace will become the default for all organizations soon — switching early lets your team settle in on your own schedule.

@@ -2,7 +2,6 @@
 description: >-
   Identify incorrect and outdated pages in your documentation, review the
   findings, and fix them automatically with GitBook Agent
-icon: magnifying-glass-plus
 tags:
   - early-access
 ---
@@ -35,13 +34,13 @@ GitBook Agent can identify issues in your documentation — such as content gaps
 {% step %}
 #### Connect sources
 
-GitBook Agent works best when it’s connected to external sources like your support ticketing system, public forums, or marketing website. Some sources require an additional API key or authentication before setup is complete. [Learn more about our connections.](../ai-and-search/connections/)
+GitBook Agent works best when it’s connected to external sources like your support ticketing system, public forums, or marketing website. Some sources require an additional API key or authentication before setup is complete. [Learn more about our connections.](../ai-for-your-readers/connections.md)
 {% endstep %}
 
 {% step %}
 #### GitBook Agent generates findings
 
-GitBook regularly reviews your sources and generates findings based on the results. GitBook collects these findings for your team to review. [Learn more about how we ingest data.](../ai-and-search/connections/)
+GitBook regularly reviews your sources and generates findings based on the results. GitBook collects these findings for your team to review. [Learn more about how we ingest data.](../ai-for-your-readers/connections.md)
 {% endstep %}
 
 {% step %}
@@ -53,7 +52,7 @@ Review your findings to start fixing issues. Each finding includes a summary of 
 {% step %}
 #### Fix or archive
 
-Some findings can be fixed automatically by GitBook Agent. When that option is available, you can create [change requests](../collaboration/change-requests/) directly from the finding. You can also archive findings you don’t want to keep in your active list.
+Some findings can be fixed automatically by GitBook Agent. When that option is available, you can create [change requests](../collaborate/change-requests/) directly from the finding. You can also archive findings you don’t want to keep in your active list.
 {% endstep %}
 {% endstepper %}
 

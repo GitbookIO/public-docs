@@ -1,6 +1,5 @@
 ---
 description: Use GitBook Agent to generate and build content for your page
-icon: wand-magic-sparkles
 ---
 
 # Writing with GitBook Agent
@@ -14,9 +13,9 @@ The Agent can do everything from write short passages of text on your page, to e
 {% hint style="info" %}
 #### GitBook Agent follows your styleguide
 
-Define your team's writing rules in a [styleguide](../creating-content/styleguide.md), and the Agent treats it as the source of truth whenever you ask it to help. It loads your styleguide's **first page** into context on every task, so keep your main rules there.
+Define your team's writing rules in a [styleguide](../create-content/styleguide.md), and the Agent treats it as the source of truth whenever you ask it to help. It loads your styleguide's **first page** into context on every task, so keep your main rules there.
 
-You can also [add short custom instructions](what-is-gitbook-agent.md#add-a-style-guide-and-custom-instructions) at a site level.
+You can also [add short custom instructions](overview.md#add-a-style-guide-and-custom-instructions) at a site level.
 {% endhint %}
 
 ### What can GitBook Agent do?

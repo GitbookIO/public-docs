@@ -1,6 +1,5 @@
 ---
 description: Get up and running in GitBook and publish your first docs site in minutes
-icon: bolt
 ---
 
 # Quickstart
@@ -58,10 +57,10 @@ Your content isn't published yet — so you can edit, customize, and preview you
 
 The Docs template starts you with placeholder sections in the **Content** part of the sidebar. Click any section to open it and see its placeholder content.
 
-There are two ways to edit and update your content in GitBook — in our visual editor, or following a docs-as-code workflow. **You can choose one, or use a combination of both.** Whichever workflow you prefer, you'll edit your content using a **branch-based editing flow**. Find out more on [the Concepts page](../resources/concepts.md).
+There are two ways to edit and update your content in GitBook — in our visual editor, or following a docs-as-code workflow. **You can choose one, or use a combination of both.** Whichever workflow you prefer, you'll edit your content using a **branch-based editing flow**. Find out more on [the Concepts page](../reference/concepts.md).
 
 {% tabs %}
-{% tab title="Visual editor" %}
+{% tab title="Visual editor" icon="hand-pointer" %}
 GitBook's what-you-see-is-what-you-get (WYSIWYG) editor lets you edit content visually, drag content blocks to reorganize them, and see how your content looks as you work. It's ideal if you don't want to work in a code editor, or you're used to tools like Notion or Google Docs.
 
 **Edit your docs in a change request**
@@ -80,14 +79,14 @@ Along the top of the web app you'll see tabs for **Editor**, **Changes**, and **
 Once you're happy with your changes, click the **Merge** button in the top-right corner. This updates the primary version of your content with all the edits from the change request. If the content is part of a live docs site, the site updates immediately.
 {% endtab %}
 
-{% tab title="Docs as code" %}
+{% tab title="AI Agent" icon="robot" %}
 Sync your documentation with a GitHub or GitLab repository to enable code-based editing in your existing developer environment. It's ideal for technical users who prefer to manage documentation alongside other code.
 
 **Set up Git Sync**
 
 1. Open the section you want to sync from the **Content** part of the sidebar.
 2. Click the Git Sync indicator's **Set up** button in the top bar.
-3. Follow the instructions to sync the section to your chosen Git repository. Head to the [Git Sync pages](git-sync/) to find out more.
+3. Follow the instructions to sync the section to your chosen Git repository. Head to the [Git Sync pages](../docs-as-code/git-sync/) to find out more.
 
 **Edit your docs from your developer environment**
 
@@ -98,14 +97,14 @@ Once you've synced your section to your Git repository:
 3. Make the changes you want.
 
 {% hint style="info" %}
-GitBook supports [Markdown editing](../creating-content/formatting/markdown.md), so you can create and format content using common syntax.
+GitBook supports [Markdown editing](../create-content/formatting/markdown.md), so you can create and format content using common syntax.
 
 Every standard block in GitBook can be written and formatted using Markdown.
 {% endhint %}
 
 **Preview your changes**
 
-You can [preview your changes](git-sync/github-pull-request-preview.md) on your published docs site from the pull request in GitHub or GitLab. Your pull request shows a status with a unique preview URL. Click **Details** on that status to open it and see how your site looks once merged.
+You can [preview your changes](../docs-as-code/git-sync/github-pull-request-preview.md) on your published docs site from the pull request in GitHub or GitLab. Your pull request shows a status with a unique preview URL. Click **Details** on that status to open it and see how your site looks once merged.
 
 **Merge your changes**
 
@@ -119,11 +118,11 @@ Merge your pull request and your content updates both in the GitBook app and on 
 
 **Organize your site navigation**
 
-Add more content to your site — an API reference, a help center, a changelog — at any time, and organize your site's navigation bar so visitors find what they're looking for. Head to [Site structure](../docs-site/site-structure/) to learn about sections, groups, and variants.
+Add more content to your site — an API reference, a help center, a changelog — at any time, and organize your site's navigation bar so visitors find what they're looking for. Head to [Site structure](../manage-your-site/site-structure/) to learn about sections, groups, and variants.
 
 **Customize the look and feel**
 
-Your site looks great out of the box — and under **Customize**, you can set your own [logo, colors, and font](../docs-site/customization/icons-colors-and-themes.md), adjust the layout, and update your [site's visibility](../docs-site/site-settings.md#audience).
+Your site looks great out of the box — and under **Customize**, you can set your own [logo, colors, and font](../manage-your-site/customization/icons-colors-and-themes.md), adjust the layout, and update your [site's visibility](../manage-your-site/site-settings.md#audience).
 {% endstep %}
 
 {% step %}
@@ -152,7 +151,7 @@ https://[organization-name].gitbook.io/[site-title]
 ```
 {% endcode %}
 
-While this may be suitable for some teams, many choose to change their URL to [a custom domain](../docs-site/custom-domain/) or [a custom subdirectory](../docs-site/custom-domain/setting-a-custom-subdirectory/).
+While this may be suitable for some teams, many choose to change their URL to [a custom domain](../publish/custom-domain/) or [a custom subdirectory](../publish/custom-domain/setting-a-custom-subdirectory/).
 
 1. Expand **Settings** in your site's sidebar.
 2. Click **Domain and URL**.
@@ -165,4 +164,4 @@ It can take up to 48 hours for your DNS changes to take effect — although they
 
 #### Next steps
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td><strong>Invite your team to collaborate</strong></td><td>Add team members to your organization and set permissions</td><td><a href="../.gitbook/assets/25_12_10_invite_your_team_to_collaborate_1.png">25_12_10_invite_your_team_to_collaborate_1.png</a></td><td><a href="../collaboration/member-management/invite-members-to-your-organization.md">invite-members-to-your-organization.md</a></td><td><a href="../.gitbook/assets/25_12_10_invite_your_team_to_collaborate.png">25_12_10_invite_your_team_to_collaborate.png</a></td><td><a href="../.gitbook/assets/25_12_10_invite_your_team_to_collaborate.png">25_12_10_invite_your_team_to_collaborate.png</a></td><td></td><td></td><td></td></tr><tr><td><strong>Change site visibility</strong></td><td>Control who can see your content with share links and authenticated access</td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility_1.png">25_12_10_change_site_visibility_1.png</a></td><td><a href="../docs-site/publish-a-docs-site/#publish-a-docs-site">#publish-a-docs-site</a></td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility.png">25_12_10_change_site_visibility.png</a></td><td></td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility.png">25_12_10_change_site_visibility.png</a></td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility.png">25_12_10_change_site_visibility.png</a></td><td></td></tr><tr><td><strong>Add auto-translations</strong></td><td>Create one-click translations that update automatically</td><td><a href="../.gitbook/assets/25_12_10_add_auto_translations_1.png">25_12_10_add_auto_translations_1.png</a></td><td><a href="../docs-site/site-settings.md">site-settings.md</a></td><td><a href="../.gitbook/assets/25_12_10_add_auto_translations.png">25_12_10_add_auto_translations.png</a></td><td></td><td></td><td><a href="../.gitbook/assets/25_12_10_add_auto_translations.png">25_12_10_add_auto_translations.png</a></td><td></td></tr><tr><td><strong>Install integrations</strong></td><td>Integrate with your stack and extend functionality with powerful integrations</td><td><a href="../.gitbook/assets/25_12_10_install_integrations_1.png">25_12_10_install_integrations_1.png</a></td><td><a href="https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/integrations">Integrations</a></td><td><a href="../.gitbook/assets/25_12_10_install_integrations.png">25_12_10_install_integrations.png</a></td><td></td><td></td><td></td><td><a href="../.gitbook/assets/25_12_10_install_integrations.png">25_12_10_install_integrations.png</a></td></tr><tr><td><strong>Add an API reference</strong></td><td>Create auto-updating, interactive API reference docs from an API spec</td><td><a href="../.gitbook/assets/25_12_10_add_an_api_reference_1.png">25_12_10_add_an_api_reference_1.png</a></td><td><a href="https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/api-references">Document an API</a></td><td><a href="../.gitbook/assets/25_12_10_add_an_api_reference.png">25_12_10_add_an_api_reference.png</a></td><td></td><td></td><td></td><td></td></tr><tr><td><strong>Track docs analytics</strong></td><td>Use the built-in insights to measure success and understand user behavior</td><td><a href="../.gitbook/assets/25_12_10_track_docs_analytics_1.png">25_12_10_track_docs_analytics_1.png</a></td><td><a href="../docs-site/insights.md">insights.md</a></td><td><a href="../.gitbook/assets/25_12_10_track_docs_analytics.png">25_12_10_track_docs_analytics.png</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td><strong>Invite your team to collaborate</strong></td><td>Add team members to your organization and set permissions</td><td><a href="../.gitbook/assets/25_12_10_invite_your_team_to_collaborate_1.png">25_12_10_invite_your_team_to_collaborate_1.png</a></td><td><a href="../collaborate/member-management/invite-members-to-your-organization.md">invite-members-to-your-organization.md</a></td><td><a href="../.gitbook/assets/25_12_10_invite_your_team_to_collaborate.png">25_12_10_invite_your_team_to_collaborate.png</a></td><td><a href="../.gitbook/assets/25_12_10_invite_your_team_to_collaborate.png">25_12_10_invite_your_team_to_collaborate.png</a></td><td></td><td></td><td></td></tr><tr><td><strong>Change site visibility</strong></td><td>Control who can see your content with share links and authenticated access</td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility_1.png">25_12_10_change_site_visibility_1.png</a></td><td><a href="../publish/publish-a-docs-site/#publish-a-docs-site">#publish-a-docs-site</a></td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility.png">25_12_10_change_site_visibility.png</a></td><td></td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility.png">25_12_10_change_site_visibility.png</a></td><td><a href="../.gitbook/assets/25_12_10_change_site_visibility.png">25_12_10_change_site_visibility.png</a></td><td></td></tr><tr><td><strong>Add auto-translations</strong></td><td>Create one-click translations that update automatically</td><td><a href="../.gitbook/assets/25_12_10_add_auto_translations_1.png">25_12_10_add_auto_translations_1.png</a></td><td><a href="../manage-your-site/site-settings.md">site-settings.md</a></td><td><a href="../.gitbook/assets/25_12_10_add_auto_translations.png">25_12_10_add_auto_translations.png</a></td><td></td><td></td><td><a href="../.gitbook/assets/25_12_10_add_auto_translations.png">25_12_10_add_auto_translations.png</a></td><td></td></tr><tr><td><strong>Install integrations</strong></td><td>Integrate with your stack and extend functionality with powerful integrations</td><td><a href="../.gitbook/assets/25_12_10_install_integrations_1.png">25_12_10_install_integrations_1.png</a></td><td><a href="/broken/pages/b29aoPwtKZKkAO7zajgr">Broken link</a></td><td><a href="../.gitbook/assets/25_12_10_install_integrations.png">25_12_10_install_integrations.png</a></td><td></td><td></td><td></td><td><a href="../.gitbook/assets/25_12_10_install_integrations.png">25_12_10_install_integrations.png</a></td></tr><tr><td><strong>Add an API reference</strong></td><td>Create auto-updating, interactive API reference docs from an API spec</td><td><a href="../.gitbook/assets/25_12_10_add_an_api_reference_1.png">25_12_10_add_an_api_reference_1.png</a></td><td><a href="/broken/pages/EAZLjjyX6jX76NFnj71P">Broken link</a></td><td><a href="../.gitbook/assets/25_12_10_add_an_api_reference.png">25_12_10_add_an_api_reference.png</a></td><td></td><td></td><td></td><td></td></tr><tr><td><strong>Track docs analytics</strong></td><td>Use the built-in insights to measure success and understand user behavior</td><td><a href="../.gitbook/assets/25_12_10_track_docs_analytics_1.png">25_12_10_track_docs_analytics_1.png</a></td><td><a href="../analytics/insights.md">insights.md</a></td><td><a href="../.gitbook/assets/25_12_10_track_docs_analytics.png">25_12_10_track_docs_analytics.png</a></td><td></td><td></td><td></td><td></td></tr></tbody></table>
