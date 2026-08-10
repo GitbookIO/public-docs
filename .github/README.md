@@ -5,7 +5,7 @@
 <h1 align="center">GitBook Documentation</h1>
 
 <p align="center">
-<a href="https://gitbook.com">Homepage</a> - <a href="https://github.com/GitbookIO/community">Community</a> - <a href="https://github.com/GitbookIO/gitbook/issues/new?assignees=&labels=bug&template=bug_report.md">Bug reports</a> 
+<a href="https://www.gitbook.com">Homepage</a> - <a href="https://github.com/GitbookIO/community">Community</a> - <a href="https://github.com/GitbookIO/gitbook/issues/new?assignees=&labels=bug&template=bug_report.md">Bug reports</a> 
 </p>
 
 <p align="center">
@@ -49,21 +49,21 @@ We review all pull requests submitted to this repository and will follow up with
 ## Badges
 
 <p align="left">
-  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"></a>
-  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=1C1917"></a>
-  <a href="https://gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=FAFAF9"></a>
+  <a href="https://www.gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"></a>
+  <a href="https://www.gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=1C1917"></a>
+  <a href="https://www.gitbook.com"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=FAFAF9"></a>
 </p>
 
 ### Markdown
 
 ```md
-[![GitBook](https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A)](https://gitbook.com/)
+[![GitBook](https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A)](https://www.gitbook.com/)
 ```
 
 ### HTML
 
 ```html
-<a href="https://gitbook.com">
+<a href="https://www.gitbook.com">
   <img
     src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"
   />

@@ -77,9 +77,9 @@ Individual students who want to keep their personal and course notes should use 
    Start by [signing up](https://app.gitbook.com/join) for a GitBook account if you don’t have one yet, or [signing in](https://app.gitbook.com) if you do.
 2. **Choose an organization**\
    Decide which organization you would like the Community plan to be applied to. This could be one that you’ve already created, or you might want to create a new organization.\
-   \&#xNAN;_(To create a new organization, click the switch organization toggle near the top of the_ [_sidebar_](https://gitbook.com/docs/getting-started/overview#sidebar)_, then click **create an organization**, and follow the prompts.)_
+   \&#xNAN;_(To create a new organization, click the switch organization toggle near the top of the_ [_sidebar_](../../../reference/gitbook-ui.md#home)_, then click **create an organization**, and follow the prompts.)_
 3. **Get the organization’s URL**\
-   In the [sidebar](https://gitbook.com/docs/getting-started/overview#sidebar), click on the name of the organization you chose in step 2. Copy or make a note of the URL in your browser. It will be in the format `app.gitbook.com/o/[string]/home`, where `[string]` will be a unique string of letters and numbers used to identify that organization.
+   In the [sidebar](../../../reference/gitbook-ui.md#home), click on the name of the organization you chose in step 2. Copy or make a note of the URL in your browser. It will be in the format `app.gitbook.com/o/[string]/home`, where `[string]` will be a unique string of letters and numbers used to identify that organization.
 4. **Contact us via our messenger on** [**our website**](https://www.gitbook.com/contact)\
    Select ’Contact Support’ and then ’I have a question about pricing’ then ’I want to apply to the Community plan’, or alternatively send us an email with the required info to support@gitbook.com
 

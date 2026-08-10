@@ -5,7 +5,7 @@ description: Pass visitor data into your docs through URL query parameters
 # URL
 
 {% hint style="info" %}
-Head to our guides to find a [full walk-through](https://gitbook.com/docs/guides/product-guides/how-to-personalize-your-gitbook-site-using-url-parameters-and-adaptive-content) on setting up adaptive content with cookies.
+Head to our guides to find a [full walk-through](https://gitbook.com/docs/guides/docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-url-parameters-and-adaptive-content) on setting up adaptive content with cookies.
 {% endhint %}
 
 You can pass visitor data to your docs through URL query parameters. Below is an overview of the method:
@@ -29,7 +29,7 @@ visitor.claims.unsigned.language === "fr"
 ```
 
 {% hint style="warning" %}
-Data passed through query parameters must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object. Additionally, query parameters can be easily changed by the visitor and are best suited for non-sensitive information.
+Data passed through query parameters must be defined in your visitor schema through an [unsigned](./#set-an-unsigned-claim) object. Additionally, query parameters can be easily changed by the visitor and are best suited for non-sensitive information.
 {% endhint %}
 
 ### Video tutorial

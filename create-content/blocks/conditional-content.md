@@ -8,7 +8,7 @@ To add a conditional block, begin a new line in the editor, type <kbd>/</kbd>, t
 
 After inserting the block, click the red condition badge in the top right of the block.
 
-Clicking this will allow you to add a condition through the [condition editor](../../publish/adaptive-content/adapting-your-content.md#working-with-the-condition-editor). You’ll be able to write your condition as an [expression](https://gitbook.com/docs/creating-content/variables-and-expressions) that will run against data defined in your site. You can reference data from [variables](../variables-and-expressions.md), or data coming from visitors through their [claims](../../publish/adaptive-content/enabling-adaptive-content/#set-your-visitor-schema).
+Clicking this will allow you to add a condition through the [condition editor](../../publish/adaptive-content/adapting-your-content.md#working-with-the-condition-editor). You’ll be able to write your condition as an [expression](../variables-and-expressions.md) that will run against data defined in your site. You can reference data from [variables](../variables-and-expressions.md), or data coming from visitors through their [claims](../../publish/adaptive-content/enabling-adaptive-content/#set-your-visitor-schema).
 
 See [adaptive content](../../publish/adaptive-content/) for more details.
 
@@ -19,13 +19,13 @@ The examples below use a URL parameter linked from the button to control which c
 {% if visitor.claims.unsigned.example_attribute_A %}
 This block is only visible to users **with** attribute A.
 
-<a href="https://gitbook.com/docs/creating-content/blocks/conditional-content?visitor.example_attribute_A=false" class="button primary">View without attribute A</a>
+<a href="https://gitbook.com/docs/create-content/blocks/conditional-content?visitor.example_attribute_A=false" class="button primary">View without attribute A</a>
 {% endif %}
 
 {% if !visitor.claims.unsigned.example_attribute_A %}
 This block is only visible to users **without** attribute A.
 
-<a href="https://gitbook.com/docs/creating-content/blocks/conditional-content?visitor.example_attribute_A=true" class="button primary">View with attribute A</a>
+<a href="https://gitbook.com/docs/create-content/blocks/conditional-content?visitor.example_attribute_A=true" class="button primary">View with attribute A</a>
 {% endif %}
 
 ## Representation in Markdown
@@ -35,11 +35,11 @@ This block is only visible to users **without** attribute A.
 
 {% if visitor.claims.unsigned.example_attribute_A %}
 This block is only visible to users **with** attribute A.
-<a href="https://gitbook.com/docs/creating-content/blocks/conditional-content?visitor.example_attribute_A=false" class="button primary">View without attribute A</a>
+<a href="https://gitbook.com/docs/create-content/blocks/conditional-content?visitor.example_attribute_A=false" class="button primary">View without attribute A</a>
 {% endif %}
 
 {% if !visitor.claims.unsigned.example_attribute_A %}
 This block is only visible to users **without** attribute A.
-<a href="https://gitbook.com/docs/creating-content/blocks/conditional-content?visitor.example_attribute_A=true" class="button primary">View with attribute A</a>
+<a href="https://gitbook.com/docs/create-content/blocks/conditional-content?visitor.example_attribute_A=true" class="button primary">View with attribute A</a>
 {% endif %}
 ```
