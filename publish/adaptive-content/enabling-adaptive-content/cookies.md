@@ -39,7 +39,7 @@ Cookies.set('gitbook-visitor-public', JSON.stringify(cookieData), {
 ```
 
 {% hint style="warning" %}
-Data passed through public cookies must be defined in your visitor schema through an [unsigned](https://gitbook.com/docs/publishing-documentation/adaptive-content/enabling-adaptive-content#setting-unsigned-claims) object.
+Data passed through public cookies must be defined in your visitor schema through an [unsigned](./#set-an-unsigned-claim) object.
 {% endhint %}
 
 ### Signed cookie

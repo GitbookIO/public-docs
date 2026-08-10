@@ -180,7 +180,7 @@ function HelpButton() {
 
 ## Authentication
 
-If the docs site uses [Authenticated Access](https://gitbook.com/docs/publishing-documentation/authenticated-access), pass a signed JWT visitor token.
+If the docs site uses [Authenticated Access](https://gitbook.com/docs/publish/site-audience/authenticated-access), pass a signed JWT visitor token.
 
 **Script tag:**
 ```html
@@ -291,5 +291,5 @@ All options can be passed to `window.GitBook('configure', {...})`, `frame.config
 ## Further Reading
 
 - Full API reference & source: [github.com/GitbookIO/gitbook/tree/main/packages/embed](https://github.com/GitbookIO/gitbook/tree/main/packages/embed)
-- Authenticated Access: [gitbook.com/docs/publishing-documentation/authenticated-access](https://gitbook.com/docs/publishing-documentation/authenticated-access)
-- GitBook Assistant setup: [gitbook.com/docs/publishing-documentation/gitbook-ai-assistant](https://gitbook.com/docs/publishing-documentation/gitbook-ai-assistant)
+- Authenticated Access: [gitbook.com/docs/publish/site-audience/authenticated-access](https://gitbook.com/docs/publish/site-audience/authenticated-access)
+- GitBook Assistant setup: [gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant)
