@@ -27,7 +27,7 @@ site:
           path: gitbook-documentation
           default: true
           content:
-            directory: ./developers
+            directory: ./documentation
             language: en
         - type: space
           key: space-5
@@ -87,7 +87,7 @@ site:
           path: gitbook-developer-docs
           default: true
           content:
-            directory: ./documentation
+            directory: ./developers
             language: en
     - type: section-group
       key: section-group-1
