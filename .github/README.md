@@ -19,7 +19,7 @@
 <p align="center">This repository contains the content that powers <a href="https://gitbook.com/docs">https://gitbook.com/docs</a>.</p>
 
 <p align="center">
-  <img alt="GitBook's Public Docs'" src="../.gitbook/assets/26_03_03_gitbook_docs@2x.png">
+  <img alt="GitBook's Public Docs'" src="../assets/26_08_12_hero@2x.png">
 </p>
 
 ## Contributing
