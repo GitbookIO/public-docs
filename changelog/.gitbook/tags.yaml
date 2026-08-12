@@ -1,0 +1,10 @@
+- tag: new-releases
+  label: New releases
+  icon: rocket-launch
+  color: $primary
+- tag: improvements
+  label: Improvements
+  icon: sparkles
+- tag: fixes
+  label: Fixes
+  icon: screwdriver-wrench
