@@ -1,0 +1,29 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" fill="url(#paint0_linear_5705_1901)"/>
+<path d="M427.5 225L432.5 225" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M367.5 165L392.5 165" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M407.5 285L432.5 285" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M330.945 187.5C333.658 176.958 341.958 168.658 352.5 165.945" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M447.5 284.055C458.042 281.342 466.342 273.042 469.055 262.5" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M447.5 162.5C446.119 162.5 445 163.619 445 165C445 166.381 446.119 167.5 447.5 167.5L450.315 167.5C451.425 171.813 455.34 175 460 175C464.66 175 468.575 171.813 469.685 167.5L472.5 167.5C473.881 167.5 475 166.381 475 165C475 163.619 473.881 162.5 472.5 162.5L469.685 162.5C468.575 158.187 464.66 155 460 155C455.34 155 451.425 158.187 450.315 162.5L447.5 162.5ZM460 160C462.761 160 465 162.239 465 165C465 167.761 462.761 170 460 170C457.239 170 455 167.761 455 165C455 162.239 457.239 160 460 160Z" fill="#89C6DA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M352.5 287.5C353.881 287.5 355 286.381 355 285C355 283.619 353.881 282.5 352.5 282.5L349.685 282.5C348.575 278.187 344.66 275 340 275C335.34 275 331.425 278.187 330.315 282.5L327.5 282.5C326.119 282.5 325 283.619 325 285C325 286.381 326.119 287.5 327.5 287.5L330.315 287.5C331.425 291.813 335.34 295 340 295C344.66 295 348.575 291.813 349.685 287.5L352.5 287.5ZM345 285C345 287.761 342.761 290 340 290C337.239 290 335 287.761 335 285C335 282.239 337.239 280 340 280C342.761 280 345 282.239 345 285Z" fill="#181C1F"/>
+<path d="M445 225L450 226.25" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M468.75 245L470 250" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M460 231.25L463.75 235" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M355 225L350 223.75" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M331.25 205L330 200" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M340 218.75L336.25 215" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M412.5 165H407.5" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M432.5 165H427.5" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M387.5 285H392.5" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M367.5 285H372.5" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M372.5 225H367.5" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M380.625 225C380.625 214.127 389.439 205.312 400.312 205.312C411.186 205.312 420 214.127 420 225C420 235.873 411.186 244.687 400.312 244.687C389.439 244.687 380.625 235.873 380.625 225ZM400.312 209.687C391.856 209.687 385 216.543 385 225C385 233.457 391.856 240.312 400.312 240.312C408.769 240.312 415.625 233.457 415.625 225C415.625 216.543 408.769 209.687 400.312 209.687Z" fill="#89C6DA"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M395.297 216.761C394.32 215.785 392.737 215.785 391.761 216.761C390.785 217.737 390.785 219.32 391.761 220.297L396.464 225L391.761 229.703C390.785 230.68 390.785 232.263 391.761 233.239C392.737 234.215 394.32 234.215 395.297 233.239L400 228.536L404.703 233.239C405.68 234.215 407.263 234.215 408.239 233.239C409.215 232.263 409.215 230.68 408.239 229.703L403.536 225L408.239 220.297C409.215 219.32 409.215 217.737 408.239 216.761C407.263 215.785 405.68 215.785 404.703 216.761L400 221.464L395.297 216.761Z" fill="#89C6DA"/>
+<defs>
+<linearGradient id="paint0_linear_5705_1901" x1="377.262" y1="3.12975e-05" x2="424.55" y2="240.166" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E1F3FF"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>
