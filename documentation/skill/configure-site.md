@@ -1,0 +1,485 @@
+---
+name: configure-site
+metadata:
+  version: '1.0'
+description: >-
+  Create and maintain entire GitBook documentation sites end-to-end — design the
+  site structure from source content, scaffold a Git repository in monorepo
+  layout, set up the GitHub/GitLab remote, drive
+hidden: true
+---
+
+# Configure a Site
+
+A skill for creating and maintaining entire GitBook documentation sites. Where `write-docs` covers what goes inside a single page, this skill covers everything around the pages: structure design, repo scaffolding, the GitBook API, and branding. Use the two skills together — this one calls into `write-docs` whenever it needs to generate or edit page content.
+
+## How you can talk to GitBook
+
+There's more than one way to drive GitBook — GitBook's MCP server and the REST API. Check what's actually available in the current session and prefer **MCP first**: if GitBook MCP tools are already connected, use them for anything they cover (creating/configuring sites, opening change requests, drafting and editing content, restructuring docs) instead of making direct API calls. Don't run a detection script for this — you already know your own available tools/MCP connections; just use that awareness.
+
+**"MCP first" is about transport, not about bypassing Git Sync for content.** MCP exposes a change-request content-push tool (`updateChangeRequestContent`) that's tempting to reach for anytime it's connected — but for spaces that already have Git Sync configured, pushing content by editing files in the local repo and letting Git Sync carry it to GitBook is still the preferred path for anything beyond a small, targeted edit. Use the change-request push (MCP or REST) instead when the space isn't Git-synced, there's no local checkout available in the environment, or the edit is small enough that opening a CR is proportionate. See `write-docs`'s "Choosing Git Sync vs. a change-request content push" for the full rule — it applies here too.
+
+The steps in this skill are described as outcomes ("list the orgs", "create the site", "add a section") rather than tied to one transport, so they apply whichever you use. If GitBook MCP tools are connected, call those directly — their own schemas describe their parameters. If you're on the REST API path instead, the exact endpoints, request bodies, and expected responses for each step are in `references/api-cheatsheet.md`.
+
+* **GitBook MCP** — a full read/write surface over the same capabilities described below, not a narrower view. If it isn't connected yet and the task is substantial enough to benefit (a full site build, ongoing restructuring — not a one-off tweak), offer to set it up: `claude mcp add --transport http gitbook-mcp https://mcp.gitbook.com/mcp` (then `/mcp` to complete OAuth sign-in — or append `--header "Authorization: Bearer $GITBOOK_TOKEN"` to skip the browser flow). Codex equivalent: `codex mcp add gitbook-mcp --url https://mcp.gitbook.com/mcp`. Note: this is a different server from GitBook's separate, read-only "published docs" MCP, which only exposes already-published content.
+* **REST API** (`https://api.gitbook.com/v1`) — the fallback when MCP isn't connected, or for anything MCP doesn't cover. Needs `GITBOOK_TOKEN` as a bearer header on every request.
+
+The same personal access token (from https://app.gitbook.com/account/developer) works as the bearer token for both. MCP additionally supports OAuth as a friendlier alternative to pasting a token.
+
+**If you end up needing a token** (REST API path, or MCP without OAuth), check for it at the start of the session:
+
+```bash
+[ -n "$GITBOOK_TOKEN" ] && echo "Token found" || echo "GITBOOK_TOKEN is not set"
+```
+
+If `GITBOOK_TOKEN` is not set, ask the user directly:
+
+1. Tell them they need a GitBook personal access token. Direct them to **https://app.gitbook.com/account/developer** to create one.
+2. Ask them to paste the token into the conversation. Immediately export it as an environment variable (`export GITBOOK_TOKEN=<pasted value>`) and don't repeat it back in your response.
+3. Do not proceed with any API calls until the token is confirmed present in the environment.
+
+Never write the token to a file, never echo it back in a response, never commit it.
+
+## The fundamental constraint
+
+The most important thing to internalize before doing anything: **GitBook can do almost everything except set up Git Sync, regardless of transport**. Authorizing GitHub/GitLab, picking the repository, choosing the branch, setting the project directory for monorepo layouts, and choosing the initial sync direction are all UI-only operations — both the REST API and MCP (which wraps it) only let you _read_ the resulting Git Sync state, never set it up.
+
+That means the cleanest end-to-end flow is always:
+
+1. Claude scaffolds a Git repo locally (and, when tooling permits, the remote)
+2. Claude creates the site, sections, and any empty spaces it can
+3. **The user does a short, well-scripted UI step in GitBook to wire each space to its directory in the repo**
+4. Claude applies branding/customization
+
+The user's role in step 3 is unavoidable but should never be a surprise — generate clear, copy-paste-ready instructions for them. Reference: `references/git-sync-handoff.md`.
+
+If the user explicitly does not want Git Sync, fall back to the content-import path (content import and template application) — covered briefly below and in `references/api-cheatsheet.md`.
+
+## Inputs you should gather up front
+
+Don't start scaffolding until these are known. If something is missing, ask once with a focused question rather than guessing. (Auth is handled separately — see "How you can talk to GitBook" above.)
+
+* **Organization** — list the user's orgs and **show the list to the user, then ask them to confirm which one is the target by name**. Do this even if they have only one org — confirming once up front is cheap insurance against creating sites in the wrong place. Save the chosen `organizationId` for the rest of the session and refer to the org by its title (not its UUID) when narrating subsequent steps.
+* **Site plan and visibility** — **default to `type: site` on the Ultimate plan**, public visibility, unless the user explicitly says otherwise. Most real customers want the Ultimate feature set (custom domain, AI Assistant, advanced customization, hidden GitBook trademark, custom fonts, custom logos). The free tier (`type: basic`) is appropriate only for clearly low-stakes use cases like solo open-source side projects. If you're unsure, ask: _"I'll set this up on the Ultimate plan unless you'd prefer the free tier — should I downgrade?"_ — Ultimate features that are silently absent on `basic` (no AI assistant, no custom fonts, no custom domain) are a much bigger user surprise than briefly confirming the plan.
+* **The content seed** — what's the site being built from? Common shapes:
+  * A folder of existing markdown — the cleanest starting point
+  * A handful of notes plus a competitor's site as a reference
+  * Just a description of what they want to document
+  * An existing site they want to restructure (in which case fetch the site's current structure first)
+  * **A migration** from another docs platform (Mintlify, Docusaurus, ReadTheDocs, GitBook v1) — see `references/migration-from-other-platforms.md` for the workflow. Migration is its own discipline; don't treat it as a glorified file copy.
+* **OpenAPI spec for the API reference** — if the site has any API reference content, **ask up front whether they have an OpenAPI spec** (or whether one can be generated from their codebase). If yes, the API reference space is one `builtin:openapi` SUMMARY entry plus a one-paragraph overview README per resource — dramatically less work than hand-authored endpoint pages, and never drifts. See `references/block-ecosystem.md` and `references/api-cheatsheet.md` for the workflow. **Don't default to hand-authored endpoint pages** — they're almost always the wrong call.
+* **Branding** — at minimum, primary color (hex). Optionally: logo URLs (light + dark), favicon, font choice (or one of GitBook's defaults), header links, footer text/links, theme preset (`clean`, `muted`, `bold`, `gradient`). For Ultimate sites, also consider AI-assistant starter prompts (3-5 short questions visitors are likely to ask).
+* **Site structure** — sections, not site-spaces. If the site has more than one space, plan the **section list** with the user explicitly: each section has a title, a Font Awesome icon name, and a description. Section icons and descriptions are first-class navigation furniture — visitors see them — and gathering them up front saves a follow-up update per section later. Example: `[{title: "Guides", icon: "book-open", description: "Concepts and tutorials"}, {title: "API Reference", icon: "code", description: "REST API and SDKs"}, {title: "Changelog", icon: "clock-rotate-left", description: "Updates and release notes"}]`.
+* **Git remote preference** — GitHub, GitLab, or local-only. Check whether `gh` or `glab` are installed _before_ asking. If neither tool is available, **say so explicitly** and offer two paths: (1) commit locally and put the "create the remote and push" step at the top of the user's handoff, or (2) ask the user to install the tool. Don't quietly default to local-only without telling them — they'll have a repo with no remote and no instructions.
+* **Site shape** — single space or multi-space. Multi-space sites use **sections** to group spaces in the navigation; this is the right choice when content has clearly distinct audiences (e.g. user docs + API reference + changelog). Use site-spaces directly only for translation variants — see `references/api-cheatsheet.md`.
+
+## Verify the content source before building
+
+Once the user names a content seed — a repo, folder, or docs-site URL — verify you can actually read it **before** designing structure or scaffolding anything:
+
+1. **Resolve and echo the source.** State exactly what you're about to read (repo URL and branch, folder path, or site URL) and show the user its top-level contents — a short file or page list — so they can confirm it's the right one.
+2. **If you can't access it, stop and say so.** Git hosts return **404 for private repositories** — indistinguishable from "repository doesn't exist." Treat any 404 or clone failure on a user-named repo as _possibly private_: tell the user what failed, and ask them to either make the content reachable (local clone, archive, authenticated `gh`/`glab`, public mirror) or correct the URL. Check whether an authenticated `gh`/`glab` CLI is available before declaring the repo unreachable.
+3. **Never substitute a source.** Do not search for, guess, or fall back to a similarly-named repository or site — even one that looks identical. Building a docs site from the wrong source is far worse than pausing to ask. Any change of source requires the user's explicit sign-off.
+
+## Confirmation gates for state-changing operations
+
+Site creation, space creation, adding sections, attaching site-spaces, and customization changes all create or modify objects that are **immediately visible to everyone in the org** and that take real effort to clean up. Treat them as heavy operations.
+
+The rule: **never make a state-changing change without first showing the user a one-screen preview of exactly what's about to happen and getting an explicit "yes".**
+
+A good preview is short and concrete:
+
+> About to run, in org **Acme Inc** (`org_abc123`):
+>
+> * Create site **"Acme Platform Docs"** (type: site, plan: ultimate, visibility: public)
+> * Create 3 empty spaces: **Guides**, **API Reference**, **Changelog**
+> * Add Guides as the default section; create sections for API Reference and Changelog
+>
+> Proceed? (yes/no)
+
+Bad previews are vague ("I'll create the site now") or buried in a wall of explanation. Keep it scannable.
+
+The same rule applies to destructive operations — deleting a site, space, section, or customization override — only with even less ambiguity ("This will delete site **Acme Platform Docs** along with its 3 spaces. Spaces and sites are recoverable for 7 days, then permanent. Confirm?").
+
+When the user has already confirmed a multi-step plan in the structure-design step, you don't need to ask again for each individual operation inside that plan — but if anything in the plan changes (an extra space, a different visibility), re-confirm.
+
+For read-only operations (fetching or listing), no confirmation is needed.
+
+## After a change-request push: two links are mandatory
+
+Whenever this skill (or `write-docs`, which it delegates page authoring to) pushes content through a change request — via MCP's `updateChangeRequestContent`/`create_change_request`/`submit_or_merge_change_request` curated tools, `invoke_operation`, or the REST equivalents — the edit is **not finished** until both of the following have been reported back to the user, every time:
+
+1. **The change request's diff/editor link** (`urls.app`) — the link to review the change in the GitBook app.
+2. **The site preview link** (`urls.preview`) — the rendered docs with the change applied. This lives on the **Site** object, not the change-request object, so it takes a separate lookup to find. It is easy to forget precisely because nothing in the CR-creation or content-push response points you at it.
+
+This is a hard rule, on the same footing as the confirmation gates above — not a nicety to add if there's time. See `write-docs`'s "Two links are mandatory whenever a change request is involved" and the `cr-create` skill's "Surfacing the preview link" for the exact resolution steps (MCP: `getSpaceById` → find the site via `list_sites`/`get_site_structure` or each site's site-spaces → `getSiteById` for `.urls.preview`; REST: the equivalent chained `GET` calls). If the space isn't attached to a published site, say so plainly rather than only giving the diff link with no explanation.
+
+## Designing the site structure
+
+Before writing any files or creating anything in GitBook, decide on the structure and run it past the user. A weak structure is the single biggest reason docs sites fail to land.
+
+The output of this step is a small plan, ideally three pieces:
+
+1. **The space list** — one space per coherent body of content. Keep it small (1–4 spaces is typical). A space is a unit of navigation and Git Sync, so don't split a single audience's content across spaces.
+2. **The section grouping** (if multi-space) — sections are top-level partitions in the site nav, e.g. "Product" / "Developers" / "Resources". A section can hold one or more spaces.
+3. **The page tree per space** — folders and pages, with one or two sentence summaries of each page. The depth should match the content; shallow trees (1–2 levels) are usually best.
+
+The full set of heuristics for going from raw inputs to a structure plan is in `references/site-structure-design.md` — read it the first time you do this for a non-trivial site. **Always show the plan to the user and get explicit sign-off before scaffolding files.** Restructuring later is cheap inside Git but expensive once a site is published and indexed.
+
+A note on confirmation when the user gives one collapsed instruction: prompts like _"plan the structure and then scaffold it"_ tempt you to skip the gate. Don't. Present the plan as a clear, scannable block, then either wait for a "yes" or — if you've already started scaffolding because the prompt was that explicit — surface what you decided in the plan and offer one easy chance to redirect ("if any of this is off, tell me and I'll redo before going further"). The point is that the user sees the plan **before** they're staring at twenty generated files, while a redo is still cheap.
+
+## Scaffolding the repository
+
+Once the structure is agreed, lay out the repo as a monorepo — even for single-space sites, this is consistent and future-proof. Each space is a directory containing its own `README.md` (homepage) and `SUMMARY.md` (table of contents). Optionally a `.gitbook/` folder for per-space variables and reusable content blocks, and optionally a `.gitbook.yaml` for advanced sync configuration.
+
+Example layout for a three-space site:
+
+```
+my-docs/
+├── .gitignore
+├── README.md                    # repo-level readme (not a space homepage)
+├── guides/                      # space 1
+│   ├── README.md                # space homepage
+│   ├── SUMMARY.md
+│   ├── .gitbook/
+│   │   └── vars.yaml            # optional: space-level variables
+│   ├── getting-started/
+│   │   ├── installation.md
+│   │   └── quickstart.md
+│   └── concepts/
+│       └── ...
+├── api-reference/               # space 2
+│   ├── README.md
+│   ├── SUMMARY.md
+│   └── endpoints/
+│       └── ...
+└── changelog/                   # space 3
+    ├── README.md
+    └── SUMMARY.md
+```
+
+A few notes about this layout that often trip people up:
+
+* **`.gitbook.yaml` is optional.** GitBook works fine on the default convention of `README.md` + `SUMMARY.md` per space. Only add a `.gitbook.yaml` when you need to override the root, define redirects, or do something else non-default. The bundled example site (`references/example-site/`) has zero `.gitbook.yaml` files and works perfectly.
+* **`.gitbook/vars.yaml`** holds space-scoped variables that pages can reference inline (e.g. `support_email: support@evolve.com` referenced as `{% vars.support_email %}`). Useful for any value that appears on many pages.
+* **`.gitbook/includes/<name>.md`** holds reusable content blocks — a snippet you embed in many pages with `{% include "...persona-switcher" %}`. Use these instead of copy-pasting boilerplate.
+* The space directory name (e.g. `guides/`) is what the user enters into the "Project directory" field when wiring up Git Sync.
+
+A minimal `.gitbook.yaml`, when you do need one, looks like:
+
+```yaml
+root: ./
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+```
+
+### The repo-level README and .gitignore
+
+The repo-level `README.md` (top of the repo, not inside a space) should explain what the folder is and how it relates to the published site — not duplicate the docs themselves. A short paragraph is enough:
+
+```markdown
+# my-docs
+
+Source for the [My Product docs site](https://docs.example.com). Each top-level folder
+is a separate GitBook space; edits flow in both directions via Git Sync once configured.
+```
+
+A `.gitignore` should keep OS junk and editor settings out of the repo. Reasonable default:
+
+```
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+```
+
+If the team has additional generated artifacts (e.g. an OpenAPI spec built from source elsewhere), add those.
+
+### Generating SUMMARY.md — gather the nav, don't infer it from folders
+
+The most common scaffolding mistake is to walk the file tree and emit a SUMMARY.md from it: README at the top, every other file as a child indented under the README. This produces dispiriting nav — every page is a "child of the homepage", folder names become group titles whether or not they're meaningful to a reader, and the IA mirrors the file system instead of the user's mental model.
+
+**The right pattern, in order:**
+
+1. **Gather the desired navigation from the user during structure design.** Ask them — explicitly — to enumerate the top-level pages and the named groups for each space. This is the place where you make folder names match nav reality, and where the user can tell you "actually I want Authentication as a top-level page, not under Concepts."
+2. **Lay out folders to match the agreed nav, not the other way around.** If the user wants three groups in a space — "Getting started", "Concepts", "Tutorials" — the space directory has three subfolders by those names (slugified), each with its own pages. Don't auto-extract a fourth group from a stray subfolder.
+3.  **Write SUMMARY.md to the explicit shape the user agreed.** The grammar that GitBook honors:
+
+    ```markdown
+    # Table of contents
+
+    * [Space homepage](README.md)
+    * [Top-level page A](top-level-a.md)
+    * [Top-level page B](top-level-b.md)
+
+    ## First group
+
+    * [Page in group](first-group/page.md)
+    * [Another page](first-group/another.md)
+
+    ## Second group
+
+    * [Page](second-group/page.md)
+    ```
+
+    Key shape rules:
+
+    * **README.md is on its own line at the very top, as a sibling**, not a parent. Other top-level pages follow as siblings.
+    * **`## Group name` headings introduce groups.** Pages in a group are flat bullets directly under the heading — _not_ indented under the README.
+    * _Avoid mechanical " README.md" + nested-everything-under-it._\* That collapses the entire nav into one tree under the homepage and makes every page look like a sub-page of the homepage in the sidebar.
+    * **Group names come from the user, not the folder names.** "concepts/" can be the folder slug, but the group heading might be "How it works" if that's clearer.
+    * **One bullet per page, no extra formatting.** No bold, no descriptions in the SUMMARY — those live in the page frontmatter.
+4. **Special-case patterns** that aren't plain bullets:
+   * **OpenAPI auto-generated endpoint pages** use a fenced YAML block as the bullet content (`type: builtin:openapi` — see `references/api-cheatsheet.md`).
+   * **External links** are `* [Title](https://...)` and render as outbound links in the nav.
+   * **Cross-space links** in SUMMARY.md use the same `https://app.gitbook.com/s/<spaceId>/<path>` form as in body content. Path has no `.md` suffix. During scaffolding write the sentinel form (`XSPACE_<KEY>`); resolve after space creation. See `references/cross-space-links.md`.
+
+If your scaffolding helper auto-generates a SUMMARY.md by walking folders, **make it idempotent and skip files that already exist**. A user-edited SUMMARY.md should never be silently clobbered — that's how hand-tuned navigation gets lost.
+
+### Per-page markdown — defer to write-docs, but reach for the rich blocks
+
+**For all markdown files** — `README.md`, `SUMMARY.md`, every page — follow the `write-docs` skill. It is the authoritative reference for:
+
+* **Frontmatter** including the `icon:` field. Icons are Font Awesome names without the `fa-` prefix (e.g. `book-open`, `bolt`, `house`, `code`, `puzzle-piece`, `id-card`, `circle-dollar-to-slot`). Don't invent names — pick from the Font Awesome catalogue. The example site uses these in nearly every page's frontmatter.
+* **Layout flags** including `layout: width: wide` (use selectively — on marketing-style landing pages, on changelog pages with the Updates timeline, on pages with multi-column blocks or genuinely wide tables. **Don't default to wide for every space homepage** — the GitBook default width is right for documentation, including documentation landing pages with card-tables. Wide is for hero-style marketing layouts, not normal docs.), `cover:` images, and per-page visibility flags (`title.visible`, `tableOfContents.visible`, etc.).
+* **`SUMMARY.md` grammar.** Strict format — one bullet per page, optional `## Group name` headings, no extra formatting. Plus the special `type: builtin:openapi` syntax for auto-generating endpoint pages from a spec.
+* **Rich blocks** — tabs, hints, steppers, columns, card-tables, expandables, embeds, conditional content with `{% if visitor.claims... %}`, the OpenAPI block, the **Updates** block (changelog), reusable content includes.
+* **GitBook-flavoured markdown differences** from CommonMark.
+
+Don't reinvent any of that here. The bundled `references/example-site/` is the best practical reference for what idiomatic content looks like.
+
+### Choosing the right block — actively, not by default
+
+A common failure mode: Claude generates docs that _work_ but use plain markdown for everything, missing the rich blocks that make GitBook sites feel like a real product. **The skill should actively reach for specialized blocks**, not fall back to bare prose-and-bullets. Concrete patterns to internalize:
+
+* **Changelogs** → `{% updates %}` block with `{% update date="..." tags="..." %}` entries. Auto-generates RSS, supports tags (defined in `.gitbook/tags.yaml`). Don't write `## YYYY-MM-DD` headings — that's the wrong shape.
+* **API endpoint references** → OpenAPI spec uploaded once, auto-generated pages via `type: builtin:openapi` in SUMMARY.md. Don't hand-author endpoint pages — they drift, and the spec is canonical anyway. If the user doesn't have a spec, offer to draft a minimal one rather than going prose-y.
+* **State machines, flows, sequences, simple architecture** → ` ```mermaid ` fenced blocks. Don't draw boxes-and-arrows in ASCII; Mermaid is supported, renders cleanly, and is screen-reader friendly.
+* **Space homepages** → use the GitBook default layout for normal docs landings (TOC visible, default width). Reach for `layout: width: wide` only when the page is genuinely marketing-style — a hero image, an unusually large card grid, a multi-column dashboard layout. The default is right for docs.
+* **"Choose your path" content** → card-tables (`<table data-view="cards">`). The HTML is verbose but the visual result beats any markdown alternative.
+* **Side-by-side intro patterns** → `{% columns %}` block. Two columns at 50/50 is the standard.
+* **Repeated boilerplate (3+ places)** → `.gitbook/includes/<name>.md` + `{% include "..." %}`.
+* **Repeated literals (env URLs, support email, version pin)** → `.gitbook/vars.yaml` + `<code class="expression">space.vars.<name></code>`.
+* **Multi-language code samples** → `{% tabs %}` block.
+* **Walkthroughs of 3+ ordered steps** → `{% stepper %}` block.
+
+The full block-by-block guide, with example invocations and a smell-vs-fix decision table, is in `references/block-ecosystem.md`. **Read it before generating any non-trivial page**, and walk the decision table for each content area being scaffolded — ask "is there a specialized block for this?" before defaulting to plain markdown.
+
+### Cross-space links
+
+Multi-space sites _want_ cross-space links — they're how a site feels like one connected product, not a bunch of separate manuals. **Don't duplicate content to avoid them, and don't drop them.** They're a first-class GitBook feature; the only twist is that they need real space IDs to render correctly, and IDs only exist after the site is created.
+
+The pattern in markdown is just a regular link to the GitBook URL of the target space:
+
+```markdown
+For the conceptual side, see the [Authentication concept page](https://app.gitbook.com/s/<spaceId>/concepts/authentication).
+```
+
+GitBook resolves `https://app.gitbook.com/s/<spaceId>/<path>` at render time, regardless of your custom domain. Internally these are `ContentRefPage` or `ContentRefSpace` content references with the space ID set; in markdown they just appear as URLs.
+
+**The scaffolding flow:**
+
+1.  **During scaffolding**, write cross-space links using a sentinel space-ID prefixed with `XSPACE_`, one per planned space. Use the space slug from your structure plan as the suffix:
+
+    ```markdown
+    See the [Authentication concept page](https://app.gitbook.com/s/XSPACE_GUIDES/concepts/authentication).
+    For the full reference, see the [API Reference](https://app.gitbook.com/s/XSPACE_API/).
+    ```
+
+    These are valid markdown links to non-existent GitBook spaces — they don't break the parser, they're easy to grep for, and they round-trip cleanly through Git.
+2.  **After space creation**, once you have each new space's real ID, walk every markdown file and substitute `XSPACE_<KEY>` with the real space ID:
+
+    ```bash
+    sed -i \
+      -e "s|XSPACE_GUIDES|${GUIDES_SPACE_ID}|g" \
+      -e "s|XSPACE_API|${API_SPACE_ID}|g" \
+      -e "s|XSPACE_CHANGELOG|${CHANGELOG_SPACE_ID}|g" \
+      $(find . -name '*.md' -not -path './.git/*')
+    ```
+3. **Commit and push** the resolution. GitBook will pick it up via Git Sync and the links will resolve on the next render.
+
+For a clean implementation, keep a `cross-space-links.yaml` in the repo root mapping sentinel keys to space IDs, generated after creation. That makes the resolution script reproducible if anyone re-runs it. The full pattern, including anchor links, page-specific links, and a sample resolution script, is in `references/cross-space-links.md`.
+
+**Where this gets written into:** the scaffold (with sentinels), the markdown content as you generate it across spaces, and the post-creation resolution step. Don't try to write real `app.gitbook.com/s/<id>/...` links during scaffolding — IDs don't exist yet, and any guess will be a broken link.
+
+### Where to look for example content
+
+`references/example-site/` is a **pruned snapshot** of a production-style GitBook site bundled with this skill. The original is a 12-space site (home, three product spaces, three versions of a developer API, three guides spaces, partners, changelog, plus an external-content `connections/` tree) with \~200 content files; the bundled snapshot keeps \~150 to stay within file-count limits.
+
+**Read `references/example-site/PRUNE-NOTES.md` first** — it explains exactly what was kept and dropped, and lists the highest-signal files to read for specific patterns. The TL;DR:
+
+* The full structural backbone of every space is intact — `README.md`, `SUMMARY.md`, `.gitbook/vars.yaml`, `.gitbook/includes/`.
+* `developers/v2/` is kept in full as the canonical example. `developers/v1/` (legacy) and `developers/v3/` (beta) were dropped — they were structurally identical to v2 with version-specific content variations. The pattern of multi-version API docs is documented in PRUNE-NOTES.md and visible in `structure.json`.
+* `connections/` — each subfolder (`blog/`, `community/`, `youtube/`) keeps its `index.html` plus one representative article so the metadata patterns stay learnable.
+* `customization.json` and `structure.json` are the complete API exports describing the entire original site, including spaces and pages that were pruned. SUMMARY.md files inside each space also describe the original tree — some links in them point to pruned pages, which is expected.
+
+Notable files to study, **organized by pattern you're trying to demonstrate**:
+
+| Pattern                                              | File to read                                                                                     |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Updates block + tags                                 | `changelog/README.md` + `changelog/.gitbook/tags.yaml`                                           |
+| `builtin:openapi` SUMMARY pattern                    | `developers/v2/SUMMARY.md` (look at the fenced YAML bullets)                                     |
+| Mermaid diagrams (flowchart, sequence)               | `products/payments/concepts/payment-lifecycle.md`, `developers/v2/identity-api/README.md`        |
+| Layout `width: wide` + cover image                   | `home/README.md`, `developers/v2/README.md`                                                      |
+| Card-tables for navigation                           | `home/README.md`, `partners/README.md`                                                           |
+| Conditional content via `{% if visitor.claims... %}` | `products/payments/accept-payments/take-a-payment.md`                                            |
+| Tabs and steppers used together                      | `developers/v2/getting-started/quickstart.md`, `developers/v2/getting-started/authentication.md` |
+| Webhook docs with code samples                       | `developers/v2/webhooks/verifying-signatures.md`                                                 |
+| Reusable content includes                            | `home/.gitbook/includes/persona-switcher.md`                                                     |
+| `.gitbook/vars.yaml` variables                       | Any space's `.gitbook/vars.yaml`                                                                 |
+| Grouped SUMMARY.md (sections via `## Heading`)       | Any of the per-space `SUMMARY.md` files                                                          |
+
+When you need a pattern not represented in the bundled snapshot (e.g. legacy/beta versioned API spaces side-by-side, the full external-content article catalogue), `structure.json` is the authoritative source for shape, and PRUNE-NOTES.md describes the patterns those omissions represented.
+
+After scaffolding:
+
+```bash
+cd my-docs
+git init
+git add .
+git commit -m "Initial scaffold"
+```
+
+If the user wants a remote and `gh`/`glab` is available:
+
+```bash
+# GitHub
+gh repo create <name> --private --source=. --push
+
+# GitLab
+glab repo create <name> --private && git push -u origin main
+```
+
+If neither tool is available, **say so explicitly** before scaffolding finishes. Two valid paths:
+
+* **Local-only repo + manual remote step in handoff.** Commit locally, leave the user a "Step 0" in their handoff that says: _"On your machine, create a private GitHub or GitLab repo named `<name>`, then `git remote add origin <url> && git push -u origin main` from this directory."_ Put this above the GitBook UI steps — they need the repo pushed before Git Sync can connect to it.
+* **Ask the user to install `gh` or `glab`.** If they're going to be doing more sites, the tool is worth having.
+
+Don't quietly default to local-only — a repo with no remote and no instructions about how to add one is a footgun the user will discover when they try to wire up Git Sync.
+
+## Migration and content quality
+
+Most real builds aren't greenfield — they're migrations from another docs platform (Mintlify, Docusaurus, ReadTheDocs, an older GitBook), or restructurings of existing markdown. These have their own discipline that's distinct from "make a new site." Get this wrong and you produce something that _looks_ like a docs site but reads like a machine output.
+
+The full workflow is in `references/migration-from-other-platforms.md`. The headlines:
+
+**Mirror the source before reimagining it.** When the user has an existing live docs site, fetch the rendered landing pages and look at them before generating any homepage content. The current IA is the spec; the user's reasons for it usually aren't visible from a folder of markdown alone. Inventing card grids, hero blocks, and "what's new" sections from scratch when the source already had a working answer is the most common content-quality failure mode.
+
+**A bulk export is rarely a complete content source.** Mintlify's `llms-full.txt`, ReadTheDocs HTML scrapes, and similar AI-friendly exports often strip visible content (custom components rendered to raw markup, AI-prompt blocks unrolled inline, parameter names dropped from API tables). After bulk conversion, sample-check the rendered pages against the original site and flag where content is missing — don't pretend the export is the whole story.
+
+**Anchor pages, not all pages.** Migrating 280 pages doesn't mean hand-crafting 280 pages with GitBook idioms. The right move is to bulk-convert the long tail, then deliberately rebuild 4–6 anchor pages — homepage, top-level landing per space, the marquee how-to — using the full block ecosystem. The rest can be brought up to standard iteratively.
+
+**Format-pass is a documented step.** Naive markdown conversion leaves artifacts (foreign component tags, malformed code fences, broken internal links). After bulk conversion, run a clean-up pass before the first commit — remove unsupported components, normalize fences, rewrite `/docs/...` paths to GitBook URLs or relative paths. Skipping this produces a repo that _almost_ renders.
+
+**Don't auto-generate frontmatter you don't have.** When the source had no icons, don't auto-pick icons from URL slugs — you'll produce a sea of mismatched cog icons. When the source had no description, leave the field blank; don't stub it with `Source: <url>` (that text leaks into sidebar previews and search).
+
+**OpenAPI-first for API references.** If the migrated site has API reference content and you can get an OpenAPI spec (or generate one from their codebase), route the entire reference space through `builtin:openapi`. A 70-page hand-converted reference is almost always worse than a 3-file auto-generated one.
+
+**Internal-link conversion is a sweep, not a per-page concern.** After the structure is known, walk every markdown file and rewrite `/docs/...` links to either relative `.md` paths (within a space) or `https://app.gitbook.com/s/<spaceId>/<path>` URLs (across spaces). Doing this per-page-as-you-go produces inconsistent links; doing it as one sweep with a slug-to-path manifest is much more reliable.
+
+**Be careful with helper scripts that regenerate content.** If you're using a converter or SUMMARY-generator, make it idempotent by default. Skip files that already exist. A second run that clobbers hand-tuned homepages is a footgun. Never run `rm -rf <space>/` on a directory that might contain hand-edited content; if you must regenerate, write to `<space>/_generated/` and merge or diff.
+
+## Driving GitBook to build the site
+
+The steps below are described as outcomes, not endpoint calls — use whichever transport you settled on in "How you can talk to GitBook" above. On the REST API path, the exact endpoints, request bodies, and expected responses for every step are in `references/api-cheatsheet.md`; read it before making any calls — the schemas are nuanced (especially customization). On the MCP path, the equivalent tools cover the same steps — read their own schemas rather than looking up REST paths.
+
+### The standard sequence for a new site
+
+1. **Verify access and find the org**: confirm the authenticated user, then list the orgs.
+2. **Create the site** with `{title, type, visibility, spaces?}`. **Default to Ultimate** (`type: "site"`; the plan tier is set on the site after creation or via the org's billing). Use `type: "basic"` (free) only when the user explicitly opts in. Don't include `spaces` if no spaces exist yet — you can add them later.
+3. **Decide how spaces will come into being.** Two paths:
+   * **Git-Sync-first (recommended)**: tell the user to create each space in the GitBook UI by clicking "Add new space" → "Sync to a GitHub or GitLab repository", picking the repo and the per-space project directory. This creates the space, sets up sync, and links it to the site in one action. The skill's job is to give exact, copyable instructions (one block per space). See `references/git-sync-handoff.md`.
+   * **Programmatic-first**: create empty spaces directly, add them to the site as site-spaces, and use content import or template application to load content. The user will still need to wire Git Sync in the UI later if they want bidirectional sync.
+4. **Add sections** (multi-space sites with grouped navigation): a section is created by associating a space with a title and optional icon.
+5. **Resolve cross-space link sentinels**: if the scaffolded markdown contains `XSPACE_<KEY>` placeholders (which it should, for any link that crosses a space boundary), now is when you substitute them for the real space IDs returned by step 3 or 4. See `references/cross-space-links.md` for the substitution script. Commit and push the changes — the next Git Sync run picks them up.
+6. **Apply customization** (branding) — the full schema is broad: theme preset, colors (each as a `{light, dark}` themed pair), favicon, header (logo, primaryLink, links), footer (groups of links, copyright), themes (default light/dark, toggleable), AI mode, PDF export, and more. Recipes for common branding scenarios are in `references/customization-recipes.md`. Only change the fields you mean to — fetch the current settings first, modify in memory, and write the full result back rather than guessing at a partial payload.
+7. **Verify**: fetch the site's structure to confirm the final tree, and its customization to confirm settings.
+
+### Multi-language sites and auto-translated spaces
+
+GitBook supports **auto-translated site-spaces**: a single English space (synced from Git) can be paired with computed translations in other languages. The translations are not separate spaces in the Git repo — they live entirely in GitBook and are configured through the UI under each section's settings. They show up as additional `site-space` objects under the same section, each with a different `language` and no `gitSync` field.
+
+What this means in practice:
+
+* **Don't scaffold per-language directories in the repo.** The Git repo has one space per topic, in English. The skill writes one set of markdown files per content area, full stop.
+* **Each section can hold many site-spaces.** A "Payments" section might contain `Payments` (en, git-synced), `Payments (FR)` (fr, computed), `Payments (DE)` (de, computed), etc. The structure response will list all of them; only the English ones need a Git Sync handoff.
+* **`localizedTitle` shows up everywhere.** Sections, section-groups, header links, footer links, and the site title itself all carry a `localizedTitle: {de: "...", fr: "...", ...}` map. When reading the customization, expect to see translations even for fields the user only set in English. Don't strip these out unless asked.
+* Auto-translation is a UI-only feature today. If the user wants it enabled on a section, surface that as part of the Git Sync handoff: "After Git Sync is configured, go to **Site → Sections → Payments → Translations** and enable the languages you want."
+
+When the user asks for "a docs site in five languages", the answer is one English content tree in Git plus auto-translation enabled per section in the UI — not five copies of the markdown.
+
+### Section groups
+
+A site's structure has three possible levels of nesting in the navigation:
+
+1. **Site-spaces** at the root (a flat site, no sections)
+2. **Sections** containing site-spaces (the typical multi-space site)
+3. **Section groups** containing sections containing site-spaces (used to bucket related sections, e.g. "Products" group containing Payments / Identity / Connect sections)
+
+The site's structure response is recursive — a section-group's `sections` array can hold both sections and other section-groups. When designing the structure, use section-groups only when there are 3+ closely related sections that benefit from being visually grouped in the top nav. For a 2-section site, sections at the root level are clearer.
+
+### Updating an existing site
+
+When asked to modify a site that already exists, _always_ fetch the current state first:
+
+* Site metadata
+* Structure (sections + spaces)
+* Customization (site-level or per-site-space), for branding
+
+Then make targeted changes rather than wholesale replacements. Don't replace whole customization payloads if you only mean to change one field — fetch the current settings, modify in memory, and write the full result back.
+
+### When to use content import vs. Git Sync
+
+* **Content import** is for ingesting external content (a website URL, a set of files) into a space. It's good for one-shot migrations from another doc tool.
+* **Git Sync** is for ongoing two-way sync between a Git repo and a space. This is what we're optimizing for in the standard flow.
+* If the user has already-good content sitting outside both Git and GitBook (e.g. a Notion export), import it, then optionally turn on Git Sync afterward.
+
+## Branding and customization
+
+The `SiteCustomizationSettings` schema is large. The bundled `references/example-site/customization.json` is a real export from a production-style demo and is the most useful reference — read it before composing any customization payload. It shows how all the nested fields fit together, how `localizedTitle` maps work, and how conditional header links are structured.
+
+The full field listing, schema quirks (`styling.background` required-but-vestigial, `header.links[]` requiring `links: []`), `ContentRef` formats for header/footer links, and conditional link patterns are all in `references/customization-recipes.md` — see "Field cheatsheet" and Scenarios 4–5. Premium and Ultimate features (custom logos, custom fonts, semantic colors, footer logo, advanced customization) will be rejected on free sites — handle gracefully; on the REST path see `references/api-cheatsheet.md` for the exact error responses.
+
+`references/customization-recipes.md` has worked examples for: minimal brand pass (just colors + favicon), full brand with logos and fonts, dark-mode-only with toggle, and AI-assistant enabled with suggested prompts.
+
+For a complete real-world payload to learn from, `references/example-site/customization.json` is the customization export of a production site bundled with this skill. Reading it is the fastest way to see how all the fields fit together in practice — much more useful than the abstract schema. Don't paste it wholesale into a new site; use it as a model for shape and field selection.
+
+For a real example of the structure response (sections, section-groups, multi-language site-spaces), see `references/example-site/structure.json` alongside it.
+
+## The Git Sync handoff
+
+This is the part that has to feel polished. Once the repo is pushed and the site exists, generate a clear set of per-space instructions. For each space, the user needs:
+
+1. The repo URL
+2. The branch name (usually `main`)
+3. The **project directory** for that space (e.g. `guides`, `api-reference`)
+4. The initial sync direction — almost always **GitHub → GitBook** (or GitLab → GitBook), since the repo is the source of truth at this point
+
+`references/git-sync-handoff.md` has a template you can fill in and present to the user. Render it as a numbered list per space, not as one big wall of prose. After they finish, ask them to confirm — at that point you can check each space's sync state programmatically to verify.
+
+## Common mistakes to avoid
+
+* **Don't put the PAT in any file Claude writes.** Always read it from the environment.
+* **Don't silently swap the content source.** If the repo or folder the user named can't be read (remember: private repos return 404, same as nonexistent ones), stop and ask — never proceed with a lookalike public repo. See "Verify the content source before building."
+* **Don't try to set up Git Sync programmatically.** It's UI-only regardless of transport — always route through the UI handoff.
+* **Don't paste an entire customization payload from memory.** Fetch the current state, modify it, then write the full result back. Schemas evolve and you'll write fewer bugs this way.
+* **Don't create a space for every section of content.** A space is a heavy unit (it has its own URL slug, sync, settings). Pages and folders within a space are the right tool for sub-grouping.
+* **Don't skip the structure-plan-and-confirm step**, even when the user is in a hurry. Restructuring a published site is painful.
+* **Don't over-format the SUMMARY.md.** GitBook's parser is strict about it. Defer to the rules in `write-docs`.
+* **Don't finish a change-request edit without both links.** See "After a change-request push: two links are mandatory" — the CR diff link alone is an incomplete answer.
+
+## Reference files
+
+* `references/api-cheatsheet.md` — the complete set of API calls used by this skill, with curl-style request bodies and expected responses
+* `references/site-structure-design.md` — heuristics and worked examples for going from raw inputs to a space/section/page plan
+* `references/migration-from-other-platforms.md` — pre-flight, source-platform mappings (Mintlify, Docusaurus, GitBook v1, RTD), anchor-pages strategy, format-pass, internal-link sweep. **Read this before any migration build, not after.**
+* `references/block-ecosystem.md` — which GitBook block to reach for in which content situation, with a decision table and worked examples (Updates, Mermaid, OpenAPI auto-gen, layout flags, card-tables, conditional content, includes, vars). **Read this before generating any non-trivial page.**
+* `references/cross-space-links.md` — the sentinel-and-resolve workflow for cross-space links in markdown, with a working substitution script
+* `references/git-sync-handoff.md` — the template for the user-facing Git Sync setup instructions
+* `references/customization-recipes.md` — worked branding payloads for common scenarios
+* `references/example-site/` — a pruned snapshot (\~150 files) of a real production-style GitBook site repo (markdown, `SUMMARY.md`s, `.gitbook/` configs). Read `PRUNE-NOTES.md` inside it first — it explains what's kept, what's dropped, and lists high-signal files for specific patterns.
+* `references/example-site/customization.json` — the customization export from that site, illustrating a complete real-world branding payload
+* `references/example-site/structure.json` — the structure export, showing sections, section-groups, and multi-language site-spaces (English git-synced + auto-translated)
