@@ -1,0 +1,115 @@
+---
+description: Configure Git Sync with extra functionalities
+---
+
+# Content configuration
+
+If you’d like to configure Git Sync further, you can add a `.gitbook.yaml` file at the root of the content synced for that section to tell GitBook how to parse your Git repository. In a monorepo, that file lives in the section’s configured [Project directory](monorepos.md).
+
+{% code title=".gitbook.yaml" %}
+```yaml
+root: ./
+
+​structure:
+  readme: README.md
+  summary: SUMMARY.md​
+
+redirects:
+  previous/page: new-folder/page.md
+```
+{% endcode %}
+
+### Root
+
+The path to lookup for your documentation defaults to the root directory of the repository. Here’s how you can tell GitBook to look into a `./docs` folder:
+
+{% code title=".gitbook.yaml" %}
+```yaml
+root: ./docs/
+```
+{% endcode %}
+
+{% hint style="warning" %}
+**All other options that specify paths will be relative to this root folder**. So if you define root as `./docs/` and then `structure.summary` as `./product/SUMMARY.md`, GitBook will actually look for a file in `./docs/product/SUMMARY.md`.‌
+{% endhint %}
+
+{% hint style="info" %}
+In a monorepo, `root` is resolved relative to the synced section’s Project directory, not the repository root. Path-based configuration only applies inside that section’s synced scope. It doesn’t make sibling directories or repository-level folders available to other sections automatically. For multi-section repository setups, see [Monorepos](monorepos.md).
+{% endhint %}
+
+### ​Structure‌ <a href="#structure" id="structure"></a>
+
+The structure accepts two properties:‌
+
+* **`readme`**: Your documentation’s first page. Its default value is `./README.md`
+* **`summary`**: Your documentation’s table of contents. Its default value is `./SUMMARY.md`
+
+The value of those properties is a path to the corresponding files. The path is relative to the “root” option. For example, here’s how you can tell GitBook to look into a `./product` folder for the first page and summary:
+
+{% code title=".gitbook.yaml" %}
+```yaml
+structure:
+  readme: ./product/README.md
+  summary: ./product/SUMMARY.md
+```
+{% endcode %}
+
+{% hint style="warning" %}
+When Git Sync is enabled, **remember not to create or modify readme files** through GitBook's UI. The readme file should be managed exclusively in your GitHub/GitLab repository to avoid conflicts and duplication issues.
+{% endhint %}
+
+### Summary‌ <a href="#summary" id="summary"></a>
+
+The `summary` file is a Markdown file (`.md`) that should have the following structure:
+
+{% code title="./SUMMARY.md" %}
+```markdown
+‌# Summary​
+
+## Use headings to create page groups like this one​
+
+* [First page’s title](page1/README.md)
+    * [Some child page](page1/page1-1.md)
+    * [Some other child page](part1/page1-2.md)
+
+* [Second page’s title](page2/README.md)
+    * [Some child page](page2/page2-1.md)
+    * [Some other child page](part2/page2-2.md)
+
+## A second-page group​
+
+* [Another page](another-page.md)
+```
+{% endcode %}
+
+Providing a custom summary file is optional. By default, GitBook will look for a file named `SUMMARY.md` in your `root` folder if specified in your config file, or at the root of the repository otherwise.
+
+If you don’t specify a summary, and GitBook does not find a `SUMMARY.md` file at the root of your docs, GitBook will infer the table of contents from the folder structure and the Markdown files below.‌
+
+{% hint style="info" %}
+The summary markdown file is **a mirror of the** **table of contents** of your GitBook section. So even when no summary file is provided during an initial import, GitBook will create one and/or update it whenever you update your content using the GitBook editor.
+
+Because of this, it’s not possible to reference the same Markdown file twice in your `SUMMARY.md` file, because this would imply that a single page lives at two different URLs in your GitBook section.
+{% endhint %}
+
+#### Table of contents (sidebar) titles <a href="#sidebar-titles" id="sidebar-titles"></a>
+
+If you want your pages to have a different title in the table of contents sidebar than on the page itself, you can define an optional **page link title** in your `SUMMARY.md` file.
+
+If you’re using Git Sync, the page link title is set on the page link:
+
+{% code title="./SUMMARY.md" %}
+```markdown
+# Summary
+
+* [Page main title](page.md "Page link title")
+```
+{% endcode %}
+
+The text inside the quotes (`"Page link title"`) will be used:
+
+* In the table of contents (sidebar)
+* In the pagination buttons at the bottom of each page
+* In any relative links you add to that page
+
+Page link titles are optional — if you don’t manually add one, GitBook will use the page’s standard title everywhere by default.
