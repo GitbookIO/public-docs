@@ -40,7 +40,7 @@ Our core commitments are:
 
 GitBook uses OpenAI’s enterprise API for AI features. OpenAI does not train, improve, or fine-tune models with customer data sent through this API.
 
-OpenAI is a [subprocessor](subprocessors.md).
+OpenAI is a [subprocessor](../privacy-and-security/security/subprocessors.md).
 
 ### Zero data retention
 
@@ -155,7 +155,7 @@ See [Open in ChatGPT or Claude](gitbook-ai-policy.md#open-in-chatgpt-or-claude) 
 
 ### GDPR
 
-GitBook’s [Data Processing Agreement](../statement/#dpa) covers AI data processing. OpenAI processes visitor queries as a subprocessor.
+GitBook’s [Data Processing Agreement](../privacy-and-security/statement/#dpa) covers AI data processing. OpenAI processes visitor queries as a subprocessor.
 
 GitBook’s DPA and standard contractual clauses cover this transfer.
 
@@ -167,8 +167,8 @@ This commitment covers all GitBook content. It includes documentation, API speci
 
 ### Related policies
 
-* [Subprocessors](subprocessors.md)
-* [Terms of Service](../../terms.md)
-* [Privacy Statement](../statement/)
-* [Data Processing Agreement](../statement/#dpa)
-* [Security FAQ](security-faq.md)
+* [Subprocessors](../privacy-and-security/security/subprocessors.md)
+* [Terms of Service](../terms.md)
+* [Privacy Statement](../privacy-and-security/statement/)
+* [Data Processing Agreement](../privacy-and-security/statement/#dpa)
+* [Security FAQ](../privacy-and-security/security/security-faq.md)
