@@ -20,7 +20,7 @@ AI Search is available on Premium and Ultimate site plans. GitBook Assistant is 
 
 To choose your site’s search experience, open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**. Here you can choose your preferred experience.
 
-<figure><img src="../.gitbook/assets/26_01_06_search_ai@2x.png" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_06_search_ai@2x (1).png" alt=""><figcaption><p>Choose the search experience you want in your published docs</p></figcaption></figure>
 
 {% hint style="warning" %}
 When GitBook Assistant is enabled, AI search is disabled. Standard keyword searches will always provide the results in the search bar no matter which experience you choose.
@@ -35,8 +35,6 @@ Your users can search for keywords within your docs site and jump quickly to spe
 If your docs site has multiple [sections](../manage-your-site/site-structure/site-sections.md), the search results will contain pages from all of these sections so that you users can jump straight to the page they need.
 
 ## GitBook AI search
-
-{% include "../../.gitbook/includes/premium-and-ultimate-hint.md" %}
 
 GitBook AI search offers basic AI-powered answers in the **Search and find…** bar of your site. It’s trained on the content of your docs site, but cannot pull in information from external sources.
 
@@ -55,5 +53,5 @@ Multi-section search is only available when viewing published [sections](../mana
 {% endhint %}
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-* Click the **GitBook Assistant** ![](../.gitbook/assets/25_07_16_gitbook_assistant_1.svg) button next to the **Ask or search…** bar
+* Click the **GitBook Assistant** ![](<../.gitbook/assets/25_07_16_gitbook_assistant_1 (1).svg>) button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the ‘Ask…’ option at the top of the menu.

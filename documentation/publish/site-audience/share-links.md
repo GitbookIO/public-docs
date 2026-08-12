@@ -4,8 +4,6 @@ description: Add greater control over who can view your published GitBook docume
 
 # Private publishing with share links
 
-{% include "../../../.gitbook/includes/premium-and-ultimate-hint.md" %}
-
 You can share you content privately with customers or partners without needing to invite them to your organization by using share links.
 
 ### Publish with share links

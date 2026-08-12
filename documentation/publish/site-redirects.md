@@ -4,9 +4,7 @@ description: Set up site redirects to route traffic to content anywhere on your 
 
 # Site redirects
 
-{% include "../../.gitbook/includes/premium-and-ultimate-hint.md" %}
-
-<figure><img src="../.gitbook/assets/26_01_06_redirects@2x.png" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_06_redirects@2x (1).png" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
@@ -83,7 +81,7 @@ Upload a CSV with the columns `source`, `destination`, and optional `intent`.
   * draft to create, update, or remove a draft redirect
   * publish to publish an existing draft redirect to live, `destination` must be empty.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>You can find the GitBook admin URL for a page in this menu</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>You can find the GitBook admin URL for a page in this menu</p></figcaption></figure></div>
 
 A maximum of 500 rows is supported per import.
 

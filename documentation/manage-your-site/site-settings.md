@@ -4,9 +4,7 @@ description: Customize and edit settings across your published site
 
 # Site settings
 
-{% include "../../.gitbook/includes/customization-premium-and-ultimate-hint.md" %}
-
-<figure><img src="../.gitbook/assets/26_03_30_site_settings@2x.png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_site_settings@2x (1).png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
 
 ### General
 

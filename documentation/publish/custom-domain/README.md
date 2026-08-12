@@ -4,8 +4,6 @@ description: Set a custom domain for your docs sites
 
 # Set a custom domain
 
-{% include "../../../.gitbook/includes/premium-and-ultimate-hint.md" %}
-
 {% hint style="warning" %}
 This page shows how to configure a custom domain and subdomain. If you would like to configure a custom subdirectory (such as `example.com/docs`), see the [setting-a-custom-subdirectory](setting-a-custom-subdirectory/ "mention") page.
 {% endhint %}

@@ -4,7 +4,7 @@ Conditional content blocks let you control who can see a given block of content 
 
 ### Create conditional content
 
-To add a conditional block, begin a new line in the editor, type <kbd>/</kbd>, then select <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> **Conditional content**.
+To add a conditional block, begin a new line in the editor, type <kbd>/</kbd>, then select <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1 (1).svg" alt="The Page condition icon in GitBook"></picture> **Conditional content**.
 
 After inserting the block, click the red condition badge in the top right of the block.
 

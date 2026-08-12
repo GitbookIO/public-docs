@@ -20,7 +20,7 @@ Clicking **Create a variable** will launch a modal where you can give your varia
 
 Click **Add variable** to save your variable.
 
-<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x.png" alt="A GitBook screenshot showing the Add variables screen. The variable Name box has been filled with the text ‘latest_version’ and the Value box has been filled with the text ‘v3.04.1’"><figcaption><p>You can add variables to a single page or an entire section. When you update the value of a variable, every instance of it will update.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x (1).png" alt="A GitBook screenshot showing the Add variables screen. The variable Name box has been filled with the text ‘latest_version’ and the Value box has been filled with the text ‘v3.04.1’"><figcaption><p>You can add variables to a single page or an entire section. When you update the value of a variable, every instance of it will update.</p></figcaption></figure>
 
 {% hint style="info" %}
 Variable names must start with a letter, and can contain letters, numbers and underscores.
@@ -40,7 +40,7 @@ Variables defined under your page are accessible under the `page.vars` object. S
 In expressions, section-scoped variables live under `space.vars` — the GitBook API represents sections as `space` objects.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x_1.png" alt="A GitBook screenshot showing an expression block within the editor. The expression editor is open below it and the ‘space.vars.latest_version’ variable has been selected"><figcaption><p>You can add variables to your content within expressions. The expression editor offers autocomplete options to help you find the variable you need.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_add_variable@2x_1 (1).png" alt="A GitBook screenshot showing an expression block within the editor. The expression editor is open below it and the ‘space.vars.latest_version’ variable has been selected"><figcaption><p>You can add variables to your content within expressions. The expression editor offers autocomplete options to help you find the variable you need.</p></figcaption></figure>
 
 ### Update a variable
 

@@ -9,7 +9,7 @@ description: >-
 
 The change requests screen lets you view and manage active change requests across your site — open them, merge them, or collaborate with GitBook Agent on updates, all in one place. Open it from **Change requests**, under **General** in the site sidebar.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_change_requests_screen@2x.png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_change_requests_screen@2x (1).png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
 
 ### Navigating the change request screen
 
@@ -26,4 +26,3 @@ When someone requests your review, you can edit the content and leave feedback d
 You can request more changes, or approve the change request to signal it is ready to merge.
 
 Most reviews take place in the change request's comments, where collaborators can discuss specific content blocks or the change request as a whole. You can also ask the [GitBook Agent](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to review a change request — it can check, plan, and continue working on changes alongside your team.
-

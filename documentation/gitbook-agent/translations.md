@@ -15,7 +15,7 @@ Only [organization admins](../collaborate/member-management/roles.md#admin) can 
 
 Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a section as a translation of another, and let GitBook Agent handle the rest.
 
-<figure><img src="../.gitbook/assets/25_12_10_create_translation@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_create_translation@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ## How translations work
 

@@ -12,15 +12,15 @@ Each tab can contain multiple other blocks, of any type. So you can add code blo
 
 ### Add or delete tabs
 
-To add a new tab to a tab block, hover over the edge of a tab and click the `+` button that appears. To delete a tab, open the tab’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> then select **Delete**.
+To add a new tab to a tab block, hover over the edge of a tab and click the `+` button that appears. To delete a tab, open the tab’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt="The Options menu icon in GitBook"></picture> then select **Delete**.
 
 ### Add, change, or delete tab item icons
 
-To set an icon associated with a tab, open the tab's **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> then select **Set icon**. Select the icon from an icon picker.
+To set an icon associated with a tab, open the tab's **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt="The Options menu icon in GitBook"></picture> then select **Set icon**. Select the icon from an icon picker.
 
-To change an icon, open the tab's **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> then select **Change icon**. Then, select the icon from an icon picker.
+To change an icon, open the tab's **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt="The Options menu icon in GitBook"></picture> then select **Change icon**. Then, select the icon from an icon picker.
 
-To remove an icon, open the tab's **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> then select **Remove icon**.
+To remove an icon, open the tab's **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt="The Options menu icon in GitBook"></picture> then select **Remove icon**.
 
 ### Example
 

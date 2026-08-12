@@ -13,7 +13,7 @@ Connected content can appear in [AI Search](ai-search.md) and [GitBook Assistant
 
 To add a connection, open your site’s **Settings** and click on **Connections**.
 
-<figure><img src="../.gitbook/assets/2026-07-13_connections@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-07-13_connections@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Available connections
 

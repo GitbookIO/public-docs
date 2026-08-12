@@ -4,8 +4,6 @@ description: Use GitBook Agent to generate and build content for your page
 
 # Writing with GitBook Agent
 
-{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 GitBook Agent is a powerful tool for generating content for your documentation in GitBook.
 
 The Agent can do everything from write short passages of text on your page, to edit existing blocks and create new pages and more in a change request.
@@ -46,7 +44,7 @@ Let’s run through each of these to find out how they work.
 
 You can open the Agent chat window in a change request at any time by clicking the **GitBook Agent** button in the section header bar. This will open the Agent’s chat window on the right of the app.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_write_and_edit_with_ai@2x.png" alt=""><figcaption><p>Open GitBook Agent in a change request</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_write_and_edit_with_ai@2x (1).png" alt=""><figcaption><p>Open GitBook Agent in a change request</p></figcaption></figure></div>
 
 Here you can write a prompt for the Agent to follow — it will explain what it’s doing as it follows your instructions, with the changes appearing in your section as it works.
 
@@ -70,11 +68,11 @@ GitBook Agent will update the content based on your prompt, then reply to your c
 
 #### Improve page content with GitBook Agent
 
-<figure><img src="../.gitbook/assets/26_01_14_improve_page_actions.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_14_improve_page_actions (1).png" alt=""><figcaption></figcaption></figure>
 
 The **Improve** menu gives you a choice of presets that tell GitBook Agent to carry out common actions to improve your page content.
 
-You can access the **Improve** menu from the editor by hovering over the page title, or by opening the page’s **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture>.
+You can access the **Improve** menu from the editor by hovering over the page title, or by opening the page’s **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt=""></picture>.
 
 From the Improve menu, you can tell the Agent to:
 

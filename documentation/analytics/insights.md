@@ -4,8 +4,6 @@ description: View analytics related to your published documentation’s traffic 
 
 # Site analytics
 
-{% include "../../.gitbook/includes/premium-and-ultimate-hint.md" %}
-
 Site analytics gives you information on the content you’ve published and how it performs. It’s split into different sections — **Traffic**, **Pages & feedback**, **Agent and LLMs**, **Search**, **Ask AI**, **Links**, **MCP**, and **OpenAPI**.
 
 You can see a top-level overview of your analytics on your site’s **Overview** screen, under **General** in the site sidebar, with a globe that shows views in the last hour by location.
@@ -16,7 +14,7 @@ Click **Analytics** in the site header to open site analytics for your site.
 If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../manage-your-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1) (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
 
 ### Filters & groups
 
@@ -26,7 +24,7 @@ By combining filters and groups, you can drill down in to precise analytics data
 
 ### View by custom time periods
 
-You can use the time filter <picture><source srcset="../.gitbook/assets/25_09_15_calendar.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1.svg" alt=""></picture> on the right of the **Analytics** screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.
+You can use the time filter <picture><source srcset="../.gitbook/assets/25_09_15_calendar (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1 (1).svg" alt=""></picture> on the right of the **Analytics** screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.
 
 To view the data over a custom time period, click **Custom range** to choose your custom time period in the calendar.
 

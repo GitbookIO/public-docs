@@ -4,8 +4,6 @@ description: Host your documentation with a /docs subdirectory using Vercel
 
 # Configuring a subdirectory with Vercel
 
-{% include "../../../../.gitbook/includes/ultimate-hint.md" %}
-
 {% stepper %}
 {% step %}
 #### Configuring your GitBook site

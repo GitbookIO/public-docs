@@ -12,11 +12,9 @@ GitBook stores drawings as special SVG files in the section. Those files have an
 
 ### Example of a drawing block
 
-<img src="../../.gitbook/assets/25_01_10_diagram.svg" alt="A diagram drawn in GitBook" class="gitbook-drawing">
+<img src="../../.gitbook/assets/25_01_10_diagram (1).svg" alt="A diagram drawn in GitBook" class="gitbook-drawing">
 
 ### Draw with GitBook AI
-
-{% include "../../../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 When using drawing block, you can ask GitBook AI to generate an illustration by specifying a prompt. Simply type in a prompt and hit **Generate**, or choose one of the suggested prompts to get started.
 

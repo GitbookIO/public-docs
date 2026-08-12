@@ -3,7 +3,7 @@ description: >-
   Create and publish AI-native documentation your users will love. GitBook gives
   you intelligent tools to build product guides, API references, and
   documentation that improves over time.
-cover: .gitbook/assets/hero (1).png
+cover: .gitbook/assets/hero (1) (1).png
 coverY: 0
 coverHeight: 461
 layout:

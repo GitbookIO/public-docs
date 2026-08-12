@@ -4,8 +4,6 @@ description: Learn how to share your GitBook content via SSO & SAML
 
 # SSO & SAML
 
-{% include "../../../.gitbook/includes/enterprise-hint.md" %}
-
 While manually managing your organization members is fine for smaller teams or folks who want tonnes of control, sometimes you just need to open things up in a more automated way. GitBook allows you to configure this in a couple of ways, through a basic email domain SSO, and a more complex SAML integration.
 
 ## Single sign-on via email domain
@@ -14,7 +12,7 @@ When you create or manage your organization, you can add a list of email domains
 
 You can enable email domain SSO in the **SSO** section of your organization’s **Settings**; enter a comma-separated list of email domains you’d like to allow SSO access for and you’re good to go.
 
-<figure><img src="../../.gitbook/assets/25_01_10_sso.svg" alt="A GitBook screenshot showing how to configure SSO"><figcaption><p>Set up SSO for your organization.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_01_10_sso (1).svg" alt="A GitBook screenshot showing how to configure SSO"><figcaption><p>Set up SSO for your organization.</p></figcaption></figure>
 
 {% hint style="info" %}
 Anyone who joins via an SSO email domain will default to guest access, you can change their role at any time in the members section of your organization settings.

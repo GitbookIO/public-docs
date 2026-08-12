@@ -4,8 +4,6 @@ description: Define requirements that must be met before change requests can be 
 
 # Merge rules
 
-{% include "../../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 Merge rules allow you to define requirements that must be met before change requests can be merged, such as needing a review from a specific user, or requiring a subject or description for the change request.
 
 These rules help maintain content quality and ensure proper review processes across your documentation workflow.
@@ -22,7 +20,7 @@ You can configure merge rules at different levels to match your team’s workflo
 
 Organizations can set default merge rules that all sections inherit. This provides consistency across multiple sections while still allowing individual sections to customize their rules as needed.
 
-To configure merge rules for your organization, go back to your organization **Home** and click **Settings** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>, under **Admin** in the sidebar. In the settings screen, click **Merge rules** under the **Organization** group. Here you can specify merge rules for your entire organization.
+To configure merge rules for your organization, go back to your organization **Home** and click **Settings** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light (1).svg" alt=""></picture>, under **Admin** in the sidebar. In the settings screen, click **Merge rules** under the **Organization** group. Here you can specify merge rules for your entire organization.
 
 Choose between unrestricted merging, or select from the list of presets to apply to change requests across your entire organization.
 

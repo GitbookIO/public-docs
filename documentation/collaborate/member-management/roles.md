@@ -52,8 +52,6 @@ Reader seats are paid for organizations on all plans.
 
 Commenters have the same read-only access as readers, but they’re also able to leave comments against content and spaces (find out more about how that works in our [comments](../comments.md) documentation).
 
-{% include "../../../.gitbook/includes/pro-and-enterprise-hint.md" %}
-
 </details>
 
 <details>
@@ -69,8 +67,6 @@ Editors are able to read and comment, just like a commenter, but they’re also 
 <summary>Reviewer</summary>
 
 Reviewers have all the same permissions as an editor however, they can also merge their own and others’ change requests.
-
-{% include "../../../.gitbook/includes/pro-and-enterprise-hint.md" %}
 
 </details>
 

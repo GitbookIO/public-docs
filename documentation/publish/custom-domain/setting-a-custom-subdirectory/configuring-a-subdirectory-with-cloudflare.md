@@ -4,8 +4,6 @@ description: Host your documentation with a /docs subdirectory using Cloudflare
 
 # Configuring a subdirectory with Cloudflare
 
-{% include "../../../../.gitbook/includes/ultimate-hint.md" %}
-
 {% stepper %}
 {% step %}
 #### Configuring your GitBook site

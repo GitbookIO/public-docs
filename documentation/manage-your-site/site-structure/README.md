@@ -10,7 +10,7 @@ The content on your site lives in its [sections](../../create-content/content-st
 
 Content in your site can serve as one of two different content types, which determine how GitBook treats it and shows it to visitors.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden><select></select></th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td><strong>Sections</strong></td><td>Split your site into distinct parts — ideal for multiple products or parts of your organization.</td><td><a href="../../.gitbook/assets/25_08_29_site_sections.svg">25_08_29_site_sections.svg</a></td><td><a href="../../.gitbook/assets/25_12_10_site_sections_1.png">25_12_10_site_sections_1.png</a></td><td><a href="site-sections.md">site-sections.md</a></td><td></td><td><a href="../../.gitbook/assets/25_12_10_site_sections.png">25_12_10_site_sections.png</a></td></tr><tr><td><strong>Content variants</strong></td><td>Publish multiple versions of the same content — ideal for localization, versioning, and more.</td><td><a href="../../.gitbook/assets/25_08_29_content_variants.svg">25_08_29_content_variants.svg</a></td><td><a href="../../.gitbook/assets/25_12_10_content_variants_1.png">25_12_10_content_variants_1.png</a></td><td><a href="variants.md">variants.md</a></td><td></td><td><a href="../../.gitbook/assets/25_12_10_content_variants.png">25_12_10_content_variants.png</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="image">Cover image (dark)</th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden><select></select></th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th></tr></thead><tbody><tr><td><strong>Sections</strong></td><td>Split your site into distinct parts — ideal for multiple products or parts of your organization.</td><td><a href="../../.gitbook/assets/25_08_29_site_sections (1).svg">25_08_29_site_sections (1).svg</a></td><td><a href="../../.gitbook/assets/25_12_10_site_sections_1 (1).png">25_12_10_site_sections_1 (1).png</a></td><td><a href="site-sections.md">site-sections.md</a></td><td></td><td><a href="../../.gitbook/assets/25_12_10_site_sections (1).png">25_12_10_site_sections (1).png</a></td></tr><tr><td><strong>Content variants</strong></td><td>Publish multiple versions of the same content — ideal for localization, versioning, and more.</td><td><a href="../../.gitbook/assets/25_08_29_content_variants (1).svg">25_08_29_content_variants (1).svg</a></td><td><a href="../../.gitbook/assets/25_12_10_content_variants_1 (1).png">25_12_10_content_variants_1 (1).png</a></td><td><a href="variants.md">variants.md</a></td><td></td><td><a href="../../.gitbook/assets/25_12_10_content_variants (1).png">25_12_10_content_variants (1).png</a></td></tr></tbody></table>
 
 ## Managing your site structure
 
@@ -20,7 +20,7 @@ Open the structure editor from **Site structure**, under **General** in the site
 
 Your site starts out with a single section with your site's name and a single variant with the content you created during your site's set-up.
 
-<figure><img src="../../.gitbook/assets/25_12_10_structure_light.png" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption><p>The structure of a published docs site.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_structure_light (1).png" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption><p>The structure of a published docs site.</p></figcaption></figure>
 
 ### Adding a section to your docs site
 
@@ -32,9 +32,9 @@ When you add content — as a variant or a section — a name and slug will be g
 
 ### Changing sections or variants
 
-<div data-full-width="false"><figure><img src="../../.gitbook/assets/25_12_10_edit_variant_light.png" alt="A GitBook screenshot showing how to edit a variant"><figcaption><p>Update a site section or variant.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/25_12_10_edit_variant_light (1).png" alt="A GitBook screenshot showing how to edit a variant"><figcaption><p>Update a site section or variant.</p></figcaption></figure></div>
 
-You can change the name and slug of each of your sections and variants by clicking the **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> button in the table row of the item you’d like to edit. This will open a modal. Edit the field(s) you’d like to change, then click the **Save** button to save.
+You can change the name and slug of each of your sections and variants by clicking the **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light (1).svg" alt="The Edit icon in GitBook"></picture> button in the table row of the item you’d like to edit. This will open a modal. Edit the field(s) you’d like to change, then click the **Save** button to save.
 
 {% hint style="info" %}
 Changing a section's slug will change its canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../../publish/site-redirects.md).
@@ -44,11 +44,11 @@ Changing a section's slug will change its canonical URL. GitBook will create an 
 Slugs are unique across your entire organization — each path can only be used on one site, even across different sites. If you see a "path is already taken" error, another site is already using that slug. Choose a slightly varied slug that's still meaningful for your content.
 {% endhint %}
 
-To replace a section or variant, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt="The Edit icon in GitBook"></picture> button, then click the **Delete** button in the lower left of the modal. Once the item is deleted, click the **Add section** or **Add variant** button to add it again.
+To replace a section or variant, first delete it by clicking its **Edit** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light (1).svg" alt="The Edit icon in GitBook"></picture> button, then click the **Delete** button in the lower left of the modal. Once the item is deleted, click the **Add section** or **Add variant** button to add it again.
 
 ### Reordering sections or variants
 
-Your site displays sections and variants in the order that they appear in your **Site structure** table. They can be reordered by grabbing the **Drag handle** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and moving it up or down. The changed order will be reflected on your site immediately.
+Your site displays sections and variants in the order that they appear in your **Site structure** table. They can be reordered by grabbing the **Drag handle** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt="The Options menu icon in GitBook"></picture> and moving it up or down. The changed order will be reflected on your site immediately.
 
 You can also use the keyboard to select and move content. Select a section or variant with the space bar, then use the arrow keys to move it up or down. Hit the space bar again to confirm the new position.
 
@@ -58,7 +58,7 @@ If you have multiple sections in your site, one section will be marked as **Defa
 
 If you have multiple variants within a section, one variant will be marked as the default. Like sections, the default variant is shown when visitors arrive on your site, or when they visit a section. Other variants each have a slug that’s appended to the section’s URL.
 
-To set a section or variant as default, click on the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> in its table row and then click **Set as default**.
+To set a section or variant as default, click on the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> in its table row and then click **Set as default**.
 
 {% hint style="info" %}
 Setting content as default removes its slug field, as it will be served from the section root instead. GitBook redirects the old slug to the appropriate path, to ensure visitors keep seeing your content.
@@ -68,7 +68,7 @@ Setting content as default removes its slug field, as it will be served from the
 
 To remove a section or variant from a site, open the structure editor from **Site structure**, under **General** in the site sidebar, and find the content you want to remove.
 
-Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the content you want to remove and choose **Remove**.
+Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> for the content you want to remove and choose **Remove**.
 
 {% hint style="success" %}
 Removing content from your site will remove it from the published site, but **will not delete the content itself** — you can still find it in [All content](../../create-content/content-structure/all-content.md).

@@ -14,7 +14,7 @@ GitBook supports live collaboration, meaning you’ll be able to work on the sam
 
 ### Toggling live edit mode
 
-You can toggle live edit mode in a section by clicking **Lock live edits** or **Unlock live edits** in the [section header’s](../reference/gitbook-ui.md#space-header) **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>.
+You can toggle live edit mode in a section by clicking **Lock live edits** or **Unlock live edits** in the [section header’s](../reference/gitbook-ui.md#space-header) **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1 (1).svg" alt="The Actions menu icon in GitBook"></picture>.
 
 When a section is in **Live edits** mode, the section header will show the **Editor** tab. When it is in **Locked live edits** mode, the section header will show a **Read-only** tab. When the Read-only tab appears in the section header, you will need to open a change request to edit the content of the page, or unlock live edits.
 

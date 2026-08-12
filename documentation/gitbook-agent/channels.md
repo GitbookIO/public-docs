@@ -13,8 +13,6 @@ tags:
 We’re slowly rolling out access to channels. Stay tuned for more progress on the features below.
 {% endhint %}
 
-{% include "../../.gitbook/includes/ultimate-hint.md" %}
-
 Channels bring [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) and [GitBook Agent](overview.md) into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
 
 When you add a channel, you choose how GitBook shows up in that tool. Each configuration runs in one of two modes:
@@ -35,7 +33,7 @@ Use Channels when support questions, bug reports, or product feedback start in S
 Head to [embedding](../publish/embedding/ "mention") to learn how to embed GitBook Assistant.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/26_05_01_channels@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_05_01_channels@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Available channels
 
