@@ -9,6 +9,8 @@
 * [Migrate to GitBook](getting-started/import.md)
 * [Site workspace](getting-started/sites-first.md)
 
+## Your docs site <a href="#docs-site" id="docs-site"></a>
+
 ## Create content
 
 * [Content structure](create-content/content-structure/README.md)
@@ -119,10 +121,10 @@
 * [Site structure](manage-your-site/site-structure/README.md)
   * [Sections](manage-your-site/site-structure/site-sections.md)
   * [Content variants](manage-your-site/site-structure/variants.md)
-  * [Multilingual sections](manage-your-site/site-structure/multilingual-sections.md)
+  * [Multilingual sections](../docs-site/site-structure/multilingual-sections.md)
 * [Site customization](manage-your-site/customization/README.md)
   * [Icons, colors, and themes](manage-your-site/customization/icons-colors-and-themes.md)
-  * [Layout and structure](manage-your-site/customization/layout-and-structure.md)
+  * [Layout and structure](../docs-site/customization/layout-and-structure.md)
   * [Sharing and social](manage-your-site/customization/sharing-and-social.md)
   * [Toolbar on published sites and site previews](manage-your-site/customization/toolbar-on-published-sites-and-site-previews.md "Toolbar")
   * [Extra configuration](manage-your-site/customization/extra-configuration.md)

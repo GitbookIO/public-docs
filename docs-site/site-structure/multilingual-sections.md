@@ -1,5 +1,5 @@
 ---
-description: Set localized titles for your site, sections, and section groups
+description: Set localized titles for your site, sections, section groups, and navigation
 ---
 
 # Multilingual sections
@@ -7,6 +7,8 @@ description: Set localized titles for your site, sections, and section groups
 Localized titles let you show different titles for different languages on your published site.
 
 Visitors see the title that matches the language they’re browsing in. If a translation isn’t set, GitBook shows the fallback title instead.
+
+Use `localizedTitle` for header links and buttons, footer links, and footer groups. See [Layout and structure](../customization/layout-and-structure.md).
 
 {% hint style="info" %}
 Localized titles only appear when your site includes content in more than one language.

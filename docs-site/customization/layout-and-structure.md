@@ -6,7 +6,7 @@ description: Customize the layout and structure of your published documentation
 
 ### Header
 
-<figure><img src="../../.gitbook/assets/25_12_10_header@2x (1).png" alt="A GitBook screenshot showing header customization settings"><figcaption></figcaption></figure>
+<figure><img src="../../documentation/.gitbook/assets/25_12_10_header@2x (1).png" alt="A GitBook screenshot showing header customization settings"><figcaption></figcaption></figure>
 
 **Search bar**
 
@@ -17,6 +17,8 @@ Change the position and look of the search bar between prominent (centered in th
 Add header links to your site. You could use header links to point to important parts of your documentation, or link back to your main website.
 
 You can choose what appearance you would like your link to have—normal link, primary button, or secondary button. When enabled, simply add a title and a URL for each link. We support two levels of header navigation, meaning you can have sub‑links that appear in a dropdown menu.
+
+Use `localizedTitle` to localize header link and button titles, alongside site, section, and section group titles.
 
 ### Announcement (Premium & Ultimate)
 
@@ -30,7 +32,7 @@ Control the display of the “previous” and “next” buttons that appear at 
 
 ### Footer (Premium & Ultimate)
 
-<figure><img src="../../.gitbook/assets/25_12_10_footer@2x (1).png" alt="A GitBook screenshot showing footer customization settings"><figcaption></figcaption></figure>
+<figure><img src="../../documentation/.gitbook/assets/25_12_10_footer@2x (1).png" alt="A GitBook screenshot showing footer customization settings"><figcaption></figcaption></figure>
 
 **Logo**
 
@@ -43,3 +45,5 @@ Add copyright information to your footer.
 **Navigation**
 
 Add links in your footer, organized into multiple sections. Similar to the header, add a title and URL for each link, and include a section title for each group of links.
+
+Use `localizedTitle` to localize footer link and group titles, alongside site, section, and section group titles.
