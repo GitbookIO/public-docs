@@ -34,7 +34,7 @@ layout:
 
 ## Documentation your users actually read
 
-Write in the editor, drive it from your agent, or sync it from Git. Publish a docs site your team maintains without fighting it.
+Your users are humans and their AI agents — GitBook publishes for both. Write in the editor, drive it from your agent, or sync from Git.
 
 <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">What are you trying to do?</button>
 
