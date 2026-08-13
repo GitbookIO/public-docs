@@ -90,7 +90,7 @@ Choose who sees your published content. See [publish-a-docs-site](../publish/pub
 
 <details>
 
-<summary>Adaptive content <mark style="background-color:purple;">Ultimate</mark></summary>
+<summary>Adaptive content <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Turn on adaptive content for your site pages, variants, and sections. [Adaptive content](../publish/adaptive-content/) lets you hide or show content for different visitors, depending on their permissions.
 
@@ -126,7 +126,7 @@ Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). Learn more
 
 <details>
 
-<summary>PDF export <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>PDF export <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
 
@@ -134,7 +134,7 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/
 
 <details>
 
-<summary>Page ratings <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>Page ratings <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
@@ -148,7 +148,7 @@ AI settings have different plan entitlements. AI Search is available on Premium 
 
 <details>
 
-<summary>Choose the AI experience <mark style="background-color:purple;">Premium &#x26; Ultimate</mark></summary>
+<summary>Choose the AI experience <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Choose the search experience for your site. AI Search is available on Premium and Ultimate site plans. GitBook Assistant is available on Ultimate site plans. See [ai-search.md](../ai-for-your-readers/ai-search.md "mention") for more info.
 
@@ -156,7 +156,7 @@ Choose the search experience for your site. AI Search is available on Premium an
 
 <details>
 
-<summary>Extend GitBook Assistant with MCP connectors <mark style="background-color:purple;">Ultimate</mark></summary>
+<summary>Extend GitBook Assistant with MCP connectors <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Configure MCP servers that GitBook Assistant can use when answering questions inside your docs. This setting is available on Ultimate site plans. See [#how-do-i-use-gitbook-ai](../ai-for-your-readers/ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
 
