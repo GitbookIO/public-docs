@@ -99,4 +99,4 @@ If you _do_ want to reset your password:
 
 **Error: auth/expired-action-code** — the sign-in or invitation link has passed its validity period. Generate a new link, or ask the sender for a fresh one.
 
-**Error: auth/email-already-in-use** — the GitHub account you're signing in with is already linked to a different GitBook account. See [Potential duplicated accounts](../docs-as-code/git-sync/troubleshooting.md#potential-duplicated-accounts-when-signing-in) for the steps to identify and unlink it.
+**Error: auth/email-already-in-use** — the GitHub account you're signing in with is already linked to a different GitBook account. See [Potential duplicated accounts](../../getting-started/git-sync/troubleshooting.md#potential-duplicated-accounts-when-signing-in) for the steps to identify and unlink it.

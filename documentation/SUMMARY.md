@@ -90,7 +90,7 @@
   * [GitHub pull request preview](docs-as-code/git-sync/github-pull-request-preview.md)
   * [Commit messages & Autolink](docs-as-code/git-sync/commits.md)
   * [Monorepos](docs-as-code/git-sync/monorepos.md)
-  * [Troubleshooting](docs-as-code/git-sync/troubleshooting.md)
+  * [Troubleshooting](../getting-started/git-sync/troubleshooting.md)
 * [GitBook MCP](docs-as-code/gitbook-mcp.md)
 * [GitBook CLI](docs-as-code/gitbook-cli.md)
 * [Agent skills](docs-as-code/ai-coding-assistants-and-skillmd.md "Agent skills")
