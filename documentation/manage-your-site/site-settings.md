@@ -144,7 +144,7 @@ You can review the results of these ratings by opening [site analytics](../analy
 
 ### AI & MCP
 
-AI settings have different plan entitlements. AI Search is available on Premium and Ultimate site plans. GitBook Assistant and MCP connectors are available on Ultimate.
+AI settings are available on different plans. AI Search is available on Premium and Ultimate site plans. GitBook Assistant and MCP connectors are available on Ultimate.
 
 <details>
 
