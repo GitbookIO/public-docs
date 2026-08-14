@@ -37,7 +37,7 @@ ReactDOM.render(<App />, window.document.getElementById('root'));
 ```
 {% endcode %}
 
-You can also combine code blocks with a [tabs block](tabs.md) to offer the same code example in multiple different languages:
+You can also combine code blocks with a [tabs block](../../../creating-content/blocks/tabs.md) to offer the same code example in multiple different languages:
 
 {% tabs %}
 {% tab title="JavaScript" %}

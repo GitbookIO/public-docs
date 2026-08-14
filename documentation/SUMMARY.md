@@ -34,7 +34,7 @@
   * [Embedded URLs](../creating-content/blocks/embed-a-url.md)
   * [Tables](create-content/blocks/table.md)
   * [Cards](create-content/blocks/cards.md)
-  * [Tabs](create-content/blocks/tabs.md)
+  * [Tabs](../creating-content/blocks/tabs.md)
   * [Expandable](create-content/blocks/expandable.md)
   * [Stepper](create-content/blocks/stepper.md)
   * [Updates](create-content/blocks/updates.md)
