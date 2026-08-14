@@ -39,7 +39,7 @@ In GitHub, open your repository's branch protection settings and allow `gitbook-
 
 **If the error appeared during first-time setup:** remove the GitHub or GitLab integration, enable it again in your section, and go through the setup process once more.
 
-If none of these steps help, [contact support](/broken/pages/4XKM0YebpgpW3W1I3TpP).
+If none of these steps help, [contact support](../../documentation/help/contact-support.md).
 
 </details>
 
@@ -186,7 +186,7 @@ This could either be because you created the file manually, or because you made 
 
 The content of this file mirrors your [table of contents](../../documentation/reference/gitbook-ui.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
 
-If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](https://gitbook.com/docs/help-center/further-help/how-do-i-contact-support) for assistance.
+If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](../../documentation/help/contact-support.md) for assistance.
 
 </details>
 
