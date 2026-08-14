@@ -77,12 +77,15 @@ To set up a new variant for a translation, open the structure editor from **Site
 
 ## Pricing
 
-Translations are a paid **monthly** add-on:
+Translations are a paid add-on. We bill translations on the same monthly or annual cycle as your main subscription.
 
-* $25 for up to 50,000 translated words
+* Monthly rate: $25 per month for up to 50,000 translated words each month
+* Annual rate: $250 per year for up to 50,000 translated words each month
 * $0.20 per additional 1,000 words
 
-Each month includes 50,000 words of translation for $25. After that, every additional 1,000 words costs $0.20. Your 50,000-word allowance resets at the start of each month.
+The monthly allowance resets at the start of each month. The $0.20 rate applies to every additional 1,000 words, including on annual subscriptions.
+
+“Monthly” describes the rate and word allowance. It doesn't describe the billing cycle.
 
 In your first translation, every word will count towards your bill. After that, only **pages** with new or updated words are charged. For example, if you edit your docs later, only the pages with new words will count towards your word limit — you won’t be re-billed for the entire document.
 
