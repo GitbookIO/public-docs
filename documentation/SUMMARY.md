@@ -77,7 +77,7 @@
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
 * [Automatic docs improvements](gitbook-agent/automatic-docs-improvements.md)
-* [Translations](gitbook-agent/translations.md)
+* [Translations](../gitbook-agent/translations.md)
 * [Channels](gitbook-agent/channels.md)
 * [Guides](gitbook-agent/guides.md)
 
