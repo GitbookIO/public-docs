@@ -31,7 +31,7 @@
   * [Code blocks](create-content/blocks/code-block.md)
   * [Files](create-content/blocks/insert-files.md)
   * [Images](create-content/blocks/insert-images.md)
-  * [Embedded URLs](create-content/blocks/embed-a-url.md)
+  * [Embedded URLs](../creating-content/blocks/embed-a-url.md)
   * [Tables](create-content/blocks/table.md)
   * [Cards](create-content/blocks/cards.md)
   * [Tabs](create-content/blocks/tabs.md)

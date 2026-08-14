@@ -4,15 +4,7 @@ description: Embed videos, music and more directly into your page with a URL
 
 # Embedded URLs
 
-To add an embedbed URL, simply paste the link of the content you want to embed and hit `Enter`.
-
-{% hint style="info" %}
-**Note:** The content you want to embed must be publicly available in order for GitBook to access the file. For example, when embedding a Google doc the share settings must be set to _Anyone with the link_.
-{% endhint %}
-
-{% hint style="info" %}
-GitBook doesn't support embedding external content with an HTML `<iframe>`, due to its content security policy. If the content is publicly available, use the embed block instead.
-{% endhint %}
+To add an embedded URL, paste the link of the content you want to embed and press `Enter`.
 
 ### Videos
 
@@ -39,3 +31,17 @@ Uploaded video files — such as MP4s — don't play inline; they appear as link
 ```markdown
 {% embed url="URL_HERE" %}
 ```
+
+### FAQ
+
+<details>
+
+<summary>Why isn't my URL working?</summary>
+
+Your content must be publicly available. For Google Docs, select the _Anyone with the link_ sharing setting.
+
+GitBook embeds URLs through [Iframely](https://iframely.com/domains). Confirm that Iframely supports your provider, then [test your URL with Iframely](https://iframely.com/try).
+
+GitBook can't embed external HTML `<iframe>` tags because of its content security policy. Use an embed block instead.
+
+</details>
