@@ -15,7 +15,7 @@
   * [Sections](create-content/content-structure/space.md)
   * [Groups](create-content/content-structure/collection.md)
   * [Pages](create-content/content-structure/page/README.md)
-    * [Tags](create-content/content-structure/page/tags.md)
+    * [Tags](../creating-content/content-structure/page/tags.md)
   * [All content](create-content/content-structure/all-content.md)
 * [Format content](create-content/formatting/README.md)
   * [Inline content](create-content/formatting/inline.md)
