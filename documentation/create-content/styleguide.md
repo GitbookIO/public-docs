@@ -20,9 +20,6 @@ layout:
     visible: true
   actions:
     visible: true
-tags:
-  - tag: early-access
-    primary: true
 ---
 
 # Style guide
@@ -33,10 +30,6 @@ A style guide serves two audiences:
 
 * **Your team:** writers and reviewers have one shared reference for how to write, so documentation stays consistent no matter who edits it.
 * **GitBook Agent:** the Agent reads your style guide and treats it as the source of truth it must follow whenever it writes, edits, or reviews content. It overrides the Agent's own defaults and general writing conventions.
-
-{% hint style="info" %}
-**Style guides are in early access.** The style guide feature is rolling out gradually. If you don't see it yet, it isn't enabled for your organization.
-{% endhint %}
 
 ### How GitBook Agent uses your style guide
 
