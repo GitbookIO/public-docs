@@ -32,7 +32,7 @@ To add a variant, click the **Add variant** button in the section you'd like to 
 
 You can change the name and slug of each of your variants by clicking the <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light (1).svg" alt="The Edit icon in GitBook"></picture> **Edit** button in the table row of the variant you’d like to edit. This will open a modal. Edit the field(s) you'd like to change, then click the **Save** button to save. You can also delete the variant by clicking the **Delete variant** button in the lower left.
 
-If your site supports multiple languages, you can also translate variant titles so the picker shows localized labels. See [Multilingual sections](../../../docs-site/site-structure/multilingual-sections.md).
+If your site supports multiple languages, you can also translate variant titles so the picker shows localized labels. See [Multilingual sections](multilingual-sections.md).
 
 {% hint style="info" %}
 Changing a variant's slug will change its canonical URL. GitBook will create an automatic redirect from the old URL to the new one. You can also [manually create redirects](../../publish/site-redirects.md).

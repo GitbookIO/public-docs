@@ -11,7 +11,7 @@ You can adapt and personalize many parts of your docs, including:
 * Hiding or showing [pages](../../create-content/content-structure/page/)
 * Hiding or showing site [variants](../../manage-your-site/site-structure/variants.md)
 * Hiding or showing site [sections](../../manage-your-site/site-structure/site-sections.md)
-* Hiding or showing [header links](../../../docs-site/customization/layout-and-structure.md#header)
+* Hiding or showing [header links](../../manage-your-site/customization/layout-and-structure.md#header)
 * Adding personalized content to [inline expressions](../../create-content/variables-and-expressions.md)
 
 ### Working with the condition editor

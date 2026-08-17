@@ -44,7 +44,7 @@ To create a group:
 4. Click **Add section**.
 5. Add existing sections or select new content.
 
-If your site supports multiple languages, translate group titles, section titles, and descriptions. See [Multilingual sections](../../../docs-site/site-structure/multilingual-sections.md).
+If your site supports multiple languages, translate group titles, section titles, and descriptions. See [Multilingual sections](multilingual-sections.md).
 
 ### Edit a section
 

@@ -41,7 +41,7 @@ As your docs evolve with your product, your customers get the right information 
 
 ### Explore GitBook Agent’s features
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Write with GitBook Agent</strong></td><td>Create content from a prompt, or edit a single block</td><td><a href="write-and-edit-with-ai.md">write-and-edit-with-ai.md</a></td></tr><tr><td><strong>Review with GitBook Agent</strong></td><td>Ask GitBook Agent to check your work for spelling, grammar, and style</td><td><a href="review-change-requests-with-gitbook-agent.md">review-change-requests-with-gitbook-agent.md</a></td></tr><tr><td><strong>Translate your docs site</strong></td><td>GitBook Agent can create auto-updating localizations</td><td><a href="../../gitbook-agent/translations.md">translations.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Write with GitBook Agent</strong></td><td>Create content from a prompt, or edit a single block</td><td><a href="write-and-edit-with-ai.md">write-and-edit-with-ai.md</a></td></tr><tr><td><strong>Review with GitBook Agent</strong></td><td>Ask GitBook Agent to check your work for spelling, grammar, and style</td><td><a href="review-change-requests-with-gitbook-agent.md">review-change-requests-with-gitbook-agent.md</a></td></tr><tr><td><strong>Translate your docs site</strong></td><td>GitBook Agent can create auto-updating localizations</td><td><a href="translations.md">translations.md</a></td></tr></tbody></table>
 
 ### Add a style guide and custom instructions
 
@@ -81,7 +81,7 @@ GitBook Agent does not use your data to train AI models. We share the informatio
 
 GitBook Agent is free for all plans while in beta. If you’re not on Pro and not on a trial, free usage includes 10 messages per week.
 
-[Translations](../../gitbook-agent/translations.md) are priced separately as a monthly add-on. Visit [the pricing section](../../gitbook-agent/translations.md#pricing) to find out more.
+[Translations](translations.md) are priced separately as a monthly add-on. Visit [the pricing section](translations.md#pricing) to find out more.
 
 </details>
 

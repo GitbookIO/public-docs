@@ -21,7 +21,7 @@ To help you identify which accounts are linked, you will have to log out from th
 
 If you already know your GitBook account associated with GitHub you can log into that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.
 
-Read more on our [troubleshooting page](../../../getting-started/git-sync/troubleshooting.md#potential-duplicated-accounts-when-signing-in).
+Read more on our [troubleshooting page](troubleshooting.md#potential-duplicated-accounts-when-signing-in).
 {% endhint %}
 
 ### Install the GitBook app to your GitHub account

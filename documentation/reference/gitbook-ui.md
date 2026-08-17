@@ -163,7 +163,7 @@ Under **Tools**:
 
 The editor is the main part of your section. Write and insert content, then collaborate with your team in real time.
 
-Insert [content blocks](../create-content/blocks/), write [Markdown](../create-content/formatting/markdown.md), [embed content](../../creating-content/blocks/embed-a-url.md), and collaborate with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
+Insert [content blocks](../create-content/blocks/), write [Markdown](../create-content/formatting/markdown.md), [embed content](../create-content/blocks/embed-a-url.md), and collaborate with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
 
 You can also comment on blocks and tag teammates.
 
