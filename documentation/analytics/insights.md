@@ -14,7 +14,7 @@ Click **Analytics** in the site header to open site analytics for your site.
 If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../manage-your-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1) (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
 
 ### Filters & groups
 
@@ -24,7 +24,7 @@ By combining filters and groups, you can drill down in to precise analytics data
 
 ### View by custom time periods
 
-You can use the time filter <picture><source srcset="../.gitbook/assets/25_09_15_calendar (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1 (1).svg" alt=""></picture> on the right of the **Analytics** screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.
+You can use the time filter <picture><source srcset="../.gitbook/assets/25_09_15_calendar.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1.svg" alt=""></picture> on the right of the **Analytics** screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.
 
 To view the data over a custom time period, click **Custom range** to choose your custom time period in the calendar.
 
@@ -95,20 +95,56 @@ It tracks interactions such as endpoint views, parameter searches, and request e
 
 See how your site content is being accessed through [MCP](../ai-for-your-readers/mcp-servers-for-published-docs.md) integrations. You can view MCP requests over time and see which bots and agents are accessing your site content.
 
-### Site analytics FAQ
+### FAQ
 
-#### Who can view site analytics?
+<details>
+
+<summary>Who can view site analytics?</summary>
 
 Anyone with access to the site can view its analytics — including readers, reviewers, and editors. Creators and admins can also access the site's settings and customization.
 
-#### Why is my analytics data not loading?
+</details>
+
+<details>
+
+<summary>Why is my analytics data not loading?</summary>
 
 If the analytics dashboard isn't loading, it's usually because an ad blocker or privacy extension is blocking the analytics scripts. Temporarily disable the extension and reload the page, or add GitBook and the services it uses to the extension's allowlist.
 
-#### What does "Page not found" mean?
+</details>
+
+<details>
+
+<summary>What does "Page not found" mean?</summary>
 
 "Page not found" means visitors tried to open a page on your site that doesn't exist. The table only counts visits to your default Page not found page. To see which URLs are broken, open **Broken URLs** in site analytics — from there you can see how many visitors each broken link had and [create redirects](../publish/site-redirects.md) if needed.
 
-#### What does "Not set" mean in referrer data?
+</details>
+
+<details>
+
+<summary>What does "Not set" mean in referrer data?</summary>
 
 "Not set" referrers indicate direct traffic — visitors typed your URL directly, used a bookmark, or clicked links from emails and apps that don't pass referrer data.
+
+</details>
+
+<details>
+
+<summary>What does "Authenticated visitor" mean?</summary>
+
+The "Authenticated visitor" filter shows whether GitBook could identify a visitor when the event happened.
+
+Visitors count as "Authenticated" when they signed in through visitor authentication or arrived with signed visitor claims, such as on sites using adaptive content. Personalization attributes passed through URL parameters or the public visitor cookie are unsigned, so those visitors count as "Anonymous".
+
+</details>
+
+<details>
+
+<summary>What does "Unknown" mean for authenticated visitors?</summary>
+
+“Unknown” means GitBook recorded the event before tracking visitor authentication began in August 2026.
+
+GitBook labels those older events “Unknown” rather than inferring their status. Reports covering earlier periods therefore show most traffic as “Unknown.” The “Authenticated” and “Anonymous” split is meaningful from August 2026 onward.
+
+</details>
