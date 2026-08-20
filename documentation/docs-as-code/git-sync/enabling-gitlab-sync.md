@@ -1,58 +1,94 @@
 ---
-description: Set up and authorize the GitLab integration for GitBook
+description: Sync your GitLab repo with GitBook
 ---
 
 # Enabling GitLab Sync
 
-### Getting started
+This guide will take you through setting up your GitBook site with a repo on GitLab.
 
-In the section you want to sync with your GitLab repo, click **Set up** next to **Git Sync** in the [section header](../../reference/gitbook-ui.md#space-header). From the provider list, click **GitLab Sync**, and click **Configure**.
+<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_1.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_1 (1).png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
+{% stepper %}
+{% step %}
+### Open Git Sync for your site
 
-### Generate and enter your API access token
+From your site, open Git Sync in the sidebar.
+{% endstep %}
 
-You can generate an API access token in your GitLab user settings.
+{% step %}
+### Connect GitLab
+
+Create a Personal access token in your GitLab user settings. Enable `api`, `read_repository`, and `write_repository`, then enter the token in GitBook.
 
 {% hint style="info" %}
-There are two types of access tokens in GitLab: Project and Personal. Note that in order for the integration to work you’ll need to use a Personal token, which you can generate from your GitLab user preferences menu.
+If your token has a role, select `Maintainer` or `Admin`.
 {% endhint %}
+{% endstep %}
 
-Ensure that you enable the following access for your token:
-
-* `api`
-* `read_repository`
-* `write_repository`
-
-If the tokens you create also have a specific role attached to them, also make sure that it has a `Maintainer` or `Admin` role.
-
-Then you can paste the token into the API access token field when configuring your GitLab integration.
-
+{% step %}
 ### Select a repository and branch
 
-Select the repository you want to keep in sync with your GitBook content.
+Under **Source repository**, select the repository that contains your documentation. Select the branch that GitBook syncs with. If the branch doesn’t exist, GitBook creates it during the initial sync.
 
 {% hint style="info" %}
-**Can’t see your repository?** Ensure you’ve set the correct permissions when creating your API token.
+**Can’t find your repository?** Make sure your Personal access token has the required scopes and repository access.
 {% endhint %}
-
-Once you’ve selected the correct repository, choose which branch you want commits to be pushed to and synced from.
 
 {% hint style="warning" %}
-For many GitLab repositories, the `main` branch might be automatically set to protected. If this is the case, we recommend adding a specific branch to sync your content between. You can then merge this into `main` and keep the protection in place.
+If your `main` branch is protected, select a separate branch for Git Sync. You can merge that branch into `main` while keeping its protection.
 {% endhint %}
+{% endstep %}
 
-### Perform an initial sync
+{% step %}
+### Choose an initial sync direction
 
-When syncing for the first time, you’ll have the option to sync in one of two directions:
+Choose the source of truth for the initial sync. Select **Swap direction** if the repository content should replace the GitBook content.
 
-1. GitBook -> GitLab will sync your section’s content **to** the selected branch. This is great if you’re starting from an empty repository and want to get your GitBook content in quickly.
-2. GitLab -> GitBook will sync your section’s content **from** the selected branch. This is great if you have existing markdown content in a repository and want to bring it into GitBook.
+{% hint style="warning" %}
+**GitLab → GitBook can replace your site’s content.** Before you start the sync, confirm the repository, branch, and direction. Make sure the destination content is safe to replace.
+{% endhint %}
+{% endstep %}
 
+{% step %}
+### Set the project directory
+
+If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
+{% endstep %}
+
+{% step %}
+### Map your spaces
+
+Under **Content mapping**, assign each space to a directory in the repository. Use `./` for paths relative to the project directory. Use `/` for paths from the repository root. Newly linked spaces sync automatically.
+{% endstep %}
+
+{% step %}
+### Review advanced options
+
+If needed, configure agent instruction files, a commit message template, or fork previews.
+{% endstep %}
+
+{% step %}
+### Sync your site
+
+Click **Sync** to start the initial sync.
+{% endstep %}
+
+{% step %}
 ### Write and commit
 
-You’re good to go. You’ll notice that if your section was in [live edit](../../collaborate/live-edits.md) mode, live edits are now locked. This allows GitBook to reliably sync content to your repository when someone in your team merges a [change request](../../collaborate/change-requests/) in GitBook.
+Merge a change request in GitBook to commit its changes to GitLab. Commits to GitLab sync back to GitBook.
+{% endstep %}
+{% endstepper %}
 
-When you edit on GitBook, every change request merge will result in a commit to your selected GitLab branch.
+#### Exclude a space from site-wide Git Sync
 
-When you commit to GitLab, every commit will be synced to your GitBook section as a history commit.
+In the site’s Git Sync content mapping, click the remove icon next to the space you want to exclude. You can then configure Git Sync from that space.
+
+If the site already has Git Sync, GitBook asks you to choose a scope:
+
+* Select the site’s repository and branch to add the space to site-wide Git Sync.
+* Select an independent repository and branch to configure Space Git Sync.
+
+If the site doesn’t use Git Sync, GitBook configures Git Sync independently for the space.
+
+To configure Git Sync for a single space, in the space you want to sync, click **Set up** next to **Git Sync** in the [space header](../../reference/gitbook-ui.md#space-header). From the provider list, click **GitLab Sync**, and click **Configure**.

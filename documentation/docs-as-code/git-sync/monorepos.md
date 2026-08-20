@@ -1,98 +1,105 @@
+---
+description: Use Git Sync with monorepos and map spaces to separate directories
+---
+
 # Monorepos
 
-GitBook supports monorepos. A monorepo is a repository that contains more than one logical project (e.g. an iOS client and a web application).
+Use site-wide Git Sync to sync multiple spaces from one repository and branch. Map each space to its own directory in `docs.yaml`.
 
-GitBook can synchronize multiple directories from the same repository with multiple sections. When enabling Git Sync on a section, you can configure a "Project directory". It will be used to lookup the `.gitbook.yaml` file for the directory to synchronize with this section.
+### How site-wide Git Sync works
 
-Example of a repository structure:
+The site’s **Project directory** sets the Git Sync installation directory. `docs.yaml` lives there. If you leave it empty, GitBook uses the repository root.
 
-```
-/
-  package.json
-  packages/
-     styleguide/
-        .gitbook.yaml
-        README.md
-        SUMMARY.md
-     app/
-        README.md
-        SUMMARY.md
-     api/
-        .gitbook.yaml
-        README.md
-        SUMMARY.md
-```
+In `docs.yaml`, each space has a `content.directory`. That directory contains the space’s `.gitbook.yaml`, `README.md`, `SUMMARY.md`, and content files.
 
-In this example, three sections can be created on GitBook and configured with different Project directories:
+For an overview of these files, see [Content configuration](content-configuration.md).
 
-* `packages/styleguide`
-* `packages/app`
-* `packages/api`
+### Map spaces to directories
 
-The "Project directory" option at the Git Sync level differs from the [`root` option](content-configuration.md#root) in the `.gitbook.yaml` configuration file. The first is used to lookup `.gitbook.yaml` itself, then both are combined to lookup the rest of the files in the directory. If no `.gitbook.yaml` exists in the "Project directory", the synchronization will use the default configuration scoped to this directory.
+Use **Content mapping** in the Git Sync panel to map each space. GitBook saves the mapping in `docs.yaml`.
 
-### How directories and assets work in multi-section repos
+Directory paths work as follows:
 
-Each synced section has its own **Project directory**. GitBook reads that section’s `.gitbook.yaml` from the configured Project directory. It then resolves `root`, `README.md`, `SUMMARY.md`, Markdown files, and asset paths from that section’s synced scope.
+| Path     | Meaning                                          |
+| -------- | ------------------------------------------------ |
+| `./docs` | A directory inside the site’s Project directory. |
+| `/docs`  | A directory from the repository root.            |
+| `docs`   | The same as `./docs`.                            |
 
-In a monorepo, each synced section is scoped to its own directory and files. A different section synced from another directory doesn’t inherit or reuse files from elsewhere in the repository automatically.
-
-Assets follow the same rule. A repository-level `.gitbook/assets` folder isn’t shared automatically across sections if those sections use different Project directories.
-
-If multiple sections need the same files, use one of these patterns:
-
-* Place the assets inside each section’s directory.
-* Reorganize the repository so each section’s synced scope contains the assets it references.
-
-When you set up a new section in a monorepo, create the directory structure you want in the repository first. GitBook doesn’t infer a shared multi-section layout or create a shared asset area for you.
-
-For more detail on how `root` is resolved inside a section’s synced scope, see [Content configuration](content-configuration.md#root).
-
-Here’s a concrete example:
+For example, this repository maps three spaces:
 
 ```
 /
-  packages/
-    docs-en/
-      .gitbook.yaml
-      README.md
-      SUMMARY.md
-      .gitbook/
-        assets/
-          logo.png
-    docs-fr/
-      .gitbook.yaml
-      README.md
-      SUMMARY.md
-      .gitbook/
-        assets/
-          logo.png
+  docs.yaml
+  documentation/
+    .gitbook.yaml
+    README.md
+    SUMMARY.md
+    .gitbook/
+      assets/
+        logo.png
+  developers/
+    .gitbook.yaml
+    README.md
+    SUMMARY.md
+  changelog/
+    .gitbook.yaml
+    README.md
+    SUMMARY.md
 ```
 
-In this repository, `packages/docs-en` and `packages/docs-fr` are two separate synced sections. A file referenced from `packages/docs-en/.gitbook/assets/logo.png` isn’t automatically available to the section synced from `packages/docs-fr`.
+This `docs.yaml` maps each space to its directory:
 
-## Updating the Project directory <a href="#updating" id="updating"></a>
+{% code title="docs.yaml" %}
+```yaml
+$schema: https://api.gitbook.com/openapi.yaml#/components/schemas/GitSyncSiteConfig
+site:
+  structure:
+    - type: space
+      key: documentation
+      title: Documentation
+      path: documentation
+      content:
+        directory: ./documentation
+    - type: space
+      key: developers
+      title: Developers
+      path: developers
+      content:
+        directory: ./developers
+    - type: space
+      key: changelog
+      title: Changelog
+      path: changelog
+      content:
+        directory: ./changelog
+```
+{% endcode %}
+
+### Keep space content self-contained
+
+Each space only syncs the directory assigned to it. GitBook doesn’t automatically share content or assets between mapped directories.
+
+Keep every referenced asset inside its space’s mapped directory. If several spaces need an asset, add a copy to each directory or reorganize the repository.
+
+The `.gitbook.yaml` `root` setting controls where GitBook reads content within that space’s mapped directory. It doesn’t make sibling directories available.
+
+### Move a mapped directory
+
+Move a space safely by updating its files and mapping together:
+
+1. In the repository, move the space’s content files and assets.
+2. In `docs.yaml`, update that space’s `content.directory`.
+3. Commit both changes in the same commit.
 
 {% hint style="info" %}
-In most cases, we recommend the following step to update the Project directory:
-
-1. Disable the existing Git Sync
-2. Move the files in the Git repository to the Project directory
-3. Reconfigure the Git Sync with the new Project directory
+If GitBook imports before both changes exist, the mapped space can appear empty.
 {% endhint %}
 
-In some cases, you might have started with a typical repository synchronizing with only one section, but then decided to transition into a monorepo with multiple sections synchronizing with it; or might have to rename the Project directory.
+### Use individual space Git Sync
 
-Changing the Project directory on an existing Git Sync can have an unexpected impact on the content, the change will only be propagated during the next synchronization (edit made on GitBook or new commit in the Git repository).
+Use individual space Git Sync when a space needs another repository or branch. For example, use it when a private space must sync separately.
 
-GitBook expects all GitBook-related files for that section to exist inside the configured Project directory. This includes Markdown files, `README.md`, `SUMMARY.md`, and any assets used by that section.
+Remove the space from the site’s content mapping first. Then configure Git Sync from that space.
 
-#### **If the next operation is an import from the Git repository**:
-
-GitBook will expect to find the pages and files in the Project directory. If the files have not already been moved into the repository’s Project directory, the result of the synchronization would be an empty section with no content.
-
-We recommend having the next operation to be a commit moving all GitBook-related files (markdown files, README/SUMMARY, and assets) in the repository to their correct new location, in the Project directory. If assets remain outside the new Project directory, don’t expect them to resolve for that section.
-
-**If the next operation is an export from GitBook to the Git repository**:
-
-GitBook will generate or update new files in the new Project directory. Files synchronized with GitBook will be moved to the new Project directory (with the best attempt); it might cause side effects if other parts of your system depend on these files.
+To configure the space, follow [Enabling GitHub Sync](enabling-github-sync.md) or [Enabling GitLab Sync](enabling-gitlab-sync.md). In the scope step, select **Space Git Sync**.
