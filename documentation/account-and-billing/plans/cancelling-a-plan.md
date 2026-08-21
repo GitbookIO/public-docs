@@ -8,13 +8,11 @@ If your active subscription shows a **Cancel plan** button, follow these steps:
 
 1. Go to **Organization settings** — click the settings icon at the bottom of the sidebar, then click **\[organization name] settings**.
 2. Click **Billing**.
-3. Click **Manage Billing** to open the Stripe billing portal.
-4. Click **Cancel plan**.
-5. On the next page, click **Cancel plan** to confirm.
+3. Click Cancel subscription
 
 ### **Cancel plan button missing**
 
-If you've clicked through **Organization settings** → **Billing** → **Manage Billing** and reached the Stripe portal without seeing **Cancel plan**, [contact GitBook Support](cancelling-a-plan.md#cancel-plan-button-missing). Don't repeat the self-service flow.
+If you've clicked through **Organization settings** → **Billing** and didn't see the **Cancel subscription button**, [contact GitBook Support](cancelling-a-plan.md#cancel-plan-button-missing). Don't repeat the self-service flow.
 
 Support can review your subscription and, where appropriate, cancel it or schedule cancellation on your behalf.
 
@@ -25,7 +23,7 @@ Include the following in your request:
 * Your current plan.
 * Your next renewal or expected charge date.
 * Your most recent invoice or receipt number, if available.
-* Confirmation that **Cancel plan** wasn't displayed in GitBook Billing or the Stripe portal.
+* Confirmation that **Cancel subscription** wasn't displayed in GitBook Billing or the Stripe portal.
 * Whether you want to cancel at the end of your current billing period.
 
 {% hint style="info" %}
