@@ -6,7 +6,7 @@ description: >-
 
 # GitBook Assistant
 
-<figure><img src="../.gitbook/assets/25_03_31_gitbook_assistant@2x (1).png" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_31_gitbook_assistant@2x.png" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
 
 GitBook Assistant gives your users fast, accurate answers about your documentation using natural language. It's personalized to your users, can be embedded into your website or product, and is available in the sidebar of your published docs.
 
@@ -18,17 +18,27 @@ Try asking the Assistant a question in the box below:
 
 <p align="center"><button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button></p>
 
-## Enable GitBook Assistant <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
+## Configure GitBook Assistant <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
-To enable GitBook Assistant, open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**. Here you can enable GitBook Assistant from the options available.
+To configure GitBook Assistant, open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**. Here you can enable the Assistant and customize its instructions, welcome message, and suggested questions.
+
+### Add custom instructions
+
+Custom instructions adjust the Assistant's tone of voice and add product-specific knowledge or terminology, so its answers consistently match your wider style.
+
+{% hint style="info" %}
+Custom instructions refine the Assistant's tone and knowledge. They can't override its built-in guardrails.
+{% endhint %}
+
+### Customize a welcome message
+
+The welcome message is the first thing visitors see when they open the Assistant with no active conversation. Use it to set expectations or point users towards a specific workflow.
 
 ### Add suggested questions
 
 Suggested questions are pre-written prompts shown when the Assistant opens with no active conversation. They help users understand what they can ask, and can help you point your users towards useful answers or workflows.
 
-You can add suggested questions in your site’s **Settings**, under the **AI & MCP** section.
-
-#### **Best practices for suggested questions:**
+#### Best practices for suggested questions:
 
 * Start with a real user goal (setup, troubleshoot, integrate).
 * Use the words your users use (avoid internal codenames).
@@ -44,7 +54,7 @@ If you’re embedding the Assistant in your product, you can also dynamically se
 Users can access GitBook Assistant in three ways:
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-* Click the **GitBook Assistant** <picture><source srcset="../.gitbook/assets/25_07_16_gitbook_assistant (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_07_16_gitbook_assistant_1 (1).svg" alt=""></picture> button next to the **Ask or search…** bar
+* Click the **GitBook Assistant** <i class="fa-gitbook-assistant">:gitbook-assistant:</i> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the 'Ask…' option at the top of the menu
 
 ## Embed GitBook Assistant in your product
