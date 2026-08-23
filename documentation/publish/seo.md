@@ -51,4 +51,4 @@ GitBook has no control over how quickly search engines index your content, but t
 
 Moving content to GitBook or restructuring your site can break existing links and affect SEO. Set up [redirects](site-redirects.md) → to forward old URLs to new ones.
 
-When you move or rename a page, GitBook automatically creates an [HTTP 301 redirect](https://en.wikipedia.org/wiki/HTTP_301) from the old URL to the new one. Learn more about automatic redirects →
+When you move or rename a page, GitBook automatically creates an [HTTP 307 redirect](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/307) from the old URL to the new one. [Learn more about automatic redirects →](site-redirects.md#about-automatic-redirects)
