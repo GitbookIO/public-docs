@@ -8,7 +8,7 @@ description: Organize separate products, audiences, or topics in one published s
 This feature is available on the Ultimate site plan.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/25_12_10_site_sections@2x (1).png" alt="A GitBook screenshot showing sections on a docs site"><figcaption><p>Example of a GitBook site with sections</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_site_sections@2x.png" alt="A GitBook screenshot showing sections on a docs site"><figcaption><p>Example of a GitBook site with sections</p></figcaption></figure>
 
 Sections let you centralize your documentation in one site. Use them to organize separate products. You can also serve different audiences with tailored content.
 
@@ -30,7 +30,7 @@ To add a section:
 
 The section appears in the table. It also appears as a tab on your published site.
 
-<figure><img src="../../.gitbook/assets/25_12_10_structure_tree@2x (1).png" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with sections.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_structure_tree@2x.png" alt="A GitBook screenshot showing site section structure"><figcaption><p>Add structure to your docs with sections.</p></figcaption></figure>
 
 ### Create a section group
 

@@ -6,7 +6,7 @@ description: Embed your documentation in your product or website using the Docs 
 
 The Docs Embed is a powerful window into your product knowledge that you can add to any product or website. Users can ask questions to the [GitBook Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md), search your docs, or browse pages directly, without leaving your product. You can open the embed with a button, put it in any component you want, or control it completely programmatically.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_10_21_emebeddable_assistant (1).png" alt="Embed GitBook Assistant into your product or website"><figcaption><p>Embed your docs into your product or website</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_10_21_emebeddable_assistant.png" alt="Embed GitBook Assistant into your product or website"><figcaption><p>Embed your docs into your product or website</p></figcaption></figure></div>
 
 ## Overview
 
@@ -41,7 +41,7 @@ If you want to use the Assistant tab, [GitBook Assistant must be enabled](../../
 
 Use our skill to quickly implement GitBook Assistant into your product using your existing stack.
 
-{% file src="../../.gitbook/assets/GITBOOK_ASSISTANT_SKILL (1).md" %}
+{% file src="../../.gitbook/assets/GITBOOK_ASSISTANT_SKILL.md" %}
 
 Alternatively, continue reading through the docs for the approach that matches your setup:
 

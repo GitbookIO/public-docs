@@ -20,7 +20,7 @@ Head to the **Organization settings** page and, in the **General** tab, toggle t
 
 ### Using GitBook AI search <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
-Once GitBook AI is enabled, open the **Ask or search** <picture><source srcset="../../.gitbook/assets/25_07_16_quick_find_1 (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_16_quick_find (1).svg" alt=""></picture> menu from the left sidebar and simply type out a question. GitBook AI will take a few seconds to scan your documentation and summarize the results.
+Once GitBook AI is enabled, open the **Ask or search** <picture><source srcset="../../.gitbook/assets/25_07_16_quick_find_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_16_quick_find.svg" alt=""></picture> menu from the left sidebar and simply type out a question. GitBook AI will take a few seconds to scan your documentation and summarize the results.
 
 ### FAQs
 

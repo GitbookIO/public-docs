@@ -12,7 +12,7 @@ Click **+ Add account** and choose an account type from the list of included opt
 
 For each social account, you can toggle its visibility in your docs site’s footer on or off, without affecting the metadata.
 
-<figure><img src="../../.gitbook/assets/26_01_23_social_accounts@2x (1).png" alt="Social accounts settings in Site customization"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/26_01_23_social_accounts@2x.png" alt="Social accounts settings in Site customization"><figcaption></figcaption></figure>
 
 ### Social preview
 

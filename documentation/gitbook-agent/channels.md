@@ -33,7 +33,7 @@ Use Channels when support questions, bug reports, or product feedback start in S
 Head to [embedding](../publish/embedding/ "mention") to learn how to embed GitBook Assistant.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/26_05_01_channels@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_05_01_channels@2x.png" alt=""><figcaption></figcaption></figure>
 
 ### Available channels
 

@@ -119,7 +119,7 @@ For instance, if your login screen is located at `https://example.com/login`, yo
 
 You can configure this login URL within your site’s audience settings under the "Authenticated access" tab.
 
-<figure><img src="../../../.gitbook/assets/25_04_10_setting_up_a_custom_backend (1).png" alt="A GitBook screenshot showing where to configure a login URL"><figcaption><p>Configure a login URL</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/25_04_10_setting_up_a_custom_backend.png" alt="A GitBook screenshot showing where to configure a login URL"><figcaption><p>Configure a login URL</p></figcaption></figure>
 
 #### Use GitBook’s login endpoint
 

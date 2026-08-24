@@ -98,7 +98,7 @@ There are two options when using diff view:
 
 You can switch to the **Changes** tab to check the diff view in any change request.
 
-<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-07-02 at 5.52.15 PM (1).png" alt="" width="188"><figcaption><p>This is the navigation controls widget at the bottom of the Changes screen</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/Screenshot 2026-07-02 at 5.52.15 PM.png" alt="" width="188"><figcaption><p>This is the navigation controls widget at the bottom of the Changes screen</p></figcaption></figure></div>
 
 ### Merging a change request
 
@@ -149,6 +149,6 @@ To archive a change request:
 
 1. Open the **Change requests** tab.
 2. Click the change request you want to archive.
-3. Click the **Actions** menu <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1 (1).svg" alt="The Actions menu icon in GitBook"></picture> next to the change request's title and choose **Archive**.
+3. Click the **Actions** menu <picture><source srcset="../../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture> next to the change request's title and choose **Archive**.
 
 To find and reopen an archived change request, open the **Change requests** menu and click the **Archived** tab.

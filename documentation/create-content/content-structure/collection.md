@@ -23,7 +23,7 @@ Or create a new section directly inside a group.
 
 ### Publish a group
 
-1. Open the group's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>.
+1. Open the group's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
 2. Click **Publish**.
 
 Or publish several drafts at once from the structure editor.
@@ -32,11 +32,11 @@ To preview how draft groups look on your site, switch the site preview between *
 
 ### Rename a group
 
-1. Click the **Action menu** icon <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> next to the group.
+1. Click the **Action menu** icon <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group.
 2. Click **Rename**.
 3. Change the group's title or icon.
 
 ### Delete a group
 
-1. Open the group's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>.
+1. Open the group's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
 2. Click **Delete**.

@@ -6,7 +6,7 @@ description: Sync your GitLab repo with GitBook
 
 This guide will take you through setting up your GitBook site with a repo on GitLab.
 
-<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_1.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Git Sync - GitLab.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 
 {% stepper %}
 {% step %}

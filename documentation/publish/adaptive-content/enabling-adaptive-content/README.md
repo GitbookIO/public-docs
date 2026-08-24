@@ -12,7 +12,7 @@ Before you’re able to pass user data to GitBook, you’ll need to configure yo
 
 Head to your [site’s settings](../../../manage-your-site/site-settings.md), and enable **Adaptive content** from your site’s audience settings. Once enabled, you’ll get a generated ‘Visitor token signing key’, which you’ll need in order to continue the adaptive content setup.
 
-<figure><img src="../../../.gitbook/assets/26_01_06_enable_adaptive_content@2x (1).png" alt="A GitBook screenshot showing the enable adaptive content toggle"><figcaption><p>Enable adaptive content in your site’s Settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/26_01_06_enable_adaptive_content@2x.png" alt="A GitBook screenshot showing the enable adaptive content toggle"><figcaption><p>Enable adaptive content in your site’s Settings</p></figcaption></figure>
 
 ### Set your visitor schema
 

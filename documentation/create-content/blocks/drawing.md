@@ -12,7 +12,7 @@ GitBook stores drawings as special SVG files in the section. Those files have an
 
 ### Example of a drawing block
 
-<img src="../../.gitbook/assets/25_01_10_diagram (1).svg" alt="A diagram drawn in GitBook" class="gitbook-drawing">
+<img src="../../.gitbook/assets/25_01_10_diagram.svg" alt="A diagram drawn in GitBook" class="gitbook-drawing">
 
 ### Draw with GitBook AI
 

@@ -8,7 +8,7 @@ description: >-
 
 Expandable blocks are helpful in condensing what could otherwise be a lengthy paragraph. They are also great in step-by-step guides and FAQs.
 
-By default, expandable blocks will be collapsed on your published docs site. If you want an expandable block to be expanded by default, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt=""></picture> and choose **Expanded by default**.
+By default, expandable blocks will be collapsed on your published docs site. If you want an expandable block to be expanded by default, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt=""></picture> and choose **Expanded by default**.
 
 ### Example
 
@@ -18,7 +18,7 @@ By default, expandable blocks will be collapsed on your published docs site. If 
 
 To add an expandable block hit `/` on an empty block, or click the `+` on the left of the editor, and select **Expandable**.
 
-Optionally, you can set expanded blocks to be **Expanded by default** in the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light (1).svg" alt=""></picture> — just like this block.
+Optionally, you can set expanded blocks to be **Expanded by default** in the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt=""></picture> — just like this block.
 
 </details>
 

@@ -6,7 +6,7 @@ description: >-
 
 # GitHub & GitLab Sync
 
-<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x_2.png" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook docs.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Site-wide Git Sync.png" alt="A GitBook screenshot showing the Git Sync setup"><figcaption><p>Set up Git Sync for your GitBook docs.</p></figcaption></figure>
 
 ### Overview
 

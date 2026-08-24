@@ -6,7 +6,7 @@ description: Set up custom authentication for your published content
 
 Authenticated access allows you to publish your content while requiring authentication from any visitors who want to view it. When enabled, GitBook lets your authentication provider handle who has access to the content.
 
-<figure><img src="../../../.gitbook/assets/26_01_06_authenticated_access@2x (1).png" alt="A screenshot showing a login screen for docs behind authenticated access"><figcaption><p>Add a sign in to your published documentation.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/26_01_06_authenticated_access@2x.png" alt="A screenshot showing a login screen for docs behind authenticated access"><figcaption><p>Add a sign in to your published documentation.</p></figcaption></figure>
 
 ### Use cases
 

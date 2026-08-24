@@ -6,7 +6,7 @@ description: >-
 
 # Inviting your team
 
-<figure><img src="../.gitbook/assets/25_12_10_collaboration_invite_team@2x (1).png" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_12_10_collaboration_invite_team@2x.png" alt="A GitBook screenshot showing the invite team dialog"><figcaption><p>Invite your team to GitBook to collaborate on pages, spaces, and published sites.</p></figcaption></figure>
 
 {% hint style="warning" %}
 ### All additional members will be added to your subscription
@@ -39,11 +39,11 @@ Here’s how to create an invite link to your organization:
 3. Use one of the existing links, or click **Create multiple links** to add a new link.
 4. Select the [role](member-management/roles.md) you want for the new user, copy the link, and share it with your new member.
 
-To revoke an invite link, follow the same steps as above, then find the link, open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt=""></picture> and choose **Revoke**.
+To revoke an invite link, follow the same steps as above, then find the link, open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and choose **Revoke**.
 
 ## Invite someone to a single space or collection <a href="#sharing-a-space-or-collection" id="sharing-a-space-or-collection"></a>
 
-To share a single [space](../create-content/content-structure/space.md), click the **Share** button in the top-right corner of the space. To share a [collection](../create-content/content-structure/collection.md), open its **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1 (1).svg" alt=""></picture> and choose **Permissions**. This will open the **Share** modal.
+To share a single [space](../create-content/content-structure/space.md), click the **Share** button in the top-right corner of the space. To share a [collection](../create-content/content-structure/collection.md), open its **Actions menu** <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt=""></picture> and choose **Permissions**. This will open the **Share** modal.
 
 ### Invite a member or team from your organization <a href="#invite-members" id="invite-members"></a>
 
@@ -79,4 +79,4 @@ If you don’t want to use email to invite someone to your content, or want to i
 
 When you share this link, anyone who clicks on it will be able to sign up, join your organization as a guest, and get access to just this single space and its content.
 
-You can revoke the link at any time by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> next to the link and choosing **Revoke**.
+You can revoke the link at any time by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the link and choosing **Revoke**.

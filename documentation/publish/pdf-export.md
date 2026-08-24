@@ -22,7 +22,7 @@ Note that links across sections are not currently supported when exporting inter
 
 1.  Open the page you want to export, then open the page’s [Actions menu](../reference/gitbook-ui.md#the-actions-menu)
 
-    <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
     next to the page title.
 2. Select **Export to PDF > Current page**.
@@ -33,11 +33,11 @@ Note that links across sections are not currently supported when exporting inter
 
 1.  Open the[ Actions menu](../create-content/content-structure/)
 
-    <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
     next to the page title and choose **Export as PDF > All pages**. Alternatively, open the section’s **Actions menu**
 
-    <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1 (1).svg" alt="The Actions menu icon in GitBook"></picture>
+    <picture><source srcset="../.gitbook/assets/25_02_04_actions_horizontal.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_02_04_actions_horizontal_1.svg" alt="The Actions menu icon in GitBook"></picture>
 
     in the [section header](../reference/gitbook-ui.md#space-header) and choose **Export as PDF** in the drop-down menu.\
     \

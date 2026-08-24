@@ -6,7 +6,7 @@ description: Sync your GitHub repo with GitBook
 
 This guide will take you through setting up your GitBook site with a repo on GitHub.
 
-<figure><img src="../../.gitbook/assets/25_12_10_git_sync@2x.png" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Git Sync - GitHub (1).png" alt="A GitBook screenshot showing GitHub Sync configuration options"><figcaption><p>GitHub Sync configuration options.</p></figcaption></figure>
 
 {% stepper %}
 {% step %}

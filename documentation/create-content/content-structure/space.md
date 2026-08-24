@@ -6,7 +6,7 @@ A section is a part of your site where you work on a set of related pages. Secti
 The GitBook API represents sections as `space` objects. This has no impact on API integrations or Git Sync.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/25_12_10_creating_content_content_structure_space@2x (1).png" alt="A GitBook screenshot showing a site&#x27;s content tree in the sidebar"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_creating_content_content_structure_space@2x.png" alt="A GitBook screenshot showing a site&#x27;s content tree in the sidebar"><figcaption></figcaption></figure>
 
 ### Create a section
 
@@ -19,7 +19,7 @@ Edit a section's name by hovering over the name in the section header.
 
 ### Publish a draft section
 
-1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>.
+1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
 2. Click **Publish**.
 
 Or publish several drafts at once from the structure editor.
@@ -28,7 +28,7 @@ To preview how drafts look on your site, switch the site preview between **Live*
 
 ### Duplicate a section
 
-1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>.
+1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
 2. Click **Duplicate**.
 
 Duplicating a section creates a copy of the source section in the same location (site or group).
@@ -48,7 +48,7 @@ Changes reflect back in the sidebar — and on your published site — immediate
 
 ### Delete a section
 
-1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture>.
+1. Open the section's **Action menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
 2. Click **Delete**.
 
 {% hint style="warning" %}

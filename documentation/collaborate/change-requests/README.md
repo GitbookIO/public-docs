@@ -10,7 +10,7 @@ In a change request, you can edit, update, and delete content, request reviews o
 
 To browse and manage open change requests across your site, see the [Change requests screen](change-requests-screen.md).
 
-<figure><img src="../../.gitbook/assets/25_12_10_collaboration_change_requests@2x (1).png" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_collaboration_change_requests@2x.png" alt="A GitBook screenshot showing the change requests panel"><figcaption><p>Edit your content through change requests.</p></figcaption></figure>
 
 ### Review changes in diff view <a href="#diff-mode" id="diff-mode"></a>
 

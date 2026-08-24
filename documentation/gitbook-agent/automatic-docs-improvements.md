@@ -58,7 +58,7 @@ Some findings can be fixed automatically by GitBook Agent. When that option is a
 
 To request access to GitBook Agent’s automatic documentation improvement features, open your site’s **Settings**.
 
-<figure><img src="../.gitbook/assets/2026-07-13_connections@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2026-07-13_connections@2x.png" alt=""><figcaption></figcaption></figure>
 
 ## Automatic fixes
 

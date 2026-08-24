@@ -6,7 +6,7 @@ description: Customize the layout and structure of your published documentation
 
 ### Header
 
-<figure><img src="../../.gitbook/assets/25_12_10_header@2x (1).png" alt="A GitBook screenshot showing header customization settings"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_header@2x.png" alt="A GitBook screenshot showing header customization settings"><figcaption></figcaption></figure>
 
 **Search bar**
 
@@ -32,7 +32,7 @@ Control the display of the “previous” and “next” buttons that appear at 
 
 ### Footer <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
-<figure><img src="../../.gitbook/assets/25_12_10_footer@2x (1).png" alt="A GitBook screenshot showing footer customization settings"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_footer@2x.png" alt="A GitBook screenshot showing footer customization settings"><figcaption></figcaption></figure>
 
 **Logo**
 

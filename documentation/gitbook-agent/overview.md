@@ -51,7 +51,7 @@ GitBook Agent uses this context whenever it creates or edits content for that si
 
 To add a style guide or custom instructions, open your site’s **Settings**, under **General** in the site sidebar, and click **Agents**. Add your instructions in the custom instructions field.
 
-You can also open this screen from a change request. Open the GitBook Agent chat window, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt=""></picture> and click **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light (1).svg" alt=""></picture>.
+You can also open this screen from a change request. Open the GitBook Agent chat window, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and click **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
 
 #### Custom instructions example
 

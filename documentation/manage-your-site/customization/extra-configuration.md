@@ -34,7 +34,7 @@ You can disable this option from the **Configure** tab if you do not wish to sho
 
 If you disable **Page actions**, GitBook also disables the MCP server at `~gitbook/mcp`. To use MCP, keep **Page actions** enabled in **Site customization** → **Page actions**.
 
-<figure><img src="../../.gitbook/assets/25_12_10_configure@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_configure@2x.png" alt=""><figcaption></figcaption></figure>
 
 #### Open in AI providers
 

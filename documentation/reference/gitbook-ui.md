@@ -9,7 +9,7 @@ GitBook is organized around your docs sites. You start at your organization **Ho
 
 ### Home
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_1 (1).png" alt=""><figcaption><p>Your organization Home gives you access to sites, content, and organization controls.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_1.png" alt=""><figcaption><p>Your organization Home gives you access to sites, content, and organization controls.</p></figcaption></figure></div>
 
 When you open GitBook, you land on your organization **Home**: every docs site in your organization, in one place. From here you can open a site, create a new one, or adjust organization-wide settings. Home contains:
 
@@ -49,7 +49,7 @@ Opening a site replaces the sidebar with that site's content and tools: the same
 
 ### Table of contents <a href="#the-table-of-contents" id="the-table-of-contents"></a>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_2 (1).png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected section.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_2.png" alt=""><figcaption><p>The table of contents lists all the pages and links in your selected section.</p></figcaption></figure></div>
 
 By default, the table of contents lists [pages, links, and page groups](../create-content/content-structure/page/#organizing-your-content) in your selected section. It sits to the right of the sidebar.
 
@@ -60,7 +60,7 @@ From the **Pages** tab in the table of contents you can:
 * Create new [pages](gitbook-ui.md#pages) and subpages.
 * Create [page groups](gitbook-ui.md#groups).
 * Add [external links](gitbook-ui.md#external-links).
-* Access [the Action menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt=""></picture> for individual pages.
+* Access [the Action menu](gitbook-ui.md#the-actions-menu) <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> for individual pages.
 
 In the **Library** tab, you can:
 
@@ -76,11 +76,11 @@ Here’s a short video showing what you can do with the table of contents, parti
 
 {% embed url="https://youtu.be/gg-VZP2wl-I" %}
 
-To focus on page content, hover next to the table of contents and click **Hide** <picture><source srcset="../.gitbook/assets/25_10_08_panel_left (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_10_08_panel_left_1 (1).svg" alt="The Hide button icon in GitBook"></picture>. To show it again, hover near the page edge and click **Show** <picture><source srcset="../.gitbook/assets/25_10_08_panel_right (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_10_08_panel_right_1 (1).svg" alt="The Show button icon in GitBook"></picture>.
+To focus on page content, hover next to the table of contents and click **Hide** <picture><source srcset="../.gitbook/assets/25_10_08_panel_left.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_10_08_panel_left_1.svg" alt="The Hide button icon in GitBook"></picture>. To show it again, hover near the page edge and click **Show** <picture><source srcset="../.gitbook/assets/25_10_08_panel_right.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_10_08_panel_right_1.svg" alt="The Show button icon in GitBook"></picture>.
 
 ### Section header <a href="#space-header" id="space-header"></a>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_3 (1).png" alt=""><figcaption><p>The section header sits at the top of the editor, and offers options that apply to the whole section.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_3.png" alt=""><figcaption><p>The section header sits at the top of the editor, and offers options that apply to the whole section.</p></figcaption></figure></div>
 
 The section header contains information about the section you're currently viewing. It lets you view comments and history, configure [GitHub or GitLab Sync](../docs-as-code/git-sync/), and more.
 
@@ -92,7 +92,7 @@ For example, if you're editing a [change request](../collaborate/change-requests
 If you're viewing a read-only section, you need to open a new change request to edit the page, as live edits are locked.
 {% endhint %}
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_4 (1).png" alt=""><figcaption><p>The section header in a change request.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_4.png" alt=""><figcaption><p>The section header in a change request.</p></figcaption></figure></div>
 
 The section header includes:
 
@@ -159,7 +159,7 @@ Under **Tools**:
 
 ### Content editor
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_5 (1).png" alt=""><figcaption><p>Write content and add blocks in the GitBook editor.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_5.png" alt=""><figcaption><p>Write content and add blocks in the GitBook editor.</p></figcaption></figure></div>
 
 The editor is the main part of your section. Write and insert content, then collaborate with your team in real time.
 
@@ -179,9 +179,9 @@ To change a page URL slug, open the page’s [Action menu](gitbook-ui.md#the-act
 
 ### Page actions menu <a href="#the-actions-menu" id="the-actions-menu"></a>
 
-The page’s **Action menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> lets you duplicate, rename, or delete a page.
+The page’s **Action menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> lets you duplicate, rename, or delete a page.
 
-In the table of contents, hover over a page and click the <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> icon. You can also click the icon next to the page title.
+In the table of contents, hover over a page and click the <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> icon. You can also click the icon next to the page title.
 
 {% hint style="info" %}
 Available actions depend on whether you use [live editing](../collaborate/live-edits.md) or a [change request](../collaborate/change-requests/).
@@ -189,11 +189,11 @@ Available actions depend on whether you use [live editing](../collaborate/live-e
 
 ### Page options <a href="#page-options" id="page-options"></a>
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_6 (1).png" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_6.png" alt=""><figcaption><p>The <strong>Page options</strong> side panel offers customization options for your documentation and navigation.</p></figcaption></figure></div>
 
 Use page options to customize documentation layout and navigation. Page options are available only while editing.
 
-Open **Page options** from the page’s **Action menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark (1).svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light (1).svg" alt="The Actions menu icon in GitBook"></picture> by selecting **Options**. You can also hover over the page title and click **Page options**.
+Open **Page options** from the page’s **Action menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> by selecting **Options**. You can also hover over the page title and click **Page options**.
 
 {% hint style="info" %}
 Some changes, such as disabling the table of contents, appear only on published documentation.
@@ -201,7 +201,7 @@ Some changes, such as disabling the table of contents, appear only on published 
 
 ### Page outline
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_7 (1).png" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_7.png" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure></div>
 
 The page outline sits on the editor’s right side. It lets you jump to a page section.
 

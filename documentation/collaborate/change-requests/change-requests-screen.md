@@ -9,7 +9,7 @@ description: >-
 
 The change requests screen lets you view and manage active change requests across your site — open them, merge them, or collaborate with GitBook Agent on updates, all in one place. Open it from **Change requests**, under **General** in the site sidebar.
 
-<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_change_requests_screen@2x (1).png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_12_10_change_requests_screen@2x.png" alt=""><figcaption><p>View active change requests from the change requests screen.</p></figcaption></figure></div>
 
 ### Navigating the change request screen
 

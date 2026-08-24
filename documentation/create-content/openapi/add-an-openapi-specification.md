@@ -10,7 +10,7 @@ If you have an OpenAPI spec, you can add it to your organization by uploading th
 
 GitBook accepts [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md), [OpenAPI 3.0](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md), and [OpenAPI 3.1](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.1.md) specifications for file uploads, hosted URLs, and CLI publishing. For the current compatibility summary, see [OpenAPI compatibility](./#openapi-compatibility).
 
-<figure><img src="../../.gitbook/assets/25_12_10_generate_api_docs@2x (1).png" alt="A GitBook screenshot showing the modal for generating API docs automatically"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_generate_api_docs@2x.png" alt="A GitBook screenshot showing the modal for generating API docs automatically"><figcaption></figcaption></figure>
 
 ### How to add a specification
 
@@ -22,7 +22,7 @@ GitBook accepts [Swagger 2.0](https://github.com/OAI/OpenAPI-Specification/blob/
    * Enter a URL to a hosted spec
    * Use the CLI to publish the spec
 
-<figure><img src="../../.gitbook/assets/25_12_10_api_spec_modal@2x (1).png" alt="A GitBook screenshot showing the Add an OpenAPI specification modal"><figcaption><p>Add an OpenAPI specification modal.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_api_spec_modal@2x.png" alt="A GitBook screenshot showing the Add an OpenAPI specification modal"><figcaption><p>Add an OpenAPI specification modal.</p></figcaption></figure>
 
 ### Update your specification
 
