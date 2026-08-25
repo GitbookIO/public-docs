@@ -16,6 +16,8 @@ To browse and manage open change requests across your site, see the [Change requ
 
 Open the **Changes** tab to review edits in a change request. You can review all pages in context, or focus on changed pages only.
 
+At the bottom of the editor, the floating diff navigator lets you jump between changed blocks, continue to the next page with diffs, and finish the review from the last change with the available review actions.
+
 {% hint style="info" %}
 By default, changes are shown in a "split-view". The left showing the 'before' version of the page, and the right showing the 'after' state. If you prefer to view changes inline in a single column-layout, click the diff-mode button at the top-right of the Table of contents panel.
 {% endhint %}
@@ -66,4 +68,4 @@ Merging can't be undone. To revert or adjust content, open a new change request.
 
 ### Working with change requests
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Change request screen</strong></td><td>View and manage change requests across your site</td><td><a href="change-requests-screen.md">change-requests-screen.md</a></td></tr><tr><td><strong>Change requests in a section</strong></td><td>Create and review change requests in a single section</td><td><a href="change-requests-in-a-space.md">change-requests-in-a-space.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Change request screen</strong></td><td>View and manage change requests across your entire organization</td><td><a href="change-requests-screen.md">change-requests-screen.md</a></td></tr><tr><td><strong>Change requests in a space</strong></td><td>Create and review change requests in a single space</td><td><a href="change-requests-in-a-space.md">change-requests-in-a-space.md</a></td></tr></tbody></table>

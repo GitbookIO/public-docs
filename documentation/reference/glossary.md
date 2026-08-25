@@ -48,7 +48,7 @@
 
 **Git Sync:** [Git Sync](../docs-as-code/git-sync/) lets you synchronize GitHub or GitLab repositories with GitBook and turn Markdown files into documentation. It’s a two-way sync, so changes you make in GitBook appear in your repo, and changes you make directly in GitHub or GitLab will update in GitBook. You can set up Git Sync by adding the GitHub Sync or GitLab sync integrations to your organization. Find out more
 
-**GitBook AI:** An AI assistant that is trained on your knowledge base and documentation to [answer questions](../create-content/searching-your-content/gitbook-ai.md). You can ask GitBook AI anything about your documentation from the **Ask or search** menu. You can also ask GitBook AI to help you [write or edit your content](../gitbook-agent/write-and-edit-with-ai.md) in the editor.
+**GitBook AI:** An AI assistant that is trained on your knowledge base and documentation to [answer questions](../create-content/searching-your-content/gitbook-ai.md). You can ask GitBook AI anything about your documentation from the **Ask or search** menu. You can also ask GitBook AI to help you [write or edit your content](../gitbook-agent-1/write-and-edit-with-ai.md) in the editor.
 
 **group:** A set of related sections. You can think of groups like a folder for your sections.
 

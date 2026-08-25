@@ -17,7 +17,9 @@ All change requests in your site appear in the change requests screen. You can f
 
 Click a change request to open it in an expanded view. From there you can review, edit, and merge the change request, or continue working on it with GitBook Agent. The expanded view also shows the participants and reviewers, the description, and a diff view of the changes.
 
-To inspect diffs in the editor, click **Edit** in the top right corner to open the change request's section, then switch to the **Changes** tab. The diff navigation control appears there.
+To inspect diffs in the editor, click **Edit** in the top right corner to open the change request's space, then switch to the **Changes** tab. The diff navigation control appears there.
+
+To inspect diffs in the editor, click **Edit** in the top right corner to open the change request's space, then switch to the **Changes** tab. At the bottom of the editor, the floating diff navigator lets you move through changed blocks, continue to the next page with diffs, and finish the review from the last change with the available review actions.
 
 ### Reviewing a change request
 
@@ -25,4 +27,4 @@ When someone requests your review, you can edit the content and leave feedback d
 
 You can request more changes, or approve the change request to signal it is ready to merge.
 
-Most reviews take place in the change request's comments, where collaborators can discuss specific content blocks or the change request as a whole. You can also ask the [GitBook Agent](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to review a change request — it can check, plan, and continue working on changes alongside your team.
+Most reviews take place in the change request's comments, where collaborators can discuss specific content blocks or the change request as a whole. You can also ask the [GitBook Agent](../../gitbook-agent-1/review-change-requests-with-gitbook-agent.md) to review a change request — it can check, plan, and continue working on changes alongside your team.

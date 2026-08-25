@@ -66,8 +66,8 @@ Site permissions can also affect the permissions of linked spaces that use **Inh
 
 ### Agents
 
-{% content-ref url="../gitbook-agent/overview.md" %}
-[overview.md](../gitbook-agent/overview.md)
+{% content-ref url="../gitbook-agent-1/overview.md" %}
+[overview.md](../gitbook-agent-1/overview.md)
 {% endcontent-ref %}
 
 ### Styleguide
