@@ -25,8 +25,81 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-08-21" tags="new-releases,improvements,fixes" %}
+## Improvements
+
+* Site creators can add content and structure without site administration access. Give authors access without handing over settings.
+* Conditional content works inside table cells and card fields. Adapt a single row or field without duplicating the whole block.
+* Site analytics can be filtered and grouped by sign-in state with the new **Authenticated visitor** dimension.
+* The Content API supports cross-space links using the `app.gitbook.com` syntax. Link between spaces programmatically.
+* Linking a Jira issue to a change request labels the issue and adds a link back to GitBook. Removing the link undoes both changes.
+* The OAuth consent screen for a published site’s MCP server has been redesigned. Readers connecting an AI client see a screen that matches your site.
+* Published sites expose AI agent detection and robots directives in Markdown. Control what agents can read.
+* You can pick a home page for site sections and variants. The actions menu on a site item can edit the navigation item directly.
+
+### Fixes
+
+* Fixed an issue where exact searches couldn’t match long identifiers. Searching for a full function or constant name now finds its page.
+* Fixed an issue where a very large space could disappear from regular and AI search. This happened when indexing ran out of memory near completion.
+* Fixed an issue where analytics charts combined a day with no traffic into adjacent days. Charts also no longer end on an empty bucket for an in-progress period.
+* Fixed an issue where analytics reports opened on a narrowed audience. This silently excluded crawler and agent traffic.
+* Fixed an issue where connecting to an authenticated site’s MCP server could return an “Invalid client” error. An in-use OAuth client was cleaned up as expired.
+* Fixed an issue where a Git Sync export failed with “A required object was not found in the repository.” This happened when a commit reused a file that export hadn’t regenerated.
+* Fixed an issue where the sidebar collapse toggle did nothing in the editor on pages using a background cover.
+* Fixed an issue where GitBook Agent replies in Slack, Linear, and GitHub didn’t link the change request it created.
+* Fixed an issue where the spacebar was swallowed in the site search bar. The search input also lost focus before hydration finished.
+* Fixed an issue where keyboard shortcuts didn’t work on non-QWERTY layouts.
+* Fixed an issue where a table-of-contents entry wasn’t highlighted for the active page or section. A page group’s first item could also be cut off after navigating.
+{% endupdate %}
+
+{% update date="2026-08-14" tags="new-releases,improvements,fixes" %}
+## Import existing docs with GitBook Agent
+
+Bringing existing documentation into GitBook is no longer a one-person job. Point GitBook Agent at a documentation website, and it imports the pages into your current change request. You can also attach files directly, including ZIP archives containing Markdown, HTML, or DOCX.
+
+Imports are shared, not siloed. Everyone with access to the space or change request sees every import, whether they open it after a reload or from another device.
+
+**What’s new:**
+
+* **View imports panel:** See running and past imports at a glance, each with its source and progress. Stop any import from the panel.
+* **Ask what an import brought in:** GitBook Agent can tell you exactly what landed: the pages, their titles, and their sources.
+* **Safer merges:** Merging is blocked while an import is still writing. A change request can’t be merged with content still missing.
+
+## Organization audit logs for Enterprise, in Beta
+
+Enterprise administrators can review a chronological log of organization activity. Filter it by action, actor, and date. Deep links open individual events.
+
+Site structure and customization changes are recorded alongside other activity. You can trace a published change to the person who made it.
+
+The same data is available through a read API. You can pull audit events into your own tooling.
+
+### Improvements
+
+* Jira issues labeled `gitbook` now sync into GitBook. A labeled issue opens a change request and keeps its content up to date as the issue changes. GitBook posts a comment and backlink to Jira.
+* Adaptive content conditions can branch on `visitor.type` (`human` or `agent`). Serve agents a different page version from the one people read.
+* The editor warns you when your changes aren’t reaching GitBook. You can recover your work before it’s lost.
+* A site context connection that fails to sync names the failure. It states whether you need to fix it or GitBook is retrying.
+* Search ranks exact-phrase, page-title, and section-heading matches above looser body matches. The page you name appears first.
+* Site analytics can be grouped by day of week and hour of day. See when readers access your docs.
+
+### Fixes
+
+* Fixed an issue where a brief network problem could permanently stop changes from reaching GitBook. Nothing on screen indicated the problem. You had to reload the page to recover, which could lose written content.
+* Fixed an issue where live updates could silently stop until you reloaded. After a network drop or waking from sleep, import progress, Git Sync status, and teammate changes could freeze on stale data.
+* Fixed an issue that made large pages slow to open and edit. Comment hover state did work proportional to the square of the page’s block count.
+* Fixed an issue where large ZIP archive imports could time out partway through. Content the AI enhancer couldn’t process no longer fails the whole import.
+* Fixed an issue where import progress restarted instead of counting up. A 20-page archive could show “1 out of 10,” climb to “10 out of 10,” then restart.
+* Fixed an issue where updating or merging an old change request could export a page outside the configured repository folder. This could break links to that page.
+* Fixed an issue where links to API reference pages generated from an OpenAPI spec broke after Git Sync in spaces with more than one spec.
+* Fixed an issue where renaming content from within a site renamed the underlying space. The site name now updates as expected.
+* Fixed an issue where submitting a review left the reviewers list unchanged until reload. **Submit review** now shows whether you’ve approved or requested changes.
+* Fixed an issue where you couldn’t click the comment button on an Expandable block.
+* Fixed an issue where page-level search results linked to a section anchor instead of the page top.
+* Fixed an issue where text was unreadable on pages with background covers in Firefox and iOS Safari.
+{% endupdate %}
+
 {% update date="2026-08-06" tags="new-releases,improvements,fixes" %}
-## One-click MCP connectors and a redesigned Developer tools screen&#x20;
+## One-click MCP connectors and a redesigned Developer tools screen
 
 Connect your site’s MCP server to an AI client in one click. The redesigned **Developer tools** screen puts MCP first.
 
@@ -42,9 +115,7 @@ The Content API gives you more control when creating and linking pages. Set a pa
 * The new `insert_files` action adds images through the API. Use a URL or inline base64 content.
 * The API also accepts `.md` and `.mdx` slugs, relaxes page title requirements, and adds a compatibility flag. The flag protects existing workflows from future changes.
 
-<details open>
-
-<summary>Improvements</summary>
+### Improvements
 
 * Cancel or reactivate your subscription from the billing page. Cancellations take effect after your longest-running billing item ends.
 * Give a button a select action in the editor. Choose an available slug or enter your own value.
@@ -57,10 +128,6 @@ The Content API gives you more control when creating and linking pages. Set a pa
 * Bulk email invites are limited to 10 at a time. The dialog guides larger imports and clarifies SSO restrictions.
 * Crawlers can’t access your site’s ask endpoint. Your crawl budget focuses on your pages.
 * Visitor tokens revalidate without a redirect. Readers stay on the same page on authenticated sites.
-
-</details>
-
-
 {% endupdate %}
 
 {% update date="2026-07-29" tags="new-releases,improvements" %}
