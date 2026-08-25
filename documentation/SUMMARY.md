@@ -9,10 +9,6 @@
 * [Migrate to GitBook](getting-started/import.md)
 * [Site workspace](getting-started/sites-first.md)
 
-## Collaborate <a href="#collaboration" id="collaboration"></a>
-
-## GitBook Agent
-
 ## Create content
 
 * [Content structure](create-content/content-structure/README.md)
@@ -77,13 +73,13 @@
 
 ## GitBook Agent
 
-* [Overview](gitbook-agent-1/overview.md)
-* [Writing with GitBook Agent](gitbook-agent-1/write-and-edit-with-ai.md)
-* [Review change requests with GitBook Agent](gitbook-agent-1/review-change-requests-with-gitbook-agent.md)
-* [Automatic docs improvements](gitbook-agent-1/automatic-docs-improvements.md)
-* [Translations](gitbook-agent-1/translations.md)
-* [Channels](gitbook-agent-1/channels.md)
-* [Guides](gitbook-agent-1/guides.md)
+* [Overview](gitbook-agent/overview.md)
+* [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
+* [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
+* [Automatic docs improvements](gitbook-agent/automatic-docs-improvements.md)
+* [Translations](gitbook-agent/translations.md)
+* [Channels](gitbook-agent/channels.md)
+* [Guides](gitbook-agent/guides.md)
 
 ## Docs as code
 

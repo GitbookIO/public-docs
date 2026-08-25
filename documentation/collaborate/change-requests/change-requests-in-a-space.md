@@ -27,7 +27,7 @@ Once you’re happy with your changes, you can use the button in the header bar 
 
 #### Creating a change request with GitBook Agent
 
-[GitBook Agent](../../gitbook-agent-1/overview.md) is an AI teammate that can [plan and implement change requests](../../gitbook-agent-1/write-and-edit-with-ai.md#implement-a-change-request-with-gitbook-agent) based on any instructions you give it.
+[GitBook Agent](../../gitbook-agent/overview.md) is an AI teammate that can [plan and implement change requests](../../gitbook-agent/write-and-edit-with-ai.md#implement-a-change-request-with-gitbook-agent) based on any instructions you give it.
 
 To open a new change request with GitBook Agent, click the GitBook Agent icon in the upper right corner next to the “Edit” button, and ask GitBook to implement any changes you want.
 
@@ -41,7 +41,7 @@ Some things you can ask it to do include:
 * Link related content
 * \+ more
 
-Head to [Writing with GitBook Agent](../../gitbook-agent-1/write-and-edit-with-ai.md) to learn more.
+Head to [Writing with GitBook Agent](../../gitbook-agent/write-and-edit-with-ai.md) to learn more.
 
 ### Previewing a change request
 
@@ -74,7 +74,7 @@ When you click **Request a review**, the change request’s status will change t
 If your changes don’t require a review, you have the appropriate [permissions](../member-management/roles.md), and you don’t have any blocking [merge rules](../merge-rules.md), you can merge your changes into the main version directly instead.
 
 {% hint style="info" %}
-[Add GitBook Agent as a reviewer](../../gitbook-agent-1/review-change-requests-with-gitbook-agent.md) to your change request and it can check your content for spelling, grammar and style guide errors, suggest improvements and more.
+[Add GitBook Agent as a reviewer](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to your change request and it can check your content for spelling, grammar and style guide errors, suggest improvements and more.
 {% endhint %}
 
 {% hint style="warning" %}

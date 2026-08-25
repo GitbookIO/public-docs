@@ -59,7 +59,7 @@ Control how change requests are reviewed and merged across your organization. Or
 
 <summary>GitBook Agent</summary>
 
-Manage organization-level settings for [GitBook Agent](../gitbook-agent-1/overview.md).
+Manage organization-level settings for [GitBook Agent](../gitbook-agent/overview.md).
 
 </details>
 

@@ -68,9 +68,9 @@ Filtering AI insights helps you identify content gaps. You can filter for:
 Addressing these gaps helps visitors find answers more quickly — and understand your product faster.
 
 {% hint style="info" %}
-Coming soon: We’re working on features to help your team fix your content gaps automatically, through [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent).
+Coming soon: We’re working on features to help your team fix your content gaps automatically, through [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
 
-See [automatic-docs-improvements.md](../gitbook-agent-1/automatic-docs-improvements.md "mention") to learn more.
+See [automatic-docs-improvements.md](../gitbook-agent/automatic-docs-improvements.md "mention") to learn more.
 {% endhint %}
 
 </details>

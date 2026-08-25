@@ -80,7 +80,7 @@ This makes the source easier to identify in the connections list, especially if 
 {% hint style="warning" %}
 Auto generating change requests is currently in early access.
 
-See [automatic-docs-improvements.md](../gitbook-agent-1/automatic-docs-improvements.md "mention") for information on requesting access
+See [automatic-docs-improvements.md](../gitbook-agent/automatic-docs-improvements.md "mention") for information on requesting access
 {% endhint %}
 
 Turn on **Auto-generate change requests** to let GitBook learn from the connection’s records and suggest documentation updates.
@@ -105,7 +105,7 @@ Increase the value if this source should appear more often. Lower it if this sou
 
 ### Connector details
 
-All connectors in this section can provide context to [GitBook Assistant](gitbook-ai-assistant.md). GitBook Agent can use resolved records to identify [content gaps](../gitbook-agent-1/automatic-docs-improvements.md) and suggest documentation updates.
+All connectors in this section can provide context to [GitBook Assistant](gitbook-ai-assistant.md). GitBook Agent can use resolved records to identify [content gaps](../gitbook-agent/automatic-docs-improvements.md) and suggest documentation updates.
 
 #### Intercom
 

@@ -11,7 +11,7 @@ GitBook provides [skill files](https://github.com/GitbookIO/gitbook-skills/tree/
 This fits well with [Git Sync](git-sync/) workflows — make changes in your repo, commit them, and your docs site updates automatically.
 
 {% hint style="info" %}
-Prefer writing in the GitBook editor? Use [GitBook Agent](../gitbook-agent-1/overview.md) to draft, rewrite, review, and translate content without leaving GitBook.
+Prefer writing in the GitBook editor? Use [GitBook Agent](../gitbook-agent/overview.md) to draft, rewrite, review, and translate content without leaving GitBook.
 {% endhint %}
 
 ## Add GitBook skills to your AI agent

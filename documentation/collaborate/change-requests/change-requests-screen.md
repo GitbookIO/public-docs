@@ -27,4 +27,4 @@ When someone requests your review, you can edit the content and leave feedback d
 
 You can request more changes, or approve the change request to signal it is ready to merge.
 
-Most reviews take place in the change request's comments, where collaborators can discuss specific content blocks or the change request as a whole. You can also ask the [GitBook Agent](../../gitbook-agent-1/review-change-requests-with-gitbook-agent.md) to review a change request — it can check, plan, and continue working on changes alongside your team.
+Most reviews take place in the change request's comments, where collaborators can discuss specific content blocks or the change request as a whole. You can also ask the [GitBook Agent](../../gitbook-agent/review-change-requests-with-gitbook-agent.md) to review a change request — it can check, plan, and continue working on changes alongside your team.

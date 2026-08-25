@@ -62,7 +62,7 @@ These practices improve retrieval, reduce ambiguity, and help people find answer
 
 If you publish in multiple languages, keep each translation aligned with its source.
 
-[Translations](../gitbook-agent-1/translations.md) let you localize content with GitBook Agent. When source content changes, GitBook can keep translated versions aligned.
+[Translations](../gitbook-agent/translations.md) let you localize content with GitBook Agent. When source content changes, GitBook can keep translated versions aligned.
 
 ### Measuring AI traffic
 
