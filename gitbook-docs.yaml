@@ -1,4 +1,4 @@
-$schema: https://api.gitbook.com/openapi.yaml#/components/schemas/GitSyncSiteConfig
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   title: GitBook Documentation
   structure:
