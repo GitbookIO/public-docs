@@ -6,7 +6,7 @@ description: >-
 
 # Site permissions
 
-Your [role](../../collaborate/member-management/roles.md) on a site determines what you can do when working with it — from browsing its content to changing its structure, settings, and publishing. This page covers what each role unlocks for managing a site. For how a member ends up with a given role on a site, see [permissions and inheritance](../../collaborate/member-management/permissions-and-inheritance.md).
+Your [role](../collaborate/member-management/roles.md) on a site determines what you can do when working with it — from browsing its content to changing its structure, settings, and publishing. This page covers what each role unlocks for managing a site. For how a member ends up with a given role on a site, see [permissions and inheritance](../collaborate/member-management/permissions-and-inheritance.md).
 
 ### What each role unlocks on a site
 
@@ -79,4 +79,4 @@ Reader access lets you open a site in the dashboard, browse its structure, and r
 
 ### Where to manage this
 
-A site's members, their roles, and its default permission level are managed from **Site settings → Members**, by anyone with Admin access to the site. See [permissions and inheritance](../../collaborate/member-management/permissions-and-inheritance.md) for how that default, team access, and direct member overrides combine to decide a member's role.
+A site's members, their roles, and its default permission level are managed from **Site settings → Members**, by anyone with Admin access to the site. See [permissions and inheritance](../collaborate/member-management/permissions-and-inheritance.md) for how that default, team access, and direct member overrides combine to decide a member's role.
