@@ -25,6 +25,40 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-08-27" tags="new-releases,improvements,fixes" %}
+## New site-level permissions for controlling site management for humans and agents
+
+We’ve rolled out new [site-level permissions](https://gitbook.com/docs/manage-your-site/site-permissions) that give you more control over what people on your team can do in a live site.&#x20;
+
+These changes are essential as teams begin rolling out more agentic workflows to automate documentation management. The new controls give you the option to set permissions across an entire site, and choose who — whether they’re editing manually or using agents — can make edits, review, and publish changes to your site.
+
+**A quick summary of what’s new:**
+
+* Site-level permissions let you choose who can complete site-based actions and who can only edit site content
+* Editors can edit content in change requests and add draft sections to a site.
+* Reviewers can edit content and merge change requests and add draft sections to a site
+* Creators can do everything a reviewer can, plus they can restructure the site: add, publish, rename, reorder, and delete sections and variants
+* Admins can do everything across the site and the wider organization
+
+Read more in [our site-level permissions documentation](https://gitbook.com/docs/manage-your-site/site-permissions).
+
+### Improvements
+
+* We’ve simplified the [AI settings for your site](https://gitbook.com/docs/ai-for-your-readers/ai-search) to a single AI Assistant toggle. You can enable or disable it, and when you enable it you can choose the AI style — either the full Assistant or a more basic AI search.
+* The version history now contains more context in breadcrumbs along the top of your window. They now show the title and number of the original change request, GitHub pull request, or GitLab merge request. They also consistently show a **Merged** badge, along with the active section or variant path on the related site.
+* You can now choose to [add a separate font for H1, H2, and H3 headings](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#font-family) on your site, giving you more control over the look and feel of your published. You could combine a serif font for headings with a sans-serif font for the body copy, or any other combination you like.
+* We’ve made the **Home** button at the top of the sidebar easier to find and more clearly labelled. It’s now easier to jump back to your main home screen to view all your sites and content.
+* Deleting a docs site now requires typing the site’s title to confirm deletion to ensure the action isn’t completed by accident.
+
+### Fixes
+
+* Users searching your docs will now see each page’s description in the search results so page links can show page-level context.
+* Fixed a bug that meant requesting a review from GitBook Agent that was required by a merge rule could sometimes skip the review but still pass the merge rule check.
+* Fixed an issue that meant some SVG images weren’t displaying when a browser requested a jpg or png version of the image.
+* We’ve also added support for avif images and a few other unsupported image types.
+* Style guide reviews are no longer offered on sites with more than three spaces, to avoid creating an overwhelming number of change requests for large sites.
+{% endupdate %}
+
 {% update date="2026-08-21" tags="new-releases,improvements,fixes" %}
 ## Improvements
 
