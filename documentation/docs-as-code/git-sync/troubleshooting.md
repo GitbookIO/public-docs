@@ -92,6 +92,44 @@ Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it'
 
 <details>
 
+<summary>My space was replaced with an empty page after I edited <code>docs.yaml</code></summary>
+
+Git Sync identifies each space in `docs.yaml` by its `key`. Changing a space’s key removes the original space and creates an empty one with a new space ID.
+
+Check your repository history for the commit that changed `docs.yaml`. If the space’s `key` changed, restore the original key and commit. GitBook reconnects to the original space.
+
+The replacement space also exports its empty state to the mapped directory, so restore that directory’s `README.md` and `SUMMARY.md` from the commit before the change.
+
+Deleted spaces can’t be recovered from the app. If restoring the key doesn’t bring the space back, [contact support](../../help/contact-support.md) with the original space ID.
+
+To move a space’s content without recreating the space, change `content.directory` and leave the key alone. See [Move a mapped directory](monorepos.md#move-a-mapped-directory).
+
+</details>
+
+<details>
+
+<summary>My links to another space return 404</summary>
+
+Cross-space links resolve through space IDs. If a space was recreated — because its `key` changed in `docs.yaml` — the new space has a new ID, and links, cards, and `SUMMARY.md` entries pointing at the old ID break.
+
+Restore the original key to reconnect the original space and its ID. If the space is already gone, repoint the affected links at the new space and add [site redirects](../../publish/site-redirects.md) for the published URLs that changed.
+
+</details>
+
+<details>
+
+<summary>My new space is empty but the files are in my repository</summary>
+
+A newly created space syncs by exporting first. Its placeholder `README.md` and `SUMMARY.md` overwrite the files in the mapped directory, and the directory’s other Markdown files stay in the repository without being part of the space.
+
+Restore the overwritten `README.md` and `SUMMARY.md` from the commit before the space was created, then commit and push. GitBook imports them, and every page listed in `SUMMARY.md` appears in the space.
+
+For the full procedure, see [Add a space to the mapping](monorepos.md#add-a-space-to-the-mapping).
+
+</details>
+
+<details>
+
 <summary>Does Git Sync also sync pull requests?</summary>
 
 No. Creating a pull request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull request in your repository.
