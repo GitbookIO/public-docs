@@ -139,9 +139,17 @@ _Note: to change the theme within the GitBook app, go to your Settings menu at t
 
 Choose a standard and monospace font family for your published content from a curated list of popular options.
 
-{% hint style="info" %}
+#### Main font
+
+This is the font that will, by default, be used across your entire site. It will always be used for body copy and UI copy on your site.
+
+#### Headings
+
+The headings font is optional and will only apply to Page, H1, H2, and H3 headings on your site. By default the heading font is set to match the main font on your site.
+
+#### Monospace
+
 Monospace fonts are used in code blocks and OpenAPI blocks on your docs site.
-{% endhint %}
 
 ### Custom fonts <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 

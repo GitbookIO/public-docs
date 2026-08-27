@@ -120,6 +120,7 @@
   * [Sections](manage-your-site/site-structure/site-sections.md)
   * [Content variants](manage-your-site/site-structure/variants.md)
   * [Multilingual sections](manage-your-site/site-structure/multilingual-sections.md)
+  * [Site permissions](manage-your-site/site-structure/site-permissions.md)
 * [Site customization](manage-your-site/customization/README.md)
   * [Icons, colors, and themes](manage-your-site/customization/icons-colors-and-themes.md)
   * [Layout and structure](manage-your-site/customization/layout-and-structure.md)
