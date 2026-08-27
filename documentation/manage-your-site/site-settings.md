@@ -144,13 +144,21 @@ You can review the results of these ratings by opening [site analytics](../analy
 
 ### AI & MCP
 
-AI settings are available on different plans. AI Search is available on Premium and Ultimate site plans. GitBook Assistant and MCP connectors are available on Ultimate.
+AI settings are available on different plans. The search box placement is available on Premium and Ultimate site plans. The sidebar placement and MCP connectors are available on Ultimate.
 
 <details>
 
-<summary>Choose the AI experience <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>AI Assistant <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Choose the search experience for your site. AI Search is available on Premium and Ultimate site plans. GitBook Assistant is available on Ultimate site plans. See [ai-search.md](../ai-for-your-readers/ai-search.md "mention") for more info.
+Turn GitBook Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>Appearance <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Choose where the Assistant appears using **Placement** — **Sidebar** for the full chat experience, available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar, available on Premium and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [ai-search.md](../ai-for-your-readers/ai-search.md "mention") for more info.
 
 </details>
 
@@ -158,7 +166,7 @@ Choose the search experience for your site. AI Search is available on Premium an
 
 <summary>Extend GitBook Assistant with MCP connectors <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Configure MCP servers that GitBook Assistant can use when answering questions inside your docs. This setting is available on Ultimate site plans. See [#how-do-i-use-gitbook-ai](../ai-for-your-readers/ai-search.md#how-do-i-use-gitbook-ai "mention") for more info.
+Configure MCP servers that GitBook Assistant can use when answering questions inside your docs. This setting is available on Ultimate site plans. See [mcp-servers-for-published-docs.md](../ai-for-your-readers/mcp-servers-for-published-docs.md "mention") for more info.
 
 </details>
 
