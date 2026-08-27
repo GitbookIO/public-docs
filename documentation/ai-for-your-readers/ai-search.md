@@ -1,31 +1,21 @@
 ---
-description: >-
-  Give your readers AI answers directly in the search box of your published
-  content
+description: GitBook Assistant, shown in your site’s search box
 ---
 
 # AI Search
 
-Give your readers AI answers directly in the search box of your published content
+AI Search is [GitBook Assistant](gitbook-ai-assistant.md), shown in your site’s search box.
 
-AI search is a **placement** of [GitBook Assistant](gitbook-ai-assistant.md), not a separate experience you choose instead of it. The same Assistant answers your readers’ questions — the placement decides whether it does so in your site’s sidebar or in its search box.
+Turning the Assistant on gives your readers AI answers drawn from your content. **Placement** decides where they reach it: in the sidebar, as a full chat experience, or in the search box, as answers inline. AI Search is the search box placement.
 
-### Choose your site’s search experience
-
-GitBook sites offer different search experiences depending on what you want for your users:
-
-* **Keyword search** – A standard search experience based on keywords. Automatically enabled on all sites, and always available whichever placement you choose.
-* **AI search** – The Assistant answers questions directly in the search box. Available on Premium and Ultimate site plans.
-* **GitBook Assistant in the sidebar** – Users get an advanced, interactive chat experience with GitBook’s AI agent. Available on Ultimate site plans. Head to [GitBook Assistant](gitbook-ai-assistant.md) to learn more.
-
-### Turn on AI search
+### Show the Assistant in your search box <a href="#choose-your-sites-search-experience" id="choose-your-sites-search-experience"></a>
 
 1. Open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**.
 2. Turn **AI Assistant** on.
 3. Under **Appearance**, set **Placement** to **Search box**.
 4. Save your changes.
 
-Setting **Placement** to **Sidebar** instead opens the full Assistant chat experience. Sidebar is the default for a newly enabled Assistant.
+Sidebar is the default placement for a newly enabled Assistant. The search box placement is available on Premium and Ultimate site plans; the sidebar placement is available on Ultimate.
 
 {% hint style="info" %}
 The Assistant greeting applies to the sidebar placement only, so it’s hidden while **Placement** is set to **Search box**.
@@ -37,26 +27,26 @@ Turning **AI Assistant** off and on again resets **Placement** to **Sidebar**. I
 
 ## Searching published documentation
 
+Keyword search is automatically enabled on every site, whether or not the Assistant is turned on.
+
 **​**Users can open the **Ask or search…** bar by pressing <kbd>⌘</kbd> + <kbd>K</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>K</kbd> on PC.
 
 Your users can search for keywords within your docs site and jump quickly to specific pages or page sections across your entire site.
 
 If your docs site has multiple [sections](../manage-your-site/site-structure/site-sections.md), the search results will contain pages from all of these sections so that you users can jump straight to the page they need.
 
-## AI search
+## Asking questions in the search box
 
-With **Placement** set to **Search box**, the Assistant offers AI-powered answers in the **Ask or search…** bar of your site. It’s trained on the content of your docs site, and can also draw on any sources you’ve added through [connections](connections.md).
-
-### Using AI search
-
-Your users can access it by asking a question directly in the **Ask or search…** bar at the top of the page.
+With **Placement** set to **Search box**, your users can ask a question directly in the **Ask or search…** bar at the top of the page, alongside the keyword results.
 
 They can open this by clicking it directly, or by pressing <kbd>⌘</kbd> + <kbd>K</kbd> on a Mac or <kbd>Ctrl</kbd> + <kbd>K</kbd> on a PC.
 
 As well as a summarized answer, below your users will also see an expandable section that shows the sources that the Assistant used to create its answer, plus related questions you can click as a follow-up.
 
+The Assistant answers from the content of your docs site, and from any sources you’ve added through [connections](connections.md).
+
 {% hint style="warning" %}
-AI search does not work across individual published sections on different [docs sites](../publish/publish-a-docs-site/).
+The Assistant does not answer across individual published sections on different [docs sites](../publish/publish-a-docs-site/).
 
 Multi-section search is only available when viewing published [sections](../manage-your-site/site-structure/site-sections.md) that live within the same site.
 {% endhint %}
