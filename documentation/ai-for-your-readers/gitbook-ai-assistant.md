@@ -1,7 +1,7 @@
 ---
 description: >-
-  AI Assistant gives users accurate, contextual answers drawn from your
-  entire knowledge base — not just your docs
+  AI Assistant gives users accurate, contextual answers drawn from your entire
+  knowledge base — not just your docs
 ---
 
 # AI Assistant
@@ -96,11 +96,7 @@ Multi-section search is only available when viewing published [sections](../mana
 
 Keyword search is automatically enabled on every site, whether or not the Assistant is turned on.
 
-**​**Users can open the **Ask or search…** bar by pressing <kbd>⌘</kbd> + <kbd>K</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>K</kbd> on PC.
-
 Your users can search for keywords within your docs site and jump quickly to specific pages or page sections across your entire site.
-
-If your docs site has multiple [sections](../manage-your-site/site-structure/site-sections.md), the search results will contain pages from all of these sections so that you users can jump straight to the page they need.
 
 ## Embed AI Assistant in your product
 
