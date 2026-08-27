@@ -9,7 +9,7 @@ tags:
 
 Connections let you bring external content into your docs site.
 
-Connected content can appear in [AI Search](ai-search.md) and [GitBook Assistant](gitbook-ai-assistant.md). Some connections can also help GitBook generate change requests.
+Connected content can appear in [AI Assistant](gitbook-ai-assistant.md). Some connections can also help GitBook generate change requests.
 
 To add a connection, open your site’s **Settings** and click on **Connections**.
 
@@ -105,7 +105,7 @@ Increase the value if this source should appear more often. Lower it if this sou
 
 ### Connector details
 
-All connectors in this section can provide context to [GitBook Assistant](gitbook-ai-assistant.md). GitBook Agent can use resolved records to identify [content gaps](../gitbook-agent/automatic-docs-improvements.md) and suggest documentation updates.
+All connectors in this section can provide context to [AI Assistant](gitbook-ai-assistant.md). GitBook Agent can use resolved records to identify [content gaps](../gitbook-agent/automatic-docs-improvements.md) and suggest documentation updates.
 
 #### Intercom
 

@@ -175,9 +175,8 @@
 
 ## AI for your readers
 
-* [GitBook Assistant](ai-for-your-readers/gitbook-ai-assistant.md)
+* [AI Assistant](ai-for-your-readers/gitbook-ai-assistant.md)
 * [Connections](ai-for-your-readers/connections.md)
-* [AI Search](ai-for-your-readers/ai-search.md)
 * [MCP servers for published docs](ai-for-your-readers/mcp-servers-for-published-docs.md)
 
 ## Analytics
