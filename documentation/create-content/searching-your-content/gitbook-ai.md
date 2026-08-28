@@ -9,7 +9,7 @@ description: >-
 When engaging with GitBook AI, you have the ability to ask questions or elaborate on specific requirements. This AI-driven tool is designed to review your documentation in real-time, providing you with quick, direct answers.
 
 {% hint style="info" %}
-GitBook AI search is available both within the GitBook app to search internal content, and [in published content to search that specific docs site](../../ai-for-your-readers/ai-search.md).
+GitBook AI search is available both within the GitBook app to search internal content, and [in published content to search that specific docs site](../../ai-for-your-readers/gitbook-ai-assistant.md).
 {% endhint %}
 
 ## GitBook AI helps you find answers in the GitBook app

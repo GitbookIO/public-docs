@@ -150,7 +150,7 @@ AI settings are available on different plans. The search box placement is availa
 
 <summary>AI Assistant <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Turn GitBook Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
+Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 
 </details>
 
@@ -158,7 +158,7 @@ Turn GitBook Assistant on or off for your site. See [gitbook-ai-assistant.md](..
 
 <summary>Appearance <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Choose where the Assistant appears using **Placement** — **Sidebar** for the full chat experience, available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar, available on Premium and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [ai-search.md](../ai-for-your-readers/ai-search.md "mention") for more info.
+Choose where the Assistant appears using **Placement** — **Sidebar** for the full chat experience, available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar, available on Premium and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 
 </details>
 
