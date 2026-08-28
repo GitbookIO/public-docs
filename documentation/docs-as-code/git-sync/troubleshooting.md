@@ -92,6 +92,20 @@ Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it'
 
 <details>
 
+<summary>My links to another space return 404 after I edited <code>docs.yaml</code></summary>
+
+Cross-space links resolve through space IDs. Git Sync identifies each space in `docs.yaml` by its `key`, so changing a space’s key replaces that space: GitBook creates a new one, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
+
+Your pages come back, but the space ID changes. Links, cards, and `SUMMARY.md` entries that point at the old ID break.
+
+The new ID is permanent. Restoring the original key doesn’t bring the old one back — it creates another new space with another new ID. Repoint the affected references at the current space, and add [site redirects](../../publish/site-redirects.md) for the published URLs that changed.
+
+The original space is still in your organization if you need something from it that isn’t in your repository. [Contact support](../../help/contact-support.md) with the original space ID if you can’t find it.
+
+</details>
+
+<details>
+
 <summary>Does Git Sync also sync pull requests?</summary>
 
 No. Creating a pull request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull request in your repository.

@@ -16,6 +16,23 @@ Git Sync uses three files. Choose the file that controls the part of Git Sync yo
 
 Use `docs.yaml` to define your site structure and map each space to a directory. Each item in `site.structure` has a stable `key`. A space’s `content.directory` sets its repository directory.
 
+#### Keys identify your spaces
+
+Git Sync recognizes each space and section by its `key`, not by its title, path, or directory. The key is how GitBook matches an entry in `docs.yaml` to existing content from one sync to the next.
+
+{% hint style="danger" %}
+**Changing a space’s `key` replaces that space.** GitBook treats the old key as removed and the new key as a new space. It creates a new space, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
+
+Your pages come back, but in a new space with a new space ID. Links, cards, and API calls that reference the old ID stop resolving, and anything that exists only in GitBook rather than in your repository stays with the original space.
+
+Restoring the original key doesn’t undo this. It creates another new space and imports into that one.
+{% endhint %}
+
+Keys are safe to choose freely when you first create an entry, and GitBook generates them for you when it saves the site content mapping. Once a space is live, treat its key as permanent:
+
+* To rename a space, change its `title`. The key stays the same.
+* To change a space’s URL, change its `path`. The key stays the same.
+
 This example maps English and French spaces to separate directories:
 
 {% code title="docs.yaml" expandable="true" %}
