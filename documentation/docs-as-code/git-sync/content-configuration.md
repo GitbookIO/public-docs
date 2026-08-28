@@ -23,7 +23,7 @@ Git Sync recognizes each space and section by its `key`, not by its title, path,
 {% hint style="danger" %}
 **Changing a space’s `key` replaces that space.** GitBook treats the old key as removed and the new key as a new space. It creates a new space, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
 
-Your pages come back, but they sit in a different space with a different space ID. Links, cards, and API calls that reference the old ID stop resolving, and anything that exists only in GitBook rather than in your repository stays with the original space.
+Your pages come back, but in a new space with a new space ID. Links, cards, and API calls that reference the old ID stop resolving, and anything that exists only in GitBook rather than in your repository stays with the original space.
 
 Restoring the original key doesn’t undo this. It creates another new space and imports into that one.
 {% endhint %}

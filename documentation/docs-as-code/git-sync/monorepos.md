@@ -86,12 +86,11 @@ The `.gitbook.yaml` `root` setting controls where GitBook reads content within t
 
 ### Move a mapped directory
 
-Move a space safely by updating its files and mapping together:
+Move a space’s content by updating its files and mapping together:
 
 1. In the repository, move the space’s content files and assets.
-2. In `docs.yaml`, update that space’s `content.directory`.
-3. Leave that space’s `key` unchanged.
-4. Commit both changes in the same commit.
+2. In `docs.yaml`, update that space’s `content.directory`. Leave its `key` unchanged.
+3. Commit both changes in the same commit.
 
 {% hint style="info" %}
 If GitBook imports before both changes exist, the mapped space can appear empty.
