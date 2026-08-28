@@ -21,16 +21,15 @@ Use `docs.yaml` to define your site structure and map each space to a directory.
 Git Sync recognizes each space and section by its `key`, not by its title, path, or directory. The key is how GitBook matches an entry in `docs.yaml` to existing content from one sync to the next.
 
 {% hint style="danger" %}
-**Changing a space’s `key` destroys that space.** GitBook treats the old key as removed and the new key as a new space. It deletes the original space and creates an empty one with a new space ID. Links, cards, and API calls that reference the old space ID return 404.
+**Changing a space’s `key` removes that space from your site.** GitBook treats the old key as removed and the new key as a new space. The original space is detached from the site structure and stays in your organization, and a new, empty space takes its place. The new space has its own space ID, so links, cards, and API calls that reference the old ID no longer resolve on your site.
+
+Restoring the original key doesn’t undo this. GitBook adds another new entry to the site structure and imports its content from the mapped directory.
 {% endhint %}
 
 Keys are safe to choose freely when you first create an entry, and GitBook generates them for you when it saves the site content mapping. Once a space is live, treat its key as permanent:
 
 * To rename a space, change its `title`. The key stays the same.
 * To change a space’s URL, change its `path`. The key stays the same.
-* To move a space’s content to another directory, change its `content.directory`. The key stays the same. See [Move a mapped directory](monorepos.md#move-a-mapped-directory).
-
-Changing `content.directory` on its own doesn’t affect the space. GitBook keeps the space and reads its content from the new location.
 
 This example maps English and French spaces to separate directories:
 
