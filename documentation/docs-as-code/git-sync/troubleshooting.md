@@ -92,9 +92,9 @@ Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it'
 
 <details>
 
-<summary>My links to another space return 404 after I edited <code>docs.yaml</code></summary>
+<summary>My links to another space return 404 after I edited <code>gitbook-docs.yaml</code></summary>
 
-Cross-space links resolve through space IDs. Git Sync identifies each space in `docs.yaml` by its `key`, so changing a space’s key replaces that space: GitBook creates a new one, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
+Cross-space links resolve through space IDs. Git Sync identifies each space in `gitbook-docs.yaml` by its `key`, so changing a space’s key replaces that space: GitBook creates a new one, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
 
 Your pages come back, but the space ID changes. Links, cards, and `SUMMARY.md` entries that point at the old ID break.
 

@@ -6,19 +6,19 @@ description: Configure Git Sync through code
 
 Git Sync uses three files. Choose the file that controls the part of Git Sync you need:
 
-* `docs.yaml` configures the site and maps spaces to repository directories.
+* `gitbook-docs.yaml` configures the site and maps spaces to repository directories.
 * `.gitbook.yaml` configures how GitBook reads one space’s content.
 * `SUMMARY.md` defines a space’s navigation.
 
-### Configure the site with docs.yaml
+### Configure the site with gitbook-docs.yaml
 
-`docs.yaml` configures the entire site. It lives in the Git Sync Project directory. GitBook uses the repository root when you don't set a **Project directory**.
+`gitbook-docs.yaml` configures the entire site. It lives in the Git Sync Project directory. GitBook uses the repository root when you don't set a **Project directory**.
 
-Use `docs.yaml` to define your site structure and map each space to a directory. Each item in `site.structure` has a stable `key`. A space’s `content.directory` sets its repository directory.
+Use `gitbook-docs.yaml` to define your site structure and map each space to a directory. Each item in `site.structure` has a stable `key`. A space’s `content.directory` sets its repository directory.
 
 #### Keys identify your spaces
 
-Git Sync recognizes each space and section by its `key`, not by its title, path, or directory. The key is how GitBook matches an entry in `docs.yaml` to existing content from one sync to the next.
+Git Sync recognizes each space and section by its `key`, not by its title, path, or directory. The key is how GitBook matches an entry in `gitbook-docs.yaml` to existing content from one sync to the next.
 
 {% hint style="danger" %}
 **Changing a space’s `key` replaces that space.** GitBook treats the old key as removed and the new key as a new space. It creates a new space, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
@@ -35,7 +35,7 @@ Keys are safe to choose freely when you first create an entry, and GitBook gener
 
 This example maps English and French spaces to separate directories:
 
-{% code title="docs.yaml" expandable="true" %}
+{% code title="gitbook-docs.yaml" expandable="true" %}
 ```yaml
 $schema: https://api.gitbook.com/openapi.yaml#/components/schemas/GitSyncSiteConfig
 site:
@@ -79,7 +79,7 @@ Use these optional properties to refine your site structure:
 | `localizedDescription` | Translate a section description.                          |
 | `hidden`               | Hide a space from site navigation.                        |
 
-GitBook creates or updates `docs.yaml` when it saves the site content mapping.
+GitBook creates or updates `gitbook-docs.yaml` when it saves the site content mapping.
 
 </details>
 
