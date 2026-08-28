@@ -92,29 +92,15 @@ Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it'
 
 <details>
 
-<summary>My space was replaced with an empty page after I edited <code>docs.yaml</code></summary>
+<summary>My links to another space return 404 after I edited <code>docs.yaml</code></summary>
 
-Git Sync identifies each space in `docs.yaml` by its `key`. Changing a space’s key removes the original space from your site and puts a new, empty space in its place, with its own space ID.
+Cross-space links resolve through space IDs. Git Sync identifies each space in `docs.yaml` by its `key`, so changing a space’s key replaces that space: GitBook creates a new one, imports your content into it from the mapped directory, and leaves the original space in your organization, detached from the site.
 
-Your content isn’t deleted. The original space stays in your organization, outside the site structure, holding its content as it was when the key changed.
+Your pages come back, but the space ID changes. Links, cards, and `SUMMARY.md` entries that point at the old ID break.
 
-Restoring the original key doesn’t reattach that space. It adds another new entry to the site structure and imports content into it from the mapped directory. Leave the current key in place and bring your pages back from the repository instead:
+The new ID is permanent. Restoring the original key doesn’t bring the old one back — it creates another new space with another new ID. Repoint the affected references at the current space, and add [site redirects](../../publish/site-redirects.md) for the published URLs that changed.
 
-1. Restore the mapped directory’s `README.md` and `SUMMARY.md` from the commit before the key changed. The replacement space exports its empty state over them.
-2. Commit and push. GitBook imports the directory, and every page listed in `SUMMARY.md` appears in the space.
-3. Repoint links, cards, and API calls that referenced the old space ID, and add [site redirects](../../publish/site-redirects.md) for published URLs that changed.
-
-The original space is still in your organization if you need something that exists only in GitBook. [Contact support](../../help/contact-support.md) with the original space ID if you can’t find it.
-
-</details>
-
-<details>
-
-<summary>My links to another space return 404</summary>
-
-Cross-space links resolve through space IDs. If a space was replaced — because its `key` changed in `docs.yaml` — the new space has a new ID, and links, cards, and `SUMMARY.md` entries pointing at the old ID break.
-
-The new ID is permanent. Restoring the original key doesn’t bring the old ID back — it creates another new space with another new ID. Repoint the affected links at the current space, and add [site redirects](../../publish/site-redirects.md) for the published URLs that changed.
+The original space is still in your organization if you need something from it that isn’t in your repository. [Contact support](../../help/contact-support.md) with the original space ID if you can’t find it.
 
 </details>
 
