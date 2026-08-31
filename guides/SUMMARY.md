@@ -8,6 +8,7 @@
 * [How to use GitBook’s editor](editing-and-publishing-documentation/how-to-use-gitbooks-editor.md)
 * [How to collaborate on change requests](editing-and-publishing-documentation/how-to-collaborate-on-change-requests.md)
 * [How to use merge rules](editing-and-publishing-documentation/how-to-use-merge-rules.md)
+* [How to sync your entire docs site with a Git repository](editing-and-publishing-documentation/how-to-sync-your-entire-docs-site-with-a-git-repository.md)
 * [Import or migrate your content to GitBook with Git Sync](editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync.md "How to import docs with Git Sync")
 * [Import content from a CSV file into GitBook](editing-and-publishing-documentation/import-zendesk-csv-to-gitbook.md "How to import docs from a CSV")
 * [How to handle merge conflicts in GitBook](editing-and-publishing-documentation/how-to-handle-merge-conflicts-in-gitbook.md "How to resolve merge conflicts")

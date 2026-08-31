@@ -3,7 +3,7 @@
 {% hint style="warning" %}
 #### GitBook now supports find & replace through GitBook Agent
 
-Head to [GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) to learn more about using GitBook Agent to edit pages in bulk.
+Head to [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) to learn more about using GitBook Agent to edit pages in bulk.
 {% endhint %}
 
 When you change something about your product, manually updating your documentation in all the affected places can be a real pain. Thankfully, with [Git Sync](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync) in GitBook, it’s a simple process.
