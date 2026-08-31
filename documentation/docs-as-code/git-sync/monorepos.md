@@ -4,19 +4,19 @@ description: Use Git Sync with monorepos and map spaces to separate directories
 
 # Monorepos
 
-Use site-wide Git Sync to sync multiple spaces from one repository and branch. Map each space to its own directory in `docs.yaml`.
+Use site-wide Git Sync to sync multiple spaces from one repository and branch. Map each space to its own directory in `gitbook-docs.yaml`.
 
 ### How site-wide Git Sync works
 
-The site’s **Project directory** sets the Git Sync installation directory. `docs.yaml` lives there. If you leave it empty, GitBook uses the repository root.
+The site’s **Project directory** sets the Git Sync installation directory. `gitbook-docs.yaml` lives there. If you leave it empty, GitBook uses the repository root.
 
-In `docs.yaml`, each space has a `content.directory`. That directory contains the space’s `.gitbook.yaml`, `README.md`, `SUMMARY.md`, and content files.
+In `gitbook-docs.yaml`, each space has a `content.directory`. That directory contains the space’s `.gitbook.yaml`, `README.md`, `SUMMARY.md`, and content files.
 
 For an overview of these files, see [Content configuration](content-configuration.md).
 
 ### Map spaces to directories
 
-Use **Content mapping** in the Git Sync panel to map each space. GitBook saves the mapping in `docs.yaml`.
+Use **Content mapping** in the Git Sync panel to map each space. GitBook saves the mapping in `gitbook-docs.yaml`.
 
 Directory paths work as follows:
 
@@ -30,7 +30,7 @@ For example, this repository maps three spaces:
 
 ```
 /
-  docs.yaml
+  gitbook-docs.yaml
   documentation/
     .gitbook.yaml
     README.md
@@ -48,11 +48,11 @@ For example, this repository maps three spaces:
     SUMMARY.md
 ```
 
-This `docs.yaml` maps each space to its directory:
+This `gitbook-docs.yaml` maps each space to its directory:
 
-{% code title="docs.yaml" %}
+{% code title="gitbook-docs.yaml" %}
 ```yaml
-$schema: https://api.gitbook.com/openapi.yaml#/components/schemas/GitSyncSiteConfig
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
   structure:
     - type: space
@@ -89,7 +89,7 @@ The `.gitbook.yaml` `root` setting controls where GitBook reads content within t
 Move a space’s content by updating its files and mapping together:
 
 1. In the repository, move the space’s content files and assets.
-2. In `docs.yaml`, update that space’s `content.directory`. Leave its `key` unchanged.
+2. In `gitbook-docs.yaml`, update that space’s `content.directory`. Leave its `key` unchanged.
 3. Commit both changes in the same commit.
 
 {% hint style="info" %}
