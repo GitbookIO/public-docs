@@ -1,0 +1,27 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="450" fill="url(#paint0_linear_5705_1941)"/>
+<path d="M382.499 155C386.946 150.462 393.144 147.5 400 147.5C406.856 147.5 413.053 150.462 417.5 155" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M330 207.499C325.462 211.946 322.5 218.144 322.5 225C322.5 231.856 325.462 238.053 330 242.5" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M345 257.5L367.5 280" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M470 297.5L467.5 295M447.5 275L450 277.5M460 287.5L457.5 285" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M455 192.5L432.5 170" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M345 192.5L367.5 170" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M387.5 245L392.5 245" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M367.5 245L372.5 245" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M387.5 205L392.5 205" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M367.5 205L372.5 205" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M380 197.5L380 192.5M380 217.5L380 212.5" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M427.5 205L432.5 205" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M407.5 205L412.5 205" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M427.5 245L432.5 245" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M407.5 245L412.5 245" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M420 237.5L420 232.5M420 257.5L420 252.5" stroke="#89C6DA" stroke-width="5" stroke-linecap="round"/>
+<path d="M470 207.499C474.538 211.946 477.5 218.144 477.5 225C477.5 231.856 474.538 238.053 470 242.5" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<path d="M382.499 295C386.946 299.538 393.144 302.5 400 302.5C406.856 302.5 413.053 299.538 417.5 295" stroke="#181C1F" stroke-width="5" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linear_5705_1941" x1="377.262" y1="3.12975e-05" x2="424.55" y2="240.166" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E1F3FF"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+</defs>
+</svg>

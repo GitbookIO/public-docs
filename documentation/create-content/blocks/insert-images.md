@@ -1,0 +1,187 @@
+---
+description: >-
+  Add an image or a gallery of images to a page, add image variants for dark
+  mode, and resize and align images to your needs
+---
+
+# Images
+
+You can insert images into your page, then choose their size and whether to align them to the left, center, or right. You can also optionally include alt text and/or a caption on your image block.
+
+{% hint style="info" %}
+**Tip:** For accessibility purposes, we recommend setting alt text for your images.
+{% endhint %}
+
+### Example of an image block <a href="#example-of-an-image-block" id="example-of-an-image-block"></a>
+
+<div align="center"><figure><img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?crop=entropy&#x26;cs=srgb&#x26;fm=jpg&#x26;ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHwyfHxzcGFjZXxlbnwwfHx8fDE3MzMxOTY5NTR8MA&#x26;ixlib=rb-4.0.3&#x26;q=85" alt="A photograph taken from space looking back towards Earth. A satellite is in the foreground, and in the background is an ocean-covered part of our planet with patchy clouds."><figcaption><p>Example of an image block with a caption</p></figcaption></figure></div>
+
+### Uploading an image
+
+There are two ways to add images to your content:
+
+1. Drag and drop the image from your file management system directly into an empty block on your page.
+2. [Add an image block](./#inserting-a-new-content-block) to your page and use the **Select images** side panel that appears on the right of the window.
+
+If you follow the second process, you can choose to upload a file, select a previously-uploaded file, paste an image URL or add an image from [Unsplash](https://unsplash.com/) using the built-in search.
+
+{% hint style="warning" %}
+GitBook allows you to upload images up to 100MB per file.
+{% endhint %}
+
+There's no set limit on the total number of assets in a section, though GitBook reserves the right to block accounts for abuse. For files larger than the upload limit, store them in a service like Google Drive or Dropbox and link to them from your page.
+
+Animated gifs have a limit of 200 frames per file. Large files — gifs included — slow your page's loading time, so avoid uploading large files directly where you can.
+
+#### Create an image gallery
+
+Adding more than one image to an image block will create a gallery. To do this, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and choose **Add images…** to open the **Select images** side panel again.
+
+To delete an image from a gallery, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt=""></picture> on the image you want to delete and press the **Delete ⌫** key.
+
+### Adding images for light & dark mode <a href="#light-and-dark-mode" id="light-and-dark-mode"></a>
+
+You can set different images for the light and dark mode versions of your published site. GitBook will automatically display the correct image depending on the mode your visitor is in.
+
+To add an image for dark mode, hover over your image, open the **Edit menu** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt=""></picture> and click **Replace image** <picture><source srcset="../../.gitbook/assets/25_01_10_replace_image_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_replace_image_icon_light.svg" alt="The Replace image icon in GitBook"></picture>.
+
+In the drop-down menu, choose **Add image for Dark mode**. Once you’ve set this, you can replace either image from this same menu.
+
+{% hint style="warning" %}
+**Note:** GitBook doesn’t currently support light and dark mode images for certain cases, including page covers or image covers on [cards](cards.md).
+{% endhint %}
+
+### Light and dark mode images through GitHub/GitLab Sync <a href="#light-and-dark-mode-through-github-gitlab-sync" id="light-and-dark-mode-through-github-gitlab-sync"></a>
+
+You can also add light and dark mode images in Markdown through HTML syntax (`<picture>` and `<source>`).
+
+For block images, use the `<figure>` HTML element with a `<picture>` and `<source>` in it:
+
+```html
+Text before
+
+<figure>
+  <picture>
+    <source
+      srcset="
+        https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png
+      "
+      media="(prefers-color-scheme: dark)"
+    />
+    <img
+      src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png"
+      alt="GitHub logo"
+    />
+  </picture>
+  <figcaption>Caption text</figcaption>
+</figure>
+
+Text after
+```
+
+For inline images (images that sit inline with text), use the `<picture>` HTML element with a `<source>` in it:
+
+```html
+Text before the image
+<picture
+  ><source
+    srcset="
+      https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png
+    "
+    media="(prefers-color-scheme: dark)" />
+  <img
+    src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png"
+    alt="The GitHub Logo"
+/></picture>
+and text after the image
+```
+
+{% hint style="warning" %}
+**Note:** We don’t yet support [GitHub-only syntax](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) through `#gh-dark-mode-only` or `#gh-light-mode-only`.
+{% endhint %}
+
+### Resizing
+
+To resize your image, hover over it and open the **Edit menu** <picture><source srcset="../../.gitbook/assets/25_01_10_edit_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_edit_icon_light.svg" alt=""></picture>. Click the **Size** button to change the size of your image from the available options.
+
+<figure><img src="../../.gitbook/assets/25_12_10_image_resizing@2x.png" alt="A GitBook screenshot showing how to resize an image"><figcaption><p>Resize an image</p></figcaption></figure>
+
+* **Small** – 25% of the image size
+* **Medium** – 50% of the image size
+* **Large** – 75% of the image size
+* **Fit** – Removes all size specifications and displays either at full size or capped at a maximum width of **735** **pixels** for larger images.
+
+If your image is wider than the editor, GitBook will limit the image’s width to the editor’s width instead, and resizing will be based on this limit.
+
+{% hint style="info" %}
+**Note:** When resizing images in an image gallery, the results can differ from resizing an individual image.
+{% endhint %}
+
+### Resizing images through Git Sync
+
+If you want more control over the sizing of your image, you can specify the exact size using Markdown in GitHub or GitLab.
+
+When we export an image, we use the HTML tag `<img/>`. As per the specifications, we can specify the dimensions of the image using the `width` and `height` attributes, which only accept values in pixels or a combination of a number and a `%` sign.\
+\
+Valid variants for specifying the image dimensions are:\
+\
+`<img width="100" />` Sets the image to 100 pixels wide\
+`<img width="100%" />` Sets the image to full size (although this will be limited by the editor)
+
+### Aligning images
+
+By default, image blocks will show your image at its full size, aligned centrally.
+
+To change the alignment of an image, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and choose the alignment you want. This will only affect images that are narrower than the editor, or images you’ve [resized](insert-images.md#resizing).
+
+### Framing images
+
+You can add a frame to image blocks to give your images a consistent look and visually separate them from their surrounding content.
+
+<div data-with-frame="true"><figure><img src="../../.gitbook/assets/25_10_06_image_frame_demo@2x.jpg" alt="A black and white photograph of a lone figure walking across a stark white landscape"><figcaption><p>Framed images can have captions, and show a subtle grid behind the caption.</p></figcaption></figure></div>
+
+To add a frame to an image, hover over it, open the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt=""></picture> and enable the **With frame** toggle.
+
+{% hint style="info" %}
+**Good to know:** You can only frame single images in a block. Image blocks that contain multiple images and inline images cannot have frames.
+{% endhint %}
+
+### Representation in Markdown
+
+```markdown
+//Simple Block
+![](https://gitbook.com/images/gitbook.png)
+
+//Block with Caption
+![The GitBook Logo](https://gitbook.com/images/gitbook.png)
+
+//Block with Alt text
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"></figure>
+
+//Block with Caption and Alt text
+
+<figure><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"><figcaption><p>GitBook Logo</p></figcaption></figure>
+
+// Block with framed image
+
+<div data-with-frame="true"><img src="https://gitbook.com/images/gitbook.png" alt="The GitBook Logo"></div>
+
+//Block with different image for dark and light mode, with caption
+
+<figure>
+  <picture>
+    <source srcset="https://user-images.githubusercontent.com/3369400/139447912-e0f43f33-6d9f-45f8-be46-2df5bbc91289.png" media="(prefers-color-scheme: dark)">
+    <img src="https://user-images.githubusercontent.com/3369400/139448065-39a229ba-4b06-434b-bc67-616e2ed80c8f.png" alt="GitHub logo">
+  </picture>
+  <figcaption>Caption text</figcaption>
+</figure>
+```
+
+### Why is my image not loading?
+
+A "could not load image" error means the image was changed or deleted at its source. If you embedded an image by URL rather than uploading it, GitBook relies on that URL — if the image moves or disappears from the source, it stops displaying on your page.
+
+To resolve it, upload the image directly to GitBook, or update the URL if the image's location changed. The error can also appear when you copy an image from one section to another, because each section has its own file directory — re-upload the image in the new section.
+
+You can review all files uploaded to a section in the **Library** tab, beside **Pages** at the top of the table of contents.

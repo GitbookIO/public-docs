@@ -1,0 +1,189 @@
+---
+description: Customize and edit settings across your published site
+---
+
+# Site settings
+
+<figure><img src="../.gitbook/assets/26_03_30_site_settings@2x.png" alt="A GitBook screenshot showing site settings"><figcaption><p>Update the settings for your published documentation.</p></figcaption></figure>
+
+### General
+
+<details>
+
+<summary>Site title</summary>
+
+Change the name of your site, if you don't have a custom logo this is the name that your site visitors will see.
+
+</details>
+
+<details>
+
+<summary>Analytics cookie</summary>
+
+If you want to use GitBook’s [site analytics](../analytics/insights.md), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
+\
+The cookies notice appears when your site has analytics enabled through an integration, especially **Google Analytics**.
+
+To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**
+
+Disabling these cookies also turns off [site analytics](../analytics/insights.md) for that site.
+
+</details>
+
+<details>
+
+<summary>Unpublish site</summary>
+
+Unpublish your site, but keep its settings and customizations. You can publish your site again at any time.
+
+</details>
+
+<details>
+
+<summary>Delete site</summary>
+
+Unpublish and remove your site from the **Docs site** section in the GitBook app.
+
+**Note:** Deleting a site is a permanent action and cannot be undone. Any settings and customizations will be lost, but your content will remain in its [space](../create-content/content-structure/space.md).
+
+</details>
+
+<details>
+
+<summary>Access</summary>
+
+Manage who can access and administer your docs site.
+
+Open **Access** and click **Manage permissions**. You can also use **Share** from the site’s **Overview** page.
+
+Site permissions are available on all plans.
+
+By default, new sites derive permissions from their linked [spaces](../create-content/content-structure/space.md), until you update permissions from the site permissions modal.
+
+Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. In this case, each inherited space receives the highest permission level granted by the organization, any parent collection, and any site that includes it.
+
+</details>
+
+### Agents
+
+{% content-ref url="../gitbook-agent/overview.md" %}
+[overview.md](../gitbook-agent/overview.md)
+{% endcontent-ref %}
+
+### Styleguide
+
+Create, reuse, or detach the styleguide that defines your team's writing rules and keeps GitBook Agent consistent.
+
+{% content-ref url="../create-content/styleguide.md" %}
+[styleguide.md](../create-content/styleguide.md)
+{% endcontent-ref %}
+
+### Audience
+
+<details>
+
+<summary>Audience</summary>
+
+Choose who sees your published content. See [publish-a-docs-site](../publish/publish-a-docs-site/ "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>Adaptive content <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Turn on adaptive content for your site pages, variants, and sections. [Adaptive content](../publish/adaptive-content/) lets you hide or show content for different visitors, depending on their permissions.
+
+Your visitor token signing key will also be displayed here.
+
+</details>
+
+### Domain and URL
+
+<details>
+
+<summary>Custom domain</summary>
+
+Configure a custom domain to unify your site with your own branding. See [custom-domain](../publish/custom-domain/ "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>GitBook Subdirectory</summary>
+
+Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). Learn more in [setting-a-custom-subdirectory](../publish/custom-domain/setting-a-custom-subdirectory/ "mention").
+
+</details>
+
+### Redirects
+
+{% content-ref url="../publish/site-redirects.md" %}
+[site-redirects.md](../publish/site-redirects.md)
+{% endcontent-ref %}
+
+### Features
+
+<details>
+
+<summary>PDF export <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>Page ratings <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
+
+You can review the results of these ratings by opening [site analytics](../analytics/insights.md) from your docs site dashboard and selecting **Pages & feedback**.
+
+</details>
+
+### AI & MCP
+
+AI settings are available on different plans. The search box placement is available on Premium and Ultimate site plans. The sidebar placement and MCP connectors are available on Ultimate.
+
+<details>
+
+<summary>AI Assistant <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>Appearance <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Choose where the Assistant appears using **Placement** — **Sidebar** for the full chat experience, available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar, available on Premium and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
+
+</details>
+
+<details>
+
+<summary>Extend GitBook Assistant with MCP connectors <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+
+Configure MCP servers that GitBook Assistant can use when answering questions inside your docs. This setting is available on Ultimate site plans. See [mcp-servers-for-published-docs.md](../ai-for-your-readers/mcp-servers-for-published-docs.md "mention") for more info.
+
+</details>
+
+### Connections
+
+{% content-ref url="../ai-for-your-readers/connections.md" %}
+[connections.md](../ai-for-your-readers/connections.md)
+{% endcontent-ref %}
+
+### Structure
+
+{% content-ref url="site-structure/" %}
+[site-structure](site-structure/)
+{% endcontent-ref %}
+
+### Plan
+
+{% content-ref url="../account-and-billing/plans/" %}
+[plans](../account-and-billing/plans/)
+{% endcontent-ref %}

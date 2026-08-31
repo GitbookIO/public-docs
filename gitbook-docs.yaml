@@ -1,0 +1,183 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: GitBook Documentation
+  structure:
+    - type: section
+      key: section-1
+      title: Documentation
+      localizedTitle:
+        en: Documentation
+        fr: Documentation
+        ja: ドキュメント
+        zh: 文档
+      path: documentation
+      description: How to use GitBook to publish beautiful docs
+      localizedDescription:
+        fr: Comment utiliser GitBook pour publier une documentation soignée
+      icon: book-open
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: 🇺🇸 English
+          localizedTitle:
+            en: 🇺🇸 English
+            fr: 🇺🇸 Anglais
+            ja: 🇺🇸 英語
+            zh: 🇺🇸 英语
+          path: gitbook-documentation
+          default: true
+          content:
+            directory: ./documentation
+            language: en
+        - type: space
+          key: space-5
+          title: 🇫🇷 Français
+          localizedTitle:
+            en: 🇫🇷 French
+            fr: 🇫🇷 Français
+            ja: 🇫🇷 フランス語
+            zh: 🇫🇷 法语
+          path: fr
+          content:
+            directory: null
+            language: fr
+        - type: space
+          key: space-6
+          title: 🇨🇳 中文
+          localizedTitle:
+            en: 🇨🇳 Chinese (Simplified)
+            fr: 🇨🇳 Chinois (simplifié)
+            ja: 🇨🇳 中国語
+            zh: 中文
+          path: zh
+          content:
+            directory: null
+            language: zh
+        - type: space
+          key: space-8
+          title: 🇯🇵 日本語
+          localizedTitle:
+            en: 🇯🇵 Japanese
+            fr: 🇯🇵 Japonaise
+            ja: 🇯🇵 日本語
+            zh: 🇯🇵 日语
+          path: ja-gitbook-documentation
+          content:
+            directory: null
+            language: ja
+    - type: section
+      key: section-3
+      title: Developers
+      localizedTitle:
+        en: Developers
+        fr: Développeurs
+        ja: 開発者
+        zh: 开发者
+      path: developers
+      localizedDescription:
+        en: GitBook API, SDK, and developer tools
+        fr: L'API, le SDK et les outils développeur de GitBook
+        ja: GitBook API、SDK、および開発者ツール
+        zh: GitBook API、SDK 和开发者工具
+      icon: code
+      children:
+        - type: space
+          key: space-3
+          title: Developer Documentation
+          path: gitbook-developer-docs
+          default: true
+          content:
+            directory: ./developers
+            language: en
+    - type: section-group
+      key: section-group-1
+      title: Resources
+      localizedTitle:
+        fr: Ressources
+        ja: リソース
+        zh: 资源
+      icon: circle-info
+      children:
+        - type: section
+          key: section-2
+          title: Changelog
+          localizedTitle:
+            en: Changelog
+            fr: Journal des modifications
+            ja: 変更履歴
+            zh: 更新日志
+          path: changelog
+          description: Our latest updates and releases
+          localizedDescription:
+            en: Our latest updates and releases
+            fr: Nos dernières mises à jour et nouveautés
+            ja: 最新のアップデートとリリース
+            zh: 我们的最新更新与发布
+          icon: bars-staggered
+          children:
+            - type: space
+              key: space-2
+              title: Public Changelog
+              path: public-changelog
+              default: true
+              content:
+                directory: ./changelog
+                language: en
+        - type: section
+          key: section-5
+          title: Policies
+          localizedTitle:
+            en: Policies
+            fr: Mentions légales
+            ja: 方針
+            zh: 政策
+          path: policies
+          description: Our policies and procedures
+          localizedDescription:
+            en: Our policies and procedures
+            fr: Nos règles et procédures
+            ja: 当社のポリシーと手順
+            zh: 我们的政策与程序
+          icon: file-contract
+          children:
+            - type: space
+              key: space-7
+              title: GitBook Site Policy
+              path: gitbook-site-policy
+              default: true
+              content:
+                directory: ./policies
+                language: en
+        - type: section
+          key: section-4
+          title: Guides
+          localizedTitle:
+            en: Guides
+            fr: Guides
+            ja: ガイド
+            zh: 指南
+          path: guides
+          description: GitBook how-tos and best practices
+          localizedDescription:
+            en: GitBook how-tos and best practices
+            fr: Guides pratiques et bonnes pratiques de GitBook
+            ja: GitBookの活用法とベストプラクティス
+            zh: GitBook 使用指南与最佳实践
+          icon: book
+          children:
+            - type: space
+              key: space-4
+              title: GitBook Guides
+              path: gitbook-guides
+              default: true
+              hidden: true
+              content:
+                directory: ./guides
+                language: en
+        - type: section-group
+          key: section-group-2
+          title: GitBook Academy
+          icon: lightbulb-on
+          draft: true
+          children: []

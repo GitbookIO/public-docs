@@ -1,0 +1,110 @@
+---
+description: >-
+  How to import existing content into GitBook from Confluence, Notion, Git and
+  more
+---
+
+# Migrate to GitBook
+
+You can migrate and unify existing documentation in GitBook using the import tool.
+
+You have the option to import single or multiple pages using our built-in import tool — or [an entire Git repository using Git Sync](import.md#import-using-git-sync).
+
+## Using the Import panel
+
+The Import panel makes it easy to migrate your content into your GitBook organization from another documentation website or from existing files.
+
+When you choose to import from another online documentation site, all you have to do is add the URL of the site and GitBook will handle the rest.
+
+By default, GitBook uses AI to streamline the import process. This will intelligently refine and clean up imported content that doesn’t perfectly match GitBook’s formats — meaning the output will be more polished and use GitBook’s blocks more effectively. You can disable this from the menu.
+
+### Supported import formats
+
+GitBook supports imports from docs websites or files in the following formats:
+
+* Markdown (`.md` or `.markdown`)
+* HTML (`.html`)
+* Microsoft Word (`.docx`)
+
+GitBook also support imports from:
+
+* Confluence
+* Notion
+* GitHub Wiki
+* Quip
+* Dropbox Paper
+* Google Docs
+
+If you want to **import multiple pages**, you can upload a ZIP file containing HTML or Markdown files, or use the **Online docs** import option.
+
+{% hint style="info" %}
+GitBook is Markdown-based, so importing content in Markdown format will yield the best results. If your current tools support exporting in Markdown, we recommend using that format for a smoother import process.
+{% endhint %}
+
+### The Import panel
+
+<figure><img src="../.gitbook/assets/25_12_10_import@2x.png" alt="A GitBook screenshot showing the import panel"><figcaption><p>The import panel in GitBook.</p></figcaption></figure>
+
+When you create a new section, you’ll have the option to import content in the modal that appears. If you create an empty section, you can also import using the **Quickstart** section at the bottom of the new empty page when you click **Edit**.
+
+Alternatively, you can always import a page or subpage by selecting **Add new** > **Import pages** at the bottom of the [table of contents](../reference/gitbook-ui.md#table-of-contents), or by opening the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for a page and choosing **Import subpages**.
+
+After choosing an input source, you can select the file you’d like to import.
+
+{% hint style="warning" %}
+GitBook imports content from various sources, but differences in product features and document formats may cause variations in the imported content compared to the original source.
+{% endhint %}
+
+### Limitations
+
+GitBook currently has the following limits for imported content:
+
+* The maximum number of pages that can be uploaded in a single import is **20**.
+* The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
+
+GitBook can't increase these import limits. To import more content at once, use [Git Sync](../docs-as-code/git-sync/), which supports up to 5,000 Markdown pages.
+
+***
+
+## Import from a GitHub or GitLab repo using Git Sync <a href="#import-using-git-sync" id="import-using-git-sync"></a>
+
+When importing large volumes of content into GitBook, we recommend using [Git Sync](../docs-as-code/git-sync/). While our built-in migration tool can handle most imports, Git Sync is better suited for handling larger migrations efficiently.
+
+{% hint style="info" %}
+You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide for [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
+{% endhint %}
+
+{% stepper %}
+{% step %}
+**Convert your content into Markdown**
+
+GitBook is Markdown-based, so importing content in Markdown format will yield the best results. If your current tools support exporting in Markdown, we recommend using that format for a smoother import process.
+
+If your content isn’t already in Markdown files, we recommend using a script (like [Markitdown](https://github.com/microsoft/markitdown)) or an online tool to convert your content.
+{% endstep %}
+
+{% step %}
+**Organize your content in GitHub or GitLab**
+
+When setting up your GitBook site, it’s crucial to organize your content in your GitHub or GitLab repository efficiently. Since Git Sync occurs at the section level, carefully plan how to group your content. Create multiple repositories or folders, ensuring the necessary Markdown files are in the correct locations.
+{% endstep %}
+
+{% step %}
+**Set up sections and configure Git Sync**
+
+To organize your content, create one or more sections in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those sections. You’ll need to synchronize your section with the folder or repository you set up in the previous step.
+{% endstep %}
+
+{% step %}
+**Run Git Sync in the direction GitHub → GitBook**
+
+When following the configuration process, make sure you select the direction of GitHub → GitBook. This will result in the contents of your folder or repository being pulled from GitHub or GitLab into GitBook.
+{% endstep %}
+{% endstepper %}
+
+## Export your content
+
+You can export your GitBook content in two ways:
+
+* **As Markdown**, by syncing with a Git repository. There's no direct Markdown export in the app — sync the section you want to export with an empty GitHub or GitLab repository using [Git Sync](../docs-as-code/git-sync/), and the repository becomes your Markdown export. Some blocks don't have a Markdown representation and appear as HTML in the export.
+* **As a PDF**, from the page or section's Actions menu. See [PDF export](../publish/pdf-export.md). You may hit limits when exporting very large sections.
