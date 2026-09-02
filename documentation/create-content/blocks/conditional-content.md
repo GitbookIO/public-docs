@@ -10,6 +10,8 @@ After inserting the block, click the red condition badge in the top right of the
 
 Clicking this will allow you to add a condition through the [condition editor](../../publish/adaptive-content/adapting-your-content.md#working-with-the-condition-editor). You’ll be able to write your condition as an [expression](../variables-and-expressions.md) that will run against data defined in your site. You can reference data from [variables](../variables-and-expressions.md), or data coming from visitors through their [claims](../../publish/adaptive-content/enabling-adaptive-content/#set-your-visitor-schema).
 
+You can also target human visitors or AI agents. See [targeting human visitors and AI agents](../../publish/adaptive-content/adapting-your-content.md#target-human-visitors-and-ai-agents).
+
 See [adaptive content](../../publish/adaptive-content/) for more details.
 
 ### Example

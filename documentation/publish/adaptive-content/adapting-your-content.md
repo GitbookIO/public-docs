@@ -42,6 +42,25 @@ As you use the autocomplete, you'll notice that [variables](../../create-content
 
 You can write many different kinds of expressions , as long as they are written in valid Javascript. For instance, you can combine multiple claims into the condition editor to match specific users by using the `&&` or `||` operator. You can read more about operators [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators).
 
+### Target human visitors and AI agents
+
+Use the built-in `visitor.type` property to show different content to humans and AI agents. This property has one of two values:
+
+* `human` for a human visitor
+* `agent` for an AI agent
+
+For example, use this condition to show content only to AI agents:
+
+```javascript
+visitor.type === "agent"
+```
+
+Use the following condition to show content only to human visitors:
+
+```javascript
+visitor.type === "human"
+```
+
 ### Testing with segments
 
 Segments represent mock user data that you can configure to test your conditions.

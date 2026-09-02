@@ -25,4 +25,6 @@ Adaptive content works in one of two ways:
 
 When a user visits your sites, we call the data they bring with them their “claims” — basically data that helps to identify a user. These claims are controllable by you — the site author — and can be used through the GitBook editor to show or hide different pages, variants, and sections in your docs.
 
+You can also use conditions to target human visitors or AI agents. See [targeting human visitors and AI agents](adapting-your-content.md#target-human-visitors-and-ai-agents).
+
 Head to our page about [enabling adaptive content](enabling-adaptive-content/) to start setting up adaptive content for your site.
