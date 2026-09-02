@@ -175,9 +175,3 @@ site:
               content:
                 directory: ./guides
                 language: en
-        - type: section-group
-          key: section-group-2
-          title: GitBook Academy
-          icon: lightbulb-on
-          draft: true
-          children: []
