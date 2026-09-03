@@ -25,6 +25,48 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-09-03" tags="new-releases" %}
+## New! Full site support with Git Sync
+
+{% embed url="https://youtu.be/1ueoIZkQwX8" %}
+
+You can now [sync an entire docs site with a single Git repo using Git Sync](https://gitbook.com/docs/docs-as-code/git-sync). This doesn’t just make it easier to import and edit your docs using docs-as-code workflows — it also pairs with new site-level permissions to improve agentic workflows.
+
+Previously, Git Sync was only possible at a content level: you could sync individual spaces, but not your entire site. This meant adding more content required the manual work of creating a space and setting up Git Sync in the right folder.
+
+Now, you can set up Git Sync for a whole docs site, with all the content in a single repo. Each site maps to a directory in your file structure, and the Git Sync process is now focused around `gitbook-docs.yaml` .
+
+If you’re setting up a new site for the first time, the app will help you set up Git Sync from your site’s sidebar — either pulling from existing content, or creating a new site and building the `gitbook-docs.yaml` file using your coding agent.&#x20;
+
+If you want to switch your existing space-level Git Sync to site-wide Git Sync, you can manage the migration from your site dashboard. The app will guide you through the process, with any spaces switching to the site’s repository that you choose. You have control over the configuration and content mapping, so you can manage the site content and structure however you like.
+
+Head over to [our Git Sync docs](https://gitbook.com/docs/docs-as-code/git-sync) to find out more, or check out [our guide to site-wide Git Sync to set it up for your own docs](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/how-to-sync-your-entire-docs-site-with-a-git-repository).
+{% endupdate %}
+
+{% update date="2026-09-02" %}
+## Add external links to your site navigation, plus list spaces multiple times
+
+You can now add links to external pages to your docs site’s top nav, giving you more ways to promote important pages outside of your docs.
+
+We’ve also made it possible to include the same GitBook space in multiple places within the navigation. So if you want to list some content in two drop-down [sections](https://gitbook.com/docs/manage-your-site/site-structure/site-sections), you can now do that — without needing to duplicate the content internally and maintain both versions.
+
+This is great if your nav is organized by use case or reader persona, but you have content that’s relevant to everyone. It’s also useful for [versioned documentation](https://gitbook.com/docs/manage-your-site/site-structure/variants) when there haven’t been any documentation changes.
+
+Both these options are available now in [the **Site structure** page](https://gitbook.com/docs/manage-your-site/site-structure), accessible from the left sidebar.
+
+### Improvements
+
+* AI agents connected to GitBook over MCP can now list a site’s topics and subtopics, so they can filter Ask AI questions, answers, and stats by topic more easily.
+* The audit log now records SAML provider and organization SSO enforcement changes.
+
+### Fixes
+
+* Fixed an issue that clipped charge axis labels that were in the millions.
+* Fixed an issue that prevented large, unpublished spaces from indexing, which meant updated pages weren’t searchable
+* Fixed a bug that meant audit logs by a custom date range could include or miss a day depending on your timezone.
+* Fixed an issue with column blocks that changed their background color when a user hovered over one.
+{% endupdate %}
+
 {% update date="2026-08-27" tags="new-releases,improvements,fixes" %}
 ## New site-level permissions for controlling site management for humans and agents
 
