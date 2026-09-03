@@ -6,7 +6,7 @@ description: >-
 
 # How to write documentation with AI
 
-[GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) is your AI teammate that helps you write, update, review, and maintain documentation — directly inside GitBook.
+[GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) is your AI teammate that helps you write, update, review, and maintain documentation — directly inside GitBook.
 
 This video and guide will take you through GitBook Agent, covering:
 

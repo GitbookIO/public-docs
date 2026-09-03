@@ -14,7 +14,7 @@ It’s a super-simple process that lets you control all the aspects of your publ
 
 Ready to publish your docs? Let’s start by creating a docs site and trying some customization options. There are a couple of different ways to do this, but they all ultimately have the same outcome.
 
-First, you can hit the plus **+** icon next to the **Docs sites** section header in the sidebar to start the site creation flow. First, give your site a name — we recommend something descriptive to make it easy to identify later — then choose how you want to add content to your site.
+First, you can hit the plus **+** icon next to the **Docs sites** section header in the sidebar to start the site creation flow. First, give your site a name — we recommend something descriptive to make it easy to identify later — then choose how you want to add content to your site.
 
 <figure><img src="../.gitbook/assets/create-a-site@2x.png" alt=""><figcaption><p>Create a new docs site from the sidebar.</p></figcaption></figure>
 
@@ -30,14 +30,14 @@ You can choose to:
 If you have a specific space you want to publish, you can use the search at the bottom of this screen to find it and add it to your site.
 
 {% hint style="info" %}
-If you want to change the name of your site, you can do that in your site’s settings — just choose the **Settings** tab from your main site dashboard.&#x20;
+If you want to change the name of your site, you can do that in your site’s settings — just choose the **Settings** tab from your main site dashboard.
 {% endhint %}
 
 #### Adding more content to your site <a href="#adding-more-content-to-your-site" id="adding-more-content-to-your-site"></a>
 
 You can add more than one space to a single docs site if you like. There are two ways to do this — with site sections and site variants.
 
-[Site sections](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/site-sections) are designed for adding different kinds of content to your site alongside your primary docs — such as API docs, a changelog, release notes, or anything else you need. The different sections will appear as tabs at the top of your site — perfect for centralizing your documentation on a single site.
+[Site sections](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/site-sections) are designed for adding different kinds of content to your site alongside your primary docs — such as API docs, a changelog, release notes, or anything else you need. The different sections will appear as tabs at the top of your site — perfect for centralizing your documentation on a single site.
 
 <figure><img src="../.gitbook/assets/site-structure@2x.png" alt=""><figcaption><p>Your site navigation lets end-users jump between different kinds of content easily.</p></figcaption></figure>
 
@@ -58,13 +58,13 @@ You can **add new site sections** or site section groups to your site using the 
 
 You can **add variants** by finding the site section you want to add a variant to, opening the **Actions menu** <picture><source srcset="../.gitbook/assets/actions - dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/actions.svg" alt=""></picture> and choosing **Add variant**. [Read our dedicated guide](../content-organization-and-localization/localize-your-docs-with-variants-in-gitbook.md) to find out more.
 
-Your site’s navigation bar will show all the site sections and section groups in the order they appear in this list — so put your content in the order you want them to appear.
+Your site’s navigation bar will show all the site sections and section groups in the order they appear in this list — so put your content in the order you want them to appear.
 
 <figure><img src="../.gitbook/assets/settings-structure-menu@2x.png" alt=""><figcaption><p>Add structure to your docs using site sections, section groups and variants.</p></figcaption></figure>
 
 ### Customize your site <a href="#customize-your-site" id="customize-your-site"></a>
 
-While you could publish at this stage without making any further changes, let’s quickly run through some of your other options.&#x20;
+While you could publish at this stage without making any further changes, let’s quickly run through some of your other options.
 
 {% hint style="info" %}
 If you just want to publish your site without making any further changes, head down to [the Publishing section below](complete-guide-to-publishing-docs-gitbook.md#audience-settings-and-publishing) to get your docs site live in seconds!
@@ -104,7 +104,7 @@ The **AI & MCP** section lets you turn on [AI Assistant and choose where it appe
 
 <figure><img src="../.gitbook/assets/ai-experience menu@2x.png" alt=""><figcaption><p>You can choose your published docs AI and search experience from the AI &#x26; MCP site settings page.</p></figcaption></figure>
 
-Next up is the **Docs Embed** section, which allows you to [embed your documentation](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/embedding) and AI Assistant into your product, website, or anywhere else you like. This lets your users browse your docs in a small pop-up window, or chat to GitBook Assistant — which will answer based on your docs and other sources connected via MCP.
+Next up is the **Docs Embed** section, which allows you to [embed your documentation](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/embedding) and AI Assistant into your product, website, or anywhere else you like. This lets your users browse your docs in a small pop-up window, or chat to GitBook Assistant — which will answer based on your docs and other sources connected via MCP.
 
 Finally, the **Plan** tab lets you upgrade or downgrade your site to a different plan. So if you want to try out site sections, GitBook Assistant or any other features that aren’t included in your plan, this is the place to go.
 
@@ -138,7 +138,7 @@ With [share links](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/site-a
 
 #### Authenticated access <a href="#authenticated-access" id="authenticated-access"></a>
 
-Take things one step further with [authenticated access](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publishing-documentation/authenticated-access). You’ll need to set up the authorization backend using either one of our [auth integrations](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/site-audience/authenticated-access/enabling-authenticated-access), or with your own custom setup.
+Take things one step further with [authenticated access](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/site-audience/authenticated-access). You’ll need to set up the authorization backend using either one of our [auth integrations](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/site-audience/authenticated-access/enabling-authenticated-access), or with your own custom setup.
 
 Once set up, visitors to your docs will be prompted to log in using their established credentials. Only people authorized in your backend will be able to access your docs. This is ideal if you want to control exactly who can view your documentation.
 
@@ -154,7 +154,7 @@ You can use **filters** to focus on data about specific pages, sections and more
 
 You can also use **groups** to organize that data in different ways, and select different date ranges to meet your needs.
 
-If you want to analyze a specific data set further, you can export any of your chosen data as a CSV file and open it in your own tools.&#x20;
+If you want to analyze a specific data set further, you can export any of your chosen data as a CSV file and open it in your own tools.
 
 Find out more about what you can do with insights [in our documentation](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/analytics/insights#feedback).
 
@@ -164,11 +164,11 @@ Find out more about what you can do with insights [in our documentation](https:/
 
 That's a quick overview of how to set up, customize and publish your first docs site in GitBook. With so many options available, you’ll be able to make every page you publish feel like your own.
 
-But there’s a lot more you can do with GitBook that we haven’t mentioned here — including:
+But there’s a lot more you can do with GitBook that we haven’t mentioned here — including:
 
-* **Proactive docs Agent** — [GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) can connect to third-party tools like Intercom and proactively suggest and implement docs changes, ready for your review.
-* **Write and review with AI** — The Agent can also write content for you based on a prompt, review your docs, match your style guide and optimize your content to improve readability.
-* **Continuous translations** — Use built-in tools to [translate your docs with AI](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations), and keep those translations updated whenever you edit your primary docs.
+* **Proactive docs Agent** — [GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) can connect to third-party tools like Intercom and proactively suggest and implement docs changes, ready for your review.
+* **Write and review with AI** — The Agent can also write content for you based on a prompt, review your docs, match your style guide and optimize your content to improve readability.
+* **Continuous translations** — Use built-in tools to [translate your docs with AI](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations), and keep those translations updated whenever you edit your primary docs.
 * **Adaptive docs** — Create [a tailored docs experience for every user ](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/adaptive-content)based on individual user attributes, such as their plan, access level, location and more.
 
 We love seeing your GitBook docs, so feel free to [share them with us on X](https://x.com/gitbookio). And if you have any questions or ideas, you can [join our GitBook community](https://github.com/GitbookIO/community), or reach out to our support team — they’d be happy to help!
@@ -177,6 +177,6 @@ We love seeing your GitBook docs, so feel free to [share them with us on X](http
 
 [**→ Get started with GitBook for free**](https://app.gitbook.com/join)
 
-[**→ Read our documentation about publishing**](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/AlMbfJIU79LjXBXogmct)
+[**→ Read our documentation about publishing**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/publish-a-docs-site)
 
-[**→ Find out how GitBook automatically optimizes your docs**](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/JajPcVBpwGpo9xnjyzpG)
+[**→ Find out how GitBook automatically optimizes your docs**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/getting-started/llm-ready-docs)

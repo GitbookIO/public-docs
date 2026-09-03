@@ -13,7 +13,7 @@
 * [Import content from a CSV file into GitBook](editing-and-publishing-documentation/import-zendesk-csv-to-gitbook.md "How to import docs from a CSV")
 * [How to handle merge conflicts in GitBook](editing-and-publishing-documentation/how-to-handle-merge-conflicts-in-gitbook.md "How to resolve merge conflicts")
 * [Embed a playable video into your GitBook docs](editing-and-publishing-documentation/upload-and-embed-a-playable-video-into-your-gitbook-docs.md "How to embed videos in docs")
-* [Find & replace or make batch changes across your GitBook docs with Git Sync](editing-and-publishing-documentation/find-and-replace-or-make-batch-changes-across-your-gitbook-docs-with-git-sync.md "How to find and replace content")
+* [Updating docs in bulk with GitBook Agent](editing-and-publishing-documentation/find-and-replace-or-make-batch-changes-across-your-gitbook-docs-with-git-sync.md "How to find and replace content")
 * [How to write documentation with AI](editing-and-publishing-documentation/how-to-write-documentation-with-ai.md)
 * [7 ways teams are using GitBook Agent to streamline their docs workflows (with prompt examples)](editing-and-publishing-documentation/gitbook-agent-prompt-examples.md "How to streamline your docs workflow with GitBook Agent")
 * [Create and publish your first site from the command line](editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line.md "How to publish a docs site with the GitBook CLI")
@@ -29,7 +29,7 @@
 
 * [Combine multiple existing sites into one using site sections](content-organization-and-localization/combine-multiple-docs-sites-using-sections.md "How to organize docs with sections")
 * [Localize your docs with variants in GitBook](content-organization-and-localization/localize-your-docs-with-variants-in-gitbook.md "How to organize docs with variants")
-* [Use GitHub Actions to translate GitBook pages](content-organization-and-localization/use-github-actions-to-translate-gitbook-pages.md "How to add translations with GitHub Actions")
+* [Translating your docs with AI](content-organization-and-localization/use-github-actions-to-translate-gitbook-pages.md "How to add translations to your docs")
 
 ## SEO & LLM optimization
 

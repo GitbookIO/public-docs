@@ -1,122 +1,120 @@
-# Use GitHub Actions to translate GitBook pages
+---
+description: >-
+  Create and publish AI translations that stay synchronized with your source
+  docs.
+---
 
-{% hint style="warning" %}
-#### GitBook now supports built-in translations through the UI
-
-Head to [Translations](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations) to learn more about setting up AI translated content for your docs site.
-{% endhint %}
-
-### Overview
+# Translating your docs with AI
 
 As far as any good documentation goes, accessibility — and [Internationalization](https://en.wikipedia.org/wiki/Internationalization_and_localization) (i18n) specifically — plays an important role.
 
-Translating documents and content has always been a tedious and manual task. Many times translating documents from one language to another isn’t straightforward. Luckily, we’re able to start using new and emerging tools to help us make our documents more accessible.
-
-While GitBook doesn’t have a native translation solution, our [Integration Platform](https://www.gitbook.com/integrations) allows you to extend the way you manage your content. And that includes the ability to introduce workflows that take the manual aspect out of translating content.
-
-Let’s dive in!
-
-### Collections
-
-In order to translate your site, you’ll need to have some well-organized content. GitBook provides the perfect solution to structure sites available in multiple languages: [collections](https://gitbook.com/docs/creating-content/content-structure/collection).
-
-Collections provide a way to group related spaces together. In the context of i18n, we will use one space for each language, with a space designated to hold the content in the primary language. You can think of this space as your “main” content.
-
-Here’s an example of such a setup:
-
-<div data-full-width="false"><figure><img src="../.gitbook/assets/Screenshot 2023-05-23 at 10.45.16.png" alt=""><figcaption><p>A collection with different spaces for each language</p></figcaption></figure></div>
-
-In the example above, the space called _English_ is the main space that all the translations will be based on.
-
-After you’ve set up the collection, you can use Git Sync to enable programmatic access to content.
-
-### Git Sync
-
-[Git Sync](https://gitbook.com/docs/getting-started/git-sync) is a feature in GitBook that allows you to connect a space to a remote repository hosted on either GitHub or GitLab (_starting to Git the hang of it?_).
-
-You can check [out our setup video](https://www.youtube.com/watch?v=Fm5hYBsRSXo) to learn more about configuring Git Sync in your space.
-
-{% hint style="warning" %}
-**Important:** While your collection will include a space for each language in GitBook, you’ll need to connect each one to your remote repository separately.
-{% endhint %}
-
-Use the [Monorepo feature](https://gitbook.com/docs/getting-started/git-sync/monorepos) if you need to configure each space to a specific folder in your remote repository.
-
-Once you’ve connected your GitBook spaces to a remote repository, we’ll run through how to add workflows on top of your content.
-
-### GitHub Actions
-
-In this guide, we’ll configure a workflow in GitHub using [GitHub Actions](https://github.com/features/actions).
+GitBook Agent can [translate your documentation](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations) into multiple languages and keep it synchronized with its source. You can use built-in translations rather than maintaining a custom translation workflow.
 
 {% hint style="info" %}
-If you’re using GitLab, you can use their [built in CI/CD](https://docs.gitlab.com/ee/ci/) feature.
+Only organization admins can create and access translations. Translations are a paid add-on — see [our pricing page](https://www.gitbook.com/pricing) for more information.
 {% endhint %}
 
-GitHub Actions allow you to run scripts or other utilities when certain events occur in a remote repository. In this case, we want to run an action every time someone makes a new update to the content.
+### How translations work
 
-Once you’ve configured Git Sync, any update you make in GitBook is automatically committed to the GitHub branch you configured, allowing you to tap into the update using GitHub Actions.
+[A translation in GitBook](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations) creates a translated [section](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/site-sections) from a source section. GitBook Agent translates the content and keeps it current.
 
-To configure the GitHub Action, you can add a `.github/workflows/action.yml` file at the root of your project.
+Whenever you merge changes to your content source, GitBook automatically re-translates only the changed pages. The translated section stays aligned with the source without a separate workflow.
 
-Here’s an example `action.yml` file:
+{% hint style="info" %}
+Set a fixed slug on source pages before translating if you need stable language-specific URLs. Otherwise, translated page slugs might change.
+{% endhint %}
 
-<pre class="language-yaml"><code class="lang-yaml"># This is a basic workflow to help you get started with Actions
-<strong>name: GitHub Actions
-</strong>
-on:
-  push:
-    branches: ["main"]
+### Create a translation
 
-jobs:
-  translate:
-    runs-on: ubuntu-latest
+To create a translation:
 
-    steps:
-      - uses: actions/checkout@v3
-</code></pre>
+1. In your organization **Home**, click **Translations**.
+2. Click **Create translation**.
+3. Under **Source**, select the section you want to translate.
+4. Select the source language under **From**.
+5. Select the target language under **To**.
+6. Click **Create**.
 
-The example action above will run every time someone merges an update to the `main` branch — which means whenever someone merges a [change request](hhttps://gitbook.com/docs/collaboration/change-requests) in GitBook.
+GitBook will create a translated section and start the translation workflow. The **Translations** screen shows each workflow’s status, source, runs, translated pages, and word count.
 
-Because this workflow runs after the content is merged, it will contain up-to-date information about the request, including the latest version of the content.
+### Configure translation instructions
 
-You can now use this action to invoke a tool that will handle the translations.
+If you want to add custom instructions to a translation, before you click **Create**, click **Show advanced instructions** to set optional translation guidance.
 
-### Translation Software
+#### Add custom AI instructions
 
-The power of having your workflow set up in code comes down to its flexibility — you have the choice of what tool you’d like to use to handle the translations. For example, you could use one of these AI tools, which can automate translations:
+Use custom instructions to guide tone, style, and other translation preferences. GitBook Agent will always follow and preserve the source structure.
 
-* [DeepL](https://www.deepl.com/)
-* [OpenAI](https://openai.com/)
-* [Google Cloud Translations](https://cloud.google.com/translate)
+Custom instructions cannot add content, create new elements, or change the structure from the source content.
 
-Each of the tools above comes with pros and cons. For example, some might provide better translations, but come at a higher cost, which others might have APIs that are easier to work with. The following sections cover some important things to keep in mind when choosing a tool for your translations.
+#### Add a glossary
 
-### Considerations
+Add glossary terms to keep product terminology consistent. Each term must use the source-language wording.
 
-As you choose a tool for translations, you’ll also be responsible for setting up the utility that handles the translation itself. Here are some things to keep in mind:
+For example, an English glossary can map `SSO` to `SSO` and `Git Sync` to `Git Sync`. GitBook Agent then keeps those terms unchanged in translated output.
 
-**Cost**
+{% hint style="warning" %}
+Changing a glossary triggers a full re-translation. This can increase processing time and cost.
+{% endhint %}
 
-The cost of the tool you use is an important factor. While some tools provide a free plan to get you started, many translation tools require a paid plan in order to use them beyond demo purposes.
+### Publish the translated docs
 
-It’s also important to think about the number of requests: is your team making a lot of changes to your content? Should your content be re-translated every time the content is updated? Should it be updated on a schedule?
+Add the translated section to [variant](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants) on your site so visitors can switch languages.
 
-**Scope of changes**
+To add the translation, follow these steps:
 
-If your team is making lots of isolated changes, you’ll need to adapt your strategy to handle translations. For instance, if you only update a single page, make sure your utility is only translating that specific page — not the entire space.
+1. In the site sidebar, under **General**, click **Site structure**.
+2. Select the source section you’ve translated and click **Add variant**, then open the **Use existing content** tab
+3. Search for the translated section, hover over it and choose **Use as content**.
+4. Give your variant a title and click **Add variant**.&#x20;
+5. Optionally, change the slug of your variant.
 
-**Reviewing content**
+Once undrafted and published, your users can then select the language from the published site’s language switcher.
 
-While translation APIs are getting better each day, they’re not perfect — and in many cases you’ll want to have someone to review the translations.
+{% hint style="info" %}
+**Note:** Variants are created as drafts by default. To publish your translaltion, undraft the variant and ensure your site is published.
+{% endhint %}
 
-Think about how the translated documents are submitted back into the main content. Should they be introduced in the form of a pull request, so your team can review the translations first?
+### Understand translation limits and pricing
 
-It’s also important to keep in mind that if someone reviews a translated page, and it’s updated in the main branch, it will be translated again automatically, losing the changes from the review. You’ll be responsible for making sure the translated documents are up to date with the version that you’re happy with.
+You can’t edit translated content directly. Use custom AI instructions and the glossary to improve translated output.
 
-**Maintenance**
+Translations don’t localize variant UI elements automatically. In the site sidebar, open **Customize** under **Tools** to localize the interface for each variant.
 
-As with any project, maintenance is another key area of focus. You need to make sure that once the original setup is implemented, you maintain it in case any part involved in the solution changes, such as updates done to the tools you’re using.
+Translations are billed monthly or annually:
 
-### Wrapping up
+* $25 per month includes 50,000 translated words each month.
+* $250 per year includes 50,000 translated words each month.
+* Additional translation costs $0.20 per 1,000 words.
 
-GitBook lets you extend your workflows by seamlessly integrating with Git providers like GitHub or GitLab. Once you've made use of GitHub Actions to ensure that your site translations are up-to-date, you can [localize your docs with variants in GitBook.](localize-your-docs-with-variants-in-gitbook.md)
+Your first translation counts every word. Later runs charge for pages containing new or updated words. A small change on a large page re-translates the entire page, but not the entire section.
+
+### FAQ
+
+<details>
+
+<summary>Can I use a CI/CD workflow with translated docs?</summary>
+
+Yes. Use [GitHub & GitLab Sync](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync "mention") to connect your source documentation to GitHub or GitLab. Your CI/CD workflow can update that source repository.
+
+When Git Sync imports the commit, GitBook updates the source content. After the source changes merge, the translation workflow re-runs for changed pages.
+
+Use Git Sync for source-content automation. Use built-in translations for the translation workflow.
+
+</details>
+
+<details>
+
+<summary>How many translation workflows do I need?</summary>
+
+Create one workflow for each target language and source section. Multiple workflows for the same language create duplicate costs.
+
+</details>
+
+<details>
+
+<summary>Can I add a banner that says content was AI translated?</summary>
+
+Translations cannot add content that isn’t in the source. Add a separate page to the translated section, or add an announcement banner to its site variant.
+
+</details>

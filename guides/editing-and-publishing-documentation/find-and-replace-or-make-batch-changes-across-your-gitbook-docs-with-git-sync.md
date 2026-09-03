@@ -1,4 +1,8 @@
-# Find & replace or make batch changes across your GitBook docs with Git Sync
+---
+description: Find, replace, and update content across your GitBook docs with GitBook Agent
+---
+
+# Updating docs in bulk with GitBook Agent
 
 {% hint style="warning" %}
 #### GitBook now supports find & replace through GitBook Agent
@@ -6,51 +10,66 @@
 Head to [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) to learn more about using GitBook Agent to edit pages in bulk.
 {% endhint %}
 
-When you change something about your product, manually updating your documentation in all the affected places can be a real pain. Thankfully, with [Git Sync](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync) in GitBook, it’s a simple process.
+GitBook Agent can find and replace content across your documentation. It can also make broader, targeted updates in a change request.
 
-Because Git Sync links your documentation to a GitHub or GitLab repository, you can make changes from your code editor and they’ll automatically sync to your docs when you merge. It’s the best way to find & replace a specific word or phrase, or make bulk changes to your docs.&#x20;
+Use GitBook Agent for routine bulk edits. It keeps changes together for review before you merge them.
 
-Here’s how it works:
+### Start a bulk update
 
-{% stepper %}
-{% step %}
-### Sync your GitBook space to a Git repository
+To make a bulk update:
 
-If your GitBook space is not already synced to a Git repository, set it up using [the Git Sync guide in our documentation](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync). It will only take a few minutes and you’ll unlock some powerful new capabilities.
-{% endstep %}
+1. In your space, click the GitBook Agent icon next to **Edit**.
+2. Describe the change, the pages it affects, and any exclusions.
+3. Click **Start change request**.
+4. In **Changes**, review every proposed edit.
+5. Merge the change request when the updates are correct.
 
-{% step %}
-### Branch and clone your Git repository
+### Write a focused prompt
 
-Now that your content is synced, you can make changes to your docs from your repository:
+If you want to make targeted changes to your documentation — such as a ‘find and replace’ process for an outdated or incorrect term — you can use a focused prompt.&#x20;
 
-1. First, create [a new branch of your repository in GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) or [in GitLab](https://docs.gitlab.com/ee/user/project/repository/branches/).
-2. Next, follow GitHub’s guide on [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to download a local version of your branch. Once you’ve downloaded your branch, [open it in VS Code](https://code.visualstudio.com/docs/editor/codebasics#_opening-a-project) or your preferred code editor or IDE.
-{% endstep %}
+Be sure to include these details in your prompt:
 
-{% step %}
-### Commit and push changes to your repository
+* The text or content you want to change.
+* The replacement or intended outcome.
+* Any pages to include and content to exclude.
 
-1. Use your editor’s [find & replace feature](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) to make bulk changes across multiple files at the same time.
-2. After making your edits, you can commit them to your branch in the local Git repository.
-3. When you’re ready, push the changes to your remote repository on GitHub or GitLab.
-{% endstep %}
+Here’s an simple example prompt you could copy and customize:
 
-{% step %}
-### Create a pull or merge request
+{% prompt description="Find an replace content" %}
+```markdown
+Find all instances of “Gitbook” and replace them with “GitBook.” Ignore code blocks and URLs. Tell me how many replacements you make.
+```
+{% endprompt %}
 
-Create [a pull request in GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) or [a merge request in GitLab](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html) for your branch.
-{% endstep %}
+For larger changes, it’s a good idea to also state the goal and constraints. If there are pages pages that define the correct wording or structure, reference them in the prompt to point the Agent in the right direction.
 
-{% step %}
-### Merge your changes
+### Review bulk edits
 
-You can request a review of your changes in either GitHub or GitLab. When you’re ready, you can merge the changes to update your documentation in GitBook.
+GitBook Agent will make the updates in a change request. Be sure to review the change request and the diff before merging.
 
-{% hint style="warning" %}
-**Note:** You can also review and merge your changes in the GitBook editor. However, when using find & replace on text you may accidentally replace text within configuration files like `SUMMARY.md` or `.gitbook.yaml`.&#x20;
+Pay particular attention to the following:
 
-This could cause broken links if not properly updated, so you should always check your changes in GitHub and GitLab before merging.
-{% endhint %}
-{% endstep %}
-{% endstepper %}
+* Each replacement has the intended meaning.
+* Links, formatting, and page structure remain correct.
+* The change request excludes content outside the requested scope.
+
+### FAQ
+
+<details>
+
+<summary>Can I still use Git Sync for bulk updates?</summary>
+
+Yes. Git Sync creates a bidirectional connection with a GitHub or GitLab repository. Use it when your documentation follows a docs-as-code or CI/CD workflow, or you want to use a different AI agent (e.g. ChatGPT, Codex, Claude etc) to make changes to your documentation.
+
+Create a branch, commit the changes, open a pull or merge request, and merge after review.
+
+</details>
+
+<details>
+
+<summary>Can GitBook Agent exclude some matches?</summary>
+
+Yes. Name the pages to include and content to exclude. For example, tell GitBook Agent to ignore code blocks, URLs, or a specific page.
+
+</details>
