@@ -171,7 +171,6 @@ site:
               title: GitBook Guides
               path: gitbook-guides
               default: true
-              hidden: true
               content:
                 directory: ./guides
                 language: en
