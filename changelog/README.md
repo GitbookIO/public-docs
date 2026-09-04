@@ -30,13 +30,13 @@ tags:
 
 {% embed url="https://youtu.be/1ueoIZkQwX8" %}
 
-You can now [sync an entire docs site with a single Git repo using Git Sync](https://gitbook.com/docs/docs-as-code/git-sync). This doesn’t just make it easier to import and edit your docs using docs-as-code workflows — it also pairs with new site-level permissions to improve agentic workflows.
+You can now [sync an entire docs site with a single Git repo using Git Sync](https://gitbook.com/docs/docs-as-code/git-sync). This doesn’t just make it easier to import and edit your docs using docs-as-code workflows — it also pairs with new site-level permissions to improve agentic workflows.
 
 Previously, Git Sync was only possible at a content level: you could sync individual spaces, but not your entire site. This meant adding more content required the manual work of creating a space and setting up Git Sync in the right folder.
 
 Now, you can set up Git Sync for a whole docs site, with all the content in a single repo. Each site maps to a directory in your file structure, and the Git Sync process is now focused around `gitbook-docs.yaml` .
 
-If you’re setting up a new site for the first time, the app will help you set up Git Sync from your site’s sidebar — either pulling from existing content, or creating a new site and building the `gitbook-docs.yaml` file using your coding agent.&#x20;
+If you’re setting up a new site for the first time, the app will help you set up Git Sync from your site’s sidebar — either pulling from existing content, or creating a new site and building the `gitbook-docs.yaml` file using your coding agent.
 
 If you want to switch your existing space-level Git Sync to site-wide Git Sync, you can manage the migration from your site dashboard. The app will guide you through the process, with any spaces switching to the site’s repository that you choose. You have control over the configuration and content mapping, so you can manage the site content and structure however you like.
 
@@ -48,11 +48,13 @@ Head over to [our Git Sync docs](https://gitbook.com/docs/docs-as-code/git-sync)
 
 You can now add links to external pages to your docs site’s top nav, giving you more ways to promote important pages outside of your docs.
 
-We’ve also made it possible to include the same GitBook space in multiple places within the navigation. So if you want to list some content in two drop-down [sections](https://gitbook.com/docs/manage-your-site/site-structure/site-sections), you can now do that — without needing to duplicate the content internally and maintain both versions.
+You can also now hide a section from your site navigation, so readers only see the sections you want to show.
+
+We’ve also made it possible to include the same GitBook space in multiple places within the navigation. So if you want to list some content in two drop-down [sections](https://gitbook.com/docs/manage-your-site/site-structure/site-sections), you can now do that — without needing to duplicate the content internally and maintain both versions.
 
 This is great if your nav is organized by use case or reader persona, but you have content that’s relevant to everyone. It’s also useful for [versioned documentation](https://gitbook.com/docs/manage-your-site/site-structure/variants) when there haven’t been any documentation changes.
 
-Both these options are available now in [the **Site structure** page](https://gitbook.com/docs/manage-your-site/site-structure), accessible from the left sidebar.
+All three of these options are available now in [the **Site structure** page](https://gitbook.com/docs/manage-your-site/site-structure), accessible from the left sidebar.
 
 ### Improvements
 
@@ -70,13 +72,13 @@ Both these options are available now in [the **Site structure** page](https://gi
 {% update date="2026-08-27" tags="new-releases,improvements,fixes" %}
 ## New site-level permissions for controlling site management for humans and agents
 
-We’ve rolled out new [site-level permissions](https://gitbook.com/docs/manage-your-site/site-permissions) that give you more control over what people on your team can do in a live site.&#x20;
+We’ve rolled out new [site-level permissions](https://gitbook.com/docs/manage-your-site/site-permissions) that give you more control over what people on your team can do in a live site.
 
-These changes are essential as teams begin rolling out more agentic workflows to automate documentation management. The new controls give you the option to set permissions across an entire site, and choose who — whether they’re editing manually or using agents — can make edits, review, and publish changes to your site.
+These changes are essential as teams begin rolling out more agentic workflows to automate documentation management. The new controls give you the option to set permissions across an entire site, and choose who — whether they’re editing manually or using agents — can make edits, review, and publish changes to your site.
 
 **A quick summary of what’s new:**
 
-* Site-level permissions let you choose who can complete site-based actions and who can only edit site content
+* Site-level permissions let you choose who can complete site-based actions and who can only edit site content
 * Editors can edit content in change requests and add draft sections to a site.
 * Reviewers can edit content and merge change requests and add draft sections to a site
 * Creators can do everything a reviewer can, plus they can restructure the site: add, publish, rename, reorder, and delete sections and variants
@@ -86,7 +88,7 @@ Read more in [our site-level permissions documentation](https://gitbook.com/docs
 
 ### Improvements
 
-* We’ve simplified the [AI settings for your site](https://gitbook.com/docs/ai-for-your-readers/ai-search) to a single AI Assistant toggle. You can enable or disable it, and when you enable it you can choose the AI style — either the full Assistant or a more basic AI search.
+* We’ve simplified the [AI settings for your site](https://gitbook.com/docs/ai-for-your-readers/ai-search) to a single AI Assistant toggle. You can enable or disable it, and when you enable it you can choose the AI style — either the full Assistant or a more basic AI search.
 * The version history now contains more context in breadcrumbs along the top of your window. They now show the title and number of the original change request, GitHub pull request, or GitLab merge request. They also consistently show a **Merged** badge, along with the active section or variant path on the related site.
 * You can now choose to [add a separate font for H1, H2, and H3 headings](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#font-family) on your site, giving you more control over the look and feel of your published. You could combine a serif font for headings with a sans-serif font for the body copy, or any other combination you like.
 * We’ve made the **Home** button at the top of the sidebar easier to find and more clearly labelled. It’s now easier to jump back to your main home screen to view all your sites and content.
