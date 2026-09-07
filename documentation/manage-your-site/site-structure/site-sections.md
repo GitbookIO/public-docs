@@ -60,6 +60,19 @@ To delete a section, click **Delete** in the lower-left corner.
 Changing a section’s slug changes its canonical URL. GitBook creates a redirect from the old URL. You can also [create redirects manually](../../publish/site-redirects.md).
 {% endhint %}
 
+### Hide a section
+
+**Show in site navigation** controls whether a section appears in your site’s top navigation. Hiding a section removes it from published navigation. It doesn’t delete the section or its content.
+
+To hide a section:
+
+1. In the site sidebar, open **Site structure**.
+2. In the section’s table row, click **Edit**.
+3. Turn off **Show in site navigation**.
+4. Click **Save**.
+
+This setting controls section visibility. It differs from **Hide page**, which hides a page from a section’s table of contents. Visitors won’t see hidden sections in published site navigation.
+
 ### Reorder sections
 
 Sections appear in the same order as the **Site structure** table. To reorder a section, drag its drag handle up or down. The section’s content moves with it. The new order appears on your site immediately.
