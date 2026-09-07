@@ -1,5 +1,7 @@
 ---
-description: Add structure to your published documentation using sections and variants
+description: >-
+  Organize your published documentation with sections, variants, and external
+  links
 ---
 
 # Site structure
@@ -14,9 +16,9 @@ Content in your site can serve as one of two different content types, which dete
 
 ## Managing your site structure
 
-By managing the structure of your site, you can also manage your site’s top navigation bar. This navigation bar allows users to jump to different sections and groups.
+By managing the structure of your site, you can also manage your site’s top navigation bar. This navigation bar lets visitors open sections, groups, and external links.
 
-Open the structure editor from **Site structure**, under **General** in the site sidebar. Here you can see all the content of your site, divided into sections and variants.
+Open the structure editor from **Site structure**, under **General** in the site sidebar. Here you can see your site's sections, variants, and external links.
 
 Your site starts out with a single section with your site's name and a single variant with the content you created during your site's set-up.
 
@@ -29,6 +31,20 @@ To add a [section](site-sections.md), click the **Add section** button underneat
 To add a [variant](variants.md), click the **Add variant** button in the section you’d like to add to, then choose the content to add. The new variant is then added to the list of variants within the chosen section and will be available to visitors in the variant dropdown on your site.
 
 When you add content — as a variant or a section — a name and slug will be generated based on its title.
+
+### Adding an external link
+
+External links add destinations outside your site to its navigation. Add a link as its own navigation item, or place it in a section group with related sections.
+
+To add an external link:
+
+1. In the site sidebar, open **Site structure**.
+2. In the add menu, select **External link**.
+3. Enter the link label and destination URL.
+4. Choose whether to add the link separately or to a section group.
+5. Click **Save**.
+
+The link appears in your published site's navigation at the position you choose.
 
 ### Changing sections or variants
 
