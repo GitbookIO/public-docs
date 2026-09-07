@@ -79,4 +79,4 @@ The block displays the message you entered.
 
 ### Next steps
 
-Use the [button](../development/contentkit/reference.md#button) and [text input](../development/contentkit/reference.md#text-input) references to add more interactions.
+Use the [button](/broken/pages/NlYKQXxZ0x7lLCu2TPtU#button) and [text input](/broken/pages/NlYKQXxZ0x7lLCu2TPtU#text-input) references to add more interactions.

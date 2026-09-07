@@ -80,4 +80,4 @@ The webframe receives the updated value in `event.data.state.content`.
 
 ### Next steps
 
-Use the [webframe reference](../development/contentkit/reference.md#webframe) to access page context, visitor claims, and navigation actions.
+Use the [webframe.md](../development/contentkit/component-reference/webframe.md "mention") to access page context, visitor claims, navigation actions, and frame-to-integration communication.

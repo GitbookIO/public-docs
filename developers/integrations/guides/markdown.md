@@ -60,4 +60,4 @@ GitBook sets `content` to `something` and `propA` to `A`.
 
 GitBook renders the fenced block as your custom component.
 
-For custom block configuration, see [Configure your integration](../configurations.md#blocks). For component rendering, see the [Component reference](../development/contentkit/reference.md).
+For custom block configuration, see [Configure your integration](../configurations.md#blocks). For component rendering, see the [Component reference](/broken/pages/NlYKQXxZ0x7lLCu2TPtU).

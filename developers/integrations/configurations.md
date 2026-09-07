@@ -318,4 +318,3 @@ During the installation flow, an event `installation_setup` is triggered as soon
 
 This event (`installation_setup`) is triggered every time the user edits one property of the configuration. The status will become `active` once the configuration pass the validation with the schema.
 
-<img src="../.gitbook/assets/install-flow.drawing.svg" alt="" class="gitbook-drawing">

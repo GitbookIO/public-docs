@@ -69,4 +69,4 @@ The block saves the input value as its `content` property.
 
 ### Next steps
 
-Use the [text input](../development/contentkit/reference.md#text-input) and [button](../development/contentkit/reference.md#button) references to build richer editor interactions.
+Use the [text input](/broken/pages/NlYKQXxZ0x7lLCu2TPtU#text-input) and [button](/broken/pages/NlYKQXxZ0x7lLCu2TPtU#button) references to build richer editor interactions.

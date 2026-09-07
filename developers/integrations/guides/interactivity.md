@@ -85,4 +85,4 @@ Choose a focused guide for the next interaction:
 * [Open a modal from a button](open-a-modal-from-a-button.md).
 * [Save editable block content](save-editable-block-content.md).
 
-For component options and supported actions, see the [component reference](../development/contentkit/reference.md).
+For component options and supported actions, see the [component reference](/broken/pages/NlYKQXxZ0x7lLCu2TPtU).
