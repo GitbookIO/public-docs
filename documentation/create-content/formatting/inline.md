@@ -1,5 +1,7 @@
 ---
 description: Use the inline palette to add images, links, math & TeX, and more
+vars:
+  inlineExampleProduct: GitBook
 ---
 
 # Inline content
@@ -70,6 +72,8 @@ Here is an inline image: <img src=".gitbook/assets/GitBook - Dark.jpg" alt="Dark
 ```
 {% endcode %}
 
+It renders as follows: Here is an inline image: <img src="../../.gitbook/assets/26_01_22_inline-palette@2x.png" alt="GitBook logo" data-size="line">
+
 ## Emojis
 
 You can add emojis by hitting `/` to open the inline palette. Alternatively, type `:` and a list of emojis will pop up directly in line — you can start typing the name of an emoji to narrow down the selection.
@@ -79,10 +83,12 @@ You can add emojis by hitting `/` to open the inline palette. Alternatively, typ
 {% code overflow="wrap" %}
 ```markdown
 :house:
-:car:
+:smile:
 :dog:
 ```
 {% endcode %}
+
+They render as follows: :house: :smile: :dog: &#x20;
 
 ## Links
 
@@ -142,9 +148,15 @@ Here’s how to insert an email address `mailto` link:
 [This is a link](mailto:support@gitbook.com) to our support email address
 ```
 
+They render as follows:
+
+[This is a relative link to another page in this section](../content-structure/)\
+[This is an absolute link](https://www.gitbook.com/blog)\
+[This is a link](mailto:support@gitbook.com) to our support email address
+
 ## Math & TeX
 
-Using this option, you can create an inline math formula in your content, like this: $$f(x) = x * e^{2 pi i \xi x}$$. We use the [KaTeX](https://katex.org/docs/supported.html) library to render formulas.
+Using this option, you can create inline math formulas in your content. We use the [KaTeX](https://katex.org/docs/supported.html) library to render formulas.
 
 {% hint style="info" %}
 You can also insert a block-level math formula by opening the command palette in an empty block and choosing the second Math & TeX option.
@@ -153,10 +165,10 @@ You can also insert a block-level math formula by opening the command palette in
 ### Representation in Markdown
 
 ```markdown
-# Math and TeX block
-
-$$f(x) = x * e^{2 pi i \xi x}$$
+This is an inline formula: $$f(x) = x * e^{2 pi i \xi x}$$
 ```
+
+It renders as follows: This is an inline formula: $$f(x) = x * e^{2 pi i \xi x}$$
 
 ## Buttons
 
@@ -203,6 +215,8 @@ Link and inactive buttons have both primary and secondary styles. Here are a cou
 <a href="https://app.gitbook.com" class="button primary">GitBook</a>
 ```
 
+It renders as follows: <a href="https://app.gitbook.com" class="button primary">GitBook</a>
+
 ## Icons
 
 Icons add visual context to paragraphs, cards, and other content. They use the visual style defined in your customization settings.
@@ -223,8 +237,18 @@ Choose an icon name from the [Font Awesome icon picker](https://fontawesome.com/
 <i class="fa-github">:github:</i>
 ```
 
+It renders as follows: <i class="fa-github">:github:</i>
+
 ## Expressions
 
 Expressions allow you to dynamically display content defined in a variable. Expressions can be inserted from the `/` menu. Once inserted, clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.
+
+### Representation in Markdown
+
+```markdown
+Welcome to <code class="expression">page.vars.inlineExampleProduct</code>.
+```
+
+It renders as follows: Welcome to <code class="expression">page.vars.inlineExampleProduct</code>.
 
 [^1]: This is an annotation.
