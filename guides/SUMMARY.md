@@ -54,6 +54,7 @@
 * [Documentation analytics: which metrics to track and how to measure success](docs-analytics/documentation-analytics.md "How to track documentation metrics")
 * [Track documentation analytics with Google Analytics](docs-analytics/track-documentation-analytics-with-google-analytics.md "How to set up Google Analytics")
 * [Track advanced analytics with GitBook's Events Aggregation API](docs-analytics/track-advanced-analytics-with-gitbooks-events-aggregation-api.md "How to track events with the Events API")
+* [Generating a broken URLs report with the Events Aggregation API](docs-analytics/generating-a-broken-urls-report-with-the-events-aggregation-api.md)
 * [Analyze change request contributors with GitBook’s API](docs-analytics/analyze-change-request-contributors-with-gitbooks-api.md "How to use contributor insights")
 
 ## Docs personalization & authentication
