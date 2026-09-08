@@ -4,9 +4,11 @@ description: Apply for our Open Source plan in GitBook
 
 # Community plan
 
-We welcome applications for our community plan from organizations that meet certain criteria. Broadly, these fall into one of three categories:
+The Community plan is free for eligible non-profit organizations, open source organizations, and education-related groups.
 
+{% hint style="info" %}
 The Community plan includes all Ultimate plan features except SAML SSO.
+{% endhint %}
 
 1. Non-profit organizations
 2. Open source organizations
