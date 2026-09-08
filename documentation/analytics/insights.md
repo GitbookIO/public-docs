@@ -48,6 +48,42 @@ In the context of page views, Events would be total amount of page views, and Vi
 
 Pages & feedback allow you to see a high-level representation of how your users rate your content. You’ll see an overview of all of your site’s sections and variants, and after enabling [page rating](../manage-your-site/site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu for a site, you can see each page’s average feedback rating.
 
+**Filter and group feedback data**
+
+Use filters to focus on a subset of ratings and comments. Use groups to compare that data across a dimension. The available dimensions depend on the report you select.
+
+You can filter or group Pages & feedback data by:
+
+* Content: section, variant, and page.
+* Visitor dimensions: country, language, device, browser, referrer, and authenticated visitor status.
+* Visitor claims configured for adaptive content, such as a customer, plan, role, or feature access.
+
+Content filters identify where feedback comes from. Visitor dimensions add the same audience context available elsewhere in site analytics. For example, filter a page’s ratings by country, or group its feedback by device or authenticated visitor status.
+
+**Filter by visitor claims**
+
+The **Authenticated visitor** filter shows whether GitBook identified the visitor when they left feedback:
+
+* **Authenticated**: The visitor signed in or arrived with signed visitor claims.
+* **Anonymous**: The visitor arrived without signed identification. Claims passed through URL parameters or a public visitor cookie are unsigned.
+* **Unknown**: GitBook recorded the event before tracking visitor authentication began in August 2026.
+
+The **Authenticated** and **Anonymous** values are meaningful from August 2026 onward. For more detail, see the [authenticated visitor FAQ](insights.md#what-does-authenticated-visitor-mean).
+
+{% hint style="info" %}
+To isolate feedback from a customer or segment, filter by a claim that you pass through adaptive content. For example, filter by a customer, plan, role, or feature-access claim. This shows feedback only from visitors whose events include that claim value.
+
+Claim filters only use claims configured for your site. They do not infer customer identity from page content, sections, or variants. See [enabling adaptive content](../publish/adaptive-content/enabling-adaptive-content/) to configure visitor claims.
+{% endhint %}
+
+**What you can learn**
+
+Pages & feedback filters help you turn ratings and comments into focused updates. For example, you can:
+
+* Identify pages or sections with lower ratings, then review their comments.
+* Compare feedback from authenticated and anonymous visitors to find audience-specific gaps.
+* Check ratings for pages that vary by customer claim, then improve the content for that segment.
+
 If you want to use or analyze this data further outside of GitBook, click **Download CSV** to download a `.csv` file to your device.
 
 You can also see a list of comments left from visitors who rate your pages, to get actionable insights on how your docs can be improved.
