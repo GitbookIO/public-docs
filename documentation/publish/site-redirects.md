@@ -22,6 +22,15 @@ Click **Add redirect** and select the **Manual** option.
 
 Fill in the **source path** — the URL slug you want to redirect — and the **destination** content you want visitors to be sent to. You can select any section, variant, or page on your site.
 
+### Choose a redirect status
+
+When you create or edit a redirect, choose its HTTP status:
+
+* **Temporary (307)** tells browsers and search engines that the destination might change. Use it for a temporary move.
+* **Permanent (308)** tells browsers and search engines that the source URL has moved permanently. Use it when you don't plan to restore the old URL.
+
+Both status codes preserve the request method and body when redirecting.
+
 Click **Enable redirect** to immediately enable the redirect.
 
 If you want to create the redirect without making it live yet, click **Save as draft** instead. Draft redirects appear in the **Draft** tab and can be enabled later.
