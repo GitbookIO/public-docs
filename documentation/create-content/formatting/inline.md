@@ -34,6 +34,20 @@ Here's a simple footnote[^1], and here's a longer one[^bignote].
     Add as many paragraphs as you like.
 ```
 
+### Rendered example
+
+The Markdown source creates an annotation on the referenced text:
+
+```markdown
+Annotations add extra context[^annotation-example].
+
+[^annotation-example]: Hover over “extra context” to read this annotation.
+```
+
+It renders as follows. Hover over the annotated text to preview the annotation:
+
+[Annotations add extra context.](#user-content-fn-1)[^1]
+
 ## Images
 
 Inline images will sit alongside your text on the page.
@@ -212,3 +226,5 @@ Choose an icon name from the [Font Awesome icon picker](https://fontawesome.com/
 ## Expressions
 
 Expressions allow you to dynamically display content defined in a variable. Expressions can be inserted from the `/` menu. Once inserted, clicking on the expression will bring up the expression editor, allowing you to reference and [conditionally format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) your variable.
+
+[^1]: This is an annotation.
