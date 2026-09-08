@@ -4,7 +4,9 @@ description: Organize related sections within your site
 
 # Groups
 
-Groups let you organize related sections within your site, making your site's structure easier for visitors to navigate.
+Section groups let you organize related sections within your site, making your site's structure easier for visitors to navigate.
+
+Section groups are different from [page](page/ "mention"). Page groups organize pages within one section. Section groups organize sections in site navigation. Both are called groups, but you configure their icons independently.
 
 ### Create a group
 

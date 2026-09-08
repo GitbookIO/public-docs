@@ -161,6 +161,8 @@ GitBook currently supports `.woff` and `.woff2`. For other formats, please conta
 
 When using page icons, set the weight and style of the displayed icons here.
 
+This setting controls the weight and style of page icons on your published site. It doesn't define page-group icons or inline icons. Set page-group icons in the section table of contents. Add inline icons in [inline.md](../../create-content/formatting/inline.md "mention").
+
 ### Corner style
 
 Choose either rounded or straight corners to match your brand’s style preferences.

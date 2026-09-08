@@ -191,11 +191,17 @@ Link and inactive buttons have both primary and secondary styles. Here are a cou
 
 ## Icons
 
-Icons allow you to add extra visual indications to your site. You can add them inline to paragraphs, inside a card, or anywhere else you need to add some flair. They will use the visual style defined in your customization settings.
+Icons add visual context to paragraphs, cards, and other content. They use the visual style defined in your customization settings.
+
+Use an `<i>` element with both forms of the icon name. The Font Awesome class and token must match:
+
+```markdown
+<i class="fa-rocket">:rocket:</i>
+```
+
+Choose an icon name from the [Font Awesome icon picker](https://fontawesome.com/search). Unsupported names might not render or survive Git Sync.
 
 <i class="fa-facebook">:facebook:</i> <i class="fa-github">:github:</i> <i class="fa-x-twitter">:x-twitter:</i> <i class="fa-instagram">:instagram:</i>
-
-Visit [Font Awesome](https://fontawesome.com/) to explore the different icons available.
 
 ### Representation in Markdown
 

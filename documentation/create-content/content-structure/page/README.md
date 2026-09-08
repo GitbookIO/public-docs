@@ -83,20 +83,25 @@ Page link titles are optional — if you don't add one, the page uses its standa
 
 #### Page groups
 
-Page groups bring related pages together within a section's table of contents.
+Page groups bring related pages together within a section's table of contents. You can add an icon to each page group.
 
 {% hint style="info" %}
-Page groups organize **pages** within a single section. To organize the **sections** of your site, use groups instead.
+Page groups organize pages within one section. Section groups organize sections in site navigation. They are different objects, even though both are called groups. See [collection.md](../collection.md "mention").
 {% endhint %}
 
 Create a page group by clicking **Add new...** > **Group** at the bottom of your table of contents.
 
 Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other.
 
-To change the title and slug of a page group:
+To change the title, slug, or icon of a page group:
 
 1. Click the **Action menu** icon <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group title in the table of contents.
 2. Click **Rename**.
+3. Update the title, slug, or icon.
+
+{% hint style="warning" %}
+`SUMMARY.md` doesn't store page-group icons. GitBook stores them, and Git Sync doesn't round-trip them. If your repository recreates a page group, GitBook doesn't restore the original icon automatically. Set the icon again in GitBook.
+{% endhint %}
 
 #### External links
 
