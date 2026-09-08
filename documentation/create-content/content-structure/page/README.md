@@ -54,6 +54,26 @@ If you add subpages to an empty parent page, GitBook automatically generates a '
 
 When you change the title of a page, the page's slug (the part at the very end of the URL, such as `/hello-world`) also changes — unless you've manually set the page's slug previously.
 
+A published page URL follows the navigation tree, not your Git Sync file layout. It includes the top-level section or group slug, every ancestor page or group slug, and the page's own slug.
+
+For example, this Git Sync file layout:
+
+```
+content/
+└── setup/
+    └── install.md
+```
+
+Can have this navigation tree:
+
+```
+API
+└── Guides
+    └── Install
+```
+
+If the slugs are `api`, `guides`, and `install`, the published URL is `/api/guides/install`. The file path doesn't determine the URL.
+
 To change the title, link title, or slug of a page:
 
 1. Open the page's **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
@@ -92,6 +112,10 @@ Page groups organize pages within one section. Section groups organize sections 
 Create a page group by clicking **Add new...** > **Group** at the bottom of your table of contents.
 
 Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other.
+
+{% hint style="warning" %}
+Page-group slugs become part of every child page URL. Adding, renaming, or removing a page group changes child page URLs and breaks existing links unless you add redirects. See [site-redirects.md](../../../publish/site-redirects.md "mention").
+{% endhint %}
 
 To change the title, slug, or icon of a page group:
 
