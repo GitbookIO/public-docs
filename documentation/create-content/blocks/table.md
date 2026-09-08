@@ -22,6 +22,16 @@ When you open the Options menu to the left of a table block, you’ll have a num
 * **Visible columns:** Choose which columns are visible and which are hidden. If you have hidden columns in your table, this menu is where you can make them visible again.
 * **Delete:** Deletes the table block and all of its content.
 
+### Merging cells
+
+Select multiple cells by dragging across them, or by holding Shift and pressing the arrow keys. Use the knob that appears after you select cells to merge them.
+
+Merging works with **Text** and **Number** cells only. GitBook blocks merging for unsupported fields, mixed field types, comments outside the anchor cell, and the Cards view. GitBook also blocks reordering merged cells or rows that contain merged cells.
+
+Merges use native `colspan` and `rowspan` when you use Git Sync. Merges are positional: the anchor cell and spans follow the table’s current row order and visible-column order.
+
+Version one doesn't support rectangular merges, such as a `2x2` selection. When you merge cells, select the value to keep. GitBook clears the other values. Unmerging doesn't restore cleared values.
+
 ### Changing a column type
 
 Depending on the data you want to display, you can set different data types for your table columns. These add formatting, embellishments, or restrictions to every cell in the column:
