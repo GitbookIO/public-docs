@@ -42,12 +42,20 @@ GitBook uses OpenAI’s enterprise API for AI features. OpenAI does not train, i
 
 OpenAI is a [subprocessor](../privacy-and-security/security/subprocessors.md).
 
+### Channels data handling
+
+Channels uses OpenAI’s `responses` endpoint. Connectors fetch only the data needed for documentation workflows.
+
+GitBook strips sensitive information before persisting connector records or sending data to OpenAI. This process uses non-AI and AI methods.
+
+GitBook does not forward or store connector fields containing user data, such as email addresses or account IDs.
+
 ### Zero data retention
 
 Zero data retention coverage varies by endpoint:
 
 * GitBook runs the content-scrubbing pipeline with `store=false`. It removes sensitive data before further AI processing.
-* GitBook Agent and Channels use `store=true`. These endpoints do not have zero data retention coverage.
+* Main AI features, including GitBook Agent and Channels, use stateful agent sessions that rely on `store=true`. Zero Data Retention is not compatible with these features.
 
 GitBook enables zero data retention per endpoint. It does not use one formal OpenAI agreement.
 
