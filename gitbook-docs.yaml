@@ -75,6 +75,7 @@ site:
         ja: 開発者
         zh: 开发者
       path: developers
+      description: ""
       localizedDescription:
         en: GitBook API, SDK, and developer tools
         fr: L'API, le SDK et les outils développeur de GitBook
@@ -118,7 +119,7 @@ site:
           children:
             - type: space
               key: space-2
-              title: Public Changelog
+              title: Changelog
               path: public-changelog
               default: true
               content:
