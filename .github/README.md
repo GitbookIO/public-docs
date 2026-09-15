@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://gitbook.com/docs"><img src="https://img.shields.io/static/v1?message=Documented%20on%20GitBook&logo=gitbook&logoColor=FAFAF9&label=%20&labelColor=1C1917&color=F25B3A"></a>
-  <a href="/.github/CONTRIBUTING.md"><img src="https://img.shields.io/github/contributors/gitbookIO/public-docs"/></a>
+  <a href="#contributing"><img src="https://img.shields.io/github/contributors/gitbookIO/public-docs"/></a>
   <a href="https://github.com/gitbookIO/public-docs/issues"><img src="https://img.shields.io/github/issues/gitbookIO/public-docs"/></a>
 </p>
 
