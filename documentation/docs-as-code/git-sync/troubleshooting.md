@@ -45,6 +45,22 @@ If none of these steps help, [contact support](../../help/contact-support.md).
 
 <details>
 
+<summary>An import from Git removed content I published from GitBook before it was exported</summary>
+
+If a GitBook-to-Git export fails or times out, a page you published in GitBook can end up missing from your repository. If your repository is then updated and synced back to GitBook before the export retriggers, that import can remove the unexported page from GitBook.
+
+To recover it without losing the newer repository changes:
+
+1. Open [version history](../../create-content/version-control.md) in GitBook and find the revision from just before the import that removed the content.
+2. Copy or recreate the missing page(s) from that revision in a new change request.
+3. Merge the change request to re-export the recovered content to your repository.
+
+Don't roll back the section to the pre-import revision — a full rollback also reverts any repository changes imported since then. If you're not sure which revision to recover from, [contact support](../../help/contact-support.md).
+
+</details>
+
+<details>
+
 <summary>Git authentication failed</summary>
 
 This message appears when you attempt to push to a repository that hasn't granted GitBook access. In that case, syncing from your repository to GitBook works, but not the other way — and your repositories may not be listed correctly.
@@ -84,6 +100,22 @@ Git Sync limits individual file sizes to a maximum of 100MB. To improve performa
 
 <details>
 
+<summary>Sync fails with "pack exceeds maximum allowed size (2.00 GiB)"</summary>
+
+This error means the Git pack GitBook generates for your repository exceeds Git Sync's 2 GiB limit. It's separate from the 100MB individual file limit above, and it can happen even if no single file in your latest commit is that large — large files committed and later removed still count, because they remain in your repository's history.
+
+To resolve it:
+
+1. Find the large file(s) in your repository's history, including files no longer present in the latest commit.
+2. Remove them from your Git history, or migrate applicable binaries to [Git LFS](https://git-lfs.com).
+3. Push the rewritten history and retry the sync.
+
+A failed sync of this kind can block merges in GitBook until it's resolved. If you can't safely rewrite your repository's history yourself, [contact support](../../help/contact-support.md).
+
+</details>
+
+<details>
+
 <summary>My table of contents isn't correctly structured</summary>
 
 Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it's structured is reflected in your content. Make sure the file reflects the structure you want to see in your documentation. See [Content configuration](content-configuration.md#summary) for the expected format.
@@ -108,7 +140,12 @@ The original space is still in your organization if you need something from it t
 
 <summary>Does Git Sync also sync pull requests?</summary>
 
-No. Creating a pull request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull request in your repository.
+No. GitBook change requests and Git provider pull or merge requests are two separate workflows, and neither one creates the other:
+
+* Merging a GitBook change request commits the change directly to your synced branch, labeled with a `GITBOOK-<number>` reference — it doesn't open a pull or merge request in GitHub or GitLab.
+* Merging a pull or merge request in GitHub or GitLab pushes a regular commit to the synced branch, which GitBook imports as a new revision — it doesn't create a GitBook change request.
+
+See [How changes flow](./#how-changes-flow) for the full workflow.
 
 </details>
 

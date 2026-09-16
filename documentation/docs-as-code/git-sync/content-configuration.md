@@ -173,6 +173,10 @@ Use headings for page groups and nested links for child pages:
 
 Each Markdown file can appear once in `SUMMARY.md`. A page can only have one URL in a space.
 
+{% hint style="info" %}
+If you restructure `SUMMARY.md` in your repository while a GitBook change request that also touches navigation is still open, merging that change request can conflict with your repository's newer structure. See [Conflicts and precedence](./#conflicts-and-precedence).
+{% endhint %}
+
 #### Set navigation labels
 
 Add a page link title when the navigation label differs from the page title:

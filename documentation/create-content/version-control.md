@@ -53,3 +53,7 @@ Add it at the end of your published docs URL as `/~/revisions/<id>`
 Rolling back allows you to revert a section's content to the way it was at a previous point in time. This is helpful if you've accidentally made a breaking change or deleted content and need to quickly get back to a previous version of the section.
 
 To roll back to a previous version of your section, hover over the version in the side panel, click the **Actions button** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> and click **Rollback**.
+
+{% hint style="warning" %}
+On a section with Git Sync enabled, rolling back reverts to the chosen revision entirely — including any content that was imported from your repository after that revision. If you only need to recover specific content, such as a page dropped by a failed export, copy or recreate it from the relevant revision in a new change request instead of rolling back. See [Git Sync troubleshooting](../docs-as-code/git-sync/troubleshooting.md#an-import-from-git-removed-content-i-published-from-gitbook-before-it-was-exported).
+{% endhint %}
