@@ -32,6 +32,42 @@ Git Sync supports IP allowlisting for Enterprise customers. If your GitHub, GitL
 Only [administrators and creators](../../collaborate/member-management/roles.md) can enable and configure Git Sync.
 {% endhint %}
 
+### How changes sync and conflict
+
+Git Sync keeps GitBook and your repository in step by syncing one side to the other each time content changes. Understanding which side moves, and when, avoids most sync surprises.
+
+#### The source of truth
+
+You choose a source of truth once, when you set up Git Sync — see [Choose an initial sync direction](enabling-github-sync.md#choose-an-initial-sync-direction). That choice applies to the initial sync only: the selected side replaces the other side's content.
+
+After the initial sync, neither side is permanently authoritative. Sync is bi-directional and event-driven:
+
+* Merging a change request in GitBook exports that content to the synced branch.
+* A commit landing on the synced branch imports that content into GitBook.
+
+Each sync brings the destination in line with the source of the change. The most recent sync wins, so the last change to complete a sync determines the published content.
+
+{% hint style="warning" %}
+**Avoid editing the same content on both sides at once.** GitBook detects conflicts between change requests within GitBook, but an import from your repository and an unexported GitBook edit are not reconciled the same way — an import can replace GitBook content that was never exported. If you're making a large change, make it on one side and let it sync before editing the other.
+{% endhint %}
+
+#### Two kinds of conflict
+
+The conflict flow you use depends on where the competing changes live:
+
+| Where the conflict is                                                   | How to resolve it                                                                                                                                                       |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Between two change requests in GitBook                                   | Resolve it in GitBook. See [Resolving merge conflicts](../../collaborate/change-requests/change-requests-in-a-space.md#resolving-merge-conflicts).                       |
+| Between branches in your repository, before the content reaches GitBook  | Resolve it in Git with your usual workflow, then push the resolved result to the synced branch. GitBook imports the result — it never sees the conflict.                  |
+
+When you resolve a conflict in `SUMMARY.md` in your repository, remove every conflict marker (`<<<<<<<`, `=======`, `>>>>>>>`) before you push. GitBook parses `SUMMARY.md` to rebuild your table of contents, and markers left in the file produce a navigation structure you didn't intend. Check the merged file against the structure you want — see [Configure navigation with SUMMARY.md](content-configuration.md#configure-navigation-with-summary.md).
+
+If a GitBook change request is out of date with navigation changes that arrived from your repository, update it before merging. This pulls the imported structure into your change request so you resolve the difference once, in GitBook, rather than producing a second conflicting export.
+
+{% hint style="info" %}
+Rewriting the history of the synced branch — force-pushing, rebasing, or resetting it — puts your repository and GitBook into a state Git Sync doesn't reconcile automatically. Prefer a forward commit that reverts the content instead. If you've already rewritten the synced branch and your content is out of step, [contact support](../../help/contact-support.md) rather than pushing further rewrites.
+{% endhint %}
+
 ### Working with AI Agents
 
 When working on your docs locally with Git Sync, you can use GitBook's [skill.md file](../ai-coding-assistants-and-skillmd.md) to provide an AI coding assistant with context about GitBook's blocks, features, and best practices.

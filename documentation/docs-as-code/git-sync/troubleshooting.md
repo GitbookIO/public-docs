@@ -45,6 +45,28 @@ If none of these steps help, [contact support](../../help/contact-support.md).
 
 <details>
 
+<summary>Protect and recover unexported changes after a failed export</summary>
+
+When an export from GitBook to your repository fails, the changes in it stay in GitBook but never reach your repository. The next import from your repository then syncs GitBook to match the repository — and content that was never exported is removed.
+
+**Before the next import**, confirm your changes reached your repository:
+
+1. Open the affected page's version history and look for the external Git commit link on the revision.
+2. If the revision has no commit link, it wasn't exported. Create a change request with a small change and merge it to retrigger the export.
+3. Confirm the commit appears in your repository before you push anything else to the synced branch.
+
+**If an import already removed the content**, don't roll back the space. Rolling back also reverts the repository changes that arrived in the import. Instead, recover the content:
+
+1. Open the version history and select the revision from before the import.
+2. Copy the missing pages, or note their content.
+3. Create a change request, recreate the pages in it, and merge it.
+
+This exports the recovered pages to your repository while keeping the imported changes intact. See [Version control](../../create-content/version-control.md) for more on version history.
+
+</details>
+
+<details>
+
 <summary>Git authentication failed</summary>
 
 This message appears when you attempt to push to a repository that hasn't granted GitBook access. In that case, syncing from your repository to GitBook works, but not the other way — and your repositories may not be listed correctly.
@@ -84,6 +106,31 @@ Git Sync limits individual file sizes to a maximum of 100MB. To improve performa
 
 <details>
 
+<summary>Sync fails with <code>pack exceeds maximum allowed size (2.00 GiB)</code></summary>
+
+This error is different from the 100MB individual file limit. It applies to the whole repository:
+
+```
+fatal: pack exceeds maximum allowed size (2.00 GiB)
+```
+
+Git Sync builds a pack of your repository to transfer it, and that pack can't exceed 2 GiB. The pack includes your repository's history, not just its latest commit — so large files you already deleted still count toward the limit until you remove them from history. Retrying the sync doesn't help, because the pack is the same size every time.
+
+To resolve it:
+
+1. Find the largest objects in your repository's history. Tools such as [git-filter-repo](https://github.com/newren/git-filter-repo) report object sizes across all commits.
+2. Remove those objects from history, or migrate binaries to [Git LFS](https://git-lfs.com).
+3. Push the rewritten history to your repository.
+4. Retry the sync.
+
+{% hint style="warning" %}
+A failed sync can block merges in GitBook until you repair it. If you can't safely rewrite your repository's history, [contact support](../../help/contact-support.md).
+{% endhint %}
+
+</details>
+
+<details>
+
 <summary>My table of contents isn't correctly structured</summary>
 
 Your `SUMMARY.md` file mirrors your table of contents on GitBook — the way it's structured is reflected in your content. Make sure the file reflects the structure you want to see in your documentation. See [Content configuration](content-configuration.md#summary) for the expected format.
@@ -108,7 +155,16 @@ The original space is still in your organization if you need something from it t
 
 <summary>Does Git Sync also sync pull requests?</summary>
 
-No. Creating a pull request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull request in your repository.
+No. Git Sync syncs content, not review requests. Creating a pull or merge request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull or merge request in your repository. The two review workflows stay separate, and each one syncs only when its changes land on the synced branch.
+
+| What you do                                            | What Git Sync does                                                                      |
+| ------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| Merge a change request in GitBook                       | Commits the changes directly to the synced branch. It doesn't open a pull request.       |
+| Open a pull or merge request in your repository         | Nothing yet. GitBook can show a [preview](github-pull-request-preview.md) of the changes. |
+| Merge that pull or merge request into the synced branch | Imports the changes into GitBook.                                                        |
+| Push a commit directly to the synced branch             | Imports the changes into GitBook, and they publish as they would after any other import.  |
+
+GitBook names each commit it creates after the change request it came from, such as `GITBOOK-14: Improve documentation about users management`. That reference identifies the originating change request — it doesn't link the commit to a pull request. See [Commit messages & Autolink](commits.md) to customize the template or turn those references into links.
 
 </details>
 
