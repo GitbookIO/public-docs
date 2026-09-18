@@ -79,7 +79,7 @@ layout:
 
 * External: `[text](https://example.com)`
 * Relative (same space): `[text](page.md)`, `[text](../folder/page.md)`
-* Cross-space (different space): `[text](https://app.gitbook.com/s/<spaceId>/<path>)` — relative paths never cross space boundaries, and this is the only correct URL form (not `/spaces/<id>/pages/<id>`). Get `<spaceId>` from `GET /orgs/{orgId}/spaces` and `<path>` from a page's `path` field in `GET /spaces/{spaceId}/content/pages`. Scaffolding a new site where the target space doesn't exist yet? Use `XSPACE_<KEY>` sentinels; `configure-site` resolves them after creation. Full examples: `references/markdown.md`.
+* Cross-space (different space): `[text](https://app.gitbook.com/s/<spaceId>/<path>)` — relative paths never cross space boundaries, and `/spaces/<id>/pages/<id>` is not a valid link form. The org-qualified alias `https://app.gitbook.com/o/<orgId>/s/<spaceId>/<path>` resolves the same way — write the short form, but don't rewrite or lint against either (`references/git-sync-serialisation.md`). Get `<spaceId>` from `GET /orgs/{orgId}/spaces` and `<path>` from a page's `path` field in `GET /spaces/{spaceId}/content/pages`. Scaffolding a new site where the target space doesn't exist yet? Use `XSPACE_<KEY>` sentinels; `configure-site` resolves them after creation. Full examples: `references/markdown.md`.
 * Moved/renamed pages keep working — GitBook auto-creates a redirect from the old path.
 
 **Key reminders:**
@@ -127,6 +127,7 @@ layout:
 * Don't use relative paths to link to a page in a different space — they won't resolve.
 * Don't use `/spaces/<spaceId>/pages/<pageId>` — that's not a valid GitBook link form.
 * Use `https://app.gitbook.com/s/<spaceId>/<path>` instead, where `<path>` is the target page's `path` field (from `GET /spaces/{spaceId}/content/pages`), not its page ID.
+* Don't "fix" the org-qualified form `https://app.gitbook.com/o/<orgId>/s/<spaceId>/<path>` when you find it — it's a valid alias, and normalising between the two forms churns against Git Sync.
 * Use `XSPACE_<KEY>` sentinels when space IDs aren't known yet (new space, not yet created).
 
 **File organization:**
@@ -147,6 +148,7 @@ layout:
 **Frontmatter:**
 
 * Always quote `description:` values containing `:`, `#`, or other YAML-significant characters — unquoted special characters cause silent Git Sync failures with no error message
+* But don't require quotes on the way back out: GitBook re-emits descriptions in whatever YAML scalar style its serialiser picks, including folded blocks (`>-`). Validate that frontmatter parses, not how it's written (`references/git-sync-serialisation.md`)
 * Frontmatter must be at the very top of the file
 
 ### Working with Git Sync
@@ -204,4 +206,5 @@ Load these on demand when the task requires deeper detail:
 - `references/frontmatter.md` — all frontmatter fields with descriptions, YAML quoting rules, cover images, adaptive content (`if:`), and the variables/expressions deep-dive. **Load when configuring page layout, covers, conditional visibility, or variables.**
 - `references/markdown.md` — standard markdown, code blocks with titles, math/TeX, Mermaid diagram types and examples, and SVG handling quirks. **Load when working with diagrams, math, or SVG assets.**
 - `references/configuration.md` — `.gitbook.yaml` options, the `.gitbook/` directory structure (assets, includes, vars, tags), and SUMMARY.md grammar rules in full. **Load when setting up a space, adding redirects, or authoring/editing SUMMARY.md.**
+- `references/git-sync-serialisation.md` — what GitBook rewrites when it exports a space back to the repo: `description:` scalar style, cross-space link URL form, block re-serialisation, and the rule that you lint for validity rather than for form. **Load when a Git Sync diff contains changes nobody made by hand, or before writing any check or build step that validates docs frontmatter or links.**
 - `references/git-sync-previews.md` — getting a preview link for a branch pushed through Git Sync: reading the GitBook commit status on GitHub and GitLab, telling the site preview from the editor diff, and handling an import that's still running. **Load whenever you push docs changes to a branch with a pull/merge request open.**
