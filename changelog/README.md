@@ -18,6 +18,8 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 tags:
   - changelog
 ---
@@ -25,6 +27,47 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-09-16" tags="new-releases,improvements,fixes" %}
+## GitBook Agent: a persistent dock for everyone in your organization
+
+GitBook Agent now lives in a persistent dock, rather than a floating panel or the `~/agent` screen — so it keeps working as you move between pages.
+
+Anyone in your organization can now use the Agent with their own permissions. It reads what they can read, and edits and comments only where they can — and it tells you when it can't complete a task, rather than failing silently. You can anchor the dock beside your content so it stays in view, resize it, and set an edit scope to steer changes toward the page you're on or whatever changed during the conversation.
+
+The Agent also brings every connection in a Slack, GitHub, or Linear channel together, so it can answer questions and open change requests in the same thread across all your connected sites.
+
+### Improvements
+
+* The **Changes** section of a change request now uses a file explorer. Reviewers can see everything a change request touched in one place and jump straight to it.
+* You can now review library changes individually with clearer highlighting and easier navigation in the **Changes** view.
+* Site redirects can now be permanent and use HTTP `308`, rather than always redirecting temporarily.
+* You can now export your organization’s filtered audit logs as a CSV file.
+* Audit logs now record custom-domain validation outcomes. You can trace what happened to a domain in the log.
+* You can now move section groups within your site structure, not only individual sections.
+* Table and Card blocks can now live inside a Hint block.
+* Now the anchor links layout option controls where in-page links to headings appear. It’s off by default on landing pages.
+* Git Sync now supports external links in your site structure configuration. Manage them alongside the rest of your docs-as-code setup.
+
+### Fixes
+
+* Fixed an issue that could cause data loss when you deleted the last site section with external links remaining.
+* Fixed an issue that could make Git Sync and Markdown or HTML imports hang or run out of memory on pages with hundreds of images. Imports also ran slowly on pages with hundreds of tables.
+* Fixed an issue that crashed the site analytics screen after you hovered over a chart.
+* Fixed an issue that re-translated, and re-charged, unchanged text on every run.
+* Fixed an issue where the page feedback CSV export omitted the feedback comment, page link, and rating time.
+* Fixed an issue where the latest edits were missing from diff view after you requested a review.
+* Fixed cursor and selection bugs in table cells. Dragging, Shift+Arrow, and Backspace no longer jump the cursor.
+* Fixed an issue where you could lose your cursor after scrolling away from nested text and back. This affected lists, hints, quotes, columns, and stepper steps.
+* Fixed false positives in Broken links checks. Private GitHub, GitLab, and Bitbucket repositories, CNAME hosts, and external links with a placeholder hostname or custom port no longer appear broken.
+* Fixed an issue where zoomed images and fullscreen Mermaid diagrams rendered under the agent panel or their dialog.
+* Fixed an issue where toasts stayed white in dark theme, hid their close button, and could cover the agent conversation.
+* Fixed an issue where right-clicking inside an overlay closed it.
+* Fixed inaccessible button text in a read-only hint in the editor.
+* Fixed an issue where inline Ask AI buttons opened the wrong assistant rather than the assistant configured for your site.
+* Fixed an issue where keyboard focus escaped published search. Search could also forget a linked page’s configured destination.
+* Fixed an issue where the cookie banner appeared before integrations could register.
+{% endupdate %}
+
 {% update date="2026-09-03" tags="new-releases" %}
 ## New! Full site support with Git Sync
 

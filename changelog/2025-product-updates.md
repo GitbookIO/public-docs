@@ -1022,13 +1022,13 @@ This release introduces a supercharged new AI assistant, improved insights optio
 
 <figure><img src=".gitbook/assets/GitBook Assistant UI.png" alt=""><figcaption></figcaption></figure>
 
-As part of yesterday’s [adaptive content launch](https://www.gitbook.com/blog/new-adaptive-content-gitbook-assistant) we also introduced [GitBook Assistant](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/ai-for-your-readers/ai-search) — a powerful new AI experience for your docs.
+As part of yesterday’s [adaptive content launch](https://www.gitbook.com/blog/new-adaptive-content-gitbook-assistant) we also introduced [GitBook Assistant](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/MCMfIAhwG9Os2PywCGB1) — a powerful new AI experience for your docs.
 
 Assistant is a big step up over our previous AI search functionality. While our old solution was fast and gave end-users accurate answers based on your docs, GitBook Assistant offers a new chat-based UI, seamless integration with adaptive content, and the option to connect with MCP servers to provide better answers with more context.
 
 As well as using agentic retrieval — which gives it a deeper understanding of user intent, and more accurate responses — it’s also integrated with adaptive content. So it can use knowledge about an individual user to give better, more tailored answers.
 
-It can also [connect to other sources via MCP servers](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/ai-for-your-readers/ai-search#extend-gitbook-assistant-with-mcp-servers), meaning GitBook Assistant can pull information from different sources and use that information to answer questions with even more context.
+It can also [connect to other sources via MCP servers](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/MCMfIAhwG9Os2PywCGB1#extend-gitbook-assistant-with-mcp-servers), meaning GitBook Assistant can pull information from different sources and use that information to answer questions with even more context.
 
 Read more in [our announcement post](https://www.gitbook.com/blog/new-adaptive-content-gitbook-assistant), or [head to our demo site](https://gitbook.com/adaptive-content-demo) to experience its adaptive content integration.
 
