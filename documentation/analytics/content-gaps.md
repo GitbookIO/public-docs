@@ -14,7 +14,9 @@ From any gap, GitBook Agent can open a change request that fills it.
 
 In your site’s sidebar, go to **Improve → Content gaps**.
 
-<figure><img src="../.gitbook/assets/content-gaps.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/content-gaps.png" alt="The Content gaps screen showing summary tiles, the filter row, and a list of gaps with their topics and evidence counts"><figcaption></figcaption></figure>
+
+Four tiles across the top show how many gaps GitBook has found, how many are high severity, how many change requests have been merged from gaps, and which source contributes the most.
 
 ## What GitBook detects
 
@@ -73,22 +75,26 @@ A site with a large back catalog can surface thousands of gaps at once. Filter t
 | Source        | Any connected source                                    | Check what a single source is reporting, such as gaps that only Intercom sees.                                                                          |
 | GitBook Agent | Worked on, not worked on                                | Find gaps nobody has picked up yet.                                                                                                                     |
 
+Sort the filtered list by severity to bring the most damaging gaps to the top.
+
 Rejecting a gap records that your team considered the suggestion and decided against it, which keeps it out of the open list without hiding that the decision was made. Filter by **Resolved** to find the gaps a merged change request has already closed.
 
 ## Reviewing a gap
+
+Reviewing a gap follows the same path each time:
 
 1. On the Content gaps page, filter the list to the gaps you want to work on.
 2. Click a gap to open it.
 3. Read the **Problem**, **Evidence**, and **Recommendation** to judge whether the gap is real and worth filling.
 4. Open the linked source records to check the evidence yourself.
-5. Click **Create change request**, or **Reject** if the gap isn’t worth filling.
+5. Click **Create change request(s)**, or **Reject** if the gap isn’t worth filling.
 6. Review the change request GitBook Agent drafts, then merge it.
 
-<figure><img src="../.gitbook/assets/25_03_30_site_findings@2x (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_30_site_findings@2x (1).png" alt="A single content gap showing its status, severity, type, and topic, with Reject and Create change request actions above the motivation"><figcaption></figcaption></figure>
 
 ### What a gap shows
 
-A gap opens with its name, status, severity, and type, followed by a **Motivation** section in three parts:
+A gap opens with its name, status, severity, type, and topic. Status is a dropdown, so you can change it without leaving the gap. Below that, a **Motivation** section sets out the case in three parts:
 
 * **Problem** states what the documentation fails to explain, and what happens to a reader as a result.
 * **Evidence** sets out what GitBook found: which pages cover the area today, what they leave out, and what the source records show people asking.
@@ -104,7 +110,7 @@ Source records only appear for sources you have connected. A gap drawn from supp
 
 When a gap can be fixed automatically, a banner states that the finding can be resolved in change requests, and offers two actions.
 
-Click **Create change request** to hand the gap to GitBook Agent. The Agent reads the finding and the pages it names, then drafts the change. One gap can produce more than one change request when the fix spans several pages.
+Click **Create change request(s)** to hand the gap to GitBook Agent. The Agent reads the finding and the pages it names, then drafts the change. One gap can produce more than one change request when the fix spans several pages.
 
 The screen reports progress while the Agent works, then lists what it produced with a link to review each one. From there they behave like any other [change request](../collaborate/change-requests/) — you see exactly what content changed, and your usual review and merge rules apply. See [review-change-requests-with-gitbook-agent.md](../gitbook-agent/review-change-requests-with-gitbook-agent.md "mention") for how the Agent can help review it.
 
