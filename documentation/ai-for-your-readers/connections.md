@@ -78,7 +78,7 @@ This makes the source easier to identify in the connections list, especially if 
 #### Auto-generate change requests
 
 {% hint style="warning" %}
-Auto generating change requests is currently in early access.
+Auto-generating change requests is in beta.
 
 See [content-gaps.md](../analytics/content-gaps.md "mention") for how GitBook identifies gaps in your docs.
 {% endhint %}
