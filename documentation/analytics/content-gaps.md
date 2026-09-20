@@ -55,13 +55,13 @@ GitBook reviews your sources once a day and compares what it finds against your 
 {% step %}
 #### Review the gaps
 
-Each gap includes a summary of the issue, the topic it belongs to, its severity, supporting evidence, and links to the pages GitBook used as context. Sort by severity to find the gaps worth fixing first.
+Each gap sets out the problem, the evidence behind it, and a recommendation for fixing it. Sort by severity to find the gaps worth fixing first.
 {% endstep %}
 
 {% step %}
-#### Fill or archive
+#### Fill or reject
 
-Fill a gap by creating a [change request](../collaborate/change-requests/) from it, or archive the ones you don’t want to keep in your active list. GitBook won’t re-open a gap you’ve archived.
+Fill a gap by creating a [change request](../collaborate/change-requests/) from it, or reject the ones you don’t want to act on. GitBook won’t re-open a gap you’ve rejected.
 {% endstep %}
 {% endstepper %}
 
@@ -71,7 +71,7 @@ A site with a large back catalog can surface thousands of gaps at once. Filter t
 
 | Filter | Options | Use it to |
 | --- | --- | --- |
-| Status | **Open**, **Changed**, **Rejected** | Separate untouched gaps from those a change request already covers, and from AI suggestions your team turned down. |
+| Status | **Open**, **Changed**, **Rejected**, **Resolved** | Separate untouched gaps from those a change request already covers, the suggestions your team turned down, and the ones a merged change request closed. |
 | Severity | **High**, **Medium**, **Low** | Work the highest-impact gaps first. |
 | Date | **Last 7 days**, **Last 30 days** | See what a recent release or support spike surfaced. |
 | Topic | Any topic on your site | Focus on one area of your documentation. Topics are grouped the same way as in AI Insights. |
@@ -79,7 +79,46 @@ A site with a large back catalog can surface thousands of gaps at once. Filter t
 | Source | Any connected source | Check what a single source is reporting, such as gaps that only Intercom sees. |
 | GitBook Agent | Worked on, not worked on | Find gaps nobody has picked up yet. |
 
-Rejecting a gap records that your team considered the suggestion and decided against it, which keeps it out of the open list without hiding that the decision was made.
+Rejecting a gap records that your team considered the suggestion and decided against it, which keeps it out of the open list without hiding that the decision was made. Filter by **Resolved** to find the gaps a merged change request has already closed.
+
+## Reviewing a gap
+
+Working through a gap takes six steps:
+
+1. On the Content gaps page, filter the list to the gaps you want to work on.
+2. Click a gap to open it.
+3. Read the **Problem**, **Evidence**, and **Recommendation** to judge whether the gap is real and worth filling.
+4. Open the linked source records to check the evidence yourself.
+5. Click **Create change request**, or **Reject** if the gap isn’t worth filling.
+6. Review the change request GitBook Agent drafts, then merge it.
+
+### What a gap shows
+
+A gap opens with its name, status, severity, and type, followed by a **Motivation** section in three parts:
+
+* **Problem** states what the documentation fails to explain, and what happens to a reader as a result.
+* **Evidence** sets out what GitBook found: which pages cover the area today, what they leave out, and what the source records show people asking.
+* **Recommendation** proposes what to write and where to put it, including the pages to link it from.
+
+Below the motivation, GitBook lists the source records the finding rests on — the individual support conversations, discussions, or pages, each linked so you can open the original and read it in full.
+
+{% hint style="info" %}
+Source records only appear for sources you have connected. A gap drawn from support conversations shows those conversations only if that support platform is connected. See [connections.md](../ai-for-your-readers/connections.md "mention") to set one up.
+{% endhint %}
+
+### Creating a change request from a gap
+
+When a gap can be fixed automatically, a banner states that the finding can be resolved in change requests, and offers two actions.
+
+Click **Create change request** to hand the gap to GitBook Agent. The Agent reads the finding and the pages it names, then drafts the change. One gap can produce more than one change request when the fix spans several pages.
+
+The screen reports progress while the Agent works, then lists what it produced with a link to review each one. From there they behave like any other [change request](../collaborate/change-requests/) — you see exactly what content changed, and your usual review and merge rules apply. See [review-change-requests-with-gitbook-agent.md](../gitbook-agent/review-change-requests-with-gitbook-agent.md "mention") for how the Agent can help review it.
+
+Merging the change request resolves the gap and removes it from the queue. Filter by **Resolved** to find it again.
+
+### Rejecting a gap
+
+Click **Reject** when a gap is not worth filling — the question is out of scope, the page already answers it, or the finding misread the evidence. Rejecting keeps the gap out of the open list, and GitBook won’t re-open it.
 
 ## Settings
 
@@ -101,8 +140,3 @@ The **Connections** section shows the sources you haven’t connected yet, such 
 
 Click **Manage connections** to open the Connections page, where you add a source, check sync status and record counts, set search ranking, and browse the individual records GitBook has ingested. See [connections.md](../ai-for-your-readers/connections.md "mention") for what each connector indexes and how to set one up.
 
-## Filling a gap with GitBook Agent
-
-When a gap supports an automatic fix, GitBook shows a **Create change request** action, and GitBook Agent drafts a proposed fix for your team to review. The change request opens like any other, so your usual review and merge rules apply. See [review-change-requests-with-gitbook-agent.md](../gitbook-agent/review-change-requests-with-gitbook-agent.md "mention") for how the Agent can help review it.
-
-To skip a suggestion, archive the gap instead.
