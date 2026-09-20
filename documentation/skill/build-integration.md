@@ -1,16 +1,19 @@
 ---
-hidden: true
 name: build-integration
 metadata:
-  version: "1.0"
-description: "Build, develop, and publish GitBook integrations — apps that run inside GitBook to add custom blocks, react to events, connect external services via OAuth, and extend the editor. Use this skill whenever a task involves the GitBook integrations platform: scaffolding an integration with the GitBook CLI (`gitbook new`), writing or editing an integration's code (`createIntegration`, `createComponent`, ContentKit TSX), configuring `gitbook-manifest.yaml` (scopes, blocks, configurations, secrets), building custom editor blocks or link unfurlers, handling GitBook events like `space_content_updated`, setting up an integration's OAuth flow, running `gitbook dev`, or publishing an integration (private/unlisted/public, marketplace submission). Trigger this even if the user just says they want to 'build an app for GitBook', 'add a custom block', or 'connect <some tool> to GitBook' without saying the word 'integration'."
+  version: '1.0'
+description: >-
+  Build, develop, and publish GitBook integrations — apps that run inside
+  GitBook to add custom blocks, react to events, connect external services via
+  OAuth, and extend the editor. Use this skill whenev
+hidden: true
 ---
 
-# Build a GitBook Integration
+# Build an Integration
 
 A skill for building integrations on GitBook's developer platform: apps that run inside GitBook itself. An integration can render custom blocks in the editor, show configuration UI, listen to events (content updated, Git sync completed, space viewed), authenticate against external services with OAuth, and talk to anything over HTTP.
 
-This skill covers the integration lifecycle — scaffold, code, develop, publish. For creating or restructuring the docs *site* an integration might be installed into, defer to `configure-site`; for authoring page content, defer to `write-docs`.
+This skill covers the integration lifecycle — scaffold, code, develop, publish. For creating or restructuring the docs _site_ an integration might be installed into, defer to `configure-site`; for authoring page content, defer to `write-docs`.
 
 ## What an integration is (mental model)
 
@@ -18,7 +21,7 @@ An integration is a small TypeScript app executed by GitBook's runtime — not a
 
 1. **Rendering happens on GitBook's backend.** Your component's `render` function runs server-side on every interaction and returns ContentKit markup (a JSX-like UI description). There is no client-side React tree you control, no DOM access, and UI updates flow through the action → new state → re-render loop.
 2. **You cannot inject JavaScript into a site.** The `site:script:inject` and `site:script:cookies` scopes you'll see in GitBook-owned integrations are internal-only. If the user's plan amounts to "add a script tag to their docs", stop and say so early — the supported paths are custom blocks, webframes, and events.
-3. **Local development is a proxy, not a server you visit.** `gitbook dev` routes the *installed* integration's traffic to your machine. You never open the dev server's port in a browser; you interact with the integration inside app.gitbook.com.
+3. **Local development is a proxy, not a server you visit.** `gitbook dev` routes the _installed_ integration's traffic to your machine. You never open the dev server's port in a browser; you interact with the integration inside app.gitbook.com.
 
 ## The project
 
@@ -66,7 +69,7 @@ export default createIntegration({
 });
 ```
 
-A custom block only appears in the editor's insert palette (⌘ + /) if it is declared in **both** places: `createComponent` in the code *and* a `blocks:` entry in the manifest whose `id` matches the `componentId`. Forgetting one half is the most common "my block doesn't show up" cause.
+A custom block only appears in the editor's insert palette (⌘ + /) if it is declared in **both** places: `createComponent` in the code _and_ a `blocks:` entry in the manifest whose `id` matches the `componentId`. Forgetting one half is the most common "my block doesn't show up" cause.
 
 ## The manifest, briefly
 
@@ -84,7 +87,7 @@ The loop has a non-obvious order — **publish comes before local development**:
 2. **Scaffold.** `gitbook new <dir>` — prompts for name, title, organization, and scopes.
 3. **Publish once.** `gitbook publish` in the project root. This registers the integration (private by default) and prints an install link.
 4. **Install it** into at least one space or site via that link. Local dev doesn't work until it's installed somewhere.
-5. **Develop.** `gitbook dev` starts the proxy: all traffic for the installed integration is served from your local code instead of the published version. Interact with it in the GitBook editor, not at the server URL. UI changes need a browser refresh; disable browser caching for a smoother loop. Logs surface in the *browser* console or your terminal depending on where the code runs — check both before concluding logging is broken.
+5. **Develop.** `gitbook dev` starts the proxy: all traffic for the installed integration is served from your local code instead of the published version. Interact with it in the GitBook editor, not at the server URL. UI changes need a browser refresh; disable browser caching for a smoother loop. Logs surface in the _browser_ console or your terminal depending on where the code runs — check both before concluding logging is broken.
 6. **Re-publish** with `gitbook publish` whenever you want the hosted version updated. `gitbook unpublish <name>` removes it.
 
 CLI command reference (including `gitbook whoami` and `gitbook openapi publish`): `references/manifest.md`.
@@ -93,11 +96,11 @@ CLI command reference (including `gitbook whoami` and `gitbook openapi publish`)
 
 Details and full tables live in `references/runtime.md` — read it when writing event handlers, OAuth flows, or anything touching `context.environment`. The essentials:
 
-- **`fetch`** handles incoming HTTP requests to the integration's public endpoint using standard Fetch API `Request`/`Response` objects. Outgoing HTTP is plain `fetch` too.
-- **`events`** maps event names (`installation_setup`, `space_installation_setup`, `space_view`, `ui_render`, `space_content_updated`, `space_visibility_updated`, `space_gitsync_started`, `space_gitsync_completed`) to handlers. Some events require matching scopes.
-- **`context.environment`** exposes `apiEndpoint`, `apiTokens`, installation info (space, status, per-installation `configuration` values entered by the installer), `secrets`, and public URLs (`environment.integration.urls.publicEndpoint`).
-- **OAuth** against an external provider is a fixed pattern: a `button`-type configuration property whose `callback_url` routes to a `createOAuthHandler({...})` in your fetch handler, with client id/secret coming from `secrets`. Don't hand-roll the redirect/token exchange.
-- **Calling the GitBook API from inside the integration**: use `context.api` (an authenticated `@gitbook/api` client) rather than constructing your own client from raw tokens.
+* **`fetch`** handles incoming HTTP requests to the integration's public endpoint using standard Fetch API `Request`/`Response` objects. Outgoing HTTP is plain `fetch` too.
+* **`events`** maps event names (`installation_setup`, `space_installation_setup`, `space_view`, `ui_render`, `space_content_updated`, `space_visibility_updated`, `space_gitsync_started`, `space_gitsync_completed`) to handlers. Some events require matching scopes.
+* **`context.environment`** exposes `apiEndpoint`, `apiTokens`, installation info (space, status, per-installation `configuration` values entered by the installer), `secrets`, and public URLs (`environment.integration.urls.publicEndpoint`).
+* **OAuth** against an external provider is a fixed pattern: a `button`-type configuration property whose `callback_url` routes to a `createOAuthHandler({...})` in your fetch handler, with client id/secret coming from `secrets`. Don't hand-roll the redirect/token exchange.
+* **Calling the GitBook API from inside the integration**: use `context.api` (an authenticated `@gitbook/api` client) rather than constructing your own client from raw tokens.
 
 ## ContentKit: building the UI
 
@@ -109,21 +112,21 @@ Read `references/contentkit.md` before writing any component beyond a trivial bu
 
 Visibility in the manifest controls reach:
 
-- `private` (default) — installable only by members of the owning org. Right for internal tools; stay here during development.
-- `unlisted` — installable by any org, but only via the shared install link. Right for sharing with specific customers or beta testers.
-- `public` — installable by anyone; required before submitting to the integration marketplace (which is a separate review process — see GitBook's "submit your app for review" docs).
+* `private` (default) — installable only by members of the owning org. Right for internal tools; stay here during development.
+* `unlisted` — installable by any org, but only via the shared install link. Right for sharing with specific customers or beta testers.
+* `public` — installable by anyone; required before submitting to the integration marketplace (which is a separate review process — see GitBook's "submit your app for review" docs).
 
 Re-run `gitbook publish` after changing visibility. Before suggesting `public`, sanity-check the manifest is presentable: `icon`, `summary` (Markdown, ≤2048 chars), `previewImages` (1600×800), `categories`, `externalLinks`.
 
 ## Working style
 
-- **Scaffold with the CLI rather than by hand** when starting fresh — `gitbook new` wires up the manifest, TypeScript config, and `@gitbook/runtime` versions correctly.
-- **Trace a block's id chain** (manifest `blocks[].id` ↔ `componentId`) whenever a component misbehaves.
-- **Keep secrets out of the manifest file itself** — always the `${{ env.X }}` indirection, never literal values.
-- **When the user's goal is content or site automation from *outside* GitBook** (scripts hitting the REST API, CI pipelines), an integration may be the wrong tool — the plain API with a personal token is simpler. Integrations earn their keep when code must run *inside* GitBook: blocks, config UI, event reactions, OAuth on behalf of installers.
+* **Scaffold with the CLI rather than by hand** when starting fresh — `gitbook new` wires up the manifest, TypeScript config, and `@gitbook/runtime` versions correctly.
+* **Trace a block's id chain** (manifest `blocks[].id` ↔ `componentId`) whenever a component misbehaves.
+* **Keep secrets out of the manifest file itself** — always the `${{ env.X }}` indirection, never literal values.
+* **When the user's goal is content or site automation from&#x20;**_**outside**_**&#x20;GitBook** (scripts hitting the REST API, CI pipelines), an integration may be the wrong tool — the plain API with a personal token is simpler. Integrations earn their keep when code must run _inside_ GitBook: blocks, config UI, event reactions, OAuth on behalf of installers.
 
 ## References
 
-- `references/manifest.md` — every `gitbook-manifest.yaml` field, all scopes, configuration property types, secrets, CLI command reference, installation/configuration flow.
-- `references/runtime.md` — `createIntegration` / `createComponent` / `createOAuthHandler` signatures, event catalog, `context.environment` shape, HTTP in and out.
-- `references/contentkit.md` — full component reference with props, built-in actions, and interactivity recipes (dynamic binding, webframes, modals, unfurling, markdown serialization).
+* `references/manifest.md` — every `gitbook-manifest.yaml` field, all scopes, configuration property types, secrets, CLI command reference, installation/configuration flow.
+* `references/runtime.md` — `createIntegration` / `createComponent` / `createOAuthHandler` signatures, event catalog, `context.environment` shape, HTTP in and out.
+* `references/contentkit.md` — full component reference with props, built-in actions, and interactivity recipes (dynamic binding, webframes, modals, unfurling, markdown serialization).

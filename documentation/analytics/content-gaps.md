@@ -8,19 +8,13 @@ tags:
 
 # Content gaps
 
-{% hint style="warning" %}
-**Content gaps is in beta.**
-
-We’re still rolling it out, and the screen may change.
-{% endhint %}
-
-Content gaps shows you what your documentation doesn’t answer.
-
-GitBook scans the questions visitors ask in your docs, along with the support tickets, emails, forums, and other records from the sources you’ve connected. Once a day it compares those questions against your content, identifies the ones your docs don’t answer, and ranks them by severity.
+Content gaps shows you what your documentation doesn’t answer. GitBook scans the questions visitors ask in your docs, along with the support tickets, emails, forums, and other records from the sources you’ve connected. Once a day it compares those questions against your content, identifies the ones your docs don’t answer, and ranks them by severity.
 
 From any gap, GitBook Agent can open a change request that fills it.
 
 In your site’s sidebar, go to **Improve → Content gaps**.
+
+<figure><img src="../.gitbook/assets/content-gaps.png" alt=""><figcaption></figcaption></figure>
 
 ## What GitBook detects
 
@@ -69,21 +63,19 @@ Fill a gap by creating a [change request](../collaborate/change-requests/) from 
 
 A site with a large back catalog can surface thousands of gaps at once. Filter the list to find the ones worth working on:
 
-| Filter | Options | Use it to |
-| --- | --- | --- |
-| Status | **Open**, **Changed**, **Rejected**, **Resolved** | Separate untouched gaps from those a change request already covers, the suggestions your team turned down, and the ones a merged change request closed. |
-| Severity | **High**, **Medium**, **Low** | Work the highest-impact gaps first. |
-| Date | **Last 7 days**, **Last 30 days** | See what a recent release or support spike surfaced. |
-| Topic | Any topic on your site | Focus on one area of your documentation. Topics are grouped the same way as in AI Insights. |
-| Type | Content gap, outdated content, incorrect content, other | Separate missing documentation from documentation that has gone wrong. |
-| Source | Any connected source | Check what a single source is reporting, such as gaps that only Intercom sees. |
-| GitBook Agent | Worked on, not worked on | Find gaps nobody has picked up yet. |
+| Filter        | Options                                                 | Use it to                                                                                                                                               |
+| ------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Status        | **Open**, **Changed**, **Rejected**, **Resolved**       | Separate untouched gaps from those a change request already covers, the suggestions your team turned down, and the ones a merged change request closed. |
+| Severity      | **High**, **Medium**, **Low**                           | Work the highest-impact gaps first.                                                                                                                     |
+| Date          | **Last 7 days**, **Last 30 days**                       | See what a recent release or support spike surfaced.                                                                                                    |
+| Topic         | Any topic on your site                                  | Focus on one area of your documentation. Topics are grouped the same way as in AI Insights.                                                             |
+| Type          | Content gap, outdated content, incorrect content, other | Separate missing documentation from documentation that has gone wrong.                                                                                  |
+| Source        | Any connected source                                    | Check what a single source is reporting, such as gaps that only Intercom sees.                                                                          |
+| GitBook Agent | Worked on, not worked on                                | Find gaps nobody has picked up yet.                                                                                                                     |
 
 Rejecting a gap records that your team considered the suggestion and decided against it, which keeps it out of the open list without hiding that the decision was made. Filter by **Resolved** to find the gaps a merged change request has already closed.
 
 ## Reviewing a gap
-
-Working through a gap takes six steps:
 
 1. On the Content gaps page, filter the list to the gaps you want to work on.
 2. Click a gap to open it.
@@ -91,6 +83,8 @@ Working through a gap takes six steps:
 4. Open the linked source records to check the evidence yourself.
 5. Click **Create change request**, or **Reject** if the gap isn’t worth filling.
 6. Review the change request GitBook Agent drafts, then merge it.
+
+<figure><img src="../.gitbook/assets/25_03_30_site_findings@2x (1).png" alt=""><figcaption></figcaption></figure>
 
 ### What a gap shows
 
@@ -139,4 +133,3 @@ Click **Show content gaps** on any source to filter the list to that source’s 
 The **Connections** section shows the sources you haven’t connected yet, such as Zendesk, Freshdesk, Front, HubSpot, Zoho Desk, Pylon, GitHub Issues, and an MCP server.
 
 Click **Manage connections** to open the Connections page, where you add a source, check sync status and record counts, set search ranking, and browse the individual records GitBook has ingested. See [connections.md](../ai-for-your-readers/connections.md "mention") for what each connector indexes and how to set one up.
-
