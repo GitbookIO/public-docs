@@ -170,6 +170,8 @@ A GitBook organization contains all of the content and docs sites for an individ
 
 Members are individual users within your organization. You can have as many members as you like in an organization, each with permissions suited to their specific access needs.
 
+Each member account belongs to one individual and must not be shared. Invite each collaborator and assign the appropriate role instead. For account-protection and sign-in recovery guidance, see [#account-protection-and-sign-in-recovery](../account-and-billing/account-settings.md#account-protection-and-sign-in-recovery "mention").
+
 #### Permissions
 
 Permissions let you decide on the access level of your organization’s members. When a member joins your organization, you assign them a role — such as Editor or Viewer. These roles define their permissions for all of your organization’s content. But you can also override these permissions at a content level. For example:
