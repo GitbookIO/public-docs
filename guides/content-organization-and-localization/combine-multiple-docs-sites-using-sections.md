@@ -14,6 +14,12 @@ Below, we’ll explain the best process for building your new, centralized docs 
 You’ll need to be on one of our [new pricing plans](https://www.gitbook.com/pricing) to use site sections. Please reach out to our support team if you’re interested in migrating.
 {% endhint %}
 
+{% hint style="info" %}
+Before you migrate, plan the work across your sites and organizations. Don't rapidly create multiple sites or organizations. Give each team member an individual GitBook account with the appropriate role. Don't share accounts.
+
+If you expect high-volume or multi-organization migration work, contact support before you start. If GitBook rejects a sign-up or blocks an account, follow the support and recovery guidance in [Personal settings](https://gitbook.com/docs/account-settings/personal-settings).
+{% endhint %}
+
 {% stepper %}
 {% step %}
 #### Create a new Ultimate docs site
