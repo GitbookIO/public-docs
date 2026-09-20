@@ -1,14 +1,14 @@
 ---
 description: Use GitBook Assistant and GitBook Agent in Slack, GitHub, and Linear
 tags:
-  - early-access
+  - beta
   - add-on
 ---
 
 # Channels
 
 {% hint style="warning" %}
-#### Channels are currently in early access
+#### Channels are in beta
 
 We’re slowly rolling out access to channels. Stay tuned for more progress on the features below.
 {% endhint %}
@@ -125,7 +125,7 @@ The response appears back in Slack, GitHub, or Linear, so the workflow stays in 
 {% endstepper %}
 
 {% hint style="info" %}
-Exact event coverage depends on the platform and your early access rollout. If a trigger is not available in your workspace yet, it has not been documented publicly.
+Exact event coverage depends on the platform and your beta rollout. If a trigger is not available in your workspace yet, it has not been documented publicly.
 {% endhint %}
 
 ### Install and authorization
@@ -231,5 +231,5 @@ Use reactions when you want to signal whether a response was helpful.
 That feedback helps GitBook understand which responses are working well in real workflows.
 
 {% hint style="info" %}
-The exact reaction mapping is not documented yet and can vary by platform during early access.
+The exact reaction mapping is not documented yet and can vary by platform during the beta.
 {% endhint %}
