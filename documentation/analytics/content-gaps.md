@@ -24,7 +24,7 @@ In your site’s sidebar, go to **Improve → Content gaps**.
 
 ## What GitBook detects
 
-GitBook flags three kinds of issue:
+GitBook flags four kinds of issue:
 
 * **Content gaps** occur when GitBook sees customers asking questions about your product that the docs struggle to answer, such as:
   * A customer asking a question to your support team that they couldn’t find on the docs.
@@ -35,6 +35,7 @@ GitBook flags three kinds of issue:
 * **Incorrect content** is flagged when the content on the docs site is explicitly wrong, such as:
   * A guide pointing to APIs that do not exist anymore, or where the feature has been sunsetted.
   * External sources such as your marketing website disagreeing with the documentation.
+* **Other** covers issues that don’t fit the categories above.
 
 ## How it works
 
@@ -64,15 +65,41 @@ Fill a gap by creating a [change request](../collaborate/change-requests/) from 
 {% endstep %}
 {% endstepper %}
 
-## Sources
+## Filtering the list
 
-The **Sources** list shows every connection that’s ingesting, what it has scanned, and how many gaps came from it — pages for a website, conversations for a support platform, and videos for a YouTube channel. Select **Show content gaps** on a source to filter the list to that source’s gaps.
+A site with a large back catalog can surface thousands of gaps at once. Filter the list to find the ones worth working on:
 
-Your docs are a source in their own right: **AI Assistant** contributes the questions visitors asked on your site, including the ones it couldn’t answer. See [ai-insights.md](ai-insights.md "mention") to review those questions in full.
+| Filter | Options | Use it to |
+| --- | --- | --- |
+| Status | **Open**, **Changed**, **Rejected** | Separate untouched gaps from those a change request already covers, and from AI suggestions your team turned down. |
+| Severity | **High**, **Medium**, **Low** | Work the highest-impact gaps first. |
+| Date | **Last 7 days**, **Last 30 days** | See what a recent release or support spike surfaced. |
+| Topic | Any topic on your site | Focus on one area of your documentation. Topics are grouped the same way as in AI Insights. |
+| Type | Content gap, outdated content, incorrect content, other | Separate missing documentation from documentation that has gone wrong. |
+| Source | Any connected source | Check what a single source is reporting, such as gaps that only Intercom sees. |
+| GitBook Agent | Worked on, not worked on | Find gaps nobody has picked up yet. |
+
+Rejecting a gap records that your team considered the suggestion and decided against it, which keeps it out of the open list without hiding that the decision was made.
+
+## Settings
+
+On the Content gaps page, click **Settings** to see which sources GitBook scans and what each one contributes.
+
+### Sources
+
+The **Sources** list shows every connection that’s ingesting, what it has scanned, and how many gaps came from it. Each source reports in its own units: pages for a website, videos for a YouTube channel, discussions for GitHub Discussions, and conversations for a support platform.
+
+Your docs are a source in their own right. **AI Assistant** reports both the unanswered questions visitors asked on your site and the gaps that came from them. See [ai-insights.md](ai-insights.md "mention") to review those questions in full.
 
 Each source appears under the label you gave the connection, so two website connections show up separately rather than merging into one entry.
 
-The **Connections** section shows the sources you haven’t connected yet. See [connections.md](../ai-for-your-readers/connections.md "mention") for what you can connect and how to set each one up.
+Click **Show content gaps** on any source to filter the list to that source’s gaps.
+
+### Connections
+
+The **Connections** section shows the sources you haven’t connected yet, such as Zendesk, Freshdesk, Front, HubSpot, Zoho Desk, Pylon, GitHub Issues, and an MCP server.
+
+Click **Manage connections** to open the Connections page, where you add a source, check sync status and record counts, set search ranking, and browse the individual records GitBook has ingested. See [connections.md](../ai-for-your-readers/connections.md "mention") for what each connector indexes and how to set one up.
 
 ## Filling a gap with GitBook Agent
 
