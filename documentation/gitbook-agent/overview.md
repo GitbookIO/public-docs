@@ -28,7 +28,7 @@ GitBook Agent can:
 #### Automatic documentation suggestions
 
 {% hint style="warning" %}
-**Content gaps is currently in beta.**
+**Content gaps is in beta.**
 
 Head to [content-gaps.md](../analytics/content-gaps.md "mention") to learn more.
 {% endhint %}
