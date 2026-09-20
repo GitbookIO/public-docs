@@ -28,9 +28,9 @@ GitBook Agent can:
 #### Automatic documentation suggestions
 
 {% hint style="warning" %}
-**Automatic docs suggestions are in early access**
+**Content gaps is currently in beta.**
 
-Head to [automatic-docs-improvements.md](automatic-docs-improvements.md "mention") to learn more.
+Head to [content-gaps.md](../analytics/content-gaps.md "mention") to learn more.
 {% endhint %}
 
 GitBook Agent can also connect to the signals your team uses to understand your product and your customers’ needs: support conversations, tickets, and threads from your connected tools.

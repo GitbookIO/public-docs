@@ -76,7 +76,6 @@
 * [Overview](gitbook-agent/overview.md)
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
-* [Automatic docs improvements](gitbook-agent/automatic-docs-improvements.md)
 * [Translations](gitbook-agent/translations.md)
 * [Channels](gitbook-agent/channels.md)
 * [Guides](gitbook-agent/guides.md)
@@ -183,6 +182,7 @@
 
 * [Site analytics](analytics/insights.md)
 * [AI insights](analytics/ai-insights.md)
+* [Content gaps](analytics/content-gaps.md)
 * [Guides](analytics/guides.md)
 
 ## Account and billing
