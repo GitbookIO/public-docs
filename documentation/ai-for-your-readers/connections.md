@@ -13,8 +13,6 @@ Connected content can appear in [AI Assistant](gitbook-ai-assistant.md), so visi
 
 In your site’s sidebar, go to **Settings → Connections**.
 
-<figure><img src="../.gitbook/assets/2026-07-13_connections@2x.png" alt="The Connections page showing connected sources with their sync status and record counts"><figcaption></figcaption></figure>
-
 ### Available connections
 
 You can connect support platforms, developer communities, and other content sources:
@@ -73,13 +71,13 @@ The Connections page has three parts: **Connect a source** to add a connector, *
 
 Every connected source has a row:
 
-| Column | What it shows |
-| --- | --- |
-| Source | The connector, and the account, channel, or URL it points at. |
-| Status | Whether the most recent sync finished. |
-| Records | How many items the source contributed, counted in that source’s own units — pages, videos, discussions, or conversations. |
-| Search | The connection’s search ranking boost. This is empty when **Expose in search / assistant** is off. |
-| Last synced | How long ago the connection last refreshed. |
+| Column      | What it shows                                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Source      | The connector, and the account, channel, or URL it points at.                                                             |
+| Status      | Whether the most recent sync finished.                                                                                    |
+| Records     | How many items the source contributed, counted in that source’s own units — pages, videos, discussions, or conversations. |
+| Search      | The connection’s search ranking boost. This is empty when **Expose in search / assistant** is off.                        |
+| Last synced | How long ago the connection last refreshed.                                                                               |
 
 #### Records
 
