@@ -31,6 +31,10 @@ When you create or edit a redirect, choose its HTTP status:
 
 Both status codes preserve the request method and body when redirecting.
 
+GitBook sends a 308 for permanent redirects only to unauthenticated views of live public content. Requests from the GitBook app, previews, and visitor-authenticated sessions receive a 307. This avoids unintended local caching.
+
+Search engines and anonymous visitors always receive a 308 for permanent redirects. This status supports SEO.
+
 Click **Enable redirect** to immediately enable the redirect.
 
 If you want to create the redirect without making it live yet, click **Save as draft** instead. Draft redirects appear in the **Draft** tab and can be enabled later.
