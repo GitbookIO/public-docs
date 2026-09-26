@@ -182,6 +182,19 @@ Reach for the change-request content-push path instead (MCP's `updateChangeReque
 
 For anything larger — a new page tree, a multi-page rewrite, a migration — prefer Git Sync, even if that means pausing to confirm the repo is cloned locally first. Don't default to the change-request tool just because it's the first one that worked.
 
+#### Locked Git Sync spaces
+
+When the space API shows `editMode: "locked"` and `gitSync` is configured/active, the GitBook UI treats Git as the source of truth for that space. Before editing, read those fields (`GET /spaces/{spaceId}` or equivalent) so you pick the right path.
+
+**Rules for locked + synced spaces:**
+
+- **Prefer git push** for content and structure when you have a checkout of the synced repo (same preference as above). Change requests still work for small targeted edits when a checkout is unavailable.
+- **Do not call** `POST /spaces/{spaceId}/git/import` or `…/git/export` when Git Sync is already configured — those endpoints return **400** (`Cannot use git API when space has a git sync configured`). The managed sync webhook handles import/export.
+- **After `git push`**, wait for the webhook import to finish. Poll space Git Sync status (e.g. `GET /spaces/{spaceId}/git/info` → `operation.state` / `direction`) rather than assuming the published site updated instantly. See `references/git-sync-previews.md` for branch-preview timing.
+- **Space variables** live in `/.gitbook/vars.yaml` (or the Library UI). They are **not** settable via change-request content ops (`updateChangeRequestContent` has no variables change). Push `vars.yaml` through Git Sync (or edit in the UI).
+- **Expressions:** published `.md` keeps `<code class="expression">…</code>` as source and does **not** inline resolved values. To verify variables/expressions rendered, check published **HTML**, the site preview, or the GitBook UI — not the `.md` export alone.
+- **Bidirectional sync:** merging a change request can export back to the GitHub/GitLab repo. Pull (or keep a clean working tree) before more local commits so Git Sync export does not clobber WIP.
+
 #### Two links are mandatory whenever a change request is involved
 
 If any part of this edit went through a change request (`create_change_request` / `updateChangeRequestContent`, or the REST equivalents), **the edit is not done until both of the following have been reported back, every single time — this is a hard rule, not a reminder to skim past:**
