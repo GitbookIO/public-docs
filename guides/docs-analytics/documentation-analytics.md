@@ -150,6 +150,8 @@ You've now got a range of metrics to track, from basic page views to more sophis
 
 To be clear, such a system doesn’t have to be complex. It could be as simple as a reminder in your calendar once a month to run some checks and then a set of written processes that help you take the right action depending on what you find.&#x20;
 
+If you want a more practical format for this process, head over to our guide on [how to audit documentation quality: a practical framework and checklist](https://www.gitbook.com/blog/audit-documentation-quality).
+
 #### Who are you measuring for?
 
 As we’ve seen, different metrics play different roles. But they’re also best consumed by different audiences.
