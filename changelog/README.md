@@ -27,12 +27,52 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-09-22" tags="new-releases,improvements,fixes" %}
+## Merge table cells
+
+<figure><img src=".gitbook/assets/merge-table-cells@2x.png" alt=""><figcaption></figcaption></figure>
+
+You can now merge adjacent text and number cells in tables, horizontally or vertically. Click-and-drag (or hold <kbd>Shift</kbd> and press an arrow key) to select cells, then merge from the cell menu.
+
+Merged cells will appear on your published site, and through Git Sync they export as native `colspan` and `rowspan` attributes. Learn more in [the table docs](https://gitbook.com/docs/create-content/blocks/table).
+
+### Improvements
+
+* We’ve improved prompt blocks by giving them a single button that sends the prompt straight to Claude, Codex, or Cursor, and remembers your choice — so readers can run a prompt in their tool of choice in one click.
+* You can now duplicate items from the site sidebar and from rows on the content screen — so you can reuse an existing site structure without rebuilding it every time.
+* Each reviewer’s outcome now appears as a badge on their avatar in the reviewers list and comments panel, so you can see where a review stands without opening it.
+* Formatting shortcuts, such as <kbd>Cmd</kbd> + <kbd>B</kbd>, can now be applied to a whole block selection, making it easier to format several blocks at once.
+* Enterprise audit logs now record site redirect and channel configuration changes — so you can trace who changed how readers are routed and how the agent is connected.
+* The GitBook MCP server and published-site MCP servers now publish a server card, making it easier for MCP clients to discover them and what they offer.
+* Article links in the analytics table are now clickable, so you can jump straight to the page you’re looking at.
+* Deleting a channel configuration now asks for confirmation with a clearer explanation of what will be removed — so you don’t disconnect a channel by accident.
+* Reordering pages in the table of contents within the app is now faster and smoother — so moving pages on large spaces no longer lags.
+* If you use Intercom for support on your docs site, the Intercom launcher now hides when the Assistant opens — so the two don’t overlap on your published site.
+
+### Fixes
+
+* Fixed an issue that meant moving a page broke its translated URLs. Redirects now apply to translated pages, and old translated URLs redirect instead of returning a 404.
+* Fixed an issue that meant redirects only matched their source path with the exact letter case.
+* Fixed an issue that meant adding a space to a site overwrote the space’s existing Git Sync configuration.
+* Fixed an issue that stopped the sidebar loading for members who can only access a site through one of its spaces.
+* Fixed an issue that stopped new users from automatically joining an organization by their email domain.
+* Fixed an issue that meant GitBook Agent conversations could get stuck retrying, or end a conversation without ever answering.
+* Fixed an issue that meant asking GitBook Agent to fix a finding could fail when the page contained an OpenAPI block without a method.
+* Fixed an issue that meant the HubSpot connector could hang on errors or hit rate limits while ingesting tickets.
+* Fixed an issue that meant a change request’s comment counts and state didn’t update straight away when a comment was posted, edited, deleted, or resolved.
+* Fixed an issue that meant image blocks could cause scroll jumps in the editor.
+* Fixed an issue that prevented links to legacy integration screens from opening.
+* Fixed an issue that made MCP analytics hard to find. The Agents report is now called Agents & MCP, and old MCP links open it.
+* Fixed an issue that meant updating change request content through the API could time out or fail when it included computed content.
+* Fixed an issue that meant member removals made during immediate billing plan changes were missing from audit logs.
+{% endupdate %}
+
 {% update date="2026-09-16" tags="new-releases,improvements,fixes" %}
 ## GitBook Agent: a persistent dock for everyone in your organization
 
 GitBook Agent now lives in a persistent dock, rather than a floating panel or the `~/agent` screen — so it keeps working as you move between pages.
 
-Anyone in your organization can now use the Agent with their own permissions. It reads what they can read, and edits and comments only where they can — and it tells you when it can't complete a task, rather than failing silently. You can anchor the dock beside your content so it stays in view, resize it, and set an edit scope to steer changes toward the page you're on or whatever changed during the conversation.
+Anyone in your organization can now use the Agent with their own permissions. It reads what they can read, and edits and comments only where they can — and it tells you when it can’t complete a task, rather than failing silently. You can anchor the dock beside your content so it stays in view, resize it, and set an edit scope to steer changes toward the page you’re on or whatever changed during the conversation.
 
 The Agent also brings every connection in a Slack, GitHub, or Linear channel together, so it can answer questions and open change requests in the same thread across all your connected sites.
 
@@ -263,12 +303,12 @@ AI agents browsing your site can submit agent feedback. Published-site MCP serve
 Both types of feedback appear on in your [site’s analytics](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/analytics/insights) under page feedback.
 
 {% hint style="info" %}
-This feature is rolling out slowly across GitBook organizations. If you don't see it yet, it isn't enabled for your organization.
+This feature is rolling out slowly across GitBook organizations. If you don’t see it yet, it isn’t enabled for your organization.
 {% endhint %}
 
 ## Ask questions through your site’s MCP server
 
-Published-site MCP servers (with AI enabled) now also include an `askQuestion` tool that AI agents can use to ask questions about your documentation and get grounded answers back. It complements the `?ask=` query parameter that markdown routes have supported for a while, and supports the same `goal` property — so agents can tell GitBook what they're ultimately trying to accomplish and get answers tailored to that goal.
+Published-site MCP servers (with AI enabled) now also include an `askQuestion` tool that AI agents can use to ask questions about your documentation and get grounded answers back. It complements the `?ask=` query parameter that markdown routes have supported for a while, and supports the same `goal` property — so agents can tell GitBook what they’re ultimately trying to accomplish and get answers tailored to that goal.
 
 ## Custom instructions for GitBook Assistant
 
@@ -598,7 +638,7 @@ Changes to reusable content now open in a dedicated modal inside the change requ
 * Fixed an issue that meant the text formatting toolbar didn’t appear correctly when editing inside annotation bodies and popovers.
 * Fixed an issue that meant using the formatting toolbar while editing inside a dialog (e.g. the table editor) would close the dialog.
 * Fixed an issue that meant Font Awesome icons were being clipped in the editor.
-* Fixed an issue that meant comment links in email notifications weren't working correctly.
+* Fixed an issue that meant comment links in email notifications weren’t working correctly.
 * Fixed an issue that meant identical changes across different change requests or revisions were flagged as merge conflicts.
 * Fixed an issue that meant pasting from Google Docs would fail to insert images correctly.
 {% endupdate %}
@@ -618,7 +658,7 @@ Free users can now try the Agent too, with a soft weekly limit that resets autom
 
 ## Filter update blocks by tag on your published site
 
-If you’re using update blocks with tags to build a changelog, your site visitors can now filter updates by tag. This makes it easy for readers to find the type of update they're looking for — whether that’s new releases, improvements, or fixes.
+If you’re using update blocks with tags to build a changelog, your site visitors can now filter updates by tag. This makes it easy for readers to find the type of update they’re looking for — whether that’s new releases, improvements, or fixes.
 
 ### Improvements
 
@@ -633,7 +673,7 @@ If you’re using update blocks with tags to build a changelog, your site visito
 * Fixed a layout shift where page content would jump horizontally when the outline panel appeared or disappeared.
 * Fixed an issue where requesting an Agent review on a change request wouldn’t notify all assigned users.
 * Fixed the translate selection menu in the Agent palette.
-* Fixed an issue where clicking links and mentions inside a change request description didn't work.
+* Fixed an issue where clicking links and mentions inside a change request description didn’t work.
 {% endupdate %}
 
 {% update date="2026-05-19" tags="new-releases,improvements,fixes" %}
@@ -734,8 +774,8 @@ Most importantly, we’ve improved the readability and accessibility of all the 
 
 ### Improvements
 
-* Comment popovers will now appear in better positions when there's little room available on the screen, and will resize to fit the available space before repositioning. And if it doesn’t have enough space to the side, the popover will reposition below the comment button to obscure less of your page content.
-* Comments now also show a draft indicator when you've started a comment but haven't submitted it.
+* Comment popovers will now appear in better positions when there’s little room available on the screen, and will resize to fit the available space before repositioning. And if it doesn’t have enough space to the side, the popover will reposition below the comment button to obscure less of your page content.
+* Comments now also show a draft indicator when you’ve started a comment but haven’t submitted it.
 * We’ve improved the way that site analytics detects site visits from Claude, Claude Code and Gemini, to make it easier for you to see if any of these AI agents have visited your site to ingest its content.
 * We’ve tweaked the way that site logos appear at the top of your docs site to add some padding and make it look better on the page. If you previously added padding to the image file manually before uploading it, you might want to update your logo with an SVG file, which will automatically scale to the perfect height.
 
@@ -755,7 +795,7 @@ You can now connect Slack, GitHub and Linear as channels to your GitBook site. O
 
 {% embed url="https://youtu.be/sbDvxsQB5ls?" %}
 
-When you connect a channel to your GitBook site for support, anyone can tag **@gitbook** and ask a question. GitBook Assistant will answer based on information from your docs (and any [connections](./#connections-give-the-assistant-a-full-picture) you've set up).
+When you connect a channel to your GitBook site for support, anyone can tag **@gitbook** and ask a question. GitBook Assistant will answer based on information from your docs (and any [connections](./#connections-give-the-assistant-a-full-picture) you’ve set up).
 
 This way, channels help you ground your conversations in the truth of your docs, and answer questions before they become tickets.
 
