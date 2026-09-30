@@ -8,11 +8,11 @@ The **Agents & MCP** report covers everything reading your site that isn’t a p
 
 To open it, go to **Analyze → Agents & MCP** in your site’s sidebar.
 
-At the top, you’ll see the pages agents read, their share of everything read on your site, and the number of MCP calls. Below that, **Who reads this site** splits reads between people and agents, so you can watch that balance shift over time. See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
+At the top, you’ll see the pages agents read, their share of everything read on your site, and the number of MCP calls. The **Who reads this site** chart splits reads between people and agents, so you can watch that balance shift over time. See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
 
 <figure><img src="../.gitbook/assets/26_09_11_analytics_agents.png" alt="The Agents & MCP report showing agent page reads, share of site reads, MCP calls, and reads over time"><figcaption><p>The Agents & MCP report.</p></figcaption></figure>
 
-### Surfaces
+## Surfaces
 
 Agents reach your content through several surfaces, and the report counts each one:
 
@@ -21,11 +21,11 @@ Agents reach your content through several surfaces, and the report counts each o
 * **MCP**: reads through your site’s MCP server.
 * **Site page views** and **RSS**: agents reading your site the way a browser would.
 
-### MCP activity
+## MCP activity
 
 Three cards cover what tools did with your docs: the **MCP tools** they called, the **MCP search queries** they ran, and the **pages they read through MCP**. Together they show which parts of your documentation your product’s AI integrations depend on.
 
-### Which agents, and what they read
+## Which agents, and what they read
 
 **Agents** ranks the clients reading your site. Pick a surface to see who reads through it. Clients that don’t identify themselves are grouped as **Unidentified**.
 

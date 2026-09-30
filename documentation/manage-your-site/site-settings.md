@@ -138,7 +138,7 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
-You can review the results of these ratings by opening [**Analyze → Traffic**](../analytics/traffic.md) in your site's sidebar, then selecting **Page feedback**.
+You can review the results of these ratings by opening [**Analyze → Traffic**](../analytics/traffic.md) in your site’s sidebar, then selecting **Page feedback**.
 
 </details>
 

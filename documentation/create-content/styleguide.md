@@ -182,8 +182,9 @@ To check existing content rather than a change, run a **style guide check** from
 
 1. Open your style guide and click **Run check**.
 2. Pick the spaces to check. You can check up to three spaces at a time.
-3. GitBook Agent opens one change request per space and works through its pages. A check that fixed something marks its change request ready for review; a check that found nothing archives it, so you’re never left with an empty draft.
-4. Review and merge the change request like any other.
+3. Review and merge the change request GitBook Agent opens for each space.
+
+GitBook Agent opens one change request per space and works through its pages. A check that fixed something marks its change request ready for review. A check that found nothing archives its change request, so you’re never left with an empty draft.
 
 The **Checks** tab on your style guide lists your site’s spaces in the site’s own structure, with the state of each space’s check: the change request’s status, a spinner while the check is running, when it last ran, and a **Style guide edited since** badge when you’ve changed the guide after the check. Click a row to open its change request.
 

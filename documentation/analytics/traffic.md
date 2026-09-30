@@ -14,7 +14,7 @@ At the top, you’ll find page views, visitors, sessions, and searches for the p
 
 <figure><img src="../.gitbook/assets/26_09_11_analytics_traffic.png" alt="The Traffic report showing page views, visitors, sessions, searches, and reader activity over time"><figcaption><p>The Traffic report.</p></figcaption></figure>
 
-### Pages & feedback
+## Pages and feedback
 
 **Top pages** ranks the pages your readers open, so you can see what your site is used for.
 
@@ -25,9 +25,9 @@ Next to it, **Page feedback** shows how readers rate your content once you’ve 
 We only display data for published sites with page ratings enabled. If your site is not published or does not have page ratings enabled, you won’t see any feedback data.
 {% endhint %}
 
-#### Filter and group feedback data
+### Filter and group feedback data
 
-Use filters to focus on a subset of ratings and comments, and groups to compare that data across a dimension. You can filter or group feedback by:
+Use filters to focus on a subset of ratings and comments, and groups to compare that data across a dimension. You can filter or group feedback by these dimensions:
 
 * Content: section, variant, and page.
 * Visitor dimensions: country, language, device, browser, referrer, and authenticated visitor status.
@@ -55,11 +55,11 @@ Feedback filters help you turn ratings and comments into focused updates. For ex
 
 To use or analyze this data outside of GitBook, open the card’s menu and click **Download CSV**. The export has one row per rating, with the comment, a link to the page, and the time the rating was left.
 
-### Search
+## Search
 
 The **Search** card shows what readers typed into your site’s search. Use it to find out what people expect to exist, and which searches your content doesn’t answer yet. That is a good signal for what to write next, or for content that exists but is hard to find.
 
-### Where your readers come from
+## Where your readers come from
 
 The rest of the report breaks your audience down:
 
@@ -67,6 +67,6 @@ The rest of the report breaks your audience down:
 * **Traffic sources**: the domains and URLs sending you visitors.
 * **Campaigns**: traffic broken down by `utm_source`, `utm_medium`, `utm_campaign`, `utm_term`, or `utm_content`.
 * **Active hours**: when your site is busiest, as a heatmap across the week.
-* **Bots**: page views from crawlers, kept out of the reader figures above.
+* **Bots**: page views from crawlers, kept out of the reader figures in this report.
 
 Sites using [adaptive content](../publish/adaptive-content/enabling-adaptive-content/) also get a **Visitor attributes** card, showing traffic by the claims you pass, for example a customer, plan, or role.

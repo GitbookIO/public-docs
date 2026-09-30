@@ -9,7 +9,7 @@ tags:
 # Content gaps
 
 {% hint style="info" %}
-Content gaps is in **beta** and available on the **Ultimate** site plan.
+Content gaps is in beta and available on the Ultimate site plan.
 {% endhint %}
 
 Content gaps shows you what your documentation doesn’t answer. GitBook scans the questions visitors ask in your docs, along with the support tickets, emails, forums, and other records from the sources you’ve connected. Once a day it compares those questions against your content, identifies the ones your docs don’t answer, and ranks them by severity.
@@ -125,14 +125,14 @@ Merging the change request resolves the gap and removes it from the queue. Filte
 Click **Reject** when a gap is not worth filling — the question is out of scope, the page already answers it, or the finding misread the evidence. Rejecting keeps the gap out of the open list, and GitBook won’t re-open it.
 
 {% hint style="info" %}
-Changing a gap’s status, including rejecting it, requires edit permissions on the site. Actions you can’t use appear disabled, with an explanation.
+Changing a gap’s status, including rejecting it, needs edit permissions on the site. Actions you can’t use appear disabled, with an explanation.
 {% endhint %}
 
 ## Work with gaps from your own agent
 
-Everything on the Content gaps page is also available through the [GitBook API](https://gitbook.com/docs/developers/gitbook-api/api-reference) and the [GitBook MCP server](../docs-as-code/gitbook-mcp.md), so your own agent or script can work through gaps outside the GitBook app. You can:
+Everything on the Content gaps page is also available through the [GitBook API](https://gitbook.com/docs/developers/gitbook-api/api-reference) and the [GitBook MCP server](../docs-as-code/gitbook-mcp.md), so your own agent or script can work through gaps outside the GitBook app. Your agent or script can do the following:
 
-* List a site’s gaps, and read the evidence behind each one: the source records, the Ask AI questions, and the pages it affects.
+* List a site’s gaps, and read the evidence behind each one: the source records, the AI Assistant questions, and the pages it affects.
 * Resolve, reject, or reopen a gap.
 * Ask GitBook Agent to fix a gap by generating a change request, as **Create change request(s)** does in the app.
 * Link a change request you wrote yourself to the gap it fixes, by setting its `siteFindingId`. When every change request linked to the gap is merged, the gap is resolved.
