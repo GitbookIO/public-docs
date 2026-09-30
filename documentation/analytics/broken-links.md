@@ -98,13 +98,13 @@ Findings are also resolved automatically when the next audit finds that the brok
 
 ### Analyzing broken URLs
 
-The **Analyze** view shows every URL that returned a 404 in the selected period, whether or not GitBook has a suggestion for it. Use it to find broken URLs that need a new page rather than a redirect, or to see where broken traffic comes from.
+The **Analyze** view shows every URL that returned a 404 in the selected period, whether or not GitBook has a suggestion for it. These can be mistyped URLs, outdated links with no redirect, or spam links. Use it to find broken URLs that need a new page rather than a redirect, or to see where broken traffic comes from.
 
 The report includes:
 
 * **Broken URL hits**, **Affected visitors**, and **Distinct URLs** for the selected period, with a trend over time.
 * **Top broken URLs**, ranked by hits.
-* **Broken URLs by dimension**, which lets you group broken traffic by **Referrer domain**, **Broken URL**, **Full referrer**, **Country**, or **Device**. Grouping by referrer domain is the quickest way to find an external site that links to an outdated URL.
+* **Broken URLs by dimension**, which lets you group broken traffic by **Referrer domain**, **Broken URL**, **Full referrer**, **Country**, or **Device**. Grouping by referrer domain is the quickest way to find an external site that links to an outdated URL, and to tell a genuine outdated link apart from crawler noise.
 * **404s caused by adaptive content**, if your site uses adaptive content. These are visitors who reached a page that exists but that a condition kept them from seeing. They are excluded from the findings, since a redirect would not help.
 
 You can filter the report using the same filters as the rest of your [site analytics](insights.md), including section, language, country, device, and referrer.

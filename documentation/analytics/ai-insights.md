@@ -19,6 +19,8 @@ Four metrics summarize the period you selected:
 
 See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
 
+<figure><img src="../.gitbook/assets/26_09_11_analytics_ai-assistant.png" alt="The AI Assistant report showing questions asked, answered rate, helpfulness, savings, and question activity over time"><figcaption><p>The AI Assistant report.</p></figcaption></figure>
+
 ### Topics
 
 GitBook groups questions into **topics**, so you can read what your visitors want at the level of a subject rather than one question at a time. Each topic shows how it performs over time and how much of your traffic it represents.

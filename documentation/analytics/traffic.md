@@ -12,6 +12,8 @@ To open it, go to **Analyze → Traffic** in your site’s sidebar.
 
 At the top, you’ll find page views, visitors, sessions, and searches for the period you selected, each compared to the period before, followed by a chart of readers over time. See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
 
+<figure><img src="../.gitbook/assets/26_09_11_analytics_traffic.png" alt="The Traffic report showing page views, visitors, sessions, searches, and reader activity over time"><figcaption><p>The Traffic report.</p></figcaption></figure>
+
 ### Pages & feedback
 
 **Top pages** ranks the pages your readers open, so you can see what your site is used for.

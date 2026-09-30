@@ -10,6 +10,8 @@ To open it, go to **Analyze → Agents & MCP** in your site’s sidebar.
 
 At the top, you’ll see the pages agents read, their share of everything read on your site, and the number of MCP calls. Below that, **Who reads this site** splits reads between people and agents, so you can watch that balance shift over time. See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
 
+<figure><img src="../.gitbook/assets/26_09_11_analytics_agents.png" alt="The Agents & MCP report showing agent page reads, share of site reads, MCP calls, and reads over time"><figcaption><p>The Agents & MCP report.</p></figcaption></figure>
+
 ### Surfaces
 
 Agents reach your content through several surfaces, and the report counts each one:
