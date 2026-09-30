@@ -27,10 +27,63 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-09-30" tags="new-releases,improvements,fixes" %}
+## GitBook Agent can split big tasks across parallel agents
+
+<figure><img src=".gitbook/assets/background-agents@2x.png" alt="A screenshot showing background agents working within a GitBook Agent conversation"><figcaption></figcaption></figure>
+
+[GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) can now split a large task across several background agents. They work in parallel, and the Agent combines their findings and results into one conversation. That means broad questions and multi-page edits can finish faster, with specialized background agents picking up tasks.
+
+Conversations are also cleaner. Tool calls, thoughts, and background agents align on one grid. You can open any background agent’s conversation with one click. The Agent also reads pages in parallel, making workflows faster and more efficient.
+
+### Pick channels, repositories, and teams during channel setup
+
+<figure><img src=".gitbook/assets/channels-setup.png" alt="A screenshot showing the new channels setup screen in the GitBook app"><figcaption></figcaption></figure>
+
+When setting up a new [channel](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/channels) with your Slack workspace, GitHub account, or Linear workspace, you’ll now set up the tool first. You can then select the Slack channels, repositories, or Linear teams GitBook should handle from a list — so you no longer need to look up specific names or IDs by hand.
+
+Plus, channel configurations now show their scopes and roles at a glance and highlight any that still need setup. Change requests that the Agent opens from a Linear issue also stay in sync with that issue, with its details shown in the change request overview.
+
+### Improvements
+
+* Enterprise audit logs now record agent instruction, custom font, OpenAPI specification, and translation changes, and clearly mark actions GitBook Support takes on your behalf — so you have a fuller trail of what changed and who changed it.
+* Published sites now serve Markdown to ChatGPT Search’s crawler, so ChatGPT Search can index your docs in a more LLM-friendly language.
+* You can now export AI Assistant answers as a CSV, with one row per answer, from the Questions table, giving you more data to analyze answers alongside questions.
+* You can now set your organization’s support cost through the API — so the AI Assistant report can more realistically estimate the support savings your docs deliver.
+* Each part of a paginated llms-full.txt now says at the top which part it is and links to the previous and next parts, so AI tools that would otherwise only extract a single page know to fetch the rest.
+* The column resize handle is now visible and easier to grab, so resizing columns takes less precision.
+* When a site visitor selects a tab or selection option on a published page, other tables and card grids with the same options automatically switch to match their selection. So if a site visitor selects macOS as their platform in a tab block, all other tab blocks will automatically switch to the macOS tab to make browsing easier.
+
+### Fixes
+
+* Fixed an issue that meant tables and other nested content sometimes appeared as blank gaps when reviewing a change request.
+* Fixed an issue that meant the version history side panel flashed its loading state and lost your place when you closed it or switched revisions.
+* Fixed an issue that meant GitBook Agent didn’t reply to Linear messages when the connection was limited to specific teams.
+* Fixed an issue that caused a double scroll in GitBook Agent conversations, where long answers scrolled inside their own box and short ones left a blank gap.
+* Fixed an issue that meant search and the Assistant linked to the .md version of pages from connected websites rather than the rendered docs page.
+* Fixed an issue that meant deleted page content didn't show correctly in the change request overview.
+* Fixed an issue that made the resolve action on comments hard to find, and showed review comment groups below their diff block.
+* Fixed navigation issues after creating a space’s first change request, creating or removing a site item, or when a Git Sync import fails during a merge.
+* Fixed an issue that meant clicks between cards selected the whole cards block. Hovering a block’s edge now shows its selection border, and clicking outside deselects it.
+* Fixed issues in the link palette. Editing an existing link now shows the right results, pages are found by their link title, and pages no longer appear twice.
+* Clarified the page options menu to make it clear that hidden pages are still indexed by search, search engines, and LLMs unless indexing is turned off.
+* Fixed an issue that meant sites published or unpublished during immediate billing changes weren't recorded in audit logs.
+{% endupdate %}
+
 {% update date="2026-09-22" tags="new-releases,improvements,fixes" %}
+## Style guide checks
+
+<figure><img src=".gitbook/assets/style-guide-checks.png" alt="A screenshot showing the new Style Guide checks screen in the GitBook app"><figcaption></figcaption></figure>
+
+We’ve added an option to run a style guide check for your site content. You can start up to three style check change requests directly from the [style guide](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/styleguide) itself — GitBook Agent opens one change request per space with the fixes it found. You can keep an eye on the open checks waiting for review in the new **Checks** tab, which shows when the last check ran and whether the style guide has changed since.
+
+This is great for running regular site audits to make sure recent updates meet your style guide, or for running a site-wide check when you update your style guide with new rules.
+
+Learn more in [the style guide docs](https://gitbook.com/docs/create-content/styleguide).
+
 ## Merge table cells
 
-<figure><img src=".gitbook/assets/merge-table-cells@2x.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/merge-table-cells@2x.png" alt="A screenshot showing how you can merge table cells in the GitBook app"><figcaption></figcaption></figure>
 
 You can now merge adjacent text and number cells in tables, horizontally or vertically. Click-and-drag (or hold <kbd>Shift</kbd> and press an arrow key) to select cells, then merge from the cell menu.
 
