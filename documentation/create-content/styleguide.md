@@ -56,7 +56,7 @@ In the starter template, the `SG-` prefix is yours to change — but keep it sta
 
 You can start style guide setup from two places:
 
-* In your site's sidebar, under **Tools**, click **Styleguide**, then click **Set up**.
+* In your site’s sidebar, under **Improve**, click **Style guide**, then click **Set up**.
 * Open **Settings → Styleguide** and set it up from there.
 
 Then choose a starting point (detailed below):

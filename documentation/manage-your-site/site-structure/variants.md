@@ -24,7 +24,7 @@ Adding multiple variants with languages set will move the language picker to the
 
 ### Adding a variant to your docs site
 
-Open the structure editor from **Site structure**, under **General** in the site sidebar. Here you can see all the content of your site.
+Open the structure editor from **Site structure** in the site sidebar. Here you can see all the content of your site.
 
 To add a variant, click the **Add variant** button in the section you'd like to add to, then choose the content to add. The new variant is then added to the list of variants within the chosen section and will be available to visitors in the variant dropdown on your site.
 
@@ -58,7 +58,7 @@ Setting a variant as default removes its slug field, as it will be served from t
 
 ### Remove a variant from a site
 
-To remove a variant from a site, open the structure editor from **Site structure**, under **General** in the site sidebar, and find the content you want to remove.
+To remove a variant from a site, open the structure editor from **Site structure** in the site sidebar and find the content you want to remove.
 
 Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the variant you want to remove and choose **Remove**.
 

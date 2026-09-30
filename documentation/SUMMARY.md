@@ -64,7 +64,6 @@
     * [Using OpenAPI proxy](create-content/openapi/guides/using-openapi-proxy.md)
     * [Describing enums](create-content/openapi/guides/describing-enums.md)
     * [Integrating with CI/CD](create-content/openapi/guides/support-for-ci-cd-with-api-blocks.md)
-* [Style guide](create-content/styleguide.md)
 * [Version control](create-content/version-control.md)
 * [Searching internal content](create-content/searching-your-content/README.md)
   * [Search & Quick find](create-content/searching-your-content/quick-find.md)
@@ -178,15 +177,19 @@
 * [Connections](ai-for-your-readers/connections.md)
 * [MCP servers for published docs](ai-for-your-readers/mcp-servers-for-published-docs.md)
 
-## Analytics
+## Analyze <a href="#analytics" id="analytics"></a>
 
 * [Site analytics](analytics/insights.md)
-  * [Traffic](analytics/traffic.md)
-  * [Agents & MCP](analytics/agents-and-mcp.md)
-  * [AI Assistant](analytics/ai-insights.md)
-* [Broken links](analytics/broken-links.md)
-* [Content gaps](analytics/content-gaps.md)
+* [Traffic](analytics/traffic.md)
+* [Agents & MCP](analytics/agents-and-mcp.md)
+* [AI Assistant](analytics/ai-insights.md)
 * [Guides](analytics/guides.md)
+
+## Improve
+
+* [Style guide](create-content/styleguide.md)
+* [Content gaps](analytics/content-gaps.md)
+* [Broken links](analytics/broken-links.md)
 
 ## Account and billing
 

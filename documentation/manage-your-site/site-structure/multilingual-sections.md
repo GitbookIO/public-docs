@@ -22,7 +22,7 @@ Localized titles only appear when your site includes content in more than one la
 {% step %}
 #### Open the structure editor
 
-From your docs site, open **Site structure**, under **General** in the site sidebar.
+From your docs site, open **Site structure** in the site sidebar.
 {% endstep %}
 
 {% step %}

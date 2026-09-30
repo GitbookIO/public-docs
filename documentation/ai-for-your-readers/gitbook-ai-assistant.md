@@ -20,7 +20,7 @@ Try asking the Assistant a question in the box below:
 
 ## Configure AI Assistant <a href="#how-do-i-use-gitbook-ai" id="how-do-i-use-gitbook-ai"></a>
 
-To configure AI Assistant, open **Customize**, under **Tools** in the site sidebar, and click **AI Assistant**. Here you can enable the Assistant and customize its instructions, welcome message, and suggested questions.
+To configure AI Assistant, open **Customize** in the site sidebar and click **AI Assistant**. Here you can enable the Assistant and customize its instructions, welcome message, and suggested questions.
 
 ### Add custom instructions
 

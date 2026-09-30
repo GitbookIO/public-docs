@@ -40,7 +40,7 @@ Redirects can be created as either **Live** or **Draft**. Draft redirects allow 
 
 ## Managing redirects on your site
 
-To get started, open your site’s **Settings**, under **General** in the site sidebar, then click **Redirects**.
+To get started, open your site’s **Settings** in the site sidebar, then click **Redirects**.
 
 ### Creating redirects
 

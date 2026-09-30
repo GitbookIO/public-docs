@@ -90,7 +90,7 @@
 
 ### S
 
-**section:** An area where you can organize related content. It may contain a single page or multiple pages, sub-pages and page groups. Sections belong to a docs site and appear in a tab bar at the top of your published docs, allowing users to switch between content. You can manage a site’s [sections](../manage-your-site/site-structure/site-sections.md) from **Site structure**, under **General** in the site sidebar.
+**section:** An area where you can organize related content. It may contain a single page or multiple pages, sub-pages and page groups. Sections belong to a docs site and appear in a tab bar at the top of your published docs, allowing users to switch between content. You can manage a site’s [sections](../manage-your-site/site-structure/site-sections.md) from **Site structure** in the site sidebar.
 
 **section header:** The menu bar below the section overview when you view a section. It contains the section title and icon, as well as buttons to view comments, broken links and change requests, as well as the **Edit** button.
 
