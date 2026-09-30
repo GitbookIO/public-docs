@@ -121,7 +121,7 @@ The section header includes:
 * **Variables**\
   Create reusable [variables](../create-content/variables-and-expressions.md) for the section.
 * **GitBook Agent**\
-  Collaborate on section changes with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
+  Collaborate on section changes with [GitBook Agent](../gitbook-agent/overview.md).
 * **Comments**\
   View [comments and discussions](../collaborate/comments.md) about section content.
 * **Change requests**\
@@ -153,7 +153,7 @@ Under **Tools**:
 * **Customize**\
   [Customize your site](../manage-your-site/customization/) with **Theme**, **Layout**, **AI Assistant**, and **Configure** options.
 * **Analyze**\
-  **AI Insights** and **Analytics** provide [detailed analytics](../analytics/insights.md) about your site and its performance.
+  **Analyze** gives you [detailed analytics](../analytics/insights.md) about your site and its performance, and **Improve** gathers the checks GitBook runs on your published docs, such as [Broken links](../analytics/broken-links.md) and [Content gaps](../analytics/content-gaps.md).
 * **Extend**\
   **Connections**, **Channels**, **Docs Embed**, **MCP access**, and [**Integrations**](../manage-your-site/install-an-integration.md).
 
@@ -163,7 +163,7 @@ Under **Tools**:
 
 The editor is the main part of your section. Write and insert content, then collaborate with your team in real time.
 
-Insert [content blocks](../create-content/blocks/), write [Markdown](../create-content/formatting/markdown.md), [embed content](../create-content/blocks/embed-a-url.md), and collaborate with [GitBook Agent](/broken/pages/KHHFlE1MtpVIaZboN8b2).
+Insert [content blocks](../create-content/blocks/), write [Markdown](../create-content/formatting/markdown.md), [embed content](../create-content/blocks/embed-a-url.md), and collaborate with [GitBook Agent](../gitbook-agent/overview.md).
 
 You can also comment on blocks and tag teammates.
 

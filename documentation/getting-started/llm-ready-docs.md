@@ -66,4 +66,4 @@ If you publish in multiple languages, keep each translation aligned with its sou
 
 ### Measuring AI traffic
 
-Use [Site analytics](../analytics/insights.md) to track traffic from LLMs and MCP clients.
+Use the [Agents & MCP](../analytics/agents-and-mcp.md) report in site analytics to track traffic from LLMs and MCP clients.

@@ -1,74 +1,83 @@
 ---
 description: >-
-  See what your users are actually asking GitBook Assistant — and identify
-  knowledge gaps where your docs fall short
+  See what your visitors ask GitBook Assistant, how well your content answers
+  them, and where your docs fall short
 ---
 
-# AI insights
+# AI Assistant
 
-AI insights shows what your visitors are asking and how effectively [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) responds using your content.
+The **AI Assistant** report shows what your visitors ask and how effectively [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
 
-To open AI insights, click on **Insights** from your site’s overview.
+To open it, go to **Analyze → AI Assistant** in your site’s sidebar.
 
-#### AI insights dashboard
+Four metrics summarize the period you selected:
 
-The AI insights dashboard gives you a snapshot of your site through four key metrics:
+* **Questions asked**: the questions visitors put to the Assistant.
+* **Answered**: the share of questions the Assistant resolved.
+* **Helpful**: how visitors rated the answers they got.
+* **Savings**: the estimated support effort avoided by answering those questions.
 
-* **Savings:** Estimated effort saved through questions answered by GitBook Assistant
-* **Questions:** The unique questions asked by visitors
-* **Answered:** The percentage of questions successfully addressed
-* **Topics:** Your content insights sorted by shared themes
+See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
 
-Click any topic to open the topic detail view.
+<figure><img src="../.gitbook/assets/26_09_11_analytics_ai-assistant.png" alt="The AI Assistant report showing questions asked, answered rate, helpfulness, savings, and question activity over time"><figcaption><p>The AI Assistant report.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/25_03_30_site_insights@2x.png" alt=""><figcaption><p>AI insights screen.</p></figcaption></figure>
+## Topics
 
-### Topics
+GitBook groups questions into **topics**, so you can read what your visitors want at the level of a subject rather than one question at a time. Each topic shows how it performs over time and how much of your traffic it represents.
 
-The **Topics** view shows how individual topics perform over time and lists the questions related to each one.
+Click a topic to open its detail view and see every question in it, grouped by **Type** or **Recency**. Use this to review recurring needs, spot documentation gaps, and understand whether your site answers questions in that area successfully.
 
-<figure><img src="../.gitbook/assets/25_03_30_site_insights_topic@2x.png" alt=""><figcaption><p>Topic detail view in AI insights.</p></figcaption></figure>
+## Breakdowns
 
-#### Questions in this topic
+Three cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), and **Channels** (where the Assistant was used: your site, the [Docs Embed](../publish/embedding/), or a connected tool). Click any value to filter the whole report by it.
 
-GitBook groups questions in a topic by **Type** or **Recency**. Use this to review recurring needs, spot documentation gaps, and understand whether your site is answering questions in that area successfully.
+## Questions
 
-Click any question to open the question detail view.
+The **Questions** card lists every question put to the Assistant. Click one to see how GitBook handled it and which content supported the response.
 
-### Questions
+At the top of the detail view, you can review the question itself, how often visitors asked it, its type, and the topics it belongs to.
 
-The **Questions** view shows how GitBook Assistant handled an individual visitor question and which content supported the response.
-
-When you click a question, the detail view opens. At the top of the screen, you can review the question itself, how often visitors asked it, its type, and the topics it belongs to.
-
-<figure><img src="../.gitbook/assets/25_03_30_site_insights_question@2x.png" alt=""><figcaption><p>Question detail view in AI insights.</p></figcaption></figure>
-
-#### Conversations and answer quality
+### Conversations and answer quality
 
 Below the summary, you can review the conversations tied to the question and see whether GitBook answered it fully, partially, or not at all. The conversation panel also shows the full Assistant exchange, including any follow-up questions and responses.
 
-#### Sources and context
+### Sources and context
 
-The sources section shows which pages, records, or [connected content](../ai-for-your-readers/connections.md) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren't surfaced.
+The sources section shows which pages, records, or [connected content](../ai-for-your-readers/connections.md) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren’t surfaced.
 
-### FAQ
+### Export questions and answers
+
+From the Questions card, click **Export as CSV** and choose what to download:
+
+* **Questions summary**: one row per question, with its totals.
+* **Answers detail**: one row per answer, with its topics, resolution, helpfulness, relevance, thumb feedback, channel, and language. Use it to see what the Assistant replied and whether the answer landed.
+
+## FAQ
 
 <details>
 
-<summary><strong>How do I use AI insights?</strong></summary>
+<summary><strong>How do I use the AI Assistant report?</strong></summary>
 
-AI insights gives your team an overview of how visitors interact with your documentation when searching for answers.
+It gives your team an overview of how visitors interact with your documentation when searching for answers.
 
-Filtering AI insights helps you identify content gaps. You can filter for:
+Filtering the report helps you identify content gaps. You can filter for the following:
 
 * The questions visitors ask most often
-* Questions visitors search for that don't have answers
-* Topics your documentation doesn't cover
+* Questions visitors search for that don’t have answers
+* Topics your documentation doesn’t cover
 
 Addressing these gaps helps visitors find answers more quickly — and understand your product faster.
 
 {% hint style="info" %}
 [content-gaps.md](content-gaps.md "mention") collects these gaps into a ranked list, and GitBook Agent can open a change request to fill one.
 {% endhint %}
+
+</details>
+
+<details>
+
+<summary><strong>How is “Savings” calculated?</strong></summary>
+
+It’s an estimate, based on the assumption that one in five answered questions would otherwise have become a support ticket. An organization admin can set the cost of a support ticket, or a support hour, through the API to make the estimate reflect your team. Treat it as an order of magnitude rather than an exact figure.
 
 </details>

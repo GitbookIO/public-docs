@@ -4,140 +4,67 @@ description: View analytics related to your published documentation’s traffic 
 
 # Site analytics
 
-Site analytics gives you information on the content you’ve published and how it performs. It’s split into different sections — **Traffic**, **Pages & feedback**, **Agent and LLMs**, **Search**, **Ask AI**, **Links**, **MCP**, and **OpenAPI**.
+Site analytics gives you information on the content you’ve published and how it performs. It’s split into reports, each focused on one audience:
 
-You can see a top-level overview of your analytics on your site’s **Overview** screen, under **General** in the site sidebar, with a globe that shows views in the last hour by location.
+* [traffic.md](traffic.md "mention"): the people reading your site, the pages they land on, what they search for, and the feedback they leave.
+* [agents-and-mcp.md](agents-and-mcp.md "mention"): the LLMs, coding agents, and crawlers reading your site through Markdown, `llms.txt`, and your site’s MCP server.
+* [ai-insights.md](ai-insights.md "mention"): what your visitors ask GitBook Assistant, and how well your content answers them.
 
-Click **Analytics** in the site header to open site analytics for your site.
+To open a report, go to **Analyze** in your site’s sidebar. You can also see a top-level overview of your analytics on your site’s **Overview** screen, with a globe that shows views in the last hour by location.
+
+Incoming links that land on a “Page not found” are reported in [broken-links.md](broken-links.md "mention"), under **Improve** in the site sidebar, alongside the redirects GitBook suggests for them.
 
 {% hint style="info" %}
 If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../manage-your-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/26_03_30_analytics@2x (1).png" alt="A GitBook screenshot showing the site analytics dashboard"><figcaption><p>The site analytics dashboard.</p></figcaption></figure>
+## Filters
 
-### Filters & groups
+Every report has a filter bar at the top. Add a filter to narrow a report down to the data you care about: a single site section, variant, or page, or an audience defined by country, language, device, browser, referrer, campaign, or authenticated visitor status. Filters apply to every card in the report at once.
 
-You can add filters or group your data to view it in specific ways. For example, you could look at search data within a specific site section, or filter your traffic data by country, device, browser and more.
+Sites using [adaptive content](../publish/adaptive-content/enabling-adaptive-content/) can also filter by visitor claims, such as a customer, plan, role, or feature access, so you can look at how one segment reads your docs.
 
-By combining filters and groups, you can drill down in to precise analytics data to track the events that you are important to you.
+## Time periods and comparisons
 
-### View by custom time periods
+Use the time filter in any report to switch between the last 24 hours, 7 days, 30 days, or 3 months. Click **Custom range** to pick your own period in the calendar. Reports include today’s data as it arrives.
 
-You can use the time filter <picture><source srcset="../.gitbook/assets/25_09_15_calendar.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_09_15_calendar_1.svg" alt=""></picture> on the right of the **Analytics** screen to change the time period between the last 24 hours, 7 days, 30 days or 3 months.
+Each figure at the top of a report compares itself to the period before, so you can see what’s moving without setting anything up. To compare a whole report, open the comparison picker next to the time filter and choose **Previous period** or **Same period last year**. With a comparison on, the report changes in three ways:
 
-To view the data over a custom time period, click **Custom range** to choose your custom time period in the calendar.
+* Figures show the change and the earlier value they moved from.
+* Charts draw the earlier period underneath each series.
+* Breakdown rows show a trend arrow, with the change and the earlier figure in its tooltip.
 
-### Types of data
+**Same period last year** shifts the window back 12 months and stops where the current window starts, so a range longer than a year never counts an event twice. The comparison is stored in the report’s URL along with your other filters, so you can share a compared view.
 
-Site Analytics is split into seven sections, each focused on a specific data type.
+## Export data
 
-#### Traffic
-
-GitBook tracks page views to help you understand the popularity and reach of your content. Each time a user visits a page on your docs site, it is counted as a page view.
-
-Page views are critical for assessing the effectiveness of your content strategy and optimizing your documentation based on user interest. It’s split up between different views and profiles, including countries, languages, browsers, and more.
+To analyze data outside of GitBook, open the menu on a card and click **Download CSV**. To build your own reports from the underlying events, see the [Events Aggregation API guide](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/docs-analytics/track-advanced-analytics-with-gitbooks-events-aggregation-api).
 
 {% hint style="success" %}
-Throughout Site Analytics, you will see Events and Visitor metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique users performing the actions.
+Throughout site analytics, you see **Events** and **Visitors** metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique visitors performing the actions.
 
-In the context of page views, Events would be total amount of page views, and Visitors would be the count of distinct users performing a page view.
+In the context of page views, Events would be the total amount of page views, and Visitors would be the count of distinct visitors performing a page view.
 {% endhint %}
 
-#### Pages & Feedback
+## Ads & sponsorship
 
-Pages & feedback allow you to see a high-level representation of how your users rate your content. You’ll see an overview of all of your site’s sections and variants, and after enabling [page rating](../manage-your-site/site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu for a site, you can see each page’s average feedback rating.
+Sites on the [sponsored site plan](../account-and-billing/plans/community/sponsored-site-plan.md) get an extra **Ads & sponsorship** report, showing impressions, clicks, click-through rate, and revenue, along with the advertisers and pages behind them.
 
-**Filter and group feedback data**
-
-Use filters to focus on a subset of ratings and comments. Use groups to compare that data across a dimension. The available dimensions depend on the report you select.
-
-You can filter or group Pages & feedback data by:
-
-* Content: section, variant, and page.
-* Visitor dimensions: country, language, device, browser, referrer, and authenticated visitor status.
-* Visitor claims configured for adaptive content, such as a customer, plan, role, or feature access.
-
-Content filters identify where feedback comes from. Visitor dimensions add the same audience context available elsewhere in site analytics. For example, filter a page’s ratings by country, or group its feedback by device or authenticated visitor status.
-
-**Filter by visitor claims**
-
-The **Authenticated visitor** filter shows whether GitBook identified the visitor when they left feedback:
-
-* **Authenticated**: The visitor signed in or arrived with signed visitor claims.
-* **Anonymous**: The visitor arrived without signed identification. Claims passed through URL parameters or a public visitor cookie are unsigned.
-* **Unknown**: GitBook recorded the event before tracking visitor authentication began in August 2026.
-
-The **Authenticated** and **Anonymous** values are meaningful from August 2026 onward. For more detail, see the [authenticated visitor FAQ](insights.md#what-does-authenticated-visitor-mean).
-
-{% hint style="info" %}
-To isolate feedback from a customer or segment, filter by a claim that you pass through adaptive content. For example, filter by a customer, plan, role, or feature-access claim. This shows feedback only from visitors whose events include that claim value.
-
-Claim filters only use claims configured for your site. They do not infer customer identity from page content, sections, or variants. See [enabling adaptive content](../publish/adaptive-content/enabling-adaptive-content/) to configure visitor claims.
-{% endhint %}
-
-**What you can learn**
-
-Pages & feedback filters help you turn ratings and comments into focused updates. For example, you can:
-
-* Identify pages or sections with lower ratings, then review their comments.
-* Compare feedback from authenticated and anonymous visitors to find audience-specific gaps.
-* Check ratings for pages that vary by customer claim, then improve the content for that segment.
-
-If you want to use or analyze this data further outside of GitBook, click **Download CSV** to download a `.csv` file to your device.
-
-You can also see a list of comments left from visitors who rate your pages, to get actionable insights on how your docs can be improved.
-
-{% hint style="info" %}
-**Why can’t I see any feedback data for my site?**\
-We only display data for published sites with page ratings enabled. If your site is not published or does not have page ratings enabled, you won’t see any analytics data.
-{% endhint %}
-
-#### Agent & LLMs
-
-Track traffic from LLMs, coding agents, and bots.
-
-This view shows requests to `llms.txt`, `llms-full.txt`, and Markdown pages. You can also review which agents access your content most often.
-
-#### Broken URLs
-
-Broken URLs shows any incoming links from external sources that are resulting in a ‘Page not found’ error. These may be mistyped URLs, outdated links with no redirects, or spam links.
-
-If a broken link points to a topic that exists somewhere else in your documentation, or you simply want to direct the traffic to your primary docs, you can set up [site redirects](../publish/site-redirects.md) to point those visitors in the right direction.
-
-#### Search
-
-You can measure and improve your documentation by checking which keywords are used the most by users searching your documentation. This view allows you to see what keywords are performing the best, and which ones you could improve on.
-
-The information here can be helpful for informing your content architecture, making certain parts of your documentation easier to find without search, or adding additional content to existing pages based on what your visitors are searching for.
-
-#### Ask AI
-
-The [Ask AI](../create-content/searching-your-content/gitbook-ai.md) section allows you to see what your users are asking for when using GitBook AI. This insight helps you identify common questions, uncover gaps in your documentation, and improve content to better meet user needs.
-
-You can also see how users are rating the answers that AI gives to their questions. By looking at these queries and their ratings, you can refine your documentation structure, enhance discoverability, and identify areas that would benefit from more documented information.
-
-#### Links
-
-GitBook tracks links to help you understand how users interact with external resources in your documentation. This feature provides insights into external links, their domains, and their placement within your docs, such as in the header, footer, or sidebar. Analyzing link usage can help you optimize navigation, improve content accessibility, and refine your documentation strategy based on user engagement.
-
-#### OpenAPI
-
-The [OpenAPI](../create-content/openapi/) analytics view in GitBook provides insights into how users engage with your API documentation.
-
-It tracks interactions such as endpoint views, parameter searches, and request explorations, helping you understand which parts of your API are most accessed and where users may need more clarity. These insights enable you to refine your documentation, improve developer experience, and ensure your API content is effectively meeting user needs.
-
-#### MCP
-
-See how your site content is being accessed through [MCP](../ai-for-your-readers/mcp-servers-for-published-docs.md) integrations. You can view MCP requests over time and see which bots and agents are accessing your site content.
-
-### FAQ
+## FAQ
 
 <details>
 
 <summary>Who can view site analytics?</summary>
 
-Anyone with access to the site can view its analytics — including readers, reviewers, and editors. Creators and admins can also access the site's settings and customization.
+Anyone with access to the site can view its analytics — including readers, reviewers, and editors. Creators and admins can also access the site’s settings and customization.
+
+</details>
+
+<details>
+
+<summary>Where did Search, Pages &#x26; feedback, MCP, Ask AI, and Broken URLs go?</summary>
+
+They’re still here, grouped with the audience they belong to. Search and page feedback are part of [traffic.md](traffic.md "mention"), MCP activity is part of [agents-and-mcp.md](agents-and-mcp.md "mention"), and Ask AI questions are part of [ai-insights.md](ai-insights.md "mention"). The Broken URLs report is part of [broken-links.md](broken-links.md "mention"), under **Improve**, next to the redirects GitBook suggests for those URLs.
 
 </details>
 
@@ -145,39 +72,39 @@ Anyone with access to the site can view its analytics — including readers, rev
 
 <summary>Why is my analytics data not loading?</summary>
 
-If the analytics dashboard isn't loading, it's usually because an ad blocker or privacy extension is blocking the analytics scripts. Temporarily disable the extension and reload the page, or add GitBook and the services it uses to the extension's allowlist.
+If the analytics dashboard isn’t loading, it’s usually because an ad blocker or privacy extension is blocking the analytics scripts. Temporarily disable the extension and reload the page, or add GitBook and the services it uses to the extension’s allowlist.
 
 </details>
 
 <details>
 
-<summary>What does "Page not found" mean?</summary>
+<summary>What does “Page not found” mean?</summary>
 
-"Page not found" means visitors tried to open a page on your site that doesn't exist. The table only counts visits to your default Page not found page. To see which URLs are broken, open **Broken URLs** in site analytics — from there you can see how many visitors each broken link had and [create redirects](../publish/site-redirects.md) if needed.
-
-</details>
-
-<details>
-
-<summary>What does "Not set" mean in referrer data?</summary>
-
-"Not set" referrers indicate direct traffic — visitors typed your URL directly, used a bookmark, or clicked links from emails and apps that don't pass referrer data.
+“Page not found” means visitors tried to open a page on your site that doesn’t exist. To see which URLs are broken, open [broken-links.md](broken-links.md "mention"). From there you can see how many visitors each broken link had and [create redirects](../publish/site-redirects.md) if needed.
 
 </details>
 
 <details>
 
-<summary>What does "Authenticated visitor" mean?</summary>
+<summary>What does “Not set” mean in referrer data?</summary>
 
-The "Authenticated visitor" filter shows whether GitBook could identify a visitor when the event happened.
-
-Visitors count as "Authenticated" when they signed in through visitor authentication or arrived with signed visitor claims, such as on sites using adaptive content. Personalization attributes passed through URL parameters or the public visitor cookie are unsigned, so those visitors count as "Anonymous".
+“Not set” referrers indicate direct traffic — visitors typed your URL directly, used a bookmark, or clicked links from emails and apps that don’t pass referrer data.
 
 </details>
 
 <details>
 
-<summary>What does "Unknown" mean for authenticated visitors?</summary>
+<summary>What does “Authenticated visitor” mean?</summary>
+
+The “Authenticated visitor” filter shows whether GitBook could identify a visitor when the event happened.
+
+Visitors count as “Authenticated” when they signed in through visitor authentication or arrived with signed visitor claims, such as on sites using adaptive content. Personalization attributes passed through URL parameters or the public visitor cookie are unsigned, so those visitors count as “Anonymous”.
+
+</details>
+
+<details>
+
+<summary>What does “Unknown” mean for authenticated visitors?</summary>
 
 “Unknown” means GitBook recorded the event before tracking visitor authentication began in August 2026.
 
