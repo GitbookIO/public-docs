@@ -8,6 +8,10 @@ tags:
 
 # Content gaps
 
+{% hint style="info" %}
+Content gaps is in **beta** and available on the **Ultimate** site plan.
+{% endhint %}
+
 Content gaps shows you what your documentation doesn’t answer. GitBook scans the questions visitors ask in your docs, along with the support tickets, emails, forums, and other records from the sources you’ve connected. Once a day it compares those questions against your content, identifies the ones your docs don’t answer, and ranks them by severity.
 
 From any gap, GitBook Agent can open a change request that fills it.
