@@ -2,15 +2,13 @@
 
 * [GitBook documentation](README.md)
 
-## Get Started <a href="#getting-started" id="getting-started"></a>
-
+## Get started <a href="#getting-started" id="getting-started"></a>
 * [Quickstart](getting-started/quickstart.md)
 * [LLM-ready docs](getting-started/llm-ready-docs.md)
 * [Migrate to GitBook](getting-started/import.md)
 * [Site workspace](getting-started/sites-first.md)
 
-## Create content
-
+## Create content <a href="#create-content" id="create-content"></a>
 * [Content structure](create-content/content-structure/README.md)
   * [Sections](create-content/content-structure/space.md)
   * [Groups](create-content/content-structure/collection.md)
@@ -64,14 +62,14 @@
     * [Using OpenAPI proxy](create-content/openapi/guides/using-openapi-proxy.md)
     * [Describing enums](create-content/openapi/guides/describing-enums.md)
     * [Integrating with CI/CD](create-content/openapi/guides/support-for-ci-cd-with-api-blocks.md)
+* [Style guide](create-content/styleguide.md)
 * [Version control](create-content/version-control.md)
 * [Searching internal content](create-content/searching-your-content/README.md)
   * [Search & Quick find](create-content/searching-your-content/quick-find.md)
   * [GitBook AI](create-content/searching-your-content/gitbook-ai.md)
 * [Guides](create-content/guides.md)
 
-## GitBook Agent
-
+## GitBook Agent <a href="#gitbook-agent" id="gitbook-agent"></a>
 * [Overview](gitbook-agent/overview.md)
 * [Writing with GitBook Agent](gitbook-agent/write-and-edit-with-ai.md)
 * [Review change requests with GitBook Agent](gitbook-agent/review-change-requests-with-gitbook-agent.md)
@@ -79,8 +77,7 @@
 * [Channels](gitbook-agent/channels.md)
 * [Guides](gitbook-agent/guides.md)
 
-## Docs as code
-
+## Work from your tools <a href="#docs-as-code" id="docs-as-code"></a>
 * [GitHub & GitLab Sync](docs-as-code/git-sync/README.md)
   * [Enabling GitHub Sync](docs-as-code/git-sync/enabling-github-sync.md)
   * [Enabling GitLab Sync](docs-as-code/git-sync/enabling-gitlab-sync.md)
@@ -94,8 +91,7 @@
 * [Agent skills](docs-as-code/ai-coding-assistants-and-skillmd.md "Agent skills")
 * [Guides](docs-as-code/guides.md)
 
-## Collaborate
-
+## Collaborate and review <a href="#collaborate" id="collaborate"></a>
 * [Change requests](collaborate/change-requests/README.md)
   * [Change requests screen](collaborate/change-requests/change-requests-screen.md)
   * [Change requests in a section](collaborate/change-requests/change-requests-in-a-space.md)
@@ -111,8 +107,7 @@
 * [Inviting your team](collaborate/share.md)
 * [Guides](collaborate/guides.md)
 
-## Manage your site
-
+## Set up your site <a href="#manage-your-site" id="manage-your-site"></a>
 * [Site settings](manage-your-site/site-settings.md)
 * [Site structure](manage-your-site/site-structure/README.md)
   * [Sections](manage-your-site/site-structure/site-sections.md)
@@ -128,8 +123,7 @@
 * [Site permissions](manage-your-site/site-permissions.md)
 * [Guides](manage-your-site/guides.md)
 
-## Publish
-
+## Publish and control access <a href="#publish" id="publish"></a>
 * [Site audience](publish/site-audience/README.md)
   * [Private publishing with share links](publish/site-audience/share-links.md)
   * [Authenticated access](publish/site-audience/authenticated-access/README.md)
@@ -171,28 +165,21 @@
   * [Public publishing](publish/publish-a-docs-site/public-publishing.md)
 * [Guides](publish/guides.md)
 
-## AI for your readers
-
+## Serve readers and agents <a href="#ai-for-your-readers" id="ai-for-your-readers"></a>
 * [AI Assistant](ai-for-your-readers/gitbook-ai-assistant.md)
 * [Connections](ai-for-your-readers/connections.md)
 * [MCP servers for published docs](ai-for-your-readers/mcp-servers-for-published-docs.md)
 
-## Analyze <a href="#analytics" id="analytics"></a>
-
+## Measure and improve <a href="#analytics" id="analytics"></a>
 * [Site analytics](analytics/insights.md)
 * [Traffic](analytics/traffic.md)
 * [Agents & MCP](analytics/agents-and-mcp.md)
 * [AI Assistant](analytics/ai-insights.md)
+* [Broken links](analytics/broken-links.md)
+* [Content gaps](analytics/content-gaps.md)
 * [Guides](analytics/guides.md)
 
-## Improve
-
-* [Style guide](create-content/styleguide.md)
-* [Content gaps](analytics/content-gaps.md)
-* [Broken links](analytics/broken-links.md)
-
-## Account and billing
-
+## Account and billing <a href="#account-and-billing" id="account-and-billing"></a>
 * [Plans](account-and-billing/plans/README.md)
   * [Community plan](account-and-billing/plans/community/README.md)
     * [Sponsored site plan](account-and-billing/plans/community/sponsored-site-plan.md)
@@ -208,15 +195,13 @@
   * [Payments and invoices](account-and-billing/billing-faq/payments-and-invoices.md)
   * [Site and member costs](account-and-billing/billing-faq/plan-and-member-costs.md)
 
-## Reference
-
+## Reference <a href="#reference" id="reference"></a>
 * [Keyboard shortcuts](reference/keyboard-shortcuts.md)
 * [Glossary](reference/glossary.md)
 * [Core concepts](reference/concepts.md)
 * [GitBook UI](reference/gitbook-ui.md)
 
-## Help
-
+## Help <a href="#help" id="help"></a>
 * [Troubleshooting](help/troubleshooting.md)
 * [Report a bug](help/report-a-bug.md)
 * [Contact support](help/contact-support.md)
