@@ -54,7 +54,7 @@ Once done, you'll receive a notification and can click **Finish**. You can also 
 
 ### Change or update your custom domain
 
-To change the custom domain for a site, open the site's **Settings**, under **General** in the site sidebar, and click **Domain and URL**. You can remove the current domain and add a new one, or edit the existing configuration.
+To change the custom domain for a site, open the site's **Settings** in the site sidebar and click **Domain and URL**. You can remove the current domain and add a new one, or edit the existing configuration.
 
 Remember to update the DNS settings with your domain provider to point to the new GitBook configuration — the process is the same as the initial setup, with a CNAME record pointing to the value GitBook provides.
 

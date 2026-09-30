@@ -6,7 +6,7 @@ description: Export a PDF copy of your GitBook content
 
 ### Allow readers to export a PDF version of your published content
 
-To enable or disable PDF export for visitors to your [published docs site](publish-a-docs-site/), open **Customize**, under **Tools** in the site sidebar, and navigate to **Configure → Page actions**. From there, you can toggle **Export as PDF** on or off.
+To enable or disable PDF export for visitors to your [published docs site](publish-a-docs-site/), open **Customize** in the site sidebar and navigate to **Configure → Page actions**. From there, you can toggle **Export as PDF** on or off.
 
 This setting determines whether or not **readers of your published content can download it in PDF format**. This feature is only available for **Premium and Ultimate sites**.
 

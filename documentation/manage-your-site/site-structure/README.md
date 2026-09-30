@@ -18,7 +18,7 @@ Content in your site can serve as one of two different content types, which dete
 
 By managing the structure of your site, you can also manage your site’s top navigation bar. This navigation bar lets visitors open sections, groups, and external links.
 
-Open the structure editor from **Site structure**, under **General** in the site sidebar. Here you can see your site's sections, variants, and external links.
+Open the structure editor from **Site structure** in the site sidebar. Here you can see your site's sections, variants, and external links.
 
 Your site starts out with a single section with your site's name and a single variant with the content you created during your site's set-up.
 
@@ -82,7 +82,7 @@ Setting content as default removes its slug field, as it will be served from the
 
 ### Remove content from a site
 
-To remove a section or variant from a site, open the structure editor from **Site structure**, under **General** in the site sidebar, and find the content you want to remove.
+To remove a section or variant from a site, open the structure editor from **Site structure** in the site sidebar and find the content you want to remove.
 
 Open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the content you want to remove and choose **Remove**.
 

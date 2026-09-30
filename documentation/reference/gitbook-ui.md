@@ -38,10 +38,12 @@ Opening a site replaces the sidebar with that site's content and tools: the same
 
 * **Site header**\
   Your site's name and publish status, along with **Preview** and **Publish** buttons.
-* **General**\
-  **Overview**, **Change requests**, **Site structure**, and **Settings**.
-* **Tools**\
-  **Styleguide**, **Customize**, **Analyze**, and **Extend**. Each opens in the main view.
+* **Site tools**\
+  **Overview**, **Change requests**, **Site structure**, **Customize**, **Extend**, and **Settings**, plus **Git Sync** and **Triage** where they apply. Each opens in the main view.
+* **Analyze**\
+  [**Traffic**](../analytics/traffic.md), [**Agents & MCP**](../analytics/agents-and-mcp.md), and [**AI Assistant**](../analytics/ai-insights.md) reports.
+* **Improve**\
+  [**Style guide**](../create-content/styleguide.md), [**Content gaps**](../analytics/content-gaps.md), and [**Broken links**](../analytics/broken-links.md).
 *   **Content**\
     Your site's [sections](../manage-your-site/site-structure/site-sections.md) and groups, in published order. Click a section to edit it.
 
@@ -133,9 +135,7 @@ The section header includes:
 
 ### Site tools <a href="#site-headers" id="site-headers"></a>
 
-Site tools open from the site sidebar in the main view. The site header keeps **Preview** and **Publish**.
-
-Under **General**:
+Site tools open from the top of the site sidebar in the main view. The site header keeps **Preview** and **Publish**.
 
 * **Overview**\
   Essential site information, including its URL, publish status, audience, content, and top-level insights. Once your site is live, **Overview** links to it.
@@ -145,17 +145,21 @@ Under **General**:
   Use the [structure editor](../manage-your-site/site-structure/) to add, reorder, publish, and remove sections and groups.
 * **Settings**\
   [Site settings](../manage-your-site/site-settings.md) include **General**, **Members**, **Agents**, **Audience**, **Domain and URL**, **Redirects**, and **Plan**.
-
-Under **Tools**:
-
-* **Styleguide**\
-  Your site’s [style guide](../manage-your-site/site-structure/) defines writing rules and conventions. GitBook Agent follows it when writing, editing, or reviewing content.
 * **Customize**\
   [Customize your site](../manage-your-site/customization/) with **Theme**, **Layout**, **AI Assistant**, and **Configure** options.
-* **Analyze**\
-  **Analyze** gives you [detailed analytics](../analytics/insights.md) about your site and its performance, and **Improve** gathers the checks GitBook runs on your published docs, such as [Broken links](../analytics/broken-links.md) and [Content gaps](../analytics/content-gaps.md).
 * **Extend**\
   **Connections**, **Channels**, **Docs Embed**, **MCP access**, and [**Integrations**](../manage-your-site/install-an-integration.md).
+
+Under **Analyze**, the [site analytics](../analytics/insights.md) reports show how people and agents read your site: **Traffic**, **Agents & MCP**, and **AI Assistant**.
+
+Under **Improve**, GitBook checks your published docs and helps you fix what it finds:
+
+* **Style guide**\
+  Your site’s [style guide](../create-content/styleguide.md) defines writing rules and conventions. GitBook Agent follows it when writing, editing, or reviewing content.
+* **Content gaps**\
+  [Content gaps](../analytics/content-gaps.md) lists the questions your docs don’t answer.
+* **Broken links**\
+  [Broken links](../analytics/broken-links.md) finds URLs that return a 404 and suggests redirects.
 
 ### Content editor
 
