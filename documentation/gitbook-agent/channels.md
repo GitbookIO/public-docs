@@ -7,10 +7,8 @@ tags:
 
 # Channels
 
-{% hint style="warning" %}
-#### Channels are in beta
-
-We’re slowly rolling out access to channels. Stay tuned for more progress on the features below.
+{% hint style="info" %}
+Channels are in beta.
 {% endhint %}
 
 Channels bring [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) and [GitBook Agent](overview.md) into the tools your team already uses. Once connected, your team can mention `@GitBook` in Slack, GitHub, or Linear to ask questions, open change requests, and keep your docs up to date — without leaving their existing workflow.
@@ -37,11 +35,9 @@ Head to [embedding](../publish/embedding/ "mention") to learn how to embed GitBo
 
 ### Available channels
 
-<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slack</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Linear</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>GitHub</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slack</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Linear</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>GitHub</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Jira</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr></tbody></table>
 
-### Coming soon
-
-<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Discord</strong></td><td><span data-option="exlMMXLVjkth">Planned</span></td><td></td><td></td></tr><tr><td><strong>Intercom</strong></td><td><span data-option="exlMMXLVjkth">Planned</span></td><td></td><td></td></tr><tr><td><strong>Microsoft Teams</strong></td><td><span data-option="exlMMXLVjkth">Planned</span></td><td></td><td></td></tr><tr><td><strong>Google Chat</strong></td><td><span data-option="exlMMXLVjkth">Planned</span></td><td></td><td></td></tr><tr><td><strong>Request a channel</strong></td><td></td><td><i class="fa-arrow-up-right-from-square">:arrow-up-right-from-square:</i></td><td><a href="https://github.com/orgs/GitbookIO/discussions/new?category=feature-requests">https://github.com/orgs/GitbookIO/discussions/new?category=feature-requests</a></td></tr></tbody></table>
+To ask for another channel, [open a feature request](https://github.com/orgs/GitbookIO/discussions/new?category=feature-requests).
 
 ### Overview
 
@@ -125,7 +121,7 @@ The response appears back in Slack, GitHub, or Linear, so the workflow stays in 
 {% endstepper %}
 
 {% hint style="info" %}
-Exact event coverage depends on the platform and your beta rollout. If a trigger is not available in your workspace yet, it has not been documented publicly.
+Supported events vary by platform.
 {% endhint %}
 
 ### Install and authorization
@@ -231,5 +227,5 @@ Use reactions when you want to signal whether a response was helpful.
 That feedback helps GitBook understand which responses are working well in real workflows.
 
 {% hint style="info" %}
-The exact reaction mapping is not documented yet and can vary by platform during the beta.
+Available reactions vary by platform.
 {% endhint %}
