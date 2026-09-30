@@ -153,7 +153,7 @@ Under **Tools**:
 * **Customize**\
   [Customize your site](../manage-your-site/customization/) with **Theme**, **Layout**, **AI Assistant**, and **Configure** options.
 * **Analyze**\
-  **AI Insights** and **Analytics** provide [detailed analytics](../analytics/insights.md) about your site and its performance.
+  **Analyze** provides [detailed analytics](../analytics/insights.md) about your site and its performance, and **Improve** gathers the checks GitBook runs on your published docs, such as [Broken links](../analytics/broken-links.md) and [Content gaps](../analytics/content-gaps.md).
 * **Extend**\
   **Connections**, **Channels**, **Docs Embed**, **MCP access**, and [**Integrations**](../manage-your-site/install-an-integration.md).
 

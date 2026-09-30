@@ -34,7 +34,7 @@ Search engines and anonymous visitors always receive a 308 for permanent redirec
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
-In addition to [automatic redirects created by GitBook](site-redirects.md#about-automatic-redirects), you can create a redirect from any path in your site’s domain.
+In addition to [automatic redirects created by GitBook](site-redirects.md#about-automatic-redirects), you can create a redirect from any path in your site’s domain. GitBook can also suggest redirects for the URLs on your site that visitors reach but that return a 404. See [broken-links.md](../analytics/broken-links.md "mention").
 
 Redirects can be created as either **Live** or **Draft**. Draft redirects allow you to prepare and review redirect rules before publishing them. Drafts do not affect your live site until they are enabled.
 

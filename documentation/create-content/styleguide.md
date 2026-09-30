@@ -176,6 +176,19 @@ When your site has a style guide, GitBook Agent appears as a suggested reviewer 
 
 The Agent reviews your changes against the style guide and requests changes on the change request if it finds violations, citing the rules that produced each flag.
 
+#### Run a style guide check across your site
+
+To check existing content rather than a change, run a **style guide check** from the style guide itself. A check reviews every page of a space against your rules and fixes what it finds in a change request for you to review.
+
+1. Open your style guide and click **Run check**.
+2. Pick the spaces to check. You can check up to three spaces at a time.
+3. GitBook Agent opens one change request per space and works through its pages. A check that fixed something marks its change request ready for review; a check that found nothing archives it, so you’re never left with an empty draft.
+4. Review and merge the change request like any other.
+
+The **Checks** tab on your style guide lists your site’s spaces in the site’s own structure, with the state of each space’s check: the change request’s status, a spinner while the check is running, when it last ran, and a **Style guide edited since** badge when you’ve changed the guide after the check. Click a row to open its change request.
+
+A space has one check change request at a time. Running a check again on a space whose check is still open updates that change request instead of opening another one, and the Agent checks the pages as they now stand. A new change request opens only once the previous one is merged or archived.
+
 ### How the Agent enforces your style guide
 
 When GitBook Agent works with your style guide, its job is conformance to your rules — not general writing improvement. It's designed to be precise, conservative, and consistent: the same content checked against the same style guide always produces the same findings.

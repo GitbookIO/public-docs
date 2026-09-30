@@ -70,7 +70,7 @@ A site with a large back catalog can surface thousands of gaps at once. Filter t
 | Status        | **Open**, **Changed**, **Rejected**, **Resolved**       | Separate untouched gaps from those a change request already covers, the suggestions your team turned down, and the ones a merged change request closed. |
 | Severity      | **High**, **Medium**, **Low**                           | Work the highest-impact gaps first.                                                                                                                     |
 | Date          | **Last 7 days**, **Last 30 days**                       | See what a recent release or support spike surfaced.                                                                                                    |
-| Topic         | Any topic on your site                                  | Focus on one area of your documentation. Topics are grouped the same way as in AI Insights.                                                             |
+| Topic         | Any topic on your site                                  | Focus on one area of your documentation. Topics are grouped the same way as in the AI Assistant report.                                                             |
 | Type          | Content gap, outdated content, incorrect content, other | Separate missing documentation from documentation that has gone wrong.                                                                                  |
 | Source        | Any connected source                                    | Check what a single source is reporting, such as gaps that only Intercom sees.                                                                          |
 | GitBook Agent | Worked on, not worked on                                | Find gaps nobody has picked up yet.                                                                                                                     |
@@ -120,6 +120,10 @@ Merging the change request resolves the gap and removes it from the queue. Filte
 
 Click **Reject** when a gap is not worth filling — the question is out of scope, the page already answers it, or the finding misread the evidence. Rejecting keeps the gap out of the open list, and GitBook won’t re-open it.
 
+{% hint style="info" %}
+Changing a gap’s status, including rejecting it, requires edit permissions on the site. Actions you can’t use appear disabled, with an explanation.
+{% endhint %}
+
 ## Settings
 
 On the Content gaps page, click **Settings** to see which sources GitBook scans and what each one contributes.
@@ -128,7 +132,7 @@ On the Content gaps page, click **Settings** to see which sources GitBook scans 
 
 The **Sources** list shows every connection that’s ingesting, what it has scanned, and how many gaps came from it. Each source reports in its own units: pages for a website, videos for a YouTube channel, discussions for GitHub Discussions, and conversations for a support platform.
 
-Your docs are a source in their own right. **AI Assistant** reports both the unanswered questions visitors asked on your site and the gaps that came from them. See [ai-insights.md](ai-insights.md "mention") to review those questions in full.
+Your docs are a source in their own right. **AI Assistant** reports both the unanswered questions visitors asked on your site and the gaps that came from them. See the [ai-insights.md](ai-insights.md "mention") report to review those questions in full.
 
 Each source appears under the label you gave the connection, so two website connections show up separately rather than merging into one entry.
 

@@ -16,11 +16,11 @@ Use analytics to understand your documentation and turn insights into improvemen
 
 <summary>How do I use site analytics?</summary>
 
-Review traffic, feedback, search, and Ask AI activity from your site analytics dashboard.
+Review traffic, feedback, search, agent, and AI Assistant activity from your site analytics reports.
 
 This guide shows how to filter data and identify content opportunities.
 
-<button type="button" class="button secondary" data-action="ask" data-query="How do I use GitBook site analytics? Show me how to review traffic, page feedback, search, Ask AI, and Agent and LLM data. Explain how to filter and group data. Include links to the relevant docs pages." data-icon="gitbook-assistant">Open guide</button>
+<button type="button" class="button secondary" data-action="ask" data-query="How do I use GitBook site analytics? Show me how to review the Traffic, Agents & MCP, and AI Assistant reports, including page feedback and search. Explain how to filter data and compare periods. Include links to the relevant docs pages." data-icon="gitbook-assistant">Open guide</button>
 
 </details>
 
