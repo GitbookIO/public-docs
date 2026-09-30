@@ -38,7 +38,7 @@ Each figure at the top of a report compares itself to the period before, so you 
 
 ## Export data
 
-To analyze data outside of GitBook, open the menu on a card and click **Download CSV**. To build your own reports from the underlying events, see the [Events Aggregation API guide](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/docs-analytics/track-advanced-analytics-with-gitbooks-events-aggregation-api).
+To analyze data outside of GitBook, open the menu on a card and click **Download CSV**. To build your own reports from the underlying events, see the [Events Aggregation API guide](https://gitbook.com/docs/guides/docs-analytics/track-advanced-analytics-with-gitbooks-events-aggregation-api).
 
 {% hint style="success" %}
 Throughout site analytics, you see **Events** and **Visitors** metrics. **Events** indicate the total number of instances for any given category, while **Visitors** indicates the unique visitors performing the actions.

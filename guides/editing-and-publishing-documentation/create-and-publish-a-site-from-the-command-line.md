@@ -166,6 +166,6 @@ None of that is terminal-only, though — the same site is sitting in GitBook wa
 
 [**→ Connect an agent with GitBook MCP**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/gitbook-mcp)
 
-[**→ Work with the GitBook API**](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/quickstart)
+[**→ Work with the GitBook API**](https://gitbook.com/docs/developers/gitbook-api/quickstart)
 
 [**→ Keep your docs in sync with Git Sync**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync)

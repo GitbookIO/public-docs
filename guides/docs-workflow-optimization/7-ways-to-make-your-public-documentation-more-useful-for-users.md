@@ -53,7 +53,7 @@ GitBook supports all kinds of dynamic elements in its block-based editor. So you
 OpenAPI blocks in GitBook show users all the information they need — plus, they can test out endpoints without leaving your docs.
 {% endembed %}
 
-GitBook comes with a bunch of integrations built-in. And you can easily [add more](https://www.gitbook.com/integrations) — or even [build your own](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart), if you have something specific in mind.
+GitBook comes with a bunch of integrations built-in. And you can easily [add more](https://www.gitbook.com/integrations) — or even [build your own](https://gitbook.com/docs/developers/integrations/quickstart), if you have something specific in mind.
 
 #### 4. Use successful pages as inspiration <a href="#id-4-use-successful-pages-as-inspiration" id="id-4-use-successful-pages-as-inspiration"></a>
 

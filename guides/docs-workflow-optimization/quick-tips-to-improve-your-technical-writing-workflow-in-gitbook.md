@@ -79,7 +79,7 @@ Select and move blocks.
 
 ### Use GitBook Agent to write or review  <a href="#add-email-address-links-using-mailto" id="add-email-address-links-using-mailto"></a>
 
-GitBook includes [a built-in AI Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/overview) that can write content for you based on a prompt — or review your changes before they go live.
+GitBook includes [a built-in AI Agent](https://gitbook.com/docs/gitbook-agent/overview) that can write content for you based on a prompt — or review your changes before they go live.
 
 The best part? The Agent can understand and follow your style guide. So not only does it find and fix spelling and grammar mistakes — it can also tell you when you’ve deviated from your standard style.
 
@@ -111,7 +111,7 @@ While there are plenty of built-in tools that will make your life with GitBook e
 
 From adding extra [analytics tools](https://www.gitbook.com/integrations/googleanalytics) to embedding [Linear issues](https://www.gitbook.com/integrations/linear), [Mermaid diagrams](https://www.gitbook.com/integrations/mermaid) and [RunKit notebooks](https://www.gitbook.com/integrations/runkit), you’ll find plenty of ways to supercharge your technical docs and get extra features with just a few clicks.
 
-Take a look at [all our integrations](https://www.gitbook.com/integrations), and see how you can [build your own](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart).
+Take a look at [all our integrations](https://www.gitbook.com/integrations), and see how you can [build your own](https://gitbook.com/docs/developers/integrations/quickstart).
 
 ### Set up Git Sync <a href="#set-up-git-sync" id="set-up-git-sync"></a>
 

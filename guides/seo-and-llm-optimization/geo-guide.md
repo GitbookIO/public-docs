@@ -94,7 +94,7 @@ Here are a few things to focus on when creating AI-ready docs. And it’s no sur
 
 ### GEO in GitBook
 
-[GitBook](https://www.gitbook.com/) makes it easy to implement an AI documentation strategy. As well as [automatically optimizing pages for SEO](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/seo), GitBook automatically implements GEO to make your docs LLM-friendly with some handy features.
+[GitBook](https://www.gitbook.com/) makes it easy to implement an AI documentation strategy. As well as [automatically optimizing pages for SEO](https://gitbook.com/docs/publish/seo), GitBook automatically implements GEO to make your docs LLM-friendly with some handy features.
 
 What GitBook optimizes automatically for LLM ingestion:
 

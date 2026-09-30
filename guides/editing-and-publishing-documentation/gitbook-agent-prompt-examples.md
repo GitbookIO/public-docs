@@ -7,7 +7,7 @@ description: >-
 
 # 7 ways teams are using GitBook Agent to streamline their docs workflows (with prompt examples)
 
-[GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/overview) unlocks all kinds of abilities for documentation maintainers — from bulk content operations to automated housekeeping tasks.
+[GitBook Agent](https://gitbook.com/docs/gitbook-agent/overview) unlocks all kinds of abilities for documentation maintainers — from bulk content operations to automated housekeeping tasks.
 
 This post highlights some of the most practical and creative ways teams (including us!) are using the Agent inside their documentation spaces — with real prompts you can try yourself.
 
@@ -99,6 +99,6 @@ It’s a small improvement — but across hundreds of pages, it saves time and c
 
 ***
 
-These are just a few of the ways teams are already [using GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/overview). Tasks that used to require external tooling, scripting, or manual cleanup can now happen directly inside your documentation space.
+These are just a few of the ways teams are already [using GitBook Agent](https://gitbook.com/docs/gitbook-agent/overview). Tasks that used to require external tooling, scripting, or manual cleanup can now happen directly inside your documentation space.
 
 We’re excited to see what you build next!
