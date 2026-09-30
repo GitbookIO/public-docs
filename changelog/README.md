@@ -36,7 +36,7 @@ tags:
 
 Conversations are also cleaner. Tool calls, thoughts, and background agents align on one grid. You can open any background agent’s conversation with one click. The Agent also reads pages in parallel, making workflows faster and more efficient.
 
-### Pick channels, repositories, and teams during channel setup
+## Pick channels, repositories, and teams during channel setup
 
 <figure><img src=".gitbook/assets/channels-setup.png" alt="A screenshot showing the new channels setup screen in the GitBook app"><figcaption></figcaption></figure>
 
