@@ -25,8 +25,6 @@ GitBook regularly audits every published site on a plan that includes Broken lin
 3. Reads your published content to find the page each visitor was most likely looking for. If a whole section has moved, GitBook groups the broken URLs under a single wildcard suggestion such as `/v1/*`. If no page fits, GitBook says so, and checks that URL again after 30 days.
 4. Creates a suggested redirect for each broken URL that has a clear match, with a short explanation of why that page was chosen and a severity based on how much traffic the URL receives.
 
-<figure><img src="../.gitbook/assets/broken-links-how-it-works.png" alt="A flow of five steps: visitors hit a missing page, a shortlist is built, an AI link auditor finds the intended page, severity is set from traffic, and an open finding offers a one-click redirect. Side notes say URLs with fewer than 3 visits or bot traffic are dropped, the top 60 URLs per site go forward, the auditor either suggests a page or checks again in 30 days, high severity means 20 or more visits and a top-5 broken URL, and the finding closes once a live redirect covers the URL."><figcaption><p>How a Broken links audit turns 404s into suggested redirects.</p></figcaption></figure>
-
 A site is audited at most once a day. Each audit starts again from your current traffic, and resolved URLs drop out, so a site with more than 60 broken URLs works through them over successive audits, most-visited first. Broken URLs that GitBook couldn’t match to any page are kept as findings too, with the reason and the pages it considered, so you can decide whether they need a new page instead of a redirect.
 
 Broken links builds on [site-redirects.md](../publish/site-redirects.md "mention"). Read it first if you’re not familiar with redirects.
