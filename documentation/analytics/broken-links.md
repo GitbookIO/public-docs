@@ -107,4 +107,4 @@ The report includes these cards:
 * **Broken URLs by dimension**, which lets you group broken traffic by **Referrer domain**, **Broken URL**, **Full referrer**, **Country**, or **Device**. Grouping by referrer domain is the quickest way to find an external site that links to an outdated URL, and to tell a genuine outdated link apart from crawler noise.
 * **404s caused by adaptive content**, if your site uses adaptive content. These are visitors who reached a page that exists but that a condition kept them from seeing. They are excluded from the findings, since a redirect would not help.
 
-You can filter the report using the same filters as the rest of your [site analytics](insights.md), including section, language, country, device, and referrer.
+You can filter the report using the same filters as the rest of your [site analytics](insights/), including section, language, country, device, and referrer.

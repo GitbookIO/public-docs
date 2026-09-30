@@ -4,20 +4,20 @@ description: Track how LLMs, coding agents, and crawlers read your documentation
 
 # Agents & MCP
 
-The **Agents & MCP** report covers everything reading your site that isn’t a person: LLMs, coding agents, crawlers, and any tool connected to your site’s [MCP server](../ai-for-your-readers/mcp-servers-for-published-docs.md).
+The **Agents & MCP** report covers everything reading your site that isn’t a person: LLMs, coding agents, crawlers, and any tool connected to your site’s [MCP server](../../ai-for-your-readers/mcp-servers-for-published-docs.md).
 
 To open it, go to **Analyze → Agents & MCP** in your site’s sidebar.
 
-At the top, you’ll see the pages agents read, their share of everything read on your site, and the number of MCP calls. The **Who reads this site** chart splits reads between people and agents, so you can watch that balance shift over time. See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
+At the top, you’ll see the pages agents read, their share of everything read on your site, and the number of MCP calls. The **Who reads this site** chart splits reads between people and agents, so you can watch that balance shift over time. See [.](./ "mention") for filters, time periods, and comparing periods.
 
-<figure><img src="../.gitbook/assets/26_09_11_analytics_agents.png" alt="The Agents & MCP report showing agent page reads, share of site reads, MCP calls, and reads over time"><figcaption><p>The Agents & MCP report.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/26_09_11_analytics_agents.png" alt="The Agents &#x26; MCP report showing agent page reads, share of site reads, MCP calls, and reads over time"><figcaption><p>The Agents &#x26; MCP report.</p></figcaption></figure>
 
 ## Surfaces
 
 Agents reach your content through several surfaces, and the report counts each one:
 
 * **Markdown**: pages requested as `.md`.
-* **llms.txt**: your [LLM-ready](../getting-started/llm-ready-docs.md) index files.
+* **llms.txt**: your [LLM-ready](../../getting-started/llm-ready-docs.md) index files.
 * **MCP**: reads through your site’s MCP server.
 * **Site page views** and **RSS**: agents reading your site the way a browser would.
 
@@ -32,5 +32,5 @@ Three cards cover what tools did with your docs: the **MCP tools** they called, 
 **Pages read** ranks your content by how much agents read it, on the surface they read it through.
 
 {% hint style="info" %}
-If agents rarely reach your content, see [llm-ready-docs.md](../getting-started/llm-ready-docs.md "mention") for how to make your site easier for AI tools to discover and read.
+If agents rarely reach your content, see [llm-ready-docs.md](../../getting-started/llm-ready-docs.md "mention") for how to make your site easier for AI tools to discover and read.
 {% endhint %}

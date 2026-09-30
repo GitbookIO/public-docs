@@ -1,7 +1,7 @@
 ---
 description: >-
-  See how many people read your site, which pages they land on, what they
-  search for, and what they think of your content
+  See how many people read your site, which pages they land on, what they search
+  for, and what they think of your content
 ---
 
 # Traffic
@@ -10,15 +10,15 @@ The **Traffic** report covers the people reading your documentation. Machines re
 
 To open it, go to **Analyze → Traffic** in your site’s sidebar.
 
-At the top, you’ll find page views, visitors, sessions, and searches for the period you selected, each compared to the period before, followed by a chart of readers over time. See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
+At the top, you’ll find page views, visitors, sessions, and searches for the period you selected, each compared to the period before, followed by a chart of readers over time. See [.](./ "mention") for filters, time periods, and comparing periods.
 
-<figure><img src="../.gitbook/assets/26_09_11_analytics_traffic.png" alt="The Traffic report showing page views, visitors, sessions, searches, and reader activity over time"><figcaption><p>The Traffic report.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/26_09_11_analytics_traffic.png" alt="The Traffic report showing page views, visitors, sessions, searches, and reader activity over time"><figcaption><p>The Traffic report.</p></figcaption></figure>
 
 ## Pages and feedback
 
 **Top pages** ranks the pages your readers open, so you can see what your site is used for.
 
-Next to it, **Page feedback** shows how readers rate your content once you’ve enabled [page rating](../manage-your-site/site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu, along with the comments they left. Low-rated pages, read together with their comments, are usually the fastest place to start improving your docs.
+Next to it, **Page feedback** shows how readers rate your content once you’ve enabled [page rating](../../manage-your-site/site-settings.md#page-ratings-pro-and-enterprise-plans) in the **Customize** menu, along with the comments they left. Low-rated pages, read together with their comments, are usually the fastest place to start improving your docs.
 
 {% hint style="info" %}
 **Why can’t I see any feedback data for my site?**\
@@ -44,7 +44,7 @@ The **Authenticated visitor** filter shows whether GitBook identified the visito
 {% hint style="info" %}
 To isolate feedback from a customer or segment, filter by a claim that you pass through adaptive content. For example, filter by a customer, plan, role, or feature-access claim. This shows feedback only from visitors whose events include that claim value.
 
-Claim filters only use claims configured for your site. They do not infer customer identity from page content, sections, or variants. See [enabling adaptive content](../publish/adaptive-content/enabling-adaptive-content/) to configure visitor claims.
+Claim filters only use claims configured for your site. They do not infer customer identity from page content, sections, or variants. See [enabling adaptive content](../../publish/adaptive-content/enabling-adaptive-content/) to configure visitor claims.
 {% endhint %}
 
 Feedback filters help you turn ratings and comments into focused updates. For example, you can:
@@ -69,4 +69,4 @@ The rest of the report breaks your audience down:
 * **Active hours**: when your site is busiest, as a heatmap across the week.
 * **Bots**: page views from crawlers, kept out of the reader figures in this report.
 
-Sites using [adaptive content](../publish/adaptive-content/enabling-adaptive-content/) also get a **Visitor attributes** card, showing traffic by the claims you pass, for example a customer, plan, or role.
+Sites using [adaptive content](../../publish/adaptive-content/enabling-adaptive-content/) also get a **Visitor attributes** card, showing traffic by the claims you pass, for example a customer, plan, or role.

@@ -41,7 +41,7 @@ Opening a site replaces the sidebar with that site's content and tools: the same
 * **Site tools**\
   **Overview**, **Change requests**, **Site structure**, **Customize**, **Extend**, and **Settings**, plus **Git Sync** and **Triage** where they apply. Each opens in the main view.
 * **Analyze**\
-  [**Traffic**](../analytics/traffic.md), [**Agents & MCP**](../analytics/agents-and-mcp.md), and [**AI Assistant**](../analytics/ai-insights.md) reports.
+  [**Traffic**](../analytics/insights/traffic.md), [**Agents & MCP**](../analytics/insights/agents-and-mcp.md), and [**AI Assistant**](../analytics/insights/ai-insights.md) reports.
 * **Improve**\
   [**Style guide**](../create-content/styleguide.md), [**Content gaps**](../analytics/content-gaps.md), and [**Broken links**](../analytics/broken-links.md).
 *   **Content**\
@@ -150,7 +150,7 @@ Site tools open from the top of the site sidebar in the main view. The site head
 * **Extend**\
   **Connections**, **Channels**, **Docs Embed**, **MCP access**, and [**Integrations**](../manage-your-site/install-an-integration.md).
 
-Under **Analyze**, the [site analytics](../analytics/insights.md) reports show how people and agents read your site: **Traffic**, **Agents & MCP**, and **AI Assistant**.
+Under **Analyze**, the [site analytics](../analytics/insights/) reports show how people and agents read your site: **Traffic**, **Agents & MCP**, and **AI Assistant**.
 
 Under **Improve**, GitBook checks your published docs and helps you fix what it finds:
 

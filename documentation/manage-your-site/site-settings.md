@@ -20,13 +20,13 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <summary>Analytics cookie</summary>
 
-If you want to use GitBook’s [site analytics](../analytics/insights.md), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
+If you want to use GitBook’s [site analytics](../analytics/insights/), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
 \
 The cookies notice appears when your site has analytics enabled through an integration, especially **Google Analytics**.
 
 To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**
 
-Disabling these cookies also turns off [site analytics](../analytics/insights.md) for that site.
+Disabling these cookies also turns off [site analytics](../analytics/insights/) for that site.
 
 </details>
 
@@ -138,7 +138,7 @@ Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
-You can review the results of these ratings by opening [**Analyze → Traffic**](../analytics/traffic.md) in your site’s sidebar, then selecting **Page feedback**.
+You can review the results of these ratings by opening [**Analyze → Traffic**](../analytics/insights/traffic.md) in your site’s sidebar, then selecting **Page feedback**.
 
 </details>
 

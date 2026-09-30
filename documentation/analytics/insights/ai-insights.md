@@ -6,7 +6,7 @@ description: >-
 
 # AI Assistant
 
-The **AI Assistant** report shows what your visitors ask and how effectively [GitBook Assistant](../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
+The **AI Assistant** report shows what your visitors ask and how effectively [GitBook Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
 
 To open it, go to **Analyze → AI Assistant** in your site’s sidebar.
 
@@ -17,9 +17,9 @@ Four metrics summarize the period you selected:
 * **Helpful**: how visitors rated the answers they got.
 * **Savings**: the estimated support effort avoided by answering those questions.
 
-See [insights.md](insights.md "mention") for filters, time periods, and comparing periods.
+See [.](./ "mention") for filters, time periods, and comparing periods.
 
-<figure><img src="../.gitbook/assets/26_09_11_analytics_ai-assistant.png" alt="The AI Assistant report showing questions asked, answered rate, helpfulness, savings, and question activity over time"><figcaption><p>The AI Assistant report.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/26_09_11_analytics_ai-assistant.png" alt="The AI Assistant report showing questions asked, answered rate, helpfulness, savings, and question activity over time"><figcaption><p>The AI Assistant report.</p></figcaption></figure>
 
 ## Topics
 
@@ -29,7 +29,7 @@ Click a topic to open its detail view and see every question in it, grouped by *
 
 ## Breakdowns
 
-Three cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), and **Channels** (where the Assistant was used: your site, the [Docs Embed](../publish/embedding/), or a connected tool). Click any value to filter the whole report by it.
+Three cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), and **Channels** (where the Assistant was used: your site, the [Docs Embed](../../publish/embedding/), or a connected tool). Click any value to filter the whole report by it.
 
 ## Questions
 
@@ -43,7 +43,7 @@ Below the summary, you can review the conversations tied to the question and see
 
 ### Sources and context
 
-The sources section shows which pages, records, or [connected content](../ai-for-your-readers/connections.md) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren’t surfaced.
+The sources section shows which pages, records, or [connected content](../../ai-for-your-readers/connections.md) GitBook used to answer the question. Use this to verify the AI drew from the right content — and to find places where relevant pages exist but weren’t surfaced.
 
 ### Export questions and answers
 
@@ -69,7 +69,7 @@ Filtering the report helps you identify content gaps. You can filter for the fol
 Addressing these gaps helps visitors find answers more quickly — and understand your product faster.
 
 {% hint style="info" %}
-[content-gaps.md](content-gaps.md "mention") collects these gaps into a ranked list, and GitBook Agent can open a change request to fill one.
+[content-gaps.md](../content-gaps.md "mention") collects these gaps into a ranked list, and GitBook Agent can open a change request to fill one.
 {% endhint %}
 
 </details>

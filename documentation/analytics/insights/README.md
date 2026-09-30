@@ -12,17 +12,17 @@ Site analytics gives you information on the content you’ve published and how i
 
 To open a report, go to **Analyze** in your site’s sidebar. You can also see a top-level overview of your analytics on your site’s **Overview** screen, with a globe that shows views in the last hour by location.
 
-Incoming links that land on a “Page not found” are reported in [broken-links.md](broken-links.md "mention"), under **Improve** in the site sidebar, alongside the redirects GitBook suggests for them.
+Incoming links that land on a “Page not found” are reported in [broken-links.md](../broken-links.md "mention"), under **Improve** in the site sidebar, alongside the redirects GitBook suggests for them.
 
 {% hint style="info" %}
-If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../manage-your-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
+If you connect **Google Analytics**, your site can show a cookies notice. To remove it, open [**Site settings → Analytics cookie**](../../manage-your-site/site-settings.md#analytics-cookie) and disable or remove the **Google Analytics** integration.
 {% endhint %}
 
 ## Filters
 
 Every report has a filter bar at the top. Add a filter to narrow a report down to the data you care about: a single site section, variant, or page, or an audience defined by country, language, device, browser, referrer, campaign, or authenticated visitor status. Filters apply to every card in the report at once.
 
-Sites using [adaptive content](../publish/adaptive-content/enabling-adaptive-content/) can also filter by visitor claims, such as a customer, plan, role, or feature access, so you can look at how one segment reads your docs.
+Sites using [adaptive content](../../publish/adaptive-content/enabling-adaptive-content/) can also filter by visitor claims, such as a customer, plan, role, or feature access, so you can look at how one segment reads your docs.
 
 ## Time periods and comparisons
 
@@ -48,7 +48,7 @@ In the context of page views, Events would be the total amount of page views, an
 
 ## Ads & sponsorship
 
-Sites on the [sponsored site plan](../account-and-billing/plans/community/sponsored-site-plan.md) get an extra **Ads & sponsorship** report, showing impressions, clicks, click-through rate, and revenue, along with the advertisers and pages behind them.
+Sites on the [sponsored site plan](../../account-and-billing/plans/community/sponsored-site-plan.md) get an extra **Ads & sponsorship** report, showing impressions, clicks, click-through rate, and revenue, along with the advertisers and pages behind them.
 
 ## FAQ
 
@@ -64,7 +64,7 @@ Anyone with access to the site can view its analytics — including readers, rev
 
 <summary>Where did Search, Pages &#x26; feedback, MCP, Ask AI, and Broken URLs go?</summary>
 
-They’re still here, grouped with the audience they belong to. Search and page feedback are part of [traffic.md](traffic.md "mention"), MCP activity is part of [agents-and-mcp.md](agents-and-mcp.md "mention"), and Ask AI questions are part of [ai-insights.md](ai-insights.md "mention"). The Broken URLs report is part of [broken-links.md](broken-links.md "mention"), under **Improve**, next to the redirects GitBook suggests for those URLs.
+They’re still here, grouped with the audience they belong to. Search and page feedback are part of [traffic.md](traffic.md "mention"), MCP activity is part of [agents-and-mcp.md](agents-and-mcp.md "mention"), and Ask AI questions are part of [ai-insights.md](ai-insights.md "mention"). The Broken URLs report is part of [broken-links.md](../broken-links.md "mention"), under **Improve**, next to the redirects GitBook suggests for those URLs.
 
 </details>
 
@@ -80,7 +80,7 @@ If the analytics dashboard isn’t loading, it’s usually because an ad blocker
 
 <summary>What does “Page not found” mean?</summary>
 
-“Page not found” means visitors tried to open a page on your site that doesn’t exist. To see which URLs are broken, open [broken-links.md](broken-links.md "mention"). From there you can see how many visitors each broken link had and [create redirects](../publish/site-redirects.md) if needed.
+“Page not found” means visitors tried to open a page on your site that doesn’t exist. To see which URLs are broken, open [broken-links.md](../broken-links.md "mention"). From there you can see how many visitors each broken link had and [create redirects](../../publish/site-redirects.md) if needed.
 
 </details>
 
