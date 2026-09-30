@@ -93,7 +93,32 @@ If you _do_ want to reset your password:
 
 ### Troubleshooting sign-in
 
+#### Account protection and sign-in recovery
+
 **Account disabled by administrator** — GitBook automatically blocks accounts exhibiting suspicious behavior to prevent spam and scam accounts. If you believe your account was blocked unfairly, contact support; unblocking requests are assessed case by case.
+
+GitBook uses protections against spam and fraudulent publishing. The examples here are representative, not exhaustive. We don't publish detection rules or thresholds.
+
+The following patterns can result in an automatic block:
+
+* Don't share an account. Invite each collaborator as an individual member and assign the appropriate role.
+* Don't rapidly create multiple docs sites or organizations.
+* Avoid automation that could appear suspicious.
+* Don't frequently switch VPN servers during account or organization activity.
+
+**Sign-up email addresses**
+
+Email addresses containing more than three dots are blocked to prevent spam. If sign-up is rejected for this reason, use a different eligible email address.
+
+After creating your account, use the supported email and linking options in **Login details**. Don't create or share accounts to work around this restriction. GitBook might not link every alternative email address.
+
+**Recovering from a block or rejected sign-up**
+
+If the guidance above doesn't resolve an account block or rejected sign-up, take these steps:
+
+1. Contact [contact-support.md](../help/contact-support.md "mention").
+2. Include the account email and a concise description of the activity or error.
+3. Ask Support to review your eligibility. Support may unblock an account case by case.
 
 **The link to join an organization isn't working** — an `auth/invalid-email` error means the email address invited to the organization doesn't match the email of the signed-in GitBook account. Ask the person who invited you which address they used, or ask them to invite a different one.
 

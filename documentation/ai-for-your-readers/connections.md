@@ -9,11 +9,9 @@ tags:
 
 Connections let you bring external content into your docs site.
 
-Connected content can appear in [AI Assistant](gitbook-ai-assistant.md). Some connections can also help GitBook generate change requests.
+Connected content can appear in [AI Assistant](gitbook-ai-assistant.md), so visitors get answers drawn from everything you publish rather than your docs alone. Some connections also help GitBook generate change requests and identify [content gaps](../analytics/content-gaps.md). An MCP server connection can additionally let visitors carry out tasks from your docs.
 
-To add a connection, open your site’s **Settings** and click on **Connections**.
-
-<figure><img src="../.gitbook/assets/2026-07-13_connections@2x.png" alt=""><figcaption></figcaption></figure>
+In your site’s sidebar, go to **Settings → Connections**.
 
 ### Available connections
 
@@ -34,7 +32,7 @@ Select a source type. Then authorize it, or enter the URL you want GitBook to im
 {% hint style="info" %}
 If you connect YouTube, enter the channel ID — not the channel name.
 
-A channel name won't work for this source.
+A channel name won’t work for this source.
 
 In YouTube Studio, open **Settings** → **Channel** → **Advanced settings**.
 
@@ -65,6 +63,28 @@ You can also adjust the connection’s search ranking to prioritize or depriorit
 {% endstep %}
 {% endstepper %}
 
+### Reviewing your connections
+
+The Connections page has three parts: **Connect a source** to add a connector, **Connections** to manage the ones you already have, and **Records** to browse what GitBook ingested.
+
+#### The connections table
+
+Every connected source has a row:
+
+| Column      | What it shows                                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Source      | The connector, and the account, channel, or URL it points at.                                                             |
+| Status      | Whether the most recent sync finished.                                                                                    |
+| Records     | How many items the source contributed, counted in that source’s own units — pages, videos, discussions, or conversations. |
+| Search      | The connection’s search ranking boost. This is empty when **Expose in search / assistant** is off.                        |
+| Last synced | How long ago the connection last refreshed.                                                                               |
+
+#### Records
+
+The **Records** list shows the individual items GitBook ingested across every connection, newest first. Each record gives its title, the connector it came from, when GitBook processed it, and a link to the original.
+
+A large site accumulates thousands of records, so the list is paginated. Use it to confirm a source brings in what you expect before you turn on **Expose in search / assistant**: a website connection returning blog posts when you wanted product pages shows up here first.
+
 ### Connection settings
 
 When you edit a connection, you can configure these options:
@@ -78,9 +98,9 @@ This makes the source easier to identify in the connections list, especially if 
 #### Auto-generate change requests
 
 {% hint style="warning" %}
-Auto generating change requests is currently in early access.
+Auto-generating change requests is in beta.
 
-See [automatic-docs-improvements.md](../gitbook-agent/automatic-docs-improvements.md "mention") for information on requesting access
+See [content-gaps.md](../analytics/content-gaps.md "mention") for how GitBook identifies gaps in your docs.
 {% endhint %}
 
 Turn on **Auto-generate change requests** to let GitBook learn from the connection’s records and suggest documentation updates.
@@ -105,43 +125,43 @@ Increase the value if this source should appear more often. Lower it if this sou
 
 ### Connector details
 
-All connectors in this section can provide context to [AI Assistant](gitbook-ai-assistant.md). GitBook Agent can use resolved records to identify [content gaps](../gitbook-agent/automatic-docs-improvements.md) and suggest documentation updates.
+All connectors in this section can provide context to [AI Assistant](gitbook-ai-assistant.md). GitBook Agent can use resolved records to identify [content gaps](../analytics/content-gaps.md) and suggest documentation updates.
 
 #### Intercom
 
-GitBook indexes resolved conversations with at least one reply from a human or AI support agent. It doesn't index open, unresolved, or spam conversations.
+GitBook indexes resolved conversations with at least one reply from a human or AI support agent. It doesn’t index open, unresolved, or spam conversations.
 
 To connect Intercom, use an API key with read access to conversations. You control its scope and expiry.
 
 #### Zendesk
 
-GitBook indexes resolved conversations with at least one reply from a human or AI support agent. It doesn't index open, unresolved, or spam conversations.
+GitBook indexes resolved conversations with at least one reply from a human or AI support agent. It doesn’t index open, unresolved, or spam conversations.
 
 To connect Zendesk, enter your Zendesk subdomain, such as `gitbook.zendesk.com`. You also need an API key with read access to conversations. You control its scope and expiry.
 
 #### Pylon
 
-GitBook indexes resolved conversations with at least one reply from a human or AI support agent. It doesn't index open, unresolved, or spam conversations.
+GitBook indexes resolved conversations with at least one reply from a human or AI support agent. It doesn’t index open, unresolved, or spam conversations.
 
 To connect Pylon, use credentials with read access to conversations.
 
 #### GitHub Discussions
 
-GitBook indexes resolved discussions with at least one reply. It doesn't index unresolved or spam discussions.
+GitBook indexes resolved discussions with at least one reply. It doesn’t index unresolved or spam discussions.
 
 To connect GitHub Discussions, use credentials with read access to discussions.
 
 #### GitHub Issues
 
-GitBook indexes resolved issues. It doesn't index open, unresolved, or spam conversations.
+GitBook indexes resolved issues. It doesn’t index open, unresolved, or spam conversations.
 
 To connect GitHub Issues, use credentials with read access to issues.
 
 #### Data stored for these connectors
 
-GitBook stores only the conversation, discussion, or issue. We don't store metadata or personal information.
+GitBook stores only the conversation, discussion, or issue. We don’t store metadata or personal information.
 
-GitBook redacts sensitive information before storage. We don't store sensitive information in the indexed record.
+GitBook redacts sensitive information before storage. We don’t store sensitive information in the indexed record.
 
 ### Data retention and privacy
 

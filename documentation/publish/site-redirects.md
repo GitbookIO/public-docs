@@ -1,14 +1,40 @@
 ---
 description: Set up site redirects to route traffic to content anywhere on your site
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # Site redirects
 
-<figure><img src="../.gitbook/assets/26_01_06_redirects@2x.png" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
+GitBook sends a 308 for permanent redirects only to unauthenticated views of live public content. Requests from the GitBook app, previews, and visitor-authenticated sessions receive a 307. This avoids unintended local caching.
+
+Search engines and anonymous visitors always receive a 308 for permanent redirects. This status supports SEO.
+
+<table data-search="false"><thead><tr><th>source</th><th>destination</th><th>intent</th><th>Result</th></tr></thead><tbody><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>blank</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>live</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>draft</td><td>Create or update a draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>blank</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>live</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>draft</td><td>Remove the draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>publish</td><td>Publish the existing draft redirect to live</td></tr></tbody></table>
+
+<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FSOD2dR0Bb3RtX6Avb7vg%2F26_01_06_redirects%402x.png?alt=media&#x26;token=7e2bf0a2-947c-46d7-96ff-a4e6b54e60b2" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
-In addition to [automatic redirects created by GitBook](site-redirects.md#about-automatic-redirects), you can create a redirect from any path in your site’s domain.
+In addition to [automatic redirects created by GitBook](site-redirects.md#about-automatic-redirects), you can create a redirect from any path in your site’s domain. GitBook can also suggest redirects for the URLs on your site that visitors reach but that return a 404. See [broken-links.md](../analytics/broken-links.md "mention").
 
 Redirects can be created as either **Live** or **Draft**. Draft redirects allow you to prepare and review redirect rules before publishing them. Drafts do not affect your live site until they are enabled.
 
@@ -22,6 +48,8 @@ Click **Add redirect** and select the **Manual** option.
 
 Fill in the **source path** — the URL slug you want to redirect — and the **destination** content you want visitors to be sent to. You can select any section, variant, or page on your site.
 
+Selecting a page stores the destination as a page reference, which keeps resolving to that page even after you move it in your site structure. Entering a URL path instead matches that path exactly, so the redirect breaks if the page moves and its path changes. Select the page where you can.
+
 ### Choose a redirect status
 
 When you create or edit a redirect, choose its HTTP status:
@@ -30,6 +58,10 @@ When you create or edit a redirect, choose its HTTP status:
 * **Permanent (308)** tells browsers and search engines that the source URL has moved permanently. Use it when you don't plan to restore the old URL.
 
 Both status codes preserve the request method and body when redirecting.
+
+GitBook sends a 308 for permanent redirects only to unauthenticated views of live public content. Requests from the GitBook app, previews, and visitor-authenticated sessions receive a 307. This avoids unintended local caching.
+
+Search engines and anonymous visitors always receive a 308 for permanent redirects. This status supports SEO.
 
 Click **Enable redirect** to immediately enable the redirect.
 
@@ -82,7 +114,7 @@ Upload a CSV with the columns `source`, `destination`, and optional `intent`.
 
 * `source` is the path you want to redirect, for example /docs/site-redirects
 * `destination` can be:
-  * a specific page, using the page’s admin URL as shown in the screenshot below
+  * a specific page, using the page’s app URL as shown in the screenshot below
   * an external URL
   * empty, depending on the intent
 * `intent` can be:
@@ -90,7 +122,9 @@ Upload a CSV with the columns `source`, `destination`, and optional `intent`.
   * draft to create, update, or remove a draft redirect
   * publish to publish an existing draft redirect to live, `destination` must be empty.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>You can find the GitBook admin URL for a page in this menu</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2Fgit-blob-1811bdc6a92d7e88fd724f3249aaae4a9350f1c0%2Fimage.png?alt=media" alt=""><figcaption><p>You can find the GitBook app URL for a page in this menu</p></figcaption></figure></div>
+
+An app URL stores the destination as a page reference, with the same advantage over a fixed path described in [Creating redirects](site-redirects.md#creating-redirects).
 
 A maximum of 500 rows is supported per import.
 
@@ -109,5 +143,5 @@ Whenever pages are moved or renamed, their canonical URL changes with them. In o
 Every time a URL is loaded, GitBook resolves it through the following steps:
 
 1. Site content is resolved to its canonical URL by following any of the automatically created redirects.
-2. If the URL cannot be resolved, the URL is checked against [section-level redirects](../docs-as-code/git-sync/content-configuration.md#redirects), defined in your repository's `.gitbook.yaml` file.
+2. If the URL cannot be resolved, the URL is checked against section-level redirects, defined in your repository's `.gitbook.yaml` file.
 3. Finally, the URL is checked against site-level redirects, created via [the process above](site-redirects.md#creating-redirects).

@@ -3,7 +3,7 @@ hidden: true
 name: configure-site
 metadata:
   version: "1.0"
-description: "Create and maintain entire GitBook documentation sites end-to-end — design the site structure from source content, scaffold a Git repository in monorepo layout, set up the GitHub/GitLab remote, drive the GitBook API (via its REST API or MCP server) to create the site/sections/spaces, apply branded customization, and hand the user clean instructions for the one UI step (Git Sync wiring) that GitBook does not expose programmatically. Always set up Git Sync at the site level first — mapping every space to a directory in one repo/branch via gitbook-docs.yaml — and only fall back to per-space Git Sync when one space genuinely needs an independent repo or branch. Trigger this skill whenever the user wants to spin up a new GitBook docs site, restructure or extend an existing one, link a site or spaces to a Git repo for sync, change a site's branding (logo, colors, fonts, header/footer), or programmatically manage spaces, sections, or site-spaces. This skill is the orchestration layer; for authoring the markdown content of any individual page it defers to the companion `write-docs` skill."
+description: "Create and maintain GitBook documentation sites end-to-end — design structure from source content, scaffold a Git monorepo, set up the GitHub/GitLab remote, drive the GitBook API (REST or MCP) to create the site/sections/spaces, apply branding, and hand off the one UI step (Git Sync) that GitBook does not expose programmatically. Prefer site-level Git Sync (gitbook-docs.yaml mapping every space) over per-space sync unless a space needs its own repo or branch. Use when spinning up a new docs site, restructuring or extending one, linking a site or spaces to Git, changing branding (logo, colors, fonts, header/footer), or programmatically managing spaces, sections, or site-spaces. Defers page authoring to the companion `write-docs` skill."
 ---
 
 # Configure GitBook Site
@@ -58,7 +58,7 @@ If the user explicitly does not want Git Sync, fall back to the content-import p
 Don't start scaffolding until these are known. If something is missing, ask once with a focused question rather than guessing. (Auth is handled separately — see "How you can talk to GitBook" above.)
 
 - **Organization** — list the user's orgs and **show the list to the user, then ask them to confirm which one is the target by name**. Do this even if they have only one org — confirming once up front is cheap insurance against creating sites in the wrong place. Save the chosen `organizationId` for the rest of the session and refer to the org by its title (not its UUID) when narrating subsequent steps.
-- **Site plan and visibility** — **default to `type: site` on the Ultimate plan**, public visibility, unless the user explicitly says otherwise. Most real customers want the Ultimate feature set (custom domain, AI Assistant, advanced customization, hidden GitBook trademark, custom fonts, custom logos). The free tier (`type: basic`) is appropriate only for clearly low-stakes use cases like solo open-source side projects. If you're unsure, ask: *"I'll set this up on the Ultimate plan unless you'd prefer the free tier — should I downgrade?"* — Ultimate features that are silently absent on `basic` (no AI assistant, no custom fonts, no custom domain) are a much bigger user surprise than briefly confirming the plan.
+- **Site plan and visibility** — **default to `type: "ultimate"`** (Ultimate plan), public visibility, unless the user explicitly says otherwise. Most real customers want the Ultimate feature set (custom domain, AI Assistant, advanced customization, hidden GitBook trademark, custom fonts, custom logos). The free tier (`type: basic`) is appropriate only for clearly low-stakes use cases like solo open-source side projects. If you're unsure, ask: *"I'll set this up on the Ultimate plan unless you'd prefer the free tier — should I downgrade?"* — Ultimate features that are silently absent on `basic` (no AI assistant, no custom fonts, no custom domain) are a much bigger user surprise than briefly confirming the plan.
 - **The content seed** — what's the site being built from? Common shapes:
   - A folder of existing markdown — the cleanest starting point
   - A handful of notes plus a competitor's site as a reference
@@ -88,7 +88,7 @@ The rule: **never make a state-changing change without first showing the user a 
 A good preview is short and concrete:
 
 > About to run, in org **Acme Inc** (`org_abc123`):
-> - Create site **"Acme Platform Docs"** (type: site, plan: ultimate, visibility: public)
+> - Create site **"Acme Platform Docs"** (type: ultimate, visibility: public)
 > - Create 3 empty spaces: **Guides**, **API Reference**, **Changelog**
 > - Add Guides as the default section; create sections for API Reference and Changelog
 >
@@ -158,7 +158,7 @@ my-docs/
 A few notes about this layout that often trip people up:
 
 - **`.gitbook.yaml` is optional.** GitBook works fine on the default convention of `README.md` + `SUMMARY.md` per space. Only add a `.gitbook.yaml` when you need to override the root, define redirects, or do something else non-default. The bundled example site (`references/example-site/`) has zero `.gitbook.yaml` files and works perfectly.
-- **`.gitbook/vars.yaml`** holds space-scoped variables that pages can reference inline (e.g. `support_email: support@evolve.com` referenced as `{% vars.support_email %}`). Useful for any value that appears on many pages.
+- **`.gitbook/vars.yaml`** holds space-scoped variables that pages can reference with expression syntax (e.g. `support_email: support@evolve.com` referenced as `<code class="expression">space.vars.support_email</code>`). Useful for any value that appears on many pages. See `write-docs` / `references/frontmatter.md` — do **not** use `{% vars.… %}`.
 - **`.gitbook/includes/<name>.md`** holds reusable content blocks — a snippet you embed in many pages with `{% include "...persona-switcher" %}`. Use these instead of copy-pasting boilerplate.
 - The space directory name (e.g. `guides/`) is what the user maps that space to under **Content mapping** when wiring up site-wide Git Sync — not the site's "Project directory" field, which only points at where `gitbook-docs.yaml` itself lives (the repo root, in this layout). Don't conflate the two; see `references/git-sync-handoff.md`.
 - Consider pre-authoring a `gitbook-docs.yaml` at the repo root that maps every space to its directory (see `references/git-sync-handoff.md` for the shape). GitBook reads it on first sync, so the user has less to fill in by hand during setup.
@@ -392,7 +392,7 @@ The steps below are described as outcomes, not endpoint calls — use whichever 
 ### The standard sequence for a new site
 
 1. **Verify access and find the org**: confirm the authenticated user, then list the orgs.
-2. **Create the site** with `{title, type, visibility, spaces?}`. **Default to Ultimate** (`type: "site"`; the plan tier is set on the site after creation or via the org's billing). Use `type: "basic"` (free) only when the user explicitly opts in. Don't include `spaces` if no spaces exist yet — you can add them later.
+2. **Create the site** with `{title, type, visibility, spaces?}`. **Default to Ultimate** (`type: "ultimate"`). Use `type: "basic"` (free) only when the user explicitly opts in. Don't include `spaces` if no spaces exist yet — you can add them later.
 3. **Decide how spaces will come into being.** Two paths:
    - **Site-wide Git Sync (recommended, default)**: tell the user to open **Git Sync** from the site sidebar once, connect the repo/branch, and map each space to its directory under **Content mapping**. This single UI pass creates/links every space to the site and wires up sync for all of them at once. The skill's job is to give exact, copyable instructions for that one pass. See `references/git-sync-handoff.md`.
    - **Programmatic-first**: create empty spaces directly, add them to the site as site-spaces, and use content import or template application to load content. The user will still need to wire Git Sync in the UI later if they want bidirectional sync — and when they do, site-wide is still the default to point them at, not one space at a time.

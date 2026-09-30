@@ -86,7 +86,7 @@ layout:
 
 * Read SUMMARY.md first when working with existing content
 * Test in GitBook after editing locally
-* Keep SUMMARY.md synchronized with your file structure
+* Keep SUMMARY.md synchronized with your file structure and page titles
 * OpenAPI specs must be uploaded via the UI, API, MCP, or CLI, not embedded in markdown
 
 ### When to Use Which Block
@@ -134,6 +134,7 @@ layout:
 
 * Don't reference the same markdown file twice in SUMMARY.md
 * Keep file paths consistent between SUMMARY.md and actual file locations
+* When you rename a page's title (its `#` heading or `title` frontmatter), also update SUMMARY.md's link text for that page — it drives the sidebar nav, pagination, and relative link text, and won't update itself. Skip this only if the SUMMARY.md entry intentionally uses the quoted link-title override (`[Page main title](page.md "Page link title")`) to show something different on purpose.
 
 **Configuration:**
 
@@ -180,6 +181,19 @@ Reach for the change-request content-push path instead (MCP's `updateChangeReque
 - the change is small and targeted (a typo, one paragraph, one field) — opening a CR is proportionate, and a full clone/commit/push cycle isn't worth it for that.
 
 For anything larger — a new page tree, a multi-page rewrite, a migration — prefer Git Sync, even if that means pausing to confirm the repo is cloned locally first. Don't default to the change-request tool just because it's the first one that worked.
+
+#### Locked Git Sync spaces
+
+When the space API shows `editMode: "locked"` and `gitSync` is configured/active, the GitBook UI treats Git as the source of truth for that space. Before editing, read those fields (`GET /spaces/{spaceId}` or equivalent) so you pick the right path.
+
+**Rules for locked + synced spaces:**
+
+- **Prefer git push** for content and structure when you have a checkout of the synced repo (same preference as above). Change requests still work for small targeted edits when a checkout is unavailable.
+- **Do not call** `POST /spaces/{spaceId}/git/import` or `…/git/export` when Git Sync is already configured — those endpoints return **400** (`Cannot use git API when space has a git sync configured`). The managed sync webhook handles import/export.
+- **After `git push`**, wait for the webhook import to finish. Poll space Git Sync status (e.g. `GET /spaces/{spaceId}/git/info` → `operation.state` / `direction`) rather than assuming the published site updated instantly. See `references/git-sync-previews.md` for branch-preview timing.
+- **Space variables** live in `/.gitbook/vars.yaml` (or the Library UI). They are **not** settable via change-request content ops (`updateChangeRequestContent` has no variables change). Push `vars.yaml` through Git Sync (or edit in the UI).
+- **Expressions:** published `.md` keeps `<code class="expression">…</code>` as source and does **not** inline resolved values. To verify variables/expressions rendered, check published **HTML**, the site preview, or the GitBook UI — not the `.md` export alone.
+- **Bidirectional sync:** merging a change request can export back to the GitHub/GitLab repo. Pull (or keep a clean working tree) before more local commits so Git Sync export does not clobber WIP.
 
 #### Two links are mandatory whenever a change request is involved
 
