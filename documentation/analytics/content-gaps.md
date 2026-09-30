@@ -128,6 +128,15 @@ Click **Reject** when a gap is not worth filling — the question is out of scop
 Changing a gap’s status, including rejecting it, requires edit permissions on the site. Actions you can’t use appear disabled, with an explanation.
 {% endhint %}
 
+## Work with gaps from your own agent
+
+Everything on the Content gaps page is also available through the [GitBook API](https://gitbook.com/docs/developers/gitbook-api/api-reference) and the [GitBook MCP server](../docs-as-code/gitbook-mcp.md), so your own agent or script can work through gaps outside the GitBook app. You can:
+
+* List a site’s gaps, and read the evidence behind each one: the source records, the Ask AI questions, and the pages it affects.
+* Resolve, reject, or reopen a gap.
+* Ask GitBook Agent to fix a gap by generating a change request, as **Create change request(s)** does in the app.
+* Link a change request you wrote yourself to the gap it fixes, by setting its `siteFindingId`. When every change request linked to the gap is merged, the gap is resolved.
+
 ## Settings
 
 On the Content gaps page, click **Settings** to see which sources GitBook scans and what each one contributes.
