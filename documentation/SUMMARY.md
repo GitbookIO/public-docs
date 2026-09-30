@@ -181,9 +181,9 @@
 ## Analytics
 
 * [Site analytics](analytics/insights.md)
-* [Traffic](analytics/traffic.md)
-* [Agents & MCP](analytics/agents-and-mcp.md)
-* [AI Assistant](analytics/ai-insights.md)
+  * [Traffic](analytics/traffic.md)
+  * [Agents & MCP](analytics/agents-and-mcp.md)
+  * [AI Assistant](analytics/ai-insights.md)
 * [Broken links](analytics/broken-links.md)
 * [Content gaps](analytics/content-gaps.md)
 * [Guides](analytics/guides.md)
