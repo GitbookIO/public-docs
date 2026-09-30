@@ -94,7 +94,7 @@ Most documentation tools let you add all these things to a single website, with 
 
 These two options are important to help AI tools like ChatGPT and Google AI Overview understand the content of your documentation.
 
-llms.txt gives an overview of your entire site structure in an AI-friendly format, while Markdown support makes it easy for the AI to read each page. Some [documentation platforms](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/JajPcVBpwGpo9xnjyzpG) offer built-in support out of the box.
+llms.txt gives an overview of your entire site structure in an AI-friendly format, while Markdown support makes it easy for the AI to read each page. Some [documentation platforms](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/getting-started/llm-ready-docs) offer built-in support out of the box.
 
 ## Structure documentation at the page and section level
 

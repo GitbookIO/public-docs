@@ -166,7 +166,7 @@ That's a quick overview of how to set up, customize and publish your first docs 
 
 But there’s a lot more you can do with GitBook that we haven’t mentioned here — including:
 
-* **Proactive docs Agent** — [GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) can connect to third-party tools like Intercom and proactively suggest and implement docs changes, ready for your review.
+* **Proactive docs Agent** — [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/overview) can connect to third-party tools like Intercom and proactively suggest and implement docs changes, ready for your review.
 * **Write and review with AI** — The Agent can also write content for you based on a prompt, review your docs, match your style guide and optimize your content to improve readability.
 * **Continuous translations** — Use built-in tools to [translate your docs with AI](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations), and keep those translations updated whenever you edit your primary docs.
 * **Adaptive docs** — Create [a tailored docs experience for every user ](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/adaptive-content)based on individual user attributes, such as their plan, access level, location and more.

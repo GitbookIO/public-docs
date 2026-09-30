@@ -16,7 +16,7 @@ This allows you to read the feature flags users have access to in your product, 
 
 ### LaunchDarkly
 
-LaunchDarkly allows you to send feature flag access as claims through the [`launchdarkly-react-client-sdk`](https://launchdarkly.com/docs/sdk/client-side/react/react-web) and GitBook’s [`@gitbook/adaptive`](/broken/spaces/zq8ynchcecIscc4uulgN) package.
+LaunchDarkly allows you to send feature flag access as claims through the [`launchdarkly-react-client-sdk`](https://launchdarkly.com/docs/sdk/client-side/react/react-web) and GitBook’s [`@gitbook/adaptive`](https://www.npmjs.com/package/@gitbook/adaptive) package.
 
 If you’re using LaunchDarkly feature flags in your product already, chances are you already have this package configured.
 

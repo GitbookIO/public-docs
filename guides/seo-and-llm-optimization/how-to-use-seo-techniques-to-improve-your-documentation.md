@@ -23,7 +23,7 @@ This guide explains **documentation SEO**. You’ll learn how to make product do
 
 ## Why documentation SEO matters (and why that’s a good thing) <a href="#documentation-needs-seo-and-that-s-a-good-thing" id="documentation-needs-seo-and-that-s-a-good-thing"></a>
 
-Sorry to break it to you, but [documentation SEO](/broken/spaces/Ua3kTfM3iWAoECzM0u90/pages/mODjarRgMfqCquxgNTvc) is part of the job. Alongside educating and instructing users, your docs also play an important role in your company’s SEO.
+Sorry to break it to you, but [documentation SEO](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/seo) is part of the job. Alongside educating and instructing users, your docs also play an important role in your company’s SEO.
 
 And here’s why: your documentation is one of the largest bodies of text available for search engines to index. It's just as likely as your marketing website to answer someone’s Google or Bing query.
 

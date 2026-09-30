@@ -7,7 +7,7 @@ description: >-
 
 # 7 ways teams are using GitBook Agent to streamline their docs workflows (with prompt examples)
 
-[GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) unlocks all kinds of abilities for documentation maintainers — from bulk content operations to automated housekeeping tasks.
+[GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/overview) unlocks all kinds of abilities for documentation maintainers — from bulk content operations to automated housekeeping tasks.
 
 This post highlights some of the most practical and creative ways teams (including us!) are using the Agent inside their documentation spaces — with real prompts you can try yourself.
 
@@ -69,7 +69,7 @@ The Agent analyzes layout and structure — then recreates it using native GitBo
 
 Documentation is always a work in progress. Pages get renamed, moved, or deleted — and broken links inevitably follow.&#x20;
 
-While [GitBook flags broken links](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/V297D65uuYU7RDPKpkSV) in the UI, identifying every occurrence across a large space can be time-consuming. The Agent can find and fix broken links for you:
+While GitBook flags broken links in the UI, identifying every occurrence across a large space can be time-consuming. The Agent can find and fix broken links for you:
 
 > Check all pages in my space for broken relative links. Give me a list organized by destination page, showing: the broken destination page and all occurrences (which pages the broken links appear on).
 
@@ -99,6 +99,6 @@ It’s a small improvement — but across hundreds of pages, it saves time and c
 
 ***
 
-These are just a few of the ways teams are already [using GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2). Tasks that used to require external tooling, scripting, or manual cleanup can now happen directly inside your documentation space.
+These are just a few of the ways teams are already [using GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/overview). Tasks that used to require external tooling, scripting, or manual cleanup can now happen directly inside your documentation space.
 
 We’re excited to see what you build next!
