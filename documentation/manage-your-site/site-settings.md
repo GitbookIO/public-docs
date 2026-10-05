@@ -12,7 +12,7 @@ description: Customize and edit settings across your published site
 
 <summary>Site title</summary>
 
-Change the name of your site, if you don't have a custom logo this is the name that your site visitors will see.
+Change the name of your site. If you don't have a custom logo, this is the name that your site visitors will see.
 
 </details>
 
@@ -20,11 +20,11 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <summary>Analytics cookie</summary>
 
-If you want to use GitBook’s [site analytics](../analytics/insights/), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
+If you want to use GitBook’s [site analytics](../analytics/insights/), your site will use cookies to identify returning visitors and gather the data needed to view your analytics. You can choose to disable these cookies, but it will prevent you from using site analytics.\
 \
 The cookies notice appears when your site has analytics enabled through an integration, especially **Google Analytics**.
 
-To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**
+To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**.
 
 Disabling these cookies also turns off [site analytics](../analytics/insights/) for that site.
 
@@ -128,7 +128,7 @@ Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). Learn more
 
 <summary>PDF export <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
+Let your visitors export your site as a PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
 
 </details>
 
@@ -144,7 +144,7 @@ You can review the results of these ratings by opening [**Analyze → Traffic**]
 
 ### AI & MCP
 
-AI settings are available on different plans. The search box placement is available on Premium and Ultimate site plans. The sidebar placement and MCP connectors are available on Ultimate.
+AI settings are available on different plans. The search box placement (AI Assistant Ask) is available on Essential and Ultimate site plans. The sidebar placement (AI Assistant Chat) and MCP connectors are available on Ultimate. AI features use AI credits.
 
 <details>
 
@@ -158,7 +158,7 @@ Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-f
 
 <summary>Appearance <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Choose where the Assistant appears using **Placement** — **Sidebar** for the full chat experience, available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar, available on Premium and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
+Use **Placement** to choose where the Assistant appears: **Sidebar** for the full chat experience (AI Assistant Chat), available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar (AI Assistant Ask), available on Essential and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 
 </details>
 

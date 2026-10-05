@@ -16,7 +16,7 @@ You can set any title you choose for your site. Note: this setting will only aff
 
 ### Icon
 
-You can set an emoji, or upload an icon of your own. The icon you set in the **Customize** menu will be used as the favicon for your docs site. Changes can take a few minutes to appear on your published docs — if you don't see the new favicon, your browser may have cached the old one, so try a different browser.
+You can set an emoji, or upload an icon of your own. The icon you set in the **Customize** menu will be used as the favicon for your docs site. Changes can take a few minutes to appear on your published docs. If you don't see the new favicon, your browser may have cached the old one, so try a different browser.
 
 {% hint style="info" %}
 This setting will only affect the icon that displays _in the published documentation_. If you want to edit the icon used within the GitBook app, you can do so when editing content in the section itself.
@@ -24,7 +24,7 @@ This setting will only affect the icon that displays _in the published documenta
 
 ### Custom logo <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
-You can replace _both_ the published site’s title and icon with a custom logo so that your documentation better reflects your own branding — and you can upload two versions: one for light mode, and one for dark mode.
+You can replace _both_ the published site’s title and icon with a custom logo so that your documentation better reflects your own branding. You can upload two versions: one for light mode and one for dark mode.
 
 {% hint style="info" %}
 **What’s the difference between the icon and logo options?**
@@ -46,7 +46,7 @@ _Clean is available for all sites and is the default theme._
 
 ### Muted
 
-A sophisticated theme with decreased contrast between elements. The site background is more pronounced and blends in with the foreground, and some elements feature an inverted look — all based on your primary color (or tint).
+A sophisticated theme with decreased contrast between elements. The site background is more pronounced and blends in with the foreground, and some elements feature an inverted look, all based on your primary color (or tint).
 
 _Muted is available for all sites._
 
@@ -54,13 +54,13 @@ _Muted is available for all sites._
 
 A high‑impact theme with prominent colors and strong contrasts. Your primary color (or tint) will be used for the header of the site, and other highlighted elements like icons are colored along with it.
 
-_Bold is only available for Premium or Ultimate sites._
+_Bold is only available for Essential or Ultimate sites._
 
 ### Gradient <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 A trendsetting theme featuring a gradient background and splashes of color. The gradient and highlighted elements will be colored by your primary color (or tint).
 
-_Gradient is only available for Premium or Ultimate sites._
+_Gradient is only available for Essential or Ultimate sites._
 
 ## Colors
 
@@ -74,7 +74,7 @@ GitBook automatically adjusts colors on individual elements for readability if t
 
 ### Tint color
 
-Your site’s tint color will subtly change the color of all text and icons across your entire site — including header links, icon color, and UI elements like the **Ask or search** bar.
+Your site’s tint color will subtly change the color of all text and icons across your entire site, including header links, icon color, and UI elements like the **Ask or search** bar.
 
 The tint color will _not_ affect navigational elements like links and buttons, which always use the primary color.
 
@@ -115,7 +115,7 @@ The themes list includes:
 * **Adaptive themes** – These standard light and dark mode themes use your site’s color palette to match your brand.
 * [**Shiki**](https://shiki.style/themes) **themes** – Choose from more than 60 theme presets in both light and dark modes.
 
-You can choose individual code themes for your docs’ light and dark mode. And you can use any light or dark color scheme in any mode — e.g. a dark code theme when your docs are in light mode.
+You can choose individual code themes for your docs’ light and dark mode. And you can use any light or dark color scheme in any mode, such as a dark code theme when your docs are in light mode.
 
 By default, your chosen theme will apply to both code blocks and OpenAPI blocks. If you want to set a different theme for OpenAPI blocks, click the **Customize per block type** <picture><source srcset="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2F6uYUpJto7WTkJf9BUPHv%2Fsettings%20-%20dark.svg?alt=media&#x26;token=bf52415f-e999-43a2-9a1a-c85176a014cd" media="(prefers-color-scheme: dark)"><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FwkBqgOPry9HAcW4cxJk0%2Fsettings.svg?alt=media&#x26;token=67bdbb00-ebf3-4a2d-9df8-0c822406f71c" alt=""></picture> button.
 
@@ -189,8 +189,8 @@ Choose between two link designs:
 
 Choose the background style for the sidebar container. The color is derived from your selected theme.
 
-There are two options — **Default** and **Filled** — each with a visual representation of how they’ll change your table of contents.
+There are two options, **Default** and **Filled**. Each shows a preview of how it changes your table of contents.
 
 ### List style
 
-Choose the style for the sidebar list and its selected items. There are three options — **Default**, **Pill** and **Line** — each with a visual representation showing how they’ll change your table of contents.
+Choose the style for the sidebar list and its selected items. There are three options, **Default**, **Pill**, and **Line**. Each shows a preview of how it changes your table of contents.

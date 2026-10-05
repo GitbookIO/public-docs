@@ -1,13 +1,15 @@
 # Billing policy
 
-This policy covers GitBook’s current plans on [Plans](./).
+This policy covers GitBook’s current [plans](./).
 
 Our billing model combines site pricing and member pricing:
 
 * **Basic** costs **$0 per site per month** and includes **one member**.
-* **Premium** costs **$65 per site per month** plus **$12 per member per month**.
+* **Essential** costs **$65 per site per month** plus **$12 per member per month**.
 * **Ultimate** costs **$249 per site per month** plus **$12 per member per month**.
 * **Enterprise** uses custom pricing and billing terms.
+
+AI features use AI credits. Essential and Ultimate sites include a monthly credit allowance, and you can add a monthly credit pack if you need more.
 
 For paid self-serve plans, we bill your site plan and current member count when the plan starts and when it renews.
 
@@ -25,7 +27,7 @@ Review our [terms of service](https://gitbook.com/docs/policies/terms), especial
 
 ## Pro rata pricing example
 
-Let’s say you start **Premium** on **April 7** with **six members** and monthly billing.
+Let’s say you start **Essential** on **April 7** with **six members** and monthly billing.
 
 Your monthly price is **$65** for the site plus **6 × $12** for members. That totals **$137 per month**.
 
@@ -35,7 +37,7 @@ On **April 27**, you remove one member, bringing the total to seven. With **10 d
 
 On **May 7**, your next invoice includes:
 
-1. **$149** for the new billing period. This is **$65** for Premium and **7 × $12** for members.
+1. **$149** for the new billing period. This is **$65** for Essential and **7 × $12** for members.
 2. A **$16** prorated charge for the two members you added on April 17.
 3. A **-$4** prorated credit for the member you removed on April 27.
 
@@ -56,6 +58,7 @@ For paid self-serve plans, we charge your payment method on file in these cases:
 1. When you start a paid plan.
 2. On your monthly or annual renewal date. This invoice can include your current site plan, your current member count, and any prorated adjustments from the previous period.
 3. If you pay annually and your subscription increases during the term, we bill that increase through an annual true-up. This can be issued on an additional invoice before renewal.
+4. Every month for AI credit packs and AI usage, including on annual plans. In your renewal month, these appear on the same invoice as your site and member charges.
 
 ### Invoices
 

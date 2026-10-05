@@ -1,7 +1,7 @@
 ---
 description: >-
   AI Assistant gives users accurate, contextual answers drawn from your entire
-  knowledge base — not just your docs
+  knowledge base, not just your docs
 ---
 
 # AI Assistant
@@ -13,6 +13,8 @@ AI Assistant gives your users fast, accurate answers about your documentation us
 Think of it as a product expert available to all of your users, in the places and times they need it most.
 
 The Assistant uses agentic retrieval to understand the context of queries based on the user's current page, previously-read pages, and previous conversations.
+
+AI Assistant uses AI credits. You're only charged credits for relevant answers.
 
 Try asking the Assistant a question in the box below:
 
@@ -53,8 +55,8 @@ If you’re embedding the Assistant in your product, you can also dynamically se
 
 Under **Appearance**, set **Placement** to choose where readers reach the Assistant:
 
-* **Sidebar** (default) — the full chat experience, available on Ultimate site plans
-* **Search box** — inline answers alongside keyword search results, available on Premium and Ultimate site plans
+* **Sidebar** (default): AI Assistant Chat, the full chat experience. Available on Ultimate site plans.
+* **Search box**: AI Assistant Ask, inline answers alongside keyword search results. Available on Essential and Ultimate site plans.
 
 {% hint style="info" %}
 The Assistant greeting applies to the sidebar placement only, so it's hidden while **Placement** is set to **Search box**.
@@ -80,9 +82,9 @@ Users can access GitBook Assistant in three ways:
 
 With **Placement** set to **Search box**, users can ask a question directly in the **Ask or search…** bar at the top of the page, alongside the keyword results.
 
-They can open this by clicking it directly, or by pressing <kbd>⌘</kbd> + <kbd>K</kbd> on a Mac or <kbd>Ctrl</kbd> + <kbd>K</kbd> on a PC.
+They can open this by clicking it directly, or by pressing <kbd>⌘</kbd> + <kbd>K</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>K</kbd> on PC.
 
-As well as a summarized answer, below your users will also see an expandable section that shows the sources that the Assistant used to create its answer, plus related questions you can click as a follow-up.
+Along with a summarized answer, users see an expandable section that shows the sources the Assistant used to create its answer, plus related questions they can click as a follow-up.
 
 The Assistant answers from the content of your docs site, and from any sources you've added through [connections](connections.md).
 
