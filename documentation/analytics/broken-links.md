@@ -4,6 +4,8 @@ description: >-
   suggested redirects
 tags:
   - beta
+  - tag: new
+    primary: true
 ---
 
 # Broken links

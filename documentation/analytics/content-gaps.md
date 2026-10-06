@@ -4,6 +4,8 @@ description: >-
   with GitBook Agent
 tags:
   - beta
+  - tag: new
+    primary: true
 ---
 
 # Content gaps
