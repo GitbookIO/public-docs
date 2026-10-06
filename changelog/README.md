@@ -27,6 +27,69 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-10-06" tags="new-releases" %}
+## Introducing the new quality monitoring layer for your docs
+
+<figure><img src=".gitbook/assets/Quality launch - blog (2).png" alt="A screenshot showing the new Analyze and Improve sections in the GitBook app sidebar"><figcaption></figcaption></figure>
+
+We’ve just added new features that help you monitor the quality of your docs, and they’re available now from your site’s sidebar. The **Improve** section brings together the checks GitBook runs on your published docs. You can see what’s broken, missing, or off-style in one place. **Analyze** holds your rebuilt analytics reports.
+
+Here’s what’s in this release, available now for all Ultimate sites and Enterprise customers:
+
+* **Content gaps:** Shows the questions your docs don’t answer yet, ranked by severity, so GitBook Agent can fill them.
+* **Broken links:** Finds the URLs visitors reach that return a `404` and suggests one-click redirects.
+* **Style guide checks** are available now for up to three spaces at a time.
+* **Analyze** has a rebuilt report for each audience, with comparisons against earlier periods.
+
+### Content gaps
+
+<figure><img src=".gitbook/assets/content-gaps@2x.png" alt="A screenshot of Content gaps in GitBook"><figcaption></figcaption></figure>
+
+Content gaps shows where your docs fall short, based on what people ask. Once a day, GitBook compares visitor questions, support tickets, forum posts, and other records from your connected sources against your published content.
+
+Each gap describes the problem, the evidence behind it, and a recommendation. GitBook ranks gaps by severity. When you’re ready to fix one, GitBook Agent can open a change request that fills it.
+
+It’s a direct way to turn recurring support questions into docs before they create more tickets.
+
+Learn more in [the Content gaps docs](https://gitbook.com/docs/analytics/content-gaps).
+
+### Broken links
+
+<figure><img src=".gitbook/assets/broken-links.png" alt="A screenshot of Broken links in GitBook"><figcaption></figcaption></figure>
+
+Broken links finds the URLs on your published site that visitors reach but that return a `404`. For each one, GitBook works out which page the visitor most likely wanted and suggests a redirect you can enable in one click.
+
+GitBook ranks suggestions by traffic, so you can fix the URLs that matter most first. When a whole section moves, GitBook groups its URLs under one wildcard redirect. Once a redirect goes live or the page returns, the finding resolves automatically.
+
+Any URLs GitBook can’t match stay in the list, alongside the reason and the pages GitBook Agent considered.&#x20;
+
+Learn more in [the Broken links docs](https://gitbook.com/docs/analytics/broken-links).
+
+### Style guide checks
+
+<figure><img src=".gitbook/assets/style_guide_setup@2x.png" alt="A screenshot of style guide checks in GitBook"><figcaption></figcaption></figure>
+
+You can now check an entire section of your docs site against your style guide to make sure all your content is following your rules. This is great for regular audits, or when you add a new rule to your guide.
+
+Start a check from your [style guide](https://gitbook.com/docs/create-content/styleguide) for up to three spaces at a time. GitBook Agent opens one change request per space with the fixes it finds.
+
+The **Checks** tab shows each space’s check status, when it last ran, and whether your style guide changed since.
+
+Learn more in [the style guide docs](https://gitbook.com/docs/create-content/styleguide).
+
+### Site analytics, rebuilt around your audiences
+
+Our improved site analytics section now has a report for each audience:
+
+* **Traffic:** The people reading your site, including page feedback and search.
+* **Agents & MCP:** The large language models (LLMs), coding agents, and crawlers that read your site through Markdown, `llms.txt`, and your site’s MCP server.
+* **AI Assistant:** The questions that visitors ask and how well your content answers them.
+
+Every report shares the same filters and shows today’s data as it arrives. You can compare any report with the previous period or the same period last year. Stat tiles show the change alongside the earlier figure, while charts draw the earlier period under each series. Breakdown rows show a trend arrow.
+
+Learn more in [the analytics docs](https://gitbook.com/docs/analytics/insights).
+{% endupdate %}
+
 {% update date="2026-09-30" tags="new-releases,improvements,fixes" %}
 ## GitBook Agent can split big tasks across parallel agents
 
