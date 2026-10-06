@@ -10,5 +10,4 @@ For full details of each plan, see [Plans](../plans/). For how pro-rata charges 
 
 Browse billing topics:
 
-<table data-view="cards"><thead><tr><th>Topic</th><th data-card-target data-type="content-ref">Learn more</th></tr></thead><tbody><tr><td>Free trial</td><td><a href="free-trial.md">free-trial.md</a></td></tr><tr><td>Payments and invoices</td><td><a href="payments-and-invoices.md">payments-and-invoices.md</a></td></tr><tr><td>Site and member costs</td><td><a href="plan-and-member-costs.md">plan-and-member-costs.md</a></td></tr></tbody></table>
-
+<table data-view="cards"><thead><tr><th>Topic</th><th data-card-target data-type="content-ref">Learn more</th></tr></thead><tbody><tr><td>Free trial</td><td><a href="free-trial.md">free-trial.md</a></td></tr><tr><td>Payments and invoices</td><td><a href="payments-and-invoices.md">payments-and-invoices.md</a></td></tr><tr><td>Site and member costs</td><td><a href="plan-and-member-costs.md">plan-and-member-costs.md</a></td></tr><tr><td>AI credits and usage</td><td><a href="ai-credits-and-usage.md">ai-credits-and-usage.md</a></td></tr></tbody></table>

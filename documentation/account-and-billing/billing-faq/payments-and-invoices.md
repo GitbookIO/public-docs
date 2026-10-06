@@ -37,7 +37,7 @@ If you believe you were charged in error, [contact support](mailto:support@gitbo
 
 This can happen if you add members after starting an annual plan. Each member counts as a paid seat, so added seats create prorated annual-plan adjustments. Depending on the amount due and the timing of the change, GitBook might include those charges in a true-up or send an additional invoice straight away. See the [Billing policy](../plans/billing-policy.md) for the current rules.
 
-AI credit packs and AI usage are also billed monthly, even on an annual plan.
+AI credit packs and AI usage are also billed monthly, even on an annual plan. See [AI credits](ai-credits-and-usage.md) for details.
 
 ### Why don’t add-on flat fees appear on my bill immediately?
 

@@ -20,7 +20,7 @@ You can choose what appearance you would like your link to have—normal link, p
 
 Use `localizedTitle` to localize header link and button titles, alongside site, section, and section group titles.
 
-### Announcement <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Announcement <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 Toggle this option on to add an announcement banner to the top of your published site. You can add a message and optionally include a link and call to action, which will appear after your message in the banner.
 
@@ -30,7 +30,7 @@ You can also change the announcement style using the same options as hint blocks
 
 Control the display of the “previous” and “next” buttons that appear at the bottom of each page in your section. You can also set this feature for specific pages.
 
-### Footer <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Footer <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 <figure><img src="../../.gitbook/assets/25_12_10_footer@2x.png" alt="A GitBook screenshot showing footer customization settings"><figcaption></figcaption></figure>
 

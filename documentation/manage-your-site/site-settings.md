@@ -126,7 +126,7 @@ Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). Learn more
 
 <details>
 
-<summary>PDF export <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>PDF export <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Let your visitors export your site as a PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
 
@@ -134,7 +134,7 @@ Let your visitors export your site as a PDF. See [pdf-export.md](../publish/pdf-
 
 <details>
 
-<summary>Page ratings <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>Page ratings <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
@@ -148,7 +148,7 @@ AI settings are available on different plans. The search box placement (AI Assis
 
 <details>
 
-<summary>AI Assistant <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>AI Assistant <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 
@@ -156,7 +156,7 @@ Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-f
 
 <details>
 
-<summary>Appearance <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>Appearance <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Use **Placement** to choose where the Assistant appears: **Sidebar** for the full chat experience (AI Assistant Chat), available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar (AI Assistant Ask), available on Essential and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 

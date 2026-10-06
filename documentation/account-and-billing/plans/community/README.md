@@ -17,7 +17,7 @@ The Community plan includes all Ultimate plan features except SAML SSO.
 {% hint style="info" %}
 If you won’t need to collaborate with others and/or can use [Git Sync](../../../docs-as-code/git-sync/) to collaborate via GitHub and GitLab then your needs should be covered by our Free plan!
 
-If you want to publish a docs site for free too, you can choose from either a Basic site with limited features, or [a Sponsored site](sponsored-site-plan.md) which has more features and earns you funding through small, relevant ads. See [our open source page](https://www.gitbook.com/solutions/open-source) for more details on these plans.
+If you want to publish a docs site for free too, you can choose from either a Free site with limited features, or [a Sponsored site](sponsored-site-plan.md) which has more features and earns you funding through small, relevant ads. See [our open source page](https://www.gitbook.com/solutions/open-source) for more details on these plans.
 {% endhint %}
 
 If you will **need** to collaborate with others, then please continue reading.
@@ -70,7 +70,7 @@ Your Git repository **must**:
 * You _may_ be a small student group or a teacher organizing a course for a small group of students.
 
 {% hint style="info" %}
-Individual students who want to keep their personal and course notes should use our **Free** plan. This plan provides unlimited private content at no cost, without needing to apply for the Community plan, and if you want to publish docs sites you can select a Basic or Sponsored site for free.
+Individual students who want to keep their personal and course notes should use our **Free** plan. This plan provides unlimited private content at no cost, without needing to apply for the Community plan, and if you want to publish docs sites you can choose a Free or Sponsored site at no cost.
 {% endhint %}
 
 ## How to apply

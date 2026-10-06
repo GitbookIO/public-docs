@@ -22,7 +22,7 @@ You can set an emoji, or upload an icon of your own. The icon you set in the **C
 This setting will only affect the icon that displays _in the published documentation_. If you want to edit the icon used within the GitBook app, you can do so when editing content in the section itself.
 {% endhint %}
 
-### Custom logo <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Custom logo <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 You can replace _both_ the published site’s title and icon with a custom logo so that your documentation better reflects your own branding. You can upload two versions: one for light mode and one for dark mode.
 
@@ -50,13 +50,13 @@ A sophisticated theme with decreased contrast between elements. The site backgro
 
 _Muted is available for all sites._
 
-### Bold <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Bold <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 A high‑impact theme with prominent colors and strong contrasts. Your primary color (or tint) will be used for the header of the site, and other highlighted elements like icons are colored along with it.
 
 _Bold is only available for Essential or Ultimate sites._
 
-### Gradient <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Gradient <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 A trendsetting theme featuring a gradient background and splashes of color. The gradient and highlighted elements will be colored by your primary color (or tint).
 
@@ -96,7 +96,7 @@ A couple of things to keep in mind:
 
 </details>
 
-### Semantic colors <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Semantic colors <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 Semantic colors are applied to hint blocks within your published content, and can also be applied to code blocks.
 
@@ -106,7 +106,7 @@ You can change the background color of each hint style; these changes will be re
 **Note:** Hint blocks in the GitBook editor will always remain in their standard colors and will not match your site’s semantic colors.
 {% endhint %}
 
-### Code theme <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Code theme <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 Code themes change the appearance of code and API blocks in your published documentation.
 
@@ -135,7 +135,7 @@ _Note: to change the theme within the GitBook app, go to your Settings menu at t
 
 <figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FB8hReiw1xjsXedx7kM2J%2FSite%20styles%402x.png?alt=media&#x26;token=99b1f18b-d1f3-42e4-b11f-4b7bee1c4ceb" alt="A GitBook screenshot showing site style settings"><figcaption></figcaption></figure>
 
-### Font family <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Font family <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 Choose a standard and monospace font family for your published content from a curated list of popular options.
 
@@ -157,7 +157,7 @@ Upload your own standard and monospace fonts to align your published content wit
 
 GitBook currently supports `.woff` and `.woff2`. For other formats, please contact [support@gitbook.com](mailto:support@gitbook.com).
 
-### Icons <picture><source srcset="../../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
+### Icons <picture><source srcset="../../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture>
 
 When using page icons, set the weight and style of the displayed icons here.
 

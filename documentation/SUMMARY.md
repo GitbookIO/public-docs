@@ -196,6 +196,7 @@
   * [Billing policy](account-and-billing/plans/billing-policy.md)
   * [Legacy pricing](account-and-billing/plans/legacy-plans.md)
   * [Subscription cancellations](account-and-billing/plans/cancelling-a-plan.md)
+  * [AI credits](account-and-billing/plans/ai-credits.md)
 * [Personal settings](account-and-billing/account-settings.md)
 * [Organization settings](account-and-billing/organization-settings.md)
 * [SSO & SAML](account-and-billing/sso-and-saml/README.md)
@@ -204,6 +205,7 @@
   * [Free trials](account-and-billing/billing-faq/free-trial.md)
   * [Payments and invoices](account-and-billing/billing-faq/payments-and-invoices.md)
   * [Site and member costs](account-and-billing/billing-faq/plan-and-member-costs.md)
+  * [AI credits and usage](account-and-billing/billing-faq/ai-credits-and-usage.md)
 
 ## Reference
 

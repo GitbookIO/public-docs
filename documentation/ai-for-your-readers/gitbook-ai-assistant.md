@@ -14,7 +14,7 @@ Think of it as a product expert available to all of your users, in the places an
 
 The Assistant uses agentic retrieval to understand the context of queries based on the user's current page, previously-read pages, and previous conversations.
 
-AI Assistant uses AI credits. You're only charged credits for relevant answers.
+AI Assistant uses [AI credits](../account-and-billing/plans/ai-credits.md). You're only charged credits for relevant answers.
 
 Try asking the Assistant a question in the box below:
 
