@@ -20,6 +20,11 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
+tags:
+  - tag: new
+    primary: true
 ---
 
 # Style guide
