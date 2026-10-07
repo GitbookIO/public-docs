@@ -76,10 +76,6 @@ Reviewers have all the same permissions as an editor however, they can also merg
 
 Creators are essentially content-level admins. They have all the same permissions as a reviewer, however they can also create and delete spaces, collections and sites, merge change requests and manage permissions at a content level.
 
-{% hint style="info" %}
-If a creator is also a creator or admin in another GitBook organization, they can [move content between organizations](../../create-content/content-structure/space.md#move-a-space).
-{% endhint %}
-
 </details>
 
 <details>
@@ -87,10 +83,6 @@ If a creator is also a creator or admin in another GitBook organization, they ca
 <summary>Admin</summary>
 
 An admin is like a super-user for your organization — they have full access! Set someone as an admin if you’re comfortable with them making changes that can impact billing, managing members, and generally just being in control of all areas of the organization.
-
-{% hint style="info" %}
-If an admin is also a creator or admin in another GitBook organization, they can [move content between organizations](../../create-content/content-structure/space.md#move-a-space).
-{% endhint %}
 
 </details>
 
