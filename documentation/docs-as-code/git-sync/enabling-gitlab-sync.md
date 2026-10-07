@@ -6,6 +6,14 @@ description: Sync your GitLab repo with GitBook
 
 This guide will take you through setting up your GitBook site with a repo on GitLab.
 
+{% hint style="info" %}
+**Before you start:**
+
+* Create a GitLab Personal access token with the `api`, `read_repository`, and `write_repository` scopes. If the token has a role, it must be `Maintainer` or `Admin`.
+* GitBook connects to GitLab from a fixed set of IP addresses. If your GitLab instance only accepts traffic from approved IPs, you must allowlist the [Git Sync IP addresses](README.md). IP allowlisting is available only on the Enterprise plan.
+* The setup steps below don't include a field for a custom GitLab URL. If setup fails with `Failed to update Git Sync installation`, see [Troubleshooting](troubleshooting.md).
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Git Sync - GitLab.png" alt="A GitBook screenshot showing GitLab Sync configuration options"><figcaption><p>GitLab Sync configuration options.</p></figcaption></figure>
 
 {% stepper %}
