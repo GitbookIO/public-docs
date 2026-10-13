@@ -83,7 +83,7 @@ tags:
 
 ### Build rich descriptions with GitBook Blocks
 
-Tag description fields support GitBook markdown, including [advanced blocks](../../blocks/) like tabs:
+Tag description fields support GitBook Markdown, including [advanced blocks](../../blocks/) like tabs:
 
 {% code title="openapi.yaml" %}
 ```yaml
@@ -111,7 +111,7 @@ tags:
 
 ### Highlight schemas
 
-You can highlight a schema in a GitBook description by using GitBook markdown. Here is an example that highlights the “Pet” schema from the “petstore” specification:
+You can highlight a schema in a GitBook description by using GitBook Markdown. Here is an example that highlights the “Pet” schema from the “petstore” specification:
 
 {% code title="openapi.yaml" %}
 ```yaml

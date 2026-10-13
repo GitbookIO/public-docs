@@ -26,7 +26,7 @@ GitBook supports imports from docs websites or files in the following formats:
 * HTML (`.html`)
 * Microsoft Word (`.docx`)
 
-GitBook also support imports from:
+GitBook also supports imports from:
 
 * Confluence
 * Notion
@@ -60,7 +60,7 @@ GitBook imports content from various sources, but differences in product feature
 GitBook currently has the following limits for imported content:
 
 * The maximum number of pages that can be uploaded in a single import is **20**.
-* The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
+* The maximum number of files (images, etc.) that can be uploaded in a single import is **20**.
 
 GitBook can't increase these import limits. To import more content at once, use [Git Sync](../docs-as-code/git-sync/), which supports up to 5,000 Markdown pages.
 
@@ -92,7 +92,7 @@ When setting up your GitBook site, it’s crucial to organize your content in yo
 {% step %}
 **Set up sections and configure Git Sync**
 
-To organize your content, create one or more sections in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those sections. You’ll need to synchronize your section with the folder or repository you set up in the previous step.
+To organize your content, create one or more sections in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure them for those sections. You’ll need to synchronize your section with the folder or repository you set up in the previous step.
 {% endstep %}
 
 {% step %}

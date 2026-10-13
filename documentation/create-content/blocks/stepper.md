@@ -4,7 +4,7 @@ description: "Add a step-by-step guide to a page —\_perfect for guides, walkth
 
 # Stepper
 
-Stepper blocks let you break down a tutorial or guide into separate, but clearly linked steps. Each step can contain multiple different blocks, allowing you to add detailed information.
+Stepper blocks let you break down a tutorial or guide into separate but clearly linked steps. Each step can contain multiple different blocks, allowing you to add detailed information.
 
 ### Example
 

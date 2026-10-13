@@ -20,19 +20,19 @@ If you want to link to a particular anchor from a page within your section, you 
 
 #### Edit an anchor
 
-By default, the anchor link will be identical to the text in your header. If you plan to link to that URL outside of GitBook, changing the header in future will break the anchor link. The link will then take visitors to the top of the page, rather than the anchor location.
+By default, the anchor link will be identical to the text in your heading. If you plan to link to that URL outside of GitBook, changing the heading in the future will break the anchor link. The link will then take visitors to the top of the page, rather than the anchor location.
 
-To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> for the header, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the header itself.
+To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> for the heading, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the heading itself.
 
 ### Representation in Markdown
 
-GitBook generates SEO optimized pages, meaning page titles in GitBook are automatically represented in markdown as a first level heading:
+GitBook generates SEO-optimized pages, meaning page titles in GitBook are automatically represented in markdown as a first-level heading:
 
 ```markdown
 # I'm a page title
 ```
 
-This means that if you [sync your content with Git](../../docs-as-code/git-sync/), page headers added through the editor will be represented as one level lower:
+This means that if you [sync your content with Git](../../docs-as-code/git-sync/), headings added through the editor will be represented as one level lower:
 
 {% code overflow="wrap" %}
 ```markdown

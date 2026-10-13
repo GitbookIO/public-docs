@@ -13,7 +13,7 @@ tags:
 Only [organization admins](../collaborate/member-management/roles.md#admin) can create and access translations, as it’s [a billable feature](translations.md#pricing).
 {% endhint %}
 
-Auto translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a section as a translation of another, and let GitBook Agent handle the rest.
+Auto-translations make it easy to keep your documentation up-to-date in multiple languages, with minimal manual effort. You can create a section as a translation of another, and let GitBook Agent handle the rest.
 
 <figure><img src="../.gitbook/assets/25_12_10_create_translation@2x.png" alt=""><figcaption></figcaption></figure>
 
@@ -27,7 +27,7 @@ Auto translations make it easy to keep your documentation up-to-date in multiple
 Page slugs in auto-translated sections may change unless the page has a fixed slug. To keep URLs stable across languages, set a fixed slug before translating. To update a slug, see [How can I change the slug in the URL?](https://app.gitbook.com/s/Ua3kTfM3iWAoECzM0u90/published-documentation/custom-domains/how-can-i-change-the-slug-in-the-url)
 {% endhint %}
 
-## Set up an auto translation
+## Set up an auto-translation
 
 To translate a section to a new language, go back to your organization **Home** and click **Translations** in the sidebar, then click **Create translation**.
 
@@ -65,7 +65,7 @@ For example, if your source language is English and your glossary includes `SSO`
 
 ## Add a translation to a variant
 
-After creating a translation, you’ll be able to add it to published docs site as a [variant](../manage-your-site/site-structure/variants.md). This will allow users to toggle between languages in the upper right corner when viewing your main docs site.
+After creating a translation, you’ll be able to add it to a published docs site as a [variant](../manage-your-site/site-structure/variants.md). This will allow users to toggle between languages in the upper right corner when viewing your main docs site.
 
 {% hint style="info" %}
 To provide the best experience for your users, you’re able to set the default language of a variant when setting it in your settings.
@@ -113,7 +113,7 @@ You currently can't edit translations.
 
 As translations are done as a pure transformation of the source content, we can't reconcile potential edits made on the translation result with a new translation.
 
-To workaround it, we recommend the following flow:
+To work around it, we recommend the following flow:
 
 * Use the glossary to define specific translations that you want the AI to use
 * Use the custom instructions to iterate on the output
@@ -134,7 +134,7 @@ You should only create **one translation workflow per language** of any given so
 
 * Translations do not localize UI elements in your variant automatically. Open **Customize** in the site sidebar to [localize the interface](../manage-your-site/customization/extra-configuration.md#localize-user-interface) for a [specific variant](../manage-your-site/customization/#customizing-sites-with-multiple-sections-or-variants).
   * This includes user-input customizations, such as announcement banners.
-* Translations cannot add extra content to the page - like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated section to note this, or the [announcement banner](../manage-your-site/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
+* Translations cannot add extra content to the page — like a hint or a banner noting that a page was translated by AI. Consider adding an extra page in the translated section to note this, or the [announcement banner](../manage-your-site/customization/layout-and-structure.md#announcement-premium-and-ultimate) in your site variant.
 * Changing the glossary triggers a full re-translation of all pages, which can increase processing time and cost. There is no partial re-translation based on glossary usage at this time.
 
 </details>

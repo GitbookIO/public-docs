@@ -39,7 +39,7 @@ Depending on the data you want to display, you can set different data types for 
 * **Text:** A standard text column, with standard formatting support.
 * **Number:** A number column, with or without floating digits.
 * **Checkbox:** A checkbox on each line that can be checked or unchecked.
-* **Select:** You can select data from a list of options that you can define by opening the **Columns options** menu and choosing **Manage options**. This can be single-choice or multiple-choice.
+* **Select:** You can select data from a list of options that you can define by opening the **Column options** menu and choosing **Manage options**. This can be single-choice or multiple-choice.
 * **Users:** You can add the name and avatar of a member of your organization. This can be single-choice or multiple-choice.
 * **Files:** Reference a file in the section. You can upload new files when populating cells in the column.
 * **Rating:** A star rating. You can configure the maximum rating by opening the **Column options** menu and choosing **Max**.

@@ -130,7 +130,7 @@ If you add `confirmation`, the user must approve before the tool runs.
 * `execute(input)`: Async function that runs the action.
   * Return `{ output, summary }`.
   * `output` goes back to the Assistant.
-  * `summary` shows to the user.
+  * `summary` is shown to the user.
 
 #### Confirmation
 

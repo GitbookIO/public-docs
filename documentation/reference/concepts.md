@@ -100,7 +100,7 @@ Reviews encourage oversight and help improve the quality and accuracy of your do
 
 You can request a review on your change request before you merge and make the changes live on your docs site. Adding a title and description to your change request gives your reviewers some context.
 
-Reviewers can view the diff for your change request, which highlights everything that’s new, changed or deleted in your change request. They can also leave feedback right on the page using the built-in comments feature -- then approve your change request, or ask for more changes to be made.
+Reviewers can view the diff for your change request, which highlights everything that’s new, changed or deleted in your change request. They can also leave feedback right on the page using the built-in comments feature — then approve your change request, or ask for more changes to be made.
 
 #### Merging
 
@@ -136,7 +136,7 @@ You can choose who will see your documentation when you publish it. The default 
 
 However, if you want more control over who can access your site, you can choose to limit the audience using **share links** or **authenticated access**.
 
-With share links, you can share you content privately with customers or partners without needing to invite them to your organization by creating a private link and sharing it with them directly. Anyone with the link can access your site.
+With share links, you can share your content privately with customers or partners without needing to invite them to your organization by creating a private link and sharing it with them directly. Anyone with the link can access your site.
 
 If you want even more control, authenticated access allows you to publish your content while requiring authentication from any visitors who want to view it. When enabled, GitBook lets your authentication provider handle who has access to the content. This is ideal for private content or for publishing an internal knowledge base that should only be accessible by members of your team.
 
@@ -158,7 +158,7 @@ Pages pull metadata from each page’s title and description, and your content i
 
 Likewise, GitBook also optimizes for AI tools following all the industry standards as they quickly evolve.
 
-GitBook automatically creates .md versions of every page, which makes it easier for large-language models (LLMs) to parse. We also automatically expose a Model Context Protocol (MCP) server for every published site, giving AI tools a structured way to discover and retrieve your docs as resources — no scraping required. Plus, your site also generates `llms.txt` and `llms-full.txt` designed for AI ingestion.
+GitBook automatically creates .md versions of every page, which makes it easier for large language models (LLMs) to parse. We also automatically expose a Model Context Protocol (MCP) server for every published site, giving AI tools a structured way to discover and retrieve your docs as resources — no scraping required. Plus, your site also generates `llms.txt` and `llms-full.txt` designed for AI ingestion.
 
 ## Team management
 
@@ -174,9 +174,9 @@ Each member account belongs to one individual and must not be shared. Invite eac
 
 #### Permissions
 
-Permissions let you decide on the access level of your organization’s members. When a member joins your organization, you assign them a role — such as Editor or Viewer. These roles define their permissions for all of your organization’s content. But you can also override these permissions at a content level. For example:
+Permissions let you decide on the access level of your organization’s members. When a member joins your organization, you assign them a role — such as Editor or Reader. These roles define their permissions for all of your organization’s content. But you can also override these permissions at a content level. For example:
 
-* You can give someone with the Viewer role editing access to one particular piece of content
+* You can give someone with the Reader role editing access to one particular piece of content
 * You can limit access to specific confidential or private content and only grant access to certain members of your organization.
 
 Read more on [the Permissions and inheritance page](../collaborate/member-management/permissions-and-inheritance.md).

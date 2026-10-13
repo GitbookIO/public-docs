@@ -1,10 +1,10 @@
 # Using OpenAPI proxy
 
-GitBook can proxy **Test It** requests so they work even when your API server doesn't support CORS.
+GitBook can proxy **Test it** requests so they work even when your API server doesn't support CORS.
 
 ### Why this exists
 
-Browsers block cross-origin requests unless the API server opts in with CORS headers. Without CORS configured, **Test It** requests fail in the browser. The proxy routes those requests server-side through GitBook, bypassing that restriction.
+Browsers block cross-origin requests unless the API server opts in with CORS headers. Without CORS configured, **Test it** requests fail in the browser. The proxy routes those requests server-side through GitBook, bypassing that restriction.
 
 ### Enable the proxy for your whole spec
 
@@ -58,5 +58,5 @@ GitBook forwards all `HTTP` methods (`GET`, `POST`, `PUT`, `DELETE`, `PATCH`), h
 The proxy only forwards requests to the URLs listed in your spec’s `servers` array. It can’t be used to reach arbitrary URLs.&#x20;
 
 {% hint style="info" %}
-Make sure your `servers` array includes every base URL you want to test against. If a URL isn't listed, **Test It** requests to that host will bypass the proxy.
+Make sure your `servers` array includes every base URL you want to test against. If a URL isn't listed, **Test it** requests to that host will bypass the proxy.
 {% endhint %}

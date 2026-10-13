@@ -8,7 +8,7 @@ GitBook’s **Quick find** palette lets you search for content in your current o
 
 ### Use Quick find
 
-**​**You can open the **Quick find** palette by hitting the **Quick find** <picture><source srcset="../../.gitbook/assets/25_07_16_quick_find_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_16_quick_find.svg" alt=""></picture> button at the top of the sidebar or by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
+You can open the **Quick find** palette by hitting the **Quick find** <picture><source srcset="../../.gitbook/assets/25_07_16_quick_find_1.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_07_16_quick_find.svg" alt=""></picture> button at the top of the sidebar or by pressing **⌘ + K** on Mac or **Ctrl + K** on PC.
 
 ### Search results <a href="#display-of-results" id="display-of-results"></a>
 
@@ -26,6 +26,6 @@ We do not currently support the ability to prioritize certain content in Quick f
 
 ### Content indexing <a href="#indexation" id="indexation"></a>
 
-We index your content by grouping it into sections. Sections are denoted using H1, H2 or H3 Headings, with the content that follows them forming part of a section.
+We index your content by grouping it into sections. Sections are denoted using H1, H2, or H3 headings, with the content that follows them forming part of a section.
 
 Each result shows the first three lines of information below the section header. If your section is too big, your keyword match may not appear in the preview — but don’t worry, quick find still found a match!

@@ -15,7 +15,7 @@ Adding a comment here will attach a comment to the entire page. You can also com
 You can tag teammates by typing the `@` symbol followed by their name.
 
 {% hint style="info" %}
-Guests will be able to make comments but they will not be able to see or mention other users in the organization.
+Guests will be able to make comments, but they will not be able to see or mention other users in the organization.
 {% endhint %}
 
 ### Comment threads
@@ -26,4 +26,4 @@ You can also leave an emoji reaction on any comment by clicking the emoji button
 
 ### Resolving comments
 
-If you’re done working through a comment thread or idea, you can **resolve** a comment at any time. Resolving a comment will hide it in the interface, but still keep it accessible in the ’Resolved’ tab of the section’s comments panel.
+If you’re done working through a comment thread or idea, you can **resolve** a comment at any time. Resolving a comment will hide it in the interface, but still keep it accessible in the **Resolved** tab of the section’s comments panel.

@@ -72,7 +72,7 @@ Site permissions can also affect the permissions of linked spaces that use **Inh
 
 ### Styleguide
 
-Create, reuse, or detach the styleguide that defines your team's writing rules and keeps GitBook Agent consistent.
+Create, reuse, or detach the style guide that defines your team's writing rules and keeps GitBook Agent consistent.
 
 {% content-ref url="../create-content/styleguide.md" %}
 [styleguide.md](../create-content/styleguide.md)

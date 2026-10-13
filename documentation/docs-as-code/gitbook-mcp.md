@@ -256,7 +256,7 @@ If you use OAuth, don't add a bearer token manually. Your client gets it during 
 
 <summary>Why does nothing happen after I add the GitBook MCP server to my client?</summary>
 
-Yes. That's expected in some MCP clients.
+That's expected in some MCP clients.
 
 Adding a server often only saves the configuration. Some clients start authentication only when they first connect, list tools, or open the MCP panel.
 

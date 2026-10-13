@@ -4,7 +4,7 @@ description: Learn how to manage access to content for members of your organizat
 
 # Member management
 
-You can [invite and remove members](invite-members-to-your-organization.md) from your organization, manage members’ content access through [roles](roles.md), and manage [teams](teams.md) of members from the members’ page in your organization’s settings.
+You can [invite and remove members](invite-members-to-your-organization.md) from your organization, manage members’ content access through [roles](roles.md), and manage [teams](teams.md) of members from the **Members** page in your organization’s settings.
 
 ## Members & permissions
 

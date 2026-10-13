@@ -6,12 +6,12 @@ description: Use GitBook Agent to generate and build content for your page
 
 GitBook Agent is a powerful tool for generating content for your documentation in GitBook.
 
-The Agent can do everything from write short passages of text on your page, to edit existing blocks and create new pages and more in a change request.
+The Agent can do everything from writing short passages of text on your page, to editing existing blocks and creating new pages and more in a change request.
 
 {% hint style="info" %}
-#### GitBook Agent follows your styleguide
+#### GitBook Agent follows your style guide
 
-Define your team's writing rules in a [styleguide](../create-content/styleguide.md), and the Agent treats it as the source of truth whenever you ask it to help. It loads your styleguide's **first page** into context on every task, so keep your main rules there.
+Define your team's writing rules in a [style guide](../create-content/styleguide.md), and the Agent treats it as the source of truth whenever you ask it to help. It loads your style guide's **first page** into context on every task, so keep your main rules there.
 
 You can also [add short custom instructions](overview.md#add-a-style-guide-and-custom-instructions) at a site level.
 {% endhint %}
@@ -116,5 +116,5 @@ Here are some quick tips for writing good prompts:
 * **Break it down** – The Agent is best at completing focused tasks. Break down complex projects into smaller steps and ask the Agent to complete them one at a time.
 * **Be specific** – Generic prompts like `@gitbook improve this page` will apply general best practices, but without more specific guidance the Agent may not achieve the goal you had in mind.
 * **Focus on outcomes** – If you’re hearing about a specific problem customers are having, tell the Agent about those problems — or the outcomes you want to achieve. It will suggest improvements based on those outcomes.
-* **Give direct instructions** – If you want the Agent to use a stepper block for a step-by-step guide, or add an FAQ section with a bunch of expandable blocks, tell it precisely what to do to get the right results first time.
+* **Give direct instructions** – If you want the Agent to use a stepper block for a step-by-step guide, or add an FAQ section with a bunch of expandable blocks, tell it precisely what to do to get the right results the first time.
 * **Use broad prompts for wider improvements** – For maintenance tasks like fixing typos, updating a feature name across pages or removing specific block types from your docs, you can use commands like `@gitbook replace all instances of v2.3.9 with v2.4.0`.

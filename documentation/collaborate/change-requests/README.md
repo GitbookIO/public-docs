@@ -19,7 +19,7 @@ Open the **Changes** tab to review edits in a change request. You can review all
 At the bottom of the editor, the floating diff navigator lets you jump between changed blocks, continue to the next page with diffs, and finish the review from the last change with the available review actions.
 
 {% hint style="info" %}
-By default, changes are shown in a "split-view". The left showing the 'before' version of the page, and the right showing the 'after' state. If you prefer to view changes inline in a single column-layout, click the diff-mode button at the top-right of the Table of contents panel.
+By default, changes are shown in a "split-view". The left side shows the 'before' version of the page, and the right side shows the 'after' version. If you prefer to view changes inline in a single-column layout, click the diff-mode button at the top-right of the Table of contents panel.
 {% endhint %}
 
 ### Create and merge a change request

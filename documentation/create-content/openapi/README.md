@@ -28,7 +28,7 @@ GitBook supports importing and rendering these specification versions:
 
 GitBook's OpenAPI block also supports a "test it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
 
-Powered by [Scalar](https://scalar.com/), you won't need to leave the docs to see your API methods in action. See an example of this above.
+Because it's powered by [Scalar](https://scalar.com/), you won't need to leave the docs to see your API methods in action. See an example of this above.
 
 #### FAQ
 

@@ -93,7 +93,7 @@ GitBook reviews and updates base templates when the source guides change, so tem
 
 **Customize the "Needs your input" sections**
 
-Every template marks the parts you must customize with a **Needs your input** hint. Before your styleguide is ready to use, work through these — they typically include:
+Every template marks the parts you must customize with a **Needs your input** hint. Before your style guide is ready to use, work through these — they typically include:
 
 * The snapshot date of the base guide version the template reflects (Google and Microsoft templates)
 * Your product name and documentation mission
@@ -213,7 +213,7 @@ The Agent also respects a few things about how your rules are written:
 
 During a style guide review — on a page, or on a change request — the Agent flags issues but changes nothing. Each flag includes:
 
-* **Rule:** the rule ID from your styleguide (for example `G-10`), or a short quote of your rule if it has no ID.
+* **Rule:** the rule ID from your style guide (for example `G-10`), or a short quote of your rule if it has no ID.
 * **Location:** the heading or line where the issue occurs, plus the offending text.
 * **Issue:** one sentence stating the violation.
 * **Fix:** the corrected text, ready to paste.
@@ -236,7 +236,7 @@ In both reviews and edits, the Agent never flags or changes:
 * Direct quotations and cited material
 * Text exempted by a rule's own exception
 * The meaning or facts of your content
-* Anything covered only by a rule that isn't in your styleguide
+* Anything covered only by a rule that isn't in your style guide
 
 #### Consistency
 

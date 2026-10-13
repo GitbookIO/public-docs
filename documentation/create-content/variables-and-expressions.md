@@ -12,7 +12,7 @@ You can create variables that are scoped to a single page, or a single section.
 
 ### Create a new variable
 
-To create a new variable, click the **Library** in your Table of Contents when editing an open [change request](../collaborate/change-requests/). Then, click **Variables**.
+To create a new variable, click **Library** in your table of contents when editing an open [change request](../collaborate/change-requests/). Then, click **Variables**.
 
 You can use the toggle at the top to view and create variables scoped either to the current page you’re on, or all pages within the current section.
 
@@ -28,7 +28,7 @@ Variable names must start with a letter, and can contain letters, numbers and un
 
 ### Use variables in your content
 
-Variables can be referenced and used within an [expression](formatting/inline.md#expressions) — which you can insert into your content inline. After inserting an expression, double click it to open the expression editor.
+Variables can be referenced and used within an [expression](formatting/inline.md#expressions) — which you can insert into your content inline. After inserting an expression, double-click it to open the expression editor.
 
 {% hint style="info" %}
 Expressions can only be used in the page content of a document. They don’t work in page titles or page metadata.

@@ -20,7 +20,7 @@ Variants can contain any content, but it’s recommended to use them as _variati
 
 When adding a translation or multiple languages as a variant, it’s best practice to set the language of your variant to give your users the best experience when navigating your docs.
 
-Adding multiple variants with languages set will move the language picker to the upper right, giving a cleaner, more direct experience from the default variant picker.
+Adding multiple variants with languages set will move the language picker to the upper right, giving a cleaner, more direct experience than the default variant picker.
 
 ### Adding a variant to your docs site
 

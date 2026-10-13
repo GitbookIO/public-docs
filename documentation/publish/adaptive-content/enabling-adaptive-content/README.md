@@ -43,7 +43,7 @@ Read claims being passed in as strings.
 
 GitBook accepts dynamic strings, meaning you can dynamically pass string data — such as a user’s name, developer tokens, and more.
 
-Strings can also contain an **optional enum** key, which allows you to restrict the data that is received by GitBook to one of it’s set values.
+Strings can also contain an **optional enum** key, which allows you to restrict the data that is received by GitBook to one of its set values.
 
 ```json
 {
