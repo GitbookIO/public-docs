@@ -6,7 +6,7 @@ description: Suggest improvements to GitBook's documentation
 
 Thank you for investing your time in contributing to GitBook's documentation. Every contribution is reviewed by the team.
 
-This documentation is published with GitBook, using Git Sync to keep the site up to date with the `public-docs` repository on GitHub. Any change that's reviewed, approved, and merged into the repository is deployed automatically.
+This documentation is published with GitBook, using Git Sync to keep the site up to date with the [`public-docs` repository](https://github.com/GitbookIO/public-docs) on GitHub. Any change that's reviewed, approved, and merged into the repository is deployed automatically.
 
 #### What to contribute
 
