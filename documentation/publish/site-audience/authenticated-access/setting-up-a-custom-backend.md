@@ -18,13 +18,13 @@ If you are using one of the authentication providers we support or have an [Open
 
 ### Overview
 
-To setup a custom authentication system for your GitBook site, follow these key steps:
+To set up a custom authentication system for your GitBook site, follow these key steps:
 
 {% stepper %}
 {% step %}
 [**Create a custom backend to authenticate your users**](setting-up-a-custom-backend.md#id-1.-create-a-custom-backend-to-authenticate-your-users)
 
-Implement a backend that prompts users to login and authenticate them.
+Implement a backend that prompts users to log in and authenticate them.
 {% endstep %}
 
 {% step %}
@@ -36,7 +36,7 @@ Create a JWT token and sign it with your site’s private key.
 {% step %}
 [**Configure a login URL**](setting-up-a-custom-backend.md#id-3.-configure-a-login-url)
 
-Configure a URL to be used when an unauthenticated visitor access your site.
+Configure a URL to be used when an unauthenticated visitor accesses your site.
 {% endstep %}
 
 {% step %}
@@ -67,7 +67,7 @@ Your backend should:
 
 Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](enabling-authenticated-access.md#enable-authenticated-access).
 
-The following example should demonstrate how a login request handler in your custom backend could look like:
+The following example should demonstrate what a login request handler in your custom backend could look like:
 
 {% code title="index.ts" %}
 ```typescript
@@ -113,7 +113,7 @@ This endpoint only signs the visitor out of GitBook. If you also want to sign th
 
 The login URL is used when an unauthenticated visitor tries to access your protected site. GitBook will then redirect them to this URL.
 
-This URL should point to a handler in your custom backend, where you can prompt them to login, authenticate and then redirect them back to your site with the JWT included in the URL.
+This URL should point to a handler in your custom backend, where you can prompt them to log in, authenticate and then redirect them back to your site with the JWT included in the URL.
 
 For instance, if your login screen is located at `https://example.com/login`, you should include this value as the login URL.
 
@@ -145,7 +145,7 @@ res.redirect(redirectURL);
 ```
 
 {% hint style="warning" %}
-Because GitBook relies on the `location` search param - you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
+Because GitBook relies on the `location` search param, you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
 {% endhint %}
 
 #### Use GitBook’s logout endpoint
@@ -180,7 +180,7 @@ When GitBook is unable to authenticate a user's request, it redirects them to th
 
 To support multiple tenants, your authentication backend needs to know which GitBook site the user is meant to access. This information can be passed in the login URL.
 
-So for example, you could setup the login URLs for each sites as follow:
+So for example, you could set up the login URLs for each site as follows:
 
 Your authentication backend can then check this information and handle the redirection to the correct site accordingly:
 
@@ -201,7 +201,7 @@ res.redirect(redirectURL);
 
 ### 5. Configure your backend for adaptive content (optional)
 
-To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
+To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and includes in the URL when redirecting the user to the site.
 
 These claims when included in the JWT are used by GitBook to [adapt content](../../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
 

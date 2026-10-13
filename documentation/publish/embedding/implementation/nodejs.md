@@ -248,7 +248,7 @@ Pass to `getFrameURL({ visitor: {...} })`. Used for [Adaptive Content](../../ada
 
 * **Forgetting to install the package** – Run `npm install @gitbook/embed` before importing.
 * **Missing siteURL** – The `siteURL` option is required and must match your published docs site.
-* **iFrame not rendering** – Ensure the parent container has sufficient width/height for the iframe to display.
+* **Iframe not rendering** – Ensure the parent container has sufficient width/height for the iframe to display.
 * **Frame methods called before initialization** – Wait until `createFrame()` completes before calling frame methods.
 * **Not unsubscribing from events** – Remember to call the unsubscribe function returned by `frame.on()` to prevent memory leaks.
 * **Using old API methods** – Methods like `open()`, `close()`, `toggle()`, and `destroy()` are not available in the NPM package. Use the frame client methods instead.

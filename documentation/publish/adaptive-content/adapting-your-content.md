@@ -40,7 +40,7 @@ As you use the autocomplete, you'll notice that [variables](../../create-content
 2. Then, configure a claim that shows which version of your product is being used by a visitor to your docs
 3. Finally, write an expression to only show certain pages when a user is on the latest version of your docs
 
-You can write many different kinds of expressions , as long as they are written in valid Javascript. For instance, you can combine multiple claims into the condition editor to match specific users by using the `&&` or `||` operator. You can read more about operators [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators).
+You can write many different kinds of expressions, as long as they are written in valid JavaScript. For instance, you can combine multiple claims into the condition editor to match specific users by using the `&&` or `||` operator. You can read more about operators [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators).
 
 ### Target human visitors and AI agents
 
@@ -65,7 +65,7 @@ visitor.type === "human"
 
 Segments represent mock user data that you can configure to test your conditions.
 
-For example, you could set up a segment that represents a developer on your enterprise plan, or a sign-in user on a free plan, and then see which pages would be visible to them.
+For example, you could set up a segment that represents a developer on your enterprise plan, or a signed-in user on a free plan, and then see which pages would be visible to them.
 
 [You can read more about setting up and using segments here.](testing-with-segments.md)
 
@@ -99,7 +99,7 @@ You can see which sections in your docs have conditions set if the section has a
 
 To launch the condition editor for a page header link, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a header link, and click **Add condition**.
 
-You can see which links in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+You can see which links in your docs have conditions set if the link has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
 ### Inline expressions
 

@@ -11,13 +11,13 @@ However you publish your content, you’ll still retain control over who can _ed
 
 ### Publish as public
 
-To publish your docs publicly on the web head to the docs site you want to publish, click **Publish** button, and choose the **Public** option.
+To publish your docs publicly on the web, head to the docs site you want to publish, click the **Publish** button, and choose the **Public** option.
 
 ### **Publish without search engine indexing**
 
 By default, your site will be indexed by search engines. You can alternatively choose to disable this — meaning the docs are still available to everyone on the web, but they _won’t_ be indexed by search engines such as Google.
 
-They will still be accessible to anyone with a the link to your documentation. Docs sites that aren’t indexed can be particularly helpful if you want to publish a beta version of your docs, or do large-scale user testing without impacting your SEO with potentially duplicate content.
+They will still be accessible to anyone with the link to your documentation. Docs sites that aren’t indexed can be particularly helpful if you want to publish a beta version of your docs, or do large-scale user testing without impacting your SEO with potentially duplicate content.
 
 ### Page-level search indexing controls
 
@@ -43,10 +43,10 @@ Controls whether search engines and web crawlers (Google, ChatGPT, etc.) can ind
 
 * **Parent page controls**: When you disable search indexing on a parent page, it automatically disables indexing for ALL sub-pages beneath it.
 * **Children cannot override**: Sub-pages cannot re-enable search indexing if their parent page has it disabled.
-* **Cascading effect**: This creates a cascading effect down the entire page hierarchy - disabling indexing on a top-level page will disable it for the entire section.
+* **Cascading effect**: This creates a cascading effect down the entire page hierarchy — disabling indexing on a top-level page will disable it for the entire section.
 
 This hierarchical behavior ensures consistent indexing policies across related content sections and prevents accidental exposure of content that should remain private within a section.
 
 {% hint style="info" %}
-This feature is available on [Premium and Ultimate site plans](https://www.gitbook.com/pricing).
+This feature is available on [Essential and Ultimate site plans](https://www.gitbook.com/pricing).
 {% endhint %}

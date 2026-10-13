@@ -58,7 +58,7 @@ By default, images are set to their original size with a maximum width of 300px.
 
 1. **Inline size:** The image is proportionally sized to the font — great for icons and badges.
 2. **Original size:** The image will remain inline at its original size, with a maximum width of 300 pixels.
-3. **Convert to block:** This turns an inline image into a image block, which is as wide as your content.
+3. **Convert to block:** This turns an inline image into an image block, which is as wide as your content.
 
 {% hint style="info" %}
 Image blocks offer more options, including more sizes and the ability to add a caption — but will not appear inline with your text.
@@ -188,7 +188,7 @@ Send readers to another page or an external URL:<a href="../../ai-for-your-reade
 
 Open search with an optional preset query: <button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Search...</button>
 
-#### **Add a Ask AI/GitBook Assistant bar**
+#### **Add an Ask AI/GitBook Assistant bar**
 
 Open GitBook Assistant with an optional preset prompt: <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
 

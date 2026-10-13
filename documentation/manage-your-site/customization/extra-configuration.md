@@ -30,7 +30,7 @@ The **External links** section in the **Configure** tab controls the behavior wh
 
 Page actions adds a page-level dropdown to every page of your docs, allowing users to perform quick actions on a page's content — ideal for using your docs content as context within an AI prompt.
 
-You can disable this option from the **Configure** tab if you do not wish to show page options in your published docs.
+You can disable this option from the **Configure** tab if you do not wish to show page actions in your published docs.
 
 If you disable **Page actions**, GitBook also disables the MCP server at `~gitbook/mcp`. To use MCP, keep **Page actions** enabled in **Site customization** → **Page actions**.
 

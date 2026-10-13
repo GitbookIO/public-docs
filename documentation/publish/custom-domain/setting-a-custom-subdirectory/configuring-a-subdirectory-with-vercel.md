@@ -18,7 +18,7 @@ Under **Additional configuration**, you will now see a proxy URL. You’ll use t
 {% step %}
 #### Update your vercel.json
 
-In your Vercel app, open your `vercel.json`file (or create one in the root directory if you don't already have one). Then, add the following:
+In your Vercel app, open your `vercel.json` file (or create one in the root directory if you don't already have one). Then, add the following:
 
 ```json
 {
@@ -39,8 +39,8 @@ _Be sure to update the URL_ on line 5 with the proxy URL you got from GitBook in
 {% endstep %}
 
 {% step %}
-#### Re-deploy your app and try it out!
+#### Redeploy your app and try it out!
 
-Re-deploy your Vercel app with the update configuration. This may take a few moments. Now, when visiting the URL, you should see your docs site!
+Redeploy your Vercel app with the updated configuration. This may take a few moments. Now, when visiting the URL, you should see your docs site!
 {% endstep %}
 {% endstepper %}

@@ -14,7 +14,7 @@ The sponsored site plan lets you access all of GitBook’s best docs site featur
 
 ### Apply for the sponsored site plan
 
-The sponsored site plan is designed specifically for **open source projects**. Please not we do not accept cryptocurrency, web3 or related projects for this plan.
+The sponsored site plan is designed specifically for **open source projects**. Please note that we do not accept cryptocurrency, web3, or related projects for this plan.
 
 View the steps below to learn how to publish your first sponsored site.
 
@@ -62,7 +62,7 @@ Your site may be rejected for the sponsored site plan for several reasons. Commo
 
 * Your project is not an open source or not-for-profit project.
 * Your project is a cryptocurrency project.
-* The site is not published in English as it's **primary** language.
+* The site is not published in English as its **primary** language.
 * The site does not contain quality content.
 * The site does not reach a minimum number of page views per month.
 
@@ -84,7 +84,7 @@ After your site is approved, you'll gain access to your ads dashboard, giving yo
 
 The sponsored site plan allows you to use ultimate site features to get your site ready before submitting it for review.
 
-Any site not submitted for revierw after 1 month will automatically revert back to a free plan, and any ultimate site features used will be turned off, including things like custom domains, customizations, and more.
+Any site not submitted for review after 1 month will automatically revert to a free plan, and any ultimate site features used will be turned off, including things like custom domains, customizations, and more.
 
 </details>
 

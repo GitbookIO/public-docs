@@ -59,16 +59,16 @@ For GitLab, make sure your access token is configured with `api`, `read_reposito
 
 <summary>GitHub preview isn't showing</summary>
 
-If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.
+If your GitHub preview is not showing, it might be because your Git Sync integration was configured before January 2022. Versions of Git Sync configured before this date do not include GitHub Preview.
 
 You should have received a notification requesting you to accept an updated permission request to enable read-only access to PRs.
 
 In case you did not receive the notification, to troubleshoot you need to update to the new version:
 
-1. Uninstall the GitSync integration from your organization.
+1. Uninstall the Git Sync integration from your organization.
 2. Reinstall the new version with the updated permissions.
 
-Note that uninstalling the GitSync integration will require reconfiguring the integration again on any sections it was previously connected to.
+Note that uninstalling the Git Sync integration will require reconfiguring the integration on any sections it was previously connected to.
 
 </details>
 
@@ -127,14 +127,14 @@ When Git Sync is enabled, be careful not to create readme files through the GitB
 * May break builds and deployment processes
 * Results in unpredictable file precedence
 
-This includes files named README.md, readme.md, Readme.md, and README (without extension). Instead, remember to manage your README file directly in your git repository.
+This includes files named README.md, readme.md, Readme.md, and README (without extension). Instead, remember to manage your README file directly in your Git repository.
 
 #### Still facing errors?
 
 Make sure that:‌
 
-* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`) that was created directly in your git repository. This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
-* If you have YAML frontmatters in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
+* Your repository **has a** `README.md` **file** at its root (or at the `root` folder specified in your `.gitbook.yaml`) that was created directly in your Git repository. This file is required and is used as the homepage for your documentation. For more details, refer to our [content configuration](content-configuration.md).
+* If you have YAML frontmatter in your Markdown files, make sure they are valid using a [linter](http://www.yamllint.com).​
 
 </details>
 
@@ -142,7 +142,7 @@ Make sure that:‌
 
 <summary>GitBook isn't using my <code>docs</code> folder</summary>
 
-By default, GitBook uses the root of the repository as a starting point. A specific directory can be specified to scope the markdown files. Take a look at our documentation on [content configuration](content-configuration.md) for more details.‌
+By default, GitBook uses the root of the repository as a starting point. A specific directory can be specified to scope the Markdown files. Take a look at our documentation on [content configuration](content-configuration.md) for more details.‌
 
 </details>
 
@@ -150,7 +150,7 @@ By default, GitBook uses the root of the repository as a starting point. A speci
 
 <summary>GitBook is creating new Markdown files</summary>
 
-**When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overrite files that existed in your repository before.
+**When synchronizing and editing from GitBook** with an existing Git repository, GitBook may create new Markdown files instead of using the existing ones.‌ This is done to ensure GitBook doesn't overwrite files that existed in your repository before.
 
 </details>
 
@@ -191,14 +191,14 @@ Make sure that your access token has been configured with the following access:
 {% hint style="warning" %}
 **This section specifically addresses problems when a `SUMMARY.md` file already exists**
 
-If your repository does not include a `SUMMARY.md` file, GitBook will automatically create one upon the first sync. This means that if you edited your content from GitBook at least once after setting up Git sync, GitBook should have created this file automatically.‌
+If your repository does not include a `SUMMARY.md` file, GitBook will automatically create one upon the first sync. This means that if you edited your content from GitBook at least once after setting up Git Sync, GitBook should have created this file automatically.‌
 {% endhint %}
 
-If after updating your repository by adding or modifying a markdown file, you do not see the update reflected on GitBook and the sidebar doesn’t indicate an error during the sync, your modified file(s) is probably not listed in [your `SUMMARY.md` file](content-configuration.md#summary).‌
+If after updating your repository by adding or modifying a markdown file, you do not see the update reflected on GitBook and the sidebar doesn’t indicate an error during the sync, your modified file(s) are probably not listed in [your `SUMMARY.md` file](content-configuration.md#summary).‌
 
 This could either be because you created the file manually, or because you made an edit on GitBook and the GitBook to Git export phase of the sync created it for you.
 
-The content of this file mirrors your [table of contents](../../reference/gitbook-ui.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and re-conciliate upcoming updates from the repository with your existing content on GitBook.‌
+The content of this file mirrors your [table of contents](../../reference/gitbook-ui.md#table-of-contents) on GitBook and is used during the Git to GitBook import phase of the sync to recreate your table of contents and reconcile upcoming updates from the repository with your existing content on GitBook.‌
 
 If after ensuring that all your files are included in the `SUMMARY.md` file there’s still nothing happening on GitBook, don’t hesitate to [contact support](../../help/contact-support.md) for assistance.
 
@@ -218,7 +218,7 @@ A good way to identify which GitBook account the GitHub account is already linke
 4. Select the "Sign in with GitHub" option.
 5. Enter your GitHub credentials.
 6. Once logged in, go to [the account settings](https://app.gitbook.com/account) and either:
-   1. Unlink the account from the "Third-party Login > GitHub" section in the Personal setting
+   1. Unlink the account from the "Third-party Login > GitHub" section in your personal settings
    2. Delete the account altogether if you do not need it.
 7. Log out from the session.
 8. Log back in using your `name@email.com` GitBook account.

@@ -9,14 +9,14 @@ Head to our guides to find a [full walk-through](https://app.gitbook.com/s/LBGJK
 {% endhint %}
 
 {% hint style="warning" %}
-Using adaptive content with feature flags requires adding code to your application.
+Using adaptive content with cookies requires adding code to your application.
 
 This method only works if your site is served under a [custom domain](../../custom-domain/).
 {% endhint %}
 
-You can pass visitor data to your docs through your visitors browser cookies. Below is an overview of the different methods.
+You can pass visitor data to your docs through your visitors’ browser cookies. Below is an overview of the different methods.
 
-<table data-full-width="false"><thead><tr><th width="335.125">Method</th><th width="266.6015625">Use-cases</th><th width="206.58984375">Ease of setup</th><th width="202">Security</th><th>Format</th></tr></thead><tbody><tr><td>Signed cookie <code>gitbook-visitor-token</code></td><td>API test credentials, customer identification</td><td>Require signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td></tr><tr><td>Public cookie <code>gitbook-visitor-public</code></td><td>Feature flags, roles</td><td>Easy to set up</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="335.125">Method</th><th width="266.6015625">Use-cases</th><th width="206.58984375">Ease of setup</th><th width="202">Security</th><th>Format</th></tr></thead><tbody><tr><td>Signed cookie <code>gitbook-visitor-token</code></td><td>API test credentials, customer identification</td><td>Requires signing and a custom domain</td><td><span data-gb-custom-inline data-tag="emoji" data-code="2705">✅</span> Properties can only be defined by the backend</td><td>JWT</td></tr><tr><td>Public cookie <code>gitbook-visitor-public</code></td><td>Feature flags, roles</td><td>Easy to set up</td><td><span data-gb-custom-inline data-tag="emoji" data-code="274c">❌</span> Visitor can override the properties</td><td>JSON</td></tr></tbody></table>
 
 ### Public cookie
 
@@ -50,7 +50,7 @@ To set this up, you'll need to adjust your application’s login flow to include
 
 {% stepper %}
 {% step %}
-**Generate a JWT when users logs in to your application**
+**Generate a JWT when users log in to your application**
 
 Whenever a user logs in to your product, generate a JWT that contains selected attributes of your authenticated user's info.
 {% endstep %}
@@ -64,7 +64,7 @@ Then, make sure to sign the JWT using the site's **visitor signing key**, which 
 {% step %}
 **Store the JWT in a wildcard session cookie**
 
-Finally you need to store the signed JWT containing your user's info into a wildcard session cookie **under your product domain**.
+Finally, you need to store the signed JWT containing your user's info into a wildcard session cookie **under your product domain**.
 
 For example, if your application is served behind the `app.acme.org` domain, the cookie will need to be created under the `.acme.org` wildcard domain.
 {% endstep %}

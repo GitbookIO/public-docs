@@ -12,7 +12,7 @@ The Docs Embed is a powerful window into your product knowledge that you can add
 
 The Docs Embed can contain three tabs:
 
-* **Assistant**: The [GitBook Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) - an AI-powered chat interface to help users find answers
+* **Assistant**: The [GitBook Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) — an AI-powered chat interface to help users find answers
 * **Search**: A search-focused surface for quickly finding pages and asking scoped questions
 * **Docs**: A browser for navigating your documentation site
 

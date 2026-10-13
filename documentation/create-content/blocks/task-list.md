@@ -13,11 +13,11 @@ Task lists allow you to create a list of items with checkboxes that you can chec
 ### Example of a task list
 
 * [ ] Here’s a task that hasn’t been done
-  * [ ] Here’s a subtask that has been done, indented using `Tab`.
+  * [x] Here’s a subtask that has been done, indented using `Tab`.
   * [ ] Here’s a subtask that hasn’t been done.
 * [ ] Finally, an item, unindented using `shift` + `tab`.
 
-### Representation in markdown
+### Representation in Markdown
 
 ```markdown
 - [ ] Here’s a task that hasn’t been done

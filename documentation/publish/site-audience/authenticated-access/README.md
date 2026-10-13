@@ -20,7 +20,7 @@ Common use cases for authenticated access include:
 There are two methods you can choose from when setting up authenticated access:
 
 1. Installing one of our authentication integrations — we currently support Okta, Azure, and Auth0. We **highly recommend** this option if you’re using an authentication provider we support.
-2. Create and host your own server to handle the authentication. Many different technologies can be used, but it’s up to you to code and maintain the solution you choose.
+2. Creating and hosting your own server to handle the authentication. Many different technologies can be used, but it’s up to you to code and maintain the solution you choose.
 
 ### Built-in login and logout URLs
 

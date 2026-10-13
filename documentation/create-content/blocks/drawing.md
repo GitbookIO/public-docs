@@ -16,7 +16,7 @@ GitBook stores drawings as special SVG files in the section. Those files have an
 
 ### Draw with GitBook AI
 
-When using drawing block, you can ask GitBook AI to generate an illustration by specifying a prompt. Simply type in a prompt and hit **Generate**, or choose one of the suggested prompts to get started.
+When using the drawing block, you can ask GitBook AI to generate an illustration by specifying a prompt. Simply type in a prompt and hit **Generate**, or choose one of the suggested prompts to get started.
 
 Once GitBook AI has finished the drawing, you can double-click to open the full drawing palette and edit it however you like.
 

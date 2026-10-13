@@ -26,7 +26,7 @@ Keyboard shortcut: <kbd>⌘</kbd> + <kbd>B</kbd>
 
 #### Italic
 
-Keyboard shortcut : <kbd>⌘</kbd> + <kbd>I</kbd>
+Keyboard shortcut: <kbd>⌘</kbd> + <kbd>I</kbd>
 
 {% tabs %}
 {% tab title="Markdown" %}

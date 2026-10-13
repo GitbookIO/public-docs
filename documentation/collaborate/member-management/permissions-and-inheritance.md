@@ -73,9 +73,9 @@ You can also completely revoke access for any non-admin organization members at 
 The default inheritance option for any newly-created space or collection is **inherit**. This means that whenever a piece of content is created, it’ll inherit permissions from its parent by default.
 {% endhint %}
 
-### Setting content specific permissions
+### Setting content-specific permissions
 
-Once you’ve decided on the permission inheritance for your space or collection, you can further customise access by giving teams or members **direct access**.
+Once you’ve decided on the permission inheritance for your space or collection, you can further customize access by giving teams or members **direct access**.
 
 ### Giving a team direct access
 
@@ -101,4 +101,4 @@ If you just want to get your teammates onboarded and editing content with you, t
 
 #### Control over access and workflow
 
-For larger organizations, teams that split their organization up into discrete collections, or teams that need very granular control over workflow; then getting into the weeds is exactly what’s needed. Using a combination of inheritance, overriding, direct team access and direct user access, you can create workflows and access models that keep you in control.
+For larger organizations, teams that split their organization up into discrete collections, or teams that need very granular control over workflow, getting into the weeds is exactly what’s needed. Using a combination of inheritance, overriding, direct team access and direct user access, you can create workflows and access models that keep you in control.

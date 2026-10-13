@@ -9,10 +9,10 @@ Head to our guides to find a [full walk-through](https://gitbook.com/docs/guides
 {% endhint %}
 
 {% hint style="warning" %}
-This guide takes your through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through [Enabling authenticated access](enabling-authenticated-access.md).
+This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through [Enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
 
-To setup your GitBook site with authenticated access using Auth0, the process looks as follows:
+To set up your GitBook site with authenticated access using Auth0, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -42,7 +42,7 @@ Start by creating a new application in your Auth0 platform dashboard. This appli
 2. Head to **Applications > Applications** section from the left sidebar.
 3. Click on the **+ Create Application** button, and give your app a name.
 4. Under the **Choose an application type,** select **Regular Web Applications**.
-5. In the **Quickstart** screen of the newly created app, select **Node.js (Express)** and then **I want to integrated my app**.
+5. In the **Quickstart** screen of the newly created app, select **Node.js (Express)** and then **I want to integrate my app**.
 6.  You should then see a configuration screen like below.\
     Click **Save Settings And Continue**.<br>
 
@@ -86,7 +86,7 @@ Once you've created the Auth0 application, the next step is to install the Auth0
 20. Click **Update audience**.
 21. Head to the site's overview screen and click **Publish** if the site is not already published.
 
-Your site is now published behind authenticated access using your Auth0 as identity provider.
+Your site is now published behind authenticated access using Auth0 as your identity provider.
 
 To test it out, click on **Visit**. You will be asked to sign in with Auth0, which confirms that your site is published behind authenticated access using Auth0.
 

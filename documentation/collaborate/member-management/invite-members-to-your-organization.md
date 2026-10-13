@@ -7,7 +7,7 @@ description: >-
 # Manage or remove members
 
 {% hint style="info" %}
-If you’re looking for information about inviting members to your org, read [share.md](../share.md "mention")
+If you’re looking for information about inviting members to your org, read [share.md](../share.md "mention").
 {% endhint %}
 
 ### Manage member roles <a href="#manage-member-roles" id="manage-member-roles"></a>
@@ -43,7 +43,7 @@ To remove a member of your organization:
 
 ### Transfer ownership of an organization <a href="#transferring-ownership" id="transferring-ownership"></a>
 
-Nobody “owns” your GitBook organization, but you do need at least one an admin in any organization. If you prefer to have only one user in charge of the billing and member management, we recommend downgrading other admin users to [the Creator role](roles.md#creator).
+Nobody “owns” your GitBook organization, but you do need at least one admin in any organization. If you prefer to have only one user in charge of the billing and member management, we recommend downgrading other admin users to [the Creator role](roles.md#creator).
 
 You can add a new admin to your organization at any time. If your admin has left the organization, [see the related section in the FAQs](invite-members-to-your-organization.md#how-do-i-add-and-manage-admin-roles-in-my-gitbook-organization) for next steps.
 
@@ -57,7 +57,7 @@ You can add a new admin to your organization at any time. If your admin has left
 
 **Adding a new admin**
 
-To add a new admin, first invite [invite them to your organization](../share.md), making sure to select **Administrator** as their role.
+To add a new admin, first [invite them to your organization](../share.md), making sure to select **Administrator** as their role.
 
 Once they accept the invitation, the new admin will gain access to administrative settings, including billing.
 

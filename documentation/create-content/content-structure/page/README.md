@@ -137,7 +137,7 @@ Create an external link by clicking **Add new...** > **External link** at the bo
 
 To improve visibility for readers when skimming your table of contents, add an optional icon or emoji to individual pages. The icon or emoji appears in the table of contents, and next to the title at the top of the page.
 
-To add an icon or emoji, click the **Add icon** button when hovering the page title, or the emoji button to the left of the title.
+To add an icon or emoji, click the **Add icon** button when hovering over the page title, or the emoji button to the left of the title.
 
 ### Page options
 
@@ -211,7 +211,7 @@ Set a page cover for each page of your documentation. When you click the **Page 
 
 * **Change the cover image**
   1. Hover over the page cover and click **Change cover**.
-  2. Choose or upload an image. The ideal size is 1990x480 pixels.
+  2. Choose or upload an image. The ideal size is 1990 × 480 pixels.
 * **Reposition the cover image**
   1. Hover over the page cover and open the **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
   2. Click **Reposition**.

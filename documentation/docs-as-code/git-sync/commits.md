@@ -18,7 +18,7 @@ Use the following URL format, where `spaceId` corresponds to your section’s UR
 
 ## Customize the commit message template
 
-When using GitBook with a [monorepo](monorepos.md), or when you have specific guidelines for commit messages; you might want to customize the message used by GitBook when pushing a commit to Git.
+When using GitBook with a [monorepo](monorepos.md), or when you have specific guidelines for commit messages, you might want to customize the message used by GitBook when pushing a commit to Git.
 
 The template can contain the following placeholders:
 

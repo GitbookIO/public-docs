@@ -6,7 +6,7 @@ description: Add and edit blocks within your content
 
 GitBook is a block-based editor, meaning you can add different kinds of blocks to your content — from standard text and images to interactive blocks. Your pages can include any combination of blocks you want, and there’s no limit to the number of blocks you can have on a page.
 
-<figure><img src="../../.gitbook/assets/25_12_10_creating_content_blocks@2x.png" alt="A GitBook screenshot showing the available content blocks"><figcaption><p>GitBook's built in content blocks.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/25_12_10_creating_content_blocks@2x.png" alt="A GitBook screenshot showing the available content blocks"><figcaption><p>GitBook's built-in content blocks.</p></figcaption></figure>
 
 ### Inserting a new content block
 
@@ -31,7 +31,7 @@ You can select a single block by pressing the `Esc` key with the cursor in the b
 Once selected, you can:
 
 * Select more blocks by clicking on them while keeping the **Shift ⇧** key pressed.
-* Moving up and down to select the block above or below, using the **↑** and **↓** keys
+* Move up and down to select the block above or below, using the **↑** and **↓** keys
 * Copy the entire block using **⌘ + C** (Mac) or **Ctrl + C** (Windows)
 * Cut the entire block using **⌘ + X** (Mac) or **Ctrl + X** (Windows)
 * Delete the selected block or blocks using **⌫** or **Del**.

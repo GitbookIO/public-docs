@@ -18,7 +18,7 @@ When a user sees their SSO login not succeeding with the message "Log in with yo
 
 #### If the user account is already a member of the organization:
 
-* An organization administrator can enable SSO on your organization membership from the administration dashboard. Next time, the user account will be authorized to login into the organization using the SSO flow.
+* An organization administrator can enable SSO on your organization membership from the administration dashboard. Next time, the user account will be authorized to log in to the organization using the SSO flow.
 
 or
 

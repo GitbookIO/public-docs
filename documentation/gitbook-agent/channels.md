@@ -21,7 +21,7 @@ When you add a channel, you choose how GitBook shows up in that tool. Each confi
 
 **Collaborator:** GitBook Agent joins as a teammate. Mention `@GitBook` to open change requests, request edits, or keep your docs in sync with what's happening in that tool. In Slack, messages can link to `app.gitbook.com` when they reference internal workflow context, such as a change request or draft content. When Agent creates a change request from a channel, it automatically links it to the originating thread, issue, or pull request.
 
-You can run multiple configurations per channel — for example, Support Agent mode for one customer-facing Slack channel, and Collaborator mode in another channel for your docs team.
+You can run multiple configurations per channel — for example, Support agent mode for one customer-facing Slack channel, and Collaborator mode in another channel for your docs team.
 
 To add a channel, open your site’s **Settings** and click on **Channels**.
 

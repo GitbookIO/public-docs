@@ -8,7 +8,7 @@ description: Set up an OIDC login screen for visitors to your docs
 This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
 
-To setup your GitBook site with authenticated access using OIDC, the process looks as follows:
+To set up your GitBook site with authenticated access using OIDC, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -20,11 +20,11 @@ Create an application from your identity provider’s dashboard.
 {% step %}
 **Install and configure the OIDC integration**
 
-Install the Auth0 integration and add the required configuration.
+Install the OIDC integration and add the required configuration.
 {% endstep %}
 {% endstepper %}
 
-OIDC stands for OpenID Connect, and it's an identity layer built on top of OAuth. Many identity providers abide by OIDC, and GitBook's OIDC integration for authenticated access allows you to publish your content behind authenticated access, and access to the content is controlled by your Identity Provider
+OIDC stands for OpenID Connect, and it's an identity layer built on top of OAuth. Many identity providers abide by OIDC, and GitBook's OIDC integration for authenticated access allows you to publish your content behind authenticated access, and access to the content is controlled by your Identity Provider.
 
 {% hint style="info" %}
 Since this guide is a generic guide meant for all identity providers, some details may vary depending on your Identity Provider. For illustration purposes, we are using Google as the identity provider in this guide.
@@ -40,7 +40,7 @@ You need to create a new app inside your Identity Provider. Its type should be "
 
 Click on Create Credentials, select OAuth Client ID, select Web Application as the type, name it appropriately, and under Authorized Redirect URIs, enter the Callback URL you got from GitBook.
 
-Click Create. Make a note of the Client ID and Client Secret. We will need these to finish configuring of our integration in GitBook.
+Click Create. Make a note of the Client ID and Client Secret. We will need these to finish configuring our integration in GitBook.
 
 ### Install and configure the OIDC integration
 
@@ -52,7 +52,7 @@ Once you've installed it on your site, go to configuration and make a note of th
 
 Open up the OIDC integration's configuration screen for the section you installed the integration on.
 
-It should look like the following image
+It should look like the following image:
 
 <figure><img src="../../../.gitbook/assets/25_04_10_setting_up_oidc_3.png" alt="A GitBook screenshot showing the OIDC configuration screen"><figcaption></figcaption></figure>
 
@@ -61,10 +61,10 @@ For Client ID and Client Secret, paste in the values you got for your identity p
 Now, you will need to find the Authorization Endpoint and Access Token Endpoint for your Identity Provider. For Google, these are `https://accounts.google.com/o/oauth2/v2/auth` and `https://oauth2.googleapis.com/token` respectively.
 
 {% hint style="info" %}
-If you are not using Google, these endpoints will be different for you. Please look into the documentation of your identity provider to locate these endpoints
+If you are not using Google, these endpoints will be different for you. Please look into the documentation of your identity provider to locate these endpoints.
 {% endhint %}
 
-For OAuth Scope, its value will be again be different depending on your Identity Provider. In case of Google, you can enter `openid`.
+For OAuth Scope, its value will again be different depending on your Identity Provider. In case of Google, you can enter `openid`.
 
 {% hint style="info" %}
 Please look at the list of allowed scopes in your Identity Provider's documentation, and enter the value of the least permissive scope. We only use the Access Token to verify that the user is authenticated, and we do not use the Access Token to fetch any further information. So, entering the least permissive scope is the best security recommendation.
@@ -74,8 +74,8 @@ Hit Save.
 
 Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to **Audience**, select **Authenticated access**, and choose OIDC as the backend. Then, click **Update audience**. Go to the site’s screen and click **Publish**.\
 \
-The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with OIDC, which confirms that your site is published behind authenticated access using Auth0.
+The site is now published behind authenticated access controlled by your identity provider. To try it out, click on Visit. You will be asked to sign in with OIDC, which confirms that your site is published behind authenticated access using OIDC.
 
 ### Enable PKCE
 
-If your identity provider requires or recommends PKCE, turn on **Use PKCE** in the OIDC integration configuration screen. This option enables Proof Key for Code Exchange (PKCE) for the authorization code flow that the integration initiate with your auth provider.
+If your identity provider requires or recommends PKCE, turn on **Use PKCE** in the OIDC integration configuration screen. This option enables Proof Key for Code Exchange (PKCE) for the authorization code flow that the integration initiates with your auth provider.

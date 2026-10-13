@@ -24,7 +24,7 @@ Each role gets progressively higher levels of access as you move up the list. Le
 
 <summary>Guest role</summary>
 
-The guest role is a very specific role in GitBook. Guests are members that have **no default organization role**. A guest acts as a standard user in every other regard, they just need to have their permissions set explicitly at a content level.
+The guest role is a very specific role in GitBook. Guests are members that have **no default organization role**. A guest acts as a standard user in every other regard; they just need to have their permissions set explicitly at a content level.
 
 Inviting a guest to the organization means that they’ll only ever see content they’ve been directly added to. This is great if you want to add external stakeholders or contractors to your organization, but don’t want to worry about giving them access to any content by default.
 
@@ -66,7 +66,7 @@ Editors are able to read and comment, just like a commenter, but they’re also 
 
 <summary>Reviewer</summary>
 
-Reviewers have all the same permissions as an editor however, they can also merge their own and others’ change requests.
+Reviewers have all the same permissions as an editor; however, they can also merge their own and others’ change requests.
 
 </details>
 
@@ -74,7 +74,7 @@ Reviewers have all the same permissions as an editor however, they can also merg
 
 <summary>Creator</summary>
 
-Creators are essentially content-level admins. They have all the same permissions as a reviewer, however they can also create and delete spaces, collections and sites, merge change requests and manage permissions at a content level.
+Creators are essentially content-level admins. They have all the same permissions as a reviewer; however, they can also create and delete spaces, collections and sites, merge change requests and manage permissions at a content level.
 
 </details>
 

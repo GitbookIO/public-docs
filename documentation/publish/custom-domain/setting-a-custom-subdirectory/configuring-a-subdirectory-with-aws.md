@@ -24,13 +24,13 @@ Under **Additional configuration**, you will now see a proxy URL. You’ll use t
 {% step %}
 **Create your Lambda@Edge function**
 
-Sign into your AWS Console and navigate to **Lambda**.
+Sign in to your AWS Console and navigate to **Lambda**.
 
 Click the **Create function** button.
 
 Choose **Author from scratch**, then:
 
-* Give your function a descriptive name, like `gitbook-subpath-proxy.`
+* Give your function a descriptive name, like `gitbook-subpath-proxy`.
 * Select **Node.js** as the runtime (use the latest available version).
 * Leave the architecture and other settings as default.
 

@@ -18,7 +18,7 @@ Under **Additional configuration**, you will now see a proxy URL. You'll use thi
 {% step %}
 #### Create your Cloudflare worker
 
-Sign into your Cloudflare account and navigate to **Workers & Pages**
+Sign in to your Cloudflare account and navigate to **Workers & Pages**.
 
 Click the **Create** button.
 
