@@ -1,5 +1,5 @@
 ---
-description: Use GitBook Assistant and GitBook Agent in Slack, GitHub, and Linear
+description: Use GitBook Assistant and GitBook Agent in Slack, GitHub, Linear, and Jira (Beta)
 tags:
   - early-access
   - add-on
@@ -25,7 +25,7 @@ You can run multiple configurations per channel — for example, Support Agent m
 
 To add a channel, open your site’s **Settings** and click on **Channels**.
 
-Use Channels when support questions, bug reports, or product feedback start in Slack, GitHub, or Linear and you want GitBook to respond in place.
+Use Channels when support questions, bug reports, or product feedback start in Slack, GitHub, Linear, or Jira and you want GitBook to respond in place.
 
 {% hint style="info" %}
 #### Looking to embed GitBook Assistant in your website or product?
@@ -37,7 +37,7 @@ Head to [embedding](../publish/embedding/ "mention") to learn how to embed GitBo
 
 ### Available channels
 
-<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slack</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Linear</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>GitHub</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option><option value="jira-beta" label="Beta" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slack</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Linear</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>GitHub</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Jira</strong></td><td><span data-option="jira-beta">Beta</span></td><td></td><td></td></tr></tbody></table>
 
 ### Coming soon
 
@@ -62,6 +62,7 @@ Channels currently support these platforms:
 * **Slack** for conversations and support threads.
 * **GitHub** for issues, pull-request context, and discussion workflows.
 * **Linear** for issue tracking and product feedback workflows.
+* **Jira (Beta)** for turning tickets into documentation updates.
 
 Each platform uses the same core model.
 
@@ -134,7 +135,7 @@ To install a channel, open your site dashboard and choose **Settings** → **Cha
 
 Then choose the platform you want to connect.
 
-Each platform uses an OAuth or app-install flow. GitBook sends you to the platform, you approve access, and then you return to GitBook to finish setup.
+Slack, GitHub, and Linear use an OAuth or app-install flow. GitBook sends you to the platform, you approve access, and then you return to GitBook to finish setup.
 
 {% hint style="warning" %}
 Platform-specific permission scopes and admin requirements are not fully documented yet.
@@ -219,6 +220,91 @@ After Linear redirects you back, finish the channel setup in GitBook.
 Choose the role the channel should use and save the configuration.
 {% endstep %}
 {% endstepper %}
+{% endtab %}
+
+{% tab title="Jira (Beta)" %}
+{% hint style="warning" %}
+#### Jira is currently in Beta
+
+Jira is available to organizations with beta access. The setup and supported workflows may change during the beta.
+{% endhint %}
+
+Connect Jira to your GitBook site, then add the `gitbook` label to a ticket. GitBook Agent uses the ticket to draft a change request for your team to review.
+
+#### Before you start
+
+You'll need:
+
+* Admin access to your GitBook site, with Channels available and GitBook AI enabled and unpaused.
+* Jira beta access enabled for your organization.
+* A Jira Cloud site, an Atlassian account email, and an API token for that account. The account needs access to the projects you want to use and permission to comment on and link issues.
+
+#### Connect Jira
+
+{% stepper %}
+{% step %}
+### Start setup
+
+Open your site's **Settings → Channels**. Under **Jira**, click **Add configuration**.
+
+Jira uses the **Collaborator** role to help your team maintain documentation.
+{% endstep %}
+
+{% step %}
+### Connect your Jira account
+
+Enter:
+
+* **Jira site URL:** your Jira Cloud URL, such as `https://acme.atlassian.net`.
+* **Account email:** the email address of the Atlassian account that created the token.
+* **Jira API token:** [create an API token in Atlassian](https://id.atlassian.com/manage-profile/security/api-tokens), then paste it here.
+
+Click **Connect Jira**. Once the connection succeeds, GitBook shows the available projects.
+{% endstep %}
+
+{% step %}
+### Finish setup in GitBook
+
+Choose the projects GitBook should handle. Leaving the selection empty includes all projects accessible to the connected account. Only issues labeled `gitbook` start documentation work.
+
+Set **Jira status when merged** to `Done`, or the equivalent status in your project's workflow, so merging the change request also completes the ticket. Click **Save**. GitBook confirms **Jira configuration saved**.
+{% endstep %}
+{% endstepper %}
+
+#### Create a change request from a ticket
+
+{% stepper %}
+{% step %}
+### Describe the documentation change
+
+Open or create a Jira ticket in one of the projects covered by your configuration. Give it a clear title and describe what the docs should say.
+
+For example, use the title "Document API key rotation" and include the rotation steps, who can perform them, and what happens to the old key.
+{% endstep %}
+
+{% step %}
+### Add the gitbook label
+
+Add `gitbook` to the ticket's labels and save it.
+
+Agent drafts a change request from the ticket's title and description, then adds a comment and a link to the change request in Jira.
+{% endstep %}
+
+{% step %}
+### Review the draft
+
+Follow the link from Jira to open the change request in GitBook. Review the proposed changes, make any edits, and merge when the documentation is ready.
+{% endstep %}
+{% endstepper %}
+
+#### Optional: request another edit from Jira
+
+While the change request is open, add a comment containing `@gitbook` and the change you want. For example:
+
+> @gitbook Add a note explaining when the old API key stops working.
+
+Agent updates the linked draft and posts an update comment in Jira. Editing the ticket's title or description alone does not request another edit.
+
 {% endtab %}
 {% endtabs %}
 
