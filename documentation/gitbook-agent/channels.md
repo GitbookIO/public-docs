@@ -1,5 +1,5 @@
 ---
-description: Use AI Assistant and GitBook Agent in Slack, GitHub, Linear, and Jira (Beta)
+description: Use AI Assistant and GitBook Agent in Slack, GitHub, Linear, and Jira
 tags:
   - early-access
   - add-on
@@ -37,7 +37,7 @@ Head to [embedding](../publish/embedding/ "mention") to learn how to embed AI As
 
 ### Available channels
 
-<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option><option value="jira-beta" label="Beta" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slack</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Linear</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>GitHub</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Jira</strong></td><td><span data-option="jira-beta">Beta</span></td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th><select><option value="mjZVekTsgGQo" label="In progress" color="blue"></option><option value="exlMMXLVjkth" label="Planned" color="blue"></option><option value="WK4vEyJjJM8h" label="Available" color="blue"></option></select></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Slack</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Linear</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>GitHub</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr><tr><td><strong>Jira</strong></td><td><span data-option="WK4vEyJjJM8h">Available</span></td><td></td><td></td></tr></tbody></table>
 
 ### Coming soon
 
@@ -62,7 +62,7 @@ Channels support these platforms:
 * **Slack** for conversations and support threads.
 * **GitHub** for issues, pull-request context, and discussion workflows.
 * **Linear** for issue tracking and product feedback workflows.
-* **Jira (Beta)** for turning tickets into documentation updates.
+* **Jira** for turning tickets into documentation updates.
 
 Each platform uses the same core model.
 
@@ -222,13 +222,7 @@ Choose the role the channel should use and save the configuration.
 {% endstepper %}
 {% endtab %}
 
-{% tab title="Jira (Beta)" %}
-{% hint style="warning" %}
-#### Jira is in beta
-
-Jira is available to organizations with beta access. The setup and supported workflows may change during the beta.
-{% endhint %}
-
+{% tab title="Jira" %}
 Connect Jira to your GitBook site, then add the `gitbook` label to a ticket. GitBook Agent uses the ticket to draft a change request for your team to review.
 
 #### Before you start
@@ -236,7 +230,6 @@ Connect Jira to your GitBook site, then add the `gitbook` label to a ticket. Git
 You need the following:
 
 * Admin access to your GitBook site, with Channels available and GitBook Agent enabled and unpaused.
-* Jira beta access enabled for your organization.
 * A Jira Cloud site, an Atlassian account email, and an API token for that account. The account needs access to the projects you want to use and permission to comment on and link issues.
 
 #### Connect Jira
@@ -304,7 +297,6 @@ While the change request is open, add a comment containing `@gitbook` and the ch
 > @gitbook Add a note explaining when the old API key stops working.
 
 GitBook Agent updates the linked draft and posts an update comment in Jira. Editing the ticket’s title or description alone does not request another edit.
-
 {% endtab %}
 {% endtabs %}
 
