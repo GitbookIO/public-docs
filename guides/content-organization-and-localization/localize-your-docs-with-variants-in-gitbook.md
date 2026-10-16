@@ -14,10 +14,10 @@ Head to [Translations](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-ag
 
 This guide will walk you through the process of setting up variants, organizing your content, and ensuring your readers can access the right version of your documentation, in the language they want.
 
-First, you need to create your content and localize it to the various languages you need — and there are a few ways to do it. You can translate part of your content using [GitBook AI](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/searching-your-content/gitbook-ai), or other AI services such as [DeepL](https://www.deepl.com/en/translator), ChatGPT or Claude.
+First, you need to create your content and localize it to the various languages you need — and there are a few ways to do it. You can translate your content automatically with [Translations](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations), or use other AI services such as [DeepL](https://www.deepl.com/en/translator), ChatGPT or Claude.
 
 {% hint style="info" %}
-N**ote:** You will need to create a [space](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/content-structure/space) for each translated version of your docs in GitBook. You can then link all your translated spaces to a single docs site.
+**Note:** You will need to create a [space](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/content-structure/space) for each translated version of your docs in GitBook. You can then link all your translated spaces to a single docs site.
 {% endhint %}
 
 ### Organizing your localizations
