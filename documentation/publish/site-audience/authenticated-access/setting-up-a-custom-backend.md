@@ -148,6 +148,29 @@ res.redirect(redirectURL);
 Because GitBook relies on the `location` search param - you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
 {% endhint %}
 
+#### Redirect MCP authorization requests
+
+When a visitor connects to the [MCP server](../../../ai-for-your-readers/mcp-servers-for-published-docs.md) of your published docs, GitBook redirects them to your authentication backend. The redirect includes a `location` parameter containing the path to the MCP authorize endpoint, which carries a `gb_oauth_state` value, like this:
+
+```
+~gitbook/oauth2/v1/<site-id>/authorize?gb_oauth_state=<consent_state>
+```
+
+Your backend should use this path to build the final redirect back to your GitBook site.
+
+GitBook starts this flow from one of two endpoints, depending on how your site is configured:
+
+* `~gitbook/mcp/auth` for partially authenticated sites with adaptive content enabled.
+* `~gitbook/mcp` for sites using authenticated access.
+
+Once your backend has authenticated the visitor, build the return URL by appending the `location` path to your GitBook site’s base URL. Leave the `gb_oauth_state` query parameter as is, and add a `jwt_token=<token>` parameter containing the signed JWT your backend generated.
+
+The final URL your backend redirects the visitor to, should look like this:
+
+```
+https://<publishedSiteURL>/~gitbook/oauth2/v1/<site-id>/authorize?gb_oauth_state=<consent_state>&jwt_token=<token>
+```
+
 #### Use GitBook’s logout endpoint
 
 If you want a sign-out link on your published site, link to `<publishedSiteURL>/~gitbook/auth/logout`.
