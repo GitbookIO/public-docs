@@ -24,7 +24,7 @@ layout:
 
 # Site redirects
 
-<figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FSOD2dR0Bb3RtX6Avb7vg%2F26_01_06_redirects%402x.png?alt=media&#x26;token=7e2bf0a2-947c-46d7-96ff-a4e6b54e60b2" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_06_redirects@2x.png" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
@@ -53,9 +53,7 @@ When you create or edit a redirect, choose its HTTP status:
 
 Both status codes preserve the request method and body when redirecting.
 
-GitBook sends a 308 for permanent redirects only to unauthenticated views of live public content. Requests from the GitBook app, previews, and visitor-authenticated sessions receive a 307. This avoids unintended local caching.
-
-Search engines and anonymous visitors always receive a 308 for permanent redirects. This status supports SEO.
+GitBook sends the 308 for a permanent redirect only to unauthenticated views of live public content, which includes search engines and anonymous visitors, so the redirect counts for SEO. Requests from the GitBook app, previews, and visitor-authenticated sessions receive a 307 instead, which avoids unintended local caching.
 
 Click **Enable redirect** to immediately enable the redirect.
 
@@ -95,8 +93,8 @@ Draft redirects appear in the **Draft** tab of the redirects table.
 
 You can publish a draft redirect in two ways:
 
-• Open the redirect and click **Enable redirect** in the edit modal.\
-• Use the **toggle in the table** to enable the redirect directly.
+* Open the redirect and click **Enable redirect** in the edit modal.
+* Use the **toggle in the table** to enable the redirect directly.
 
 Once enabled, the redirect moves to the **Live** tab and immediately starts routing visitors.
 
@@ -112,9 +110,9 @@ Upload a CSV with the columns `source`, `destination`, and optional `intent`.
   * an external URL
   * empty, depending on the intent
 * `intent` can be:
-  * live, left blank, or omitted entirely, to create, update, or remove a live redirect
-  * draft to create, update, or remove a draft redirect
-  * publish to publish an existing draft redirect to live, `destination` must be empty.
+  * `live`, left blank, or omitted entirely, to create, update, or remove a live redirect
+  * `draft` to create, update, or remove a draft redirect
+  * `publish` to publish an existing draft redirect to live. With `publish`, `destination` must be empty.
 
 <div data-with-frame="true"><figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2Fgit-blob-1811bdc6a92d7e88fd724f3249aaae4a9350f1c0%2Fimage.png?alt=media" alt=""><figcaption><p>You can find the GitBook app URL for a page in this menu</p></figcaption></figure></div>
 
@@ -124,15 +122,15 @@ A maximum of 500 rows is supported per import.
 
 If your CSV includes duplicate source values, only the first row is processed. The import runs as an upsert: existing redirects with the same source are updated, and new redirects are created for sources that don’t exist yet.
 
-If any rows fail, an error CSV is available from the bottom-right toast. It includes source, destination, and a short explanation of each error so you can fix, delete the errors column and re-import.
+If any rows fail, an error CSV is available from the bottom-right toast. It includes source, destination, and a short explanation of each error so you can fix those rows, delete the errors column, and re-import.
 
-#### CSV Examples
+#### CSV examples
 
 <table data-search="false"><thead><tr><th>source</th><th>destination</th><th>intent</th><th>Result</th></tr></thead><tbody><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>blank</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>live</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>draft</td><td>Create or update a draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>blank</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>live</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>draft</td><td>Remove the draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>publish</td><td>Publish the existing draft redirect to live</td></tr></tbody></table>
 
 ## About automatic redirects
 
-Whenever pages are moved or renamed, their canonical URL changes with them. In order to keep your content accessible, GitBook automatically creates a [HTTP 307](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/307) redirect from the old URL to the new one.
+Whenever pages are moved or renamed, their canonical URL changes with them. To keep your content accessible, GitBook automatically creates an [HTTP 307](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/307) redirect from the old URL to the new one.
 
 Every time a URL is loaded, GitBook resolves it through the following steps:
 
