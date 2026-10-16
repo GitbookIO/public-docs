@@ -24,13 +24,13 @@ layout:
 
 # Site redirects
 
-<figure><img src="../.gitbook/assets/26_01_06_redirects@2x.png" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
-
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
 
 In addition to [automatic redirects created by GitBook](site-redirects.md#about-automatic-redirects), you can create a redirect from any path in your site’s domain. GitBook can also suggest redirects for the URLs on your site that visitors reach but that return a 404. See [broken-links.md](../analytics/broken-links.md "mention").
 
 Redirects can be created as either **Live** or **Draft**. Draft redirects allow you to prepare and review redirect rules before publishing them. Drafts do not affect your live site until they are enabled.
+
+<figure><img src="../.gitbook/assets/26_01_06_redirects@2x.png" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 ## Managing redirects on your site
 
