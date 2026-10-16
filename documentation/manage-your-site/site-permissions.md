@@ -14,22 +14,22 @@ Your [role](../collaborate/member-management/roles.md) on a site determines what
 Each role includes everything the roles below it can do.
 {% endhint %}
 
-<table><thead><tr><th width="171.3333740234375">Role</th><th>Can do</th></tr></thead><tbody><tr><td><strong>Admin</strong></td><td>Everything: site settings, publishing, members, billing, integrations</td></tr><tr><td><strong>Creator</strong></td><td>Restructure the site: add, publish, rename, reorder, and delete sections and variants</td></tr><tr><td><strong>Reviewer</strong></td><td>Merge change requests — publishing their content to the live site</td></tr><tr><td><strong>Editor</strong></td><td>Edit page content in change requests, submit them for review, add <strong>draft</strong> sections and variants</td></tr><tr><td><strong>Commenter</strong></td><td>Read content and leave comments</td></tr><tr><td><strong>Reader</strong></td><td>Read-only access</td></tr></tbody></table>
+<table><thead><tr><th width="171.3333740234375">Role</th><th>Can do</th></tr></thead><tbody><tr><td><strong>Admin</strong></td><td>Everything: site settings, publishing, members, billing, integrations</td></tr><tr><td><strong>Creator</strong></td><td>Restructure the site: manage sections, variants, and redirects</td></tr><tr><td><strong>Reviewer</strong></td><td>Merge change requests — publishing their content to the live site</td></tr><tr><td><strong>Editor</strong></td><td>Edit page content in change requests, submit them for review, add <strong>draft</strong> sections and variants</td></tr><tr><td><strong>Commenter</strong></td><td>Read content and leave comments</td></tr><tr><td><strong>Reader</strong></td><td>Read-only access</td></tr></tbody></table>
 
 #### Admin — full control
 
-Admin is required for anything that affects the site as a whole rather than a single piece of its content:
+Admin is required for most actions that affect the site as a whole rather than a single piece of its content:
 
 * Site settings — title, visibility, custom domain, default section or variant.
 * Publishing and unpublishing the site.
 * Site-wide branding and customization, as opposed to a single variant's override.
 * Managing members and teams on the site, including role overrides.
 * Installing and configuring integrations, including MCP servers.
-* Managing redirects, share links, and the site's private-site authentication.
+* Managing share links and the site's private-site authentication.
 * Configuring the AI assistant, its knowledge sources, and feedback channels.
 * Site billing and plan.
 
-If an action changes something every reader or every editor is affected by — not just one page or one section — it requires admin permissions.
+If an action changes something every reader or every editor is affected by — not just one page or one section — it requires admin permissions, unless a lower role is explicitly granted access.
 
 {% hint style="warning" %}
 Organization admins always have site Admin on every site in the organization, regardless of any per-site role settings. There's no way to give an org admin a lower role on a specific site.
@@ -37,15 +37,16 @@ Organization admins always have site Admin on every site in the organization, re
 
 #### Creator — shaping the site
 
-Creator unlocks control over the site's structure — the sections, section groups, and variants that make up its table of contents:
+Creator unlocks control over the site's structure:
 
 * Add a section, variant, or group directly as **published** content, not just drafts.
 * Publish a draft that an editor created, or turn published content back into a draft.
 * Rename, reorder, and move sections, groups, and variants.
 * Delete a section or variant.
 * Customize an individual variant's branding overrides, such as its title.
+* Manage redirects.
 
-In short, a creator can fully rebuild how a site is organized without needing site-wide administrative access.
+In short, a creator can fully rebuild a site without site-wide administrative access.
 
 #### Reviewer — merging content changes
 
