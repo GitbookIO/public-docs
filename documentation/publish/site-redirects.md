@@ -24,12 +24,6 @@ layout:
 
 # Site redirects
 
-GitBook sends a 308 for permanent redirects only to unauthenticated views of live public content. Requests from the GitBook app, previews, and visitor-authenticated sessions receive a 307. This avoids unintended local caching.
-
-Search engines and anonymous visitors always receive a 308 for permanent redirects. This status supports SEO.
-
-<table data-search="false"><thead><tr><th>source</th><th>destination</th><th>intent</th><th>Result</th></tr></thead><tbody><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>blank</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>live</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>draft</td><td>Create or update a draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>blank</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>live</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>draft</td><td>Remove the draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>publish</td><td>Publish the existing draft redirect to live</td></tr></tbody></table>
-
 <figure><img src="https://1050631731-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FNkEGS7hzeqa35sMXQZ4X%2Fuploads%2FSOD2dR0Bb3RtX6Avb7vg%2F26_01_06_redirects%402x.png?alt=media&#x26;token=7e2bf0a2-947c-46d7-96ff-a4e6b54e60b2" alt="A GitBook screenshot showing site redirects"><figcaption><p>Site redirects are useful when migrating documentation or restructuring content to avoid broken links, which can impact SEO.</p></figcaption></figure>
 
 Redirects are commonly used when you are migrating your documentation from one provider to another — like when you just moved docs to GitBook. Broken links can impact SEO so we recommend setting up redirects where needed.
