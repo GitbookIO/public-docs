@@ -14,7 +14,7 @@ We’ve made some visual upgrades to published docs sites, added content breadcr
 
 This week, we’ve released a few visual improvements for docs sites.
 
-First, the [**Tint color**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#styling) customization option now has more choices. Set it to **Primary** and the background of your docs site will subtly tint to match your primary theme color. Alternatively, choose Custom to select a different color to use as the background, and across your site — such as in tables (more about tables below).
+First, the [**Tint color**](../documentation/manage-your-site/customization/#styling) customization option now has more choices. Set it to **Primary** and the background of your docs site will subtly tint to match your primary theme color. Alternatively, choose Custom to select a different color to use as the background, and across your site — such as in tables (more about tables below).
 
 <figure><img src=".gitbook/assets/tint-color.jpg" alt=""><figcaption><p>You can find and enable the <strong>Tint color</strong> option in your site’s Customization menu, in the <strong>General</strong> > <strong>Themes</strong> section.</p></figcaption></figure>
 
@@ -37,7 +37,7 @@ This week we’ve released a bunch of improvements to tables to make them more c
 * First, tables that are smaller than the page will now appear at the same width when published — rather than increasing it to the width of the block as it did before.
 * Likewise, if you set custom column widths by dragging the separator, this will now be respected in the published site.
 * We also know that text-wrapping in cells was too aggressive, so we’ve fixed that to make better use of available space.
-* On top of that, we’ve updated table styles for published content. The table header will now adopt your [tint color](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#styling) — if you’ve enabled it in your site’s **Customization** screen — and it’ll also respect your selected corner style.
+* On top of that, we’ve updated table styles for published content. The table header will now adopt your [tint color](../documentation/manage-your-site/customization/#styling) — if you’ve enabled it in your site’s **Customization** screen — and it’ll also respect your selected corner style.
 
 {% hint style="warning" %}
 **Note:** As this changes the way tables are sized, we recommend checking your published docs to see if your tables look the way you expect them to look
@@ -45,7 +45,7 @@ This week we’ve released a bunch of improvements to tables to make them more c
 
 ### Bold, italic, code and lists in comments
 
-You can now use [Markdown](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/markdown) to apply styling to text in comments. As well as bold, italic and code styling, you can also create bulleted and numbered lists in comments. Plus, we made pasted URLs clickable in comments so you can open them more easily.
+You can now use [Markdown](../documentation/create-content/formatting/markdown.md) to apply styling to text in comments. As well as bold, italic and code styling, you can also create bulleted and numbered lists in comments. Plus, we made pasted URLs clickable in comments so you can open them more easily.
 
 <figure><img src=".gitbook/assets/comment-styling.jpg" alt=""><figcaption><p>Use Markdown to style text in comments.</p></figcaption></figure>
 
@@ -167,7 +167,7 @@ There’s also a new **Integrations** button for spaces and sites, which opens a
 
 ### Improved site structure controls
 
-Last month [we launched site sections](/broken/pages/i3qecHoIDofsUpNaSkNY#site-sections), giving you all the tools to build your docs out into a content hub for your users. This month, we’ve improved the site structure controls to make it easier to manage your site sections and any [variants](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants) within them.
+Last month [we launched site sections](/broken/pages/i3qecHoIDofsUpNaSkNY#site-sections), giving you all the tools to build your docs out into a content hub for your users. This month, we’ve improved the site structure controls to make it easier to manage your site sections and any [variants](../documentation/manage-your-site/site-structure/variants.md) within them.
 
 We’ve also tweaked the way you rename variants — now, you can only do it from the site structure table, and the option is no longer available in the Customization menu.
 
@@ -175,7 +175,7 @@ Head to your site’s dashboard and open **Settings** to see the new table and t
 
 ### **A new option to auto-play and loop videos**
 
-Want your [embedded YouTube and Vimeo videos](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/embed-a-url#videos) to auto-play and loop in your docs? Just add `?autoplay=1&_loop=1` to the end of your video’s URL when you embed it and your users will never have to hit a play button again — at least in your docs.
+Want your [embedded YouTube and Vimeo videos](../documentation/create-content/blocks/embed-a-url.md#videos) to auto-play and loop in your docs? Just add `?autoplay=1&_loop=1` to the end of your video’s URL when you embed it and your users will never have to hit a play button again — at least in your docs.
 
 ### Type symbols faster
 
@@ -358,7 +358,7 @@ We’re changing the structure of URLs for sites with multiple variants — and 
 **Quick summary:** URLs for docs site variants, such as `docs.mycompany.com/v/fr/` will be accessible at `docs.mycompany.com/fr/`starting 26 September. We are removing the `/v/` to simplify the structure of URLs.
 {% endhint %}
 
-This Thursday, 26 September, we’re releasing a change that will change the URL structure for [multi-variant docs sites](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants) — i.e. published sites with more than one linked space.
+This Thursday, 26 September, we’re releasing a change that will change the URL structure for [multi-variant docs sites](../documentation/manage-your-site/site-structure/variants.md) — i.e. published sites with more than one linked space.
 
 If you’ve published multiple spaces in the same site, you might’ve noticed that variant URLs have a `/v/` between the domain and the slug. This update will remove that to simplify the URL for your readers, and make it easier for people moving their existing published into GitBook.
 

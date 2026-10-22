@@ -351,7 +351,7 @@ You have a few options:
 * **Medium** - 50% of the image size
 * **Small** - 25% of the image size
 
-This is also available through [GitHub & GitLab Sync](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync "mention") where you can specify a percentage or pixel value for the resize.
+This is also available through [git-sync](../documentation/docs-as-code/git-sync/ "mention") where you can specify a percentage or pixel value for the resize.
 
 <figure><img src=".gitbook/assets/new-image-size-options.gif" alt=""><figcaption><p>Hover over an image block to see the new resizing option.</p></figcaption></figure>
 

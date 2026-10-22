@@ -11,7 +11,7 @@ noIndex: true
 
 {% embed url="https://youtu.be/dcFLov32yAQ" %}
 
-We’ve just added a ton of new [code themes](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#code-theme-premium-and-ultimate) for your published docs.
+We’ve just added a ton of new [code themes](../documentation/manage-your-site/customization/icons-colors-and-themes.md#code-theme-premium-and-ultimate) for your published docs.
 
 You can now choose from our standard themes — which use your site’s semantic colors — or one of 60 themes from [Shiki](https://shiki.style/themes).
 
@@ -24,7 +24,7 @@ Want to set a separate theme for your [API blocks](/broken/spaces/NkEGS7hzeqa35s
 * You’ll notice some big improvements to the in-app search tool. We’ve added more structure and information to search results, and made it easier to browse and open the results with the keyboard, making it easier to find the content you need.
 * We’ve made it easier to find [GitBook Agent](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/KHHFlE1MtpVIaZboN8b2) when editing your docs in a change request — you can now click the **Agent** button in the header bar to open a chat with the Agent.
   * We’ve also added new buttons so you can share feedback about specific messages within a chat with the Agent.
-* The default title of a change request (e.g. John’s Jan 1 changes) is now just a placeholder, encouraging people to add descriptive subjects. This is particularly important if you use [merge rules](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/collaborate/merge-rules) to require a subject for a change request before it can be merged.
+* The default title of a change request (e.g. John’s Jan 1 changes) is now just a placeholder, encouraging people to add descriptive subjects. This is particularly important if you use [merge rules](../documentation/collaborate/merge-rules.md) to require a subject for a change request before it can be merged.
 
 ### Fixes
 
