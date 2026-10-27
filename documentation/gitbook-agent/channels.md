@@ -1,7 +1,7 @@
 ---
 description: Use AI Assistant and GitBook Agent in Slack, GitHub, Linear, and Jira
 tags:
-  - early-access
+  - beta
   - add-on
 ---
 
