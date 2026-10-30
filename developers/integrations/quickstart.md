@@ -51,7 +51,7 @@ gitbook auth
 You can bootstrap your first integration by running the following command in your terminal:
 
 ```bash
-gitbook integrations new
+gitbook integration new
 ```
 
 The prompts will ask you for a `name`, `title`, `organization`, and `scopes` for your integration.
@@ -83,7 +83,7 @@ npx skills add GitBookIO/gitbook-skills
 3. Ask your assistant to read the `build-integration` skill before building your integration.
 
 ```bash
-gitbook integrations publish
+gitbook integration publish
 ```
 
 This will publish your integration to GitBook, and return a link with which you can install your integration. After installing your integration into your organization, space, or site, you can then run the development command to work on your integration locally.
@@ -91,7 +91,7 @@ This will publish your integration to GitBook, and return a link with which you 
 Return to your integration on your local machine, and in the root of the integration, run the following development command:
 
 ```bash
-gitbook integrations dev
+gitbook integration dev
 ```
 
 After running the development script, you’re ready to start building your integration. Any changes made in your local version of the integration will be sent to the space you have your integration installed in. You’ll also be able to see logs in your console where applicable.
@@ -114,4 +114,4 @@ Continue with one of these integration guides:
 
 ### Explore the integration platform
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-sliders">:sliders:</i></h4></td><td><h4>Configure your integration</h4></td><td>Define your integration’s metadata, scopes, blocks, and settings.</td><td><a href="configurations.md">configurations.md</a></td><td><a href="configurations.md">configurations.md</a></td><td><a href="development/">development</a></td><td><a href="development/runtime.md">runtime.md</a></td></tr><tr><td><h4><i class="fa-puzzle-piece">:puzzle-piece:</i></h4></td><td><h4>Build components</h4></td><td>Create custom blocks with ContentKit and add interactive behavior.</td><td><a href="development/">development</a></td><td><a href="development/contentkit/">contentkit</a></td><td><a href="/broken/pages/NlYKQXxZ0x7lLCu2TPtU">Broken link</a></td><td><a href="guides/interactivity.md">interactivity.md</a></td></tr><tr><td><h4><i class="fa-rocket">:rocket:</i></h4></td><td><h4>Publish your integration</h4></td><td>Publish, install, and submit your integration for review.</td><td><a href="publishing.md">publishing.md</a></td><td><a href="publishing.md">publishing.md</a></td><td><a href="submit-your-app-for-review.md">submit-your-app-for-review.md</a></td><td><a href="https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/install-an-integration">Install and manage integrations</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="content-ref"></th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-sliders">:sliders:</i></h4></td><td><h4>Configure your integration</h4></td><td>Define your integration’s metadata, scopes, blocks, and settings.</td><td><a href="configurations.md">configurations.md</a></td><td><a href="configurations.md">configurations.md</a></td><td><a href="development/">development</a></td><td><a href="development/runtime.md">runtime.md</a></td></tr><tr><td><h4><i class="fa-puzzle-piece">:puzzle-piece:</i></h4></td><td><h4>Build components</h4></td><td>Create custom blocks with ContentKit and add interactive behavior.</td><td><a href="development/">development</a></td><td><a href="development/contentkit/">contentkit</a></td><td><a href="/broken/pages/NlYKQXxZ0x7lLCu2TPtU">Broken link</a></td><td><a href="guides/interactivity.md">interactivity.md</a></td></tr><tr><td><h4><i class="fa-rocket">:rocket:</i></h4></td><td><h4>Publish your integration</h4></td><td>Publish, install, and submit your integration for review.</td><td><a href="publishing.md">publishing.md</a></td><td><a href="publishing.md">publishing.md</a></td><td><a href="submit-your-app-for-review.md">submit-your-app-for-review.md</a></td><td><a href="../../documentation/manage-your-site/install-an-integration.md">install-an-integration.md</a></td></tr></tbody></table>
