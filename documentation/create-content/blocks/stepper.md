@@ -30,26 +30,23 @@ Click the `+` below the step numbers or hit `Enter` twice to add another step to
 
 ## Representation in Markdown
 
-<pre class="language-markdown"><code class="lang-markdown"><strong>## Example
-</strong>
+For the full Markdown syntax of every block, see GitBook's [skill.md file](../../docs-as-code/ai-coding-assistants-and-skillmd.md).
 
+```markdown
+## Example
 
-
-
+{% stepper %}
+{% step %}
 ### Step 1 title
 Step 1 text
+{% endstep %}
 
-
-
-
-
+{% step %}
 ### Step 2 title
 Step 2 text
-
-
-
-
-</code></pre>
+{% endstep %}
+{% endstepper %}
+```
 
 ### Limitations
 

@@ -40,6 +40,8 @@ Here are the instructions for Linux
 
 ### Representation in Markdown
 
+For the full Markdown syntax of every block, see GitBook's [skill.md file](../../docs-as-code/ai-coding-assistants-and-skillmd.md).
+
 ```markdown
 {% tabs %}
 

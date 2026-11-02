@@ -48,6 +48,8 @@ To add a heading to your hint, you need to create a heading block as the the fir
 
 ### Representation in Markdown
 
+For the full Markdown syntax of every block, see GitBook's [skill.md file](../../docs-as-code/ai-coding-assistants-and-skillmd.md).
+
 ```markdown
 {% hint style="info" %}
 **Info hints** are great for showing general information, or providing tips and tricks.
