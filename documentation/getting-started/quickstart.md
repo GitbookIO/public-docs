@@ -11,7 +11,7 @@ At the end of this guide, you’ll have a live documentation site, ready to expa
 {% hint style="info" %}
 ### Set up with a coding agent
 
-Connect your AI coding agent to the [GitBook MCP server](../docs-as-code/gitbook-mcp.md) at `https://mcp.gitbook.com/mcp`, and point it to GitBook's [skill.md](../docs-as-code/ai-coding-assistants-and-skillmd.md) at `https://gitbook.com/docs/skill.md` so it knows GitBook's Markdown syntax and blocks. You only need to sign up and approve the sign-in — your agent can then create, fill, and publish your site for you.
+Connect your coding agent to the [GitBook MCP server](../docs-as-code/gitbook-mcp.md) and give it GitBook's [skill.md](../docs-as-code/ai-coding-assistants-and-skillmd.md). You just sign up and approve the sign-in — your agent creates, fills, and publishes your site.
 {% endhint %}
 
 {% stepper %}
