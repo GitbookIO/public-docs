@@ -30,8 +30,6 @@ Click the `+` below the step numbers or hit `Enter` twice to add another step to
 
 ## Representation in Markdown
 
-For the full Markdown syntax of every block, see GitBook's [skill.md file](../../docs-as-code/ai-coding-assistants-and-skillmd.md).
-
 ```markdown
 ## Example
 
