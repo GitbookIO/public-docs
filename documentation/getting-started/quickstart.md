@@ -11,7 +11,7 @@ At the end of this guide, you’ll have a live documentation site, ready to expa
 {% hint style="info" %}
 ### Set up with a coding agent
 
-Connect your coding agent to the [GitBook MCP server](../docs-as-code/gitbook-mcp.md) and give it GitBook's [skill.md](../docs-as-code/ai-coding-assistants-and-skillmd.md). You just sign up and approve the sign-in — your agent creates, fills, and publishes your site.
+Connect your coding agent to the [GitBook MCP server](../docs-as-code/gitbook-mcp.md) and give it GitBook's [skill.md](../docs-as-code/ai-coding-assistants-and-skillmd.md). Your agent can then create your site, add your content, and publish it. You only need to create an account and approve the sign-in.
 {% endhint %}
 
 {% stepper %}
