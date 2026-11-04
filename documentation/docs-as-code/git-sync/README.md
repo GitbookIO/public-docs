@@ -19,7 +19,7 @@ Git Sync is bi-directional, so changes you make directly in GitBook’s editor a
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-github">:github:</i></h4></td><td><h4>Set up GitHub Sync</h4></td><td>Set up and authorize the GitHub integration for GitBook.</td><td><a href="enabling-github-sync.md">enabling-github-sync.md</a></td></tr><tr><td><h4><i class="fa-gitlab">:gitlab:</i></h4></td><td><h4>Set up GitLab Sync</h4></td><td>Set up and authorize the GitLab integration for GitBook.</td><td><a href="enabling-gitlab-sync.md">enabling-gitlab-sync.md</a></td></tr></tbody></table>
 
 {% hint style="info" %}
-Git Sync supports IP allowlisting for Enterprise customers. If your GitHub, GitLab, or internal network only accepts traffic from approved IPs, allowlist these outbound Git Sync IPs before you enable the integration:
+Git Sync supports IP allowlisting for Enterprise customers only. If your GitHub, GitLab, or internal network only accepts traffic from approved IPs, allowlist these outbound Git Sync IPs before you enable the integration. If you're not on the Enterprise plan, GitBook can't reach a repository that restricts access to approved IPs.
 
 * `34.136.22.210`
 * `34.29.189.57`

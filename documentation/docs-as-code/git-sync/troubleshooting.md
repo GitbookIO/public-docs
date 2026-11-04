@@ -57,6 +57,26 @@ For GitLab, make sure your access token is configured with `api`, `read_reposito
 
 <details>
 
+<summary>GitLab setup fails with "Failed to update Git Sync installation"</summary>
+
+GitLab Sync can fail during setup with this error:
+
+```
+400: Failed to update Git Sync installation
+```
+
+The error doesn't say which part of the setup failed. Check the following, in order:
+
+1. **Token scopes and role:** Your Personal access token needs the `api`, `read_repository`, and `write_repository` scopes. If the token has a role, it must be `Maintainer` or `Admin`.
+2. **Network access:** GitBook must be able to reach your GitLab instance. If your instance only accepts traffic from approved IPs, allowlist the [Git Sync IP addresses](README.md). IP allowlisting is available only on the Enterprise plan, so the connection can't succeed on other plans.
+3. **Instance URL:** The GitLab Sync setup steps don't include a setting for a custom GitLab URL. If your GitLab instance runs on your own domain, contact support to confirm your setup.
+
+If you've checked all three and the error persists, [contact support](../../help/contact-support.md) and include the error message, your plan, and whether your GitLab instance runs on your own domain.
+
+</details>
+
+<details>
+
 <summary>GitHub preview isn't showing</summary>
 
 If your GitHub preview is not showing, it might be because your GitSync integration was configured before January 2022. Versions of GitSync configured before this date do not include GitHub Preview.
