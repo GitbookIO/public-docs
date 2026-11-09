@@ -32,6 +32,14 @@ visitor.claims.isBetaUser == true
 
 The expression above means that any user who matches this claim (i.e. `isBetaUser` is `true` in the user’s claim), will be able to see and access the page. Any user who does not match this claim (including visitors without any claims set), will not be able to see or access the page.
 
+Claims that GitBook can't verify, such as those passed through URL parameters or public cookies, are attached to `visitor.claims.unsigned` instead. Write conditions against that path for them:
+
+```javascript
+visitor.claims.unsigned.isBetaUser == true
+```
+
+Unsigned claims must be declared in your visitor schema. Learn more in [Set an unsigned claim](enabling-adaptive-content/#set-an-unsigned-claim).
+
 The condition editor also comes built in with autocomplete, which suggests claims or attributes that have been found on previous visitors to your site, helping you craft the conditional statement for your pages, variants, or sections.
 
 As you use the autocomplete, you'll notice that [variables](../../create-content/variables-and-expressions.md#use-variables-in-your-content) are also available to use. You can combine variables that you have defined together with claims that come from user data to write conditional expressions. For example, you could:

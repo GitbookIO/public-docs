@@ -45,3 +45,35 @@ In expressions, section-scoped variables live under `space.vars` — the GitBook
 ### Update a variable
 
 You can update a variable at any point when within a change request. Updating its value will update the value across any expression blocks referencing it. The changed variable will go live to any published site once the change request is merged.
+
+### Variables with Git Sync
+
+If you use [Git Sync](../docs-as-code/git-sync/), variables are stored as files in your repository.
+
+Section variables live in `.gitbook/vars.yaml`, in the root of the section's synced directory:
+
+```yaml
+latest_version: v3.0.4
+support_email: help@example.com
+```
+
+Page variables live in the page's frontmatter, under `vars`:
+
+```markdown
+---
+vars:
+  latest_version: v3.0.4
+---
+```
+
+### Representation in Markdown
+
+An expression that references a variable is stored as a `<code>` element with the `expression` class. Use `page.vars` for page variables and `space.vars` for section variables:
+
+```markdown
+The latest version is <code class="expression">space.vars.latest_version</code>.
+
+This page covers <code class="expression">page.vars.latest_version</code>.
+```
+
+For other expression types, see [Expressions](formatting/inline.md#expressions).

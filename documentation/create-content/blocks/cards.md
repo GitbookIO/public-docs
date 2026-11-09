@@ -82,3 +82,28 @@ You can select the card size by opening the **Options menu** <picture><source sr
   </tbody>
 </table>
 ```
+
+#### Cards with an icon
+
+To show an icon at the top of each card, add a visible column before the title and put an [icon](../formatting/inline.md#icons) in it. Columns render top to bottom in the order they appear in the table:
+
+```markdown
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><h4><i class="fa-globe">:globe:</i></h4></td>
+      <td><h4>Sites</h4></td>
+      <td>Create a site to publish and organize your documentation.</td>
+      <td><a href="sites.md">sites.md</a></td>
+    </tr>
+  </tbody>
+</table>
+```

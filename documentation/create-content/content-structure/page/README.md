@@ -139,6 +139,14 @@ To improve visibility for readers when skimming your table of contents, add an o
 
 To add an icon or emoji, click the **Add icon** button when hovering the page title, or the emoji button to the left of the title.
 
+If you're using Git Sync, the page icon is stored in the `icon` front matter property. Use an icon name from [Font Awesome](https://fontawesome.com/search):
+
+```markdown
+---
+icon: book-open
+---
+```
+
 ### Page options
 
 In the **Page options** menu, customize the look and feel of a selected page within a section and control its visibility.
@@ -162,6 +170,27 @@ Each layout preset toggles the following parts of the page on or off:
 Tag a page with one or more tags from **Library** → **Tags**. Turn on **Show tags on page** to display them in the page header. Or pick one tag as the page's primary tag, which GitBook can show next to the page in the table of contents. Learn more in Tags.
 
 Set your page's global width from this menu, too. Choosing **Wide** gives blocks such as tables, cards, and code blocks more space on the published page. Use this for eye-catching landing pages.
+
+If you're using Git Sync, page layout is stored in the `layout` front matter property. Set `width` to `default` or `wide`, and set `visible` to `true` or `false` for each part of the page:
+
+```markdown
+---
+layout:
+  width: wide
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: false
+  outline:
+    visible: false
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+---
+```
 
 #### Visibility
 

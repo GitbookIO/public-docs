@@ -217,6 +217,24 @@ Link and inactive buttons have both primary and secondary styles. Here are a cou
 
 It renders as follows: <a href="https://app.gitbook.com" class="button primary">GitBook</a>
 
+Search and Assistant buttons use a `<button>` element with a `data-action` attribute:
+
+```markdown
+<button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Search...</button>
+
+<button type="button" class="button secondary" data-action="ask" data-query="How do I publish my docs?" data-icon="gitbook-assistant">Ask about publishing</button>
+```
+
+Buttons support the following attributes:
+
+| Attribute     | Values                                     | Use                                                      |
+| ------------- | ------------------------------------------ | -------------------------------------------------------- |
+| `class`       | `button primary` or `button secondary`     | Sets the button style.                                   |
+| `href`        | A relative path or URL                     | Sets the link target. Link buttons only.                 |
+| `data-action` | `search` or `ask`                          | Opens search or GitBook Assistant instead of a link.     |
+| `data-query`  | Any text                                   | Sets the preset prompt for an Assistant button.          |
+| `data-icon`   | An icon name, such as `magnifying-glass`   | Adds an icon before the label.                           |
+
 ## Icons
 
 Icons add visual context to paragraphs, cards, and other content. They use the visual style defined in your customization settings.
