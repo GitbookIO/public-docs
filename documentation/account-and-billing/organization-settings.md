@@ -49,6 +49,14 @@ Add and remove [members](../collaborate/member-management/). You can also update
 
 <details>
 
+<summary>Audit logs</summary>
+
+Review changes made across your organization, filter events, and export them as CSV. Available on the Enterprise plan. Learn more about [audit logs](audit-logs.md).
+
+</details>
+
+<details>
+
 <summary>Merge rules</summary>
 
 Control how change requests are reviewed and merged across your organization. Organization rules apply to every section by default. Each section can inherit, replace, or disable those rules. Learn more about [merge rules](../collaborate/merge-rules.md).
