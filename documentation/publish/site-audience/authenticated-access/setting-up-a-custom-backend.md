@@ -2,19 +2,27 @@
 description: Set up a custom login screen for visitors to your docs
 ---
 
-# Setting up a custom backend
+# Hosting your own login page
 
-{% hint style="warning" %}
-This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
-{% endhint %}
+Use your own authentication service to sign visitors in to your docs site. This works for two setups:
 
-This guide walks you through setting up a protected sign-in screen for your GitBook documentation site using your own **custom** authentication backend.
+* **Your whole site is private.** Set your site’s audience to authenticated access first. See [Enabling authenticated access](enabling-authenticated-access.md).
+* **Your site is public, with extra content for signed-in visitors.** Keep the audience public and enable adaptive content. For a full walkthrough, see [how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md](../../../../guides/docs-personalization-and-authentication/how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md "mention").
 
 {% hint style="info" %}
 If you are using one of the authentication providers we support or have an [OpenID Connect](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol) (OIDC) compliant backend, check out our integration guides for a more streamlined setup:\
 \
 [Auth0](setting-up-auth0.md) | [Azure AD](setting-up-azure-ad.md) | [Okta](setting-up-okta.md) | [AWS Cognito](setting-up-aws-cognito.md) | [OIDC](setting-up-oidc.md)
 {% endhint %}
+
+### How sign-in works
+
+On a private site, GitBook sends every visitor who isn’t signed in to your login page. On a public site, visitors start from a sign-in link.
+
+1. GitBook redirects the visitor to your login URL and adds a `location` query parameter with the page they started from.
+2. Your login page signs them in.
+3. Your backend creates a JSON Web Token (JWT) signed with your site’s private key. To adapt content, the token includes the visitor’s claims.
+4. Your backend redirects the visitor to the `location` page on your docs site, with the token in a `jwt_token` query parameter or a cookie.
 
 ### Overview
 
@@ -54,7 +62,7 @@ Configure your backend to work with adaptive content in GitBook.
 
 ### 1. Create a custom backend to authenticate your users
 
-In order to start authenticating users before they can visit your documentation, you’ll need to set up a server that can handle login and authentication of users.
+To sign visitors in, you need a server that can handle login and authentication.
 
 Your backend should:
 
@@ -65,7 +73,7 @@ Your backend should:
 
 ### 2. Sign and pass a JWT token to GitBook
 
-Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](enabling-authenticated-access.md#enable-authenticated-access).
+Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** shown in your site’s audience settings. See [Configure a login URL](setting-up-a-custom-backend.md#id-3.-configure-a-login-url).
 
 {% hint style="info" %}
 If your site is served under a [custom domain](../../custom-domain/), you can store the signed JWT in a `gitbook-visitor-token` cookie on your domain instead of adding it to the redirect URL. Learn more in [Signed cookie](../../adaptive-content/enabling-adaptive-content/cookies.md#signed-cookie).
@@ -115,13 +123,22 @@ This endpoint only signs the visitor out of GitBook. If you also want to sign th
 
 ### 3. Configure a login URL
 
-The login URL is used when an unauthenticated visitor tries to access your protected site. GitBook will then redirect them to this URL.
+GitBook redirects visitors to the login URL to sign in: on a private site when they aren’t signed in, and on any site when they use a sign-in link.
 
 This URL should point to a handler in your custom backend, where you can prompt them to log in, authenticate and then redirect them back to your site with the JWT included in the URL.
 
 For instance, if your login screen is located at `https://example.com/login`, you should include this value as the login URL.
 
-You can configure this login URL within your site’s audience settings under the "Authenticated access" tab.
+To configure the login URL:
+
+1. In your docs site, go to **Settings → Audience**.
+2. Under **Configure authentication**, set **Authentication backend** to **Custom**.
+3. Copy the **Private key**. Your backend uses it to sign tokens.
+4. In **Login URL**, enter the address of your login handler.
+5. Optional: in **Logout URL**, enter the page to show visitors after they sign out.
+6. Click **Save**.
+
+**Configure authentication** appears when your site’s audience is authenticated access, or when adaptive content is enabled.
 
 <figure><img src="../../../.gitbook/assets/25_04_10_setting_up_a_custom_backend.png" alt="A GitBook screenshot showing where to configure a login URL"><figcaption><p>Configure a login URL</p></figcaption></figure>
 
@@ -280,4 +297,4 @@ export async function handleAppLoginRequest(req: Request, res: Response) {
 ```
 {% endcode %}
 
-After setting up and configuring the right claims to send to GitBook, head to “[Adapting your content](../../adaptive-content/adapting-your-content.md)” to continue configuring your site.
+After setting up and configuring the right claims to send to GitBook, head to “[Adapting your content](../../adaptive-content/adapting-your-content.md)” to continue configuring your site. For a full walkthrough on a public site, see [how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md](../../../../guides/docs-personalization-and-authentication/how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md "mention").
