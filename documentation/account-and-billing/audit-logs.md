@@ -34,6 +34,8 @@ Audit logs cover administrative and configuration changes, including:
 * **Access and routing:** share links, custom domains, and redirects.
 * **Integrations and workflows:** integration installations, Git Sync, and OpenAPI processing, including changes these workflows make in the background.
 
+GitBook is still extending coverage across these areas, so some actions don’t appear in audit logs yet.
+
 Audit logs don’t record changes to page content, page views, or file downloads. To review edits to content, use [version control](../create-content/version-control.md).
 
 ## Filter events
@@ -70,6 +72,10 @@ The CSV includes the time, action, actor, impersonator, source, target, and even
 
 To pull audit events into your own tools, such as a SIEM, use the [List organization audit events](https://gitbook.com/docs/developers/gitbook-api/api-reference/organizations/list-organization-audit-events) endpoint in the GitBook API.
 
+## Retention
+
+GitBook keeps audit events for 1 year.
+
 ## If you change plans
 
-GitBook keeps recording audit events after an organization leaves the Enterprise plan. Admins can’t view or export them until the organization returns to Enterprise. When it does, the full history is available again.
+GitBook keeps recording audit events after an organization leaves the Enterprise plan. Admins can’t view or export them until the organization returns to Enterprise. When it does, events from the last year are available again.
