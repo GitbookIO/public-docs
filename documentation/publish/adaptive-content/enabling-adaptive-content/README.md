@@ -167,8 +167,6 @@ Before implementing the flow, understand how retrieval behaves:
 * Search results and page lists omit content the visitor cannot view. A direct request for an ineligible page returns `404`.
 * If the visitor JWT signature is invalid, GitBook evaluates content as an anonymous visitor. GitBook doesn't trust the supplied claims.
 
-For endpoint paths, request examples, and token handling, see [Retrieve adaptive content for a specific visitor](https://gitbook.com/docs/developers/gitbook-api/guides/retrieve-adaptive-content-for-a-specific-visitor).
-
 {% hint style="warning" %}
 Create and exchange signed visitor JWTs only on a trusted server. Never expose the Visitor token signing key or content API token in browser code or logs.
 {% endhint %}
