@@ -33,7 +33,40 @@ Choose your provider’s setup guide:
 * [setting-up-oidc.md](../../documentation/publish/site-audience/authenticated-access/setting-up-oidc.md "mention").
 * [setting-up-a-custom-backend.md](../../documentation/publish/site-audience/authenticated-access/setting-up-a-custom-backend.md "mention").
 
-If you use your own authentication service, [setting-up-a-custom-backend.md](../../documentation/publish/site-audience/authenticated-access/setting-up-a-custom-backend.md "mention"). It signs visitors in and passes their claims to GitBook.
+If you use your own authentication service, see [Using your own login page](how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md#using-your-own-login-page).
+
+### Using your own login page
+
+Set up your login page with [setting-up-a-custom-backend.md](../../documentation/publish/site-audience/authenticated-access/setting-up-a-custom-backend.md "mention"). It covers the sign-in flow, the private key, and the login URL.
+
+To use the claims from this guide, include them in the token your backend signs. This login handler sends the `isCustomer` claim from the visitor schema below, and returns the visitor to the page they started from:
+
+{% code title="login.ts" %}
+```typescript
+import { Request, Response } from 'express';
+import * as jose from 'jose';
+
+const GITBOOK_VISITOR_SIGNING_KEY = process.env.GITBOOK_VISITOR_SIGNING_KEY!;
+const GITBOOK_DOCS_URL = 'https://docs.example.com';
+
+export async function handleLogin(req: Request, res: Response) {
+    // Sign the visitor in with your own logic, for example:
+    // const user = await authenticateUser(req.body.email, req.body.password);
+    const user = { isCustomer: true }; // Replace with your authentication logic
+
+    // Include claims that match your visitor schema
+    const token = await new jose.SignJWT({ isCustomer: user.isCustomer })
+        .setProtectedHeader({ alg: 'HS256' })
+        .setIssuedAt()
+        .setExpirationTime('2h')
+        .sign(new TextEncoder().encode(GITBOOK_VISITOR_SIGNING_KEY));
+
+    // Send the visitor back to the page they started from
+    const location = typeof req.query.location === 'string' ? req.query.location : '';
+    res.redirect(`${GITBOOK_DOCS_URL}/${location}?jwt_token=${token}`);
+}
+```
+{% endcode %}
 
 ### Defining your visitor schema
 
@@ -98,3 +131,10 @@ Add these links to your site header:
 7. Enter the sign-out endpoint as the link URL.
 8. Select a text link, primary button, or secondary button for each link.
 9. Click **Save**.
+
+### Testing the sign-in flow
+
+1. Open your docs site in a private browser window. Check that public content shows and private content doesn’t.
+2. Click **Sign in** and sign in as a visitor whose claims match your conditions.
+3. Check that you return to the page you started from and that the private content now shows.
+4. Click **Sign out** and check that the private content is hidden again.
