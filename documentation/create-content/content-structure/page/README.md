@@ -105,7 +105,24 @@ Page link titles are optional — if you don't add one, the page uses its standa
 
 Page groups bring related pages together within a section's table of contents. You can add an icon to each page group.
 
-If you’re using Git Sync, create a page group with a level-two heading in `SUMMARY.md`. Every top-level link after that heading belongs to the group until the next page-group heading. A horizontal rule does not close a group, so place ungrouped top-level pages before the first group.
+If you’re using Git Sync, add a new line and a level-two heading in `SUMMARY.md`:&#x20;
+
+{% code title="" lineNumbers="true" expandable="true" %}
+```markdown
+* [Other Page](other-page.md)
+
+## Page Group
+
+* [Page](page-group/page.md)
+* [Another page](page-group/another-page.md)
+
+***
+
+* [Subsequent Pages](subsequent-pages.md)
+```
+{% endcode %}
+
+Every top-level link after that heading belongs to the group until the next page-group heading or a `***` separator.
 
 {% hint style="info" %}
 Page groups organize pages within one section. Section groups organize sections in site navigation. They are different objects, even though both are called groups. See [collection.md](../collection.md "mention").
@@ -113,7 +130,9 @@ Page groups organize pages within one section. Section groups organize sections 
 
 Create a page group by clicking **Add new...** > **Group** at the bottom of your table of contents.
 
-Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other.
+Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other or nest them within other pages.
+
+Page groups have a slug, and all pages within the group will be nested under that slug. When a user visits the URL for the page group, they'll be brought to the first page within that group.
 
 {% hint style="warning" %}
 Page-group slugs become part of every child page URL. Adding, renaming, or removing a page group changes child page URLs and breaks existing links unless you add redirects. See [site-redirects.md](../../../publish/site-redirects.md "mention").
