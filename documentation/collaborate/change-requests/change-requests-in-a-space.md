@@ -29,7 +29,7 @@ Once you’re happy with your changes, you can use the button in the header bar 
 
 [GitBook Agent](../../gitbook-agent/overview.md) is an AI teammate that can [plan and implement change requests](../../gitbook-agent/write-and-edit-with-ai.md#implement-a-change-request-with-gitbook-agent) based on any instructions you give it.
 
-To open a new change request with GitBook Agent, click the GitBook Agent icon in the upper right corner next to the “Edit” button, and ask GitBook to implement any changes you want.
+To open a new change request with GitBook Agent, click **Edit** in the section header, describe the changes you want, and click **Implement with GitBook Agent**.
 
 Some things you can ask it to do include:
 

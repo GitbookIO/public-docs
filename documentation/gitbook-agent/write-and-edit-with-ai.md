@@ -66,11 +66,11 @@ You can give follow-up instructions or clarify steps, or edit the content of you
 
 #### Implement a change request with GitBook Agent
 
-Click the **GitBook Agent** part of the **Edit** button in the top-right of a section to open a modal.
+Click **Edit** in the section header to open the change request dialog.
 
-Here you can write a prompt to tell the Agent what you want your change request to include, then add reference pages that might be useful as context for the changes.
+Enter a **Title** for the change request, and describe the changes you want in **Description**. GitBook Agent works from both.
 
-Once you click **Start change request** the Agent will open a change request for you and start carrying out your instructions. At every stage, the Agent will tell you what it’s doing in its conversation.
+Click **Implement with GitBook Agent**. GitBook creates the change request, and the Agent starts carrying out your instructions. At every stage, the Agent will tell you what it’s doing in its conversation.
 
 When it’s done, you can edit the content yourself directly on the page, or give the Agent more instructions to continue refining your changes.
 
