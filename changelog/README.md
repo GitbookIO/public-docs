@@ -48,7 +48,7 @@ When a whole domain stops resolving, all of its links show as one finding that l
 
 ## Broken links stay in sync with your redirects
 
-Each finding on the [Broken links](https://gitbook.com/docs/analytics/broken-links) screen now has one clear state: open, resolved, or ignored.&#x20;
+Each finding on the [Broken links](https://gitbook.com/docs/analytics/broken-links) screen now has one clear state: open, resolved, or ignored.
 
 Adding a redirect — including a wildcard or a bulk import — resolves the broken links it covers, and removing the redirect reopens them, so the list always matches your site’s redirects. Each finding offers only the actions that fit its state, and resolving one applies its redirect.
 
@@ -86,6 +86,10 @@ You can now add [adaptive content](https://gitbook.com/docs/publish/adaptive-con
 * Moving through the insert block palette with the arrow keys no longer jumps around in Safari.
 * Long repository and space names in the Git Sync progress no longer cover other content.
 * Text inputs in integration configuration screens display correctly again.
+
+{% hint style="success" icon="star-sharp" %}
+We would also like to acknowledge [ACylaa](https://github.com/ACylaa)'s contribution to making Gitbook a more secure platform.
+{% endhint %}
 {% endupdate %}
 
 {% update date="2026-10-15" tags="new-releases,improvements,fixes" %}
@@ -242,7 +246,7 @@ Conversations are also cleaner. Tool calls, thoughts, and background agents alig
 
 <figure><img src=".gitbook/assets/channels-setup.png" alt="A screenshot showing the new channels setup screen in the GitBook app"><figcaption></figcaption></figure>
 
-When setting up a new [channel](../documentation/gitbook-agent/channels.md) with your Slack workspace, GitHub account, or Linear workspace, you’ll now set up the tool first. You can then select the Slack channels, repositories, or Linear teams GitBook should handle from a list — so you no longer need to look up specific names or IDs by hand.
+When setting up a new [channel](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/channels) with your Slack workspace, GitHub account, or Linear workspace, you’ll now set up the tool first. You can then select the Slack channels, repositories, or Linear teams GitBook should handle from a list — so you no longer need to look up specific names or IDs by hand.
 
 Plus, channel configurations now show their scopes and roles at a glance and highlight any that still need setup. Change requests that the Agent opens from a Linear issue also stay in sync with that issue, with its details shown in the change request overview.
 
@@ -277,7 +281,7 @@ Plus, channel configurations now show their scopes and roles at a glance and hig
 
 <figure><img src=".gitbook/assets/style-guide-checks.png" alt="A screenshot showing the new Style Guide checks screen in the GitBook app"><figcaption></figcaption></figure>
 
-We’ve added an option to run a style guide check for your site content. You can start up to three style check change requests directly from the [style guide](../documentation/create-content/styleguide.md) itself — GitBook Agent opens one change request per space with the fixes it found. You can keep an eye on the open checks waiting for review in the new **Checks** tab, which shows when the last check ran and whether the style guide has changed since.
+We’ve added an option to run a style guide check for your site content. You can start up to three style check change requests directly from the [style guide](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/styleguide) itself — GitBook Agent opens one change request per space with the fixes it found. You can keep an eye on the open checks waiting for review in the new **Checks** tab, which shows when the last check ran and whether the style guide has changed since.
 
 This is great for running regular site audits to make sure recent updates meet your style guide, or for running a site-wide check when you update your style guide with new rules.
 
@@ -378,7 +382,7 @@ If you’re setting up a new site for the first time, the app will help you set 
 
 If you want to switch your existing space-level Git Sync to site-wide Git Sync, you can manage the migration from your site dashboard. The app will guide you through the process, with any spaces switching to the site’s repository that you choose. You have control over the configuration and content mapping, so you can manage the site content and structure however you like.
 
-Head over to [our Git Sync docs](https://gitbook.com/docs/docs-as-code/git-sync) to find out more, or check out [our guide to site-wide Git Sync to set it up for your own docs](../guides/editing-and-publishing-documentation/how-to-sync-your-entire-docs-site-with-a-git-repository.md).
+Head over to [our Git Sync docs](https://gitbook.com/docs/docs-as-code/git-sync) to find out more, or check out [our guide to site-wide Git Sync to set it up for your own docs](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/how-to-sync-your-entire-docs-site-with-a-git-repository).
 {% endupdate %}
 
 {% update date="2026-09-02" %}
@@ -428,7 +432,7 @@ Read more in [our site-level permissions documentation](https://gitbook.com/docs
 
 * We’ve simplified the [AI settings for your site](https://gitbook.com/docs/ai-for-your-readers/ai-search) to a single AI Assistant toggle. You can enable or disable it, and when you enable it you can choose the AI style — either the full Assistant or a more basic AI search.
 * The version history now contains more context in breadcrumbs along the top of your window. They now show the title and number of the original change request, GitHub pull request, or GitLab merge request. They also consistently show a **Merged** badge, along with the active section or variant path on the related site.
-* You can now choose to [add a separate font for H1, H2, and H3 headings](../documentation/manage-your-site/customization/icons-colors-and-themes.md#font-family) on your site, giving you more control over the look and feel of your published. You could combine a serif font for headings with a sans-serif font for the body copy, or any other combination you like.
+* You can now choose to [add a separate font for H1, H2, and H3 headings](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#font-family) on your site, giving you more control over the look and feel of your published. You could combine a serif font for headings with a sans-serif font for the body copy, or any other combination you like.
 * We’ve made the **Home** button at the top of the sidebar easier to find and more clearly labelled. It’s now easier to jump back to your main home screen to view all your sites and content.
 * Deleting a docs site now requires typing the site’s title to confirm deletion to ensure the action isn’t completed by accident.
 
@@ -555,7 +559,7 @@ When page feedback is enabled, GitBook Assistant can submit it on a reader’s b
 
 AI agents browsing your site can submit agent feedback. Published-site MCP servers include a `sendFeedback` tool for reporting unclear, outdated, or missing content. Agent feedback identifies issues the agent finds while working through your docs.
 
-Both types of feedback appear on in your [site’s analytics](../documentation/analytics/insights/) under page feedback.
+Both types of feedback appear on in your [site’s analytics](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/analytics/insights) under page feedback.
 
 {% hint style="info" %}
 This feature is rolling out slowly across GitBook organizations. If you don’t see it yet, it isn’t enabled for your organization.
@@ -587,13 +591,13 @@ This means you can refine the tone and knowledge of the Assistant — but these 
 {% update date="2026-07-27" tags="new-releases" %}
 ## Meet the GitBook CLI
 
-The new [GitBook CLI](../documentation/docs-as-code/gitbook-cli.md) (`@gitbook/cli`) brings your GitBook content and organizations to your terminal.
+The new [GitBook CLI](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/gitbook-cli) (`@gitbook/cli`) brings your GitBook content and organizations to your terminal.
 
 It wraps the GitBook API as a set of commands, so you can list organizations, inspect spaces and pages, ask questions against your docs, and build and publish integrations — all without leaving the shell.
 
 And it’s built for agentic workflows as much as human ones. Machine-readable `--json` output and a predictable command structure make it easy for AI coding agents like Claude Code, Codex, and Cursor to run commands, parse the results, and chain them together as part of a larger task.
 
-Install it globally with `npm install @gitbook/cli -g`, then run `gitbook login` to get started — or head to [the CLI docs](../documentation/docs-as-code/gitbook-cli.md) for the full guide.
+Install it globally with `npm install @gitbook/cli -g`, then run `gitbook login` to get started — or head to [the CLI docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/gitbook-cli) for the full guide.
 {% endupdate %}
 
 {% update date="2026-07-24" tags="new-releases,improvements" %}
@@ -637,21 +641,21 @@ Combined with the existing positioning and cover height controls, these options 
 
 We’ve redesigned the GitBook app around what you actually ship: your docs sites.
 
-You now start at your organization **Home**, and each site’s content, structure, settings, and tools live together in one sidebar. Content in a site lives in [sections](../documentation/manage-your-site/site-structure/site-sections.md) — what you knew as spaces, now part of their site — organized into groups when your docs grow. And the new [All content ](../documentation/create-content/content-structure/all-content.md)screen gives you one place to find everything in your organization, including content that isn’t part of a site yet.
+You now start at your organization **Home**, and each site’s content, structure, settings, and tools live together in one sidebar. Content in a site lives in [sections](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/site-sections) — what you knew as spaces, now part of their site — organized into groups when your docs grow. And the new [All content ](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/content-structure/all-content)screen gives you one place to find everything in your organization, including content that isn’t part of a site yet.
 
 If your organization hasn’t made the switch yet, enable the new experience in the app. Your content, sites, and settings come with you exactly as they are.
 
-Read about [what’s changed](../documentation/getting-started/sites-first.md), or jump into the [quickstart](../documentation/getting-started/quickstart.md) to learn more.
+Read about [what’s changed](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/opU0gcQWR28qAZOtB7JN), or jump into the [quickstart](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/getting-started/quickstart) to learn more.
 {% endupdate %}
 
 {% update date="2026-07-21" tags="new-releases" %}
 ## Introducing style guides
 
-You can now create a [style guide](../documentation/create-content/styleguide.md) for your docs: a dedicated space for your team’s writing rules that GitBook Agent enforces whenever it writes, edits, or reviews content.
+You can now create a [style guide](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/styleguide) for your docs: a dedicated space for your team’s writing rules that GitBook Agent enforces whenever it writes, edits, or reviews content.
 
 Start from the Starter, Google, or Microsoft template, import a guide you already have, or share one style guide across your sites. When content drifts from your rules, the Agent flags the exact rule it breaks and suggests a ready-to-paste fix. You can also request a full style guide review right from a change request.
 
-Style guides are rolling out gradually in early access. [Learn more in the style guide docs](../documentation/create-content/styleguide.md).
+Style guides are rolling out gradually in early access. [Learn more in the style guide docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/styleguide).
 {% endupdate %}
 
 {% update date="2026-07-17" tags="new-releases,improvements,fixes" %}
