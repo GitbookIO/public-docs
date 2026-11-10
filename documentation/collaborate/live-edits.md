@@ -1,5 +1,5 @@
 ---
-description: Edit pages in real-time with other collaborators
+description: Edit pages in real time with other collaborators
 ---
 
 # Live edits

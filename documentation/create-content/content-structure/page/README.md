@@ -105,6 +105,8 @@ Page link titles are optional — if you don't add one, the page uses its standa
 
 Page groups bring related pages together within a section's table of contents. You can add an icon to each page group.
 
+If you’re using Git Sync, create a page group with a level-two heading in `SUMMARY.md`. Every top-level link after that heading belongs to the group until the next page-group heading. A horizontal rule does not close a group, so place ungrouped top-level pages before the first group.
+
 {% hint style="info" %}
 Page groups organize pages within one section. Section groups organize sections in site navigation. They are different objects, even though both are called groups. See [collection.md](../collection.md "mention").
 {% endhint %}
@@ -137,7 +139,7 @@ Create an external link by clicking **Add new...** > **External link** at the bo
 
 To improve visibility for readers when skimming your table of contents, add an optional icon or emoji to individual pages. The icon or emoji appears in the table of contents, and next to the title at the top of the page.
 
-To add an icon or emoji, click the **Add icon** button when hovering the page title, or the emoji button to the left of the title.
+To add an icon or emoji, click the **Add icon** button when hovering over the page title, or the emoji button to the left of the title.
 
 ### Page options
 
@@ -211,7 +213,7 @@ Set a page cover for each page of your documentation. When you click the **Page 
 
 * **Change the cover image**
   1. Hover over the page cover and click **Change cover**.
-  2. Choose or upload an image. The ideal size is 1990x480 pixels.
+  2. Choose or upload an image. The ideal size is 1990 × 480 pixels.
 * **Reposition the cover image**
   1. Hover over the page cover and open the **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
   2. Click **Reposition**.

@@ -26,9 +26,9 @@ When choosing a subdomain, you can either use `www` or a custom one. Some common
 {% step %}
 #### Initiate the custom domain setup
 
-Navigate to the site for which you want to set the custom domain. Click **Settings,** then choose **Set up a custom domain.**
+Navigate to the site for which you want to set the custom domain. Click **Settings**, then choose **Set up a custom domain**.
 
-From here, you'll see a window where you can enter the custom domain you chose in the first step. Type it out and click **Next.**
+From here, you'll see a window where you can enter the custom domain you chose in the first step. Type it out and click **Next**.
 {% endstep %}
 
 {% step %}
@@ -46,7 +46,7 @@ After adding the record, it might take some time for the changes to propagate. W
 {% step %}
 #### Finalize your setup
 
-After adding the record and it being propagated, it's time to go live! GitBook will verify the domain, the record you added and will automatically configure the SSL certificate for your domain.
+After adding the record and it being propagated, it's time to go live! GitBook will verify the domain and the record you added, and will automatically configure the SSL certificate for your domain.
 
 Once done, you'll receive a notification and can click **Finish**. You can also close the window if you need, and we'll send you a notification once the process is done on our side.
 {% endstep %}
@@ -92,11 +92,11 @@ This happens automatically when you set your custom domain — you do not need t
 
 Occasionally errors occur at this stage, usually when the CNAME record for the custom domain hasn't propagated.
 
-In these cases, we can recommend the following:
+In these cases, we recommend the following:
 
 1. Check that your CNAME record is set up correctly.\
    Please review our page about configuring DNS to help you with this.\
-   If the CNAME record is incorrect, we won't be able to configure the SSL certificate and complete the custom domain set-up.
+   If the CNAME record is incorrect, we won't be able to configure the SSL certificate and complete the custom domain setup.
 2. Allow _**at least one hour**_ between configuring the CNAME record and finalizing the custom domain setup.
 3. Verify if the CNAME has propagated. You can try using a third-party DNS lookup tool, such as [WhatsMyDNS](https://www.whatsmydns.net/), to find out what the servers believe to be correct for your correct CNAME record.
 4. If you are using Cloudflare, please confirm that you don’t have the record proxied [as explained here](https://developers.cloudflare.com/fundamentals/setup/manage-domains/pause-cloudflare/#disable-proxy-on-dns-records).

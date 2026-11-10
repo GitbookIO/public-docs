@@ -52,7 +52,7 @@ Choose the source of truth for the initial sync. Select **Swap direction** if th
 {% step %}
 ### Set the project directory
 
-If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
+If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `gitbook-docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
 {% endstep %}
 
 {% step %}

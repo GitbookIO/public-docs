@@ -26,6 +26,8 @@ It’s best that content belongs to a parent site. Create new content inside a s
 
 ### Content that isn’t part of a site
 
-If your organization used GitBook before our navigation remodel, some of your content may not belong to a site. It still appears in **All content**, and you can keep editing and collaborating on it here.
+If your organization used GitBook before our navigation remodel, spaces that were linked to a site became sections of that site. Nothing was deleted or unpublished.
+
+Content that was not linked to a site still appears in **All content**, and you can keep editing and collaborating on it here.
 
 To publish that content, add it to a site as a section. Learn more in [Site structure](../../manage-your-site/site-structure/).

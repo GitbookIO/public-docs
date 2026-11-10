@@ -20,6 +20,8 @@ layout:
     visible: false
   actions:
     visible: true
+  anchors:
+    visible: true
 tags:
   - tag: new
     primary: true
@@ -39,7 +41,7 @@ Tools like Claude Code, Codex, Cursor, and other MCP clients can use it to creat
 Need a read-only MCP server for a published docs site? GitBook creates one for you automatically — see [MCP servers for published docs](../ai-for-your-readers/mcp-servers-for-published-docs.md) to find out more.
 {% endhint %}
 
-## GitBook’s MCP Endpoint
+## GitBook’s MCP endpoint
 
 Point your MCP client at:
 
@@ -256,7 +258,7 @@ If you use OAuth, don't add a bearer token manually. Your client gets it during 
 
 <summary>Why does nothing happen after I add the GitBook MCP server to my client?</summary>
 
-Yes. That's expected in some MCP clients.
+That's expected in some MCP clients.
 
 Adding a server often only saves the configuration. Some clients start authentication only when they first connect, list tools, or open the MCP panel.
 

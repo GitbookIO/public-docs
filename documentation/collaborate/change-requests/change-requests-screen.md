@@ -17,8 +17,6 @@ All change requests in your site appear in the change requests screen. You can f
 
 Click a change request to open it in an expanded view. From there you can review, edit, and merge the change request, or continue working on it with GitBook Agent. The expanded view also shows the participants and reviewers, the description, and a diff view of the changes.
 
-To inspect diffs in the editor, click **Edit** in the top right corner to open the change request's space, then switch to the **Changes** tab. The diff navigation control appears there.
-
 To inspect diffs in the editor, click **Edit** in the top right corner to open the change request's space, then switch to the **Changes** tab. At the bottom of the editor, the floating diff navigator lets you move through changed blocks, continue to the next page with diffs, and finish the review from the last change with the available review actions.
 
 ### Reviewing a change request

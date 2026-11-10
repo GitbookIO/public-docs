@@ -25,7 +25,7 @@ If you see a **'Potential duplicated accounts'** error message at this step, thi
 
 To help you identify which accounts are linked, you will have to log out from this session and log in using the sign-in with GitHub method.
 
-If you already know your GitBook account associated with GitHub you can log into that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.
+If you already know your GitBook account associated with GitHub, you can log in to that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.
 
 Read more on our [troubleshooting page](troubleshooting.md#potential-duplicated-accounts-when-signing-in).
 {% endhint %}
@@ -56,7 +56,7 @@ Before you start the initial sync, confirm the repository, branch, and direction
 {% step %}
 ### Set the project directory
 
-If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
+If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `gitbook-docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
 {% endstep %}
 
 {% step %}

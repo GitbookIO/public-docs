@@ -21,12 +21,14 @@ When you open GitBook, you land on your organization **Home**: every docs site i
   Powered by [GitBook Agent](../create-content/searching-your-content/gitbook-ai.md), ask questions in natural language, or search through the sites and content in your organization.
 * **Sites list**\
   View every docs site in your organization. Click a site to open it.
-* **All content**\
-  If your organization has content that isn't part of any site, it appears in an **All content** section alongside your sites, in a tree view. If every piece of content belongs to a site, this section doesn't appear.
+* **Content**\
+  Opens the [All content](../create-content/content-structure/all-content.md) screen, where you can browse, filter, and search content from every site, and content that isn't part of a site yet.
+* **Spaces**\
+  Spaces that aren't part of any site are listed at the bottom of the sidebar.
 *   **Settings**\
     [Organization settings](../account-and-billing/organization-settings.md) and [account settings](../account-and-billing/account-settings.md) share one dedicated screen. It groups settings by **Account** and **Organization**.
 
-    **Account** includes **General**, **Notifications**, **Organizations**, and **Developer tools**. **Organization** includes **General**, **Members**, **Merge rules**, **GitBook Agent**, **Integrations**, **OpenAPI**, **Translations**, **Invite links**, **Teams**, **SSO**, and **Billing**. Click **Back to app** to return to your work.
+    **Account** includes **General**, **Notifications**, **Organizations**, and **Developer tools**. **Organization** includes **General**, **Members**, **Merge rules**, **GitBook Agent**, **Integrations**, **OpenAPI**, **Translations**, **Invite links**, **Teams**, **Access**, and **Billing**. Click **Back to app** to return to your work.
 * **Styleguides**\
   View every [style guide](../manage-your-site/site-structure/) in your organization and the sites that use it.
 * **Trash**\
@@ -43,7 +45,7 @@ Opening a site replaces the sidebar with that site's content and tools: the same
 * **Analyze**\
   [**Traffic**](../analytics/insights/traffic.md), [**Agents & MCP**](../analytics/insights/agents-and-mcp.md), and [**AI Assistant**](../analytics/insights/ai-insights.md) reports.
 * **Improve**\
-  [**Style guide**](../create-content/styleguide.md), [**Content gaps**](../analytics/content-gaps.md), and [**Broken links**](../analytics/broken-links.md).
+  [**Style guide**](../create-content/styleguide/), [**Content gaps**](../analytics/content-gaps.md), and [**Broken links**](../analytics/broken-links.md).
 *   **Content**\
     Your site's [sections](../manage-your-site/site-structure/site-sections.md) and groups, in published order. Click a section to edit it.
 
@@ -155,7 +157,7 @@ Under **Analyze**, the [site analytics](../analytics/insights/) reports show how
 Under **Improve**, GitBook checks your published docs and helps you fix what it finds:
 
 * **Style guide**\
-  Your site’s [style guide](../create-content/styleguide.md) defines writing rules and conventions. GitBook Agent follows it when writing, editing, or reviewing content.
+  Your site’s [style guide](../create-content/styleguide/) defines writing rules and conventions. GitBook Agent follows it when writing, editing, or reviewing content.
 * **Content gaps**\
   [Content gaps](../analytics/content-gaps.md) lists the questions your docs don’t answer.
 * **Broken links**\

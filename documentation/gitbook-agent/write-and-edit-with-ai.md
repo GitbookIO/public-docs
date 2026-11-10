@@ -6,12 +6,12 @@ description: Use GitBook Agent to generate and build content for your page
 
 GitBook Agent is a powerful tool for generating content for your documentation in GitBook.
 
-The Agent can do everything from write short passages of text on your page, to edit existing blocks and create new pages and more in a change request.
+The Agent can do everything from writing short passages of text on your page, to editing existing blocks and creating new pages and more in a change request.
 
 {% hint style="info" %}
-#### GitBook Agent follows your styleguide
+#### GitBook Agent follows your style guide
 
-Define your team's writing rules in a [styleguide](../create-content/styleguide.md), and the Agent treats it as the source of truth whenever you ask it to help. It loads your styleguide's **first page** into context on every task, so keep your main rules there.
+Define your team’s writing rules in a [style guide](../create-content/styleguide/), and the Agent treats it as the source of truth whenever you ask it to help. It loads your style guide’s **first page** into context on every task, so keep your main rules there.
 
 You can also [add short custom instructions](overview.md#add-a-style-guide-and-custom-instructions) at a site level.
 {% endhint %}
@@ -33,20 +33,34 @@ That means you can use the Agent to:
 
 There are a few ways to work with GitBook Agent:
 
-* Open the Agent within an existing change request and tell it what you need
+* Open the Agent from anywhere in GitBook and tell it what you need
 * Plan and implement a new change request with GitBook Agent
 * Tag the Agent in a comment on a block
 * Create new content on an empty line on your page
 
 Let’s run through each of these to find out how they work.
 
-#### Open GitBook Agent chat window in any change request
+#### Open GitBook Agent
 
-You can open the Agent chat window in a change request at any time by clicking the **GitBook Agent** button in the section header bar. This will open the Agent’s chat window on the right of the app.
+GitBook Agent is available anywhere in your organization, not only in a change request. Click **Agent** in the bottom-right corner of the app to open a new conversation. The conversation keeps running as you move between pages.
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_write_and_edit_with_ai@2x.png" alt=""><figcaption><p>Open GitBook Agent in a change request</p></figcaption></figure></div>
+A new conversation suggests a few prompts to get started, such as **What does this space cover?** or **Find outdated content**. GitBook Agent reads the space you're in, and opens a change request when you ask for edits.
 
-Here you can write a prompt for the Agent to follow — it will explain what it’s doing as it follows your instructions, with the changes appearing in your section as it works.
+Each conversation opens as a tab next to the **Agent** button. Use the buttons in the conversation's header to:
+
+* **Anchor as side panel:** keep the Agent in view while you work
+* **Minimize:** hide the conversation and come back to it later
+* **Close:** close the conversation
+
+To find a past conversation, click the chat history icon next to the **Agent** button. Conversations are grouped by date, and you can filter them by name.
+
+GitBook Agent names each conversation for you. To rename one, click its name at the top of the conversation and type a new name.
+
+You can also open the Agent from the editor. Select text, start an empty block, use **Improve** in the page header, or use a comment's actions. The conversation opens with the page and your selection already attached.
+
+The Agent works with your permissions. It reads what you can read, and edits and comments only where you can.
+
+Write a prompt for the Agent to follow — it will explain what it’s doing as it follows your instructions, with the changes appearing in your section as it works.
 
 You can give follow-up instructions or clarify steps, or edit the content of your section directly at any point, allowing you to work alongside GitBook Agent.
 
@@ -56,13 +70,13 @@ Click the **GitBook Agent** part of the **Edit** button in the top-right of a se
 
 Here you can write a prompt to tell the Agent what you want your change request to include, then add reference pages that might be useful as context for the changes.
 
-Once you click **Start change request** the Agent will open a change request for you and start carrying out your instructions. At every stage, the Agent will tell you what it’s doing in the chat window on the right-hand side of the app.
+Once you click **Start change request** the Agent will open a change request for you and start carrying out your instructions. At every stage, the Agent will tell you what it’s doing in its conversation.
 
 When it’s done, you can edit the content yourself directly on the page, or give the Agent more instructions to continue refining your changes.
 
 #### Tag GitBook Agent in a comment
 
-If you want the Agent to review a specific block on your page, you can tag it in a comment and tell it what you need. Simply click **Comment on block** and tag @gitbook to tag the Agent, then tell it what you want it to do.
+If you want the Agent to review a specific block on your page, you can tag it in a comment and tell it what you need. Click **Comment on block** and tag @gitbook to tag the Agent, then tell it what you want it to do.
 
 GitBook Agent will update the content based on your prompt, then reply to your comment telling you what it did.
 
@@ -116,5 +130,5 @@ Here are some quick tips for writing good prompts:
 * **Break it down** – The Agent is best at completing focused tasks. Break down complex projects into smaller steps and ask the Agent to complete them one at a time.
 * **Be specific** – Generic prompts like `@gitbook improve this page` will apply general best practices, but without more specific guidance the Agent may not achieve the goal you had in mind.
 * **Focus on outcomes** – If you’re hearing about a specific problem customers are having, tell the Agent about those problems — or the outcomes you want to achieve. It will suggest improvements based on those outcomes.
-* **Give direct instructions** – If you want the Agent to use a stepper block for a step-by-step guide, or add an FAQ section with a bunch of expandable blocks, tell it precisely what to do to get the right results first time.
+* **Give direct instructions** – If you want the Agent to use a stepper block for a step-by-step guide, or add an FAQ section with a bunch of expandable blocks, tell it precisely what to do to get the right results the first time.
 * **Use broad prompts for wider improvements** – For maintenance tasks like fixing typos, updating a feature name across pages or removing specific block types from your docs, you can use commands like `@gitbook replace all instances of v2.3.9 with v2.4.0`.

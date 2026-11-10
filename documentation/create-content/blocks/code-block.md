@@ -8,7 +8,7 @@ description: >-
 
 You can add code to your GitBook pages using code blocks.
 
-When you add a code block, you can choose to [set the syntax](code-block.md#set-syntax...), [show line numbers](code-block.md#with-line-numbers), [show a caption](code-block.md#with-caption), and [wrap the lines](code-block.md#wrap-code). It’s also easy to [copy the contents of a code block to the clipboard](code-block.md#copying-the-code), so you can use it elsewhere
+When you add a code block, you can choose to [set the syntax](code-block.md#set-syntax...), [show line numbers](code-block.md#with-line-numbers), [show a caption](code-block.md#with-caption), and [wrap the lines](code-block.md#wrap-code). It’s also easy to [copy the contents of a code block to the clipboard](code-block.md#copying-the-code), so you can use it elsewhere.
 
 A code block may be useful for:
 
@@ -104,7 +104,7 @@ Wrapping lines is useful when your code is long and you want to avoid having the
 
 This will toggle showing the code in full (when the toggle is off) or a collapsed window of the code which the user can expand (when the toggle is on).
 
-The collapsed view defaults to showing 10 lines of code with an button to expand to show the full code block. If there are less than 10 lines of code, all the content will be shown.
+The collapsed view defaults to showing 10 lines of code with a button to expand to show the full code block. If there are fewer than 10 lines of code, all the content will be shown.
 
 ### Code block actions
 

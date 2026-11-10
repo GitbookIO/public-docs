@@ -10,7 +10,7 @@ Hints, or callouts, are a great way to bring the reader’s attention to specifi
 
 There are four different hint styles — you can change the style by opening the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> and selecting the style you want. Each style uses a default icon, but you can customize the icon by clicking on it and choosing another one from [our icons set](../formatting/inline.md#icons).
 
-Hint blocks support [inline content](../formatting/inline.md) and [formatting](../formatting/), as well some specific block types. To see which block types you can use in a hint, hit `/` on an empty line and check the [insert palette](./#inserting-a-new-content-block).
+Hint blocks support [inline content](../formatting/inline.md) and [formatting](../formatting/), as well as some specific block types. To see which block types you can use in a hint, hit `/` on an empty line and check the [insert palette](./#inserting-a-new-content-block).
 
 ### Examples of hint blocks <a href="#example-of-a-hint" id="example-of-a-hint"></a>
 
@@ -44,7 +44,7 @@ This is an inline <img src="../../.gitbook/assets/25_01_10_command_icon_light.sv
 * This is a second <mark style="color:orange;background-color:purple;">line using an unordered list and color</mark>
 {% endhint %}
 
-To add a heading to your hint, you need to create a heading block as the the first block in the hint.
+To add a heading to your hint, you need to create a heading block as the first block in the hint.
 
 ### Representation in Markdown
 

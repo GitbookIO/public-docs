@@ -29,7 +29,7 @@ Four tiles across the top show how many gaps GitBook has found, how many are hig
 GitBook flags four kinds of issue:
 
 * **Content gaps** occur when GitBook sees customers asking questions about your product that the docs struggle to answer, such as:
-  * A customer asking a question to your support team that they couldn’t find on the docs.
+  * A customer asking a question to your support team that they couldn’t find in the docs.
   * An API endpoint missing complete documentation.
 * **Outdated content** is detected when the content on your page has been superseded by content found in an external source, such as:
   * An SDK update that changed the signature of a function.

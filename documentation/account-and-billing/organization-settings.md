@@ -105,11 +105,17 @@ Create and manage links that let people join your organization.
 
 <details>
 
-<summary>SSO</summary>
+<summary>Access</summary>
 
-**Email domains**
+Configure how members join, sign in, and get access to your organization. See [SSO & SAML](sso-and-saml/) for setup steps.
 
-For each domain you add, people with an email address on that domain can access the organization after they create a GitBook account. Choose their default [role](../collaborate/member-management/roles.md).
+**Allowed email domains**
+
+People with a verified email address on a domain you add can join the organization when they sign in. Only work email domains are accepted.
+
+**Default role**
+
+Choose the [role](../collaborate/member-management/roles.md) new members get when they join automatically, through an allowed email domain or your identity provider.
 
 **SAML**
 

@@ -16,9 +16,9 @@ By default, expandable blocks will be collapsed on your published docs site. If 
 
 <summary>Step 1: Start using expandable blocks</summary>
 
-To add an expandable block hit `/` on an empty block, or click the `+` on the left of the editor, and select **Expandable**.
+To add an expandable block, hit `/` on an empty block, or click the `+` on the left of the editor, and select **Expandable**.
 
-Optionally, you can set expanded blocks to be **Expanded by default** in the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt=""></picture> — just like this block.
+Optionally, you can set expandable blocks to be **Expanded by default** in the block’s **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt=""></picture> — just like this block.
 
 </details>
 

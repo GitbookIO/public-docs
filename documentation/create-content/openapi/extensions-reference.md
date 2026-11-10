@@ -285,6 +285,18 @@ paths:
 ```
 {% endcode %}
 
+Add it to a tag in the `tags` array to hide every operation grouped under that tag.
+
+{% code title="openapi.yaml" %}
+```yaml
+openapi: '3.0'
+info: ...
+tags:
+  - name: admin
+    x-gitbook-ignore: true
+```
+{% endcode %}
+
 </details>
 
 <details>

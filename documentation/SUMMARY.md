@@ -7,7 +7,6 @@
 * [Quickstart](getting-started/quickstart.md)
 * [LLM-ready docs](getting-started/llm-ready-docs.md)
 * [Migrate to GitBook](getting-started/import.md)
-* [Site workspace](getting-started/sites-first.md)
 
 ## Create content
 
@@ -64,7 +63,10 @@
     * [Using OpenAPI proxy](create-content/openapi/guides/using-openapi-proxy.md)
     * [Describing enums](create-content/openapi/guides/describing-enums.md)
     * [Integrating with CI/CD](create-content/openapi/guides/support-for-ci-cd-with-api-blocks.md)
-* [Style guide](create-content/styleguide.md)
+* [Style guide](create-content/styleguide/README.md)
+  * [Build your style guide](create-content/styleguide/build-your-style-guide.md)
+  * [Check content against your style guide](create-content/styleguide/check-content-against-your-style-guide.md)
+  * [How GitBook Agent enforces your style guide](create-content/styleguide/how-gitbook-agent-enforces-your-style-guide.md)
 * [Version control](create-content/version-control.md)
 * [Searching internal content](create-content/searching-your-content/README.md)
   * [Search & Quick find](create-content/searching-your-content/quick-find.md)

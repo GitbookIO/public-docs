@@ -7,7 +7,7 @@ description: Pass visitor data into your docs through a feature flag provider
 {% hint style="warning" %}
 Using adaptive content with feature flags requires adding code to your application.
 
-Currently, the GitBook helper only supports React based setups.
+Currently, the GitBook helper only supports React-based setups.
 {% endhint %}
 
 GitBook provides helper functions and integrations for popular feature flag service providers like [**LaunchDarkly**](feature-flags.md#launchdarkly) and [**Reflag**](feature-flags.md#reflag).
@@ -20,7 +20,7 @@ LaunchDarkly allows you to send feature flag access as claims through the [`laun
 
 If you’re using LaunchDarkly feature flags in your product already, chances are you already have this package configured.
 
-To pass you these feature flags as claims to GitBook, follow these steps:
+To pass these feature flags as claims to GitBook, follow these steps:
 
 {% stepper %}
 {% step %}
@@ -110,11 +110,11 @@ Reflag allows you to send feature flag access as claims through the [`@reflag/re
 
 If you’re using Reflag feature flags in your product already, chances are you already have this package configured.
 
-To pass you these feature flags as claims to GitBook, follow these steps:
+To pass these feature flags as claims to GitBook, follow these steps:
 
 {% stepper %}
 {% step %}
-**Install the Reflag Integration**
+**Install the Reflag integration**
 
 To get started, you’ll first need to [install the Reflag integration](https://app.gitbook.com/integrations/bucket) into your GitBook site.
 {% endstep %}
@@ -126,7 +126,7 @@ Add your secret key from your [Reflag settings](https://app.reflag.com/envs/curr
 {% endstep %}
 
 {% step %}
-**Install the GitBook helper to your application**
+**Install the GitBook helper in your application**
 
 After setting up the Reflag integration, you’ll need to install the GitBook adaptive content helper in your application.
 

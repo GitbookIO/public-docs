@@ -6,7 +6,7 @@ description: >-
 
 # Format content
 
-To format your text, simply select the words you want and choose one of the formats from the context menu — or format your text using a keyboard shortcut or through Markdown syntax.
+To format your text, select the words you want and choose one of the formats from the context menu — or format your text using a keyboard shortcut or through Markdown syntax.
 
 {% hint style="info" %}
 We've written these shortcuts using Mac keys. Use **Control** in place of **⌘ (Command)** on Windows or Linux operating systems. Check out our keyboard shortcuts section to see all the shortcuts for all operating systems.
@@ -26,7 +26,7 @@ Keyboard shortcut: <kbd>⌘</kbd> + <kbd>B</kbd>
 
 #### Italic
 
-Keyboard shortcut : <kbd>⌘</kbd> + <kbd>I</kbd>
+Keyboard shortcut: <kbd>⌘</kbd> + <kbd>I</kbd>
 
 {% tabs %}
 {% tab title="Markdown" %}

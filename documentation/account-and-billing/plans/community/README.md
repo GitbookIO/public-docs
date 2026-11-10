@@ -15,7 +15,7 @@ The Community plan includes all Ultimate plan features except SAML SSO.
 3. Education-related groups
 
 {% hint style="info" %}
-If you won’t need to collaborate with others and/or can use [Git Sync](../../../docs-as-code/git-sync/) to collaborate via GitHub and GitLab then your needs should be covered by our Free plan!
+If you won’t need to collaborate with others and/or can use [Git Sync](../../../docs-as-code/git-sync/) to collaborate via GitHub or GitLab, then your needs should be covered by our Free plan!
 
 If you want to publish a docs site for free too, you can choose from either a Free site with limited features, or [a Sponsored site](sponsored-site-plan.md) which has more features and earns you funding through small, relevant ads. See [our open source page](https://www.gitbook.com/solutions/open-source) for more details on these plans.
 {% endhint %}
@@ -40,7 +40,7 @@ Your organization should **not**:
 * promote a dogma.
 * promote a religious position as part of its activity.
 * promote discrimination of any kind, on the basis of gender (identity or expression), race, ethnicity, political or religious opinion, sexual orientation, or anything else.
-* be a cryptocurrency or gaming related project
+* be a cryptocurrency or gaming-related project.
 
 ### Criteria for non-profit organizations
 
@@ -83,7 +83,7 @@ Individual students who want to keep their personal and course notes should use 
 3. **Get the organization’s URL**\
    In the [sidebar](../../../reference/gitbook-ui.md#home), click on the name of the organization you chose in step 2. Copy or make a note of the URL in your browser. It will be in the format `app.gitbook.com/o/[string]/home`, where `[string]` will be a unique string of letters and numbers used to identify that organization.
 4. **Contact us via our messenger on** [**our website**](https://www.gitbook.com/contact)\
-   Select ’Contact Support’ and then ’I have a question about pricing’ then ’I want to apply to the Community plan’, or alternatively send us an email with the required info to support@gitbook.com
+   Select ‘Contact Support’ and then ‘I have a question about pricing’ then ‘I want to apply to the Community plan’, or alternatively send us an email with the required info to support@gitbook.com
 
 ### Submitting your application via email
 

@@ -4,7 +4,7 @@ description: Keep track of changes, roll back to a previous version and more
 
 # Version control
 
-You can monitor all the changes people have made to your content using to the **Version history** side panel.
+You can monitor all the changes people have made to your content using the **Version history** side panel.
 
 ### Version history <a href="#see-the-activity-of-a-specific-draft" id="see-the-activity-of-a-specific-draft"></a>
 

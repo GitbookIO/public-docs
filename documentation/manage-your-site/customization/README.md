@@ -12,12 +12,12 @@ You can apply customizations to your entire docs site as a site-wide theme, or t
 
 ### Customizing sites with multiple sections or variants
 
-If you have a docs site with with multiple sections or variants, you can control the customization of each one individually.
+If you have a docs site with multiple sections or variants, you can control the customization of each one individually.
 
 Select the whole site or a specific site section using the drop-down menu at the top of the **Customization** panel.
 
 * **Site-wide settings** – These automatically apply to all sections.
-* **Section or variant specific settings** – If you’re using site sections or variants, you’re can set specific customization that will override the default site-wise setting.
+* **Section- or variant-specific settings** – If you’re using site sections or variants, you can set specific customization that will override the default site-wide setting.
 
 <figure><img src="../../.gitbook/assets/25_12_10_customization@2x.png" alt="A GitBook screenshot showing the customization panel"><figcaption><p>The customization panel in GitBook.</p></figcaption></figure>
 
@@ -29,13 +29,13 @@ You can reset customization overrides back to the site-wide default by clicking 
 
 ### What counts as ‘Advanced customization’?
 
-Every GitBook user can take advantage of basic customization options on their docs site. Premium or Ultimate site plan users can also use advanced customization features to further tweak their docs to match their brand.
+Every GitBook user can take advantage of basic customization options on their docs site. Essential or Ultimate site plan users can also use advanced customization features to further tweak their docs to match their brand.
 
 Advanced customization options include:
 
 * **Custom logo** – Add a logo that replaces the emoji and title at the top of your docs site.
-* **Icon style** - Change the weight and style of page icons in your docs site.
-* **Custom fonts** – Change the primary font and monospace of your docs site.
+* **Icon style** – Change the weight and style of page icons in your docs site.
+* **Custom fonts** – Change the primary font and monospace font of your docs site.
 * **Footer** – Add a custom logo, copyright text and navigation to a footer at the bottom of your documentation.
 * **Bold and Gradient themes** – Change the background color for your header, or add a gradient background to your entire site with these new themes.
 * **Semantic colors** – Change the background color of hint blocks and the styling of code blocks within your published content.

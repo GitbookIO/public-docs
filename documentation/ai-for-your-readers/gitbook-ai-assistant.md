@@ -1,12 +1,12 @@
 ---
 description: >-
-  AI Assistant gives users accurate, contextual answers drawn from your entire
-  knowledge base, not just your docs
+  AI Assistant gives visitors accurate, contextual answers drawn from your
+  entire knowledge base, not just your docs
 ---
 
 # AI Assistant
 
-<figure><img src="../.gitbook/assets/25_03_31_gitbook_assistant@2x.png" alt="GitBook Assistant"><figcaption><p>The GitBook Assistant</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/25_03_31_gitbook_assistant@2x.png" alt="AI Assistant"><figcaption><p>The AI Assistant</p></figcaption></figure>
 
 AI Assistant gives your users fast, accurate answers about your documentation using natural language. It's personalized to your users, can be embedded into your website or product, and can appear in the sidebar or search box of your published docs.
 
@@ -72,10 +72,10 @@ How readers reach the Assistant depends on its placement.
 
 ### Sidebar placement
 
-Users can access GitBook Assistant in three ways:
+Visitors can access AI Assistant in three ways:
 
 * Press <kbd>⌘</kbd> + <kbd>I</kbd> on Mac or <kbd>Ctrl</kbd> + <kbd>I</kbd> on PC
-* Click the **GitBook Assistant** <i class="fa-gitbook-assistant">:gitbook-assistant:</i> button next to the **Ask or search…** bar
+* Click the **AI Assistant** <i class="fa-gitbook-assistant">:gitbook-assistant:</i> button next to the **Ask or search…** bar
 * Type a question into the **Ask or search…** bar and choose the 'Ask…' option at the top of the menu
 
 ### Search box placement
@@ -102,7 +102,7 @@ Your users can search for keywords within your docs site and jump quickly to spe
 
 ## Embed AI Assistant in your product
 
-You can embed GitBook Assistant directly into your product or website, giving users instant access to AI-powered help without leaving your application. The Assistant can be embedded as part of [Docs Embed](../publish/embedding/), which includes the Assistant tab for AI-powered chat, the Search tab for scoped discovery, and the Docs tab for browsing your documentation.
+You can embed AI Assistant directly into your product or website, giving visitors instant access to AI-powered help without leaving your application. The Assistant can be embedded as part of [Docs Embed](../publish/embedding/), which includes the Assistant tab for AI-powered chat, the Search tab for scoped discovery, and the Docs tab for browsing your documentation.
 
 Choose the embedding method that fits your stack:
 

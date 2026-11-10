@@ -12,6 +12,8 @@ They help large language models (LLMs), coding agents, and AI search systems. Th
 
 Append `.md` to any published page URL to view its Markdown. Markdown gives AI tools structured content without the surrounding HTML.
 
+For the root landing page, add `/.md` to the site URL. For example, `https://gitbook.com/docs` becomes `https://gitbook.com/docs/.md`. If your site is published at a domain root, use `https://docs.example.com/.md`.
+
 <a href="https://gitbook.com/docs/publishing-documentation/llm-ready-docs.md" class="button primary">Check out the .md file for this page</a>
 
 ## llms.txt

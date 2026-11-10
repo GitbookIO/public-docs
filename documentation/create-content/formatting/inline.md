@@ -1,14 +1,14 @@
 ---
-description: Use the inline palette to add images, links, math & TeX, and more
 vars:
   inlineExampleProduct: GitBook
+description: Use the inline palette to add images, links, math & TeX, and more
 ---
 
 # Inline content
 
 <figure><img src="../../.gitbook/assets/26_01_22_inline-palette@2x.png" alt="A GitBook screenshot showing inline content options"><figcaption><p>Add inline elements to your content.</p></figcaption></figure>
 
-The inline palette lets you quickly add extra content to your text block without moving your hands away from the keyboard. Simply hit `/` on any text block to open the inline palette. The forward slash will be replaced by the content you choose to insert.
+The inline palette lets you add extra content to your text block without moving your hands away from the keyboard. Hit `/` on any text block to open the inline palette. The forward slash will be replaced by the content you choose to insert.
 
 ## Annotations
 
@@ -58,7 +58,7 @@ By default, images are set to their original size with a maximum width of 300px.
 
 1. **Inline size:** The image is proportionally sized to the font — great for icons and badges.
 2. **Original size:** The image will remain inline at its original size, with a maximum width of 300 pixels.
-3. **Convert to block:** This turns an inline image into a image block, which is as wide as your content.
+3. **Convert to block:** This turns an inline image into an image block, which is as wide as your content.
 
 {% hint style="info" %}
 Image blocks offer more options, including more sizes and the ability to add a caption — but will not appear inline with your text.
@@ -88,7 +88,7 @@ You can add emojis by hitting `/` to open the inline palette. Alternatively, typ
 ```
 {% endcode %}
 
-They render as follows: :house: :smile: :dog: &#x20;
+They render as follows: :house: :smile: :dog:
 
 ## Links
 
@@ -100,7 +100,7 @@ You can insert three different types of links:
 
 ### Relative links
 
-Relative links are links created by linking to pages that already exist in your section. The advantage of using relative links is that if the page's URL, name, or location changes, its reference will be kept up to date — so you'll end up with fewer broken links.
+Relative links are links created by linking to pages that already exist in your section. The advantage of using relative links is that if the page's URL, name, or location changes, its reference will be kept up to date — so you’ll end up with fewer broken links.
 
 Here’s how to insert a relative link:
 
@@ -176,7 +176,7 @@ Buttons are a great way to highlight calls to action or add a search or Ask AI b
 
 ### Button actions
 
-Buttons can do more than link to a URL. You can also turn a button into a search or ask GitBook Assistant bar — right from the page. These actions work on published pages, too — as you can see from the examples below.
+Buttons can do more than link to a URL. You can also turn a button into a search or ask AI Assistant bar — right from the page. These actions work on published pages, too — as you can see from the examples below.
 
 You can configure the following actions:
 
@@ -188,9 +188,9 @@ Send readers to another page or an external URL:<a href="../../ai-for-your-reade
 
 Open search with an optional preset query: <button type="button" class="button primary" data-action="search" data-icon="magnifying-glass">Search...</button>
 
-#### **Add a Ask AI/GitBook Assistant bar**
+#### **Add an Ask AI/GitBook Assistant bar**
 
-Open GitBook Assistant with an optional preset prompt: <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
+Open AI Assistant with an optional preset prompt: <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">Ask a question...</button>
 
 #### **Add a disabled button**
 

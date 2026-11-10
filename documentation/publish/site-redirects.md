@@ -126,8 +126,6 @@ If any rows fail, an error CSV is available from the bottom-right toast. It incl
 
 #### CSV examples
 
-<table data-search="false"><thead><tr><th>source</th><th>destination</th><th>intent</th><th>Result</th></tr></thead><tbody><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>blank</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>live</td><td>Create or update a live redirect</td></tr><tr><td>/docs/site-redirects</td><td>https://example.com/page</td><td>draft</td><td>Create or update a draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>blank</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>live</td><td>Remove the live redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>draft</td><td>Remove the draft redirect</td></tr><tr><td>/docs/site-redirects</td><td>empty</td><td>publish</td><td>Publish the existing draft redirect to live</td></tr></tbody></table>
-
 ## About automatic redirects
 
 Whenever pages are moved or renamed, their canonical URL changes with them. To keep your content accessible, GitBook automatically creates an [HTTP 307](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/307) redirect from the old URL to the new one.

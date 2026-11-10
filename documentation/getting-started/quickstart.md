@@ -49,7 +49,7 @@ This guide follows the template path:
 
 Your site opens unpublished, so you can edit, customize, and preview everything before it goes live. The sidebar shows:
 
-<table><thead><tr><th width="160">Sidebar area</th><th>What you'll find</th></tr></thead><tbody><tr><td><strong>Site header</strong></td><td>Your site name, its publish status, and the <strong>Preview</strong> and <strong>Publish</strong> buttons.</td></tr><tr><td><strong>General</strong></td><td><strong>Overview</strong>, <strong>Change requests</strong>, <strong>Site structure</strong>, and <strong>Settings</strong>.</td></tr><tr><td><strong>Tools</strong></td><td><strong>Styleguide</strong>, <strong>Customize</strong>, <strong>Analyze</strong>, and <strong>Extend</strong>.</td></tr><tr><td><strong>Content</strong></td><td>These are your site's sections - for the Docs template: Home, Documentation, API Reference, Changelog, and Help Center. Use the icons on the <strong>Content</strong> header to find, rename, and add sections.</td></tr></tbody></table>
+<table><thead><tr><th width="160">Sidebar area</th><th>What you'll find</th></tr></thead><tbody><tr><td><strong>Site header</strong></td><td>Your site name, its publish status, and the <strong>Preview</strong> and <strong>Publish</strong> buttons.</td></tr><tr><td><strong>General</strong></td><td><strong>Overview</strong>, <strong>Change requests</strong>, <strong>Site structure</strong>, and <strong>Settings</strong>.</td></tr><tr><td><strong>Tools</strong></td><td><strong>Styleguide</strong>, <strong>Customize</strong>, <strong>Analyze</strong>, and <strong>Extend</strong>.</td></tr><tr><td><strong>Content</strong></td><td>These are your site's sections — for the Docs template: Home, Documentation, API Reference, Changelog, and Help Center. Use the icons on the <strong>Content</strong> header to find, rename, and add sections.</td></tr></tbody></table>
 
 {% hint style="success" %}
 Your content isn't published yet — so you can edit, customize, and preview your docs site before making it live. Click **Publish** to make it live immediately.
@@ -142,7 +142,7 @@ You can publish your site with a click at any time.
 Once your site is live, the **Overview** screen updates with a link to the live site.
 
 {% hint style="success" %}
-Want to explore publishing in more detail? Check out [our complete guide to creating and publishing content in GitBook](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/complete-guide-to-publishing-docs-gitbook).
+Want to explore publishing in more detail? Check out [our complete guide to creating and publishing content in GitBook](../../guides/editing-and-publishing-documentation/complete-guide-to-publishing-docs-gitbook.md).
 {% endhint %}
 {% endstep %}
 {% endstepper %}

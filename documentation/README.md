@@ -34,9 +34,9 @@ layout:
 
 # GitBook documentation
 
-## Documentation your users actually read
+## Documentation your visitors actually read
 
-Your users are humans and their AI agents — GitBook publishes for both. Write in the editor, drive it from your agent, or sync from Git.
+Your visitors are humans and their AI agents — GitBook publishes for both. Write in the editor, drive it from your agent, or sync from Git.
 
 <button type="button" class="button primary" data-action="ask" data-icon="gitbook-assistant">What are you trying to do?</button>
 
@@ -46,7 +46,7 @@ Your users are humans and their AI agents — GitBook publishes for both. Write 
 
 <p align="center">The same docs, three ways in. Most teams use more than one.</p>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><h4><i class="fa-hand-pointer">:hand-pointer:</i></h4></td><td><h4>In the editor</h4></td><td>Write and publish visually. Blocks, change requests, and review without touching a terminal.</td><td><a data-mention href="getting-started/quickstart.md">quickstart.md</a></td><td><a data-mention href="create-content/formatting/">formatting</a></td><td><a data-mention href="publish/publish-a-docs-site/">publish-a-docs-site</a></td></tr><tr><td><h4><i class="fa-claude">:claude:</i> <i class="fa-chatgpt">:chatgpt:</i> <i class="fa-cursor">:cursor:</i></h4></td><td><h4>From your agent</h4></td><td>Drive GitBook from Claude, Cursor, or any MCP client. Draft, restructure, and open change requests.</td><td><a data-mention href="docs-as-code/git-sync/">git-sync</a></td><td><a data-mention href="docs-as-code/gitbook-mcp.md">gitbook-mcp.md</a></td><td><a data-mention href="docs-as-code/ai-coding-assistants-and-skillmd.md">ai-coding-assistants-and-skillmd.md</a></td></tr><tr><td><h4><i class="fa-code">:code:</i></h4></td><td><h4>With code</h4></td><td>Sync from Git, script with the CLI, or build on the API and ship your own components.</td><td><a data-mention href="docs-as-code/gitbook-cli.md">gitbook-cli.md</a></td><td><a data-mention href="https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference">API reference</a></td><td><a data-mention href="https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations">Build a custom component</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><h4><i class="fa-hand-pointer">:hand-pointer:</i></h4></td><td><h4>In the editor</h4></td><td>Write and publish visually. Blocks, change requests, and review without touching a terminal.</td><td><a data-mention href="getting-started/quickstart.md">quickstart.md</a></td><td><a data-mention href="create-content/formatting/">formatting</a></td><td><a data-mention href="publish/publish-a-docs-site/">publish-a-docs-site</a></td></tr><tr><td><h4><i class="fa-claude">:claude:</i> <i class="fa-chatgpt">:chatgpt:</i> <i class="fa-cursor">:cursor:</i></h4></td><td><h4>From your agent</h4></td><td>Drive GitBook from Claude, Cursor, or any MCP client. Draft, restructure, and open change requests.</td><td><a data-mention href="docs-as-code/git-sync/">git-sync</a></td><td><a data-mention href="docs-as-code/gitbook-mcp.md">gitbook-mcp.md</a></td><td><a data-mention href="docs-as-code/ai-coding-assistants-and-skillmd.md">ai-coding-assistants-and-skillmd.md</a></td></tr><tr><td><h4><i class="fa-code">:code:</i></h4></td><td><h4>With code</h4></td><td>Sync from Git, script with the CLI, or build on the API and ship your own components.</td><td><a data-mention href="docs-as-code/gitbook-cli.md">gitbook-cli.md</a></td><td><a data-mention href="../developers/gitbook-api/api-reference/">api-reference</a></td><td><a data-mention href="https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations">Build a custom component</a></td></tr></tbody></table>
 
 ***
 

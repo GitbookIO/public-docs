@@ -14,7 +14,7 @@ The sponsored site plan lets you access all of GitBook’s best docs site featur
 
 ### Apply for the sponsored site plan
 
-The sponsored site plan is designed specifically for **open source projects**. Please not we do not accept cryptocurrency, web3 or related projects for this plan.
+The sponsored site plan is designed specifically for **open source projects**. We do not accept cryptocurrency, web3, or related projects for this plan.
 
 View the steps below to learn how to publish your first sponsored site.
 
@@ -38,8 +38,8 @@ Head to your site’s settings, and scroll down to the **Ads and sponsorship** s
 
 After submitting your application, here’s what you can expect:
 
-* **Review process:** Your site will be reviewed, and you can expect an estimated review time of **up to seven days**. Please note that this timeline may be different based on processing delays.
-* **Final status update:** After the review, we’ll update your site’s status. Your site will either be marked as **approved** or **rejected**, depending on the review outcome. If approved, ads will be added to your site and you can start earning money!
+* **Review process:** Your site will be reviewed, and you can expect an estimated review time of **up to seven days**. This timeline may be different based on processing delays.
+* **Final status update:** After the review, we’ll update your site’s status. Your site will either be marked as **approved** or **rejected**, depending on the review outcome. If approved, ads will be added to your site and you can start earning money.
 * If **rejected**, you’ll have the opportunity to update your site and submit for approval again.
 {% endstep %}
 {% endstepper %}
@@ -62,7 +62,7 @@ Your site may be rejected for the sponsored site plan for several reasons. Commo
 
 * Your project is not an open source or not-for-profit project.
 * Your project is a cryptocurrency project.
-* The site is not published in English as it's **primary** language.
+* The site is not published in English as its **primary** language.
 * The site does not contain quality content.
 * The site does not reach a minimum number of page views per month.
 
@@ -84,7 +84,7 @@ After your site is approved, you'll gain access to your ads dashboard, giving yo
 
 The sponsored site plan allows you to use ultimate site features to get your site ready before submitting it for review.
 
-Any site not submitted for revierw after 1 month will automatically revert back to a free plan, and any ultimate site features used will be turned off, including things like custom domains, customizations, and more.
+Any site not submitted for review after 1 month will automatically revert to a free plan, and any ultimate site features used will be turned off, including things like custom domains, customizations, and more.
 
 </details>
 

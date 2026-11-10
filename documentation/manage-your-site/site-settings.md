@@ -60,7 +60,7 @@ Site permissions are available on all plans.
 
 By default, new sites derive permissions from their linked [spaces](../create-content/content-structure/space.md), until you update permissions from the site permissions modal.
 
-Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. In this case, each inherited space receives the highest permission level granted by the organization, any parent collection, and any site that includes it.
+Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. For these spaces, site permissions take precedence over the role a member gets from the organization or a parent collection. Access given directly to a member or team on the space still takes precedence over the site. See [Permissions and inheritance](../collaborate/member-management/permissions-and-inheritance.md) for the full order.
 
 </details>
 
@@ -72,10 +72,10 @@ Site permissions can also affect the permissions of linked spaces that use **Inh
 
 ### Styleguide
 
-Create, reuse, or detach the styleguide that defines your team's writing rules and keeps GitBook Agent consistent.
+Create, reuse, or detach the style guide that defines your team's writing rules and keeps GitBook Agent consistent.
 
-{% content-ref url="../create-content/styleguide.md" %}
-[styleguide.md](../create-content/styleguide.md)
+{% content-ref url="../create-content/styleguide/" %}
+[styleguide](../create-content/styleguide/)
 {% endcontent-ref %}
 
 ### Audience

@@ -1,12 +1,12 @@
 ---
 description: >-
-  See what your visitors ask GitBook Assistant, how well your content answers
-  them, and where your docs fall short
+  See what your visitors ask AI Assistant, how well your content answers them,
+  and where your docs fall short
 ---
 
 # AI Assistant
 
-The **AI Assistant** report shows what your visitors ask and how effectively [GitBook Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
+The **AI Assistant** report shows what your visitors ask and how effectively [AI Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
 
 To open it, go to **Analyze → AI Assistant** in your site’s sidebar.
 

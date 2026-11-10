@@ -12,7 +12,7 @@ You can install an integration in a single section, multiple sections, or all th
 
 If you install an integration in a single section, it will only work in that specific section. By installing an integration in multiple sections, you’ll be able to perform actions across all those sections.
 
-<figure><img src="../.gitbook/assets/26_01_06_integrations@2x.png" alt="A GitBook screenshot showing the integration library"><figcaption><p>Browse GitBook's built in integration library.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/26_01_06_integrations@2x.png" alt="A GitBook screenshot showing the integration library"><figcaption><p>Browse GitBook's built-in integration library.</p></figcaption></figure>
 
 ### Install an integration
 
@@ -46,7 +46,7 @@ View the integration’s instructions to learn more about configuring it for you
 
 <summary>How do I configure my integration?</summary>
 
-Each integration has it’s own configuration options. You can find each integration’s specific configuration instructions on it’s install page.
+Each integration has its own configuration options. You can find each integration’s specific configuration instructions on its install page.
 
 </details>
 

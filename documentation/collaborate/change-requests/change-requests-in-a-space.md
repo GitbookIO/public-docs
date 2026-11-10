@@ -10,7 +10,7 @@ When you’re within a [section](../../reference/concepts.md#space), you can mak
 
 Click the **Edit** button in the [section header](../../reference/gitbook-ui.md#space-header) to start a new change request.
 
-This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real-time.
+This will open a new change request, where you can edit or delete content as needed. Your changes are saved automatically, and other people can join you in a change request to collaborate in real time.
 
 When creating a change request, you can add a title and description to provide more context about the changes you’re making.
 
@@ -108,20 +108,20 @@ You might not be able to merge a change request if you don’t have the right [p
 
 ### Updating a change request
 
-As you're working inside a change request, other contributors may be modifying the main branch of the section. When this happens, your change request is considered "out of date" - there is content on the main branch that you don't see inside your change request.
+As you're working inside a change request, other contributors may be modifying the main branch of the section. When this happens, your change request is considered "out of date" — there is content on the main branch that you don't see inside your change request.
 
-You may want to pull in this new content into your change request. This can be useful if:
+You may want to pull this new content into your change request. This can be useful if:
 
 * You want to see how your changes and the content on main look once everything is together.
 * You need to make changes to the pulled content as part of your change request.
 
 You can do this by pressing **Update** in the header of the change request screen.
 
-Once you press **Update**, all content from the main branch is pulled into your change request. You may get conflicts when you update - you'll be able to resolve them inside the change request. Once conflicts have been resolved, the change request is considered up-to-date and the Update button disappears.
+Once you press **Update**, all content from the main branch is pulled into your change request. You may get conflicts when you update — you'll be able to resolve them inside the change request. Once conflicts have been resolved, the change request is considered up-to-date and the Update button disappears.
 
 If the main branch changes again, your change request will again be out-of-date and the Update button will appear.
 
-Asking editors to have their change requests up-to-date before merging is a good quality control - it helps authors check the exact content that will go into the main branch once their change request is merged. You can enforce this with a [merge rule](../merge-rules.md).
+Asking editors to have their change requests up-to-date before merging is a good quality control — it helps authors check the exact content that will go into the main branch once their change request is merged. You can enforce this with a [merge rule](../merge-rules.md).
 
 ### Resolving merge conflicts
 

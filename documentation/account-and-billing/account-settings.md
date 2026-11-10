@@ -4,7 +4,7 @@ description: View and manage the settings for your personal GitBook account
 
 # Personal settings
 
-You can manage your login details, third-party login options, GitBook subdomain, interface theme, notification, integrations and API access tokens.
+You can manage your login details, third-party login options, GitBook subdomain, interface theme, notifications, integrations and API access tokens.
 
 <figure><img src="../.gitbook/assets/22_01_06_account_settings@2x.png" alt="A GitBook screenshot showing the personal settings page"><figcaption><p>Your personal settings page.</p></figcaption></figure>
 
@@ -47,7 +47,7 @@ Optionally, you can enable the recording of advanced logs. These advanced logs h
 
 **Account actions**
 
-From this section you can sign out, or delete your account. **Note: there is no turning back if you delete your account!** All associated data will be deleted as well.
+From this section you can sign out, or delete your account. **Note: there is no turning back if you delete your account.** All associated data will be deleted as well.
 
 </details>
 
@@ -77,7 +77,7 @@ On this page you can manage and create access tokens for the [GitBook API](https
 
 ### **How can I reset my password?**
 
-Please note, that if your account was created after October 10th 2021, it doesn’t have a password. You should be able to log in by requesting a magic link:
+Accounts created after October 10, 2021, don’t have a password. Request a magic link to sign in:
 
 1. Visit [https://app.gitbook.com](https://app.gitbook.com)
 2. Enter the email address associated with the personal account you signed up for

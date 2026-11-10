@@ -8,7 +8,7 @@ Collaborate on content with your team. These guides cover change requests, revie
 
 #### Explore
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-code-branch">:code-branch:</i></h4></td><td><h4>How to collaborate on change requests</h4></td><td>Learn how your team can work together using change requests</td><td><a href="https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/how-to-collaborate-on-change-requests">How to collaborate on change requests</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-code-branch">:code-branch:</i></h4></td><td><h4>How to collaborate on change requests</h4></td><td>Learn how your team can work together using change requests</td><td><a href="../../guides/editing-and-publishing-documentation/how-to-collaborate-on-change-requests.md">how-to-collaborate-on-change-requests.md</a></td></tr></tbody></table>
 
 #### Quick guides
 

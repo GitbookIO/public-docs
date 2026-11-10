@@ -40,6 +40,8 @@ The order of generated tag pages or tag groups matches the order of tags in your
 </strong><strong>  - name: user
 </strong></code></pre>
 
+Operations whose tags aren't declared in the `tags` array still appear in your API reference. GitBook places those tags after the declared ones, in the order they first appear in your spec. Declare a tag in `tags` to control its position, title, and icon.
+
 ### Nest pages into groups
 
 To build multi-level navigation, use `x-parent` (or `parent`) in tags to define hierarchy. This works with both page structures:
@@ -83,7 +85,7 @@ tags:
 
 ### Build rich descriptions with GitBook Blocks
 
-Tag description fields support GitBook markdown, including [advanced blocks](../../blocks/) like tabs:
+Tag description fields support GitBook Markdown, including [advanced blocks](../../blocks/) like tabs:
 
 {% code title="openapi.yaml" %}
 ```yaml
@@ -111,7 +113,7 @@ tags:
 
 ### Highlight schemas
 
-You can highlight a schema in a GitBook description by using GitBook markdown. Here is an example that highlights the “Pet” schema from the “petstore” specification:
+You can highlight a schema in a GitBook description by using GitBook Markdown. Here is an example that highlights the “Pet” schema from the “petstore” specification:
 
 {% code title="openapi.yaml" %}
 ```yaml

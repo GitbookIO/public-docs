@@ -6,7 +6,7 @@ description: >-
 
 # Adding custom code samples
 
-GitBook can automatically generate generic code examples for each API operation. If you’d prefer to showcase custom or more detailed snippets, add `x-codeSamples` to your OpenAPI definition. This way, you control how your endpoints are demonstrated and can offer language or SDK-specific examples.
+GitBook can automatically generate generic code examples for each API operation. If you’d prefer to showcase custom or more detailed snippets, add `x-codeSamples` to your OpenAPI definition. This way, you control how your endpoints are demonstrated and can offer language- or SDK-specific examples.
 
 {% code title="openapi.yaml" %}
 ```yaml
