@@ -8,13 +8,21 @@ This quickstart guide explains how to get set up in GitBook and publish your fir
 
 At the end of this guide, you’ll have a live documentation site, ready to expand and customize.
 
-{% hint style="info" %}
-### Set up with a coding agent
-
-Connect your coding agent to the [GitBook MCP server](../docs-as-code/gitbook-mcp.md) and give it GitBook's [skill.md](../docs-as-code/ai-coding-assistants-and-skillmd.md). Your agent can then create your site, add your content, and publish it. You only need to create an account and approve the sign-in.
-{% endhint %}
-
 {% stepper %}
+{% step %}
+#### Set up with a coding agent
+
+If you’re a coding agent, follow [Setting up GitBook with a coding agent](agent-setup.md) and use the [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line) for the exact commands:
+
+1. Install the GitBook CLI and run `gitbook login`. Stop and ask the person you’re helping to open the link, create an account if they need one, and sign in.
+2. Create a space, add a page through a change request, create a site, and publish it. If the organization isn’t on a paid plan, add `--type basic` when you create the site.
+3. Confirm the live URL from `urls.published`.
+
+[GitBook MCP](../docs-as-code/gitbook-mcp.md) and [skill.md](../docs-as-code/ai-coding-assistants-and-skillmd.md) are optional. They need a session reload and an OAuth approval, which some agents can’t complete.
+
+If you’re following this guide in the GitBook app, continue to the next step.
+{% endstep %}
+
 {% step %}
 #### Create your account
 

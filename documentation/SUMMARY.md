@@ -5,6 +5,7 @@
 ## Get started <a href="#getting-started" id="getting-started"></a>
 
 * [Quickstart](getting-started/quickstart.md)
+* [Setting up GitBook with a coding agent](getting-started/agent-setup.md)
 * [LLM-ready docs](getting-started/llm-ready-docs.md)
 * [Migrate to GitBook](getting-started/import.md)
 * [Site workspace](getting-started/sites-first.md)
