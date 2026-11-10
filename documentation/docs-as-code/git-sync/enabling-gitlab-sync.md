@@ -45,7 +45,11 @@ If your `main` branch is protected, select a separate branch for Git Sync. You c
 Choose the source of truth for the initial sync. Select **Swap direction** if the repository content should replace the GitBook content.
 
 {% hint style="warning" %}
-**GitLab → GitBook can replace your site’s content.** Before you start the sync, confirm the repository, branch, and direction. Make sure the destination content is safe to replace.
+**GitLab → GitBook can replace your site’s content.** GitBook replaces each synced section with the content of the selected branch. If the repository is empty, or is behind GitBook because recent change requests haven’t been exported yet, that content is lost from the section and your published site.
+
+You choose a direction every time you set up Git Sync, including when you reconnect it or re-create an existing connection. Before you start the sync, confirm the repository, branch, and direction. If you choose GitLab → GitBook, check that the branch’s latest commit includes your most recent merged change requests.
+
+If content was replaced, see [Troubleshooting](troubleshooting.md) to restore it.
 {% endhint %}
 {% endstep %}
 

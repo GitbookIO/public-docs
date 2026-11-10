@@ -47,9 +47,11 @@ Under **Source repository**, select the repository that contains your documentat
 Choose the source of truth for the initial sync. Select **Swap direction** if the repository content should replace the GitBook content.
 
 {% hint style="warning" %}
-**GitHub → GitBook can replace your section’s content.** If you select an empty repository, GitBook can replace your section with the repository’s empty content.
+**GitHub → GitBook can replace your section’s content.** GitBook replaces the section with the content of the selected branch. If the repository is empty, or is behind GitBook because recent change requests haven’t been exported yet, that content is lost from the section and your published site.
 
-Before you start the initial sync, confirm the repository, branch, and direction. Make sure the destination content is safe to replace.
+You choose a direction every time you set up Git Sync, including when you reconnect it or re-create an existing connection. Before you start the sync, confirm the repository, branch, and direction. If you choose GitHub → GitBook, check that the branch’s latest commit includes your most recent merged change requests.
+
+If content was replaced, see [Troubleshooting](troubleshooting.md) to restore it.
 {% endhint %}
 {% endstep %}
 

@@ -106,6 +106,23 @@ The original space is still in your organization if you need something from it t
 
 <details>
 
+<summary>Content was replaced after I reconnected Git Sync</summary>
+
+When you reconnect Git Sync or re-create its connection, GitBook runs a new initial sync in the direction you choose. With GitHub → GitBook or GitLab → GitBook, GitBook replaces each synced section with the content of the selected branch. If the branch was behind GitBook, for example because recent change requests hadn’t been exported yet, those changes disappear from the section and from your published site.
+
+The replaced content is still in each section’s version history. To restore it:
+
+1. Open the section’s **Version history**.
+2. Find the Git Sync entry that replaced your content, and select the version just before it.
+3. [Roll back](../../create-content/version-control.md#roll-back-to-a-previous-version) to that version.
+4. Repeat for each section the sync replaced.
+
+After rolling back, check that the restored content appears in a new commit on your branch. If the repository is still behind, a later sync from the repository can replace the content again.
+
+</details>
+
+<details>
+
 <summary>Does Git Sync also sync pull requests?</summary>
 
 No. Creating a pull request in GitHub or GitLab doesn't create a change request in GitBook, and creating a change request in GitBook doesn't create a pull request in your repository.
