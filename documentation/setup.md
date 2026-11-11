@@ -3,13 +3,13 @@ description: Create and publish a docs site from a coding agent using the GitBoo
 hidden: true
 ---
 
-# Setting up GitBook with a coding agent
+# Set up GitBook
 
 This page is for coding agents setting up GitBook on behalf of someone. Your goal is a live docs site at a public URL.
 
-Use the [GitBook CLI](../docs-as-code/gitbook-cli.md) as the primary route. The commands below are the full flow. The [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line.md) has more detail, including a copyable prompt.
+Use the [GitBook CLI](docs-as-code/gitbook-cli.md) as the primary route. The commands below are the full flow. The [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line.md) has more detail, including a copyable prompt.
 
-[GitBook MCP](../docs-as-code/gitbook-mcp.md) and [skill.md](https://gitbook.com/docs/skill.md) are optional and described at the end of this page.
+[GitBook MCP](docs-as-code/gitbook-mcp.md) and [skill.md](https://gitbook.com/docs/skill.md) are optional and described at the end of this page.
 
 ## Before you start
 
@@ -103,6 +103,6 @@ gitbook organizations sites publish <organizationId> <siteId> --full
 
 ## Optional: GitBook MCP and skill.md
 
-If the person you’re working with wants GitBook tools inside the agent session, they can connect [GitBook MCP](../docs-as-code/gitbook-mcp.md) at `https://mcp.gitbook.com/mcp` and give you [skill.md](https://gitbook.com/docs/skill.md).
+If the person you’re working with wants GitBook tools inside the agent session, they can connect [GitBook MCP](docs-as-code/gitbook-mcp.md) at `https://mcp.gitbook.com/mcp` and give you [skill.md](https://gitbook.com/docs/skill.md).
 
 This path needs them to approve access in the browser. Some clients also need a session reload before the tools become available, so it can block sandboxed or unattended agents. Prefer the CLI unless they ask for MCP.

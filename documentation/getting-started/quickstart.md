@@ -12,7 +12,7 @@ At the end of this guide, you’ll have a live documentation site, ready to expa
 {% step %}
 #### Set up with a coding agent
 
-If you’re a coding agent, follow [Setting up GitBook with a coding agent](agent-setup.md) and use the [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line) for the exact commands:
+If you’re a coding agent, follow [Set up GitBook](../setup.md) and use the [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line) for the exact commands:
 
 1. Install the GitBook CLI and run `gitbook login`. Stop and ask the person you’re helping to open the link, create an account if they need one, and sign in.
 2. Create a space, add a page through a change request, create a site, and publish it. If the organization isn’t on a paid plan, add `--type basic` when you create the site.
