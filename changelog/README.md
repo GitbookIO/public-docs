@@ -27,6 +27,46 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-11" tags="new-releases,improvements,fixes" %}
+## Set an expiration date for personal API tokens
+
+Tokens that expire automatically are one less thing to keep track of, and they reduce risk if a token is ever shared or forgotten. When you create a personal API token, you can now choose when it stops working: 7, 30, 60, or 90 days, a custom date, or never. New tokens expire after 90 days by default.
+
+If you choose **No expiration**, GitBook reminds you that the token stays active until you delete it. We recommend it only for long-running integrations that are hard to update. Store the token somewhere secure and delete it when you no longer need it.
+
+You can also set an expiration date through the API with the `expiresAt` field.
+
+<figure><img src=".gitbook/assets/26_11_10_api_token@2x.png" alt="The Create an API token dialog with a label field and the expiration menu open, showing 7, 30, 60 and 90 days, Custom, and No expiration"><figcaption></figcaption></figure>
+
+## Copy and paste table cells
+
+You can now select a range of cells in a [table](https://gitbook.com/docs/create-content/blocks/table) and copy, cut, or paste them. You no longer need to move content one cell at a time.
+
+Paste copied cells into any table row. The table grows to fit cells that run past its edge.
+
+## Search AI Assistant questions
+
+In [AI Assistant analytics](https://gitbook.com/docs/analytics/insights/ai-insights), you can search visitors’ questions by text and filter the report by pages that answers cite. You can see what readers ask about a specific page without scrolling through every question. The API offers the same page filter through `citedPage`.
+
+On published sites, [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) reminds visitors not to share sensitive personal information. It also doesn’t recommend competitors when a visitor asks for alternatives.
+
+### Improvements
+
+* You can now rename a GitBook Agent conversation directly from its title or from the conversation menu.
+* Sites with authenticated access now serve their `robots.txt` file without requiring sign-in.
+
+### Fixes
+
+* File uploads work again, including Word and Markdown files imported into GitBook.
+* Large Git Sync exports no longer time out when other exports update the same branch, such as a site-wide export to one repository.
+* Commenting on a table cell in a change request’s split view opens one comment box and no longer breaks the table.
+* Cutting selected table cells no longer deletes the whole table. Pasting after clicking in the editor now pastes at the clicked location.
+* Dark-mode images now load in the Markdown version of published pages.
+* A failed published-site search is no longer cached, so another search can return results.
+* Encoded links on proxied sites now redirect to the public URL instead of showing a 404 page.
+* The published docs MCP server now finds pages by their `.md` URLs instead of returning “Page not found”.
+{% endupdate %}
+
 {% update date="2026-11-04" tags="new-releases,improvements,fixes,security" %}
 ## Manage variables and tags through the API
 

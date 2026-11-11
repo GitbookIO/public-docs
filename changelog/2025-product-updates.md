@@ -10,7 +10,7 @@ description: All the GitBook features, updates, improvements and fixes we releas
 
 <figure><img src=".gitbook/assets/Inline button actions.png" alt=""><figcaption></figcaption></figure>
 
-You now have powerful new options for [inline buttons](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#buttons) that include search and GitBook Assistant inputs — allowing your users to type a question and activate a search or Assistant chat right from the page.
+You now have powerful new options for [inline buttons](../documentation/create-content/formatting/inline.md#buttons) that include search and GitBook Assistant inputs — allowing your users to type a question and activate a search or Assistant chat right from the page.
 
 Plus, you can also create disabled buttons or buttons that trigger a specific preset search or query of your choice.
 
@@ -40,7 +40,7 @@ You can configure all of these options by hitting <kbd>/</kbd> and choosing **Bu
 
 <figure><img src=".gitbook/assets/page-metadata.png" alt=""><figcaption></figcaption></figure>
 
-You can now set the [page metadata](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/content-structure/page#metadata-seo) for canonical and alternate URLs to help search engines understand the relationship between similar pages — which is helpful for SEO.
+You can now set the [page metadata](../documentation/create-content/content-structure/page/#metadata-seo) for canonical and alternate URLs to help search engines understand the relationship between similar pages — which is helpful for SEO.
 
 For example, if you use variants to document multiple versions of your product, but want the current version to be the canonical version for SEO reasons, you can now control this in the **Page options** menu for your page.
 
@@ -114,7 +114,7 @@ GitBook Agent is currently in open beta for teams on [Pro and Enterprise plans](
 
 <figure><img src=".gitbook/assets/change-requests@2x.png" alt=""><figcaption></figcaption></figure>
 
-We’ve introduced [a new change requests screen](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/collaborate/change-requests/change-requests-screen) that brings every update across your organization into one clear, centralized place.
+We’ve introduced [a new change requests screen](../documentation/collaborate/change-requests/change-requests-screen.md) that brings every update across your organization into one clear, centralized place.
 
 It’s built for speed and focus — making it easier to navigate, filter, review, and ship docs updates efficiently. You can see a list of change requests with powerful filtering to help you find precisely the ones you need.
 
@@ -128,7 +128,7 @@ There’s also a new **Overview** screen for individual change requests within a
 
 <figure><img src=".gitbook/assets/embedded-assistant@2x.png" alt=""><figcaption></figcaption></figure>
 
-We’ve improved the styling and customization options for the [embedded](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/embedding) version of [GitBook Assistant](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/ai-for-your-readers/gitbook-ai-assistant):
+We’ve improved the styling and customization options for the [embedded](../documentation/publish/embedding/) version of [GitBook Assistant](../documentation/ai-for-your-readers/gitbook-ai-assistant.md):
 
 * You can now override the default **Ask** button label and Assistant icon now, if you wish.
 * The Assistant now supports light and dark mode, and automatically adjusts to match your product or site’s settings. It’ll remember a user’s settings if they’ve browsed your site before.
@@ -140,7 +140,7 @@ You’ll also notice a new sidebar in the embedded Assistant, which lets you swi
 
 <figure><img src=".gitbook/assets/embedded-docs@2x.png" alt=""><figcaption></figcaption></figure>
 
-You can now [embed your documentation within your product or website](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/embedding) alongside — or instead of — GitBook Assistant.
+You can now [embed your documentation within your product or website](../documentation/publish/embedding/) alongside — or instead of — GitBook Assistant.
 
 Users can open the panel and browse your docs as normal in the small window. And if you’re using the Assistant in your docs, that’s available in the other sidebar tab.
 
@@ -155,7 +155,7 @@ You can define up to five custom questions in your site’s settings screen and 
 ### Improved
 
 * We’ve tweaked the reasoning for GitBook Assistant to help it deliver responses faster.
-* [{if} blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/conditional-content) now support all other block types, meaning you can create more detailed conditional blocks using [adaptive content](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/adaptive-content) — including other {if} blocks for nested conditional content.
+* [{if} blocks](../documentation/create-content/blocks/conditional-content.md) now support all other block types, meaning you can create more detailed conditional blocks using [adaptive content](../documentation/publish/adaptive-content/) — including other {if} blocks for nested conditional content.
 
 ### Fixed
 
@@ -166,7 +166,7 @@ You can define up to five custom questions in your site’s settings screen and 
 {% update date="2025-12-05" %}
 ## Page link titles, improvements and fixes
 
-You can now set a shorter [page link title](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/content-structure/page#page-link-title) that will appear in the table of contents — great for tidying up if you have a lot of pages with lengthy titles.
+You can now set a shorter [page link title](../documentation/create-content/content-structure/page/#page-link-title) that will appear in the table of contents — great for tidying up if you have a lot of pages with lengthy titles.
 
 For example, if you have a page with a long title for SEO or accuracy reasons, open the page’s **Actions menu** <picture><source srcset=".gitbook/assets/actions-dark.svg" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/actions-light.svg" alt=""></picture> and choose **Edit title & slug**, enable **Link title**, and then specify a shorter name.
 
@@ -207,9 +207,9 @@ We’ve updated the look and feel of GitBook Assistant to give your content more
 
 <figure><img src=".gitbook/assets/assistant-ui@2x.png" alt=""><figcaption></figcaption></figure>
 
-We’ve improved the style and layout of [GitBook Assistant](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/ai-for-your-readers/gitbook-ai-assistant) to make it more minimal and to give your content more space. The Assistant now appears as a full-length sidebar, nudging your content over while keeping a great layout no matter the size of your screen.
+We’ve improved the style and layout of [GitBook Assistant](../documentation/ai-for-your-readers/gitbook-ai-assistant.md) to make it more minimal and to give your content more space. The Assistant now appears as a full-length sidebar, nudging your content over while keeping a great layout no matter the size of your screen.
 
-You might also notice that the styling subtly matches your site’s [primary color](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#primary-color) — so the Assistant blends perfectly into your site and feels more branded to your docs.
+You might also notice that the styling subtly matches your site’s [primary color](../documentation/manage-your-site/customization/icons-colors-and-themes.md#primary-color) — so the Assistant blends perfectly into your site and feels more branded to your docs.
 
 You’ll also notice improved scroll effects on the chat stream and updated animations that are smoother and, frankly, prettier when answers appear :sparkles: Plus, there are now up and down buttons for easy navigation through your chat log.
 
@@ -260,21 +260,21 @@ With this release, we’ve made your site logo link customizable, plus added Shi
 
 ### Set a custom link for your site logo
 
-You can now set a custom link for [your docs site’s logo](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#title-icon-and-logo) in the top-left corner of your published docs.
+You can now set a custom link for [your docs site’s logo](../documentation/manage-your-site/customization/icons-colors-and-themes.md#title-icon-and-logo) in the top-left corner of your published docs.
 
 By default, clicking the logo or site title will lead users back to the first page of your docs site. But you can now set a custom URL outside your site — or a page, section or variant on your site — to be opened instead. If your docs are part of a larger website, this can help visitors navigate back to your own landing page
 
 <figure><img src=".gitbook/assets/primary-link@2x.png" alt=""><figcaption></figcaption></figure>
 
-To set a custom link, open [your site’s **Customization** settings](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization) and switch to the **Configure** tab. In the **Primary link** section, add the URL you want your logo to link to.
+To set a custom link, open [your site’s **Customization** settings](../documentation/manage-your-site/customization/) and switch to the **Configure** tab. In the **Primary link** section, add the URL you want your logo to link to.
 
 ### Shiki syntax highlighting in code blocks
 
-[Code blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/code-block) in the editor now use Shiki for syntax highlighting, so they’ll render much more consistently with code blocks in your published docs.
+[Code blocks](../documentation/create-content/blocks/code-block.md) in the editor now use Shiki for syntax highlighting, so they’ll render much more consistently with code blocks in your published docs.
 
 <figure><img src=".gitbook/assets/code-block-shiki@2x.png" alt=""><figcaption></figcaption></figure>
 
-That means that your code blocks won’t just have great performance. They’ll also match the same highlight colors as in your published docs — including your site’s custom [primary and semantic colors](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#primary-color).
+That means that your code blocks won’t just have great performance. They’ll also match the same highlight colors as in your published docs — including your site’s custom [primary and semantic colors](../documentation/manage-your-site/customization/icons-colors-and-themes.md#primary-color).
 
 ### Switch block types faster
 
@@ -320,7 +320,7 @@ Earlier this year, [we released GitBook Assistant](/broken/pages/wPxr60PX4mxeCWK
 
 Now, we’re adding ability to [embed the same GitBook Assistant from your docs directly into your product or website](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/PKr4iA679ZZcaAqbMH7D).
 
-So your users can access knowledge from your docs — and other tools you choose to connect via MCP — without needing to switch tools. And you can improve customer success by offering them seamless, context-aware answers and suggestions. Paired with [adaptive content](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/adaptive-content), it’s like giving every user a personalized product expert, available 24/7.
+So your users can access knowledge from your docs — and other tools you choose to connect via MCP — without needing to switch tools. And you can improve customer success by offering them seamless, context-aware answers and suggestions. Paired with [adaptive content](../documentation/publish/adaptive-content/), it’s like giving every user a personalized product expert, available 24/7.
 
 Head to our [Embedded GitBook Assistant docs](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/PKr4iA679ZZcaAqbMH7D) to learn more about how to get started.
 
@@ -332,7 +332,7 @@ This is a huge step towards our goal of bringing documentation and product close
 
 ### Adjustable page cover heights
 
-If you’ve added [a cover image](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/content-structure/page#page-covers) to your page, it’s now easier than ever to adjust the size to your liking.
+If you’ve added [a cover image](../documentation/create-content/content-structure/page/#page-covers) to your page, it’s now easier than ever to adjust the size to your liking.
 
 You can use the drag handle or keyboard controls to make it taller or shorter, and you can see the percentage size of the image so you know it’s going to fit properly.
 
@@ -356,7 +356,7 @@ With this release, we’ve rebuilt the behavior of the palette from scratch. It�
 
 <summary>Improved</summary>
 
-* You can now drop images in the space _between_ two blocks to add a new [image block](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/insert-images) to the editor. Before, you had to create a new line first. Now you can simply drag your image right where you want it and boom — you’ll get a new image block.
+* You can now drop images in the space _between_ two blocks to add a new [image block](../documentation/create-content/blocks/insert-images.md) to the editor. Before, you had to create a new line first. Now you can simply drag your image right where you want it and boom — you’ll get a new image block.
 * We’ve added a small pop-up message to tell you when there’s a new version of the app available, so you can quickly refresh to get the latest features and best performance (i.e. all the stuff we talk about in this changelog)
 *   You’ll notice a number of small tweaks to the sidebar and table of contents in the GitBook app that make their design more consistent. The icons and tooltips for the **Actions menu**
 
@@ -390,7 +390,7 @@ Breadcrumbs in search results, better support for languages and versions on the 
 
 ### Breadcrumbs in search results
 
-If your site is complex — with a lot of [sections](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/site-sections) or [variants](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants) — sometimes it’s hard to know if search is taking your users to precisely the page they need.
+If your site is complex — with a lot of [sections](../documentation/manage-your-site/site-structure/site-sections.md) or [variants](../documentation/manage-your-site/site-structure/variants.md) — sometimes it’s hard to know if search is taking your users to precisely the page they need.
 
 To make it easier for your users to be confident about choosing a result, we’ve added breadcrumbs to search results. Now they won’t just see the page title and relevant text from the page — they’ll also see the site section, variant, and page group that it lives inside.
 
@@ -399,12 +399,12 @@ To make it easier for your users to be confident about choosing a result, we’v
 Search will show a maximum of three breadcrumbs — if there are more, it’ll just show the first, second and last breadcrumb, with a … truncating the space between.
 
 {% hint style="info" %}
-If a site has [translation variants](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations), those will not be listed in the breadcrumbs — as the user is already browsing in their preferred language, they don’t need to see the language in the breadcrumbs.
+If a site has [translation variants](../documentation/gitbook-agent/translations.md), those will not be listed in the breadcrumbs — as the user is already browsing in their preferred language, they don’t need to see the language in the breadcrumbs.
 {% endhint %}
 
 ### Better variant support for versions and languages
 
-If you document multiple versions of your product and also want to offer localized versions of those docs with [variants](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants), you can now do that in GitBook — as docs sites now support both [translation variants](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations) and version variants at the same time.
+If you document multiple versions of your product and also want to offer localized versions of those docs with [variants](../documentation/manage-your-site/site-structure/variants.md), you can now do that in GitBook — as docs sites now support both [translation variants](../documentation/gitbook-agent/translations.md) and version variants at the same time.
 
 GitBook will automatically recognize these different variant types and show a version dropdown at the top of the sidebar, a translation dropdown in the header — or both.
 
@@ -416,7 +416,7 @@ Then, the variant picker in the left sidebar will show all the variants availabl
 
 ### Read and add comments without opening a side panel
 
-Adding a comment or reading [comment](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/collaborate/comments) threads will no longer open the entire comments side panel by default. You can now add and review comments using a new popover menu.
+Adding a comment or reading [comment](../documentation/collaborate/comments.md) threads will no longer open the entire comments side panel by default. You can now add and review comments using a new popover menu.
 
 That means you can more easily add comments right alongside the content you’re editing, and check threads right in context.
 
@@ -426,13 +426,13 @@ And if you want to review all the comments on a page or just prefer using the si
 
 <summary>Improved</summary>
 
-* We’ve updated the palette you use to [add inline links in your docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#links). You can still copy, edit and remove links using the palette, but when you edit the link you can now also edit the text that is linked from the palette.
-* Talking of palette improvements, we’ve made similar improvements to the [annotations palette](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#annotations). When you add an annotation you can now edit the text the annotation applies to while writing the annotation — and you can easily remove annotations you no longer want with the **Remove** option.
-* We’ve made some improvements to [Git Sync](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync) that should improve syncs globally for all users.
+* We’ve updated the palette you use to [add inline links in your docs](../documentation/create-content/formatting/inline.md#links). You can still copy, edit and remove links using the palette, but when you edit the link you can now also edit the text that is linked from the palette.
+* Talking of palette improvements, we’ve made similar improvements to the [annotations palette](../documentation/create-content/formatting/inline.md#annotations). When you add an annotation you can now edit the text the annotation applies to while writing the annotation — and you can easily remove annotations you no longer want with the **Remove** option.
+* We’ve made some improvements to [Git Sync](../documentation/docs-as-code/git-sync/) that should improve syncs globally for all users.
   * First, we now remove duplicate files that GitBook manages when content is identical during an import.
   * GitBook now cleans up the Git tree of all files that it manages, if they’re not used in the revision on export.
 * If a space admin tries to install a Git integration for an organization, and they don’t have the permission to do that, we now show a clearer message that tells them to contact their organization admin.
-* We now support [OpenAPI specification](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/openapi) slugs with periods in public URLs (e.g. `api.v2`). This ensures that published URLs are correctly generated when using the OpenAPI feature to create reference docs.
+* We now support [OpenAPI specification](../documentation/create-content/openapi/) slugs with periods in public URLs (e.g. `api.v2`). This ensures that published URLs are correctly generated when using the OpenAPI feature to create reference docs.
 
 </details>
 
@@ -587,7 +587,7 @@ You can now select a color for inline icons when you add them to your content <i
 
 This is great if you want to attract attention to certain parts of your page content — or if you just want an inline icon to match <mark style="color:orange;">the color of your text</mark> <i class="fa-icons">:icons:</i> .
 
-There are <mark style="color:purple;">six</mark> <i class="fa-square-6">:square-6:</i> colors to choose from — and if your space is published on a site, you can also choose [the primary](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#primary-color) and [semantic colors](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization/icons-colors-and-themes#semantic-colors) for the site to align your icon perfectly with the surrounding text.
+There are <mark style="color:purple;">six</mark> <i class="fa-square-6">:square-6:</i> colors to choose from — and if your space is published on a site, you can also choose [the primary](../documentation/manage-your-site/customization/icons-colors-and-themes.md#primary-color) and [semantic colors](../documentation/manage-your-site/customization/icons-colors-and-themes.md#semantic-colors) for the site to align your icon perfectly with the surrounding text.
 
 To change the color of the icon (or choose a different icon from the picker), simply right-click it in the editor.
 
@@ -767,13 +767,13 @@ You can now MCP servers so AI tools can interact with your docs, plus we’ve ad
 
 GitBook can now automatically create an MCP server for your documentation.
 
-When enabled in your [site’s customization options](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization), you give your users the option to quickly copy a link to your MCP server and connect it to other tools. By doing this, your users can access knowledge from your docs in whichever platform they choose to connect to.
+When enabled in your [site’s customization options](../documentation/manage-your-site/customization/), you give your users the option to quickly copy a link to your MCP server and connect it to other tools. By doing this, your users can access knowledge from your docs in whichever platform they choose to connect to.
 
 For example, if your user adds your docs MCP server to VS Code, they could quickly answer questions or add information from your docs into their coding environment via calls to the MCP server.
 
 You can enable or disable this this in your site’s **Customization** > **Configure** menu, under **Page actions**. Once enabled, users can quickly copy a link to your docs MCP server from [the **Page actions** menu](/broken/pages/wPxr60PX4mxeCWKjGFKl#page-actions) and paste it into configuration sections on other platforms.
 
-We’re adding this to our extensive list of [other AI documentation optimizations](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/getting-started/llm-ready-docs) — including llms.txt and llms-full.txt, easy Markdown page exports, and quick options to open pages in ChatGPT or Claude.
+We’re adding this to our extensive list of [other AI documentation optimizations](../documentation/getting-started/llm-ready-docs.md) — including llms.txt and llms-full.txt, easy Markdown page exports, and quick options to open pages in ChatGPT or Claude.
 
 ### Search scope controls
 
@@ -789,7 +789,7 @@ It’s also worth noting that we no longer include language variants in the sear
 
 ### Page outline improvements
 
-We’ve made some small but useful improvements to [the page outline](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/reference/gitbook-ui#page-outline) in our editor.
+We’ve made some small but useful improvements to [the page outline](../documentation/reference/gitbook-ui.md#page-outline) in our editor.
 
 First, we’ve separated the **On this page** title from the outline itself and added an icon to make it easier to find. Plus, the title now stays sticky, even on long pages with lots of sections.
 
@@ -803,7 +803,7 @@ We think this will make scrolling through your content — especially on longer 
 
 * We’ve updated the information shown when a change request is blocked from merging by [merge rules](/broken/pages/4qwu0xEuEBP1zSbXVZ4D). If you open the change request’s **Overview** panel, it’ll now show whether merging is blocked or allowed, with a list of rules explaining why.
 * You’ll now see a new option to share your newly published docs on social platforms, so you can immediately promote your docs once they’re live!
-* We’ve add the option to filter [site redirects](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/site-redirects) to make it easier to manage a large number of redirects in the app.
+* We’ve add the option to filter [site redirects](../documentation/publish/site-redirects.md) to make it easier to manage a large number of redirects in the app.
 * We’ve made some subtle (but nice) improvements to the inline palette in the editor. So when you highlight some text the new palette has improved shadows and a slightly smaller size so it blocks less of your content.
 
 </details>
@@ -922,7 +922,7 @@ Introducing an all-new, super simple way to localize your docs and maintain the 
 
 <figure><img src=".gitbook/assets/tranlsation-screen.png" alt=""><figcaption></figcaption></figure>
 
-You can now automatically localize your entire docs site into 36 languages at the click of a button using [our new **Translations** feature](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations).
+You can now automatically localize your entire docs site into 36 languages at the click of a button using [our new **Translations** feature](../documentation/gitbook-agent/translations.md).
 
 Translation uses AI to automatically translate your docs content into whichever language you choose — and will automatically update those translated versions of your docs whenever you make a change to the primary language version.
 
@@ -932,7 +932,7 @@ Simply choose the space you want to translate, select the source and target lang
 
 Once created, these translated spaces can be easily added to your docs as a variant, and any time you make a change to the original source space, the translated version of the space will auto-update following the same instructions and glossary.
 
-That’s localization, simplified. [Find out more in our docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations)!
+That’s localization, simplified. [Find out more in our docs](../documentation/gitbook-agent/translations.md)!
 
 ### GitBook Assistant improvements
 
@@ -954,13 +954,13 @@ Thanks to [Rex Gratidian](https://github.com/mydarlingrex) for contributing this
 
 ### Better Markdown support for your LLM-ready docs
 
-We’ve made a big improvement to the way our API returns Markdown for a page, so that it now outputs the content of [reusable blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/reusable-content) and [OpenAPI blocks](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/EAZLjjyX6jX76NFnj71P) just like other content.
+We’ve made a big improvement to the way our API returns Markdown for a page, so that it now outputs the content of [reusable blocks](../documentation/create-content/reusable-content.md) and [OpenAPI blocks](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/EAZLjjyX6jX76NFnj71P) just like other content.
 
 This is super important, as the `.md` version of a URL is [useful for LLM ingestion](https://github.com/GitbookIO/changelog/blob/main/broken/pages/OtJ8mrsNdVgsEFRVPSsn/README.md#llms-full.txt-and-.md-support-for-llms) — so making sure all of your docs are LLM-friendly is vital. Now your GitBook docs are super LLM-ready, right out of the box.
 
 ### Light and dark card images
 
-You can now apply a light and dark mode image to any [card](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/cards) — just like other images in GitBook.
+You can now apply a light and dark mode image to any [card](../documentation/create-content/blocks/cards.md) — just like other images in GitBook.
 
 To do this, open the **Card options** <picture><source srcset=".gitbook/assets/options-dark.svg" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/options-light.svg" alt=""></picture> menu and choose **Cover** > **Edit cover** > **Add cover for dark mode**. The correct cover image will show automatically depending on the user’s settings.
 
@@ -1034,7 +1034,7 @@ Read more in [our announcement post](https://www.gitbook.com/blog/new-adaptive-c
 
 ### Time ranges and AI response rating in insights
 
-We’ve made two big improvements to our built-in [insights](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/analytics/insights).
+We’ve made two big improvements to our built-in [insights](../documentation/analytics/insights/).
 
 First, you can now choose time ranges when analyzing site data. So you can set custom time periods to review, or compare site data between two identical periods in any degree of separation.
 
@@ -1088,7 +1088,7 @@ If you’ve experienced any issues with your OpenAPI spec in GitBook, try pastin
 
 * You can now add comments on individual table cells, allowing for better feedback when collaborating on complex pages.
 * We’ve added some new shortcuts to table blocks. You can now hit <kbd>⌘</kbd> + <kbd>/</kbd> (Or <kbd>Ctrl</kbd> + <kbd>/</kbd> on PC) to open the **Row options** menu, and hit <kbd>⌘</kbd> + <kbd>-</kbd> (or <kbd>Ctrl</kbd> + <kbd>-</kbd> on PC) to delete the row containing the currently-selected block.
-* We’ve made [locked live edits](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/collaborate/live-edits) the default editing mode in new spaces, which means the default workflow in GitBook will now be using change requests. This is already the case for all published content, and brings us closer to the Git workflow. For now, you can toggle live edits on a space to re-enable live editing if needed.
+* We’ve made [locked live edits](../documentation/collaborate/live-edits.md) the default editing mode in new spaces, which means the default workflow in GitBook will now be using change requests. This is already the case for all published content, and brings us closer to the Git workflow. For now, you can toggle live edits on a space to re-enable live editing if needed.
 * We’ve reduced the padding in inline code to make it feel a little more compact and in line with the rest of your content.
 * We now show icons in the table of contents that denote when a page is hidden and/or not indexed in search. If a page is both hidden and not indexed, we show both icons together to avoid taking up too much space in the TOC.
 * The spacing in the table of contents now makes it clearer when spaces are part of groups or separate from them. Before, spaces directly below page groups would be so close to the group that they appeared to be part of the group.
@@ -1119,9 +1119,9 @@ Create and add reusable variables to your docs, plus a redesigned search experie
 
 With this release we’re introducing **variables**.
 
-If you repeat the same name, phrase or version number multiple times within your content, you can create a [variable](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/variables-and-expressions) to help keep all those instances in sync and accurate — which is useful if you ever need to update them, or they’re complex and often mistyped.
+If you repeat the same name, phrase or version number multiple times within your content, you can create a [variable](../documentation/create-content/variables-and-expressions.md) to help keep all those instances in sync and accurate — which is useful if you ever need to update them, or they’re complex and often mistyped.
 
-You can create variables scoped to a specific page or a specific space, and then use them as many times as you like within a space by adding [inline expressions](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#expressions).
+You can create variables scoped to a specific page or a specific space, and then use them as many times as you like within a space by adding [inline expressions](../documentation/create-content/formatting/inline.md#expressions).
 
 For example, you might want to add variables such as:
 
@@ -1140,7 +1140,7 @@ You can then use a variable to your content by adding an expression. Hit <kbd>/<
 
 <figure><img src=".gitbook/assets/variables-expression-editor.jpg" alt=""><figcaption></figcaption></figure>
 
-Variables are super useful on their own, but become even more powerful when paired with [adaptive content](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/adaptive-content). We’ll talk about this combination more in the coming weeks.
+Variables are super useful on their own, but become even more powerful when paired with [adaptive content](../documentation/publish/adaptive-content/). We’ll talk about this combination more in the coming weeks.
 
 ### Search gets a new design on docs sites
 
@@ -1213,17 +1213,17 @@ You can now upload your own custom font for code blocks, create new sites more e
 
 ### Set a custom monospace font for code blocks
 
-You’ve been able to [upload a custom font](/broken/pages/9Y116G6VxG9bEjBy0HtD#use-custom-fonts-on-your-docs-site) for your docs for a while — but now you can do the same for a monospace font for [code blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/code-block) and inline code.
+You’ve been able to [upload a custom font](/broken/pages/9Y116G6VxG9bEjBy0HtD#use-custom-fonts-on-your-docs-site) for your docs for a while — but now you can do the same for a monospace font for [code blocks](../documentation/create-content/blocks/code-block.md) and inline code.
 
-To change your code font, head into [your site’s **Customization** panel](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization) and select from the **Monospace font** dropdown menu.
+To change your code font, head into [your site’s **Customization** panel](../documentation/manage-your-site/customization/) and select from the **Monospace font** dropdown menu.
 
 <figure><img src=".gitbook/assets/monospace-fonts.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Share your OpenAPI spec from your docs
 
-You can now choose to generate a publicly-accessible URL for your [OpenAPI specification](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/openapi) once you’ve added it to GitBook — as long as your specification is marked as public. The URL will always point to the latest version of your specification.
+You can now choose to generate a publicly-accessible URL for your [OpenAPI specification](../documentation/create-content/openapi/) once you’ve added it to GitBook — as long as your specification is marked as public. The URL will always point to the latest version of your specification.
 
-With GitBook hosting your spec, it’s easy to use it both to [instantly generate docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/openapi/insert-api-reference-in-your-docs#automatically-create-openapi-pages-from-your-spec), and in external OpenAPI-based tools like Stainless, Postman or others.
+With GitBook hosting your spec, it’s easy to use it both to [instantly generate docs](../documentation/create-content/openapi/insert-api-reference-in-your-docs.md#automatically-create-openapi-pages-from-your-spec), and in external OpenAPI-based tools like Stainless, Postman or others.
 
 Head into the **OpenAPI** section in the GitBook sidebar and find the API you want to make public — then simply hit the toggle.
 
@@ -1237,7 +1237,7 @@ Well, now we have! Our emails now all use this new improved style :sparkles:
 
 When you create a new site, you’ll now see a dashboard that’s more tailored to what you want to do.
 
-First, you’ll see four large options at the top to offer you different ways to add content to your site — including [Git Sync](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync), OpenAPI spec upload, and import options.
+First, you’ll see four large options at the top to offer you different ways to add content to your site — including [Git Sync](../documentation/docs-as-code/git-sync/), OpenAPI spec upload, and import options.
 
 Below that, you’ll also see four site templates to help you get started with an all-new site faster by adding content to an established structure.
 
@@ -1314,17 +1314,17 @@ The `llms-full.txt` file provides a comprehensive collection of all your site’
 
 ***
 
-You can also now add `.md` to any page’s URL in the browser to [see the content of that page rendered in Markdown](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/getting-started/llm-ready-docs#md-pages).
+You can also now add `.md` to any page’s URL in the browser to [see the content of that page rendered in Markdown](../documentation/getting-started/llm-ready-docs.md#md-pages).
 
 This is great for LLMs as well, which find it much easier and more efficient to process Markdown than a full HTML file with all the styling your docs site page includes.
 
 ### Add icons to your inline buttons
 
-[Last month](/broken/pages/RfXiC6O1JwYNvFl9UURj) we added [inline buttons](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#buttons) to docs, and [last week](/broken/pages/uwJ8750P46LJdBLp6Op9) we added [inline icons](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#icons). Now, we’re combining the two!
+[Last month](/broken/pages/RfXiC6O1JwYNvFl9UURj) we added [inline buttons](../documentation/create-content/formatting/inline.md#buttons) to docs, and [last week](/broken/pages/uwJ8750P46LJdBLp6Op9) we added [inline icons](../documentation/create-content/formatting/inline.md#icons). Now, we’re combining the two!
 
 You can now add an icon to any button you add to your docs, allowing for more customization, and helping you attract more attention to your CTAs.
 
-<a href="https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#buttons" class="button primary" data-icon="book-open">Read the docs</a> <a href="/broken/pages/OtJ8mrsNdVgsEFRVPSsn" class="button secondary" data-icon="square-arrow-up">Go to top</a>
+<a href="../documentation/create-content/formatting/inline.md#buttons" class="button primary" data-icon="book-open">Read the docs</a> <a href="/broken/pages/OtJ8mrsNdVgsEFRVPSsn" class="button secondary" data-icon="square-arrow-up">Go to top</a>
 
 ### Center align headings, paragraphs and inline items
 
@@ -1507,7 +1507,7 @@ We’ve made comments easier to read and use, tweaked the UX for adding and edit
 
 ### Comment upgrades
 
-With this release we’ve improved the design and layout of the [comments](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/collaborate/comments) side panel. Comments take up less space, and show limited options — Resolve, Edit and Delete — by default. Clicking a comment makes it active and shows more options, including Reply and an emoji reaction.
+With this release we’ve improved the design and layout of the [comments](../documentation/collaborate/comments.md) side panel. Comments take up less space, and show limited options — Resolve, Edit and Delete — by default. Clicking a comment makes it active and shows more options, including Reply and an emoji reaction.
 
 We’ve also made the on-page highlight more visible for active comments. When you select a comment the block will be highlight in orange, making it easier to see the comment in context.
 
@@ -1637,11 +1637,11 @@ Want to add a button to your published docs? Now you can — plus we’ve made b
 
 ### Add primary and secondary buttons to your docs pages
 
-You can now add [buttons](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#buttons) to your GitBook content, meaning you can now create calls-to-action right on the page.
+You can now add [buttons](../documentation/create-content/formatting/inline.md#buttons) to your GitBook content, meaning you can now create calls-to-action right on the page.
 
 Here’s how buttons look when published:
 
-<a href="https://app.gitbook.com/join" class="button primary">Sign up</a> <a href="https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#buttons" class="button secondary">Read the docs</a>
+<a href="https://app.gitbook.com/join" class="button primary">Sign up</a> <a href="../documentation/create-content/formatting/inline.md#buttons" class="button secondary">Read the docs</a>
 
 Buttons are an inline option — like emoji, links and inline images. You can add one to any text block, and they can link to any other content within your docs, or any external URL. Simply hit <kbd>/</kbd> to open the inline palette and choose **Button**.
 
@@ -1696,9 +1696,9 @@ Everything is generated from the specification, and formatted beautifully by Git
 
 <figure><img src=".gitbook/assets/api-ref-docs.jpg" alt=""><figcaption></figcaption></figure>
 
-This is how we created our [own API reference docs](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference), so head over there to check it out. Everything in those API Reference pages is pulled from the spec.
+This is how we created our [own API reference docs](../developers/gitbook-api/api-reference/), so head over there to check it out. Everything in those API Reference pages is pulled from the spec.
 
-[Head to our docs](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/EAZLjjyX6jX76NFnj71P) to read more about this — we’ve also written [a handy guide](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/api-documentation/document-your-api-in-gitbook-in-5-simple-steps) if you want to get this set up for your own organization.
+[Head to our docs](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/EAZLjjyX6jX76NFnj71P) to read more about this — we’ve also written [a handy guide](../guides/api-documentation/document-your-api-in-gitbook-in-5-simple-steps.md) if you want to get this set up for your own organization.
 
 ### Improved OpenAPI and code block designs
 
@@ -1795,7 +1795,7 @@ Work continues on giving you the best editor experience possible, and we’ve ad
 
 ### Link tooltips
 
-We’ve added an upgrade to [links](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/inline#links) in published content. You can now hover over any link on your page and after a moment you’ll see a preview of the page, URL or site section it takes you to — making it easier to see the context of the link without clicking it.
+We’ve added an upgrade to [links](../documentation/create-content/formatting/inline.md#links) in published content. You can now hover over any link on your page and after a moment you’ll see a preview of the page, URL or site section it takes you to — making it easier to see the context of the link without clicking it.
 
 <figure><img src=".gitbook/assets/link-tooltips.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -1859,7 +1859,7 @@ Huge table improvements and custom fonts for published sites lead the way this w
 
 ### New and improved tables
 
-We’ve completely overhauled [table blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/table) in GitBook to make them more functional and predictable. While they may look similar in the editor, they’ve been totally reworked in the backend to improve performance and make them more practical as a block.
+We’ve completely overhauled [table blocks](../documentation/create-content/blocks/table.md) in GitBook to make them more functional and predictable. While they may look similar in the editor, they’ve been totally reworked in the backend to improve performance and make them more practical as a block.
 
 Tables now feature placeholders to make it easier to insert new rows and columns. We’ve also made reordering columns easier when your have wide tables that scroll to show more content.
 
@@ -1877,21 +1877,21 @@ Overall this represents a huge upgrade for tables, making them much easier to us
 
 ### Add announcement banners to published docs
 
-Need to tell users about a product update, time-sensitive announcement or new marketing push? You can now add [an announcement banner](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#announcement-premium-and-ultimate) to the top of your docs site with an icon, text and a link CTA — just like we have right now on this page. Side note: you should fill out [the State of Docs survey](https://docs.google.com/forms/d/e/1FAIpQLSe2GhKO1ZzTyyepbu1C7ZHvQBEhfNNKX9Z8_J2P-toC0mzKsw/viewform) :grin:
+Need to tell users about a product update, time-sensitive announcement or new marketing push? You can now add [an announcement banner](../documentation/manage-your-site/customization/#announcement-premium-and-ultimate) to the top of your docs site with an icon, text and a link CTA — just like we have right now on this page. Side note: you should fill out [the State of Docs survey](https://docs.google.com/forms/d/e/1FAIpQLSe2GhKO1ZzTyyepbu1C7ZHvQBEhfNNKX9Z8_J2P-toC0mzKsw/viewform) :grin:
 
-[Head to our docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#announcement-premium-and-ultimate) to find out how to add a custom announcement banner to your docs — including how to customize their color and icon.
+[Head to our docs](../documentation/manage-your-site/customization/#announcement-premium-and-ultimate) to find out how to add a custom announcement banner to your docs — including how to customize their color and icon.
 
 ### Use custom fonts on your docs site
 
-You can now [upload your own custom font](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#site-styles) for your docs site, so your site accurately matches your brand’s style guide.
+You can now [upload your own custom font](../documentation/manage-your-site/customization/#site-styles) for your docs site, so your site accurately matches your brand’s style guide.
 
 <figure><img src=".gitbook/assets/custom-fonts.jpg" alt=""><figcaption></figcaption></figure>
 
-Right now GitBook supports `.woff` and `.woff2` file formats. [Take a look at to our docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#site-styles) to read more about how to add a custom font to your site. Custom fonts are available for Ultimate sites — head to [our pricing page](https://www.gitbook.com/pricing) to find out more.
+Right now GitBook supports `.woff` and `.woff2` file formats. [Take a look at to our docs](../documentation/manage-your-site/customization/#site-styles) to read more about how to add a custom font to your site. Custom fonts are available for Ultimate sites — head to [our pricing page](https://www.gitbook.com/pricing) to find out more.
 
 ### Breadcrumbs in search results
 
-When you use [search](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/searching-your-content) on a published docs site, you’ll now see breadcrumbs for section groups, sections and variants in the search results. Previously the results would only show one, which could be confusing if the result was in a site variant within a site section.
+When you use [search](../documentation/create-content/searching-your-content/) on a published docs site, you’ll now see breadcrumbs for section groups, sections and variants in the search results. Previously the results would only show one, which could be confusing if the result was in a site variant within a site section.
 
 <figure><img src=".gitbook/assets/search-breadcrumbs.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -2054,7 +2054,7 @@ This is the latest design update, following on from the [new hint blocks](/broke
 
 We’ve added a new **Broken URLs** section to your site’s **Insights** page. It shows any incoming links from external sources that are resulting in a ‘Page not found’ error. These may be incorrectly-inputted URLs, outdated links with no redirects, or spam links.
 
-You can combine this with [site redirects](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/publish/site-redirects) to point people looking for information in the right direction.
+You can combine this with [site redirects](../documentation/publish/site-redirects.md) to point people looking for information in the right direction.
 
 And if you want to check the source of the broken URLs, you can head to the main **Traffic** insight section, filter by ‘Page: not found’ and scroll down to the **Referrers** section to see the source of the links.
 
@@ -2094,13 +2094,13 @@ You can now add titles to hint blocks and customize their colors for published c
 
 ### New hint block design and colors
 
-We’re redesigned our [hint blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/hint) to give you more options when creating your docs.
+We’re redesigned our [hint blocks](../documentation/create-content/blocks/hint.md) to give you more options when creating your docs.
 
 The new blocks now use a smaller font size, and you have the option to add headings to them, which will appear in a colored bar at the top of the hint. To do this, simply add a heading block as the first block inside the hint block.
 
 <figure><img src=".gitbook/assets/hints-published-content.jpg" alt=""><figcaption><p>By default, this is how hint blocks will look in published content. The top hint in this demo does not have a title, while all the others do.</p></figcaption></figure>
 
-If you’re publishing your content on a docs site, you can also customize the colors of your hint blocks however you like. To do this, head to [your site’s **Customization** menu](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#themes-for-light-and-dark-modes) and scroll down in the **General** tab until you see **Semantic colors**.
+If you’re publishing your content on a docs site, you can also customize the colors of your hint blocks however you like. To do this, head to [your site’s **Customization** menu](../documentation/manage-your-site/customization/#themes-for-light-and-dark-modes) and scroll down in the **General** tab until you see **Semantic colors**.
 
 <figure><img src=".gitbook/assets/semantic-colors.jpg" alt=""><figcaption><p>You can change the color of your hint blocks in published content by opening the <strong>Customization</strong> screen for your site and selecting new semantic colors. The preview on the right will update in real-time.</p></figcaption></figure>
 
@@ -2140,7 +2140,7 @@ We’ve added some incredible new customization options for your docs site, incl
 
 ### New themes to modernize your docs site
 
-We’ve just released a new set of [themes](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#themes-for-light-and-dark-modes) that make it easier to design an incredible-looking, branded docs site :sparkles:
+We’ve just released a new set of [themes](../documentation/manage-your-site/customization/#themes-for-light-and-dark-modes) that make it easier to design an incredible-looking, branded docs site :sparkles:
 
 These are different from the old themes as they apply to the whole site — from the background and header, down to individual elements and icons.
 
@@ -2157,11 +2157,11 @@ These four themes can be combined with any of our other customization options �
 
 The updated Customization menu also makes it easy to add a tint that compliments your theme perfectly. You’ll see some suggested colors based on your primary color selection, and you can select one with a click to preview it in the menu. You can also simply select your primary color as your tint, or a completely custom color — the choice is yours.
 
-Head into your docs site’s **Customization** menu to explore your options, and [head to our docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#themes-for-light-and-dark-modes) to find out more.
+Head into your docs site’s **Customization** menu to explore your options, and [head to our docs](../documentation/manage-your-site/customization/#themes-for-light-and-dark-modes) to find out more.
 
 ### Create more structure with site section groups
 
-A few months ago we announced [site sections](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/site-sections) — a new way to add content from multiple spaces to a single site, with tabs along the top to switch between each section.
+A few months ago we announced [site sections](../documentation/manage-your-site/site-structure/site-sections.md) — a new way to add content from multiple spaces to a single site, with tabs along the top to switch between each section.
 
 Today, we’re building on top of that with section groups. As the name suggestions, section groups let you group up a number of sections in a drop-down menu that appears next to other sections in that top bar.
 
@@ -2308,7 +2308,7 @@ You may notice some small visual changes across your site, but they will be mini
     <picture><source srcset=".gitbook/assets/actions-dark.svg" media="(prefers-color-scheme: dark)"><img src=".gitbook/assets/actions-light.svg" alt=""></picture>
 
     and choose **Remove**.
-* Sponsored sites are now open to all open source projects! If you have open source docs and want to build your docs with GitBook, the Sponsored site plan lets you access all of GitBook’s best docs site features at no cost. It displays a small, relevant ad in the corner of your documentation site, and each view generates revenue for you — turning your documentation into a source of income. You can now choose it from the site wizard when you create a new site in GitBook. Find out more on [our open source page](https://www.gitbook.com/solutions/open-source), or [in our docs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/account-and-billing/plans/community/sponsored-site-plan).
+* Sponsored sites are now open to all open source projects! If you have open source docs and want to build your docs with GitBook, the Sponsored site plan lets you access all of GitBook’s best docs site features at no cost. It displays a small, relevant ad in the corner of your documentation site, and each view generates revenue for you — turning your documentation into a source of income. You can now choose it from the site wizard when you create a new site in GitBook. Find out more on [our open source page](https://www.gitbook.com/solutions/open-source), or [in our docs](../documentation/account-and-billing/plans/community/sponsored-site-plan.md).
 
 </details>
 
@@ -2532,7 +2532,7 @@ We’ll soon update the emojis within the app to use these same sets so you can 
 * Fixed grouping in the site settings menu when using a narrow viewport, such as on mobile, to make it easier to find the settings you need.
 * Fixed a bug that sometimes showed multiple tables of content on the screen at the same time.
 * Fixed a bug that sometimes caused updated content not to appear when you merged a change request.
-* Fixed a bug with stepper and tab blocks that meant you couldn’t insert [reusable content](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/reusable-content) using the `<` key, and could instead only add it using drag and drop.
+* Fixed a bug with stepper and tab blocks that meant you couldn’t insert [reusable content](../documentation/create-content/reusable-content.md) using the `<` key, and could instead only add it using drag and drop.
 
 </details>
 {% endupdate %}
