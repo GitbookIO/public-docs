@@ -14,9 +14,15 @@ At the end of this guide, you’ll have a live documentation site, ready to expa
 
 If you’re a coding agent, follow [Set up GitBook](../setup.md). It covers connecting GitBook, the steps that need the person you’re helping, and publishing the site.
 
-To hand the setup to your agent, paste this prompt into it: `Set up GitBook for me by following https://gitbook.com/docs/setup.md`.
+To hand the setup to your agent, paste this prompt into it:&#x20;
 
-If you’re following this guide in the GitBook app, continue to the next step.
+{% prompt description="Set up GitBook" %}
+```markdown
+Set up GitBook for me by following https://gitbook.com/docs/setup.md.
+```
+{% endprompt %}
+
+If you’re following this guide using GitBook app, continue to the next step.
 {% endstep %}
 
 {% step %}
