@@ -9,11 +9,21 @@ hidden: true
 
 This page is for AI agents helping someone set up GitBook. Your goal is a published docs site at a public URL, with either new docs or docs moved from another tool.
 
-If you're a person reading this, start with the [Quickstart](getting-started/quickstart.md). To hand the setup to your coding agent, paste: `Set up GitBook for me by following https://gitbook.com/docs/setup.md`.
+## Check whether you already have GitBook tools
 
-## Answer this first: can you edit files on this machine?
+If GitBook MCP tools are already in this session, for example from the Claude, ChatGPT, or Cursor plugin, confirm they work with a read-only call: `get_usage_guide` with the topic `onboarding`. If it answers, ask the question in [Step 1](#step-1-ask-what-theyre-doing), then go to [Step 4](#step-4-resume-and-publish). You don't need to connect anything, hand off, or save a plan file.
 
-**No, you're a hosted assistant** like Claude or ChatGPT. Only the person can add a connector, so relay these steps as a numbered list:
+If there are no GitBook tools, find your row:
+
+| Who's reading                                                        | What you can do                                     | Where to go next                                             |
+| -------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| A coding agent that can run commands and edit files                  | Connect GitBook, bring the person in once, publish  | [How GitBook setup works](#how-gitbook-setup-works)          |
+| A hosted chat assistant, such as Claude.ai or ChatGPT                | Only the person can add the GitBook plugin          | [Relay the plugin setup](#relay-the-plugin-setup)            |
+| A person                                                             | Set up in the app, or hand the setup to your agent  | [For people](#for-people)                                    |
+
+### Relay the plugin setup
+
+Send the person these steps as a numbered list:
 
 > GitBook connects to me as a plugin. I can't add it myself, but you can in a few clicks:
 >
@@ -24,9 +34,11 @@ If you're a person reading this, start with the [Quickstart](getting-started/qui
 >
 > Tell me when it's done, and I'll help you plan and publish your docs.
 
-Then stop. The rest of this page is for agents that can run commands and write config files. When the GitBook tools are available in a later conversation, ask the question in [Step 1](#step-1-ask-what-theyre-doing), then follow [Step 4](#step-4-resume-and-publish) and [Step 5](#step-5-verify-and-report).
+Then stop. The rest of this page is for agents that can run commands and edit files. In the new conversation, start again from [Check whether you already have GitBook tools](#check-whether-you-already-have-gitbook-tools).
 
-**Yes, you're a coding agent** like Claude Code, Codex, Cursor, or GitHub Copilot in VS Code. You do the setup yourself and bring the person in once. Read on.
+### For people
+
+Start with the [Quickstart](getting-started/quickstart.md). To hand the setup to your coding agent, paste this prompt into it: `Set up GitBook for me by following https://gitbook.com/docs/setup.md`.
 
 ## How GitBook setup works
 
@@ -142,7 +154,7 @@ If the session can't restart, don't wait. Use [the CLI](#fallback-the-gitbook-cl
 
 ## Step 4: resume and publish
 
-1. Read `gitbook-setup-plan.md`.
+1. Read `gitbook-setup-plan.md`, if you saved one.
 2. Call `get_usage_guide` with the topic `onboarding`, and follow it. Use `editing` for adding content.
 3. List the person's organizations with `invoke_operation` and `listOrganizationsForAuthenticatedUser`. Ask which one to use, even if there's only one.
 4. Call `get_subscription_information`. If the organization isn't on a paid plan, create the site with `type` set to `basic`. Other types can return a checkout instead of a published site.
