@@ -186,6 +186,8 @@ Use this for scripted setups, or when your client already manages secrets locall
 
 ## Using GitBook’s MCP
 
+Setting up GitBook for the first time? Point your agent to [Set up GitBook](../setup.md) instead.
+
 {% prompt description="Create and configure a new docs site." %}
 ```markdown
 Using the GitBook MCP tools, create a new docs site for me.
