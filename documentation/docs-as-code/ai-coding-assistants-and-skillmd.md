@@ -1,12 +1,14 @@
 ---
 description: >-
-  Use GitBook’s official SKILL.md file to give AI coding assistants like Claude
-  Code, Cursor or Codex knowledge of GitBook’s features and blocks
+  Add GitBook skills to AI coding assistants like Claude Code, Cursor, or Codex
+  so they can work with GitBook pages, sites, and workflows
 ---
 
 # Agent skills
 
-GitBook provides [skill files](https://github.com/GitbookIO/gitbook-skills/tree/main) that teach AI coding assistants how to edit GitBook documentation correctly. If you use Claude Code, Cursor, Codex, or another external coding assistant, add GitBook skills so your agent can work with GitBook syntax, blocks, and configuration files.
+Setting up GitBook for the first time? Point your agent to [Set up GitBook](../setup.md) instead.
+
+GitBook publishes a set of skills in the [gitbook-skills](https://github.com/GitbookIO/gitbook-skills) repository. They teach AI coding assistants how to work with GitBook documentation: writing pages, configuring sites, OpenAPI references, change requests, and integrations. If you use Claude Code, Cursor, Codex, or another coding assistant, add the skills so your agent can use GitBook syntax, blocks, and configuration files correctly.
 
 This fits well with [Git Sync](git-sync/) workflows — make changes in your repo, commit them, and your docs site updates automatically.
 
@@ -20,21 +22,25 @@ Use this option when your AI coding assistant supports package-based skills.
 
 {% stepper %}
 {% step %}
-### Create an access token
+### Connect GitBook MCP
 
-To let your agent interact with GitBook, you need to [create an access token](https://app.gitbook.com/account/developer) from your GitBook developer settings. GitBook uses this token to authenticate your agent when working with GitBook skills.
+Skills that only edit files, such as `write-docs`, don’t need GitBook authentication. Skills that talk to GitBook — including `configure-site`, `write-openapi`, `cr-create`, and `cr-review` — should use the [GitBook MCP](gitbook-mcp.md) connection, which signs in with OAuth in the browser.
+
+A personal access token from your [developer settings](https://app.gitbook.com/account/developer) is only needed if you’re calling the REST API directly. `cr-create` and `cr-review` use the REST API, so they need a token. `configure-site` and `write-openapi` prefer MCP first, and fall back to a token when MCP isn’t connected.
 {% endstep %}
 
 {% step %}
 ### Install GitBook skills
 
-This skill is part of the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repository. Run the following command to install GitBook skills directly to your project:
+The skills live in the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repository. Run the following command to install them in your project:
 
 {% code expandable="true" %}
 ```bash
-npx skills add GitBookIO/gitbook-skills
+npx -y skills add GitbookIO/gitbook-skills -y
 ```
 {% endcode %}
+
+Without both `-y` flags, the installer waits for input.
 {% endstep %}
 {% endstepper %}
 
@@ -44,22 +50,16 @@ Download GitBook’s skills if your assistant doesn’t support package-based sk
 
 {% stepper %}
 {% step %}
-### Create an access token
-
-To let your agent interact with GitBook, you need to [create an access token](https://app.gitbook.com/account/developer) from your GitBook developer settings. GitBook uses this token to authenticate your agent when working with GitBook skills.
-{% endstep %}
-
-{% step %}
 ### Download GitBook skills
 
-Install GitBook skills with `npx skills add GitBookIO/gitbook-skills` when your assistant supports it.
+Install GitBook skills with `npx -y skills add GitbookIO/gitbook-skills -y` when your assistant supports it.
 
-To copy the files to your project manually, get GitBook skills from the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repository.
+To copy the files to your project manually, get them from the [`gitbook-skills`](https://github.com/GitbookIO/gitbook-skills) repository.
 
-<table><thead><tr><th width="156.67578125" valign="top">Skill</th><th width="455.33203125" valign="top">Description</th><th valign="top">Download</th></tr></thead><tbody><tr><td valign="top"><code>configure-site</code></td><td valign="top">Create and maintain entire GitBook documentation sites.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/configure-site">GitHub</a><br></td></tr><tr><td valign="top"><code>write-docs</code></td><td valign="top">Write, author, edit, and format GitBook documentation pages.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-docs">GitHub</a><br></td></tr><tr><td valign="top"><code>write-openapi</code></td><td valign="top">Author, configure, structure, and troubleshoot OpenAPI/Swagger API reference docs.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-openapi">GitHub</a></td></tr><tr><td valign="top"><code>build-integration</code></td><td valign="top">Build custom integrations for GitBook.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/build-integration">GitHub</a></td></tr><tr><td valign="top"><code>cr-create</code></td><td valign="top">Create GitBook change requests, push content, request reviews, and address comments.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/cr-create">GitHub</a></td></tr><tr><td valign="top"><code>cr-review</code></td><td valign="top">Review GitBook change requests, summarize changes, comment, approve, or request changes.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/cr-review">GitHub</a></td></tr></tbody></table>
+<table><thead><tr><th width="156.67578125" valign="top">Skill</th><th width="455.33203125" valign="top">Description</th><th valign="top">Download</th></tr></thead><tbody><tr><td valign="top"><code>write-docs</code></td><td valign="top">Author and edit GitBook-flavored Markdown pages.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-docs">GitHub</a><br></td></tr><tr><td valign="top"><code>configure-site</code></td><td valign="top">Create and configure GitBook sites end-to-end via the REST API.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/configure-site">GitHub</a><br></td></tr><tr><td valign="top"><code>write-openapi</code></td><td valign="top">Author and publish OpenAPI reference docs in GitBook.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/write-openapi">GitHub</a></td></tr><tr><td valign="top"><code>cr-create</code></td><td valign="top">Drive a GitBook docs review flow via the REST API — create a change request, push content, request review, and fix comments.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/cr-create">GitHub</a></td></tr><tr><td valign="top"><code>cr-review</code></td><td valign="top">Review GitBook change requests via the REST API — discover CRs, summarize changes, comment, approve, or request changes.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/cr-review">GitHub</a></td></tr><tr><td valign="top"><code>build-integration</code></td><td valign="top">Build, develop, and publish GitBook integrations — custom blocks, ContentKit UI, events, and OAuth.</td><td valign="top"><a href="https://github.com/GitbookIO/gitbook-skills/tree/main/skills/build-integration">GitHub</a></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Remember to update your local repository with the latest `SKILL.md` file as GitBook adds new features.
+Remember to update your local skills as GitBook adds new features.
 {% endhint %}
 {% endstep %}
 {% endstepper %}
@@ -103,15 +103,17 @@ Using the GitBook skills, set up an API reference section in my docs from my Ope
 
 <details>
 
-<summary>What does SKILL.md contain?</summary>
+<summary>What do the GitBook skills contain?</summary>
 
-`SKILL.md` gives your AI coding assistant the context it needs to create, edit, and format GitBook content correctly.
+The skills in the [gitbook-skills](https://github.com/GitbookIO/gitbook-skills) repository give your AI coding assistant the context it needs to create, edit, and format GitBook content correctly.
 
-It includes:
+`write-docs` includes:
 
 * A complete syntax reference for custom blocks.
 * Configuration file formats, including `.gitbook.yaml`, `SUMMARY.md`, and `.gitbook/vars.yaml`.
 * Frontmatter options, layout controls, variables, expressions, decision tables, and common pitfalls.
+
+The other skills cover site setup, OpenAPI references, change requests, and integrations.
 
 </details>
 
@@ -119,7 +121,7 @@ It includes:
 
 <summary>How do I test AI-generated content?</summary>
 
-Always review and test content generated by AI assistants. When working with an assistant trained on the skill file:
+Always review and test content generated by AI assistants. When working with an assistant trained on the GitBook skills:
 
 * Verify that custom blocks render correctly in GitBook.
 * Check that all internal links work.
@@ -130,13 +132,13 @@ Always review and test content generated by AI assistants. When working with an 
 
 <details>
 
-<summary>How do I know my assistant is using SKILL.md?</summary>
+<summary>How do I know my assistant is using the GitBook skills?</summary>
 
 Ask it to explain how it would format a GitBook page.
 
-If it references GitBook blocks, frontmatter, variables, or files like `SUMMARY.md`, the skill is loaded.
+If it references GitBook blocks, frontmatter, variables, or files like `SUMMARY.md`, the skills are loaded.
 
-If it answers with generic Markdown only, check your project rules and reload the assistant.
+If it answers with generic Markdown only, check that the skills are installed and reload the assistant.
 
 </details>
 
@@ -144,11 +146,11 @@ If it answers with generic Markdown only, check your project rules and reload th
 
 <summary>Why is the assistant ignoring GitBook-specific syntax?</summary>
 
-This usually means the skill file isn’t loaded, or the rules aren’t specific enough.
+This usually means the skills aren’t loaded, or the rules aren’t specific enough.
 
-Make sure your assistant reads `SKILL.md` from the repo root, or uses the GitHub URL in its project instructions.
+Make sure the GitBook skills are installed, and that your assistant can read them.
 
-If the assistant caches instructions, restart the session after you add or update the rule.
+If the assistant caches instructions, restart the session after you add or update a skill.
 
 </details>
 
@@ -171,9 +173,11 @@ Always review the output in GitBook before you commit it.
 
 <summary>Do I still need an access token?</summary>
 
-You need an access token when your agent interacts with GitBook directly. You can create a personal access token in your [developer settings](https://app.gitbook.com/account/developer).
+Connect [GitBook MCP](gitbook-mcp.md) and sign in with OAuth when a skill needs to talk to GitBook. That covers most of `configure-site` and `write-openapi`.
 
-If you’re only editing files locally with `SKILL.md`, you might not need one until you connect the assistant to GitBook workflows or APIs.
+You need a personal access token when a skill calls the REST API directly, including `cr-create` and `cr-review`, or when MCP isn’t connected. You can create one in your [developer settings](https://app.gitbook.com/account/developer).
+
+If you’re only editing files locally with `write-docs`, you don’t need a token or an MCP connection.
 
 </details>
 
@@ -181,8 +185,8 @@ If you’re only editing files locally with `SKILL.md`, you might not need one u
 
 <summary>What if the skill seems outdated?</summary>
 
-Update your local `SKILL.md`, or point your assistant back to the GitHub source.
+Update the installed skills, or point your assistant back to the GitHub source.
 
-If your team copied parts of the file into custom rules, update those too.
+If your team copied parts of a skill into custom rules, update those too.
 
 </details>
