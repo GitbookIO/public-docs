@@ -1,7 +1,7 @@
 # Table of contents
 
 * [GitBook documentation](README.md)
-* [Setting up GitBook with a coding agent](setup.md)
+* [Set up GitBook](setup.md)
 
 ## Get started <a href="#getting-started" id="getting-started"></a>
 

@@ -3,7 +3,7 @@ description: Create and publish a docs site from a coding agent using the GitBoo
 hidden: true
 ---
 
-# Setting up GitBook with a coding agent
+# Set up GitBook
 
 This page is for coding agents setting up GitBook on behalf of someone. Your goal is a live docs site at a public URL.
 
