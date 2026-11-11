@@ -178,8 +178,6 @@ If the session can't restart, don't wait. Use [the CLI](#fallback-the-gitbook-cl
 
 ### Moving existing docs
 
-If the person is migrating existing docs, they can start by pasting this prompt into their agent: `Migrate my docs to GitBook by following https://gitbook.com/docs/setup.md`.
-
 Only route content through paths that exist. For Markdown already in a GitHub or GitLab repository, including exports from another docs tool, use [Git Sync](docs-as-code/git-sync/README.md). It's the recommended path for large migrations and supports up to 5,000 pages. Create the site with no spaces and don't apply the template. Git Sync setup isn't available through the MCP, so the person connects it in the GitBook app and picks the direction **GitHub → GitBook**. Warn them that the other direction can overwrite the repository. The [Git Sync migration guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync) has the steps. Resume when they confirm the sync finished.
 
 When the person names a source, use this table:
