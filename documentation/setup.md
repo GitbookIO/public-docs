@@ -138,6 +138,18 @@ Add a remote streamable HTTP server at `https://mcp.gitbook.com/mcp`. With OAuth
 
 Re-read the file you changed, or run the client's `get` command, and confirm the `gitbook` entry is there and the file parses. The restart ends your session, so check now.
 
+### Optional: add GitBook skills
+
+You don't need skills to publish, but they help the first pages come out right. The `write-docs` skill teaches GitBook-flavored Markdown, such as hints, tabs, and steppers, so pages render correctly in GitBook. Tell the person what you're installing, then run:
+
+```bash
+npx -y skills add GitbookIO/gitbook-skills -y
+```
+
+Without both `-y` flags, the installer waits for input. If Claude Code's auto mode blocks the command, hand it to the person instead. Don't commit the installed skill files unless they ask.
+
+The [GitBook skills repository](https://github.com/GitbookIO/gitbook-skills) includes `write-docs`, `configure-site`, `write-openapi`, `cr-create`, `cr-review`, and `build-integration`, for pages, site setup, OpenAPI references, change requests, and integrations.
+
 ## Step 3: hand off once
 
 Send one message that covers everything the person needs to do:
