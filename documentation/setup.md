@@ -178,11 +178,17 @@ If the session can't restart, don't wait. Use [the CLI](#fallback-the-gitbook-cl
 
 ### Moving existing docs
 
-Only route content through paths that exist:
+Only route content through paths that exist. For Markdown already in a GitHub or GitLab repository, including exports from another docs tool, use [Git Sync](docs-as-code/git-sync/README.md). It's the recommended path for large migrations and supports up to 5,000 pages. Create the site with no spaces and don't apply the template. Git Sync setup isn't available through the MCP, so the person connects it in the GitBook app and picks the direction **GitHub → GitBook**. Warn them that the other direction can overwrite the repository. The [Git Sync migration guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync) has the steps. Resume when they confirm the sync finished.
 
-* **Markdown in a GitHub or GitLab repository**, including exports from another docs tool. Use [Git Sync](docs-as-code/git-sync/README.md). It's the recommended path for large migrations and supports up to 5,000 pages. Create the site with no spaces and don't apply the template. Git Sync setup isn't available through the MCP, so the person connects it in the GitBook app and picks the direction **GitHub → GitBook**. Warn them that the other direction can overwrite the repository. The [Git Sync migration guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync) has the steps. Resume when they confirm the sync finished.
-* **A published docs website, Confluence, Notion, Google Docs, Word, or other tools.** The person uses the [Import panel](getting-started/import.md) in the GitBook app. It takes up to 20 pages per import.
-* **A few Markdown files on this machine.** Add them as pages in a change request, the same way you'd add new content.
+When the person names a source, use this table:
+
+| Source | Route | Who does what |
+| --- | --- | --- |
+| Mintlify | Docs are Markdown or MDX in a Git repo, so use Git Sync. Mintlify-specific MDX components may need converting to GitBook blocks. The agent can do that in the repo before the person connects Git Sync. | Agent prepares the repo. Person connects Git Sync in the GitBook app. |
+| Docusaurus | Docs are Markdown or MDX in a Git repo, so use Git Sync. | Agent prepares the repo. Person connects Git Sync in the GitBook app. |
+| ReadMe | If the project already uses [Git Connection](https://docs.readme.com/main/docs/bi-directional-sync), the docs are Markdown or MDX in a Git repo. Use Git Sync. If not, the person can connect Git Connection to an empty repo (ReadMe writes the files), or export Guides as Markdown with [`rdme docs export`](https://github.com/readmeio/rdme/blob/main/documentation/commands/docs.md). Then use Git Sync. If neither export is available, the person uses the Import panel on the published site (20-page cap). | Agent prepares the repo once the Markdown is available. Person enables Git Connection or exports, then connects Git Sync, or uses the Import panel. |
+| Confluence, Notion, Google Docs, Word, or other published sites | The person uses the [Import panel](getting-started/import.md) in the GitBook app. It takes up to 20 pages per import. | The person runs the import. |
+| A few Markdown files on this machine | Add them as pages in a change request, the same way you'd add new content. | The agent adds the pages. |
 
 Name the human step plainly in your plan, and put it in the Step 3 message so it happens in the same hand-off.
 
