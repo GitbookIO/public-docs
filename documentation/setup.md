@@ -37,7 +37,7 @@ You have three tools. Pick by situation, not by preference:
 | Tool                                                | Use it when                                                                                        | Sign-in                                   |
 | --------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | [GitBook MCP](docs-as-code/gitbook-mcp.md)          | Default. The client can reload its config, and the person can approve a browser sign-in.           | OAuth in the browser                      |
-| [GitBook CLI](docs-as-code/gitbook-cli.md)          | Sandboxed, cloud, or non-interactive sessions, or the MCP tools can't load in this session.        | A personal access token in an env var     |
+| [GitBook CLI](docs-as-code/gitbook-cli.md)          | The MCP tools can't load in this session, for example because the client can't restart.             | `gitbook login` in the browser            |
 | [GitBook API](https://gitbook.com/docs/developers/gitbook-api/api-reference) | A step neither the MCP nor the CLI covers.                                  | A personal access token                   |
 
 The MCP server is `https://mcp.gitbook.com/mcp`. It supports streamable HTTP only, not `stdio` or `SSE`.
@@ -138,7 +138,7 @@ Send one message that covers everything the person needs to do:
 >
 > To undo this, [how to undo for this client].
 
-If the session can't restart, or nobody can approve a browser sign-in here, don't wait. Use [the CLI](#fallback-the-gitbook-cli) instead.
+If the session can't restart, don't wait. Use [the CLI](#fallback-the-gitbook-cli) instead.
 
 ## Step 4: resume and publish
 
@@ -155,8 +155,7 @@ If the session can't restart, or nobody can approve a browser sign-in here, don'
 Only route content through paths that exist:
 
 * **Markdown in a GitHub or GitLab repository**, including exports from another docs tool. Use [Git Sync](docs-as-code/git-sync/README.md). It's the recommended path for large migrations and supports up to 5,000 pages. Create the site with no spaces and don't apply the template. Git Sync setup isn't available through the MCP, so the person connects it in the GitBook app and picks the direction **GitHub → GitBook**. Warn them that the other direction can overwrite the repository. The [Git Sync migration guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync) has the steps. Resume when they confirm the sync finished.
-* **A published docs website.** The CLI can start a website import with `gitbook organizations imports start` and check it with `gitbook organizations imports get`. The MCP can't start an import. The person can also use the Import panel in the app.
-* **Confluence, Notion, Google Docs, Word, or other tools.** The person uses the [Import panel](getting-started/import.md) in the GitBook app. It takes up to 20 pages per import.
+* **A published docs website, Confluence, Notion, Google Docs, Word, or other tools.** The person uses the [Import panel](getting-started/import.md) in the GitBook app. It takes up to 20 pages per import.
 * **A few Markdown files on this machine.** Add them as pages in a change request, the same way you'd add new content.
 
 Name the human step plainly in your plan, and put it in the Step 3 message so it happens in the same hand-off.
@@ -174,13 +173,13 @@ Open a change request in GitBook with release notes for this week's changes
 
 ## Fallback: the GitBook CLI
 
-Use the CLI when the MCP can't work here: a cloud or sandboxed session, a non-interactive run, or a client that can't reload. The CLI needs Node v18 or later:
+Use the CLI when the MCP tools can't load in this session, for example because the client can't restart. The CLI needs Node v18 or later:
 
 ```bash
 npm install @gitbook/cli -g
 ```
 
-**Sign in with a token.** `gitbook login` only works when the browser runs on the same machine as the CLI, so it fails in remote sessions. Instead, the person creates a personal access token in their [developer settings](https://app.gitbook.com/account/developer) and sets it as the `GITBOOK_TOKEN` environment variable, for example as a secret in the cloud environment. The CLI reads it directly. Never print the token, write it to a file, or put it in a message. When setup is done, remind the person to revoke it.
+**Sign in with `gitbook login`.** It opens GitBook in the browser, and the sign-in returns to a localhost callback on the machine running the CLI. On the person's own machine, run it in the background and tell them to approve the sign-in in the browser. In a cloud or remote session, the browser can't reach that callback, so the person runs `gitbook login` in their own terminal.
 
 Confirm with `gitbook whoami`, then run the flow below. Add `--json` to every command so you can parse the output, show each command before you run it, and stop if one fails.
 
@@ -232,13 +231,7 @@ gitbook organizations sites create <organizationId> --type basic --title "Produc
 gitbook organizations sites publish <organizationId> <siteId> --full
 ```
 
-To import a published docs website into the space instead of writing pages, run:
-
-```bash
-gitbook organizations imports start <organizationId> --body '{"source":{"type":"website","url":"<docsUrl>"},"target":{"space":"<spaceId>"}}'
-```
-
-Check its progress with `gitbook organizations imports get <organizationId> <importRunId>`, then publish. The [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line) has more detail.
+The [CLI guide](https://gitbook.com/docs/guides/editing-and-publishing-documentation/create-and-publish-a-site-from-the-command-line) has more detail.
 
 ## When neither covers a step
 
