@@ -202,6 +202,7 @@
   * [AI credits](account-and-billing/plans/ai-credits.md)
 * [Personal settings](account-and-billing/account-settings.md)
 * [Organization settings](account-and-billing/organization-settings.md)
+* [Audit logs](account-and-billing/audit-logs.md)
 * [SSO & SAML](account-and-billing/sso-and-saml/README.md)
   * [SSO Members vs non-SSO](account-and-billing/sso-and-saml/sso-members-vs-non-sso.md)
 * [Billing FAQ](account-and-billing/billing-faq/README.md)
