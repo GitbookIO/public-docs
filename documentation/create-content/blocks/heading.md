@@ -24,6 +24,14 @@ By default, the anchor link will be identical to the text in your heading. If yo
 
 To avoid this, you can manually set the anchor link by opening the **Options menu** <picture><source srcset="../../.gitbook/assets/25_01_10_options_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_options_light.svg" alt="The Options menu icon in GitBook"></picture> for the heading, then choosing **Edit anchor**. You can then enter the anchor link you wish to use — this will remain the anchor even if you change the heading itself.
 
+#### Protected anchor terms
+
+GitBook adjusts generated anchors containing terms commonly blocked by ad blockers. This prevents ad blockers from hiding the heading or breaking its link.
+
+For example, a heading containing “Advertise” can generate `#never-a-dvertise`. A heading containing “Advertising” can generate `#a-dvertising`.
+
+Use the generated URL when linking to the heading. You can also set a custom anchor in **Edit anchor**.
+
 ### Representation in Markdown
 
 GitBook generates SEO-optimized pages, meaning page titles in GitBook are automatically represented in markdown as a first-level heading:
