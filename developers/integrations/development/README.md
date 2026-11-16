@@ -13,7 +13,7 @@ After [bootstrapping your integration with the GitBook CLI](../quickstart.md#boo
 Before you're able to develop your integration, you will first need to publish it. You can do this by running the following command in the root directory for your integration:
 
 ```bash
-gitbook publish
+gitbook integration publish
 ```
 
 By default (defined in the CLI-generated `gitbook-manifest.yaml`), your integration will be published privately, and owned by the organization specified in the manifest.
@@ -29,7 +29,7 @@ You need to install your app into at least 1 space or site in order to develop i
 While inside the root directory of your integration, run:
 
 ```bash
-gitbook dev
+gitbook integration dev
 ```
 
 This will start a development server tied to your organization.
