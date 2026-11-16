@@ -27,7 +27,7 @@ gitbook auth --token <token>
 ```
 
 {% hint style="info" %}
-You can also sign in through your browser with `gitbook login`. Browser sign-in works for everyday CLI commands, but publishing an integration (`gitbook integration publish` / `unpublish`) requires a personal access token, so use `gitbook auth` for integration work. See the [GitBook CLI guide](https://gitbook.com/docs/docs-as-code/gitbook-cli) for more.
+You can also sign in through your browser with `gitbook login`. Browser sign-in works for everyday CLI commands, but publishing an integration (`gitbook integration publish` / `unpublish`) requires a personal access token, so use `gitbook auth` for integration work. If you've already signed in with gitbook login, run gitbook logout first, then gitbook auth. See the [GitBook CLI guide](https://gitbook.com/docs/docs-as-code/gitbook-cli) for more.
 {% endhint %}
 
 After authenticating your user, you’ll be able to bootstrap an integration, publish an integration, and more. Refer to the [Quickstart](../quickstart.md) to learn more about building an integration using the CLI.
