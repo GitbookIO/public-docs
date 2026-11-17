@@ -51,7 +51,7 @@ Add and remove [members](../collaborate/member-management/). You can also update
 
 <summary>Audit logs</summary>
 
-Review changes made across your organization, filter events, and export them as CSV. Available on the Enterprise plan. Learn more about [audit logs](audit-logs.md).
+Review changes made across your organization, filter events, and export them as CSV. Available on the Enterprise plan. Learn more about [audit logs](audit-logs/README.md).
 
 </details>
 

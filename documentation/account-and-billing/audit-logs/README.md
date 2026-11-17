@@ -7,7 +7,7 @@ description: >-
 # Audit logs
 
 {% hint style="info" %}
-Audit logs are available on the [Enterprise plan](https://www.gitbook.com/pricing). Only organization [admins](../collaborate/member-management/roles.md) can view them.
+Audit logs are available on the [Enterprise plan](https://www.gitbook.com/pricing). Only organization [admins](../../collaborate/member-management/roles.md) can view them.
 {% endhint %}
 
 Audit logs record changes made across your organization: who made each change, when, what they did, and what it affected. Use them to answer security and compliance questions, trace a configuration change back to the person or workflow behind it, or confirm what happened during an incident.
@@ -28,15 +28,16 @@ Each row in the table is one event, newest first, with these columns:
 
 Audit logs cover administrative and configuration changes, including:
 
-* **Organization administration:** organization settings, merge rules, SSO, invite links, and teams.
-* **Members:** joins, invitations, role changes, and removals.
-* **Sites and spaces:** structure, settings, customization, publishing, and site and space permissions.
-* **Access and routing:** share links, custom domains, and redirects.
-* **Integrations and workflows:** integration installations, Git Sync, and OpenAPI processing, including changes these workflows make in the background.
+* **Organization administration:** organization settings, merge rules, SAML and SCIM configuration, SSO enforcement, invite links, teams, billing and plan changes, translation settings, and custom fonts.
+* **Members:** joins, role changes, SSO assignments, and removals. An accepted email invitation is recorded as the member joining.
+* **Sites:** structure, settings, customization, publishing, AI and MCP server settings, and user and team permissions.
+* **Spaces:** creation, duplication, deletion, restoration, settings, and default access.
+* **Access and routing:** site share links, custom domains attached to sites, redirects, and verified organization domains.
+* **Integrations and workflows:** integrations connected to sites, Git Sync for sites, OpenAPI processing, and context sync, including changes these workflows make in the background.
 
-GitBook is still extending coverage across these areas, so some actions don’t appear in audit logs yet.
+Coverage may expand as GitBook adds more actions. For every action audit logs can record, see [Audit log actions](actions.md).
 
-Audit logs don’t record changes to page content, page views, or file downloads. To review edits to content, use [version control](../create-content/version-control.md).
+Audit logs don’t record changes to page content, page views, or file downloads. To review edits to content, use [version control](../../create-content/version-control.md).
 
 ## Filter events
 
