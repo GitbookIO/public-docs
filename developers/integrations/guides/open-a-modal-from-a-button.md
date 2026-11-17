@@ -81,4 +81,4 @@ The modal opens and closes without leaving the page.
 
 ### Next steps
 
-Use the [modal](/broken/pages/NlYKQXxZ0x7lLCu2TPtU#modal) and [button](/broken/pages/NlYKQXxZ0x7lLCu2TPtU#button) references to customize the interface.
+Use the [modal](../development/contentkit/component-reference/modal.md) and [button](../development/contentkit/component-reference/button.md) references to customize the interface.

@@ -28,7 +28,7 @@ After successfully publishing your integration, you will be able to find and ins
 
 ### Updating your integration
 
-At any point you can update your integration by running `gitbook publish` in your integration’s directory.
+At any point you can update your integration by running `gitbook integration publish` in your integration’s directory.
 
 ### Sharing your integration with others
 
