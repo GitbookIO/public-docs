@@ -36,6 +36,14 @@ Each figure at the top of a report compares itself to the period before, so you 
 
 **Same period last year** shifts the window back 12 months and stops where the current window starts, so a range longer than a year never counts an event twice. The comparison is stored in the report’s URL along with your other filters, so you can share a compared view.
 
+## Ask GitBook Agent
+
+Click **Ask GitBook Agent**, next to **Filter** at the top of a report, to ask [GitBook Agent](../../gitbook-agent/overview.md) about your site’s data. The Agent can answer questions based on your analytics and build charts in the conversation to support its answers, including ones no built-in report covers.
+
+{% hint style="info" %}
+Analytics answers in GitBook Agent are available on the Ultimate and Enterprise plans.
+{% endhint %}
+
 ## Export data
 
 To analyze data outside of GitBook, open the menu on a card and click **Download CSV**. To build your own reports from the underlying events, see the [Events Aggregation API guide](../../../guides/docs-analytics/track-advanced-analytics-with-gitbooks-events-aggregation-api.md).
