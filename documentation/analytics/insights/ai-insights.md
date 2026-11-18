@@ -17,6 +17,8 @@ Four metrics summarize the period you selected:
 * **Helpful**: how visitors rated the answers they got.
 * **Savings**: the estimated support effort avoided by answering those questions.
 
+The **Questions asked over time** chart shows questions from **Humans** and from **AI agents** as separate series. Switch between **Questions** and **People asking** to change what the chart counts.
+
 See [.](./ "mention") for filters, time periods, and comparing periods.
 
 <figure><img src="../../.gitbook/assets/26_09_11_analytics_ai-assistant.png" alt="The AI Assistant report showing questions asked, answered rate, helpfulness, savings, and question activity over time"><figcaption><p>The AI Assistant report.</p></figcaption></figure>
@@ -29,7 +31,7 @@ Click a topic to open its detail view and see every question in it, grouped by *
 
 ## Breakdowns
 
-Three cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), and **Channels** (where the Assistant was used: your site, the [Docs Embed](../../publish/embedding/), or a connected tool). Click any value to filter the whole report by it.
+Four cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), **Channels** (where the Assistant was used: your site, the [Docs Embed](../../publish/embedding/), or a connected tool), and **Visitor type** (whether a person, an AI agent, or a bot asked: **Humans**, **AI agents**, **Bots**, or **Unknown**). Click any value, or choose **Filter by this value**, to filter the whole report by it.
 
 ## Questions
 
