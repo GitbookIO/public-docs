@@ -11,6 +11,7 @@ You can adapt and personalize many parts of your docs, including:
 * Hiding or showing [pages](../../create-content/content-structure/page/)
 * Hiding or showing site [variants](../../manage-your-site/site-structure/variants.md)
 * Hiding or showing site [sections](../../manage-your-site/site-structure/site-sections.md)
+* Hiding or showing [section groups](../../manage-your-site/site-structure/site-sections.md#create-a-section-group)
 * Hiding or showing [header links](../../manage-your-site/customization/layout-and-structure.md#header)
 * Adding personalized content to [inline expressions](../../create-content/variables-and-expressions.md)
 
@@ -94,6 +95,13 @@ You can see which variants in your docs have conditions set if the variant has a
 To launch the condition editor for a section, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a section, and click **Add condition**.
 
 You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+
+### Conditional section groups
+
+To control who can see a section group, open **Site structure**, then open the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group and click **Site audience**. Choose one of:
+
+* **Default**: anyone on your site can access the section group.
+* **Conditional**: only site visitors matching a condition can access the section group.
 
 ### Conditional page header links
 

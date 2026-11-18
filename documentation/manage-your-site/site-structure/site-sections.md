@@ -44,6 +44,8 @@ To create a group:
 4. Click **Add section**.
 5. Add existing sections or select new content.
 
+To show a section group only to some visitors, open the group’s actions menu and set **Site audience** to **Conditional**. See [Conditional section groups](../../publish/adaptive-content/adapting-your-content.md#conditional-section-groups).
+
 If your site supports multiple languages, translate group titles, section titles, and descriptions. See [Multilingual sections](multilingual-sections.md).
 
 ### Edit a section
