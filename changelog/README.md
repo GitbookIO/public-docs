@@ -27,6 +27,61 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-18" tags="new-releases,improvements,fixes" %}
+## See when your personal API tokens were last used
+
+<!-- Image placeholder: Developer settings listing personal API tokens with their last used date and the rotate action -->
+
+Following last week’s expiration dates for [personal API tokens](https://gitbook.com/docs/developers/gitbook-api/authentication), Developer settings now show when each token was last used. A token that nobody uses anymore is easier to spot and delete. The API also returns the last used time in the token list.
+
+You can now rotate a personal API token from Developer settings, and GitBook emails you a reminder before one of your tokens expires.
+
+## Know who asks AI Assistant questions
+
+<!-- Image placeholder: AI Assistant analytics with the visitor type filter open -->
+
+[AI Assistant analytics](https://gitbook.com/docs/analytics/insights/ai-insights) now show whether a person or an AI agent asked each question. You can also filter the report by signed-in and anonymous visitors to compare how often AI Assistant answers each group.
+
+### Improvements
+
+* GitBook now generates recovery codes when you turn on two-step authentication, and you can generate new ones in your account settings. If you lose access to your authenticator app, sign in with a recovery code and confirm by email.
+* Pro, Enterprise, and Community organizations can now verify their email domains so people with a matching address can join automatically. SAML just-in-time provisioning and SSO invites now use verified domains. Existing domains and SAML configurations keep working, and you can move them to verified domains.
+* The page outline in the editor and on published sites now includes H3 headings.
+* Small cards now render small on published sites too.
+* Turning off change request previews for a site now takes effect.
+* Git Sync credentials now work only for the member who connected them. To change the repository or branch of an existing Git Sync connection, you’re asked to authenticate again.
+* Organization, content-sharing, and site invitations now flag addresses that need email verification and keep them in the form so you can retry.
+* Enterprise audit logs now record members added by their first Security Assertion Markup Language (SAML) sign-in, and members promoted to admin when the last admin deletes their account.
+* [Git Sync](https://gitbook.com/docs/docs-as-code/git-sync) commit statuses now say why an import failed, such as a page referencing an unsupported file, instead of only asking you to contact support. Git Sync also explains what to do when the Git server can’t find the repository, and marks the repository or branch picker that failed to load, with details on hover.
+* [Broken links](https://gitbook.com/docs/analytics/broken-links) visit totals now count only people, not known bots. Links to your site’s own adaptive content pages are no longer reported as broken, and the list of affected pages on a broken link is now labeled **Pages**.
+* AI translations keep inline code, configuration keys, and strings in code samples as written.
+
+### Fixes
+
+* Git Sync exports no longer fail with a rate-limit error when a site exports many spaces to the same branch, and site spaces no longer show “Git provider rate limited the request” after a site-wide export.
+* Git Sync no longer fails with “Failed to download” when a file name contains a `%` sign, and keeps the text of links inside HTML code blocks. When an import fails because a page references an unsafe file, such as a `.sh` script, the error names the file to remove.
+* When a GitHub ruleset blocks a Git Sync push, GitBook explains how to let Git Sync through and links to the repository’s rules.
+* Pages edited through the API or MCP no longer become unreadable or block Git Sync exports when blocks reuse the same key.
+* Pasting content with an embedded image works again when the image’s alt text contains a slash. Annotations that contain a list can be edited again, and attaching a link no longer freezes the editor on sites with large spaces.
+* Deleting an open comment thread no longer breaks the block it was on.
+* In change request diffs, copying text from deleted content no longer causes an error, and a block that was copied while the original moved now shows the right text and link.
+* Old section URLs redirect after you rename a section on a site with adaptive content, and old URLs of a renamed default section no longer redirect to themselves when they include a variant.
+* Site redirects no longer disappear shortly after their destination page is added.
+* Search and AI Assistant no longer show content that adaptive content hides from some visitors.
+* Searching for a property ID such as `1.2.2.3.1.A` now finds the right page first and opens its section.
+* Inline code stays readable on pages with a background cover.
+* The MCP server’s search tool now searches only the site’s current language.
+* Markdown generated from your pages now uses absolute links.
+* The Preview of an unpublished site shows saved customization within a minute.
+* Visibility condition examples no longer suggest number or free-text visitor claims, which conditions can’t use.
+* Signing in to an authenticated MCP server no longer shows “This authorization link has expired” on sites whose authentication backend signs visitor tokens with HS384 or HS512.
+* AI Assistant answers from keyword matches when it can’t process a search query, instead of failing to answer. Suggested follow-up questions now name their subject, so they make sense on their own.
+* OpenAPI pages with malformed security requirements are now indexed for search, and exporting pages with many OpenAPI operations as Markdown uses less memory.
+* Large HTML file imports no longer fail partway through.
+* Integrations now show how to recover from connection, configuration, and input problems they report.
+* Integrations fail to render less often.
+{% endupdate %}
+
 {% update date="2026-11-11" tags="new-releases,improvements,fixes" %}
 ## Set an expiration date for personal API tokens
 
