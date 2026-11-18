@@ -23,7 +23,7 @@ When you add a channel, you choose how GitBook shows up in that tool. Each confi
 
 You can run multiple configurations per channel — for example, Support agent mode for one customer-facing Slack channel, and Collaborator mode in another channel for your docs team.
 
-To add a channel, open your site’s **Settings** and click **Channels**.
+To add a channel, open your site’s **Extend → Channels**.
 
 Use Channels when support questions, bug reports, or product feedback start in Slack, GitHub, Linear, or Jira and you want GitBook to respond in place.
 
@@ -131,7 +131,7 @@ Exact event coverage depends on the platform and your early access rollout. If a
 
 ### Install and authorization
 
-To install a channel, open your site dashboard and choose **Settings → Channels**.
+To install a channel, open your site dashboard and choose **Extend → Channels**.
 
 Then choose the platform you want to connect.
 
@@ -149,7 +149,7 @@ Review the authorization screen carefully before you approve access.
 {% step %}
 ### Start the install
 
-In **Settings → Channels**, select **Slack**.
+In **Extend → Channels**, select **Slack**.
 {% endstep %}
 
 {% step %}
@@ -165,7 +165,10 @@ Then choose the Slack workspace where you want to install the channel and approv
 
 After Slack redirects you back, finish the channel setup in GitBook.
 
-Choose the role the channel should use and save the configuration.
+Click **Add configuration**. In the **Choose a role** dialog, pick the role the channel should use, then click **Create channel**:
+
+* **Support agent**: answer user questions and provide support. This is the default for Slack.
+* **Collaborator**: work with your team to maintain docs and suggest improvements.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -175,7 +178,7 @@ Choose the role the channel should use and save the configuration.
 {% step %}
 ### Start the install
 
-In **Settings → Channels**, select **GitHub**.
+In **Extend → Channels**, select **GitHub**.
 {% endstep %}
 
 {% step %}
@@ -191,7 +194,10 @@ Then choose the personal account or organization where you want to install the G
 
 After GitHub redirects you back, finish the channel setup in GitBook.
 
-Choose the role the channel should use and save the configuration.
+Click **Add configuration**. In the **Choose a role** dialog, pick the role the channel should use, then click **Create channel**:
+
+* **Support agent**: answer user questions and provide support.
+* **Collaborator**: work with your team to maintain docs and suggest improvements. This is the default for GitHub.
 {% endstep %}
 {% endstepper %}
 {% endtab %}
@@ -201,7 +207,7 @@ Choose the role the channel should use and save the configuration.
 {% step %}
 ### Start the install
 
-In **Settings → Channels**, select **Linear**.
+In **Extend → Channels**, select **Linear**.
 {% endstep %}
 
 {% step %}
@@ -238,7 +244,7 @@ You need the following:
 {% step %}
 ### Start setup
 
-Open your site’s **Settings → Channels**. Under **Jira**, click **Add configuration**.
+Open your site’s **Extend → Channels**. Under **Jira**, click **Add configuration**.
 
 Jira uses the **Collaborator** role to help your team maintain documentation.
 {% endstep %}
