@@ -35,6 +35,12 @@ Three cards break the period down by **Answered** (whether the response solved t
 
 The **Questions** card lists every question put to the Assistant. Click one to see how GitBook handled it and which content supported the response.
 
+To find specific questions, type in **Search questions…** in the **Questions** card.
+
+To see what visitors ask about one page, click **Filter** and choose **Page**. The report then shows only questions whose answers cite that page. The API offers the same filter through the `citedPage` parameter.
+
+The **Filter** menu also includes **Only relevant questions**, **Unanswered questions**, **Visitor type**, **Authenticated visitor**, **Relevance**, **Answered**, **Channel**, and **Topic**.
+
 At the top of the detail view, you can review the question itself, how often visitors asked it, its type, and the topics it belongs to.
 
 ### Conversations and answer quality
