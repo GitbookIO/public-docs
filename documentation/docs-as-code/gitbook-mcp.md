@@ -221,6 +221,16 @@ Using the GitBook MCP tools, help me restructure my docs site.
 ```
 {% endprompt %}
 
+## Usage limits
+
+Right now, GitBook MCP has no usage quota based on your plan, including the Free plan. It calls the GitBook API with your token, so the API rate limit applies: 5,000 requests per hour per token. Read and write calls count the same.
+
+* One MCP tool call can make several API requests, so the limit isn’t exactly 5,000 tool calls.
+* Inviting members is limited to 2 invites per minute.
+* Above the limit, a call fails with a “rate limit exceeded” error that tells you how many seconds to wait before trying again.
+
+Your plan still decides what you can do. If a call needs a feature your plan doesn’t include, GitBook refuses it with an upgrade link, as it does in the app.
+
 ## The difference between the GitBook MCP and published docs MCP
 
 GitBook has two MCP patterns:

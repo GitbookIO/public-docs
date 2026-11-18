@@ -160,6 +160,7 @@ Add an MCP server named my-docs with HTTP transport at https://gitbook.com/docs/
 To use an MCP server:
 
 * Your site must be published. The MCP server exposes published content only.
+* **Access your docs through MCP** must be turned on in your site’s **Extend → MCP access**.
 * **Connect with MCP server** must be in the **Enabled actions** list in **Site customization** → **Page actions**.
 * Your tool must support MCP over HTTP.
 * If your site uses [authenticated access](../publish/site-audience/authenticated-access/), your tool must support the [MCP authorization spec](https://modelcontextprotocol.io/specification/2025-06-18/basic/authorization).
@@ -168,9 +169,17 @@ To use an MCP server:
 
 ### Turn on the MCP server
 
-In [Site customization](../manage-your-site/customization/), open [Page actions](../manage-your-site/customization/extra-configuration.md#page-actions). Make sure **Page actions** is turned on. If **Connect with MCP server** is under **Available actions**, drag it to **Enabled actions**.
+Open your site’s **Extend → MCP access** and turn on **Access your docs through MCP**. This screen also shows your site’s **MCP endpoint** and **Authenticated MCP endpoint**.
+
+Then, in [Site customization](../manage-your-site/customization/), open [Page actions](../manage-your-site/customization/extra-configuration.md#page-actions). Make sure **Page actions** is turned on. If **Connect with MCP server** is under **Available actions**, drag it to **Enabled actions**.
 
 This turns on your site’s MCP server and adds a copyable MCP link to the page actions menu. The server and the link go together: if you move **Connect with MCP server** back to **Available actions** to hide the link, GitBook also turns off the MCP server.
+
+### Usage limits
+
+Right now, MCP servers for published docs are available on every plan and have no call limit in practice.
+
+The `askQuestion` tool uses your site’s AI, so it’s only available when AI is turned on for the site. It stops working if your organization’s AI is paused, for example when AI credits run out. Searching and reading pages keep working.
 
 ### Privacy and access
 
