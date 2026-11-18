@@ -71,7 +71,22 @@ Your personal account could be a member of any number of organizations, and this
 
 <summary>Developer tools</summary>
 
-On this page you can manage and create access tokens for the [GitBook API](https://developer.gitbook.com/).
+On this page you can manage and create personal access tokens for the [GitBook API](https://developer.gitbook.com/).
+
+**Create a token**
+
+1. Click **Create new API token**.
+2. Enter a **Label** so you can recognize the token later.
+3. Choose an **Expiration**: 7, 30, 60, or 90 days, a **Custom** date, or **No expiration**. New tokens expire after 90 days by default.
+4. Create the token and store it somewhere secure.
+
+If you choose **No expiration**, GitBook warns you that the token will never expire, and that anyone who obtains it keeps access until you delete it. Set an expiration date unless you have a strong reason not to, such as a long-running integration that’s hard to update.
+
+GitBook emails you a reminder before one of your tokens expires. You can also set an expiration date through the API with the `expiresAt` field.
+
+**Manage your tokens**
+
+The **API Access Tokens** tab lists your tokens with their **Label**, **Created at**, **Last used**, and **Expires** dates. Use **Last used** to spot tokens nobody uses anymore. Each token has **Rotate** and **Delete** buttons.
 
 </details>
 
