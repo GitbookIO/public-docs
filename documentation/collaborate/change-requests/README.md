@@ -16,6 +16,10 @@ To browse and manage open change requests across your site, see the [Change requ
 
 Open the **Changes** tab to review edits in a change request. You can review all pages in context, or focus on changed pages only.
 
+The change request’s header shows how much it changes, Git-style: the number of additions, modifications, and deletions, such as **+12 Δ3 −6**, with a colored bar showing the share of each. Reviewers can tell a typo fix from a full rewrite before they open the changes.
+
+While you review, the sidebar tracks your progress as **N / M viewed**. Tick **Viewed** on each page once you’ve reviewed it.
+
 At the bottom of the editor, the floating diff navigator lets you jump between changed blocks, continue to the next page with diffs, and finish the review from the last change with the available review actions.
 
 {% hint style="info" %}
