@@ -156,6 +156,16 @@ Coverage may expand as GitBook adds more actions. For what audit logs don’t re
 | `space.lifecycle.restored` | Restored space |
 | `space.settings.updated` | Updated space settings |
 
+## Collections
+
+| Action ID | Label |
+| --- | --- |
+| `collection.lifecycle.created` | Created collection |
+| `collection.lifecycle.deleted` | Deleted collection |
+| `collection.lifecycle.transferred` | Transferred collection |
+| `collection.settings.updated` | Updated collection settings |
+| `collection.structure.moved` | Moved collection |
+
 ## Access and routing
 
 | Action ID | Label |

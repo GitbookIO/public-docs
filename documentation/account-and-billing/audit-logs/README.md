@@ -29,9 +29,10 @@ Each row in the table is one event, newest first, with these columns:
 Audit logs cover administrative and configuration changes, including:
 
 * **Organization administration:** organization settings, merge rules, SAML and SCIM configuration, SSO enforcement, invite links, teams, billing and plan changes, translation settings, and custom fonts.
-* **Members:** joins, role changes, SSO assignments, and removals. An accepted email invitation is recorded as the member joining.
+* **Members:** joins, including members added by their first SAML sign-in, role changes, SSO assignments, and removals. An accepted email invitation is recorded as the member joining.
 * **Sites:** structure, settings, customization, publishing, AI and MCP server settings, and user and team permissions.
 * **Spaces:** creation, duplication, deletion, restoration, settings, and default access.
+* **Collections:** creation, settings, moves, ownership transfers, and deletion.
 * **Access and routing:** site share links, custom domains attached to sites, redirects, and verified organization domains.
 * **Integrations and workflows:** integrations connected to sites, Git Sync for sites, OpenAPI processing, and context sync, including changes these workflows make in the background.
 
