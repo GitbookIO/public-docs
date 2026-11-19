@@ -79,3 +79,19 @@ The site is now published behind authenticated access controlled by your identit
 ### Enable PKCE
 
 If your identity provider requires or recommends PKCE, turn on **Use PKCE** in the OIDC integration configuration screen. This option enables Proof Key for Code Exchange (PKCE) for the authorization code flow that the integration initiates with your auth provider.
+
+### Configure logout
+
+The OIDC integration can end the published site session and the identity provider session.
+
+#### Set the end session endpoint
+
+To sign visitors out of the upstream identity provider, enter its logout endpoint in **End Session Endpoint**.
+
+When a visitor logs out from your published site, GitBook ends their published site session. GitBook also sends them to the configured endpoint to end their identity provider session.
+
+#### Skip the logout confirmation prompt
+
+To skip the upstream identity provider’s logout confirmation page, enable **Skip the logout confirmation prompt**.
+
+When a visitor logs out from your published site, GitBook signs them out without showing that confirmation page.
