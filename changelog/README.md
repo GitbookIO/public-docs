@@ -27,6 +27,57 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-18" tags="new-releases,improvements,fixes" %}
+## See when your personal API tokens were last used
+
+Following last week’s expiration dates for [personal API tokens](https://gitbook.com/docs/developers/gitbook-api/authentication), **Developer settings** now show when each token was last used. We’ve made it easier to spot and delete a token that nobody uses anymore in the app, and the API also returns the last used time in the token list.
+
+Plus, you can now rotate a personal API token from **Developer settings**, and GitBook emails you a reminder before one of your tokens expires.
+
+## Know who asks AI Assistant questions
+
+[AI Assistant analytics](https://gitbook.com/docs/analytics/insights/ai-insights) now show whether a person or an AI agent asked each question. You can also filter the report by signed-in and anonymous visitors to compare how often AI Assistant answers each group.
+
+### Improvements
+
+* GitBook now generates recovery codes when you turn on two-step authentication, and you can generate new ones in your account settings. If you lose access to your authenticator app, sign in with a recovery code and confirm by email.
+* Pro, Enterprise, and Community organizations can now verify their email domains, so people with a matching address can join automatically. Also, SAML just-in-time provisioning and SSO invites now use verified domains. Existing domains and SAML configurations keep working, and you can move them to verified domains.
+* The page outline in the editor and on published sites now includes H3 headings, making it easier for users to jump to the content they need.
+* Git Sync credentials now work only for the member who connected them. If you want to change the repository or branch of an existing Git Sync connection, you’ll need to authenticate again.
+* Organization, content-sharing, and site invitations now flag addresses that need email verification and keep them in the form so you can retry.
+* Enterprise audit logs now record members added by their first Security Assertion Markup Language (SAML) sign-in, and members promoted to admin when the last admin deletes their account.
+* [Broken links](https://gitbook.com/docs/analytics/broken-links) visit totals now count only people, not known bots. Links to your site’s own adaptive content pages are no longer reported as broken, and the list of affected pages on a broken link is now labeled **Pages**.
+
+### Fixes
+
+* [Git Sync](https://gitbook.com/docs/docs-as-code/git-sync) commit statuses now say why an import failed, such as a page referencing an unsupported file, instead of only asking you to contact support. Git Sync also explains what to do when the Git server can’t find the repository, and marks the repository or branch picker that failed to load, with details on hover.
+* Git Sync exports no longer fail with a rate-limit error when a site exports many spaces to the same branch, and site spaces no longer show “Git provider rate limited the request” after a site-wide export.
+* Git Sync no longer fails with “Failed to download” when a file name contains a `%` sign, and keeps the text of links inside HTML code blocks. When an import fails because a page references an unsafe file, such as a `.sh` script, the error names the file to remove.
+* When a GitHub ruleset blocks a Git Sync push, GitBook explains how to let Git Sync through and links to the repository’s rules.
+* Pages edited through the API or MCP no longer become unreadable or block Git Sync exports when blocks reuse the same key.
+* Pasting content with an embedded image works again when the image’s alt text contains a slash. Annotations that contain a list can be edited again, and attaching a link no longer freezes the editor on sites with large spaces.
+* Deleting an open comment thread no longer breaks the block it was on.
+* In change request diffs, copying text from deleted content no longer causes an error, and a block that was copied while the original moved now shows the right text and link.
+* Old section URLs redirect after you rename a section on a site with adaptive content, and old URLs of a renamed default section no longer redirect to themselves when they include a variant.
+* Site redirects no longer disappear shortly after their destination page is added.
+* Search and AI Assistant no longer show content that adaptive content hides from some visitors.
+* Searching for a property ID such as `1.2.2.3.1.A` now finds the right page first and opens its section.
+* Inline code stays readable on pages with a background cover.
+* Small cards now render small on published sites too.
+* Turning off change request previews for a site now takes effect.
+* The MCP server’s search tool now searches only the site’s current language.
+* Markdown generated from your pages now uses absolute links.
+* AI translations no longer translate inline code, configuration keys, or strings in code samples.
+* The **Preview** view of an unpublished site shows saved customization within a minute.
+* Visibility condition examples no longer suggest number or free-text visitor claims, which conditions can’t use.
+* Signing in to an authenticated MCP server no longer shows “This authorization link has expired” on sites whose authentication backend signs visitor tokens with HS384 or HS512.
+* AI Assistant will now answer from keyword matches when it can’t process a search query, instead of failing to answer. Suggested follow-up questions now name their subject, so they make sense on their own.
+* OpenAPI pages with malformed security requirements are now indexed for search, and exporting pages with many OpenAPI operations as Markdown uses less memory.
+* Large HTML file imports no longer fail partway through.
+* Integrations now show how to recover from connection, configuration, and input problems they report.
+* Integrations fail to render less often.
+{% endupdate %}
+
 {% update date="2026-11-11" tags="new-releases,improvements,fixes" %}
 ## Set an expiration date for personal API tokens
 
@@ -810,7 +861,7 @@ GitBook MCP gives AI agents tools to work across your GitBook content and workfl
 
 Agents can draft content, edit pages, open change requests, and restructure your docs.
 
-<a href="https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/getting-started/ai-documentation/gitbook-mcp" class="button primary">Discover the GitBook MCP</a>
+<a href="../documentation/docs-as-code/gitbook-mcp.md" class="button primary">Discover the GitBook MCP</a>
 {% endupdate %}
 
 {% update date="2026-07-07" tags="new-releases,improvements,fixes" %}
@@ -1013,7 +1064,7 @@ Changes to reusable content now open in a dedicated modal inside the change requ
 {% update date="2026-05-27" tags="new-releases,improvements,fixes" %}
 ## Improved GitBook Agent inside the editor
 
-You can now invoke [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/what-is-gitbook-agent) directly from the editor using a new floating panel — no need to switch to the sidebar. Spot something that needs updating? The Agent handles it inline, right where you’re working.
+You can now invoke [GitBook Agent](../documentation/gitbook-agent/overview.md) directly from the editor using a new floating panel — no need to switch to the sidebar. Spot something that needs updating? The Agent handles it inline, right where you’re working.
 
 <div data-with-frame="true"><figure><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2F0ej9dO5YPROpwko3s45u%2Fagentineditor.gif?alt=media&#x26;token=0de6dc45-8e84-4d60-b388-7172b21c0f31" alt="A GitBook editor showing a documentation page titled &#x22;System Performance Monitoring.&#x22; In the bottom-right corner, a &#x22;GitBook Agent&#x22; button is visible, demonstrating the new inline Agent access point within the editor."><figcaption><p>The new Agent button appears in the bottom-right corner of the editor, ready to help without breaking your flow.</p></figcaption></figure></div>
 
@@ -1046,11 +1097,11 @@ If you’re using update blocks with tags to build a changelog, your site visito
 {% update date="2026-05-19" tags="new-releases,improvements,fixes" %}
 ## Integration blocks inside reusable content
 
-You can now embed [integration blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/blocks) directly inside reusable content. Content powered by integrations — like embedded diagrams, videos, or third-party widgets — can now be reused across spaces just like any other reusable block.
+You can now embed [integration blocks](../documentation/create-content/blocks/) directly inside reusable content. Content powered by integrations — like embedded diagrams, videos, or third-party widgets — can now be reused across spaces just like any other reusable block.
 
 ### Improvements
 
-* You can now filter [AI insights](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-site/ai-insights) questions by channel type, so you can understand where readers are getting stuck across different sources. This is available for teams with the Ultimate plan.
+* You can now filter [AI insights](../documentation/analytics/insights/ai-insights.md) questions by channel type, so you can understand where readers are getting stuck across different sources. This is available for teams with the Ultimate plan.
 * You can now set a GitHub repository URL as one of your site’s social accounts, appearing in your site’s header and footer alongside other social links.
 * We’ve improved the speed of merging and updating change requests, especially for larger organizations.
 * Diff blocks in change requests now have a tinted background and left border, making it easier to scan added, removed, and modified content at a glance.
@@ -1295,7 +1346,7 @@ Alongside this improvement, we’ve also added the option to **Copy title as lin
 {% update date="2026-03-19" tags="new-releases,improvements,fixes" %}
 ## Site level permissions
 
-Admins can now [set permissions at a site level](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-site/publish-a-docs-site#site-permissions), allowing you to control who can view and edit your site content all in one place.
+Admins can now [set permissions at a site level](../documentation/publish/publish-a-docs-site/#site-permissions), allowing you to control who can view and edit your site content all in one place.
 
 To edit your site’s permissions, head to your site’s Overview page and click the **Permissions** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2Ffrh2NbzpXq5vPp9HknzY%2Fsite-permissions-dark.svg?alt=media&#x26;token=5773d477-f052-4fd8-bc03-57d1d7eb4630" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FwLS2uUQuwPGEWXaQF7DG%2Fsite-permissions.svg?alt=media&#x26;token=de8ca78b-7f01-4a7d-9936-31b5503ae60d" alt=""></picture> icon in the top-right corner. You can also open your site’s **Settings** tab and select **Manage permissions**.
 
@@ -1322,7 +1373,7 @@ To edit your site’s permissions, head to your site’s Overview page and click
 
 {% embed url="https://youtu.be/-tJ64CkI_bA" %}
 
-You can now add [tags](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/content-structure/page/tags) to your docs to help add extra context to specific pages, updates or features in your docs.
+You can now add [tags](../documentation/create-content/content-structure/page/tags.md) to your docs to help add extra context to specific pages, updates or features in your docs.
 
 You can add tags to any page, as well as to individual update blocks (like this one). And if you add one or more tags to a page, you can also optionally choose to display one of them in your docs site’s table of contents.
 
@@ -1351,7 +1402,7 @@ Plus, you can customize tags across your docs with their own colors and icons, a
 
 With update blocks, you can create a regular changelog (like this one) using dedicated blocks that are formatted with updates in mind.
 
-Update blocks support [tags](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/content-structure/page/tags) for simple categorization. And when you create a changelog using update blocks it will automatically create an RSS feed so end-users can subscribe and get the latest product updates automatically.
+Update blocks support [tags](../documentation/create-content/content-structure/page/tags.md) for simple categorization. And when you create a changelog using update blocks it will automatically create an RSS feed so end-users can subscribe and get the latest product updates automatically.
 {% endupdate %}
 
 {% update date="2026-03-04" tags="new-releases,improvements,fixes" %}
@@ -1389,7 +1440,7 @@ You can also update the name of your content or delete it from the menu — usef
 
 ## Custom icons in hint blocks
 
-You can now customize [the icon](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/formatting/inline#icons) in any hint block using the thousands of icons available in the icon picker.
+You can now customize [the icon](../documentation/create-content/formatting/inline.md#icons) in any hint block using the thousands of icons available in the icon picker.
 
 {% hint style="success" icon="gitbook" %}
 There are more than 4,300 icons to choose from in the icon picker — including the GitBook icon <i class="fa-sparkles">:sparkles:</i>
@@ -1427,8 +1478,8 @@ Now, if you want to add a search bar or a prompt bar for GitBook Assistant, they
 
 ### Improvements
 
-* We’ve added a new option to [expandable blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/blocks/expandable) — you can now have them expanded by default on your site. So if you want expandables to be collapsible, but open when visitors first view your page, you can. The new option is available in the **Block options** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FTz4cibInUfu2cb005Na8%2Foptions-dark.svg?alt=media&#x26;token=0849b16e-a06a-46b5-8b68-ed3c14ffaf3f" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FGSVJN7uZvFaa8D204fO5%2Foptions-light.svg?alt=media&#x26;token=12cbb65e-c311-4395-808e-8ca11a0db126" alt=""></picture> menu.
-* When you insert [OpenAPI specs](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/api-references/openapi) at the root of a space, any main tags in the spec that contain subtags — but no operations themselves — now get turned into page groups automatically. If you want to move them into a page group or subpage, they will still be inserted as normal (i.e. a page with subpages for subtags).
+* We’ve added a new option to [expandable blocks](../documentation/create-content/blocks/expandable.md) — you can now have them expanded by default on your site. So if you want expandables to be collapsible, but open when visitors first view your page, you can. The new option is available in the **Block options** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FTz4cibInUfu2cb005Na8%2Foptions-dark.svg?alt=media&#x26;token=0849b16e-a06a-46b5-8b68-ed3c14ffaf3f" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FGSVJN7uZvFaa8D204fO5%2Foptions-light.svg?alt=media&#x26;token=12cbb65e-c311-4395-808e-8ca11a0db126" alt=""></picture> menu.
+* When you insert [OpenAPI specs](../documentation/create-content/openapi/) at the root of a space, any main tags in the spec that contain subtags — but no operations themselves — now get turned into page groups automatically. If you want to move them into a page group or subpage, they will still be inserted as normal (i.e. a page with subpages for subtags).
 * Switching tabs in your site’s **Customization** menu will now automatically scroll to the top of the panel, making it easier to edit your settings.
 * You can now override the default personality and tone of [GitBook Agent’s](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) output. So if you want more verbose outputs, or for it to follow a specific style or tone, you can simply tell the Agent and it will override the default tone.
 * We’ve moved the **Social preview** option for your docs site into the recently-added **Sharing** tab in your site’s **Customization** menu. Before, you could add a social preview through your site’s settings menu — but it makes more sense to be in the Sharing tab with other social sharing options.
@@ -1446,7 +1497,7 @@ Now, if you want to add a search bar or a prompt bar for GitBook Assistant, they
 
 {% embed url="https://youtu.be/dcFLov32yAQ" %}
 
-We’ve just added a ton of new [code themes](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-site/customization/icons-colors-and-themes#code-theme-premium-and-ultimate) for your published docs.
+We’ve just added a ton of new [code themes](../documentation/manage-your-site/customization/icons-colors-and-themes.md#code-theme-premium-and-ultimate) for your published docs.
 
 You can now choose from our standard themes — which use your site’s semantic colors — or one of 60 themes from [Shiki](https://shiki.style/themes).
 
@@ -1459,7 +1510,7 @@ Want to set a separate theme for your [API blocks](https://app.gitbook.com/s/NkE
 * You’ll notice some big improvements to the in-app search tool. We’ve added more structure and information to search results, and made it easier to browse and open the results with the keyboard, making it easier to find the content you need.
 * We’ve made it easier to find [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) when editing your docs in a change request — you can now click the **Agent** button in the header bar to open a chat with the Agent.
   * We’ve also added new buttons so you can share feedback about specific messages within a chat with the Agent.
-* The default title of a change request (e.g. John’s Jan 1 changes) is now just a placeholder, encouraging people to add descriptive subjects. This is particularly important if you use [merge rules](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/collaboration/merge-rules) to require a subject for a change request before it can be merged.
+* The default title of a change request (e.g. John’s Jan 1 changes) is now just a placeholder, encouraging people to add descriptive subjects. This is particularly important if you use [merge rules](../documentation/collaborate/merge-rules.md) to require a subject for a change request before it can be merged.
 
 ### Fixes
 
@@ -1563,7 +1614,7 @@ In short: the new TOC is a huge upgrade that will make handling the assets in yo
 
 <figure><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FyG14hTKvLRhq3vwUDpNO%2Fpage-actions.png?alt=media&#x26;token=a9aa1f93-442c-47c5-be72-b337d28f9b65" alt="The Improve menu showing preset prompts for editing a page with AI"><figcaption></figcaption></figure>
 
-You can now tell GitBook Agent to complete common actions using [a new **Improve** menu](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/write-and-edit-with-ai#improve-page-content-with-gitbook-agent) that offers quick presets to improve your page. You can access the new menu from the editor by hovering over the page title, or from the page’s **Actions menu** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FkixcrcbwaIFBTlO0PGzx%2Factions-dark.svg?alt=media&#x26;token=cf2d0f65-ce2b-4862-96ef-c0cb118bd456" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2Feau6xpR5czwHgUx2Fx2I%2Factions-light.svg?alt=media&#x26;token=264689bb-f225-48fc-b8e5-d64dd9d7966f" alt="Actions menu icon"></picture>.
+You can now tell GitBook Agent to complete common actions using [a new **Improve** menu](../documentation/gitbook-agent/write-and-edit-with-ai.md#improve-page-content-with-gitbook-agent) that offers quick presets to improve your page. You can access the new menu from the editor by hovering over the page title, or from the page’s **Actions menu** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FkixcrcbwaIFBTlO0PGzx%2Factions-dark.svg?alt=media&#x26;token=cf2d0f65-ce2b-4862-96ef-c0cb118bd456" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2Feau6xpR5czwHgUx2Fx2I%2Factions-light.svg?alt=media&#x26;token=264689bb-f225-48fc-b8e5-d64dd9d7966f" alt="Actions menu icon"></picture>.
 
 From the Improve menu, you can tell the Agent to:
 
@@ -1605,8 +1656,8 @@ Happy new year! We’re kicking off the new year with some small but mighty impr
 
 ### Improvements
 
-* When you navigate through previous revisions of a space using the [version history](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/version-control), you’ll now automatically land on the first page that contains changes, saving you time navigating to the pages you need.
-* You can now add [file blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/blocks/insert-files) within [expandable blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/creating-content/blocks/expandable), giving you more options to add content to your page.
+* When you navigate through previous revisions of a space using the [version history](../documentation/create-content/version-control.md), you’ll now automatically land on the first page that contains changes, saving you time navigating to the pages you need.
+* You can now add [file blocks](../documentation/create-content/blocks/insert-files.md) within [expandable blocks](../documentation/create-content/blocks/expandable.md), giving you more options to add content to your page.
 
 ### Fixes
 
