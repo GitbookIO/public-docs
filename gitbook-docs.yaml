@@ -91,6 +91,22 @@ site:
           content:
             directory: ./developers
             language: en
+    - type: section
+      key: section-6
+      title: Sandbox
+      path: sandbox
+      description: Mock content for testing a draft section
+      icon: flask
+      children:
+        - type: space
+          key: space-9
+          title: Sandbox
+          path: sandbox-docs
+          default: true
+          draft: true
+          content:
+            directory: ./sandbox
+            language: en
     - type: section-group
       key: section-group-1
       title: Resources
