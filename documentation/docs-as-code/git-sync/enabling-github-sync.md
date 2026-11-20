@@ -83,6 +83,10 @@ Click **Sync** to start the initial sync.
 ### Write and commit
 
 Merge a change request in GitBook to commit its changes to GitHub. Commits to GitHub sync back to GitBook.
+
+{% hint style="info" %}
+GitBook change requests and GitHub pull requests are separate. Merging a change request usually commits directly to the synced branch rather than opening a pull request. For a large export that GitBook can't push directly, it opens a pull request instead; see [Large exports](commits.md#large-exports). Opening a pull request doesn't create a change request. See [Does Git Sync also sync pull requests?](troubleshooting.md#does-git-sync-also-sync-pull-requests) for how each action syncs.
+{% endhint %}
 {% endstep %}
 {% endstepper %}
 
