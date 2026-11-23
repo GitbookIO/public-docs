@@ -1,13 +1,11 @@
 ---
-description: Security fixes, hardening, and access and compliance updates in GitBook
+description: Security advisories, fixes, and access and compliance changes in GitBook
 icon: shield-halved
 ---
 
 # Security bulletins
 
-Advisories, hardening, and access controls as they ship. Each entry links to the release it first appeared in.
-
-<a href="https://gitbook.com/docs/policies/privacy-and-security/security/reporting-bugs-and-vulnerabilities" class="button primary" data-icon="bug">Report a vulnerability</a><a href="https://gitbook.com/docs/policies/privacy-and-security/security/security-as-a-company-value" class="button secondary" data-icon="shield-halved">How GitBook handles security</a>
+<a href="https://gitbook.com/docs/policies/privacy-and-security/security/reporting-bugs-and-vulnerabilities" class="button primary" data-icon="bug">Report a vulnerability</a><a href="https://gitbook.com/docs/policies/privacy-and-security/security" class="button secondary" data-icon="shield-halved">How GitBook handles security</a>
 
 <h3 align="center">All bulletins</h3>
 
