@@ -36,6 +36,21 @@ If you disable **Page actions**, GitBook also disables the MCP server at `~gitbo
 
 <figure><img src="../../.gitbook/assets/25_12_10_configure@2x.png" alt=""><figcaption></figcaption></figure>
 
+#### Control page actions with adaptive content
+
+If adaptive content is enabled, every enabled page action except **Open assistant** has a **Site audience** option:
+
+* **Default** shows the action to every visitor.
+* **Conditional** shows it only when a visitor matches an adaptive content condition.
+
+For example, show **Edit on GitHub/GitLab** only to internal visitors:
+
+```javascript
+visitor.claims.isInternal === true
+```
+
+GitBook shows a condition icon beside actions with a condition. Select a visitor segment in the customization preview to check which actions that segment sees.
+
 #### Open in AI providers
 
 Enable this option to display an action to open ChatGPT or Claude with the page content.

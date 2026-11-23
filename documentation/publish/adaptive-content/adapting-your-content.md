@@ -13,6 +13,7 @@ You can adapt and personalize many parts of your docs, including:
 * Hiding or showing site [sections](../../manage-your-site/site-structure/site-sections.md)
 * Hiding or showing [section groups](../../manage-your-site/site-structure/site-sections.md#create-a-section-group)
 * Hiding or showing [header links](../../manage-your-site/customization/layout-and-structure.md#header)
+* Hiding or showing [page actions](../../manage-your-site/customization/extra-configuration.md#control-page-actions-with-adaptive-content)
 * Adding personalized content to [inline expressions](../../create-content/variables-and-expressions.md)
 
 ### Working with the condition editor
@@ -108,6 +109,14 @@ To control who can see a section group, open **Site structure**, then open the a
 To launch the condition editor for a page header link, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a header link, and click **Add condition**.
 
 You can see which links in your docs have conditions set if the link has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+
+### Conditional page actions
+
+You can show enabled page actions only to visitors matching a condition. For example, show **Edit on GitHub/GitLab** only when `visitor.claims.isInternal === true`.
+
+In **Site customization → Page actions**, select an action and set **Site audience** to **Conditional**. GitBook marks conditioned actions with an icon. Test the result in the customization preview with a visitor segment.
+
+**Open assistant** does not support conditional audiences. See [Page actions](../../manage-your-site/customization/extra-configuration.md#control-page-actions-with-adaptive-content).
 
 ### Inline expressions
 
