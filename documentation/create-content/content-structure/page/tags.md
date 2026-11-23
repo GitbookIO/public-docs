@@ -10,67 +10,93 @@ tags:
 
 # Tags
 
-Use tags to group related content, convey release states, mark outdated content, or anything else that helps readers scan your documentation.
+Use tags to group related content, convey release states, mark outdated content, or help people and agents find relevant pages.
 
-#### Tag a page
+### Organize tags with a hierarchy
 
-Open the page, then open the **Tags** menu  — accessible by hovering over the page title — and create or add tags. You can drag tags around to change the order in which they appear on the page.
+Tags can form a hierarchy of categories, subcategories, and tags. Categories organize the tag library. You apply tags to pages and update blocks.
+
+For example, use this taxonomy for a product with several features:
+
+```
+Product
+└── Sub-product
+    └── Feature
+```
+
+This structure keeps large tag libraries scannable. It also lets you browse to a focused set of tags in the tag picker.
+
+### Manage tags in the Library
+
+To view, create, and manage tags for your space, open **Library → Tags**. You can also open the **Tags** menu and click **Open Tag Library**.
+
+In the Library, create categories before their children. Select a category to browse its subcategories and tags. When you create or edit an item, select its parent to place it in the hierarchy.
+
+Each tag has:
+
+* A label, which readers see.
+* A slug, which is its stable identifier.
+* An optional icon or emoji.
+
+Categories organize tags only. You cannot apply a category to a page or update block.
+
+### Tag a page
+
+To add tags to a page:
 
 1. Open the page.
-2. Hover over the page title and open **Page options**.
-3. Add one or more tags.
+2. Hover over the page title and click **Page options**.
+3. Under **Tags**, browse or search the hierarchy, then select one or more tags.
 
-Drag tags to change the order in which they appear on the page.
+The picker shows the category path for nested tags. Use it to distinguish tags with similar labels. Drag applied tags to change their display order.
 
 #### Show or hide tags on a page
 
-Tags display at the top of the page by default. To hide a page's tags while keeping the associated metadata:
-
-* Open the **Tags** menu
-* Turn off **Show tags on page** to keep tags as metadata only
+Tags display at the top of a page by default. To keep tags as metadata only:
 
 1. Open **Page options**.
 2. Turn off **Show tags on page**.
 
 #### Display a tag in the table of contents
 
-For each page, you can pick one tag to display in the table of contents. To choose which tag displays:
-
-* Open the **Tags** menu
-* Use the **Display in table of contents** dropdown to choose your tag
-* You can also click into a tag and **Display**, **Remove** or **Replace in table of contents**.
+You can display one page tag in the table of contents:
 
 1. Open **Page options**.
-2. Under **Tags**, choose your tag from the **Display in table of contents** dropdown.
+2. Under **Tags**, select a tag in **Display in table of contents**.
 
-#### Tag an update block
+### Tag an update block
 
-Each update block can have its own tags.
+Each update block can have its own tags:
 
 1. Open the update block.
 2. Click **Add tag** below the date.
-3. Use the tag picker to add, remove, or reorder tags.
+3. Browse or search the tag hierarchy, then select tags.
 
-#### Manage tags in the Library
+### Manage tags with Git Sync
 
-To view, create and manage tags for your space, open the **Library** from the [table of contents](./#table-of-contents) and choose **Tags**. You can quickly access this by opening the **Tags** menu and selecting **Open Tag Library**. \
-\
-You can also view an individual tag in the library by selecting the tag and choosing **Show in Library**.
+Git Sync stores the tag library in `.gitbook/tags.yaml`. Define categories with `kind: category`. Set `parent` to the parent category slug.
 
-To view, create, and manage tags for your section:
+```yaml
+product:
+  label: Product
+  color: blue
+  kind: category
 
-1. Open the **Library** from the table of contents.
-2. Click **Tags**.
+sub-product:
+  label: Sub-product
+  color: blue
+  kind: category
+  parent: product
 
-Each tag has:
+feature:
+  label: Feature
+  color: green
+  parent: sub-product
+```
 
-* A label — what readers see
-* A slug — a stable identifier
-* An optional icon or emoji
+Categories can contain nested categories. A standard tag can have one category parent. The `parent` value is a slug, not a label.
 
-#### Tags in Markdown
-
-If you use Git Sync, tags appear in the page frontmatter:
+Git Sync stores page tags in the page frontmatter:
 
 ```yaml
 ---
@@ -85,3 +111,35 @@ tags:
 ```
 
 Use a string for a standard tag. Use `primary: true` on one tag to make it the page's primary tag — GitBook can show that tag in the table of contents.
+
+### Use tags through the API and MCP
+
+The [GitBook API reference](https://gitbook.com/docs/developers/gitbook-api/api-reference) exposes tag management, page counts, and page discovery. GitBook MCP exposes the same workspace capabilities to connected agents.
+
+Use the tag list operation to retrieve the hierarchy. Each returned tag includes its `parent` relationship. Use the page-count operation to identify tags that have attached pages before you search.
+
+To discover pages for a tag, use the tag pages operation with the tag slug. The response returns the matching pages. For example, an agent can list the `feature` tag, read its page count, then retrieve the pages that use `feature`.
+
+```http
+GET /spaces/{spaceId}/content/tags
+GET /spaces/{spaceId}/content/tags/{tagSlug}/page-count
+GET /spaces/{spaceId}/content/tags/{tagSlug}/pages
+```
+
+```json
+{
+  "count": 12
+}
+```
+
+Use a personal access token for API requests. In GitBook MCP, ask the agent to list tags, get the page count for a tag, or list pages for that tag. See [gitbook-mcp.md](../../../docs-as-code/gitbook-mcp.md "mention") for connection options.
+
+{% hint style="info" %}
+GitBook MCP manages tags in your workspace. A published docs MCP server only reads published content. It can search and retrieve pages, but it cannot manage your tag library.
+{% endhint %}
+
+### Choose the right workflow
+
+The editor, API, GitBook MCP, and Git Sync support the same tag hierarchy and page-tag assignments.
+
+Use the editor to browse and manage a visual taxonomy. Use the API or GitBook MCP for automated management and page discovery. Use `.gitbook/tags.yaml` when your repository is the source of truth. Published docs MCP supports search and retrieval, not tag-library administration.
