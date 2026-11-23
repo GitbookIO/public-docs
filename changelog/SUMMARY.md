@@ -5,6 +5,13 @@
 * [2024](2024-product-updates.md)
 * [2023](2023-product-updates.md)
 * [2022 and earlier](2022-and-earlier-product-updates.md)
+
+## Security
+
+* [Security bulletins](security/bulletins.md "Bulletins")
+
+***
+
 * [Changelog automation spec](changelog-automation-spec.md)
 * [Changelog checklist](changelog-checklist.md)
 * [Examples](examples.md)
