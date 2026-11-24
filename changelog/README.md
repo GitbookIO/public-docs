@@ -27,6 +27,76 @@ tags:
 # Product updates
 
 {% updates format="full" %}
+{% update date="2026-11-25" tags="new-releases,improvements,fixes" %}
+## Organize tags with categories and nested tags
+
+[Tags](https://gitbook.com/docs/create-content/content-structure/page/tags#organize-tags-with-a-hierarchy) no longer have to sit in one flat list. In the tag library, you can now group tags into categories and nest tags one level under a parent tag, so a large set of tags is easier to browse and manage.
+
+Categories and nested tags work with Git Sync, AI edits, and the API. Through the API, you can also list a space’s tags with the number of pages that use each one, and filter a space’s pages by tag.
+
+<!-- Image placeholder: the tag library showing a tag category with nested tags -->
+
+## Read-only personal API tokens and IP restrictions
+
+Following last week’s expiration dates and last-used times, personal API tokens get more controls. When you [create a token](https://gitbook.com/docs/developers/gitbook-api/authentication), you can now choose its access: Read only, or the same permissions as your account. A read-only token can read through the API but can’t change anything, which limits what an exposed token can do. You can also allow or deny specific IP ranges for a token, so it’s refused from addresses you don’t trust.
+
+When you rotate a token, you can keep the previous secret working for one hour or 24 hours while you update your integrations, or stop it right away. You can also rename tokens in Developer settings. The token list shows each token’s access level, time left, and a single status — active, expired, or revoked — and a details dialog shows its dates and IP rules. We’ve also improved security in how tokens are stored.
+
+<!-- Image placeholder: the create token dialog with the access and IP range fields -->
+
+## Choose who can use AI Assistant
+
+Site admins can now limit [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) and AI search to visitors who match an [adaptive content](https://gitbook.com/docs/publish/adaptive-content/adapting-your-content) condition, for example only signed-in visitors. You can offer AI answers to the audience you choose, such as your own customers, without opening them to every visitor.
+
+<!-- Image placeholder: the AI Assistant settings with a visitor condition -->
+
+## Suggested reviewers for change requests
+
+[Change requests](https://gitbook.com/docs/collaboration/change-requests) now suggest who should review them. Suggestions start with the people who edited the changed pages, then the space’s recent reviewers, and only include members who can review the space. You can request a review in one click without hunting through the member list.
+
+Sending a change request for review again also keeps the reviewers you picked, instead of adding everyone with review access.
+
+<!-- Image placeholder: a change request with suggested reviewers -->
+
+### Improvements
+
+* You can now sign in to GitBook with a passkey. Add, rename, and delete passkeys in your account settings, choose where to save a new one, and use a passkey to confirm it’s you. Adding a passkey requires a verified email address.
+* Whoever creates a space is now its [Admin](https://gitbook.com/docs/collaborate/member-management/permissions-and-inheritance#space-creators), including drafts that site Editors add as a section or variant, so they can set up Git Sync on them. For a space created in a site, the Admin role ends if its creator is removed from the site. Spaces created before this change keep their current permissions.
+* Page actions can now be shown only to visitors who match an [adaptive content condition](https://gitbook.com/docs/manage-your-site/customization/extra-configuration#control-page-actions-with-adaptive-content), for example showing Edit on GitHub only to internal visitors.
+* You can now choose whether each link opens in the same tab or a new tab, instead of relying on one site-wide rule for every link.
+* When you add a [section](https://gitbook.com/docs/manage-your-site/site-structure/site-sections) to a site from Content navigation, you can import content into it directly, then name the section and follow the import’s progress.
+* [Content gaps](https://gitbook.com/docs/analytics/content-gaps) can be filtered by how many sources back them, such as 10+ sources, so you can start with the gaps that have the most evidence.
+* New sites have published change request previews turned off by default. The setting also explains that signed-in members can still preview changes.
+* When a site turns off published change request previews, links to a published change request or revision now redirect to the site preview.
+* Search on published sites got a face-lift, making it simpler and easier to read.
+* Search on published sites shows results sooner as you type.
+* Browsers can search a published site from the address bar.
+* The embedded Assistant uses the site’s suggested questions.
+* The Docs Embed sends an Escape event to the page that hosts it.
+* Git Sync can import spaces with up to 7,500 pages.
+* The site analytics API pages through results beyond the first 1,000 rows with `page` and `next.page`.
+* Organization [audit logs](https://gitbook.com/docs/account-and-billing/audit-logs/actions) record collection creation, settings changes, moves, transfers, and deletion.
+* [GitBook Agent](https://gitbook.com/docs/gitbook-agent/overview) settings explain how organization and site instructions combine.
+* Opening a space or change request stays fast during busy hours.
+
+### Fixes
+
+* Editing long pages is faster. Typing no longer slows down with each keystroke on very long pages or in very long code blocks, and drag-selecting blocks follows the mouse instead of freezing the editor.
+* Site search recovers more reliably from temporary network or database errors. When it’s safe, GitBook keeps the last indexed version of a page if reindexing fails. Reindexing unchanged content no longer rewrites its search entries.
+* Revert changes on a page in a change request restores its title, description, and other page settings along with its content, and undoing a revert brings the changes back. The API’s `revert_page` operation also restores page properties when it reverts a whole page.
+* Comment notifications are sent for comments on a page created moments earlier.
+* Content updates no longer fail on tables whose rows share an order index.
+* Listing more OpenAPI specification versions than fit on one page no longer returns an error.
+* On OpenAPI pages, the copy button uses the current page’s server URL instead of the previous page’s.
+* AI Assistant no longer fails when an MCP server has a tool with the same name as a built-in tool or another server’s tool.
+* GitHub, Intercom, and Zendesk connections whose access was revoked now say so.
+* GitLab Git Sync now validates new connection URLs and asks for fresh credentials when you change your GitLab instance.
+* Intermittent “connection reset” database errors no longer fail Git Sync runs and API requests.
+* Pages in some spaces that failed to load now load again.
+* Sites published with share links show the share link URL in the site overview instead of appearing unpublished.
+* You can delete an existing Jira configuration after downgrading a site.
+* Published pages no longer stay busy in older Chrome versions, such as Chrome 130, because of the table of contents.
+{% endupdate %}
 {% update date="2026-11-18" tags="new-releases,improvements,fixes" %}
 ## See when your personal API tokens were last used
 
