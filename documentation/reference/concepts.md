@@ -16,13 +16,13 @@ A section is a project that lets you work on a set of related pages. Within a se
 
 Sections belong to a docs site, and you can add as many sections to a docs site as you like. So when you’re building out your content, you can create separate sections for your product documentation, API reference, changelog, help center, and anything else you want to include on your documentation — and publish them all on one docs site.
 
-You may also want to create translated versions of your primary documentation, or separate docs for different versions of your product. Each of these will also have their own section and can be added to your single docs site for users to browse.
+You may also want to create translated versions of your primary documentation, or separate docs for different versions of your product. Each of these can be a [variant](../manage-your-site/site-structure/variants.md) of the same section, and readers switch between them with the variant picker.
 
-#### Group <a href="#collection" id="collection"></a>
+#### Collection <a href="#collection" id="collection"></a>
 
-Groups act like folders within the GitBook app, letting you keep related sections together to make it easier to organize and store your content.
+A collection is a group of spaces. Collections act like folders within the GitBook app, letting you keep related spaces together to make it easier to organize and store your content.
 
-As well as letting you keep content organized, groups also make it easier to manage content-level permissions at scale. You can override organization-level permissions across multiple sections by adding them to a group and setting permissions for the entire group.
+Collections also make it easier to manage content-level permissions at scale. Permissions you set on a collection apply to the spaces inside it, so you can override organization-level permissions across multiple spaces at once. Learn more in [Permissions and inheritance](../collaborate/member-management/permissions-and-inheritance.md).
 
 ### Docs site
 
@@ -120,7 +120,7 @@ If you want to add extra content to your site, there are two options for you to 
 
 Sections let you add **multiple different types of documentation to a single docs site**. For example, you could use a single docs site and use it to host your product docs, API reference, help center and changelog — as we do on this docs site.
 
-When you add new sections, you build out the navigation bar at the top of your site, with each section getting its own entry on the bar. You can also keep sections together in a [group](concepts.md#collection) to create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site.
+When you add new sections, you build out the navigation bar at the top of your site, with each section getting its own entry on the bar. You can also keep sections together in a [group](../create-content/content-structure/collection.md) to create a drop-down menu in your navigation bar — ideal for adding hierarchy to your site.
 
 #### Variant
 
