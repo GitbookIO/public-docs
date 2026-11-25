@@ -1386,7 +1386,7 @@ We’ve added a new block type — columns — plus inline icons, a better site 
 
 ### Columns: a new way to display your content on a page
 
-Introducing [column blocks](https://gitbook.com/docs/creating-content/blocks/columns)!
+Introducing [column blocks](../documentation/create-content/blocks/columns.md)!
 
 You can use column blocks to add two blocks on your page, side-by-side. It means you can combine two of almost any block you like alongside each other to create some powerful combinations
 
@@ -1400,7 +1400,7 @@ You can also adjust the width of the two columns using the grabber in the centre
 
 We’ve added a new inline element that you can use in your docs — icons! <i class="fa-party-horn">:party-horn:</i>
 
-You can now add icons anywhere on your page, giving you more options when create titles, lists and much more. Head to the [docs](https://gitbook.com/docs/creating-content/formatting/inline#icons) to learn more.
+You can now add icons anywhere on your page, giving you more options when create titles, lists and much more. Head to the [docs](../documentation/create-content/formatting/inline.md#icons) to learn more.
 
 ### A simpler way to manage your site’s structure
 
@@ -2177,7 +2177,7 @@ You can manage all of this from your site’s Settings tab, in the Structure sec
 
 <summary>Improved</summary>
 
-* We shipped some changes that make cards more predictable and consistent across desktop and mobile. Depending on the aspect ratio of your uploaded image, cards will display one of two ways on mobile, and will always be cropped to 16:9 on desktop. Head to [our updated docs](https://gitbook.com/docs/creating-content/blocks/cards#adding-images) to find out more.
+* We shipped some changes that make cards more predictable and consistent across desktop and mobile. Depending on the aspect ratio of your uploaded image, cards will display one of two ways on mobile, and will always be cropped to 16:9 on desktop. Head to [our updated docs](../documentation/create-content/blocks/cards.md#adding-images) to find out more.
 
 </details>
 

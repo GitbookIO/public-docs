@@ -5,7 +5,7 @@ icon: shield-halved
 
 # Security bulletins
 
-<a href="https://gitbook.com/docs/policies/privacy-and-security/security/reporting-bugs-and-vulnerabilities" class="button primary" data-icon="bug">Report a vulnerability</a><a href="https://gitbook.com/docs/policies/privacy-and-security/security" class="button secondary" data-icon="shield-halved">How GitBook handles security</a>
+<a href="../../policies/privacy-and-security/security/reporting-bugs-and-vulnerabilities.md" class="button primary" data-icon="bug">Report a vulnerability</a><a href="../../policies/privacy-and-security/security/" class="button secondary" data-icon="shield-halved">How GitBook handles security</a>
 
 <h3 align="center">All bulletins</h3>
 
@@ -28,7 +28,7 @@ First published in [Product updates, November 25, 2026](../).
 {% update date="2026-11-25" tags="access-identity" %}
 ## Space creators become Admin
 
-Whoever creates a space is now its [Admin](https://gitbook.com/docs/collaborate/member-management/permissions-and-inheritance#space-creators), including drafts that site Editors add as a section or variant, so they can set up Git Sync on them. For a space created in a site, the Admin role ends if its creator is removed from the site. Spaces created before this change keep their current permissions.
+Whoever creates a space is now its [Admin](../../documentation/collaborate/member-management/permissions-and-inheritance.md), including drafts that site Editors add as a section or variant, so they can set up Git Sync on them. For a space created in a site, the Admin role ends if its creator is removed from the site. Spaces created before this change keep their current permissions.
 
 First published in [Product updates, November 25, 2026](../).
 {% endupdate %}
@@ -44,7 +44,7 @@ First published in [Product updates, November 25, 2026](../).
 {% update date="2026-11-25" tags="access-identity" %}
 ## Limit AI Assistant to a visitor audience
 
-Site admins can limit [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) and AI search to visitors who match an [adaptive content](https://gitbook.com/docs/publish/adaptive-content/adapting-your-content) condition, for example only signed-in visitors.
+Site admins can limit [AI Assistant](../../documentation/ai-for-your-readers/gitbook-ai-assistant.md) and AI search to visitors who match an [adaptive content](../../documentation/publish/adaptive-content/adapting-your-content.md) condition, for example only signed-in visitors.
 
 First published in [Product updates, November 25, 2026](../).
 {% endupdate %}
@@ -52,7 +52,7 @@ First published in [Product updates, November 25, 2026](../).
 {% update date="2026-11-25" tags="audit-compliance" %}
 ## Audit logs record collection changes
 
-Organization [audit logs](https://gitbook.com/docs/account-and-billing/audit-logs/actions) record collection creation, settings changes, moves, transfers, and deletion.
+Organization [audit logs](../../documentation/account-and-billing/audit-logs/actions.md) record collection creation, settings changes, moves, transfers, and deletion.
 
 First published in [Product updates, November 25, 2026](../).
 {% endupdate %}
@@ -136,7 +136,7 @@ First published in [Product updates, September 2, 2026](../).
 {% update date="2026-08-27" tags="access-identity" %}
 ## Site-level permissions
 
-Choose who can complete site-based actions and who can only edit site content, across an entire site. The same controls apply whether people edit by hand or through agents. See [site-level permissions](https://gitbook.com/docs/manage-your-site/site-permissions).
+Choose who can complete site-based actions and who can only edit site content, across an entire site. The same controls apply whether people edit by hand or through agents. See [site-level permissions](../../documentation/manage-your-site/site-permissions.md).
 
 First published in [Product updates, August 27, 2026](../).
 {% endupdate %}

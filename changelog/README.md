@@ -30,34 +30,34 @@ tags:
 {% update date="2026-11-25" tags="new-releases,improvements,fixes" %}
 ## Organize tags with categories and nested tags
 
-[Tags](https://gitbook.com/docs/create-content/content-structure/page/tags#organize-tags-with-a-hierarchy) no longer have to sit in one flat list. In the tag library, you can now group tags into categories and nest tags one level under a parent tag, so a large set of tags is easier to browse and manage.
+[Tags](../documentation/create-content/content-structure/page/tags.md#organize-tags-with-a-hierarchy) no longer have to sit in one flat list. In the tag library, you can now group tags into categories and nest tags one level under a parent tag, so a large set of tags is easier to browse and manage.
 
 Categories and nested tags work with Git Sync, AI edits, and the API. Through the API, you can also list a space’s tags with the number of pages that use each one, and filter a space’s pages by tag.
 
 ## Read-only personal API tokens and IP restrictions
 
-Following last week’s expiration dates and last-used times, personal API tokens get more controls. When you [create a token](https://gitbook.com/docs/developers/gitbook-api/authentication), you can now choose its access: Read only, or the same permissions as your account. A read-only token can read through the API, and the API refuses any operation that isn’t safe for read-only access, which limits what an exposed token can do. Existing tokens keep their current access. You can also allow or deny specific IP ranges for a token, so it’s refused from addresses you don’t trust.
+Following last week’s expiration dates and last-used times, personal API tokens get more controls. When you [create a token](../developers/gitbook-api/authentication.md), you can now choose its access: Read only, or the same permissions as your account. A read-only token can read through the API, and the API refuses any operation that isn’t safe for read-only access, which limits what an exposed token can do. Existing tokens keep their current access. You can also allow or deny specific IP ranges for a token, so it’s refused from addresses you don’t trust.
 
 When you rotate a token, you can keep the previous secret working for one hour or 24 hours while you update your integrations, or stop it right away. You can also rename tokens in Developer settings. The token list shows each token’s access level, time left, and a single status — active, expired, or revoked — and a details dialog shows its dates and IP rules. We’ve also improved security in how tokens are stored.
 
 ## Choose who can use AI Assistant
 
-Site admins can now limit [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) and AI search to visitors who match an [adaptive content](https://gitbook.com/docs/publish/adaptive-content/adapting-your-content) condition, for example only signed-in visitors. You can offer AI answers to the audience you choose, such as your own customers, without opening them to every visitor.
+Site admins can now limit [AI Assistant](../documentation/ai-for-your-readers/gitbook-ai-assistant.md) and AI search to visitors who match an [adaptive content](../documentation/publish/adaptive-content/adapting-your-content.md) condition, for example only signed-in visitors. You can offer AI answers to the audience you choose, such as your own customers, without opening them to every visitor.
 
 ## Suggested reviewers for change requests
 
-[Change requests](https://gitbook.com/docs/collaboration/change-requests) now suggest who should review them. Suggestions start with the people who edited the changed pages, then the space’s recent reviewers, and only include members who can review the space. You can request a review in one click without hunting through the member list.
+[Change requests](../documentation/collaborate/change-requests/) now suggest who should review them. Suggestions start with the people who edited the changed pages, then the space’s recent reviewers, and only include members who can review the space. You can request a review in one click without hunting through the member list.
 
 Sending a change request for review again also keeps the reviewers you picked, instead of adding everyone with review access.
 
 ### Improvements
 
 * You can now sign in to GitBook with a passkey. Add, rename, and delete passkeys in your account settings, choose where to save a new one, and use a passkey to confirm it’s you. Adding a passkey requires a verified email address.
-* Whoever creates a space is now its [Admin](https://gitbook.com/docs/collaborate/member-management/permissions-and-inheritance#space-creators), including drafts that site Editors add as a section or variant, so they can set up Git Sync on them. For a space created in a site, the Admin role ends if its creator is removed from the site. Spaces created before this change keep their current permissions.
-* Page actions can now be shown only to visitors who match an [adaptive content condition](https://gitbook.com/docs/manage-your-site/customization/extra-configuration#control-page-actions-with-adaptive-content), for example showing Edit on GitHub only to internal visitors.
+* Whoever creates a space is now its [Admin](../documentation/collaborate/member-management/permissions-and-inheritance.md), including drafts that site Editors add as a section or variant, so they can set up Git Sync on them. For a space created in a site, the Admin role ends if its creator is removed from the site. Spaces created before this change keep their current permissions.
+* Page actions can now be shown only to visitors who match an [adaptive content condition](../documentation/manage-your-site/customization/extra-configuration.md#control-page-actions-with-adaptive-content), for example showing Edit on GitHub only to internal visitors.
 * You can now choose whether each link opens in the same tab or a new tab, instead of relying on one site-wide rule for every link.
-* When you add a [section](https://gitbook.com/docs/manage-your-site/site-structure/site-sections) to a site from Content navigation, you can import content into it directly, then name the section and follow the import’s progress.
-* [Content gaps](https://gitbook.com/docs/analytics/content-gaps) can be filtered by how many sources back them, such as 10+ sources, so you can start with the gaps that have the most evidence.
+* When you add a [section](../documentation/manage-your-site/site-structure/site-sections.md) to a site from Content navigation, you can import content into it directly, then name the section and follow the import’s progress.
+* [Content gaps](../documentation/analytics/content-gaps.md) can be filtered by how many sources back them, such as 10+ sources, so you can start with the gaps that have the most evidence.
 * New sites have published change request previews turned off by default. The setting also explains that signed-in members can still preview changes.
 * When a site turns off published change request previews, links to a published change request or revision now redirect to the site preview.
 * Search on published sites got a face-lift, making it simpler and easier to read.
@@ -67,8 +67,8 @@ Sending a change request for review again also keeps the reviewers you picked, i
 * The Docs Embed sends an Escape event to the page that hosts it.
 * Git Sync can import spaces with up to 7,500 pages.
 * The site analytics API pages through results beyond the first 1,000 rows with `page` and `next.page`.
-* Organization [audit logs](https://gitbook.com/docs/account-and-billing/audit-logs/actions) record collection creation, settings changes, moves, transfers, and deletion.
-* [GitBook Agent](https://gitbook.com/docs/gitbook-agent/overview) settings explain how organization and site instructions combine.
+* Organization [audit logs](../documentation/account-and-billing/audit-logs/actions.md) record collection creation, settings changes, moves, transfers, and deletion.
+* [GitBook Agent](../documentation/gitbook-agent/overview.md) settings explain how organization and site instructions combine.
 * Opening a space or change request stays fast during busy hours.
 
 ### Fixes
@@ -93,13 +93,13 @@ Sending a change request for review again also keeps the reviewers you picked, i
 {% update date="2026-11-18" tags="new-releases,improvements,fixes" %}
 ## See when your personal API tokens were last used
 
-Following last week’s expiration dates for [personal API tokens](https://gitbook.com/docs/developers/gitbook-api/authentication), **Developer settings** now show when each token was last used. We’ve made it easier to spot and delete a token that nobody uses anymore in the app, and the API also returns the last used time in the token list.
+Following last week’s expiration dates for [personal API tokens](../developers/gitbook-api/authentication.md), **Developer settings** now show when each token was last used. We’ve made it easier to spot and delete a token that nobody uses anymore in the app, and the API also returns the last used time in the token list.
 
 Plus, you can now rotate a personal API token from **Developer settings**, and GitBook emails you a reminder before one of your tokens expires.
 
 ## Know who asks AI Assistant questions
 
-[AI Assistant analytics](https://gitbook.com/docs/analytics/insights/ai-insights) now show whether a person or an AI agent asked each question. You can also filter the report by signed-in and anonymous visitors to compare how often AI Assistant answers each group.
+[AI Assistant analytics](../documentation/analytics/insights/ai-insights.md) now show whether a person or an AI agent asked each question. You can also filter the report by signed-in and anonymous visitors to compare how often AI Assistant answers each group.
 
 ### Improvements
 
@@ -109,11 +109,11 @@ Plus, you can now rotate a personal API token from **Developer settings**, and G
 * Git Sync credentials now work only for the member who connected them. If you want to change the repository or branch of an existing Git Sync connection, you’ll need to authenticate again.
 * Organization, content-sharing, and site invitations now flag addresses that need email verification and keep them in the form so you can retry.
 * Enterprise audit logs now record members added by their first Security Assertion Markup Language (SAML) sign-in, and members promoted to admin when the last admin deletes their account.
-* [Broken links](https://gitbook.com/docs/analytics/broken-links) visit totals now count only people, not known bots. Links to your site’s own adaptive content pages are no longer reported as broken, and the list of affected pages on a broken link is now labeled **Pages**.
+* [Broken links](../documentation/analytics/broken-links.md) visit totals now count only people, not known bots. Links to your site’s own adaptive content pages are no longer reported as broken, and the list of affected pages on a broken link is now labeled **Pages**.
 
 ### Fixes
 
-* [Git Sync](https://gitbook.com/docs/docs-as-code/git-sync) commit statuses now say why an import failed, such as a page referencing an unsupported file, instead of only asking you to contact support. Git Sync also explains what to do when the Git server can’t find the repository, and marks the repository or branch picker that failed to load, with details on hover.
+* [Git Sync](../documentation/docs-as-code/git-sync/) commit statuses now say why an import failed, such as a page referencing an unsupported file, instead of only asking you to contact support. Git Sync also explains what to do when the Git server can’t find the repository, and marks the repository or branch picker that failed to load, with details on hover.
 * Git Sync exports no longer fail with a rate-limit error when a site exports many spaces to the same branch, and site spaces no longer show “Git provider rate limited the request” after a site-wide export.
 * Git Sync no longer fails with “Failed to download” when a file name contains a `%` sign, and keeps the text of links inside HTML code blocks. When an import fails because a page references an unsafe file, such as a `.sh` script, the error names the file to remove.
 * When a GitHub ruleset blocks a Git Sync push, GitBook explains how to let Git Sync through and links to the repository’s rules.
@@ -154,15 +154,15 @@ You can also set an expiration date through the API with the `expiresAt` field.
 
 ## Copy and paste table cells
 
-You can now select a range of cells in a [table](https://gitbook.com/docs/create-content/blocks/table) and copy, cut, or paste them. You no longer need to move content one cell at a time.
+You can now select a range of cells in a [table](../documentation/create-content/blocks/table.md) and copy, cut, or paste them. You no longer need to move content one cell at a time.
 
 Paste copied cells into any table row. The table grows to fit cells that run past its edge.
 
 ## Search AI Assistant questions
 
-In [AI Assistant analytics](https://gitbook.com/docs/analytics/insights/ai-insights), you can search visitors’ questions by text and filter the report by pages that answers cite. You can see what readers ask about a specific page without scrolling through every question. The API offers the same page filter through `citedPage`.
+In [AI Assistant analytics](../documentation/analytics/insights/ai-insights.md), you can search visitors’ questions by text and filter the report by pages that answers cite. You can see what readers ask about a specific page without scrolling through every question. The API offers the same page filter through `citedPage`.
 
-On published sites, [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) reminds visitors not to share sensitive personal information. It also doesn’t recommend competitors when a visitor asks for alternatives.
+On published sites, [AI Assistant](../documentation/ai-for-your-readers/gitbook-ai-assistant.md) reminds visitors not to share sensitive personal information. It also doesn’t recommend competitors when a visitor asks for alternatives.
 
 ### Improvements
 
@@ -184,7 +184,7 @@ On published sites, [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/
 {% update date="2026-11-04" tags="new-releases,improvements,fixes,security" %}
 ## Manage variables and tags through the API
 
-Following last week’s release of reusable content, the change request content API now covers [variables](https://gitbook.com/docs/create-content/variables-and-expressions) and [tags](../documentation/create-content/content-structure/page/tags.md) too, so integrations can work with the same library content you edit in GitBook.
+Following last week’s release of reusable content, the change request content API now covers [variables](../documentation/create-content/variables-and-expressions.md) and [tags](../documentation/create-content/content-structure/page/tags.md) too, so integrations can work with the same library content you edit in GitBook.
 
 You can create, change, and delete space variables, and set a page’s own variables from a `variables` field or `vars` frontmatter. Changing a single page variable no longer means resending the page’s other variables. Tags can be created, renamed, restyled, and deleted through the API and the GitBook MCP server.
 
@@ -192,15 +192,15 @@ Pages inserted through the API with a `stableKey` now keep their page ID when th
 
 ## Add a secondary brand color to your docs
 
-Sites can now set an optional secondary color next to the primary color in [customization](https://gitbook.com/docs/manage-your-site/customization/icons-colors-and-themes), with separate values for light and dark mode. Published sites use it for secondary buttons, and you can apply it to text, highlights, icons, and tags. Sites without a secondary color keep their neutral colors.
+Sites can now set an optional secondary color next to the primary color in [customization](../documentation/manage-your-site/customization/icons-colors-and-themes.md), with separate values for light and dark mode. Published sites use it for secondary buttons, and you can apply it to text, highlights, icons, and tags. Sites without a secondary color keep their neutral colors.
 
 ## More detail in site analytics
 
-You can now choose the time zone of the **Active hours** chart in [site analytics](https://gitbook.com/docs/analytics/insights). CSV exports from site insights now include page URLs. In [AI Assistant](https://gitbook.com/docs/analytics/insights/ai-insights) conversation details, you can also see the claims of the visitor who asked a question.
+You can now choose the time zone of the **Active hours** chart in [site analytics](../documentation/analytics/insights/). CSV exports from site insights now include page URLs. In [AI Assistant](../documentation/analytics/insights/ai-insights.md) conversation details, you can also see the claims of the visitor who asked a question.
 
 ### Improvements
 
-* You can now add tabs inside [expandable](https://gitbook.com/docs/create-content/blocks/expandable) blocks.
+* You can now add tabs inside [expandable](../documentation/create-content/blocks/expandable.md) blocks.
 * You can preview a site’s customization as a specific visitor segment, so sites whose content sits behind adaptive content conditions no longer show “Content not found” in the preview.
 * GitBook Agent now shows which change request it’s working in, and you can open that change request or start a new chat in another one.
 * Delete confirmations for files, tags, and variables now name the item you’re about to delete.
@@ -230,7 +230,7 @@ We would also like to acknowledge [ACylaa](https://github.com/ACylaa)’s contri
 {% update date="2026-10-28" tags="new-releases,fixes" %}
 ## Create and edit reusable content through the API
 
-You can now create, update, and delete [reusable content](https://gitbook.com/docs/create-content/reusable-content) in a change request through the API. Pages in the same request can include the reusable content you create, and renaming it or replacing its body updates every page that includes it.
+You can now create, update, and delete [reusable content](../documentation/create-content/reusable-content.md) in a change request through the API. Pages in the same request can include the reusable content you create, and renaming it or replacing its body updates every page that includes it.
 
 An include that doesn’t match any reusable content is now rejected with an error that names it, instead of being silently removed from the page.
 
@@ -240,7 +240,7 @@ The GitBook app is now easier to use on a phone. Text fields no longer zoom the 
 
 ### Fixes
 
-* [Broken links](https://gitbook.com/docs/analytics/broken-links) no longer reports API endpoints that answer with a 405 status, or links behind a login page, as broken outbound links.
+* [Broken links](../documentation/analytics/broken-links.md) no longer reports API endpoints that answer with a 405 status, or links behind a login page, as broken outbound links.
 * Large Git Sync imports and exports, including to GitLab, no longer fail with “Git authentication failed” when your credentials are valid.
 * Opening a site in an organization you’re not a member of now shows the “no access” page instead of a crash.
 * Adding a variant to a site section no longer removes the option to hide that section from navigation.
@@ -256,7 +256,7 @@ The GitBook app is now easier to use on a phone. Text fields no longer zoom the 
 
 GitBook Agent can now create custom reports for you based on a question.
 
-Click the new **Ask GitBook Agent** button in [site analytics](https://gitbook.com/docs/analytics/insights) and you can ask the Agent anything about the data from your site. It can answer questions based on that data, and build charts in the conversation to support those answers — including ones no built-in report covers.
+Click the new **Ask GitBook Agent** button in [site analytics](../documentation/analytics/insights/) and you can ask the Agent anything about the data from your site. It can answer questions based on that data, and build charts in the conversation to support those answers — including ones no built-in report covers.
 
 Analytics answers in GitBook Agent are available on the Ultimate and Enterprise plans.
 
@@ -264,30 +264,30 @@ Analytics answers in GitBook Agent are available on the Ultimate and Enterprise 
 
 <figure><img src=".gitbook/assets/broken links@2x.png" alt="A screenshot showing the broken links interface in GitBook"><figcaption></figcaption></figure>
 
-[Broken links](https://gitbook.com/docs/analytics/broken-links) now also checks the links on your site that point to other websites. GitBook rechecks these external links regularly, and each finding says what failed — a domain that doesn’t resolve, a timeout, or a broken redirect — so you can tell a dead page from a temporary problem. Placeholder and example domains aren’t flagged.
+[Broken links](../documentation/analytics/broken-links.md) now also checks the links on your site that point to other websites. GitBook rechecks these external links regularly, and each finding says what failed — a domain that doesn’t resolve, a timeout, or a broken redirect — so you can tell a dead page from a temporary problem. Placeholder and example domains aren’t flagged.
 
 When a whole domain stops resolving, all of its links show as one finding that lists every affected page. To fix them, ask GitBook Agent: it will create a single change request that updates all the broken outbound links within a space in a single change request for you to review.
 
 ## Broken links stay in sync with your redirects
 
-Each finding on the [Broken links](https://gitbook.com/docs/analytics/broken-links) screen now has one clear state: open, resolved, or ignored.
+Each finding on the [Broken links](../documentation/analytics/broken-links.md) screen now has one clear state: open, resolved, or ignored.
 
 Adding a redirect — including a wildcard or a bulk import — resolves the broken links it covers, and removing the redirect reopens them, so the list always matches your site’s redirects. Each finding offers only the actions that fit its state, and resolving one applies its redirect.
 
 ## MCP and API edits keep your links intact
 
-When you or an AI tool edit a page through the [GitBook MCP server](https://gitbook.com/docs/docs-as-code/gitbook-mcp), existing hyperlinks are kept, and internal links use stable references that survive the edit.
+When you or an AI tool edit a page through the [GitBook MCP server](../documentation/docs-as-code/gitbook-mcp.md), existing hyperlinks are kept, and internal links use stable references that survive the edit.
 
 Updates to change request content through the API can also include the revision you expect to change, so an update only applies when the content hasn’t changed since you read it. The MCP server guides AI tools through these checked updates.
 
 ## Conditions for section groups in your site navigation
 
-You can now add [adaptive content](https://gitbook.com/docs/publish/adaptive-content/adapting-your-content) conditions to a section group in your docs’ navigation bar, from the site structure screen or through the API. A whole group of sections can then show only to the visitors it’s meant for.
+You can now add [adaptive content](../documentation/publish/adaptive-content/adapting-your-content.md) conditions to a section group in your docs’ navigation bar, from the site structure screen or through the API. A whole group of sections can then show only to the visitors it’s meant for.
 
 ### Improvements
 
 * Site analytics reports now end with the last full day, in UTC, instead of including today’s partial data. When a range covers only part of a week or month, its label shows how many days it includes.
-* Site creators can now manage [site redirects](https://gitbook.com/docs/publish/site-redirects), helping more people than site admins fix issues with links in your docs. Other site settings stay admin-only.
+* Site creators can now manage [site redirects](../documentation/publish/site-redirects.md), helping more people than site admins fix issues with links in your docs. Other site settings stay admin-only.
 * You can move spaces that aren’t in any site from **All content**, using **Move space to…**.
 * The site sidebar remembers which sections you expanded or collapsed for each site, so your navigation stays the same between sessions.
 * We’ve improved **My drafts** list of change requests so that it loads faster, helping you find your content quickly.
@@ -300,7 +300,7 @@ You can now add [adaptive content](https://gitbook.com/docs/publish/adaptive-con
 
 * A broken link that a redirect already covers, but with different capitalization, now closes instead of staying open.
 * On Broken links, the resolve button leads with an action you can take, instead of showing a disabled one.
-* Headings at the start of [reusable content](https://gitbook.com/docs/create-content/reusable-content) are kept when you import through Git Sync.
+* Headings at the start of [reusable content](../documentation/create-content/reusable-content.md) are kept when you import through Git Sync.
 * Large AI translations no longer fail partway through. A translation that does fail now shows as failed, instead of looking stuck.
 * Images that can’t be optimized now load on published sites, instead of failing.
 * In change request diffs, code blocks, including Mermaid diagrams, show one version instead of mixing old and new text. Revert and comment buttons also stay clickable in the stacked diff view.
@@ -373,8 +373,8 @@ Writes now support:
 
 ### Improvements
 
-* You can now add expandable blocks inside [tabs](https://gitbook.com/docs/create-content/blocks/tabs).
-* You can now create a GitBook account while connecting the [GitBook MCP server](https://gitbook.com/docs/docs-as-code/gitbook-mcp) or CLI, for example from `gitbook login`, instead of signing up separately first.
+* You can now add expandable blocks inside [tabs](../documentation/create-content/blocks/tabs.md).
+* You can now create a GitBook account while connecting the [GitBook MCP server](../documentation/docs-as-code/gitbook-mcp.md) or CLI, for example from `gitbook login`, instead of signing up separately first.
 * The Git Sync setup step has an **Open repository** button next to the source repository, so you can jump straight to the connected repo.
 * The content sidebar footer has an MCP button that opens your MCP settings.
 * The **Agents & MCP** analytics report groups unnamed MCP clients into a single row, instead of four separate “unidentified” rows.
@@ -416,7 +416,7 @@ Each gap describes the problem, the evidence behind it, and a recommendation. Gi
 
 It’s a direct way to turn recurring support questions into docs before they create more tickets.
 
-Learn more in [the Content gaps docs](https://gitbook.com/docs/analytics/content-gaps).
+Learn more in [the Content gaps docs](../documentation/analytics/content-gaps.md).
 
 ### Broken links
 
@@ -428,7 +428,7 @@ GitBook ranks suggestions by traffic, so you can fix the URLs that matter most f
 
 Any URLs GitBook can’t match stay in the list, alongside the reason and the pages GitBook Agent considered.
 
-Learn more in [the Broken links docs](https://gitbook.com/docs/analytics/broken-links).
+Learn more in [the Broken links docs](../documentation/analytics/broken-links.md).
 
 ### Style guide checks
 
@@ -436,11 +436,11 @@ Learn more in [the Broken links docs](https://gitbook.com/docs/analytics/broken-
 
 You can now check an entire section of your docs site against your style guide to make sure all your content is following your rules. This is great for regular audits, or when you add a new rule to your guide.
 
-Start a check from your [style guide](https://gitbook.com/docs/create-content/styleguide) for up to three spaces at a time. GitBook Agent opens one change request per space with the fixes it finds.
+Start a check from your [style guide](../documentation/create-content/styleguide/) for up to three spaces at a time. GitBook Agent opens one change request per space with the fixes it finds.
 
 The **Checks** tab shows each space’s check status, when it last ran, and whether your style guide changed since.
 
-Learn more in [the style guide docs](https://gitbook.com/docs/create-content/styleguide).
+Learn more in [the style guide docs](../documentation/create-content/styleguide/).
 
 ### Site analytics, rebuilt around your audiences
 
@@ -452,7 +452,7 @@ Our improved site analytics section now has a report for each audience:
 
 Every report shares the same filters and shows today’s data as it arrives. You can compare any report with the previous period or the same period last year. Stat tiles show the change alongside the earlier figure, while charts draw the earlier period under each series. Breakdown rows show a trend arrow.
 
-Learn more in [the analytics docs](https://gitbook.com/docs/analytics/insights).
+Learn more in [the analytics docs](../documentation/analytics/insights/).
 {% endupdate %}
 
 {% update date="2026-09-30" tags="new-releases,improvements,fixes" %}
@@ -507,7 +507,7 @@ We’ve added an option to run a style guide check for your site content. You ca
 
 This is great for running regular site audits to make sure recent updates meet your style guide, or for running a site-wide check when you update your style guide with new rules.
 
-Learn more in [the style guide docs](https://gitbook.com/docs/create-content/styleguide).
+Learn more in [the style guide docs](../documentation/create-content/styleguide/).
 
 ## Merge table cells
 
@@ -515,7 +515,7 @@ Learn more in [the style guide docs](https://gitbook.com/docs/create-content/sty
 
 You can now merge adjacent text and number cells in tables, horizontally or vertically. Click-and-drag (or hold <kbd>Shift</kbd> and press an arrow key) to select cells, then merge from the cell menu.
 
-Merged cells will appear on your published site, and through Git Sync they export as native `colspan` and `rowspan` attributes. Learn more in [the table docs](https://gitbook.com/docs/create-content/blocks/table).
+Merged cells will appear on your published site, and through Git Sync they export as native `colspan` and `rowspan` attributes. Learn more in [the table docs](../documentation/create-content/blocks/table.md).
 
 ### Improvements
 
@@ -594,7 +594,7 @@ The Agent also brings every connection in a Slack, GitHub, or Linear channel tog
 
 {% embed url="https://youtu.be/1ueoIZkQwX8" %}
 
-You can now [sync an entire docs site with a single Git repo using Git Sync](https://gitbook.com/docs/docs-as-code/git-sync). This doesn’t just make it easier to import and edit your docs using docs-as-code workflows — it also pairs with new site-level permissions to improve agentic workflows.
+You can now [sync an entire docs site with a single Git repo using Git Sync](../documentation/docs-as-code/git-sync/). This doesn’t just make it easier to import and edit your docs using docs-as-code workflows — it also pairs with new site-level permissions to improve agentic workflows.
 
 Previously, Git Sync was only possible at a content level: you could sync individual spaces, but not your entire site. This meant adding more content required the manual work of creating a space and setting up Git Sync in the right folder.
 
@@ -604,7 +604,7 @@ If you’re setting up a new site for the first time, the app will help you set 
 
 If you want to switch your existing space-level Git Sync to site-wide Git Sync, you can manage the migration from your site dashboard. The app will guide you through the process, with any spaces switching to the site’s repository that you choose. You have control over the configuration and content mapping, so you can manage the site content and structure however you like.
 
-Head over to [our Git Sync docs](https://gitbook.com/docs/docs-as-code/git-sync) to find out more, or check out [our guide to site-wide Git Sync to set it up for your own docs](../guides/editing-and-publishing-documentation/how-to-sync-your-entire-docs-site-with-a-git-repository.md).
+Head over to [our Git Sync docs](../documentation/docs-as-code/git-sync/) to find out more, or check out [our guide to site-wide Git Sync to set it up for your own docs](../guides/editing-and-publishing-documentation/how-to-sync-your-entire-docs-site-with-a-git-repository.md).
 {% endupdate %}
 
 {% update date="2026-09-02" %}
@@ -614,11 +614,11 @@ You can now add links to external pages to your docs site’s top nav, giving yo
 
 You can also now hide a section from your site navigation, so readers only see the sections you want to show.
 
-We’ve also made it possible to include the same GitBook space in multiple places within the navigation. So if you want to list some content in two drop-down [sections](https://gitbook.com/docs/manage-your-site/site-structure/site-sections), you can now do that — without needing to duplicate the content internally and maintain both versions.
+We’ve also made it possible to include the same GitBook space in multiple places within the navigation. So if you want to list some content in two drop-down [sections](../documentation/manage-your-site/site-structure/site-sections.md), you can now do that — without needing to duplicate the content internally and maintain both versions.
 
-This is great if your nav is organized by use case or reader persona, but you have content that’s relevant to everyone. It’s also useful for [versioned documentation](https://gitbook.com/docs/manage-your-site/site-structure/variants) when there haven’t been any documentation changes.
+This is great if your nav is organized by use case or reader persona, but you have content that’s relevant to everyone. It’s also useful for [versioned documentation](../documentation/manage-your-site/site-structure/variants.md) when there haven’t been any documentation changes.
 
-All three of these options are available now in [the **Site structure** page](https://gitbook.com/docs/manage-your-site/site-structure), accessible from the left sidebar.
+All three of these options are available now in [the **Site structure** page](../documentation/manage-your-site/site-structure/), accessible from the left sidebar.
 
 ### Improvements
 
@@ -636,7 +636,7 @@ All three of these options are available now in [the **Site structure** page](ht
 {% update date="2026-08-27" tags="new-releases,improvements,fixes" %}
 ## New site-level permissions for controlling site management for humans and agents
 
-We’ve rolled out new [site-level permissions](https://gitbook.com/docs/manage-your-site/site-permissions) that give you more control over what people on your team can do in a live site.
+We’ve rolled out new [site-level permissions](../documentation/manage-your-site/site-permissions.md) that give you more control over what people on your team can do in a live site.
 
 These changes are essential as teams begin rolling out more agentic workflows to automate documentation management. The new controls give you the option to set permissions across an entire site, and choose who — whether they’re editing manually or using agents — can make edits, review, and publish changes to your site.
 
@@ -648,11 +648,11 @@ These changes are essential as teams begin rolling out more agentic workflows to
 * Creators can do everything a reviewer can, plus they can restructure the site: add, publish, rename, reorder, and delete sections and variants
 * Admins can do everything across the site and the wider organization
 
-Read more in [our site-level permissions documentation](https://gitbook.com/docs/manage-your-site/site-permissions).
+Read more in [our site-level permissions documentation](../documentation/manage-your-site/site-permissions.md).
 
 ### Improvements
 
-* We’ve simplified the [AI settings for your site](https://gitbook.com/docs/ai-for-your-readers/ai-search) to a single AI Assistant toggle. You can enable or disable it, and when you enable it you can choose the AI style — either the full Assistant or a more basic AI search.
+* We’ve simplified the [AI settings for your site](../documentation/ai-for-your-readers/gitbook-ai-assistant.md) to a single AI Assistant toggle. You can enable or disable it, and when you enable it you can choose the AI style — either the full Assistant or a more basic AI search.
 * The version history now contains more context in breadcrumbs along the top of your window. They now show the title and number of the original change request, GitHub pull request, or GitLab merge request. They also consistently show a **Merged** badge, along with the active section or variant path on the related site.
 * You can now choose to [add a separate font for H1, H2, and H3 headings](../documentation/manage-your-site/customization/icons-colors-and-themes.md#font-family) on your site, giving you more control over the look and feel of your published. You could combine a serif font for headings with a sans-serif font for the body copy, or any other combination you like.
 * We’ve made the **Home** button at the top of the sidebar easier to find and more clearly labelled. It’s now easier to jump back to your main home screen to view all your sites and content.
@@ -1268,7 +1268,7 @@ Most importantly, we’ve improved the readability and accessibility of all the 
 {% update date="2026-04-24" tags="new-releases" %}
 ## Introducing channels: Integrate GitBook Assistant and GitBook Agent into other tools
 
-Today we’re introducing [channels](https://gitbook.com/docs/gitbook-agent/channels) — a new way to bring the power of [GitBook Assistant](https://gitbook.com/docs/ai-and-search/gitbook-ai-assistant) and [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) into other tools and workflows.
+Today we’re introducing [channels](../documentation/gitbook-agent/channels.md) — a new way to bring the power of [GitBook Assistant](../documentation/ai-for-your-readers/gitbook-ai-assistant.md) and [GitBook Agent](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent) into other tools and workflows.
 
 You can now connect Slack, GitHub and Linear as channels to your GitBook site. Once set up, channels can work in two ways: for support, and for collaboration.
 
@@ -1355,7 +1355,7 @@ To see more tag options, you can click the **Tags** button that appears when you
 
 <figure><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2Fmji0hAPzGxdBGZHt2muo%2Fai-insights%402x.png?alt=media&#x26;token=9c1609c7-f412-4dcb-a2f2-ec221a580c7d" alt=""><figcaption></figcaption></figure>
 
-With the new [AI insights dashboard](https://gitbook.com/docs/publishing-documentation/ai-insights), you can track which topics users ask about most, how many responses led to a real solution, and where the gaps are.
+With the new [AI insights dashboard](../documentation/analytics/insights/ai-insights.md), you can track which topics users ask about most, how many responses led to a real solution, and where the gaps are.
 
 Questions are grouped by topic so you can spot patterns quickly, and you can drill into specific conversations to understand the full picture.
 
@@ -1365,7 +1365,7 @@ Most usefully, you get a clear, prioritized view of exactly where your docs are 
 
 <figure><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FeNugXVTlLes3KZjn9WqO%2Fassistant-connections%402x.png?alt=media&#x26;token=3f90bf64-494c-4211-b4b4-faae5bd9c50d" alt=""><figcaption></figcaption></figure>
 
-GitBook Assistant is already trained on your docs. And now, with [Connections](https://gitbook.com/docs/publishing-documentation/connections), you can pull in external sources too — such as video tutorials and community discussions. So the Assistant has the same context that your best support engineer has, including surrounding knowledge outside your docs.
+GitBook Assistant is already trained on your docs. And now, with [Connections](../documentation/ai-for-your-readers/connections.md), you can pull in external sources too — such as video tutorials and community discussions. So the Assistant has the same context that your best support engineer has, including surrounding knowledge outside your docs.
 
 That means better answers, more relevant suggestions and faster solutions for your end-users.
 {% endupdate %}
@@ -1566,7 +1566,7 @@ You can now choose from our standard themes — which use your site’s semantic
 
 You can choose your code theme for light and dark mode individually. And you can use any light or dark color scheme in any mode (e.g. a dark code theme when your docs are in light mode).
 
-Want to set a separate theme for your [API blocks](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/api-references)? No problem — you can override them by clicking the **Customize per block type** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FVcOvRJC3EAr05oYwadaw%2Fsettings%20-%20dark.svg?alt=media&#x26;token=b11ee2c4-9a73-4fa9-8ca0-24a989b9a554" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FsszxJbVwDObQIY2eFDeE%2Fsettings%20-%20light.svg?alt=media&#x26;token=afd2a3d2-2c4e-49ab-bee3-f9b8827ad737" alt="Customize per block type icon"></picture> button in the **Customization** screen.
+Want to set a separate theme for your [API blocks](../documentation/create-content/openapi/)? No problem — you can override them by clicking the **Customize per block type** <picture><source srcset="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FVcOvRJC3EAr05oYwadaw%2Fsettings%20-%20dark.svg?alt=media&#x26;token=b11ee2c4-9a73-4fa9-8ca0-24a989b9a554" media="(prefers-color-scheme: dark)"><img src="https://2672413337-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FPGZZo1PCN4rYgFLPD8Cl%2Fuploads%2FsszxJbVwDObQIY2eFDeE%2Fsettings%20-%20light.svg?alt=media&#x26;token=afd2a3d2-2c4e-49ab-bee3-f9b8827ad737" alt="Customize per block type icon"></picture> button in the **Customization** screen.
 
 ### Improvements
 

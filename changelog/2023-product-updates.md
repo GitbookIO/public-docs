@@ -110,7 +110,7 @@ We’ve added an option to tailor images for light and dark modes, added team ow
 
 You can now click the **options** button on an inline or block image to choose a specific image for dark mode. This is great if you have diagrams or illustrations with no backgrounds — now you can create a version to work specifically with dark mode in your docs.
 
-If you’re using GitHub or GitLab Sync, you can also do set these in Markdown using the HTML syntax `<picture>` and `<source>`. [Head to our docs](https://gitbook.com/docs/creating-content/blocks/insert-images#light-and-dark-mode) to find out more.
+If you’re using GitHub or GitLab Sync, you can also do set these in Markdown using the HTML syntax `<picture>` and `<source>`. [Head to our docs](../documentation/create-content/blocks/insert-images.md#light-and-dark-mode) to find out more.
 
 <div data-full-width="true"><figure><img src=".gitbook/assets/dark-mode-image.png" alt=""><figcaption><p>Once you’ve set an image for dark mode, you’ll see options to replace both versions of the image in this menu.</p></figcaption></figure></div>
 
@@ -412,7 +412,7 @@ In February we opened up GitBook AI search for testing for selected users. This 
 
 ### :mag\_right: GitBook AI search
 
-GitBook AI search is available now for everyone to use! GitBook AI will scan your documentation and give you a simple semantic answer with clickable references. You can find out more about the new tool and learn how to enable it in your public or private documentation by [reading our docs.](https://gitbook.com/docs/creating-content/searching-your-content/gitbook-ai)
+GitBook AI search is available now for everyone to use! GitBook AI will scan your documentation and give you a simple semantic answer with clickable references. You can find out more about the new tool and learn how to enable it in your public or private documentation by [reading our docs.](../documentation/create-content/searching-your-content/gitbook-ai.md)
 
 <figure><img src=".gitbook/assets/lens" alt=""><figcaption></figcaption></figure>
 
@@ -460,7 +460,7 @@ A new search feature powered by AI and a number of quality-of-life improvements 
 
 ### \[Alpha] AI-powered search
 
-AI has been the talk of the town for the past few months, and we want to leverage that power in your documentation. So we’re introducing a new, smarter search option that’s powered by GitBook AI, to help users get answers to their questions based on your documentation content. You can see it in action right now in the [GitBook docs](https://gitbook.com/docs). Read more on this release and [how to join the alpha test in our community](https://github.com/GitbookIO/community/discussions/98).
+AI has been the talk of the town for the past few months, and we want to leverage that power in your documentation. So we’re introducing a new, smarter search option that’s powered by GitBook AI, to help users get answers to their questions based on your documentation content. You can see it in action right now in the [GitBook docs](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/ruVxU3EouOc3UwT5nOno). Read more on this release and [how to join the alpha test in our community](https://github.com/GitbookIO/community/discussions/98).
 
 {% embed url="https://user-images.githubusercontent.com/845425/217935164-96b7b545-bea2-4b41-973f-9ec9b259f934.mp4" %}
 You can now try this out in the GitBook docs
@@ -517,7 +517,7 @@ Synchronize more than one directory from the same repository with multiple space
 
 * Add configuration option for GitSync to specify a project directory to sync multiple spaces in the same monorepo.
 
-You can read more on [how to set this up in our documentation](https://gitbook.com/docs/getting-started/git-sync/monorepos).
+You can read more on [how to set this up in our documentation](../documentation/docs-as-code/git-sync/monorepos.md).
 
 ### Customize your commit messages with Git Sync
 
@@ -528,7 +528,7 @@ Easily identify what change request was merged and when a commit is coming from 
 * Add option in GitSync to use a custom template for commit messages.
 * Improve URL format for change request to use a more user-friendly version (recognizable), based on the number indicator.
 
-You can read more on [how to set this up in our documentation](https://gitbook.com/docs/getting-started/git-sync/commits).
+You can read more on [how to set this up in our documentation](../documentation/docs-as-code/git-sync/commits.md).
 
 ### ➕ Improved
 
