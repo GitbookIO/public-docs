@@ -46,11 +46,11 @@ Broken links has two views, which you can switch between from the tabs in the he
 
 The **Findings** view starts with a summary of the last 30 days:
 
-| Card                    | What it shows                                      |
-| ----------------------- | -------------------------------------------------- |
-| **Broken visits**       | The number of 404 responses your site returned.    |
-| **Visitors affected**   | The number of unique visitors who hit a 404.       |
-| **Suggested redirects** | The number of open suggestions waiting for review. |
+| Card                  | What it shows                                      |
+| --------------------- | -------------------------------------------------- |
+| **Broken visits**     | The number of 404 responses your site returned.    |
+| **Visitors affected** | The number of unique visitors who hit a 404.       |
+| **Open broken URLs**  | The number of open suggestions waiting for review. |
 
 The list shows each finding with its status, its severity, and a title describing the broken URL and, when GitBook found one, the page it should lead to. Findings with a suggested fix are listed first.
 
@@ -66,17 +66,19 @@ Severity has three levels:
 
 ### Searching, filtering, and sorting
 
-Type a URL, or part of one, in the search box to find a specific finding. Use the filter bar to narrow findings by **Status** or **Severity**. By default the list shows only **Open** findings, sorted by severity. Switch the sort to **Recently updated** to see the latest changes first. Opening a finding and going back keeps your search, filters, and sort.
+Type a URL, or part of one, in the search box to find a specific finding. Use the filter bar to narrow findings by **Status**, **Severity**, or **Type**. By default the list shows only **Open** findings, with suggested fixes first. Switch the sort to **Severity** to see the most-visited broken URLs first, or to **Recently updated** to see the latest changes first. Opening a finding and going back keeps your search, filters, and sort.
 
 ## Fixing a broken URL
 
 1. Select a finding in the list to open its details.
-2. Read the **Motivation** section. It explains which page GitBook matched to the broken URL and why. The **Related pages** list links to the pages involved.
-3. Click **Create redirect**.
+2. Read the **Motivation** section. It explains which page GitBook matched to the broken URL and why. The **Related pages** list links to the pages involved, and **Where visitors came from** shows the visits over time and the sites that link to the broken URL.
+3. Click **Resolve with redirect**.
 4. The **Add redirect** dialog opens with the **Source path** and **destination** already filled in from the suggestion. Adjust anything you want, for example choose **Permanent redirect** if the old URL will never return.
 5. Click **Enable redirect** to activate it immediately, or **Save as draft** to publish it later from your site’s redirect settings.
 
 When you enable a redirect whose source matches an open finding, the finding is automatically marked as **Resolved**. Saving the redirect as a draft leaves the finding open until the redirect goes live.
+
+If the broken URL doesn’t need a redirect, click the arrow next to **Resolve with redirect** and choose **Resolve without redirect**. The finding is marked as **Resolved**, but no redirect serves the path, so visitors who reach it still get a 404. To change this later, open the finding and click **Reopen** or **Resolve with redirect**.
 
 The redirect is added to your site’s redirects. You can edit or delete it at any time from **Settings → Redirects**, or by clicking **Manage redirects** at the top of the screen.
 
@@ -90,15 +92,17 @@ When several broken URLs share a prefix and all belong to the same moved section
 
 ## Ignoring a finding
 
-If a suggestion is not right, or the broken URL does not need a redirect, open the finding and click **Ignore**. It moves to **Rejected** and disappears from the default list. You can find it again by filtering on **Status**, and bring it back with **Unarchive**.
+If a suggestion is not right, or the broken URL does not need a redirect, open the finding and click **Ignore**. It moves to **Ignored** and disappears from the default list. You can find it again by filtering on **Status**, and bring it back with **Restore**.
 
-You can also change the status of a finding directly from the list or the details page using the status menu:
+You can also resolve or ignore a finding directly from the list, using the actions menu at the end of its row.
 
-| Status       | Meaning                                            |
-| ------------ | -------------------------------------------------- |
-| **Open**     | The finding is waiting for review.                 |
-| **Resolved** | A redirect was created, or the URL resolves again. |
-| **Rejected** | You chose to ignore the finding.                   |
+A finding has one of these statuses:
+
+| Status       | Meaning                                                                                |
+| ------------ | -------------------------------------------------------------------------------------- |
+| **Open**     | The finding is waiting for review.                                                     |
+| **Resolved** | A redirect was created, the URL resolves again, or you resolved it without a redirect. |
+| **Ignored**  | You chose to ignore the finding.                                                       |
 
 Findings are also resolved automatically when the next audit finds that the broken URL now resolves, either because a page exists at that path again, including a translated page, or because a live redirect covers it.
 
