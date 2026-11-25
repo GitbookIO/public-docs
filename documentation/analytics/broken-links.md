@@ -1,7 +1,7 @@
 ---
 description: >-
-  Find the URLs on your published site that return a 404 and fix them with
-  suggested redirects
+  Find the broken links on your published site and in your content, and fix them
+  with suggested redirects or updated links
 tags:
   - beta
   - tag: new
@@ -16,6 +16,8 @@ Broken links is in beta and available on the Ultimate site plan.
 
 Broken links finds the URLs on your published site that visitors are reaching but that no longer exist. For each broken URL, GitBook works out which page the visitor was most likely looking for and suggests a redirect you can enable in one click, so visitors stop landing on 404 pages.
 
+It also finds links in your content that point to external websites and no longer work, so you can fix them before visitors click them. Broken URLs on your own site are called inbound broken links, and failing links to other websites are called outbound broken links. See [Outbound broken links](broken-links.md#outbound-broken-links).
+
 In your site’s sidebar, go to **Improve → Broken links**.
 
 ## How it works
@@ -29,13 +31,15 @@ GitBook regularly audits every published site on a plan that includes Broken lin
 
 A site is audited at most once a day. Each audit starts again from your current traffic, and resolved URLs drop out, so a site with more than 60 broken URLs works through them over successive audits, most-visited first. Broken URLs that GitBook couldn’t match to any page are kept as findings too, with the reason and the pages it considered, so you can decide whether they need a new page instead of a redirect.
 
+This section describes inbound broken links. Outbound broken links are checked separately, as described in [Outbound broken links](broken-links.md#outbound-broken-links).
+
 Broken links builds on [site-redirects.md](../publish/site-redirects.md "mention"). Read it first if you’re not familiar with redirects.
 
 ## The two views
 
 Broken links has two views, which you can switch between from the tabs in the header:
 
-* **Findings** lists the broken URLs GitBook found and the redirects it suggests, ready for you to review.
+* **Findings** lists the broken URLs GitBook found and the redirects it suggests, ready for you to review. It also lists broken outbound links.
 * **Analyze** shows the full broken URL report from your site’s analytics, including URLs that don’t have a suggestion yet.
 
 ## Reviewing findings
@@ -97,6 +101,35 @@ You can also change the status of a finding directly from the list or the detail
 | **Rejected** | You chose to ignore the finding.                   |
 
 Findings are also resolved automatically when the next audit finds that the broken URL now resolves, either because a page exists at that path again, including a translated page, or because a live redirect covers it.
+
+## Outbound broken links
+
+Outbound broken links are links in your content that point to external websites and are failing. Inbound broken links are URLs on your own site that visitors reach and that return a 404.
+
+GitBook reports an outbound link only after it fails in consecutive checks, so the Findings view shows confirmed failing external links rather than one-off errors.
+
+### Finding outbound broken links
+
+Outbound findings appear in the same **Findings** view as inbound ones:
+
+* Each row has an **Inbound** or **Outbound** badge.
+* The **Broken outbound links** card shows how many outbound findings you have.
+* Outbound rows show the target URL and a reason for the failure, such as **404 Not Found** or **Redirect error**.
+
+To narrow the list, use the filter bar. To find a specific link, type its URL, or part of it, in the **Search for a URL...** box.
+
+### Reviewing an outbound broken link
+
+1. In the **Findings** view, filter **Type** by **Broken Outbound Link**.
+2. Select a finding to open its details.
+3. Read the **Motivation** section. It explains why GitBook reports the link, for example that it returned HTTP 404 in consecutive checks.
+4. Check the **Pages** section. It lists the pages in your content that contain the link.
+5. Click **Create change request(s)**. GitBook Agent creates change requests that fix the link, by updating it or removing it on the affected pages.
+6. Review and merge the change requests. Once the updated link passes GitBook’s next check, the finding is resolved.
+
+If the link doesn’t need fixing, click **Ignore** instead. The finding moves to **Ignored** and disappears from the default list.
+
+Unlike inbound broken links, you don’t fix an outbound broken link with a redirect, because the broken URL is on another website. Fix it by editing your content instead.
 
 ## Analyzing broken URLs
 
