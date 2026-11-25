@@ -74,16 +74,20 @@ Type a URL, or part of one, in the search box to find a specific finding. Use th
 
 1. Select a finding in the list to open its details.
 2. Read the **Motivation** section. It explains which page GitBook matched to the broken URL and why. The **Related pages** list links to the pages involved.
-3. Click **Create redirect**.
+3. Click **Resolve with redirect**. If GitBook found no matching page, the button is **Choose a redirect…** instead.
 4. The **Add redirect** dialog opens with the **Source path** and **destination** already filled in from the suggestion. Adjust anything you want, for example choose **Permanent redirect** if the old URL will never return.
 5. Click **Enable redirect** to activate it immediately, or **Save as draft** to publish it later from your site’s redirect settings.
 
 When you enable a redirect whose source matches an open finding, the finding is automatically marked as **Resolved**. Saving the redirect as a draft leaves the finding open until the redirect goes live.
 
+If the broken URL doesn’t need a redirect, click the arrow next to **Resolve with redirect** and choose **Resolve without redirect**. The finding is marked as **Resolved**, but visitors to that URL still get a 404.
+
+To remove a redirect you created from a finding, open the resolved finding and click **Reopen and delete redirect**. The redirect is deleted and the finding returns to **Open**.
+
 The redirect is added to your site’s redirects. You can edit or delete it at any time from **Settings → Redirects**, or by clicking **Settings** at the top of the screen, then **Manage redirects**.
 
 {% hint style="info" %}
-Creating redirects needs admin permissions on the site, and changing a finding’s status needs edit permissions. Actions you can’t use appear disabled, with an explanation.
+Creating redirects and deleting them from a finding need admin permissions on the site, and resolving, ignoring, or restoring a finding needs edit permissions. Actions you can’t use appear disabled, with an explanation.
 {% endhint %}
 
 ### Wildcard suggestions
@@ -173,14 +177,14 @@ For outbound broken links, GitBook Agent drafts change requests that update or r
 
 To find the fixes that need a decision, filter the **Findings** view by the **Awaiting approval** status, then open a finding:
 
-* For a drafted redirect, approve it to make the redirect live, or reject it.
+* For a drafted redirect, click **Approve** to make the redirect live, or **Reject** to discard it.
 * For a drafted change request, click **Review and approve** to open the change request, then review and merge it. Click **Reject** if the link doesn’t need that fix.
 
 Once GitBook has applied at least one redirect, a **Fixed for you** card in the summary shows how many broken URLs it redirected in the last 30 days.
 
 ### Undoing an automatic fix
 
-To undo a redirect GitBook applied, open the resolved finding and click **Reopen and delete redirect**. The redirect is deleted, the finding returns to **Open**, and GitBook doesn’t apply that fix again in later audits. A fix you reject isn’t suggested again either.
+To undo a redirect GitBook applied, open the resolved finding and click **Undo GitBook Agent fix**, then confirm. The redirect is deleted, the finding returns to **Open**, and GitBook doesn’t fix that link again in later audits. A fix you reject isn’t suggested again either.
 
 Approving, rejecting, and undoing automatic fixes need admin permissions on the site.
 
