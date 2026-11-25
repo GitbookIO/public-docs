@@ -50,6 +50,10 @@ Site admins can now limit [AI Assistant](../documentation/ai-for-your-readers/gi
 
 Sending a change request for review again also keeps the reviewers you picked, instead of adding everyone with review access.
 
+## Fix broken links automatically
+
+[Broken links](https://gitbook.com/docs/analytics/broken-links#fixing-broken-links-automatically) can now fix the links it finds for you. Once a site admin turns it on, GitBook redirects the broken URLs it is confident about after each audit, and drafts the remaining fixes for you to approve.
+
 ### Improvements
 
 * You can now sign in to GitBook with a passkey. Add, rename, and delete passkeys in your account settings, choose where to save a new one, and use a passkey to confirm it’s you. Adding a passkey requires a verified email address.

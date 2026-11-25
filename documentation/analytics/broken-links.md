@@ -18,6 +18,8 @@ Broken links finds the URLs on your published site that visitors are reaching bu
 
 It also finds links in your content that point to external websites and no longer work, so you can fix them before visitors click them. Broken URLs on your own site are called inbound broken links, and failing links to other websites are called outbound broken links. See [Outbound broken links](broken-links.md#outbound-broken-links).
 
+GitBook can also apply these fixes for you after each audit. See [Fixing broken links automatically](broken-links.md#fixing-broken-links-automatically).
+
 In your site’s sidebar, go to **Improve → Broken links**.
 
 ## How it works
@@ -72,7 +74,7 @@ Type a URL, or part of one, in the search box to find a specific finding. Use th
 
 1. Select a finding in the list to open its details.
 2. Read the **Motivation** section. It explains which page GitBook matched to the broken URL and why. The **Related pages** list links to the pages involved, and **Where visitors came from** shows the visits over time and the sites that link to the broken URL.
-3. Click **Resolve with redirect**.
+3. Click **Resolve with redirect**. If GitBook found no matching page, the button is **Choose a redirect…** instead.
 4. The **Add redirect** dialog opens with the **Source path** and **destination** already filled in from the suggestion. Adjust anything you want, for example choose **Permanent redirect** if the old URL will never return.
 5. Click **Enable redirect** to activate it immediately, or **Save as draft** to publish it later from your site’s redirect settings.
 
@@ -80,10 +82,12 @@ When you enable a redirect whose source matches an open finding, the finding is 
 
 If the broken URL doesn’t need a redirect, click the arrow next to **Resolve with redirect** and choose **Resolve without redirect**. The finding is marked as **Resolved**, but no redirect serves the path, so visitors who reach it still get a 404. To change this later, open the finding and click **Reopen** or **Resolve with redirect**.
 
-The redirect is added to your site’s redirects. You can edit or delete it at any time from **Settings → Redirects**, or by clicking **Manage redirects** at the top of the screen.
+To remove a redirect you created from a finding, open the resolved finding and click **Reopen and delete redirect**. The redirect is deleted and the finding returns to **Open**.
+
+The redirect is added to your site’s redirects. You can edit or delete it at any time from **Settings → Redirects**, or by clicking **Settings** at the top of the screen, then **Manage redirects**.
 
 {% hint style="info" %}
-Creating redirects needs admin permissions on the site, and changing a finding’s status needs edit permissions. Actions you can’t use appear disabled, with an explanation.
+Creating redirects and deleting them from a finding need admin permissions on the site, and resolving, ignoring, or restoring a finding needs edit permissions. Actions you can’t use appear disabled, with an explanation.
 {% endhint %}
 
 ### Wildcard suggestions
@@ -98,11 +102,12 @@ You can also resolve or ignore a finding directly from the list, using the actio
 
 A finding has one of these statuses:
 
-| Status       | Meaning                                                                                |
-| ------------ | -------------------------------------------------------------------------------------- |
-| **Open**     | The finding is waiting for review.                                                     |
-| **Resolved** | A redirect was created, the URL resolves again, or you resolved it without a redirect. |
-| **Ignored**  | You chose to ignore the finding.                                                       |
+| Status                | Meaning                                                                                |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| **Open**              | The finding is waiting for review.                                                     |
+| **Awaiting approval** | GitBook drafted a fix that isn’t live yet. See [Fixing broken links automatically](broken-links.md#fixing-broken-links-automatically). |
+| **Resolved**          | A redirect was created, the URL resolves again, or you resolved it without a redirect. |
+| **Ignored**           | You chose to ignore the finding.                                                       |
 
 Findings are also resolved automatically when the next audit finds that the broken URL now resolves, either because a page exists at that path again, including a translated page, or because a live redirect covers it.
 
@@ -134,6 +139,56 @@ To narrow the list, use the filter bar. To find a specific link, type its URL, o
 If the link doesn’t need fixing, click **Ignore** instead. The finding moves to **Ignored** and disappears from the default list.
 
 Unlike inbound broken links, you don’t fix an outbound broken link with a redirect, because the broken URL is on another website. Fix it by editing your content instead.
+
+## Fixing broken links automatically
+
+GitBook can fix the broken links it finds after each audit, so you don’t have to review every finding yourself. Automatic fixes are off by default, and a site admin turns them on for each site.
+
+### Turning on automatic fixes
+
+1. In **Broken links**, click **Settings** at the top of the screen.
+2. Turn on **Fix broken links automatically**.
+3. Choose an autonomy level. **Fix clear matches** is selected by default.
+
+The autonomy level sets how many redirects GitBook applies on its own:
+
+| Autonomy level        | What GitBook does                                                                                           |
+| --------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Suggest fixes**     | Drafts redirects for you to approve, and applies none on its own.                                           |
+| **Fix clear matches** | Applies redirects from a single path to a page in the same space, and drafts the rest for you to approve.   |
+| **Fix close matches** | Also applies redirects that cover a whole section or a link with heavy traffic.                             |
+
+At every level, GitBook never redirects a link it isn’t sure about, and never merges a change request.
+
+{% hint style="info" %}
+Only site admins can change these settings. Other members see the settings with the controls disabled.
+{% endhint %}
+
+### What GitBook does after each audit
+
+For inbound broken links, GitBook either applies a redirect or drafts one, depending on the autonomy level:
+
+* An applied redirect is live immediately, and the finding moves to **Resolved**. The finding’s details say that GitBook Agent fixed the link.
+* A drafted redirect isn’t live until an admin approves it. The finding moves to **Awaiting approval**.
+
+GitBook skips any path that already has a redirect, so it never overwrites a redirect or a draft you created.
+
+For outbound broken links, GitBook Agent drafts change requests that update or remove the failing links, grouping the links in the same space into one change request. These findings also move to **Awaiting approval**, and nothing changes in your content until someone merges the change request. The autonomy level doesn’t affect outbound broken links.
+
+### Reviewing automatic fixes
+
+To find the fixes that need a decision, filter the **Findings** view by the **Awaiting approval** status, then open a finding:
+
+* For a drafted redirect, click **Approve** to make the redirect live, or **Reject** to discard it.
+* For a drafted change request, click **Review and approve** to open the change request, then review and merge it. Click **Reject** if the link doesn’t need that fix.
+
+Once GitBook has applied at least one redirect, a **Fixed for you** card in the summary shows how many broken URLs it redirected in the last 30 days.
+
+### Undoing an automatic fix
+
+To undo a redirect GitBook applied, open the resolved finding and click **Undo GitBook Agent fix**, then confirm. The redirect is deleted, the finding returns to **Open**, and GitBook doesn’t fix that link again in later audits. A fix you reject isn’t suggested again either.
+
+Approving, rejecting, and undoing automatic fixes need admin permissions on the site.
 
 ## Analyzing broken URLs
 
