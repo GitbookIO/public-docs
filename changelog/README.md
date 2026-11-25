@@ -34,29 +34,21 @@ tags:
 
 Categories and nested tags work with Git Sync, AI edits, and the API. Through the API, you can also list a space’s tags with the number of pages that use each one, and filter a space’s pages by tag.
 
-<!-- Image placeholder: the tag library showing a tag category with nested tags -->
-
 ## Read-only personal API tokens and IP restrictions
 
-Following last week’s expiration dates and last-used times, personal API tokens get more controls. When you [create a token](https://gitbook.com/docs/developers/gitbook-api/authentication), you can now choose its access: Read only, or the same permissions as your account. A read-only token can read through the API but can’t change anything, which limits what an exposed token can do. You can also allow or deny specific IP ranges for a token, so it’s refused from addresses you don’t trust.
+Following last week’s expiration dates and last-used times, personal API tokens get more controls. When you [create a token](https://gitbook.com/docs/developers/gitbook-api/authentication), you can now choose its access: Read only, or the same permissions as your account. A read-only token can read through the API, and the API refuses any operation that isn’t safe for read-only access, which limits what an exposed token can do. Existing tokens keep their current access. You can also allow or deny specific IP ranges for a token, so it’s refused from addresses you don’t trust.
 
 When you rotate a token, you can keep the previous secret working for one hour or 24 hours while you update your integrations, or stop it right away. You can also rename tokens in Developer settings. The token list shows each token’s access level, time left, and a single status — active, expired, or revoked — and a details dialog shows its dates and IP rules. We’ve also improved security in how tokens are stored.
-
-<!-- Image placeholder: the create token dialog with the access and IP range fields -->
 
 ## Choose who can use AI Assistant
 
 Site admins can now limit [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) and AI search to visitors who match an [adaptive content](https://gitbook.com/docs/publish/adaptive-content/adapting-your-content) condition, for example only signed-in visitors. You can offer AI answers to the audience you choose, such as your own customers, without opening them to every visitor.
-
-<!-- Image placeholder: the AI Assistant settings with a visitor condition -->
 
 ## Suggested reviewers for change requests
 
 [Change requests](https://gitbook.com/docs/collaboration/change-requests) now suggest who should review them. Suggestions start with the people who edited the changed pages, then the space’s recent reviewers, and only include members who can review the space. You can request a review in one click without hunting through the member list.
 
 Sending a change request for review again also keeps the reviewers you picked, instead of adding everyone with review access.
-
-<!-- Image placeholder: a change request with suggested reviewers -->
 
 ### Improvements
 
@@ -97,6 +89,7 @@ Sending a change request for review again also keeps the reviewers you picked, i
 * You can delete an existing Jira configuration after downgrading a site.
 * Published pages no longer stay busy in older Chrome versions, such as Chrome 130, because of the table of contents.
 {% endupdate %}
+
 {% update date="2026-11-18" tags="new-releases,improvements,fixes" %}
 ## See when your personal API tokens were last used
 

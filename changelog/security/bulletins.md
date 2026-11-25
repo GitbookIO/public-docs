@@ -12,7 +12,52 @@ icon: shield-halved
 <p align="center">Every security-related update, newest first.</p>
 
 {% updates format="full" %}
-{% update date="2026-11-23" tags="access-identity" %}
+{% update date="2026-11-25" tags="access-identity" %}
+## Read-only personal API tokens and IP restrictions
+
+When you create a personal API token, you can choose its access: read only, or the same permissions as your account. The API refuses a read-only token for any operation that isn't safe for read-only access, which limits what an exposed token can do. Existing tokens keep their current access.
+
+* Allow or deny specific IP ranges for a token, so it's refused from addresses you don't trust.
+* When you rotate a token, keep the previous secret working for one hour or 24 hours while you update your integrations, or stop it right away.
+* The token list shows each token's access level, time left, and a single status: active, expired, or revoked. A details dialog shows its dates and IP rules.
+* GitBook improved the security of how tokens are stored.
+
+First published in [Product updates, November 25, 2026](../).
+{% endupdate %}
+
+{% update date="2026-11-25" tags="access-identity" %}
+## Space creators become Admin
+
+Whoever creates a space is now its [Admin](https://gitbook.com/docs/collaborate/member-management/permissions-and-inheritance#space-creators), including drafts that site Editors add as a section or variant, so they can set up Git Sync on them. For a space created in a site, the Admin role ends if its creator is removed from the site. Spaces created before this change keep their current permissions.
+
+First published in [Product updates, November 25, 2026](../).
+{% endupdate %}
+
+{% update date="2026-11-25" tags="access-identity" %}
+## Published change request previews off by default for new sites
+
+New sites have published change request previews turned off by default. When a site turns them off, links to a published change request or revision redirect to the site preview. Signed-in members can still preview changes.
+
+First published in [Product updates, November 25, 2026](../).
+{% endupdate %}
+
+{% update date="2026-11-25" tags="access-identity" %}
+## Limit AI Assistant to a visitor audience
+
+Site admins can limit [AI Assistant](https://gitbook.com/docs/ai-for-your-readers/gitbook-ai-assistant) and AI search to visitors who match an [adaptive content](https://gitbook.com/docs/publish/adaptive-content/adapting-your-content) condition, for example only signed-in visitors.
+
+First published in [Product updates, November 25, 2026](../).
+{% endupdate %}
+
+{% update date="2026-11-25" tags="audit-compliance" %}
+## Audit logs record collection changes
+
+Organization [audit logs](https://gitbook.com/docs/account-and-billing/audit-logs/actions) record collection creation, settings changes, moves, transfers, and deletion.
+
+First published in [Product updates, November 25, 2026](../).
+{% endupdate %}
+
+{% update date="2026-11-25" tags="access-identity" %}
 ## Sign in with a passkey
 
 Add a passkey to your GitBook account and use it to sign in instead of a password or email link. You can sign in with a passkey from the first sign-in screen, without entering your email.
@@ -23,6 +68,8 @@ Add a passkey to your GitBook account and use it to sign in instead of a passwor
 * GitBook emails you when a passkey is added to or removed from your account.
 
 You need a verified email address to add a passkey. Members who must sign in with SSO can’t add one.
+
+First published in [Product updates, November 25, 2026](../).
 {% endupdate %}
 
 {% update date="2026-11-11" tags="access-identity" %}
