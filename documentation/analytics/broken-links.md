@@ -52,7 +52,7 @@ The **Findings** view starts with a summary of the last 30 days:
 | ----------------------- | -------------------------------------------------- |
 | **Broken visits**       | The number of 404 responses your site returned.    |
 | **Visitors affected**   | The number of unique visitors who hit a 404.       |
-| **Suggested redirects** | The number of open suggestions waiting for review. |
+| **Open broken URLs**    | The number of open suggestions waiting for review. |
 
 The list shows each finding with its status, its severity, and a title describing the broken URL and, when GitBook found one, the page it should lead to. Findings with a suggested fix are listed first.
 
@@ -92,15 +92,16 @@ When several broken URLs share a prefix and all belong to the same moved section
 
 ## Ignoring a finding
 
-If a suggestion is not right, or the broken URL does not need a redirect, open the finding and click **Ignore**. It moves to **Rejected** and disappears from the default list. You can find it again by filtering on **Status**, and bring it back with **Unarchive**.
+If a suggestion is not right, or the broken URL does not need a redirect, open the finding and click **Ignore**. It moves to **Ignored** and disappears from the default list. You can find it again by filtering on **Status**, and bring it back with **Restore**.
 
-You can also change the status of a finding directly from the list or the details page using the status menu:
+Each finding has one of these statuses, shown in the list and on the details page:
 
-| Status       | Meaning                                            |
-| ------------ | -------------------------------------------------- |
-| **Open**     | The finding is waiting for review.                 |
-| **Resolved** | A redirect was created, or the URL resolves again. |
-| **Rejected** | You chose to ignore the finding.                   |
+| Status                | Meaning                                                                              |
+| --------------------- | ------------------------------------------------------------------------------------ |
+| **Open**              | The finding is waiting for review.                                                   |
+| **Awaiting approval** | GitBook drafted a fix that isn’t live yet. See [Fixing broken links automatically](broken-links.md#fixing-broken-links-automatically). |
+| **Resolved**          | A redirect fixes the URL, the URL resolves again, or you resolved it without a redirect. |
+| **Ignored**           | You chose to ignore the finding.                                                     |
 
 Findings are also resolved automatically when the next audit finds that the broken URL now resolves, either because a page exists at that path again, including a translated page, or because a live redirect covers it.
 
@@ -141,7 +142,7 @@ GitBook can fix the broken links it finds after each audit, so you don’t have 
 
 1. In **Broken links**, click **Settings** at the top of the screen.
 2. Turn on **Fix broken links automatically**.
-3. Choose an autonomy level.
+3. Choose an autonomy level. **Fix clear matches** is selected by default.
 
 The autonomy level sets how many redirects GitBook applies on its own:
 
@@ -179,7 +180,7 @@ Once GitBook has applied at least one redirect, a **Fixed for you** card in the 
 
 ### Undoing an automatic fix
 
-To undo a redirect GitBook applied, open the resolved finding and reopen it. Reopening deletes the redirect, and GitBook doesn’t apply that fix again in later audits. A fix you reject isn’t suggested again either.
+To undo a redirect GitBook applied, open the resolved finding and click **Reopen and delete redirect**. The redirect is deleted, the finding returns to **Open**, and GitBook doesn’t apply that fix again in later audits. A fix you reject isn’t suggested again either.
 
 Approving, rejecting, and undoing automatic fixes need admin permissions on the site.
 
