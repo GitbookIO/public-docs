@@ -24,6 +24,7 @@ Use these API references to complete common tasks:
 | Create and manage comments                           | [Comments](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference/change-requests/change-request-comments)        |
 | Configure custom hostnames, URLs, and search         | [Site customization](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference/custom-hostnames)                     |
 | Monitor content performance                          | [Analytics](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference/docs-sites/site-insights)                      |
+| Find and fix broken links and other docs issues      | [Site context](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference/docs-sites/site-context)                    |
 | Manage integrations and OpenAPI documentation        | [Integrations](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/api-reference/integrations)                               |
 
 ### OpenAPI spec
