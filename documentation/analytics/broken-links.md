@@ -143,3 +143,14 @@ The report includes these cards:
 * **404s caused by adaptive content**, if your site uses adaptive content. These are visitors who reached a page that exists but that a condition kept them from seeing. They are excluded from the findings, since a redirect would not help.
 
 You can filter the report using the same filters as the rest of your [site analytics](insights/), including section, language, country, device, and referrer.
+
+## Work with broken links from your own agent
+
+The findings on the Broken links page are also available through the [GitBook API](https://gitbook.com/docs/developers/gitbook-api/api-reference) and the [GitBook MCP server](../docs-as-code/gitbook-mcp.md), so your own agent or script can review and fix broken links outside the GitBook app. In the API, an inbound broken link is a finding with the type `broken-link`, and an outbound broken link is a finding with the type `outbound-link-error`.
+
+Your agent or script can do the following:
+
+* [List a site’s findings](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-documentation-issues-gitbook-has-found-on-a-site), filtered by type, URL, status, or severity, and [read a single finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/get-details-of-a-single-documentation-issue) with its motivation and the actions it allows.
+* Create the suggested redirect for an inbound broken link. Each finding with a match includes the suggested source and destination in its `brokenLinkAction` field.
+* [Resolve, ignore, or reopen a finding](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/apply-an-action-to-a-finding).
+* Ask GitBook Agent to fix an outbound broken link by generating change requests, as **Create change request(s)** does in the app, and [list the change requests](https://gitbook.com/docs/developers/gitbook-api/api-reference/docs-sites/site-context/list-content-fixes-already-proposed-for-a-documentation-issue) already created for a finding.
