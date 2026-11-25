@@ -52,7 +52,7 @@ Sending a change request for review again also keeps the reviewers you picked, i
 
 ## Fix broken links automatically
 
-[Broken links](https://gitbook.com/docs/analytics/broken-links#fixing-broken-links-automatically) can now fix the links it finds for you. Once a site admin turns it on, GitBook redirects the broken URLs it is confident about after each audit, and drafts the remaining fixes for you to approve.
+[Broken links](./#broken-links) can now fix the links it finds for you. Once a site admin turns it on, GitBook redirects the broken URLs it is confident about after each audit, and drafts the remaining fixes for you to approve.
 
 ### Improvements
 
@@ -64,7 +64,6 @@ Sending a change request for review again also keeps the reviewers you picked, i
 * [Content gaps](../documentation/analytics/content-gaps.md) can be filtered by how many sources back them, such as 10+ sources, so you can start with the gaps that have the most evidence.
 * New sites have published change request previews turned off by default. The setting also explains that signed-in members can still preview changes.
 * When a site turns off published change request previews, links to a published change request or revision now redirect to the site preview.
-* Search on published sites got a face-lift, making it simpler and easier to read.
 * Search on published sites shows results sooner as you type.
 * Browsers can search a published site from the address bar.
 * The embedded Assistant uses the site’s suggested questions.
@@ -73,7 +72,6 @@ Sending a change request for review again also keeps the reviewers you picked, i
 * The site analytics API pages through results beyond the first 1,000 rows with `page` and `next.page`.
 * Organization [audit logs](../documentation/account-and-billing/audit-logs/actions.md) record collection creation, settings changes, moves, transfers, and deletion.
 * [GitBook Agent](../documentation/gitbook-agent/overview.md) settings explain how organization and site instructions combine.
-* Opening a space or change request stays fast during busy hours.
 
 ### Fixes
 
