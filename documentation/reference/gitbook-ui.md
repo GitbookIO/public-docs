@@ -207,11 +207,11 @@ Some changes, such as disabling the table of contents, appear only on published 
 
 ### Page outline
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_7.png" alt=""><figcaption><p>The page outline shows H1 and H2 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/25_12_10_gitbook_ui_7.png" alt=""><figcaption><p>The page outline shows H1, H2, and H3 headings, allowing you to quickly jump to a specific section on an individual page.</p></figcaption></figure></div>
 
 The page outline sits on the editor’s right side. It lets you jump to a page section.
 
-The outline lists the H1 and H2 [headings](../create-content/blocks/heading.md) on the page.
+The outline lists the H1, H2, and H3 [headings](../create-content/blocks/heading.md) on the page.
 
 The page outline also appears on your published site. Toggle it in the [Page options](gitbook-ui.md#page-options) side panel.
 
