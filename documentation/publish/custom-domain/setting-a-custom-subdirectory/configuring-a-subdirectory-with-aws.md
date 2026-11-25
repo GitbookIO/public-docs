@@ -24,13 +24,13 @@ Under **Additional configuration**, you will now see a proxy URL. You’ll use t
 {% step %}
 **Create your Lambda@Edge function**
 
-Sign into your AWS Console and navigate to **Lambda**.
+Sign in to your AWS Console and navigate to **Lambda**.
 
 Click the **Create function** button.
 
 Choose **Author from scratch**, then:
 
-* Give your function a descriptive name, like `gitbook-subpath-proxy.`
+* Give your function a descriptive name, like `gitbook-subpath-proxy`.
 * Select **Node.js** as the runtime (use the latest available version).
 * Leave the architecture and other settings as default.
 
@@ -214,7 +214,7 @@ If you’re not using Route 53, you’ll need to update your DNS provider’s se
 Once all changes have propagated (this can take 10–15 minutes):
 
 1. Open a browser and navigate to your domain with the subdirectory path (e.g., `https://example.com/docs`)
-2. You should see your GitBook documentation site!
+2. You should see your GitBook documentation site.
 
 If the site doesn’t load immediately, try:
 
@@ -224,7 +224,7 @@ If the site doesn’t load immediately, try:
 * Checking CloudFront distribution status is “Enabled” and not “In Progress”
 
 {% hint style="success" %}
-Congratulations! Your GitBook documentation is now accessible via your custom subdirectory.
+Your GitBook documentation is accessible through your custom subdirectory.
 {% endhint %}
 {% endstep %}
 {% endstepper %}

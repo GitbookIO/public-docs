@@ -1,7 +1,7 @@
 ---
 description: >-
   Insert complete API reference from your OpenAPI spec or pick individual
-  operation or schemas
+  operations or schemas
 ---
 
 # Insert API reference in your docs
@@ -22,7 +22,7 @@ After you’ve [added your OpenAPI spec](add-an-openapi-specification.md), you c
 {% step %}
 **Generate pages from OpenAPI**
 
-In the section you’d like to generate endpoint pages, click the **Add new...** button from the bottom of your section’s [table of contents](../../reference/gitbook-ui.md#table-of-contents).
+In the section where you’d like to generate endpoint pages, click the **Add new...** button from the bottom of your section’s [table of contents](../../reference/gitbook-ui.md#table-of-contents).
 
 From here, click **OpenAPI Reference**.
 {% endstep %}

@@ -17,9 +17,9 @@ If you edit your docs locally with an AI assistant, use [GitBook’s skill.md fi
 GitBook Agent can:
 
 * **Write docs based on a prompt:** Ask GitBook Agent to update a page, rename a product, or make any other change you need.
-* **Import content into GitBook:** Attach files like PDFs and Microsoft Word documents in the GitBook Agent chat sidebar. GitBook Agent extracts and formats the content into pages in your section.
+* **Import content into GitBook:** Attach files like PDFs and Microsoft Word documents in a GitBook Agent conversation. GitBook Agent extracts and formats the content into pages in your section.
 * **Plan and implement bigger changes:** Describe what you need. GitBook Agent opens a change request, explains its edits, responds to feedback, and implements the plan you create together.
-* **Follow your styleguide:** Define your team's writing rules in a [styleguide](../create-content/styleguide.md), and GitBook Agent treats it as the source of truth when writing or reviewing content.
+* **Follow your style guide:** Define your team's writing rules in a [style guide](../create-content/styleguide/), and GitBook Agent treats it as the source of truth when writing or reviewing content.
 * **Follow custom, site-level instructions:** Give GitBook Agent site-specific instructions, such as how to add links or which block types to avoid.
 * **Translate your documentation:** Choose the content you want to translate, select a language, and GitBook Agent localizes your docs.
 * **Summon from a comment:** Add a comment to any block on your page, type `@gitbook`, and tell GitBook Agent what you need.
@@ -45,13 +45,12 @@ As your docs evolve with your product, your customers get the right information 
 
 ### Add a style guide and custom instructions
 
-You can configure GitBook Agent with your team’s style guide or site-specific instructions.
+You can configure GitBook Agent with your team’s style guide and with site-specific instructions. GitBook Agent uses both whenever it creates or edits content for that site. If they conflict, the style guide wins.
 
-GitBook Agent uses this context whenever it creates or edits content for that site.
+* **Style guide:** click **Style guide** in your site’s sidebar, then click **Set up**. Put the writing rules you want GitBook Agent to enforce here. For details, see [Style guide](../create-content/styleguide/).
+* **Custom instructions:** open your site’s **Settings → Agents** and add your instructions in the custom instructions field. Use them for site-specific directions, such as how to add links or which block types to avoid.
 
-To add a style guide or custom instructions, open your site’s **Settings** in the site sidebar and click **Agents**. Add your instructions in the custom instructions field.
-
-You can also open this screen from a change request. Open the GitBook Agent chat window, then open the **Actions menu** <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt=""></picture> and click **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
+You can also open the **Agents** settings from a change request. Open GitBook Agent, then open **Conversation options** and click **Configure GitBook Agent** <picture><source srcset="../.gitbook/assets/25_01_10_settings_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_settings_icon_light.svg" alt=""></picture>.
 
 #### Custom instructions example
 

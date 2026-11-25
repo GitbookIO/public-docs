@@ -5,7 +5,7 @@ description: Pass visitor data into your docs through URL query parameters
 # URL
 
 {% hint style="info" %}
-Head to our guides to find a [full walk-through](https://gitbook.com/docs/guides/docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-url-parameters-and-adaptive-content) on setting up adaptive content with cookies.
+Head to our guides to find a [full walk-through](https://gitbook.com/docs/guides/docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-url-parameters-and-adaptive-content) on setting up adaptive content with URL parameters.
 {% endhint %}
 
 You can pass visitor data to your docs through URL query parameters. Below is an overview of the method:

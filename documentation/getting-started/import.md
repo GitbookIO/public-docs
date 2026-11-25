@@ -26,7 +26,7 @@ GitBook supports imports from docs websites or files in the following formats:
 * HTML (`.html`)
 * Microsoft Word (`.docx`)
 
-GitBook also support imports from:
+GitBook also supports imports from:
 
 * Confluence
 * Notion
@@ -60,7 +60,7 @@ GitBook imports content from various sources, but differences in product feature
 GitBook currently has the following limits for imported content:
 
 * The maximum number of pages that can be uploaded in a single import is **20**.
-* The maximum number of files (images etc.) that can be uploaded in a single import is **20**.
+* The maximum number of files (images, etc.) that can be uploaded in a single import is **20**.
 
 GitBook can't increase these import limits. To import more content at once, use [Git Sync](../docs-as-code/git-sync/), which supports up to 5,000 Markdown pages.
 
@@ -71,7 +71,7 @@ GitBook can't increase these import limits. To import more content at once, use 
 When importing large volumes of content into GitBook, we recommend using [Git Sync](../docs-as-code/git-sync/). While our built-in migration tool can handle most imports, Git Sync is better suited for handling larger migrations efficiently.
 
 {% hint style="info" %}
-You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide for [importing content into GitBook using Git Sync](https://app.gitbook.com/s/LBGJKQic7BQYBXmVSjy0/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync).
+You’ll find the essential steps to import your content below. For more detailed steps and a video demo, head over to our dedicated guide for [importing content into GitBook using Git Sync](../../guides/editing-and-publishing-documentation/import-or-migrate-your-content-to-gitbook-with-git-sync.md).
 {% endhint %}
 
 {% stepper %}
@@ -92,7 +92,7 @@ When setting up your GitBook site, it’s crucial to organize your content in yo
 {% step %}
 **Set up sections and configure Git Sync**
 
-To organize your content, create one or more sections in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure it for those sections. You’ll need to synchronize your section with the folder or repository you set up in the previous step.
+To organize your content, create one or more sections in GitBook as needed. Install the [GitHub Sync](https://www.gitbook.com/integrations/github-sync) or [GitLab Sync](https://www.gitbook.com/integrations/gitlab-sync) integrations in your organization and configure them for those sections. You’ll need to synchronize your section with the folder or repository you set up in the previous step.
 {% endstep %}
 
 {% step %}

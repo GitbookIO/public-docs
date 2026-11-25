@@ -31,7 +31,7 @@ GitBook allows you to upload images up to 100MB per file.
 
 There's no set limit on the total number of assets in a section, though GitBook reserves the right to block accounts for abuse. For files larger than the upload limit, store them in a service like Google Drive or Dropbox and link to them from your page.
 
-Animated gifs have a limit of 200 frames per file. Large files — gifs included — slow your page's loading time, so avoid uploading large files directly where you can.
+Animated GIFs have a limit of 200 frames per file. Large files — GIFs included — slow your page's loading time, so avoid uploading large files directly where you can.
 
 #### Create an image gallery
 

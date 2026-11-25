@@ -105,13 +105,34 @@ Page link titles are optional — if you don't add one, the page uses its standa
 
 Page groups bring related pages together within a section's table of contents. You can add an icon to each page group.
 
+If you’re using Git Sync, add a new line and a level-two heading in `SUMMARY.md`:&#x20;
+
+{% code title="" lineNumbers="true" expandable="true" %}
+```markdown
+* [Other Page](other-page.md)
+
+## Page Group
+
+* [Page](page-group/page.md)
+* [Another page](page-group/another-page.md)
+
+***
+
+* [Subsequent Pages](subsequent-pages.md)
+```
+{% endcode %}
+
+Every top-level link after that heading belongs to the group until the next page-group heading or a `***` separator.
+
 {% hint style="info" %}
 Page groups organize pages within one section. Section groups organize sections in site navigation. They are different objects, even though both are called groups. See [collection.md](../collection.md "mention").
 {% endhint %}
 
 Create a page group by clicking **Add new...** > **Group** at the bottom of your table of contents.
 
-Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other.
+Page groups live only at the **top level** of the table of contents — you can't nest page groups inside each other or nest them within other pages.
+
+Page groups have a slug, and all pages within the group will be nested under that slug. When a user visits the URL for the page group, they'll be brought to the first page within that group.
 
 {% hint style="warning" %}
 Page-group slugs become part of every child page URL. Adding, renaming, or removing a page group changes child page URLs and breaks existing links unless you add redirects. See [site-redirects.md](../../../publish/site-redirects.md "mention").
@@ -137,7 +158,7 @@ Create an external link by clicking **Add new...** > **External link** at the bo
 
 To improve visibility for readers when skimming your table of contents, add an optional icon or emoji to individual pages. The icon or emoji appears in the table of contents, and next to the title at the top of the page.
 
-To add an icon or emoji, click the **Add icon** button when hovering the page title, or the emoji button to the left of the title.
+To add an icon or emoji, click the **Add icon** button when hovering over the page title, or the emoji button to the left of the title.
 
 ### Page options
 
@@ -211,7 +232,7 @@ Set a page cover for each page of your documentation. When you click the **Page 
 
 * **Change the cover image**
   1. Hover over the page cover and click **Change cover**.
-  2. Choose or upload an image. The ideal size is 1990x480 pixels.
+  2. Choose or upload an image. The ideal size is 1990 × 480 pixels.
 * **Reposition the cover image**
   1. Hover over the page cover and open the **Action menu** <picture><source srcset="../../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>.
   2. Click **Reposition**.

@@ -51,7 +51,7 @@ Some people in your team may not have access to a specific space in your GitBook
 
 To invite someone who’s already a member of your organization:
 
-1. Open the space or collection’s **Share** modal
+1. Open the space or collection’s **Share** modal.
 2. Type their name, choose their role for this space, and hit **Invite**.
 
 You can also add an entire [team](member-management/teams.md) by typing the team name and hitting **Invite**.
@@ -60,7 +60,7 @@ You can also add an entire [team](member-management/teams.md) by typing the team
 
 To invite someone from outside your organization to a space or collection:
 
-1. Open the space or collection’s **Share** modal
+1. Open the space or collection’s **Share** modal.
 2. Add the person’s email address, choose their role for this collection, and hit **Invite**.
 
 By default, people you add will be a [guest](member-management/roles.md#guest-role) in the space or collection. Guests only have access to the individual spaces that you invite them to, and can be given a specific [role](member-management/roles.md) within that space — whether it’s to edit the content, or only view and comment on it.

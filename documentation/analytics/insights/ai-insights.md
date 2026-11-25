@@ -1,12 +1,12 @@
 ---
 description: >-
-  See what your visitors ask GitBook Assistant, how well your content answers
-  them, and where your docs fall short
+  See what your visitors ask AI Assistant, how well your content answers them,
+  and where your docs fall short
 ---
 
 # AI Assistant
 
-The **AI Assistant** report shows what your visitors ask and how effectively [GitBook Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
+The **AI Assistant** report shows what your visitors ask and how effectively [AI Assistant](../../ai-for-your-readers/gitbook-ai-assistant.md) answers them using your content.
 
 To open it, go to **Analyze → AI Assistant** in your site’s sidebar.
 
@@ -16,6 +16,8 @@ Four metrics summarize the period you selected:
 * **Answered**: the share of questions the Assistant resolved.
 * **Helpful**: how visitors rated the answers they got.
 * **Savings**: the estimated support effort avoided by answering those questions.
+
+The **Questions asked over time** chart shows questions from **Humans** and from **AI agents** as separate series. Switch between **Questions** and **People asking** to change what the chart counts.
 
 See [.](./ "mention") for filters, time periods, and comparing periods.
 
@@ -29,11 +31,17 @@ Click a topic to open its detail view and see every question in it, grouped by *
 
 ## Breakdowns
 
-Three cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), and **Channels** (where the Assistant was used: your site, the [Docs Embed](../../publish/embedding/), or a connected tool). Click any value to filter the whole report by it.
+Four cards break the period down by **Answered** (whether the response solved the question), **Categories** (the type of question asked), **Channels** (where the Assistant was used: your site, the [Docs Embed](../../publish/embedding/), or a connected tool), and **Visitor type** (whether a person, an AI agent, or a bot asked: **Humans**, **AI agents**, **Bots**, or **Unknown**). Click any value, or choose **Filter by this value**, to filter the whole report by it.
 
 ## Questions
 
 The **Questions** card lists every question put to the Assistant. Click one to see how GitBook handled it and which content supported the response.
+
+To find specific questions, type in **Search questions…** in the **Questions** card.
+
+To see what visitors ask about one page, click **Filter** and choose **Page**. The report then shows only questions whose answers cite that page. The API offers the same filter through the `citedPage` parameter.
+
+The **Filter** menu also includes **Only relevant questions**, **Unanswered questions**, **Visitor type**, **Authenticated visitor**, **Relevance**, **Answered**, **Channel**, and **Topic**.
 
 At the top of the detail view, you can review the question itself, how often visitors asked it, its type, and the topics it belongs to.
 

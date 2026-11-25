@@ -25,7 +25,7 @@ If you see a **'Potential duplicated accounts'** error message at this step, thi
 
 To help you identify which accounts are linked, you will have to log out from this session and log in using the sign-in with GitHub method.
 
-If you already know your GitBook account associated with GitHub you can log into that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.
+If you already know your GitBook account associated with GitHub, you can log in to that user account and unlink your GitHub account (done in settings) before logging back in and linking your current account.
 
 Read more on our [troubleshooting page](troubleshooting.md#potential-duplicated-accounts-when-signing-in).
 {% endhint %}
@@ -47,16 +47,18 @@ Under **Source repository**, select the repository that contains your documentat
 Choose the source of truth for the initial sync. Select **Swap direction** if the repository content should replace the GitBook content.
 
 {% hint style="warning" %}
-**GitHub → GitBook can replace your section’s content.** If you select an empty repository, GitBook can replace your section with the repository’s empty content.
+**GitHub → GitBook can replace your section’s content.** GitBook replaces the section with the content of the selected branch. If the repository is empty, or is behind GitBook because recent change requests haven’t been exported yet, that content is lost from the section and your published site.
 
-Before you start the initial sync, confirm the repository, branch, and direction. Make sure the destination content is safe to replace.
+You choose a direction every time you set up Git Sync, including when you reconnect it or re-create an existing connection. Before you start the sync, confirm the repository, branch, and direction. If you choose GitHub → GitBook, check that the branch’s latest commit includes your most recent merged change requests.
+
+If content was replaced, see [Troubleshooting](troubleshooting.md) to restore it.
 {% endhint %}
 {% endstep %}
 
 {% step %}
 ### Set the project directory
 
-If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
+If your documentation lives in a subdirectory, enter it under **Project directory**. GitBook stores your site’s `gitbook-docs.yaml` file in this directory. Use this configuration if your docs live within a [monorepo](monorepos.md).
 {% endstep %}
 
 {% step %}

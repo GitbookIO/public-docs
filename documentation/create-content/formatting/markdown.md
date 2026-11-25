@@ -13,7 +13,7 @@ GitBook’s editor allows you to create formatted content using Markdown.
 Markdown is a popular markup syntax that’s widely known for its simplicity. GitBook supports it as a keyboard-friendly way to write rich and structured text.
 
 {% hint style="info" %}
-You can learn more about Markdown itself by visiting [Common Mark](https://commonmark.org/help/).
+You can learn more about Markdown itself by visiting [CommonMark](https://commonmark.org/help/).
 {% endhint %}
 
 ### Text formatting <a href="#text-formatting" id="text-formatting"></a>

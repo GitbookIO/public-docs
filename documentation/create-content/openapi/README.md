@@ -1,10 +1,10 @@
 ---
 description: >-
-  Add an OpenAPI spec to a page and let your users test endpoints right on the
-  page with interactive blocks.
+  Add an OpenAPI spec to a page and let your visitors test endpoints right on
+  the page with interactive blocks.
 ---
 
-# OpenAPI
+# Document an API
 
 Manually writing REST API documentation can be a time-consuming process. Fortunately, GitBook streamlines this task by allowing you to import OpenAPI documents, which detail your API’s structure and functionality.
 
@@ -26,9 +26,9 @@ GitBook supports importing and rendering these specification versions:
 
 ### Test it (powered by Scalar)
 
-GitBook's OpenAPI block also supports a "test it" functionality, which allows your users to test your API methods with data and parameters filled in from the editor.
+GitBook’s OpenAPI block also supports a "test it" functionality, which allows your visitors to test your API methods with data and parameters filled in from the editor.
 
-Powered by [Scalar](https://scalar.com/), you won't need to leave the docs to see your API methods in action. See an example of this above.
+Because it's powered by [Scalar](https://scalar.com/), you won't need to leave the docs to see your API methods in action. See an example of this above.
 
 #### FAQ
 

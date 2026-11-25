@@ -20,7 +20,7 @@ By managing the structure of your site, you can also manage your site’s top na
 
 Open the structure editor from **Site structure** in the site sidebar. Here you can see your site's sections, variants, and external links.
 
-Your site starts out with a single section with your site's name and a single variant with the content you created during your site's set-up.
+Your site starts out with a single section with your site's name and a single variant with the content you created during your site's setup.
 
 <figure><img src="../../.gitbook/assets/25_12_10_structure_light.png" alt="A GitBook screenshot showing a docs site&#x27;s structure"><figcaption><p>The structure of a published docs site.</p></figcaption></figure>
 

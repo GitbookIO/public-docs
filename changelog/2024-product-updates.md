@@ -14,7 +14,7 @@ We’ve made some visual upgrades to published docs sites, added content breadcr
 
 This week, we’ve released a few visual improvements for docs sites.
 
-First, the [**Tint color**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#styling) customization option now has more choices. Set it to **Primary** and the background of your docs site will subtly tint to match your primary theme color. Alternatively, choose Custom to select a different color to use as the background, and across your site — such as in tables (more about tables below).
+First, the [**Tint color**](../documentation/manage-your-site/customization/#styling) customization option now has more choices. Set it to **Primary** and the background of your docs site will subtly tint to match your primary theme color. Alternatively, choose Custom to select a different color to use as the background, and across your site — such as in tables (more about tables below).
 
 <figure><img src=".gitbook/assets/tint-color.jpg" alt=""><figcaption><p>You can find and enable the <strong>Tint color</strong> option in your site’s Customization menu, in the <strong>General</strong> > <strong>Themes</strong> section.</p></figcaption></figure>
 
@@ -37,7 +37,7 @@ This week we’ve released a bunch of improvements to tables to make them more c
 * First, tables that are smaller than the page will now appear at the same width when published — rather than increasing it to the width of the block as it did before.
 * Likewise, if you set custom column widths by dragging the separator, this will now be respected in the published site.
 * We also know that text-wrapping in cells was too aggressive, so we’ve fixed that to make better use of available space.
-* On top of that, we’ve updated table styles for published content. The table header will now adopt your [tint color](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/customization#styling) — if you’ve enabled it in your site’s **Customization** screen — and it’ll also respect your selected corner style.
+* On top of that, we’ve updated table styles for published content. The table header will now adopt your [tint color](../documentation/manage-your-site/customization/#styling) — if you’ve enabled it in your site’s **Customization** screen — and it’ll also respect your selected corner style.
 
 {% hint style="warning" %}
 **Note:** As this changes the way tables are sized, we recommend checking your published docs to see if your tables look the way you expect them to look
@@ -45,7 +45,7 @@ This week we’ve released a bunch of improvements to tables to make them more c
 
 ### Bold, italic, code and lists in comments
 
-You can now use [Markdown](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/formatting/markdown) to apply styling to text in comments. As well as bold, italic and code styling, you can also create bulleted and numbered lists in comments. Plus, we made pasted URLs clickable in comments so you can open them more easily.
+You can now use [Markdown](../documentation/create-content/formatting/markdown.md) to apply styling to text in comments. As well as bold, italic and code styling, you can also create bulleted and numbered lists in comments. Plus, we made pasted URLs clickable in comments so you can open them more easily.
 
 <figure><img src=".gitbook/assets/comment-styling.jpg" alt=""><figcaption><p>Use Markdown to style text in comments.</p></figcaption></figure>
 
@@ -149,13 +149,13 @@ Get more control over URLs, manage your site’s structure more easily, install 
 
 ### More control over site redirects
 
-Want to migrate content into GitBook, or just have a big reorganization? With the new [site redirect](https://gitbook.com/docs/publishing-documentation/site-redirects) options, you now have more control over where your old URLs point to. Open your site’s dashboard and open **Settings** to find the new controls.
+Want to migrate content into GitBook, or just have a big reorganization? With the new [site redirect](../documentation/publish/site-redirects.md) options, you now have more control over where your old URLs point to. Open your site’s dashboard and open **Settings** to find the new controls.
 
 <figure><img src=".gitbook/assets/Redirects.png" alt=""><figcaption><p>You can set up as many redirects as you like for your site — find it in your site’s settings.</p></figcaption></figure>
 
-GitBook [already sets up HTTP 301 redirects](https://gitbook.com/docs/publishing-documentation/site-redirects#about-automatic-redirects) if you move or rename a page, so that the old URL points to the new URL automatically. But you can now create a redirect from any path in your site's domain — which is important to avoid broken links in your docs which could impact SEO.
+GitBook [already sets up HTTP 301 redirects](../documentation/publish/site-redirects.md#about-automatic-redirects) if you move or rename a page, so that the old URL points to the new URL automatically. But you can now create a redirect from any path in your site's domain — which is important to avoid broken links in your docs which could impact SEO.
 
-Head to [our docs](https://gitbook.com/docs/publishing-documentation/site-redirects) to find out more about site redirects.
+Head to [our docs](../documentation/publish/site-redirects.md) to find out more about site redirects.
 
 ### Integration improvements
 
@@ -167,7 +167,7 @@ There’s also a new **Integrations** button for spaces and sites, which opens a
 
 ### Improved site structure controls
 
-Last month [we launched site sections](/broken/pages/i3qecHoIDofsUpNaSkNY#site-sections), giving you all the tools to build your docs out into a content hub for your users. This month, we’ve improved the site structure controls to make it easier to manage your site sections and any [variants](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants) within them.
+Last month [we launched site sections](/broken/pages/i3qecHoIDofsUpNaSkNY#site-sections), giving you all the tools to build your docs out into a content hub for your users. This month, we’ve improved the site structure controls to make it easier to manage your site sections and any [variants](../documentation/manage-your-site/site-structure/variants.md) within them.
 
 We’ve also tweaked the way you rename variants — now, you can only do it from the site structure table, and the option is no longer available in the Customization menu.
 
@@ -175,7 +175,7 @@ Head to your site’s dashboard and open **Settings** to see the new table and t
 
 ### **A new option to auto-play and loop videos**
 
-Want your [embedded YouTube and Vimeo videos](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/create-content/blocks/embed-a-url#videos) to auto-play and loop in your docs? Just add `?autoplay=1&_loop=1` to the end of your video’s URL when you embed it and your users will never have to hit a play button again — at least in your docs.
+Want your [embedded YouTube and Vimeo videos](../documentation/create-content/blocks/embed-a-url.md#videos) to auto-play and loop in your docs? Just add `?autoplay=1&_loop=1` to the end of your video’s URL when you embed it and your users will never have to hit a play button again — at least in your docs.
 
 ### Type symbols faster
 
@@ -224,27 +224,27 @@ You can now add multiple topics, such as separate products or product areas, to 
 
 ### **Global site search**
 
-When you add multiple spaces to a site using site sections, it also unlocks global search across all those spaces. So your users can use the [search bar](https://gitbook.com/docs/creating-content/searching-your-content) in your site header and find pages and information from any space with a single search.
+When you add multiple spaces to a site using site sections, it also unlocks global search across all those spaces. So your users can use the [search bar](../documentation/create-content/searching-your-content/) in your site header and find pages and information from any space with a single search.
 
 ### **Add buttons to your site header**
 
-Now, you can add primary and secondary buttons to [your docs site’s header](https://gitbook.com/docs/resources/gitbook-ui#site-header), along with the links you could add before. Head into the Customization menu for your site, choose the Layout tab, then add the buttons you need. This is great for things like ‘sign up’ and ‘sign in’ links, for example.
+Now, you can add primary and secondary buttons to [your docs site’s header](../documentation/reference/gitbook-ui.md), along with the links you could add before. Head into the Customization menu for your site, choose the Layout tab, then add the buttons you need. This is great for things like ‘sign up’ and ‘sign in’ links, for example.
 
 ### **Stepper blocks**
 
-We’ve added a new kind of block that’s designed for detailing step-by-step guides — [the stepper block](https://gitbook.com/docs/creating-content/blocks/stepper). You can add steppers to any page, and add almost any other block within a step.
+We’ve added a new kind of block that’s designed for detailing step-by-step guides — [the stepper block](../documentation/create-content/blocks/stepper.md). You can add steppers to any page, and add almost any other block within a step.
 
 ### **Improved insights**
 
 <figure><img src=".gitbook/assets/Advanced insights.png" alt=""><figcaption></figcaption></figure>
 
-We’ve given our [built-in docs site insights](https://gitbook.com/docs/publishing-documentation/insights) a small facelift. You’ll now see some data trends on each card to show how your content performance has changed over the last week, four weeks, or year — right on your docs site’s overview page. We have more insights improvements to come soon, so stay tuned!
+We’ve given our [built-in docs site insights](../documentation/analytics/insights/) a small facelift. You’ll now see some data trends on each card to show how your content performance has changed over the last week, four weeks, or year — right on your docs site’s overview page. We have more insights improvements to come soon, so stay tuned!
 
 ### **Reusable content**
 
 <figure><img src=".gitbook/assets/Reusable content.png" alt=""><figcaption></figcaption></figure>
 
-We’re continuing to roll out [reusable content](https://gitbook.com/docs/creating-content/reusable-content) — our new name for synced blocks. You can now create and reuse blocks of content across a space. When you edit the original content, those changes sync across all of its instances — making it easy to update published docs faster than ever.
+We’re continuing to roll out [reusable content](../documentation/create-content/reusable-content.md) — our new name for synced blocks. You can now create and reuse blocks of content across a space. When you edit the original content, those changes sync across all of its instances — making it easy to update published docs faster than ever.
 
 ### **Sponsored sites for open source**
 
@@ -298,7 +298,7 @@ We’re adding reusable content to GitBook, along with a better way to view edit
 
 <figure><img src=".gitbook/assets/synced-blocks-hero.png" alt=""><figcaption></figcaption></figure>
 
-We’re slowly rolling out a new way for you to create and reuse blocks across all your content in GitBook — [synced blocks](https://gitbook.com/docs/creating-content/reusable-content).
+We’re slowly rolling out a new way for you to create and reuse blocks across all your content in GitBook — [synced blocks](../documentation/create-content/reusable-content.md).
 
 Create a synced block by selecting and copying it, then add it to other pages from the insert menu. When you update it one place, those changes sync across all instances, making it easy to update published and internal docs faster than ever.
 
@@ -358,7 +358,7 @@ We’re changing the structure of URLs for sites with multiple variants — and 
 **Quick summary:** URLs for docs site variants, such as `docs.mycompany.com/v/fr/` will be accessible at `docs.mycompany.com/fr/`starting 26 September. We are removing the `/v/` to simplify the structure of URLs.
 {% endhint %}
 
-This Thursday, 26 September, we’re releasing a change that will change the URL structure for [multi-variant docs sites](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/manage-your-site/site-structure/variants) — i.e. published sites with more than one linked space.
+This Thursday, 26 September, we’re releasing a change that will change the URL structure for [multi-variant docs sites](../documentation/manage-your-site/site-structure/variants.md) — i.e. published sites with more than one linked space.
 
 If you’ve published multiple spaces in the same site, you might’ve noticed that variant URLs have a `/v/` between the domain and the slug. This update will remove that to simplify the URL for your readers, and make it easier for people moving their existing published into GitBook.
 
@@ -437,12 +437,12 @@ We’ve added new icon options for your pages, made a bunch of improvements to d
 
 ### ✨ New
 
-* You can now [choose from a set of 3,600 icons](https://gitbook.com/docs/creating-content/content-structure/page#page-icons-and-emojis) to add to your GitBook pages, to help you add more context to your table of contents. It’s added to the picker when you click next to your page title, alongside emojis. Plus, the picker now remembered your more recently used options so you can quickly add them again. For icons on published pages, you can also change the icon style from the **Customization** menu from five options.
+* You can now [choose from a set of 3,600 icons](../documentation/create-content/content-structure/page/#page-icons-and-emojis) to add to your GitBook pages, to help you add more context to your table of contents. It’s added to the picker when you click next to your page title, alongside emojis. Plus, the picker now remembered your more recently used options so you can quickly add them again. For icons on published pages, you can also change the icon style from the **Customization** menu from five options.
 * We’ve improved your docs site’s home screen, with a new header that shows all the useful information you need about your site and some handy links to edit your content or change your settings.
 * We’ve added a new flow for creating a docs site — you’ll now be guided through naming your site and choosing between an empty site or some sample content, before you choose whether to publish. It’s designed to get your site set up quickly and is great for new users. And just try clicking the icon on the preview to the right for a little easter egg :wink:
 * As part of our ongoing UI improvements, this release makes it easier to navigate around GitBook. The sidebar has new buttons and a neater layout to make it easier to select and expand different sections. You’ll also see improvements in the **Settings** page, and a few other smaller improvements and fixes around the whole app.
 * Last month, we told you we were slowly rolling out multi-factor authentication. Now, we’re pleased to confirm that MFA is available for everyone who wants to use it.
-* Likewise, the [option to hide pages](https://gitbook.com/docs/creating-content/content-structure/page#visibility) from a space is also available to everyone now. Take a look at our previous changelog update to find out more.
+* Likewise, the [option to hide pages](../documentation/create-content/content-structure/page/#visibility) from a space is also available to everyone now. Take a look at our previous changelog update to find out more.
 
 ### ➕ Improved
 
@@ -560,7 +560,7 @@ We’ve revamped the way you publish content in GitBook by bringing all your pub
 * **Docs sites in the sidebar** – You’ll now see a new Docs sites section of the sidebar. Here, you can view all your published content in one place, quickly move between different sites, and manage each site individually.
 * **Insights have a new home** – Insights now live in the **Docs site** area, right alongside each site. This makes it much easier to find insights for the content you want. Simply select a site, then click the **Insights** tab to view page ratings and search analytics for that site’s content.
 * **Publish the same space on multiple sites** – If you need to publish different combinations of spaces for different user groups, you can now do it effortlessly. Link a single space to as many sites as you want — you can even customize them all differently to match branding or styling requirements.
-* You can read about all these updates and learn more about docs sites in [our documentation preview](https://gitbook.com/docs/publishing-documentation/publish-a-docs-site).
+* You can read about all these updates and learn more about docs sites in [our documentation preview](../documentation/publish/publish-a-docs-site/).
 
 ### ➕ Improved
 
@@ -592,8 +592,8 @@ Broken link detection for internal links, AI features are officially graduating,
 
 ### ✨ New
 
-* **Broken link detection** – We’ve added a new way to find and fix broken links in your spaces for users on our Pro plan. When you open a change request or edit a space you’ll see a notification that shows broken links. Right now, this shows links to other GitBook pages, but we plan to add more link types in future! [Head to our docs](https://gitbook.com/docs/creating-content/broken-links) to find out more.
-* **GitBook AI is coming out of beta!** – After a long period of testing and improvement, today we’re bringing AI search and AI writing and editing out of beta. They’ll now be available as part of the Pro and Enterprise plans. Head to our docs to learn more about how [GitBook AI search](https://gitbook.com/docs/creating-content/searching-your-content/gitbook-ai) and [GitBook AI writing](https://gitbook.com/docs/creating-content/write-and-edit-with-ai) can supercharge your content.
+* **Broken link detection** – We’ve added a new way to find and fix broken links in your spaces for users on our Pro plan. When you open a change request or edit a space you’ll see a notification that shows broken links. Right now, this shows links to other GitBook pages, but we plan to add more link types in future! [Head to our docs](../documentation/analytics/broken-links.md) to find out more.
+* **GitBook AI is coming out of beta!** – After a long period of testing and improvement, today we’re bringing AI search and AI writing and editing out of beta. They’ll now be available as part of the Pro and Enterprise plans. Head to our docs to learn more about how [GitBook AI search](../documentation/create-content/searching-your-content/gitbook-ai.md) and [GitBook AI writing](../documentation/gitbook-agent/write-and-edit-with-ai.md) can supercharge your content.
 
 ### ➕ Improved
 
@@ -649,7 +649,7 @@ You can now contribute and suggest improvements to GitBook to make published doc
 ### ✨ New
 
 * We’ve opened our repository for the published documentation side of GitBook, so you can now contribute. Suggest improvements, submit bug fixes, translate the UI into other languages and more — it’s all possible! Head over to [our contribution guide](https://github.com/GitbookIO/gitbook-open/blob/add/readme/.github/CONTRIBUTING.md) to find out more. And if you want to discover more details about this huge development in the way we make GitBook, head to our blog post!
-* We’ve partnered with Scalar to add a **Test It** button to [OpenAPI blocks](https://gitbook.com/docs/api-references/openapi) in your published documentation. Clicking **Test It** will open up an integrated API client, where you can add headers, cookies, variables and more — before sending the request to test your API live.
+* We’ve partnered with Scalar to add a **Test It** button to [OpenAPI blocks](../documentation/create-content/openapi/) in your published documentation. Clicking **Test It** will open up an integrated API client, where you can add headers, cookies, variables and more — before sending the request to test your API live.
 
 ### ➕ Improved
 
@@ -684,7 +684,7 @@ Your published sites are getting a big update, with a new look, better performan
 * **New customization options** – You can now change the background color of your published page. Choose between a plain background, or subtly change the color to match your theme.
 * **Auto-detect light or dark mode** – Your published docs will now automatically detect whether the user’s device is set to light or dark mode, and adjust the theme to match it.
 * **Multi-space search** – You can now also search across multiple published spaces — which is great when you have a published collection and want to let users find information across it all.
-* Head to [our documentation](https://gitbook.com/docs) to see these new features in action!
+* Head to [our documentation](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/ruVxU3EouOc3UwT5nOno) to see these new features in action!
 
 ### ➕ Improved
 

@@ -8,3 +8,22 @@
 - tag: fixes
   label: Fixes
   icon: screwdriver-wrench
+- tag: security
+  label: Security
+  icon: shield-halved
+- tag: advisory
+  label: Advisory
+  icon: triangle-exclamation
+  color: red
+- tag: access-identity
+  label: Access & identity
+  icon: key
+  color: blue
+- tag: audit-compliance
+  label: Audit & compliance
+  icon: clipboard-check
+  color: green
+- tag: breaking-change
+  label: Breaking change
+  icon: circle-exclamation
+  color: orange

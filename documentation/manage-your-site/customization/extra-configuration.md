@@ -30,11 +30,26 @@ The **External links** section in the **Configure** tab controls the behavior wh
 
 Page actions adds a page-level dropdown to every page of your docs, allowing users to perform quick actions on a page's content — ideal for using your docs content as context within an AI prompt.
 
-You can disable this option from the **Configure** tab if you do not wish to show page options in your published docs.
+You can disable this option from the **Configure** tab if you do not wish to show page actions in your published docs.
 
-If you disable **Page actions**, GitBook also disables the MCP server at `~gitbook/mcp`. To use MCP, keep **Page actions** enabled in **Site customization** → **Page actions**.
+If you disable **Page actions**, GitBook also disables the MCP server at `~gitbook/mcp`. To use MCP, keep **Page actions** turned on and **Connect with MCP server** in **Enabled actions**.
 
 <figure><img src="../../.gitbook/assets/25_12_10_configure@2x.png" alt=""><figcaption></figcaption></figure>
+
+#### Control page actions with adaptive content
+
+If adaptive content is enabled, every enabled page action except **Open assistant** has a **Site audience** option:
+
+* **Default** shows the action to every visitor.
+* **Conditional** shows it only when a visitor matches an adaptive content condition.
+
+For example, show **Edit on GitHub/GitLab** only to internal visitors:
+
+```javascript
+visitor.claims.isInternal === true
+```
+
+GitBook shows a condition icon beside actions with a condition. Select a visitor segment in the customization preview to check which actions that segment sees.
 
 #### Open in AI providers
 
@@ -46,9 +61,9 @@ Enable this option to display an action to copy or view the page as Markdown.
 
 #### Connect with MCP server
 
-Enable this option to display the MCP server link in the page actions menu.
+Add this action to **Enabled actions** to turn on your site’s MCP server and display its link in the page actions menu.
 
-This option does not enable the MCP server itself. The MCP server works only when **Page actions** is enabled. To learn more, see [MCP servers for published docs](../../ai-for-your-readers/mcp-servers-for-published-docs.md).
+The MCP server works only while this action is in **Enabled actions**. If you move it to **Available actions**, `~gitbook/mcp` returns `404`. To learn more, see [MCP servers for published docs](../../ai-for-your-readers/mcp-servers-for-published-docs.md).
 
 #### Edit on GitHub/GitLab
 

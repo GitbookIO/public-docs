@@ -4,7 +4,7 @@ description: "Add a step-by-step guide to a page —\_perfect for guides, walkth
 
 # Stepper
 
-Stepper blocks let you break down a tutorial or guide into separate, but clearly linked steps. Each step can contain multiple different blocks, allowing you to add detailed information.
+Stepper blocks let you break down a tutorial or guide into separate but clearly linked steps. Each step can contain multiple different blocks, allowing you to add detailed information.
 
 ### Example
 
@@ -30,26 +30,21 @@ Click the `+` below the step numbers or hit `Enter` twice to add another step to
 
 ## Representation in Markdown
 
-<pre class="language-markdown"><code class="lang-markdown"><strong>## Example
-</strong>
+```markdown
+## Example
 
-
-
-
+{% stepper %}
+{% step %}
 ### Step 1 title
 Step 1 text
+{% endstep %}
 
-
-
-
-
+{% step %}
 ### Step 2 title
 Step 2 text
-
-
-
-
-</code></pre>
+{% endstep %}
+{% endstepper %}
+```
 
 ### Limitations
 

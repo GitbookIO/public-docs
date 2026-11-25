@@ -28,7 +28,7 @@
 
 ### D
 
-**diff view:** A toggle that highlight which pages and blocks have been added, edited or deleted within a change request. You can toggle it on using the **View changes** button in the [section header](glossary.md#s).
+**diff view:** A toggle that highlights which pages and blocks have been added, edited or deleted within a change request. You can toggle it on using the **View changes** button in the [section header](glossary.md#s).
 
 **discussions:** When you reply to a comment you create a discussion — effectively a threaded conversation within the Comments side panel.
 
@@ -46,7 +46,7 @@
 
 ### G
 
-**Git Sync:** [Git Sync](../docs-as-code/git-sync/) lets you synchronize GitHub or GitLab repositories with GitBook and turn Markdown files into documentation. It’s a two-way sync, so changes you make in GitBook appear in your repo, and changes you make directly in GitHub or GitLab will update in GitBook. You can set up Git Sync by adding the GitHub Sync or GitLab sync integrations to your organization. Find out more
+**Git Sync:** [Git Sync](../docs-as-code/git-sync/) lets you synchronize GitHub or GitLab repositories with GitBook and turn Markdown files into documentation. It’s a two-way sync, so changes you make in GitBook appear in your repo, and changes you make directly in GitHub or GitLab will update in GitBook. You can set up Git Sync by adding the GitHub Sync or GitLab Sync integrations to your organization. Find out more
 
 **GitBook AI:** An AI assistant that is trained on your knowledge base and documentation to [answer questions](../create-content/searching-your-content/gitbook-ai.md). You can ask GitBook AI anything about your documentation from the **Ask or search** menu. You can also ask GitBook AI to help you [write or edit your content](../gitbook-agent/write-and-edit-with-ai.md) in the editor.
 
@@ -58,9 +58,9 @@
 
 **insert palette:** Type `/` in **an empty block** to open the insert palette. It shows all the available blocks you can create, including plugins and reusable content. You can search for a block to narrow the selection, and select with your keyboard or cursor.
 
-**insights:** GitBook’s built in analytics tools for docs sites that let you see page views, feedback and popular searches on your published docs sites.
+**insights:** GitBook’s built-in analytics tools for docs sites that let you see page views, feedback and popular searches on your published docs sites.
 
-**integrations:** GitBook integrations let you connect your GitBook content to third party services and platforms. You can install integrations in any section in your organization from the Integrations menu.
+**integrations:** GitBook integrations let you connect your GitBook content to third-party services and platforms. You can install integrations in any section in your organization from the Integrations menu.
 
 ### L
 
@@ -104,7 +104,7 @@
 
 ### T
 
-**table of contents:** The list of document pages, links, and page groups that make up a section. You’ll find it on the left of your page, next to the sidebar. The table of content (TOC) also lets you access the section’s [reusable content](glossary.md#r) and [files](glossary.md#f). You can collapse it by hovering near the top right of the TOC.
+**table of contents:** The list of document pages, links, and page groups that make up a section. You’ll find it on the left of your page, next to the sidebar. The table of contents (TOC) also lets you access the section’s [reusable content](glossary.md#r) and [files](glossary.md#f). You can collapse it by hovering near the top right of the TOC.
 
 ### V
 

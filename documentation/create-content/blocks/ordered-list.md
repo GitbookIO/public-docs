@@ -32,7 +32,7 @@ To create nested items, you can use **Tab** to indent and **⇧ + Tab** to outde
 
 ### Adding an inline image to an ordered list
 
-Adding images inside of ordered lists is possible in GitBook
+Adding images inside of ordered lists is possible in GitBook.
 
 If you want to add an image within an ordered list, add it using the insert menu, then on the row below the image type `3.` then hit `Space`, and the ordered list will continue.
 

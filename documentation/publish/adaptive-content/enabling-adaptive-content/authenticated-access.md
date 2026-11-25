@@ -1,8 +1,8 @@
 # Authenticated access
 
-GitBook offers out-of-the box solutions to protect your docs. Integrations for Auth0, Okta, Azure AD, and AWS Cognito allow you install an integration to enforce a log-in screen before being able to access your published site.
+GitBook offers out-of-the-box solutions to protect your docs. Integrations for Auth0, Okta, Azure AD, and AWS Cognito allow you to install an integration to enforce a log-in screen before being able to access your published site.
 
-Depending on which authenticated access method you’re using, you’ll still need to configure a few more things depending on which integration you’re using in order to send the right data to GitBook.
+Depending on which integration you’re using, you’ll still need to configure a few more things to send the right data to GitBook.
 
 Head to the relevant guide for full instructions on setting up adaptive content with authenticated access.
 

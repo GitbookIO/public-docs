@@ -11,7 +11,9 @@ You can adapt and personalize many parts of your docs, including:
 * Hiding or showing [pages](../../create-content/content-structure/page/)
 * Hiding or showing site [variants](../../manage-your-site/site-structure/variants.md)
 * Hiding or showing site [sections](../../manage-your-site/site-structure/site-sections.md)
+* Hiding or showing [section groups](../../manage-your-site/site-structure/site-sections.md#create-a-section-group)
 * Hiding or showing [header links](../../manage-your-site/customization/layout-and-structure.md#header)
+* Hiding or showing [page actions](../../manage-your-site/customization/extra-configuration.md#control-page-actions-with-adaptive-content)
 * Adding personalized content to [inline expressions](../../create-content/variables-and-expressions.md)
 
 ### Working with the condition editor
@@ -40,7 +42,7 @@ As you use the autocomplete, you'll notice that [variables](../../create-content
 2. Then, configure a claim that shows which version of your product is being used by a visitor to your docs
 3. Finally, write an expression to only show certain pages when a user is on the latest version of your docs
 
-You can write many different kinds of expressions , as long as they are written in valid Javascript. For instance, you can combine multiple claims into the condition editor to match specific users by using the `&&` or `||` operator. You can read more about operators [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators).
+You can write many different kinds of expressions, as long as they are written in valid JavaScript. For instance, you can combine multiple claims into the condition editor to match specific users by using the `&&` or `||` operator. You can read more about operators [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators#binary_logical_operators).
 
 ### Target human visitors and AI agents
 
@@ -65,7 +67,7 @@ visitor.type === "human"
 
 Segments represent mock user data that you can configure to test your conditions.
 
-For example, you could set up a segment that represents a developer on your enterprise plan, or a sign-in user on a free plan, and then see which pages would be visible to them.
+For example, you could set up a segment that represents a developer on your enterprise plan, or a signed-in user on a free plan, and then see which pages would be visible to them.
 
 [You can read more about setting up and using segments here.](testing-with-segments.md)
 
@@ -95,11 +97,26 @@ To launch the condition editor for a section, head to the actions menu <picture>
 
 You can see which sections in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
 
+### Conditional section groups
+
+To control who can see a section group, open **Site structure**, then open the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to the group and click **Site audience**. Choose one of:
+
+* **Default**: anyone on your site can access the section group.
+* **Conditional**: only site visitors matching a condition can access the section group.
+
 ### Conditional page header links
 
 To launch the condition editor for a page header link, head to the actions menu <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> next to a header link, and click **Add condition**.
 
-You can see which links in your docs have conditions set if the section has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+You can see which links in your docs have conditions set if the link has a page condition icon <picture><source srcset="../../.gitbook/assets/25_04_10_page_condition.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_04_10_page_condition_1.svg" alt="The Page condition icon in GitBook"></picture> next to it.
+
+### Conditional page actions
+
+You can show enabled page actions only to visitors matching a condition. For example, show **Edit on GitHub/GitLab** only when `visitor.claims.isInternal === true`.
+
+In **Site customization → Page actions**, select an action and set **Site audience** to **Conditional**. GitBook marks conditioned actions with an icon. Test the result in the customization preview with a visitor segment.
+
+**Open assistant** does not support conditional audiences. See [Page actions](../../manage-your-site/customization/extra-configuration.md#control-page-actions-with-adaptive-content).
 
 ### Inline expressions
 

@@ -16,13 +16,13 @@ When viewing an open change request, you can add GitBook Agent as a reviewer. On
 
 If you want to inspect the changes yourself, open the change request in the editor and switch to the **Changes** tab. At the bottom of the editor, the floating diff navigator lets you jump between changed blocks, continue to the next page with diffs, and finish the review from the last change with the available review actions.
 
-It will suggest further changes if needed — and if you want the Agent to implement them, you can tell it to do so either [through the chat window](write-and-edit-with-ai.md#open-gitbook-agent-chat-window-in-any-change-request) or by [tagging it in a comment](write-and-edit-with-ai.md#tag-gitbook-agent-in-a-comment).
+It will suggest further changes if needed — and if you want the Agent to implement them, you can tell it to do so either [in a conversation](write-and-edit-with-ai.md#open-gitbook-agent) or by [tagging it in a comment](write-and-edit-with-ai.md#tag-gitbook-agent-in-a-comment).
 
 Once you’re happy with your changes, you can [merge the change request](../collaborate/change-requests/#merge) to publish the changes live.
 
 ### Update change requests with GitBook Agent
 
-GitBook Agent works with you like another member of your team. [Inside of a change request](../collaborate/change-requests/change-requests-in-a-space.md), you can [open the GitBook Agent chat window](write-and-edit-with-ai.md#open-gitbook-agent-chat-window-in-any-change-request) to start collaborating.
+GitBook Agent works with you like another member of your team. [Inside of a change request](../collaborate/change-requests/change-requests-in-a-space.md), you can [open GitBook Agent](write-and-edit-with-ai.md#open-gitbook-agent) to start collaborating.
 
 You can ask it to do things like:
 

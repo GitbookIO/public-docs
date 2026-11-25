@@ -8,7 +8,7 @@ description: Set up an Okta login screen for visitors to your docs
 This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
 {% endhint %}
 
-To setup your GitBook site with authenticated access using Okta, the process looks as follows:
+To set up your GitBook site with authenticated access using Okta, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -32,7 +32,7 @@ Configure Okta to work with adaptive content in GitBook.
 
 ### Create a new Okta application
 
-First, sign in to Okta platform (the admin version) and create a new app integration (or use an existing one) by clicking the Applications button in the left sidebar.
+First, sign in to the Okta platform (the admin version) and create a new app integration (or use an existing one) by clicking the Applications button in the left sidebar.
 
 <figure><img src="../../../.gitbook/assets/25_04_10_setting_up_okta_1.png" alt="An Okta screenshot showing the create app integration screen"><figcaption></figcaption></figure>
 
@@ -56,11 +56,11 @@ Navigate to the Integrations tab in the site you want to publish and locate the 
 
 Install the integration on your site.
 
-Upon installation on site, you will see a screen asking you enter the Client ID, Okta Domain, and Client Secret.
+Upon installation on site, you will see a screen asking you to enter the Client ID, Okta Domain, and Client Secret.
 
 <figure><img src="../../../.gitbook/assets/25_04_10_setting_up_okta_6.png" alt="A GitBook screenshot showing the Okta credentials modal"><figcaption></figcaption></figure>
 
-For Client ID, Okta Domain (remove `https://`prefix, if any) and Client Secret, paste in the value you copied from Okta Dashboard.
+For Client ID, Okta Domain (remove `https://`prefix, if any) and Client Secret, paste in the values you copied from the Okta dashboard.
 
 Click Save.
 
@@ -70,7 +70,7 @@ Copy the URL displayed in the modal and enter it as a Sign-In redirect URI in Ok
 
 Now, in GitBook, close the integrations modal and click on the Manage site button. Navigate to **Audience**, select **Authenticated access**, and choose Okta as the backend. Then, click **Update audience**. Go to the site’s screen and click **Publish**.\
 \
-The site is now published behind authenticated access controlled by your Auth0 application. To try it out, click on Visit. You will be asked to sign in with Okta, which confirms that your site is published behind authenticated access using Auth0.
+The site is now published behind authenticated access controlled by your Okta application. To try it out, click on Visit. You will be asked to sign in with Okta, which confirms that your site is published behind authenticated access using Okta.
 
 ### Configure Okta for adaptive content (optional)
 

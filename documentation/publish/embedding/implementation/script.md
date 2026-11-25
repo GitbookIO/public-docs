@@ -24,7 +24,7 @@ You can also build it manually:
 https://YOUR_DOCS_DOMAIN/~gitbook/embed/script.js
 ```
 
-Replace your `YOUR_DOCS_DOMAIN` with your real docs site’s domain.
+Replace `YOUR_DOCS_DOMAIN` with your real docs site’s domain.
 {% endstep %}
 
 {% step %}
@@ -202,7 +202,7 @@ If you only want to load the widget conditionally, or you need to attach an auth
 </script>
 ```
 
-Use this pattern when the widget should load only after user action or feature flags
+Use this pattern when the widget should load only after user action or feature flags.
 
 ## API Reference
 
@@ -259,7 +259,7 @@ Custom action buttons rendered in the sidebar alongside tabs. Each action button
 
 * **Type**: `Array<{ icon: string, label: string, onClick: () => void }>`
 * **Properties**:
-  * `icon`: `string` - Icon name. Any [FontAwesome icon](https://fontawesome.com/search) is supported
+  * `icon`: `string` - Icon name. Any [Font Awesome icon](https://fontawesome.com/search) is supported
   * `label`: `string` - Button label text
   * `onClick`: `() => void | Promise<void>` - Callback function when clicked
 

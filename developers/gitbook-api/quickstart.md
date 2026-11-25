@@ -59,7 +59,7 @@ Accept: */*
 {
   "question": "How do I get started?",
   "scope": {
-    "mode": "default",
+    "mode": "default"
   }
 }
 ```
@@ -100,6 +100,7 @@ const stream = await client.orgs.streamAskInSite(
         scope: {
             mode: "default",
     },
+  }, 
 );
 
 // Stream chunks as they arrive

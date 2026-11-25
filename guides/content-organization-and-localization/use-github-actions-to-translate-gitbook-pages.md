@@ -11,7 +11,7 @@ As far as any good documentation goes, accessibility — and [Internationalizati
 GitBook Agent can [translate your documentation](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/gitbook-agent/translations) into multiple languages and keep it synchronized with its source. You can use built-in translations rather than maintaining a custom translation workflow.
 
 {% hint style="info" %}
-Only organization admins can create and access translations. Translations are a paid add-on — see [our pricing page](https://www.gitbook.com/pricing) for more information.
+Only organization admins can create and access translations. Translations are a paid add-on — see [our pricing page](https://www.gitbook.com/pricing) for more information.
 {% endhint %}
 
 ### How translations work
@@ -51,11 +51,36 @@ Custom instructions cannot add content, create new elements, or change the struc
 
 Add glossary terms to keep product terminology consistent. Each term must use the source-language wording.
 
-For example, an English glossary can map `SSO` to `SSO` and `Git Sync` to `Git Sync`. GitBook Agent then keeps those terms unchanged in translated output.
+Use non-empty entries for specific product names or technical terms that need consistent translation or preservation. A glossary isn't a broad find-and-replace mechanism.
+
+Use these patterns when authoring glossary entries:
+
+* Safe: `SSO → SSO` and `Git Sync → Git Sync`.
+* Unsafe: an empty row or mapping, a generic single-word entry, a broad find-and-replace rule, or a word-order swap such as `Git Sync → Sync Git`.
+
+Unsafe entries can trigger translation retries. They can also cause jobs to time out or be cancelled.
 
 {% hint style="warning" %}
 Changing a glossary triggers a full re-translation. This can increase processing time and cost.
 {% endhint %}
+
+### Troubleshoot translation jobs
+
+If a translation job remains pending, times out, or is cancelled, follow these steps:
+
+1. Review the glossary for empty rows, generic single-word entries, broad rules, or word-reordering rules.
+2. Temporarily remove or disable the glossary.
+3. Delete any empty, overly generic, broad, or word-reordering rules.
+4. Retry the translation.
+
+Each glossary edit starts a full re-translation. It can increase processing time and cost.
+
+If the retry still fails, gather these details:
+
+* The affected translation workflow or source section.
+* The source and target languages.
+* The job status and approximate start time.
+* The glossary configuration, or a redacted export or screenshot.
 
 ### Publish the translated docs
 
@@ -66,7 +91,7 @@ To add the translation, follow these steps:
 1. In the site sidebar, under **General**, click **Site structure**.
 2. Select the source section you’ve translated and click **Add variant**, then open the **Use existing content** tab
 3. Search for the translated section, hover over it and choose **Use as content**.
-4. Give your variant a title and click **Add variant**.&#x20;
+4. Give your variant a title and click **Add variant**.
 5. Optionally, change the slug of your variant.
 
 Once undrafted and published, your users can then select the language from the published site’s language switcher.

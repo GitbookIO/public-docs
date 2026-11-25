@@ -43,7 +43,7 @@ Read claims being passed in as strings.
 
 GitBook accepts dynamic strings, meaning you can dynamically pass string data — such as a user’s name, developer tokens, and more.
 
-Strings can also contain an **optional enum** key, which allows you to restrict the data that is received by GitBook to one of it’s set values.
+Strings can also contain an **optional enum** key, which allows you to restrict the data that is received by GitBook to one of its set values.
 
 ```json
 {
@@ -152,6 +152,24 @@ If you intend to work with unsigned claims, you will need to declare the claims 
   "additionalProperties": false
 }
 ```
+
+### Use visitor claims with the Content API
+
+Use the Content API when your server needs published content evaluated for a specific visitor.
+
+Define visitor claims in your schema, then sign the visitor JSON Web Token (JWT) with the **Visitor token signing key** in audience settings. Only claims declared in the schema can drive your adaptive content conditions.
+
+Your trusted server exchanges the signed visitor JWT and target published URL for a short-lived content API token. Use the returned `Bearer` token to search content, list pages, and retrieve pages in that visitor's context.
+
+Before implementing the flow, understand how retrieval behaves:
+
+* A single-page request with `evaluated=true` resolves conditional blocks and inline expressions for the visitor. Without it, the API returns raw authored content.
+* Search results and page lists omit content the visitor cannot view. A direct request for an ineligible page returns `404`.
+* If the visitor JWT signature is invalid, GitBook evaluates content as an anonymous visitor. GitBook doesn't trust the supplied claims.
+
+{% hint style="warning" %}
+Create and exchange signed visitor JWTs only on a trusted server. Never expose the Visitor token signing key or content API token in browser code or logs.
+{% endhint %}
 
 ### Pass visitor data to GitBook
 

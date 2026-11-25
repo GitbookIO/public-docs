@@ -6,7 +6,7 @@ description: Create drawings within GitBook and add them to your page
 
 You can create a drawing or sketch directly through GitBook using the integrated [Excalidraw](https://excalidraw.com/) editor, then add it right into your GitBook page.
 
-To create a drawing, press `/` on an empty line to bring up the insert palette and choose **Drawing**. This will open a popover with Excalidraw tools — simply close the popover when you’re done and your diagram will appear on your GitBook page.
+To create a drawing, press `/` on an empty line to bring up the insert palette and choose **Drawing**. This will open a popover with Excalidraw tools — close the popover when you’re done and your diagram will appear on your GitBook page.
 
 GitBook stores drawings as special SVG files in the section. Those files have an extension of `drawing.svg`.
 
@@ -16,7 +16,7 @@ GitBook stores drawings as special SVG files in the section. Those files have an
 
 ### Draw with GitBook AI
 
-When using drawing block, you can ask GitBook AI to generate an illustration by specifying a prompt. Simply type in a prompt and hit **Generate**, or choose one of the suggested prompts to get started.
+When using the drawing block, you can ask GitBook AI to generate an illustration by specifying a prompt. Type in a prompt and hit **Generate**, or choose one of the suggested prompts to get started.
 
 Once GitBook AI has finished the drawing, you can double-click to open the full drawing palette and edit it however you like.
 

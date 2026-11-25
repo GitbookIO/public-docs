@@ -62,6 +62,7 @@
 * [How to personalize your GitBook site using URL parameters and adaptive content](docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-url-parameters-and-adaptive-content.md "How to personalize docs via URLs")
 * [How to personalize your GitBook site using cookies and adaptive content](docs-personalization-and-authentication/setting-up-adaptive-content.md "How to personalize docs via cookies")
 * [How to personalize your GitBook site using Auth0 and adaptive content](docs-personalization-and-authentication/how-to-personalize-your-gitbook-site-using-auth0-and-adaptive-content.md "How to personalize docs via Auth0")
+* [Showing private content to signed-in visitors on a public docs site](docs-personalization-and-authentication/how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md "How to mix public and private content")
 
 ## Docs best practices
 

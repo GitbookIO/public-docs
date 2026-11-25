@@ -7,7 +7,7 @@ description: >-
 # Manage or remove members
 
 {% hint style="info" %}
-If you’re looking for information about inviting members to your org, read [share.md](../share.md "mention")
+If you’re looking for information about inviting members to your org, read [share.md](../share.md "mention").
 {% endhint %}
 
 ### Manage member roles <a href="#manage-member-roles" id="manage-member-roles"></a>
@@ -43,7 +43,9 @@ To remove a member of your organization:
 
 ### Transfer ownership of an organization <a href="#transferring-ownership" id="transferring-ownership"></a>
 
-Nobody “owns” your GitBook organization, but you do need at least one an admin in any organization. If you prefer to have only one user in charge of the billing and member management, we recommend downgrading other admin users to [the Creator role](roles.md#creator).
+GitBook organizations don't have a single owner. Instead, every organization needs at least one admin, and admins manage billing and members.
+
+To hand an organization over to someone else, make them an admin from **Settings → Members**. You can then change your own role or leave the organization. If you want only one person in charge of billing and member management, change the other admins to [the Creator role](roles.md#creator).
 
 You can add a new admin to your organization at any time. If your admin has left the organization, [see the related section in the FAQs](invite-members-to-your-organization.md#how-do-i-add-and-manage-admin-roles-in-my-gitbook-organization) for next steps.
 
@@ -57,7 +59,7 @@ You can add a new admin to your organization at any time. If your admin has left
 
 **Adding a new admin**
 
-To add a new admin, first invite [invite them to your organization](../share.md), making sure to select **Administrator** as their role.
+To add a new admin, first [invite them to your organization](../share.md), making sure to select **Administrator** as their role.
 
 Once they accept the invitation, the new admin will gain access to administrative settings, including billing.
 
@@ -82,6 +84,6 @@ To ensure security and protect sensitive information, **we must verify your iden
 
 GitBook’s free plan only allows a single user without any docs sites. If you want to downgrade to this plan, you will need to remove all other members.
 
-The admin who will remain as the owner can remove other users completely, blocking their access to collaboration and editing features. ​﻿﻿You can also ensure that the right person receives any future bills and receipts by updating their details in [the Billing section](../../account-and-billing/organization-settings.md#billing) of your [organization settings](../../account-and-billing/organization-settings.md). ​
+The admin who will remain can remove other users completely, blocking their access to collaboration and editing features. ​﻿﻿You can also ensure that the right person receives any future bills and receipts by updating their details in [the Billing section](../../account-and-billing/organization-settings.md#billing) of your [organization settings](../../account-and-billing/organization-settings.md). ​
 
 </details>

@@ -6,7 +6,7 @@ description: Manage and add files to your site such as PDFs, videos, documents a
 
 You can upload files to your GitBook section and add them to your page for people to view or download.
 
-You can show some files, such as images and OpenAPI files, on the page itself for people to see without clicking anything. For others, such as PDFs, users will have to click to view or download it.
+You can show some files, such as images and OpenAPI files, on the page itself for people to see without clicking anything. For others, such as PDFs, users will have to click to view or download them.
 
 You can also optionally add a caption below any file you insert into your page to add more information if needed.
 
@@ -41,7 +41,7 @@ To rename a file, open the **Actions menu** <picture><source srcset="../../.gitb
 To delete a file, open the **Actions menu** <picture><source srcset="../../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture> for the file and click **Delete**. After confirming in the dialog that you’re sure you want to delete the file, your file will be deleted.
 
 {% hint style="warning" %}
-**Note:** Make sure you update any pages that included your deleted file! File blocks that reference a deleted file will show an empty block, or _Could not load image_ error.
+**Note:** Make sure you update any pages that included your deleted file! File blocks that reference a deleted file will show an empty block, or a _Could not load image_ error.
 {% endhint %}
 
 ### Replacing a file

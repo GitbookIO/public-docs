@@ -1,6 +1,6 @@
 # Configuring the “Test it” button
 
-You can configure the "Test It" button and accompanying window in GitBook using several OpenAPI extensions. These extensions can help improve and configure the testing suite for users.
+You can configure the "Test it" button and accompanying window in GitBook using several OpenAPI extensions. These extensions can help improve and configure the testing suite for users.
 
 ### Hiding the “Test it” button
 

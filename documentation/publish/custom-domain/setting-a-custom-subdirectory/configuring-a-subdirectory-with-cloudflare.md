@@ -18,7 +18,7 @@ Under **Additional configuration**, you will now see a proxy URL. You'll use thi
 {% step %}
 #### Create your Cloudflare worker
 
-Sign into your Cloudflare account and navigate to **Workers & Pages**
+Sign in to your Cloudflare account and navigate to **Workers & Pages**.
 
 Click the **Create** button.
 
@@ -63,6 +63,6 @@ export default {
 Be sure to update the URL on line 5 with the proxy URL you got from GitBook in the first step.
 {% endhint %}
 
-Once that’s done, click **Deploy**. This process may take a few moments. Once it’s complete, when visiting the URL, you should see your docs site!
+Once that’s done, click **Deploy**. This process may take a few moments. Once it’s complete, when visiting the URL, you should see your docs site.
 {% endstep %}
 {% endstepper %}

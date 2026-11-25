@@ -1,13 +1,13 @@
 # Table of contents
 
 * [GitBook documentation](README.md)
+* [Set up GitBook](setup.md)
 
 ## Get started <a href="#getting-started" id="getting-started"></a>
 
 * [Quickstart](getting-started/quickstart.md)
 * [LLM-ready docs](getting-started/llm-ready-docs.md)
 * [Migrate to GitBook](getting-started/import.md)
-* [Site workspace](getting-started/sites-first.md)
 
 ## Create content
 
@@ -64,7 +64,10 @@
     * [Using OpenAPI proxy](create-content/openapi/guides/using-openapi-proxy.md)
     * [Describing enums](create-content/openapi/guides/describing-enums.md)
     * [Integrating with CI/CD](create-content/openapi/guides/support-for-ci-cd-with-api-blocks.md)
-* [Style guide](create-content/styleguide.md)
+* [Style guide](create-content/styleguide/README.md)
+  * [Build your style guide](create-content/styleguide/build-your-style-guide.md)
+  * [Check content against your style guide](create-content/styleguide/check-content-against-your-style-guide.md)
+  * [How GitBook Agent enforces your style guide](create-content/styleguide/how-gitbook-agent-enforces-your-style-guide.md)
 * [Version control](create-content/version-control.md)
 * [Searching internal content](create-content/searching-your-content/README.md)
   * [Search & Quick find](create-content/searching-your-content/quick-find.md)
@@ -140,7 +143,7 @@
     * [Setting up AWS Cognito](publish/site-audience/authenticated-access/setting-up-aws-cognito.md)
     * [Setting up Okta](publish/site-audience/authenticated-access/setting-up-okta.md)
     * [Setting up OIDC](publish/site-audience/authenticated-access/setting-up-oidc.md)
-    * [Setting up a custom backend](publish/site-audience/authenticated-access/setting-up-a-custom-backend.md)
+    * [Hosting your own login page](publish/site-audience/authenticated-access/setting-up-a-custom-backend.md)
 * [Adaptive content](publish/adaptive-content/README.md)
   * [Enabling adaptive content](publish/adaptive-content/enabling-adaptive-content/README.md)
     * [Cookies](publish/adaptive-content/enabling-adaptive-content/cookies.md)
@@ -196,14 +199,18 @@
   * [Billing policy](account-and-billing/plans/billing-policy.md)
   * [Legacy pricing](account-and-billing/plans/legacy-plans.md)
   * [Subscription cancellations](account-and-billing/plans/cancelling-a-plan.md)
+  * [AI credits](account-and-billing/plans/ai-credits.md)
 * [Personal settings](account-and-billing/account-settings.md)
 * [Organization settings](account-and-billing/organization-settings.md)
+* [Audit logs](account-and-billing/audit-logs/README.md)
+  * [Audit log actions](account-and-billing/audit-logs/actions.md)
 * [SSO & SAML](account-and-billing/sso-and-saml/README.md)
   * [SSO Members vs non-SSO](account-and-billing/sso-and-saml/sso-members-vs-non-sso.md)
 * [Billing FAQ](account-and-billing/billing-faq/README.md)
   * [Free trials](account-and-billing/billing-faq/free-trial.md)
   * [Payments and invoices](account-and-billing/billing-faq/payments-and-invoices.md)
   * [Site and member costs](account-and-billing/billing-faq/plan-and-member-costs.md)
+  * [AI credits and usage](account-and-billing/billing-faq/ai-credits-and-usage.md)
 
 ## Reference
 

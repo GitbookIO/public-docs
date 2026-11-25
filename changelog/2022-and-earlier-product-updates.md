@@ -140,7 +140,7 @@ We've released a _lot_ of new integrations! Find out more about the integrations
 
 ### Card view for tables
 
-Card view will help you to build beautiful landing pages in GitBook. Card view is a new way to display table data, so it's possible to convert existing tables to make use of card view. [Find out more about card view in our documentation](https://gitbook.com/docs/creating-content/blocks/cards).
+Card view will help you to build beautiful landing pages in GitBook. Card view is a new way to display table data, so it's possible to convert existing tables to make use of card view. [Find out more about card view in our documentation](../documentation/create-content/blocks/cards.md).
 
 ### Accessibility
 

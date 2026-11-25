@@ -49,6 +49,14 @@ Add and remove [members](../collaborate/member-management/). You can also update
 
 <details>
 
+<summary>Audit logs</summary>
+
+Review changes made across your organization, filter events, and export them as CSV. Available on the Enterprise plan. Learn more about [audit logs](audit-logs/README.md).
+
+</details>
+
+<details>
+
 <summary>Merge rules</summary>
 
 Control how change requests are reviewed and merged across your organization. Organization rules apply to every section by default. Each section can inherit, replace, or disable those rules. Learn more about [merge rules](../collaborate/merge-rules.md).
@@ -105,11 +113,17 @@ Create and manage links that let people join your organization.
 
 <details>
 
-<summary>SSO</summary>
+<summary>Access</summary>
 
-**Email domains**
+Configure how members join, sign in, and get access to your organization. See [SSO & SAML](sso-and-saml/) for setup steps.
 
-For each domain you add, people with an email address on that domain can access the organization after they create a GitBook account. Choose their default [role](../collaborate/member-management/roles.md).
+**Allowed email domains**
+
+People with a verified email address on a domain you add can join the organization when they sign in. Only work email domains are accepted.
+
+**Default role**
+
+Choose the [role](../collaborate/member-management/roles.md) new members get when they join automatically, through an allowed email domain or your identity provider.
 
 **SAML**
 

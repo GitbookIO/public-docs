@@ -1,5 +1,5 @@
 ---
-description: Connect external sources to GitBook Assistant and GitBook Agent
+description: Connect external sources to AI Assistant and GitBook Agent
 tags:
   - beta
   - add-on
@@ -57,7 +57,7 @@ Connected URLs refresh once a day by default. You can also trigger a refresh man
 {% step %}
 #### Choose how the records are used
 
-For each connection, you can choose whether its records appear in search and GitBook Assistant, and whether they help GitBook generate change requests.
+For each connection, you can choose whether its records appear in search and AI Assistant, and whether they help GitBook generate change requests.
 
 You can also adjust the connection’s search ranking to prioritize or deprioritize its records.
 {% endstep %}
@@ -111,7 +111,7 @@ GitBook can use those records to create change requests with suggested changes f
 
 Turn on **Expose in search / assistant** to make records from this connection searchable by visitors and available to answer questions.
 
-This allows connected content to appear in your site’s AI-powered search experience and in GitBook Assistant responses.
+This allows connected content to appear in your site’s AI-powered search experience and in AI Assistant responses.
 
 {% hint style="warning" %}
 Enabling **Expose in search / assistant** makes records from that connection available to anyone who can access the site — including external visitors if the site is shared externally.
@@ -153,7 +153,7 @@ To connect GitHub Discussions, use credentials with read access to discussions.
 
 #### GitHub Issues
 
-GitBook indexes resolved issues. It doesn’t index open, unresolved, or spam conversations.
+GitBook indexes resolved issues. It doesn’t index open, unresolved, or spam issues.
 
 To connect GitHub Issues, use credentials with read access to issues.
 
@@ -173,7 +173,7 @@ We use records to suggest content changes and provide additional context to agen
 
 We retain records for as long as the source remains connected. If you remove the connection, we delete all stored records. We do not delete any content that was generated using those records as context, or remove the content of records from any stored AI conversation logs.
 
-For example, you might connect Intercom and GitBook suggests a documentation change based on a closed Intercom support ticket. If you then remove the Intercom connection, all our Intercom specific stored data is deleted, but the change requests will remain.
+For example, you might connect Intercom and GitBook suggests a documentation change based on a closed Intercom support ticket. If you then remove the Intercom connection, all our Intercom-specific stored data is deleted, but the change requests will remain.
 
 #### FAQ
 
@@ -185,9 +185,9 @@ Generally, GitBook only requests source fields that it can use as context (see c
 
 When we ingest a record, we pass it through PII redaction processes. The first is an in-memory redaction of any emails, phone numbers, addresses, and other personal information.
 
-We then pass the record through a 2nd PII step using a 3rd party LLM. This is a ZDR-compliant, no-store request that is not stored on the servers of our 3rd party and is not used in any training.
+We then pass the record through a 2nd PII step using a third-party LLM. This is a ZDR-compliant, no-store request that is not stored on the servers of our 3rd party and is not used in any training.
 
-PII may exist on our servers for a few minutes whilst we do this pre-processing, but we only store the post-processed record.
+PII may exist on our servers for a few minutes while we do this pre-processing, but we only store the post-processed record.
 
 </details>
 
@@ -197,7 +197,7 @@ PII may exist on our servers for a few minutes whilst we do this pre-processing,
 
 We use a 3rd party to redact PII after our initial, internal PII redaction is done.
 
-We also use the redacted record content in 3rd party providers when creating change requests and responding to user questions.
+We also use the redacted record content in third-party providers when creating change requests and responding to user questions.
 
 For example, when writing content with GitBook Agent, the agent may include content from an external record as additional context.
 
@@ -205,9 +205,9 @@ For example, when writing content with GitBook Agent, the agent may include cont
 
 <details>
 
-<summary>Does GitBook use data for any model training, either itself or via 3rd parties</summary>
+<summary>Does GitBook use data for any model training, either itself or via third parties?</summary>
 
-No, we do not use record data for training and verify with our 3rd party providers that they do not either.
+No, we do not use record data for training and verify with our third-party providers that they do not either.
 
 </details>
 

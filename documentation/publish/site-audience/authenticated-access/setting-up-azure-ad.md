@@ -16,7 +16,7 @@ This is due to a security measure put in place by Microsoft.
 
 ### Overview
 
-To setup your GitBook site with authenticated access using Azure AD, the process looks as follows:
+To set up your GitBook site with authenticated access using Azure AD, the process looks as follows:
 
 {% stepper %}
 {% step %}
@@ -57,7 +57,7 @@ Start by creating an app registration in your Microsoft Entra ID dashboard. This
 
     <figure><img src="../../../.gitbook/assets/25_04_10_azure_ad_integration_client_secrets.png" alt="An Azure screenshot showing where to add a certificate or secret"><figcaption><p>Add a certificate or secret.</p></figcaption></figure>
 9. Click on **+ New client secret**.
-10. Enter suitable description for the secret and click **Add**.
+10. Enter a suitable description for the secret and click **Add**.
 11. Copy and make note of the **Value** field (_**not** the Secret ID_) of the secret you just created.
 
 ### 2. Install and configure the Azure AD integration
@@ -80,10 +80,10 @@ Once you've created the Azure AD app registration, the next step is to install t
 8. Copy the **URL** displayed **at the bottom of the dialog**.
 9. Head back to the Azure AD app registration you created earlier in the Microsoft Entra ID dashboard.
 10. Browse to **Manage** > **Authentication** in the sidebar.
-11. Click **+ Add a platform** and select **Web** card in the panel that opens.<br>
+11. Click **+ Add a platform** and select the **Web** card in the panel that opens.<br>
 
     <figure><img src="../../../.gitbook/assets/25_04_10_azure_ad_app_reg_authentication.png" alt="An Azure screenshot showing authentication platform settings"><figcaption></figcaption></figure>
-12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”<br>
+12. Paste the GitBook integration **URL** you copied earlier in the **Redirect URI** field, and click “Configure”.<br>
 
     <figure><img src="../../../.gitbook/assets/25_07_21_image.png" alt="An Azure screenshot showing where to enter the redirect URI"><figcaption></figcaption></figure>
 13. Head back to **Azure integration** installation screen **in GitBook**.
@@ -95,7 +95,7 @@ Once you've created the Azure AD app registration, the next step is to install t
     <figure><img src="../../../.gitbook/assets/25_04_10_setting_up_azure_ad.png" alt="A GitBook screenshot showing authenticated access settings"><figcaption></figcaption></figure>
 18. Head to the site's overview screen and click **Publish** if the site is not already published.
 
-Your site is now published behind authenticated access using your Azure AD as identity provider.
+Your site is now published behind authenticated access using Azure AD as your identity provider.
 
 To test it out, click on Visit. You will be asked to sign in with Azure, which confirms that your site is published behind authenticated access using Azure.
 

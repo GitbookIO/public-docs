@@ -12,7 +12,7 @@ description: Customize and edit settings across your published site
 
 <summary>Site title</summary>
 
-Change the name of your site, if you don't have a custom logo this is the name that your site visitors will see.
+Change the name of your site. If you don't have a custom logo, this is the name that your site visitors will see.
 
 </details>
 
@@ -20,11 +20,11 @@ Change the name of your site, if you don't have a custom logo this is the name t
 
 <summary>Analytics cookie</summary>
 
-If you want to use GitBook’s [site analytics](../analytics/insights/), your site will use cookies to identify returning visitors and gather the data needed to view your analytics.You can choose to disable these cookies, but it will prevent you from using site analytics.\
+If you want to use GitBook’s [site analytics](../analytics/insights/), your site will use cookies to identify returning visitors and gather the data needed to view your analytics. You can choose to disable these cookies, but it will prevent you from using site analytics.\
 \
 The cookies notice appears when your site has analytics enabled through an integration, especially **Google Analytics**.
 
-To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**
+To remove the notice, open **Site settings → Integrations** <i class="fa-puzzle-piece">:puzzle-piece:</i> in the top-right. Then disable or remove **Google Analytics**.
 
 Disabling these cookies also turns off [site analytics](../analytics/insights/) for that site.
 
@@ -60,7 +60,7 @@ Site permissions are available on all plans.
 
 By default, new sites derive permissions from their linked [spaces](../create-content/content-structure/space.md), until you update permissions from the site permissions modal.
 
-Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. In this case, each inherited space receives the highest permission level granted by the organization, any parent collection, and any site that includes it.
+Site permissions can also affect the permissions of linked spaces that use **Inherited** mode. For these spaces, site permissions take precedence over the role a member gets from the organization or a parent collection. Access given directly to a member or team on the space still takes precedence over the site. See [Permissions and inheritance](../collaborate/member-management/permissions-and-inheritance.md) for the full order.
 
 </details>
 
@@ -72,10 +72,10 @@ Site permissions can also affect the permissions of linked spaces that use **Inh
 
 ### Styleguide
 
-Create, reuse, or detach the styleguide that defines your team's writing rules and keeps GitBook Agent consistent.
+Create, reuse, or detach the style guide that defines your team's writing rules and keeps GitBook Agent consistent.
 
-{% content-ref url="../create-content/styleguide.md" %}
-[styleguide.md](../create-content/styleguide.md)
+{% content-ref url="../create-content/styleguide/" %}
+[styleguide](../create-content/styleguide/)
 {% endcontent-ref %}
 
 ### Audience
@@ -126,15 +126,15 @@ Publish your content on a subdirectory (e.g. `yourcompany.com/docs`). Learn more
 
 <details>
 
-<summary>PDF export <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>PDF export <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Let your visitors to export your GitBook as PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
+Let your visitors export your site as a PDF. See [pdf-export.md](../publish/pdf-export.md "mention") for more info.
 
 </details>
 
 <details>
 
-<summary>Page ratings <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>Page ratings <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Choose whether or not visitors to your published content can leave a rating on each page to let you know how they feel about it. They’ll be able to choose a sad, neutral, or happy face.
 
@@ -144,11 +144,11 @@ You can review the results of these ratings by opening [**Analyze → Traffic**]
 
 ### AI & MCP
 
-AI settings are available on different plans. The search box placement is available on Premium and Ultimate site plans. The sidebar placement and MCP connectors are available on Ultimate.
+AI settings are available on different plans. The search box placement (AI Assistant Ask) is available on Essential and Ultimate site plans. The sidebar placement (AI Assistant Chat) and MCP connectors are available on Ultimate. AI features use AI credits.
 
 <details>
 
-<summary>AI Assistant <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>AI Assistant <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
 Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 
@@ -156,9 +156,9 @@ Turn AI Assistant on or off for your site. See [gitbook-ai-assistant.md](../ai-f
 
 <details>
 
-<summary>Appearance <picture><source srcset="../.gitbook/assets/Premium Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Premium Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
+<summary>Appearance <picture><source srcset="../.gitbook/assets/Essential Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Essential Badge Light.png" alt=""></picture> <picture><source srcset="../.gitbook/assets/Ultimate Badge Dark.png" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/Ultimate Badge Light.png" alt=""></picture></summary>
 
-Choose where the Assistant appears using **Placement** — **Sidebar** for the full chat experience, available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar, available on Premium and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
+Use **Placement** to choose where the Assistant appears: **Sidebar** for the full chat experience (AI Assistant Chat), available on Ultimate site plans, or **Search box** to answer questions in your site’s search bar (AI Assistant Ask), available on Essential and Ultimate site plans. You can also set the Assistant greeting here, which applies to the sidebar placement only. See [gitbook-ai-assistant.md](../ai-for-your-readers/gitbook-ai-assistant.md "mention") for more info.
 
 </details>
 

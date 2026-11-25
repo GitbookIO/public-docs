@@ -164,7 +164,7 @@ Using the `gitbook` CLI, answer a question from my documentation.
 
 ## Build integrations
 
-Beyond querying content, the CLI is the primary tool for developing [GitBook integrations](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/integrations/quickstart). Scaffold a new project with:
+Beyond querying content, the CLI is the primary tool for developing [GitBook integrations](../../developers/integrations/quickstart.md). Scaffold a new project with:
 
 ```bash
 gitbook integration new

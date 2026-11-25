@@ -2,13 +2,12 @@
 description: Set up a custom login screen for visitors to your docs
 ---
 
-# Setting up a custom backend
+# Hosting your own login page
 
-{% hint style="warning" %}
-This guide takes you through setting up a protected sign-in screen for your docs. Before going through this guide, make sure you’ve first gone through the process of [enabling authenticated access](enabling-authenticated-access.md).
-{% endhint %}
+Use your own authentication service to sign visitors in to your docs site. This works for two setups:
 
-This guide walks you through setting up a protected sign-in screen for your GitBook documentation site using your own **custom** authentication backend.
+* **Your whole site is private.** Set your site’s audience to authenticated access first. See [Enabling authenticated access](enabling-authenticated-access.md).
+* **Your site is public, with extra content for signed-in visitors.** Keep the audience public and enable adaptive content. For a full walkthrough, see [how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md](../../../../guides/docs-personalization-and-authentication/how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md "mention").
 
 {% hint style="info" %}
 If you are using one of the authentication providers we support or have an [OpenID Connect](https://auth0.com/docs/authenticate/protocols/openid-connect-protocol) (OIDC) compliant backend, check out our integration guides for a more streamlined setup:\
@@ -16,15 +15,24 @@ If you are using one of the authentication providers we support or have an [Open
 [Auth0](setting-up-auth0.md) | [Azure AD](setting-up-azure-ad.md) | [Okta](setting-up-okta.md) | [AWS Cognito](setting-up-aws-cognito.md) | [OIDC](setting-up-oidc.md)
 {% endhint %}
 
+### How sign-in works
+
+On a private site, GitBook sends every visitor who isn’t signed in to your login page. On a public site, visitors start from a sign-in link.
+
+1. GitBook redirects the visitor to your login URL and adds a `location` query parameter with the page they started from.
+2. Your login page signs them in.
+3. Your backend creates a JSON Web Token (JWT) signed with your site’s private key. To adapt content, the token includes the visitor’s claims.
+4. Your backend redirects the visitor to the `location` page on your docs site, with the token in a `jwt_token` query parameter or a cookie.
+
 ### Overview
 
-To setup a custom authentication system for your GitBook site, follow these key steps:
+To set up a custom authentication system for your GitBook site, follow these key steps:
 
 {% stepper %}
 {% step %}
 [**Create a custom backend to authenticate your users**](setting-up-a-custom-backend.md#id-1.-create-a-custom-backend-to-authenticate-your-users)
 
-Implement a backend that prompts users to login and authenticate them.
+Implement a backend that prompts users to log in and authenticate them.
 {% endstep %}
 
 {% step %}
@@ -36,17 +44,17 @@ Create a JWT token and sign it with your site’s private key.
 {% step %}
 [**Configure a login URL**](setting-up-a-custom-backend.md#id-3.-configure-a-login-url)
 
-Configure a URL to be used when an unauthenticated visitor access your site.
+Configure a URL to be used when an unauthenticated visitor accesses your site.
 {% endstep %}
 
 {% step %}
-[**Set up multi-tenant authenticated access (optional)**](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access)
+[**Set up multi-tenant authenticated access (optional)**](setting-up-a-custom-backend.md#id-4.-set-up-multi-tenant-authenticated-access-optional)
 
 Configure your backend to handle authentication across multiple GitBook sites.
 {% endstep %}
 
 {% step %}
-[**Configure your backend for adaptive content (optional)**](setting-up-a-custom-backend.md#id-5.-configure-your-backend-for-adaptive-content)
+[**Configure your backend for adaptive content (optional)**](setting-up-a-custom-backend.md#id-5.-configure-your-backend-for-adaptive-content-optional)
 
 Configure your backend to work with adaptive content in GitBook.
 {% endstep %}
@@ -54,20 +62,24 @@ Configure your backend to work with adaptive content in GitBook.
 
 ### 1. Create a custom backend to authenticate your users
 
-In order to start authenticating users before they can visit your documentation, you’ll need to set up a server that can handle login and authentication of users.
+To sign visitors in, you need a server that can handle login and authentication.
 
 Your backend should:
 
 * Prompt users to log in using your preferred authentication method.
 * Validate user credentials and authenticate them.
 * Generate and sign a **JSON Web Token (JWT)** upon successful authentication.
-* Redirect users to GitBook with the JWT included in the URL.
+* Redirect users to GitBook with the JWT included in the URL, or stored in a cookie.
 
 ### 2. Sign and pass a JWT token to GitBook
 
-Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** provided in your site's audience settings after [enabling authenticated access](enabling-authenticated-access.md#enable-authenticated-access).
+Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** shown in your site’s audience settings. See [Configure a login URL](setting-up-a-custom-backend.md#id-3.-configure-a-login-url).
 
-The following example should demonstrate how a login request handler in your custom backend could look like:
+{% hint style="info" %}
+If your site is served under a [custom domain](../../custom-domain/), you can store the signed JWT in a `gitbook-visitor-token` cookie on your domain instead of adding it to the redirect URL. Learn more in [Signed cookie](../../adaptive-content/enabling-adaptive-content/cookies.md#signed-cookie).
+{% endhint %}
+
+The following example should demonstrate what a login request handler in your custom backend could look like:
 
 {% code title="index.ts" %}
 ```typescript
@@ -111,13 +123,22 @@ This endpoint only signs the visitor out of GitBook. If you also want to sign th
 
 ### 3. Configure a login URL
 
-The login URL is used when an unauthenticated visitor tries to access your protected site. GitBook will then redirect them to this URL.
+GitBook redirects visitors to the login URL to sign in: on a private site when they aren’t signed in, and on any site when they use a sign-in link.
 
-This URL should point to a handler in your custom backend, where you can prompt them to login, authenticate and then redirect them back to your site with the JWT included in the URL.
+This URL should point to a handler in your custom backend, where you can prompt them to log in, authenticate and then redirect them back to your site with the JWT included in the URL.
 
 For instance, if your login screen is located at `https://example.com/login`, you should include this value as the login URL.
 
-You can configure this login URL within your site’s audience settings under the "Authenticated access" tab.
+To configure the login URL:
+
+1. In your docs site, go to **Settings → Audience**.
+2. Under **Configure authentication**, set **Authentication backend** to **Custom**.
+3. Copy the **Private key**. Your backend uses it to sign tokens.
+4. In **Login URL**, enter the address of your login handler.
+5. Optional: in **Logout URL**, enter the page to show visitors after they sign out.
+6. Click **Save**.
+
+**Configure authentication** appears when your site’s audience is authenticated access, or when adaptive content is enabled.
 
 <figure><img src="../../../.gitbook/assets/25_04_10_setting_up_a_custom_backend.png" alt="A GitBook screenshot showing where to configure a login URL"><figcaption><p>Configure a login URL</p></figcaption></figure>
 
@@ -145,8 +166,31 @@ res.redirect(redirectURL);
 ```
 
 {% hint style="warning" %}
-Because GitBook relies on the `location` search param - you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
+Because GitBook relies on the `location` search param, you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
 {% endhint %}
+
+#### Redirect MCP authorization requests
+
+When a visitor connects to the [MCP server](../../../ai-for-your-readers/mcp-servers-for-published-docs.md) of your published docs, GitBook redirects them to your authentication backend. The redirect includes a `location` parameter containing the path to the MCP authorize endpoint, which carries a `gb_oauth_state` value, like this:
+
+```
+~gitbook/oauth2/v1/<site-id>/authorize?gb_oauth_state=<consent_state>
+```
+
+Your backend should use this path to build the final redirect back to your GitBook site.
+
+GitBook starts this flow from one of two endpoints, depending on how your site is configured:
+
+* `~gitbook/mcp/auth` for partially authenticated sites with adaptive content enabled.
+* `~gitbook/mcp` for sites using authenticated access.
+
+Once your backend has authenticated the visitor, build the return URL by appending the `location` path to your GitBook site’s base URL. Leave the `gb_oauth_state` query parameter as is, and add a `jwt_token=<token>` parameter containing the signed JWT your backend generated.
+
+The final URL your backend redirects the visitor to, should look like this:
+
+```
+https://<publishedSiteURL>/~gitbook/oauth2/v1/<site-id>/authorize?gb_oauth_state=<consent_state>&jwt_token=<token>
+```
 
 #### Use GitBook’s logout endpoint
 
@@ -180,7 +224,7 @@ When GitBook is unable to authenticate a user's request, it redirects them to th
 
 To support multiple tenants, your authentication backend needs to know which GitBook site the user is meant to access. This information can be passed in the login URL.
 
-So for example, you could setup the login URLs for each sites as follow:
+So for example, you could set up the login URLs for each site as follows:
 
 Your authentication backend can then check this information and handle the redirection to the correct site accordingly:
 
@@ -201,7 +245,7 @@ res.redirect(redirectURL);
 
 ### 5. Configure your backend for adaptive content (optional)
 
-To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and include in the URL when redirecting the user to the site.
+To leverage the Adaptive Content capability in your authenticated access setup, you can include additional user attributes (claims) in the payload of the JWT that your custom backend generates and includes in the URL when redirecting the user to the site.
 
 These claims when included in the JWT are used by GitBook to [adapt content](../../adaptive-content/adapting-your-content.md) dynamically for your site visitors.
 
@@ -253,4 +297,4 @@ export async function handleAppLoginRequest(req: Request, res: Response) {
 ```
 {% endcode %}
 
-After setting up and configuring the right claims to send to GitBook, head to “[Adapting your content](../../adaptive-content/adapting-your-content.md)” to continue configuring your site.
+After setting up and configuring the right claims to send to GitBook, head to “[Adapting your content](../../adaptive-content/adapting-your-content.md)” to continue configuring your site. For a full walkthrough on a public site, see [how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md](../../../../guides/docs-personalization-and-authentication/how-to-show-private-content-to-signed-in-visitors-on-a-public-docs-site.md "mention").

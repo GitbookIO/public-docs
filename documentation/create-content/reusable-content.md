@@ -76,7 +76,7 @@ Deleting reusable content will **delete it from all pages it is used in**. This 
 
 ## Syncing with GitHub & GitLab
 
-Reusable content is fully supported when syncing to GitHub & GitLab. Your reusable content will be exported to a dedicated `includes` folder, each content being a separate Markdown file.
+Reusable content is fully supported when syncing to GitHub & GitLab. Your reusable content will be exported to a dedicated `includes` folder, each block as a separate Markdown file.
 
 Your content is then referenced in your other pages using the `includes` directive.
 

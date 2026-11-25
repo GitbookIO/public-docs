@@ -8,7 +8,7 @@ description: >-
 
 It’s common to have operations that are not fully stable yet or that need to be phased out. GitBook supports several OpenAPI extensions to help you manage these scenarios.
 
-### Marking operation as experimental, alpha, or beta
+### Marking an operation as experimental, alpha, or beta
 
 Use `x-stability` to communicate that an endpoint is unstable or in progress. It helps users avoid non-production-ready endpoints. Supported values: `experimental`, `alpha`, `beta`.
 
@@ -30,7 +30,7 @@ To mark an operation as deprecated, add the `deprecated: true` attribute.
 <strong>      deprecated: true
 </strong></code></pre>
 
-Optionally specify when support ends by including `x-deprecated-sunset`&#x20;
+Optionally specify when support ends by including `x-deprecated-sunset`:
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">paths:
   /pet:
@@ -42,7 +42,7 @@ Optionally specify when support ends by including `x-deprecated-sunset`&#x20;
 
 ### Hiding an operation from the API reference
 
-To hide an operation from your API reference, add `x-internal: true` or `x-gitbook-ignore: true` attribute.
+To hide an operation from your API reference, add the `x-internal: true` or `x-gitbook-ignore: true` attribute.
 
 <pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">paths:
   /pet:
@@ -50,6 +50,17 @@ To hide an operation from your API reference, add `x-internal: true` or `x-gitbo
       operationId: updatePet
 <strong>      x-internal: true
 </strong></code></pre>
+
+### Hiding all operations of a tag
+
+To hide every operation grouped under a tag, declare the tag with `x-internal: true` or `x-gitbook-ignore: true`:
+
+<pre class="language-yaml" data-title="openapi.yaml"><code class="lang-yaml">tags:
+  - name: admin
+<strong>    x-internal: true
+</strong></code></pre>
+
+Leaving a tag out of the `tags` array doesn't hide its operations.
 
 ### Hiding a response sample
 

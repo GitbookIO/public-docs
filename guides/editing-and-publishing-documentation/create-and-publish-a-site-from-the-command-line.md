@@ -14,6 +14,8 @@ From there, this guide starts with an organization that has nothing in it and fi
 
 ### Let an agent do it
 
+Setting up GitBook for the first time? Point your agent to [Set up GitBook](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/setup) instead.
+
 Eight commands stand between you and a published site, and an agent can run all of them. Paste this into Claude Code, Cursor, Codex, or whichever agent you work in:
 
 {% prompt description="Create and publish a new docs site from the terminal." openInAIProviders="true" %}
@@ -166,6 +168,6 @@ None of that is terminal-only, though — the same site is sitting in GitBook wa
 
 [**→ Connect an agent with GitBook MCP**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/gitbook-mcp)
 
-[**→ Work with the GitBook API**](/broken/spaces/NkEGS7hzeqa35sMXQZ4X/pages/oPMEQQq3E6uxpyIxGzqN)
+[**→ Work with the GitBook API**](https://gitbook.com/docs/developers/gitbook-api/api-reference)
 
 [**→ Keep your docs in sync with Git Sync**](https://app.gitbook.com/s/NkEGS7hzeqa35sMXQZ4X/docs-as-code/git-sync)

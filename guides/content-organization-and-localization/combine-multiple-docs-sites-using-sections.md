@@ -17,7 +17,7 @@ You’ll need to be on one of our [new pricing plans](https://www.gitbook.com/pr
 {% hint style="info" %}
 Before you migrate, plan the work across your sites and organizations. Don't rapidly create multiple sites or organizations. Give each team member an individual GitBook account with the appropriate role. Don't share accounts.
 
-If you expect high-volume or multi-organization migration work, contact support before you start. If GitBook rejects a sign-up or blocks an account, follow the support and recovery guidance in [Personal settings](https://gitbook.com/docs/account-settings/personal-settings).
+If you expect high-volume or multi-organization migration work, contact support before you start. If GitBook rejects a sign-up or blocks an account, follow the support and recovery guidance in [Personal settings](https://gitbook.com/docs/account-and-billing/account-settings#account-protection-and-sign-in-recovery).
 {% endhint %}
 
 {% stepper %}

@@ -8,11 +8,11 @@ description: Export a PDF copy of your GitBook content
 
 To enable or disable PDF export for visitors to your [published docs site](publish-a-docs-site/), open **Customize** in the site sidebar and navigate to **Configure → Page actions**. From there, you can toggle **Export as PDF** on or off.
 
-This setting determines whether or not **readers of your published content can download it in PDF format**. This feature is only available for **Premium and Ultimate sites**.
+This setting determines whether or not **readers of your published content can download it in PDF format**. This feature is only available for **Essential and Ultimate sites**.
 
 ### Export your own internal content as PDF
 
-However you decide to configure your published docs sites, all logged-in members of an organization on a Pro or Enterprise can export a page — or an entire section — from your internal knowledge base as a PDF file.
+However you decide to configure your published docs sites, all logged-in members of an organization on a Pro or Enterprise plan can export a page, or an entire section, from your internal knowledge base as a PDF file.
 
 {% hint style="warning" %}
 Note that links across sections are not currently supported when exporting internal content to PDF.
@@ -26,12 +26,12 @@ Note that links across sections are not currently supported when exporting inter
 
     next to the page title.
 2. Select **Export to PDF > Current page**.
-3. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.
+3. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browser’s Print menu.
 4. From here, you can save the page as a PDF or open it in your PDF viewer using the typical process for your browser.
 
 #### Export an entire section
 
-1.  Open the[ Actions menu](../create-content/content-structure/)
+1.  Open the [Actions menu](../reference/gitbook-ui.md#the-actions-menu)
 
     <picture><source srcset="../.gitbook/assets/25_01_10_actions_icon_dark.svg" media="(prefers-color-scheme: dark)"><img src="../.gitbook/assets/25_01_10_actions_icon_light.svg" alt="The Actions menu icon in GitBook"></picture>
 
@@ -41,6 +41,6 @@ Note that links across sections are not currently supported when exporting inter
 
     in the [section header](../reference/gitbook-ui.md#space-header) and choose **Export as PDF** in the drop-down menu.\
     \
-    \&#xNAN;_Note: This action is not available within a change request._
-2. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browsers Print menu.
+    _&#x4E;ote: This action is not available within a change request._
+2. Wait for the page to load, then click the **Print or save as PDF** button in the upper right to open your browser’s Print menu.
 3. From here, you can save the page as a PDF or open it in your PDF viewer using the typical process for your browser.

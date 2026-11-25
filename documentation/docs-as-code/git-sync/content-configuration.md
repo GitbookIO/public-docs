@@ -16,6 +16,12 @@ Git Sync uses three files. Choose the file that controls the part of Git Sync yo
 
 Use `gitbook-docs.yaml` to define your site structure and map each space to a directory. Each item in `site.structure` has a stable `key`. A space’s `content.directory` sets its repository directory. If a space in a site does not sync to the site’s repository, its `content.directory` is `null`.
 
+#### Understand site and space configuration
+
+`gitbook-docs.yaml` owns site-wide structure and directory mapping. `.gitbook.yaml` configures content for one mapped space.
+
+When both files are present, GitBook applies `gitbook-docs.yaml` first to select the space directory. `.gitbook.yaml` then configures content inside that directory. It can't override the site-level `content.directory` mapping.
+
 #### Keys identify your spaces
 
 Git Sync recognizes each space and section by its `key`, not by its title, path, or directory. The key is how GitBook matches an entry in `gitbook-docs.yaml` to existing content from one sync to the next.
@@ -87,6 +93,8 @@ GitBook creates or updates `gitbook-docs.yaml` when it saves the site content ma
 
 `.gitbook.yaml` configures one space. It lives in that space’s mapped directory. Use it to set the content root, first page, navigation file, and redirects.
 
+For example, when a space is mapped to `./docs`, place the file at `./docs/.gitbook.yaml` and keep `root: ./` unless the content is nested further. When a space is mapped to the repository root and its content is in `./docs`, place `.gitbook.yaml` at the repository root and set `root: ./docs/`.
+
 The main settings are:
 
 * `root` sets the directory GitBook reads. It defaults to `./`.
@@ -153,7 +161,7 @@ You can also manage site-level redirects in the GitBook app. See [Site redirects
 
 If GitBook doesn't find `SUMMARY.md`, it infers navigation from your folders and Markdown files. GitBook creates or updates `SUMMARY.md` when you change navigation in GitBook.
 
-Use headings for page groups and nested links for child pages:
+Use level-two headings for page groups and nested links for child pages. Every top-level link after a page-group heading belongs to that group until the next page-group heading. A horizontal rule does not close a group, so place ungrouped top-level pages before the first group:
 
 {% code title="SUMMARY.md" %}
 ```markdown
@@ -185,4 +193,19 @@ Add a page link title when the navigation label differs from the page title:
 ```
 {% endcode %}
 
-GitBook uses the page link title in the sidebar, pagination, and relative links. Without one, GitBook uses the page title.
+GitBook uses the link title in the sidebar, pagination, and relative links. It doesn't change the page slug or URL. Without a link title, GitBook uses the page title.
+
+#### Link to absolute URLs
+
+`SUMMARY.md` supports absolute URLs for external and cross-space navigation:
+
+{% code title="SUMMARY.md" %}
+```markdown
+# Summary
+
+* [GitBook](https://gitbook.com)
+* [API reference](https://app.gitbook.com/s/<spaceId>/api-reference)
+```
+{% endcode %}
+
+Use an absolute GitBook URL to link to a page in another space. Replace `<spaceId>` with the target space ID.

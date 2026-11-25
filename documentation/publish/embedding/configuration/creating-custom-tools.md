@@ -1,16 +1,16 @@
 ---
 description: >-
-  Connect GitBook Assistant to any tool you can call from your app — especially
+  Connect AI Assistant to any tool you can call from your app — especially
   support workflows
 ---
 
 # Connect to custom tools
 
-Custom tools let the GitBook Assistant inside the [Docs Embed](../) run real actions.
+Custom tools let AI Assistant inside the [Docs Embed](../) run real actions.
 
 You can connect it to _any_ tool your app can access. That includes your backend APIs, third-party SDKs, and internal systems.
 
-If your app can call it, the Assistant can call it.
+If your app can call it, AI Assistant can call it.
 
 Common examples:
 
@@ -23,7 +23,7 @@ Common examples:
 * Kick off workflows in tools like Jira, Linear, Slack, or Zendesk
 
 {% hint style="info" %}
-In addition to tools you define in the Embed config, the Assistant can also use any [MCP servers you set up](../../../ai-for-your-readers/mcp-servers-for-published-docs.md) in **Settings → AI & MCP**.
+In addition to tools you define in the Embed config, AI Assistant can also use any [MCP servers you set up](../../../ai-for-your-readers/mcp-servers-for-published-docs.md) in **Settings → AI & MCP**.
 {% endhint %}
 
 ### Where tools run
@@ -53,7 +53,7 @@ Define tools:
 Tools aren’t the same as embed **actions**.
 
 * Use **actions** for buttons the user clicks.
-* Use tools when you want the Assistant to choose and run code.
+* Use tools when you want AI Assistant to choose and run code.
 {% endhint %}
 
 #### Tool template (resend an invite email)
@@ -115,22 +115,22 @@ window.GitBook("configure", {
 
 ### How tools get used
 
-Once you register tools, the Assistant can choose them automatically — based on the user’s question and your tool `description`.
+Once you register tools, AI Assistant can choose them automatically — based on the user’s question and your tool `description`.
 
-If required fields are missing, the Assistant should ask follow-up questions.
+If required fields are missing, AI Assistant should ask follow-up questions.
 
 If you add `confirmation`, the user must approve before the tool runs.
 
 ### Tool fields
 
 * `name`: Unique identifier.
-* `description`: The “when to use this” hint for the Assistant.
+* `description`: The “when to use this” hint for AI Assistant.
 * `inputSchema`: JSON Schema for tool inputs.
 * `confirmation` (optional): A confirmation button shown before the tool runs.
 * `execute(input)`: Async function that runs the action.
   * Return `{ output, summary }`.
   * `output` goes back to the Assistant.
-  * `summary` shows to the user.
+  * `summary` is shown to the user.
 
 #### Confirmation
 
@@ -145,7 +145,7 @@ Use `confirmation` when you want the user to approve an action. It helps prevent
 
 Support is the highest-leverage use case for tools.
 
-You can let the Assistant:
+You can let AI Assistant:
 
 * Collect missing details
 * Create a ticket in your system

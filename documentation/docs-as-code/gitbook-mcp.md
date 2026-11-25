@@ -20,6 +20,8 @@ layout:
     visible: false
   actions:
     visible: true
+  anchors:
+    visible: true
 tags:
   - tag: new
     primary: true
@@ -39,7 +41,7 @@ Tools like Claude Code, Codex, Cursor, and other MCP clients can use it to creat
 Need a read-only MCP server for a published docs site? GitBook creates one for you automatically — see [MCP servers for published docs](../ai-for-your-readers/mcp-servers-for-published-docs.md) to find out more.
 {% endhint %}
 
-## GitBook’s MCP Endpoint
+## GitBook’s MCP endpoint
 
 Point your MCP client at:
 
@@ -184,6 +186,8 @@ Use this for scripted setups, or when your client already manages secrets locall
 
 ## Using GitBook’s MCP
 
+Setting up GitBook for the first time? Point your agent to [Set up GitBook](../setup.md) instead.
+
 {% prompt description="Create and configure a new docs site." %}
 ```markdown
 Using the GitBook MCP tools, create a new docs site for me.
@@ -216,6 +220,16 @@ Using the GitBook MCP tools, help me restructure my docs site.
 4. Show me the final structure and the change request or live result to verify.
 ```
 {% endprompt %}
+
+## Usage limits
+
+Right now, GitBook MCP has no usage quota based on your plan, including the Free plan. It calls the GitBook API with your token, so the API rate limit applies: 5,000 requests per hour per token. Read and write calls count the same.
+
+* One MCP tool call can make several API requests, so the limit isn’t exactly 5,000 tool calls.
+* Inviting members is limited to 2 invites per minute.
+* Above the limit, a call fails with a “rate limit exceeded” error that tells you how many seconds to wait before trying again.
+
+Your plan still decides what you can do. If a call needs a feature your plan doesn’t include, GitBook refuses it with an upgrade link, as it does in the app.
 
 ## The difference between the GitBook MCP and published docs MCP
 
@@ -256,7 +270,7 @@ If you use OAuth, don't add a bearer token manually. Your client gets it during 
 
 <summary>Why does nothing happen after I add the GitBook MCP server to my client?</summary>
 
-Yes. That's expected in some MCP clients.
+That's expected in some MCP clients.
 
 Adding a server often only saves the configuration. Some clients start authentication only when they first connect, list tools, or open the MCP panel.
 
