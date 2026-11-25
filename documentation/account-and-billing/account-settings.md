@@ -77,16 +77,24 @@ On this page you can manage and create personal access tokens for the [GitBook A
 
 1. Click **Create new API token**.
 2. Enter a **Label** so you can recognize the token later.
-3. Choose an **Expiration**: 7, 30, 60, or 90 days, a **Custom** date, or **No expiration**. New tokens expire after 90 days by default.
-4. Create the token and store it somewhere secure.
+3. Choose its **Access**: **Read & write** (the default) or **Read only**. Choose read only unless the token needs to make changes.
+4. Choose an **Expiration**: 7, 30, 60, or 90 days, a **Custom** date, or **No expiration**. New tokens expire after 90 days by default.
+5. Optionally, click **Add rule** under **IP restrictions**, choose **Allow** or **Deny**, and enter an IP address or CIDR range. [Learn more about IP restrictions](https://app.gitbook.com/s/2SyQSbIa1iYS7z6Dx5di/gitbook-api/authentication#restrict-a-token-by-ip-address).
+6. Create the token and store it somewhere secure.
 
 If you choose **No expiration**, GitBook warns you that the token will never expire, and that anyone who obtains it keeps access until you delete it. Set an expiration date unless you have a strong reason not to, such as a long-running integration that’s hard to update.
 
-GitBook emails you a reminder before one of your tokens expires. You can also set an expiration date through the API with the `expiresAt` field.
+GitBook sends you an email and an in-app notification before one of your tokens expires. To change this, use the **Personal API token expiration** setting in **Notifications**. You can also set an expiration date through the API with the `expiresAt` field.
 
 **Manage your tokens**
 
-The **API Access Tokens** tab lists your tokens with their **Label**, **Created at**, **Last used**, and **Expires** dates. Use **Last used** to spot tokens nobody uses anymore. Each token has **Rotate** and **Delete** buttons.
+The **API Access Tokens** tab lists your tokens with their **Label**, **Access**, **Created**, **Last used**, and **Expires** dates. Use **Last used** to spot tokens nobody uses anymore. Open a token’s **⋯** menu to choose **Details**, **Rename**, **Rotate**, or **Delete**.
+
+**Details** shows a token’s dates, status (active, expired, or revoked), access, and IP restrictions. You can’t change a token’s access or IP restrictions after you create it. To change them, delete the token and create a new one.
+
+**Rotate a token**
+
+Choose **Rotate** to replace a token’s secret. Set a new **Expiration** if you want one, then choose how long to keep the current secret working: **Now**, **1 hour**, or **24 hours** (the default). A grace period gives you time to update your integrations. The current secret stays in your token list until it expires, and you can delete it to stop it sooner. If you suspect a token has leaked, choose **Now**.
 
 </details>
 
