@@ -52,9 +52,7 @@ Sending a change request for review again also keeps the reviewers you picked, i
 
 ## Fix broken links automatically
 
-[Broken links](https://gitbook.com/docs/analytics/broken-links) can now fix the links it finds for you. When a site admin turns on **Fix broken links automatically** in the Broken links settings, GitBook redirects the broken URLs it is confident about after each audit, and drafts the other redirects for approval. For broken links to other websites, GitBook Agent drafts change requests for you to review.
-
-Admins choose how much GitBook does on its own: suggest fixes only, fix clear matches, or also fix close matches, such as a whole section that moved. Drafted fixes wait under the **Awaiting approval** status, and you can undo any redirect GitBook applied. GitBook never merges a change request itself, and the setting stays off for each site until an admin turns it on.
+[Broken links](https://gitbook.com/docs/analytics/broken-links#fixing-broken-links-automatically) can now fix the links it finds for you. Once a site admin turns it on, GitBook redirects the broken URLs it is confident about after each audit, and drafts the remaining fixes for you to approve.
 
 ### Improvements
 
