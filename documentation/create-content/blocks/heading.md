@@ -6,7 +6,7 @@ description: Add heading blocks to a page to organize your content and improve S
 
 Headings help give your documents structure — and using keywords in headings will also help search engines understand that structure, which can help your page rank higher in search results.
 
-GitBook offers three levels of headings. Heading levels 1 (H1), 2 (H2), and 3 (H3) appear in the [page outline](../../reference/gitbook-ui.md#page-outline).
+GitBook offers four levels of headings. Heading levels 1 (H1), 2 (H2), and 3 (H3) appear in the [page outline](../../reference/gitbook-ui.md#page-outline). Heading 4 (H4) doesn't, so use it for smaller sections you still want to link to, such as the title of a step.
 
 ### Anchor links
 
@@ -47,6 +47,7 @@ This means that if you [sync your content with Git](../../docs-as-code/git-sync/
 ## My heading 1
 ### My heading 2
 #### My heading 3
+##### My heading 4
 ```
 {% endcode %}
 
@@ -58,6 +59,8 @@ This means that if you [sync your content with Git](../../docs-as-code/git-sync/
 
 #### My heading 3
 
+##### My heading 4
+
 {% hint style="info" %}
-Page titles are separate from heading blocks in the page body. If you hide the page title in **Page options**, your H1, H2, and H3 headings still appear.
+Page titles are separate from heading blocks in the page body. If you hide the page title in **Page options**, your H1, H2, H3, and H4 headings still appear.
 {% endhint %}
