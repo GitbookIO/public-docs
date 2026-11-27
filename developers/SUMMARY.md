@@ -76,5 +76,4 @@
 
 ## Resources
 
-* [ContentKit playground](https://app.gitbook.com/dev/contentkit/)
 * [GitHub examples](https://github.com/GitbookIO/integrations)
