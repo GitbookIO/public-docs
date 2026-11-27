@@ -5,10 +5,11 @@ description: >-
   Work with GitBook end-to-end: author and format GitBook-flavored Markdown pages and blocks (hints,
   tabs, steppers); design, scaffold, and configure documentation sites via the GitBook REST API and
   Git Sync; generate and troubleshoot OpenAPI/Swagger API reference docs; create, push content to, and
-  manage change requests and reviews over the REST API; and build GitBook integrations (custom blocks,
-  ContentKit UI, events, OAuth). Use whenever a task involves GitBook: writing or editing docs,
-  SUMMARY.md/.gitbook.yaml, site structure, OpenAPI references, change-request review flows, or
-  building a GitBook app/integration.
+  manage change requests and reviews over the REST API; build GitBook integrations (custom blocks,
+  ContentKit UI, events, OAuth); and turn a ticket or pasted context into a reviewed docs change with
+  a site-wide sweep for other affected pages. Use whenever a task involves GitBook: writing or editing
+  docs, SUMMARY.md/.gitbook.yaml, site structure, OpenAPI references, change-request review flows,
+  documenting a product change, or building a GitBook app/integration.
 ---
 
 {% hint style="info" %}
@@ -17,7 +18,7 @@ This page is generated automatically from [GitbookIO/gitbook-skills](https://git
 
 # GitBook
 
-GitBook's skill for AI coding agents, covering six areas of GitBook work. Each section below is one of the six skills in [gitbook-skills](https://github.com/GitbookIO/gitbook-skills) — read its description to see if it matches your task, then fetch its linked page for full instructions before acting. Each skill's instructions link out to further reference material (full block syntax, API payloads, troubleshooting) in [gitbook-skills](https://github.com/GitbookIO/gitbook-skills) under `skills/<name>/references/` when you need more depth than the top-level instructions.
+GitBook's skill for AI coding agents, covering seven areas of GitBook work. Each section below is one of the seven skills in [gitbook-skills](https://github.com/GitbookIO/gitbook-skills) — read its description to see if it matches your task, then fetch its linked page for full instructions before acting. Each skill's instructions link out to further reference material (full block syntax, API payloads, troubleshooting) in [gitbook-skills](https://github.com/GitbookIO/gitbook-skills) under `skills/<name>/references/` when you need more depth than the top-level instructions.
 
 ### Write & Edit Docs
 
@@ -54,3 +55,9 @@ Full instructions: [https://gitbook.com/docs/skill/cr-review.md](https://gitbook
 Build, develop, and publish GitBook integrations — apps that run inside GitBook to add custom blocks, react to events, connect external services via OAuth, and extend the editor. Use this skill whenever a task involves the GitBook integrations platform: scaffolding an integration with the GitBook CLI (`gitbook integration new`), writing or editing an integration's code (`createIntegration`, `createComponent`, ContentKit TSX), configuring `gitbook-manifest.yaml` (scopes, blocks, configurations, secrets), building custom editor blocks or link unfurlers, handling GitBook events like `space_content_updated`, setting up an integration's OAuth flow, running `gitbook integration dev`, or publishing an integration (private/unlisted/public, marketplace submission). Trigger this even if the user just says they want to 'build an app for GitBook', 'add a custom block', or 'connect <some tool> to GitBook' without saying the word 'integration'.
 
 Full instructions: [https://gitbook.com/docs/skill/build-integration.md](https://gitbook.com/docs/skill/build-integration.md)
+
+### Docs Change Radar
+
+Autocomplete for a docs change. Name one thing that changed, or point it at a ticket, pull request, thread, pasted context, or an existing docs draft, and it finds everything else in the GitBook site that has to change with it, then makes those edits. Works with the GitBook MCP server and GitHub. Sweeps every page, reusable block, variable, and screenshot the change affects, opens with a TL;DR of the pages affected, proposes each edit in the team's own style guide, drafts one pull request or change request, records follow-ups, requests reviewers, and, on a later run, merges once approved. Use whenever someone asks to document a feature, launch, fix, or change in GitBook, says 'write the docs for this', 'what else does this affect', 'what else needs updating', 'run a docs radar', or 'check for stale docs', or asks for docs from a ticket or thread, even if they name only the obvious page.
+
+Full instructions: [https://gitbook.com/docs/skill/docs-change-radar.md](https://gitbook.com/docs/skill/docs-change-radar.md)
