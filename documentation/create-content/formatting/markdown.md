@@ -44,6 +44,7 @@ If you use the standard Paste option for content copied from another editor or f
 * Heading 1: `# A first-level title`
 * Heading 2: `## A second-level title`
 * Heading 3: `### A third-level title`
+* Heading 4: `#### A fourth-level title`
 
 ### Code blocks
 
