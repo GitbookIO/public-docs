@@ -75,11 +75,17 @@ Your backend should:
 
 Once your backend authenticates a user, it must **generate a JWT** and **pass it to GitBook** when **redirecting** them to your site. The token should be signed using the **private key** shown in your site’s audience settings. See [Configure a login URL](setting-up-a-custom-backend.md#id-3.-configure-a-login-url).
 
-{% hint style="info" %}
-If your site is served under a [custom domain](../../custom-domain/), you can store the signed JWT in a `gitbook-visitor-token` cookie on your domain instead of adding it to the redirect URL. Learn more in [Signed cookie](../../adaptive-content/enabling-adaptive-content/cookies.md#signed-cookie).
-{% endhint %}
+If your backend can set a cookie for your [custom docs domain](../../custom-domain/), use a signed cookie to keep the JWT out of URLs that browsers, proxies, and access logs can record.
 
-The following example should demonstrate what a login request handler in your custom backend could look like:
+#### Pass the JWT in a signed cookie
+
+1. After authenticating the visitor, set a `gitbook-visitor-token` cookie from your backend with the signed JWT as its value. Use `Secure`, `HttpOnly`, and a cookie lifetime no longer than the JWT’s expiry. For a top-level browser sign-in, use `SameSite=Lax`.
+2. Use the narrowest domain and path that cover your docs site. If the login callback runs on the docs hostname, omit `Domain` to make the cookie host-only. If the backend and docs are on sibling hostnames, a shared parent domain allows the browser to send the cookie to other matching subdomains. Use it only if you trust those subdomains.
+3. Redirect the visitor to your docs URL without a `jwt_token` query parameter. See the [signed cookie example](../../adaptive-content/enabling-adaptive-content/cookies.md#signed-cookie).
+
+#### Pass the JWT in the URL
+
+If your backend cannot set a cookie for the docs hostname, use the `jwt_token` query parameter:
 
 {% code title="index.ts" %}
 ```typescript
@@ -119,13 +125,13 @@ To sign a visitor out of their GitBook session, redirect them to your site URL w
 
 `https://mycompany.gitbook.io/myspace/~gitbook/auth/logout`
 
-This endpoint only signs the visitor out of GitBook. If you also want to sign them out of your own identity provider, handle that separately in your own logout flow.
+This endpoint clears the session cookie set by GitBook. If your backend set its own `gitbook-visitor-token` cookie, configure a **Logout URL** that expires it using the same domain and path. Handle identity provider sign-out in your own logout flow.
 
 ### 3. Configure a login URL
 
 GitBook redirects visitors to the login URL to sign in: on a private site when they aren’t signed in, and on any site when they use a sign-in link.
 
-This URL should point to a handler in your custom backend, where you can prompt them to log in, authenticate and then redirect them back to your site with the JWT included in the URL.
+This URL should point to a handler in your custom backend that authenticates visitors, passes the signed JWT to GitBook, and redirects visitors back to your docs site.
 
 For instance, if your login screen is located at `https://example.com/login`, you should include this value as the login URL.
 
@@ -150,20 +156,7 @@ This endpoint redirects the visitor to the authentication backend configured for
 
 This is useful for header links and other entry points where you want to send visitors back to the same page after sign-in.
 
-When redirecting to the login URL, GitBook includes a `location` query parameter to the login URL that you can leverage in your handler to redirect the user to the original location of the user:
-
-```javascript
-const gitbookVisitorJWT = await new jose.SignJWT({})
-    .setProtectedHeader({ alg: 'HS256' })
-    .setIssuedAt()
-    .setExpirationTime('2h') // Arbitrary 2-hour expiration
-    .sign(new TextEncoder().encode(GITBOOK_VISITOR_SIGNING_KEY));
-    
-// Redirect to the original GitBook docs URL with the JWT included as jwt_token query parameter
-// If a location is provided, the user will be redirected back to their original destination
-const redirectURL = `${GITBOOK_DOCS_URL}/${req.query.location || ''}?jwt_token=${gitbookVisitorJWT}`;
-res.redirect(redirectURL);
-```
+Treat `location` as an untrusted site-relative path. Resolve it against your configured docs URL and verify that the resulting URL has the same HTTPS origin and stays under your site’s base path. If it is missing or fails validation, redirect to the docs home page. If you use `jwt_token`, add it only after validating the destination.
 
 {% hint style="warning" %}
 Because GitBook relies on the `location` search param, you cannot use it in your login URL. For example, `https://auth.gitbook.com/?location=something` is not a valid login URL.
@@ -177,7 +170,7 @@ When a visitor connects to the [MCP server](../../../ai-for-your-readers/mcp-ser
 ~gitbook/oauth2/v1/<site-id>/authorize?gb_oauth_state=<consent_state>
 ```
 
-Your backend should use this path to build the final redirect back to your GitBook site.
+Validate this path against your configured docs URL before using it to build the final redirect.
 
 GitBook starts this flow from one of two endpoints, depending on how your site is configured:
 
@@ -226,7 +219,7 @@ To support multiple tenants, your authentication backend needs to know which Git
 
 So for example, you could set up the login URLs for each site as follows:
 
-Your authentication backend can then check this information and handle the redirection to the correct site accordingly:
+After checking that the visitor has access to the requested tenant, use that tenant’s signing key and docs URL:
 
 ```javascript
 const customerInfo = req.query.site === 'customer-a' ? CUSTOMER_A : CUSTOMER_B;
@@ -237,11 +230,12 @@ const gitbookVisitorJWT = await new jose.SignJWT({})
     .setExpirationTime('2h') // Arbitrary 2-hour expiration
     .sign(new TextEncoder().encode(customerInfo.jwtSigningKey));
     
-// Redirect to the original GitBook docs URL with the JWT included as jwt_token query parameter
-// If a location is provided, the user will be redirected back to their original destination
-const redirectURL = `${customerInfo.url}/${req.query.location || ''}?jwt_token=${gitbookVisitorJWT}`;
-res.redirect(redirectURL);
+const redirectURL = new URL(customerInfo.url);
+redirectURL.searchParams.set('jwt_token', gitbookVisitorJWT);
+res.redirect(redirectURL.toString());
 ```
+
+To preserve a deep link, validate `location` against the selected tenant’s docs URL before redirecting.
 
 ### 5. Configure your backend for adaptive content (optional)
 
